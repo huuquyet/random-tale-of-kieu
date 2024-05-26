@@ -1,9 +1,14 @@
 # random-tale-of-kieu
 Random from The Tale of Kieu - Nguyen Du
 
+<div align="center">
 <!-- START_POEM -->
 
-  Thấy lời quyết đoán hẳn hoi,
-Đành lòng, nàng cũng sẽ nguôi nguôi dần.
+> Cũng là lỡ một lầm hai,
+>
+> Đá vàng sao nỡ ép nài mưa mây!
+>
+> -- Nguyen Du --
 
 <!-- END_POEM -->
+</div>
