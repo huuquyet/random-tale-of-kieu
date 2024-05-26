@@ -4,11 +4,15 @@ Random from The Tale of Kieu - Nguyen Du
 <div align="center">
 <!-- START_POEM -->
 
-> Cũng là lỡ một lầm hai,
+> “󰜋𠇮陰倚𣎀迡
 >
-> Đá vàng sao nỡ ép nài mưa mây!
+> 𥒦油潙渃眜苔𢆥更”
 >
-> -- Nguyen Du --
+> Một mình âm ỉ đêm chầy,
+>
+> Đĩa dầu vơi, nước mắt đầy năm canh.
+>
+> *(1883) Truyện Kiều* - Nguyễn Du
 
 <!-- END_POEM -->
 </div>

@@ -1,11 +1,14 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import * as core from '@actions/core'
-import { default as kieu } from './truyen-kieu.json'
+import { default as kieu } from './truyen-kieu-1871.json'
 
 interface doublePoem {
-  first: string
-  second: string
+  line: number
+  firstNom: string
+  secondNom: string
+  firstQuocNgu: string
+  secondQuocNgu: string
 }
 
 // The patterns to set the random tale of Kieu
@@ -21,17 +24,26 @@ function getRandomDouble(): doublePoem {
   const randomIndex = Math.floor(Math.random() * kieu.length)
   // Init the result
   const result: doublePoem = {
-    first: '',
-    second: '',
+    line: 0,
+    firstNom: '',
+    secondNom: '',
+    firstQuocNgu: '',
+    secondQuocNgu: '',
   }
 
   // Get 2 random elements from json file
   if (randomIndex % 2 === 0) {
-    result.first = kieu[randomIndex]
-    result.second = kieu[randomIndex + 1]
+    result.line = randomIndex + 1
+    result.firstNom = kieu[randomIndex].nom
+    result.secondNom = kieu[randomIndex + 1].nom
+    result.firstQuocNgu = kieu[randomIndex].quocngu
+    result.secondQuocNgu = kieu[randomIndex + 1].quocngu
   } else {
-    result.first = kieu[randomIndex - 1]
-    result.second = kieu[randomIndex]
+    result.line = randomIndex
+    result.firstNom = kieu[randomIndex - 1].nom
+    result.secondNom = kieu[randomIndex].nom
+    result.firstQuocNgu = kieu[randomIndex - 1].quocngu
+    result.secondQuocNgu = kieu[randomIndex].quocngu
   }
   return result
 }
@@ -47,7 +59,7 @@ export async function run() {
     if (indexStart > 0 && indexEnd > indexStart) {
       const firstRemains = contents.substring(0, indexStart).concat(START_POEM)
       const lastRemains = contents.substring(indexEnd)
-      const result = `${firstRemains}\n\n\> ${poem.first}\n\>\n\> ${poem.second}\n\>\n\> -- Nguyen Du --\n\n${lastRemains}`
+      const result = `${firstRemains}\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${poem.firstQuocNgu}\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(${poem.line}) Truyện Kiều\* - Nguyễn Du\n\n${lastRemains}`
       await writeFile(filePath, result)
     } else {
       throw new Error('Please add comment blocks in Readme file to update')
