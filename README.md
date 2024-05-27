@@ -5,15 +5,15 @@ Random sentence from The Tale of Kieu - Nguyen Du
 <div align="center">
 <!-- START_POEM -->
 
-> “󰜋𠇮陰倚𣎀迡
+> “窻秋㐌怯𦑃外
 >
-> 𥒦油潙渃眜苔𢆥更”
+> 𦖻群同望󰋇𠳒𨫊釘”
 >
-> Một mình âm ỉ đêm chầy,
+> Song thu đã khép cánh ngoài,
 >
-> Đĩa dầu vơi, nước mắt đầy năm canh.
+> Tai còn đồng vọng mấy lời sắt đanh.
 >
-> *(1883) Truyện Kiều* - Nguyễn Du
+> *(1073) Truyện Kiều* - Nguyễn Du
 
 <!-- END_POEM -->
 </div>
