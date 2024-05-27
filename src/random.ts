@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import * as core from '@actions/core'
-import { default as kieu } from './truyen-kieu-1871.json'
+import { default as kieu } from '../assets/truyen-kieu-1871.json'
 
 interface doublePoem {
   line: number

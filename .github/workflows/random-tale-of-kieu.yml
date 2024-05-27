@@ -1,0 +1,43 @@
+name: random-tale-of-kieu
+
+on:
+  # Run automatically everyday at 00:05
+  # schedule:
+  # - cron: "5 0 * * *"
+  
+  # Allows to manually run the job at any time
+  workflow_dispatch:
+  # Run on every push or pull request on main branch
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+
+# Only a single workflow in the same concurrency will run at the same time
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.head_ref || github.ref }}'
+  cancel-in-progress: true
+
+jobs:
+  generate_wallpaper:
+    name: Get the random sentence from The Tale of Kieu - Nguyen Du
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the main branch
+    - uses: actions/checkout@v4
+
+    # Uses action in the root directory to get random Tale of Kieu
+    - name: The random tale of Kieu
+      uses: ./
+
+    # Push the random Tale of Kieu to main branch
+    # Note: the following account information will not work on GHES
+    - name: Push the random Tale of Kieu to main branch
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m ":robot: The random Tale of Kieu [skip ci]"
+        git push

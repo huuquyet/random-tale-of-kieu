@@ -1,5 +1,6 @@
-# random-tale-of-kieu
-Random from The Tale of Kieu - Nguyen Du
+# Get the random sentence from The Tale of Kieu - Nguyen Du
+
+Random sentence from The Tale of Kieu - Nguyen Du
 
 <div align="center">
 <!-- START_POEM -->
