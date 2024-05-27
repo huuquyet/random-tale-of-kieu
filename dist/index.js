@@ -24952,7 +24952,7 @@ exports.run = void 0;
 const promises_1 = __nccwpck_require__(3977);
 const node_path_1 = __nccwpck_require__(9411);
 const core = __importStar(__nccwpck_require__(4016));
-const truyen_kieu_1871_json_1 = __importDefault(__nccwpck_require__(1023));
+const truyen_kieu_1871_json_1 = __importDefault(__nccwpck_require__(3651));
 // The patterns to set the random tale of Kieu
 const START_POEM = '<!-- START_POEM -->';
 const END_POEM = '<!-- END_POEM -->';
@@ -24997,7 +24997,7 @@ async function run() {
         if (indexStart > 0 && indexEnd > indexStart) {
             const firstRemains = contents.substring(0, indexStart).concat(START_POEM);
             const lastRemains = contents.substring(indexEnd);
-            const result = `${firstRemains}\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${poem.firstQuocNgu}\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(${poem.line}) Truyện Kiều\* - Nguyễn Du\n\n${lastRemains}`;
+            const result = `${firstRemains}\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${poem.firstQuocNgu}\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều\* - Nguyễn Du\n\n${lastRemains}`;
             await (0, promises_1.writeFile)(filePath, result);
         }
         else {
@@ -26881,7 +26881,7 @@ module.exports = parseParams
 
 /***/ }),
 
-/***/ 1023:
+/***/ 3651:
 /***/ ((module) => {
 
 "use strict";

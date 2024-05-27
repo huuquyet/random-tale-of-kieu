@@ -59,7 +59,11 @@ export async function run() {
     if (indexStart > 0 && indexEnd > indexStart) {
       const firstRemains = contents.substring(0, indexStart).concat(START_POEM)
       const lastRemains = contents.substring(indexEnd)
-      const result = `${firstRemains}\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${poem.firstQuocNgu}\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(${poem.line}) Truyện Kiều\* - Nguyễn Du\n\n${lastRemains}`
+      const result = `${firstRemains}\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${
+        poem.firstQuocNgu
+      }\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(Dòng ${poem.line}-${
+        poem.line + 1
+      }) Truyện Kiều\* - Nguyễn Du\n\n${lastRemains}`
       await writeFile(filePath, result)
     } else {
       throw new Error('Please add comment blocks in Readme file to update')
