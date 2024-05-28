@@ -5,15 +5,15 @@ Random quotes from The Tale of Kiều - Nguyễn Du ([bản Liễu Văn Đườn
 <div align="center">
 <!-- START_POEM -->
 
-> “拁扛󰜋老󰜋𫦻
+> “唭浪󰠩渃緣於
 >
-> 󰜋𦀊󰟁類纀𠄩󰋟情”
+> 𢖵𠳒呐仍包𣇞咍空”
 >
-> Già giang một lão một trai,
+> Cười rằng: "Cá nước duyên ưa,
 >
-> Một dây vô loại buộc hai thâm tình.
+> Nhớ lời nói những bao giờ hay không?
 >
-> *(Dòng 579-580) Truyện Kiều* - Nguyễn Du
+> *(Dòng 2275-2276) Truyện Kiều* - Nguyễn Du
 
 <!-- END_POEM -->
 </div>
