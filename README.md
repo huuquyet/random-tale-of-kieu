@@ -5,15 +5,15 @@ Random quotes from The Tale of Kiều - Nguyễn Du ([bản Liễu Văn Đườn
 <div align="center">
 <!-- START_POEM -->
 
-> “唭浪󰠩渃緣於
+> “翠雲秩醒聀春
 >
-> 𢖵𠳒呐仍包𣇞咍空”
+> 𠁑畑𥊘典殷勤𠳨嘆”
 >
-> Cười rằng: "Cá nước duyên ưa,
+> Thuý Vân chợt tỉnh giấc xuân,
 >
-> Nhớ lời nói những bao giờ hay không?
+> Dưới đèn thì đến ân cần hỏi han.
 >
-> *(Dòng 2275-2276) Truyện Kiều* - Nguyễn Du
+> *(Dòng 713-714) Truyện Kiều* - Nguyễn Du
 
 <!-- END_POEM -->
 </div>
