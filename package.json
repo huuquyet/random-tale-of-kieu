@@ -1,6 +1,6 @@
 {
   "name": "random-tale-of-kieu",
-  "description": "Generate random from The Tale of Kieu - Nguyen Du",
+  "description": "Get random quotes from The Tale of Kieu - Nguyen Du",
   "version": "1.0.0",
   "repository": "git@github.com:huuquyet/random-tale-of-kieu",
   "author": "huuquyet <huuquyetng@gmail.com>",

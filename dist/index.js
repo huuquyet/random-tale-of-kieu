@@ -24953,7 +24953,7 @@ const promises_1 = __nccwpck_require__(3977);
 const node_path_1 = __nccwpck_require__(9411);
 const core = __importStar(__nccwpck_require__(4016));
 const truyen_kieu_1871_json_1 = __importDefault(__nccwpck_require__(3651));
-// The patterns to set the random tale of Kieu
+// The patterns to set the random quotes from The Tale of Kieu
 const START_POEM = '<!-- START_POEM -->';
 const END_POEM = '<!-- END_POEM -->';
 /** Get random element of any array and type safe */
@@ -24961,7 +24961,7 @@ function getRandomElement(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 function getRandomDouble() {
-    const randomIndex = Math.floor(Math.random() * truyen_kieu_1871_json_1.default.length);
+    const randomIndex = Math.floor(Math.random() * (truyen_kieu_1871_json_1.default.length / 2));
     // Init the result
     const result = {
         line: 0,
@@ -24971,20 +24971,11 @@ function getRandomDouble() {
         secondQuocNgu: '',
     };
     // Get 2 random elements from json file
-    if (randomIndex % 2 === 0) {
-        result.line = randomIndex + 1;
-        result.firstNom = truyen_kieu_1871_json_1.default[randomIndex].nom;
-        result.secondNom = truyen_kieu_1871_json_1.default[randomIndex + 1].nom;
-        result.firstQuocNgu = truyen_kieu_1871_json_1.default[randomIndex].quocngu;
-        result.secondQuocNgu = truyen_kieu_1871_json_1.default[randomIndex + 1].quocngu;
-    }
-    else {
-        result.line = randomIndex;
-        result.firstNom = truyen_kieu_1871_json_1.default[randomIndex - 1].nom;
-        result.secondNom = truyen_kieu_1871_json_1.default[randomIndex].nom;
-        result.firstQuocNgu = truyen_kieu_1871_json_1.default[randomIndex - 1].quocngu;
-        result.secondQuocNgu = truyen_kieu_1871_json_1.default[randomIndex].quocngu;
-    }
+    result.line = 2 * randomIndex + 1;
+    result.firstNom = truyen_kieu_1871_json_1.default[2 * randomIndex].nom;
+    result.secondNom = truyen_kieu_1871_json_1.default[2 * randomIndex + 1].nom;
+    result.firstQuocNgu = truyen_kieu_1871_json_1.default[2 * randomIndex].quocngu;
+    result.secondQuocNgu = truyen_kieu_1871_json_1.default[2 * randomIndex + 1].quocngu;
     return result;
 }
 async function run() {

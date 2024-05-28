@@ -11,7 +11,7 @@ interface doublePoem {
   secondQuocNgu: string
 }
 
-// The patterns to set the random tale of Kieu
+// The patterns to set the random quotes from The Tale of Kieu
 const START_POEM = '<!-- START_POEM -->'
 const END_POEM = '<!-- END_POEM -->'
 
@@ -21,7 +21,7 @@ function getRandomElement<T>(array: Array<T>): T {
 }
 
 function getRandomDouble(): doublePoem {
-  const randomIndex = Math.floor(Math.random() * kieu.length)
+  const randomIndex = Math.floor(Math.random() * (kieu.length / 2))
   // Init the result
   const result: doublePoem = {
     line: 0,
@@ -32,19 +32,11 @@ function getRandomDouble(): doublePoem {
   }
 
   // Get 2 random elements from json file
-  if (randomIndex % 2 === 0) {
-    result.line = randomIndex + 1
-    result.firstNom = kieu[randomIndex].nom
-    result.secondNom = kieu[randomIndex + 1].nom
-    result.firstQuocNgu = kieu[randomIndex].quocngu
-    result.secondQuocNgu = kieu[randomIndex + 1].quocngu
-  } else {
-    result.line = randomIndex
-    result.firstNom = kieu[randomIndex - 1].nom
-    result.secondNom = kieu[randomIndex].nom
-    result.firstQuocNgu = kieu[randomIndex - 1].quocngu
-    result.secondQuocNgu = kieu[randomIndex].quocngu
-  }
+  result.line = 2 * randomIndex + 1
+  result.firstNom = kieu[2 * randomIndex].nom
+  result.secondNom = kieu[2 * randomIndex + 1].nom
+  result.firstQuocNgu = kieu[2 * randomIndex].quocngu
+  result.secondQuocNgu = kieu[2 * randomIndex + 1].quocngu
   return result
 }
 
