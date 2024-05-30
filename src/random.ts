@@ -3,7 +3,7 @@ import { resolve } from 'node:path'
 import * as core from '@actions/core'
 import { default as kieu } from '../assets/truyen-kieu-1871.json'
 
-interface doublePoem {
+interface DoubleQuotes {
   line: number
   firstNom: string
   secondNom: string
@@ -20,10 +20,10 @@ function getRandomElement<T>(array: Array<T>): T {
   return array[Math.floor(Math.random() * array.length)]
 }
 
-function getRandomDouble(): doublePoem {
+function getRandomQuotes(): DoubleQuotes {
   const randomIndex = Math.floor(Math.random() * (kieu.length / 2))
   // Init the result
-  const result: doublePoem = {
+  const result: DoubleQuotes = {
     line: 0,
     firstNom: '',
     secondNom: '',
@@ -42,24 +42,26 @@ function getRandomDouble(): doublePoem {
 
 export async function run() {
   try {
-    const poem: doublePoem = getRandomDouble()
+    core.info('Updating README.md with random quotes from The Tale of Kieu... 📁')
+
+    const poem: DoubleQuotes = getRandomQuotes()
     const filePath = resolve('./README.md')
     const contents = await readFile(filePath, { encoding: 'utf8' })
-    const indexStart = contents.indexOf(START_POEM)
-    const indexEnd = contents.indexOf(END_POEM)
+    const regex = new RegExp(`(${START_POEM})[\\s\\S]*?(${END_POEM})`, 'gm')
 
-    if (indexStart > 0 && indexEnd > indexStart) {
-      const firstRemains = contents.substring(0, indexStart).concat(START_POEM)
-      const lastRemains = contents.substring(indexEnd)
-      const result = `${firstRemains}\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${
-        poem.firstQuocNgu
-      }\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(Dòng ${poem.line}-${
-        poem.line + 1
-      }) Truyện Kiều\* - Nguyễn Du\n\n${lastRemains}`
-      await writeFile(filePath, result)
-    } else {
-      throw new Error('Please add comment blocks in Readme file to update')
+    if (!regex.test(contents)) {
+      throw new Error('Please add comment blocks in Readme file to update and try again ⚠️')
     }
+
+    const result = `\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${
+      poem.firstQuocNgu
+    }\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(Dòng ${poem.line}-${
+      poem.line + 1
+    }) Truyện Kiều\* - Nguyễn Du\n\n`
+    const newContents = contents.replace(regex, `$1${result}$2`)
+    await writeFile(filePath, newContents)
+
+    core.info('Updated with random quotes from The Tale of Kieu ✅💖')
   } catch (error: any) {
     console.error(error)
     // Fail the workflow run if an error occurs
