@@ -4,16 +4,14 @@ Random quotes from The Tale of Kiều - Nguyễn Du ([bản Liễu Văn Đườn
 
 <div align="center">
 <!-- START_POEM -->
-
-> “婵娟󰂇別󰠰䧺
->
-> 𦋦𢬣操櫃數籠如制”
->
-> Thuyền quyên ví biết anh hùng,
->
-> Ra tay tháo cũi sổ lồng như chơi!"
->
-> *(Dòng 1071-1072) Truyện Kiều* - Nguyễn Du
-
+      <div>“官軍几吏𠊛戈</div>
+      <div>㤕娘仕吏或𦋦寅寅”</div>
+      <p>Quan quân kẻ lại người qua,</p>
+      <p>Xót nàng sẽ lại vực ra dần dần.</p>
+      <span><i>(Dòng 2537-2538) Truyện Kiều</i> -- Nguyễn Du</span>
 <!-- END_POEM -->
+</div>
+
+<div align="center" width="100%">
+  <img src="./assets/random-quotes.svg" width="100%" alt="The Tale of Kieu - Nguyen Du">
 </div>

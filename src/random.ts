@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import * as core from '@actions/core'
-import { default as kieu } from '../assets/truyen-kieu-1871.json'
+import { default as truyenKieu } from '../assets/truyen-kieu-1871.json'
 
 interface DoubleQuotes {
   line: number
@@ -15,13 +15,9 @@ interface DoubleQuotes {
 const START_POEM = '<!-- START_POEM -->'
 const END_POEM = '<!-- END_POEM -->'
 
-/** Get random element of any array and type safe */
-function getRandomElement<T>(array: Array<T>): T {
-  return array[Math.floor(Math.random() * array.length)]
-}
-
+/** Get random 2 quotes from json file of Truyen Kieu */
 function getRandomQuotes(): DoubleQuotes {
-  const randomIndex = Math.floor(Math.random() * (kieu.length / 2))
+  const randomIndex = Math.floor(Math.random() * (truyenKieu.length / 2))
   // Init the result
   const result: DoubleQuotes = {
     line: 0,
@@ -33,38 +29,44 @@ function getRandomQuotes(): DoubleQuotes {
 
   // Get 2 random elements from json file
   result.line = 2 * randomIndex + 1
-  result.firstNom = kieu[2 * randomIndex].nom
-  result.secondNom = kieu[2 * randomIndex + 1].nom
-  result.firstQuocNgu = kieu[2 * randomIndex].quocngu
-  result.secondQuocNgu = kieu[2 * randomIndex + 1].quocngu
+  result.firstNom = truyenKieu[2 * randomIndex].nom
+  result.secondNom = truyenKieu[2 * randomIndex + 1].nom
+  result.firstQuocNgu = truyenKieu[2 * randomIndex].quocngu
+  result.secondQuocNgu = truyenKieu[2 * randomIndex + 1].quocngu
   return result
 }
 
-export async function run() {
+async function updateFile(filePath: string, result: string) {
   try {
-    core.info('Updating README.md with random quotes from The Tale of Kieu... 📁')
-
-    const poem: DoubleQuotes = getRandomQuotes()
-    const filePath = resolve('./README.md')
-    const contents = await readFile(filePath, { encoding: 'utf8' })
+    const fileName = resolve(filePath)
+    const contents = await readFile(fileName, { encoding: 'utf8' })
     const regex = new RegExp(`(${START_POEM})[\\s\\S]*?(${END_POEM})`, 'gm')
 
     if (!regex.test(contents)) {
-      throw new Error('Please add comment blocks in Readme file to update and try again ⚠️')
+      core.info(`Please add comment blocks in ${filePath} to update and try again ⚠️`)
     }
 
-    const result = `\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${
-      poem.firstQuocNgu
-    }\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(Dòng ${poem.line}-${
-      poem.line + 1
-    }) Truyện Kiều\* - Nguyễn Du\n\n`
     const newContents = contents.replace(regex, `$1${result}$2`)
-    await writeFile(filePath, newContents)
-
-    core.info('Updated with random quotes from The Tale of Kieu ✅💖')
+    await writeFile(fileName, newContents)
+    core.info(`Updated ${filePath} with random quotes from The Tale of Kieu ✅💖`)
   } catch (error: any) {
     console.error(error)
     // Fail the workflow run if an error occurs
     if (error instanceof Error) core.setFailed(error.message)
   }
+}
+
+export async function run() {
+  core.info('Updating with random quotes from The Tale of Kieu... 📁')
+
+  const poem: DoubleQuotes = getRandomQuotes()
+  const result = String.raw`\n
+      <div>“${poem.firstNom}</div>
+      <div>${poem.secondNom}”</div>
+      <p>${poem.firstQuocNgu}</p>
+      <p>${poem.secondQuocNgu}</p>
+      <span><i>(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều</i> -- Nguyễn Du</span>\n`
+
+  await updateFile('./README.md', result)
+  await updateFile('./assets/random-quotes.svg', result)
 }

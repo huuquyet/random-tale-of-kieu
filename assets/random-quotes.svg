@@ -1,45 +1,37 @@
-<svg version="1.1" width="512" height="512" viewBox="0 0 512 512" aria-labelledby="title desc" role="img"
-  xmlns=https://www.w3.org/2000/svg>
+<svg width="512" height="512" viewBox="0 0 512 512" aria-labelledby="title desc" role="img" xmlns="https://www.w3.org/2000/svg">
   <title id="title">Random quotes from The Tale of Kieu</title>
   <desc id="desc">An awesome wallpaper with random quotes from The Tale of Kieu - Nguyen Du</desc>
-  <defs>
-    <radialGradient id="myGradient">
-      <stop offset="10%" stop-color="white" stop-opacity="0.8" />
-      <stop offset="90%" stop-color="gray" stop-opacity="0.5" />
-    </radialGradient>
-    <mask id="myMask">
-      <rect width="512" height="512" fill="url('#myGradient')" />
-    </mask>
-  </defs>
-  <image href="./wallpaper.jpg" width="512" height="512" mask="url('#myMask')" />
-  <!-- Common use case: embed HTML text into SVG -->
-  <foreignObject x="0" y="0" width="512" height="512">
+  <foreignObject x="0" y="0" width="512" height="512" id="quotes">
     <div xmlns="http://www.w3.org/1999/xhtml" class="blockquote-wrapper">
       <div class="blockquote">
-<div>“󰏙䜹𠽋󰟄𠸦󰠐</div>
-<div>價仃繡口錦心恪常”</div>
-<p>Xem thơ nức nở khen thầm:</p>
-<p>Giá đành tú khẩu cẩm tâm khác thường.</p>
-<span><i>(Dòng 207-208) Truyện Kiều</i> &mdash; Nguyễn Du</span>
+
+<!-- START_POEM -->
+      <div>“官軍几吏𠊛戈</div>
+      <div>㤕娘仕吏或𦋦寅寅”</div>
+      <p>Quan quân kẻ lại người qua,</p>
+      <p>Xót nàng sẽ lại vực ra dần dần.</p>
+      <span><i>(Dòng 2537-2538) Truyện Kiều</i> -- Nguyễn Du</span>
+<!-- END_POEM -->
+
       </div>
     </div>
   </foreignObject>
   <style>
-    /* center the blockquote in the page */
     .blockquote-wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 100%;
       padding: 0 20px;
+      background-image: radial-gradient(75% 75% at 50% 50%, #00000099 0%, #00000042 100%),
+        url('./wallpaper.jpg');
     }
 
-    /* Blockquote main style */
     .blockquote {
       position: relative;
       align-self: center;
       text-align: center;
-      width: 70%;
+      width: 69%;
       max-width: 512px;
       color: white;
       font-family: Inter, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', Montserrat, Arial, sans-serif, sytem-ui, -apple-system;
@@ -61,7 +53,6 @@
       src: url('./fonts/Minh-Nguyen-Regular.ttf')
     }
 
-    /* Blockquote nom */
     .blockquote div {
       position: relative;
       color: white;
@@ -71,7 +62,6 @@
       line-height: 1.2;
     }
 
-    /* Blockquote quoc ngu */
     .blockquote p {
       position: relative;
       color: white;
@@ -80,7 +70,6 @@
       line-height: 1;
     }
 
-    /* Blockquote right double quotes */
     .blockquote:after {
       position: absolute;
       content: "”";
@@ -92,7 +81,6 @@
       right: 20px;
     }
 
-    /* Blockquote author */
     .blockquote span {
       position: relative;
       color: lightyellow;

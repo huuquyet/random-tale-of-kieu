@@ -24956,10 +24956,7 @@ const truyen_kieu_1871_json_1 = __importDefault(__nccwpck_require__(3651));
 // The patterns to set the random quotes from The Tale of Kieu
 const START_POEM = '<!-- START_POEM -->';
 const END_POEM = '<!-- END_POEM -->';
-/** Get random element of any array and type safe */
-function getRandomElement(array) {
-    return array[Math.floor(Math.random() * array.length)];
-}
+/** Get random 2 quotes from json file of Truyen Kieu */
 function getRandomQuotes() {
     const randomIndex = Math.floor(Math.random() * (truyen_kieu_1871_json_1.default.length / 2));
     // Init the result
@@ -24978,20 +24975,17 @@ function getRandomQuotes() {
     result.secondQuocNgu = truyen_kieu_1871_json_1.default[2 * randomIndex + 1].quocngu;
     return result;
 }
-async function run() {
+async function updateFile(filePath, result) {
     try {
-        core.info('Updating README.md with random quotes from The Tale of Kieu... 📁');
-        const poem = getRandomQuotes();
-        const filePath = (0, node_path_1.resolve)('./README.md');
-        const contents = await (0, promises_1.readFile)(filePath, { encoding: 'utf8' });
+        const fileName = (0, node_path_1.resolve)(filePath);
+        const contents = await (0, promises_1.readFile)(fileName, { encoding: 'utf8' });
         const regex = new RegExp(`(${START_POEM})[\\s\\S]*?(${END_POEM})`, 'gm');
         if (!regex.test(contents)) {
-            throw new Error('Please add comment blocks in Readme file to update and try again ⚠️');
+            core.info(`Please add comment blocks in ${filePath} to update and try again ⚠️`);
         }
-        const result = `\n\n\> “${poem.firstNom}\n\>\n\> ${poem.secondNom}”\n\>\n\> ${poem.firstQuocNgu}\n\>\n\> ${poem.secondQuocNgu}\n\>\n\> \*(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều\* - Nguyễn Du\n\n`;
         const newContents = contents.replace(regex, `$1${result}$2`);
-        await (0, promises_1.writeFile)(filePath, newContents);
-        core.info('Updated with random quotes from The Tale of Kieu ✅💖');
+        await (0, promises_1.writeFile)(fileName, newContents);
+        core.info(`Updated ${filePath} with random quotes from The Tale of Kieu ✅💖`);
     }
     catch (error) {
         console.error(error);
@@ -24999,6 +24993,18 @@ async function run() {
         if (error instanceof Error)
             core.setFailed(error.message);
     }
+}
+async function run() {
+    core.info('Updating with random quotes from The Tale of Kieu... 📁');
+    const poem = getRandomQuotes();
+    const result = String.raw `\n
+      <div>“${poem.firstNom}</div>
+      <div>${poem.secondNom}”</div>
+      <p>${poem.firstQuocNgu}</p>
+      <p>${poem.secondQuocNgu}</p>
+      <span><i>(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều</i> -- Nguyễn Du</span>\n`;
+    await updateFile('./README.md', result);
+    await updateFile('./assets/random-quotes.svg', result);
 }
 exports.run = run;
 
