@@ -29,17 +29,22 @@
         }
 
         @font-face {
-          font-family: 'Nom Na Tong Regular';
-          src: url('./fonts/NomNaTong-Regular.ttf')
+          font-family: 'Nom Na Tong';
+          src: local('Nom Na Tong'),
+            url('./fonts/NomNaTong-Regular.ttf') format('truetype'),
+            url('https://github.com/nomfoundation/font/releases/download/v5.10/NomNaTong-Regular.ttf') format('truetype'),
+            url('https://github.com/nomfoundation/font/releases/download/v5.10/NomNaTong-Regular.otf') format('opentype'),
         }
 
         @font-face {
-          font-family: 'Minh Nguyen Regular';
-          src: url('./fonts/Minh-Nguyen-Regular.ttf')
+          font-family: 'Minh Nguyen';
+          src: local('Minh Nguyen'),
+          url('./fonts/Minh-Nguyen-Regular.ttf') format('truetype'),
+          url('https://raw.githubusercontent.com/TKYKmori/Minh-Nguyen/main/Minh%20Nguyen%20Regular.ttf') format('truetype'),
         }
 
         .nom {
-          font-family: 'Nom Na Tong Regular', 'Minh Nguyen Regular', Roboto, Tahoma, Arial, sans-serif;
+          font-family: 'Nom Na Tong', 'Minh Nguyen', Roboto, Tahoma, Arial, sans-serif;
           font-size: 36px;
           font-weight: 800;
         }
