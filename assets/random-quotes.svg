@@ -1,0 +1,106 @@
+<svg version="1.1" width="512" height="512" viewBox="0 0 512 512" aria-labelledby="title desc" role="img"
+  xmlns=https://www.w3.org/2000/svg>
+  <title id="title">Random quotes from The Tale of Kieu</title>
+  <desc id="desc">An awesome wallpaper with random quotes from The Tale of Kieu - Nguyen Du</desc>
+  <defs>
+    <radialGradient id="myGradient">
+      <stop offset="10%" stop-color="white" stop-opacity="0.8" />
+      <stop offset="90%" stop-color="gray" stop-opacity="0.5" />
+    </radialGradient>
+    <mask id="myMask">
+      <rect width="512" height="512" fill="url('#myGradient')" />
+    </mask>
+  </defs>
+  <image href="./wallpaper.jpg" width="512" height="512" mask="url('#myMask')" />
+  <!-- Common use case: embed HTML text into SVG -->
+  <foreignObject x="0" y="0" width="512" height="512">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="blockquote-wrapper">
+      <div class="blockquote">
+<div>“󰏙䜹𠽋󰟄𠸦󰠐</div>
+<div>價仃繡口錦心恪常”</div>
+<p>Xem thơ nức nở khen thầm:</p>
+<p>Giá đành tú khẩu cẩm tâm khác thường.</p>
+<span><i>(Dòng 207-208) Truyện Kiều</i> &mdash; Nguyễn Du</span>
+      </div>
+    </div>
+  </foreignObject>
+  <style>
+    /* center the blockquote in the page */
+    .blockquote-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0 20px;
+    }
+
+    /* Blockquote main style */
+    .blockquote {
+      position: relative;
+      align-self: center;
+      text-align: center;
+      width: 70%;
+      max-width: 512px;
+      color: white;
+      font-family: Inter, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', Montserrat, Arial, sans-serif, sytem-ui, -apple-system;
+      font-weight: 500;
+      padding: 30px 0;
+      margin: 0px auto;
+      border-top: solid 1px;
+      border-bottom: solid 1px;
+      z-index: 1;
+    }
+
+    @font-face {
+      font-family: 'Nom Na Tong Regular';
+      src: url('./fonts/NomNaTong-Regular.ttf')
+    }
+
+    @font-face {
+      font-family: 'Minh Nguyen Regular';
+      src: url('./fonts/Minh-Nguyen-Regular.ttf')
+    }
+
+    /* Blockquote nom */
+    .blockquote div {
+      position: relative;
+      color: white;
+      font-family: 'Nom Na Tong Regular', 'Minh Nguyen Regular', Roboto, Inter, sans-serif;
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    /* Blockquote quoc ngu */
+    .blockquote p {
+      position: relative;
+      color: white;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1;
+    }
+
+    /* Blockquote right double quotes */
+    .blockquote:after {
+      position: absolute;
+      content: "”";
+      color: white;
+      font-family: Montserrat, sans-serif;
+      font-size: 10rem;
+      line-height: 0;
+      bottom: -42px;
+      right: 20px;
+    }
+
+    /* Blockquote author */
+    .blockquote span {
+      position: relative;
+      color: lightyellow;
+      font-size: 1rem;
+      font-weight: lighter;
+      line-height: 1;
+      padding-top: 20px;
+      z-index: 1;
+    }
+  </style>
+</svg>
