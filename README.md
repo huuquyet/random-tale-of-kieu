@@ -5,15 +5,15 @@ Random quotes from The Tale of Kiều - Nguyễn Du ([bản Liễu Văn Đườn
 <div align="center">
 <!-- START_POEM -->
 
-> “𠁑花㖂𠎪惡人
+> “婵娟󰂇別󰠰䧺
 >
-> 喑喑哭鬼驚神木𦋦”
+> 𦋦𢬣操櫃數籠如制”
 >
-> Dưới hoa dậy lũ ác nhân,
+> Thuyền quyên ví biết anh hùng,
 >
-> Ầm ầm khốc quỷ kinh thần mọc ra!
+> Ra tay tháo cũi sổ lồng như chơi!"
 >
-> *(Dòng 1641-1642) Truyện Kiều* - Nguyễn Du
+> *(Dòng 1071-1072) Truyện Kiều* - Nguyễn Du
 
 <!-- END_POEM -->
 </div>
