@@ -1,45 +1,45 @@
-<svg width="512" height="512" viewBox="0 0 512 512" aria-labelledby="title desc" role="img" xmlns="https://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 512 512" xmlns="https://www.w3.org/2000/svg" aria-labelledby="title desc"
+  role="img">
   <title id="title">Random quotes from The Tale of Kieu</title>
   <desc id="desc">An awesome wallpaper with random quotes from The Tale of Kieu - Nguyen Du</desc>
   <foreignObject x="0" y="0" width="512" height="512" id="quotes">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="blockquote-wrapper">
-      <div class="blockquote">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="container">
+        <article>
 
-<!-- START_POEM -->\n
-      <div>“浪自偶尔﨤饒</div>
-      <div>󰠐𬖉濫𢖵閉𥹰㐌𤶐”</div>
-      <p>Rằng: "Từ ngẫu nhĩ gặp nhau,</p>
-      <p>Thầm trông trộm nhớ bấy lâu đã chồn.</p>
-      <span><i>(Dòng 323-324) Truyện Kiều</i> -- Nguyễn Du</span>\n<!-- END_POEM -->
+<!-- START_POEM -->
+      <p class="nom">“𥪞軍固𣅶𢝙圍</p>
+      <p class="nom">從容買計事𣈜寒微”</p>
+      <p class="quocngu">Trong quân có lúc vui vầy,</p>
+      <p class="quocngu">Thong dong mới kể sự ngày hàn vi:</p>
+      <p class="author"><i>(Dòng 2289-2290) Truyện Kiều</i> -- Nguyễn Du</p>
+<!-- END_POEM -->
 
+        </article>
       </div>
     </div>
   </foreignObject>
   <style>
-    .blockquote-wrapper {
+    .container {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100%;
-      padding: 0 20px;
-      background-image: radial-gradient(75% 75% at 50% 50%, #00000099 0%, #00000042 100%),
-        url('./wallpaper.jpg');
+      width: 512px;
+      height: 512px;
+      font-family: Inter, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', Montserrat, Arial, sans-serif, sytem-ui, -apple-system;
+      font-weight: 600;
+      background: white;
     }
 
-    .blockquote {
+    article {
       position: relative;
-      align-self: center;
       text-align: center;
       width: 69%;
-      max-width: 512px;
-      color: white;
-      font-family: Inter, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', Montserrat, Arial, sans-serif, sytem-ui, -apple-system;
-      font-weight: 500;
+      color: black;
       padding: 30px 0;
-      margin: 0px auto;
       border-top: solid 1px;
       border-bottom: solid 1px;
-      z-index: 1;
+      line-height: 1;
     }
 
     @font-face {
@@ -52,42 +52,24 @@
       src: url('./fonts/Minh-Nguyen-Regular.ttf')
     }
 
-    .blockquote div {
-      position: relative;
-      color: white;
-      font-family: 'Nom Na Tong Regular', 'Minh Nguyen Regular', Roboto, Inter, sans-serif;
+    .nom {
+      font-family: 'Nom Na Tong Regular', 'Minh Nguyen Regular', Roboto, Tahoma, Arial, sans-serif;
       font-size: 36px;
       font-weight: 800;
-      line-height: 1.2;
     }
 
-    .blockquote p {
-      position: relative;
-      color: white;
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 1;
+    .author {
+      font-weight: lighter;
     }
 
-    .blockquote:after {
+    article:after {
       position: absolute;
       content: "”";
-      color: white;
       font-family: Montserrat, sans-serif;
       font-size: 10rem;
       line-height: 0;
       bottom: -42px;
       right: 20px;
-    }
-
-    .blockquote span {
-      position: relative;
-      color: lightyellow;
-      font-size: 1rem;
-      font-weight: lighter;
-      line-height: 1;
-      padding-top: 20px;
-      z-index: 1;
     }
   </style>
 </svg>

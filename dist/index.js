@@ -24997,12 +24997,13 @@ async function updateFile(filePath, result) {
 async function run() {
     core.info('Updating with random quotes from The Tale of Kieu... 📁');
     const poem = getRandomQuotes();
-    const result = String.raw `\n
-      <div>“${poem.firstNom}</div>
-      <div>${poem.secondNom}”</div>
-      <p>${poem.firstQuocNgu}</p>
-      <p>${poem.secondQuocNgu}</p>
-      <span><i>(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều</i> -- Nguyễn Du</span>\n`;
+    const result = String.raw `
+      <p class="nom">“${poem.firstNom}</p>
+      <p class="nom">${poem.secondNom}”</p>
+      <p class="quocngu">${poem.firstQuocNgu}</p>
+      <p class="quocngu">${poem.secondQuocNgu}</p>
+      <p class="author"><i>(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều</i> -- Nguyễn Du</p>
+`;
     await updateFile('./README.md', result);
     await updateFile('./assets/random-quotes.svg', result);
 }
