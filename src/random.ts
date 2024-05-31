@@ -1,7 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import * as core from '@actions/core'
-import { encode } from 'html-entities'
 import { default as truyenKieu } from '../assets/truyen-kieu-1871.json'
 
 interface DoubleQuotes {
@@ -16,28 +15,16 @@ interface DoubleQuotes {
 const START_POEM = '<!-- START_POEM -->'
 const END_POEM = '<!-- END_POEM -->'
 
-/** Get random 2 quotes from json file of Truyen Kieu */
+/** Get random quotes from json file of Truyen Kieu */
 function getRandomQuotes(): DoubleQuotes {
   const randomIndex = Math.floor(Math.random() * (truyenKieu.length / 2))
 
   // Get 2 random elements from json file
   const line = 2 * randomIndex + 1
-  const firstNom = encode(truyenKieu[2 * randomIndex].nom, {
-    mode: 'nonAsciiPrintable',
-    level: 'xml',
-  })
-  const secondNom = encode(truyenKieu[2 * randomIndex + 1].nom, {
-    mode: 'nonAsciiPrintable',
-    level: 'xml',
-  })
-  const firstQuocNgu = encode(truyenKieu[2 * randomIndex].quocngu, {
-    mode: 'nonAsciiPrintable',
-    level: 'xml',
-  })
-  const secondQuocNgu = encode(truyenKieu[2 * randomIndex + 1].quocngu, {
-    mode: 'nonAsciiPrintable',
-    level: 'xml',
-  })
+  const firstNom = truyenKieu[2 * randomIndex].nom
+  const secondNom = truyenKieu[2 * randomIndex + 1].nom
+  const firstQuocNgu = truyenKieu[2 * randomIndex].quocngu
+  const secondQuocNgu = truyenKieu[2 * randomIndex + 1].quocngu
 
   const result: DoubleQuotes = {
     line,
@@ -49,6 +36,7 @@ function getRandomQuotes(): DoubleQuotes {
   return result
 }
 
+/** Update files with comment blocks inside */
 async function updateFile(filePath: string, result: string) {
   try {
     const fileName = resolve(filePath)
@@ -69,6 +57,7 @@ async function updateFile(filePath: string, result: string) {
   }
 }
 
+/** Get random quotes from The Tale of Kieu (nom version) */
 export async function run() {
   core.info('Updating with random quotes from The Tale of Kieu... 📁')
 
@@ -78,9 +67,7 @@ export async function run() {
       <p class="nom">${poem.secondNom}”</p>
       <p class="quocngu">${poem.firstQuocNgu}</p>
       <p class="quocngu">${poem.secondQuocNgu}</p>
-      <p class="author"><i>(D&#242;ng ${poem.line}-${
-        poem.line + 1
-      }) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>`
+      <p class="author"><i>(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều</i> -- Nguyễn Du</p>`
 
   await updateFile('./README.md', result)
   await updateFile('./assets/random-kieu.svg', result)

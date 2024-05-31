@@ -4,11 +4,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_POEM -->
-      <p class="nom">“&#21247;&#21629;&#25265;&#983684;&#147142;&#28228;</p>
-      <p class="nom">&#28379;&#28252;&#28261;&#29577;&#24341;&#34573;&#24871;&#26522;”</p>
-      <p class="quocngu">V&#7853;t m&#236;nh b&#227;o gi&#243; tu&#244;n m&#432;a,</p>
-      <p class="quocngu">D&#7847;m d&#7873; gi&#7885;t ng&#7885;c, th&#7851;n th&#7901; h&#7891;n mai!</p>
-      <p class="author"><i>(D&#242;ng 2795-2796) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
+      <p class="nom">“媒浪𡥵唉從容</p>
+      <p class="nom">沛調𢚸吏對𢚸𦓡制”</p>
+      <p class="quocngu">Mụ rằng: "Con hãy thong dong,</p>
+      <p class="quocngu">Phải điều lòng lại dối lòng mà chơi!</p>
+      <p class="author"><i>(D&#242;ng 1027-1028) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
 <!-- END_POEM -->
 </div>
 

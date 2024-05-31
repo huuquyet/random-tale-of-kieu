@@ -341,13 +341,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-entities@npm:^2.5.2":
-  version: 2.5.2
-  resolution: "html-entities@npm:2.5.2"
-  checksum: 10c0/f20ffb4326606245c439c231de40a7c560607f639bf40ffbfb36b4c70729fd95d7964209045f1a4e62fe17f2364cef3d6e49b02ea09016f207fde51c2211e481
-  languageName: node
-  linkType: hard
-
 "http-cache-semantics@npm:^4.1.1":
   version: 4.1.1
   resolution: "http-cache-semantics@npm:4.1.1"
@@ -687,7 +680,6 @@ __metadata:
     "@actions/core": "npm:^1.10.1"
     "@types/node": "npm:^20.12.13"
     "@vercel/ncc": "npm:^0.38.1"
-    html-entities: "npm:^2.5.2"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
