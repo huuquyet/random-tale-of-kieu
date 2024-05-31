@@ -4,11 +4,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“自昆流落圭𠊛</p>
-      <p class="nom">䕯㵢㳥撫祝𨑮𠄻𫷜”</p>
-      <p class="quocngu">Từ con lưu lạc quê người,</p>
-      <p class="quocngu">Bèo trôi sóng vỗ, chốc mười lăm năm!</p>
-      <p class="author"><i>(Dòng 3019-3020) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“埮𥿁𣻃捲征鞍</p>
+      <p class="nom">𬖉𠊛㐌屈󰋇岸橷撑”</p>
+      <p class="quocngu">Dặm vương bụi cuốn chinh an,</p>
+      <p class="quocngu">Trông người đã khuất mấy ngàn dâu xanh.</p>
+      <p class="author"><i>(Dòng 1521-1522) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
