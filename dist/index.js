@@ -24954,12 +24954,12 @@ const node_path_1 = __nccwpck_require__(9411);
 const core = __importStar(__nccwpck_require__(4016));
 const truyen_kieu_1871_json_1 = __importDefault(__nccwpck_require__(3651));
 // The patterns to set the random quotes from The Tale of Kieu
-const START_POEM = '<!-- START_POEM -->';
-const END_POEM = '<!-- END_POEM -->';
-/** Get random quotes from json file of Truyen Kieu */
+const START_KIEU = '<!-- START_KIEU -->';
+const END_KIEU = '<!-- END_KIEU -->';
+/** Get 2 random lines from json file of Truyen Kieu */
 function getRandomQuotes() {
     const randomIndex = Math.floor(Math.random() * (truyen_kieu_1871_json_1.default.length / 2));
-    // Get 2 random elements from json file
+    // Get 2 random lines from json file of Truyen Kieu
     const line = 2 * randomIndex + 1;
     const firstNom = truyen_kieu_1871_json_1.default[2 * randomIndex].nom;
     const secondNom = truyen_kieu_1871_json_1.default[2 * randomIndex + 1].nom;
@@ -24975,17 +24975,18 @@ function getRandomQuotes() {
     return result;
 }
 /** Update files with comment blocks inside */
-async function updateFile(filePath, result) {
+async function updateFile(fileName, result) {
     try {
-        const fileName = (0, node_path_1.resolve)(filePath);
-        const contents = await (0, promises_1.readFile)(fileName, { encoding: 'utf8' });
-        const regex = new RegExp(`(${START_POEM})[\\s\\S]*?(${END_POEM})`, 'gm');
+        const filePath = (0, node_path_1.resolve)(fileName);
+        const contents = await (0, promises_1.readFile)(filePath, { encoding: 'utf8' });
+        const regex = new RegExp(`(${START_KIEU})[\\s\\S]*?(${END_KIEU})`, '');
+        // Check if patterns exist to insert the quotes
         if (!regex.test(contents)) {
-            core.info(`Please add comment blocks in ${filePath} to update and try again ⚠️`);
+            core.info(`Please add comment blocks in ${fileName} to update and try again ⚠️`);
         }
         const newContents = contents.replace(regex, `$1${result}\n$2`);
-        await (0, promises_1.writeFile)(fileName, newContents);
-        core.info(`Updated ${filePath} with random quotes from The Tale of Kieu ✅💖`);
+        await (0, promises_1.writeFile)(filePath, newContents);
+        core.info(`Updated ${fileName} with random quotes from The Tale of Kieu ✅ 💖`);
     }
     catch (error) {
         console.error(error);

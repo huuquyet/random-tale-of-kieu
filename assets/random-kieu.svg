@@ -36,8 +36,8 @@
         font-family: 'Nom Na Tong';
         src: local('Nom Na Tong'),
           url('./fonts/NomNaTong-Regular.ttf') format('truetype'),
-          url('https://github.com/nomfoundation/font/releases/download/v5.10/NomNaTong-Regular.ttf') format('truetype'),
-          url('https://github.com/nomfoundation/font/releases/download/v5.10/NomNaTong-Regular.otf') format('opentype'),
+          url('https://github.com/nomfoundation/font/releases/latest/download/NomNaTong-Regular.ttf') format('truetype'),
+          url('https://github.com/nomfoundation/font/releases/latest/download/NomNaTong-Regular.otf') format('opentype'),
       }
 
       @font-face {
@@ -72,13 +72,13 @@
     <div xmlns="http://www.w3.org/1999/xhtml" class="container">
     <article>
 
-<!-- START_POEM -->
+<!-- START_KIEU -->
       <p class="nom">“自昆流落圭𠊛</p>
       <p class="nom">䕯㵢㳥撫祝𨑮𠄻𫷜”</p>
       <p class="quocngu">Từ con lưu lạc quê người,</p>
       <p class="quocngu">Bèo trôi sóng vỗ, chốc mười lăm năm!</p>
       <p class="author"><i>(Dòng 3019-3020) Truyện Kiều</i> -- Nguyễn Du</p>
-<!-- END_POEM -->
+<!-- END_KIEU -->
       
       </article>
     </div>
