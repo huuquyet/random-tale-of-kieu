@@ -4,11 +4,11 @@ Random quotes from The Tale of Kieu - Nguyen Du ([version Lieu Van Duong 1871](h
 
 <div align="center">
 <!-- START_POEM -->
-      <p class="nom">“&#30406;&#180377;&#984583;&#146925;&#163142;&#144090;</p>
-      <p class="nom">&#33337;&#22467;&#28287;&#20504;&#156739;&#24070;&#36050;&#36050;”</p>
-      <p class="quocngu">Bu&#7891;n tr&#244;ng c&#7917;a b&#7875; g&#7847;n h&#244;m,</p>
-      <p class="quocngu">Thuy&#7873;n ai th&#7845;p tho&#225;ng c&#225;nh bu&#7891;m xa xa.</p>
-      <p class="author"><i>(D&#242;ng 1047-1048) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
+      <p class="nom">“&#21247;&#21629;&#25265;&#983684;&#147142;&#28228;</p>
+      <p class="nom">&#28379;&#28252;&#28261;&#29577;&#24341;&#34573;&#24871;&#26522;”</p>
+      <p class="quocngu">V&#7853;t m&#236;nh b&#227;o gi&#243; tu&#244;n m&#432;a,</p>
+      <p class="quocngu">D&#7847;m d&#7873; gi&#7885;t ng&#7885;c, th&#7851;n th&#7901; h&#7891;n mai!</p>
+      <p class="author"><i>(D&#242;ng 2795-2796) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
 <!-- END_POEM -->
 </div>
 
