@@ -13,5 +13,5 @@ Random quotes from The Tale of Kieu - Nguyen Du ([version Lieu Van Duong 1871](h
 </div>
 
 <div align="center" width="100%">
-  <img src="./assets/random-quotes.svg" width="100%" alt="The Tale of Kieu - Nguyen Du">
+  <img src="./assets/random-kieu.svg" width="100%" alt="The Tale of Kieu - Nguyen Du">
 </div>

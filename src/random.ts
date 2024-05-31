@@ -83,5 +83,5 @@ export async function run() {
       }) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>`
 
   await updateFile('./README.md', result)
-  await updateFile('./assets/random-quotes.svg', result)
+  await updateFile('./assets/random-kieu.svg', result)
 }

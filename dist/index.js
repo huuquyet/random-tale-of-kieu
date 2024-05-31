@@ -25052,7 +25052,7 @@ async function run() {
       <p class="quocngu">${poem.secondQuocNgu}</p>
       <p class="author"><i>(D&#242;ng ${poem.line}-${poem.line + 1}) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>`;
     await updateFile('./README.md', result);
-    await updateFile('./assets/random-quotes.svg', result);
+    await updateFile('./assets/random-kieu.svg', result);
 }
 exports.run = run;
 
