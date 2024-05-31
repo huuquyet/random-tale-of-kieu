@@ -1,6 +1,6 @@
-# Get random quotes from The Tale of Kieu - Nguyen Du
+# Câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du
 
-Random quotes from The Tale of Kieu - Nguyen Du ([version Lieu Van Duong 1871](https://vi.wikisource.org/wiki/Truy%E1%BB%87n_Ki%E1%BB%81u_(b%E1%BA%A3n_Li%E1%BB%85u_V%C4%83n_%C3%90%C6%B0%E1%BB%9Dng_1871)))
+Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Liễu Văn Đường 1871](https://vi.wikisource.org/wiki/Truy%E1%BB%87n_Ki%E1%BB%81u_(b%E1%BA%A3n_Li%E1%BB%85u_V%C4%83n_%C3%90%C6%B0%E1%BB%9Dng_1871)))
 
 <div align="center">
 <!-- START_POEM -->
@@ -12,6 +12,6 @@ Random quotes from The Tale of Kieu - Nguyen Du ([version Lieu Van Duong 1871](h
 <!-- END_POEM -->
 </div>
 
-<div align="center" width="100%">
-  <img src="./assets/random-kieu.svg" width="100%" alt="The Tale of Kieu - Nguyen Du">
+<div align="center">
+  <img src="./assets/random-kieu.svg" alt="The Tale of Kieu - Nguyen Du">
 </div>
