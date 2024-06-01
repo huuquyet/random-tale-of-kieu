@@ -1,12 +1,17 @@
-name: 'The random quotes from The Tale of Kieu - Nguyen Du'
-description: 'A javascript action to get the random quotes from The Tale of Kieu - Nguyen Du'
+name: "The random quotes from The Tale of Kieu - Nguyen Du"
+description: "A javascript action to get the random quotes from The Tale of Kieu - Nguyen Du"
 author: huuquyet
 
 # Add your action's branding here. This will appear on the GitHub Marketplace. Icons from https://feathericons.com/
 branding:
-  icon: 'image'
-  color: 'red'
+  icon: "image"
+  color: "red"
 
 runs:
-  using: 'node20'
-  main: dist/index.js
+  using: "composite"
+  steps:
+    - name: Setup bun and run
+      uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
+      run: bun start

@@ -1,5 +1,21 @@
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" width="512" height="512">
-    <defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+
+  <foreignObject xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="container">
+      <article>
+
+<!-- START_KIEU -->
+      <p class="nom">&#8220;&#33073;&#181641;&#147541;&#147541;&#29279;&#30382;</p>
+      <p class="nom">&#21689;&#20043;&#39640;&#139314;&#24716;&#38464;&#29227;&#179445;&#8221;</p>
+      <p class="quocngu">Tho&#7855;t tr&#244;ng nh&#7901;n nh&#7907;t m&#224;u da,</p>
+      <p class="quocngu">&#258;n g&#236; cao l&#7899;n &#273;&#7851;y &#273;&#224; l&#224;m sao?</p>
+      <p class="author"><i>(D&#242;ng 923-924) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
+<!-- END_KIEU -->
+
+      </article>
+    </div>
+  </foreignObject>
+  <defs>
     <style type="text/css">
       .container {
         --color: white;
@@ -8,7 +24,7 @@
         justify-content: center;
         align-items: center;
         max-width: 100%;
-        height: 100vh;
+        height: 100%;
         font-family: Inter, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', Montserrat, sans-serif;
         font-weight: 600;
         background: var(--bg-color);
@@ -59,7 +75,7 @@
 
       article:after {
         position: absolute;
-        content: "”";
+        content: "&#8221;";
         font-family: Montserrat, sans-serif;
         font-size: 10rem;
         line-height: 0;
@@ -67,20 +83,5 @@
         right: 20px;
       }
     </style>
-</defs>
-  <foreignObject x="0" y="0" width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="container">
-    <article>
-
-<!-- START_KIEU -->
-      <p class="nom">“埮𥿁𣻃捲征鞍</p>
-      <p class="nom">𬖉𠊛㐌屈󰋇岸橷撑”</p>
-      <p class="quocngu">Dặm vương bụi cuốn chinh an,</p>
-      <p class="quocngu">Trông người đã khuất mấy ngàn dâu xanh.</p>
-      <p class="author"><i>(Dòng 1521-1522) Truyện Kiều</i> -- Nguyễn Du</p>
-<!-- END_KIEU -->
-      
-      </article>
-    </div>
-  </foreignObject>
+  </defs>
 </svg>
