@@ -4,11 +4,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">\u201C󰁹𦖑娘買待𢚸</p>
-      <p class="nom">於低󰘇佛󰑼空狹之\u201D</p>
-      <p class="quocngu">RỈ nghe nàng mới giãi lòng:</p>
-      <p class="quocngu">Ở đây cửa Phật là không hẹp gì;</p>
-      <p class="author"><i>(D\u00F2ng 2075-2076) Truy\u1EC7n Ki\u1EC1u</i> -- Nguy\u1EC5n Du</p>
+      <p class="nom">&#8220;&#164316;&#35519;&#32013;&#37319;&#20110;&#27512;</p>
+      <p class="nom">&#13324;&#27450;&#23815;&#20316;&#21519;&#27450;&#164216;&#136102;&#8221;</p>
+      <p class="quocngu">&#272;&#7911; &#273;i&#7873;u n&#7841;p th&#225;i vu qui,</p>
+      <p class="quocngu">&#272;&#227; khi su&#7891;ng s&#227;, l&#7841;i khi &#273;&#7913;ng ng&#7891;i.</p>
+      <p class="author"><i>(D&#242;ng 957-958) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
 <!-- END_KIEU -->
 </div>
 

@@ -1,5 +1,6 @@
 import { resolve } from 'node:path'
 import * as core from '@actions/core'
+import { encode } from 'html-entities'
 import sharp from 'sharp'
 import { default as truyenKieu } from '../assets/truyen-kieu-1871.json'
 
@@ -21,10 +22,22 @@ function getRandomQuotes(): DoubleQuotes {
 
   // Get 2 random lines from json file of Truyen Kieu
   const line = 2 * randomIndex + 1
-  const firstNom = truyenKieu[2 * randomIndex].nom
-  const secondNom = truyenKieu[2 * randomIndex + 1].nom
-  const firstQuocNgu = truyenKieu[2 * randomIndex].quocngu
-  const secondQuocNgu = truyenKieu[2 * randomIndex + 1].quocngu
+  const firstNom = encode(truyenKieu[2 * randomIndex].nom, {
+    mode: 'nonAsciiPrintable',
+    level: 'xml',
+  })
+  const secondNom = encode(truyenKieu[2 * randomIndex + 1].nom, {
+    mode: 'nonAsciiPrintable',
+    level: 'xml',
+  })
+  const firstQuocNgu = encode(truyenKieu[2 * randomIndex].quocngu, {
+    mode: 'nonAsciiPrintable',
+    level: 'xml',
+  })
+  const secondQuocNgu = encode(truyenKieu[2 * randomIndex + 1].quocngu, {
+    mode: 'nonAsciiPrintable',
+    level: 'xml',
+  })
 
   const result: DoubleQuotes = {
     line,
@@ -64,11 +77,13 @@ export async function randomKieu() {
 
   const poem: DoubleQuotes = getRandomQuotes()
   const result = String.raw`
-      <p class="nom">“${poem.firstNom}</p>
-      <p class="nom">${poem.secondNom}”</p>
+      <p class="nom">&#8220;${poem.firstNom}</p>
+      <p class="nom">${poem.secondNom}&#8221;</p>
       <p class="quocngu">${poem.firstQuocNgu}</p>
       <p class="quocngu">${poem.secondQuocNgu}</p>
-      <p class="author"><i>(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều</i> -- Nguyễn Du</p>`
+      <p class="author"><i>(D&#242;ng ${poem.line}-${
+        poem.line + 1
+      }) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>`
 
   await updateFile('./README.md', result)
   await updateFile('./assets/random-kieu.svg', result)
