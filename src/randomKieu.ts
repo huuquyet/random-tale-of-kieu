@@ -1,6 +1,5 @@
 import * as core from '@actions/core'
 import { encode } from 'html-entities'
-import sharp from 'sharp'
 import { default as truyenKieu } from '../assets/truyen-kieu-1871.json'
 
 interface DoubleQuotes {
@@ -85,11 +84,4 @@ export async function randomKieu() {
 
   await updateFile('./README.md', result)
   await updateFile('./assets/random-kieu.svg', result)
-
-  // convert svg to webp
-  await sharp('./assets/random-kieu.svg')
-    .toFormat('jpeg', { mozjpeg: true })
-    .toFile('./assets/random-kieu.jpg')
-    .then((info: any) => core.info(info))
-    .catch((err: any) => console.error(err))
 }

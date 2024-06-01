@@ -4,11 +4,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">&#8220;&#33805;&#34028;&#32676;&#138125;&#36050;&#21561;</p>
-      <p class="nom">&#984968;&#37758;&#29282;&#22899;&#21689;&#136098;&#26417;&#23433;&#8221;</p>
-      <p class="quocngu">B&#236;nh b&#7891;ng c&#242;n ch&#250;t xa x&#244;i,</p>
-      <p class="quocngu">&#272;&#7881;nh chung sao n&#7905; &#259;n ng&#7891;i cho an!&quot;</p>
-      <p class="author"><i>(D&#242;ng 2937-2938) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
+      <p class="nom">&#8220;&#33073;&#181641;&#147541;&#147541;&#29279;&#30382;</p>
+      <p class="nom">&#21689;&#20043;&#39640;&#139314;&#24716;&#38464;&#29227;&#179445;&#8221;</p>
+      <p class="quocngu">Tho&#7855;t tr&#244;ng nh&#7901;n nh&#7907;t m&#224;u da,</p>
+      <p class="quocngu">&#258;n g&#236; cao l&#7899;n &#273;&#7851;y &#273;&#224; l&#224;m sao?</p>
+      <p class="author"><i>(D&#242;ng 923-924) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
 <!-- END_KIEU -->
 </div>
 
