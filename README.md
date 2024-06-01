@@ -4,11 +4,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">&#8220;&#33073;&#181641;&#147541;&#147541;&#29279;&#30382;</p>
-      <p class="nom">&#21689;&#20043;&#39640;&#139314;&#24716;&#38464;&#29227;&#179445;&#8221;</p>
-      <p class="quocngu">Tho&#7855;t tr&#244;ng nh&#7901;n nh&#7907;t m&#224;u da,</p>
-      <p class="quocngu">&#258;n g&#236; cao l&#7899;n &#273;&#7851;y &#273;&#224; l&#224;m sao?</p>
-      <p class="author"><i>(D&#242;ng 923-924) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
+      <p class="nom">&#8220;&#985150;&#134354;&#23458;&#36023;&#18233;&#28010;</p>
+      <p class="nom">&#32384;&#36430;&#20652;&#25329;&#36196;&#32361;&#20873;&#142146;&#8221;</p>
+      <p class="quocngu">[C&#7841;n] l&#7901;i kh&#225;ch m&#7899;i th&#432;a r&#7857;ng:</p>
+      <p class="quocngu">Bu&#7897;c ch&#226;n th&#244;i c&#361;ng x&#237;ch th&#7857;ng nhi&#7879;m trao.</p>
+      <p class="author"><i>(D&#242;ng 903-904) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
 <!-- END_KIEU -->
 </div>
 
