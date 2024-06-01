@@ -10,8 +10,10 @@ branding:
 runs:
   using: "composite"
   steps:
-    - name: Setup bun and run
+    - name: Setup bun
       uses: oven-sh/setup-bun@v1
       with:
         bun-version: latest
+    - name: Generate random quotes from The Tale of Kieu
       run: bun start
+      shell: bash
