@@ -1,7 +1,7 @@
 require('./sourcemap-register.js');/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 1623:
+/***/ 7351:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -28,7 +28,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.issue = exports.issueCommand = void 0;
 const os = __importStar(__nccwpck_require__(2037));
-const utils_1 = __nccwpck_require__(9732);
+const utils_1 = __nccwpck_require__(5278);
 /**
  * Commands
  *
@@ -100,7 +100,7 @@ function escapeProperty(s) {
 
 /***/ }),
 
-/***/ 4016:
+/***/ 2186:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -135,12 +135,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getIDToken = exports.getState = exports.saveState = exports.group = exports.endGroup = exports.startGroup = exports.info = exports.notice = exports.warning = exports.error = exports.debug = exports.isDebug = exports.setFailed = exports.setCommandEcho = exports.setOutput = exports.getBooleanInput = exports.getMultilineInput = exports.getInput = exports.addPath = exports.setSecret = exports.exportVariable = exports.ExitCode = void 0;
-const command_1 = __nccwpck_require__(1623);
-const file_command_1 = __nccwpck_require__(1707);
-const utils_1 = __nccwpck_require__(9732);
+const command_1 = __nccwpck_require__(7351);
+const file_command_1 = __nccwpck_require__(717);
+const utils_1 = __nccwpck_require__(5278);
 const os = __importStar(__nccwpck_require__(2037));
 const path = __importStar(__nccwpck_require__(1017));
-const oidc_utils_1 = __nccwpck_require__(964);
+const oidc_utils_1 = __nccwpck_require__(8041);
 /**
  * The code to exit an action
  */
@@ -425,17 +425,17 @@ exports.getIDToken = getIDToken;
 /**
  * Summary exports
  */
-var summary_1 = __nccwpck_require__(3514);
+var summary_1 = __nccwpck_require__(1327);
 Object.defineProperty(exports, "summary", ({ enumerable: true, get: function () { return summary_1.summary; } }));
 /**
  * @deprecated use core.summary
  */
-var summary_2 = __nccwpck_require__(3514);
+var summary_2 = __nccwpck_require__(1327);
 Object.defineProperty(exports, "markdownSummary", ({ enumerable: true, get: function () { return summary_2.markdownSummary; } }));
 /**
  * Path exports
  */
-var path_utils_1 = __nccwpck_require__(8045);
+var path_utils_1 = __nccwpck_require__(2981);
 Object.defineProperty(exports, "toPosixPath", ({ enumerable: true, get: function () { return path_utils_1.toPosixPath; } }));
 Object.defineProperty(exports, "toWin32Path", ({ enumerable: true, get: function () { return path_utils_1.toWin32Path; } }));
 Object.defineProperty(exports, "toPlatformPath", ({ enumerable: true, get: function () { return path_utils_1.toPlatformPath; } }));
@@ -443,7 +443,7 @@ Object.defineProperty(exports, "toPlatformPath", ({ enumerable: true, get: funct
 
 /***/ }),
 
-/***/ 1707:
+/***/ 717:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -474,8 +474,8 @@ exports.prepareKeyValueMessage = exports.issueFileCommand = void 0;
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const fs = __importStar(__nccwpck_require__(7147));
 const os = __importStar(__nccwpck_require__(2037));
-const uuid_1 = __nccwpck_require__(9694);
-const utils_1 = __nccwpck_require__(9732);
+const uuid_1 = __nccwpck_require__(5840);
+const utils_1 = __nccwpck_require__(5278);
 function issueFileCommand(command, message) {
     const filePath = process.env[`GITHUB_${command}`];
     if (!filePath) {
@@ -508,7 +508,7 @@ exports.prepareKeyValueMessage = prepareKeyValueMessage;
 
 /***/ }),
 
-/***/ 964:
+/***/ 8041:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -524,9 +524,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.OidcClient = void 0;
-const http_client_1 = __nccwpck_require__(5078);
-const auth_1 = __nccwpck_require__(1339);
-const core_1 = __nccwpck_require__(4016);
+const http_client_1 = __nccwpck_require__(6255);
+const auth_1 = __nccwpck_require__(5526);
+const core_1 = __nccwpck_require__(2186);
 class OidcClient {
     static createHttpClient(allowRetry = true, maxRetry = 10) {
         const requestOptions = {
@@ -592,7 +592,7 @@ exports.OidcClient = OidcClient;
 
 /***/ }),
 
-/***/ 8045:
+/***/ 2981:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -657,7 +657,7 @@ exports.toPlatformPath = toPlatformPath;
 
 /***/ }),
 
-/***/ 3514:
+/***/ 1327:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -947,7 +947,7 @@ exports.summary = _summary;
 
 /***/ }),
 
-/***/ 9732:
+/***/ 5278:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -994,7 +994,7 @@ exports.toCommandProperties = toCommandProperties;
 
 /***/ }),
 
-/***/ 1339:
+/***/ 5526:
 /***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
@@ -1082,7 +1082,7 @@ exports.PersonalAccessTokenCredentialHandler = PersonalAccessTokenCredentialHand
 
 /***/ }),
 
-/***/ 5078:
+/***/ 6255:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -1124,9 +1124,9 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.HttpClient = exports.isHttps = exports.HttpClientResponse = exports.HttpClientError = exports.getProxyUrl = exports.MediaTypes = exports.Headers = exports.HttpCodes = void 0;
 const http = __importStar(__nccwpck_require__(3685));
 const https = __importStar(__nccwpck_require__(5687));
-const pm = __importStar(__nccwpck_require__(5792));
-const tunnel = __importStar(__nccwpck_require__(7931));
-const undici_1 = __nccwpck_require__(5821);
+const pm = __importStar(__nccwpck_require__(9835));
+const tunnel = __importStar(__nccwpck_require__(4294));
+const undici_1 = __nccwpck_require__(1773);
 var HttpCodes;
 (function (HttpCodes) {
     HttpCodes[HttpCodes["OK"] = 200] = "OK";
@@ -1741,7 +1741,7 @@ const lowercaseKeys = (obj) => Object.keys(obj).reduce((c, k) => ((c[k.toLowerCa
 
 /***/ }),
 
-/***/ 5792:
+/***/ 9835:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -1830,15 +1830,3997 @@ function isLoopbackAddress(host) {
 
 /***/ }),
 
-/***/ 7931:
+/***/ 7391:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-module.exports = __nccwpck_require__(2361);
+/* MIT license */
+/* eslint-disable no-mixed-operators */
+const cssKeywords = __nccwpck_require__(8510);
+
+// NOTE: conversions should only return primitive values (i.e. arrays, or
+//       values that give correct `typeof` results).
+//       do not use box values types (i.e. Number(), String(), etc.)
+
+const reverseKeywords = {};
+for (const key of Object.keys(cssKeywords)) {
+	reverseKeywords[cssKeywords[key]] = key;
+}
+
+const convert = {
+	rgb: {channels: 3, labels: 'rgb'},
+	hsl: {channels: 3, labels: 'hsl'},
+	hsv: {channels: 3, labels: 'hsv'},
+	hwb: {channels: 3, labels: 'hwb'},
+	cmyk: {channels: 4, labels: 'cmyk'},
+	xyz: {channels: 3, labels: 'xyz'},
+	lab: {channels: 3, labels: 'lab'},
+	lch: {channels: 3, labels: 'lch'},
+	hex: {channels: 1, labels: ['hex']},
+	keyword: {channels: 1, labels: ['keyword']},
+	ansi16: {channels: 1, labels: ['ansi16']},
+	ansi256: {channels: 1, labels: ['ansi256']},
+	hcg: {channels: 3, labels: ['h', 'c', 'g']},
+	apple: {channels: 3, labels: ['r16', 'g16', 'b16']},
+	gray: {channels: 1, labels: ['gray']}
+};
+
+module.exports = convert;
+
+// Hide .channels and .labels properties
+for (const model of Object.keys(convert)) {
+	if (!('channels' in convert[model])) {
+		throw new Error('missing channels property: ' + model);
+	}
+
+	if (!('labels' in convert[model])) {
+		throw new Error('missing channel labels property: ' + model);
+	}
+
+	if (convert[model].labels.length !== convert[model].channels) {
+		throw new Error('channel and label counts mismatch: ' + model);
+	}
+
+	const {channels, labels} = convert[model];
+	delete convert[model].channels;
+	delete convert[model].labels;
+	Object.defineProperty(convert[model], 'channels', {value: channels});
+	Object.defineProperty(convert[model], 'labels', {value: labels});
+}
+
+convert.rgb.hsl = function (rgb) {
+	const r = rgb[0] / 255;
+	const g = rgb[1] / 255;
+	const b = rgb[2] / 255;
+	const min = Math.min(r, g, b);
+	const max = Math.max(r, g, b);
+	const delta = max - min;
+	let h;
+	let s;
+
+	if (max === min) {
+		h = 0;
+	} else if (r === max) {
+		h = (g - b) / delta;
+	} else if (g === max) {
+		h = 2 + (b - r) / delta;
+	} else if (b === max) {
+		h = 4 + (r - g) / delta;
+	}
+
+	h = Math.min(h * 60, 360);
+
+	if (h < 0) {
+		h += 360;
+	}
+
+	const l = (min + max) / 2;
+
+	if (max === min) {
+		s = 0;
+	} else if (l <= 0.5) {
+		s = delta / (max + min);
+	} else {
+		s = delta / (2 - max - min);
+	}
+
+	return [h, s * 100, l * 100];
+};
+
+convert.rgb.hsv = function (rgb) {
+	let rdif;
+	let gdif;
+	let bdif;
+	let h;
+	let s;
+
+	const r = rgb[0] / 255;
+	const g = rgb[1] / 255;
+	const b = rgb[2] / 255;
+	const v = Math.max(r, g, b);
+	const diff = v - Math.min(r, g, b);
+	const diffc = function (c) {
+		return (v - c) / 6 / diff + 1 / 2;
+	};
+
+	if (diff === 0) {
+		h = 0;
+		s = 0;
+	} else {
+		s = diff / v;
+		rdif = diffc(r);
+		gdif = diffc(g);
+		bdif = diffc(b);
+
+		if (r === v) {
+			h = bdif - gdif;
+		} else if (g === v) {
+			h = (1 / 3) + rdif - bdif;
+		} else if (b === v) {
+			h = (2 / 3) + gdif - rdif;
+		}
+
+		if (h < 0) {
+			h += 1;
+		} else if (h > 1) {
+			h -= 1;
+		}
+	}
+
+	return [
+		h * 360,
+		s * 100,
+		v * 100
+	];
+};
+
+convert.rgb.hwb = function (rgb) {
+	const r = rgb[0];
+	const g = rgb[1];
+	let b = rgb[2];
+	const h = convert.rgb.hsl(rgb)[0];
+	const w = 1 / 255 * Math.min(r, Math.min(g, b));
+
+	b = 1 - 1 / 255 * Math.max(r, Math.max(g, b));
+
+	return [h, w * 100, b * 100];
+};
+
+convert.rgb.cmyk = function (rgb) {
+	const r = rgb[0] / 255;
+	const g = rgb[1] / 255;
+	const b = rgb[2] / 255;
+
+	const k = Math.min(1 - r, 1 - g, 1 - b);
+	const c = (1 - r - k) / (1 - k) || 0;
+	const m = (1 - g - k) / (1 - k) || 0;
+	const y = (1 - b - k) / (1 - k) || 0;
+
+	return [c * 100, m * 100, y * 100, k * 100];
+};
+
+function comparativeDistance(x, y) {
+	/*
+		See https://en.m.wikipedia.org/wiki/Euclidean_distance#Squared_Euclidean_distance
+	*/
+	return (
+		((x[0] - y[0]) ** 2) +
+		((x[1] - y[1]) ** 2) +
+		((x[2] - y[2]) ** 2)
+	);
+}
+
+convert.rgb.keyword = function (rgb) {
+	const reversed = reverseKeywords[rgb];
+	if (reversed) {
+		return reversed;
+	}
+
+	let currentClosestDistance = Infinity;
+	let currentClosestKeyword;
+
+	for (const keyword of Object.keys(cssKeywords)) {
+		const value = cssKeywords[keyword];
+
+		// Compute comparative distance
+		const distance = comparativeDistance(rgb, value);
+
+		// Check if its less, if so set as closest
+		if (distance < currentClosestDistance) {
+			currentClosestDistance = distance;
+			currentClosestKeyword = keyword;
+		}
+	}
+
+	return currentClosestKeyword;
+};
+
+convert.keyword.rgb = function (keyword) {
+	return cssKeywords[keyword];
+};
+
+convert.rgb.xyz = function (rgb) {
+	let r = rgb[0] / 255;
+	let g = rgb[1] / 255;
+	let b = rgb[2] / 255;
+
+	// Assume sRGB
+	r = r > 0.04045 ? (((r + 0.055) / 1.055) ** 2.4) : (r / 12.92);
+	g = g > 0.04045 ? (((g + 0.055) / 1.055) ** 2.4) : (g / 12.92);
+	b = b > 0.04045 ? (((b + 0.055) / 1.055) ** 2.4) : (b / 12.92);
+
+	const x = (r * 0.4124) + (g * 0.3576) + (b * 0.1805);
+	const y = (r * 0.2126) + (g * 0.7152) + (b * 0.0722);
+	const z = (r * 0.0193) + (g * 0.1192) + (b * 0.9505);
+
+	return [x * 100, y * 100, z * 100];
+};
+
+convert.rgb.lab = function (rgb) {
+	const xyz = convert.rgb.xyz(rgb);
+	let x = xyz[0];
+	let y = xyz[1];
+	let z = xyz[2];
+
+	x /= 95.047;
+	y /= 100;
+	z /= 108.883;
+
+	x = x > 0.008856 ? (x ** (1 / 3)) : (7.787 * x) + (16 / 116);
+	y = y > 0.008856 ? (y ** (1 / 3)) : (7.787 * y) + (16 / 116);
+	z = z > 0.008856 ? (z ** (1 / 3)) : (7.787 * z) + (16 / 116);
+
+	const l = (116 * y) - 16;
+	const a = 500 * (x - y);
+	const b = 200 * (y - z);
+
+	return [l, a, b];
+};
+
+convert.hsl.rgb = function (hsl) {
+	const h = hsl[0] / 360;
+	const s = hsl[1] / 100;
+	const l = hsl[2] / 100;
+	let t2;
+	let t3;
+	let val;
+
+	if (s === 0) {
+		val = l * 255;
+		return [val, val, val];
+	}
+
+	if (l < 0.5) {
+		t2 = l * (1 + s);
+	} else {
+		t2 = l + s - l * s;
+	}
+
+	const t1 = 2 * l - t2;
+
+	const rgb = [0, 0, 0];
+	for (let i = 0; i < 3; i++) {
+		t3 = h + 1 / 3 * -(i - 1);
+		if (t3 < 0) {
+			t3++;
+		}
+
+		if (t3 > 1) {
+			t3--;
+		}
+
+		if (6 * t3 < 1) {
+			val = t1 + (t2 - t1) * 6 * t3;
+		} else if (2 * t3 < 1) {
+			val = t2;
+		} else if (3 * t3 < 2) {
+			val = t1 + (t2 - t1) * (2 / 3 - t3) * 6;
+		} else {
+			val = t1;
+		}
+
+		rgb[i] = val * 255;
+	}
+
+	return rgb;
+};
+
+convert.hsl.hsv = function (hsl) {
+	const h = hsl[0];
+	let s = hsl[1] / 100;
+	let l = hsl[2] / 100;
+	let smin = s;
+	const lmin = Math.max(l, 0.01);
+
+	l *= 2;
+	s *= (l <= 1) ? l : 2 - l;
+	smin *= lmin <= 1 ? lmin : 2 - lmin;
+	const v = (l + s) / 2;
+	const sv = l === 0 ? (2 * smin) / (lmin + smin) : (2 * s) / (l + s);
+
+	return [h, sv * 100, v * 100];
+};
+
+convert.hsv.rgb = function (hsv) {
+	const h = hsv[0] / 60;
+	const s = hsv[1] / 100;
+	let v = hsv[2] / 100;
+	const hi = Math.floor(h) % 6;
+
+	const f = h - Math.floor(h);
+	const p = 255 * v * (1 - s);
+	const q = 255 * v * (1 - (s * f));
+	const t = 255 * v * (1 - (s * (1 - f)));
+	v *= 255;
+
+	switch (hi) {
+		case 0:
+			return [v, t, p];
+		case 1:
+			return [q, v, p];
+		case 2:
+			return [p, v, t];
+		case 3:
+			return [p, q, v];
+		case 4:
+			return [t, p, v];
+		case 5:
+			return [v, p, q];
+	}
+};
+
+convert.hsv.hsl = function (hsv) {
+	const h = hsv[0];
+	const s = hsv[1] / 100;
+	const v = hsv[2] / 100;
+	const vmin = Math.max(v, 0.01);
+	let sl;
+	let l;
+
+	l = (2 - s) * v;
+	const lmin = (2 - s) * vmin;
+	sl = s * vmin;
+	sl /= (lmin <= 1) ? lmin : 2 - lmin;
+	sl = sl || 0;
+	l /= 2;
+
+	return [h, sl * 100, l * 100];
+};
+
+// http://dev.w3.org/csswg/css-color/#hwb-to-rgb
+convert.hwb.rgb = function (hwb) {
+	const h = hwb[0] / 360;
+	let wh = hwb[1] / 100;
+	let bl = hwb[2] / 100;
+	const ratio = wh + bl;
+	let f;
+
+	// Wh + bl cant be > 1
+	if (ratio > 1) {
+		wh /= ratio;
+		bl /= ratio;
+	}
+
+	const i = Math.floor(6 * h);
+	const v = 1 - bl;
+	f = 6 * h - i;
+
+	if ((i & 0x01) !== 0) {
+		f = 1 - f;
+	}
+
+	const n = wh + f * (v - wh); // Linear interpolation
+
+	let r;
+	let g;
+	let b;
+	/* eslint-disable max-statements-per-line,no-multi-spaces */
+	switch (i) {
+		default:
+		case 6:
+		case 0: r = v;  g = n;  b = wh; break;
+		case 1: r = n;  g = v;  b = wh; break;
+		case 2: r = wh; g = v;  b = n; break;
+		case 3: r = wh; g = n;  b = v; break;
+		case 4: r = n;  g = wh; b = v; break;
+		case 5: r = v;  g = wh; b = n; break;
+	}
+	/* eslint-enable max-statements-per-line,no-multi-spaces */
+
+	return [r * 255, g * 255, b * 255];
+};
+
+convert.cmyk.rgb = function (cmyk) {
+	const c = cmyk[0] / 100;
+	const m = cmyk[1] / 100;
+	const y = cmyk[2] / 100;
+	const k = cmyk[3] / 100;
+
+	const r = 1 - Math.min(1, c * (1 - k) + k);
+	const g = 1 - Math.min(1, m * (1 - k) + k);
+	const b = 1 - Math.min(1, y * (1 - k) + k);
+
+	return [r * 255, g * 255, b * 255];
+};
+
+convert.xyz.rgb = function (xyz) {
+	const x = xyz[0] / 100;
+	const y = xyz[1] / 100;
+	const z = xyz[2] / 100;
+	let r;
+	let g;
+	let b;
+
+	r = (x * 3.2406) + (y * -1.5372) + (z * -0.4986);
+	g = (x * -0.9689) + (y * 1.8758) + (z * 0.0415);
+	b = (x * 0.0557) + (y * -0.2040) + (z * 1.0570);
+
+	// Assume sRGB
+	r = r > 0.0031308
+		? ((1.055 * (r ** (1.0 / 2.4))) - 0.055)
+		: r * 12.92;
+
+	g = g > 0.0031308
+		? ((1.055 * (g ** (1.0 / 2.4))) - 0.055)
+		: g * 12.92;
+
+	b = b > 0.0031308
+		? ((1.055 * (b ** (1.0 / 2.4))) - 0.055)
+		: b * 12.92;
+
+	r = Math.min(Math.max(0, r), 1);
+	g = Math.min(Math.max(0, g), 1);
+	b = Math.min(Math.max(0, b), 1);
+
+	return [r * 255, g * 255, b * 255];
+};
+
+convert.xyz.lab = function (xyz) {
+	let x = xyz[0];
+	let y = xyz[1];
+	let z = xyz[2];
+
+	x /= 95.047;
+	y /= 100;
+	z /= 108.883;
+
+	x = x > 0.008856 ? (x ** (1 / 3)) : (7.787 * x) + (16 / 116);
+	y = y > 0.008856 ? (y ** (1 / 3)) : (7.787 * y) + (16 / 116);
+	z = z > 0.008856 ? (z ** (1 / 3)) : (7.787 * z) + (16 / 116);
+
+	const l = (116 * y) - 16;
+	const a = 500 * (x - y);
+	const b = 200 * (y - z);
+
+	return [l, a, b];
+};
+
+convert.lab.xyz = function (lab) {
+	const l = lab[0];
+	const a = lab[1];
+	const b = lab[2];
+	let x;
+	let y;
+	let z;
+
+	y = (l + 16) / 116;
+	x = a / 500 + y;
+	z = y - b / 200;
+
+	const y2 = y ** 3;
+	const x2 = x ** 3;
+	const z2 = z ** 3;
+	y = y2 > 0.008856 ? y2 : (y - 16 / 116) / 7.787;
+	x = x2 > 0.008856 ? x2 : (x - 16 / 116) / 7.787;
+	z = z2 > 0.008856 ? z2 : (z - 16 / 116) / 7.787;
+
+	x *= 95.047;
+	y *= 100;
+	z *= 108.883;
+
+	return [x, y, z];
+};
+
+convert.lab.lch = function (lab) {
+	const l = lab[0];
+	const a = lab[1];
+	const b = lab[2];
+	let h;
+
+	const hr = Math.atan2(b, a);
+	h = hr * 360 / 2 / Math.PI;
+
+	if (h < 0) {
+		h += 360;
+	}
+
+	const c = Math.sqrt(a * a + b * b);
+
+	return [l, c, h];
+};
+
+convert.lch.lab = function (lch) {
+	const l = lch[0];
+	const c = lch[1];
+	const h = lch[2];
+
+	const hr = h / 360 * 2 * Math.PI;
+	const a = c * Math.cos(hr);
+	const b = c * Math.sin(hr);
+
+	return [l, a, b];
+};
+
+convert.rgb.ansi16 = function (args, saturation = null) {
+	const [r, g, b] = args;
+	let value = saturation === null ? convert.rgb.hsv(args)[2] : saturation; // Hsv -> ansi16 optimization
+
+	value = Math.round(value / 50);
+
+	if (value === 0) {
+		return 30;
+	}
+
+	let ansi = 30
+		+ ((Math.round(b / 255) << 2)
+		| (Math.round(g / 255) << 1)
+		| Math.round(r / 255));
+
+	if (value === 2) {
+		ansi += 60;
+	}
+
+	return ansi;
+};
+
+convert.hsv.ansi16 = function (args) {
+	// Optimization here; we already know the value and don't need to get
+	// it converted for us.
+	return convert.rgb.ansi16(convert.hsv.rgb(args), args[2]);
+};
+
+convert.rgb.ansi256 = function (args) {
+	const r = args[0];
+	const g = args[1];
+	const b = args[2];
+
+	// We use the extended greyscale palette here, with the exception of
+	// black and white. normal palette only has 4 greyscale shades.
+	if (r === g && g === b) {
+		if (r < 8) {
+			return 16;
+		}
+
+		if (r > 248) {
+			return 231;
+		}
+
+		return Math.round(((r - 8) / 247) * 24) + 232;
+	}
+
+	const ansi = 16
+		+ (36 * Math.round(r / 255 * 5))
+		+ (6 * Math.round(g / 255 * 5))
+		+ Math.round(b / 255 * 5);
+
+	return ansi;
+};
+
+convert.ansi16.rgb = function (args) {
+	let color = args % 10;
+
+	// Handle greyscale
+	if (color === 0 || color === 7) {
+		if (args > 50) {
+			color += 3.5;
+		}
+
+		color = color / 10.5 * 255;
+
+		return [color, color, color];
+	}
+
+	const mult = (~~(args > 50) + 1) * 0.5;
+	const r = ((color & 1) * mult) * 255;
+	const g = (((color >> 1) & 1) * mult) * 255;
+	const b = (((color >> 2) & 1) * mult) * 255;
+
+	return [r, g, b];
+};
+
+convert.ansi256.rgb = function (args) {
+	// Handle greyscale
+	if (args >= 232) {
+		const c = (args - 232) * 10 + 8;
+		return [c, c, c];
+	}
+
+	args -= 16;
+
+	let rem;
+	const r = Math.floor(args / 36) / 5 * 255;
+	const g = Math.floor((rem = args % 36) / 6) / 5 * 255;
+	const b = (rem % 6) / 5 * 255;
+
+	return [r, g, b];
+};
+
+convert.rgb.hex = function (args) {
+	const integer = ((Math.round(args[0]) & 0xFF) << 16)
+		+ ((Math.round(args[1]) & 0xFF) << 8)
+		+ (Math.round(args[2]) & 0xFF);
+
+	const string = integer.toString(16).toUpperCase();
+	return '000000'.substring(string.length) + string;
+};
+
+convert.hex.rgb = function (args) {
+	const match = args.toString(16).match(/[a-f0-9]{6}|[a-f0-9]{3}/i);
+	if (!match) {
+		return [0, 0, 0];
+	}
+
+	let colorString = match[0];
+
+	if (match[0].length === 3) {
+		colorString = colorString.split('').map(char => {
+			return char + char;
+		}).join('');
+	}
+
+	const integer = parseInt(colorString, 16);
+	const r = (integer >> 16) & 0xFF;
+	const g = (integer >> 8) & 0xFF;
+	const b = integer & 0xFF;
+
+	return [r, g, b];
+};
+
+convert.rgb.hcg = function (rgb) {
+	const r = rgb[0] / 255;
+	const g = rgb[1] / 255;
+	const b = rgb[2] / 255;
+	const max = Math.max(Math.max(r, g), b);
+	const min = Math.min(Math.min(r, g), b);
+	const chroma = (max - min);
+	let grayscale;
+	let hue;
+
+	if (chroma < 1) {
+		grayscale = min / (1 - chroma);
+	} else {
+		grayscale = 0;
+	}
+
+	if (chroma <= 0) {
+		hue = 0;
+	} else
+	if (max === r) {
+		hue = ((g - b) / chroma) % 6;
+	} else
+	if (max === g) {
+		hue = 2 + (b - r) / chroma;
+	} else {
+		hue = 4 + (r - g) / chroma;
+	}
+
+	hue /= 6;
+	hue %= 1;
+
+	return [hue * 360, chroma * 100, grayscale * 100];
+};
+
+convert.hsl.hcg = function (hsl) {
+	const s = hsl[1] / 100;
+	const l = hsl[2] / 100;
+
+	const c = l < 0.5 ? (2.0 * s * l) : (2.0 * s * (1.0 - l));
+
+	let f = 0;
+	if (c < 1.0) {
+		f = (l - 0.5 * c) / (1.0 - c);
+	}
+
+	return [hsl[0], c * 100, f * 100];
+};
+
+convert.hsv.hcg = function (hsv) {
+	const s = hsv[1] / 100;
+	const v = hsv[2] / 100;
+
+	const c = s * v;
+	let f = 0;
+
+	if (c < 1.0) {
+		f = (v - c) / (1 - c);
+	}
+
+	return [hsv[0], c * 100, f * 100];
+};
+
+convert.hcg.rgb = function (hcg) {
+	const h = hcg[0] / 360;
+	const c = hcg[1] / 100;
+	const g = hcg[2] / 100;
+
+	if (c === 0.0) {
+		return [g * 255, g * 255, g * 255];
+	}
+
+	const pure = [0, 0, 0];
+	const hi = (h % 1) * 6;
+	const v = hi % 1;
+	const w = 1 - v;
+	let mg = 0;
+
+	/* eslint-disable max-statements-per-line */
+	switch (Math.floor(hi)) {
+		case 0:
+			pure[0] = 1; pure[1] = v; pure[2] = 0; break;
+		case 1:
+			pure[0] = w; pure[1] = 1; pure[2] = 0; break;
+		case 2:
+			pure[0] = 0; pure[1] = 1; pure[2] = v; break;
+		case 3:
+			pure[0] = 0; pure[1] = w; pure[2] = 1; break;
+		case 4:
+			pure[0] = v; pure[1] = 0; pure[2] = 1; break;
+		default:
+			pure[0] = 1; pure[1] = 0; pure[2] = w;
+	}
+	/* eslint-enable max-statements-per-line */
+
+	mg = (1.0 - c) * g;
+
+	return [
+		(c * pure[0] + mg) * 255,
+		(c * pure[1] + mg) * 255,
+		(c * pure[2] + mg) * 255
+	];
+};
+
+convert.hcg.hsv = function (hcg) {
+	const c = hcg[1] / 100;
+	const g = hcg[2] / 100;
+
+	const v = c + g * (1.0 - c);
+	let f = 0;
+
+	if (v > 0.0) {
+		f = c / v;
+	}
+
+	return [hcg[0], f * 100, v * 100];
+};
+
+convert.hcg.hsl = function (hcg) {
+	const c = hcg[1] / 100;
+	const g = hcg[2] / 100;
+
+	const l = g * (1.0 - c) + 0.5 * c;
+	let s = 0;
+
+	if (l > 0.0 && l < 0.5) {
+		s = c / (2 * l);
+	} else
+	if (l >= 0.5 && l < 1.0) {
+		s = c / (2 * (1 - l));
+	}
+
+	return [hcg[0], s * 100, l * 100];
+};
+
+convert.hcg.hwb = function (hcg) {
+	const c = hcg[1] / 100;
+	const g = hcg[2] / 100;
+	const v = c + g * (1.0 - c);
+	return [hcg[0], (v - c) * 100, (1 - v) * 100];
+};
+
+convert.hwb.hcg = function (hwb) {
+	const w = hwb[1] / 100;
+	const b = hwb[2] / 100;
+	const v = 1 - b;
+	const c = v - w;
+	let g = 0;
+
+	if (c < 1) {
+		g = (v - c) / (1 - c);
+	}
+
+	return [hwb[0], c * 100, g * 100];
+};
+
+convert.apple.rgb = function (apple) {
+	return [(apple[0] / 65535) * 255, (apple[1] / 65535) * 255, (apple[2] / 65535) * 255];
+};
+
+convert.rgb.apple = function (rgb) {
+	return [(rgb[0] / 255) * 65535, (rgb[1] / 255) * 65535, (rgb[2] / 255) * 65535];
+};
+
+convert.gray.rgb = function (args) {
+	return [args[0] / 100 * 255, args[0] / 100 * 255, args[0] / 100 * 255];
+};
+
+convert.gray.hsl = function (args) {
+	return [0, 0, args[0]];
+};
+
+convert.gray.hsv = convert.gray.hsl;
+
+convert.gray.hwb = function (gray) {
+	return [0, 100, gray[0]];
+};
+
+convert.gray.cmyk = function (gray) {
+	return [0, 0, 0, gray[0]];
+};
+
+convert.gray.lab = function (gray) {
+	return [gray[0], 0, 0];
+};
+
+convert.gray.hex = function (gray) {
+	const val = Math.round(gray[0] / 100 * 255) & 0xFF;
+	const integer = (val << 16) + (val << 8) + val;
+
+	const string = integer.toString(16).toUpperCase();
+	return '000000'.substring(string.length) + string;
+};
+
+convert.rgb.gray = function (rgb) {
+	const val = (rgb[0] + rgb[1] + rgb[2]) / 3;
+	return [val / 255 * 100];
+};
 
 
 /***/ }),
 
-/***/ 2361:
+/***/ 6931:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const conversions = __nccwpck_require__(7391);
+const route = __nccwpck_require__(880);
+
+const convert = {};
+
+const models = Object.keys(conversions);
+
+function wrapRaw(fn) {
+	const wrappedFn = function (...args) {
+		const arg0 = args[0];
+		if (arg0 === undefined || arg0 === null) {
+			return arg0;
+		}
+
+		if (arg0.length > 1) {
+			args = arg0;
+		}
+
+		return fn(args);
+	};
+
+	// Preserve .conversion property if there is one
+	if ('conversion' in fn) {
+		wrappedFn.conversion = fn.conversion;
+	}
+
+	return wrappedFn;
+}
+
+function wrapRounded(fn) {
+	const wrappedFn = function (...args) {
+		const arg0 = args[0];
+
+		if (arg0 === undefined || arg0 === null) {
+			return arg0;
+		}
+
+		if (arg0.length > 1) {
+			args = arg0;
+		}
+
+		const result = fn(args);
+
+		// We're assuming the result is an array here.
+		// see notice in conversions.js; don't use box types
+		// in conversion functions.
+		if (typeof result === 'object') {
+			for (let len = result.length, i = 0; i < len; i++) {
+				result[i] = Math.round(result[i]);
+			}
+		}
+
+		return result;
+	};
+
+	// Preserve .conversion property if there is one
+	if ('conversion' in fn) {
+		wrappedFn.conversion = fn.conversion;
+	}
+
+	return wrappedFn;
+}
+
+models.forEach(fromModel => {
+	convert[fromModel] = {};
+
+	Object.defineProperty(convert[fromModel], 'channels', {value: conversions[fromModel].channels});
+	Object.defineProperty(convert[fromModel], 'labels', {value: conversions[fromModel].labels});
+
+	const routes = route(fromModel);
+	const routeModels = Object.keys(routes);
+
+	routeModels.forEach(toModel => {
+		const fn = routes[toModel];
+
+		convert[fromModel][toModel] = wrapRounded(fn);
+		convert[fromModel][toModel].raw = wrapRaw(fn);
+	});
+});
+
+module.exports = convert;
+
+
+/***/ }),
+
+/***/ 880:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const conversions = __nccwpck_require__(7391);
+
+/*
+	This function routes a model to all other models.
+
+	all functions that are routed have a property `.conversion` attached
+	to the returned synthetic function. This property is an array
+	of strings, each with the steps in between the 'from' and 'to'
+	color models (inclusive).
+
+	conversions that are not possible simply are not included.
+*/
+
+function buildGraph() {
+	const graph = {};
+	// https://jsperf.com/object-keys-vs-for-in-with-closure/3
+	const models = Object.keys(conversions);
+
+	for (let len = models.length, i = 0; i < len; i++) {
+		graph[models[i]] = {
+			// http://jsperf.com/1-vs-infinity
+			// micro-opt, but this is simple.
+			distance: -1,
+			parent: null
+		};
+	}
+
+	return graph;
+}
+
+// https://en.wikipedia.org/wiki/Breadth-first_search
+function deriveBFS(fromModel) {
+	const graph = buildGraph();
+	const queue = [fromModel]; // Unshift -> queue -> pop
+
+	graph[fromModel].distance = 0;
+
+	while (queue.length) {
+		const current = queue.pop();
+		const adjacents = Object.keys(conversions[current]);
+
+		for (let len = adjacents.length, i = 0; i < len; i++) {
+			const adjacent = adjacents[i];
+			const node = graph[adjacent];
+
+			if (node.distance === -1) {
+				node.distance = graph[current].distance + 1;
+				node.parent = current;
+				queue.unshift(adjacent);
+			}
+		}
+	}
+
+	return graph;
+}
+
+function link(from, to) {
+	return function (args) {
+		return to(from(args));
+	};
+}
+
+function wrapConversion(toModel, graph) {
+	const path = [graph[toModel].parent, toModel];
+	let fn = conversions[graph[toModel].parent][toModel];
+
+	let cur = graph[toModel].parent;
+	while (graph[cur].parent) {
+		path.unshift(graph[cur].parent);
+		fn = link(conversions[graph[cur].parent][cur], fn);
+		cur = graph[cur].parent;
+	}
+
+	fn.conversion = path;
+	return fn;
+}
+
+module.exports = function (fromModel) {
+	const graph = deriveBFS(fromModel);
+	const conversion = {};
+
+	const models = Object.keys(graph);
+	for (let len = models.length, i = 0; i < len; i++) {
+		const toModel = models[i];
+		const node = graph[toModel];
+
+		if (node.parent === null) {
+			// No possible conversion, or this node is the source model.
+			continue;
+		}
+
+		conversion[toModel] = wrapConversion(toModel, graph);
+	}
+
+	return conversion;
+};
+
+
+
+/***/ }),
+
+/***/ 8510:
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = {
+	"aliceblue": [240, 248, 255],
+	"antiquewhite": [250, 235, 215],
+	"aqua": [0, 255, 255],
+	"aquamarine": [127, 255, 212],
+	"azure": [240, 255, 255],
+	"beige": [245, 245, 220],
+	"bisque": [255, 228, 196],
+	"black": [0, 0, 0],
+	"blanchedalmond": [255, 235, 205],
+	"blue": [0, 0, 255],
+	"blueviolet": [138, 43, 226],
+	"brown": [165, 42, 42],
+	"burlywood": [222, 184, 135],
+	"cadetblue": [95, 158, 160],
+	"chartreuse": [127, 255, 0],
+	"chocolate": [210, 105, 30],
+	"coral": [255, 127, 80],
+	"cornflowerblue": [100, 149, 237],
+	"cornsilk": [255, 248, 220],
+	"crimson": [220, 20, 60],
+	"cyan": [0, 255, 255],
+	"darkblue": [0, 0, 139],
+	"darkcyan": [0, 139, 139],
+	"darkgoldenrod": [184, 134, 11],
+	"darkgray": [169, 169, 169],
+	"darkgreen": [0, 100, 0],
+	"darkgrey": [169, 169, 169],
+	"darkkhaki": [189, 183, 107],
+	"darkmagenta": [139, 0, 139],
+	"darkolivegreen": [85, 107, 47],
+	"darkorange": [255, 140, 0],
+	"darkorchid": [153, 50, 204],
+	"darkred": [139, 0, 0],
+	"darksalmon": [233, 150, 122],
+	"darkseagreen": [143, 188, 143],
+	"darkslateblue": [72, 61, 139],
+	"darkslategray": [47, 79, 79],
+	"darkslategrey": [47, 79, 79],
+	"darkturquoise": [0, 206, 209],
+	"darkviolet": [148, 0, 211],
+	"deeppink": [255, 20, 147],
+	"deepskyblue": [0, 191, 255],
+	"dimgray": [105, 105, 105],
+	"dimgrey": [105, 105, 105],
+	"dodgerblue": [30, 144, 255],
+	"firebrick": [178, 34, 34],
+	"floralwhite": [255, 250, 240],
+	"forestgreen": [34, 139, 34],
+	"fuchsia": [255, 0, 255],
+	"gainsboro": [220, 220, 220],
+	"ghostwhite": [248, 248, 255],
+	"gold": [255, 215, 0],
+	"goldenrod": [218, 165, 32],
+	"gray": [128, 128, 128],
+	"green": [0, 128, 0],
+	"greenyellow": [173, 255, 47],
+	"grey": [128, 128, 128],
+	"honeydew": [240, 255, 240],
+	"hotpink": [255, 105, 180],
+	"indianred": [205, 92, 92],
+	"indigo": [75, 0, 130],
+	"ivory": [255, 255, 240],
+	"khaki": [240, 230, 140],
+	"lavender": [230, 230, 250],
+	"lavenderblush": [255, 240, 245],
+	"lawngreen": [124, 252, 0],
+	"lemonchiffon": [255, 250, 205],
+	"lightblue": [173, 216, 230],
+	"lightcoral": [240, 128, 128],
+	"lightcyan": [224, 255, 255],
+	"lightgoldenrodyellow": [250, 250, 210],
+	"lightgray": [211, 211, 211],
+	"lightgreen": [144, 238, 144],
+	"lightgrey": [211, 211, 211],
+	"lightpink": [255, 182, 193],
+	"lightsalmon": [255, 160, 122],
+	"lightseagreen": [32, 178, 170],
+	"lightskyblue": [135, 206, 250],
+	"lightslategray": [119, 136, 153],
+	"lightslategrey": [119, 136, 153],
+	"lightsteelblue": [176, 196, 222],
+	"lightyellow": [255, 255, 224],
+	"lime": [0, 255, 0],
+	"limegreen": [50, 205, 50],
+	"linen": [250, 240, 230],
+	"magenta": [255, 0, 255],
+	"maroon": [128, 0, 0],
+	"mediumaquamarine": [102, 205, 170],
+	"mediumblue": [0, 0, 205],
+	"mediumorchid": [186, 85, 211],
+	"mediumpurple": [147, 112, 219],
+	"mediumseagreen": [60, 179, 113],
+	"mediumslateblue": [123, 104, 238],
+	"mediumspringgreen": [0, 250, 154],
+	"mediumturquoise": [72, 209, 204],
+	"mediumvioletred": [199, 21, 133],
+	"midnightblue": [25, 25, 112],
+	"mintcream": [245, 255, 250],
+	"mistyrose": [255, 228, 225],
+	"moccasin": [255, 228, 181],
+	"navajowhite": [255, 222, 173],
+	"navy": [0, 0, 128],
+	"oldlace": [253, 245, 230],
+	"olive": [128, 128, 0],
+	"olivedrab": [107, 142, 35],
+	"orange": [255, 165, 0],
+	"orangered": [255, 69, 0],
+	"orchid": [218, 112, 214],
+	"palegoldenrod": [238, 232, 170],
+	"palegreen": [152, 251, 152],
+	"paleturquoise": [175, 238, 238],
+	"palevioletred": [219, 112, 147],
+	"papayawhip": [255, 239, 213],
+	"peachpuff": [255, 218, 185],
+	"peru": [205, 133, 63],
+	"pink": [255, 192, 203],
+	"plum": [221, 160, 221],
+	"powderblue": [176, 224, 230],
+	"purple": [128, 0, 128],
+	"rebeccapurple": [102, 51, 153],
+	"red": [255, 0, 0],
+	"rosybrown": [188, 143, 143],
+	"royalblue": [65, 105, 225],
+	"saddlebrown": [139, 69, 19],
+	"salmon": [250, 128, 114],
+	"sandybrown": [244, 164, 96],
+	"seagreen": [46, 139, 87],
+	"seashell": [255, 245, 238],
+	"sienna": [160, 82, 45],
+	"silver": [192, 192, 192],
+	"skyblue": [135, 206, 235],
+	"slateblue": [106, 90, 205],
+	"slategray": [112, 128, 144],
+	"slategrey": [112, 128, 144],
+	"snow": [255, 250, 250],
+	"springgreen": [0, 255, 127],
+	"steelblue": [70, 130, 180],
+	"tan": [210, 180, 140],
+	"teal": [0, 128, 128],
+	"thistle": [216, 191, 216],
+	"tomato": [255, 99, 71],
+	"turquoise": [64, 224, 208],
+	"violet": [238, 130, 238],
+	"wheat": [245, 222, 179],
+	"white": [255, 255, 255],
+	"whitesmoke": [245, 245, 245],
+	"yellow": [255, 255, 0],
+	"yellowgreen": [154, 205, 50]
+};
+
+
+/***/ }),
+
+/***/ 1069:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+/* MIT license */
+var colorNames = __nccwpck_require__(8510);
+var swizzle = __nccwpck_require__(8679);
+var hasOwnProperty = Object.hasOwnProperty;
+
+var reverseNames = Object.create(null);
+
+// create a list of reverse color names
+for (var name in colorNames) {
+	if (hasOwnProperty.call(colorNames, name)) {
+		reverseNames[colorNames[name]] = name;
+	}
+}
+
+var cs = module.exports = {
+	to: {},
+	get: {}
+};
+
+cs.get = function (string) {
+	var prefix = string.substring(0, 3).toLowerCase();
+	var val;
+	var model;
+	switch (prefix) {
+		case 'hsl':
+			val = cs.get.hsl(string);
+			model = 'hsl';
+			break;
+		case 'hwb':
+			val = cs.get.hwb(string);
+			model = 'hwb';
+			break;
+		default:
+			val = cs.get.rgb(string);
+			model = 'rgb';
+			break;
+	}
+
+	if (!val) {
+		return null;
+	}
+
+	return {model: model, value: val};
+};
+
+cs.get.rgb = function (string) {
+	if (!string) {
+		return null;
+	}
+
+	var abbr = /^#([a-f0-9]{3,4})$/i;
+	var hex = /^#([a-f0-9]{6})([a-f0-9]{2})?$/i;
+	var rgba = /^rgba?\(\s*([+-]?\d+)(?=[\s,])\s*(?:,\s*)?([+-]?\d+)(?=[\s,])\s*(?:,\s*)?([+-]?\d+)\s*(?:[,|\/]\s*([+-]?[\d\.]+)(%?)\s*)?\)$/;
+	var per = /^rgba?\(\s*([+-]?[\d\.]+)\%\s*,?\s*([+-]?[\d\.]+)\%\s*,?\s*([+-]?[\d\.]+)\%\s*(?:[,|\/]\s*([+-]?[\d\.]+)(%?)\s*)?\)$/;
+	var keyword = /^(\w+)$/;
+
+	var rgb = [0, 0, 0, 1];
+	var match;
+	var i;
+	var hexAlpha;
+
+	if (match = string.match(hex)) {
+		hexAlpha = match[2];
+		match = match[1];
+
+		for (i = 0; i < 3; i++) {
+			// https://jsperf.com/slice-vs-substr-vs-substring-methods-long-string/19
+			var i2 = i * 2;
+			rgb[i] = parseInt(match.slice(i2, i2 + 2), 16);
+		}
+
+		if (hexAlpha) {
+			rgb[3] = parseInt(hexAlpha, 16) / 255;
+		}
+	} else if (match = string.match(abbr)) {
+		match = match[1];
+		hexAlpha = match[3];
+
+		for (i = 0; i < 3; i++) {
+			rgb[i] = parseInt(match[i] + match[i], 16);
+		}
+
+		if (hexAlpha) {
+			rgb[3] = parseInt(hexAlpha + hexAlpha, 16) / 255;
+		}
+	} else if (match = string.match(rgba)) {
+		for (i = 0; i < 3; i++) {
+			rgb[i] = parseInt(match[i + 1], 0);
+		}
+
+		if (match[4]) {
+			if (match[5]) {
+				rgb[3] = parseFloat(match[4]) * 0.01;
+			} else {
+				rgb[3] = parseFloat(match[4]);
+			}
+		}
+	} else if (match = string.match(per)) {
+		for (i = 0; i < 3; i++) {
+			rgb[i] = Math.round(parseFloat(match[i + 1]) * 2.55);
+		}
+
+		if (match[4]) {
+			if (match[5]) {
+				rgb[3] = parseFloat(match[4]) * 0.01;
+			} else {
+				rgb[3] = parseFloat(match[4]);
+			}
+		}
+	} else if (match = string.match(keyword)) {
+		if (match[1] === 'transparent') {
+			return [0, 0, 0, 0];
+		}
+
+		if (!hasOwnProperty.call(colorNames, match[1])) {
+			return null;
+		}
+
+		rgb = colorNames[match[1]];
+		rgb[3] = 1;
+
+		return rgb;
+	} else {
+		return null;
+	}
+
+	for (i = 0; i < 3; i++) {
+		rgb[i] = clamp(rgb[i], 0, 255);
+	}
+	rgb[3] = clamp(rgb[3], 0, 1);
+
+	return rgb;
+};
+
+cs.get.hsl = function (string) {
+	if (!string) {
+		return null;
+	}
+
+	var hsl = /^hsla?\(\s*([+-]?(?:\d{0,3}\.)?\d+)(?:deg)?\s*,?\s*([+-]?[\d\.]+)%\s*,?\s*([+-]?[\d\.]+)%\s*(?:[,|\/]\s*([+-]?(?=\.\d|\d)(?:0|[1-9]\d*)?(?:\.\d*)?(?:[eE][+-]?\d+)?)\s*)?\)$/;
+	var match = string.match(hsl);
+
+	if (match) {
+		var alpha = parseFloat(match[4]);
+		var h = ((parseFloat(match[1]) % 360) + 360) % 360;
+		var s = clamp(parseFloat(match[2]), 0, 100);
+		var l = clamp(parseFloat(match[3]), 0, 100);
+		var a = clamp(isNaN(alpha) ? 1 : alpha, 0, 1);
+
+		return [h, s, l, a];
+	}
+
+	return null;
+};
+
+cs.get.hwb = function (string) {
+	if (!string) {
+		return null;
+	}
+
+	var hwb = /^hwb\(\s*([+-]?\d{0,3}(?:\.\d+)?)(?:deg)?\s*,\s*([+-]?[\d\.]+)%\s*,\s*([+-]?[\d\.]+)%\s*(?:,\s*([+-]?(?=\.\d|\d)(?:0|[1-9]\d*)?(?:\.\d*)?(?:[eE][+-]?\d+)?)\s*)?\)$/;
+	var match = string.match(hwb);
+
+	if (match) {
+		var alpha = parseFloat(match[4]);
+		var h = ((parseFloat(match[1]) % 360) + 360) % 360;
+		var w = clamp(parseFloat(match[2]), 0, 100);
+		var b = clamp(parseFloat(match[3]), 0, 100);
+		var a = clamp(isNaN(alpha) ? 1 : alpha, 0, 1);
+		return [h, w, b, a];
+	}
+
+	return null;
+};
+
+cs.to.hex = function () {
+	var rgba = swizzle(arguments);
+
+	return (
+		'#' +
+		hexDouble(rgba[0]) +
+		hexDouble(rgba[1]) +
+		hexDouble(rgba[2]) +
+		(rgba[3] < 1
+			? (hexDouble(Math.round(rgba[3] * 255)))
+			: '')
+	);
+};
+
+cs.to.rgb = function () {
+	var rgba = swizzle(arguments);
+
+	return rgba.length < 4 || rgba[3] === 1
+		? 'rgb(' + Math.round(rgba[0]) + ', ' + Math.round(rgba[1]) + ', ' + Math.round(rgba[2]) + ')'
+		: 'rgba(' + Math.round(rgba[0]) + ', ' + Math.round(rgba[1]) + ', ' + Math.round(rgba[2]) + ', ' + rgba[3] + ')';
+};
+
+cs.to.rgb.percent = function () {
+	var rgba = swizzle(arguments);
+
+	var r = Math.round(rgba[0] / 255 * 100);
+	var g = Math.round(rgba[1] / 255 * 100);
+	var b = Math.round(rgba[2] / 255 * 100);
+
+	return rgba.length < 4 || rgba[3] === 1
+		? 'rgb(' + r + '%, ' + g + '%, ' + b + '%)'
+		: 'rgba(' + r + '%, ' + g + '%, ' + b + '%, ' + rgba[3] + ')';
+};
+
+cs.to.hsl = function () {
+	var hsla = swizzle(arguments);
+	return hsla.length < 4 || hsla[3] === 1
+		? 'hsl(' + hsla[0] + ', ' + hsla[1] + '%, ' + hsla[2] + '%)'
+		: 'hsla(' + hsla[0] + ', ' + hsla[1] + '%, ' + hsla[2] + '%, ' + hsla[3] + ')';
+};
+
+// hwb is a bit different than rgb(a) & hsl(a) since there is no alpha specific syntax
+// (hwb have alpha optional & 1 is default value)
+cs.to.hwb = function () {
+	var hwba = swizzle(arguments);
+
+	var a = '';
+	if (hwba.length >= 4 && hwba[3] !== 1) {
+		a = ', ' + hwba[3];
+	}
+
+	return 'hwb(' + hwba[0] + ', ' + hwba[1] + '%, ' + hwba[2] + '%' + a + ')';
+};
+
+cs.to.keyword = function (rgb) {
+	return reverseNames[rgb.slice(0, 3)];
+};
+
+// helpers
+function clamp(num, min, max) {
+	return Math.min(Math.max(min, num), max);
+}
+
+function hexDouble(num) {
+	var str = Math.round(num).toString(16).toUpperCase();
+	return (str.length < 2) ? '0' + str : str;
+}
+
+
+/***/ }),
+
+/***/ 7177:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const colorString = __nccwpck_require__(1069);
+const convert = __nccwpck_require__(6931);
+
+const skippedModels = [
+	// To be honest, I don't really feel like keyword belongs in color convert, but eh.
+	'keyword',
+
+	// Gray conflicts with some method names, and has its own method defined.
+	'gray',
+
+	// Shouldn't really be in color-convert either...
+	'hex',
+];
+
+const hashedModelKeys = {};
+for (const model of Object.keys(convert)) {
+	hashedModelKeys[[...convert[model].labels].sort().join('')] = model;
+}
+
+const limiters = {};
+
+function Color(object, model) {
+	if (!(this instanceof Color)) {
+		return new Color(object, model);
+	}
+
+	if (model && model in skippedModels) {
+		model = null;
+	}
+
+	if (model && !(model in convert)) {
+		throw new Error('Unknown model: ' + model);
+	}
+
+	let i;
+	let channels;
+
+	if (object == null) { // eslint-disable-line no-eq-null,eqeqeq
+		this.model = 'rgb';
+		this.color = [0, 0, 0];
+		this.valpha = 1;
+	} else if (object instanceof Color) {
+		this.model = object.model;
+		this.color = [...object.color];
+		this.valpha = object.valpha;
+	} else if (typeof object === 'string') {
+		const result = colorString.get(object);
+		if (result === null) {
+			throw new Error('Unable to parse color from string: ' + object);
+		}
+
+		this.model = result.model;
+		channels = convert[this.model].channels;
+		this.color = result.value.slice(0, channels);
+		this.valpha = typeof result.value[channels] === 'number' ? result.value[channels] : 1;
+	} else if (object.length > 0) {
+		this.model = model || 'rgb';
+		channels = convert[this.model].channels;
+		const newArray = Array.prototype.slice.call(object, 0, channels);
+		this.color = zeroArray(newArray, channels);
+		this.valpha = typeof object[channels] === 'number' ? object[channels] : 1;
+	} else if (typeof object === 'number') {
+		// This is always RGB - can be converted later on.
+		this.model = 'rgb';
+		this.color = [
+			(object >> 16) & 0xFF,
+			(object >> 8) & 0xFF,
+			object & 0xFF,
+		];
+		this.valpha = 1;
+	} else {
+		this.valpha = 1;
+
+		const keys = Object.keys(object);
+		if ('alpha' in object) {
+			keys.splice(keys.indexOf('alpha'), 1);
+			this.valpha = typeof object.alpha === 'number' ? object.alpha : 0;
+		}
+
+		const hashedKeys = keys.sort().join('');
+		if (!(hashedKeys in hashedModelKeys)) {
+			throw new Error('Unable to parse color from object: ' + JSON.stringify(object));
+		}
+
+		this.model = hashedModelKeys[hashedKeys];
+
+		const {labels} = convert[this.model];
+		const color = [];
+		for (i = 0; i < labels.length; i++) {
+			color.push(object[labels[i]]);
+		}
+
+		this.color = zeroArray(color);
+	}
+
+	// Perform limitations (clamping, etc.)
+	if (limiters[this.model]) {
+		channels = convert[this.model].channels;
+		for (i = 0; i < channels; i++) {
+			const limit = limiters[this.model][i];
+			if (limit) {
+				this.color[i] = limit(this.color[i]);
+			}
+		}
+	}
+
+	this.valpha = Math.max(0, Math.min(1, this.valpha));
+
+	if (Object.freeze) {
+		Object.freeze(this);
+	}
+}
+
+Color.prototype = {
+	toString() {
+		return this.string();
+	},
+
+	toJSON() {
+		return this[this.model]();
+	},
+
+	string(places) {
+		let self = this.model in colorString.to ? this : this.rgb();
+		self = self.round(typeof places === 'number' ? places : 1);
+		const args = self.valpha === 1 ? self.color : [...self.color, this.valpha];
+		return colorString.to[self.model](args);
+	},
+
+	percentString(places) {
+		const self = this.rgb().round(typeof places === 'number' ? places : 1);
+		const args = self.valpha === 1 ? self.color : [...self.color, this.valpha];
+		return colorString.to.rgb.percent(args);
+	},
+
+	array() {
+		return this.valpha === 1 ? [...this.color] : [...this.color, this.valpha];
+	},
+
+	object() {
+		const result = {};
+		const {channels} = convert[this.model];
+		const {labels} = convert[this.model];
+
+		for (let i = 0; i < channels; i++) {
+			result[labels[i]] = this.color[i];
+		}
+
+		if (this.valpha !== 1) {
+			result.alpha = this.valpha;
+		}
+
+		return result;
+	},
+
+	unitArray() {
+		const rgb = this.rgb().color;
+		rgb[0] /= 255;
+		rgb[1] /= 255;
+		rgb[2] /= 255;
+
+		if (this.valpha !== 1) {
+			rgb.push(this.valpha);
+		}
+
+		return rgb;
+	},
+
+	unitObject() {
+		const rgb = this.rgb().object();
+		rgb.r /= 255;
+		rgb.g /= 255;
+		rgb.b /= 255;
+
+		if (this.valpha !== 1) {
+			rgb.alpha = this.valpha;
+		}
+
+		return rgb;
+	},
+
+	round(places) {
+		places = Math.max(places || 0, 0);
+		return new Color([...this.color.map(roundToPlace(places)), this.valpha], this.model);
+	},
+
+	alpha(value) {
+		if (value !== undefined) {
+			return new Color([...this.color, Math.max(0, Math.min(1, value))], this.model);
+		}
+
+		return this.valpha;
+	},
+
+	// Rgb
+	red: getset('rgb', 0, maxfn(255)),
+	green: getset('rgb', 1, maxfn(255)),
+	blue: getset('rgb', 2, maxfn(255)),
+
+	hue: getset(['hsl', 'hsv', 'hsl', 'hwb', 'hcg'], 0, value => ((value % 360) + 360) % 360),
+
+	saturationl: getset('hsl', 1, maxfn(100)),
+	lightness: getset('hsl', 2, maxfn(100)),
+
+	saturationv: getset('hsv', 1, maxfn(100)),
+	value: getset('hsv', 2, maxfn(100)),
+
+	chroma: getset('hcg', 1, maxfn(100)),
+	gray: getset('hcg', 2, maxfn(100)),
+
+	white: getset('hwb', 1, maxfn(100)),
+	wblack: getset('hwb', 2, maxfn(100)),
+
+	cyan: getset('cmyk', 0, maxfn(100)),
+	magenta: getset('cmyk', 1, maxfn(100)),
+	yellow: getset('cmyk', 2, maxfn(100)),
+	black: getset('cmyk', 3, maxfn(100)),
+
+	x: getset('xyz', 0, maxfn(95.047)),
+	y: getset('xyz', 1, maxfn(100)),
+	z: getset('xyz', 2, maxfn(108.833)),
+
+	l: getset('lab', 0, maxfn(100)),
+	a: getset('lab', 1),
+	b: getset('lab', 2),
+
+	keyword(value) {
+		if (value !== undefined) {
+			return new Color(value);
+		}
+
+		return convert[this.model].keyword(this.color);
+	},
+
+	hex(value) {
+		if (value !== undefined) {
+			return new Color(value);
+		}
+
+		return colorString.to.hex(this.rgb().round().color);
+	},
+
+	hexa(value) {
+		if (value !== undefined) {
+			return new Color(value);
+		}
+
+		const rgbArray = this.rgb().round().color;
+
+		let alphaHex = Math.round(this.valpha * 255).toString(16).toUpperCase();
+		if (alphaHex.length === 1) {
+			alphaHex = '0' + alphaHex;
+		}
+
+		return colorString.to.hex(rgbArray) + alphaHex;
+	},
+
+	rgbNumber() {
+		const rgb = this.rgb().color;
+		return ((rgb[0] & 0xFF) << 16) | ((rgb[1] & 0xFF) << 8) | (rgb[2] & 0xFF);
+	},
+
+	luminosity() {
+		// http://www.w3.org/TR/WCAG20/#relativeluminancedef
+		const rgb = this.rgb().color;
+
+		const lum = [];
+		for (const [i, element] of rgb.entries()) {
+			const chan = element / 255;
+			lum[i] = (chan <= 0.04045) ? chan / 12.92 : ((chan + 0.055) / 1.055) ** 2.4;
+		}
+
+		return 0.2126 * lum[0] + 0.7152 * lum[1] + 0.0722 * lum[2];
+	},
+
+	contrast(color2) {
+		// http://www.w3.org/TR/WCAG20/#contrast-ratiodef
+		const lum1 = this.luminosity();
+		const lum2 = color2.luminosity();
+
+		if (lum1 > lum2) {
+			return (lum1 + 0.05) / (lum2 + 0.05);
+		}
+
+		return (lum2 + 0.05) / (lum1 + 0.05);
+	},
+
+	level(color2) {
+		// https://www.w3.org/TR/WCAG/#contrast-enhanced
+		const contrastRatio = this.contrast(color2);
+		if (contrastRatio >= 7) {
+			return 'AAA';
+		}
+
+		return (contrastRatio >= 4.5) ? 'AA' : '';
+	},
+
+	isDark() {
+		// YIQ equation from http://24ways.org/2010/calculating-color-contrast
+		const rgb = this.rgb().color;
+		const yiq = (rgb[0] * 2126 + rgb[1] * 7152 + rgb[2] * 722) / 10000;
+		return yiq < 128;
+	},
+
+	isLight() {
+		return !this.isDark();
+	},
+
+	negate() {
+		const rgb = this.rgb();
+		for (let i = 0; i < 3; i++) {
+			rgb.color[i] = 255 - rgb.color[i];
+		}
+
+		return rgb;
+	},
+
+	lighten(ratio) {
+		const hsl = this.hsl();
+		hsl.color[2] += hsl.color[2] * ratio;
+		return hsl;
+	},
+
+	darken(ratio) {
+		const hsl = this.hsl();
+		hsl.color[2] -= hsl.color[2] * ratio;
+		return hsl;
+	},
+
+	saturate(ratio) {
+		const hsl = this.hsl();
+		hsl.color[1] += hsl.color[1] * ratio;
+		return hsl;
+	},
+
+	desaturate(ratio) {
+		const hsl = this.hsl();
+		hsl.color[1] -= hsl.color[1] * ratio;
+		return hsl;
+	},
+
+	whiten(ratio) {
+		const hwb = this.hwb();
+		hwb.color[1] += hwb.color[1] * ratio;
+		return hwb;
+	},
+
+	blacken(ratio) {
+		const hwb = this.hwb();
+		hwb.color[2] += hwb.color[2] * ratio;
+		return hwb;
+	},
+
+	grayscale() {
+		// http://en.wikipedia.org/wiki/Grayscale#Converting_color_to_grayscale
+		const rgb = this.rgb().color;
+		const value = rgb[0] * 0.3 + rgb[1] * 0.59 + rgb[2] * 0.11;
+		return Color.rgb(value, value, value);
+	},
+
+	fade(ratio) {
+		return this.alpha(this.valpha - (this.valpha * ratio));
+	},
+
+	opaquer(ratio) {
+		return this.alpha(this.valpha + (this.valpha * ratio));
+	},
+
+	rotate(degrees) {
+		const hsl = this.hsl();
+		let hue = hsl.color[0];
+		hue = (hue + degrees) % 360;
+		hue = hue < 0 ? 360 + hue : hue;
+		hsl.color[0] = hue;
+		return hsl;
+	},
+
+	mix(mixinColor, weight) {
+		// Ported from sass implementation in C
+		// https://github.com/sass/libsass/blob/0e6b4a2850092356aa3ece07c6b249f0221caced/functions.cpp#L209
+		if (!mixinColor || !mixinColor.rgb) {
+			throw new Error('Argument to "mix" was not a Color instance, but rather an instance of ' + typeof mixinColor);
+		}
+
+		const color1 = mixinColor.rgb();
+		const color2 = this.rgb();
+		const p = weight === undefined ? 0.5 : weight;
+
+		const w = 2 * p - 1;
+		const a = color1.alpha() - color2.alpha();
+
+		const w1 = (((w * a === -1) ? w : (w + a) / (1 + w * a)) + 1) / 2;
+		const w2 = 1 - w1;
+
+		return Color.rgb(
+			w1 * color1.red() + w2 * color2.red(),
+			w1 * color1.green() + w2 * color2.green(),
+			w1 * color1.blue() + w2 * color2.blue(),
+			color1.alpha() * p + color2.alpha() * (1 - p));
+	},
+};
+
+// Model conversion methods and static constructors
+for (const model of Object.keys(convert)) {
+	if (skippedModels.includes(model)) {
+		continue;
+	}
+
+	const {channels} = convert[model];
+
+	// Conversion methods
+	Color.prototype[model] = function (...args) {
+		if (this.model === model) {
+			return new Color(this);
+		}
+
+		if (args.length > 0) {
+			return new Color(args, model);
+		}
+
+		return new Color([...assertArray(convert[this.model][model].raw(this.color)), this.valpha], model);
+	};
+
+	// 'static' construction methods
+	Color[model] = function (...args) {
+		let color = args[0];
+		if (typeof color === 'number') {
+			color = zeroArray(args, channels);
+		}
+
+		return new Color(color, model);
+	};
+}
+
+function roundTo(number, places) {
+	return Number(number.toFixed(places));
+}
+
+function roundToPlace(places) {
+	return function (number) {
+		return roundTo(number, places);
+	};
+}
+
+function getset(model, channel, modifier) {
+	model = Array.isArray(model) ? model : [model];
+
+	for (const m of model) {
+		(limiters[m] || (limiters[m] = []))[channel] = modifier;
+	}
+
+	model = model[0];
+
+	return function (value) {
+		let result;
+
+		if (value !== undefined) {
+			if (modifier) {
+				value = modifier(value);
+			}
+
+			result = this[model]();
+			result.color[channel] = value;
+			return result;
+		}
+
+		result = this[model]().color[channel];
+		if (modifier) {
+			result = modifier(result);
+		}
+
+		return result;
+	};
+}
+
+function maxfn(max) {
+	return function (v) {
+		return Math.max(0, Math.min(max, v));
+	};
+}
+
+function assertArray(value) {
+	return Array.isArray(value) ? value : [value];
+}
+
+function zeroArray(array, length) {
+	for (let i = 0; i < length; i++) {
+		if (typeof array[i] !== 'number') {
+			array[i] = 0;
+		}
+	}
+
+	return array;
+}
+
+module.exports = Color;
+
+
+/***/ }),
+
+/***/ 4889:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2017 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const childProcess = __nccwpck_require__(2081);
+const { isLinux, getReport } = __nccwpck_require__(1555);
+const { LDD_PATH, readFile, readFileSync } = __nccwpck_require__(733);
+
+let cachedFamilyFilesystem;
+let cachedVersionFilesystem;
+
+const command = 'getconf GNU_LIBC_VERSION 2>&1 || true; ldd --version 2>&1 || true';
+let commandOut = '';
+
+const safeCommand = () => {
+  if (!commandOut) {
+    return new Promise((resolve) => {
+      childProcess.exec(command, (err, out) => {
+        commandOut = err ? ' ' : out;
+        resolve(commandOut);
+      });
+    });
+  }
+  return commandOut;
+};
+
+const safeCommandSync = () => {
+  if (!commandOut) {
+    try {
+      commandOut = childProcess.execSync(command, { encoding: 'utf8' });
+    } catch (_err) {
+      commandOut = ' ';
+    }
+  }
+  return commandOut;
+};
+
+/**
+ * A String constant containing the value `glibc`.
+ * @type {string}
+ * @public
+ */
+const GLIBC = 'glibc';
+
+/**
+ * A Regexp constant to get the GLIBC Version.
+ * @type {string}
+ */
+const RE_GLIBC_VERSION = /LIBC[a-z0-9 \-).]*?(\d+\.\d+)/i;
+
+/**
+ * A String constant containing the value `musl`.
+ * @type {string}
+ * @public
+ */
+const MUSL = 'musl';
+
+const isFileMusl = (f) => f.includes('libc.musl-') || f.includes('ld-musl-');
+
+const familyFromReport = () => {
+  const report = getReport();
+  if (report.header && report.header.glibcVersionRuntime) {
+    return GLIBC;
+  }
+  if (Array.isArray(report.sharedObjects)) {
+    if (report.sharedObjects.some(isFileMusl)) {
+      return MUSL;
+    }
+  }
+  return null;
+};
+
+const familyFromCommand = (out) => {
+  const [getconf, ldd1] = out.split(/[\r\n]+/);
+  if (getconf && getconf.includes(GLIBC)) {
+    return GLIBC;
+  }
+  if (ldd1 && ldd1.includes(MUSL)) {
+    return MUSL;
+  }
+  return null;
+};
+
+const getFamilyFromLddContent = (content) => {
+  if (content.includes('musl')) {
+    return MUSL;
+  }
+  if (content.includes('GNU C Library')) {
+    return GLIBC;
+  }
+  return null;
+};
+
+const familyFromFilesystem = async () => {
+  if (cachedFamilyFilesystem !== undefined) {
+    return cachedFamilyFilesystem;
+  }
+  cachedFamilyFilesystem = null;
+  try {
+    const lddContent = await readFile(LDD_PATH);
+    cachedFamilyFilesystem = getFamilyFromLddContent(lddContent);
+  } catch (e) {}
+  return cachedFamilyFilesystem;
+};
+
+const familyFromFilesystemSync = () => {
+  if (cachedFamilyFilesystem !== undefined) {
+    return cachedFamilyFilesystem;
+  }
+  cachedFamilyFilesystem = null;
+  try {
+    const lddContent = readFileSync(LDD_PATH);
+    cachedFamilyFilesystem = getFamilyFromLddContent(lddContent);
+  } catch (e) {}
+  return cachedFamilyFilesystem;
+};
+
+/**
+ * Resolves with the libc family when it can be determined, `null` otherwise.
+ * @returns {Promise<?string>}
+ */
+const family = async () => {
+  let family = null;
+  if (isLinux()) {
+    family = await familyFromFilesystem();
+    if (!family) {
+      family = familyFromReport();
+    }
+    if (!family) {
+      const out = await safeCommand();
+      family = familyFromCommand(out);
+    }
+  }
+  return family;
+};
+
+/**
+ * Returns the libc family when it can be determined, `null` otherwise.
+ * @returns {?string}
+ */
+const familySync = () => {
+  let family = null;
+  if (isLinux()) {
+    family = familyFromFilesystemSync();
+    if (!family) {
+      family = familyFromReport();
+    }
+    if (!family) {
+      const out = safeCommandSync();
+      family = familyFromCommand(out);
+    }
+  }
+  return family;
+};
+
+/**
+ * Resolves `true` only when the platform is Linux and the libc family is not `glibc`.
+ * @returns {Promise<boolean>}
+ */
+const isNonGlibcLinux = async () => isLinux() && await family() !== GLIBC;
+
+/**
+ * Returns `true` only when the platform is Linux and the libc family is not `glibc`.
+ * @returns {boolean}
+ */
+const isNonGlibcLinuxSync = () => isLinux() && familySync() !== GLIBC;
+
+const versionFromFilesystem = async () => {
+  if (cachedVersionFilesystem !== undefined) {
+    return cachedVersionFilesystem;
+  }
+  cachedVersionFilesystem = null;
+  try {
+    const lddContent = await readFile(LDD_PATH);
+    const versionMatch = lddContent.match(RE_GLIBC_VERSION);
+    if (versionMatch) {
+      cachedVersionFilesystem = versionMatch[1];
+    }
+  } catch (e) {}
+  return cachedVersionFilesystem;
+};
+
+const versionFromFilesystemSync = () => {
+  if (cachedVersionFilesystem !== undefined) {
+    return cachedVersionFilesystem;
+  }
+  cachedVersionFilesystem = null;
+  try {
+    const lddContent = readFileSync(LDD_PATH);
+    const versionMatch = lddContent.match(RE_GLIBC_VERSION);
+    if (versionMatch) {
+      cachedVersionFilesystem = versionMatch[1];
+    }
+  } catch (e) {}
+  return cachedVersionFilesystem;
+};
+
+const versionFromReport = () => {
+  const report = getReport();
+  if (report.header && report.header.glibcVersionRuntime) {
+    return report.header.glibcVersionRuntime;
+  }
+  return null;
+};
+
+const versionSuffix = (s) => s.trim().split(/\s+/)[1];
+
+const versionFromCommand = (out) => {
+  const [getconf, ldd1, ldd2] = out.split(/[\r\n]+/);
+  if (getconf && getconf.includes(GLIBC)) {
+    return versionSuffix(getconf);
+  }
+  if (ldd1 && ldd2 && ldd1.includes(MUSL)) {
+    return versionSuffix(ldd2);
+  }
+  return null;
+};
+
+/**
+ * Resolves with the libc version when it can be determined, `null` otherwise.
+ * @returns {Promise<?string>}
+ */
+const version = async () => {
+  let version = null;
+  if (isLinux()) {
+    version = await versionFromFilesystem();
+    if (!version) {
+      version = versionFromReport();
+    }
+    if (!version) {
+      const out = await safeCommand();
+      version = versionFromCommand(out);
+    }
+  }
+  return version;
+};
+
+/**
+ * Returns the libc version when it can be determined, `null` otherwise.
+ * @returns {?string}
+ */
+const versionSync = () => {
+  let version = null;
+  if (isLinux()) {
+    version = versionFromFilesystemSync();
+    if (!version) {
+      version = versionFromReport();
+    }
+    if (!version) {
+      const out = safeCommandSync();
+      version = versionFromCommand(out);
+    }
+  }
+  return version;
+};
+
+module.exports = {
+  GLIBC,
+  MUSL,
+  family,
+  familySync,
+  isNonGlibcLinux,
+  isNonGlibcLinuxSync,
+  version,
+  versionSync
+};
+
+
+/***/ }),
+
+/***/ 733:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2017 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const fs = __nccwpck_require__(7147);
+
+/**
+ * The path where we can find the ldd
+ */
+const LDD_PATH = '/usr/bin/ldd';
+
+/**
+ * Read the content of a file synchronous
+ *
+ * @param {string} path
+ * @returns {string}
+ */
+const readFileSync = (path) => fs.readFileSync(path, 'utf-8');
+
+/**
+ * Read the content of a file
+ *
+ * @param {string} path
+ * @returns {Promise<string>}
+ */
+const readFile = (path) => new Promise((resolve, reject) => {
+  fs.readFile(path, 'utf-8', (err, data) => {
+    if (err) {
+      reject(err);
+    } else {
+      resolve(data);
+    }
+  });
+});
+
+module.exports = {
+  LDD_PATH,
+  readFileSync,
+  readFile
+};
+
+
+/***/ }),
+
+/***/ 1555:
+/***/ ((module) => {
+
+"use strict";
+// Copyright 2017 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const isLinux = () => process.platform === 'linux';
+
+let report = null;
+const getReport = () => {
+  if (!report) {
+    /* istanbul ignore next */
+    if (isLinux() && process.report) {
+      const orig = process.report.excludeNetwork;
+      process.report.excludeNetwork = true;
+      report = process.report.getReport();
+      process.report.excludeNetwork = orig;
+    } else {
+      report = {};
+    }
+  }
+  return report;
+};
+
+module.exports = { isLinux, getReport };
+
+
+/***/ }),
+
+/***/ 7604:
+/***/ ((module) => {
+
+module.exports = function isArrayish(obj) {
+	if (!obj || typeof obj === 'string') {
+		return false;
+	}
+
+	return obj instanceof Array || Array.isArray(obj) ||
+		(obj.length >= 0 && (obj.splice instanceof Function ||
+			(Object.getOwnPropertyDescriptor(obj, (obj.length - 1)) && obj.constructor.name !== 'String')));
+};
+
+
+/***/ }),
+
+/***/ 1532:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const ANY = Symbol('SemVer ANY')
+// hoisted class for cyclic dependency
+class Comparator {
+  static get ANY () {
+    return ANY
+  }
+
+  constructor (comp, options) {
+    options = parseOptions(options)
+
+    if (comp instanceof Comparator) {
+      if (comp.loose === !!options.loose) {
+        return comp
+      } else {
+        comp = comp.value
+      }
+    }
+
+    comp = comp.trim().split(/\s+/).join(' ')
+    debug('comparator', comp, options)
+    this.options = options
+    this.loose = !!options.loose
+    this.parse(comp)
+
+    if (this.semver === ANY) {
+      this.value = ''
+    } else {
+      this.value = this.operator + this.semver.version
+    }
+
+    debug('comp', this)
+  }
+
+  parse (comp) {
+    const r = this.options.loose ? re[t.COMPARATORLOOSE] : re[t.COMPARATOR]
+    const m = comp.match(r)
+
+    if (!m) {
+      throw new TypeError(`Invalid comparator: ${comp}`)
+    }
+
+    this.operator = m[1] !== undefined ? m[1] : ''
+    if (this.operator === '=') {
+      this.operator = ''
+    }
+
+    // if it literally is just '>' or '' then allow anything.
+    if (!m[2]) {
+      this.semver = ANY
+    } else {
+      this.semver = new SemVer(m[2], this.options.loose)
+    }
+  }
+
+  toString () {
+    return this.value
+  }
+
+  test (version) {
+    debug('Comparator.test', version, this.options.loose)
+
+    if (this.semver === ANY || version === ANY) {
+      return true
+    }
+
+    if (typeof version === 'string') {
+      try {
+        version = new SemVer(version, this.options)
+      } catch (er) {
+        return false
+      }
+    }
+
+    return cmp(version, this.operator, this.semver, this.options)
+  }
+
+  intersects (comp, options) {
+    if (!(comp instanceof Comparator)) {
+      throw new TypeError('a Comparator is required')
+    }
+
+    if (this.operator === '') {
+      if (this.value === '') {
+        return true
+      }
+      return new Range(comp.value, options).test(this.value)
+    } else if (comp.operator === '') {
+      if (comp.value === '') {
+        return true
+      }
+      return new Range(this.value, options).test(comp.semver)
+    }
+
+    options = parseOptions(options)
+
+    // Special cases where nothing can possibly be lower
+    if (options.includePrerelease &&
+      (this.value === '<0.0.0-0' || comp.value === '<0.0.0-0')) {
+      return false
+    }
+    if (!options.includePrerelease &&
+      (this.value.startsWith('<0.0.0') || comp.value.startsWith('<0.0.0'))) {
+      return false
+    }
+
+    // Same direction increasing (> or >=)
+    if (this.operator.startsWith('>') && comp.operator.startsWith('>')) {
+      return true
+    }
+    // Same direction decreasing (< or <=)
+    if (this.operator.startsWith('<') && comp.operator.startsWith('<')) {
+      return true
+    }
+    // same SemVer and both sides are inclusive (<= or >=)
+    if (
+      (this.semver.version === comp.semver.version) &&
+      this.operator.includes('=') && comp.operator.includes('=')) {
+      return true
+    }
+    // opposite directions less than
+    if (cmp(this.semver, '<', comp.semver, options) &&
+      this.operator.startsWith('>') && comp.operator.startsWith('<')) {
+      return true
+    }
+    // opposite directions greater than
+    if (cmp(this.semver, '>', comp.semver, options) &&
+      this.operator.startsWith('<') && comp.operator.startsWith('>')) {
+      return true
+    }
+    return false
+  }
+}
+
+module.exports = Comparator
+
+const parseOptions = __nccwpck_require__(785)
+const { safeRe: re, t } = __nccwpck_require__(9523)
+const cmp = __nccwpck_require__(5098)
+const debug = __nccwpck_require__(427)
+const SemVer = __nccwpck_require__(8088)
+const Range = __nccwpck_require__(9828)
+
+
+/***/ }),
+
+/***/ 9828:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+// hoisted class for cyclic dependency
+class Range {
+  constructor (range, options) {
+    options = parseOptions(options)
+
+    if (range instanceof Range) {
+      if (
+        range.loose === !!options.loose &&
+        range.includePrerelease === !!options.includePrerelease
+      ) {
+        return range
+      } else {
+        return new Range(range.raw, options)
+      }
+    }
+
+    if (range instanceof Comparator) {
+      // just put it in the set and return
+      this.raw = range.value
+      this.set = [[range]]
+      this.format()
+      return this
+    }
+
+    this.options = options
+    this.loose = !!options.loose
+    this.includePrerelease = !!options.includePrerelease
+
+    // First reduce all whitespace as much as possible so we do not have to rely
+    // on potentially slow regexes like \s*. This is then stored and used for
+    // future error messages as well.
+    this.raw = range
+      .trim()
+      .split(/\s+/)
+      .join(' ')
+
+    // First, split on ||
+    this.set = this.raw
+      .split('||')
+      // map the range to a 2d array of comparators
+      .map(r => this.parseRange(r.trim()))
+      // throw out any comparator lists that are empty
+      // this generally means that it was not a valid range, which is allowed
+      // in loose mode, but will still throw if the WHOLE range is invalid.
+      .filter(c => c.length)
+
+    if (!this.set.length) {
+      throw new TypeError(`Invalid SemVer Range: ${this.raw}`)
+    }
+
+    // if we have any that are not the null set, throw out null sets.
+    if (this.set.length > 1) {
+      // keep the first one, in case they're all null sets
+      const first = this.set[0]
+      this.set = this.set.filter(c => !isNullSet(c[0]))
+      if (this.set.length === 0) {
+        this.set = [first]
+      } else if (this.set.length > 1) {
+        // if we have any that are *, then the range is just *
+        for (const c of this.set) {
+          if (c.length === 1 && isAny(c[0])) {
+            this.set = [c]
+            break
+          }
+        }
+      }
+    }
+
+    this.format()
+  }
+
+  format () {
+    this.range = this.set
+      .map((comps) => comps.join(' ').trim())
+      .join('||')
+      .trim()
+    return this.range
+  }
+
+  toString () {
+    return this.range
+  }
+
+  parseRange (range) {
+    // memoize range parsing for performance.
+    // this is a very hot path, and fully deterministic.
+    const memoOpts =
+      (this.options.includePrerelease && FLAG_INCLUDE_PRERELEASE) |
+      (this.options.loose && FLAG_LOOSE)
+    const memoKey = memoOpts + ':' + range
+    const cached = cache.get(memoKey)
+    if (cached) {
+      return cached
+    }
+
+    const loose = this.options.loose
+    // `1.2.3 - 1.2.4` => `>=1.2.3 <=1.2.4`
+    const hr = loose ? re[t.HYPHENRANGELOOSE] : re[t.HYPHENRANGE]
+    range = range.replace(hr, hyphenReplace(this.options.includePrerelease))
+    debug('hyphen replace', range)
+
+    // `> 1.2.3 < 1.2.5` => `>1.2.3 <1.2.5`
+    range = range.replace(re[t.COMPARATORTRIM], comparatorTrimReplace)
+    debug('comparator trim', range)
+
+    // `~ 1.2.3` => `~1.2.3`
+    range = range.replace(re[t.TILDETRIM], tildeTrimReplace)
+    debug('tilde trim', range)
+
+    // `^ 1.2.3` => `^1.2.3`
+    range = range.replace(re[t.CARETTRIM], caretTrimReplace)
+    debug('caret trim', range)
+
+    // At this point, the range is completely trimmed and
+    // ready to be split into comparators.
+
+    let rangeList = range
+      .split(' ')
+      .map(comp => parseComparator(comp, this.options))
+      .join(' ')
+      .split(/\s+/)
+      // >=0.0.0 is equivalent to *
+      .map(comp => replaceGTE0(comp, this.options))
+
+    if (loose) {
+      // in loose mode, throw out any that are not valid comparators
+      rangeList = rangeList.filter(comp => {
+        debug('loose invalid filter', comp, this.options)
+        return !!comp.match(re[t.COMPARATORLOOSE])
+      })
+    }
+    debug('range list', rangeList)
+
+    // if any comparators are the null set, then replace with JUST null set
+    // if more than one comparator, remove any * comparators
+    // also, don't include the same comparator more than once
+    const rangeMap = new Map()
+    const comparators = rangeList.map(comp => new Comparator(comp, this.options))
+    for (const comp of comparators) {
+      if (isNullSet(comp)) {
+        return [comp]
+      }
+      rangeMap.set(comp.value, comp)
+    }
+    if (rangeMap.size > 1 && rangeMap.has('')) {
+      rangeMap.delete('')
+    }
+
+    const result = [...rangeMap.values()]
+    cache.set(memoKey, result)
+    return result
+  }
+
+  intersects (range, options) {
+    if (!(range instanceof Range)) {
+      throw new TypeError('a Range is required')
+    }
+
+    return this.set.some((thisComparators) => {
+      return (
+        isSatisfiable(thisComparators, options) &&
+        range.set.some((rangeComparators) => {
+          return (
+            isSatisfiable(rangeComparators, options) &&
+            thisComparators.every((thisComparator) => {
+              return rangeComparators.every((rangeComparator) => {
+                return thisComparator.intersects(rangeComparator, options)
+              })
+            })
+          )
+        })
+      )
+    })
+  }
+
+  // if ANY of the sets match ALL of its comparators, then pass
+  test (version) {
+    if (!version) {
+      return false
+    }
+
+    if (typeof version === 'string') {
+      try {
+        version = new SemVer(version, this.options)
+      } catch (er) {
+        return false
+      }
+    }
+
+    for (let i = 0; i < this.set.length; i++) {
+      if (testSet(this.set[i], version, this.options)) {
+        return true
+      }
+    }
+    return false
+  }
+}
+
+module.exports = Range
+
+const LRU = __nccwpck_require__(5339)
+const cache = new LRU()
+
+const parseOptions = __nccwpck_require__(785)
+const Comparator = __nccwpck_require__(1532)
+const debug = __nccwpck_require__(427)
+const SemVer = __nccwpck_require__(8088)
+const {
+  safeRe: re,
+  t,
+  comparatorTrimReplace,
+  tildeTrimReplace,
+  caretTrimReplace,
+} = __nccwpck_require__(9523)
+const { FLAG_INCLUDE_PRERELEASE, FLAG_LOOSE } = __nccwpck_require__(2293)
+
+const isNullSet = c => c.value === '<0.0.0-0'
+const isAny = c => c.value === ''
+
+// take a set of comparators and determine whether there
+// exists a version which can satisfy it
+const isSatisfiable = (comparators, options) => {
+  let result = true
+  const remainingComparators = comparators.slice()
+  let testComparator = remainingComparators.pop()
+
+  while (result && remainingComparators.length) {
+    result = remainingComparators.every((otherComparator) => {
+      return testComparator.intersects(otherComparator, options)
+    })
+
+    testComparator = remainingComparators.pop()
+  }
+
+  return result
+}
+
+// comprised of xranges, tildes, stars, and gtlt's at this point.
+// already replaced the hyphen ranges
+// turn into a set of JUST comparators.
+const parseComparator = (comp, options) => {
+  debug('comp', comp, options)
+  comp = replaceCarets(comp, options)
+  debug('caret', comp)
+  comp = replaceTildes(comp, options)
+  debug('tildes', comp)
+  comp = replaceXRanges(comp, options)
+  debug('xrange', comp)
+  comp = replaceStars(comp, options)
+  debug('stars', comp)
+  return comp
+}
+
+const isX = id => !id || id.toLowerCase() === 'x' || id === '*'
+
+// ~, ~> --> * (any, kinda silly)
+// ~2, ~2.x, ~2.x.x, ~>2, ~>2.x ~>2.x.x --> >=2.0.0 <3.0.0-0
+// ~2.0, ~2.0.x, ~>2.0, ~>2.0.x --> >=2.0.0 <2.1.0-0
+// ~1.2, ~1.2.x, ~>1.2, ~>1.2.x --> >=1.2.0 <1.3.0-0
+// ~1.2.3, ~>1.2.3 --> >=1.2.3 <1.3.0-0
+// ~1.2.0, ~>1.2.0 --> >=1.2.0 <1.3.0-0
+// ~0.0.1 --> >=0.0.1 <0.1.0-0
+const replaceTildes = (comp, options) => {
+  return comp
+    .trim()
+    .split(/\s+/)
+    .map((c) => replaceTilde(c, options))
+    .join(' ')
+}
+
+const replaceTilde = (comp, options) => {
+  const r = options.loose ? re[t.TILDELOOSE] : re[t.TILDE]
+  return comp.replace(r, (_, M, m, p, pr) => {
+    debug('tilde', comp, _, M, m, p, pr)
+    let ret
+
+    if (isX(M)) {
+      ret = ''
+    } else if (isX(m)) {
+      ret = `>=${M}.0.0 <${+M + 1}.0.0-0`
+    } else if (isX(p)) {
+      // ~1.2 == >=1.2.0 <1.3.0-0
+      ret = `>=${M}.${m}.0 <${M}.${+m + 1}.0-0`
+    } else if (pr) {
+      debug('replaceTilde pr', pr)
+      ret = `>=${M}.${m}.${p}-${pr
+      } <${M}.${+m + 1}.0-0`
+    } else {
+      // ~1.2.3 == >=1.2.3 <1.3.0-0
+      ret = `>=${M}.${m}.${p
+      } <${M}.${+m + 1}.0-0`
+    }
+
+    debug('tilde return', ret)
+    return ret
+  })
+}
+
+// ^ --> * (any, kinda silly)
+// ^2, ^2.x, ^2.x.x --> >=2.0.0 <3.0.0-0
+// ^2.0, ^2.0.x --> >=2.0.0 <3.0.0-0
+// ^1.2, ^1.2.x --> >=1.2.0 <2.0.0-0
+// ^1.2.3 --> >=1.2.3 <2.0.0-0
+// ^1.2.0 --> >=1.2.0 <2.0.0-0
+// ^0.0.1 --> >=0.0.1 <0.0.2-0
+// ^0.1.0 --> >=0.1.0 <0.2.0-0
+const replaceCarets = (comp, options) => {
+  return comp
+    .trim()
+    .split(/\s+/)
+    .map((c) => replaceCaret(c, options))
+    .join(' ')
+}
+
+const replaceCaret = (comp, options) => {
+  debug('caret', comp, options)
+  const r = options.loose ? re[t.CARETLOOSE] : re[t.CARET]
+  const z = options.includePrerelease ? '-0' : ''
+  return comp.replace(r, (_, M, m, p, pr) => {
+    debug('caret', comp, _, M, m, p, pr)
+    let ret
+
+    if (isX(M)) {
+      ret = ''
+    } else if (isX(m)) {
+      ret = `>=${M}.0.0${z} <${+M + 1}.0.0-0`
+    } else if (isX(p)) {
+      if (M === '0') {
+        ret = `>=${M}.${m}.0${z} <${M}.${+m + 1}.0-0`
+      } else {
+        ret = `>=${M}.${m}.0${z} <${+M + 1}.0.0-0`
+      }
+    } else if (pr) {
+      debug('replaceCaret pr', pr)
+      if (M === '0') {
+        if (m === '0') {
+          ret = `>=${M}.${m}.${p}-${pr
+          } <${M}.${m}.${+p + 1}-0`
+        } else {
+          ret = `>=${M}.${m}.${p}-${pr
+          } <${M}.${+m + 1}.0-0`
+        }
+      } else {
+        ret = `>=${M}.${m}.${p}-${pr
+        } <${+M + 1}.0.0-0`
+      }
+    } else {
+      debug('no pr')
+      if (M === '0') {
+        if (m === '0') {
+          ret = `>=${M}.${m}.${p
+          }${z} <${M}.${m}.${+p + 1}-0`
+        } else {
+          ret = `>=${M}.${m}.${p
+          }${z} <${M}.${+m + 1}.0-0`
+        }
+      } else {
+        ret = `>=${M}.${m}.${p
+        } <${+M + 1}.0.0-0`
+      }
+    }
+
+    debug('caret return', ret)
+    return ret
+  })
+}
+
+const replaceXRanges = (comp, options) => {
+  debug('replaceXRanges', comp, options)
+  return comp
+    .split(/\s+/)
+    .map((c) => replaceXRange(c, options))
+    .join(' ')
+}
+
+const replaceXRange = (comp, options) => {
+  comp = comp.trim()
+  const r = options.loose ? re[t.XRANGELOOSE] : re[t.XRANGE]
+  return comp.replace(r, (ret, gtlt, M, m, p, pr) => {
+    debug('xRange', comp, ret, gtlt, M, m, p, pr)
+    const xM = isX(M)
+    const xm = xM || isX(m)
+    const xp = xm || isX(p)
+    const anyX = xp
+
+    if (gtlt === '=' && anyX) {
+      gtlt = ''
+    }
+
+    // if we're including prereleases in the match, then we need
+    // to fix this to -0, the lowest possible prerelease value
+    pr = options.includePrerelease ? '-0' : ''
+
+    if (xM) {
+      if (gtlt === '>' || gtlt === '<') {
+        // nothing is allowed
+        ret = '<0.0.0-0'
+      } else {
+        // nothing is forbidden
+        ret = '*'
+      }
+    } else if (gtlt && anyX) {
+      // we know patch is an x, because we have any x at all.
+      // replace X with 0
+      if (xm) {
+        m = 0
+      }
+      p = 0
+
+      if (gtlt === '>') {
+        // >1 => >=2.0.0
+        // >1.2 => >=1.3.0
+        gtlt = '>='
+        if (xm) {
+          M = +M + 1
+          m = 0
+          p = 0
+        } else {
+          m = +m + 1
+          p = 0
+        }
+      } else if (gtlt === '<=') {
+        // <=0.7.x is actually <0.8.0, since any 0.7.x should
+        // pass.  Similarly, <=7.x is actually <8.0.0, etc.
+        gtlt = '<'
+        if (xm) {
+          M = +M + 1
+        } else {
+          m = +m + 1
+        }
+      }
+
+      if (gtlt === '<') {
+        pr = '-0'
+      }
+
+      ret = `${gtlt + M}.${m}.${p}${pr}`
+    } else if (xm) {
+      ret = `>=${M}.0.0${pr} <${+M + 1}.0.0-0`
+    } else if (xp) {
+      ret = `>=${M}.${m}.0${pr
+      } <${M}.${+m + 1}.0-0`
+    }
+
+    debug('xRange return', ret)
+
+    return ret
+  })
+}
+
+// Because * is AND-ed with everything else in the comparator,
+// and '' means "any version", just remove the *s entirely.
+const replaceStars = (comp, options) => {
+  debug('replaceStars', comp, options)
+  // Looseness is ignored here.  star is always as loose as it gets!
+  return comp
+    .trim()
+    .replace(re[t.STAR], '')
+}
+
+const replaceGTE0 = (comp, options) => {
+  debug('replaceGTE0', comp, options)
+  return comp
+    .trim()
+    .replace(re[options.includePrerelease ? t.GTE0PRE : t.GTE0], '')
+}
+
+// This function is passed to string.replace(re[t.HYPHENRANGE])
+// M, m, patch, prerelease, build
+// 1.2 - 3.4.5 => >=1.2.0 <=3.4.5
+// 1.2.3 - 3.4 => >=1.2.0 <3.5.0-0 Any 3.4.x will do
+// 1.2 - 3.4 => >=1.2.0 <3.5.0-0
+// TODO build?
+const hyphenReplace = incPr => ($0,
+  from, fM, fm, fp, fpr, fb,
+  to, tM, tm, tp, tpr) => {
+  if (isX(fM)) {
+    from = ''
+  } else if (isX(fm)) {
+    from = `>=${fM}.0.0${incPr ? '-0' : ''}`
+  } else if (isX(fp)) {
+    from = `>=${fM}.${fm}.0${incPr ? '-0' : ''}`
+  } else if (fpr) {
+    from = `>=${from}`
+  } else {
+    from = `>=${from}${incPr ? '-0' : ''}`
+  }
+
+  if (isX(tM)) {
+    to = ''
+  } else if (isX(tm)) {
+    to = `<${+tM + 1}.0.0-0`
+  } else if (isX(tp)) {
+    to = `<${tM}.${+tm + 1}.0-0`
+  } else if (tpr) {
+    to = `<=${tM}.${tm}.${tp}-${tpr}`
+  } else if (incPr) {
+    to = `<${tM}.${tm}.${+tp + 1}-0`
+  } else {
+    to = `<=${to}`
+  }
+
+  return `${from} ${to}`.trim()
+}
+
+const testSet = (set, version, options) => {
+  for (let i = 0; i < set.length; i++) {
+    if (!set[i].test(version)) {
+      return false
+    }
+  }
+
+  if (version.prerelease.length && !options.includePrerelease) {
+    // Find the set of versions that are allowed to have prereleases
+    // For example, ^1.2.3-pr.1 desugars to >=1.2.3-pr.1 <2.0.0
+    // That should allow `1.2.3-pr.2` to pass.
+    // However, `1.2.4-alpha.notready` should NOT be allowed,
+    // even though it's within the range set by the comparators.
+    for (let i = 0; i < set.length; i++) {
+      debug(set[i].semver)
+      if (set[i].semver === Comparator.ANY) {
+        continue
+      }
+
+      if (set[i].semver.prerelease.length > 0) {
+        const allowed = set[i].semver
+        if (allowed.major === version.major &&
+            allowed.minor === version.minor &&
+            allowed.patch === version.patch) {
+          return true
+        }
+      }
+    }
+
+    // Version has a -pre, but it's not one of the ones we like.
+    return false
+  }
+
+  return true
+}
+
+
+/***/ }),
+
+/***/ 8088:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const debug = __nccwpck_require__(427)
+const { MAX_LENGTH, MAX_SAFE_INTEGER } = __nccwpck_require__(2293)
+const { safeRe: re, t } = __nccwpck_require__(9523)
+
+const parseOptions = __nccwpck_require__(785)
+const { compareIdentifiers } = __nccwpck_require__(2463)
+class SemVer {
+  constructor (version, options) {
+    options = parseOptions(options)
+
+    if (version instanceof SemVer) {
+      if (version.loose === !!options.loose &&
+          version.includePrerelease === !!options.includePrerelease) {
+        return version
+      } else {
+        version = version.version
+      }
+    } else if (typeof version !== 'string') {
+      throw new TypeError(`Invalid version. Must be a string. Got type "${typeof version}".`)
+    }
+
+    if (version.length > MAX_LENGTH) {
+      throw new TypeError(
+        `version is longer than ${MAX_LENGTH} characters`
+      )
+    }
+
+    debug('SemVer', version, options)
+    this.options = options
+    this.loose = !!options.loose
+    // this isn't actually relevant for versions, but keep it so that we
+    // don't run into trouble passing this.options around.
+    this.includePrerelease = !!options.includePrerelease
+
+    const m = version.trim().match(options.loose ? re[t.LOOSE] : re[t.FULL])
+
+    if (!m) {
+      throw new TypeError(`Invalid Version: ${version}`)
+    }
+
+    this.raw = version
+
+    // these are actually numbers
+    this.major = +m[1]
+    this.minor = +m[2]
+    this.patch = +m[3]
+
+    if (this.major > MAX_SAFE_INTEGER || this.major < 0) {
+      throw new TypeError('Invalid major version')
+    }
+
+    if (this.minor > MAX_SAFE_INTEGER || this.minor < 0) {
+      throw new TypeError('Invalid minor version')
+    }
+
+    if (this.patch > MAX_SAFE_INTEGER || this.patch < 0) {
+      throw new TypeError('Invalid patch version')
+    }
+
+    // numberify any prerelease numeric ids
+    if (!m[4]) {
+      this.prerelease = []
+    } else {
+      this.prerelease = m[4].split('.').map((id) => {
+        if (/^[0-9]+$/.test(id)) {
+          const num = +id
+          if (num >= 0 && num < MAX_SAFE_INTEGER) {
+            return num
+          }
+        }
+        return id
+      })
+    }
+
+    this.build = m[5] ? m[5].split('.') : []
+    this.format()
+  }
+
+  format () {
+    this.version = `${this.major}.${this.minor}.${this.patch}`
+    if (this.prerelease.length) {
+      this.version += `-${this.prerelease.join('.')}`
+    }
+    return this.version
+  }
+
+  toString () {
+    return this.version
+  }
+
+  compare (other) {
+    debug('SemVer.compare', this.version, this.options, other)
+    if (!(other instanceof SemVer)) {
+      if (typeof other === 'string' && other === this.version) {
+        return 0
+      }
+      other = new SemVer(other, this.options)
+    }
+
+    if (other.version === this.version) {
+      return 0
+    }
+
+    return this.compareMain(other) || this.comparePre(other)
+  }
+
+  compareMain (other) {
+    if (!(other instanceof SemVer)) {
+      other = new SemVer(other, this.options)
+    }
+
+    return (
+      compareIdentifiers(this.major, other.major) ||
+      compareIdentifiers(this.minor, other.minor) ||
+      compareIdentifiers(this.patch, other.patch)
+    )
+  }
+
+  comparePre (other) {
+    if (!(other instanceof SemVer)) {
+      other = new SemVer(other, this.options)
+    }
+
+    // NOT having a prerelease is > having one
+    if (this.prerelease.length && !other.prerelease.length) {
+      return -1
+    } else if (!this.prerelease.length && other.prerelease.length) {
+      return 1
+    } else if (!this.prerelease.length && !other.prerelease.length) {
+      return 0
+    }
+
+    let i = 0
+    do {
+      const a = this.prerelease[i]
+      const b = other.prerelease[i]
+      debug('prerelease compare', i, a, b)
+      if (a === undefined && b === undefined) {
+        return 0
+      } else if (b === undefined) {
+        return 1
+      } else if (a === undefined) {
+        return -1
+      } else if (a === b) {
+        continue
+      } else {
+        return compareIdentifiers(a, b)
+      }
+    } while (++i)
+  }
+
+  compareBuild (other) {
+    if (!(other instanceof SemVer)) {
+      other = new SemVer(other, this.options)
+    }
+
+    let i = 0
+    do {
+      const a = this.build[i]
+      const b = other.build[i]
+      debug('build compare', i, a, b)
+      if (a === undefined && b === undefined) {
+        return 0
+      } else if (b === undefined) {
+        return 1
+      } else if (a === undefined) {
+        return -1
+      } else if (a === b) {
+        continue
+      } else {
+        return compareIdentifiers(a, b)
+      }
+    } while (++i)
+  }
+
+  // preminor will bump the version up to the next minor release, and immediately
+  // down to pre-release. premajor and prepatch work the same way.
+  inc (release, identifier, identifierBase) {
+    switch (release) {
+      case 'premajor':
+        this.prerelease.length = 0
+        this.patch = 0
+        this.minor = 0
+        this.major++
+        this.inc('pre', identifier, identifierBase)
+        break
+      case 'preminor':
+        this.prerelease.length = 0
+        this.patch = 0
+        this.minor++
+        this.inc('pre', identifier, identifierBase)
+        break
+      case 'prepatch':
+        // If this is already a prerelease, it will bump to the next version
+        // drop any prereleases that might already exist, since they are not
+        // relevant at this point.
+        this.prerelease.length = 0
+        this.inc('patch', identifier, identifierBase)
+        this.inc('pre', identifier, identifierBase)
+        break
+      // If the input is a non-prerelease version, this acts the same as
+      // prepatch.
+      case 'prerelease':
+        if (this.prerelease.length === 0) {
+          this.inc('patch', identifier, identifierBase)
+        }
+        this.inc('pre', identifier, identifierBase)
+        break
+
+      case 'major':
+        // If this is a pre-major version, bump up to the same major version.
+        // Otherwise increment major.
+        // 1.0.0-5 bumps to 1.0.0
+        // 1.1.0 bumps to 2.0.0
+        if (
+          this.minor !== 0 ||
+          this.patch !== 0 ||
+          this.prerelease.length === 0
+        ) {
+          this.major++
+        }
+        this.minor = 0
+        this.patch = 0
+        this.prerelease = []
+        break
+      case 'minor':
+        // If this is a pre-minor version, bump up to the same minor version.
+        // Otherwise increment minor.
+        // 1.2.0-5 bumps to 1.2.0
+        // 1.2.1 bumps to 1.3.0
+        if (this.patch !== 0 || this.prerelease.length === 0) {
+          this.minor++
+        }
+        this.patch = 0
+        this.prerelease = []
+        break
+      case 'patch':
+        // If this is not a pre-release version, it will increment the patch.
+        // If it is a pre-release it will bump up to the same patch version.
+        // 1.2.0-5 patches to 1.2.0
+        // 1.2.0 patches to 1.2.1
+        if (this.prerelease.length === 0) {
+          this.patch++
+        }
+        this.prerelease = []
+        break
+      // This probably shouldn't be used publicly.
+      // 1.0.0 'pre' would become 1.0.0-0 which is the wrong direction.
+      case 'pre': {
+        const base = Number(identifierBase) ? 1 : 0
+
+        if (!identifier && identifierBase === false) {
+          throw new Error('invalid increment argument: identifier is empty')
+        }
+
+        if (this.prerelease.length === 0) {
+          this.prerelease = [base]
+        } else {
+          let i = this.prerelease.length
+          while (--i >= 0) {
+            if (typeof this.prerelease[i] === 'number') {
+              this.prerelease[i]++
+              i = -2
+            }
+          }
+          if (i === -1) {
+            // didn't increment anything
+            if (identifier === this.prerelease.join('.') && identifierBase === false) {
+              throw new Error('invalid increment argument: identifier already exists')
+            }
+            this.prerelease.push(base)
+          }
+        }
+        if (identifier) {
+          // 1.2.0-beta.1 bumps to 1.2.0-beta.2,
+          // 1.2.0-beta.fooblz or 1.2.0-beta bumps to 1.2.0-beta.0
+          let prerelease = [identifier, base]
+          if (identifierBase === false) {
+            prerelease = [identifier]
+          }
+          if (compareIdentifiers(this.prerelease[0], identifier) === 0) {
+            if (isNaN(this.prerelease[1])) {
+              this.prerelease = prerelease
+            }
+          } else {
+            this.prerelease = prerelease
+          }
+        }
+        break
+      }
+      default:
+        throw new Error(`invalid increment argument: ${release}`)
+    }
+    this.raw = this.format()
+    if (this.build.length) {
+      this.raw += `+${this.build.join('.')}`
+    }
+    return this
+  }
+}
+
+module.exports = SemVer
+
+
+/***/ }),
+
+/***/ 5098:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const eq = __nccwpck_require__(1898)
+const neq = __nccwpck_require__(6017)
+const gt = __nccwpck_require__(4123)
+const gte = __nccwpck_require__(5522)
+const lt = __nccwpck_require__(194)
+const lte = __nccwpck_require__(7520)
+
+const cmp = (a, op, b, loose) => {
+  switch (op) {
+    case '===':
+      if (typeof a === 'object') {
+        a = a.version
+      }
+      if (typeof b === 'object') {
+        b = b.version
+      }
+      return a === b
+
+    case '!==':
+      if (typeof a === 'object') {
+        a = a.version
+      }
+      if (typeof b === 'object') {
+        b = b.version
+      }
+      return a !== b
+
+    case '':
+    case '=':
+    case '==':
+      return eq(a, b, loose)
+
+    case '!=':
+      return neq(a, b, loose)
+
+    case '>':
+      return gt(a, b, loose)
+
+    case '>=':
+      return gte(a, b, loose)
+
+    case '<':
+      return lt(a, b, loose)
+
+    case '<=':
+      return lte(a, b, loose)
+
+    default:
+      throw new TypeError(`Invalid operator: ${op}`)
+  }
+}
+module.exports = cmp
+
+
+/***/ }),
+
+/***/ 3466:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const SemVer = __nccwpck_require__(8088)
+const parse = __nccwpck_require__(5925)
+const { safeRe: re, t } = __nccwpck_require__(9523)
+
+const coerce = (version, options) => {
+  if (version instanceof SemVer) {
+    return version
+  }
+
+  if (typeof version === 'number') {
+    version = String(version)
+  }
+
+  if (typeof version !== 'string') {
+    return null
+  }
+
+  options = options || {}
+
+  let match = null
+  if (!options.rtl) {
+    match = version.match(options.includePrerelease ? re[t.COERCEFULL] : re[t.COERCE])
+  } else {
+    // Find the right-most coercible string that does not share
+    // a terminus with a more left-ward coercible string.
+    // Eg, '1.2.3.4' wants to coerce '2.3.4', not '3.4' or '4'
+    // With includePrerelease option set, '1.2.3.4-rc' wants to coerce '2.3.4-rc', not '2.3.4'
+    //
+    // Walk through the string checking with a /g regexp
+    // Manually set the index so as to pick up overlapping matches.
+    // Stop when we get a match that ends at the string end, since no
+    // coercible string can be more right-ward without the same terminus.
+    const coerceRtlRegex = options.includePrerelease ? re[t.COERCERTLFULL] : re[t.COERCERTL]
+    let next
+    while ((next = coerceRtlRegex.exec(version)) &&
+        (!match || match.index + match[0].length !== version.length)
+    ) {
+      if (!match ||
+            next.index + next[0].length !== match.index + match[0].length) {
+        match = next
+      }
+      coerceRtlRegex.lastIndex = next.index + next[1].length + next[2].length
+    }
+    // leave it in a clean state
+    coerceRtlRegex.lastIndex = -1
+  }
+
+  if (match === null) {
+    return null
+  }
+
+  const major = match[2]
+  const minor = match[3] || '0'
+  const patch = match[4] || '0'
+  const prerelease = options.includePrerelease && match[5] ? `-${match[5]}` : ''
+  const build = options.includePrerelease && match[6] ? `+${match[6]}` : ''
+
+  return parse(`${major}.${minor}.${patch}${prerelease}${build}`, options)
+}
+module.exports = coerce
+
+
+/***/ }),
+
+/***/ 4309:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const SemVer = __nccwpck_require__(8088)
+const compare = (a, b, loose) =>
+  new SemVer(a, loose).compare(new SemVer(b, loose))
+
+module.exports = compare
+
+
+/***/ }),
+
+/***/ 1898:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const compare = __nccwpck_require__(4309)
+const eq = (a, b, loose) => compare(a, b, loose) === 0
+module.exports = eq
+
+
+/***/ }),
+
+/***/ 4123:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const compare = __nccwpck_require__(4309)
+const gt = (a, b, loose) => compare(a, b, loose) > 0
+module.exports = gt
+
+
+/***/ }),
+
+/***/ 5522:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const compare = __nccwpck_require__(4309)
+const gte = (a, b, loose) => compare(a, b, loose) >= 0
+module.exports = gte
+
+
+/***/ }),
+
+/***/ 194:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const compare = __nccwpck_require__(4309)
+const lt = (a, b, loose) => compare(a, b, loose) < 0
+module.exports = lt
+
+
+/***/ }),
+
+/***/ 7520:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const compare = __nccwpck_require__(4309)
+const lte = (a, b, loose) => compare(a, b, loose) <= 0
+module.exports = lte
+
+
+/***/ }),
+
+/***/ 6017:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const compare = __nccwpck_require__(4309)
+const neq = (a, b, loose) => compare(a, b, loose) !== 0
+module.exports = neq
+
+
+/***/ }),
+
+/***/ 5925:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const SemVer = __nccwpck_require__(8088)
+const parse = (version, options, throwErrors = false) => {
+  if (version instanceof SemVer) {
+    return version
+  }
+  try {
+    return new SemVer(version, options)
+  } catch (er) {
+    if (!throwErrors) {
+      return null
+    }
+    throw er
+  }
+}
+
+module.exports = parse
+
+
+/***/ }),
+
+/***/ 6055:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+const Range = __nccwpck_require__(9828)
+const satisfies = (version, range, options) => {
+  try {
+    range = new Range(range, options)
+  } catch (er) {
+    return false
+  }
+  return range.test(version)
+}
+module.exports = satisfies
+
+
+/***/ }),
+
+/***/ 2293:
+/***/ ((module) => {
+
+// Note: this is the semver.org version of the spec that it implements
+// Not necessarily the package version of this code.
+const SEMVER_SPEC_VERSION = '2.0.0'
+
+const MAX_LENGTH = 256
+const MAX_SAFE_INTEGER = Number.MAX_SAFE_INTEGER ||
+/* istanbul ignore next */ 9007199254740991
+
+// Max safe segment length for coercion.
+const MAX_SAFE_COMPONENT_LENGTH = 16
+
+// Max safe length for a build identifier. The max length minus 6 characters for
+// the shortest version with a build 0.0.0+BUILD.
+const MAX_SAFE_BUILD_LENGTH = MAX_LENGTH - 6
+
+const RELEASE_TYPES = [
+  'major',
+  'premajor',
+  'minor',
+  'preminor',
+  'patch',
+  'prepatch',
+  'prerelease',
+]
+
+module.exports = {
+  MAX_LENGTH,
+  MAX_SAFE_COMPONENT_LENGTH,
+  MAX_SAFE_BUILD_LENGTH,
+  MAX_SAFE_INTEGER,
+  RELEASE_TYPES,
+  SEMVER_SPEC_VERSION,
+  FLAG_INCLUDE_PRERELEASE: 0b001,
+  FLAG_LOOSE: 0b010,
+}
+
+
+/***/ }),
+
+/***/ 427:
+/***/ ((module) => {
+
+const debug = (
+  typeof process === 'object' &&
+  process.env &&
+  process.env.NODE_DEBUG &&
+  /\bsemver\b/i.test(process.env.NODE_DEBUG)
+) ? (...args) => console.error('SEMVER', ...args)
+  : () => {}
+
+module.exports = debug
+
+
+/***/ }),
+
+/***/ 2463:
+/***/ ((module) => {
+
+const numeric = /^[0-9]+$/
+const compareIdentifiers = (a, b) => {
+  const anum = numeric.test(a)
+  const bnum = numeric.test(b)
+
+  if (anum && bnum) {
+    a = +a
+    b = +b
+  }
+
+  return a === b ? 0
+    : (anum && !bnum) ? -1
+    : (bnum && !anum) ? 1
+    : a < b ? -1
+    : 1
+}
+
+const rcompareIdentifiers = (a, b) => compareIdentifiers(b, a)
+
+module.exports = {
+  compareIdentifiers,
+  rcompareIdentifiers,
+}
+
+
+/***/ }),
+
+/***/ 5339:
+/***/ ((module) => {
+
+class LRUCache {
+  constructor () {
+    this.max = 1000
+    this.map = new Map()
+  }
+
+  get (key) {
+    const value = this.map.get(key)
+    if (value === undefined) {
+      return undefined
+    } else {
+      // Remove the key from the map and add it to the end
+      this.map.delete(key)
+      this.map.set(key, value)
+      return value
+    }
+  }
+
+  delete (key) {
+    return this.map.delete(key)
+  }
+
+  set (key, value) {
+    const deleted = this.delete(key)
+
+    if (!deleted && value !== undefined) {
+      // If cache is full, delete the least recently used item
+      if (this.map.size >= this.max) {
+        const firstKey = this.map.keys().next().value
+        this.delete(firstKey)
+      }
+
+      this.map.set(key, value)
+    }
+
+    return this
+  }
+}
+
+module.exports = LRUCache
+
+
+/***/ }),
+
+/***/ 785:
+/***/ ((module) => {
+
+// parse out just the options we care about
+const looseOption = Object.freeze({ loose: true })
+const emptyOpts = Object.freeze({ })
+const parseOptions = options => {
+  if (!options) {
+    return emptyOpts
+  }
+
+  if (typeof options !== 'object') {
+    return looseOption
+  }
+
+  return options
+}
+module.exports = parseOptions
+
+
+/***/ }),
+
+/***/ 9523:
+/***/ ((module, exports, __nccwpck_require__) => {
+
+const {
+  MAX_SAFE_COMPONENT_LENGTH,
+  MAX_SAFE_BUILD_LENGTH,
+  MAX_LENGTH,
+} = __nccwpck_require__(2293)
+const debug = __nccwpck_require__(427)
+exports = module.exports = {}
+
+// The actual regexps go on exports.re
+const re = exports.re = []
+const safeRe = exports.safeRe = []
+const src = exports.src = []
+const t = exports.t = {}
+let R = 0
+
+const LETTERDASHNUMBER = '[a-zA-Z0-9-]'
+
+// Replace some greedy regex tokens to prevent regex dos issues. These regex are
+// used internally via the safeRe object since all inputs in this library get
+// normalized first to trim and collapse all extra whitespace. The original
+// regexes are exported for userland consumption and lower level usage. A
+// future breaking change could export the safer regex only with a note that
+// all input should have extra whitespace removed.
+const safeRegexReplacements = [
+  ['\\s', 1],
+  ['\\d', MAX_LENGTH],
+  [LETTERDASHNUMBER, MAX_SAFE_BUILD_LENGTH],
+]
+
+const makeSafeRegex = (value) => {
+  for (const [token, max] of safeRegexReplacements) {
+    value = value
+      .split(`${token}*`).join(`${token}{0,${max}}`)
+      .split(`${token}+`).join(`${token}{1,${max}}`)
+  }
+  return value
+}
+
+const createToken = (name, value, isGlobal) => {
+  const safe = makeSafeRegex(value)
+  const index = R++
+  debug(name, index, value)
+  t[name] = index
+  src[index] = value
+  re[index] = new RegExp(value, isGlobal ? 'g' : undefined)
+  safeRe[index] = new RegExp(safe, isGlobal ? 'g' : undefined)
+}
+
+// The following Regular Expressions can be used for tokenizing,
+// validating, and parsing SemVer version strings.
+
+// ## Numeric Identifier
+// A single `0`, or a non-zero digit followed by zero or more digits.
+
+createToken('NUMERICIDENTIFIER', '0|[1-9]\\d*')
+createToken('NUMERICIDENTIFIERLOOSE', '\\d+')
+
+// ## Non-numeric Identifier
+// Zero or more digits, followed by a letter or hyphen, and then zero or
+// more letters, digits, or hyphens.
+
+createToken('NONNUMERICIDENTIFIER', `\\d*[a-zA-Z-]${LETTERDASHNUMBER}*`)
+
+// ## Main Version
+// Three dot-separated numeric identifiers.
+
+createToken('MAINVERSION', `(${src[t.NUMERICIDENTIFIER]})\\.` +
+                   `(${src[t.NUMERICIDENTIFIER]})\\.` +
+                   `(${src[t.NUMERICIDENTIFIER]})`)
+
+createToken('MAINVERSIONLOOSE', `(${src[t.NUMERICIDENTIFIERLOOSE]})\\.` +
+                        `(${src[t.NUMERICIDENTIFIERLOOSE]})\\.` +
+                        `(${src[t.NUMERICIDENTIFIERLOOSE]})`)
+
+// ## Pre-release Version Identifier
+// A numeric identifier, or a non-numeric identifier.
+
+createToken('PRERELEASEIDENTIFIER', `(?:${src[t.NUMERICIDENTIFIER]
+}|${src[t.NONNUMERICIDENTIFIER]})`)
+
+createToken('PRERELEASEIDENTIFIERLOOSE', `(?:${src[t.NUMERICIDENTIFIERLOOSE]
+}|${src[t.NONNUMERICIDENTIFIER]})`)
+
+// ## Pre-release Version
+// Hyphen, followed by one or more dot-separated pre-release version
+// identifiers.
+
+createToken('PRERELEASE', `(?:-(${src[t.PRERELEASEIDENTIFIER]
+}(?:\\.${src[t.PRERELEASEIDENTIFIER]})*))`)
+
+createToken('PRERELEASELOOSE', `(?:-?(${src[t.PRERELEASEIDENTIFIERLOOSE]
+}(?:\\.${src[t.PRERELEASEIDENTIFIERLOOSE]})*))`)
+
+// ## Build Metadata Identifier
+// Any combination of digits, letters, or hyphens.
+
+createToken('BUILDIDENTIFIER', `${LETTERDASHNUMBER}+`)
+
+// ## Build Metadata
+// Plus sign, followed by one or more period-separated build metadata
+// identifiers.
+
+createToken('BUILD', `(?:\\+(${src[t.BUILDIDENTIFIER]
+}(?:\\.${src[t.BUILDIDENTIFIER]})*))`)
+
+// ## Full Version String
+// A main version, followed optionally by a pre-release version and
+// build metadata.
+
+// Note that the only major, minor, patch, and pre-release sections of
+// the version string are capturing groups.  The build metadata is not a
+// capturing group, because it should not ever be used in version
+// comparison.
+
+createToken('FULLPLAIN', `v?${src[t.MAINVERSION]
+}${src[t.PRERELEASE]}?${
+  src[t.BUILD]}?`)
+
+createToken('FULL', `^${src[t.FULLPLAIN]}$`)
+
+// like full, but allows v1.2.3 and =1.2.3, which people do sometimes.
+// also, 1.0.0alpha1 (prerelease without the hyphen) which is pretty
+// common in the npm registry.
+createToken('LOOSEPLAIN', `[v=\\s]*${src[t.MAINVERSIONLOOSE]
+}${src[t.PRERELEASELOOSE]}?${
+  src[t.BUILD]}?`)
+
+createToken('LOOSE', `^${src[t.LOOSEPLAIN]}$`)
+
+createToken('GTLT', '((?:<|>)?=?)')
+
+// Something like "2.*" or "1.2.x".
+// Note that "x.x" is a valid xRange identifer, meaning "any version"
+// Only the first item is strictly required.
+createToken('XRANGEIDENTIFIERLOOSE', `${src[t.NUMERICIDENTIFIERLOOSE]}|x|X|\\*`)
+createToken('XRANGEIDENTIFIER', `${src[t.NUMERICIDENTIFIER]}|x|X|\\*`)
+
+createToken('XRANGEPLAIN', `[v=\\s]*(${src[t.XRANGEIDENTIFIER]})` +
+                   `(?:\\.(${src[t.XRANGEIDENTIFIER]})` +
+                   `(?:\\.(${src[t.XRANGEIDENTIFIER]})` +
+                   `(?:${src[t.PRERELEASE]})?${
+                     src[t.BUILD]}?` +
+                   `)?)?`)
+
+createToken('XRANGEPLAINLOOSE', `[v=\\s]*(${src[t.XRANGEIDENTIFIERLOOSE]})` +
+                        `(?:\\.(${src[t.XRANGEIDENTIFIERLOOSE]})` +
+                        `(?:\\.(${src[t.XRANGEIDENTIFIERLOOSE]})` +
+                        `(?:${src[t.PRERELEASELOOSE]})?${
+                          src[t.BUILD]}?` +
+                        `)?)?`)
+
+createToken('XRANGE', `^${src[t.GTLT]}\\s*${src[t.XRANGEPLAIN]}$`)
+createToken('XRANGELOOSE', `^${src[t.GTLT]}\\s*${src[t.XRANGEPLAINLOOSE]}$`)
+
+// Coercion.
+// Extract anything that could conceivably be a part of a valid semver
+createToken('COERCEPLAIN', `${'(^|[^\\d])' +
+              '(\\d{1,'}${MAX_SAFE_COMPONENT_LENGTH}})` +
+              `(?:\\.(\\d{1,${MAX_SAFE_COMPONENT_LENGTH}}))?` +
+              `(?:\\.(\\d{1,${MAX_SAFE_COMPONENT_LENGTH}}))?`)
+createToken('COERCE', `${src[t.COERCEPLAIN]}(?:$|[^\\d])`)
+createToken('COERCEFULL', src[t.COERCEPLAIN] +
+              `(?:${src[t.PRERELEASE]})?` +
+              `(?:${src[t.BUILD]})?` +
+              `(?:$|[^\\d])`)
+createToken('COERCERTL', src[t.COERCE], true)
+createToken('COERCERTLFULL', src[t.COERCEFULL], true)
+
+// Tilde ranges.
+// Meaning is "reasonably at or greater than"
+createToken('LONETILDE', '(?:~>?)')
+
+createToken('TILDETRIM', `(\\s*)${src[t.LONETILDE]}\\s+`, true)
+exports.tildeTrimReplace = '$1~'
+
+createToken('TILDE', `^${src[t.LONETILDE]}${src[t.XRANGEPLAIN]}$`)
+createToken('TILDELOOSE', `^${src[t.LONETILDE]}${src[t.XRANGEPLAINLOOSE]}$`)
+
+// Caret ranges.
+// Meaning is "at least and backwards compatible with"
+createToken('LONECARET', '(?:\\^)')
+
+createToken('CARETTRIM', `(\\s*)${src[t.LONECARET]}\\s+`, true)
+exports.caretTrimReplace = '$1^'
+
+createToken('CARET', `^${src[t.LONECARET]}${src[t.XRANGEPLAIN]}$`)
+createToken('CARETLOOSE', `^${src[t.LONECARET]}${src[t.XRANGEPLAINLOOSE]}$`)
+
+// A simple gt/lt/eq thing, or just "" to indicate "any version"
+createToken('COMPARATORLOOSE', `^${src[t.GTLT]}\\s*(${src[t.LOOSEPLAIN]})$|^$`)
+createToken('COMPARATOR', `^${src[t.GTLT]}\\s*(${src[t.FULLPLAIN]})$|^$`)
+
+// An expression to strip any whitespace between the gtlt and the thing
+// it modifies, so that `> 1.2.3` ==> `>1.2.3`
+createToken('COMPARATORTRIM', `(\\s*)${src[t.GTLT]
+}\\s*(${src[t.LOOSEPLAIN]}|${src[t.XRANGEPLAIN]})`, true)
+exports.comparatorTrimReplace = '$1$2$3'
+
+// Something like `1.2.3 - 1.2.4`
+// Note that these all use the loose form, because they'll be
+// checked against either the strict or loose comparator form
+// later.
+createToken('HYPHENRANGE', `^\\s*(${src[t.XRANGEPLAIN]})` +
+                   `\\s+-\\s+` +
+                   `(${src[t.XRANGEPLAIN]})` +
+                   `\\s*$`)
+
+createToken('HYPHENRANGELOOSE', `^\\s*(${src[t.XRANGEPLAINLOOSE]})` +
+                        `\\s+-\\s+` +
+                        `(${src[t.XRANGEPLAINLOOSE]})` +
+                        `\\s*$`)
+
+// Star ranges basically just allow anything at all.
+createToken('STAR', '(<|>)?=?\\s*\\*')
+// >=0.0.0 is like a star
+createToken('GTE0', '^\\s*>=\\s*0\\.0\\.0\\s*$')
+createToken('GTE0PRE', '^\\s*>=\\s*0\\.0\\.0-0\\s*$')
+
+
+/***/ }),
+
+/***/ 8679:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+
+
+var isArrayish = __nccwpck_require__(7604);
+
+var concat = Array.prototype.concat;
+var slice = Array.prototype.slice;
+
+var swizzle = module.exports = function swizzle(args) {
+	var results = [];
+
+	for (var i = 0, len = args.length; i < len; i++) {
+		var arg = args[i];
+
+		if (isArrayish(arg)) {
+			// http://jsperf.com/javascript-array-concat-vs-push/98
+			results = concat.call(results, slice.call(arg));
+		} else {
+			results.push(arg);
+		}
+	}
+
+	return results;
+};
+
+swizzle.wrap = function (fn) {
+	return function () {
+		return fn(swizzle(arguments));
+	};
+};
+
+
+/***/ }),
+
+/***/ 4294:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+module.exports = __nccwpck_require__(4219);
+
+
+/***/ }),
+
+/***/ 4219:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -1848,7 +5830,7 @@ var net = __nccwpck_require__(1808);
 var tls = __nccwpck_require__(4404);
 var http = __nccwpck_require__(3685);
 var https = __nccwpck_require__(5687);
-var events = __nccwpck_require__(9820);
+var events = __nccwpck_require__(2361);
 var assert = __nccwpck_require__(9491);
 var util = __nccwpck_require__(3837);
 
@@ -2110,32 +6092,32 @@ exports.debug = debug; // for test
 
 /***/ }),
 
-/***/ 5821:
+/***/ 1773:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Client = __nccwpck_require__(4238)
-const Dispatcher = __nccwpck_require__(1365)
-const errors = __nccwpck_require__(5051)
-const Pool = __nccwpck_require__(4889)
-const BalancedPool = __nccwpck_require__(634)
-const Agent = __nccwpck_require__(8326)
-const util = __nccwpck_require__(5127)
+const Client = __nccwpck_require__(3598)
+const Dispatcher = __nccwpck_require__(412)
+const errors = __nccwpck_require__(8045)
+const Pool = __nccwpck_require__(4634)
+const BalancedPool = __nccwpck_require__(7931)
+const Agent = __nccwpck_require__(7890)
+const util = __nccwpck_require__(3983)
 const { InvalidArgumentError } = errors
-const api = __nccwpck_require__(1538)
-const buildConnector = __nccwpck_require__(1474)
-const MockClient = __nccwpck_require__(7413)
-const MockAgent = __nccwpck_require__(8807)
-const MockPool = __nccwpck_require__(3566)
-const mockErrors = __nccwpck_require__(5892)
-const ProxyAgent = __nccwpck_require__(9425)
-const RetryHandler = __nccwpck_require__(4557)
-const { getGlobalDispatcher, setGlobalDispatcher } = __nccwpck_require__(4567)
-const DecoratorHandler = __nccwpck_require__(8875)
-const RedirectHandler = __nccwpck_require__(7846)
-const createRedirectInterceptor = __nccwpck_require__(7028)
+const api = __nccwpck_require__(4059)
+const buildConnector = __nccwpck_require__(2067)
+const MockClient = __nccwpck_require__(8687)
+const MockAgent = __nccwpck_require__(6771)
+const MockPool = __nccwpck_require__(6193)
+const mockErrors = __nccwpck_require__(888)
+const ProxyAgent = __nccwpck_require__(7858)
+const RetryHandler = __nccwpck_require__(2286)
+const { getGlobalDispatcher, setGlobalDispatcher } = __nccwpck_require__(1892)
+const DecoratorHandler = __nccwpck_require__(6930)
+const RedirectHandler = __nccwpck_require__(2860)
+const createRedirectInterceptor = __nccwpck_require__(8861)
 
 let hasCrypto
 try {
@@ -2218,7 +6200,7 @@ if (util.nodeMajor > 16 || (util.nodeMajor === 16 && util.nodeMinor >= 8)) {
   let fetchImpl = null
   module.exports.fetch = async function fetch (resource) {
     if (!fetchImpl) {
-      fetchImpl = (__nccwpck_require__(9964).fetch)
+      fetchImpl = (__nccwpck_require__(4881).fetch)
     }
 
     try {
@@ -2231,20 +6213,20 @@ if (util.nodeMajor > 16 || (util.nodeMajor === 16 && util.nodeMinor >= 8)) {
       throw err
     }
   }
-  module.exports.Headers = __nccwpck_require__(4022).Headers
-  module.exports.Response = __nccwpck_require__(5448).Response
-  module.exports.Request = __nccwpck_require__(4160).Request
-  module.exports.FormData = __nccwpck_require__(5654).FormData
-  module.exports.File = __nccwpck_require__(8548).File
-  module.exports.FileReader = __nccwpck_require__(2052).FileReader
+  module.exports.Headers = __nccwpck_require__(554).Headers
+  module.exports.Response = __nccwpck_require__(7823).Response
+  module.exports.Request = __nccwpck_require__(8359).Request
+  module.exports.FormData = __nccwpck_require__(2015).FormData
+  module.exports.File = __nccwpck_require__(8511).File
+  module.exports.FileReader = __nccwpck_require__(1446).FileReader
 
-  const { setGlobalOrigin, getGlobalOrigin } = __nccwpck_require__(2543)
+  const { setGlobalOrigin, getGlobalOrigin } = __nccwpck_require__(1246)
 
   module.exports.setGlobalOrigin = setGlobalOrigin
   module.exports.getGlobalOrigin = getGlobalOrigin
 
-  const { CacheStorage } = __nccwpck_require__(1443)
-  const { kConstruct } = __nccwpck_require__(5045)
+  const { CacheStorage } = __nccwpck_require__(7907)
+  const { kConstruct } = __nccwpck_require__(9174)
 
   // Cache & CacheStorage are tightly coupled with fetch. Even if it may run
   // in an older version of Node, it doesn't have any use without fetch.
@@ -2252,21 +6234,21 @@ if (util.nodeMajor > 16 || (util.nodeMajor === 16 && util.nodeMinor >= 8)) {
 }
 
 if (util.nodeMajor >= 16) {
-  const { deleteCookie, getCookies, getSetCookies, setCookie } = __nccwpck_require__(4052)
+  const { deleteCookie, getCookies, getSetCookies, setCookie } = __nccwpck_require__(1724)
 
   module.exports.deleteCookie = deleteCookie
   module.exports.getCookies = getCookies
   module.exports.getSetCookies = getSetCookies
   module.exports.setCookie = setCookie
 
-  const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(5313)
+  const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(685)
 
   module.exports.parseMIMEType = parseMIMEType
   module.exports.serializeAMimeType = serializeAMimeType
 }
 
 if (util.nodeMajor >= 18 && hasCrypto) {
-  const { WebSocket } = __nccwpck_require__(6571)
+  const { WebSocket } = __nccwpck_require__(4284)
 
   module.exports.WebSocket = WebSocket
 }
@@ -2285,20 +6267,20 @@ module.exports.mockErrors = mockErrors
 
 /***/ }),
 
-/***/ 8326:
+/***/ 7890:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { InvalidArgumentError } = __nccwpck_require__(5051)
-const { kClients, kRunning, kClose, kDestroy, kDispatch, kInterceptors } = __nccwpck_require__(599)
-const DispatcherBase = __nccwpck_require__(9026)
-const Pool = __nccwpck_require__(4889)
-const Client = __nccwpck_require__(4238)
-const util = __nccwpck_require__(5127)
-const createRedirectInterceptor = __nccwpck_require__(7028)
-const { WeakRef, FinalizationRegistry } = __nccwpck_require__(1646)()
+const { InvalidArgumentError } = __nccwpck_require__(8045)
+const { kClients, kRunning, kClose, kDestroy, kDispatch, kInterceptors } = __nccwpck_require__(2785)
+const DispatcherBase = __nccwpck_require__(4839)
+const Pool = __nccwpck_require__(4634)
+const Client = __nccwpck_require__(3598)
+const util = __nccwpck_require__(3983)
+const createRedirectInterceptor = __nccwpck_require__(8861)
+const { WeakRef, FinalizationRegistry } = __nccwpck_require__(6436)()
 
 const kOnConnect = Symbol('onConnect')
 const kOnDisconnect = Symbol('onDisconnect')
@@ -2441,11 +6423,11 @@ module.exports = Agent
 
 /***/ }),
 
-/***/ 4831:
+/***/ 7032:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const { addAbortListener } = __nccwpck_require__(5127)
-const { RequestAbortedError } = __nccwpck_require__(5051)
+const { addAbortListener } = __nccwpck_require__(3983)
+const { RequestAbortedError } = __nccwpck_require__(8045)
 
 const kListener = Symbol('kListener')
 const kSignal = Symbol('kSignal')
@@ -2502,16 +6484,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8411:
+/***/ 9744:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const { AsyncResource } = __nccwpck_require__(852)
-const { InvalidArgumentError, RequestAbortedError, SocketError } = __nccwpck_require__(5051)
-const util = __nccwpck_require__(5127)
-const { addSignal, removeSignal } = __nccwpck_require__(4831)
+const { InvalidArgumentError, RequestAbortedError, SocketError } = __nccwpck_require__(8045)
+const util = __nccwpck_require__(3983)
+const { addSignal, removeSignal } = __nccwpck_require__(7032)
 
 class ConnectHandler extends AsyncResource {
   constructor (opts, callback) {
@@ -2614,7 +6596,7 @@ module.exports = connect
 
 /***/ }),
 
-/***/ 6232:
+/***/ 8752:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -2629,10 +6611,10 @@ const {
   InvalidArgumentError,
   InvalidReturnValueError,
   RequestAbortedError
-} = __nccwpck_require__(5051)
-const util = __nccwpck_require__(5127)
+} = __nccwpck_require__(8045)
+const util = __nccwpck_require__(3983)
 const { AsyncResource } = __nccwpck_require__(852)
-const { addSignal, removeSignal } = __nccwpck_require__(4831)
+const { addSignal, removeSignal } = __nccwpck_require__(7032)
 const assert = __nccwpck_require__(9491)
 
 const kResume = Symbol('resume')
@@ -2871,21 +6853,21 @@ module.exports = pipeline
 
 /***/ }),
 
-/***/ 9997:
+/***/ 5448:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Readable = __nccwpck_require__(4801)
+const Readable = __nccwpck_require__(3858)
 const {
   InvalidArgumentError,
   RequestAbortedError
-} = __nccwpck_require__(5051)
-const util = __nccwpck_require__(5127)
-const { getResolveErrorBodyCallback } = __nccwpck_require__(7159)
+} = __nccwpck_require__(8045)
+const util = __nccwpck_require__(3983)
+const { getResolveErrorBodyCallback } = __nccwpck_require__(7474)
 const { AsyncResource } = __nccwpck_require__(852)
-const { addSignal, removeSignal } = __nccwpck_require__(4831)
+const { addSignal, removeSignal } = __nccwpck_require__(7032)
 
 class RequestHandler extends AsyncResource {
   constructor (opts, callback) {
@@ -3059,7 +7041,7 @@ module.exports.RequestHandler = RequestHandler
 
 /***/ }),
 
-/***/ 853:
+/***/ 5395:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -3070,11 +7052,11 @@ const {
   InvalidArgumentError,
   InvalidReturnValueError,
   RequestAbortedError
-} = __nccwpck_require__(5051)
-const util = __nccwpck_require__(5127)
-const { getResolveErrorBodyCallback } = __nccwpck_require__(7159)
+} = __nccwpck_require__(8045)
+const util = __nccwpck_require__(3983)
+const { getResolveErrorBodyCallback } = __nccwpck_require__(7474)
 const { AsyncResource } = __nccwpck_require__(852)
-const { addSignal, removeSignal } = __nccwpck_require__(4831)
+const { addSignal, removeSignal } = __nccwpck_require__(7032)
 
 class StreamHandler extends AsyncResource {
   constructor (opts, factory, callback) {
@@ -3287,16 +7269,16 @@ module.exports = stream
 
 /***/ }),
 
-/***/ 6491:
+/***/ 6923:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { InvalidArgumentError, RequestAbortedError, SocketError } = __nccwpck_require__(5051)
+const { InvalidArgumentError, RequestAbortedError, SocketError } = __nccwpck_require__(8045)
 const { AsyncResource } = __nccwpck_require__(852)
-const util = __nccwpck_require__(5127)
-const { addSignal, removeSignal } = __nccwpck_require__(4831)
+const util = __nccwpck_require__(3983)
+const { addSignal, removeSignal } = __nccwpck_require__(7032)
 const assert = __nccwpck_require__(9491)
 
 class UpgradeHandler extends AsyncResource {
@@ -3400,22 +7382,22 @@ module.exports = upgrade
 
 /***/ }),
 
-/***/ 1538:
+/***/ 4059:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-module.exports.request = __nccwpck_require__(9997)
-module.exports.stream = __nccwpck_require__(853)
-module.exports.pipeline = __nccwpck_require__(6232)
-module.exports.upgrade = __nccwpck_require__(6491)
-module.exports.connect = __nccwpck_require__(8411)
+module.exports.request = __nccwpck_require__(5448)
+module.exports.stream = __nccwpck_require__(5395)
+module.exports.pipeline = __nccwpck_require__(8752)
+module.exports.upgrade = __nccwpck_require__(6923)
+module.exports.connect = __nccwpck_require__(9744)
 
 
 /***/ }),
 
-/***/ 4801:
+/***/ 3858:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -3425,9 +7407,9 @@ module.exports.connect = __nccwpck_require__(8411)
 
 const assert = __nccwpck_require__(9491)
 const { Readable } = __nccwpck_require__(2781)
-const { RequestAbortedError, NotSupportedError, InvalidArgumentError } = __nccwpck_require__(5051)
-const util = __nccwpck_require__(5127)
-const { ReadableStreamFrom, toUSVString } = __nccwpck_require__(5127)
+const { RequestAbortedError, NotSupportedError, InvalidArgumentError } = __nccwpck_require__(8045)
+const util = __nccwpck_require__(3983)
+const { ReadableStreamFrom, toUSVString } = __nccwpck_require__(3983)
 
 let Blob
 
@@ -3745,14 +7727,14 @@ function consumeFinish (consume, err) {
 
 /***/ }),
 
-/***/ 7159:
+/***/ 7474:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const assert = __nccwpck_require__(9491)
 const {
   ResponseStatusCodeError
-} = __nccwpck_require__(5051)
-const { toUSVString } = __nccwpck_require__(5127)
+} = __nccwpck_require__(8045)
+const { toUSVString } = __nccwpck_require__(3983)
 
 async function getResolveErrorBodyCallback ({ callback, body, contentType, statusCode, statusMessage, headers }) {
   assert(body)
@@ -3798,7 +7780,7 @@ module.exports = { getResolveErrorBodyCallback }
 
 /***/ }),
 
-/***/ 634:
+/***/ 7931:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -3807,7 +7789,7 @@ module.exports = { getResolveErrorBodyCallback }
 const {
   BalancedPoolMissingUpstreamError,
   InvalidArgumentError
-} = __nccwpck_require__(5051)
+} = __nccwpck_require__(8045)
 const {
   PoolBase,
   kClients,
@@ -3815,10 +7797,10 @@ const {
   kAddClient,
   kRemoveClient,
   kGetDispatcher
-} = __nccwpck_require__(1497)
-const Pool = __nccwpck_require__(4889)
-const { kUrl, kInterceptors } = __nccwpck_require__(599)
-const { parseOrigin } = __nccwpck_require__(5127)
+} = __nccwpck_require__(3198)
+const Pool = __nccwpck_require__(4634)
+const { kUrl, kInterceptors } = __nccwpck_require__(2785)
+const { parseOrigin } = __nccwpck_require__(3983)
 const kFactory = Symbol('factory')
 
 const kOptions = Symbol('options')
@@ -3996,24 +7978,24 @@ module.exports = BalancedPool
 
 /***/ }),
 
-/***/ 3808:
+/***/ 6101:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kConstruct } = __nccwpck_require__(5045)
-const { urlEquals, fieldValues: getFieldValues } = __nccwpck_require__(5137)
-const { kEnumerableProperty, isDisturbed } = __nccwpck_require__(5127)
-const { kHeadersList } = __nccwpck_require__(599)
-const { webidl } = __nccwpck_require__(6971)
-const { Response, cloneResponse } = __nccwpck_require__(5448)
-const { Request } = __nccwpck_require__(4160)
-const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5994)
-const { fetching } = __nccwpck_require__(9964)
-const { urlIsHttpHttpsScheme, createDeferredPromise, readAllBytes } = __nccwpck_require__(4013)
+const { kConstruct } = __nccwpck_require__(9174)
+const { urlEquals, fieldValues: getFieldValues } = __nccwpck_require__(2396)
+const { kEnumerableProperty, isDisturbed } = __nccwpck_require__(3983)
+const { kHeadersList } = __nccwpck_require__(2785)
+const { webidl } = __nccwpck_require__(1744)
+const { Response, cloneResponse } = __nccwpck_require__(7823)
+const { Request } = __nccwpck_require__(8359)
+const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5861)
+const { fetching } = __nccwpck_require__(4881)
+const { urlIsHttpHttpsScheme, createDeferredPromise, readAllBytes } = __nccwpck_require__(2538)
 const assert = __nccwpck_require__(9491)
-const { getGlobalDispatcher } = __nccwpck_require__(4567)
+const { getGlobalDispatcher } = __nccwpck_require__(1892)
 
 /**
  * @see https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation
@@ -4842,16 +8824,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1443:
+/***/ 7907:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kConstruct } = __nccwpck_require__(5045)
-const { Cache } = __nccwpck_require__(3808)
-const { webidl } = __nccwpck_require__(6971)
-const { kEnumerableProperty } = __nccwpck_require__(5127)
+const { kConstruct } = __nccwpck_require__(9174)
+const { Cache } = __nccwpck_require__(6101)
+const { webidl } = __nccwpck_require__(1744)
+const { kEnumerableProperty } = __nccwpck_require__(3983)
 
 class CacheStorage {
   /**
@@ -4994,28 +8976,28 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5045:
+/***/ 9174:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 module.exports = {
-  kConstruct: (__nccwpck_require__(599).kConstruct)
+  kConstruct: (__nccwpck_require__(2785).kConstruct)
 }
 
 
 /***/ }),
 
-/***/ 5137:
+/***/ 2396:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const assert = __nccwpck_require__(9491)
-const { URLSerializer } = __nccwpck_require__(5313)
-const { isValidHeaderName } = __nccwpck_require__(4013)
+const { URLSerializer } = __nccwpck_require__(685)
+const { isValidHeaderName } = __nccwpck_require__(2538)
 
 /**
  * @see https://url.spec.whatwg.org/#concept-url-equals
@@ -5064,7 +9046,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4238:
+/***/ 3598:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -5078,10 +9060,10 @@ const assert = __nccwpck_require__(9491)
 const net = __nccwpck_require__(1808)
 const http = __nccwpck_require__(3685)
 const { pipeline } = __nccwpck_require__(2781)
-const util = __nccwpck_require__(5127)
-const timers = __nccwpck_require__(5352)
-const Request = __nccwpck_require__(7758)
-const DispatcherBase = __nccwpck_require__(9026)
+const util = __nccwpck_require__(3983)
+const timers = __nccwpck_require__(9459)
+const Request = __nccwpck_require__(2905)
+const DispatcherBase = __nccwpck_require__(4839)
 const {
   RequestContentLengthMismatchError,
   ResponseContentLengthMismatchError,
@@ -5095,8 +9077,8 @@ const {
   HTTPParserError,
   ResponseExceededMaxSizeError,
   ClientDestroyedError
-} = __nccwpck_require__(5051)
-const buildConnector = __nccwpck_require__(1474)
+} = __nccwpck_require__(8045)
+const buildConnector = __nccwpck_require__(2067)
 const {
   kUrl,
   kReset,
@@ -5148,7 +9130,7 @@ const {
   kHTTP2BuildRequest,
   kHTTP2CopyHeaders,
   kHTTP1BuildRequest
-} = __nccwpck_require__(599)
+} = __nccwpck_require__(2785)
 
 /** @type {import('http2')} */
 let http2
@@ -5554,16 +9536,16 @@ function onHTTP2GoAway (code) {
   resume(client)
 }
 
-const constants = __nccwpck_require__(3547)
-const createRedirectInterceptor = __nccwpck_require__(7028)
+const constants = __nccwpck_require__(953)
+const createRedirectInterceptor = __nccwpck_require__(8861)
 const EMPTY_BUF = Buffer.alloc(0)
 
 async function lazyllhttp () {
-  const llhttpWasmData = process.env.JEST_WORKER_ID ? __nccwpck_require__(7211) : undefined
+  const llhttpWasmData = process.env.JEST_WORKER_ID ? __nccwpck_require__(1145) : undefined
 
   let mod
   try {
-    mod = await WebAssembly.compile(Buffer.from(__nccwpck_require__(5335), 'base64'))
+    mod = await WebAssembly.compile(Buffer.from(__nccwpck_require__(5627), 'base64'))
   } catch (e) {
     /* istanbul ignore next */
 
@@ -5571,7 +9553,7 @@ async function lazyllhttp () {
     // being enabled, but the occurring of this other error
     // * https://github.com/emscripten-core/emscripten/issues/11495
     // got me to remove that check to avoid breaking Node 12.
-    mod = await WebAssembly.compile(Buffer.from(llhttpWasmData || __nccwpck_require__(7211), 'base64'))
+    mod = await WebAssembly.compile(Buffer.from(llhttpWasmData || __nccwpck_require__(1145), 'base64'))
   }
 
   return await WebAssembly.instantiate(mod, {
@@ -7355,7 +11337,7 @@ module.exports = Client
 
 /***/ }),
 
-/***/ 1646:
+/***/ 6436:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -7363,7 +11345,7 @@ module.exports = Client
 
 /* istanbul ignore file: only for Node 12 */
 
-const { kConnected, kSize } = __nccwpck_require__(599)
+const { kConnected, kSize } = __nccwpck_require__(2785)
 
 class CompatWeakRef {
   constructor (value) {
@@ -7411,7 +11393,7 @@ module.exports = function () {
 
 /***/ }),
 
-/***/ 7107:
+/***/ 663:
 /***/ ((module) => {
 
 "use strict";
@@ -7431,16 +11413,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4052:
+/***/ 1724:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { parseSetCookie } = __nccwpck_require__(1527)
-const { stringify, getHeadersList } = __nccwpck_require__(8535)
-const { webidl } = __nccwpck_require__(6971)
-const { Headers } = __nccwpck_require__(4022)
+const { parseSetCookie } = __nccwpck_require__(4408)
+const { stringify, getHeadersList } = __nccwpck_require__(3121)
+const { webidl } = __nccwpck_require__(1744)
+const { Headers } = __nccwpck_require__(554)
 
 /**
  * @typedef {Object} Cookie
@@ -7623,15 +11605,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1527:
+/***/ 4408:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { maxNameValuePairSize, maxAttributeValueSize } = __nccwpck_require__(7107)
-const { isCTLExcludingHtab } = __nccwpck_require__(8535)
-const { collectASequenceOfCodePointsFast } = __nccwpck_require__(5313)
+const { maxNameValuePairSize, maxAttributeValueSize } = __nccwpck_require__(663)
+const { isCTLExcludingHtab } = __nccwpck_require__(3121)
+const { collectASequenceOfCodePointsFast } = __nccwpck_require__(685)
 const assert = __nccwpck_require__(9491)
 
 /**
@@ -7948,14 +11930,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8535:
+/***/ 3121:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const assert = __nccwpck_require__(9491)
-const { kHeadersList } = __nccwpck_require__(599)
+const { kHeadersList } = __nccwpck_require__(2785)
 
 function isCTLExcludingHtab (value) {
   if (value.length === 0) {
@@ -8247,7 +12229,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1474:
+/***/ 2067:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -8255,8 +12237,8 @@ module.exports = {
 
 const net = __nccwpck_require__(1808)
 const assert = __nccwpck_require__(9491)
-const util = __nccwpck_require__(5127)
-const { InvalidArgumentError, ConnectTimeoutError } = __nccwpck_require__(5051)
+const util = __nccwpck_require__(3983)
+const { InvalidArgumentError, ConnectTimeoutError } = __nccwpck_require__(8045)
 
 let tls // include tls conditionally since it is not always available
 
@@ -8444,7 +12426,7 @@ module.exports = buildConnector
 
 /***/ }),
 
-/***/ 5572:
+/***/ 4462:
 /***/ ((module) => {
 
 "use strict";
@@ -8570,7 +12552,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5051:
+/***/ 8045:
 /***/ ((module) => {
 
 "use strict";
@@ -8808,7 +12790,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7758:
+/***/ 2905:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -8817,10 +12799,10 @@ module.exports = {
 const {
   InvalidArgumentError,
   NotSupportedError
-} = __nccwpck_require__(5051)
+} = __nccwpck_require__(8045)
 const assert = __nccwpck_require__(9491)
-const { kHTTP2BuildRequest, kHTTP2CopyHeaders, kHTTP1BuildRequest } = __nccwpck_require__(599)
-const util = __nccwpck_require__(5127)
+const { kHTTP2BuildRequest, kHTTP2CopyHeaders, kHTTP1BuildRequest } = __nccwpck_require__(2785)
+const util = __nccwpck_require__(3983)
 
 // tokenRegExp and headerCharRegex have been lifted from
 // https://github.com/nodejs/node/blob/main/lib/_http_common.js
@@ -9015,7 +12997,7 @@ class Request {
       }
 
       if (!extractBody) {
-        extractBody = (__nccwpck_require__(7019).extractBody)
+        extractBody = (__nccwpck_require__(1472).extractBody)
       }
 
       const [bodyStream, contentType] = extractBody(body)
@@ -9315,7 +13297,7 @@ module.exports = Request
 
 /***/ }),
 
-/***/ 599:
+/***/ 2785:
 /***/ ((module) => {
 
 module.exports = {
@@ -9385,22 +13367,22 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5127:
+/***/ 3983:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const assert = __nccwpck_require__(9491)
-const { kDestroyed, kBodyUsed } = __nccwpck_require__(599)
+const { kDestroyed, kBodyUsed } = __nccwpck_require__(2785)
 const { IncomingMessage } = __nccwpck_require__(3685)
 const stream = __nccwpck_require__(2781)
 const net = __nccwpck_require__(1808)
-const { InvalidArgumentError } = __nccwpck_require__(5051)
+const { InvalidArgumentError } = __nccwpck_require__(8045)
 const { Blob } = __nccwpck_require__(4300)
 const nodeUtil = __nccwpck_require__(3837)
 const { stringify } = __nccwpck_require__(3477)
-const { headerNameLowerCasedRecord } = __nccwpck_require__(5572)
+const { headerNameLowerCasedRecord } = __nccwpck_require__(4462)
 
 const [nodeMajor, nodeMinor] = process.versions.node.split('.').map(v => Number(v))
 
@@ -9915,19 +13897,19 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9026:
+/***/ 4839:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Dispatcher = __nccwpck_require__(1365)
+const Dispatcher = __nccwpck_require__(412)
 const {
   ClientDestroyedError,
   ClientClosedError,
   InvalidArgumentError
-} = __nccwpck_require__(5051)
-const { kDestroy, kClose, kDispatch, kInterceptors } = __nccwpck_require__(599)
+} = __nccwpck_require__(8045)
+const { kDestroy, kClose, kDispatch, kInterceptors } = __nccwpck_require__(2785)
 
 const kDestroyed = Symbol('destroyed')
 const kClosed = Symbol('closed')
@@ -10115,13 +14097,13 @@ module.exports = DispatcherBase
 
 /***/ }),
 
-/***/ 1365:
+/***/ 412:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const EventEmitter = __nccwpck_require__(9820)
+const EventEmitter = __nccwpck_require__(2361)
 
 class Dispatcher extends EventEmitter {
   dispatch () {
@@ -10142,14 +14124,14 @@ module.exports = Dispatcher
 
 /***/ }),
 
-/***/ 7019:
+/***/ 1472:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Busboy = __nccwpck_require__(9203)
-const util = __nccwpck_require__(5127)
+const Busboy = __nccwpck_require__(727)
+const util = __nccwpck_require__(3983)
 const {
   ReadableStreamFrom,
   isBlobLike,
@@ -10157,18 +14139,18 @@ const {
   readableStreamClose,
   createDeferredPromise,
   fullyReadBody
-} = __nccwpck_require__(4013)
-const { FormData } = __nccwpck_require__(5654)
-const { kState } = __nccwpck_require__(5994)
-const { webidl } = __nccwpck_require__(6971)
-const { DOMException, structuredClone } = __nccwpck_require__(2253)
+} = __nccwpck_require__(2538)
+const { FormData } = __nccwpck_require__(2015)
+const { kState } = __nccwpck_require__(5861)
+const { webidl } = __nccwpck_require__(1744)
+const { DOMException, structuredClone } = __nccwpck_require__(1037)
 const { Blob, File: NativeFile } = __nccwpck_require__(4300)
-const { kBodyUsed } = __nccwpck_require__(599)
+const { kBodyUsed } = __nccwpck_require__(2785)
 const assert = __nccwpck_require__(9491)
-const { isErrored } = __nccwpck_require__(5127)
+const { isErrored } = __nccwpck_require__(3983)
 const { isUint8Array, isArrayBuffer } = __nccwpck_require__(9830)
-const { File: UndiciFile } = __nccwpck_require__(8548)
-const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(5313)
+const { File: UndiciFile } = __nccwpck_require__(8511)
+const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(685)
 
 let ReadableStream = globalThis.ReadableStream
 
@@ -10755,7 +14737,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2253:
+/***/ 1037:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -10914,12 +14896,12 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5313:
+/***/ 685:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const assert = __nccwpck_require__(9491)
 const { atob } = __nccwpck_require__(4300)
-const { isomorphicDecode } = __nccwpck_require__(4013)
+const { isomorphicDecode } = __nccwpck_require__(2538)
 
 const encoder = new TextEncoder()
 
@@ -11548,7 +15530,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8548:
+/***/ 8511:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -11556,11 +15538,11 @@ module.exports = {
 
 const { Blob, File: NativeFile } = __nccwpck_require__(4300)
 const { types } = __nccwpck_require__(3837)
-const { kState } = __nccwpck_require__(5994)
-const { isBlobLike } = __nccwpck_require__(4013)
-const { webidl } = __nccwpck_require__(6971)
-const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(5313)
-const { kEnumerableProperty } = __nccwpck_require__(5127)
+const { kState } = __nccwpck_require__(5861)
+const { isBlobLike } = __nccwpck_require__(2538)
+const { webidl } = __nccwpck_require__(1744)
+const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(685)
+const { kEnumerableProperty } = __nccwpck_require__(3983)
 const encoder = new TextEncoder()
 
 class File extends Blob {
@@ -11900,16 +15882,16 @@ module.exports = { File, FileLike, isFileLike }
 
 /***/ }),
 
-/***/ 5654:
+/***/ 2015:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { isBlobLike, toUSVString, makeIterator } = __nccwpck_require__(4013)
-const { kState } = __nccwpck_require__(5994)
-const { File: UndiciFile, FileLike, isFileLike } = __nccwpck_require__(8548)
-const { webidl } = __nccwpck_require__(6971)
+const { isBlobLike, toUSVString, makeIterator } = __nccwpck_require__(2538)
+const { kState } = __nccwpck_require__(5861)
+const { File: UndiciFile, FileLike, isFileLike } = __nccwpck_require__(8511)
+const { webidl } = __nccwpck_require__(1744)
 const { Blob, File: NativeFile } = __nccwpck_require__(4300)
 
 /** @type {globalThis['File']} */
@@ -12173,7 +16155,7 @@ module.exports = { FormData }
 
 /***/ }),
 
-/***/ 2543:
+/***/ 1246:
 /***/ ((module) => {
 
 "use strict";
@@ -12221,7 +16203,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4022:
+/***/ 554:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -12229,15 +16211,15 @@ module.exports = {
 
 
 
-const { kHeadersList, kConstruct } = __nccwpck_require__(599)
-const { kGuard } = __nccwpck_require__(5994)
-const { kEnumerableProperty } = __nccwpck_require__(5127)
+const { kHeadersList, kConstruct } = __nccwpck_require__(2785)
+const { kGuard } = __nccwpck_require__(5861)
+const { kEnumerableProperty } = __nccwpck_require__(3983)
 const {
   makeIterator,
   isValidHeaderName,
   isValidHeaderValue
-} = __nccwpck_require__(4013)
-const { webidl } = __nccwpck_require__(6971)
+} = __nccwpck_require__(2538)
+const { webidl } = __nccwpck_require__(1744)
 const assert = __nccwpck_require__(9491)
 
 const kHeadersMap = Symbol('headers map')
@@ -12818,7 +16800,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9964:
+/***/ 4881:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -12832,9 +16814,9 @@ const {
   makeAppropriateNetworkError,
   filterResponse,
   makeResponse
-} = __nccwpck_require__(5448)
-const { Headers } = __nccwpck_require__(4022)
-const { Request, makeRequest } = __nccwpck_require__(4160)
+} = __nccwpck_require__(7823)
+const { Headers } = __nccwpck_require__(554)
+const { Request, makeRequest } = __nccwpck_require__(8359)
 const zlib = __nccwpck_require__(9796)
 const {
   bytesMatch,
@@ -12865,10 +16847,10 @@ const {
   urlIsLocal,
   urlIsHttpHttpsScheme,
   urlHasHttpsScheme
-} = __nccwpck_require__(4013)
-const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5994)
+} = __nccwpck_require__(2538)
+const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5861)
 const assert = __nccwpck_require__(9491)
-const { safelyExtractBody } = __nccwpck_require__(7019)
+const { safelyExtractBody } = __nccwpck_require__(1472)
 const {
   redirectStatusSet,
   nullBodyStatus,
@@ -12876,15 +16858,15 @@ const {
   requestBodyHeader,
   subresourceSet,
   DOMException
-} = __nccwpck_require__(2253)
-const { kHeadersList } = __nccwpck_require__(599)
-const EE = __nccwpck_require__(9820)
+} = __nccwpck_require__(1037)
+const { kHeadersList } = __nccwpck_require__(2785)
+const EE = __nccwpck_require__(2361)
 const { Readable, pipeline } = __nccwpck_require__(2781)
-const { addAbortListener, isErrored, isReadable, nodeMajor, nodeMinor } = __nccwpck_require__(5127)
-const { dataURLProcessor, serializeAMimeType } = __nccwpck_require__(5313)
+const { addAbortListener, isErrored, isReadable, nodeMajor, nodeMinor } = __nccwpck_require__(3983)
+const { dataURLProcessor, serializeAMimeType } = __nccwpck_require__(685)
 const { TransformStream } = __nccwpck_require__(5356)
-const { getGlobalDispatcher } = __nccwpck_require__(4567)
-const { webidl } = __nccwpck_require__(6971)
+const { getGlobalDispatcher } = __nccwpck_require__(1892)
+const { webidl } = __nccwpck_require__(1744)
 const { STATUS_CODES } = __nccwpck_require__(3685)
 const GET_OR_HEAD = ['GET', 'HEAD']
 
@@ -14974,7 +18956,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4160:
+/***/ 8359:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -14982,17 +18964,17 @@ module.exports = {
 
 
 
-const { extractBody, mixinBody, cloneBody } = __nccwpck_require__(7019)
-const { Headers, fill: fillHeaders, HeadersList } = __nccwpck_require__(4022)
-const { FinalizationRegistry } = __nccwpck_require__(1646)()
-const util = __nccwpck_require__(5127)
+const { extractBody, mixinBody, cloneBody } = __nccwpck_require__(1472)
+const { Headers, fill: fillHeaders, HeadersList } = __nccwpck_require__(554)
+const { FinalizationRegistry } = __nccwpck_require__(6436)()
+const util = __nccwpck_require__(3983)
 const {
   isValidHTTPToken,
   sameOrigin,
   normalizeMethod,
   makePolicyContainer,
   normalizeMethodRecord
-} = __nccwpck_require__(4013)
+} = __nccwpck_require__(2538)
 const {
   forbiddenMethodsSet,
   corsSafeListedMethodsSet,
@@ -15002,15 +18984,15 @@ const {
   requestCredentials,
   requestCache,
   requestDuplex
-} = __nccwpck_require__(2253)
+} = __nccwpck_require__(1037)
 const { kEnumerableProperty } = util
-const { kHeaders, kSignal, kState, kGuard, kRealm } = __nccwpck_require__(5994)
-const { webidl } = __nccwpck_require__(6971)
-const { getGlobalOrigin } = __nccwpck_require__(2543)
-const { URLSerializer } = __nccwpck_require__(5313)
-const { kHeadersList, kConstruct } = __nccwpck_require__(599)
+const { kHeaders, kSignal, kState, kGuard, kRealm } = __nccwpck_require__(5861)
+const { webidl } = __nccwpck_require__(1744)
+const { getGlobalOrigin } = __nccwpck_require__(1246)
+const { URLSerializer } = __nccwpck_require__(685)
+const { kHeadersList, kConstruct } = __nccwpck_require__(2785)
 const assert = __nccwpck_require__(9491)
-const { getMaxListeners, setMaxListeners, getEventListeners, defaultMaxListeners } = __nccwpck_require__(9820)
+const { getMaxListeners, setMaxListeners, getEventListeners, defaultMaxListeners } = __nccwpck_require__(2361)
 
 let TransformStream = globalThis.TransformStream
 
@@ -15928,15 +19910,15 @@ module.exports = { Request, makeRequest }
 
 /***/ }),
 
-/***/ 5448:
+/***/ 7823:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { Headers, HeadersList, fill } = __nccwpck_require__(4022)
-const { extractBody, cloneBody, mixinBody } = __nccwpck_require__(7019)
-const util = __nccwpck_require__(5127)
+const { Headers, HeadersList, fill } = __nccwpck_require__(554)
+const { extractBody, cloneBody, mixinBody } = __nccwpck_require__(1472)
+const util = __nccwpck_require__(3983)
 const { kEnumerableProperty } = util
 const {
   isValidReasonPhrase,
@@ -15946,18 +19928,18 @@ const {
   serializeJavascriptValueToJSONString,
   isErrorLike,
   isomorphicEncode
-} = __nccwpck_require__(4013)
+} = __nccwpck_require__(2538)
 const {
   redirectStatusSet,
   nullBodyStatus,
   DOMException
-} = __nccwpck_require__(2253)
-const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5994)
-const { webidl } = __nccwpck_require__(6971)
-const { FormData } = __nccwpck_require__(5654)
-const { getGlobalOrigin } = __nccwpck_require__(2543)
-const { URLSerializer } = __nccwpck_require__(5313)
-const { kHeadersList, kConstruct } = __nccwpck_require__(599)
+} = __nccwpck_require__(1037)
+const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5861)
+const { webidl } = __nccwpck_require__(1744)
+const { FormData } = __nccwpck_require__(2015)
+const { getGlobalOrigin } = __nccwpck_require__(1246)
+const { URLSerializer } = __nccwpck_require__(685)
+const { kHeadersList, kConstruct } = __nccwpck_require__(2785)
 const assert = __nccwpck_require__(9491)
 const { types } = __nccwpck_require__(3837)
 
@@ -16507,7 +20489,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5994:
+/***/ 5861:
 /***/ ((module) => {
 
 "use strict";
@@ -16525,16 +20507,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4013:
+/***/ 2538:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { redirectStatusSet, referrerPolicySet: referrerPolicyTokens, badPortsSet } = __nccwpck_require__(2253)
-const { getGlobalOrigin } = __nccwpck_require__(2543)
+const { redirectStatusSet, referrerPolicySet: referrerPolicyTokens, badPortsSet } = __nccwpck_require__(1037)
+const { getGlobalOrigin } = __nccwpck_require__(1246)
 const { performance } = __nccwpck_require__(4074)
-const { isBlobLike, toUSVString, ReadableStreamFrom } = __nccwpck_require__(5127)
+const { isBlobLike, toUSVString, ReadableStreamFrom } = __nccwpck_require__(3983)
 const assert = __nccwpck_require__(9491)
 const { isUint8Array } = __nccwpck_require__(9830)
 
@@ -17677,14 +21659,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 6971:
+/***/ 1744:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const { types } = __nccwpck_require__(3837)
-const { hasOwn, toUSVString } = __nccwpck_require__(4013)
+const { hasOwn, toUSVString } = __nccwpck_require__(2538)
 
 /** @type {import('../../types/webidl').Webidl} */
 const webidl = {}
@@ -18331,7 +22313,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3494:
+/***/ 4854:
 /***/ ((module) => {
 
 "use strict";
@@ -18629,7 +22611,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2052:
+/***/ 1446:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -18639,16 +22621,16 @@ const {
   staticPropertyDescriptors,
   readOperation,
   fireAProgressEvent
-} = __nccwpck_require__(1485)
+} = __nccwpck_require__(7530)
 const {
   kState,
   kError,
   kResult,
   kEvents,
   kAborted
-} = __nccwpck_require__(4509)
-const { webidl } = __nccwpck_require__(6971)
-const { kEnumerableProperty } = __nccwpck_require__(5127)
+} = __nccwpck_require__(9054)
+const { webidl } = __nccwpck_require__(1744)
+const { kEnumerableProperty } = __nccwpck_require__(3983)
 
 class FileReader extends EventTarget {
   constructor () {
@@ -18981,13 +22963,13 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7752:
+/***/ 5504:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { webidl } = __nccwpck_require__(6971)
+const { webidl } = __nccwpck_require__(1744)
 
 const kState = Symbol('ProgressEvent state')
 
@@ -19067,7 +23049,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4509:
+/***/ 9054:
 /***/ ((module) => {
 
 "use strict";
@@ -19085,7 +23067,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1485:
+/***/ 7530:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -19097,11 +23079,11 @@ const {
   kResult,
   kAborted,
   kLastProgressEventFired
-} = __nccwpck_require__(4509)
-const { ProgressEvent } = __nccwpck_require__(7752)
-const { getEncoding } = __nccwpck_require__(3494)
-const { DOMException } = __nccwpck_require__(2253)
-const { serializeAMimeType, parseMIMEType } = __nccwpck_require__(5313)
+} = __nccwpck_require__(9054)
+const { ProgressEvent } = __nccwpck_require__(5504)
+const { getEncoding } = __nccwpck_require__(4854)
+const { DOMException } = __nccwpck_require__(1037)
+const { serializeAMimeType, parseMIMEType } = __nccwpck_require__(685)
 const { types } = __nccwpck_require__(3837)
 const { StringDecoder } = __nccwpck_require__(1576)
 const { btoa } = __nccwpck_require__(4300)
@@ -19485,7 +23467,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4567:
+/***/ 1892:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -19494,8 +23476,8 @@ module.exports = {
 // We include a version number for the Dispatcher API. In case of breaking changes,
 // this version number must be increased to avoid conflicts.
 const globalDispatcher = Symbol.for('undici.globalDispatcher.1')
-const { InvalidArgumentError } = __nccwpck_require__(5051)
-const Agent = __nccwpck_require__(8326)
+const { InvalidArgumentError } = __nccwpck_require__(8045)
+const Agent = __nccwpck_require__(7890)
 
 if (getGlobalDispatcher() === undefined) {
   setGlobalDispatcher(new Agent())
@@ -19525,7 +23507,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8875:
+/***/ 6930:
 /***/ ((module) => {
 
 "use strict";
@@ -19568,17 +23550,17 @@ module.exports = class DecoratorHandler {
 
 /***/ }),
 
-/***/ 7846:
+/***/ 2860:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const util = __nccwpck_require__(5127)
-const { kBodyUsed } = __nccwpck_require__(599)
+const util = __nccwpck_require__(3983)
+const { kBodyUsed } = __nccwpck_require__(2785)
 const assert = __nccwpck_require__(9491)
-const { InvalidArgumentError } = __nccwpck_require__(5051)
-const EE = __nccwpck_require__(9820)
+const { InvalidArgumentError } = __nccwpck_require__(8045)
+const EE = __nccwpck_require__(2361)
 
 const redirectableStatusCodes = [300, 301, 302, 303, 307, 308]
 
@@ -19797,14 +23779,14 @@ module.exports = RedirectHandler
 
 /***/ }),
 
-/***/ 4557:
+/***/ 2286:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const assert = __nccwpck_require__(9491)
 
-const { kRetryHandlerDefaultRetry } = __nccwpck_require__(599)
-const { RequestRetryError } = __nccwpck_require__(5051)
-const { isDisturbed, parseHeaders, parseRangeHeader } = __nccwpck_require__(5127)
+const { kRetryHandlerDefaultRetry } = __nccwpck_require__(2785)
+const { RequestRetryError } = __nccwpck_require__(8045)
+const { isDisturbed, parseHeaders, parseRangeHeader } = __nccwpck_require__(3983)
 
 function calculateRetryAfterHeader (retryAfter) {
   const current = Date.now()
@@ -20140,13 +24122,13 @@ module.exports = RetryHandler
 
 /***/ }),
 
-/***/ 7028:
+/***/ 8861:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const RedirectHandler = __nccwpck_require__(7846)
+const RedirectHandler = __nccwpck_require__(2860)
 
 function createRedirectInterceptor ({ maxRedirections: defaultMaxRedirections }) {
   return (dispatch) => {
@@ -20169,14 +24151,14 @@ module.exports = createRedirectInterceptor
 
 /***/ }),
 
-/***/ 3547:
+/***/ 953:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SPECIAL_HEADERS = exports.HEADER_STATE = exports.MINOR = exports.MAJOR = exports.CONNECTION_TOKEN_CHARS = exports.HEADER_CHARS = exports.TOKEN = exports.STRICT_TOKEN = exports.HEX = exports.URL_CHAR = exports.STRICT_URL_CHAR = exports.USERINFO_CHARS = exports.MARK = exports.ALPHANUM = exports.NUM = exports.HEX_MAP = exports.NUM_MAP = exports.ALPHA = exports.FINISH = exports.H_METHOD_MAP = exports.METHOD_MAP = exports.METHODS_RTSP = exports.METHODS_ICE = exports.METHODS_HTTP = exports.METHODS = exports.LENIENT_FLAGS = exports.FLAGS = exports.TYPE = exports.ERROR = void 0;
-const utils_1 = __nccwpck_require__(5308);
+const utils_1 = __nccwpck_require__(1891);
 // C headers
 var ERROR;
 (function (ERROR) {
@@ -20454,7 +24436,7 @@ exports.SPECIAL_HEADERS = {
 
 /***/ }),
 
-/***/ 7211:
+/***/ 1145:
 /***/ ((module) => {
 
 module.exports = 'AGFzbQEAAAABMAhgAX8Bf2ADf39/AX9gBH9/f38Bf2AAAGADf39/AGABfwBgAn9/AGAGf39/f39/AALLAQgDZW52GHdhc21fb25faGVhZGVyc19jb21wbGV0ZQACA2VudhV3YXNtX29uX21lc3NhZ2VfYmVnaW4AAANlbnYLd2FzbV9vbl91cmwAAQNlbnYOd2FzbV9vbl9zdGF0dXMAAQNlbnYUd2FzbV9vbl9oZWFkZXJfZmllbGQAAQNlbnYUd2FzbV9vbl9oZWFkZXJfdmFsdWUAAQNlbnYMd2FzbV9vbl9ib2R5AAEDZW52GHdhc21fb25fbWVzc2FnZV9jb21wbGV0ZQAAA0ZFAwMEAAAFAAAAAAAABQEFAAUFBQAABgAAAAAGBgYGAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAAABAQcAAAUFAwABBAUBcAESEgUDAQACBggBfwFBgNQECwfRBSIGbWVtb3J5AgALX2luaXRpYWxpemUACRlfX2luZGlyZWN0X2Z1bmN0aW9uX3RhYmxlAQALbGxodHRwX2luaXQAChhsbGh0dHBfc2hvdWxkX2tlZXBfYWxpdmUAQQxsbGh0dHBfYWxsb2MADAZtYWxsb2MARgtsbGh0dHBfZnJlZQANBGZyZWUASA9sbGh0dHBfZ2V0X3R5cGUADhVsbGh0dHBfZ2V0X2h0dHBfbWFqb3IADxVsbGh0dHBfZ2V0X2h0dHBfbWlub3IAEBFsbGh0dHBfZ2V0X21ldGhvZAARFmxsaHR0cF9nZXRfc3RhdHVzX2NvZGUAEhJsbGh0dHBfZ2V0X3VwZ3JhZGUAEwxsbGh0dHBfcmVzZXQAFA5sbGh0dHBfZXhlY3V0ZQAVFGxsaHR0cF9zZXR0aW5nc19pbml0ABYNbGxodHRwX2ZpbmlzaAAXDGxsaHR0cF9wYXVzZQAYDWxsaHR0cF9yZXN1bWUAGRtsbGh0dHBfcmVzdW1lX2FmdGVyX3VwZ3JhZGUAGhBsbGh0dHBfZ2V0X2Vycm5vABsXbGxodHRwX2dldF9lcnJvcl9yZWFzb24AHBdsbGh0dHBfc2V0X2Vycm9yX3JlYXNvbgAdFGxsaHR0cF9nZXRfZXJyb3JfcG9zAB4RbGxodHRwX2Vycm5vX25hbWUAHxJsbGh0dHBfbWV0aG9kX25hbWUAIBJs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ADcDACAAQShqQgA3AwAgAEEgakIANwMAIABBEGpCADcDACAAQQhqQgA3AwAgAEHdATYCHEEAC3sBAX8CQCAAKAIMIgMNAAJAIAAoAgRFDQAgACABNgIECwJAIAAgASACEMSAgIAAIgMNACAAKAIMDwsgACADNgIcQQAhAyAAKAIEIgFFDQAgACABIAIgACgCCBGBgICAAAAiAUUNACAAIAI2AhQgACABNgIMIAEhAwsgAwvk8wEDDn8DfgR/I4CAgIAAQRBrIgMkgICAgAAgASEEIAEhBSABIQYgASEHIAEhCCABIQkgASEKIAEhCyABIQwgASENIAEhDiABIQ8CQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkAgACgCHCIQQX9qDt0B2gEB2QECAwQFBgcICQoLDA0O2AEPENcBERLWARMUFRYXGBkaG+AB3wEcHR7VAR8gISIjJCXUASYnKCkqKyzTAdIBLS7RAdABLzAxMjM0NTY3ODk6Ozw9Pj9AQUJDREVG2wFHSElKzwHOAUvNAUzMAU1OT1BRUlNUVVZXWFlaW1xdXl9gYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXp7fH1+f4ABgQGCAYMBhAGFAYYBhwGIAYkB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QAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQCAQDscBAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxweHyAhIyUoP0BBREVGR0hJSktMTU9QUVJT3gNXWVtcXWBiZWZnaGlqa2xtb3BxcnN0dXZ3eHl6e3x9foABggGFAYYBhwGJAYsBjAGNAY4BjwGQAZEBlAGVAZYBlwGYAZkBmgGbAZwBnQGeAZ8BoAGhAaIBowGkAaUBpgGnAagBqQGqAasBrAGtAa4BrwGwAbEBsgGzAbQBtQG2AbcBuAG5AboBuwG8Ab0BvgG/AcABwQHCAcMBxAHFAcYBxwHIAckBygHLAcwBzQHOAc8B0AHRAdIB0wHUAdUB1gHXAdgB2QHaAdsB3AHdAd4B4AHhAeIB4wHkAeUB5gHnAegB6QHqAesB7AHtAe4B7wHwAfEB8gHzAZkCpAKwAv4C/gILIAEiBCACRw3zAUHdASEQDP8DCyABIhAgAkcN3QFBwwEhEAz+AwsgASIBIAJHDZABQfcAIRAM/QMLIAEiASACRw2GAUHvACEQDPwDCyABIgEgAkcNf0HqACEQDPsDCyABIgEgAkcNe0HoACEQDPoDCyABIgEgAkcNeEHmACEQDPkDCyABIgEgAkcNGkEYIRAM+AMLIAEiASACRw0UQRIhEAz3AwsgASIBIAJHDVlBxQAhEAz2AwsgASIBIAJHDUpBPyEQDPUDCyABIgEgAkcNSEE8IRAM9AMLIAEiASACRw1BQTEhEAzzAwsgAC0ALkEBRg3rAwyHAgsgACABIgEgAhDAgICAAEEBRw3mASAAQgA3AyAM5wELIAAgASIBIAIQtICAgAAiEA3nASABIQEM9QILAkAgASIBIAJHDQBBBiEQDPADCyAAIAFBAWoiASACELuAgIAAIhAN6AEgASEBDDELIABCADcDIEESIRAM1QMLIAEiECACRw0rQR0hEAztAwsCQCABIgEgAkYNACABQQFqIQFBECEQDNQDC0EHIRAM7AMLIABCACAAKQMgIhEgAiABIhBrrSISfSITIBMgEVYbNwMgIBEgElYiFEUN5QFBCCEQDOsDCwJAIAEiASACRg0AIABBiYCAgAA2AgggACABNgIEIAEhAUEUIRAM0gMLQQkhEAzqAwsgASEBIAApAyBQDeQBIAEhAQzyAgsCQCABIgEgAkcNAEELIRAM6QMLIAAgAUEBaiIBIAIQtoCAgAAiEA3lASABIQEM8gILIAAgASIBIAIQuICAgAAiEA3lASABIQEM8gILIAAgASIBIAIQuICAgAAiEA3mASABIQEMDQsgACABIgEgAhC6gICAACIQDecBIAEhAQzwAgsCQCABIgEgAkcNAEEPIRAM5QMLIAEtAAAiEEE7Rg0IIBBBDUcN6AEgAUEBaiEBDO8CCyAAIAEiASACELqAgIAAIhAN6AEgASEBDPICCwNAAkAgAS0AAEHwtYCAAGotAAAiEEEBRg0AIBBBAkcN6wEgACgCBCEQIABBADYCBCAAIBAgAUEBaiIBELmAgIAAIhAN6gEgASEBDPQCCyABQQFqIgEgAkcNAAtBEiEQDOIDCyAAIAEiASACELqAgIAAIhAN6QEgASEBDAoLIAEiASACRw0GQRshEAzgAwsCQCABIgEgAkcNAEEWIRAM4AMLIABBioCAgAA2AgggACABNgIEIAAgASACELiAgIAAIhAN6gEgASEBQSAhEAzGAwsCQCABIgEgAkYNAANAAkAgAS0AAEHwt4CAAGotAAAiEEECRg0AAkAgEEF/ag4E5QHsAQDrAewBCyABQQFqIQFBCCEQDMgDCyABQQFqIgEgAkcNAAtBFSEQDN8DC0EVIRAM3gMLA0ACQCABLQAAQfC5gIAAai0AACIQQQJGDQAgEEF/ag4E3gHsAeAB6wHsAQsgAUEBaiIBIAJHDQALQRghEAzdAwsCQCABIgEgAkYNACAAQYuAgIAANgIIIAAgATYCBCABIQFBByEQDMQDC0EZIRAM3AMLIAFBAWohAQwCCwJAIAEiFCACRw0AQRohEAzbAwsgFCEBAkAgFC0AAEFzag4U3QLuAu4C7gLuAu4C7gLuAu4C7gLuAu4C7gLuAu4C7gLuAu4C7gIA7gILQQAhECAAQQA2AhwgAEGvi4CAADYCECAAQQI2AgwgACAUQQFqNgIUDNoDCwJAIAEtAAAiEEE7Rg0AIBBBDUcN6AEgAUEBaiEBDOUCCyABQQFqIQELQSIhEAy/AwsCQCABIhAgAkcNAEEcIRAM2AMLQgAhESAQIQEgEC0AAEFQag435wHmAQECAwQFBgcIAAAAAAAAAAkKCwwNDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxAREhMUAAtBHiEQDL0DC0ICIREM5QELQgMhEQzkAQtCBCERDOMBC0IFIREM4gELQgYhEQzhAQtCByERDOABC0IIIREM3wELQgkhEQzeAQtCCiERDN0BC0ILIREM3AELQgwhEQzbAQtCDSERDNoBC0IOIREM2QELQg8hEQzYAQtCCiERDNcBC0ILIREM1gELQgwhEQzVAQtCDSERDNQBC0IOIREM0wELQg8hEQzSAQtCACERAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQCAQLQAAQVBqDjflAeQBAAECAwQFBgfmAeYB5gHmAeYB5gHmAQgJCgsMDeYB5gHmAeYB5gHmAeYB5gHmAeYB5gHmAeYB5gHmAeYB5gHmAeYB5gHmAeYB5gHmAeYB5gEODxAREhPmAQtCAiERDOQBC0IDIREM4wELQgQhEQziAQtCBSERDOEBC0IGIREM4AELQgchEQzfAQtCCCERDN4BC0IJIREM3QELQgohEQzcAQtCCyERDNsBC0IMIREM2gELQg0hEQzZAQtCDiERDNgBC0IPIREM1wELQgohEQzWAQtCCyERDNUBC0IMIREM1AELQg0hEQzTAQtCDiERDNIBC0IPIREM0QELIABCACAAKQMgIhEgAiABIhBrrSISfSITIBMgEVYbNwMgIBEgElYiFEUN0gFBHyEQDMADCwJAIAEiASACRg0AIABBiYCAgAA2AgggACABNgIEIAEhAUEkIRAMpwMLQSAhEAy/AwsgACABIhAgAhC+gICAAEF/ag4FtgEAxQIB0QHSAQtBESEQDKQDCyAAQQE6AC8gECEBDLsDCyABIgEgAkcN0gFBJCEQDLsDCyABIg0gAkcNHkHGACEQDLoDCyAAIAEiASACELKAgIAAIhAN1AEgASEBDLUBCyABIhAgAkcNJkHQACEQDLgDCwJAIAEiASACRw0AQSghEAy4AwsgAEEANgIEIABBjICAgAA2AgggACABIAEQsYCAgAAiEA3TASABIQEM2AELAkAgASIQIAJHDQBBKSEQDLcDCyAQLQAAIgFBIEYNFCABQQlHDdMBIBBBAWohAQwVCwJAIAEiASACRg0AIAFBAWohAQwXC0EqIRAMtQMLAkAgASIQIAJHDQBBKyEQDLUDCwJAIBAtAAAiAUEJRg0AIAFBIEcN1QELIAAtACxBCEYN0wEgECEBDJEDCwJAIAEiASACRw0AQSwhEAy0AwsgAS0AAEEKRw3VASABQQFqIQEMyQILIAEiDiACRw3VAUEvIRAMsgMLA0ACQCABLQAAIhBBIEYNAAJAIBBBdmoOBADcAdwBANoBCyABIQEM4AELIAFBAWoiASACRw0AC0ExIRAMsQMLQTIhECABIhQgAkYNsAMgAiAUayAAKAIAIgFqIRUgFCABa0EDaiEWAkADQCAULQAAIhdBIHIgFyAXQb9/akH/AXFBGkkbQf8BcSABQfC7gIAAai0AAEcNAQJAIAFBA0cNAEEGIQEMlgMLIAFBAWohASAUQQFqIhQgAkcNAAsgACAVNgIADLEDCyAAQQA2AgAgFCEBDNkBC0EzIRAgASIUIAJGDa8DIAIgFGsgACgCACIBaiEVIBQgAWtBCGohFgJAA0AgFC0AACIXQSByIBcgF0G/f2pB/wFxQRpJG0H/AXEgAUH0u4CAAGotAABHDQECQCABQQhHDQBBBSEBDJUDCyABQQFqIQEgFEEBaiIUIAJHDQALIAAgFTYCAAywAwsgAEEANgIAIBQhAQzYAQtBNCEQIAEiFCACRg2uAyACIBRrIAAoAgAiAWohFSAUIAFrQQVqIRYCQANAIBQtAAAiF0EgciAXIBdBv39qQf8BcUEaSRtB/wFxIAFB0MKAgABqLQAARw0BAkAgAUEFRw0AQQchAQyUAwsgAUEBaiEBIBRBAWoiFCACRw0ACyAAIBU2AgAMrwMLIABBADYCACAUIQEM1wELAkAgASIBIAJGDQADQAJAIAEtAABBgL6AgABqLQAAIhBBAUYNACAQQQJGDQogASEBDN0BCyABQQFqIgEgAkcNAAtBMCEQDK4DC0EwIRAMrQMLAkAgASIBIAJGDQADQAJAIAEtAAAiEEEgRg0AIBBBdmoOBNkB2gHaAdkB2gELIAFBAWoiASACRw0AC0E4IRAMrQMLQTghEAysAwsDQAJAIAEtAAAiEEEgRg0AIBBBCUcNAwsgAUEBaiIBIAJHDQALQTwhEAyrAwsDQAJAIAEtAAAiEEEgRg0AAkACQCAQQXZqDgTaAQEB2gEACyAQQSxGDdsBCyABIQEMBAsgAUEBaiIBIAJHDQALQT8hEAyqAwsgASEBDNsBC0HAACEQIAEiFCACRg2oAyACIBRrIAAoAgAiAWohFiAUIAFrQQZqIRcCQANAIBQtAABBIHIgAUGAwICAAGotAABHDQEgAUEGRg2OAyABQQFqIQEgFEEBaiIUIAJHDQALIAAgFjYCAAypAwsgAEEANgIAIBQhAQtBNiEQDI4DCwJAIAEiDyACRw0AQcEAIRAMpwMLIABBjICAgAA2AgggACAPNgIEIA8hASAALQAsQX9qDgTNAdUB1wHZAYcDCyABQQFqIQEMzAELAkAgASIBIAJGDQADQAJAIAEtAAAiEEEgciAQIBBBv39qQf8BcUEaSRtB/wFxIhBBCUYNACAQQSBGDQACQAJAAkACQCAQQZ1/ag4TAAMDAwMDAwMBAwMDAwMDAwMDAgMLIAFBAWohAUExIRAMkQMLIAFBAWohAUEyIRAMkAMLIAFBAWohAUEzIRAMjwMLIAEhAQzQAQsgAUEBaiIBIAJHDQALQTUhEAylAwtBNSEQDKQDCwJAIAEiASACRg0AA0ACQCABLQAAQYC8gIAAai0AAEEBRg0AIAEhAQzTAQsgAUEBaiIBIAJHDQALQT0hEAykAwtBPSEQDKMDCyAAIAEiASACELCAgIAAIhAN1gEgASEBDAELIBBBAWohAQtBPCEQDIcDCwJAIAEiASACRw0AQcIAIRAMoAMLAkADQAJAIAEtAABBd2oOGAAC/gL+AoQD/gL+Av4C/gL+Av4C/gL+Av4C/gL+Av4C/gL+Av4C/gL+Av4CAP4CCyABQQFqIgEgAkcNAAtBwgAhEAygAwsgAUEBaiEBIAAtAC1BAXFFDb0BIAEhAQtBLCEQDIUDCyABIgEgAkcN0wFBxAAhEAydAwsDQAJAIAEtAABBkMCAgABqLQAAQQFGDQAgASEBDLcCCyABQQFqIgEgAkcNAAtBxQAhEAycAwsgDS0AACIQQSBGDbMBIBBBOkcNgQMgACgCBCEBIABBADYCBCAAIAEgDRCvgICAACIBDdABIA1BAWohAQyzAgtBxwAhECABIg0gAkYNmgMgAiANayAAKAIAIgFqIRYgDSABa0EFaiEXA0AgDS0AACIUQSByIBQgFEG/f2pB/wFxQRpJG0H/AXEgAUGQwoCAAGotAABHDYADIAFBBUYN9AIgAUEBaiEBIA1BAWoiDSACRw0ACyAAIBY2AgAMmgMLQcgAIRAgASINIAJGDZkDIAIgDWsgACgCACIBaiEWIA0gAWtBCWohFwNAIA0tAAAiFEEgciAUIBRBv39qQf8BcUEaSRtB/wFxIAFBlsKAgABqLQAARw3/AgJAIAFBCUcNAEECIQEM9QILIAFBAWohASANQQFqIg0gAkcNAAsgACAWNgIADJkDCwJAIAEiDSACRw0AQckAIRAMmQMLAkACQCANLQAAIgFBIHIgASABQb9/akH/AXFBGkkbQf8BcUGSf2oOBwCAA4ADgAOAA4ADAYADCyANQQFqIQFBPiEQDIADCyANQQFqIQFBPyEQDP8CC0HKACEQIAEiDSACRg2XAyACIA1rIAAoAgAiAWohFiANIAFrQQFqIRcDQCANLQAAIhRBIHIgFCAUQb9/akH/AXFBGkkbQf8BcSABQaDCgIAAai0AAEcN/QIgAUEBRg3wAiABQQFqIQEgDUEBaiINIAJHDQALIAAgFjYCAAyXAwtBywAhECABIg0gAkYNlgMgAiANayAAKAIAIgFqIRYgDSABa0EOaiEXA0AgDS0AACIUQSByIBQgFEG/f2pB/wFxQRpJG0H/AXEgAUGiwoCAAGotAABHDfwCIAFBDkYN8AIgAUEBaiEBIA1BAWoiDSACRw0ACyAAIBY2AgAMlgMLQcwAIRAgASINIAJGDZUDIAIgDWsgACgCACIBaiEWIA0gAWtBD2ohFwNAIA0tAAAiFEEgciAUIBRBv39qQf8BcUEaSRtB/wFxIAFBwMKAgABqLQAARw37AgJAIAFBD0cNAEEDIQEM8QILIAFBAWohASANQQFqIg0gAkcNAAsgACAWNgIADJUDC0HNACEQIAEiDSACRg2UAyACIA1rIAAoAgAiAWohFiANIAFrQQVqIRcDQCANLQAAIhRBIHIgFCAUQb9/akH/AXFBGkkbQf8BcSABQdDCgIAAai0AAEcN+gICQCABQQVHDQBBBCEBDPACCyABQQFqIQEgDUEBaiINIAJHDQALIAAgFjYCAAyUAwsCQCABIg0gAkcNAEHOACEQDJQDCwJAAkACQAJAIA0tAAAiAUEgciABIAFBv39qQf8BcUEaSRtB/wFxQZ1/ag4TAP0C/QL9Av0C/QL9Av0C/QL9Av0C/QL9AgH9Av0C/QICA/0CCyANQQFqIQFBwQAhEAz9AgsgDUEBaiEBQcIAIRAM/AILIA1BAWohAUHDACEQDPsCCyANQQFqIQFBxAAhEAz6AgsCQCABIgEgAkYNACAAQY2AgIAANgIIIAAgATYCBCABIQFBxQAhEAz6AgtBzwAhEAySAwsgECEBAkACQCAQLQAAQXZqDgQBqAKoAgCoAgsgEEEBaiEBC0EnIRAM+AILAkAgASIBIAJHDQBB0QAhEAyRAwsCQCABLQAAQSBGDQAgASEBDI0BCyABQQFqIQEgAC0ALUEBcUUNxwEgASEBDIwBCyABIhcgAkcNyAFB0gAhEAyPAwtB0wAhECABIhQgAkYNjgMgAiAUayAAKAIAIgFqIRYgFCABa0EBaiEXA0AgFC0AACABQdbCgIAAai0AAEcNzAEgAUEBRg3HASABQQFqIQEgFEEBaiIUIAJHDQALIAAgFjYCAAyOAwsCQCABIgEgAkcNAEHVACEQDI4DCyABLQAAQQpHDcwBIAFBAWohAQzHAQsCQCABIgEgAkcNAEHWACEQDI0DCwJAAkAgAS0AAEF2ag4EAM0BzQEBzQELIAFBAWohAQzHAQsgAUEBaiEBQcoAIRAM8wILIAAgASIBIAIQroCAgAAiEA3LASABIQFBzQAhEAzyAgsgAC0AKUEiRg2FAwymAgsCQCABIgEgAkcNAEHbACEQDIoDC0EAIRRBASEXQQEhFkEAIRACQAJAAkACQAJAAkACQAJAAkAgAS0AAEFQag4K1AHTAQABAgMEBQYI1QELQQIhEAwGC0EDIRAMBQtBBCEQDAQLQQUhEAwDC0EGIRAMAgtBByEQDAELQQghEAtBACEXQQAhFkEAIRQMzAELQQkhEEEBIRRBACEXQQAhFgzLAQsCQCABIgEgAkcNAEHdACEQDIkDCyABLQAAQS5HDcwBIAFBAWohAQymAgsgASIBIAJHDcwBQd8AIRAMhwMLAkAgASIBIAJGDQAgAEGOgICAADYCCCAAIAE2AgQgASEBQdAAIRAM7gILQeAAIRAMhgMLQeEAIRAgASIBIAJGDYUDIAIgAWsgACgCACIUaiEWIAEgFGtBA2ohFwNAIAEtAAAgFEHiwoCAAGotAABHDc0BIBRBA0YNzAEgFEEBaiEUIAFBAWoiASACRw0ACyAAIBY2AgAMhQMLQeIAIRAgASIBIAJGDYQDIAIgAWsgACgCACIUaiEWIAEgFGtBAmohFwNAIAEtAAAgFEHmwoCAAGotAABHDcwBIBRBAkYNzgEgFEEBaiEUIAFBAWoiASACRw0ACyAAIBY2AgAMhAMLQeMAIRAgASIBIAJGDYMDIAIgAWsgACgCACIUaiEWIAEgFGtBA2ohFwNAIAEtAAAgFEHpwoCAAGotAABHDcsBIBRBA0YNzgEgFEEBaiEUIAFBAWoiASACRw0ACyAAIBY2AgAMgwMLAkAgASIBIAJHDQBB5QAhEAyDAwsgACABQQFqIgEgAhCogICAACIQDc0BIAEhAUHWACEQDOkCCwJAIAEiASACRg0AA0ACQCABLQAAIhBBIEYNAAJAAkACQCAQQbh/ag4LAAHPAc8BzwHPAc8BzwHPAc8BAs8BCyABQQFqIQFB0gAhEAztAgsgAUEBaiEBQdMAIRAM7AILIAFBAWohAUHUACEQDOsCCyABQQFqIgEgAkcNAAtB5AAhEAyCAwtB5AAhEAyBAwsDQAJAIAEtAABB8MKAgABqLQAAIhBBAUYNACAQQX5qDgPPAdAB0QHSAQsgAUEBaiIBIAJHDQALQeYAIRAMgAMLAkAgASIBIAJGDQAgAUEBaiEBDAMLQecAIRAM/wILA0ACQCABLQAAQfDEgIAAai0AACIQQQFGDQACQCAQQX5qDgTSAdMB1AEA1QELIAEhAUHXACEQDOcCCyABQQFqIgEgAkcNAAtB6AAhEAz+AgsCQCABIgEgAkcNAEHpACEQDP4CCwJAIAEtAAAiEEF2ag4augHVAdUBvAHVAdUB1QHVAdUB1QHVAdUB1QHVAdUB1QHVAdUB1QHVAdUB1QHKAdUB1QEA0wELIAFBAWohAQtBBiEQDOMCCwNAAkAgAS0AAEHwxoCAAGotAABBAUYNACABIQEMngILIAFBAWoiASACRw0AC0HqACEQDPsCCwJAIAEiASACRg0AIAFBAWohAQwDC0HrACEQDPoCCwJAIAEiASACRw0AQewAIRAM+gILIAFBAWohAQwBCwJAIAEiASACRw0AQe0AIRAM+QILIAFBAWohAQtBBCEQDN4CCwJAIAEiFCACRw0AQe4AIRAM9wILIBQhAQJAAkACQCAULQAAQfDIgIAAai0AAEF/ag4H1AHVAdYBAJwCAQLXAQsgFEEBaiEBDAoLIBRBAWohAQzNAQtBACEQIABBADYCHCAAQZuSgIAANgIQIABBBzYCDCAAIBRBAWo2AhQM9gILAkADQAJAIAEtAABB8MiAgABqLQAAIhBBBEYNAAJAAkAgEEF/ag4H0gHTAdQB2QEABAHZAQsgASEBQdoAIRAM4AILIAFBAWohAUHcACEQDN8CCyABQQFqIgEgAkcNAAtB7wAhEAz2AgsgAUEBaiEBDMsBCwJAIAEiFCACRw0AQfAAIRAM9QILIBQtAABBL0cN1AEgFEEBaiEBDAYLAkAgASIUIAJHDQBB8QAhEAz0AgsCQCAULQAAIgFBL0cNACAUQQFqIQFB3QAhEAzbAgsgAUF2aiIEQRZLDdMBQQEgBHRBiYCAAnFFDdMBDMoCCwJAIAEiASACRg0AIAFBAWohAUHeACEQDNoCC0HyACEQDPICCwJAIAEiFCACRw0AQfQAIRAM8gILIBQhAQJAIBQtAABB8MyAgABqLQAAQX9qDgPJApQCANQBC0HhACEQDNgCCwJAIAEiFCACRg0AA0ACQCAULQAAQfDKgIAAai0AACIBQQNGDQACQCABQX9qDgLLAgDVAQsgFCEBQd8AIRAM2gILIBRBAWoiFCACRw0AC0HzACEQDPECC0HzACEQDPACCwJAIAEiASACRg0AIABBj4CAgAA2AgggACABNgIEIAEhAUHgACEQDNcCC0H1ACEQDO8CCwJAIAEiASACRw0AQfYAIRAM7wILIABBj4CAgAA2AgggACABNgIEIAEhAQtBAyEQDNQCCwNAIAEtAABBIEcNwwIgAUEBaiIBIAJHDQALQfcAIRAM7AILAkAgASIBIAJHDQBB+AAhEAzsAgsgAS0AAEEgRw3OASABQQFqIQEM7wELIAAgASIBIAIQrICAgAAiEA3OASABIQEMjgILAkAgASIEIAJHDQBB+gAhEAzqAgsgBC0AAEHMAEcN0QEgBEEBaiEBQRMhEAzPAQsCQCABIgQgAkcNAEH7ACEQDOkCCyACIARrIAAoAgAiAWohFCAEIAFrQQVqIRADQCAELQAAIAFB8M6AgABqLQAARw3QASABQQVGDc4BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQfsAIRAM6AILAkAgASIEIAJHDQBB/AAhEAzoAgsCQAJAIAQtAABBvX9qDgwA0QHRAdEB0QHRAdEB0QHRAdEB0QEB0QELIARBAWohAUHmACEQDM8CCyAEQQFqIQFB5wAhEAzOAgsCQCABIgQgAkcNAEH9ACEQDOcCCyACIARrIAAoAgAiAWohFCAEIAFrQQJqIRACQANAIAQtAAAgAUHtz4CAAGotAABHDc8BIAFBAkYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEH9ACEQDOcCCyAAQQA2AgAgEEEBaiEBQRAhEAzMAQsCQCABIgQgAkcNAEH+ACEQDOYCCyACIARrIAAoAgAiAWohFCAEIAFrQQVqIRACQANAIAQtAAAgAUH2zoCAAGotAABHDc4BIAFBBUYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEH+ACEQDOYCCyAAQQA2AgAgEEEBaiEBQRYhEAzLAQsCQCABIgQgAkcNAEH/ACEQDOUCCyACIARrIAAoAgAiAWohFCAEIAFrQQNqIRACQANAIAQtAAAgAUH8zoCAAGotAABHDc0BIAFBA0YNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEH/ACEQDOUCCyAAQQA2AgAgEEEBaiEBQQUhEAzKAQsCQCABIgQgAkcNAEGAASEQDOQCCyAELQAAQdkARw3LASAEQQFqIQFBCCEQDMkBCwJAIAEiBCACRw0AQYEBIRAM4wILAkACQCAELQAAQbJ/ag4DAMwBAcwBCyAEQQFqIQFB6wAhEAzKAgsgBEEBaiEBQewAIRAMyQILAkAgASIEIAJHDQBBggEhEAziAgsCQAJAIAQtAABBuH9qDggAywHLAcsBywHLAcsBAcsBCyAEQQFqIQFB6gAhEAzJAgsgBEEBaiEBQe0AIRAMyAILAkAgASIEIAJHDQBBgwEhEAzhAgsgAiAEayAAKAIAIgFqIRAgBCABa0ECaiEUAkADQCAELQAAIAFBgM+AgABqLQAARw3JASABQQJGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBA2AgBBgwEhEAzhAgtBACEQIABBADYCACAUQQFqIQEMxgELAkAgASIEIAJHDQBBhAEhEAzgAgsgAiAEayAAKAIAIgFqIRQgBCABa0EEaiEQAkADQCAELQAAIAFBg8+AgABqLQAARw3IASABQQRGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBQ2AgBBhAEhEAzgAgsgAEEANgIAIBBBAWohAUEjIRAMxQELAkAgASIEIAJHDQBBhQEhEAzfAgsCQAJAIAQtAABBtH9qDggAyAHIAcgByAHIAcgBAcgBCyAEQQFqIQFB7wAhEAzGAgsgBEEBaiEBQfAAIRAMxQILAkAgASIEIAJHDQBBhgEhEAzeAgsgBC0AAEHFAEcNxQEgBEEBaiEBDIMCCwJAIAEiBCACRw0AQYcBIRAM3QILIAIgBGsgACgCACIBaiEUIAQgAWtBA2ohEAJAA0AgBC0AACABQYjPgIAAai0AAEcNxQEgAUEDRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQYcBIRAM3QILIABBADYCACAQQQFqIQFBLSEQDMIBCwJAIAEiBCACRw0AQYgBIRAM3AILIAIgBGsgACgCACIBaiEUIAQgAWtBCGohEAJAA0AgBC0AACABQdDPgIAAai0AAEcNxAEgAUEIRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQYgBIRAM3AILIABBADYCACAQQQFqIQFBKSEQDMEBCwJAIAEiASACRw0AQYkBIRAM2wILQQEhECABLQAAQd8ARw3AASABQQFqIQEMgQILAkAgASIEIAJHDQBBigEhEAzaAgsgAiAEayAAKAIAIgFqIRQgBCABa0EBaiEQA0AgBC0AACABQYzPgIAAai0AAEcNwQEgAUEBRg2vAiABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGKASEQDNkCCwJAIAEiBCACRw0AQYsBIRAM2QILIAIgBGsgACgCACIBaiEUIAQgAWtBAmohEAJAA0AgBC0AACABQY7PgIAAai0AAEcNwQEgAUECRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQYsBIRAM2QILIABBADYCACAQQQFqIQFBAiEQDL4BCwJAIAEiBCACRw0AQYwBIRAM2AILIAIgBGsgACgCACIBaiEUIAQgAWtBAWohEAJAA0AgBC0AACABQfDPgIAAai0AAEcNwAEgAUEBRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQYwBIRAM2AILIABBADYCACAQQQFqIQFBHyEQDL0BCwJAIAEiBCACRw0AQY0BIRAM1wILIAIgBGsgACgCACIBaiEUIAQgAWtBAWohEAJAA0AgBC0AACABQfLPgIAAai0AAEcNvwEgAUEBRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQY0BIRAM1wILIABBADYCACAQQQFqIQFBCSEQDLwBCwJAIAEiBCACRw0AQY4BIRAM1gILAkACQCAELQAAQbd/ag4HAL8BvwG/Ab8BvwEBvwELIARBAWohAUH4ACEQDL0CCyAEQQFqIQFB+QAhEAy8AgsCQCABIgQgAkcNAEGPASEQDNUCCyACIARrIAAoAgAiAWohFCAEIAFrQQVqIRACQANAIAQtAAAgAUGRz4CAAGotAABHDb0BIAFBBUYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGPASEQDNUCCyAAQQA2AgAgEEEBaiEBQRghEAy6AQsCQCABIgQgAkcNAEGQASEQDNQCCyACIARrIAAoAgAiAWohFCAEIAFrQQJqIRACQANAIAQtAAAgAUGXz4CAAGotAABHDbwBIAFBAkYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGQASEQDNQCCyAAQQA2AgAgEEEBaiEBQRchEAy5AQsCQCABIgQgAkcNAEGRASEQDNMCCyACIARrIAAoAgAiAWohFCAEIAFrQQZqIRACQANAIAQtAAAgAUGaz4CAAGotAABHDbsBIAFBBkYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGRASEQDNMCCyAAQQA2AgAgEEEBaiEBQRUhEAy4AQsCQCABIgQgAkcNAEGSASEQDNICCyACIARrIAAoAgAiAWohFCAEIAFrQQVqIRACQANAIAQtAAAgAUGhz4CAAGotAABHDboBIAFBBUYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGSASEQDNICCyAAQQA2AgAgEEEBaiEBQR4hEAy3AQsCQCABIgQgAkcNAEGTASEQDNECCyAELQAAQcwARw24ASAEQQFqIQFBCiEQDLYBCwJAIAQgAkcNAEGUASEQDNACCwJAAkAgBC0AAEG/f2oODwC5AbkBuQG5AbkBuQG5AbkBuQG5AbkBuQG5AQG5AQsgBEEBaiEBQf4AIRAMtwILIARBAWohAUH/ACEQDLYCCwJAIAQgAkcNAEGVASEQDM8CCwJAAkAgBC0AAEG/f2oOAwC4AQG4AQsgBEEBaiEBQf0AIRAMtgILIARBAWohBEGAASEQDLUCCwJAIAQgAkcNAEGWASEQDM4CCyACIARrIAAoAgAiAWohFCAEIAFrQQFqIRACQANAIAQtAAAgAUGnz4CAAGotAABHDbYBIAFBAUYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGWASEQDM4CCyAAQQA2AgAgEEEBaiEBQQshEAyzAQsCQCAEIAJHDQBBlwEhEAzNAgsCQAJAAkACQCAELQAAQVNqDiMAuAG4AbgBuAG4AbgBuAG4AbgBuAG4AbgBuAG4AbgBuAG4AbgBuAG4AbgBuAG4AQG4AbgBuAG4AbgBArgBuAG4AQO4AQsgBEEBaiEBQfsAIRAMtgILIARBAWohAUH8ACEQDLUCCyAEQQFqIQRBgQEhEAy0AgsgBEEBaiEEQYIBIRAMswILAkAgBCACRw0AQZgBIRAMzAILIAIgBGsgACgCACIBaiEUIAQgAWtBBGohEAJAA0AgBC0AACABQanPgIAAai0AAEcNtAEgAUEERg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQZgBIRAMzAILIABBADYCACAQQQFqIQFBGSEQDLEBCwJAIAQgAkcNAEGZASEQDMsCCyACIARrIAAoAgAiAWohFCAEIAFrQQVqIRACQANAIAQtAAAgAUGuz4CAAGotAABHDbMBIAFBBUYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGZASEQDMsCCyAAQQA2AgAgEEEBaiEBQQYhEAywAQsCQCAEIAJHDQBBmgEhEAzKAgsgAiAEayAAKAIAIgFqIRQgBCABa0EBaiEQAkADQCAELQAAIAFBtM+AgABqLQAARw2yASABQQFGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBQ2AgBBmgEhEAzKAgsgAEEANgIAIBBBAWohAUEcIRAMrwELAkAgBCACRw0AQZsBIRAMyQILIAIgBGsgACgCACIBaiEUIAQgAWtBAWohEAJAA0AgBC0AACABQbbPgIAAai0AAEcNsQEgAUEBRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQZsBIRAMyQILIABBADYCACAQQQFqIQFBJyEQDK4BCwJAIAQgAkcNAEGcASEQDMgCCwJAAkAgBC0AAEGsf2oOAgABsQELIARBAWohBEGGASEQDK8CCyAEQQFqIQRBhwEhEAyuAgsCQCAEIAJHDQBBnQEhEAzHAgsgAiAEayAAKAIAIgFqIRQgBCABa0EBaiEQAkADQCAELQAAIAFBuM+AgABqLQAARw2vASABQQFGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBQ2AgBBnQEhEAzHAgsgAEEANgIAIBBBAWohAUEmIRAMrAELAkAgBCACRw0AQZ4BIRAMxgILIAIgBGsgACgCACIBaiEUIAQgAWtBAWohEAJAA0AgBC0AACABQbrPgIAAai0AAEcNrgEgAUEBRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQZ4BIRAMxgILIABBADYCACAQQQFqIQFBAyEQDKsBCwJAIAQgAkcNAEGfASEQDMUCCyACIARrIAAoAgAiAWohFCAEIAFrQQJqIRACQANAIAQtAAAgAUHtz4CAAGotAABHDa0BIAFBAkYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGfASEQDMUCCyAAQQA2AgAgEEEBaiEBQQwhEAyqAQsCQCAEIAJHDQBBoAEhEAzEAgsgAiAEayAAKAIAIgFqIRQgBCABa0EDaiEQAkADQCAELQAAIAFBvM+AgABqLQAARw2sASABQQNGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBQ2AgBBoAEhEAzEAgsgAEEANgIAIBBBAWohAUENIRAMqQELAkAgBCACRw0AQaEBIRAMwwILAkACQCAELQAAQbp/ag4LAKwBrAGsAawBrAGsAawBrAGsAQGsAQsgBEEBaiEEQYsBIRAMqgILIARBAWohBEGMASEQDKkCCwJAIAQgAkcNAEGiASEQDMICCyAELQAAQdAARw2pASAEQQFqIQQM6QELAkAgBCACRw0AQaMBIRAMwQILAkACQCAELQAAQbd/ag4HAaoBqgGqAaoBqgEAqgELIARBAWohBEGOASEQDKgCCyAEQQFqIQFBIiEQDKYBCwJAIAQgAkcNAEGkASEQDMACCyACIARrIAAoAgAiAWohFCAEIAFrQQFqIRACQANAIAQtAAAgAUHAz4CAAGotAABHDagBIAFBAUYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGkASEQDMACCyAAQQA2AgAgEEEBaiEBQR0hEAylAQsCQCAEIAJHDQBBpQEhEAy/AgsCQAJAIAQtAABBrn9qDgMAqAEBqAELIARBAWohBEGQASEQDKYCCyAEQQFqIQFBBCEQDKQBCwJAIAQgAkcNAEGmASEQDL4CCwJAAkACQAJAAkAgBC0AAEG/f2oOFQCqAaoBqgGqAaoBqgGqAaoBqgGqAQGqAaoBAqoBqgEDqgGqAQSqAQsgBEEBaiEEQYgBIRAMqAILIARBAWohBEGJASEQDKcCCyAEQQFqIQRBigEhEAymAgsgBEEBaiEEQY8BIRAMpQILIARBAWohBEGRASEQDKQCCwJAIAQgAkcNAEGnASEQDL0CCyACIARrIAAoAgAiAWohFCAEIAFrQQJqIRACQANAIAQtAAAgAUHtz4CAAGotAABHDaUBIAFBAkYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGnASEQDL0CCyAAQQA2AgAgEEEBaiEBQREhEAyiAQsCQCAEIAJHDQBBqAEhEAy8AgsgAiAEayAAKAIAIgFqIRQgBCABa0ECaiEQAkADQCAELQAAIAFBws+AgABqLQAARw2kASABQQJGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBQ2AgBBqAEhEAy8AgsgAEEANgIAIBBBAWohAUEsIRAMoQELAkAgBCACRw0AQakBIRAMuwILIAIgBGsgACgCACIBaiEUIAQgAWtBBGohEAJAA0AgBC0AACABQcXPgIAAai0AAEcNowEgAUEERg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQakBIRAMuwILIABBADYCACAQQQFqIQFBKyEQDKABCwJAIAQgAkcNAEGqASEQDLoCCyACIARrIAAoAgAiAWohFCAEIAFrQQJqIRACQANAIAQtAAAgAUHKz4CAAGotAABHDaIBIAFBAkYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGqASEQDLoCCyAAQQA2AgAgEEEBaiEBQRQhEAyfAQsCQCAEIAJHDQBBqwEhEAy5AgsCQAJAAkACQCAELQAAQb5/ag4PAAECpAGkAaQBpAGkAaQBpAGkAaQBpAGkAQOkAQsgBEEBaiEEQZMBIRAMogILIARBAWohBEGUASEQDKECCyAEQQFqIQRBlQEhEAygAgsgBEEBaiEEQZYBIRAMnwILAkAgBCACRw0AQawBIRAMuAILIAQtAABBxQBHDZ8BIARBAWohBAzgAQsCQCAEIAJHDQBBrQEhEAy3AgsgAiAEayAAKAIAIgFqIRQgBCABa0ECaiEQAkADQCAELQAAIAFBzc+AgABqLQAARw2fASABQQJGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBQ2AgBBrQEhEAy3AgsgAEEANgIAIBBBAWohAUEOIRAMnAELAkAgBCACRw0AQa4BIRAMtgILIAQtAABB0ABHDZ0BIARBAWohAUElIRAMmwELAkAgBCACRw0AQa8BIRAMtQILIAIgBGsgACgCACIBaiEUIAQgAWtBCGohEAJAA0AgBC0AACABQdDPgIAAai0AAEcNnQEgAUEIRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQa8BIRAMtQILIABBADYCACAQQQFqIQFBKiEQDJoBCwJAIAQgAkcNAEGwASEQDLQCCwJAAkAgBC0AAEGrf2oOCwCdAZ0BnQGdAZ0BnQGdAZ0BnQEBnQELIARBAWohBEGaASEQDJsCCyAEQQFqIQRBmwEhEAyaAgsCQCAEIAJHDQBBsQEhEAyzAgsCQAJAIAQtAABBv39qDhQAnAGcAZwBnAGcAZwBnAGcAZwBnAGcAZwBnAGcAZwBnAGcAZwBAZwBCyAEQQFqIQRBmQEhEAyaAgsgBEEBaiEEQZwBIRAMmQILAkAgBCACRw0AQbIBIRAMsgILIAIgBGsgACgCACIBaiEUIAQgAWtBA2ohEAJAA0AgBC0AACABQdnPgIAAai0AAEcNmgEgAUEDRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQbIBIRAMsgILIABBADYCACAQQQFqIQFBISEQDJcBCwJAIAQgAkcNAEGzASEQDLECCyACIARrIAAoAgAiAWohFCAEIAFrQQZqIRACQANAIAQtAAAgAUHdz4CAAGotAABHDZkBIAFBBkYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEGzASEQDLECCyAAQQA2AgAgEEEBaiEBQRohEAyWAQsCQCAEIAJHDQBBtAEhEAywAgsCQAJAAkAgBC0AAEG7f2oOEQCaAZoBmgGaAZoBmgGaAZoBmgEBmgGaAZoBmgGaAQKaAQsgBEEBaiEEQZ0BIRAMmAILIARBAWohBEGeASEQDJcCCyAEQQFqIQRBnwEhEAyWAgsCQCAEIAJHDQBBtQEhEAyvAgsgAiAEayAAKAIAIgFqIRQgBCABa0EFaiEQAkADQCAELQAAIAFB5M+AgABqLQAARw2XASABQQVGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBQ2AgBBtQEhEAyvAgsgAEEANgIAIBBBAWohAUEoIRAMlAELAkAgBCACRw0AQbYBIRAMrgILIAIgBGsgACgCACIBaiEUIAQgAWtBAmohEAJAA0AgBC0AACABQerPgIAAai0AAEcNlgEgAUECRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQbYBIRAMrgILIABBADYCACAQQQFqIQFBByEQDJMBCwJAIAQgAkcNAEG3ASEQDK0CCwJAAkAgBC0AAEG7f2oODgCWAZYBlgGWAZYBlgGWAZYBlgGWAZYBlgEBlgELIARBAWohBEGhASEQDJQCCyAEQQFqIQRBogEhEAyTAgsCQCAEIAJHDQBBuAEhEAysAgsgAiAEayAAKAIAIgFqIRQgBCABa0ECaiEQAkADQCAELQAAIAFB7c+AgABqLQAARw2UASABQQJGDQEgAUEBaiEBIARBAWoiBCACRw0ACyAAIBQ2AgBBuAEhEAysAgsgAEEANgIAIBBBAWohAUESIRAMkQELAkAgBCACRw0AQbkBIRAMqwILIAIgBGsgACgCACIBaiEUIAQgAWtBAWohEAJAA0AgBC0AACABQfDPgIAAai0AAEcNkwEgAUEBRg0BIAFBAWohASAEQQFqIgQgAkcNAAsgACAUNgIAQbkBIRAMqwILIABBADYCACAQQQFqIQFBICEQDJABCwJAIAQgAkcNAEG6ASEQDKoCCyACIARrIAAoAgAiAWohFCAEIAFrQQFqIRACQANAIAQtAAAgAUHyz4CAAGotAABHDZIBIAFBAUYNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEG6ASEQDKoCCyAAQQA2AgAgEEEBaiEBQQ8hEAyPAQsCQCAEIAJHDQBBuwEhEAypAgsCQAJAIAQtAABBt39qDgcAkgGSAZIBkgGSAQGSAQsgBEEBaiEEQaUBIRAMkAILIARBAWohBEGmASEQDI8CCwJAIAQgAkcNAEG8ASEQDKgCCyACIARrIAAoAgAiAWohFCAEIAFrQQdqIRACQANAIAQtAAAgAUH0z4CAAGotAABHDZABIAFBB0YNASABQQFqIQEgBEEBaiIEIAJHDQALIAAgFDYCAEG8ASEQDKgCCyAAQQA2AgAgEEEBaiEBQRshEAyNAQsCQCAEIAJHDQBBvQEhEAynAgsCQAJAAkAgBC0AAEG+f2oOEgCRAZEBkQGRAZEBkQGRAZEBkQEBkQGRAZEBkQGRAZEBApEBCyAEQQFqIQRBpAEhEAyPAgsgBEEBaiEEQacBIRAMjgILIARBAWohBEGoASEQDI0CCwJAIAQgAkcNAEG+ASEQDKYCCyAELQAAQc4ARw2NASAEQQFqIQQMzwELAkAgBCACRw0AQb8BIRAMpQILAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkAgBC0AAEG/f2oOFQABAgOcAQQFBpwBnAGcAQcICQoLnAEMDQ4PnAELIARBAWohAUHoACEQDJoCCyAEQQFqIQFB6QAhEAyZAgsgBEEBaiEBQe4AIRAMmAILIARBAWohAUHyACEQDJcCCyAEQQFqIQFB8wAhEAyWAgsgBEEBaiEBQfYAIRAMlQILIARBAWohAUH3ACEQDJQCCyAEQQFqIQFB+gAhEAyTAgsgBEEBaiEEQYMBIRAMkgILIARBAWohBEGEASEQDJECCyAEQQFqIQRBhQEhEAyQAgsgBEEBaiEEQZIBIRAMjwILIARBAWohBEGYASEQDI4CCyAEQQFqIQRBoAEhEAyNAgsgBEEBaiEEQaMBIRAMjAILIARBAWohBEGqASEQDIsCCwJAIAQgAkYNACAAQZCAgIAANgIIIAAgBDYCBEGrASEQDIsCC0HAASEQDKMCCyAAIAUgAhCqgICAACIBDYsBIAUhAQxcCwJAIAYgAkYNACAGQQFqIQUMjQELQcIBIRAMoQILA0ACQCAQLQAAQXZqDgSMAQAAjwEACyAQQQFqIhAgAkcNAAtBwwEhEAygAgsCQCAHIAJGDQAgAEGRgICAADYCCCAAIAc2AgQgByEBQQEhEAyHAgtBxAEhEAyfAgsCQCAHIAJHDQBBxQEhEAyfAgsCQAJAIActAABBdmoOBAHOAc4BAM4BCyAHQQFqIQYMjQELIAdBAWohBQyJAQsCQCAHIAJHDQBBxgEhEAyeAgsCQAJAIActAABBdmoOFwGPAY8BAY8BjwGPAY8BjwGPAY8BjwGPAY8BjwGPAY8BjwGPAY8BjwGPAQCPAQsgB0EBaiEHC0GwASEQDIQCCwJAIAggAkcNAEHIASEQDJ0CCyAILQAAQSBHDY0BIABBADsBMiAIQQFqIQFBswEhEAyDAgsgASEXAkADQCAXIgcgAkYNASAHLQAAQVBqQf8BcSIQQQpPDcwBAkAgAC8BMiIUQZkzSw0AIAAgFEEKbCIUOwEyIBBB//8DcyAUQf7/A3FJDQAgB0EBaiEXIAAgFCAQaiIQOwEyIBBB//8DcUHoB0kNAQsLQQAhECAAQQA2AhwgAEHBiYCAADYCECAAQQ02AgwgACAHQQFqNgIUDJwCC0HHASEQDJsCCyAAIAggAhCugICAACIQRQ3KASAQQRVHDYwBIABByAE2AhwgACAINgIUIABByZeAgAA2AhAgAEEVNgIMQQAhEAyaAgsCQCAJIAJHDQBBzAEhEAyaAgtBACEUQQEhF0EBIRZBACEQAkACQAJAAkACQAJAAkACQAJAIAktAABBUGoOCpYBlQEAAQIDBAUGCJcBC0ECIRAMBgtBAyEQDAULQQQhEAwEC0EFIRAMAwtBBiEQDAILQQchEAwBC0EIIRALQQAhF0EAIRZBACEUDI4BC0EJIRBBASEUQQAhF0EAIRYMjQELAkAgCiACRw0AQc4BIRAMmQILIAotAABBLkcNjgEgCkEBaiEJDMoBCyALIAJHDY4BQdABIRAMlwILAkAgCyACRg0AIABBjoCAgAA2AgggACALNgIEQbcBIRAM/gELQdEBIRAMlgILAkAgBCACRw0AQdIBIRAMlgILIAIgBGsgACgCACIQaiEUIAQgEGtBBGohCwNAIAQtAAAgEEH8z4CAAGotAABHDY4BIBBBBEYN6QEgEEEBaiEQIARBAWoiBCACRw0ACyAAIBQ2AgBB0gEhEAyVAgsgACAMIAIQrICAgAAiAQ2NASAMIQEMuAELAkAgBCACRw0AQdQBIRAMlAILIAIgBGsgACgCACIQaiEUIAQgEGtBAWohDANAIAQtAAAgEEGB0ICAAGotAABHDY8BIBBBAUYNjgEgEEEBaiEQIARBAWoiBCACRw0ACyAAIBQ2AgBB1AEhEAyTAgsCQCAEIAJHDQBB1gEhEAyTAgsgAiAEayAAKAIAIhBqIRQgBCAQa0ECaiELA0AgBC0AACAQQYPQgIAAai0AAEcNjgEgEEECRg2QASAQQQFqIRAgBEEBaiIEIAJHDQALIAAgFDYCAEHWASEQDJICCwJAIAQgAkcNAEHXASEQDJICCwJAAkAgBC0AAEG7f2oOEACPAY8BjwGPAY8BjwGPAY8BjwGPAY8BjwGPAY8BAY8BCyAEQQFqIQRBuwEhEAz5AQsgBEEBaiEEQbwBIRAM+AELAkAgBCACRw0AQdgBIRAMkQILIAQtAABByABHDYwBIARBAWohBAzEAQsCQCAEIAJGDQAgAEGQgICAADYCCCAAIAQ2AgRBvgEhEAz3AQtB2QEhEAyPAgsCQCAEIAJHDQBB2gEhEAyPAgsgBC0AAEHIAEYNwwEgAEEBOgAoDLkBCyAAQQI6AC8gACAEIAIQpoCAgAAiEA2NAUHCASEQDPQBCyAALQAoQX9qDgK3AbkBuAELA0ACQCAELQAAQXZqDgQAjgGOAQCOAQsgBEEBaiIEIAJHDQALQd0BIRAMiwILIABBADoALyAALQAtQQRxRQ2EAgsgAEEAOgAvIABBAToANCABIQEMjAELIBBBFUYN2gEgAEEANgIcIAAgATYCFCAAQaeOgIAANgIQIABBEjYCDEEAIRAMiAILAkAgACAQIAIQtICAgAAiBA0AIBAhAQyBAgsCQCAEQRVHDQAgAEEDNgIcIAAgEDYCFCAAQbCYgIAANgIQIABBFTYCDEEAIRAMiAILIABBADYCHCAAIBA2AhQgAEGnjoCAADYCECAAQRI2AgxBACEQDIcCCyAQQRVGDdYBIABBADYCHCAAIAE2AhQgAEHajYCAADYCECAAQRQ2AgxBACEQDIYCCyAAKAIEIRcgAEEANgIEIBAgEadqIhYhASAAIBcgECAWIBQbIhAQtYCAgAAiFEUNjQEgAEEHNgIcIAAgEDYCFCAAIBQ2AgxBACEQDIUCCyAAIAAvATBBgAFyOwEwIAEhAQtBKiEQDOoBCyAQQRVGDdEBIABBADYCHCAAIAE2AhQgAEGDjICAADYCECAAQRM2AgxBACEQDIICCyAQQRVGDc8BIABBADYCHCAAIAE2AhQgAEGaj4CAADYCECAAQSI2AgxBACEQDIECCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQt4CAgAAiEA0AIAFBAWohAQyNAQsgAEEMNgIcIAAgEDYCDCAAIAFBAWo2AhRBACEQDIACCyAQQRVGDcwBIABBADYCHCAAIAE2AhQgAEGaj4CAADYCECAAQSI2AgxBACEQDP8BCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQt4CAgAAiEA0AIAFBAWohAQyMAQsgAEENNgIcIAAgEDYCDCAAIAFBAWo2AhRBACEQDP4BCyAQQRVGDckBIABBADYCHCAAIAE2AhQgAEHGjICAADYCECAAQSM2AgxBACEQDP0BCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQuYCAgAAiEA0AIAFBAWohAQyLAQsgAEEONgIcIAAgEDYCDCAAIAFBAWo2AhRBACEQDPwBCyAAQQA2AhwgACABNgIUIABBwJWAgAA2AhAgAEECNgIMQQAhEAz7AQsgEEEVRg3FASAAQQA2AhwgACABNgIUIABBxoyAgAA2AhAgAEEjNgIMQQAhEAz6AQsgAEEQNgIcIAAgATYCFCAAIBA2AgxBACEQDPkBCyAAKAIEIQQgAEEANgIEAkAgACAEIAEQuYCAgAAiBA0AIAFBAWohAQzxAQsgAEERNgIcIAAgBDYCDCAAIAFBAWo2AhRBACEQDPgBCyAQQRVGDcEBIABBADYCHCAAIAE2AhQgAEHGjICAADYCECAAQSM2AgxBACEQDPcBCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQuYCAgAAiEA0AIAFBAWohAQyIAQsgAEETNgIcIAAgEDYCDCAAIAFBAWo2AhRBACEQDPYBCyAAKAIEIQQgAEEANgIEAkAgACAEIAEQuYCAgAAiBA0AIAFBAWohAQztAQsgAEEUNgIcIAAgBDYCDCAAIAFBAWo2AhRBACEQDPUBCyAQQRVGDb0BIABBADYCHCAAIAE2AhQgAEGaj4CAADYCECAAQSI2AgxBACEQDPQBCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQt4CAgAAiEA0AIAFBAWohAQyGAQsgAEEWNgIcIAAgEDYCDCAAIAFBAWo2AhRBACEQDPMBCyAAKAIEIQQgAEEANgIEAkAgACAEIAEQt4CAgAAiBA0AIAFBAWohAQzpAQsgAEEXNgIcIAAgBDYCDCAAIAFBAWo2AhRBACEQDPIBCyAAQQA2AhwgACABNgIUIABBzZOAgAA2AhAgAEEMNgIMQQAhEAzxAQtCASERCyAQQQFqIQECQCAAKQMgIhJC//////////8PVg0AIAAgEkIEhiARhDcDICABIQEMhAELIABBADYCHCAAIAE2AhQgAEGtiYCAADYCECAAQQw2AgxBACEQDO8BCyAAQQA2AhwgACAQNgIUIABBzZOAgAA2AhAgAEEMNgIMQQAhEAzuAQsgACgCBCEXIABBADYCBCAQIBGnaiIWIQEgACAXIBAgFiAUGyIQELWAgIAAIhRFDXMgAEEFNgIcIAAgEDYCFCAAIBQ2AgxBACEQDO0BCyAAQQA2AhwgACAQNgIUIABBqpyAgAA2AhAgAEEPNgIMQQAhEAzsAQsgACAQIAIQtICAgAAiAQ0BIBAhAQtBDiEQDNEBCwJAIAFBFUcNACAAQQI2AhwgACAQNgIUIABBsJiAgAA2AhAgAEEVNgIMQQAhEAzqAQsgAEEANgIcIAAgEDYCFCAAQaeOgIAANgIQIABBEjYCDEEAIRAM6QELIAFBAWohEAJAIAAvATAiAUGAAXFFDQACQCAAIBAgAhC7gICAACIBDQAgECEBDHALIAFBFUcNugEgAEEFNgIcIAAgEDYCFCAAQfmXgIAANgIQIABBFTYCDEEAIRAM6QELAkAgAUGgBHFBoARHDQAgAC0ALUECcQ0AIABBADYCHCAAIBA2AhQgAEGWk4CAADYCECAAQQQ2AgxBACEQDOkBCyAAIBAgAhC9gICAABogECEBAkACQAJAAkACQCAAIBAgAhCzgICAAA4WAgEABAQEBAQEBAQEBAQEBAQEBAQEAwQLIABBAToALgsgACAALwEwQcAAcjsBMCAQIQELQSYhEAzRAQsgAEEjNgIcIAAgEDYCFCAAQaWWgIAANgIQIABBFTYCDEEAIRAM6QELIABBADYCHCAAIBA2AhQgAEHVi4CAADYCECAAQRE2AgxBACEQDOgBCyAALQAtQQFxRQ0BQcMBIRAMzgELAkAgDSACRg0AA0ACQCANLQAAQSBGDQAgDSEBDMQBCyANQQFqIg0gAkcNAAtBJSEQDOcBC0ElIRAM5gELIAAoAgQhBCAAQQA2AgQgACAEIA0Qr4CAgAAiBEUNrQEgAEEmNgIcIAAgBDYCDCAAIA1BAWo2AhRBACEQDOUBCyAQQRVGDasBIABBADYCHCAAIAE2AhQgAEH9jYCAADYCECAAQR02AgxBACEQDOQBCyAAQSc2AhwgACABNgIUIAAgEDYCDEEAIRAM4wELIBAhAUEBIRQCQAJAAkACQAJAAkACQCAALQAsQX5qDgcGBQUDAQIABQsgACAALwEwQQhyOwEwDAMLQQIhFAwBC0EEIRQLIABBAToALCAAIAAvATAgFHI7ATALIBAhAQtBKyEQDMoBCyAAQQA2AhwgACAQNgIUIABBq5KAgAA2AhAgAEELNgIMQQAhEAziAQsgAEEANgIcIAAgATYCFCAAQeGPgIAANgIQIABBCjYCDEEAIRAM4QELIABBADoALCAQIQEMvQELIBAhAUEBIRQCQAJAAkACQAJAIAAtACxBe2oOBAMBAgAFCyAAIAAvATBBCHI7ATAMAwtBAiEUDAELQQQhFAsgAEEBOgAsIAAgAC8BMCAUcjsBMAsgECEBC0EpIRAMxQELIABBADYCHCAAIAE2AhQgAEHwlICAADYCECAAQQM2AgxBACEQDN0BCwJAIA4tAABBDUcNACAAKAIEIQEgAEEANgIEAkAgACABIA4QsYCAgAAiAQ0AIA5BAWohAQx1CyAAQSw2AhwgACABNgIMIAAgDkEBajYCFEEAIRAM3QELIAAtAC1BAXFFDQFBxAEhEAzDAQsCQCAOIAJHDQBBLSEQDNwBCwJAAkADQAJAIA4tAABBdmoOBAIAAAMACyAOQQFqIg4gAkcNAAtBLSEQDN0BCyAAKAIEIQEgAEEANgIEAkAgACABIA4QsYCAgAAiAQ0AIA4hAQx0CyAAQSw2AhwgACAONgIUIAAgATYCDEEAIRAM3AELIAAoAgQhASAAQQA2AgQCQCAAIAEgDhCxgICAACIBDQAgDkEBaiEBDHMLIABBLDYCHCAAIAE2AgwgACAOQQFqNgIUQQAhEAzbAQsgACgCBCEEIABBADYCBCAAIAQgDhCxgICAACIEDaABIA4hAQzOAQsgEEEsRw0BIAFBAWohEEEBIQECQAJAAkACQAJAIAAtACxBe2oOBAMBAgQACyAQIQEMBAtBAiEBDAELQQQhAQsgAEEBOgAsIAAgAC8BMCABcjsBMCAQIQEMAQsgACAALwEwQQhyOwEwIBAhAQtBOSEQDL8BCyAAQQA6ACwgASEBC0E0IRAMvQELIAAgAC8BMEEgcjsBMCABIQEMAgsgACgCBCEEIABBADYCBAJAIAAgBCABELGAgIAAIgQNACABIQEMxwELIABBNzYCHCAAIAE2AhQgACAENgIMQQAhEAzUAQsgAEEIOgAsIAEhAQtBMCEQDLkBCwJAIAAtAChBAUYNACABIQEMBAsgAC0ALUEIcUUNkwEgASEBDAMLIAAtADBBIHENlAFBxQEhEAy3AQsCQCAPIAJGDQACQANAAkAgDy0AAEFQaiIBQf8BcUEKSQ0AIA8hAUE1IRAMugELIAApAyAiEUKZs+bMmbPmzBlWDQEgACARQgp+IhE3AyAgESABrUL/AYMiEkJ/hVYNASAAIBEgEnw3AyAgD0EBaiIPIAJHDQALQTkhEAzRAQsgACgCBCECIABBADYCBCAAIAIgD0EBaiIEELGAgIAAIgINlQEgBCEBDMMBC0E5IRAMzwELAkAgAC8BMCIBQQhxRQ0AIAAtAChBAUcNACAALQAtQQhxRQ2QAQsgACABQff7A3FBgARyOwEwIA8hAQtBNyEQDLQBCyAAIAAvATBBEHI7ATAMqwELIBBBFUYNiwEgAEEANgIcIAAgATYCFCAAQfCOgIAANgIQIABBHDYCDEEAIRAMywELIABBwwA2AhwgACABNgIMIAAgDUEBajYCFEEAIRAMygELAkAgAS0AAEE6Rw0AIAAoAgQhECAAQQA2AgQCQCAAIBAgARCvgICAACIQDQAgAUEBaiEBDGMLIABBwwA2AhwgACAQNgIMIAAgAUEBajYCFEEAIRAMygELIABBADYCHCAAIAE2AhQgAEGxkYCAADYCECAAQQo2AgxBACEQDMkBCyAAQQA2AhwgACABNgIUIABBoJmAgAA2AhAgAEEeNgIMQQAhEAzIAQsgAEEANgIACyAAQYASOwEqIAAgF0EBaiIBIAIQqICAgAAiEA0BIAEhAQtBxwAhEAysAQsgEEEVRw2DASAAQdEANgIcIAAgATYCFCAAQeOXgIAANgIQIABBFTYCDEEAIRAMxAELIAAoAgQhECAAQQA2AgQCQCAAIBAgARCngICAACIQDQAgASEBDF4LIABB0gA2AhwgACABNgIUIAAgEDYCDEEAIRAMwwELIABBADYCHCAAIBQ2AhQgAEHBqICAADYCECAAQQc2AgwgAEEANgIAQQAhEAzCAQsgACgCBCEQIABBADYCBAJAIAAgECABEKeAgIAAIhANACABIQEMXQsgAEHTADYCHCAAIAE2AhQgACAQNgIMQQAhEAzBAQtBACEQIABBADYCHCAAIAE2AhQgAEGAkYCAADYCECAAQQk2AgwMwAELIBBBFUYNfSAAQQA2AhwgACABNgIUIABBlI2AgAA2AhAgAEEhNgIMQQAhEAy/AQtBASEWQQAhF0EAIRRBASEQCyAAIBA6ACsgAUEBaiEBAkACQCAALQAtQRBxDQACQAJAAkAgAC0AKg4DAQACBAsgFkUNAwwCCyAUDQEMAgsgF0UNAQsgACgCBCEQIABBADYCBAJAIAAgECABEK2AgIAAIhANACABIQEMXAsgAEHYADYCHCAAIAE2AhQgACAQNgIMQQAhEAy+AQsgACgCBCEEIABBADYCBAJAIAAgBCABEK2AgIAAIgQNACABIQEMrQELIABB2QA2AhwgACABNgIUIAAgBDYCDEEAIRAMvQELIAAoAgQhBCAAQQA2AgQCQCAAIAQgARCtgICAACIEDQAgASEBDKsBCyAAQdoANgIcIAAgATYCFCAAIAQ2AgxBACEQDLwBCyAAKAIEIQQgAEEANgIEAkAgACAEIAEQrYCAgAAiBA0AIAEhAQypAQsgAEHcADYCHCAAIAE2AhQgACAENgIMQQAhEAy7AQsCQCABLQAAQVBqIhBB/wFxQQpPDQAgACAQOgAqIAFBAWohAUHPACEQDKIBCyAAKAIEIQQgAEEANgIEAkAgACAEIAEQrYCAgAAiBA0AIAEhAQynAQsgAEHeADYCHCAAIAE2AhQgACAENgIMQQAhEAy6AQsgAEEANgIAIBdBAWohAQJAIAAtAClBI08NACABIQEMWQsgAEEANgIcIAAgATYCFCAAQdOJgIAANgIQIABBCDYCDEEAIRAMuQELIABBADYCAAtBACEQIABBADYCHCAAIAE2AhQgAEGQs4CAADYCECAAQQg2AgwMtwELIABBADYCACAXQQFqIQECQCAALQApQSFHDQAgASEBDFYLIABBADYCHCAAIAE2AhQgAEGbioCAADYCECAAQQg2AgxBACEQDLYBCyAAQQA2AgAgF0EBaiEBAkAgAC0AKSIQQV1qQQtPDQAgASEBDFULAkAgEEEGSw0AQQEgEHRBygBxRQ0AIAEhAQxVC0EAIRAgAEEANgIcIAAgATYCFCAAQfeJgIAANgIQIABBCDYCDAy1AQsgEEEVRg1xIABBADYCHCAAIAE2AhQgAEG5jYCAADYCECAAQRo2AgxBACEQDLQBCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQp4CAgAAiEA0AIAEhAQxUCyAAQeUANgIcIAAgATYCFCAAIBA2AgxBACEQDLMBCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQp4CAgAAiEA0AIAEhAQxNCyAAQdIANgIcIAAgATYCFCAAIBA2AgxBACEQDLIBCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQp4CAgAAiEA0AIAEhAQxNCyAAQdMANgIcIAAgATYCFCAAIBA2AgxBACEQDLEBCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQp4CAgAAiEA0AIAEhAQxRCyAAQeUANgIcIAAgATYCFCAAIBA2AgxBACEQDLABCyAAQQA2AhwgACABNgIUIABBxoqAgAA2AhAgAEEHNgIMQQAhEAyvAQsgACgCBCEQIABBADYCBAJAIAAgECABEKeAgIAAIhANACABIQEMSQsgAEHSADYCHCAAIAE2AhQgACAQNgIMQQAhEAyuAQsgACgCBCEQIABBADYCBAJAIAAgECABEKeAgIAAIhANACABIQEMSQsgAEHTADYCHCAAIAE2AhQgACAQNgIMQQAhEAytAQsgACgCBCEQIABBADYCBAJAIAAgECABEKeAgIAAIhANACABIQEMTQsgAEHlADYCHCAAIAE2AhQgACAQNgIMQQAhEAysAQsgAEEANgIcIAAgATYCFCAAQdyIgIAANgIQIABBBzYCDEEAIRAMqwELIBBBP0cNASABQQFqIQELQQUhEAyQAQtBACEQIABBADYCHCAAIAE2AhQgAEH9koCAADYCECAAQQc2AgwMqAELIAAoAgQhECAAQQA2AgQCQCAAIBAgARCngICAACIQDQAgASEBDEILIABB0gA2AhwgACABNgIUIAAgEDYCDEEAIRAMpwELIAAoAgQhECAAQQA2AgQCQCAAIBAgARCngICAACIQDQAgASEBDEILIABB0wA2AhwgACABNgIUIAAgEDYCDEEAIRAMpgELIAAoAgQhECAAQQA2AgQCQCAAIBAgARCngICAACIQDQAgASEBDEYLIABB5QA2AhwgACABNgIUIAAgEDYCDEEAIRAMpQELIAAoAgQhASAAQQA2AgQCQCAAIAEgFBCngICAACIBDQAgFCEBDD8LIABB0gA2AhwgACAUNgIUIAAgATYCDEEAIRAMpAELIAAoAgQhASAAQQA2AgQCQCAAIAEgFBCngICAACIBDQAgFCEBDD8LIABB0wA2AhwgACAUNgIUIAAgATYCDEEAIRAMowELIAAoAgQhASAAQQA2AgQCQCAAIAEgFBCngICAACIBDQAgFCEBDEMLIABB5QA2AhwgACAU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YWdlX2JlZ2luYCBjYWxsYmFjayBlcnJvcgBgb25fY2h1bmtfZXh0ZW5zaW9uX3ZhbHVlYCBjYWxsYmFjayBlcnJvcgBgb25fc3RhdHVzX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fdmVyc2lvbl9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX3VybF9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX2NodW5rX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25faGVhZGVyX3ZhbHVlX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fbWVzc2FnZV9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX21ldGhvZF9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX2hlYWRlcl9maWVsZF9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX2NodW5rX2V4dGVuc2lvbl9uYW1lYCBjYWxsYmFjayBlcnJvcgBVbmV4cGVjdGVkIGNoYXIgaW4gdXJsIHNlcnZlcgBJbnZhbGlkIGhlYWRlciB2YWx1ZSBjaGFyAEludmFsaWQgaGVhZGVyIGZpZWxkIGNoYXIAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl92ZXJzaW9uAEludmFsaWQgbWlub3IgdmVyc2lvbgBJbnZhbGlkIG1ham9yIHZlcnNpb24ARXhwZWN0ZWQgc3BhY2UgYWZ0ZXIgdmVyc2lvbgBFeHBlY3RlZCBDUkxGIGFmdGVyIHZlcnNpb24ASW52YWxpZCBIVFRQIHZlcnNpb24ASW52YWxpZCBoZWFkZXIgdG9rZW4AU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl91cmwASW52YWxpZCBjaGFyYWN0ZXJzIGluIHVybABVbmV4cGVjdGVkIHN0YXJ0IGNoYXIgaW4gdXJsAERvdWJsZSBAIGluIHVybABFbXB0eSBDb250ZW50LUxlbmd0aABJbnZhbGlkIGNoYXJhY3RlciBpbiBDb250ZW50LUxlbmd0aABEdXBsaWNhdGUgQ29udGVudC1MZW5ndGgASW52YWxpZCBjaGFyIGluIHVybCBwYXRoAENvbnRlbnQtTGVuZ3RoIGNhbid0IGJlIHByZXNlbnQgd2l0aCBUcmFuc2Zlci1FbmNvZGluZwBJbnZhbGlkIGNoYXJhY3RlciBpbiBjaHVuayBzaXplAFNwYW4gY2FsbGJhY2sgZXJyb3IgaW4gb25faGVhZGVyX3ZhbHVlAFNwYW4gY2FsbGJhY2sgZXJyb3IgaW4gb25fY2h1bmtfZXh0ZW5zaW9uX3ZhbHVlAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIGV4dGVuc2lvbnMgdmFsdWUATWlzc2luZyBleHBlY3RlZCBMRiBhZnRlciBoZWFkZXIgdmFsdWUASW52YWxpZCBgVHJhbnNmZXItRW5jb2RpbmdgIGhlYWRlciB2YWx1ZQBJbnZhbGlkIGNoYXJhY3RlciBpbiBjaHVuayBleHRlbnNpb25zIHF1b3RlIHZhbHVlAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIGV4dGVuc2lvbnMgcXVvdGVkIHZhbHVlAFBhdXNlZCBieSBvbl9oZWFkZXJzX2NvbXBsZXRlAEludmFsaWQgRU9GIHN0YXRlAG9uX3Jlc2V0IHBhdXNlAG9uX2NodW5rX2hlYWRlciBwYXVzZQBvbl9tZXNzYWdlX2JlZ2luIHBhdXNlAG9uX2NodW5rX2V4dGVuc2lvbl92YWx1ZSBwYXVzZQBvbl9zdGF0dXNfY29tcGxldGUgcGF1c2UAb25fdmVyc2lvbl9jb21wbGV0ZSBwYXVzZQBvbl91cmxfY29tcGxldGUgcGF1c2UAb25fY2h1bmtfY29tcGxldGUgcGF1c2UAb25faGVhZGVyX3ZhbHVlX2NvbXBsZXRlIHBhdXNlAG9uX21lc3NhZ2VfY29tcGxldGUgcGF1c2UAb25fbWV0aG9kX2NvbXBsZXRlIHBhdXNlAG9uX2hlYWRlcl9maWVsZF9jb21wbGV0ZSBwYXVzZQBvbl9jaHVua19leHRlbnNpb25fbmFtZSBwYXVzZQBVbmV4cGVjdGVkIHNwYWNlIGFmdGVyIHN0YXJ0IGxpbmUAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9jaHVua19leHRlbnNpb25fbmFtZQBJbnZhbGlkIGNoYXJhY3RlciBpbiBjaHVuayBleHRlbnNpb25zIG5hbWUAUGF1c2Ugb24gQ09OTkVDVC9VcGdyYWRlAFBhdXNlIG9uIFBSSS9VcGdyYWRlAEV4cGVjdGVkIEhUVFAvMiBDb25uZWN0aW9uIFByZWZhY2UAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9tZXRob2QARXhwZWN0ZWQgc3BhY2UgYWZ0ZXIgbWV0aG9kAFNwYW4gY2FsbGJhY2sgZXJyb3IgaW4gb25faGVhZGVyX2ZpZWxkAFBhdXNlZABJbnZhbGlkIHdvcmQgZW5jb3VudGVyZWQASW52YWxpZCBtZXRob2QgZW5jb3VudGVyZWQAVW5leHBlY3RlZCBjaGFyIGluIHVybCBzY2hlbWEAUmVxdWVzdCBoYXMgaW52YWxpZCBgVHJhbnNmZXItRW5jb2RpbmdgAFNXSVRDSF9QUk9YWQBVU0VfUFJPWFkATUtBQ1RJVklUWQBVTlBST0NFU1NBQkxFX0VOVElUWQBDT1BZAE1PVkVEX1BFUk1BTkVOVExZAFRPT19FQVJMWQBOT1RJRlkARkFJTEVEX0RFUEVOREVOQ1kAQkFEX0dBVEVXQVkAUExBWQBQVVQAQ0hFQ0tPVVQAR0FURVdBWV9USU1FT1VUAFJFUVVFU1RfVElNRU9VVABORVRXT1JLX0NPTk5FQ1RfVElNRU9VVABDT05ORUNUSU9OX1RJTUVPVVQATE9HSU5fVElNRU9VVABORVRXT1JLX1JFQURfVElNRU9VVABQT1NUAE1JU0RJUkVDVEVEX1JFUVVFU1QAQ0xJRU5UX0NMT1NFRF9SRVFVRVNUAENMSUVOVF9DTE9TRURfTE9BRF9CQUxBTkNFRF9SRVFVRVNUAEJBRF9SRVFVRVNUAEhUVFBfUkVRVUVTVF9TRU5UX1RPX0hUVFBTX1BPUlQAUkVQT1JUAElNX0FfVEVBUE9UAFJFU0VUX0NPTlRFTlQATk9fQ09OVEVOVABQQVJUSUFMX0NPTlRFTlQASFBFX0lOVkFMSURfQ09OU1RBTlQASFBFX0NCX1JFU0VUAEdFVABIUEVfU1RSSUNUAENPTkZMSUNUAFRFTVBPUkFSWV9SRURJUkVDVABQRVJNQU5FTlRfUkVESVJFQ1QAQ09OTkVDVABNVUxUSV9TVEFUVVMASFBFX0lOVkFMSURfU1RBVFVTAFRPT19NQU5ZX1JFUVVFU1RTAEVBUkxZX0hJTlRTAFVOQVZBSUxBQkxFX0ZPUl9MRUdBTF9SRUFTT05TAE9QVElPTlMAU1dJVENISU5HX1BST1RPQ09MUwBWQVJJQU5UX0FMU09fTkVHT1RJQVRFUwBNVUxUSVBMRV9DSE9JQ0VTAElOVEVSTkFMX1NFUlZFUl9FUlJPUgBXRUJfU0VSVkVSX1VOS05PV05fRVJST1IAUkFJTEdVTl9FUlJPUgBJREVOVElUWV9QUk9WSURFUl9BVVRIRU5USUNBVElPTl9FUlJPUgBTU0xfQ0VSVElGSUNBVEVfRVJST1IASU5WQUxJRF9YX0ZPUldBUkRFRF9GT1IAU0VUX1BBUkFNRVRFUgBHRVRfUEFSQU1FVEVSAEhQRV9VU0VSAFNFRV9PVEhFUgBIUEVfQ0JfQ0hVTktfSEVBREVSAE1LQ0FMRU5EQVIAU0VUVVAAV0VCX1NFUlZFUl9JU19ET1dOAFRFQVJET1dOAEhQRV9DTE9TRURfQ09OTkVDVElPTgBIRVVSSVNUSUNfRVhQSVJBVElPTgBESVNDT05ORUNURURfT1BFUkFUSU9OAE5PTl9BVVRIT1JJVEFUSVZFX0lORk9STUFUSU9OAEhQRV9JTlZBTElEX1ZFUlNJT04ASFBFX0NCX01FU1NBR0VfQkVHSU4AU0lURV9JU19GUk9aRU4ASFBFX0lOVkFMSURfSEVBREVSX1RPS0VOAElOVkFMSURfVE9LRU4ARk9SQklEREVOAEVOSEFOQ0VfWU9VUl9DQUxNAEhQRV9JTlZBTElEX1VSTABCTE9DS0VEX0JZX1BBUkVOVEFMX0NPTlRST0wATUtDT0wAQUNMAEhQRV9JTlRFUk5BTABSRVFVRVNUX0hFQURFUl9GSUVMRFNfVE9PX0xBUkdFX1VOT0ZGSUNJQUwASFBFX09LAFVOTElOSwBVTkxPQ0sAUFJJAFJFVFJZX1dJVEgASFBFX0lOVkFMSURfQ09OVEVOVF9MRU5HVEgASFBFX1VORVhQRUNURURfQ09OVEVOVF9MRU5HVEgARkxVU0gAUFJPUFBBVENIAE0tU0VBUkNIAFVSSV9UT09fTE9ORwBQUk9DRVNTSU5HAE1JU0NFTExBTkVPVVNfUEVSU0lTVEVOVF9XQVJOSU5HAE1JU0NFTExBTkVPVVNfV0FSTklORwBIUEVfSU5WQUxJRF9UUkFOU0ZFUl9FTkNPRElORwBFeHBlY3RlZCBDUkxGAEhQRV9JTlZBTElEX0NIVU5LX1NJWkUATU9WRQBDT05USU5VRQBIUEVfQ0JfU1RBVFVTX0NPTVBMRVRFAEhQRV9DQl9IRUFERVJTX0NPTVBMRVRFAEhQRV9DQl9WRVJTSU9OX0NPTVBMRVRFAEhQRV9DQl9VUkxfQ09NUExFVEUASFBFX0NCX0NIVU5LX0NPTVBMRVRFAEhQRV9DQl9IRUFERVJfVkFMVUVfQ09NUExFVEUASFBFX0NCX0NIVU5LX0VYVEVOU0lPTl9WQUxVRV9DT01QTEVURQBIUEVfQ0JfQ0hVTktfRVhURU5TSU9OX05BTUVfQ09NUExFVEUASFBFX0NCX01FU1NBR0VfQ09NUExFVEUASFBFX0NCX01FVEhPRF9DT01QTEVURQBIUEVfQ0JfSEVBREVSX0ZJRUxEX0NPTVBMRVRFAERFTEVURQBIUEVfSU5WQUxJRF9FT0ZfU1RBVEUASU5WQUxJRF9TU0xfQ0VSVElGSUNBVEUAUEFVU0UATk9fUkVTUE9OU0UAVU5TVVBQT1JURURfTUVESUFfVFlQRQBHT05FAE5PVF9BQ0NFUFRBQkxFAFNFUlZJQ0VfVU5BVkFJTEFCTEUAUkFOR0VfTk9UX1NBVElTRklBQkxFAE9SSUdJTl9JU19VTlJFQUNIQUJMRQBSRVNQT05TRV9JU19TVEFMRQBQVVJHRQBNRVJHRQBSRVFVRVNUX0hFQURFUl9GSUVMRFNfVE9PX0xBUkdFAFJFUVVFU1RfSEVBREVSX1RPT19MQVJHRQBQQVlMT0FEX1RPT19MQVJHRQBJTlNVRkZJQ0lFTlRfU1RPUkFHRQBIUEVfUEFVU0VEX1VQR1JBREUASFBFX1BBVVNFRF9IMl9VUEdSQURFAFNPVVJDRQBBTk5PVU5DRQBUUkFDRQBIUEVfVU5FWFBFQ1RFRF9TUEFDRQBERVNDUklCRQBVTlNVQlNDUklCRQBSRUNPUkQASFBFX0lOVkFMSURfTUVUSE9EAE5PVF9GT1VORABQUk9QRklORABVTkJJTkQAUkVCSU5EAFVOQVVUSE9SSVpFRABNRVRIT0RfTk9UX0FMTE9XRUQASFRUUF9WRVJTSU9OX05PVF9TVVBQT1JURUQAQUxSRUFEWV9SRVBPUlRFRABBQ0NFUFRFRABOT1RfSU1QTEVNRU5URUQATE9PUF9ERVRFQ1RFRABIUEVfQ1JfRVhQRUNURUQASFBFX0xGX0VYUEVDVEVEAENSRUFURUQASU1fVVNFRABIUEVfUEFVU0VEAFRJTUVPVVRfT0NDVVJFRABQQVlNRU5UX1JFUVVJUkVEAFBSRUNPTkRJVElPTl9SRVFVSVJFRABQUk9YWV9BVVRIRU5USUNBVElPTl9SRVFVSVJFRABORVRXT1JLX0FVVEhFTlRJQ0FUSU9OX1JFUVVJUkVEAExFTkdUSF9SRVFVSVJFRABTU0xfQ0VSVElGSUNBVEVfUkVRVUlSRUQAVVBHUkFERV9SRVFVSVJFRABQQUdFX0VYUElSRUQAUFJFQ09ORElUSU9OX0ZBSUxFRABFWFBFQ1RBVElPTl9GQUlMRUQAUkVWQUxJREFUSU9OX0ZBSUxFRABTU0xfSEFORFNIQUtFX0ZBSUxFRABMT0NLRUQAVFJBTlNGT1JNQVRJT05fQVBQTElFRABOT1RfTU9ESUZJRUQATk9UX0VYVEVOREVEAEJBTkRXSURUSF9MSU1JVF9FWENFRURFRABTSVRFX0lTX09WRVJMT0FERUQASEVBRABFeHBlY3RlZCBIVFRQLwAAXhMAACYTAAAwEAAA8BcAAJ0TAAAVEgAAORcAAPASAAAKEAAAdRIAAK0SAACCEwAATxQAAH8QAACgFQAAIxQAAIkSAACLFAAATRUAANQRAADPFAAAEBgAAMkWAADcFgAAwREAAOAXAAC7FAAAdBQAAHwVAADlFAAACBcAAB8QAABlFQAAoxQAACgVAAACFQAAmRUAACwQAACLGQAATw8AANQOAABqEAAAzhAAAAIXAACJDgAAbhMAABwTAABmFAAAVhcAAMETAADNEwAAbBMAAGgXAABmFwAAXxcAACITAADODwAAaQ4AANgOAABjFgAAyxMAAKoOAAAoFwAAJhcAAMUTAABdFgAA6BEAAGcTAABlEwAA8hYAAHMTAAAdFwAA+RYAAPMRAADPDgAAzhUAAAwSAACzEQAApREAAGEQAAAyFwAAuxMAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIDAgICAgIAAAICAAICAAICAgICAgICAgIABAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAICAgICAAACAgACAgACAgICAgICAgICAAMABAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbG9zZWVlcC1hbGl2ZQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBY2h1bmtlZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAQEBAQEAAAEBAAEBAAEBAQEBAQEBAQEAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABlY3Rpb25lbnQtbGVuZ3Rob25yb3h5LWNvbm5lY3Rpb24AAAAAAAAAAAAAAAAAAAByYW5zZmVyLWVuY29kaW5ncGdyYWRlDQoNCg0KU00NCg0KVFRQL0NFL1RTUC8AAAAAAAAAAAAAAAABAgABAwAAAAAAAAAAAAAAAAAAAAAAAAQBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAQIAAQMAAAAAAAAAAAAAAAAAAAAAAAAEAQEFAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAMEAAAEBAQEBAQEBAQEBAUEBAQEBAQEBAQEBAQABAAGBwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEAAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAAAAAAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAAAAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOT1VOQ0VFQ0tPVVRORUNURVRFQ1JJQkVMVVNIRVRFQURTRUFSQ0hSR0VDVElWSVRZTEVOREFSVkVPVElGWVBUSU9OU0NIU0VBWVNUQVRDSEdFT1JESVJFQ1RPUlRSQ0hQQVJBTUVURVJVUkNFQlNDUklCRUFSRE9XTkFDRUlORE5LQ0tVQlNDUklCRUhUVFAvQURUUC8='
@@ -20462,7 +24444,7 @@ module.exports = 'AGFzbQEAAAABMAhgAX8Bf2ADf39/AX9gBH9/f38Bf2AAAGADf39/AGABfwBgAn
 
 /***/ }),
 
-/***/ 5335:
+/***/ 5627:
 /***/ ((module) => {
 
 module.exports = 'AGFzbQEAAAABMAhgAX8Bf2ADf39/AX9gBH9/f38Bf2AAAGADf39/AGABfwBgAn9/AGAGf39/f39/AALLAQgDZW52GHdhc21fb25faGVhZGVyc19jb21wbGV0ZQACA2VudhV3YXNtX29uX21lc3NhZ2VfYmVnaW4AAANlbnYLd2FzbV9vbl91cmwAAQNlbnYOd2FzbV9vbl9zdGF0dXMAAQNlbnYUd2FzbV9vbl9oZWFkZXJfZmllbGQAAQNlbnYUd2FzbV9vbl9oZWFkZXJfdmFsdWUAAQNlbnYMd2FzbV9vbl9ib2R5AAEDZW52GHdhc21fb25fbWVzc2FnZV9jb21wbGV0ZQAAA0ZFAwMEAAAFAAAAAAAABQEFAAUFBQAABgAAAAAGBgYGAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAAABAQcAAAUFAwABBAUBcAESEgUDAQACBggBfwFBgNQECwfRBSIGbWVtb3J5AgALX2luaXRpYWxpemUACRlfX2luZGlyZWN0X2Z1bmN0aW9uX3RhYmxlAQALbGxodHRwX2luaXQAChhsbGh0dHBfc2hvdWxkX2tlZXBfYWxpdmUAQQxsbGh0dHBfYWxsb2MADAZtYWxsb2MARgtsbGh0dHBfZnJlZQANBGZyZWUASA9sbGh0dHBfZ2V0X3R5cGUADhVsbGh0dHBfZ2V0X2h0dHBfbWFqb3IADxVsbGh0dHBfZ2V0X2h0dHBfbWlub3IAEBFsbGh0dHBfZ2V0X21ldGhvZAARFmxsaHR0cF9nZXRfc3RhdHVzX2NvZGUAEhJsbGh0dHBfZ2V0X3VwZ3JhZGUAEwxsbGh0dHBfcmVzZXQAFA5sbGh0dHBfZXhlY3V0ZQAVFGxsaHR0cF9zZXR0aW5nc19pbml0ABYNbGxodHRwX2ZpbmlzaAAXDGxsaHR0cF9wYXVzZQAYDWxsaHR0cF9yZXN1bWUAGRtsbGh0dHBfcmVzdW1lX2FmdGVyX3VwZ3JhZGUAGhBsbGh0dHBfZ2V0X2Vycm5vABsXbGxodHRwX2dldF9lcnJvcl9yZWFzb24AHBdsbGh0dHBfc2V0X2Vycm9yX3JlYXNvbgAdFGxsaHR0cF9nZXRfZXJyb3JfcG9zAB4RbGxodHRwX2Vycm5vX25hbWUAHxJsbGh0dHBfbWV0aG9kX25hbWUAIBJs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IAH9CwMAIABBMGogAf0LAwAgAEEgaiAB/QsDACAAQd0BNgIcQQALewEBfwJAIAAoAgwiAw0AAkAgACgCBEUNACAAIAE2AgQLAkAgACABIAIQxICAgAAiAw0AIAAoAgwPCyAAIAM2AhxBACEDIAAoAgQiAUUNACAAIAEgAiAAKAIIEYGAgIAAACIBRQ0AIAAgAjYCFCAAIAE2AgwgASEDCyADC+TzAQMOfwN+BH8jgICAgABBEGsiAySAgICAACABIQQgASEFIAEhBiABIQcgASEIIAEhCSABIQogASELIAEhDCABIQ0gASEOIAEhDwJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQCAAKAIcIhBBf2oO3QHaAQHZAQIDBAUGBwgJCgsMDQ7YAQ8Q1wEREtYBExQVFhcYGRob4AHfARwdHtUBHyAhIiMkJdQBJicoKSorLNMB0gEtLtEB0AEvMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUbbAUdISUrPAc4BS80BTMwBTU5PUFFSU1RVVldYWVpbXF1eX2BhYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ent8fX5/gAGBAYIBgwGEAYUBhgGHAYgBiQGKAYsBjAGNAY4BjwGQAZEB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QAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAIBAOxwEAAQID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YWNrIGVycm9yAGBvbl9jaHVua19leHRlbnNpb25fdmFsdWVgIGNhbGxiYWNrIGVycm9yAGBvbl9zdGF0dXNfY29tcGxldGVgIGNhbGxiYWNrIGVycm9yAGBvbl92ZXJzaW9uX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fdXJsX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fY2h1bmtfY29tcGxldGVgIGNhbGxiYWNrIGVycm9yAGBvbl9oZWFkZXJfdmFsdWVfY29tcGxldGVgIGNhbGxiYWNrIGVycm9yAGBvbl9tZXNzYWdlX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fbWV0aG9kX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25faGVhZGVyX2ZpZWxkX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fY2h1bmtfZXh0ZW5zaW9uX25hbWVgIGNhbGxiYWNrIGVycm9yAFVuZXhwZWN0ZWQgY2hhciBpbiB1cmwgc2VydmVyAEludmFsaWQgaGVhZGVyIHZhbHVlIGNoYXIASW52YWxpZCBoZWFkZXIgZmllbGQgY2hhcgBTcGFuIGNhbGxiYWNrIGVycm9yIGluIG9uX3ZlcnNpb24ASW52YWxpZCBtaW5vciB2ZXJzaW9uAEludmFsaWQgbWFqb3IgdmVyc2lvbgBFeHBlY3RlZCBzcGFjZSBhZnRlciB2ZXJzaW9uAEV4cGVjdGVkIENSTEYgYWZ0ZXIgdmVyc2lvbgBJbnZhbGlkIEhUVFAgdmVyc2lvbgBJbnZhbGlkIGhlYWRlciB0b2tlbgBTcGFuIGNhbGxiYWNrIGVycm9yIGluIG9uX3VybABJbnZhbGlkIGNoYXJhY3RlcnMgaW4gdXJsAFVuZXhwZWN0ZWQgc3RhcnQgY2hhciBpbiB1cmwARG91YmxlIEAgaW4gdXJsAEVtcHR5IENvbnRlbnQtTGVuZ3RoAEludmFsaWQgY2hhcmFjdGVyIGluIENvbnRlbnQtTGVuZ3RoAER1cGxpY2F0ZSBDb250ZW50LUxlbmd0aABJbnZhbGlkIGNoYXIgaW4gdXJsIHBhdGgAQ29udGVudC1MZW5ndGggY2FuJ3QgYmUgcHJlc2VudCB3aXRoIFRyYW5zZmVyLUVuY29kaW5nAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIHNpemUAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9oZWFkZXJfdmFsdWUAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9jaHVua19leHRlbnNpb25fdmFsdWUASW52YWxpZCBjaGFyYWN0ZXIgaW4gY2h1bmsgZXh0ZW5zaW9ucyB2YWx1ZQBNaXNzaW5nIGV4cGVjdGVkIExGIGFmdGVyIGhlYWRlciB2YWx1ZQBJbnZhbGlkIGBUcmFuc2Zlci1FbmNvZGluZ2AgaGVhZGVyIHZhbHVlAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIGV4dGVuc2lvbnMgcXVvdGUgdmFsdWUASW52YWxpZCBjaGFyYWN0ZXIgaW4gY2h1bmsgZXh0ZW5zaW9ucyBxdW90ZWQgdmFsdWUAUGF1c2VkIGJ5IG9uX2hlYWRlcnNfY29tcGxldGUASW52YWxpZCBFT0Ygc3RhdGUAb25fcmVzZXQgcGF1c2UAb25fY2h1bmtfaGVhZGVyIHBhdXNlAG9uX21lc3NhZ2VfYmVnaW4gcGF1c2UAb25fY2h1bmtfZXh0ZW5zaW9uX3ZhbHVlIHBhdXNlAG9uX3N0YXR1c19jb21wbGV0ZSBwYXVzZQBvbl92ZXJzaW9uX2NvbXBsZXRlIHBhdXNlAG9uX3VybF9jb21wbGV0ZSBwYXVzZQBvbl9jaHVua19jb21wbGV0ZSBwYXVzZQBvbl9oZWFkZXJfdmFsdWVfY29tcGxldGUgcGF1c2UAb25fbWVzc2FnZV9jb21wbGV0ZSBwYXVzZQBvbl9tZXRob2RfY29tcGxldGUgcGF1c2UAb25faGVhZGVyX2ZpZWxkX2NvbXBsZXRlIHBhdXNlAG9uX2NodW5rX2V4dGVuc2lvbl9uYW1lIHBhdXNlAFVuZXhwZWN0ZWQgc3BhY2UgYWZ0ZXIgc3RhcnQgbGluZQBTcGFuIGNhbGxiYWNrIGVycm9yIGluIG9uX2NodW5rX2V4dGVuc2lvbl9uYW1lAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIGV4dGVuc2lvbnMgbmFtZQBQYXVzZSBvbiBDT05ORUNUL1VwZ3JhZGUAUGF1c2Ugb24gUFJJL1VwZ3JhZGUARXhwZWN0ZWQgSFRUUC8yIENvbm5lY3Rpb24gUHJlZmFjZQBTcGFuIGNhbGxiYWNrIGVycm9yIGluIG9uX21ldGhvZABFeHBlY3RlZCBzcGFjZSBhZnRlciBtZXRob2QAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9oZWFkZXJfZmllbGQAUGF1c2VkAEludmFsaWQgd29yZCBlbmNvdW50ZXJlZABJbnZhbGlkIG1ldGhvZCBlbmNvdW50ZXJlZABVbmV4cGVjdGVkIGNoYXIgaW4gdXJsIHNjaGVtYQBSZXF1ZXN0IGhhcyBpbnZhbGlkIGBUcmFuc2Zlci1FbmNvZGluZ2AAU1dJVENIX1BST1hZAFVTRV9QUk9YWQBNS0FDVElWSVRZAFVOUFJPQ0VTU0FCTEVfRU5USVRZAENPUFkATU9WRURfUEVSTUFORU5UTFkAVE9PX0VBUkxZAE5PVElGWQBGQUlMRURfREVQRU5ERU5DWQBCQURfR0FURVdBWQBQTEFZAFBVVABDSEVDS09VVABHQVRFV0FZX1RJTUVPVVQAUkVRVUVTVF9USU1FT1VUAE5FVFdPUktfQ09OTkVDVF9USU1FT1VUAENPTk5FQ1RJT05fVElNRU9VVABMT0dJTl9USU1FT1VUAE5FVFdPUktfUkVBRF9USU1FT1VUAFBPU1QATUlTRElSRUNURURfUkVRVUVTVABDTElFTlRfQ0xPU0VEX1JFUVVFU1QAQ0xJRU5UX0NMT1NFRF9MT0FEX0JBTEFOQ0VEX1JFUVVFU1QAQkFEX1JFUVVFU1QASFRUUF9SRVFVRVNUX1NFTlRfVE9fSFRUUFNfUE9SVABSRVBPUlQASU1fQV9URUFQT1QAUkVTRVRfQ09OVEVOVABOT19DT05URU5UAFBBUlRJQUxfQ09OVEVOVABIUEVfSU5WQUxJRF9DT05TVEFOVABIUEVfQ0JfUkVTRVQAR0VUAEhQRV9TVFJJQ1QAQ09ORkxJQ1QAVEVNUE9SQVJZX1JFRElSRUNUAFBFUk1BTkVOVF9SRURJUkVDVABDT05ORUNUAE1VTFRJX1NUQVRVUwBIUEVfSU5WQUxJRF9TVEFUVVMAVE9PX01BTllfUkVRVUVTVFMARUFSTFlfSElOVFMAVU5BVkFJTEFCTEVfRk9SX0xFR0FMX1JFQVNPTlMAT1BUSU9OUwBTV0lUQ0hJTkdfUFJPVE9DT0xTAFZBUklBTlRfQUxTT19ORUdPVElBVEVTAE1VTFRJUExFX0NIT0lDRVMASU5URVJOQUxfU0VSVkVSX0VSUk9SAFdFQl9TRVJWRVJfVU5LTk9XTl9FUlJPUgBSQUlMR1VOX0VSUk9SAElERU5USVRZX1BST1ZJREVSX0FVVEhFTlRJQ0FUSU9OX0VSUk9SAFNTTF9DRVJUSUZJQ0FURV9FUlJPUgBJTlZBTElEX1hfRk9SV0FSREVEX0ZPUgBTRVRfUEFSQU1FVEVSAEdFVF9QQVJBTUVURVIASFBFX1VTRVIAU0VFX09USEVSAEhQRV9DQl9DSFVOS19IRUFERVIATUtDQUxFTkRBUgBTRVRVUABXRUJfU0VSVkVSX0lTX0RPV04AVEVBUkRPV04ASFBFX0NMT1NFRF9DT05ORUNUSU9OAEhFVVJJU1RJQ19FWFBJUkFUSU9OAERJU0NPTk5FQ1RFRF9PUEVSQVRJT04ATk9OX0FVVEhPUklUQVRJVkVfSU5GT1JNQVRJT04ASFBFX0lOVkFMSURfVkVSU0lPTgBIUEVfQ0JfTUVTU0FHRV9CRUdJTgBTSVRFX0lTX0ZST1pFTgBIUEVfSU5WQUxJRF9IRUFERVJfVE9LRU4ASU5WQUxJRF9UT0tFTgBGT1JCSURERU4ARU5IQU5DRV9ZT1VSX0NBTE0ASFBFX0lOVkFMSURfVVJMAEJMT0NLRURfQllfUEFSRU5UQUxfQ09OVFJPTABNS0NPTABBQ0wASFBFX0lOVEVSTkFMAFJFUVVFU1RfSEVBREVSX0ZJRUxEU19UT09fTEFSR0VfVU5PRkZJQ0lBTABIUEVfT0sAVU5MSU5LAFVOTE9DSwBQUkkAUkVUUllfV0lUSABIUEVfSU5WQUxJRF9DT05URU5UX0xFTkdUSABIUEVfVU5FWFBFQ1RFRF9DT05URU5UX0xFTkdUSABGTFVTSABQUk9QUEFUQ0gATS1TRUFSQ0gAVVJJX1RPT19MT05HAFBST0NFU1NJTkcATUlTQ0VMTEFORU9VU19QRVJTSVNURU5UX1dBUk5JTkcATUlTQ0VMTEFORU9VU19XQVJOSU5HAEhQRV9JTlZBTElEX1RSQU5TRkVSX0VOQ09ESU5HAEV4cGVjdGVkIENSTEYASFBFX0lOVkFMSURfQ0hVTktfU0laRQBNT1ZFAENPTlRJTlVFAEhQRV9DQl9TVEFUVVNfQ09NUExFVEUASFBFX0NCX0hFQURFUlNfQ09NUExFVEUASFBFX0NCX1ZFUlNJT05fQ09NUExFVEUASFBFX0NCX1VSTF9DT01QTEVURQBIUEVfQ0JfQ0hVTktfQ09NUExFVEUASFBFX0NCX0hFQURFUl9WQUxVRV9DT01QTEVURQBIUEVfQ0JfQ0hVTktfRVhURU5TSU9OX1ZBTFVFX0NPTVBMRVRFAEhQRV9DQl9DSFVOS19FWFRFTlNJT05fTkFNRV9DT01QTEVURQBIUEVfQ0JfTUVTU0FHRV9DT01QTEVURQBIUEVfQ0JfTUVUSE9EX0NPTVBMRVRFAEhQRV9DQl9IRUFERVJfRklFTERfQ09NUExFVEUAREVMRVRFAEhQRV9JTlZBTElEX0VPRl9TVEFURQBJTlZBTElEX1NTTF9DRVJUSUZJQ0FURQBQQVVTRQBOT19SRVNQT05TRQBVTlNVUFBPUlRFRF9NRURJQV9UWVBFAEdPTkUATk9UX0FDQ0VQVEFCTEUAU0VSVklDRV9VTkFWQUlMQUJMRQBSQU5HRV9OT1RfU0FUSVNGSUFCTEUAT1JJR0lOX0lTX1VOUkVBQ0hBQkxFAFJFU1BPTlNFX0lTX1NUQUxFAFBVUkdFAE1FUkdFAFJFUVVFU1RfSEVBREVSX0ZJRUxEU19UT09fTEFSR0UAUkVRVUVTVF9IRUFERVJfVE9PX0xBUkdFAFBBWUxPQURfVE9PX0xBUkdFAElOU1VGRklDSUVOVF9TVE9SQUdFAEhQRV9QQVVTRURfVVBHUkFERQBIUEVfUEFVU0VEX0gyX1VQR1JBREUAU09VUkNFAEFOTk9VTkNFAFRSQUNFAEhQRV9VTkVYUEVDVEVEX1NQQUNFAERFU0NSSUJFAFVOU1VCU0NSSUJFAFJFQ09SRABIUEVfSU5WQUxJRF9NRVRIT0QATk9UX0ZPVU5EAFBST1BGSU5EAFVOQklORABSRUJJTkQAVU5BVVRIT1JJWkVEAE1FVEhPRF9OT1RfQUxMT1dFRABIVFRQX1ZFUlNJT05fTk9UX1NVUFBPUlRFRABBTFJFQURZX1JFUE9SVEVEAEFDQ0VQVEVEAE5PVF9JTVBMRU1FTlRFRABMT09QX0RFVEVDVEVEAEhQRV9DUl9FWFBFQ1RFRABIUEVfTEZfRVhQRUNURUQAQ1JFQVRFRABJTV9VU0VEAEhQRV9QQVVTRUQAVElNRU9VVF9PQ0NVUkVEAFBBWU1FTlRfUkVRVUlSRUQAUFJFQ09ORElUSU9OX1JFUVVJUkVEAFBST1hZX0FVVEhFTlRJQ0FUSU9OX1JFUVVJUkVEAE5FVFdPUktfQVVUSEVOVElDQVRJT05fUkVRVUlSRUQATEVOR1RIX1JFUVVJUkVEAFNTTF9DRVJUSUZJQ0FURV9SRVFVSVJFRABVUEdSQURFX1JFUVVJUkVEAFBBR0VfRVhQSVJFRABQUkVDT05ESVRJT05fRkFJTEVEAEVYUEVDVEFUSU9OX0ZBSUxFRABSRVZBTElEQVRJT05fRkFJTEVEAFNTTF9IQU5EU0hBS0VfRkFJTEVEAExPQ0tFRABUUkFOU0ZPUk1BVElPTl9BUFBMSUVEAE5PVF9NT0RJRklFRABOT1RfRVhURU5ERUQAQkFORFdJRFRIX0xJTUlUX0VYQ0VFREVEAFNJVEVfSVNfT1ZFUkxPQURFRABIRUFEAEV4cGVjdGVkIEhUVFAvAABeEwAAJhMAADAQAADwFwAAnRMAABUSAAA5FwAA8BIAAAoQAAB1EgAArRIAAIITAABPFAAAfxAAAKAVAAAjFAAAiRIAAIsUAABNFQAA1BEAAM8UAAAQGAAAyRYAANwWAADBEQAA4BcAALsUAAB0FAAAfBUAAOUUAAAIFwAAHxAAAGUVAACjFAAAKBUAAAIVAACZFQAALBAAAIsZAABPDwAA1A4AAGoQAADOEAAAAhcAAIkOAABuEwAAHBMAAGYUAABWFwAAwRMAAM0TAABsEwAAaBcAAGYXAABfFwAAIhMAAM4PAABpDgAA2A4AAGMWAADLEwAAqg4AACgXAAAmFwAAxRMAAF0WAADoEQAAZxMAAGUTAADyFgAAcxMAAB0XAAD5FgAA8xEAAM8OAADOFQAADBIAALMRAAClEQAAYRAAADIXAAC7EwAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAgEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgMCAgICAgAAAgIAAgIAAgICAgICAgICAgAEAAAAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgICAgIAAAICAAICAAICAgICAgICAgIAAwAEAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsb3NlZWVwLWFsaXZlAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQFjaHVua2VkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQABAQEBAQAAAQEAAQEAAQEBAQEBAQEBAQAAAAAAAAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVjdGlvbmVudC1sZW5ndGhvbnJveHktY29ubmVjdGlvbgAAAAAAAAAAAAAAAAAAAHJhbnNmZXItZW5jb2RpbmdwZ3JhZGUNCg0KDQpTTQ0KDQpUVFAvQ0UvVFNQLwAAAAAAAAAAAAAAAAECAAEDAAAAAAAAAAAAAAAAAAAAAAAABAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAABAgABAwAAAAAAAAAAAAAAAAAAAAAAAAQBAQUBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAwQAAAQEBAQEBAQEBAQEBQQEBAQEBAQEBAQEBAAEAAYHBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQABAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAAAAAAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE5PVU5DRUVDS09VVE5FQ1RFVEVDUklCRUxVU0hFVEVBRFNFQVJDSFJHRUNUSVZJVFlMRU5EQVJWRU9USUZZUFRJT05TQ0hTRUFZU1RBVENIR0VPUkRJUkVDVE9SVFJDSFBBUkFNRVRFUlVSQ0VCU0NSSUJFQVJET1dOQUNFSU5ETktDS1VCU0NSSUJFSFRUUC9BRFRQLw=='
@@ -20470,7 +24452,7 @@ module.exports = 'AGFzbQEAAAABMAhgAX8Bf2ADf39/AX9gBH9/f38Bf2AAAGADf39/AGABfwBgAn
 
 /***/ }),
 
-/***/ 5308:
+/***/ 1891:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -20492,14 +24474,14 @@ exports.enumToMap = enumToMap;
 
 /***/ }),
 
-/***/ 8807:
+/***/ 6771:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kClients } = __nccwpck_require__(599)
-const Agent = __nccwpck_require__(8326)
+const { kClients } = __nccwpck_require__(2785)
+const Agent = __nccwpck_require__(7890)
 const {
   kAgent,
   kMockAgentSet,
@@ -20510,14 +24492,14 @@ const {
   kGetNetConnect,
   kOptions,
   kFactory
-} = __nccwpck_require__(6923)
-const MockClient = __nccwpck_require__(7413)
-const MockPool = __nccwpck_require__(3566)
-const { matchValue, buildMockOptions } = __nccwpck_require__(3053)
-const { InvalidArgumentError, UndiciError } = __nccwpck_require__(5051)
-const Dispatcher = __nccwpck_require__(1365)
-const Pluralizer = __nccwpck_require__(2925)
-const PendingInterceptorsFormatter = __nccwpck_require__(1550)
+} = __nccwpck_require__(4347)
+const MockClient = __nccwpck_require__(8687)
+const MockPool = __nccwpck_require__(6193)
+const { matchValue, buildMockOptions } = __nccwpck_require__(9323)
+const { InvalidArgumentError, UndiciError } = __nccwpck_require__(8045)
+const Dispatcher = __nccwpck_require__(412)
+const Pluralizer = __nccwpck_require__(8891)
+const PendingInterceptorsFormatter = __nccwpck_require__(6823)
 
 class FakeWeakRef {
   constructor (value) {
@@ -20671,15 +24653,15 @@ module.exports = MockAgent
 
 /***/ }),
 
-/***/ 7413:
+/***/ 8687:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const { promisify } = __nccwpck_require__(3837)
-const Client = __nccwpck_require__(4238)
-const { buildMockDispatch } = __nccwpck_require__(3053)
+const Client = __nccwpck_require__(3598)
+const { buildMockDispatch } = __nccwpck_require__(9323)
 const {
   kDispatches,
   kMockAgent,
@@ -20688,10 +24670,10 @@ const {
   kOrigin,
   kOriginalDispatch,
   kConnected
-} = __nccwpck_require__(6923)
-const { MockInterceptor } = __nccwpck_require__(8153)
-const Symbols = __nccwpck_require__(599)
-const { InvalidArgumentError } = __nccwpck_require__(5051)
+} = __nccwpck_require__(4347)
+const { MockInterceptor } = __nccwpck_require__(410)
+const Symbols = __nccwpck_require__(2785)
+const { InvalidArgumentError } = __nccwpck_require__(8045)
 
 /**
  * MockClient provides an API that extends the Client to influence the mockDispatches.
@@ -20738,13 +24720,13 @@ module.exports = MockClient
 
 /***/ }),
 
-/***/ 5892:
+/***/ 888:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { UndiciError } = __nccwpck_require__(5051)
+const { UndiciError } = __nccwpck_require__(8045)
 
 class MockNotMatchedError extends UndiciError {
   constructor (message) {
@@ -20763,13 +24745,13 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8153:
+/***/ 410:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { getResponseData, buildKey, addMockDispatch } = __nccwpck_require__(3053)
+const { getResponseData, buildKey, addMockDispatch } = __nccwpck_require__(9323)
 const {
   kDispatches,
   kDispatchKey,
@@ -20777,9 +24759,9 @@ const {
   kDefaultTrailers,
   kContentLength,
   kMockDispatch
-} = __nccwpck_require__(6923)
-const { InvalidArgumentError } = __nccwpck_require__(5051)
-const { buildURL } = __nccwpck_require__(5127)
+} = __nccwpck_require__(4347)
+const { InvalidArgumentError } = __nccwpck_require__(8045)
+const { buildURL } = __nccwpck_require__(3983)
 
 /**
  * Defines the scope API for an interceptor reply
@@ -20977,15 +24959,15 @@ module.exports.MockScope = MockScope
 
 /***/ }),
 
-/***/ 3566:
+/***/ 6193:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const { promisify } = __nccwpck_require__(3837)
-const Pool = __nccwpck_require__(4889)
-const { buildMockDispatch } = __nccwpck_require__(3053)
+const Pool = __nccwpck_require__(4634)
+const { buildMockDispatch } = __nccwpck_require__(9323)
 const {
   kDispatches,
   kMockAgent,
@@ -20994,10 +24976,10 @@ const {
   kOrigin,
   kOriginalDispatch,
   kConnected
-} = __nccwpck_require__(6923)
-const { MockInterceptor } = __nccwpck_require__(8153)
-const Symbols = __nccwpck_require__(599)
-const { InvalidArgumentError } = __nccwpck_require__(5051)
+} = __nccwpck_require__(4347)
+const { MockInterceptor } = __nccwpck_require__(410)
+const Symbols = __nccwpck_require__(2785)
+const { InvalidArgumentError } = __nccwpck_require__(8045)
 
 /**
  * MockPool provides an API that extends the Pool to influence the mockDispatches.
@@ -21044,7 +25026,7 @@ module.exports = MockPool
 
 /***/ }),
 
-/***/ 6923:
+/***/ 4347:
 /***/ ((module) => {
 
 "use strict";
@@ -21075,21 +25057,21 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3053:
+/***/ 9323:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { MockNotMatchedError } = __nccwpck_require__(5892)
+const { MockNotMatchedError } = __nccwpck_require__(888)
 const {
   kDispatches,
   kMockAgent,
   kOriginalDispatch,
   kOrigin,
   kGetNetConnect
-} = __nccwpck_require__(6923)
-const { buildURL, nop } = __nccwpck_require__(5127)
+} = __nccwpck_require__(4347)
+const { buildURL, nop } = __nccwpck_require__(3983)
 const { STATUS_CODES } = __nccwpck_require__(3685)
 const {
   types: {
@@ -21434,7 +25416,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1550:
+/***/ 6823:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -21482,7 +25464,7 @@ module.exports = class PendingInterceptorsFormatter {
 
 /***/ }),
 
-/***/ 2925:
+/***/ 8891:
 /***/ ((module) => {
 
 "use strict";
@@ -21519,7 +25501,7 @@ module.exports = class Pluralizer {
 
 /***/ }),
 
-/***/ 8036:
+/***/ 8266:
 /***/ ((module) => {
 
 "use strict";
@@ -21644,16 +25626,16 @@ module.exports = class FixedQueue {
 
 /***/ }),
 
-/***/ 1497:
+/***/ 3198:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const DispatcherBase = __nccwpck_require__(9026)
-const FixedQueue = __nccwpck_require__(8036)
-const { kConnected, kSize, kRunning, kPending, kQueued, kBusy, kFree, kUrl, kClose, kDestroy, kDispatch } = __nccwpck_require__(599)
-const PoolStats = __nccwpck_require__(145)
+const DispatcherBase = __nccwpck_require__(4839)
+const FixedQueue = __nccwpck_require__(8266)
+const { kConnected, kSize, kRunning, kPending, kQueued, kBusy, kFree, kUrl, kClose, kDestroy, kDispatch } = __nccwpck_require__(2785)
+const PoolStats = __nccwpck_require__(9689)
 
 const kClients = Symbol('clients')
 const kNeedDrain = Symbol('needDrain')
@@ -21846,10 +25828,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ 145:
+/***/ 9689:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const { kFree, kConnected, kPending, kQueued, kRunning, kSize } = __nccwpck_require__(599)
+const { kFree, kConnected, kPending, kQueued, kRunning, kSize } = __nccwpck_require__(2785)
 const kPool = Symbol('pool')
 
 class PoolStats {
@@ -21887,7 +25869,7 @@ module.exports = PoolStats
 
 /***/ }),
 
-/***/ 4889:
+/***/ 4634:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -21899,14 +25881,14 @@ const {
   kNeedDrain,
   kAddClient,
   kGetDispatcher
-} = __nccwpck_require__(1497)
-const Client = __nccwpck_require__(4238)
+} = __nccwpck_require__(3198)
+const Client = __nccwpck_require__(3598)
 const {
   InvalidArgumentError
-} = __nccwpck_require__(5051)
-const util = __nccwpck_require__(5127)
-const { kUrl, kInterceptors } = __nccwpck_require__(599)
-const buildConnector = __nccwpck_require__(1474)
+} = __nccwpck_require__(8045)
+const util = __nccwpck_require__(3983)
+const { kUrl, kInterceptors } = __nccwpck_require__(2785)
+const buildConnector = __nccwpck_require__(2067)
 
 const kOptions = Symbol('options')
 const kConnections = Symbol('connections')
@@ -21989,19 +25971,19 @@ module.exports = Pool
 
 /***/ }),
 
-/***/ 9425:
+/***/ 7858:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kProxy, kClose, kDestroy, kInterceptors } = __nccwpck_require__(599)
+const { kProxy, kClose, kDestroy, kInterceptors } = __nccwpck_require__(2785)
 const { URL } = __nccwpck_require__(7310)
-const Agent = __nccwpck_require__(8326)
-const Pool = __nccwpck_require__(4889)
-const DispatcherBase = __nccwpck_require__(9026)
-const { InvalidArgumentError, RequestAbortedError } = __nccwpck_require__(5051)
-const buildConnector = __nccwpck_require__(1474)
+const Agent = __nccwpck_require__(7890)
+const Pool = __nccwpck_require__(4634)
+const DispatcherBase = __nccwpck_require__(4839)
+const { InvalidArgumentError, RequestAbortedError } = __nccwpck_require__(8045)
+const buildConnector = __nccwpck_require__(2067)
 
 const kAgent = Symbol('proxy agent')
 const kClient = Symbol('proxy client')
@@ -22186,7 +26168,7 @@ module.exports = ProxyAgent
 
 /***/ }),
 
-/***/ 5352:
+/***/ 9459:
 /***/ ((module) => {
 
 "use strict";
@@ -22291,27 +26273,27 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4089:
+/***/ 5354:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const diagnosticsChannel = __nccwpck_require__(7643)
-const { uid, states } = __nccwpck_require__(5384)
+const { uid, states } = __nccwpck_require__(9188)
 const {
   kReadyState,
   kSentClose,
   kByteParser,
   kReceivedClose
-} = __nccwpck_require__(371)
-const { fireEvent, failWebsocketConnection } = __nccwpck_require__(8954)
-const { CloseEvent } = __nccwpck_require__(4553)
-const { makeRequest } = __nccwpck_require__(4160)
-const { fetching } = __nccwpck_require__(9964)
-const { Headers } = __nccwpck_require__(4022)
-const { getGlobalDispatcher } = __nccwpck_require__(4567)
-const { kHeadersList } = __nccwpck_require__(599)
+} = __nccwpck_require__(7578)
+const { fireEvent, failWebsocketConnection } = __nccwpck_require__(5515)
+const { CloseEvent } = __nccwpck_require__(2611)
+const { makeRequest } = __nccwpck_require__(8359)
+const { fetching } = __nccwpck_require__(4881)
+const { Headers } = __nccwpck_require__(554)
+const { getGlobalDispatcher } = __nccwpck_require__(1892)
+const { kHeadersList } = __nccwpck_require__(2785)
 
 const channels = {}
 channels.open = diagnosticsChannel.channel('undici:websocket:open')
@@ -22590,7 +26572,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5384:
+/***/ 9188:
 /***/ ((module) => {
 
 "use strict";
@@ -22649,14 +26631,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4553:
+/***/ 2611:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { webidl } = __nccwpck_require__(6971)
-const { kEnumerableProperty } = __nccwpck_require__(5127)
+const { webidl } = __nccwpck_require__(1744)
+const { kEnumerableProperty } = __nccwpck_require__(3983)
 const { MessagePort } = __nccwpck_require__(1267)
 
 /**
@@ -22960,13 +26942,13 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1726:
+/***/ 5444:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { maxUnsigned16Bit } = __nccwpck_require__(5384)
+const { maxUnsigned16Bit } = __nccwpck_require__(9188)
 
 /** @type {import('crypto')} */
 let crypto
@@ -23041,7 +27023,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3672:
+/***/ 1688:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -23049,10 +27031,10 @@ module.exports = {
 
 const { Writable } = __nccwpck_require__(2781)
 const diagnosticsChannel = __nccwpck_require__(7643)
-const { parserStates, opcodes, states, emptyBuffer } = __nccwpck_require__(5384)
-const { kReadyState, kSentClose, kResponse, kReceivedClose } = __nccwpck_require__(371)
-const { isValidStatusCode, failWebsocketConnection, websocketMessageReceived } = __nccwpck_require__(8954)
-const { WebsocketFrameSend } = __nccwpck_require__(1726)
+const { parserStates, opcodes, states, emptyBuffer } = __nccwpck_require__(9188)
+const { kReadyState, kSentClose, kResponse, kReceivedClose } = __nccwpck_require__(7578)
+const { isValidStatusCode, failWebsocketConnection, websocketMessageReceived } = __nccwpck_require__(5515)
+const { WebsocketFrameSend } = __nccwpck_require__(5444)
 
 // This code was influenced by ws released under the MIT license.
 // Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
@@ -23393,7 +27375,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 371:
+/***/ 7578:
 /***/ ((module) => {
 
 "use strict";
@@ -23413,15 +27395,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8954:
+/***/ 5515:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kReadyState, kController, kResponse, kBinaryType, kWebSocketURL } = __nccwpck_require__(371)
-const { states, opcodes } = __nccwpck_require__(5384)
-const { MessageEvent, ErrorEvent } = __nccwpck_require__(4553)
+const { kReadyState, kController, kResponse, kBinaryType, kWebSocketURL } = __nccwpck_require__(7578)
+const { states, opcodes } = __nccwpck_require__(9188)
+const { MessageEvent, ErrorEvent } = __nccwpck_require__(2611)
 
 /* globals Blob */
 
@@ -23621,17 +27603,17 @@ module.exports = {
 
 /***/ }),
 
-/***/ 6571:
+/***/ 4284:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { webidl } = __nccwpck_require__(6971)
-const { DOMException } = __nccwpck_require__(2253)
-const { URLSerializer } = __nccwpck_require__(5313)
-const { getGlobalOrigin } = __nccwpck_require__(2543)
-const { staticPropertyDescriptors, states, opcodes, emptyBuffer } = __nccwpck_require__(5384)
+const { webidl } = __nccwpck_require__(1744)
+const { DOMException } = __nccwpck_require__(1037)
+const { URLSerializer } = __nccwpck_require__(685)
+const { getGlobalOrigin } = __nccwpck_require__(1246)
+const { staticPropertyDescriptors, states, opcodes, emptyBuffer } = __nccwpck_require__(9188)
 const {
   kWebSocketURL,
   kReadyState,
@@ -23640,13 +27622,13 @@ const {
   kResponse,
   kSentClose,
   kByteParser
-} = __nccwpck_require__(371)
-const { isEstablished, isClosing, isValidSubprotocol, failWebsocketConnection, fireEvent } = __nccwpck_require__(8954)
-const { establishWebSocketConnection } = __nccwpck_require__(4089)
-const { WebsocketFrameSend } = __nccwpck_require__(1726)
-const { ByteParser } = __nccwpck_require__(3672)
-const { kEnumerableProperty, isBlobLike } = __nccwpck_require__(5127)
-const { getGlobalDispatcher } = __nccwpck_require__(4567)
+} = __nccwpck_require__(7578)
+const { isEstablished, isClosing, isValidSubprotocol, failWebsocketConnection, fireEvent } = __nccwpck_require__(5515)
+const { establishWebSocketConnection } = __nccwpck_require__(5354)
+const { WebsocketFrameSend } = __nccwpck_require__(5444)
+const { ByteParser } = __nccwpck_require__(1688)
+const { kEnumerableProperty, isBlobLike } = __nccwpck_require__(3983)
+const { getGlobalDispatcher } = __nccwpck_require__(1892)
 const { types } = __nccwpck_require__(3837)
 
 let experimentalWarned = false
@@ -24270,7 +28252,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9694:
+/***/ 5840:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24334,29 +28316,29 @@ Object.defineProperty(exports, "parse", ({
   }
 }));
 
-var _v = _interopRequireDefault(__nccwpck_require__(128));
+var _v = _interopRequireDefault(__nccwpck_require__(8628));
 
-var _v2 = _interopRequireDefault(__nccwpck_require__(7011));
+var _v2 = _interopRequireDefault(__nccwpck_require__(6409));
 
-var _v3 = _interopRequireDefault(__nccwpck_require__(9365));
+var _v3 = _interopRequireDefault(__nccwpck_require__(5122));
 
-var _v4 = _interopRequireDefault(__nccwpck_require__(7237));
+var _v4 = _interopRequireDefault(__nccwpck_require__(9120));
 
-var _nil = _interopRequireDefault(__nccwpck_require__(9090));
+var _nil = _interopRequireDefault(__nccwpck_require__(5332));
 
-var _version = _interopRequireDefault(__nccwpck_require__(8989));
+var _version = _interopRequireDefault(__nccwpck_require__(1595));
 
-var _validate = _interopRequireDefault(__nccwpck_require__(5930));
+var _validate = _interopRequireDefault(__nccwpck_require__(6900));
 
-var _stringify = _interopRequireDefault(__nccwpck_require__(1442));
+var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
 
-var _parse = _interopRequireDefault(__nccwpck_require__(9129));
+var _parse = _interopRequireDefault(__nccwpck_require__(2746));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
 
-/***/ 3386:
+/***/ 4569:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24386,7 +28368,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 9090:
+/***/ 5332:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -24401,7 +28383,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 9129:
+/***/ 2746:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24412,7 +28394,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _validate = _interopRequireDefault(__nccwpck_require__(5930));
+var _validate = _interopRequireDefault(__nccwpck_require__(6900));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24453,7 +28435,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 5669:
+/***/ 814:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -24468,7 +28450,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 7507:
+/***/ 807:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24499,7 +28481,7 @@ function rng() {
 
 /***/ }),
 
-/***/ 6373:
+/***/ 5274:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24529,7 +28511,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 1442:
+/***/ 8950:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24540,7 +28522,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _validate = _interopRequireDefault(__nccwpck_require__(5930));
+var _validate = _interopRequireDefault(__nccwpck_require__(6900));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24575,7 +28557,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 128:
+/***/ 8628:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24586,9 +28568,9 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _rng = _interopRequireDefault(__nccwpck_require__(7507));
+var _rng = _interopRequireDefault(__nccwpck_require__(807));
 
-var _stringify = _interopRequireDefault(__nccwpck_require__(1442));
+var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24689,7 +28671,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 7011:
+/***/ 6409:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24700,9 +28682,9 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _v = _interopRequireDefault(__nccwpck_require__(4352));
+var _v = _interopRequireDefault(__nccwpck_require__(5998));
 
-var _md = _interopRequireDefault(__nccwpck_require__(3386));
+var _md = _interopRequireDefault(__nccwpck_require__(4569));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24712,7 +28694,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 4352:
+/***/ 5998:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24724,9 +28706,9 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = _default;
 exports.URL = exports.DNS = void 0;
 
-var _stringify = _interopRequireDefault(__nccwpck_require__(1442));
+var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
 
-var _parse = _interopRequireDefault(__nccwpck_require__(9129));
+var _parse = _interopRequireDefault(__nccwpck_require__(2746));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24797,7 +28779,7 @@ function _default(name, version, hashfunc) {
 
 /***/ }),
 
-/***/ 9365:
+/***/ 5122:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24808,9 +28790,9 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _rng = _interopRequireDefault(__nccwpck_require__(7507));
+var _rng = _interopRequireDefault(__nccwpck_require__(807));
 
-var _stringify = _interopRequireDefault(__nccwpck_require__(1442));
+var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24841,7 +28823,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 7237:
+/***/ 9120:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24852,9 +28834,9 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _v = _interopRequireDefault(__nccwpck_require__(4352));
+var _v = _interopRequireDefault(__nccwpck_require__(5998));
 
-var _sha = _interopRequireDefault(__nccwpck_require__(6373));
+var _sha = _interopRequireDefault(__nccwpck_require__(5274));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24864,7 +28846,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 5930:
+/***/ 6900:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24875,7 +28857,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _regex = _interopRequireDefault(__nccwpck_require__(5669));
+var _regex = _interopRequireDefault(__nccwpck_require__(814));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24888,7 +28870,7 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 8989:
+/***/ 1595:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24899,7 +28881,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _validate = _interopRequireDefault(__nccwpck_require__(5930));
+var _validate = _interopRequireDefault(__nccwpck_require__(6900));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24916,7 +28898,24 @@ exports["default"] = _default;
 
 /***/ }),
 
-/***/ 7277:
+/***/ 1324:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.run = void 0;
+const randomKieu_1 = __nccwpck_require__(8159);
+/** Get random quotes from The Tale of Kieu (nom version) */
+async function run() {
+    await (0, randomKieu_1.randomKieu)();
+}
+exports.run = run;
+
+
+/***/ }),
+
+/***/ 8159:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -24948,10 +28947,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.run = void 0;
-const promises_1 = __nccwpck_require__(3977);
+exports.randomKieu = void 0;
 const node_path_1 = __nccwpck_require__(9411);
-const core = __importStar(__nccwpck_require__(4016));
+const core = __importStar(__nccwpck_require__(2186));
+const sharp_1 = __importDefault(__nccwpck_require__(2204));
 const truyen_kieu_1871_json_1 = __importDefault(__nccwpck_require__(3651));
 // The patterns to set the random quotes from The Tale of Kieu
 const START_KIEU = '<!-- START_KIEU -->';
@@ -24978,14 +28977,14 @@ function getRandomQuotes() {
 async function updateFile(fileName, result) {
     try {
         const filePath = (0, node_path_1.resolve)(fileName);
-        const contents = await (0, promises_1.readFile)(filePath, { encoding: 'utf8' });
+        const contents = await Bun.file(filePath).text();
         const regex = new RegExp(`(${START_KIEU})[\\s\\S]*?(${END_KIEU})`, '');
         // Check if patterns exist to insert the quotes
         if (!regex.test(contents)) {
             core.info(`Please add comment blocks in ${fileName} to update and try again ⚠️`);
         }
         const newContents = contents.replace(regex, `$1${result}\n$2`);
-        await (0, promises_1.writeFile)(filePath, newContents);
+        await Bun.write(filePath, newContents);
         core.info(`Updated ${fileName} with random quotes from The Tale of Kieu ✅ 💖`);
     }
     catch (error) {
@@ -24996,7 +28995,7 @@ async function updateFile(fileName, result) {
     }
 }
 /** Get random quotes from The Tale of Kieu (nom version) */
-async function run() {
+async function randomKieu() {
     core.info('Updating with random quotes from The Tale of Kieu... 📁');
     const poem = getRandomQuotes();
     const result = String.raw `
@@ -25007,8 +29006,37 @@ async function run() {
       <p class="author"><i>(Dòng ${poem.line}-${poem.line + 1}) Truyện Kiều</i> -- Nguyễn Du</p>`;
     await updateFile('./README.md', result);
     await updateFile('./assets/random-kieu.svg', result);
+    // convert svg to webp
+    (0, sharp_1.default)('./assets/random-kieu.svg')
+        .toFile('./assets/random-kieu.webp')
+        .then((info) => core.info(info))
+        .catch((err) => console.error(err));
 }
-exports.run = run;
+exports.randomKieu = randomKieu;
+
+
+/***/ }),
+
+/***/ 6506:
+/***/ ((module) => {
+
+module.exports = eval("require")("@img/sharp-libvips-dev/cplusplus");
+
+
+/***/ }),
+
+/***/ 4535:
+/***/ ((module) => {
+
+module.exports = eval("require")("@img/sharp-libvips-dev/include");
+
+
+/***/ }),
+
+/***/ 996:
+/***/ ((module) => {
+
+module.exports = eval("require")("@img/sharp-wasm32/versions");
 
 
 /***/ }),
@@ -25037,6 +29065,14 @@ module.exports = require("buffer");
 
 /***/ }),
 
+/***/ 2081:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("child_process");
+
+/***/ }),
+
 /***/ 6206:
 /***/ ((module) => {
 
@@ -25061,7 +29097,7 @@ module.exports = require("diagnostics_channel");
 
 /***/ }),
 
-/***/ 9820:
+/***/ 2361:
 /***/ ((module) => {
 
 "use strict";
@@ -25109,6 +29145,22 @@ module.exports = require("net");
 
 /***/ }),
 
+/***/ 7718:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:child_process");
+
+/***/ }),
+
+/***/ 6005:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("node:crypto");
+
+/***/ }),
+
 /***/ 5673:
 /***/ ((module) => {
 
@@ -25117,11 +29169,11 @@ module.exports = require("node:events");
 
 /***/ }),
 
-/***/ 3977:
+/***/ 612:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("node:fs/promises");
+module.exports = require("node:os");
 
 /***/ }),
 
@@ -25253,7 +29305,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 9980:
+/***/ 2960:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -25262,10 +29314,10 @@ module.exports = require("zlib");
 const WritableStream = (__nccwpck_require__(4492).Writable)
 const inherits = (__nccwpck_require__(7261).inherits)
 
-const StreamSearch = __nccwpck_require__(5453)
+const StreamSearch = __nccwpck_require__(1142)
 
-const PartStream = __nccwpck_require__(7803)
-const HeaderParser = __nccwpck_require__(4756)
+const PartStream = __nccwpck_require__(1620)
+const HeaderParser = __nccwpck_require__(2032)
 
 const DASH = 45
 const B_ONEDASH = Buffer.from('-')
@@ -25474,7 +29526,7 @@ module.exports = Dicer
 
 /***/ }),
 
-/***/ 4756:
+/***/ 2032:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -25482,9 +29534,9 @@ module.exports = Dicer
 
 const EventEmitter = (__nccwpck_require__(5673).EventEmitter)
 const inherits = (__nccwpck_require__(7261).inherits)
-const getLimit = __nccwpck_require__(4605)
+const getLimit = __nccwpck_require__(1467)
 
-const StreamSearch = __nccwpck_require__(5453)
+const StreamSearch = __nccwpck_require__(1142)
 
 const B_DCRLF = Buffer.from('\r\n\r\n')
 const RE_CRLF = /\r\n/g
@@ -25582,7 +29634,7 @@ module.exports = HeaderParser
 
 /***/ }),
 
-/***/ 7803:
+/***/ 1620:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -25603,7 +29655,7 @@ module.exports = PartStream
 
 /***/ }),
 
-/***/ 5453:
+/***/ 1142:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -25839,7 +29891,7 @@ module.exports = SBMH
 
 /***/ }),
 
-/***/ 9203:
+/***/ 727:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -25847,11 +29899,11 @@ module.exports = SBMH
 
 const WritableStream = (__nccwpck_require__(4492).Writable)
 const { inherits } = __nccwpck_require__(7261)
-const Dicer = __nccwpck_require__(9980)
+const Dicer = __nccwpck_require__(2960)
 
-const MultipartParser = __nccwpck_require__(4686)
-const UrlencodedParser = __nccwpck_require__(1826)
-const parseParams = __nccwpck_require__(8511)
+const MultipartParser = __nccwpck_require__(2183)
+const UrlencodedParser = __nccwpck_require__(8306)
+const parseParams = __nccwpck_require__(1854)
 
 function Busboy (opts) {
   if (!(this instanceof Busboy)) { return new Busboy(opts) }
@@ -25932,7 +29984,7 @@ module.exports.Dicer = Dicer
 
 /***/ }),
 
-/***/ 4686:
+/***/ 2183:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -25948,12 +30000,12 @@ module.exports.Dicer = Dicer
 const { Readable } = __nccwpck_require__(4492)
 const { inherits } = __nccwpck_require__(7261)
 
-const Dicer = __nccwpck_require__(9980)
+const Dicer = __nccwpck_require__(2960)
 
-const parseParams = __nccwpck_require__(8511)
-const decodeText = __nccwpck_require__(4475)
-const basename = __nccwpck_require__(2585)
-const getLimit = __nccwpck_require__(4605)
+const parseParams = __nccwpck_require__(1854)
+const decodeText = __nccwpck_require__(4619)
+const basename = __nccwpck_require__(8647)
+const getLimit = __nccwpck_require__(1467)
 
 const RE_BOUNDARY = /^boundary$/i
 const RE_FIELD = /^form-data$/i
@@ -26246,15 +30298,15 @@ module.exports = Multipart
 
 /***/ }),
 
-/***/ 1826:
+/***/ 8306:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Decoder = __nccwpck_require__(1920)
-const decodeText = __nccwpck_require__(4475)
-const getLimit = __nccwpck_require__(4605)
+const Decoder = __nccwpck_require__(7100)
+const decodeText = __nccwpck_require__(4619)
+const getLimit = __nccwpck_require__(1467)
 
 const RE_CHARSET = /^charset$/i
 
@@ -26444,7 +30496,7 @@ module.exports = UrlEncoded
 
 /***/ }),
 
-/***/ 1920:
+/***/ 7100:
 /***/ ((module) => {
 
 "use strict";
@@ -26506,7 +30558,7 @@ module.exports = Decoder
 
 /***/ }),
 
-/***/ 2585:
+/***/ 8647:
 /***/ ((module) => {
 
 "use strict";
@@ -26528,7 +30580,7 @@ module.exports = function basename (path) {
 
 /***/ }),
 
-/***/ 4475:
+/***/ 4619:
 /***/ (function(module) {
 
 "use strict";
@@ -26650,7 +30702,7 @@ module.exports = decodeText
 
 /***/ }),
 
-/***/ 4605:
+/***/ 1467:
 /***/ ((module) => {
 
 "use strict";
@@ -26674,14 +30726,14 @@ module.exports = function getLimit (limits, name, defaultLimit) {
 
 /***/ }),
 
-/***/ 8511:
+/***/ 1854:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 /* eslint-disable object-property-newline */
 
 
-const decodeText = __nccwpck_require__(4475)
+const decodeText = __nccwpck_require__(4619)
 
 const RE_ENCODED = /%[a-fA-F0-9][a-fA-F0-9]/g
 
@@ -26878,11 +30930,5677 @@ module.exports = parseParams
 
 /***/ }),
 
+/***/ 9978:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const is = __nccwpck_require__(6818);
+
+/**
+ * Boolean operations for bandbool.
+ * @private
+ */
+const bool = {
+  and: 'and',
+  or: 'or',
+  eor: 'eor'
+};
+
+/**
+ * Remove alpha channel, if any. This is a no-op if the image does not have an alpha channel.
+ *
+ * See also {@link /api-operation#flatten|flatten}.
+ *
+ * @example
+ * sharp('rgba.png')
+ *   .removeAlpha()
+ *   .toFile('rgb.png', function(err, info) {
+ *     // rgb.png is a 3 channel image without an alpha channel
+ *   });
+ *
+ * @returns {Sharp}
+ */
+function removeAlpha () {
+  this.options.removeAlpha = true;
+  return this;
+}
+
+/**
+ * Ensure the output image has an alpha transparency channel.
+ * If missing, the added alpha channel will have the specified
+ * transparency level, defaulting to fully-opaque (1).
+ * This is a no-op if the image already has an alpha channel.
+ *
+ * @since 0.21.2
+ *
+ * @example
+ * // rgba.png will be a 4 channel image with a fully-opaque alpha channel
+ * await sharp('rgb.jpg')
+ *   .ensureAlpha()
+ *   .toFile('rgba.png')
+ *
+ * @example
+ * // rgba is a 4 channel image with a fully-transparent alpha channel
+ * const rgba = await sharp(rgb)
+ *   .ensureAlpha(0)
+ *   .toBuffer();
+ *
+ * @param {number} [alpha=1] - alpha transparency level (0=fully-transparent, 1=fully-opaque)
+ * @returns {Sharp}
+ * @throws {Error} Invalid alpha transparency level
+ */
+function ensureAlpha (alpha) {
+  if (is.defined(alpha)) {
+    if (is.number(alpha) && is.inRange(alpha, 0, 1)) {
+      this.options.ensureAlpha = alpha;
+    } else {
+      throw is.invalidParameterError('alpha', 'number between 0 and 1', alpha);
+    }
+  } else {
+    this.options.ensureAlpha = 1;
+  }
+  return this;
+}
+
+/**
+ * Extract a single channel from a multi-channel image.
+ *
+ * @example
+ * // green.jpg is a greyscale image containing the green channel of the input
+ * await sharp(input)
+ *   .extractChannel('green')
+ *   .toFile('green.jpg');
+ *
+ * @example
+ * // red1 is the red value of the first pixel, red2 the second pixel etc.
+ * const [red1, red2, ...] = await sharp(input)
+ *   .extractChannel(0)
+ *   .raw()
+ *   .toBuffer();
+ *
+ * @param {number|string} channel - zero-indexed channel/band number to extract, or `red`, `green`, `blue` or `alpha`.
+ * @returns {Sharp}
+ * @throws {Error} Invalid channel
+ */
+function extractChannel (channel) {
+  const channelMap = { red: 0, green: 1, blue: 2, alpha: 3 };
+  if (Object.keys(channelMap).includes(channel)) {
+    channel = channelMap[channel];
+  }
+  if (is.integer(channel) && is.inRange(channel, 0, 4)) {
+    this.options.extractChannel = channel;
+  } else {
+    throw is.invalidParameterError('channel', 'integer or one of: red, green, blue, alpha', channel);
+  }
+  return this;
+}
+
+/**
+ * Join one or more channels to the image.
+ * The meaning of the added channels depends on the output colourspace, set with `toColourspace()`.
+ * By default the output image will be web-friendly sRGB, with additional channels interpreted as alpha channels.
+ * Channel ordering follows vips convention:
+ * - sRGB: 0: Red, 1: Green, 2: Blue, 3: Alpha.
+ * - CMYK: 0: Magenta, 1: Cyan, 2: Yellow, 3: Black, 4: Alpha.
+ *
+ * Buffers may be any of the image formats supported by sharp.
+ * For raw pixel input, the `options` object should contain a `raw` attribute, which follows the format of the attribute of the same name in the `sharp()` constructor.
+ *
+ * @param {Array<string|Buffer>|string|Buffer} images - one or more images (file paths, Buffers).
+ * @param {Object} options - image options, see `sharp()` constructor.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function joinChannel (images, options) {
+  if (Array.isArray(images)) {
+    images.forEach(function (image) {
+      this.options.joinChannelIn.push(this._createInputDescriptor(image, options));
+    }, this);
+  } else {
+    this.options.joinChannelIn.push(this._createInputDescriptor(images, options));
+  }
+  return this;
+}
+
+/**
+ * Perform a bitwise boolean operation on all input image channels (bands) to produce a single channel output image.
+ *
+ * @example
+ * sharp('3-channel-rgb-input.png')
+ *   .bandbool(sharp.bool.and)
+ *   .toFile('1-channel-output.png', function (err, info) {
+ *     // The output will be a single channel image where each pixel `P = R & G & B`.
+ *     // If `I(1,1) = [247, 170, 14] = [0b11110111, 0b10101010, 0b00001111]`
+ *     // then `O(1,1) = 0b11110111 & 0b10101010 & 0b00001111 = 0b00000010 = 2`.
+ *   });
+ *
+ * @param {string} boolOp - one of `and`, `or` or `eor` to perform that bitwise operation, like the C logic operators `&`, `|` and `^` respectively.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function bandbool (boolOp) {
+  if (is.string(boolOp) && is.inArray(boolOp, ['and', 'or', 'eor'])) {
+    this.options.bandBoolOp = boolOp;
+  } else {
+    throw is.invalidParameterError('boolOp', 'one of: and, or, eor', boolOp);
+  }
+  return this;
+}
+
+/**
+ * Decorate the Sharp prototype with channel-related functions.
+ * @private
+ */
+module.exports = function (Sharp) {
+  Object.assign(Sharp.prototype, {
+    // Public instance functions
+    removeAlpha,
+    ensureAlpha,
+    extractChannel,
+    joinChannel,
+    bandbool
+  });
+  // Class attributes
+  Sharp.bool = bool;
+};
+
+
+/***/ }),
+
+/***/ 2388:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const color = __nccwpck_require__(7177);
+const is = __nccwpck_require__(6818);
+
+/**
+ * Colourspaces.
+ * @private
+ */
+const colourspace = {
+  multiband: 'multiband',
+  'b-w': 'b-w',
+  bw: 'b-w',
+  cmyk: 'cmyk',
+  srgb: 'srgb'
+};
+
+/**
+ * Tint the image using the provided colour.
+ * An alpha channel may be present and will be unchanged by the operation.
+ *
+ * @example
+ * const output = await sharp(input)
+ *   .tint({ r: 255, g: 240, b: 16 })
+ *   .toBuffer();
+ *
+ * @param {string|Object} tint - Parsed by the [color](https://www.npmjs.org/package/color) module.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameter
+ */
+function tint (tint) {
+  this._setBackgroundColourOption('tint', tint);
+  return this;
+}
+
+/**
+ * Convert to 8-bit greyscale; 256 shades of grey.
+ * This is a linear operation. If the input image is in a non-linear colour space such as sRGB, use `gamma()` with `greyscale()` for the best results.
+ * By default the output image will be web-friendly sRGB and contain three (identical) color channels.
+ * This may be overridden by other sharp operations such as `toColourspace('b-w')`,
+ * which will produce an output image containing one color channel.
+ * An alpha channel may be present, and will be unchanged by the operation.
+ *
+ * @example
+ * const output = await sharp(input).greyscale().toBuffer();
+ *
+ * @param {Boolean} [greyscale=true]
+ * @returns {Sharp}
+ */
+function greyscale (greyscale) {
+  this.options.greyscale = is.bool(greyscale) ? greyscale : true;
+  return this;
+}
+
+/**
+ * Alternative spelling of `greyscale`.
+ * @param {Boolean} [grayscale=true]
+ * @returns {Sharp}
+ */
+function grayscale (grayscale) {
+  return this.greyscale(grayscale);
+}
+
+/**
+ * Set the pipeline colourspace.
+ *
+ * The input image will be converted to the provided colourspace at the start of the pipeline.
+ * All operations will use this colourspace before converting to the output colourspace,
+ * as defined by {@link #tocolourspace|toColourspace}.
+ *
+ * @since 0.29.0
+ *
+ * @example
+ * // Run pipeline in 16 bits per channel RGB while converting final result to 8 bits per channel sRGB.
+ * await sharp(input)
+ *  .pipelineColourspace('rgb16')
+ *  .toColourspace('srgb')
+ *  .toFile('16bpc-pipeline-to-8bpc-output.png')
+ *
+ * @param {string} [colourspace] - pipeline colourspace e.g. `rgb16`, `scrgb`, `lab`, `grey16` [...](https://github.com/libvips/libvips/blob/41cff4e9d0838498487a00623462204eb10ee5b8/libvips/iofuncs/enumtypes.c#L774)
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function pipelineColourspace (colourspace) {
+  if (!is.string(colourspace)) {
+    throw is.invalidParameterError('colourspace', 'string', colourspace);
+  }
+  this.options.colourspacePipeline = colourspace;
+  return this;
+}
+
+/**
+ * Alternative spelling of `pipelineColourspace`.
+ * @param {string} [colorspace] - pipeline colorspace.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function pipelineColorspace (colorspace) {
+  return this.pipelineColourspace(colorspace);
+}
+
+/**
+ * Set the output colourspace.
+ * By default output image will be web-friendly sRGB, with additional channels interpreted as alpha channels.
+ *
+ * @example
+ * // Output 16 bits per pixel RGB
+ * await sharp(input)
+ *  .toColourspace('rgb16')
+ *  .toFile('16-bpp.png')
+ *
+ * @param {string} [colourspace] - output colourspace e.g. `srgb`, `rgb`, `cmyk`, `lab`, `b-w` [...](https://github.com/libvips/libvips/blob/3c0bfdf74ce1dc37a6429bed47fa76f16e2cd70a/libvips/iofuncs/enumtypes.c#L777-L794)
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function toColourspace (colourspace) {
+  if (!is.string(colourspace)) {
+    throw is.invalidParameterError('colourspace', 'string', colourspace);
+  }
+  this.options.colourspace = colourspace;
+  return this;
+}
+
+/**
+ * Alternative spelling of `toColourspace`.
+ * @param {string} [colorspace] - output colorspace.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function toColorspace (colorspace) {
+  return this.toColourspace(colorspace);
+}
+
+/**
+ * Update a colour attribute of the this.options Object.
+ * @private
+ * @param {string} key
+ * @param {string|Object} value
+ * @throws {Error} Invalid value
+ */
+function _setBackgroundColourOption (key, value) {
+  if (is.defined(value)) {
+    if (is.object(value) || is.string(value)) {
+      const colour = color(value);
+      this.options[key] = [
+        colour.red(),
+        colour.green(),
+        colour.blue(),
+        Math.round(colour.alpha() * 255)
+      ];
+    } else {
+      throw is.invalidParameterError('background', 'object or string', value);
+    }
+  }
+}
+
+/**
+ * Decorate the Sharp prototype with colour-related functions.
+ * @private
+ */
+module.exports = function (Sharp) {
+  Object.assign(Sharp.prototype, {
+    // Public
+    tint,
+    greyscale,
+    grayscale,
+    pipelineColourspace,
+    pipelineColorspace,
+    toColourspace,
+    toColorspace,
+    // Private
+    _setBackgroundColourOption
+  });
+  // Class attributes
+  Sharp.colourspace = colourspace;
+  Sharp.colorspace = colourspace;
+};
+
+
+/***/ }),
+
+/***/ 9906:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const is = __nccwpck_require__(6818);
+
+/**
+ * Blend modes.
+ * @member
+ * @private
+ */
+const blend = {
+  clear: 'clear',
+  source: 'source',
+  over: 'over',
+  in: 'in',
+  out: 'out',
+  atop: 'atop',
+  dest: 'dest',
+  'dest-over': 'dest-over',
+  'dest-in': 'dest-in',
+  'dest-out': 'dest-out',
+  'dest-atop': 'dest-atop',
+  xor: 'xor',
+  add: 'add',
+  saturate: 'saturate',
+  multiply: 'multiply',
+  screen: 'screen',
+  overlay: 'overlay',
+  darken: 'darken',
+  lighten: 'lighten',
+  'colour-dodge': 'colour-dodge',
+  'color-dodge': 'colour-dodge',
+  'colour-burn': 'colour-burn',
+  'color-burn': 'colour-burn',
+  'hard-light': 'hard-light',
+  'soft-light': 'soft-light',
+  difference: 'difference',
+  exclusion: 'exclusion'
+};
+
+/**
+ * Composite image(s) over the processed (resized, extracted etc.) image.
+ *
+ * The images to composite must be the same size or smaller than the processed image.
+ * If both `top` and `left` options are provided, they take precedence over `gravity`.
+ *
+ * Any resize, rotate or extract operations in the same processing pipeline
+ * will always be applied to the input image before composition.
+ *
+ * The `blend` option can be one of `clear`, `source`, `over`, `in`, `out`, `atop`,
+ * `dest`, `dest-over`, `dest-in`, `dest-out`, `dest-atop`,
+ * `xor`, `add`, `saturate`, `multiply`, `screen`, `overlay`, `darken`, `lighten`,
+ * `colour-dodge`, `color-dodge`, `colour-burn`,`color-burn`,
+ * `hard-light`, `soft-light`, `difference`, `exclusion`.
+ *
+ * More information about blend modes can be found at
+ * https://www.libvips.org/API/current/libvips-conversion.html#VipsBlendMode
+ * and https://www.cairographics.org/operators/
+ *
+ * @since 0.22.0
+ *
+ * @example
+ * await sharp(background)
+ *   .composite([
+ *     { input: layer1, gravity: 'northwest' },
+ *     { input: layer2, gravity: 'southeast' },
+ *   ])
+ *   .toFile('combined.png');
+ *
+ * @example
+ * const output = await sharp('input.gif', { animated: true })
+ *   .composite([
+ *     { input: 'overlay.png', tile: true, blend: 'saturate' }
+ *   ])
+ *   .toBuffer();
+ *
+ * @example
+ * sharp('input.png')
+ *   .rotate(180)
+ *   .resize(300)
+ *   .flatten( { background: '#ff6600' } )
+ *   .composite([{ input: 'overlay.png', gravity: 'southeast' }])
+ *   .sharpen()
+ *   .withMetadata()
+ *   .webp( { quality: 90 } )
+ *   .toBuffer()
+ *   .then(function(outputBuffer) {
+ *     // outputBuffer contains upside down, 300px wide, alpha channel flattened
+ *     // onto orange background, composited with overlay.png with SE gravity,
+ *     // sharpened, with metadata, 90% quality WebP image data. Phew!
+ *   });
+ *
+ * @param {Object[]} images - Ordered list of images to composite
+ * @param {Buffer|String} [images[].input] - Buffer containing image data, String containing the path to an image file, or Create object (see below)
+ * @param {Object} [images[].input.create] - describes a blank overlay to be created.
+ * @param {Number} [images[].input.create.width]
+ * @param {Number} [images[].input.create.height]
+ * @param {Number} [images[].input.create.channels] - 3-4
+ * @param {String|Object} [images[].input.create.background] - parsed by the [color](https://www.npmjs.org/package/color) module to extract values for red, green, blue and alpha.
+ * @param {Object} [images[].input.text] - describes a new text image to be created.
+ * @param {string} [images[].input.text.text] - text to render as a UTF-8 string. It can contain Pango markup, for example `<i>Le</i>Monde`.
+ * @param {string} [images[].input.text.font] - font name to render with.
+ * @param {string} [images[].input.text.fontfile] - absolute filesystem path to a font file that can be used by `font`.
+ * @param {number} [images[].input.text.width=0] - integral number of pixels to word-wrap at. Lines of text wider than this will be broken at word boundaries.
+ * @param {number} [images[].input.text.height=0] - integral number of pixels high. When defined, `dpi` will be ignored and the text will automatically fit the pixel resolution defined by `width` and `height`. Will be ignored if `width` is not specified or set to 0.
+ * @param {string} [images[].input.text.align='left'] - text alignment (`'left'`, `'centre'`, `'center'`, `'right'`).
+ * @param {boolean} [images[].input.text.justify=false] - set this to true to apply justification to the text.
+ * @param {number} [images[].input.text.dpi=72] - the resolution (size) at which to render the text. Does not take effect if `height` is specified.
+ * @param {boolean} [images[].input.text.rgba=false] - set this to true to enable RGBA output. This is useful for colour emoji rendering, or support for Pango markup features like `<span foreground="red">Red!</span>`.
+ * @param {number} [images[].input.text.spacing=0] - text line height in points. Will use the font line height if none is specified.
+ * @param {String} [images[].blend='over'] - how to blend this image with the image below.
+ * @param {String} [images[].gravity='centre'] - gravity at which to place the overlay.
+ * @param {Number} [images[].top] - the pixel offset from the top edge.
+ * @param {Number} [images[].left] - the pixel offset from the left edge.
+ * @param {Boolean} [images[].tile=false] - set to true to repeat the overlay image across the entire image with the given `gravity`.
+ * @param {Boolean} [images[].premultiplied=false] - set to true to avoid premultiplying the image below. Equivalent to the `--premultiplied` vips option.
+ * @param {Number} [images[].density=72] - number representing the DPI for vector overlay image.
+ * @param {Object} [images[].raw] - describes overlay when using raw pixel data.
+ * @param {Number} [images[].raw.width]
+ * @param {Number} [images[].raw.height]
+ * @param {Number} [images[].raw.channels]
+ * @param {boolean} [images[].animated=false] - Set to `true` to read all frames/pages of an animated image.
+ * @param {string} [images[].failOn='warning'] - @see {@link /api-constructor#parameters|constructor parameters}
+ * @param {number|boolean} [images[].limitInputPixels=268402689] - @see {@link /api-constructor#parameters|constructor parameters}
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function composite (images) {
+  if (!Array.isArray(images)) {
+    throw is.invalidParameterError('images to composite', 'array', images);
+  }
+  this.options.composite = images.map(image => {
+    if (!is.object(image)) {
+      throw is.invalidParameterError('image to composite', 'object', image);
+    }
+    const inputOptions = this._inputOptionsFromObject(image);
+    const composite = {
+      input: this._createInputDescriptor(image.input, inputOptions, { allowStream: false }),
+      blend: 'over',
+      tile: false,
+      left: 0,
+      top: 0,
+      hasOffset: false,
+      gravity: 0,
+      premultiplied: false
+    };
+    if (is.defined(image.blend)) {
+      if (is.string(blend[image.blend])) {
+        composite.blend = blend[image.blend];
+      } else {
+        throw is.invalidParameterError('blend', 'valid blend name', image.blend);
+      }
+    }
+    if (is.defined(image.tile)) {
+      if (is.bool(image.tile)) {
+        composite.tile = image.tile;
+      } else {
+        throw is.invalidParameterError('tile', 'boolean', image.tile);
+      }
+    }
+    if (is.defined(image.left)) {
+      if (is.integer(image.left)) {
+        composite.left = image.left;
+      } else {
+        throw is.invalidParameterError('left', 'integer', image.left);
+      }
+    }
+    if (is.defined(image.top)) {
+      if (is.integer(image.top)) {
+        composite.top = image.top;
+      } else {
+        throw is.invalidParameterError('top', 'integer', image.top);
+      }
+    }
+    if (is.defined(image.top) !== is.defined(image.left)) {
+      throw new Error('Expected both left and top to be set');
+    } else {
+      composite.hasOffset = is.integer(image.top) && is.integer(image.left);
+    }
+    if (is.defined(image.gravity)) {
+      if (is.integer(image.gravity) && is.inRange(image.gravity, 0, 8)) {
+        composite.gravity = image.gravity;
+      } else if (is.string(image.gravity) && is.integer(this.constructor.gravity[image.gravity])) {
+        composite.gravity = this.constructor.gravity[image.gravity];
+      } else {
+        throw is.invalidParameterError('gravity', 'valid gravity', image.gravity);
+      }
+    }
+    if (is.defined(image.premultiplied)) {
+      if (is.bool(image.premultiplied)) {
+        composite.premultiplied = image.premultiplied;
+      } else {
+        throw is.invalidParameterError('premultiplied', 'boolean', image.premultiplied);
+      }
+    }
+    return composite;
+  });
+  return this;
+}
+
+/**
+ * Decorate the Sharp prototype with composite-related functions.
+ * @private
+ */
+module.exports = function (Sharp) {
+  Sharp.prototype.composite = composite;
+  Sharp.blend = blend;
+};
+
+
+/***/ }),
+
+/***/ 1839:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const util = __nccwpck_require__(7261);
+const stream = __nccwpck_require__(4492);
+const is = __nccwpck_require__(6818);
+
+__nccwpck_require__(4899);
+
+// Use NODE_DEBUG=sharp to enable libvips warnings
+const debuglog = util.debuglog('sharp');
+
+/**
+ * Constructor factory to create an instance of `sharp`, to which further methods are chained.
+ *
+ * JPEG, PNG, WebP, GIF, AVIF or TIFF format image data can be streamed out from this object.
+ * When using Stream based output, derived attributes are available from the `info` event.
+ *
+ * Non-critical problems encountered during processing are emitted as `warning` events.
+ *
+ * Implements the [stream.Duplex](http://nodejs.org/api/stream.html#stream_class_stream_duplex) class.
+ *
+ * When loading more than one page/frame of an animated image,
+ * these are combined as a vertically-stacked "toilet roll" image
+ * where the overall height is the `pageHeight` multiplied by the number of `pages`.
+ *
+ * @constructs Sharp
+ *
+ * @emits Sharp#info
+ * @emits Sharp#warning
+ *
+ * @example
+ * sharp('input.jpg')
+ *   .resize(300, 200)
+ *   .toFile('output.jpg', function(err) {
+ *     // output.jpg is a 300 pixels wide and 200 pixels high image
+ *     // containing a scaled and cropped version of input.jpg
+ *   });
+ *
+ * @example
+ * // Read image data from remote URL,
+ * // resize to 300 pixels wide,
+ * // emit an 'info' event with calculated dimensions
+ * // and finally write image data to writableStream
+ * const { body } = fetch('https://...');
+ * const readableStream = Readable.fromWeb(body);
+ * const transformer = sharp()
+ *   .resize(300)
+ *   .on('info', ({ height }) => {
+ *     console.log(`Image height is ${height}`);
+ *   });
+ * readableStream.pipe(transformer).pipe(writableStream);
+ *
+ * @example
+ * // Create a blank 300x200 PNG image of semi-translucent red pixels
+ * sharp({
+ *   create: {
+ *     width: 300,
+ *     height: 200,
+ *     channels: 4,
+ *     background: { r: 255, g: 0, b: 0, alpha: 0.5 }
+ *   }
+ * })
+ * .png()
+ * .toBuffer()
+ * .then( ... );
+ *
+ * @example
+ * // Convert an animated GIF to an animated WebP
+ * await sharp('in.gif', { animated: true }).toFile('out.webp');
+ *
+ * @example
+ * // Read a raw array of pixels and save it to a png
+ * const input = Uint8Array.from([255, 255, 255, 0, 0, 0]); // or Uint8ClampedArray
+ * const image = sharp(input, {
+ *   // because the input does not contain its dimensions or how many channels it has
+ *   // we need to specify it in the constructor options
+ *   raw: {
+ *     width: 2,
+ *     height: 1,
+ *     channels: 3
+ *   }
+ * });
+ * await image.toFile('my-two-pixels.png');
+ *
+ * @example
+ * // Generate RGB Gaussian noise
+ * await sharp({
+ *   create: {
+ *     width: 300,
+ *     height: 200,
+ *     channels: 3,
+ *     noise: {
+ *       type: 'gaussian',
+ *       mean: 128,
+ *       sigma: 30
+ *     }
+ *  }
+ * }).toFile('noise.png');
+ *
+ * @example
+ * // Generate an image from text
+ * await sharp({
+ *   text: {
+ *     text: 'Hello, world!',
+ *     width: 400, // max width
+ *     height: 300 // max height
+ *   }
+ * }).toFile('text_bw.png');
+ *
+ * @example
+ * // Generate an rgba image from text using pango markup and font
+ * await sharp({
+ *   text: {
+ *     text: '<span foreground="red">Red!</span><span background="cyan">blue</span>',
+ *     font: 'sans',
+ *     rgba: true,
+ *     dpi: 300
+ *   }
+ * }).toFile('text_rgba.png');
+ *
+ * @param {(Buffer|ArrayBuffer|Uint8Array|Uint8ClampedArray|Int8Array|Uint16Array|Int16Array|Uint32Array|Int32Array|Float32Array|Float64Array|string)} [input] - if present, can be
+ *  a Buffer / ArrayBuffer / Uint8Array / Uint8ClampedArray containing JPEG, PNG, WebP, AVIF, GIF, SVG or TIFF image data, or
+ *  a TypedArray containing raw pixel image data, or
+ *  a String containing the filesystem path to an JPEG, PNG, WebP, AVIF, GIF, SVG or TIFF image file.
+ *  JPEG, PNG, WebP, AVIF, GIF, SVG, TIFF or raw pixel image data can be streamed into the object when not present.
+ * @param {Object} [options] - if present, is an Object with optional attributes.
+ * @param {string} [options.failOn='warning'] - When to abort processing of invalid pixel data, one of (in order of sensitivity, least to most): 'none', 'truncated', 'error', 'warning'. Higher levels imply lower levels. Invalid metadata will always abort.
+ * @param {number|boolean} [options.limitInputPixels=268402689] - Do not process input images where the number of pixels
+ *  (width x height) exceeds this limit. Assumes image dimensions contained in the input metadata can be trusted.
+ *  An integral Number of pixels, zero or false to remove limit, true to use default limit of 268402689 (0x3FFF x 0x3FFF).
+ * @param {boolean} [options.unlimited=false] - Set this to `true` to remove safety features that help prevent memory exhaustion (JPEG, PNG, SVG, HEIF).
+ * @param {boolean} [options.sequentialRead=true] - Set this to `false` to use random access rather than sequential read. Some operations will do this automatically.
+ * @param {number} [options.density=72] - number representing the DPI for vector images in the range 1 to 100000.
+ * @param {number} [options.ignoreIcc=false] - should the embedded ICC profile, if any, be ignored.
+ * @param {number} [options.pages=1] - Number of pages to extract for multi-page input (GIF, WebP, TIFF), use -1 for all pages.
+ * @param {number} [options.page=0] - Page number to start extracting from for multi-page input (GIF, WebP, TIFF), zero based.
+ * @param {number} [options.subifd=-1] - subIFD (Sub Image File Directory) to extract for OME-TIFF, defaults to main image.
+ * @param {number} [options.level=0] - level to extract from a multi-level input (OpenSlide), zero based.
+ * @param {boolean} [options.animated=false] - Set to `true` to read all frames/pages of an animated image (GIF, WebP, TIFF), equivalent of setting `pages` to `-1`.
+ * @param {Object} [options.raw] - describes raw pixel input image data. See `raw()` for pixel ordering.
+ * @param {number} [options.raw.width] - integral number of pixels wide.
+ * @param {number} [options.raw.height] - integral number of pixels high.
+ * @param {number} [options.raw.channels] - integral number of channels, between 1 and 4.
+ * @param {boolean} [options.raw.premultiplied] - specifies that the raw input has already been premultiplied, set to `true`
+ *  to avoid sharp premultiplying the image. (optional, default `false`)
+ * @param {Object} [options.create] - describes a new image to be created.
+ * @param {number} [options.create.width] - integral number of pixels wide.
+ * @param {number} [options.create.height] - integral number of pixels high.
+ * @param {number} [options.create.channels] - integral number of channels, either 3 (RGB) or 4 (RGBA).
+ * @param {string|Object} [options.create.background] - parsed by the [color](https://www.npmjs.org/package/color) module to extract values for red, green, blue and alpha.
+ * @param {Object} [options.create.noise] - describes a noise to be created.
+ * @param {string} [options.create.noise.type] - type of generated noise, currently only `gaussian` is supported.
+ * @param {number} [options.create.noise.mean] - mean of pixels in generated noise.
+ * @param {number} [options.create.noise.sigma] - standard deviation of pixels in generated noise.
+ * @param {Object} [options.text] - describes a new text image to be created.
+ * @param {string} [options.text.text] - text to render as a UTF-8 string. It can contain Pango markup, for example `<i>Le</i>Monde`.
+ * @param {string} [options.text.font] - font name to render with.
+ * @param {string} [options.text.fontfile] - absolute filesystem path to a font file that can be used by `font`.
+ * @param {number} [options.text.width=0] - Integral number of pixels to word-wrap at. Lines of text wider than this will be broken at word boundaries.
+ * @param {number} [options.text.height=0] - Maximum integral number of pixels high. When defined, `dpi` will be ignored and the text will automatically fit the pixel resolution defined by `width` and `height`. Will be ignored if `width` is not specified or set to 0.
+ * @param {string} [options.text.align='left'] - Alignment style for multi-line text (`'left'`, `'centre'`, `'center'`, `'right'`).
+ * @param {boolean} [options.text.justify=false] - set this to true to apply justification to the text.
+ * @param {number} [options.text.dpi=72] - the resolution (size) at which to render the text. Does not take effect if `height` is specified.
+ * @param {boolean} [options.text.rgba=false] - set this to true to enable RGBA output. This is useful for colour emoji rendering, or support for pango markup features like `<span foreground="red">Red!</span>`.
+ * @param {number} [options.text.spacing=0] - text line height in points. Will use the font line height if none is specified.
+ * @param {string} [options.text.wrap='word'] - word wrapping style when width is provided, one of: 'word', 'char', 'word-char' (prefer word, fallback to char) or 'none'.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+const Sharp = function (input, options) {
+  if (arguments.length === 1 && !is.defined(input)) {
+    throw new Error('Invalid input');
+  }
+  if (!(this instanceof Sharp)) {
+    return new Sharp(input, options);
+  }
+  stream.Duplex.call(this);
+  this.options = {
+    // resize options
+    topOffsetPre: -1,
+    leftOffsetPre: -1,
+    widthPre: -1,
+    heightPre: -1,
+    topOffsetPost: -1,
+    leftOffsetPost: -1,
+    widthPost: -1,
+    heightPost: -1,
+    width: -1,
+    height: -1,
+    canvas: 'crop',
+    position: 0,
+    resizeBackground: [0, 0, 0, 255],
+    useExifOrientation: false,
+    angle: 0,
+    rotationAngle: 0,
+    rotationBackground: [0, 0, 0, 255],
+    rotateBeforePreExtract: false,
+    flip: false,
+    flop: false,
+    extendTop: 0,
+    extendBottom: 0,
+    extendLeft: 0,
+    extendRight: 0,
+    extendBackground: [0, 0, 0, 255],
+    extendWith: 'background',
+    withoutEnlargement: false,
+    withoutReduction: false,
+    affineMatrix: [],
+    affineBackground: [0, 0, 0, 255],
+    affineIdx: 0,
+    affineIdy: 0,
+    affineOdx: 0,
+    affineOdy: 0,
+    affineInterpolator: this.constructor.interpolators.bilinear,
+    kernel: 'lanczos3',
+    fastShrinkOnLoad: true,
+    // operations
+    tint: [-1, 0, 0, 0],
+    flatten: false,
+    flattenBackground: [0, 0, 0],
+    unflatten: false,
+    negate: false,
+    negateAlpha: true,
+    medianSize: 0,
+    blurSigma: 0,
+    sharpenSigma: 0,
+    sharpenM1: 1,
+    sharpenM2: 2,
+    sharpenX1: 2,
+    sharpenY2: 10,
+    sharpenY3: 20,
+    threshold: 0,
+    thresholdGrayscale: true,
+    trimBackground: [],
+    trimThreshold: -1,
+    trimLineArt: false,
+    gamma: 0,
+    gammaOut: 0,
+    greyscale: false,
+    normalise: false,
+    normaliseLower: 1,
+    normaliseUpper: 99,
+    claheWidth: 0,
+    claheHeight: 0,
+    claheMaxSlope: 3,
+    brightness: 1,
+    saturation: 1,
+    hue: 0,
+    lightness: 0,
+    booleanBufferIn: null,
+    booleanFileIn: '',
+    joinChannelIn: [],
+    extractChannel: -1,
+    removeAlpha: false,
+    ensureAlpha: -1,
+    colourspace: 'srgb',
+    colourspacePipeline: 'last',
+    composite: [],
+    // output
+    fileOut: '',
+    formatOut: 'input',
+    streamOut: false,
+    keepMetadata: 0,
+    withMetadataOrientation: -1,
+    withMetadataDensity: 0,
+    withIccProfile: '',
+    withExif: {},
+    withExifMerge: true,
+    resolveWithObject: false,
+    // output format
+    jpegQuality: 80,
+    jpegProgressive: false,
+    jpegChromaSubsampling: '4:2:0',
+    jpegTrellisQuantisation: false,
+    jpegOvershootDeringing: false,
+    jpegOptimiseScans: false,
+    jpegOptimiseCoding: true,
+    jpegQuantisationTable: 0,
+    pngProgressive: false,
+    pngCompressionLevel: 6,
+    pngAdaptiveFiltering: false,
+    pngPalette: false,
+    pngQuality: 100,
+    pngEffort: 7,
+    pngBitdepth: 8,
+    pngDither: 1,
+    jp2Quality: 80,
+    jp2TileHeight: 512,
+    jp2TileWidth: 512,
+    jp2Lossless: false,
+    jp2ChromaSubsampling: '4:4:4',
+    webpQuality: 80,
+    webpAlphaQuality: 100,
+    webpLossless: false,
+    webpNearLossless: false,
+    webpSmartSubsample: false,
+    webpPreset: 'default',
+    webpEffort: 4,
+    webpMinSize: false,
+    webpMixed: false,
+    gifBitdepth: 8,
+    gifEffort: 7,
+    gifDither: 1,
+    gifInterFrameMaxError: 0,
+    gifInterPaletteMaxError: 3,
+    gifReuse: true,
+    gifProgressive: false,
+    tiffQuality: 80,
+    tiffCompression: 'jpeg',
+    tiffPredictor: 'horizontal',
+    tiffPyramid: false,
+    tiffMiniswhite: false,
+    tiffBitdepth: 8,
+    tiffTile: false,
+    tiffTileHeight: 256,
+    tiffTileWidth: 256,
+    tiffXres: 1.0,
+    tiffYres: 1.0,
+    tiffResolutionUnit: 'inch',
+    heifQuality: 50,
+    heifLossless: false,
+    heifCompression: 'av1',
+    heifEffort: 4,
+    heifChromaSubsampling: '4:4:4',
+    heifBitdepth: 8,
+    jxlDistance: 1,
+    jxlDecodingTier: 0,
+    jxlEffort: 7,
+    jxlLossless: false,
+    rawDepth: 'uchar',
+    tileSize: 256,
+    tileOverlap: 0,
+    tileContainer: 'fs',
+    tileLayout: 'dz',
+    tileFormat: 'last',
+    tileDepth: 'last',
+    tileAngle: 0,
+    tileSkipBlanks: -1,
+    tileBackground: [255, 255, 255, 255],
+    tileCentre: false,
+    tileId: 'https://example.com/iiif',
+    tileBasename: '',
+    timeoutSeconds: 0,
+    linearA: [],
+    linearB: [],
+    // Function to notify of libvips warnings
+    debuglog: warning => {
+      this.emit('warning', warning);
+      debuglog(warning);
+    },
+    // Function to notify of queue length changes
+    queueListener: function (queueLength) {
+      Sharp.queue.emit('change', queueLength);
+    }
+  };
+  this.options.input = this._createInputDescriptor(input, options, { allowStream: true });
+  return this;
+};
+Object.setPrototypeOf(Sharp.prototype, stream.Duplex.prototype);
+Object.setPrototypeOf(Sharp, stream.Duplex);
+
+/**
+ * Take a "snapshot" of the Sharp instance, returning a new instance.
+ * Cloned instances inherit the input of their parent instance.
+ * This allows multiple output Streams and therefore multiple processing pipelines to share a single input Stream.
+ *
+ * @example
+ * const pipeline = sharp().rotate();
+ * pipeline.clone().resize(800, 600).pipe(firstWritableStream);
+ * pipeline.clone().extract({ left: 20, top: 20, width: 100, height: 100 }).pipe(secondWritableStream);
+ * readableStream.pipe(pipeline);
+ * // firstWritableStream receives auto-rotated, resized readableStream
+ * // secondWritableStream receives auto-rotated, extracted region of readableStream
+ *
+ * @example
+ * // Create a pipeline that will download an image, resize it and format it to different files
+ * // Using Promises to know when the pipeline is complete
+ * const fs = require("fs");
+ * const got = require("got");
+ * const sharpStream = sharp({ failOn: 'none' });
+ *
+ * const promises = [];
+ *
+ * promises.push(
+ *   sharpStream
+ *     .clone()
+ *     .jpeg({ quality: 100 })
+ *     .toFile("originalFile.jpg")
+ * );
+ *
+ * promises.push(
+ *   sharpStream
+ *     .clone()
+ *     .resize({ width: 500 })
+ *     .jpeg({ quality: 80 })
+ *     .toFile("optimized-500.jpg")
+ * );
+ *
+ * promises.push(
+ *   sharpStream
+ *     .clone()
+ *     .resize({ width: 500 })
+ *     .webp({ quality: 80 })
+ *     .toFile("optimized-500.webp")
+ * );
+ *
+ * // https://github.com/sindresorhus/got/blob/main/documentation/3-streams.md
+ * got.stream("https://www.example.com/some-file.jpg").pipe(sharpStream);
+ *
+ * Promise.all(promises)
+ *   .then(res => { console.log("Done!", res); })
+ *   .catch(err => {
+ *     console.error("Error processing files, let's clean it up", err);
+ *     try {
+ *       fs.unlinkSync("originalFile.jpg");
+ *       fs.unlinkSync("optimized-500.jpg");
+ *       fs.unlinkSync("optimized-500.webp");
+ *     } catch (e) {}
+ *   });
+ *
+ * @returns {Sharp}
+ */
+function clone () {
+  // Clone existing options
+  const clone = this.constructor.call();
+  const { debuglog, queueListener, ...options } = this.options;
+  clone.options = structuredClone(options);
+  clone.options.debuglog = debuglog;
+  clone.options.queueListener = queueListener;
+  // Pass 'finish' event to clone for Stream-based input
+  if (this._isStreamInput()) {
+    this.on('finish', () => {
+      // Clone inherits input data
+      this._flattenBufferIn();
+      clone.options.input.buffer = this.options.input.buffer;
+      clone.emit('finish');
+    });
+  }
+  return clone;
+}
+Object.assign(Sharp.prototype, { clone });
+
+/**
+ * Export constructor.
+ * @private
+ */
+module.exports = Sharp;
+
+
+/***/ }),
+
+/***/ 2204:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const Sharp = __nccwpck_require__(1839);
+__nccwpck_require__(2698)(Sharp);
+__nccwpck_require__(6253)(Sharp);
+__nccwpck_require__(9906)(Sharp);
+__nccwpck_require__(4903)(Sharp);
+__nccwpck_require__(2388)(Sharp);
+__nccwpck_require__(9978)(Sharp);
+__nccwpck_require__(1533)(Sharp);
+__nccwpck_require__(5988)(Sharp);
+
+module.exports = Sharp;
+
+
+/***/ }),
+
+/***/ 2698:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const color = __nccwpck_require__(7177);
+const is = __nccwpck_require__(6818);
+const sharp = __nccwpck_require__(4899);
+
+/**
+ * Justication alignment
+ * @member
+ * @private
+ */
+const align = {
+  left: 'low',
+  center: 'centre',
+  centre: 'centre',
+  right: 'high'
+};
+
+/**
+ * Extract input options, if any, from an object.
+ * @private
+ */
+function _inputOptionsFromObject (obj) {
+  const { raw, density, limitInputPixels, ignoreIcc, unlimited, sequentialRead, failOn, failOnError, animated, page, pages, subifd } = obj;
+  return [raw, density, limitInputPixels, ignoreIcc, unlimited, sequentialRead, failOn, failOnError, animated, page, pages, subifd].some(is.defined)
+    ? { raw, density, limitInputPixels, ignoreIcc, unlimited, sequentialRead, failOn, failOnError, animated, page, pages, subifd }
+    : undefined;
+}
+
+/**
+ * Create Object containing input and input-related options.
+ * @private
+ */
+function _createInputDescriptor (input, inputOptions, containerOptions) {
+  const inputDescriptor = {
+    failOn: 'warning',
+    limitInputPixels: Math.pow(0x3FFF, 2),
+    ignoreIcc: false,
+    unlimited: false,
+    sequentialRead: true
+  };
+  if (is.string(input)) {
+    // filesystem
+    inputDescriptor.file = input;
+  } else if (is.buffer(input)) {
+    // Buffer
+    if (input.length === 0) {
+      throw Error('Input Buffer is empty');
+    }
+    inputDescriptor.buffer = input;
+  } else if (is.arrayBuffer(input)) {
+    if (input.byteLength === 0) {
+      throw Error('Input bit Array is empty');
+    }
+    inputDescriptor.buffer = Buffer.from(input, 0, input.byteLength);
+  } else if (is.typedArray(input)) {
+    if (input.length === 0) {
+      throw Error('Input Bit Array is empty');
+    }
+    inputDescriptor.buffer = Buffer.from(input.buffer, input.byteOffset, input.byteLength);
+  } else if (is.plainObject(input) && !is.defined(inputOptions)) {
+    // Plain Object descriptor, e.g. create
+    inputOptions = input;
+    if (_inputOptionsFromObject(inputOptions)) {
+      // Stream with options
+      inputDescriptor.buffer = [];
+    }
+  } else if (!is.defined(input) && !is.defined(inputOptions) && is.object(containerOptions) && containerOptions.allowStream) {
+    // Stream without options
+    inputDescriptor.buffer = [];
+  } else {
+    throw new Error(`Unsupported input '${input}' of type ${typeof input}${
+      is.defined(inputOptions) ? ` when also providing options of type ${typeof inputOptions}` : ''
+    }`);
+  }
+  if (is.object(inputOptions)) {
+    // Deprecated: failOnError
+    if (is.defined(inputOptions.failOnError)) {
+      if (is.bool(inputOptions.failOnError)) {
+        inputDescriptor.failOn = inputOptions.failOnError ? 'warning' : 'none';
+      } else {
+        throw is.invalidParameterError('failOnError', 'boolean', inputOptions.failOnError);
+      }
+    }
+    // failOn
+    if (is.defined(inputOptions.failOn)) {
+      if (is.string(inputOptions.failOn) && is.inArray(inputOptions.failOn, ['none', 'truncated', 'error', 'warning'])) {
+        inputDescriptor.failOn = inputOptions.failOn;
+      } else {
+        throw is.invalidParameterError('failOn', 'one of: none, truncated, error, warning', inputOptions.failOn);
+      }
+    }
+    // Density
+    if (is.defined(inputOptions.density)) {
+      if (is.inRange(inputOptions.density, 1, 100000)) {
+        inputDescriptor.density = inputOptions.density;
+      } else {
+        throw is.invalidParameterError('density', 'number between 1 and 100000', inputOptions.density);
+      }
+    }
+    // Ignore embeddded ICC profile
+    if (is.defined(inputOptions.ignoreIcc)) {
+      if (is.bool(inputOptions.ignoreIcc)) {
+        inputDescriptor.ignoreIcc = inputOptions.ignoreIcc;
+      } else {
+        throw is.invalidParameterError('ignoreIcc', 'boolean', inputOptions.ignoreIcc);
+      }
+    }
+    // limitInputPixels
+    if (is.defined(inputOptions.limitInputPixels)) {
+      if (is.bool(inputOptions.limitInputPixels)) {
+        inputDescriptor.limitInputPixels = inputOptions.limitInputPixels
+          ? Math.pow(0x3FFF, 2)
+          : 0;
+      } else if (is.integer(inputOptions.limitInputPixels) && is.inRange(inputOptions.limitInputPixels, 0, Number.MAX_SAFE_INTEGER)) {
+        inputDescriptor.limitInputPixels = inputOptions.limitInputPixels;
+      } else {
+        throw is.invalidParameterError('limitInputPixels', 'positive integer', inputOptions.limitInputPixels);
+      }
+    }
+    // unlimited
+    if (is.defined(inputOptions.unlimited)) {
+      if (is.bool(inputOptions.unlimited)) {
+        inputDescriptor.unlimited = inputOptions.unlimited;
+      } else {
+        throw is.invalidParameterError('unlimited', 'boolean', inputOptions.unlimited);
+      }
+    }
+    // sequentialRead
+    if (is.defined(inputOptions.sequentialRead)) {
+      if (is.bool(inputOptions.sequentialRead)) {
+        inputDescriptor.sequentialRead = inputOptions.sequentialRead;
+      } else {
+        throw is.invalidParameterError('sequentialRead', 'boolean', inputOptions.sequentialRead);
+      }
+    }
+    // Raw pixel input
+    if (is.defined(inputOptions.raw)) {
+      if (
+        is.object(inputOptions.raw) &&
+        is.integer(inputOptions.raw.width) && inputOptions.raw.width > 0 &&
+        is.integer(inputOptions.raw.height) && inputOptions.raw.height > 0 &&
+        is.integer(inputOptions.raw.channels) && is.inRange(inputOptions.raw.channels, 1, 4)
+      ) {
+        inputDescriptor.rawWidth = inputOptions.raw.width;
+        inputDescriptor.rawHeight = inputOptions.raw.height;
+        inputDescriptor.rawChannels = inputOptions.raw.channels;
+        inputDescriptor.rawPremultiplied = !!inputOptions.raw.premultiplied;
+
+        switch (input.constructor) {
+          case Uint8Array:
+          case Uint8ClampedArray:
+            inputDescriptor.rawDepth = 'uchar';
+            break;
+          case Int8Array:
+            inputDescriptor.rawDepth = 'char';
+            break;
+          case Uint16Array:
+            inputDescriptor.rawDepth = 'ushort';
+            break;
+          case Int16Array:
+            inputDescriptor.rawDepth = 'short';
+            break;
+          case Uint32Array:
+            inputDescriptor.rawDepth = 'uint';
+            break;
+          case Int32Array:
+            inputDescriptor.rawDepth = 'int';
+            break;
+          case Float32Array:
+            inputDescriptor.rawDepth = 'float';
+            break;
+          case Float64Array:
+            inputDescriptor.rawDepth = 'double';
+            break;
+          default:
+            inputDescriptor.rawDepth = 'uchar';
+            break;
+        }
+      } else {
+        throw new Error('Expected width, height and channels for raw pixel input');
+      }
+    }
+    // Multi-page input (GIF, TIFF, PDF)
+    if (is.defined(inputOptions.animated)) {
+      if (is.bool(inputOptions.animated)) {
+        inputDescriptor.pages = inputOptions.animated ? -1 : 1;
+      } else {
+        throw is.invalidParameterError('animated', 'boolean', inputOptions.animated);
+      }
+    }
+    if (is.defined(inputOptions.pages)) {
+      if (is.integer(inputOptions.pages) && is.inRange(inputOptions.pages, -1, 100000)) {
+        inputDescriptor.pages = inputOptions.pages;
+      } else {
+        throw is.invalidParameterError('pages', 'integer between -1 and 100000', inputOptions.pages);
+      }
+    }
+    if (is.defined(inputOptions.page)) {
+      if (is.integer(inputOptions.page) && is.inRange(inputOptions.page, 0, 100000)) {
+        inputDescriptor.page = inputOptions.page;
+      } else {
+        throw is.invalidParameterError('page', 'integer between 0 and 100000', inputOptions.page);
+      }
+    }
+    // Multi-level input (OpenSlide)
+    if (is.defined(inputOptions.level)) {
+      if (is.integer(inputOptions.level) && is.inRange(inputOptions.level, 0, 256)) {
+        inputDescriptor.level = inputOptions.level;
+      } else {
+        throw is.invalidParameterError('level', 'integer between 0 and 256', inputOptions.level);
+      }
+    }
+    // Sub Image File Directory (TIFF)
+    if (is.defined(inputOptions.subifd)) {
+      if (is.integer(inputOptions.subifd) && is.inRange(inputOptions.subifd, -1, 100000)) {
+        inputDescriptor.subifd = inputOptions.subifd;
+      } else {
+        throw is.invalidParameterError('subifd', 'integer between -1 and 100000', inputOptions.subifd);
+      }
+    }
+    // Create new image
+    if (is.defined(inputOptions.create)) {
+      if (
+        is.object(inputOptions.create) &&
+        is.integer(inputOptions.create.width) && inputOptions.create.width > 0 &&
+        is.integer(inputOptions.create.height) && inputOptions.create.height > 0 &&
+        is.integer(inputOptions.create.channels)
+      ) {
+        inputDescriptor.createWidth = inputOptions.create.width;
+        inputDescriptor.createHeight = inputOptions.create.height;
+        inputDescriptor.createChannels = inputOptions.create.channels;
+        // Noise
+        if (is.defined(inputOptions.create.noise)) {
+          if (!is.object(inputOptions.create.noise)) {
+            throw new Error('Expected noise to be an object');
+          }
+          if (!is.inArray(inputOptions.create.noise.type, ['gaussian'])) {
+            throw new Error('Only gaussian noise is supported at the moment');
+          }
+          if (!is.inRange(inputOptions.create.channels, 1, 4)) {
+            throw is.invalidParameterError('create.channels', 'number between 1 and 4', inputOptions.create.channels);
+          }
+          inputDescriptor.createNoiseType = inputOptions.create.noise.type;
+          if (is.number(inputOptions.create.noise.mean) && is.inRange(inputOptions.create.noise.mean, 0, 10000)) {
+            inputDescriptor.createNoiseMean = inputOptions.create.noise.mean;
+          } else {
+            throw is.invalidParameterError('create.noise.mean', 'number between 0 and 10000', inputOptions.create.noise.mean);
+          }
+          if (is.number(inputOptions.create.noise.sigma) && is.inRange(inputOptions.create.noise.sigma, 0, 10000)) {
+            inputDescriptor.createNoiseSigma = inputOptions.create.noise.sigma;
+          } else {
+            throw is.invalidParameterError('create.noise.sigma', 'number between 0 and 10000', inputOptions.create.noise.sigma);
+          }
+        } else if (is.defined(inputOptions.create.background)) {
+          if (!is.inRange(inputOptions.create.channels, 3, 4)) {
+            throw is.invalidParameterError('create.channels', 'number between 3 and 4', inputOptions.create.channels);
+          }
+          const background = color(inputOptions.create.background);
+          inputDescriptor.createBackground = [
+            background.red(),
+            background.green(),
+            background.blue(),
+            Math.round(background.alpha() * 255)
+          ];
+        } else {
+          throw new Error('Expected valid noise or background to create a new input image');
+        }
+        delete inputDescriptor.buffer;
+      } else {
+        throw new Error('Expected valid width, height and channels to create a new input image');
+      }
+    }
+    // Create a new image with text
+    if (is.defined(inputOptions.text)) {
+      if (is.object(inputOptions.text) && is.string(inputOptions.text.text)) {
+        inputDescriptor.textValue = inputOptions.text.text;
+        if (is.defined(inputOptions.text.height) && is.defined(inputOptions.text.dpi)) {
+          throw new Error('Expected only one of dpi or height');
+        }
+        if (is.defined(inputOptions.text.font)) {
+          if (is.string(inputOptions.text.font)) {
+            inputDescriptor.textFont = inputOptions.text.font;
+          } else {
+            throw is.invalidParameterError('text.font', 'string', inputOptions.text.font);
+          }
+        }
+        if (is.defined(inputOptions.text.fontfile)) {
+          if (is.string(inputOptions.text.fontfile)) {
+            inputDescriptor.textFontfile = inputOptions.text.fontfile;
+          } else {
+            throw is.invalidParameterError('text.fontfile', 'string', inputOptions.text.fontfile);
+          }
+        }
+        if (is.defined(inputOptions.text.width)) {
+          if (is.integer(inputOptions.text.width) && inputOptions.text.width > 0) {
+            inputDescriptor.textWidth = inputOptions.text.width;
+          } else {
+            throw is.invalidParameterError('text.width', 'positive integer', inputOptions.text.width);
+          }
+        }
+        if (is.defined(inputOptions.text.height)) {
+          if (is.integer(inputOptions.text.height) && inputOptions.text.height > 0) {
+            inputDescriptor.textHeight = inputOptions.text.height;
+          } else {
+            throw is.invalidParameterError('text.height', 'positive integer', inputOptions.text.height);
+          }
+        }
+        if (is.defined(inputOptions.text.align)) {
+          if (is.string(inputOptions.text.align) && is.string(this.constructor.align[inputOptions.text.align])) {
+            inputDescriptor.textAlign = this.constructor.align[inputOptions.text.align];
+          } else {
+            throw is.invalidParameterError('text.align', 'valid alignment', inputOptions.text.align);
+          }
+        }
+        if (is.defined(inputOptions.text.justify)) {
+          if (is.bool(inputOptions.text.justify)) {
+            inputDescriptor.textJustify = inputOptions.text.justify;
+          } else {
+            throw is.invalidParameterError('text.justify', 'boolean', inputOptions.text.justify);
+          }
+        }
+        if (is.defined(inputOptions.text.dpi)) {
+          if (is.integer(inputOptions.text.dpi) && is.inRange(inputOptions.text.dpi, 1, 1000000)) {
+            inputDescriptor.textDpi = inputOptions.text.dpi;
+          } else {
+            throw is.invalidParameterError('text.dpi', 'integer between 1 and 1000000', inputOptions.text.dpi);
+          }
+        }
+        if (is.defined(inputOptions.text.rgba)) {
+          if (is.bool(inputOptions.text.rgba)) {
+            inputDescriptor.textRgba = inputOptions.text.rgba;
+          } else {
+            throw is.invalidParameterError('text.rgba', 'bool', inputOptions.text.rgba);
+          }
+        }
+        if (is.defined(inputOptions.text.spacing)) {
+          if (is.integer(inputOptions.text.spacing) && is.inRange(inputOptions.text.spacing, -1000000, 1000000)) {
+            inputDescriptor.textSpacing = inputOptions.text.spacing;
+          } else {
+            throw is.invalidParameterError('text.spacing', 'integer between -1000000 and 1000000', inputOptions.text.spacing);
+          }
+        }
+        if (is.defined(inputOptions.text.wrap)) {
+          if (is.string(inputOptions.text.wrap) && is.inArray(inputOptions.text.wrap, ['word', 'char', 'word-char', 'none'])) {
+            inputDescriptor.textWrap = inputOptions.text.wrap;
+          } else {
+            throw is.invalidParameterError('text.wrap', 'one of: word, char, word-char, none', inputOptions.text.wrap);
+          }
+        }
+        delete inputDescriptor.buffer;
+      } else {
+        throw new Error('Expected a valid string to create an image with text.');
+      }
+    }
+  } else if (is.defined(inputOptions)) {
+    throw new Error('Invalid input options ' + inputOptions);
+  }
+  return inputDescriptor;
+}
+
+/**
+ * Handle incoming Buffer chunk on Writable Stream.
+ * @private
+ * @param {Buffer} chunk
+ * @param {string} encoding - unused
+ * @param {Function} callback
+ */
+function _write (chunk, encoding, callback) {
+  /* istanbul ignore else */
+  if (Array.isArray(this.options.input.buffer)) {
+    /* istanbul ignore else */
+    if (is.buffer(chunk)) {
+      if (this.options.input.buffer.length === 0) {
+        this.on('finish', () => {
+          this.streamInFinished = true;
+        });
+      }
+      this.options.input.buffer.push(chunk);
+      callback();
+    } else {
+      callback(new Error('Non-Buffer data on Writable Stream'));
+    }
+  } else {
+    callback(new Error('Unexpected data on Writable Stream'));
+  }
+}
+
+/**
+ * Flattens the array of chunks accumulated in input.buffer.
+ * @private
+ */
+function _flattenBufferIn () {
+  if (this._isStreamInput()) {
+    this.options.input.buffer = Buffer.concat(this.options.input.buffer);
+  }
+}
+
+/**
+ * Are we expecting Stream-based input?
+ * @private
+ * @returns {boolean}
+ */
+function _isStreamInput () {
+  return Array.isArray(this.options.input.buffer);
+}
+
+/**
+ * Fast access to (uncached) image metadata without decoding any compressed pixel data.
+ *
+ * This is read from the header of the input image.
+ * It does not take into consideration any operations to be applied to the output image,
+ * such as resize or rotate.
+ *
+ * Dimensions in the response will respect the `page` and `pages` properties of the
+ * {@link /api-constructor#parameters|constructor parameters}.
+ *
+ * A `Promise` is returned when `callback` is not provided.
+ *
+ * - `format`: Name of decoder used to decompress image data e.g. `jpeg`, `png`, `webp`, `gif`, `svg`
+ * - `size`: Total size of image in bytes, for Stream and Buffer input only
+ * - `width`: Number of pixels wide (EXIF orientation is not taken into consideration, see example below)
+ * - `height`: Number of pixels high (EXIF orientation is not taken into consideration, see example below)
+ * - `space`: Name of colour space interpretation e.g. `srgb`, `rgb`, `cmyk`, `lab`, `b-w` [...](https://www.libvips.org/API/current/VipsImage.html#VipsInterpretation)
+ * - `channels`: Number of bands e.g. `3` for sRGB, `4` for CMYK
+ * - `depth`: Name of pixel depth format e.g. `uchar`, `char`, `ushort`, `float` [...](https://www.libvips.org/API/current/VipsImage.html#VipsBandFormat)
+ * - `density`: Number of pixels per inch (DPI), if present
+ * - `chromaSubsampling`: String containing JPEG chroma subsampling, `4:2:0` or `4:4:4` for RGB, `4:2:0:4` or `4:4:4:4` for CMYK
+ * - `isProgressive`: Boolean indicating whether the image is interlaced using a progressive scan
+ * - `pages`: Number of pages/frames contained within the image, with support for TIFF, HEIF, PDF, animated GIF and animated WebP
+ * - `pageHeight`: Number of pixels high each page in a multi-page image will be.
+ * - `paletteBitDepth`: Bit depth of palette-based image (GIF, PNG).
+ * - `loop`: Number of times to loop an animated image, zero refers to a continuous loop.
+ * - `delay`: Delay in ms between each page in an animated image, provided as an array of integers.
+ * - `pagePrimary`: Number of the primary page in a HEIF image
+ * - `levels`: Details of each level in a multi-level image provided as an array of objects, requires libvips compiled with support for OpenSlide
+ * - `subifds`: Number of Sub Image File Directories in an OME-TIFF image
+ * - `background`: Default background colour, if present, for PNG (bKGD) and GIF images, either an RGB Object or a single greyscale value
+ * - `compression`: The encoder used to compress an HEIF file, `av1` (AVIF) or `hevc` (HEIC)
+ * - `resolutionUnit`: The unit of resolution (density), either `inch` or `cm`, if present
+ * - `hasProfile`: Boolean indicating the presence of an embedded ICC profile
+ * - `hasAlpha`: Boolean indicating the presence of an alpha transparency channel
+ * - `orientation`: Number value of the EXIF Orientation header, if present
+ * - `exif`: Buffer containing raw EXIF data, if present
+ * - `icc`: Buffer containing raw [ICC](https://www.npmjs.com/package/icc) profile data, if present
+ * - `iptc`: Buffer containing raw IPTC data, if present
+ * - `xmp`: Buffer containing raw XMP data, if present
+ * - `tifftagPhotoshop`: Buffer containing raw TIFFTAG_PHOTOSHOP data, if present
+ * - `formatMagick`: String containing format for images loaded via *magick
+ *
+ * @example
+ * const metadata = await sharp(input).metadata();
+ *
+ * @example
+ * const image = sharp(inputJpg);
+ * image
+ *   .metadata()
+ *   .then(function(metadata) {
+ *     return image
+ *       .resize(Math.round(metadata.width / 2))
+ *       .webp()
+ *       .toBuffer();
+ *   })
+ *   .then(function(data) {
+ *     // data contains a WebP image half the width and height of the original JPEG
+ *   });
+ *
+ * @example
+ * // Based on EXIF rotation metadata, get the right-side-up width and height:
+ *
+ * const size = getNormalSize(await sharp(input).metadata());
+ *
+ * function getNormalSize({ width, height, orientation }) {
+ *   return (orientation || 0) >= 5
+ *     ? { width: height, height: width }
+ *     : { width, height };
+ * }
+ *
+ * @param {Function} [callback] - called with the arguments `(err, metadata)`
+ * @returns {Promise<Object>|Sharp}
+ */
+function metadata (callback) {
+  const stack = Error();
+  if (is.fn(callback)) {
+    if (this._isStreamInput()) {
+      this.on('finish', () => {
+        this._flattenBufferIn();
+        sharp.metadata(this.options, (err, metadata) => {
+          if (err) {
+            callback(is.nativeError(err, stack));
+          } else {
+            callback(null, metadata);
+          }
+        });
+      });
+    } else {
+      sharp.metadata(this.options, (err, metadata) => {
+        if (err) {
+          callback(is.nativeError(err, stack));
+        } else {
+          callback(null, metadata);
+        }
+      });
+    }
+    return this;
+  } else {
+    if (this._isStreamInput()) {
+      return new Promise((resolve, reject) => {
+        const finished = () => {
+          this._flattenBufferIn();
+          sharp.metadata(this.options, (err, metadata) => {
+            if (err) {
+              reject(is.nativeError(err, stack));
+            } else {
+              resolve(metadata);
+            }
+          });
+        };
+        if (this.writableFinished) {
+          finished();
+        } else {
+          this.once('finish', finished);
+        }
+      });
+    } else {
+      return new Promise((resolve, reject) => {
+        sharp.metadata(this.options, (err, metadata) => {
+          if (err) {
+            reject(is.nativeError(err, stack));
+          } else {
+            resolve(metadata);
+          }
+        });
+      });
+    }
+  }
+}
+
+/**
+ * Access to pixel-derived image statistics for every channel in the image.
+ * A `Promise` is returned when `callback` is not provided.
+ *
+ * - `channels`: Array of channel statistics for each channel in the image. Each channel statistic contains
+ *     - `min` (minimum value in the channel)
+ *     - `max` (maximum value in the channel)
+ *     - `sum` (sum of all values in a channel)
+ *     - `squaresSum` (sum of squared values in a channel)
+ *     - `mean` (mean of the values in a channel)
+ *     - `stdev` (standard deviation for the values in a channel)
+ *     - `minX` (x-coordinate of one of the pixel where the minimum lies)
+ *     - `minY` (y-coordinate of one of the pixel where the minimum lies)
+ *     - `maxX` (x-coordinate of one of the pixel where the maximum lies)
+ *     - `maxY` (y-coordinate of one of the pixel where the maximum lies)
+ * - `isOpaque`: Is the image fully opaque? Will be `true` if the image has no alpha channel or if every pixel is fully opaque.
+ * - `entropy`: Histogram-based estimation of greyscale entropy, discarding alpha channel if any.
+ * - `sharpness`: Estimation of greyscale sharpness based on the standard deviation of a Laplacian convolution, discarding alpha channel if any.
+ * - `dominant`: Object containing most dominant sRGB colour based on a 4096-bin 3D histogram.
+ *
+ * **Note**: Statistics are derived from the original input image. Any operations performed on the image must first be
+ * written to a buffer in order to run `stats` on the result (see third example).
+ *
+ * @example
+ * const image = sharp(inputJpg);
+ * image
+ *   .stats()
+ *   .then(function(stats) {
+ *      // stats contains the channel-wise statistics array and the isOpaque value
+ *   });
+ *
+ * @example
+ * const { entropy, sharpness, dominant } = await sharp(input).stats();
+ * const { r, g, b } = dominant;
+ *
+ * @example
+ * const image = sharp(input);
+ * // store intermediate result
+ * const part = await image.extract(region).toBuffer();
+ * // create new instance to obtain statistics of extracted region
+ * const stats = await sharp(part).stats();
+ *
+ * @param {Function} [callback] - called with the arguments `(err, stats)`
+ * @returns {Promise<Object>}
+ */
+function stats (callback) {
+  const stack = Error();
+  if (is.fn(callback)) {
+    if (this._isStreamInput()) {
+      this.on('finish', () => {
+        this._flattenBufferIn();
+        sharp.stats(this.options, (err, stats) => {
+          if (err) {
+            callback(is.nativeError(err, stack));
+          } else {
+            callback(null, stats);
+          }
+        });
+      });
+    } else {
+      sharp.stats(this.options, (err, stats) => {
+        if (err) {
+          callback(is.nativeError(err, stack));
+        } else {
+          callback(null, stats);
+        }
+      });
+    }
+    return this;
+  } else {
+    if (this._isStreamInput()) {
+      return new Promise((resolve, reject) => {
+        this.on('finish', function () {
+          this._flattenBufferIn();
+          sharp.stats(this.options, (err, stats) => {
+            if (err) {
+              reject(is.nativeError(err, stack));
+            } else {
+              resolve(stats);
+            }
+          });
+        });
+      });
+    } else {
+      return new Promise((resolve, reject) => {
+        sharp.stats(this.options, (err, stats) => {
+          if (err) {
+            reject(is.nativeError(err, stack));
+          } else {
+            resolve(stats);
+          }
+        });
+      });
+    }
+  }
+}
+
+/**
+ * Decorate the Sharp prototype with input-related functions.
+ * @private
+ */
+module.exports = function (Sharp) {
+  Object.assign(Sharp.prototype, {
+    // Private
+    _inputOptionsFromObject,
+    _createInputDescriptor,
+    _write,
+    _flattenBufferIn,
+    _isStreamInput,
+    // Public
+    metadata,
+    stats
+  });
+  // Class attributes
+  Sharp.align = align;
+};
+
+
+/***/ }),
+
+/***/ 6818:
+/***/ ((module) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+/**
+ * Is this value defined and not null?
+ * @private
+ */
+const defined = function (val) {
+  return typeof val !== 'undefined' && val !== null;
+};
+
+/**
+ * Is this value an object?
+ * @private
+ */
+const object = function (val) {
+  return typeof val === 'object';
+};
+
+/**
+ * Is this value a plain object?
+ * @private
+ */
+const plainObject = function (val) {
+  return Object.prototype.toString.call(val) === '[object Object]';
+};
+
+/**
+ * Is this value a function?
+ * @private
+ */
+const fn = function (val) {
+  return typeof val === 'function';
+};
+
+/**
+ * Is this value a boolean?
+ * @private
+ */
+const bool = function (val) {
+  return typeof val === 'boolean';
+};
+
+/**
+ * Is this value a Buffer object?
+ * @private
+ */
+const buffer = function (val) {
+  return val instanceof Buffer;
+};
+
+/**
+ * Is this value a typed array object?. E.g. Uint8Array or Uint8ClampedArray?
+ * @private
+ */
+const typedArray = function (val) {
+  if (defined(val)) {
+    switch (val.constructor) {
+      case Uint8Array:
+      case Uint8ClampedArray:
+      case Int8Array:
+      case Uint16Array:
+      case Int16Array:
+      case Uint32Array:
+      case Int32Array:
+      case Float32Array:
+      case Float64Array:
+        return true;
+    }
+  }
+
+  return false;
+};
+
+/**
+ * Is this value an ArrayBuffer object?
+ * @private
+ */
+const arrayBuffer = function (val) {
+  return val instanceof ArrayBuffer;
+};
+
+/**
+ * Is this value a non-empty string?
+ * @private
+ */
+const string = function (val) {
+  return typeof val === 'string' && val.length > 0;
+};
+
+/**
+ * Is this value a real number?
+ * @private
+ */
+const number = function (val) {
+  return typeof val === 'number' && !Number.isNaN(val);
+};
+
+/**
+ * Is this value an integer?
+ * @private
+ */
+const integer = function (val) {
+  return Number.isInteger(val);
+};
+
+/**
+ * Is this value within an inclusive given range?
+ * @private
+ */
+const inRange = function (val, min, max) {
+  return val >= min && val <= max;
+};
+
+/**
+ * Is this value within the elements of an array?
+ * @private
+ */
+const inArray = function (val, list) {
+  return list.includes(val);
+};
+
+/**
+ * Create an Error with a message relating to an invalid parameter.
+ *
+ * @param {string} name - parameter name.
+ * @param {string} expected - description of the type/value/range expected.
+ * @param {*} actual - the value received.
+ * @returns {Error} Containing the formatted message.
+ * @private
+ */
+const invalidParameterError = function (name, expected, actual) {
+  return new Error(
+    `Expected ${expected} for ${name} but received ${actual} of type ${typeof actual}`
+  );
+};
+
+/**
+ * Ensures an Error from C++ contains a JS stack.
+ *
+ * @param {Error} native - Error with message from C++.
+ * @param {Error} context - Error with stack from JS.
+ * @returns {Error} Error with message and stack.
+ * @private
+ */
+const nativeError = function (native, context) {
+  context.message = native.message;
+  return context;
+};
+
+module.exports = {
+  defined,
+  object,
+  plainObject,
+  fn,
+  bool,
+  buffer,
+  typedArray,
+  arrayBuffer,
+  string,
+  number,
+  integer,
+  inRange,
+  inArray,
+  invalidParameterError,
+  nativeError
+};
+
+
+/***/ }),
+
+/***/ 8224:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const { spawnSync } = __nccwpck_require__(7718);
+const { createHash } = __nccwpck_require__(6005);
+const semverCoerce = __nccwpck_require__(3466);
+const semverGreaterThanOrEqualTo = __nccwpck_require__(5522);
+const semverSatisfies = __nccwpck_require__(6055);
+const detectLibc = __nccwpck_require__(4889);
+
+const { engines, optionalDependencies } = __nccwpck_require__(200);
+
+const minimumLibvipsVersionLabelled = process.env.npm_package_config_libvips || /* istanbul ignore next */
+  engines.libvips;
+const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+
+const prebuiltPlatforms = [
+  'darwin-arm64', 'darwin-x64',
+  'linux-arm', 'linux-arm64', 'linux-s390x', 'linux-x64',
+  'linuxmusl-arm64', 'linuxmusl-x64',
+  'win32-ia32', 'win32-x64'
+];
+
+const spawnSyncOptions = {
+  encoding: 'utf8',
+  shell: true
+};
+
+const log = (item) => {
+  if (item instanceof Error) {
+    console.error(`sharp: Installation error: ${item.message}`);
+  } else {
+    console.log(`sharp: ${item}`);
+  }
+};
+
+/* istanbul ignore next */
+const runtimeLibc = () => detectLibc.isNonGlibcLinuxSync() ? detectLibc.familySync() : '';
+
+const runtimePlatformArch = () => `${process.platform}${runtimeLibc()}-${process.arch}`;
+
+/* istanbul ignore next */
+const buildPlatformArch = () => {
+  if (isEmscripten()) {
+    return 'wasm32';
+  }
+  /* eslint camelcase: ["error", { allow: ["^npm_config_"] }] */
+  const { npm_config_arch, npm_config_platform, npm_config_libc } = process.env;
+  const libc = typeof npm_config_libc === 'string' ? npm_config_libc : runtimeLibc();
+  return `${npm_config_platform || process.platform}${libc}-${npm_config_arch || process.arch}`;
+};
+
+const buildSharpLibvipsIncludeDir = () => {
+  try {
+    return require(`@img/sharp-libvips-dev-${buildPlatformArch()}/include`);
+  } catch {
+    try {
+      return __nccwpck_require__(4535);
+    } catch {}
+  }
+  /* istanbul ignore next */
+  return '';
+};
+
+const buildSharpLibvipsCPlusPlusDir = () => {
+  try {
+    return __nccwpck_require__(6506);
+  } catch {}
+  /* istanbul ignore next */
+  return '';
+};
+
+const buildSharpLibvipsLibDir = () => {
+  try {
+    return require(`@img/sharp-libvips-dev-${buildPlatformArch()}/lib`);
+  } catch {
+    try {
+      return require(`@img/sharp-libvips-${buildPlatformArch()}/lib`);
+    } catch {}
+  }
+  /* istanbul ignore next */
+  return '';
+};
+
+const isUnsupportedNodeRuntime = () => {
+  /* istanbul ignore next */
+  if (process.release?.name === 'node' && process.versions) {
+    if (!semverSatisfies(process.versions.node, engines.node)) {
+      return { found: process.versions.node, expected: engines.node };
+    }
+  }
+};
+
+/* istanbul ignore next */
+const isEmscripten = () => {
+  const { CC } = process.env;
+  return Boolean(CC && CC.endsWith('/emcc'));
+};
+
+const isRosetta = () => {
+  /* istanbul ignore next */
+  if (process.platform === 'darwin' && process.arch === 'x64') {
+    const translated = spawnSync('sysctl sysctl.proc_translated', spawnSyncOptions).stdout;
+    return (translated || '').trim() === 'sysctl.proc_translated: 1';
+  }
+  return false;
+};
+
+const sha512 = (s) => createHash('sha512').update(s).digest('hex');
+
+const yarnLocator = () => {
+  try {
+    const identHash = sha512(`imgsharp-libvips-${buildPlatformArch()}`);
+    const npmVersion = semverCoerce(optionalDependencies[`@img/sharp-libvips-${buildPlatformArch()}`]).version;
+    return sha512(`${identHash}npm:${npmVersion}`).slice(0, 10);
+  } catch {}
+  return '';
+};
+
+/* istanbul ignore next */
+const spawnRebuild = () =>
+  spawnSync(`node-gyp rebuild --directory=src ${isEmscripten() ? '--nodedir=emscripten' : ''}`, {
+    ...spawnSyncOptions,
+    stdio: 'inherit'
+  }).status;
+
+const globalLibvipsVersion = () => {
+  if (process.platform !== 'win32') {
+    const globalLibvipsVersion = spawnSync('pkg-config --modversion vips-cpp', {
+      ...spawnSyncOptions,
+      env: {
+        ...process.env,
+        PKG_CONFIG_PATH: pkgConfigPath()
+      }
+    }).stdout;
+    /* istanbul ignore next */
+    return (globalLibvipsVersion || '').trim();
+  } else {
+    return '';
+  }
+};
+
+/* istanbul ignore next */
+const pkgConfigPath = () => {
+  if (process.platform !== 'win32') {
+    const brewPkgConfigPath = spawnSync(
+      'which brew >/dev/null 2>&1 && brew environment --plain | grep PKG_CONFIG_LIBDIR | cut -d" " -f2',
+      spawnSyncOptions
+    ).stdout || '';
+    return [
+      brewPkgConfigPath.trim(),
+      process.env.PKG_CONFIG_PATH,
+      '/usr/local/lib/pkgconfig',
+      '/usr/lib/pkgconfig',
+      '/usr/local/libdata/pkgconfig',
+      '/usr/libdata/pkgconfig'
+    ].filter(Boolean).join(':');
+  } else {
+    return '';
+  }
+};
+
+const skipSearch = (status, reason) => {
+  log(`Detected ${reason}, skipping search for globally-installed libvips`);
+  return status;
+};
+
+const useGlobalLibvips = () => {
+  if (Boolean(process.env.SHARP_IGNORE_GLOBAL_LIBVIPS) === true) {
+    return skipSearch(false, 'SHARP_IGNORE_GLOBAL_LIBVIPS');
+  }
+  if (Boolean(process.env.SHARP_FORCE_GLOBAL_LIBVIPS) === true) {
+    return skipSearch(true, 'SHARP_FORCE_GLOBAL_LIBVIPS');
+  }
+  /* istanbul ignore next */
+  if (isRosetta()) {
+    return skipSearch(false, 'Rosetta');
+  }
+  const globalVipsVersion = globalLibvipsVersion();
+  return !!globalVipsVersion && /* istanbul ignore next */
+    semverGreaterThanOrEqualTo(globalVipsVersion, minimumLibvipsVersion);
+};
+
+module.exports = {
+  minimumLibvipsVersion,
+  prebuiltPlatforms,
+  buildPlatformArch,
+  buildSharpLibvipsIncludeDir,
+  buildSharpLibvipsCPlusPlusDir,
+  buildSharpLibvipsLibDir,
+  isUnsupportedNodeRuntime,
+  runtimePlatformArch,
+  log,
+  yarnLocator,
+  spawnRebuild,
+  globalLibvipsVersion,
+  pkgConfigPath,
+  useGlobalLibvips
+};
+
+
+/***/ }),
+
+/***/ 4903:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const color = __nccwpck_require__(7177);
+const is = __nccwpck_require__(6818);
+
+/**
+ * Rotate the output image by either an explicit angle
+ * or auto-orient based on the EXIF `Orientation` tag.
+ *
+ * If an angle is provided, it is converted to a valid positive degree rotation.
+ * For example, `-450` will produce a 270 degree rotation.
+ *
+ * When rotating by an angle other than a multiple of 90,
+ * the background colour can be provided with the `background` option.
+ *
+ * If no angle is provided, it is determined from the EXIF data.
+ * Mirroring is supported and may infer the use of a flip operation.
+ *
+ * The use of `rotate` without an angle will remove the EXIF `Orientation` tag, if any.
+ *
+ * Only one rotation can occur per pipeline.
+ * Previous calls to `rotate` in the same pipeline will be ignored.
+ *
+ * Multi-page images can only be rotated by 180 degrees.
+ *
+ * Method order is important when rotating, resizing and/or extracting regions,
+ * for example `.rotate(x).extract(y)` will produce a different result to `.extract(y).rotate(x)`.
+ *
+ * @example
+ * const pipeline = sharp()
+ *   .rotate()
+ *   .resize(null, 200)
+ *   .toBuffer(function (err, outputBuffer, info) {
+ *     // outputBuffer contains 200px high JPEG image data,
+ *     // auto-rotated using EXIF Orientation tag
+ *     // info.width and info.height contain the dimensions of the resized image
+ *   });
+ * readableStream.pipe(pipeline);
+ *
+ * @example
+ * const rotateThenResize = await sharp(input)
+ *   .rotate(90)
+ *   .resize({ width: 16, height: 8, fit: 'fill' })
+ *   .toBuffer();
+ * const resizeThenRotate = await sharp(input)
+ *   .resize({ width: 16, height: 8, fit: 'fill' })
+ *   .rotate(90)
+ *   .toBuffer();
+ *
+ * @param {number} [angle=auto] angle of rotation.
+ * @param {Object} [options] - if present, is an Object with optional attributes.
+ * @param {string|Object} [options.background="#000000"] parsed by the [color](https://www.npmjs.org/package/color) module to extract values for red, green, blue and alpha.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function rotate (angle, options) {
+  if (this.options.useExifOrientation || this.options.angle || this.options.rotationAngle) {
+    this.options.debuglog('ignoring previous rotate options');
+  }
+  if (!is.defined(angle)) {
+    this.options.useExifOrientation = true;
+  } else if (is.integer(angle) && !(angle % 90)) {
+    this.options.angle = angle;
+  } else if (is.number(angle)) {
+    this.options.rotationAngle = angle;
+    if (is.object(options) && options.background) {
+      const backgroundColour = color(options.background);
+      this.options.rotationBackground = [
+        backgroundColour.red(),
+        backgroundColour.green(),
+        backgroundColour.blue(),
+        Math.round(backgroundColour.alpha() * 255)
+      ];
+    }
+  } else {
+    throw is.invalidParameterError('angle', 'numeric', angle);
+  }
+  return this;
+}
+
+/**
+ * Mirror the image vertically (up-down) about the x-axis.
+ * This always occurs before rotation, if any.
+ *
+ * This operation does not work correctly with multi-page images.
+ *
+ * @example
+ * const output = await sharp(input).flip().toBuffer();
+ *
+ * @param {Boolean} [flip=true]
+ * @returns {Sharp}
+ */
+function flip (flip) {
+  this.options.flip = is.bool(flip) ? flip : true;
+  return this;
+}
+
+/**
+ * Mirror the image horizontally (left-right) about the y-axis.
+ * This always occurs before rotation, if any.
+ *
+ * @example
+ * const output = await sharp(input).flop().toBuffer();
+ *
+ * @param {Boolean} [flop=true]
+ * @returns {Sharp}
+ */
+function flop (flop) {
+  this.options.flop = is.bool(flop) ? flop : true;
+  return this;
+}
+
+/**
+ * Perform an affine transform on an image. This operation will always occur after resizing, extraction and rotation, if any.
+ *
+ * You must provide an array of length 4 or a 2x2 affine transformation matrix.
+ * By default, new pixels are filled with a black background. You can provide a background color with the `background` option.
+ * A particular interpolator may also be specified. Set the `interpolator` option to an attribute of the `sharp.interpolators` Object e.g. `sharp.interpolators.nohalo`.
+ *
+ * In the case of a 2x2 matrix, the transform is:
+ * - X = `matrix[0, 0]` \* (x + `idx`) + `matrix[0, 1]` \* (y + `idy`) + `odx`
+ * - Y = `matrix[1, 0]` \* (x + `idx`) + `matrix[1, 1]` \* (y + `idy`) + `ody`
+ *
+ * where:
+ * - x and y are the coordinates in input image.
+ * - X and Y are the coordinates in output image.
+ * - (0,0) is the upper left corner.
+ *
+ * @since 0.27.0
+ *
+ * @example
+ * const pipeline = sharp()
+ *   .affine([[1, 0.3], [0.1, 0.7]], {
+ *      background: 'white',
+ *      interpolator: sharp.interpolators.nohalo
+ *   })
+ *   .toBuffer((err, outputBuffer, info) => {
+ *      // outputBuffer contains the transformed image
+ *      // info.width and info.height contain the new dimensions
+ *   });
+ *
+ * inputStream
+ *   .pipe(pipeline);
+ *
+ * @param {Array<Array<number>>|Array<number>} matrix - affine transformation matrix
+ * @param {Object} [options] - if present, is an Object with optional attributes.
+ * @param {String|Object} [options.background="#000000"] - parsed by the [color](https://www.npmjs.org/package/color) module to extract values for red, green, blue and alpha.
+ * @param {Number} [options.idx=0] - input horizontal offset
+ * @param {Number} [options.idy=0] - input vertical offset
+ * @param {Number} [options.odx=0] - output horizontal offset
+ * @param {Number} [options.ody=0] - output vertical offset
+ * @param {String} [options.interpolator=sharp.interpolators.bicubic] - interpolator
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function affine (matrix, options) {
+  const flatMatrix = [].concat(...matrix);
+  if (flatMatrix.length === 4 && flatMatrix.every(is.number)) {
+    this.options.affineMatrix = flatMatrix;
+  } else {
+    throw is.invalidParameterError('matrix', '1x4 or 2x2 array', matrix);
+  }
+
+  if (is.defined(options)) {
+    if (is.object(options)) {
+      this._setBackgroundColourOption('affineBackground', options.background);
+      if (is.defined(options.idx)) {
+        if (is.number(options.idx)) {
+          this.options.affineIdx = options.idx;
+        } else {
+          throw is.invalidParameterError('options.idx', 'number', options.idx);
+        }
+      }
+      if (is.defined(options.idy)) {
+        if (is.number(options.idy)) {
+          this.options.affineIdy = options.idy;
+        } else {
+          throw is.invalidParameterError('options.idy', 'number', options.idy);
+        }
+      }
+      if (is.defined(options.odx)) {
+        if (is.number(options.odx)) {
+          this.options.affineOdx = options.odx;
+        } else {
+          throw is.invalidParameterError('options.odx', 'number', options.odx);
+        }
+      }
+      if (is.defined(options.ody)) {
+        if (is.number(options.ody)) {
+          this.options.affineOdy = options.ody;
+        } else {
+          throw is.invalidParameterError('options.ody', 'number', options.ody);
+        }
+      }
+      if (is.defined(options.interpolator)) {
+        if (is.inArray(options.interpolator, Object.values(this.constructor.interpolators))) {
+          this.options.affineInterpolator = options.interpolator;
+        } else {
+          throw is.invalidParameterError('options.interpolator', 'valid interpolator name', options.interpolator);
+        }
+      }
+    } else {
+      throw is.invalidParameterError('options', 'object', options);
+    }
+  }
+
+  return this;
+}
+
+/**
+ * Sharpen the image.
+ *
+ * When used without parameters, performs a fast, mild sharpen of the output image.
+ *
+ * When a `sigma` is provided, performs a slower, more accurate sharpen of the L channel in the LAB colour space.
+ * Fine-grained control over the level of sharpening in "flat" (m1) and "jagged" (m2) areas is available.
+ *
+ * See {@link https://www.libvips.org/API/current/libvips-convolution.html#vips-sharpen|libvips sharpen} operation.
+ *
+ * @example
+ * const data = await sharp(input).sharpen().toBuffer();
+ *
+ * @example
+ * const data = await sharp(input).sharpen({ sigma: 2 }).toBuffer();
+ *
+ * @example
+ * const data = await sharp(input)
+ *   .sharpen({
+ *     sigma: 2,
+ *     m1: 0,
+ *     m2: 3,
+ *     x1: 3,
+ *     y2: 15,
+ *     y3: 15,
+ *   })
+ *   .toBuffer();
+ *
+ * @param {Object|number} [options] - if present, is an Object with attributes
+ * @param {number} [options.sigma] - the sigma of the Gaussian mask, where `sigma = 1 + radius / 2`, between 0.000001 and 10
+ * @param {number} [options.m1=1.0] - the level of sharpening to apply to "flat" areas, between 0 and 1000000
+ * @param {number} [options.m2=2.0] - the level of sharpening to apply to "jagged" areas, between 0 and 1000000
+ * @param {number} [options.x1=2.0] - threshold between "flat" and "jagged", between 0 and 1000000
+ * @param {number} [options.y2=10.0] - maximum amount of brightening, between 0 and 1000000
+ * @param {number} [options.y3=20.0] - maximum amount of darkening, between 0 and 1000000
+ * @param {number} [flat] - (deprecated) see `options.m1`.
+ * @param {number} [jagged] - (deprecated) see `options.m2`.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function sharpen (options, flat, jagged) {
+  if (!is.defined(options)) {
+    // No arguments: default to mild sharpen
+    this.options.sharpenSigma = -1;
+  } else if (is.bool(options)) {
+    // Deprecated boolean argument: apply mild sharpen?
+    this.options.sharpenSigma = options ? -1 : 0;
+  } else if (is.number(options) && is.inRange(options, 0.01, 10000)) {
+    // Deprecated numeric argument: specific sigma
+    this.options.sharpenSigma = options;
+    // Deprecated control over flat areas
+    if (is.defined(flat)) {
+      if (is.number(flat) && is.inRange(flat, 0, 10000)) {
+        this.options.sharpenM1 = flat;
+      } else {
+        throw is.invalidParameterError('flat', 'number between 0 and 10000', flat);
+      }
+    }
+    // Deprecated control over jagged areas
+    if (is.defined(jagged)) {
+      if (is.number(jagged) && is.inRange(jagged, 0, 10000)) {
+        this.options.sharpenM2 = jagged;
+      } else {
+        throw is.invalidParameterError('jagged', 'number between 0 and 10000', jagged);
+      }
+    }
+  } else if (is.plainObject(options)) {
+    if (is.number(options.sigma) && is.inRange(options.sigma, 0.000001, 10)) {
+      this.options.sharpenSigma = options.sigma;
+    } else {
+      throw is.invalidParameterError('options.sigma', 'number between 0.000001 and 10', options.sigma);
+    }
+    if (is.defined(options.m1)) {
+      if (is.number(options.m1) && is.inRange(options.m1, 0, 1000000)) {
+        this.options.sharpenM1 = options.m1;
+      } else {
+        throw is.invalidParameterError('options.m1', 'number between 0 and 1000000', options.m1);
+      }
+    }
+    if (is.defined(options.m2)) {
+      if (is.number(options.m2) && is.inRange(options.m2, 0, 1000000)) {
+        this.options.sharpenM2 = options.m2;
+      } else {
+        throw is.invalidParameterError('options.m2', 'number between 0 and 1000000', options.m2);
+      }
+    }
+    if (is.defined(options.x1)) {
+      if (is.number(options.x1) && is.inRange(options.x1, 0, 1000000)) {
+        this.options.sharpenX1 = options.x1;
+      } else {
+        throw is.invalidParameterError('options.x1', 'number between 0 and 1000000', options.x1);
+      }
+    }
+    if (is.defined(options.y2)) {
+      if (is.number(options.y2) && is.inRange(options.y2, 0, 1000000)) {
+        this.options.sharpenY2 = options.y2;
+      } else {
+        throw is.invalidParameterError('options.y2', 'number between 0 and 1000000', options.y2);
+      }
+    }
+    if (is.defined(options.y3)) {
+      if (is.number(options.y3) && is.inRange(options.y3, 0, 1000000)) {
+        this.options.sharpenY3 = options.y3;
+      } else {
+        throw is.invalidParameterError('options.y3', 'number between 0 and 1000000', options.y3);
+      }
+    }
+  } else {
+    throw is.invalidParameterError('sigma', 'number between 0.01 and 10000', options);
+  }
+  return this;
+}
+
+/**
+ * Apply median filter.
+ * When used without parameters the default window is 3x3.
+ *
+ * @example
+ * const output = await sharp(input).median().toBuffer();
+ *
+ * @example
+ * const output = await sharp(input).median(5).toBuffer();
+ *
+ * @param {number} [size=3] square mask size: size x size
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function median (size) {
+  if (!is.defined(size)) {
+    // No arguments: default to 3x3
+    this.options.medianSize = 3;
+  } else if (is.integer(size) && is.inRange(size, 1, 1000)) {
+    // Numeric argument: specific sigma
+    this.options.medianSize = size;
+  } else {
+    throw is.invalidParameterError('size', 'integer between 1 and 1000', size);
+  }
+  return this;
+}
+
+/**
+ * Blur the image.
+ *
+ * When used without parameters, performs a fast 3x3 box blur (equivalent to a box linear filter).
+ *
+ * When a `sigma` is provided, performs a slower, more accurate Gaussian blur.
+ *
+ * @example
+ * const boxBlurred = await sharp(input)
+ *   .blur()
+ *   .toBuffer();
+ *
+ * @example
+ * const gaussianBlurred = await sharp(input)
+ *   .blur(5)
+ *   .toBuffer();
+ *
+ * @param {number} [sigma] a value between 0.3 and 1000 representing the sigma of the Gaussian mask, where `sigma = 1 + radius / 2`.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function blur (sigma) {
+  if (!is.defined(sigma)) {
+    // No arguments: default to mild blur
+    this.options.blurSigma = -1;
+  } else if (is.bool(sigma)) {
+    // Boolean argument: apply mild blur?
+    this.options.blurSigma = sigma ? -1 : 0;
+  } else if (is.number(sigma) && is.inRange(sigma, 0.3, 1000)) {
+    // Numeric argument: specific sigma
+    this.options.blurSigma = sigma;
+  } else {
+    throw is.invalidParameterError('sigma', 'number between 0.3 and 1000', sigma);
+  }
+  return this;
+}
+
+/**
+ * Merge alpha transparency channel, if any, with a background, then remove the alpha channel.
+ *
+ * See also {@link /api-channel#removealpha|removeAlpha}.
+ *
+ * @example
+ * await sharp(rgbaInput)
+ *   .flatten({ background: '#F0A703' })
+ *   .toBuffer();
+ *
+ * @param {Object} [options]
+ * @param {string|Object} [options.background={r: 0, g: 0, b: 0}] - background colour, parsed by the [color](https://www.npmjs.org/package/color) module, defaults to black.
+ * @returns {Sharp}
+ */
+function flatten (options) {
+  this.options.flatten = is.bool(options) ? options : true;
+  if (is.object(options)) {
+    this._setBackgroundColourOption('flattenBackground', options.background);
+  }
+  return this;
+}
+
+/**
+ * Ensure the image has an alpha channel
+ * with all white pixel values made fully transparent.
+ *
+ * Existing alpha channel values for non-white pixels remain unchanged.
+ *
+ * This feature is experimental and the API may change.
+ *
+ * @since 0.32.1
+ *
+ * @example
+ * await sharp(rgbInput)
+ *   .unflatten()
+ *   .toBuffer();
+ *
+ * @example
+ * await sharp(rgbInput)
+ *   .threshold(128, { grayscale: false }) // converter bright pixels to white
+ *   .unflatten()
+ *   .toBuffer();
+ */
+function unflatten () {
+  this.options.unflatten = true;
+  return this;
+}
+
+/**
+ * Apply a gamma correction by reducing the encoding (darken) pre-resize at a factor of `1/gamma`
+ * then increasing the encoding (brighten) post-resize at a factor of `gamma`.
+ * This can improve the perceived brightness of a resized image in non-linear colour spaces.
+ * JPEG and WebP input images will not take advantage of the shrink-on-load performance optimisation
+ * when applying a gamma correction.
+ *
+ * Supply a second argument to use a different output gamma value, otherwise the first value is used in both cases.
+ *
+ * @param {number} [gamma=2.2] value between 1.0 and 3.0.
+ * @param {number} [gammaOut] value between 1.0 and 3.0. (optional, defaults to same as `gamma`)
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function gamma (gamma, gammaOut) {
+  if (!is.defined(gamma)) {
+    // Default gamma correction of 2.2 (sRGB)
+    this.options.gamma = 2.2;
+  } else if (is.number(gamma) && is.inRange(gamma, 1, 3)) {
+    this.options.gamma = gamma;
+  } else {
+    throw is.invalidParameterError('gamma', 'number between 1.0 and 3.0', gamma);
+  }
+  if (!is.defined(gammaOut)) {
+    // Default gamma correction for output is same as input
+    this.options.gammaOut = this.options.gamma;
+  } else if (is.number(gammaOut) && is.inRange(gammaOut, 1, 3)) {
+    this.options.gammaOut = gammaOut;
+  } else {
+    throw is.invalidParameterError('gammaOut', 'number between 1.0 and 3.0', gammaOut);
+  }
+  return this;
+}
+
+/**
+ * Produce the "negative" of the image.
+ *
+ * @example
+ * const output = await sharp(input)
+ *   .negate()
+ *   .toBuffer();
+ *
+ * @example
+ * const output = await sharp(input)
+ *   .negate({ alpha: false })
+ *   .toBuffer();
+ *
+ * @param {Object} [options]
+ * @param {Boolean} [options.alpha=true] Whether or not to negate any alpha channel
+ * @returns {Sharp}
+ */
+function negate (options) {
+  this.options.negate = is.bool(options) ? options : true;
+  if (is.plainObject(options) && 'alpha' in options) {
+    if (!is.bool(options.alpha)) {
+      throw is.invalidParameterError('alpha', 'should be boolean value', options.alpha);
+    } else {
+      this.options.negateAlpha = options.alpha;
+    }
+  }
+  return this;
+}
+
+/**
+ * Enhance output image contrast by stretching its luminance to cover a full dynamic range.
+ *
+ * Uses a histogram-based approach, taking a default range of 1% to 99% to reduce sensitivity to noise at the extremes.
+ *
+ * Luminance values below the `lower` percentile will be underexposed by clipping to zero.
+ * Luminance values above the `upper` percentile will be overexposed by clipping to the max pixel value.
+ *
+ * @example
+ * const output = await sharp(input)
+ *   .normalise()
+ *   .toBuffer();
+ *
+ * @example
+ * const output = await sharp(input)
+ *   .normalise({ lower: 0, upper: 100 })
+ *   .toBuffer();
+ *
+ * @param {Object} [options]
+ * @param {number} [options.lower=1] - Percentile below which luminance values will be underexposed.
+ * @param {number} [options.upper=99] - Percentile above which luminance values will be overexposed.
+ * @returns {Sharp}
+ */
+function normalise (options) {
+  if (is.plainObject(options)) {
+    if (is.defined(options.lower)) {
+      if (is.number(options.lower) && is.inRange(options.lower, 0, 99)) {
+        this.options.normaliseLower = options.lower;
+      } else {
+        throw is.invalidParameterError('lower', 'number between 0 and 99', options.lower);
+      }
+    }
+    if (is.defined(options.upper)) {
+      if (is.number(options.upper) && is.inRange(options.upper, 1, 100)) {
+        this.options.normaliseUpper = options.upper;
+      } else {
+        throw is.invalidParameterError('upper', 'number between 1 and 100', options.upper);
+      }
+    }
+  }
+  if (this.options.normaliseLower >= this.options.normaliseUpper) {
+    throw is.invalidParameterError('range', 'lower to be less than upper',
+      `${this.options.normaliseLower} >= ${this.options.normaliseUpper}`);
+  }
+  this.options.normalise = true;
+  return this;
+}
+
+/**
+ * Alternative spelling of normalise.
+ *
+ * @example
+ * const output = await sharp(input)
+ *   .normalize()
+ *   .toBuffer();
+ *
+ * @param {Object} [options]
+ * @param {number} [options.lower=1] - Percentile below which luminance values will be underexposed.
+ * @param {number} [options.upper=99] - Percentile above which luminance values will be overexposed.
+ * @returns {Sharp}
+ */
+function normalize (options) {
+  return this.normalise(options);
+}
+
+/**
+ * Perform contrast limiting adaptive histogram equalization
+ * {@link https://en.wikipedia.org/wiki/Adaptive_histogram_equalization#Contrast_Limited_AHE|CLAHE}.
+ *
+ * This will, in general, enhance the clarity of the image by bringing out darker details.
+ *
+ * @since 0.28.3
+ *
+ * @example
+ * const output = await sharp(input)
+ *   .clahe({
+ *     width: 3,
+ *     height: 3,
+ *   })
+ *   .toBuffer();
+ *
+ * @param {Object} options
+ * @param {number} options.width - Integral width of the search window, in pixels.
+ * @param {number} options.height - Integral height of the search window, in pixels.
+ * @param {number} [options.maxSlope=3] - Integral level of brightening, between 0 and 100, where 0 disables contrast limiting.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function clahe (options) {
+  if (is.plainObject(options)) {
+    if (is.integer(options.width) && options.width > 0) {
+      this.options.claheWidth = options.width;
+    } else {
+      throw is.invalidParameterError('width', 'integer greater than zero', options.width);
+    }
+    if (is.integer(options.height) && options.height > 0) {
+      this.options.claheHeight = options.height;
+    } else {
+      throw is.invalidParameterError('height', 'integer greater than zero', options.height);
+    }
+    if (is.defined(options.maxSlope)) {
+      if (is.integer(options.maxSlope) && is.inRange(options.maxSlope, 0, 100)) {
+        this.options.claheMaxSlope = options.maxSlope;
+      } else {
+        throw is.invalidParameterError('maxSlope', 'integer between 0 and 100', options.maxSlope);
+      }
+    }
+  } else {
+    throw is.invalidParameterError('options', 'plain object', options);
+  }
+  return this;
+}
+
+/**
+ * Convolve the image with the specified kernel.
+ *
+ * @example
+ * sharp(input)
+ *   .convolve({
+ *     width: 3,
+ *     height: 3,
+ *     kernel: [-1, 0, 1, -2, 0, 2, -1, 0, 1]
+ *   })
+ *   .raw()
+ *   .toBuffer(function(err, data, info) {
+ *     // data contains the raw pixel data representing the convolution
+ *     // of the input image with the horizontal Sobel operator
+ *   });
+ *
+ * @param {Object} kernel
+ * @param {number} kernel.width - width of the kernel in pixels.
+ * @param {number} kernel.height - height of the kernel in pixels.
+ * @param {Array<number>} kernel.kernel - Array of length `width*height` containing the kernel values.
+ * @param {number} [kernel.scale=sum] - the scale of the kernel in pixels.
+ * @param {number} [kernel.offset=0] - the offset of the kernel in pixels.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function convolve (kernel) {
+  if (!is.object(kernel) || !Array.isArray(kernel.kernel) ||
+      !is.integer(kernel.width) || !is.integer(kernel.height) ||
+      !is.inRange(kernel.width, 3, 1001) || !is.inRange(kernel.height, 3, 1001) ||
+      kernel.height * kernel.width !== kernel.kernel.length
+  ) {
+    // must pass in a kernel
+    throw new Error('Invalid convolution kernel');
+  }
+  // Default scale is sum of kernel values
+  if (!is.integer(kernel.scale)) {
+    kernel.scale = kernel.kernel.reduce(function (a, b) {
+      return a + b;
+    }, 0);
+  }
+  // Clip scale to a minimum value of 1
+  if (kernel.scale < 1) {
+    kernel.scale = 1;
+  }
+  if (!is.integer(kernel.offset)) {
+    kernel.offset = 0;
+  }
+  this.options.convKernel = kernel;
+  return this;
+}
+
+/**
+ * Any pixel value greater than or equal to the threshold value will be set to 255, otherwise it will be set to 0.
+ * @param {number} [threshold=128] - a value in the range 0-255 representing the level at which the threshold will be applied.
+ * @param {Object} [options]
+ * @param {Boolean} [options.greyscale=true] - convert to single channel greyscale.
+ * @param {Boolean} [options.grayscale=true] - alternative spelling for greyscale.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function threshold (threshold, options) {
+  if (!is.defined(threshold)) {
+    this.options.threshold = 128;
+  } else if (is.bool(threshold)) {
+    this.options.threshold = threshold ? 128 : 0;
+  } else if (is.integer(threshold) && is.inRange(threshold, 0, 255)) {
+    this.options.threshold = threshold;
+  } else {
+    throw is.invalidParameterError('threshold', 'integer between 0 and 255', threshold);
+  }
+  if (!is.object(options) || options.greyscale === true || options.grayscale === true) {
+    this.options.thresholdGrayscale = true;
+  } else {
+    this.options.thresholdGrayscale = false;
+  }
+  return this;
+}
+
+/**
+ * Perform a bitwise boolean operation with operand image.
+ *
+ * This operation creates an output image where each pixel is the result of
+ * the selected bitwise boolean `operation` between the corresponding pixels of the input images.
+ *
+ * @param {Buffer|string} operand - Buffer containing image data or string containing the path to an image file.
+ * @param {string} operator - one of `and`, `or` or `eor` to perform that bitwise operation, like the C logic operators `&`, `|` and `^` respectively.
+ * @param {Object} [options]
+ * @param {Object} [options.raw] - describes operand when using raw pixel data.
+ * @param {number} [options.raw.width]
+ * @param {number} [options.raw.height]
+ * @param {number} [options.raw.channels]
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function boolean (operand, operator, options) {
+  this.options.boolean = this._createInputDescriptor(operand, options);
+  if (is.string(operator) && is.inArray(operator, ['and', 'or', 'eor'])) {
+    this.options.booleanOp = operator;
+  } else {
+    throw is.invalidParameterError('operator', 'one of: and, or, eor', operator);
+  }
+  return this;
+}
+
+/**
+ * Apply the linear formula `a` * input + `b` to the image to adjust image levels.
+ *
+ * When a single number is provided, it will be used for all image channels.
+ * When an array of numbers is provided, the array length must match the number of channels.
+ *
+ * @example
+ * await sharp(input)
+ *   .linear(0.5, 2)
+ *   .toBuffer();
+ *
+ * @example
+ * await sharp(rgbInput)
+ *   .linear(
+ *     [0.25, 0.5, 0.75],
+ *     [150, 100, 50]
+ *   )
+ *   .toBuffer();
+ *
+ * @param {(number|number[])} [a=[]] multiplier
+ * @param {(number|number[])} [b=[]] offset
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function linear (a, b) {
+  if (!is.defined(a) && is.number(b)) {
+    a = 1.0;
+  } else if (is.number(a) && !is.defined(b)) {
+    b = 0.0;
+  }
+  if (!is.defined(a)) {
+    this.options.linearA = [];
+  } else if (is.number(a)) {
+    this.options.linearA = [a];
+  } else if (Array.isArray(a) && a.length && a.every(is.number)) {
+    this.options.linearA = a;
+  } else {
+    throw is.invalidParameterError('a', 'number or array of numbers', a);
+  }
+  if (!is.defined(b)) {
+    this.options.linearB = [];
+  } else if (is.number(b)) {
+    this.options.linearB = [b];
+  } else if (Array.isArray(b) && b.length && b.every(is.number)) {
+    this.options.linearB = b;
+  } else {
+    throw is.invalidParameterError('b', 'number or array of numbers', b);
+  }
+  if (this.options.linearA.length !== this.options.linearB.length) {
+    throw new Error('Expected a and b to be arrays of the same length');
+  }
+  return this;
+}
+
+/**
+ * Recombine the image with the specified matrix.
+ *
+ * @since 0.21.1
+ *
+ * @example
+ * sharp(input)
+ *   .recomb([
+ *    [0.3588, 0.7044, 0.1368],
+ *    [0.2990, 0.5870, 0.1140],
+ *    [0.2392, 0.4696, 0.0912],
+ *   ])
+ *   .raw()
+ *   .toBuffer(function(err, data, info) {
+ *     // data contains the raw pixel data after applying the matrix
+ *     // With this example input, a sepia filter has been applied
+ *   });
+ *
+ * @param {Array<Array<number>>} inputMatrix - 3x3 Recombination matrix
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function recomb (inputMatrix) {
+  if (!Array.isArray(inputMatrix) || inputMatrix.length !== 3 ||
+      inputMatrix[0].length !== 3 ||
+      inputMatrix[1].length !== 3 ||
+      inputMatrix[2].length !== 3
+  ) {
+    // must pass in a kernel
+    throw new Error('Invalid recombination matrix');
+  }
+  this.options.recombMatrix = [
+    inputMatrix[0][0], inputMatrix[0][1], inputMatrix[0][2],
+    inputMatrix[1][0], inputMatrix[1][1], inputMatrix[1][2],
+    inputMatrix[2][0], inputMatrix[2][1], inputMatrix[2][2]
+  ].map(Number);
+  return this;
+}
+
+/**
+ * Transforms the image using brightness, saturation, hue rotation, and lightness.
+ * Brightness and lightness both operate on luminance, with the difference being that
+ * brightness is multiplicative whereas lightness is additive.
+ *
+ * @since 0.22.1
+ *
+ * @example
+ * // increase brightness by a factor of 2
+ * const output = await sharp(input)
+ *   .modulate({
+ *     brightness: 2
+ *   })
+ *   .toBuffer();
+ *
+ * @example
+ * // hue-rotate by 180 degrees
+ * const output = await sharp(input)
+ *   .modulate({
+ *     hue: 180
+ *   })
+ *   .toBuffer();
+ *
+ * @example
+ * // increase lightness by +50
+ * const output = await sharp(input)
+ *   .modulate({
+ *     lightness: 50
+ *   })
+ *   .toBuffer();
+ *
+ * @example
+ * // decrease brightness and saturation while also hue-rotating by 90 degrees
+ * const output = await sharp(input)
+ *   .modulate({
+ *     brightness: 0.5,
+ *     saturation: 0.5,
+ *     hue: 90,
+ *   })
+ *   .toBuffer();
+ *
+ * @param {Object} [options]
+ * @param {number} [options.brightness] Brightness multiplier
+ * @param {number} [options.saturation] Saturation multiplier
+ * @param {number} [options.hue] Degrees for hue rotation
+ * @param {number} [options.lightness] Lightness addend
+ * @returns {Sharp}
+ */
+function modulate (options) {
+  if (!is.plainObject(options)) {
+    throw is.invalidParameterError('options', 'plain object', options);
+  }
+  if ('brightness' in options) {
+    if (is.number(options.brightness) && options.brightness >= 0) {
+      this.options.brightness = options.brightness;
+    } else {
+      throw is.invalidParameterError('brightness', 'number above zero', options.brightness);
+    }
+  }
+  if ('saturation' in options) {
+    if (is.number(options.saturation) && options.saturation >= 0) {
+      this.options.saturation = options.saturation;
+    } else {
+      throw is.invalidParameterError('saturation', 'number above zero', options.saturation);
+    }
+  }
+  if ('hue' in options) {
+    if (is.integer(options.hue)) {
+      this.options.hue = options.hue % 360;
+    } else {
+      throw is.invalidParameterError('hue', 'number', options.hue);
+    }
+  }
+  if ('lightness' in options) {
+    if (is.number(options.lightness)) {
+      this.options.lightness = options.lightness;
+    } else {
+      throw is.invalidParameterError('lightness', 'number', options.lightness);
+    }
+  }
+  return this;
+}
+
+/**
+ * Decorate the Sharp prototype with operation-related functions.
+ * @private
+ */
+module.exports = function (Sharp) {
+  Object.assign(Sharp.prototype, {
+    rotate,
+    flip,
+    flop,
+    affine,
+    sharpen,
+    median,
+    blur,
+    flatten,
+    unflatten,
+    gamma,
+    negate,
+    normalise,
+    normalize,
+    clahe,
+    convolve,
+    threshold,
+    boolean,
+    linear,
+    recomb,
+    modulate
+  });
+};
+
+
+/***/ }),
+
+/***/ 1533:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const path = __nccwpck_require__(9411);
+const is = __nccwpck_require__(6818);
+const sharp = __nccwpck_require__(4899);
+
+const formats = new Map([
+  ['heic', 'heif'],
+  ['heif', 'heif'],
+  ['avif', 'avif'],
+  ['jpeg', 'jpeg'],
+  ['jpg', 'jpeg'],
+  ['jpe', 'jpeg'],
+  ['tile', 'tile'],
+  ['dz', 'tile'],
+  ['png', 'png'],
+  ['raw', 'raw'],
+  ['tiff', 'tiff'],
+  ['tif', 'tiff'],
+  ['webp', 'webp'],
+  ['gif', 'gif'],
+  ['jp2', 'jp2'],
+  ['jpx', 'jp2'],
+  ['j2k', 'jp2'],
+  ['j2c', 'jp2'],
+  ['jxl', 'jxl']
+]);
+
+const jp2Regex = /\.(jp[2x]|j2[kc])$/i;
+
+const errJp2Save = () => new Error('JP2 output requires libvips with support for OpenJPEG');
+
+const bitdepthFromColourCount = (colours) => 1 << 31 - Math.clz32(Math.ceil(Math.log2(colours)));
+
+/**
+ * Write output image data to a file.
+ *
+ * If an explicit output format is not selected, it will be inferred from the extension,
+ * with JPEG, PNG, WebP, AVIF, TIFF, GIF, DZI, and libvips' V format supported.
+ * Note that raw pixel data is only supported for buffer output.
+ *
+ * By default all metadata will be removed, which includes EXIF-based orientation.
+ * See {@link #withmetadata|withMetadata} for control over this.
+ *
+ * The caller is responsible for ensuring directory structures and permissions exist.
+ *
+ * A `Promise` is returned when `callback` is not provided.
+ *
+ * @example
+ * sharp(input)
+ *   .toFile('output.png', (err, info) => { ... });
+ *
+ * @example
+ * sharp(input)
+ *   .toFile('output.png')
+ *   .then(info => { ... })
+ *   .catch(err => { ... });
+ *
+ * @param {string} fileOut - the path to write the image data to.
+ * @param {Function} [callback] - called on completion with two arguments `(err, info)`.
+ * `info` contains the output image `format`, `size` (bytes), `width`, `height`,
+ * `channels` and `premultiplied` (indicating if premultiplication was used).
+ * When using a crop strategy also contains `cropOffsetLeft` and `cropOffsetTop`.
+ * When using the attention crop strategy also contains `attentionX` and `attentionY`, the focal point of the cropped region.
+ * May also contain `textAutofitDpi` (dpi the font was rendered at) if image was created from text.
+ * @returns {Promise<Object>} - when no callback is provided
+ * @throws {Error} Invalid parameters
+ */
+function toFile (fileOut, callback) {
+  let err;
+  if (!is.string(fileOut)) {
+    err = new Error('Missing output file path');
+  } else if (is.string(this.options.input.file) && path.resolve(this.options.input.file) === path.resolve(fileOut)) {
+    err = new Error('Cannot use same file for input and output');
+  } else if (jp2Regex.test(path.extname(fileOut)) && !this.constructor.format.jp2k.output.file) {
+    err = errJp2Save();
+  }
+  if (err) {
+    if (is.fn(callback)) {
+      callback(err);
+    } else {
+      return Promise.reject(err);
+    }
+  } else {
+    this.options.fileOut = fileOut;
+    const stack = Error();
+    return this._pipeline(callback, stack);
+  }
+  return this;
+}
+
+/**
+ * Write output to a Buffer.
+ * JPEG, PNG, WebP, AVIF, TIFF, GIF and raw pixel data output are supported.
+ *
+ * Use {@link #toformat|toFormat} or one of the format-specific functions such as {@link jpeg}, {@link png} etc. to set the output format.
+ *
+ * If no explicit format is set, the output format will match the input image, except SVG input which becomes PNG output.
+ *
+ * By default all metadata will be removed, which includes EXIF-based orientation.
+ * See {@link #withmetadata|withMetadata} for control over this.
+ *
+ * `callback`, if present, gets three arguments `(err, data, info)` where:
+ * - `err` is an error, if any.
+ * - `data` is the output image data.
+ * - `info` contains the output image `format`, `size` (bytes), `width`, `height`,
+ * `channels` and `premultiplied` (indicating if premultiplication was used).
+ * When using a crop strategy also contains `cropOffsetLeft` and `cropOffsetTop`.
+ * May also contain `textAutofitDpi` (dpi the font was rendered at) if image was created from text.
+ *
+ * A `Promise` is returned when `callback` is not provided.
+ *
+ * @example
+ * sharp(input)
+ *   .toBuffer((err, data, info) => { ... });
+ *
+ * @example
+ * sharp(input)
+ *   .toBuffer()
+ *   .then(data => { ... })
+ *   .catch(err => { ... });
+ *
+ * @example
+ * sharp(input)
+ *   .png()
+ *   .toBuffer({ resolveWithObject: true })
+ *   .then(({ data, info }) => { ... })
+ *   .catch(err => { ... });
+ *
+ * @example
+ * const { data, info } = await sharp('my-image.jpg')
+ *   // output the raw pixels
+ *   .raw()
+ *   .toBuffer({ resolveWithObject: true });
+ *
+ * // create a more type safe way to work with the raw pixel data
+ * // this will not copy the data, instead it will change `data`s underlying ArrayBuffer
+ * // so `data` and `pixelArray` point to the same memory location
+ * const pixelArray = new Uint8ClampedArray(data.buffer);
+ *
+ * // When you are done changing the pixelArray, sharp takes the `pixelArray` as an input
+ * const { width, height, channels } = info;
+ * await sharp(pixelArray, { raw: { width, height, channels } })
+ *   .toFile('my-changed-image.jpg');
+ *
+ * @param {Object} [options]
+ * @param {boolean} [options.resolveWithObject] Resolve the Promise with an Object containing `data` and `info` properties instead of resolving only with `data`.
+ * @param {Function} [callback]
+ * @returns {Promise<Buffer>} - when no callback is provided
+ */
+function toBuffer (options, callback) {
+  if (is.object(options)) {
+    this._setBooleanOption('resolveWithObject', options.resolveWithObject);
+  } else if (this.options.resolveWithObject) {
+    this.options.resolveWithObject = false;
+  }
+  this.options.fileOut = '';
+  const stack = Error();
+  return this._pipeline(is.fn(options) ? options : callback, stack);
+}
+
+/**
+ * Keep all EXIF metadata from the input image in the output image.
+ *
+ * EXIF metadata is unsupported for TIFF output.
+ *
+ * @since 0.33.0
+ *
+ * @example
+ * const outputWithExif = await sharp(inputWithExif)
+ *   .keepExif()
+ *   .toBuffer();
+ *
+ * @returns {Sharp}
+ */
+function keepExif () {
+  this.options.keepMetadata |= 0b00001;
+  return this;
+}
+
+/**
+ * Set EXIF metadata in the output image, ignoring any EXIF in the input image.
+ *
+ * @since 0.33.0
+ *
+ * @example
+ * const dataWithExif = await sharp(input)
+ *   .withExif({
+ *     IFD0: {
+ *       Copyright: 'The National Gallery'
+ *     },
+ *     IFD3: {
+ *       GPSLatitudeRef: 'N',
+ *       GPSLatitude: '51/1 30/1 3230/100',
+ *       GPSLongitudeRef: 'W',
+ *       GPSLongitude: '0/1 7/1 4366/100'
+ *     }
+ *   })
+ *   .toBuffer();
+ *
+ * @param {Object<string, Object<string, string>>} exif Object keyed by IFD0, IFD1 etc. of key/value string pairs to write as EXIF data.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function withExif (exif) {
+  if (is.object(exif)) {
+    for (const [ifd, entries] of Object.entries(exif)) {
+      if (is.object(entries)) {
+        for (const [k, v] of Object.entries(entries)) {
+          if (is.string(v)) {
+            this.options.withExif[`exif-${ifd.toLowerCase()}-${k}`] = v;
+          } else {
+            throw is.invalidParameterError(`${ifd}.${k}`, 'string', v);
+          }
+        }
+      } else {
+        throw is.invalidParameterError(ifd, 'object', entries);
+      }
+    }
+  } else {
+    throw is.invalidParameterError('exif', 'object', exif);
+  }
+  this.options.withExifMerge = false;
+  return this.keepExif();
+}
+
+/**
+ * Update EXIF metadata from the input image in the output image.
+ *
+ * @since 0.33.0
+ *
+ * @example
+ * const dataWithMergedExif = await sharp(inputWithExif)
+ *   .withExifMerge({
+ *     IFD0: {
+ *       Copyright: 'The National Gallery'
+ *     }
+ *   })
+ *   .toBuffer();
+ *
+ * @param {Object<string, Object<string, string>>} exif Object keyed by IFD0, IFD1 etc. of key/value string pairs to write as EXIF data.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function withExifMerge (exif) {
+  this.withExif(exif);
+  this.options.withExifMerge = true;
+  return this;
+}
+
+/**
+ * Keep ICC profile from the input image in the output image.
+ *
+ * Where necessary, will attempt to convert the output colour space to match the profile.
+ *
+ * @since 0.33.0
+ *
+ * @example
+ * const outputWithIccProfile = await sharp(inputWithIccProfile)
+ *   .keepIccProfile()
+ *   .toBuffer();
+ *
+ * @returns {Sharp}
+ */
+function keepIccProfile () {
+  this.options.keepMetadata |= 0b01000;
+  return this;
+}
+
+/**
+ * Transform using an ICC profile and attach to the output image.
+ *
+ * This can either be an absolute filesystem path or
+ * built-in profile name (`srgb`, `p3`, `cmyk`).
+ *
+ * @since 0.33.0
+ *
+ * @example
+ * const outputWithP3 = await sharp(input)
+ *   .withIccProfile('p3')
+ *   .toBuffer();
+ *
+ * @param {string} icc - Absolute filesystem path to output ICC profile or built-in profile name (srgb, p3, cmyk).
+ * @param {Object} [options]
+ * @param {number} [options.attach=true] Should the ICC profile be included in the output image metadata?
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function withIccProfile (icc, options) {
+  if (is.string(icc)) {
+    this.options.withIccProfile = icc;
+  } else {
+    throw is.invalidParameterError('icc', 'string', icc);
+  }
+  this.keepIccProfile();
+  if (is.object(options)) {
+    if (is.defined(options.attach)) {
+      if (is.bool(options.attach)) {
+        if (!options.attach) {
+          this.options.keepMetadata &= ~0b01000;
+        }
+      } else {
+        throw is.invalidParameterError('attach', 'boolean', options.attach);
+      }
+    }
+  }
+  return this;
+}
+
+/**
+ * Keep all metadata (EXIF, ICC, XMP, IPTC) from the input image in the output image.
+ *
+ * The default behaviour, when `keepMetadata` is not used, is to convert to the device-independent
+ * sRGB colour space and strip all metadata, including the removal of any ICC profile.
+ *
+ * @since 0.33.0
+ *
+ * @example
+ * const outputWithMetadata = await sharp(inputWithMetadata)
+ *   .keepMetadata()
+ *   .toBuffer();
+ *
+ * @returns {Sharp}
+ */
+function keepMetadata () {
+  this.options.keepMetadata = 0b11111;
+  return this;
+}
+
+/**
+ * Keep most metadata (EXIF, XMP, IPTC) from the input image in the output image.
+ *
+ * This will also convert to and add a web-friendly sRGB ICC profile if appropriate.
+ *
+ * Allows orientation and density to be set or updated.
+ *
+ * @example
+ * const outputSrgbWithMetadata = await sharp(inputRgbWithMetadata)
+ *   .withMetadata()
+ *   .toBuffer();
+ *
+ * @example
+ * // Set output metadata to 96 DPI
+ * const data = await sharp(input)
+ *   .withMetadata({ density: 96 })
+ *   .toBuffer();
+ *
+ * @param {Object} [options]
+ * @param {number} [options.orientation] Used to update the EXIF `Orientation` tag, integer between 1 and 8.
+ * @param {number} [options.density] Number of pixels per inch (DPI).
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function withMetadata (options) {
+  this.keepMetadata();
+  this.withIccProfile('srgb');
+  if (is.object(options)) {
+    if (is.defined(options.orientation)) {
+      if (is.integer(options.orientation) && is.inRange(options.orientation, 1, 8)) {
+        this.options.withMetadataOrientation = options.orientation;
+      } else {
+        throw is.invalidParameterError('orientation', 'integer between 1 and 8', options.orientation);
+      }
+    }
+    if (is.defined(options.density)) {
+      if (is.number(options.density) && options.density > 0) {
+        this.options.withMetadataDensity = options.density;
+      } else {
+        throw is.invalidParameterError('density', 'positive number', options.density);
+      }
+    }
+    if (is.defined(options.icc)) {
+      this.withIccProfile(options.icc);
+    }
+    if (is.defined(options.exif)) {
+      this.withExifMerge(options.exif);
+    }
+  }
+  return this;
+}
+
+/**
+ * Force output to a given format.
+ *
+ * @example
+ * // Convert any input to PNG output
+ * const data = await sharp(input)
+ *   .toFormat('png')
+ *   .toBuffer();
+ *
+ * @param {(string|Object)} format - as a string or an Object with an 'id' attribute
+ * @param {Object} options - output options
+ * @returns {Sharp}
+ * @throws {Error} unsupported format or options
+ */
+function toFormat (format, options) {
+  const actualFormat = formats.get((is.object(format) && is.string(format.id) ? format.id : format).toLowerCase());
+  if (!actualFormat) {
+    throw is.invalidParameterError('format', `one of: ${[...formats.keys()].join(', ')}`, format);
+  }
+  return this[actualFormat](options);
+}
+
+/**
+ * Use these JPEG options for output image.
+ *
+ * @example
+ * // Convert any input to very high quality JPEG output
+ * const data = await sharp(input)
+ *   .jpeg({
+ *     quality: 100,
+ *     chromaSubsampling: '4:4:4'
+ *   })
+ *   .toBuffer();
+ *
+ * @example
+ * // Use mozjpeg to reduce output JPEG file size (slower)
+ * const data = await sharp(input)
+ *   .jpeg({ mozjpeg: true })
+ *   .toBuffer();
+ *
+ * @param {Object} [options] - output options
+ * @param {number} [options.quality=80] - quality, integer 1-100
+ * @param {boolean} [options.progressive=false] - use progressive (interlace) scan
+ * @param {string} [options.chromaSubsampling='4:2:0'] - set to '4:4:4' to prevent chroma subsampling otherwise defaults to '4:2:0' chroma subsampling
+ * @param {boolean} [options.optimiseCoding=true] - optimise Huffman coding tables
+ * @param {boolean} [options.optimizeCoding=true] - alternative spelling of optimiseCoding
+ * @param {boolean} [options.mozjpeg=false] - use mozjpeg defaults, equivalent to `{ trellisQuantisation: true, overshootDeringing: true, optimiseScans: true, quantisationTable: 3 }`
+ * @param {boolean} [options.trellisQuantisation=false] - apply trellis quantisation
+ * @param {boolean} [options.overshootDeringing=false] - apply overshoot deringing
+ * @param {boolean} [options.optimiseScans=false] - optimise progressive scans, forces progressive
+ * @param {boolean} [options.optimizeScans=false] - alternative spelling of optimiseScans
+ * @param {number} [options.quantisationTable=0] - quantization table to use, integer 0-8
+ * @param {number} [options.quantizationTable=0] - alternative spelling of quantisationTable
+ * @param {boolean} [options.force=true] - force JPEG output, otherwise attempt to use input format
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function jpeg (options) {
+  if (is.object(options)) {
+    if (is.defined(options.quality)) {
+      if (is.integer(options.quality) && is.inRange(options.quality, 1, 100)) {
+        this.options.jpegQuality = options.quality;
+      } else {
+        throw is.invalidParameterError('quality', 'integer between 1 and 100', options.quality);
+      }
+    }
+    if (is.defined(options.progressive)) {
+      this._setBooleanOption('jpegProgressive', options.progressive);
+    }
+    if (is.defined(options.chromaSubsampling)) {
+      if (is.string(options.chromaSubsampling) && is.inArray(options.chromaSubsampling, ['4:2:0', '4:4:4'])) {
+        this.options.jpegChromaSubsampling = options.chromaSubsampling;
+      } else {
+        throw is.invalidParameterError('chromaSubsampling', 'one of: 4:2:0, 4:4:4', options.chromaSubsampling);
+      }
+    }
+    const optimiseCoding = is.bool(options.optimizeCoding) ? options.optimizeCoding : options.optimiseCoding;
+    if (is.defined(optimiseCoding)) {
+      this._setBooleanOption('jpegOptimiseCoding', optimiseCoding);
+    }
+    if (is.defined(options.mozjpeg)) {
+      if (is.bool(options.mozjpeg)) {
+        if (options.mozjpeg) {
+          this.options.jpegTrellisQuantisation = true;
+          this.options.jpegOvershootDeringing = true;
+          this.options.jpegOptimiseScans = true;
+          this.options.jpegProgressive = true;
+          this.options.jpegQuantisationTable = 3;
+        }
+      } else {
+        throw is.invalidParameterError('mozjpeg', 'boolean', options.mozjpeg);
+      }
+    }
+    const trellisQuantisation = is.bool(options.trellisQuantization) ? options.trellisQuantization : options.trellisQuantisation;
+    if (is.defined(trellisQuantisation)) {
+      this._setBooleanOption('jpegTrellisQuantisation', trellisQuantisation);
+    }
+    if (is.defined(options.overshootDeringing)) {
+      this._setBooleanOption('jpegOvershootDeringing', options.overshootDeringing);
+    }
+    const optimiseScans = is.bool(options.optimizeScans) ? options.optimizeScans : options.optimiseScans;
+    if (is.defined(optimiseScans)) {
+      this._setBooleanOption('jpegOptimiseScans', optimiseScans);
+      if (optimiseScans) {
+        this.options.jpegProgressive = true;
+      }
+    }
+    const quantisationTable = is.number(options.quantizationTable) ? options.quantizationTable : options.quantisationTable;
+    if (is.defined(quantisationTable)) {
+      if (is.integer(quantisationTable) && is.inRange(quantisationTable, 0, 8)) {
+        this.options.jpegQuantisationTable = quantisationTable;
+      } else {
+        throw is.invalidParameterError('quantisationTable', 'integer between 0 and 8', quantisationTable);
+      }
+    }
+  }
+  return this._updateFormatOut('jpeg', options);
+}
+
+/**
+ * Use these PNG options for output image.
+ *
+ * By default, PNG output is full colour at 8 bits per pixel.
+ *
+ * Indexed PNG input at 1, 2 or 4 bits per pixel is converted to 8 bits per pixel.
+ * Set `palette` to `true` for slower, indexed PNG output.
+ *
+ * For 16 bits per pixel output, convert to `rgb16` via
+ * {@link /api-colour#tocolourspace|toColourspace}.
+ *
+ * @example
+ * // Convert any input to full colour PNG output
+ * const data = await sharp(input)
+ *   .png()
+ *   .toBuffer();
+ *
+ * @example
+ * // Convert any input to indexed PNG output (slower)
+ * const data = await sharp(input)
+ *   .png({ palette: true })
+ *   .toBuffer();
+ *
+ * @example
+ * // Output 16 bits per pixel RGB(A)
+ * const data = await sharp(input)
+ *  .toColourspace('rgb16')
+ *  .png()
+ *  .toBuffer();
+ *
+ * @param {Object} [options]
+ * @param {boolean} [options.progressive=false] - use progressive (interlace) scan
+ * @param {number} [options.compressionLevel=6] - zlib compression level, 0 (fastest, largest) to 9 (slowest, smallest)
+ * @param {boolean} [options.adaptiveFiltering=false] - use adaptive row filtering
+ * @param {boolean} [options.palette=false] - quantise to a palette-based image with alpha transparency support
+ * @param {number} [options.quality=100] - use the lowest number of colours needed to achieve given quality, sets `palette` to `true`
+ * @param {number} [options.effort=7] - CPU effort, between 1 (fastest) and 10 (slowest), sets `palette` to `true`
+ * @param {number} [options.colours=256] - maximum number of palette entries, sets `palette` to `true`
+ * @param {number} [options.colors=256] - alternative spelling of `options.colours`, sets `palette` to `true`
+ * @param {number} [options.dither=1.0] - level of Floyd-Steinberg error diffusion, sets `palette` to `true`
+ * @param {boolean} [options.force=true] - force PNG output, otherwise attempt to use input format
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function png (options) {
+  if (is.object(options)) {
+    if (is.defined(options.progressive)) {
+      this._setBooleanOption('pngProgressive', options.progressive);
+    }
+    if (is.defined(options.compressionLevel)) {
+      if (is.integer(options.compressionLevel) && is.inRange(options.compressionLevel, 0, 9)) {
+        this.options.pngCompressionLevel = options.compressionLevel;
+      } else {
+        throw is.invalidParameterError('compressionLevel', 'integer between 0 and 9', options.compressionLevel);
+      }
+    }
+    if (is.defined(options.adaptiveFiltering)) {
+      this._setBooleanOption('pngAdaptiveFiltering', options.adaptiveFiltering);
+    }
+    const colours = options.colours || options.colors;
+    if (is.defined(colours)) {
+      if (is.integer(colours) && is.inRange(colours, 2, 256)) {
+        this.options.pngBitdepth = bitdepthFromColourCount(colours);
+      } else {
+        throw is.invalidParameterError('colours', 'integer between 2 and 256', colours);
+      }
+    }
+    if (is.defined(options.palette)) {
+      this._setBooleanOption('pngPalette', options.palette);
+    } else if ([options.quality, options.effort, options.colours, options.colors, options.dither].some(is.defined)) {
+      this._setBooleanOption('pngPalette', true);
+    }
+    if (this.options.pngPalette) {
+      if (is.defined(options.quality)) {
+        if (is.integer(options.quality) && is.inRange(options.quality, 0, 100)) {
+          this.options.pngQuality = options.quality;
+        } else {
+          throw is.invalidParameterError('quality', 'integer between 0 and 100', options.quality);
+        }
+      }
+      if (is.defined(options.effort)) {
+        if (is.integer(options.effort) && is.inRange(options.effort, 1, 10)) {
+          this.options.pngEffort = options.effort;
+        } else {
+          throw is.invalidParameterError('effort', 'integer between 1 and 10', options.effort);
+        }
+      }
+      if (is.defined(options.dither)) {
+        if (is.number(options.dither) && is.inRange(options.dither, 0, 1)) {
+          this.options.pngDither = options.dither;
+        } else {
+          throw is.invalidParameterError('dither', 'number between 0.0 and 1.0', options.dither);
+        }
+      }
+    }
+  }
+  return this._updateFormatOut('png', options);
+}
+
+/**
+ * Use these WebP options for output image.
+ *
+ * @example
+ * // Convert any input to lossless WebP output
+ * const data = await sharp(input)
+ *   .webp({ lossless: true })
+ *   .toBuffer();
+ *
+ * @example
+ * // Optimise the file size of an animated WebP
+ * const outputWebp = await sharp(inputWebp, { animated: true })
+ *   .webp({ effort: 6 })
+ *   .toBuffer();
+ *
+ * @param {Object} [options] - output options
+ * @param {number} [options.quality=80] - quality, integer 1-100
+ * @param {number} [options.alphaQuality=100] - quality of alpha layer, integer 0-100
+ * @param {boolean} [options.lossless=false] - use lossless compression mode
+ * @param {boolean} [options.nearLossless=false] - use near_lossless compression mode
+ * @param {boolean} [options.smartSubsample=false] - use high quality chroma subsampling
+ * @param {string} [options.preset='default'] - named preset for preprocessing/filtering, one of: default, photo, picture, drawing, icon, text
+ * @param {number} [options.effort=4] - CPU effort, between 0 (fastest) and 6 (slowest)
+ * @param {number} [options.loop=0] - number of animation iterations, use 0 for infinite animation
+ * @param {number|number[]} [options.delay] - delay(s) between animation frames (in milliseconds)
+ * @param {boolean} [options.minSize=false] - prevent use of animation key frames to minimise file size (slow)
+ * @param {boolean} [options.mixed=false] - allow mixture of lossy and lossless animation frames (slow)
+ * @param {boolean} [options.force=true] - force WebP output, otherwise attempt to use input format
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function webp (options) {
+  if (is.object(options)) {
+    if (is.defined(options.quality)) {
+      if (is.integer(options.quality) && is.inRange(options.quality, 1, 100)) {
+        this.options.webpQuality = options.quality;
+      } else {
+        throw is.invalidParameterError('quality', 'integer between 1 and 100', options.quality);
+      }
+    }
+    if (is.defined(options.alphaQuality)) {
+      if (is.integer(options.alphaQuality) && is.inRange(options.alphaQuality, 0, 100)) {
+        this.options.webpAlphaQuality = options.alphaQuality;
+      } else {
+        throw is.invalidParameterError('alphaQuality', 'integer between 0 and 100', options.alphaQuality);
+      }
+    }
+    if (is.defined(options.lossless)) {
+      this._setBooleanOption('webpLossless', options.lossless);
+    }
+    if (is.defined(options.nearLossless)) {
+      this._setBooleanOption('webpNearLossless', options.nearLossless);
+    }
+    if (is.defined(options.smartSubsample)) {
+      this._setBooleanOption('webpSmartSubsample', options.smartSubsample);
+    }
+    if (is.defined(options.preset)) {
+      if (is.string(options.preset) && is.inArray(options.preset, ['default', 'photo', 'picture', 'drawing', 'icon', 'text'])) {
+        this.options.webpPreset = options.preset;
+      } else {
+        throw is.invalidParameterError('preset', 'one of: default, photo, picture, drawing, icon, text', options.preset);
+      }
+    }
+    if (is.defined(options.effort)) {
+      if (is.integer(options.effort) && is.inRange(options.effort, 0, 6)) {
+        this.options.webpEffort = options.effort;
+      } else {
+        throw is.invalidParameterError('effort', 'integer between 0 and 6', options.effort);
+      }
+    }
+    if (is.defined(options.minSize)) {
+      this._setBooleanOption('webpMinSize', options.minSize);
+    }
+    if (is.defined(options.mixed)) {
+      this._setBooleanOption('webpMixed', options.mixed);
+    }
+  }
+  trySetAnimationOptions(options, this.options);
+  return this._updateFormatOut('webp', options);
+}
+
+/**
+ * Use these GIF options for the output image.
+ *
+ * The first entry in the palette is reserved for transparency.
+ *
+ * The palette of the input image will be re-used if possible.
+ *
+ * @since 0.30.0
+ *
+ * @example
+ * // Convert PNG to GIF
+ * await sharp(pngBuffer)
+ *   .gif()
+ *   .toBuffer();
+ *
+ * @example
+ * // Convert animated WebP to animated GIF
+ * await sharp('animated.webp', { animated: true })
+ *   .toFile('animated.gif');
+ *
+ * @example
+ * // Create a 128x128, cropped, non-dithered, animated thumbnail of an animated GIF
+ * const out = await sharp('in.gif', { animated: true })
+ *   .resize({ width: 128, height: 128 })
+ *   .gif({ dither: 0 })
+ *   .toBuffer();
+ *
+ * @example
+ * // Lossy file size reduction of animated GIF
+ * await sharp('in.gif', { animated: true })
+ *   .gif({ interFrameMaxError: 8 })
+ *   .toFile('optim.gif');
+ *
+ * @param {Object} [options] - output options
+ * @param {boolean} [options.reuse=true] - re-use existing palette, otherwise generate new (slow)
+ * @param {boolean} [options.progressive=false] - use progressive (interlace) scan
+ * @param {number} [options.colours=256] - maximum number of palette entries, including transparency, between 2 and 256
+ * @param {number} [options.colors=256] - alternative spelling of `options.colours`
+ * @param {number} [options.effort=7] - CPU effort, between 1 (fastest) and 10 (slowest)
+ * @param {number} [options.dither=1.0] - level of Floyd-Steinberg error diffusion, between 0 (least) and 1 (most)
+ * @param {number} [options.interFrameMaxError=0] - maximum inter-frame error for transparency, between 0 (lossless) and 32
+ * @param {number} [options.interPaletteMaxError=3] - maximum inter-palette error for palette reuse, between 0 and 256
+ * @param {number} [options.loop=0] - number of animation iterations, use 0 for infinite animation
+ * @param {number|number[]} [options.delay] - delay(s) between animation frames (in milliseconds)
+ * @param {boolean} [options.force=true] - force GIF output, otherwise attempt to use input format
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function gif (options) {
+  if (is.object(options)) {
+    if (is.defined(options.reuse)) {
+      this._setBooleanOption('gifReuse', options.reuse);
+    }
+    if (is.defined(options.progressive)) {
+      this._setBooleanOption('gifProgressive', options.progressive);
+    }
+    const colours = options.colours || options.colors;
+    if (is.defined(colours)) {
+      if (is.integer(colours) && is.inRange(colours, 2, 256)) {
+        this.options.gifBitdepth = bitdepthFromColourCount(colours);
+      } else {
+        throw is.invalidParameterError('colours', 'integer between 2 and 256', colours);
+      }
+    }
+    if (is.defined(options.effort)) {
+      if (is.number(options.effort) && is.inRange(options.effort, 1, 10)) {
+        this.options.gifEffort = options.effort;
+      } else {
+        throw is.invalidParameterError('effort', 'integer between 1 and 10', options.effort);
+      }
+    }
+    if (is.defined(options.dither)) {
+      if (is.number(options.dither) && is.inRange(options.dither, 0, 1)) {
+        this.options.gifDither = options.dither;
+      } else {
+        throw is.invalidParameterError('dither', 'number between 0.0 and 1.0', options.dither);
+      }
+    }
+    if (is.defined(options.interFrameMaxError)) {
+      if (is.number(options.interFrameMaxError) && is.inRange(options.interFrameMaxError, 0, 32)) {
+        this.options.gifInterFrameMaxError = options.interFrameMaxError;
+      } else {
+        throw is.invalidParameterError('interFrameMaxError', 'number between 0.0 and 32.0', options.interFrameMaxError);
+      }
+    }
+    if (is.defined(options.interPaletteMaxError)) {
+      if (is.number(options.interPaletteMaxError) && is.inRange(options.interPaletteMaxError, 0, 256)) {
+        this.options.gifInterPaletteMaxError = options.interPaletteMaxError;
+      } else {
+        throw is.invalidParameterError('interPaletteMaxError', 'number between 0.0 and 256.0', options.interPaletteMaxError);
+      }
+    }
+  }
+  trySetAnimationOptions(options, this.options);
+  return this._updateFormatOut('gif', options);
+}
+
+/* istanbul ignore next */
+/**
+ * Use these JP2 options for output image.
+ *
+ * Requires libvips compiled with support for OpenJPEG.
+ * The prebuilt binaries do not include this - see
+ * {@link https://sharp.pixelplumbing.com/install#custom-libvips installing a custom libvips}.
+ *
+ * @example
+ * // Convert any input to lossless JP2 output
+ * const data = await sharp(input)
+ *   .jp2({ lossless: true })
+ *   .toBuffer();
+ *
+ * @example
+ * // Convert any input to very high quality JP2 output
+ * const data = await sharp(input)
+ *   .jp2({
+ *     quality: 100,
+ *     chromaSubsampling: '4:4:4'
+ *   })
+ *   .toBuffer();
+ *
+ * @since 0.29.1
+ *
+ * @param {Object} [options] - output options
+ * @param {number} [options.quality=80] - quality, integer 1-100
+ * @param {boolean} [options.lossless=false] - use lossless compression mode
+ * @param {number} [options.tileWidth=512] - horizontal tile size
+ * @param {number} [options.tileHeight=512] - vertical tile size
+ * @param {string} [options.chromaSubsampling='4:4:4'] - set to '4:2:0' to use chroma subsampling
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function jp2 (options) {
+  if (!this.constructor.format.jp2k.output.buffer) {
+    throw errJp2Save();
+  }
+  if (is.object(options)) {
+    if (is.defined(options.quality)) {
+      if (is.integer(options.quality) && is.inRange(options.quality, 1, 100)) {
+        this.options.jp2Quality = options.quality;
+      } else {
+        throw is.invalidParameterError('quality', 'integer between 1 and 100', options.quality);
+      }
+    }
+    if (is.defined(options.lossless)) {
+      if (is.bool(options.lossless)) {
+        this.options.jp2Lossless = options.lossless;
+      } else {
+        throw is.invalidParameterError('lossless', 'boolean', options.lossless);
+      }
+    }
+    if (is.defined(options.tileWidth)) {
+      if (is.integer(options.tileWidth) && is.inRange(options.tileWidth, 1, 32768)) {
+        this.options.jp2TileWidth = options.tileWidth;
+      } else {
+        throw is.invalidParameterError('tileWidth', 'integer between 1 and 32768', options.tileWidth);
+      }
+    }
+    if (is.defined(options.tileHeight)) {
+      if (is.integer(options.tileHeight) && is.inRange(options.tileHeight, 1, 32768)) {
+        this.options.jp2TileHeight = options.tileHeight;
+      } else {
+        throw is.invalidParameterError('tileHeight', 'integer between 1 and 32768', options.tileHeight);
+      }
+    }
+    if (is.defined(options.chromaSubsampling)) {
+      if (is.string(options.chromaSubsampling) && is.inArray(options.chromaSubsampling, ['4:2:0', '4:4:4'])) {
+        this.options.jp2ChromaSubsampling = options.chromaSubsampling;
+      } else {
+        throw is.invalidParameterError('chromaSubsampling', 'one of: 4:2:0, 4:4:4', options.chromaSubsampling);
+      }
+    }
+  }
+  return this._updateFormatOut('jp2', options);
+}
+
+/**
+ * Set animation options if available.
+ * @private
+ *
+ * @param {Object} [source] - output options
+ * @param {number} [source.loop=0] - number of animation iterations, use 0 for infinite animation
+ * @param {number[]} [source.delay] - list of delays between animation frames (in milliseconds)
+ * @param {Object} [target] - target object for valid options
+ * @throws {Error} Invalid options
+ */
+function trySetAnimationOptions (source, target) {
+  if (is.object(source) && is.defined(source.loop)) {
+    if (is.integer(source.loop) && is.inRange(source.loop, 0, 65535)) {
+      target.loop = source.loop;
+    } else {
+      throw is.invalidParameterError('loop', 'integer between 0 and 65535', source.loop);
+    }
+  }
+  if (is.object(source) && is.defined(source.delay)) {
+    // We allow singular values as well
+    if (is.integer(source.delay) && is.inRange(source.delay, 0, 65535)) {
+      target.delay = [source.delay];
+    } else if (
+      Array.isArray(source.delay) &&
+      source.delay.every(is.integer) &&
+      source.delay.every(v => is.inRange(v, 0, 65535))) {
+      target.delay = source.delay;
+    } else {
+      throw is.invalidParameterError('delay', 'integer or an array of integers between 0 and 65535', source.delay);
+    }
+  }
+}
+
+/**
+ * Use these TIFF options for output image.
+ *
+ * The `density` can be set in pixels/inch via {@link #withmetadata|withMetadata}
+ * instead of providing `xres` and `yres` in pixels/mm.
+ *
+ * @example
+ * // Convert SVG input to LZW-compressed, 1 bit per pixel TIFF output
+ * sharp('input.svg')
+ *   .tiff({
+ *     compression: 'lzw',
+ *     bitdepth: 1
+ *   })
+ *   .toFile('1-bpp-output.tiff')
+ *   .then(info => { ... });
+ *
+ * @param {Object} [options] - output options
+ * @param {number} [options.quality=80] - quality, integer 1-100
+ * @param {boolean} [options.force=true] - force TIFF output, otherwise attempt to use input format
+ * @param {string} [options.compression='jpeg'] - compression options: none, jpeg, deflate, packbits, ccittfax4, lzw, webp, zstd, jp2k
+ * @param {string} [options.predictor='horizontal'] - compression predictor options: none, horizontal, float
+ * @param {boolean} [options.pyramid=false] - write an image pyramid
+ * @param {boolean} [options.tile=false] - write a tiled tiff
+ * @param {number} [options.tileWidth=256] - horizontal tile size
+ * @param {number} [options.tileHeight=256] - vertical tile size
+ * @param {number} [options.xres=1.0] - horizontal resolution in pixels/mm
+ * @param {number} [options.yres=1.0] - vertical resolution in pixels/mm
+ * @param {string} [options.resolutionUnit='inch'] - resolution unit options: inch, cm
+ * @param {number} [options.bitdepth=8] - reduce bitdepth to 1, 2 or 4 bit
+ * @param {boolean} [options.miniswhite=false] - write 1-bit images as miniswhite
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function tiff (options) {
+  if (is.object(options)) {
+    if (is.defined(options.quality)) {
+      if (is.integer(options.quality) && is.inRange(options.quality, 1, 100)) {
+        this.options.tiffQuality = options.quality;
+      } else {
+        throw is.invalidParameterError('quality', 'integer between 1 and 100', options.quality);
+      }
+    }
+    if (is.defined(options.bitdepth)) {
+      if (is.integer(options.bitdepth) && is.inArray(options.bitdepth, [1, 2, 4, 8])) {
+        this.options.tiffBitdepth = options.bitdepth;
+      } else {
+        throw is.invalidParameterError('bitdepth', '1, 2, 4 or 8', options.bitdepth);
+      }
+    }
+    // tiling
+    if (is.defined(options.tile)) {
+      this._setBooleanOption('tiffTile', options.tile);
+    }
+    if (is.defined(options.tileWidth)) {
+      if (is.integer(options.tileWidth) && options.tileWidth > 0) {
+        this.options.tiffTileWidth = options.tileWidth;
+      } else {
+        throw is.invalidParameterError('tileWidth', 'integer greater than zero', options.tileWidth);
+      }
+    }
+    if (is.defined(options.tileHeight)) {
+      if (is.integer(options.tileHeight) && options.tileHeight > 0) {
+        this.options.tiffTileHeight = options.tileHeight;
+      } else {
+        throw is.invalidParameterError('tileHeight', 'integer greater than zero', options.tileHeight);
+      }
+    }
+    // miniswhite
+    if (is.defined(options.miniswhite)) {
+      this._setBooleanOption('tiffMiniswhite', options.miniswhite);
+    }
+    // pyramid
+    if (is.defined(options.pyramid)) {
+      this._setBooleanOption('tiffPyramid', options.pyramid);
+    }
+    // resolution
+    if (is.defined(options.xres)) {
+      if (is.number(options.xres) && options.xres > 0) {
+        this.options.tiffXres = options.xres;
+      } else {
+        throw is.invalidParameterError('xres', 'number greater than zero', options.xres);
+      }
+    }
+    if (is.defined(options.yres)) {
+      if (is.number(options.yres) && options.yres > 0) {
+        this.options.tiffYres = options.yres;
+      } else {
+        throw is.invalidParameterError('yres', 'number greater than zero', options.yres);
+      }
+    }
+    // compression
+    if (is.defined(options.compression)) {
+      if (is.string(options.compression) && is.inArray(options.compression, ['none', 'jpeg', 'deflate', 'packbits', 'ccittfax4', 'lzw', 'webp', 'zstd', 'jp2k'])) {
+        this.options.tiffCompression = options.compression;
+      } else {
+        throw is.invalidParameterError('compression', 'one of: none, jpeg, deflate, packbits, ccittfax4, lzw, webp, zstd, jp2k', options.compression);
+      }
+    }
+    // predictor
+    if (is.defined(options.predictor)) {
+      if (is.string(options.predictor) && is.inArray(options.predictor, ['none', 'horizontal', 'float'])) {
+        this.options.tiffPredictor = options.predictor;
+      } else {
+        throw is.invalidParameterError('predictor', 'one of: none, horizontal, float', options.predictor);
+      }
+    }
+    // resolutionUnit
+    if (is.defined(options.resolutionUnit)) {
+      if (is.string(options.resolutionUnit) && is.inArray(options.resolutionUnit, ['inch', 'cm'])) {
+        this.options.tiffResolutionUnit = options.resolutionUnit;
+      } else {
+        throw is.invalidParameterError('resolutionUnit', 'one of: inch, cm', options.resolutionUnit);
+      }
+    }
+  }
+  return this._updateFormatOut('tiff', options);
+}
+
+/**
+ * Use these AVIF options for output image.
+ *
+ * AVIF image sequences are not supported.
+ * Prebuilt binaries support a bitdepth of 8 only.
+ *
+ * @example
+ * const data = await sharp(input)
+ *   .avif({ effort: 2 })
+ *   .toBuffer();
+ *
+ * @example
+ * const data = await sharp(input)
+ *   .avif({ lossless: true })
+ *   .toBuffer();
+ *
+ * @since 0.27.0
+ *
+ * @param {Object} [options] - output options
+ * @param {number} [options.quality=50] - quality, integer 1-100
+ * @param {boolean} [options.lossless=false] - use lossless compression
+ * @param {number} [options.effort=4] - CPU effort, between 0 (fastest) and 9 (slowest)
+ * @param {string} [options.chromaSubsampling='4:4:4'] - set to '4:2:0' to use chroma subsampling
+ * @param {number} [options.bitdepth=8] - set bitdepth to 8, 10 or 12 bit
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function avif (options) {
+  return this.heif({ ...options, compression: 'av1' });
+}
+
+/**
+ * Use these HEIF options for output image.
+ *
+ * Support for patent-encumbered HEIC images using `hevc` compression requires the use of a
+ * globally-installed libvips compiled with support for libheif, libde265 and x265.
+ *
+ * @example
+ * const data = await sharp(input)
+ *   .heif({ compression: 'hevc' })
+ *   .toBuffer();
+ *
+ * @since 0.23.0
+ *
+ * @param {Object} options - output options
+ * @param {string} options.compression - compression format: av1, hevc
+ * @param {number} [options.quality=50] - quality, integer 1-100
+ * @param {boolean} [options.lossless=false] - use lossless compression
+ * @param {number} [options.effort=4] - CPU effort, between 0 (fastest) and 9 (slowest)
+ * @param {string} [options.chromaSubsampling='4:4:4'] - set to '4:2:0' to use chroma subsampling
+ * @param {number} [options.bitdepth=8] - set bitdepth to 8, 10 or 12 bit
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function heif (options) {
+  if (is.object(options)) {
+    if (is.string(options.compression) && is.inArray(options.compression, ['av1', 'hevc'])) {
+      this.options.heifCompression = options.compression;
+    } else {
+      throw is.invalidParameterError('compression', 'one of: av1, hevc', options.compression);
+    }
+    if (is.defined(options.quality)) {
+      if (is.integer(options.quality) && is.inRange(options.quality, 1, 100)) {
+        this.options.heifQuality = options.quality;
+      } else {
+        throw is.invalidParameterError('quality', 'integer between 1 and 100', options.quality);
+      }
+    }
+    if (is.defined(options.lossless)) {
+      if (is.bool(options.lossless)) {
+        this.options.heifLossless = options.lossless;
+      } else {
+        throw is.invalidParameterError('lossless', 'boolean', options.lossless);
+      }
+    }
+    if (is.defined(options.effort)) {
+      if (is.integer(options.effort) && is.inRange(options.effort, 0, 9)) {
+        this.options.heifEffort = options.effort;
+      } else {
+        throw is.invalidParameterError('effort', 'integer between 0 and 9', options.effort);
+      }
+    }
+    if (is.defined(options.chromaSubsampling)) {
+      if (is.string(options.chromaSubsampling) && is.inArray(options.chromaSubsampling, ['4:2:0', '4:4:4'])) {
+        this.options.heifChromaSubsampling = options.chromaSubsampling;
+      } else {
+        throw is.invalidParameterError('chromaSubsampling', 'one of: 4:2:0, 4:4:4', options.chromaSubsampling);
+      }
+    }
+    if (is.defined(options.bitdepth)) {
+      if (is.integer(options.bitdepth) && is.inArray(options.bitdepth, [8, 10, 12])) {
+        if (options.bitdepth !== 8 && this.constructor.versions.heif) {
+          throw is.invalidParameterError('bitdepth when using prebuilt binaries', 8, options.bitdepth);
+        }
+        this.options.heifBitdepth = options.bitdepth;
+      } else {
+        throw is.invalidParameterError('bitdepth', '8, 10 or 12', options.bitdepth);
+      }
+    }
+  } else {
+    throw is.invalidParameterError('options', 'Object', options);
+  }
+  return this._updateFormatOut('heif', options);
+}
+
+/**
+ * Use these JPEG-XL (JXL) options for output image.
+ *
+ * This feature is experimental, please do not use in production systems.
+ *
+ * Requires libvips compiled with support for libjxl.
+ * The prebuilt binaries do not include this - see
+ * {@link https://sharp.pixelplumbing.com/install#custom-libvips installing a custom libvips}.
+ *
+ * Image metadata (EXIF, XMP) is unsupported.
+ *
+ * @since 0.31.3
+ *
+ * @param {Object} [options] - output options
+ * @param {number} [options.distance=1.0] - maximum encoding error, between 0 (highest quality) and 15 (lowest quality)
+ * @param {number} [options.quality] - calculate `distance` based on JPEG-like quality, between 1 and 100, overrides distance if specified
+ * @param {number} [options.decodingTier=0] - target decode speed tier, between 0 (highest quality) and 4 (lowest quality)
+ * @param {boolean} [options.lossless=false] - use lossless compression
+ * @param {number} [options.effort=7] - CPU effort, between 3 (fastest) and 9 (slowest)
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function jxl (options) {
+  if (is.object(options)) {
+    if (is.defined(options.quality)) {
+      if (is.integer(options.quality) && is.inRange(options.quality, 1, 100)) {
+        // https://github.com/libjxl/libjxl/blob/0aeea7f180bafd6893c1db8072dcb67d2aa5b03d/tools/cjxl_main.cc#L640-L644
+        this.options.jxlDistance = options.quality >= 30
+          ? 0.1 + (100 - options.quality) * 0.09
+          : 53 / 3000 * options.quality * options.quality - 23 / 20 * options.quality + 25;
+      } else {
+        throw is.invalidParameterError('quality', 'integer between 1 and 100', options.quality);
+      }
+    } else if (is.defined(options.distance)) {
+      if (is.number(options.distance) && is.inRange(options.distance, 0, 15)) {
+        this.options.jxlDistance = options.distance;
+      } else {
+        throw is.invalidParameterError('distance', 'number between 0.0 and 15.0', options.distance);
+      }
+    }
+    if (is.defined(options.decodingTier)) {
+      if (is.integer(options.decodingTier) && is.inRange(options.decodingTier, 0, 4)) {
+        this.options.jxlDecodingTier = options.decodingTier;
+      } else {
+        throw is.invalidParameterError('decodingTier', 'integer between 0 and 4', options.decodingTier);
+      }
+    }
+    if (is.defined(options.lossless)) {
+      if (is.bool(options.lossless)) {
+        this.options.jxlLossless = options.lossless;
+      } else {
+        throw is.invalidParameterError('lossless', 'boolean', options.lossless);
+      }
+    }
+    if (is.defined(options.effort)) {
+      if (is.integer(options.effort) && is.inRange(options.effort, 3, 9)) {
+        this.options.jxlEffort = options.effort;
+      } else {
+        throw is.invalidParameterError('effort', 'integer between 3 and 9', options.effort);
+      }
+    }
+  }
+  return this._updateFormatOut('jxl', options);
+}
+
+/**
+ * Force output to be raw, uncompressed pixel data.
+ * Pixel ordering is left-to-right, top-to-bottom, without padding.
+ * Channel ordering will be RGB or RGBA for non-greyscale colourspaces.
+ *
+ * @example
+ * // Extract raw, unsigned 8-bit RGB pixel data from JPEG input
+ * const { data, info } = await sharp('input.jpg')
+ *   .raw()
+ *   .toBuffer({ resolveWithObject: true });
+ *
+ * @example
+ * // Extract alpha channel as raw, unsigned 16-bit pixel data from PNG input
+ * const data = await sharp('input.png')
+ *   .ensureAlpha()
+ *   .extractChannel(3)
+ *   .toColourspace('b-w')
+ *   .raw({ depth: 'ushort' })
+ *   .toBuffer();
+ *
+ * @param {Object} [options] - output options
+ * @param {string} [options.depth='uchar'] - bit depth, one of: char, uchar (default), short, ushort, int, uint, float, complex, double, dpcomplex
+ * @returns {Sharp}
+ * @throws {Error} Invalid options
+ */
+function raw (options) {
+  if (is.object(options)) {
+    if (is.defined(options.depth)) {
+      if (is.string(options.depth) && is.inArray(options.depth,
+        ['char', 'uchar', 'short', 'ushort', 'int', 'uint', 'float', 'complex', 'double', 'dpcomplex']
+      )) {
+        this.options.rawDepth = options.depth;
+      } else {
+        throw is.invalidParameterError('depth', 'one of: char, uchar, short, ushort, int, uint, float, complex, double, dpcomplex', options.depth);
+      }
+    }
+  }
+  return this._updateFormatOut('raw');
+}
+
+/**
+ * Use tile-based deep zoom (image pyramid) output.
+ *
+ * Set the format and options for tile images via the `toFormat`, `jpeg`, `png` or `webp` functions.
+ * Use a `.zip` or `.szi` file extension with `toFile` to write to a compressed archive file format.
+ *
+ * The container will be set to `zip` when the output is a Buffer or Stream, otherwise it will default to `fs`.
+ *
+ * Requires libvips compiled with support for libgsf.
+ * The prebuilt binaries do not include this - see
+ * {@link https://sharp.pixelplumbing.com/install#custom-libvips installing a custom libvips}.
+ *
+ * @example
+ *  sharp('input.tiff')
+ *   .png()
+ *   .tile({
+ *     size: 512
+ *   })
+ *   .toFile('output.dz', function(err, info) {
+ *     // output.dzi is the Deep Zoom XML definition
+ *     // output_files contains 512x512 tiles grouped by zoom level
+ *   });
+ *
+ * @example
+ * const zipFileWithTiles = await sharp(input)
+ *   .tile({ basename: "tiles" })
+ *   .toBuffer();
+ *
+ * @example
+ * const iiififier = sharp().tile({ layout: "iiif" });
+ * readableStream
+ *   .pipe(iiififier)
+ *   .pipe(writeableStream);
+ *
+ * @param {Object} [options]
+ * @param {number} [options.size=256] tile size in pixels, a value between 1 and 8192.
+ * @param {number} [options.overlap=0] tile overlap in pixels, a value between 0 and 8192.
+ * @param {number} [options.angle=0] tile angle of rotation, must be a multiple of 90.
+ * @param {string|Object} [options.background={r: 255, g: 255, b: 255, alpha: 1}] - background colour, parsed by the [color](https://www.npmjs.org/package/color) module, defaults to white without transparency.
+ * @param {string} [options.depth] how deep to make the pyramid, possible values are `onepixel`, `onetile` or `one`, default based on layout.
+ * @param {number} [options.skipBlanks=-1] Threshold to skip tile generation. Range is 0-255 for 8-bit images, 0-65535 for 16-bit images. Default is 5 for `google` layout, -1 (no skip) otherwise.
+ * @param {string} [options.container='fs'] tile container, with value `fs` (filesystem) or `zip` (compressed file).
+ * @param {string} [options.layout='dz'] filesystem layout, possible values are `dz`, `iiif`, `iiif3`, `zoomify` or `google`.
+ * @param {boolean} [options.centre=false] centre image in tile.
+ * @param {boolean} [options.center=false] alternative spelling of centre.
+ * @param {string} [options.id='https://example.com/iiif'] when `layout` is `iiif`/`iiif3`, sets the `@id`/`id` attribute of `info.json`
+ * @param {string} [options.basename] the name of the directory within the zip file when container is `zip`.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function tile (options) {
+  if (is.object(options)) {
+    // Size of square tiles, in pixels
+    if (is.defined(options.size)) {
+      if (is.integer(options.size) && is.inRange(options.size, 1, 8192)) {
+        this.options.tileSize = options.size;
+      } else {
+        throw is.invalidParameterError('size', 'integer between 1 and 8192', options.size);
+      }
+    }
+    // Overlap of tiles, in pixels
+    if (is.defined(options.overlap)) {
+      if (is.integer(options.overlap) && is.inRange(options.overlap, 0, 8192)) {
+        if (options.overlap > this.options.tileSize) {
+          throw is.invalidParameterError('overlap', `<= size (${this.options.tileSize})`, options.overlap);
+        }
+        this.options.tileOverlap = options.overlap;
+      } else {
+        throw is.invalidParameterError('overlap', 'integer between 0 and 8192', options.overlap);
+      }
+    }
+    // Container
+    if (is.defined(options.container)) {
+      if (is.string(options.container) && is.inArray(options.container, ['fs', 'zip'])) {
+        this.options.tileContainer = options.container;
+      } else {
+        throw is.invalidParameterError('container', 'one of: fs, zip', options.container);
+      }
+    }
+    // Layout
+    if (is.defined(options.layout)) {
+      if (is.string(options.layout) && is.inArray(options.layout, ['dz', 'google', 'iiif', 'iiif3', 'zoomify'])) {
+        this.options.tileLayout = options.layout;
+      } else {
+        throw is.invalidParameterError('layout', 'one of: dz, google, iiif, iiif3, zoomify', options.layout);
+      }
+    }
+    // Angle of rotation,
+    if (is.defined(options.angle)) {
+      if (is.integer(options.angle) && !(options.angle % 90)) {
+        this.options.tileAngle = options.angle;
+      } else {
+        throw is.invalidParameterError('angle', 'positive/negative multiple of 90', options.angle);
+      }
+    }
+    // Background colour
+    this._setBackgroundColourOption('tileBackground', options.background);
+    // Depth of tiles
+    if (is.defined(options.depth)) {
+      if (is.string(options.depth) && is.inArray(options.depth, ['onepixel', 'onetile', 'one'])) {
+        this.options.tileDepth = options.depth;
+      } else {
+        throw is.invalidParameterError('depth', 'one of: onepixel, onetile, one', options.depth);
+      }
+    }
+    // Threshold to skip blank tiles
+    if (is.defined(options.skipBlanks)) {
+      if (is.integer(options.skipBlanks) && is.inRange(options.skipBlanks, -1, 65535)) {
+        this.options.tileSkipBlanks = options.skipBlanks;
+      } else {
+        throw is.invalidParameterError('skipBlanks', 'integer between -1 and 255/65535', options.skipBlanks);
+      }
+    } else if (is.defined(options.layout) && options.layout === 'google') {
+      this.options.tileSkipBlanks = 5;
+    }
+    // Center image in tile
+    const centre = is.bool(options.center) ? options.center : options.centre;
+    if (is.defined(centre)) {
+      this._setBooleanOption('tileCentre', centre);
+    }
+    // @id attribute for IIIF layout
+    if (is.defined(options.id)) {
+      if (is.string(options.id)) {
+        this.options.tileId = options.id;
+      } else {
+        throw is.invalidParameterError('id', 'string', options.id);
+      }
+    }
+    // Basename for zip container
+    if (is.defined(options.basename)) {
+      if (is.string(options.basename)) {
+        this.options.tileBasename = options.basename;
+      } else {
+        throw is.invalidParameterError('basename', 'string', options.basename);
+      }
+    }
+  }
+  // Format
+  if (is.inArray(this.options.formatOut, ['jpeg', 'png', 'webp'])) {
+    this.options.tileFormat = this.options.formatOut;
+  } else if (this.options.formatOut !== 'input') {
+    throw is.invalidParameterError('format', 'one of: jpeg, png, webp', this.options.formatOut);
+  }
+  return this._updateFormatOut('dz');
+}
+
+/**
+ * Set a timeout for processing, in seconds.
+ * Use a value of zero to continue processing indefinitely, the default behaviour.
+ *
+ * The clock starts when libvips opens an input image for processing.
+ * Time spent waiting for a libuv thread to become available is not included.
+ *
+ * @example
+ * // Ensure processing takes no longer than 3 seconds
+ * try {
+ *   const data = await sharp(input)
+ *     .blur(1000)
+ *     .timeout({ seconds: 3 })
+ *     .toBuffer();
+ * } catch (err) {
+ *   if (err.message.includes('timeout')) { ... }
+ * }
+ *
+ * @since 0.29.2
+ *
+ * @param {Object} options
+ * @param {number} options.seconds - Number of seconds after which processing will be stopped
+ * @returns {Sharp}
+ */
+function timeout (options) {
+  if (!is.plainObject(options)) {
+    throw is.invalidParameterError('options', 'object', options);
+  }
+  if (is.integer(options.seconds) && is.inRange(options.seconds, 0, 3600)) {
+    this.options.timeoutSeconds = options.seconds;
+  } else {
+    throw is.invalidParameterError('seconds', 'integer between 0 and 3600', options.seconds);
+  }
+  return this;
+}
+
+/**
+ * Update the output format unless options.force is false,
+ * in which case revert to input format.
+ * @private
+ * @param {string} formatOut
+ * @param {Object} [options]
+ * @param {boolean} [options.force=true] - force output format, otherwise attempt to use input format
+ * @returns {Sharp}
+ */
+function _updateFormatOut (formatOut, options) {
+  if (!(is.object(options) && options.force === false)) {
+    this.options.formatOut = formatOut;
+  }
+  return this;
+}
+
+/**
+ * Update a boolean attribute of the this.options Object.
+ * @private
+ * @param {string} key
+ * @param {boolean} val
+ * @throws {Error} Invalid key
+ */
+function _setBooleanOption (key, val) {
+  if (is.bool(val)) {
+    this.options[key] = val;
+  } else {
+    throw is.invalidParameterError(key, 'boolean', val);
+  }
+}
+
+/**
+ * Called by a WriteableStream to notify us it is ready for data.
+ * @private
+ */
+function _read () {
+  /* istanbul ignore else */
+  if (!this.options.streamOut) {
+    this.options.streamOut = true;
+    const stack = Error();
+    this._pipeline(undefined, stack);
+  }
+}
+
+/**
+ * Invoke the C++ image processing pipeline
+ * Supports callback, stream and promise variants
+ * @private
+ */
+function _pipeline (callback, stack) {
+  if (typeof callback === 'function') {
+    // output=file/buffer
+    if (this._isStreamInput()) {
+      // output=file/buffer, input=stream
+      this.on('finish', () => {
+        this._flattenBufferIn();
+        sharp.pipeline(this.options, (err, data, info) => {
+          if (err) {
+            callback(is.nativeError(err, stack));
+          } else {
+            callback(null, data, info);
+          }
+        });
+      });
+    } else {
+      // output=file/buffer, input=file/buffer
+      sharp.pipeline(this.options, (err, data, info) => {
+        if (err) {
+          callback(is.nativeError(err, stack));
+        } else {
+          callback(null, data, info);
+        }
+      });
+    }
+    return this;
+  } else if (this.options.streamOut) {
+    // output=stream
+    if (this._isStreamInput()) {
+      // output=stream, input=stream
+      this.once('finish', () => {
+        this._flattenBufferIn();
+        sharp.pipeline(this.options, (err, data, info) => {
+          if (err) {
+            this.emit('error', is.nativeError(err, stack));
+          } else {
+            this.emit('info', info);
+            this.push(data);
+          }
+          this.push(null);
+          this.on('end', () => this.emit('close'));
+        });
+      });
+      if (this.streamInFinished) {
+        this.emit('finish');
+      }
+    } else {
+      // output=stream, input=file/buffer
+      sharp.pipeline(this.options, (err, data, info) => {
+        if (err) {
+          this.emit('error', is.nativeError(err, stack));
+        } else {
+          this.emit('info', info);
+          this.push(data);
+        }
+        this.push(null);
+        this.on('end', () => this.emit('close'));
+      });
+    }
+    return this;
+  } else {
+    // output=promise
+    if (this._isStreamInput()) {
+      // output=promise, input=stream
+      return new Promise((resolve, reject) => {
+        this.once('finish', () => {
+          this._flattenBufferIn();
+          sharp.pipeline(this.options, (err, data, info) => {
+            if (err) {
+              reject(is.nativeError(err, stack));
+            } else {
+              if (this.options.resolveWithObject) {
+                resolve({ data, info });
+              } else {
+                resolve(data);
+              }
+            }
+          });
+        });
+      });
+    } else {
+      // output=promise, input=file/buffer
+      return new Promise((resolve, reject) => {
+        sharp.pipeline(this.options, (err, data, info) => {
+          if (err) {
+            reject(is.nativeError(err, stack));
+          } else {
+            if (this.options.resolveWithObject) {
+              resolve({ data, info });
+            } else {
+              resolve(data);
+            }
+          }
+        });
+      });
+    }
+  }
+}
+
+/**
+ * Decorate the Sharp prototype with output-related functions.
+ * @private
+ */
+module.exports = function (Sharp) {
+  Object.assign(Sharp.prototype, {
+    // Public
+    toFile,
+    toBuffer,
+    keepExif,
+    withExif,
+    withExifMerge,
+    keepIccProfile,
+    withIccProfile,
+    keepMetadata,
+    withMetadata,
+    toFormat,
+    jpeg,
+    jp2,
+    png,
+    webp,
+    tiff,
+    avif,
+    heif,
+    jxl,
+    gif,
+    raw,
+    tile,
+    timeout,
+    // Private
+    _updateFormatOut,
+    _setBooleanOption,
+    _read,
+    _pipeline
+  });
+};
+
+
+/***/ }),
+
+/***/ 6253:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const is = __nccwpck_require__(6818);
+
+/**
+ * Weighting to apply when using contain/cover fit.
+ * @member
+ * @private
+ */
+const gravity = {
+  center: 0,
+  centre: 0,
+  north: 1,
+  east: 2,
+  south: 3,
+  west: 4,
+  northeast: 5,
+  southeast: 6,
+  southwest: 7,
+  northwest: 8
+};
+
+/**
+ * Position to apply when using contain/cover fit.
+ * @member
+ * @private
+ */
+const position = {
+  top: 1,
+  right: 2,
+  bottom: 3,
+  left: 4,
+  'right top': 5,
+  'right bottom': 6,
+  'left bottom': 7,
+  'left top': 8
+};
+
+/**
+ * How to extend the image.
+ * @member
+ * @private
+ */
+const extendWith = {
+  background: 'background',
+  copy: 'copy',
+  repeat: 'repeat',
+  mirror: 'mirror'
+};
+
+/**
+ * Strategies for automagic cover behaviour.
+ * @member
+ * @private
+ */
+const strategy = {
+  entropy: 16,
+  attention: 17
+};
+
+/**
+ * Reduction kernels.
+ * @member
+ * @private
+ */
+const kernel = {
+  nearest: 'nearest',
+  linear: 'linear',
+  cubic: 'cubic',
+  mitchell: 'mitchell',
+  lanczos2: 'lanczos2',
+  lanczos3: 'lanczos3'
+};
+
+/**
+ * Methods by which an image can be resized to fit the provided dimensions.
+ * @member
+ * @private
+ */
+const fit = {
+  contain: 'contain',
+  cover: 'cover',
+  fill: 'fill',
+  inside: 'inside',
+  outside: 'outside'
+};
+
+/**
+ * Map external fit property to internal canvas property.
+ * @member
+ * @private
+ */
+const mapFitToCanvas = {
+  contain: 'embed',
+  cover: 'crop',
+  fill: 'ignore_aspect',
+  inside: 'max',
+  outside: 'min'
+};
+
+/**
+ * @private
+ */
+function isRotationExpected (options) {
+  return (options.angle % 360) !== 0 || options.useExifOrientation === true || options.rotationAngle !== 0;
+}
+
+/**
+ * @private
+ */
+function isResizeExpected (options) {
+  return options.width !== -1 || options.height !== -1;
+}
+
+/**
+ * Resize image to `width`, `height` or `width x height`.
+ *
+ * When both a `width` and `height` are provided, the possible methods by which the image should **fit** these are:
+ * - `cover`: (default) Preserving aspect ratio, attempt to ensure the image covers both provided dimensions by cropping/clipping to fit.
+ * - `contain`: Preserving aspect ratio, contain within both provided dimensions using "letterboxing" where necessary.
+ * - `fill`: Ignore the aspect ratio of the input and stretch to both provided dimensions.
+ * - `inside`: Preserving aspect ratio, resize the image to be as large as possible while ensuring its dimensions are less than or equal to both those specified.
+ * - `outside`: Preserving aspect ratio, resize the image to be as small as possible while ensuring its dimensions are greater than or equal to both those specified.
+ *
+ * Some of these values are based on the [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) CSS property.
+ *
+ * <img alt="Examples of various values for the fit property when resizing" width="100%" style="aspect-ratio: 998/243" src="https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg">
+ *
+ * When using a **fit** of `cover` or `contain`, the default **position** is `centre`. Other options are:
+ * - `sharp.position`: `top`, `right top`, `right`, `right bottom`, `bottom`, `left bottom`, `left`, `left top`.
+ * - `sharp.gravity`: `north`, `northeast`, `east`, `southeast`, `south`, `southwest`, `west`, `northwest`, `center` or `centre`.
+ * - `sharp.strategy`: `cover` only, dynamically crop using either the `entropy` or `attention` strategy.
+ *
+ * Some of these values are based on the [object-position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) CSS property.
+ *
+ * The strategy-based approach initially resizes so one dimension is at its target length
+ * then repeatedly ranks edge regions, discarding the edge with the lowest score based on the selected strategy.
+ * - `entropy`: focus on the region with the highest [Shannon entropy](https://en.wikipedia.org/wiki/Entropy_%28information_theory%29).
+ * - `attention`: focus on the region with the highest luminance frequency, colour saturation and presence of skin tones.
+ *
+ * Possible downsizing kernels are:
+ * - `nearest`: Use [nearest neighbour interpolation](http://en.wikipedia.org/wiki/Nearest-neighbor_interpolation).
+ * - `linear`: Use a [triangle filter](https://en.wikipedia.org/wiki/Triangular_function).
+ * - `cubic`: Use a [Catmull-Rom spline](https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline).
+ * - `mitchell`: Use a [Mitchell-Netravali spline](https://www.cs.utexas.edu/~fussell/courses/cs384g-fall2013/lectures/mitchell/Mitchell.pdf).
+ * - `lanczos2`: Use a [Lanczos kernel](https://en.wikipedia.org/wiki/Lanczos_resampling#Lanczos_kernel) with `a=2`.
+ * - `lanczos3`: Use a Lanczos kernel with `a=3` (the default).
+ *
+ * When upsampling, these kernels map to `nearest`, `linear` and `cubic` interpolators.
+ * Downsampling kernels without a matching upsampling interpolator map to `cubic`.
+ *
+ * Only one resize can occur per pipeline.
+ * Previous calls to `resize` in the same pipeline will be ignored.
+ *
+ * @example
+ * sharp(input)
+ *   .resize({ width: 100 })
+ *   .toBuffer()
+ *   .then(data => {
+ *     // 100 pixels wide, auto-scaled height
+ *   });
+ *
+ * @example
+ * sharp(input)
+ *   .resize({ height: 100 })
+ *   .toBuffer()
+ *   .then(data => {
+ *     // 100 pixels high, auto-scaled width
+ *   });
+ *
+ * @example
+ * sharp(input)
+ *   .resize(200, 300, {
+ *     kernel: sharp.kernel.nearest,
+ *     fit: 'contain',
+ *     position: 'right top',
+ *     background: { r: 255, g: 255, b: 255, alpha: 0.5 }
+ *   })
+ *   .toFile('output.png')
+ *   .then(() => {
+ *     // output.png is a 200 pixels wide and 300 pixels high image
+ *     // containing a nearest-neighbour scaled version
+ *     // contained within the north-east corner of a semi-transparent white canvas
+ *   });
+ *
+ * @example
+ * const transformer = sharp()
+ *   .resize({
+ *     width: 200,
+ *     height: 200,
+ *     fit: sharp.fit.cover,
+ *     position: sharp.strategy.entropy
+ *   });
+ * // Read image data from readableStream
+ * // Write 200px square auto-cropped image data to writableStream
+ * readableStream
+ *   .pipe(transformer)
+ *   .pipe(writableStream);
+ *
+ * @example
+ * sharp(input)
+ *   .resize(200, 200, {
+ *     fit: sharp.fit.inside,
+ *     withoutEnlargement: true
+ *   })
+ *   .toFormat('jpeg')
+ *   .toBuffer()
+ *   .then(function(outputBuffer) {
+ *     // outputBuffer contains JPEG image data
+ *     // no wider and no higher than 200 pixels
+ *     // and no larger than the input image
+ *   });
+ *
+ * @example
+ * sharp(input)
+ *   .resize(200, 200, {
+ *     fit: sharp.fit.outside,
+ *     withoutReduction: true
+ *   })
+ *   .toFormat('jpeg')
+ *   .toBuffer()
+ *   .then(function(outputBuffer) {
+ *     // outputBuffer contains JPEG image data
+ *     // of at least 200 pixels wide and 200 pixels high while maintaining aspect ratio
+ *     // and no smaller than the input image
+ *   });
+ *
+ * @example
+ * const scaleByHalf = await sharp(input)
+ *   .metadata()
+ *   .then(({ width }) => sharp(input)
+ *     .resize(Math.round(width * 0.5))
+ *     .toBuffer()
+ *   );
+ *
+ * @param {number} [width] - How many pixels wide the resultant image should be. Use `null` or `undefined` to auto-scale the width to match the height.
+ * @param {number} [height] - How many pixels high the resultant image should be. Use `null` or `undefined` to auto-scale the height to match the width.
+ * @param {Object} [options]
+ * @param {number} [options.width] - An alternative means of specifying `width`. If both are present this takes priority.
+ * @param {number} [options.height] - An alternative means of specifying `height`. If both are present this takes priority.
+ * @param {String} [options.fit='cover'] - How the image should be resized/cropped to fit the target dimension(s), one of `cover`, `contain`, `fill`, `inside` or `outside`.
+ * @param {String} [options.position='centre'] - A position, gravity or strategy to use when `fit` is `cover` or `contain`.
+ * @param {String|Object} [options.background={r: 0, g: 0, b: 0, alpha: 1}] - background colour when `fit` is `contain`, parsed by the [color](https://www.npmjs.org/package/color) module, defaults to black without transparency.
+ * @param {String} [options.kernel='lanczos3'] - The kernel to use for image reduction and the inferred interpolator to use for upsampling. Use the `fastShrinkOnLoad` option to control kernel vs shrink-on-load.
+ * @param {Boolean} [options.withoutEnlargement=false] - Do not scale up if the width *or* height are already less than the target dimensions, equivalent to GraphicsMagick's `>` geometry option. This may result in output dimensions smaller than the target dimensions.
+ * @param {Boolean} [options.withoutReduction=false] - Do not scale down if the width *or* height are already greater than the target dimensions, equivalent to GraphicsMagick's `<` geometry option. This may still result in a crop to reach the target dimensions.
+ * @param {Boolean} [options.fastShrinkOnLoad=true] - Take greater advantage of the JPEG and WebP shrink-on-load feature, which can lead to a slight moiré pattern or round-down of an auto-scaled dimension.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function resize (widthOrOptions, height, options) {
+  if (isResizeExpected(this.options)) {
+    this.options.debuglog('ignoring previous resize options');
+  }
+  if (this.options.widthPost !== -1) {
+    this.options.debuglog('operation order will be: extract, resize, extract');
+  }
+  if (is.defined(widthOrOptions)) {
+    if (is.object(widthOrOptions) && !is.defined(options)) {
+      options = widthOrOptions;
+    } else if (is.integer(widthOrOptions) && widthOrOptions > 0) {
+      this.options.width = widthOrOptions;
+    } else {
+      throw is.invalidParameterError('width', 'positive integer', widthOrOptions);
+    }
+  } else {
+    this.options.width = -1;
+  }
+  if (is.defined(height)) {
+    if (is.integer(height) && height > 0) {
+      this.options.height = height;
+    } else {
+      throw is.invalidParameterError('height', 'positive integer', height);
+    }
+  } else {
+    this.options.height = -1;
+  }
+  if (is.object(options)) {
+    // Width
+    if (is.defined(options.width)) {
+      if (is.integer(options.width) && options.width > 0) {
+        this.options.width = options.width;
+      } else {
+        throw is.invalidParameterError('width', 'positive integer', options.width);
+      }
+    }
+    // Height
+    if (is.defined(options.height)) {
+      if (is.integer(options.height) && options.height > 0) {
+        this.options.height = options.height;
+      } else {
+        throw is.invalidParameterError('height', 'positive integer', options.height);
+      }
+    }
+    // Fit
+    if (is.defined(options.fit)) {
+      const canvas = mapFitToCanvas[options.fit];
+      if (is.string(canvas)) {
+        this.options.canvas = canvas;
+      } else {
+        throw is.invalidParameterError('fit', 'valid fit', options.fit);
+      }
+    }
+    // Position
+    if (is.defined(options.position)) {
+      const pos = is.integer(options.position)
+        ? options.position
+        : strategy[options.position] || position[options.position] || gravity[options.position];
+      if (is.integer(pos) && (is.inRange(pos, 0, 8) || is.inRange(pos, 16, 17))) {
+        this.options.position = pos;
+      } else {
+        throw is.invalidParameterError('position', 'valid position/gravity/strategy', options.position);
+      }
+    }
+    // Background
+    this._setBackgroundColourOption('resizeBackground', options.background);
+    // Kernel
+    if (is.defined(options.kernel)) {
+      if (is.string(kernel[options.kernel])) {
+        this.options.kernel = kernel[options.kernel];
+      } else {
+        throw is.invalidParameterError('kernel', 'valid kernel name', options.kernel);
+      }
+    }
+    // Without enlargement
+    if (is.defined(options.withoutEnlargement)) {
+      this._setBooleanOption('withoutEnlargement', options.withoutEnlargement);
+    }
+    // Without reduction
+    if (is.defined(options.withoutReduction)) {
+      this._setBooleanOption('withoutReduction', options.withoutReduction);
+    }
+    // Shrink on load
+    if (is.defined(options.fastShrinkOnLoad)) {
+      this._setBooleanOption('fastShrinkOnLoad', options.fastShrinkOnLoad);
+    }
+  }
+  if (isRotationExpected(this.options) && isResizeExpected(this.options)) {
+    this.options.rotateBeforePreExtract = true;
+  }
+  return this;
+}
+
+/**
+ * Extend / pad / extrude one or more edges of the image with either
+ * the provided background colour or pixels derived from the image.
+ * This operation will always occur after resizing and extraction, if any.
+ *
+ * @example
+ * // Resize to 140 pixels wide, then add 10 transparent pixels
+ * // to the top, left and right edges and 20 to the bottom edge
+ * sharp(input)
+ *   .resize(140)
+ *   .extend({
+ *     top: 10,
+ *     bottom: 20,
+ *     left: 10,
+ *     right: 10,
+ *     background: { r: 0, g: 0, b: 0, alpha: 0 }
+ *   })
+ *   ...
+ *
+* @example
+ * // Add a row of 10 red pixels to the bottom
+ * sharp(input)
+ *   .extend({
+ *     bottom: 10,
+ *     background: 'red'
+ *   })
+ *   ...
+ *
+ * @example
+ * // Extrude image by 8 pixels to the right, mirroring existing right hand edge
+ * sharp(input)
+ *   .extend({
+ *     right: 8,
+ *     background: 'mirror'
+ *   })
+ *   ...
+ *
+ * @param {(number|Object)} extend - single pixel count to add to all edges or an Object with per-edge counts
+ * @param {number} [extend.top=0]
+ * @param {number} [extend.left=0]
+ * @param {number} [extend.bottom=0]
+ * @param {number} [extend.right=0]
+ * @param {String} [extend.extendWith='background'] - populate new pixels using this method, one of: background, copy, repeat, mirror.
+ * @param {String|Object} [extend.background={r: 0, g: 0, b: 0, alpha: 1}] - background colour, parsed by the [color](https://www.npmjs.org/package/color) module, defaults to black without transparency.
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+*/
+function extend (extend) {
+  if (is.integer(extend) && extend > 0) {
+    this.options.extendTop = extend;
+    this.options.extendBottom = extend;
+    this.options.extendLeft = extend;
+    this.options.extendRight = extend;
+  } else if (is.object(extend)) {
+    if (is.defined(extend.top)) {
+      if (is.integer(extend.top) && extend.top >= 0) {
+        this.options.extendTop = extend.top;
+      } else {
+        throw is.invalidParameterError('top', 'positive integer', extend.top);
+      }
+    }
+    if (is.defined(extend.bottom)) {
+      if (is.integer(extend.bottom) && extend.bottom >= 0) {
+        this.options.extendBottom = extend.bottom;
+      } else {
+        throw is.invalidParameterError('bottom', 'positive integer', extend.bottom);
+      }
+    }
+    if (is.defined(extend.left)) {
+      if (is.integer(extend.left) && extend.left >= 0) {
+        this.options.extendLeft = extend.left;
+      } else {
+        throw is.invalidParameterError('left', 'positive integer', extend.left);
+      }
+    }
+    if (is.defined(extend.right)) {
+      if (is.integer(extend.right) && extend.right >= 0) {
+        this.options.extendRight = extend.right;
+      } else {
+        throw is.invalidParameterError('right', 'positive integer', extend.right);
+      }
+    }
+    this._setBackgroundColourOption('extendBackground', extend.background);
+    if (is.defined(extend.extendWith)) {
+      if (is.string(extendWith[extend.extendWith])) {
+        this.options.extendWith = extendWith[extend.extendWith];
+      } else {
+        throw is.invalidParameterError('extendWith', 'one of: background, copy, repeat, mirror', extend.extendWith);
+      }
+    }
+  } else {
+    throw is.invalidParameterError('extend', 'integer or object', extend);
+  }
+  return this;
+}
+
+/**
+ * Extract/crop a region of the image.
+ *
+ * - Use `extract` before `resize` for pre-resize extraction.
+ * - Use `extract` after `resize` for post-resize extraction.
+ * - Use `extract` twice and `resize` once for extract-then-resize-then-extract in a fixed operation order.
+ *
+ * @example
+ * sharp(input)
+ *   .extract({ left: left, top: top, width: width, height: height })
+ *   .toFile(output, function(err) {
+ *     // Extract a region of the input image, saving in the same format.
+ *   });
+ * @example
+ * sharp(input)
+ *   .extract({ left: leftOffsetPre, top: topOffsetPre, width: widthPre, height: heightPre })
+ *   .resize(width, height)
+ *   .extract({ left: leftOffsetPost, top: topOffsetPost, width: widthPost, height: heightPost })
+ *   .toFile(output, function(err) {
+ *     // Extract a region, resize, then extract from the resized image
+ *   });
+ *
+ * @param {Object} options - describes the region to extract using integral pixel values
+ * @param {number} options.left - zero-indexed offset from left edge
+ * @param {number} options.top - zero-indexed offset from top edge
+ * @param {number} options.width - width of region to extract
+ * @param {number} options.height - height of region to extract
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function extract (options) {
+  const suffix = isResizeExpected(this.options) || this.options.widthPre !== -1 ? 'Post' : 'Pre';
+  if (this.options[`width${suffix}`] !== -1) {
+    this.options.debuglog('ignoring previous extract options');
+  }
+  ['left', 'top', 'width', 'height'].forEach(function (name) {
+    const value = options[name];
+    if (is.integer(value) && value >= 0) {
+      this.options[name + (name === 'left' || name === 'top' ? 'Offset' : '') + suffix] = value;
+    } else {
+      throw is.invalidParameterError(name, 'integer', value);
+    }
+  }, this);
+  // Ensure existing rotation occurs before pre-resize extraction
+  if (isRotationExpected(this.options) && !isResizeExpected(this.options)) {
+    if (this.options.widthPre === -1 || this.options.widthPost === -1) {
+      this.options.rotateBeforePreExtract = true;
+    }
+  }
+  return this;
+}
+
+/**
+ * Trim pixels from all edges that contain values similar to the given background colour, which defaults to that of the top-left pixel.
+ *
+ * Images with an alpha channel will use the combined bounding box of alpha and non-alpha channels.
+ *
+ * If the result of this operation would trim an image to nothing then no change is made.
+ *
+ * The `info` response Object will contain `trimOffsetLeft` and `trimOffsetTop` properties.
+ *
+ * @example
+ * // Trim pixels with a colour similar to that of the top-left pixel.
+ * await sharp(input)
+ *   .trim()
+ *   .toFile(output);
+ *
+ * @example
+ * // Trim pixels with the exact same colour as that of the top-left pixel.
+ * await sharp(input)
+ *   .trim({
+ *     threshold: 0
+ *   })
+ *   .toFile(output);
+ *
+ * @example
+ * // Assume input is line art and trim only pixels with a similar colour to red.
+ * const output = await sharp(input)
+ *   .trim({
+ *     background: "#FF0000",
+ *     lineArt: true
+ *   })
+ *   .toBuffer();
+ *
+ * @example
+ * // Trim all "yellow-ish" pixels, being more lenient with the higher threshold.
+ * const output = await sharp(input)
+ *   .trim({
+ *     background: "yellow",
+ *     threshold: 42,
+ *   })
+ *   .toBuffer();
+ *
+ * @param {Object} [options]
+ * @param {string|Object} [options.background='top-left pixel'] - Background colour, parsed by the [color](https://www.npmjs.org/package/color) module, defaults to that of the top-left pixel.
+ * @param {number} [options.threshold=10] - Allowed difference from the above colour, a positive number.
+ * @param {boolean} [options.lineArt=false] - Does the input more closely resemble line art (e.g. vector) rather than being photographic?
+ * @returns {Sharp}
+ * @throws {Error} Invalid parameters
+ */
+function trim (options) {
+  this.options.trimThreshold = 10;
+  if (is.defined(options)) {
+    if (is.object(options)) {
+      if (is.defined(options.background)) {
+        this._setBackgroundColourOption('trimBackground', options.background);
+      }
+      if (is.defined(options.threshold)) {
+        if (is.number(options.threshold) && options.threshold >= 0) {
+          this.options.trimThreshold = options.threshold;
+        } else {
+          throw is.invalidParameterError('threshold', 'positive number', options.threshold);
+        }
+      }
+      if (is.defined(options.lineArt)) {
+        this._setBooleanOption('trimLineArt', options.lineArt);
+      }
+    } else {
+      throw is.invalidParameterError('trim', 'object', options);
+    }
+  }
+  if (isRotationExpected(this.options)) {
+    this.options.rotateBeforePreExtract = true;
+  }
+  return this;
+}
+
+/**
+ * Decorate the Sharp prototype with resize-related functions.
+ * @private
+ */
+module.exports = function (Sharp) {
+  Object.assign(Sharp.prototype, {
+    resize,
+    extend,
+    extract,
+    trim
+  });
+  // Class attributes
+  Sharp.gravity = gravity;
+  Sharp.strategy = strategy;
+  Sharp.kernel = kernel;
+  Sharp.fit = fit;
+  Sharp.position = position;
+};
+
+
+/***/ }),
+
+/***/ 4899:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+// Inspects the runtime environment and exports the relevant sharp.node binary
+
+const { familySync, versionSync } = __nccwpck_require__(4889);
+
+const { runtimePlatformArch, isUnsupportedNodeRuntime, prebuiltPlatforms, minimumLibvipsVersion } = __nccwpck_require__(8224);
+const runtimePlatform = runtimePlatformArch();
+
+const paths = [
+  `../src/build/Release/sharp-${runtimePlatform}.node`,
+  '../src/build/Release/sharp-wasm32.node',
+  `@img/sharp-${runtimePlatform}/sharp.node`,
+  '@img/sharp-wasm32/sharp.node'
+];
+
+let sharp;
+const errors = [];
+for (const path of paths) {
+  try {
+    sharp = require(path);
+    break;
+  } catch (err) {
+    /* istanbul ignore next */
+    errors.push(err);
+  }
+}
+
+/* istanbul ignore next */
+if (sharp) {
+  module.exports = sharp;
+} else {
+  const [isLinux, isMacOs, isWindows] = ['linux', 'darwin', 'win32'].map(os => runtimePlatform.startsWith(os));
+
+  const help = [`Could not load the "sharp" module using the ${runtimePlatform} runtime`];
+  errors.forEach(err => {
+    if (err.code !== 'MODULE_NOT_FOUND') {
+      help.push(`${err.code}: ${err.message}`);
+    }
+  });
+  const messages = errors.map(err => err.message).join(' ');
+  help.push('Possible solutions:');
+  // Common error messages
+  if (isUnsupportedNodeRuntime()) {
+    const { found, expected } = isUnsupportedNodeRuntime();
+    help.push(
+      '- Please upgrade Node.js:',
+      `    Found ${found}`,
+      `    Requires ${expected}`
+    );
+  } else if (prebuiltPlatforms.includes(runtimePlatform)) {
+    const [os, cpu] = runtimePlatform.split('-');
+    const libc = os.endsWith('musl') ? ' --libc=musl' : '';
+    help.push(
+      '- Ensure optional dependencies can be installed:',
+      '    npm install --include=optional sharp',
+      '    yarn add sharp --ignore-engines',
+      '- Ensure your package manager supports multi-platform installation:',
+      '    See https://sharp.pixelplumbing.com/install#cross-platform',
+      '- Add platform-specific dependencies:',
+      `    npm install --os=${os.replace('musl', '')}${libc} --cpu=${cpu} sharp`
+    );
+  } else {
+    help.push(
+      `- Manually install libvips >= ${minimumLibvipsVersion}`,
+      '- Add experimental WebAssembly-based dependencies:',
+      '    npm install --cpu=wasm32 sharp',
+      '    npm install @img/sharp-wasm32'
+    );
+  }
+  if (isLinux && /(symbol not found|CXXABI_)/i.test(messages)) {
+    try {
+      const { engines } = require(`@img/sharp-libvips-${runtimePlatform}/package`);
+      const libcFound = `${familySync()} ${versionSync()}`;
+      const libcRequires = `${engines.musl ? 'musl' : 'glibc'} ${engines.musl || engines.glibc}`;
+      help.push(
+        '- Update your OS:',
+        `    Found ${libcFound}`,
+        `    Requires ${libcRequires}`
+      );
+    } catch (errEngines) {}
+  }
+  if (isLinux && /\/snap\/core[0-9]{2}/.test(messages)) {
+    help.push(
+      '- Remove the Node.js Snap, which does not support native modules',
+      '    snap remove node'
+    );
+  }
+  if (isMacOs && /Incompatible library version/.test(messages)) {
+    help.push(
+      '- Update Homebrew:',
+      '    brew update && brew upgrade vips'
+    );
+  }
+  if (errors.some(err => err.code === 'ERR_DLOPEN_DISABLED')) {
+    help.push('- Run Node.js without using the --no-addons flag');
+  }
+  // Link to installation docs
+  if (isWindows && /The specified procedure could not be found/.test(messages)) {
+    help.push(
+      '- Using the canvas package on Windows?',
+      '    See https://sharp.pixelplumbing.com/install#canvas-and-windows',
+      '- Check for outdated versions of sharp in the dependency tree:',
+      '    npm ls sharp'
+    );
+  }
+  help.push(
+    '- Consult the installation documentation:',
+    '    See https://sharp.pixelplumbing.com/install'
+  );
+  throw new Error(help.join('\n'));
+}
+
+
+/***/ }),
+
+/***/ 5988:
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
+
+"use strict";
+// Copyright 2013 Lovell Fuller and others.
+// SPDX-License-Identifier: Apache-2.0
+
+
+
+const events = __nccwpck_require__(5673);
+const detectLibc = __nccwpck_require__(4889);
+
+const is = __nccwpck_require__(6818);
+const { runtimePlatformArch } = __nccwpck_require__(8224);
+const sharp = __nccwpck_require__(4899);
+
+const runtimePlatform = runtimePlatformArch();
+const libvipsVersion = sharp.libvipsVersion();
+
+/**
+ * An Object containing nested boolean values representing the available input and output formats/methods.
+ * @member
+ * @example
+ * console.log(sharp.format);
+ * @returns {Object}
+ */
+const format = sharp.format();
+format.heif.output.alias = ['avif', 'heic'];
+format.jpeg.output.alias = ['jpe', 'jpg'];
+format.tiff.output.alias = ['tif'];
+format.jp2k.output.alias = ['j2c', 'j2k', 'jp2', 'jpx'];
+
+/**
+ * An Object containing the available interpolators and their proper values
+ * @readonly
+ * @enum {string}
+ */
+const interpolators = {
+  /** [Nearest neighbour interpolation](http://en.wikipedia.org/wiki/Nearest-neighbor_interpolation). Suitable for image enlargement only. */
+  nearest: 'nearest',
+  /** [Bilinear interpolation](http://en.wikipedia.org/wiki/Bilinear_interpolation). Faster than bicubic but with less smooth results. */
+  bilinear: 'bilinear',
+  /** [Bicubic interpolation](http://en.wikipedia.org/wiki/Bicubic_interpolation) (the default). */
+  bicubic: 'bicubic',
+  /** [LBB interpolation](https://github.com/libvips/libvips/blob/master/libvips/resample/lbb.cpp#L100). Prevents some "[acutance](http://en.wikipedia.org/wiki/Acutance)" but typically reduces performance by a factor of 2. */
+  locallyBoundedBicubic: 'lbb',
+  /** [Nohalo interpolation](http://eprints.soton.ac.uk/268086/). Prevents acutance but typically reduces performance by a factor of 3. */
+  nohalo: 'nohalo',
+  /** [VSQBS interpolation](https://github.com/libvips/libvips/blob/master/libvips/resample/vsqbs.cpp#L48). Prevents "staircasing" when enlarging. */
+  vertexSplitQuadraticBasisSpline: 'vsqbs'
+};
+
+/**
+ * An Object containing the version numbers of sharp, libvips
+ * and (when using prebuilt binaries) its dependencies.
+ *
+ * @member
+ * @example
+ * console.log(sharp.versions);
+ */
+let versions = {
+  vips: libvipsVersion.semver
+};
+/* istanbul ignore next */
+if (!libvipsVersion.isGlobal) {
+  if (!libvipsVersion.isWasm) {
+    try {
+      versions = require(`@img/sharp-${runtimePlatform}/versions`);
+    } catch (_) {
+      try {
+        versions = require(`@img/sharp-libvips-${runtimePlatform}/versions`);
+      } catch (_) {}
+    }
+  } else {
+    try {
+      versions = __nccwpck_require__(996);
+    } catch (_) {}
+  }
+}
+versions.sharp = (__nccwpck_require__(200).version);
+
+/**
+ * Gets or, when options are provided, sets the limits of _libvips'_ operation cache.
+ * Existing entries in the cache will be trimmed after any change in limits.
+ * This method always returns cache statistics,
+ * useful for determining how much working memory is required for a particular task.
+ *
+ * @example
+ * const stats = sharp.cache();
+ * @example
+ * sharp.cache( { items: 200 } );
+ * sharp.cache( { files: 0 } );
+ * sharp.cache(false);
+ *
+ * @param {Object|boolean} [options=true] - Object with the following attributes, or boolean where true uses default cache settings and false removes all caching
+ * @param {number} [options.memory=50] - is the maximum memory in MB to use for this cache
+ * @param {number} [options.files=20] - is the maximum number of files to hold open
+ * @param {number} [options.items=100] - is the maximum number of operations to cache
+ * @returns {Object}
+ */
+function cache (options) {
+  if (is.bool(options)) {
+    if (options) {
+      // Default cache settings of 50MB, 20 files, 100 items
+      return sharp.cache(50, 20, 100);
+    } else {
+      return sharp.cache(0, 0, 0);
+    }
+  } else if (is.object(options)) {
+    return sharp.cache(options.memory, options.files, options.items);
+  } else {
+    return sharp.cache();
+  }
+}
+cache(true);
+
+/**
+ * Gets or, when a concurrency is provided, sets
+ * the maximum number of threads _libvips_ should use to process _each image_.
+ * These are from a thread pool managed by glib,
+ * which helps avoid the overhead of creating new threads.
+ *
+ * This method always returns the current concurrency.
+ *
+ * The default value is the number of CPU cores,
+ * except when using glibc-based Linux without jemalloc,
+ * where the default is `1` to help reduce memory fragmentation.
+ *
+ * A value of `0` will reset this to the number of CPU cores.
+ *
+ * Some image format libraries spawn additional threads,
+ * e.g. libaom manages its own 4 threads when encoding AVIF images,
+ * and these are independent of the value set here.
+ *
+ * The maximum number of images that sharp can process in parallel
+ * is controlled by libuv's `UV_THREADPOOL_SIZE` environment variable,
+ * which defaults to 4.
+ *
+ * https://nodejs.org/api/cli.html#uv_threadpool_sizesize
+ *
+ * For example, by default, a machine with 8 CPU cores will process
+ * 4 images in parallel and use up to 8 threads per image,
+ * so there will be up to 32 concurrent threads.
+ *
+ * @example
+ * const threads = sharp.concurrency(); // 4
+ * sharp.concurrency(2); // 2
+ * sharp.concurrency(0); // 4
+ *
+ * @param {number} [concurrency]
+ * @returns {number} concurrency
+ */
+function concurrency (concurrency) {
+  return sharp.concurrency(is.integer(concurrency) ? concurrency : null);
+}
+/* istanbul ignore next */
+if (detectLibc.familySync() === detectLibc.GLIBC && !sharp._isUsingJemalloc()) {
+  // Reduce default concurrency to 1 when using glibc memory allocator
+  sharp.concurrency(1);
+} else if (detectLibc.familySync() === detectLibc.MUSL && sharp.concurrency() === 1024) {
+  // Reduce default concurrency when musl thread over-subscription detected
+  sharp.concurrency((__nccwpck_require__(612).availableParallelism)());
+}
+
+/**
+ * An EventEmitter that emits a `change` event when a task is either:
+ * - queued, waiting for _libuv_ to provide a worker thread
+ * - complete
+ * @member
+ * @example
+ * sharp.queue.on('change', function(queueLength) {
+ *   console.log('Queue contains ' + queueLength + ' task(s)');
+ * });
+ */
+const queue = new events.EventEmitter();
+
+/**
+ * Provides access to internal task counters.
+ * - queue is the number of tasks this module has queued waiting for _libuv_ to provide a worker thread from its pool.
+ * - process is the number of resize tasks currently being processed.
+ *
+ * @example
+ * const counters = sharp.counters(); // { queue: 2, process: 4 }
+ *
+ * @returns {Object}
+ */
+function counters () {
+  return sharp.counters();
+}
+
+/**
+ * Get and set use of SIMD vector unit instructions.
+ * Requires libvips to have been compiled with highway support.
+ *
+ * Improves the performance of `resize`, `blur` and `sharpen` operations
+ * by taking advantage of the SIMD vector unit of the CPU, e.g. Intel SSE and ARM NEON.
+ *
+ * @example
+ * const simd = sharp.simd();
+ * // simd is `true` if the runtime use of highway is currently enabled
+ * @example
+ * const simd = sharp.simd(false);
+ * // prevent libvips from using highway at runtime
+ *
+ * @param {boolean} [simd=true]
+ * @returns {boolean}
+ */
+function simd (simd) {
+  return sharp.simd(is.bool(simd) ? simd : null);
+}
+
+/**
+ * Block libvips operations at runtime.
+ *
+ * This is in addition to the `VIPS_BLOCK_UNTRUSTED` environment variable,
+ * which when set will block all "untrusted" operations.
+ *
+ * @since 0.32.4
+ *
+ * @example <caption>Block all TIFF input.</caption>
+ * sharp.block({
+ *   operation: ['VipsForeignLoadTiff']
+ * });
+ *
+ * @param {Object} options
+ * @param {Array<string>} options.operation - List of libvips low-level operation names to block.
+ */
+function block (options) {
+  if (is.object(options)) {
+    if (Array.isArray(options.operation) && options.operation.every(is.string)) {
+      sharp.block(options.operation, true);
+    } else {
+      throw is.invalidParameterError('operation', 'Array<string>', options.operation);
+    }
+  } else {
+    throw is.invalidParameterError('options', 'object', options);
+  }
+}
+
+/**
+ * Unblock libvips operations at runtime.
+ *
+ * This is useful for defining a list of allowed operations.
+ *
+ * @since 0.32.4
+ *
+ * @example <caption>Block all input except WebP from the filesystem.</caption>
+ * sharp.block({
+ *   operation: ['VipsForeignLoad']
+ * });
+ * sharp.unblock({
+ *   operation: ['VipsForeignLoadWebpFile']
+ * });
+ *
+ * @example <caption>Block all input except JPEG and PNG from a Buffer or Stream.</caption>
+ * sharp.block({
+ *   operation: ['VipsForeignLoad']
+ * });
+ * sharp.unblock({
+ *   operation: ['VipsForeignLoadJpegBuffer', 'VipsForeignLoadPngBuffer']
+ * });
+ *
+ * @param {Object} options
+ * @param {Array<string>} options.operation - List of libvips low-level operation names to unblock.
+ */
+function unblock (options) {
+  if (is.object(options)) {
+    if (Array.isArray(options.operation) && options.operation.every(is.string)) {
+      sharp.block(options.operation, false);
+    } else {
+      throw is.invalidParameterError('operation', 'Array<string>', options.operation);
+    }
+  } else {
+    throw is.invalidParameterError('options', 'object', options);
+  }
+}
+
+/**
+ * Decorate the Sharp class with utility-related functions.
+ * @private
+ */
+module.exports = function (Sharp) {
+  Sharp.cache = cache;
+  Sharp.concurrency = concurrency;
+  Sharp.counters = counters;
+  Sharp.simd = simd;
+  Sharp.format = format;
+  Sharp.interpolators = interpolators;
+  Sharp.versions = versions;
+  Sharp.queue = queue;
+  Sharp.block = block;
+  Sharp.unblock = unblock;
+};
+
+
+/***/ }),
+
 /***/ 3651:
 /***/ ((module) => {
 
 "use strict";
 module.exports = JSON.parse('[{"nom":"𤾓𢆥𥪞𡎝𠊛些","quocngu":"Trăm năm trong cõi người ta,"},{"nom":"𡨸才𡨸命窖󰑼恄饒","quocngu":"Chữ tài chữ mệnh khéo là ghét nhau."},{"nom":"󰠵戈没局𣷭橷","quocngu":"Trải qua một cuộc bể dâu,"},{"nom":"仍調𬖉𧡊㐌𤴬疸𢚸","quocngu":"Những điều trông thấy đã đau đớn lòng."},{"nom":"𨔍之彼嗇斯豊","quocngu":"Lạ gì bỉ sắc tư phong,"},{"nom":"𡗶撑涓貝𦟐紅打悭","quocngu":"Trời xanh quen với má hồng đánh ghen."},{"nom":"稿𦹳吝󰇾𠓀畑","quocngu":"Cảo thơm lần giở trước đèn,"},{"nom":"風情固錄群傳史撑","quocngu":"Phong tình có lục còn truyền sử xanh."},{"nom":"浪𢆥嘉靖朝明","quocngu":"Rằng: Năm Gia Tĩnh triều Minh,"},{"nom":"𦊚方𪹚𣼽𠄩京凭鐄","quocngu":"Bốn phương phẳng lặng, hai kinh vững vàng."},{"nom":"固茹員外户王","quocngu":"Có nhà Viên ngoại họ Vương,"},{"nom":"家資擬拱常常堛中","quocngu":"Gia tư nghĩ cũng thường thường bậc trung."},{"nom":"没𤳆𡥵次𣖢𢚸","quocngu":"Một trai con thứ rốt lòng,"},{"nom":"王觀󰑼𡨸綏𣳔儒家","quocngu":"Vương Quan là chữ nối dòng nho gia."},{"nom":"頭𢚸𠄩妸素娥","quocngu":"Đầu lòng hai ả tố nga,"},{"nom":"翠翹󰑼姉㛪󰑼翠雲","quocngu":"Thuý Kiều là chị, em là Thuý Vân."},{"nom":"枚骨格雪精神","quocngu":"Mai cốt cách, tuyết tinh thần,"},{"nom":"没𠊛没𨤔𨑮分院𨑮","quocngu":"Một người một vẻ mười phân vẹn mười."},{"nom":"雲󰏙莊重恪潙","quocngu":"Vân xem trang trọng khác vời,"},{"nom":"囷𦝄苔惮󰞺𧍋𦬑囊","quocngu":"Khuôn trăng đầy đặn, nét ngài nở nang."},{"nom":"花唭玉説端莊","quocngu":"Hoa cười ngọc thốt đoan trang,"},{"nom":"𩄲輸渃𩯀雪讓牟䏧","quocngu":"Mây thua nước tóc, tuyết nhường màu da."},{"nom":"翹強色稍漫𣻕","quocngu":"Kiều càng sắc sảo mặn mà,"},{"nom":"搊皮才色吏󰑼分欣","quocngu":"So bề tài sắc lại là phần hơn."},{"nom":"灡秋水󰞺春山","quocngu":"Làn thu thuỷ, nét xuân sơn,"},{"nom":"花悭輸𧺀柳𪬡歛撑","quocngu":"Hoa ghen thua thắm, liễu hờn kém xanh."},{"nom":"󰜋堆迎渃迎城","quocngu":"Một đôi nghiêng nước nghiêng thành,"},{"nom":"色停隊没才停和𠄩","quocngu":"Sắc đành đòi một, tài đành hoạ hai."},{"nom":"聰明本産性𡗶","quocngu":"Thông minh vốn sẵn tính trời,"},{"nom":"坡芸詩畫𨇜味󰞻吟","quocngu":"Pha nghề thi hoạ, đủ mùi ca ngâm."},{"nom":"宮商漏堛五音","quocngu":"Cung thương làu bậc ngũ âm,"},{"nom":"芸𥢆咹坦胡琹没張","quocngu":"Nghề riêng ăn đứt Hồ cầm một trương."},{"nom":"曲茄𢬣捛𢧚章","quocngu":"Khúc nhà tay lựa nên chương,"},{"nom":"没篇薄命吏強󰞽人","quocngu":"Một thiên Bạc mệnh lại càng não nhân."},{"nom":"風流窒墨紅裙","quocngu":"Phong lưu rất mực hồng quần,"},{"nom":"春撑執齒細旬及筭","quocngu":"Xuân xanh xấp xỉ tới tuần cập kê."},{"nom":"㤿𧛋帳𢷀幔𩂏","quocngu":"Êm niềm trướng rủ màn che,"},{"nom":"墻東蜂𧊉𠫾𧗱默埃","quocngu":"Tường đông ong bướm đi về mặc ai."},{"nom":"節皮𡥵燕迻梭","quocngu":"Tiết vừa con én đưa thoi,"},{"nom":"韶光𠃩𨔿㐌外𦒹𨑮","quocngu":"Thiều quang chín chục đã ngoài sáu mươi."},{"nom":"𦹵𡽫撑羡蹎𡗶","quocngu":"Cỏ non xanh tận chân trời,"},{"nom":"梗梨𤽸點󰜋𢽼󱖮花","quocngu":"Cành lê trắng điểm một vài bông hoa."},{"nom":"清明𥪞節𣎃𠀧","quocngu":"Thanh minh trong tiết tháng ba,"},{"nom":"礼󰑼掃墓哙󰑼踏清","quocngu":"Lễ là tảo mộ, gọi là đạp thanh."},{"nom":"𧵆賒奴󱋨燕嬰","quocngu":"Gần xa nô nức yến anh,"},{"nom":"姉㛪懺所步行𨔈春","quocngu":"Chị em sắm sửa bộ hành chơi xuân."},{"nom":"習耀才子佳人","quocngu":"Dập dìu tài tử giai nhân,"},{"nom":"馭車如渃襖裙如𣑻","quocngu":"Ngựa xe như nước, áo quần như nêm."},{"nom":"衮昂塸埬𢹣𨖲","quocngu":"Ngổn ngang gò đống kéo lên,"},{"nom":"梭鐄鈽𫽘烣殘紙󰒆","quocngu":"Thoi vàng búa rắc, tro tàn giấy bay."},{"nom":"斜斜䏾我𧗱西","quocngu":"Tà tà bóng ngả về tây,"},{"nom":"姉㛪他矧攔𢬣𦋦𧗱","quocngu":"Chị em thơ thẩn dan tay ra về."},{"nom":"𨀈寅蹺𦰟小溪","quocngu":"Bước dần theo ngọn tiểu khê,"},{"nom":"吝󰏙風景固皮清清","quocngu":"Lần xem phong cảnh có bề thanh thanh."},{"nom":"󰅉󰅉𣳔渃捥觥","quocngu":"Nao nao dòng nước uốn quanh,"},{"nom":"𣜿橋儒𡮈𡳳𡌿北昂","quocngu":"Nhịp cầu nho nhỏ cuối ghềnh bắc ngang."},{"nom":"茌茌捻坦邊塘","quocngu":"Sè sè nắm đất bên đàng,"},{"nom":"油油𦰟𦹵姅鐄姅撑","quocngu":"Dàu dàu ngọn cỏ nửa vàng nửa xanh."},{"nom":"浪𬁖𥪞節清明","quocngu":"Rằng: \\"Sao trong tiết thanh minh,"},{"nom":"麻低香𤌋永醒世麻","quocngu":"Mà đây hương khói vắng tanh thế mà?\\""},{"nom":"王觀買引𧵆賒","quocngu":"Vương Quan mới dẫn gần xa:"},{"nom":"淡仙娘𧘇初󰑼󰞻兒","quocngu":"Đạm Tiên nàng ấy xưa là ca nhi."},{"nom":"浽名才色没時","quocngu":"Nổi danh tài sắc một thì,"},{"nom":"𠮿嗃外𨷶劎之燕鸚","quocngu":"Xôn xao ngoài cửa kém gì yến anh."},{"nom":"刼紅顔固蒙萌","quocngu":"Kiếp hồng nhan có mong manh,"},{"nom":"姅澄春脱技梗天香","quocngu":"Nửa chừng xuân thoắt gãy cành thiên hương."},{"nom":"固𠊛客於遠方","quocngu":"Có người khách ở viễn phương,"},{"nom":"賒𦖑拱󱋨㗂娘尋制","quocngu":"Xa nghe cũng nức tiếng nàng tìm chơi."},{"nom":"船情皮󰠼旦尼","quocngu":"Thuyền tình vừa ghé đến nơi,"},{"nom":"時㐌簪技󰜍淶包𣇞","quocngu":"Thì đà trâm gãy bình rơi bao giờ."},{"nom":"󰟀空冷𡴯如詞","quocngu":"Buồng không lạnh ngất như tờ,"},{"nom":"𨁪車馭㐌󰷳瀘𣻕撑","quocngu":"Dấu xe ngựa đã rêu lờ mờ xanh."},{"nom":"哭嘆坤掣事情","quocngu":"Khóc than khôn xiết sự tình,"},{"nom":"窖無緣閉󰑼命貝些","quocngu":"Khéo vô duyên bấy là mình với ta."},{"nom":"㐌空縁畧庄麻","quocngu":"Đã không duyên trước chăng mà,"},{"nom":"時之𡭧約哙󰑼縁𡢐","quocngu":"Thì chi chút ước gọi là duyên sau."},{"nom":"懺生攝梓車珠","quocngu":"Sắm xanh nếp tử xe châu,"},{"nom":"𡏧燶没捻默油𦹵花","quocngu":"Vùi nông một nắm mặc dầu cỏ hoa."},{"nom":"𣦆包兎𣵰鵶斜","quocngu":"Trải bao thỏ lặn ác tà,"},{"nom":"𧘇墓無主埃麻咏𠶀","quocngu":"Ấy mồ vô chủ ai mà viếng thăm.\\""},{"nom":"𢚸󰠲産𤷱傷心","quocngu":"Lòng đâu sẵn món thương tâm,"},{"nom":"説𦖑翹㐌潭潭珠沙","quocngu":"Thoắt nghe Kiều đã đầm đầm châu sa."},{"nom":"𤴬疸台分弹󰜏","quocngu":"Đau đớn thay phận đàn bà,"},{"nom":"𠳒󰑼分薄拱󰑼𠳒終","quocngu":"Lời là phận bạc cũng là lời chung."},{"nom":"負旁之貝化工","quocngu":"Phũ phàng chi mấy hoá công,"},{"nom":"𣈜撑𤷱痗𦟐紅配坡","quocngu":"Ngày xanh mòn mỏi má hồng phôi pha."},{"nom":"𤯨辰情󰝸𥢆埃","quocngu":"Sống thì tình chẳng riêng ai,"},{"nom":"窖台托𬺗𦋦𠊛情空","quocngu":"Khéo thay thác xuống ra người tình không!"},{"nom":"󰅹𠊛鳯乍鸞終","quocngu":"Nào người phượng chạ loan chung,"},{"nom":"󰅹𠊛惜綠貪紅󰑼埃","quocngu":"Nào người tiếc lục tham hồng là ai?"},{"nom":"㐌空几兑𠊛懷","quocngu":"Đã không kẻ đoái người hoài,"},{"nom":"産低些劎没𠄽𥘀香","quocngu":"Sẵn đây ta kiếm một vài nén hương."},{"nom":"哙󰑼﨤𫽻𫡉塘","quocngu":"Gọi là gặp gỡ giữa đường,"},{"nom":"和󰑼𠊛𠁑𤂬鐄别朱","quocngu":"Hoạ là người dưới suối vàng biết cho.\\""},{"nom":"啉𠽍哏㗑𡮈𫰅","quocngu":"Lầm rầm khấn vái nhỏ to,"},{"nom":"拉𡎦把𦹵畧墓𨀈𦋦","quocngu":"Sụp ngồi bả cỏ trước mồ bước ra."},{"nom":"没漨𦹵愛䏾斜","quocngu":"Một vùng cỏ áy bóng tà,"},{"nom":"󰊄囂囂𠺙没𢽼𦰟𦰤","quocngu":"Gió hiu hiu thổi một vài ngọn lau."},{"nom":"𢯰簪産㩫𠃅頭","quocngu":"Rút trâm sẵn giắt mái đầu,"},{"nom":"拍䏧核咏𦊚勾𠀧韻","quocngu":"Vạch da cây vịnh bốn câu ba vần."},{"nom":"吏強迷𢠨心神","quocngu":"Lại càng mê mẩn tâm thần,"},{"nom":"吏強𥪸朗秦銀𫽄𦋦","quocngu":"Lại càng đứng lặng tần ngần chẳng ra."},{"nom":"吏強塢湥󰞺花","quocngu":"Lại càng ủ dột nét hoa,"},{"nom":"愁𣻆坦綏珠沙𥐆𨱽","quocngu":"Sầu tuôn đứt nối, châu sa vắn dài."},{"nom":"雲浪姉拱𠽋唭","quocngu":"Vân rằng: \\"Chị cũng nực cười,"},{"nom":"窖餘渃眜哭𠊛𠁀初","quocngu":"Khéo dư nước mắt khóc người đời xưa.\\""},{"nom":"浪紅顔自𠦳初","quocngu":"Rằng: \\"Hồng nhan tự nghìn xưa,"},{"nom":"丐調薄命固除埃󰠳","quocngu":"Cái điều bạc mệnh có chừa ai đâu."},{"nom":"浽念想典𦓡𤴬","quocngu":"Nỗi niềm tưởng đến mà đau,"},{"nom":"𧡊𠊛𬛩妬别𡢐世󰅹","quocngu":"Thấy người nằm đó biết sau thế nào?\\""},{"nom":"觀浪姉呐咍牢","quocngu":"Quan rằng: \\"Chị nói hay sao,"},{"nom":"没調󰑼没運𠓨苦𦖑","quocngu":"Một điều là một vận vào khó nghe."},{"nom":"於低陰氣𥘀泥","quocngu":"Ở đây âm khí nặng nề,"},{"nom":"䏾朝㐌我𨤮槐群賒","quocngu":"Bóng chiều đã ngả, dặm hòe còn xa.\\""},{"nom":"翹浪仍等才花","quocngu":"Kiều rằng: \\"Những đấng tài hoa,"},{"nom":"𣩂󰑼体魄群󰑼精󰠰","quocngu":"Chết là thể phách, còn là tinh anh."},{"nom":"易台情吏﨤情","quocngu":"Dễ thay tình lại gặp tình."},{"nom":"徐󰏙乙𧡊顯靈悲𣇞","quocngu":"Chờ xem ắt thấy hiển linh bây giờ.\\""},{"nom":"没𠳒呐渚及䜹","quocngu":"Một lời nói chửa kịp thưa,"},{"nom":"丿󰠳陣󰊄捲旗典𣦍","quocngu":"Phút đâu trận gió cuốn cờ đến ngay."},{"nom":"泑泑覩祿拸核","quocngu":"Ào ào đổ lộc đưa cây,"},{"nom":"於𥪝羕固香𠖤𠃣𡗉","quocngu":"Ở trong dường có hương bay ít nhiều."},{"nom":"提澄𦰟󰊄吝蹺","quocngu":"Đè chừng ngọn gió lần theo,"},{"nom":"𨁪𩌂曾𨀈󰷳印停停","quocngu":"Dấu giày từng bước rêu in rành rành."},{"nom":"𩈘𥆾埃乃調驚","quocngu":"Mặt nhìn ai nấy đều kinh,"},{"nom":"娘浪尼寔精誠𫽄賒","quocngu":"Nàng rằng: \\"Này thực tinh thành chẳng xa."},{"nom":"有情些吏﨤些","quocngu":"Hữu tình ta lại gặp ta,"},{"nom":"𫽄泥幽顯買󰑼姉㛪","quocngu":"Chẳng nề u hiển mới là chị em.\\""},{"nom":"㐌𢚸顯現朱󰏙","quocngu":"Đã lòng hiển hiện cho xem,"},{"nom":"謝𢚸娘吏綏添𢽼𠳒","quocngu":"Tạ lòng nàng lại nối thêm vài lời."},{"nom":"𢚸䜹淶𣼽𥟍徊","quocngu":"Lòng thơ lai láng bồi hồi,"},{"nom":"㭲核吏拍没排古詩","quocngu":"Gốc cây lại vạch một bài cổ thi."},{"nom":"用浪姅於姅𧗱","quocngu":"Dùng dằng nửa ở nửa về,"},{"nom":"樂鐄󰠳㐌㗂𦖑𧵆𧵆","quocngu":"Nhạc vàng đâu đã tiếng nghe gần gần."},{"nom":"𬖉澄𧡊没文人","quocngu":"Trông chừng thấy một văn nhân,"},{"nom":"弄𢶻𢬣叩𨀈吝𨤮冰","quocngu":"Lỏng buông tay khấu bước lần dặm băng."},{"nom":"提𢹂𦝄襊󰊄𦝄","quocngu":"Đề huề lưng túi gió trăng,"},{"nom":"𡢐蹎蹺󰜋𠄽繩𡥵𡥵","quocngu":"Sau chân theo một vài thằng con con."},{"nom":"雪印色馭󰙃𤶐","quocngu":"Tuyết in sắc ngựa câu giòn,"},{"nom":"𦹵坡味襖染𡽫䏧𡗶","quocngu":"Cỏ pha màu áo nhuộm non da trời."},{"nom":"裊賒買𤏣𩈘𠊛","quocngu":"Nẻo xa mới tỏ mặt người,"},{"nom":"客陀𬺗馭細尼敘情","quocngu":"Khách đà xuống ngựa tới nơi tự tình."},{"nom":"鞋文吝𨀈𨤮撑","quocngu":"Hài văn lần bước dặm xanh,"},{"nom":"没𡓄如体核瓊梗瑤","quocngu":"Một vùng như thể cây quỳnh cành dao."},{"nom":"払王捐󰘚𦋦嘲","quocngu":"Chàng Vương quen mặt ra chào,"},{"nom":"𠄩翹𠵱󰘚納𠓨𠁑花","quocngu":"Hai kiều e mặt nép vào dưới hoa."},{"nom":"原𠊛觥橘󰠳賒","quocngu":"Nguyên người quanh quất đâu xa,"},{"nom":"户金𠸜重本茹簪纓","quocngu":"Họ Kim tên Trọng vốn nhà trâm anh."},{"nom":"𪤍富貴堛才名","quocngu":"Nền phú quí, bậc tài danh,"},{"nom":"文章󰞺坦聰明性𡗶","quocngu":"Văn chương nết đất, thông minh tính trời."},{"nom":"天資才貌捽撝","quocngu":"Thiên tư tài mạo tót vời,"},{"nom":"𠓨𥪞風雅𦋦外豪花","quocngu":"Vào trong phong nhã, ra ngoài hào hoa."},{"nom":"終觥刎坦渃茹","quocngu":"Chung quanh vẫn đất nước nhà,"},{"nom":"貝王觀𫏾刎󰑼同親","quocngu":"Với Vương Quan trước vẫn là đồng thân."},{"nom":"刎𦖑𦹳𠽋鄕隣","quocngu":"Vẫn nghe thơm nức hương lân,"},{"nom":"没𪤍銅雀鎖春𠄩嬌","quocngu":"Một nền Đồng Tước khoá xuân hai Kiều."},{"nom":"渃𡽫隔󰋇󰟀桃","quocngu":"Nước non cách mấy buồng điều,"},{"nom":"仍󰑼濫唒󰠐妖祝蒙","quocngu":"Những là trộm dấu thầm yêu chốc mòng."},{"nom":"枚台解逅相逢","quocngu":"May thay giải cấu tương phùng,"},{"nom":"﨤旬妬𦲿妥𢚸尋花","quocngu":"Gặp tuần đố lá, thoả lòng tìm hoa."},{"nom":"䏾紅落𧡊裊賒","quocngu":"Bóng hồng nhác thấy nẻo xa,"},{"nom":"春蘭秋菊漫麻奇𠄩","quocngu":"Xuân lan thu cúc mặn mà cả hai."},{"nom":"𠊛國色几天才","quocngu":"Người quốc sắc, kẻ thiên tài,"},{"nom":"情𥪞如㐌󰘚外群𠵱","quocngu":"Tình trong như đã, mặt ngoài còn e."},{"nom":"執廛干省干迷","quocngu":"Chập chờn cơn tỉnh cơn mê"},{"nom":"󰟱𡎢𫽄便𢴑𧗱㐱坤","quocngu":"Rốn ngồi chẳng tiện, dứt về chỉn khôn."},{"nom":"䏾斜如逐干盆","quocngu":"Bóng tà như giục cơn buồn,"},{"nom":"客陀𬺗馭𠊛群𥊘蹺","quocngu":"Khách đà xuống ngựa người còn nghé theo."},{"nom":"󰡈溪渃沚𤄯漂","quocngu":"Dưới khe nước chảy trong veo,"},{"nom":"邊求絲柳䏾朝㐌𦋦","quocngu":"Bên cầu tơ liễu bóng chiều đã ra."},{"nom":"翹自𧿨𨃴帳花","quocngu":"Kiều từ trở gót trướng hoa,"},{"nom":"󰘚𡗶典坦鉦陀收空","quocngu":"Mặt trời đến đất, chiêng đà thu không."},{"nom":"𦎛娥永永慈窻","quocngu":"Gương nga vành vạnh từ song."},{"nom":"鐄招痕渃核𪱨䏾𡑝","quocngu":"Vàng gieo ngấn nước, cây lồng bóng sân."},{"nom":"海棠扡𦰟東鄰","quocngu":"Hải đường lả ngọn đông lân,"},{"nom":"湥霜撩𥘀梗春󰑼陀","quocngu":"Giọt sương treo nặng, cành xuân la đà."},{"nom":"没命𤎜𥋴素娥","quocngu":"Một mình rạng ngắm tố nga,"},{"nom":"遁塘賒買浽賒排排","quocngu":"Rộn đường xa với nỗi xa bời bời."},{"nom":"𠊛麻典世時催","quocngu":"Người mà đến thế thì thôi,"},{"nom":"𠁀繁花拱󰑼𠁀補𠫾","quocngu":"Đời phồn hoa cũng là đời bỏ đi."},{"nom":"𠊛󰠳﨤𫽻爫之","quocngu":"Người đâu gặp gỡ làm chi,"},{"nom":"𤾓𢆥別固緣之台空","quocngu":"Trăm năm biết có duyên gì thay không?\\""},{"nom":"衮昂𤾓䋦邊𢚸","quocngu":"Ngổn ngang trăm mối bên lòng,"},{"nom":"𢧚勾絶妙寓𥪞性情","quocngu":"Nên câu tuyệt diệu ngụ trong tính tình."},{"nom":"征征䏾月熾萌","quocngu":"Chênh chênh bóng nguyệt xế mành,"},{"nom":"𢭸𡎢邊󰡂没命燒燒","quocngu":"Tựa ngồi bên triện một mình thiu thiu."},{"nom":"率󰠳𧡊没小嬌","quocngu":"Thoắt đâu thấy một tiểu kiều,"},{"nom":"固朝風韻固朝清新","quocngu":"Có chiều phong vận, có chiều thanh tân."},{"nom":"霜印󰘚雪坡身","quocngu":"Sương in mặt, tuyết pha thân,"},{"nom":"樂鐄蕩蕩如𧵆如賒","quocngu":"Nhạc vàng lãng đãng như gần như xa."},{"nom":"連𢜠噋𠳨𠻀󰑼","quocngu":"Liền mừng đón hỏi dò la:"},{"nom":"桃源落𡓃󰠳麻典低","quocngu":"Đào nguyên lạc lối đâu mà đến đây?"},{"nom":"䜹浪清氣初󰅒","quocngu":"Thưa rằng: \\"Thanh khí xưa nay,"},{"nom":"買共饒𣅶班𣈜㐌悁","quocngu":"Mới cùng nhau lúc ban ngày đã quên."},{"nom":"寒家於𠃅西阡","quocngu":"Hàn gia ở mé tây thiên,"},{"nom":"𠁑𣳔渃沚边𨕭固橋","quocngu":"Dưới dòng nước chảy bên trên có cầu."},{"nom":"忝𢚸下顧典饒","quocngu":"Thêm lòng hạ cố đến nhau,"},{"nom":"󰋇𠳒下賜捻珠招鐄","quocngu":"Mấy lời hạ tứ ném châu gieo vàng."},{"nom":"󰂅呈會主󰏙詳","quocngu":"Vâng trình hội chủ xem tường,"},{"nom":"麻󰏙𥪞𢼂断膓固𠸜","quocngu":"Mà xem trong sổ đoạn trường có tên."},{"nom":"歐停果刼人緣","quocngu":"Âu đành quả kiếp nhân duyên,"},{"nom":"拱𠊛没會没船󰠳賒","quocngu":"Cũng người một hội một thuyền đâu xa."},{"nom":"尼𨑮排買買𦋦","quocngu":"Này mười bài mới mới ra,"},{"nom":"勾神吏摱筆花𦘧撝","quocngu":"Câu thần lại mượn bút hoa vẽ vời.\\""},{"nom":"翹󰂅領意提排","quocngu":"Kiều vâng lĩnh ý đề bài,"},{"nom":"𢬣僊没󰖽𨇜𨑮曲吟","quocngu":"Tay tiên một vẫy đủ mười khúc ngâm."},{"nom":"󰏙䜹𠽋󰟄𠸦󰠐","quocngu":"Xem thơ nức nở khen thầm:"},{"nom":"價仃繡口錦心恪常","quocngu":"Giá đành tú khẩu cẩm tâm khác thường."},{"nom":"󰂇󰝂𠓨集斷膓","quocngu":"Ví đem vào tập đoạn trường."},{"nom":"時撩解一之讓朱埃","quocngu":"Thì treo giải nhất chi nhường cho ai.\\""},{"nom":"㙴花客㐌𧿨鞋","quocngu":"Thềm hoa khách đã trở hài,"},{"nom":"娘群於吏没𠄩叙情","quocngu":"Nàng còn Ở lại một hai tự tình."},{"nom":"𩙌兜鄭幅萌萌","quocngu":"Gió đâu sịch bức mành mành"},{"nom":"醒𦋦買別浪命占包","quocngu":"Tỉnh ra mới biết là mình chiêm bao."},{"nom":"𬂙蹺󰅹𧡊󰠳󰅹","quocngu":"Trông theo nào thấy đâu nào,"},{"nom":"香乘羕唉𦋦𠓨󰠳低","quocngu":"Hương thừa dường hãy ra vào đâu đây."},{"nom":"没命量慮更迡","quocngu":"Một mình lưỡng lự canh chầy,"},{"nom":"塘賒𢪀浽𡢐尼麻驚","quocngu":"Đường xa nghĩ nỗi sau này mà kinh."},{"nom":"花㵢䕯󰟅㐌仃","quocngu":"Hoa trôi bèo dạt đã đành,"},{"nom":"别緣命别分命世傕","quocngu":"Biết duyên mình, biết phận mình thế thôi!"},{"nom":"浽𥢆笠笠㳥㵢","quocngu":"Nỗi riêng lớp lớp sóng trôi,"},{"nom":"𢪀隊干吏湥洡隊干","quocngu":"Nghĩ đòi cơn lại sụt sùi đòi cơn."},{"nom":"重嬌𡃚󰁹帳鸞","quocngu":"Giọng kiều rền rĩ trướng loan,"},{"nom":"茹萱秩醒𠳨干故之","quocngu":"Nhà huyên chợt tỉnh hỏi cơn cớ gì?"},{"nom":"故𬁖陳濁更𣌉","quocngu":"Cớ sao trằn trọc canh khuya,"},{"nom":"牟花梨唉滛湜湥湄","quocngu":"Màu hoa lê hãy dầm dề giọt mưa?\\""},{"nom":"䜹浪𡭧分𬏝䜹","quocngu":"Thưa rằng: \\"Chút phận ngây thơ,"},{"nom":"養生堆女𩯀絲渚填","quocngu":"Dưỡng sinh đôi nợ tóc tơ chưa đền."},{"nom":"𣇜𣈜制𡏢淡僊","quocngu":"Buổi ngày chơi mả Đạm Tiên,"},{"nom":"𥃱𠫾率𧡊應連占包","quocngu":"Nhắp đi thoắt thấy ứng liền chiêm bao."},{"nom":"斷膓󰑼𢼂世󰅹","quocngu":"Đoạn trường là số thế nào,"},{"nom":"排𦋦世𧘇詠𠓨世箕","quocngu":"Bài ra thế ấy, vịnh vào thế kia."},{"nom":"據𥪞夢兆麻推","quocngu":"Cứ trong mộng triệu mà suy,"},{"nom":"分𡥵傕固𦋦之枚𡢐","quocngu":"Phận con thôi có ra gì mai sau!\\""},{"nom":"𠰺浪夢兆據󰠳","quocngu":"Dạy rằng: \\"Mộng triệu cứ đâu,"},{"nom":"俸空謨󰞽職愁𢪀󰅹","quocngu":"Bỗng không mua não chuốc sầu nghĩ nao!\\""},{"nom":"󰂅𠳒𡅳解濕高","quocngu":"Vâng lời khuyên giải thấp cao."},{"nom":"渚衝調𢪀㐌滛脉霜","quocngu":"Chưa xong điều nghĩ đã dào mạch sương."},{"nom":"外窻兎矢鶯鐄","quocngu":"Ngoài song thỏ thẻ oanh vàng,"},{"nom":"腋墻葻柳𠖤昂𫏾萌","quocngu":"Nách tường bông liễu bay ngang trước mành."},{"nom":"軒斜擱䏾征征","quocngu":"Hiên tà gác bóng chênh chênh,"},{"nom":"浽𥢆𥢆鄭𡬷𥢆没命","quocngu":"Nỗi riêng riêng trạnh tấc riêng một mình."},{"nom":"朱咍󰑼𫗂有情","quocngu":"Cho hay là thói hữu tình,"},{"nom":"妬埃𢴑䋦絲萌朱衝","quocngu":"Đố ai dứt mối tơ mành cho xong."},{"nom":"払金自吏書窻","quocngu":"Chàng Kim từ lại thư song,"},{"nom":"浽娘更更边𢚸𠴠虧","quocngu":"Nỗi nàng canh cánh bên lòng biếng khuây."},{"nom":"愁冬強刻強苔","quocngu":"Sầu đông càng khắc càng đầy,"},{"nom":"𠀧秋論吏󰜋𣈜𨱽稽","quocngu":"Ba thu dọn lại một ngày dài ghê."},{"nom":"𩄲秦鎖謹窻𦂛","quocngu":"Mây Tần khoá kín song the,"},{"nom":"𡏧紅料裊𠫾𧗱占包","quocngu":"Bụi hồng liệu nẻo đi về chiêm bao."},{"nom":"旬𦝄鈌𥒦油耗","quocngu":"Tuần trăng khuyết, đĩa dầu hao,"},{"nom":"󰘚𢠩想󰘚𢚸嗷喭𢚸","quocngu":"Mặt mơ tưởng mặt, lòng ngao ngán lòng."},{"nom":"󰟀文唏冷如銅","quocngu":"Buồng văn hơi lạnh như đồng,"},{"nom":"竹痴󰇽兎絲𣳔𧊉鸞","quocngu":"Trúc se ngón thỏ, tơ chùng phím loan."},{"nom":"萌湘拂拂𩙌弹","quocngu":"Mành Tương phất phất gió đàn,"},{"nom":"香洟味女茶漧喠情","quocngu":"Hương gây mùi nhớ, trà khan giọng tình."},{"nom":"󰂇庒緣女𠀧生","quocngu":"Ví chăng duyên nợ ba sinh,"},{"nom":"爫之󰝂𫗁傾城撩𤽗","quocngu":"Làm chi đem thói khuynh thành trêu ngươi."},{"nom":"氷傾𢖵景𢖵𠊛","quocngu":"Bâng khuâng nhớ cảnh nhớ người,"},{"nom":"𢖵尼奇遇倍移𨃴𠫾","quocngu":"Nhớ nơi kỳ ngộ vội dời gót đi."},{"nom":"󰜋𣳔𦹵木撑荑","quocngu":"Một dòng cỏ mọc xanh rì,"},{"nom":"渃吟𤄯沕𧡊之女󰠳","quocngu":"Nước ngâm trong vắt thấy gì nữa đâu!"},{"nom":"󰠶朝如改干愁","quocngu":"Gió chiều như gợi cơn sầu,"},{"nom":"葦𦰤囂乙如牟改撩","quocngu":"Vi lô hiu hắt như màu khảy trêu."},{"nom":"芸𥢆𢖵𠃣想𡗉","quocngu":"Nghề riêng nhớ ít tưởng nhiều,"},{"nom":"侵侵提裊篮橋吝郎","quocngu":"Xăm xăm đè nẻo Lam Kiều lần sang."},{"nom":"審嚴謹槓高墙","quocngu":"Thâm nghiêm kín cổng cao tường,"},{"nom":"件𣳔𦲿𧺀𢴑塘𫚳撑","quocngu":"Cạn dòng lá thắm dứt đường chim xanh."},{"nom":"羅䜹絲柳葻萌","quocngu":"Lơ thơ tơ liễu buông mành."},{"nom":"𡥵鶯󰄴呐𨕭梗𠸍𠶣","quocngu":"Con oanh học nói trên cành mỉa mai."},{"nom":"󰋇吝󰘇㨂杄󱕦","quocngu":"Mấy lần cửa đóng then cài,"},{"nom":"𣲆㙴花用别𠊛於󰠳","quocngu":"Dãy thềm hoa rụng biết người ở đâu?"},{"nom":"秦銀𨅸捽𣇞𥹰","quocngu":"Tần ngần đứng suốt giờ lâu,"},{"nom":"𬧖觥秩𧡊𠃅𡢐固茹","quocngu":"Dạo quanh chợt thấy mé sau có nhà."},{"nom":"󰑼茹吳越商家","quocngu":"Là nhà Ngô Việt thương gia,"},{"nom":"󰟀空抵妬𠊛賒渚𧗱","quocngu":"Buồng không để đó người xa chưa về."},{"nom":"𥙩調道󰄴𠳨税","quocngu":"Lấy điều đạo học hỏi thuê,"},{"nom":"襊弹𥝥册提𢹂遁𨖅","quocngu":"Túi đàn cặp sách đề huề dọn sang."},{"nom":"固核固𥒥産床","quocngu":"Có cây, có đá sẵn sàng."},{"nom":"固軒揽翠󰞺鐄渚派","quocngu":"Có hiên Lãm thuý nét vàng chưa phai."},{"nom":"𢜠󰠐准𧘇𫳘排","quocngu":"Mừng thầm chốn ấy chữ bài,"},{"nom":"𠀧生歐罕緣𡗶之低","quocngu":"Ba sinh âu hẳn duyên trời chi đây."},{"nom":"窻糊姅怯𫅩𩄲","quocngu":"Song hồ nửa khép cánh mây,"},{"nom":"墻東𥊘眜𣈜𣈜恒𬖉","quocngu":"Tường đông ghé mắt ngày ngày hằng trông."},{"nom":"𡬷𡬼銅鎖原封","quocngu":"Tấc gang đồng tỏa nguyên phong,"},{"nom":"絶𩂟󰅹𧡊䏾紅𠓨𦋦","quocngu":"Tuyệt mù nào thấy bóng hồng vào ra."},{"nom":"忍自舘客鄰羅","quocngu":"Nhẫn từ quán khách lân la,"},{"nom":"旬𦝄瀋脱𫢩陀噡𠄩","quocngu":"Tuần trăng thấm thoát nay đà thèm hai."},{"nom":"隔墻沛𣇜㤿𡗶","quocngu":"Cách tường phải buổi êm trời,"},{"nom":"𠁑桃差固䏾𠊛切他","quocngu":"Dưới đào sai có bóng người thướt tha."},{"nom":"損琴捉襖倍𦋦","quocngu":"Buông cầm xốc áo vội ra,"},{"nom":"香群𦹳𠽋𠊛陀永醒","quocngu":"Hương còn thơm nức, người đà vắng tanh."},{"nom":"吝蹺墻錦𨄹觥","quocngu":"Lần theo tường gấm dạo quanh,"},{"nom":"𨕭桃恪𧡊没梗金钗","quocngu":"Trên đào nhác thấy một cành kim thoa."},{"nom":"拁𢬣𢭲𥙩𧗱茹","quocngu":"Giơ tay với lấy về nhà:"},{"nom":"尼𥪞閨閣󰠳𦓡典低","quocngu":"Này trong khuê các đâu mà đến đây?"},{"nom":"𡄎歐𠊛󰀎寶尼","quocngu":"Ngẫm âu người ấy báu này,"},{"nom":"𫽄緣渚易𠓨𢬣埃擒","quocngu":"Chẳng duyên chưa dễ vào tay ai cầm!\\""},{"nom":"連𢬣𥋴𥊘𠴠𦣰","quocngu":"Liền tay ngắm nghía biếng nằm,"},{"nom":"唉群倘倘香沉渚派","quocngu":"Hãy còn thoang thoảng hương trầm chưa phai."},{"nom":"散霜㐌𧡊䏾𠊛","quocngu":"Tan sương đã thấy bóng người"},{"nom":"觥墻𦋦衣尋頺謹魚","quocngu":"Quanh tường ra ý tìm tòi ngẩn ngơ."},{"nom":"生陀固意待徐","quocngu":"Sinh đà có ý đợi chờ,"},{"nom":"隔墻𨖲㗂賒迻厭𢚸","quocngu":"Cách tường lên tiếng xa đưa ướm lòng."},{"nom":"釵尼扒特虚空","quocngu":"Thoa này bắt được hư không,"},{"nom":"別󰠳合補𦓡蒙珠𧗱","quocngu":"Biết đâu Hợp Phố mà mong châu về?\\""},{"nom":"㗂翹𦖑津边箕","quocngu":"Tiếng Kiều nghe lọt bên kia:"},{"nom":"恩𠊛君子詫之𧵑淶","quocngu":"\\"Ơn người quân tử sá gì của rơi."},{"nom":"隻釵󰅹𧵑󰋇𨑮","quocngu":"Chiếc thoa nào của mấy mươi,"},{"nom":"𦓡𢚸重義輕財掣包","quocngu":"Mà lòng trọng nghĩa khinh tài xiết bao!\\""},{"nom":"生浪󰠷里𦋦𠓨","quocngu":"Sinh rằng: \\"Lân lý ra vào,"},{"nom":"𧵆低󰅹沛𠊛󰅹賒吹","quocngu":"Gần đây nào phải người nào xa xôi."},{"nom":"特𣈙如𡭧𦹳淶","quocngu":"Được rày như chút thơm rơi,"},{"nom":"計陀少󰞽𢚸𠊛閉󰅒","quocngu":"Kể đà thiểu não lòng người bấy nay!"},{"nom":"󰋇𥹰買特没𣈜","quocngu":"Mấy lâu mới được một ngày,"},{"nom":"仃󰖄𣵲𡭧念西噲󰑼","quocngu":"Dừng chân gạn chút niềm tây gọi là.\\""},{"nom":"倍𧗱添𥙩𧵑茹","quocngu":"Vội về thêm lấy của nhà,"},{"nom":"釧鐄堆隻巾󰑔没󰉓","quocngu":"Xuyến vàng đôi chiếc, khăn là một vuông."},{"nom":"堛𩄲𨂚𨀈𦰟墻","quocngu":"Bực mây rón bước ngọn tường,"},{"nom":"沛𠊛歆怒𤑟𤉜𫽄差","quocngu":"Phải người hôm nọ rõ ràng chẳng sai."},{"nom":"𠶤𠼾󰇾意湥提","quocngu":"Sượng sùng giữ ý rụt rè,"},{"nom":"几𥚆𤑟󰘚𠊛𠵱檜頭","quocngu":"Kẻ nhìn rõ mặt, người e cúi đầu."},{"nom":"浪自偶尔﨤饒","quocngu":"Rằng: \\"Từ ngẫu nhĩ gặp nhau,"},{"nom":"󰠐𬖉濫𢖵閉𥹰㐌𤶐","quocngu":"Thầm trông trộm nhớ bấy lâu đã chồn."},{"nom":"昌枚性㐌𢷀𤷱","quocngu":"Xương mai tính đã rũ mòn,"},{"nom":"吝𩢬埃別唉群𣋚󰅒","quocngu":"Lần lừa ai biết hãy còn hôm nay!"},{"nom":"𣎃𧷺如𠳚宫𩄲","quocngu":"Tháng tròn như gửi cung mây,"},{"nom":"陳陳没分挹核㐌料","quocngu":"Trần trần một phận ấp cây đã liều."},{"nom":"便抵嗔没𠄩調","quocngu":"Tiện đây xin một hai điều,"},{"nom":"臺𦎛𤐝典𨁪䕯朱庒","quocngu":"Đài gương soi đến dấu bèo cho chăng?\\""},{"nom":"謹魚娘買䜹浪","quocngu":"Ngần ngừ nàng mới thưa rằng:"},{"nom":"𫗁茹氷雪質恒菲葑","quocngu":"Thói nhà băng tuyết, chất hằng phỉ phong."},{"nom":"油欺𦲿𧺀紙紅","quocngu":"Dù khi lá thắm chỉ hồng,"},{"nom":"𢧚庒時拱在𢚸媄吒","quocngu":"Nên chăng thì cũng tại lòng mẹ cha."},{"nom":"𥘀𢚸㤕柳爲花","quocngu":"Nặng lòng xót liễu vì hoa,"},{"nom":"𥘷𡥵㐌別󰠳𦓡敢䜹","quocngu":"Trẻ con đã biết đâu mà dám thưa!\\""},{"nom":"生浪𣈙𩙌枚湄","quocngu":"Sinh rằng: \\"Rày gió mai mưa,"},{"nom":"𣈜春㐌易情期󰋇欺","quocngu":"Ngày xuân đã dễ tình cờ mấy khi."},{"nom":"油𫽄察𬌓情癡","quocngu":"Dù chăng xét tấm tình si,"},{"nom":"舌些𦓡固益之典埃","quocngu":"Thiệt ta mà có ích gì đến ai?"},{"nom":"𡭧之哏咘󰜋𠄩","quocngu":"Chút chi gắn bó một hai,"},{"nom":"朱停耒仕料排䋦萌","quocngu":"Cho đành rồi sẽ liệu bài mối manh."},{"nom":"悃𤍌油負𡬷誠","quocngu":"Khuôn thiêng dù phụ tấc thành,"},{"nom":"拱料補过春撑󰜋𠁀","quocngu":"Cũng liều bỏ quá xuân xanh một đời."},{"nom":"量春油決狹𤞑","quocngu":"Lượng xuân dù quyết hẹp hòi,"},{"nom":"功㧅󰕴𫽄舌催𡗋由","quocngu":"Công đeo đuổi chẳng thiệt thòi lắm ru.\\""},{"nom":"朗𦖑𠳒呐如油","quocngu":"Lặng nghe lời nói như ru,"},{"nom":"朝春易遣󰞺秋𪿒顒","quocngu":"Chiều xuân dễ khiến nét thu ngại ngùng."},{"nom":"浪𥪞𣇜買𨔍𨓡","quocngu":"Rằng: \\"Trong buổi mới lạ lùng,"},{"nom":"你𢚸固𨤰擒𢚸朱當","quocngu":"Nể lòng có lẽ cầm lòng cho đang!"},{"nom":"㐌𢚸君子多恾","quocngu":"Đã lòng quân tử đa mang,"},{"nom":"󰜋𠳒󰂅鑿𥒥鐄始終","quocngu":"Một lời vâng tạc đá vàng thuỷ chung\\"."},{"nom":"特𠳒如𢶒𬌓𢚸","quocngu":"Được lời như cởi tấm lòng,"},{"nom":"󰇾金珠貝巾紅𢭂𢬣","quocngu":"Giở kim châu với khăn hồng trao tay."},{"nom":"浪𤾓𢆥拱自低","quocngu":"Rằng: \\"Trăm năm cũng từ đây,"},{"nom":"𧵑信噲󰜋𡭧尼爫𥱬","quocngu":"Của tin gọi một chút này làm ghi.\\""},{"nom":"産𢬣把𦑗花葵","quocngu":"Sẵn tay bả quạt hoa quì,"},{"nom":"貝梗釵𧘇卽時𢬭𢭂","quocngu":"Với cành thoa ấy tức thì đổi trao."},{"nom":"𠬠𠳒哏咘膝膠","quocngu":"Một lời gắn bó tất giao,"},{"nom":"𠃅𡢐羕固𠮿嗃㗂𠊛","quocngu":"Mái sau dường có xôn xao tiếng người."},{"nom":"倍傍𦲿用花淶","quocngu":"Vội vàng lá rụng hoa rơi,"},{"nom":"払𧗱書院娘移樓粧","quocngu":"Chàng về thư viện, nàng dời lầu trang."},{"nom":"自畨𥒥别歲鐄","quocngu":"Từ phen đá biết tuổi vàng,"},{"nom":"情強滲𤀏𢚸強謹魚","quocngu":"Tình càng thấm thía, lòng càng ngẩn ngơ."},{"nom":"滝洋󰜋带農滁","quocngu":"Sông dương một dải nông sờ,"},{"nom":"边𬖉頭怒边徐𡳳箕","quocngu":"Bên trông đầu nọ, bên chờ cuối kia."},{"nom":"󰜋墙雪點霜𩂏","quocngu":"Một tường tuyết điểm sương che,"},{"nom":"信春󰠳易𠫾𧗱朱𫧇","quocngu":"Tin xuân đâu dễ đi về cho năng."},{"nom":"吝吝𣈜𩙌𣈘𦝄","quocngu":"Lần lần ngày gió đêm trăng,"},{"nom":"絲紅甚錄㐌澄春戈","quocngu":"TƠ hồng rậm lục đã chừng xuân qua."},{"nom":"𣈜皮生日外家","quocngu":"Ngày vừa sinh nhật ngoại gia,"},{"nom":"𨕭𠄩堂𠁑女󰑼𠄩㛪","quocngu":"Trên hai đường dưới nữa là hai em."},{"nom":"熷𤇊懺所襖襜","quocngu":"Tưng bừng sắm sửa áo xiêm,"},{"nom":"卞𤼸󰜋礼賒󰝂𡬷誠","quocngu":"Biện dâng một lễ xa đem tấc thành."},{"nom":"茹香清永󰜋命","quocngu":"Nhà hương thanh vắng một mình,"},{"nom":"𡄎機會遇㐌停𣋚󰅒","quocngu":"Ngẫm cơ hội ngộ đã dành hôm nay."},{"nom":"時珍式式産排","quocngu":"Thì trân thức thức sẵn bày,"},{"nom":"𨃴蓮率率𬧖𣦍𠃅墙","quocngu":"Gót sen thoăn thoắt dạo ngay mé tường."},{"nom":"隔花仕𠱆㗂鐄","quocngu":"Cách hoa sẽ dặng tiếng vàng,"},{"nom":"𠁑花㐌𧡊固払𨅸𬖉","quocngu":"Dưới hoa đã thấy có chàng đứng trông."},{"nom":"責𢚸哬𠾿貝𢚸","quocngu":"Trách lòng hờ hững với lòng,"},{"nom":"󰌕香祝底冷𫥌閉𥹰","quocngu":"Lửa hương chốc để lạnh lùng bấy lâu."},{"nom":"仍󰑼㙮𢖵𢬭愁","quocngu":"Những là đắp nhớ đổi sầu,"},{"nom":"雪霜染姅𠃅頭花森","quocngu":"Tuyết sương nhuốm nửa mái đầu hoa râm."},{"nom":"娘浪𫗄扒湄檎","quocngu":"Nàng rằng: \\"Gió bắt mưa cầm,"},{"nom":"㐌甘弊貝知音閉迡","quocngu":"Đã cam tệ với tri âm bấy chầy."},{"nom":"永茹特𣇜𣋚󰅒","quocngu":"Vắng nhà được buổi hôm nay,"},{"nom":"𥙩𢚸噲𡭧𦋦低謝𢚸","quocngu":"Lấy lòng gọi chút ra đây tạ lòng.\\""},{"nom":"吝蹺𡶀假𠫾妄","quocngu":"Lần theo núi giả đi vòng,"},{"nom":"𡳳墻羕固裊通買摷","quocngu":"Cuối tường dường có nẻo thông mới rào."},{"nom":"䞮𢬣𨷑鎖洞桃","quocngu":"Sấn tay mở khoá động đào,"},{"nom":"枝𩄲𬖉𤑟𡓃𠓨天台","quocngu":"Rẽ mây trông tỏ lối vào Thiên Thai."},{"nom":"𩈘𥆾𩈘強添鮮","quocngu":"Mặt nhìn mặt càng thêm tươi,"},{"nom":"邊𠳒萬福邊𠳒寒喧","quocngu":"Bên lời vạn phúc, bên lời hàn huyên."},{"nom":"𠁔𦠘𧗱准書軒","quocngu":"Sánh vai về chốn thư hiên,"},{"nom":"𡄎𠳒風月𥘀願𡽫滝","quocngu":"Ngâm lời phong nguyệt, nặng nguyền non sông."},{"nom":"𨕭案筆架書同","quocngu":"Trên yên bút giá thư đồng,"},{"nom":"惔清没幅幀松撩𨕭","quocngu":"Đạm thanh một bức tranh tùng treo trên."},{"nom":"風霜特𨤔天然","quocngu":"Phong sương được vẻ thiên nhiên,"},{"nom":"摱𠸦󰠸筆強𥆾強鮮","quocngu":"Mặn khen nét bút càng nhìn càng tươi."},{"nom":"生浪樸畫皮耒","quocngu":"Sinh rằng: \\"Phác hoạ vừa rồi,"},{"nom":"品題嗔󰜋𠄽𠳒添花","quocngu":"Phẩm đề xin một vài lời thêm hoa.\\""},{"nom":"遇欺𩙌匝湄沙","quocngu":"Ngộ khi gió táp mưa sa,"},{"nom":"曠𨕭仃筆討𢽼𦊚勾","quocngu":"Khoảng trên dừng bút thảo và bốn câu."},{"nom":"𠸦才𠽙玉噴珠","quocngu":"Khen tài nhả ngọc, phun châu:"},{"nom":"娘班妸謝拱󰠳世尼","quocngu":"Nàng Ban ả Tạ cũng đâu thế này!"},{"nom":"刼修初󰂇𫽄𠫆","quocngu":"Kiếp tu xưa ví chẳng dày,"},{"nom":"福󰅹𢬭時價尼朱昂","quocngu":"Phúc nào đổi thì giá này cho ngang!\\""},{"nom":"娘浪凜烈容光","quocngu":"Nàng rằng: \\"lẫm liệt dung quang,"},{"nom":"𫽄𡑝玉佩時坊金門","quocngu":"Chẳng sân ngọc bội thì phường kim môn."},{"nom":"擬命分蒙𦑃𧋃","quocngu":"Nghĩ mình phận mỏng cánh chuồn,"},{"nom":"囷撑㐌別󰉓𧷺𦓡𫨩","quocngu":"Khuôn xanh đã biết vuông tròn mà hay?"},{"nom":"𢖵自𢆥唉䜹𤷙","quocngu":"Nhớ từ năm hãy thơ ngây,"},{"nom":"固𠊛相士断𣦍󰜋𠳒","quocngu":"Có người tướng sĩ đoán ngay một lời."},{"nom":"󰠰花發𧻭𦋦外","quocngu":"Anh hoa phát tiết ra ngoài,"},{"nom":"𠦳秋薄命󰜋𠁀才花","quocngu":"Nghìn thu bạc mệnh một đời tài hoa."},{"nom":"𬖉𠊛吏𥋴典些","quocngu":"Trông người lại ngắm đến ta,"},{"nom":"没𠫆󰜋蒙別󰑼固𢧚","quocngu":"Một dày một mỏng biết là có nên?\\""},{"nom":"生浪邂逅󰑼緣","quocngu":"Sinh rằng: \\"Giải cấu là duyên,"},{"nom":"初󰅒人定勝天共𡗉","quocngu":"Xưa nay nhân định thắng thiên cũng nhiều."},{"nom":"油󰠳解結典調","quocngu":"Dù đâu giải kết đến điều,"},{"nom":"時󰝂鐄𥒥𦓡料貝身","quocngu":"Thì đem vàng đá mà liều với thân!\\""},{"nom":"𨇜調曲裡殷勤","quocngu":"Đủ điều khúc lý ân cần,"},{"nom":"𢚸春派派󱋓春藏藏","quocngu":"Lòng xuân phơi phới, chén xuân tàng tàng."},{"nom":"𣈜盃𥐆𫽄首𪮚","quocngu":"Ngày vui ngắn chẳng thủ gang,"},{"nom":"𬖉𦋦鵶㐌吟𦎛𡽫兑","quocngu":"Trông ra ác đã ngậm gương non đoài."},{"nom":"永茹𫽄便𡎢佳","quocngu":"Vắng nhà chẳng tiện ngồi dai,"},{"nom":"啫払娘買急移蔥紗","quocngu":"Giã chàng, nàng mới kíp dời song sa."},{"nom":"典茹皮𧡊信茹","quocngu":"Đến nhà vừa thấy tin nhà,"},{"nom":"𠄩親群󰇾席花渚𧗱","quocngu":"Hai thân còn dở tiệc hoa chưa về."},{"nom":"󰘇外倍𢷀簾𦂛","quocngu":"Cửa ngoài vội rủ rèm the,"},{"nom":"駸駸氷𨇒園𣌉󰜋命","quocngu":"Xăm xăm băng lối vườn khuya một mình."},{"nom":"抇䜹𦎛𢶒頭梗","quocngu":"Nhặt thưa gương gối đầu cành,"},{"nom":"𦰟畑𬖉𧡊帳螢吃囂","quocngu":"Ngọn đèn trông thấy trướng huỳnh hắt hiu."},{"nom":"生皮𢭸案燒燒","quocngu":"Sinh vừa tựa án thiu thiu."},{"nom":"󰇾朝如醒󰇾朝如迷","quocngu":"Giở chiều như tỉnh, giở chiều như mê."},{"nom":"㗂𨖲仕洞聀槐","quocngu":"Tiếng lên sẽ động giấc hoè,"},{"nom":"䏾𦝄㐌熾花梨吏𧵆","quocngu":"Bóng trăng đã xế, hoa lê lại gần."},{"nom":"氷傾嵿𡶀𡽫神","quocngu":"Bâng khuâng đỉnh núi non Thần,"},{"nom":"群疑聀夢𣈘春𢠩恾","quocngu":"Còn ngờ giấc mộng đêm xuân mơ màng."},{"nom":"娘浪曠永𣎀長","quocngu":"Nàng rằng: \\"Khoảng vắng đêm trường,"},{"nom":"爲花朱沛𠴗塘尋花","quocngu":"Vì hoa cho phải đổ đường tìm hoa."},{"nom":"悲𣇞𤑟󰘚堆些","quocngu":"Bây giờ rõ mặt đôi ta,"},{"nom":"別󰠳耒女𫽄󰑼占包","quocngu":"Biết đâu rồi nữa chẳng là chiêm bao.\\""},{"nom":"倍𢜠爫礼連𠓨","quocngu":"Vội mừng làm lễ liền vào,"},{"nom":"臺蓮浽蠟窻桃添香","quocngu":"Đài sen nối sáp, song đào thêm hương."},{"nom":"箋誓拱討󰜋章","quocngu":"Tiên thề cùng thảo một chương,"},{"nom":"𩯀𩄲󰜋約刀鐄𢺺𠄩","quocngu":"Tóc mây một ước, dao vàng chia hai."},{"nom":"暈𦝄域域𥪞𡗶","quocngu":"Vầng trăng vằng vặc trong trời,"},{"nom":"仃寧𠄩𠰘没𠳒雙雙","quocngu":"Đinh ninh hai miệng một lời song song."},{"nom":"𩯀絲根紊𡬷𢚸","quocngu":"Tóc tơ căn vặn tấc lòng,"},{"nom":"𤾓𢆥鑿󰜋𫳘同典昌","quocngu":"Trăm năm tạc một chữ đồng đến xương."},{"nom":"󱋓霞𫫺喠瓊漿","quocngu":"Chén hà sánh giọng quỳnh tương,"},{"nom":"𦄂𦂛香論屏𦎛䏾籠","quocngu":"Dải the hương lộn, bình gương bóng lồng."},{"nom":"生浪𩙌沫𦝄𬺚","quocngu":"Sinh rằng: \\"Gió mát trăng trong,"},{"nom":"閉𥹰󰅒󰜋𡭧𢚸渚甘","quocngu":"Bấy lâu nay một chút lòng chưa cam."},{"nom":"𨃉霜渚𪤍橋藍","quocngu":"Chày sương chưa nện cầu Lam,"},{"nom":"𢜝吝巾過𦋦讒所庄","quocngu":"Sợ lần khân quá ra sàm sỡ chăng?\\""},{"nom":"娘浪紅葉赤绳","quocngu":"Nàng rằng: \\"Hồng diệp xích thằng,"},{"nom":"󰜋𠳒共㐌㗂浪相知","quocngu":"Một lời cũng đã tiếng rằng tương tri."},{"nom":"停調月怒花箕","quocngu":"Đừng điều nguyệt nọ hoa kia,"},{"nom":"外𦋦埃吏惜之貝埃","quocngu":"Ngoài ra ai lại tiếc gì với ai.\\""},{"nom":"払浪𦖑浽琴臺","quocngu":"Chàng rằng: \\"nghe nổi cầm đài,"},{"nom":"渃𡽫隴仍𠻴𦖻終期","quocngu":"Nước non luống những lắng tai Chung Kỳ.\\""},{"nom":"䜹浪賤技詫之","quocngu":"Thưa rằng: \\"Tiện kỹ sá chi,"},{"nom":"㐌𢚸𠰺典𠰺時沛󰂅","quocngu":"Đã lòng dạy đến, dạy thì phải vâng.\\""},{"nom":"軒𡢐撩産琴𦝄","quocngu":"Hiên sau treo sẵn cầm trăng,"},{"nom":"倍鐄生㐌擒㨢昂眉","quocngu":"Vội vàng Sinh đã cầm nâng ngang mày."},{"nom":"娘浪藝𨳒𥢆𢬣","quocngu":"Nàng rằng: \\"Nghề mọn riêng tay,"},{"nom":"爫之朱𥘀𢚸尼凜申","quocngu":"Làm chi cho nặng lòng này lắm thân.\\""},{"nom":"搊寅𦀊武𦀊文","quocngu":"So dần dây vũ dây văn,"},{"nom":"𦊚𦀊𫰅𡮈蹺韻宮問","quocngu":"Bốn dây to nhỏ theo vần cung vấn."},{"nom":"曲󰠳漢楚戰塲","quocngu":"Khúc đâu Hán Sở chiến trường,"},{"nom":"𦖑𦋦㗂鉄㗂鐄扦饒","quocngu":"Nghe ra tiếng sắt, tiếng vàng chen nhau."},{"nom":"曲󰠳司馬鳯求","quocngu":"Khúc đâu Tư mã Phượng cầu,"},{"nom":"𦖑𦋦如怨如愁沛庒","quocngu":"Nghe ra như oán như sầu phải chăng!"},{"nom":"稽康尼曲廣㖫","quocngu":"Kê Khang này khúc Quảng lăng."},{"nom":"󰜋浪流水𠄩浪行雲","quocngu":"Một rằng Lưu thuỷ, hai rằng Hành vân."},{"nom":"過關尼曲昭君","quocngu":"Quá quan này khúc Chiêu Quân,"},{"nom":"姅分戀主姅分思家","quocngu":"Nửa phần luyến chúa, nửa phần tư gia."},{"nom":"𥪝如㗂䳽𠖤戈","quocngu":"Trong như tiếng hạc bay qua,"},{"nom":"濁如渃𤂬買沙姅潙","quocngu":"Đục như nước suối mới sa nửa vời."},{"nom":"㗂寬如𩙌倘外","quocngu":"Tiếng khoan như gió thoảng ngoài,"},{"nom":"㗂牟派派如𡗶覩湄","quocngu":"Tiếng mau phơi phới như trời đổ mưa."},{"nom":"𦰟畑欺𤏣欺𤎎","quocngu":"Ngọn đèn khi tỏ khi mờ,"},{"nom":"遣𠊛𡎦帝𦓡魚謹愁","quocngu":"Khiến người ngồi đấy mà ngơ ngẩn sầu."},{"nom":"欺𢭸𨆝欺儈頭","quocngu":"Khi tựa gối, khi cúi đầu,"},{"nom":"欺紆𠃩曲欺珠堆眉","quocngu":"Khi vò chín khúc, khi chau đôi mày."},{"nom":"浪𫨩時寔󰑼𫨩","quocngu":"Rằng: \\"Hay thì thực là hay,"},{"nom":"𦖑𦋦吟䔲呐荄世󰅹","quocngu":"Nghe ra ngậm đắng nuốt cay thế nào!"},{"nom":"搊之仍堛清騷","quocngu":"SO chi những bực thanh tao,"},{"nom":"寔𢚸命拱耗耗𢚸𠊛","quocngu":"Thiệt lòng mình cũng hao hao lòng người.\\""},{"nom":"浪悁秩󰞺𠫾耒","quocngu":"Rằng: \\"Quen mất nết đi rồi,"},{"nom":"粃𢝙催拱性𡗶别𫳵","quocngu":"Tẻ vui thôi cũng tính trời biết sao!"},{"nom":"𠳒鐄󰂅領意高","quocngu":"Lời vàng vâng lĩnh ý cao,"},{"nom":"和寅寅扒𡭧󰅹特空","quocngu":"Hoạ dần dần bớt chút nào được không?\\""},{"nom":"花香強𤏣式紅","quocngu":"Hoa hương càng tỏ thức hồng,"},{"nom":"頭眉𡳃󰘚強濃𬌓腰","quocngu":"Đầu mày cuối mặt càng nồng tấm yêu."},{"nom":"㳥情羕㐌漂漂","quocngu":"Sóng tình dường đã xiêu xiêu,"},{"nom":"󰏙𥪞歐厭固朝𣳮淶","quocngu":"Xem trong âu yếm có chiều lả lơi."},{"nom":"䜹浪停𥙩爫制","quocngu":"Thưa rằng: \\"Đừng lấy làm chơi,"},{"nom":"𠯇朱䜹歇󰜋𠳒㐌󰅉","quocngu":"Dẽ cho thưa hết một lời đã nao!"},{"nom":"尾之󰜋朶桃夭","quocngu":"Vẻ chi một đoá đào yêu,"},{"nom":"園紅之敢垠巢𫚳撑","quocngu":"Vườn hồng chi dám ngăn rào chim xanh."},{"nom":"㐌朱𠓨堛布荆","quocngu":"Đã cho vào bậc bố kinh,"},{"nom":"道從夫𥙩𫳘貞爫頭","quocngu":"Đạo tòng phu lấy chữ trinh làm đầu."},{"nom":"𦋦從𨕭濮中𣘛","quocngu":"Ra tuồng trên Bộc trong dâu,"},{"nom":"時𡥵𠊛𧘇埃求爫之","quocngu":"Thì con người ấy ai cầu làm chi."},{"nom":"沛調咹󰟉於時","quocngu":"Phải điều ăn xổi ở thì."},{"nom":"浪𤾓𢆥女補𠫾󰜋𣈜","quocngu":"Rằng trăm năm nỡ bỏ đi một ngày!"},{"nom":"𡄎緣奇遇初𫢩","quocngu":"Ngẫm duyên kỳ ngộ xưa nay,"},{"nom":"侶堆埃吏𫅠齊崔張","quocngu":"Lứa đôi ai lại đẹp tày Thôi Trương."},{"nom":"𩄲湄打覩𥒥鐄","quocngu":"Mây mưa đánh đổ đá vàng,"},{"nom":"過朝𢧚㐌󱋓𠴔燕󰢒","quocngu":"Quá chiều nên đã chán chường yến anh."},{"nom":"𥪝欺𢭸𦑃𨕭梗","quocngu":"Trong khi tựa cánh trên cành,"},{"nom":"𦓡𢚸𥜤󰠹㐌呈󰜋畨","quocngu":"Mà lòng rẻ rúng đã trình một bên."},{"nom":"𠃅西底令香願","quocngu":"Mái tây để lạnh hương nguyền,"},{"nom":"朱緣潭𧺀𦋦緣狓傍","quocngu":"Cho duyên đằm thắm ra duyên bẽ bàng."},{"nom":"招梭𠓀𫽄𡨹床","quocngu":"Gieo thoi trước chẳng giữ giàng,"},{"nom":"底𡢐𢧚𢢆共払𪽝埃","quocngu":"Để sau nên thẹn cùng chàng bởi ai?"},{"nom":"倍之柳押花奈","quocngu":"Vội chi liễu ép hoa nài,"},{"nom":"群身乙吏填培固欺","quocngu":"Còn thân ắt lại đền bồi có khi.\\""},{"nom":"𧡊𠳒端正易𦖑","quocngu":"Thấy lời đoan chính dễ nghe,"},{"nom":"払強添𢘝添爲𨑮分","quocngu":"Chàng càng thêm nể thêm vì mười phân."},{"nom":"䏾艚皮𤁕𨤔𡑝","quocngu":"Bóng tàu vừa lạt vẻ sân."},{"nom":"信󰠳㐌典󰘇垠噲𠓨","quocngu":"Tin đâu đã đến cửa ngăn gọi vào."},{"nom":"娘時倍阻󰟀桃","quocngu":"Nàng thì vội trở buồng đào,"},{"nom":"生時𨄹𨀈𡑝桃倍𦋦","quocngu":"Sinh thì dạo bước sân đào vội ra."},{"nom":"󰘇柴皮吘杄花","quocngu":"Cửa sài vừa ngỏ then hoa,"},{"nom":"家童𠓨𠳚書茹買𢀨","quocngu":"Gia đồng vào gửi thư nhà mới sang."},{"nom":"󰠐信叔父辤堂","quocngu":"Đem tin thúc phụ từ đường,"},{"nom":"巴爲旅󰊽他鄕提攜","quocngu":"Bơ vơ lữ thấn tha hương đề huề."},{"nom":"遼陽隔阻山溪","quocngu":"Liêu Dương cách trở sơn khê,"},{"nom":"椿堂急噲生𧗱𧦈䘮","quocngu":"Xuân đường kíp gọi Sinh về hộ tang."},{"nom":"𠻵信掣浽驚惶","quocngu":"Mảng tin xiết nỗi kinh hoàng,"},{"nom":"氷命輦𠓀臺粧叙情","quocngu":"Băng mình lẻn trước đài trang tự tình."},{"nom":"𨃴頭每浽丁寧","quocngu":"Gót đầu mọi nỗi đinh ninh,"},{"nom":"浽茹䘮𩯀浽命賒吹","quocngu":"Nỗi nhà tang tóc, nỗi mình xa xôi:"},{"nom":"事󰠳渚及堆囬","quocngu":"Sự đâu chưa kịp đôi hồi,"},{"nom":"緣󰠳渚及󰜋𠳒𢭂絲","quocngu":"Duyên đâu chưa kịp một lời trao tơ,"},{"nom":"𦝄誓群妬猪猪","quocngu":"Trăng thề còn đó trơ trơ,"},{"nom":"敢賒吹𩈘麻䜹撻𢚸","quocngu":"Dám xa xôi mặt mà thưa thớt lòng."},{"nom":"外𠦳𨤮祝𠀧冬","quocngu":"Ngoài nghìn dặm, chốc ba đông,"},{"nom":"䋦愁欺𫽻朱衝群迡","quocngu":"Mối sầu khi gỡ cho xong còn chầy."},{"nom":"廛鐄𡨹玉朱𫨩","quocngu":"Gìn vàng giữ ngọc cho hay,"},{"nom":"朱停𢚸几蹎𩄲𨤔𡗶","quocngu":"Cho đành lòng kẻ chân mây vẻ trời.\\""},{"nom":"𦖻𦖑𫆧綏排排","quocngu":"Tai nghe ruột rối bời bời,"},{"nom":"忍如娘買𤋵𠳒𠓀𡢐","quocngu":"Nhẩn nha nàng mới giãi lời trước sau."},{"nom":"翁絲恄補之饒","quocngu":"Ông tơ ghét bỏ chi nhau,"},{"nom":"渚𢝙森合㐌愁坡配","quocngu":"Chưa vui sum họp đã sầu pha phôi."},{"nom":"共饒卒㐌𥘀𠳒","quocngu":"Cùng nhau trót đã nặng lời,"},{"nom":"酉台𠃅𩯀敢移𢚸絲","quocngu":"Dẫu thay mái tóc dám dời lòng tơ."},{"nom":"管包𣎃待𢆥徐","quocngu":"Quản bao tháng đợi năm chờ,"},{"nom":"擬𠊛咹𩙌𦣰湄㤕󰠐","quocngu":"Nghĩ người ăn gió nằm mưa xót thầm."},{"nom":"㐌願𠄩𫳘同心","quocngu":"Đã nguyền hai chữ đồng tâm"},{"nom":"𤾓𢆥誓拯揞琴待埃","quocngu":"Trăm năm thề chẳng ôm cầm đợi ai."},{"nom":"群𡽫群渃群𨱽","quocngu":"Còn non, còn nước, còn dài,"},{"nom":"群𧗱群𢖵典𠊛𣋚𫢩","quocngu":"Còn về còn nhớ đến người hôm nay!\\""},{"nom":"用孕渚𡝖移𢬣","quocngu":"Dùng dằng chưa nỡ rời tay,"},{"nom":"暈東𬂙㐌𥪸𣦍𣟪茹","quocngu":"Vầng đông trông đã đứng ngay nóc nhà."},{"nom":"碍顒󰜋𨀈󰜋賒","quocngu":"Ngại ngùng một bước một xa,"},{"nom":"没𠳒珍重珠沙󰋇行","quocngu":"Một lời trân trọng châu sa mấy hàng."},{"nom":"𢷏鞍掛挭倍傍","quocngu":"Buộc yên quảy gánh vội vàng."},{"nom":"䋦愁仕姅𨀈塘𢺺𠄩","quocngu":"Mối sầu sẻ nửa, bước đàng chia hai."},{"nom":"𢝙内風景圭𠊛","quocngu":"Buồn nội phong cảnh quê người,"},{"nom":"頭梗鵑日𡳳𡗶鴈䜹","quocngu":"Đầu cành quyên nhặt, cuối trời nhạn thưa."},{"nom":"󰞽𠊛𬂍󰊄旬湄","quocngu":"Não người cữ gió tuần mưa,"},{"nom":"󰜋𣈜𥘀挭相思󰜋𠊛","quocngu":"Một ngày nặng gánh tương tư một người"},{"nom":"娘時𨅸揨軒西","quocngu":"Nàng thì đứng tựa hiên tây,"},{"nom":"𠃩囬問曰如圍䋦絲","quocngu":"Chín hồi vấn vít như vầy mối tơ."},{"nom":"𬂙澄𤌋𡴯窻䜹","quocngu":"Trông chừng khói ngất song thưa,"},{"nom":"花㵢聀𧺀柳賖壳鐄","quocngu":"Hoa trôi giấc thắm, liễu xơ xác vàng."},{"nom":"秦銀󰉥𨃴楼粧","quocngu":"Tần ngần dạo gót lầu trang,"},{"nom":"󰜋󰟞𢜠壽外鄕買𧗱","quocngu":"Một đoàn mừng thọ ngoại hương mới về."},{"nom":"寒喧渚及啫㖷","quocngu":"Hàn huyên chưa kịp dã dề,"},{"nom":"差衙俸𧡊𦊚皮㖔𡁞","quocngu":"Sai nha bỗng thấy bốn bề xôn xao."},{"nom":"𠊛腋𡱩几𢬣刀","quocngu":"Người nách thước, kẻ tay đao,"},{"nom":"頭𬌥𩈘馭呦呦如雷","quocngu":"Đầu trâu mặt ngựa ào ào như lôi."},{"nom":"拁扛󰜋老󰜋𫦻","quocngu":"Già giang một lão một trai,"},{"nom":"󰜋𦀊󰟁類纀𠄩󰋟情","quocngu":"Một dây vô loại buộc hai thâm tình."},{"nom":"苔茹㘇㗂𧋆撑","quocngu":"Đầy nhà vang tiếng ruồi xanh."},{"nom":"用淶湥柳散情檜枚","quocngu":"Rụng rời giọt liễu, tan tành cội mai."},{"nom":"圖細軟𧵑𥢆𢬣","quocngu":"Đồ tế nhuyễn, của riêng tây,"},{"nom":"沚𥑥生󰟋朱苔襊貪","quocngu":"Sạch sành sanh quét cho đầy túi tham"},{"nom":"調󰠳𠖤纀埃爫","quocngu":"Điều đâu bay buộc ai làm,"},{"nom":"尼埃單泣秩緘俸仍","quocngu":"Này ai đan rập giật giàm bỗng dưng."},{"nom":"𠳨𦋦𡢐買别浪","quocngu":"Hỏi ra sau mới biết rằng:"},{"nom":"沛𠸜称率在𠊟半絲","quocngu":"Phải tên xưng xuất tại thằng bán tơ."},{"nom":"󰜋茹恍惚謹魚","quocngu":"Một nhà hoảng hốt ngẩn ngơ,"},{"nom":"㗂寃𠰺保案疑𫭧𩄲","quocngu":"Tiếng oan dậy bảo, án ngờ dựng mây."},{"nom":"下辞𠹚𥛉卒𣈜","quocngu":"Hạ từ van vái trót ngày,"},{"nom":"的𦖻憐恤負𢬣摧殘","quocngu":"Điếc tai lân tuất, phũ tay tồi tàn."},{"nom":"󰟌高𢫫虐𦀊寃","quocngu":"Rường cao rút ngược dây oan,"},{"nom":"酉𠊛𥒥拱󰞺肝路𠊛","quocngu":"Dẫu người đá cũng nát gan lọ người."},{"nom":"𩈘𬖉𤴬疸用移","quocngu":"Mặt trông đau đớn rụng rời,"},{"nom":"寃尼群󰜋呌𡗶仍賒","quocngu":"Oan này còn một kêu trời, nhưng xa."},{"nom":"󰜋𣈜𨔍𫗁差衙","quocngu":"Một ngày lạ thói sai nha,"},{"nom":"爫朱酷害𫽄戈爲錢","quocngu":"Làm cho khốc hại chẳng qua vì tiền."},{"nom":"𫳵朱骨肉院全","quocngu":"Sao cho cốt nhục vẹn tuyền."},{"nom":"𥪞欺遇变從權别𫳵","quocngu":"Trong khi ngộ biến tòng quyền biết sao?"},{"nom":"緣會遇德劬勞","quocngu":"Duyên hội ngộ, đức cù lao,"},{"nom":"𫳘情𫳘孝邊󰅹𥘀欣","quocngu":"Chữ tình Chữ hiếu, bên nào nặng hơn?"},{"nom":"底𠳒誓海明山","quocngu":"Để lời thệ hải minh sơn,"},{"nom":"爫𡥵𠓀沛填恩生成","quocngu":"Làm con trước phải đền ơn sinh thành."},{"nom":"決情娘買下情","quocngu":"Quyết tình nàng mới hạ tình:"},{"nom":"𠯇朱底妾半命贖吒","quocngu":"Dẽ cho để thiếp bán mình chuộc cha!"},{"nom":"户終固几吏𫅷","quocngu":"Họ Chung có kẻ lại già,"},{"nom":"拱𥪞衙役吏󰑼慈心","quocngu":"Cũng trong nha dịch lại là từ tâm."},{"nom":"𧡊娘孝重情深","quocngu":"Thấy nàng hiếu trọng tình thâm,"},{"nom":"爲娘𢪀拱傷󰠐㤕𢠿","quocngu":"Vì nàng nghĩ cũng thương thầm xót vay."},{"nom":"併排律妬論低","quocngu":"Tính bài lót đó luồn đây,"},{"nom":"固𠀧𤾓两役尼買吹","quocngu":"Có ba trăm lạng việc này mới xuôi."},{"nom":"唉𧗱暫付㩜外","quocngu":"Hãy về tạm phó giam ngoài,"},{"nom":"𠸕娘規料𥪞堆𠀧𣈜","quocngu":"Dặn nàng qui liệu trong đôi ba ngày."},{"nom":"傷𢚸𡥵𥘷䜹󰅹","quocngu":"Thương lòng con trẻ thơ nào,"},{"nom":"﨤干禍󰊄灾𠖤不期","quocngu":"Gặp cơn vạ gió tai bay bất kỳ!"},{"nom":"𤴬𢚸死别生離","quocngu":"Đau lòng tử biệt sinh ly,"},{"nom":"身群𫽄惜惜之典緣","quocngu":"Thân còn chẳng tiếc, tiếc gì đến duyên!"},{"nom":"曷湄詫𢪀分𢤞","quocngu":"Hạt mưa sá nghĩ phận hèn,"},{"nom":"料󰝡𡬷𦹵決填𠀧春","quocngu":"Liệu đem tấc cỏ quyết đền ba xuân."},{"nom":"事𢚸吘貝氷人","quocngu":"Sự lòng ngỏ với băng nhân,"},{"nom":"信霜吨𠰺賒𧵆㖔𡁞","quocngu":"Tin sương đồn đại xa gần xôn xao."},{"nom":"𧵆沔固󰜋媒󰅹","quocngu":"Gần miền có một mụ nào,"},{"nom":"迻𠊛遠客尋𠓨問名","quocngu":"Đưa người viễn khách tìm vào vấn danh."},{"nom":"𠳨𠸜浪馬監生","quocngu":"Hỏi tên, rằng: \\"Mã Giám sinh\\","},{"nom":"𠳨圭浪縣臨清共則","quocngu":"Hỏi quê, rằng: \\"Huyện Lâm Thanh cũng tắc\\"."},{"nom":"過年濯外𦊛旬","quocngu":"Quá niên trạc ngoại tư tuần,"},{"nom":"𪵟󰙐󰠺隊襖裙炳包","quocngu":"Mày râu nhẵn nhụi, áo quần bảnh bao."},{"nom":"𠓀柴𡢐伵㖔𡁞","quocngu":"Trước thầy sau tớ lao xao,"},{"nom":"如氷迻䋦逴𠓨楼粧","quocngu":"Như băng đưa mối rước vào lầu trang."},{"nom":"㨳𨕭𡎦卒産床","quocngu":"Ghế trên ngồi tót sẵn sàng,"},{"nom":"󰟀𥪞䋦㐌𠽖娘急𦋦","quocngu":"Buồng trong mối đã giục nàng kíp ra."},{"nom":"浽命添息浽茹","quocngu":"Nỗi mình thêm tức nỗi nhà,"},{"nom":"㙴花󰜋𨀈淚花󰋇行","quocngu":"Thềm hoa một bước, lệ hoa mấy hàng."},{"nom":"礙顒憚󰊄𠲖霜","quocngu":"Ngại ngùng dạn gió e sương,"},{"nom":"疑花䏾𢢆𬖉𦎛󰘚𪠗","quocngu":"Ngừng hoa bóng thẹn, trông gương mặt dày."},{"nom":"䋦強援𩅘扒𢬣","quocngu":"Mối càng vén tóc bắt tay,"},{"nom":"󰞺𢞂如菊命𤷍如枚","quocngu":"Nét buồn như cúc, mình gầy như mai."},{"nom":"旦都斤色斤才","quocngu":"Đắn đo cân sắc cân tài,"},{"nom":"押宮琴月此牌𦑗詩","quocngu":"Ép cung cầm nguyệt, thử bài quạt thơ."},{"nom":"󰚷濃󰜋𨤔󰜋於","quocngu":"Mặn nồng một vẻ một ưa."},{"nom":"平𢚸客買隨機迭迢","quocngu":"Bằng lòng khách mới tuỳ cơ dặt dìu."},{"nom":"浪摸玉典藍橋","quocngu":"Rằng: \\"Mua ngọc đến Lam Kiều"},{"nom":"聘儀󰂅𠰺包饒帝呈","quocngu":"Sính nghi vâng dạy bao nhiêu đấy chiềng?\\""},{"nom":"䋦浪當價𠦳鐄","quocngu":"Mối rằng: \\"Đáng giá nghìn vàng,"},{"nom":"﨤茹洳量𠊛傷敢奈","quocngu":"Gấp nhà nhờ lượng người thương dám nài.\\""},{"nom":"𪂲掑扒󰜋添𠄩","quocngu":"Cò kè bớt một thêm hai,"},{"nom":"𣇞𥹰我價󰂅外𦊚𤾓","quocngu":"Giờ lâu ngã giá vâng ngoài bốn trăm."},{"nom":"󰜋𠳒船㐌淹潭","quocngu":"Một lời thuyền đã êm giầm,"},{"nom":"唉迻更帖𠓀擒爫𥱬","quocngu":"Hãy đưa canh thiếp trước cầm làm ghi."},{"nom":"定時納釆于歸","quocngu":"Định thì nạp thái vu qui."},{"nom":"錢𦝄㐌固役之𫽄衝","quocngu":"Tiền lưng đã có việc gì chẳng xong!"},{"nom":"󰜋𠳒𢚁貝終公","quocngu":"Một lời cậy với Chung công,"},{"nom":"乞詞暫領王翁𧗱茹","quocngu":"Khất từ tạm lĩnh Vương ông về nhà."},{"nom":"傷情𡥵𥘷吒𫅷","quocngu":"Thương tình con trẻ cha già,"},{"nom":"𥆾娘翁㐌𧖱沙𦛌油","quocngu":"Nhìn nàng ông đã máu sa ruột dầu."},{"nom":"餒𡥵仍約𧗱𡢐","quocngu":"Nuôi con những ước về sau,"},{"nom":"𢭂絲沛侶招梂當尼","quocngu":"Trao tơ phải lứa, gieo cầu đáng nơi."},{"nom":"𡗶爫之極閉𡗶","quocngu":"Trời làm chi cực bấy trời,"},{"nom":"尼埃誣托朱𠊛合散","quocngu":"Này ai vu thác cho người hợp tan!"},{"nom":"斧斤包管身殘","quocngu":"\\"Phủ cân bao quản thân tàn,"},{"nom":"女苔墮𥘷強寃托𫅷","quocngu":"Nỡ đày đoạ trẻ, càng oan thác già"},{"nom":"󰜋𠳒𡢐𠓀拱󰑼","quocngu":"Một lời sau trước cũng là,"},{"nom":"催時󰘚屈𫽄他𢚸𤴬","quocngu":"Thôi thì mặt khuất chẳng thà lòng đau!\\""},{"nom":"蹺𠳒如沚𣳔珠","quocngu":"Theo lời như chảy dòng châu,"},{"nom":"料命翁㐌招頭墙𪿙","quocngu":"Liều mình ông đã gieo đầu tường vôi."},{"nom":"倍傍几𡨹𠊛𫀢","quocngu":"Vội vàng kẻ giữ người coi,"},{"nom":"𡮈𫰅娘吏尋𠳒𡅳干","quocngu":"Nhỏ to nàng lại tìm lời khuyên can:"},{"nom":"尾之󰜋󰌵紅顔","quocngu":"\\"Vẻ chi một tấm hồng nhan,"},{"nom":"𩅘絲渚𡭧填恩生成","quocngu":"Tóc tơ chưa chút đền ơn sinh thành."},{"nom":"𤼸書㐌𢢆娘縈","quocngu":"Dâng thư đã thẹn nàng Oanh,"},{"nom":"吏輸妸李半命能牢","quocngu":"Lại thua ả Lý bán mình hay sao?"},{"nom":"椿萱歲鶴強高","quocngu":"Xuân huyên tuổi hạc càng cao,"},{"nom":"󰜋核梗搏别包饒梗","quocngu":"Một cây gánh vác biết bao nhiêu cành."},{"nom":"𢚸絲油𫽄𢴑情","quocngu":"Lòng tơ dù chẳng dứt tình,"},{"nom":"󰊄𩄲歐罕散情渃𡽫","quocngu":"Gió mây âu hẳn tan tành nước non."},{"nom":"他浪料󰜋身𡥵","quocngu":"Thà rằng liều một thân con,"},{"nom":"花油扡𦑃𦲿群撑𣘃","quocngu":"Hoa dù rã cánh là còn xanh cây."},{"nom":"分𫳵停丕拱丕","quocngu":"Phận sao đành vậy cũng vầy,"},{"nom":"擒如𫽄杜仍𣈜群撑","quocngu":"Cầm như chẳng đậu những ngày còn xanh."},{"nom":"拱停併窘算觥","quocngu":"Cũng đừng tính quẩn toan quanh,"},{"nom":"散茹󰑼󰜋舌命󰑼𠄩","quocngu":"Tan nhà là một, thiệt mình là hai.\\""},{"nom":"沛𠳒翁拱淹𦖻","quocngu":"Phải lời ông cũng êm tai,"},{"nom":"𥆾饒湥󰠻湥𨱽衮昂","quocngu":"Nhìn nhau giọt ngắn giọt dài ngổn ngang."},{"nom":"𠃅外户馬皮𢀨","quocngu":"Mái ngoài họ Mã vừa sang,"},{"nom":"詞花㐌記巾鐄買𢭂","quocngu":"Tờ hoa đã ký, cân vàng mới trao."},{"nom":"𦝄𫅷獨地爫𫳵","quocngu":"Trăng già độc địa làm sao?"},{"nom":"擒𦀊𫽄擬纀𠓨自然","quocngu":"Cầm dây chẳng nghĩ buộc vào tự nhiên."},{"nom":"𥪞𢬣㐌産銅錢","quocngu":"Trong tay đã sẵn đồng tiền,"},{"nom":"油𢚸𢬭𤽸台顛𧁷之","quocngu":"Dầu lòng đổi trắng thay đen khó gì."},{"nom":"户終𦋦飭執爲","quocngu":"Họ Chung ra sức giúp vì,"},{"nom":"禮心㐌達訟期拱衝","quocngu":"Lễ tâm đã đặt, tụng kỳ cũng xong."},{"nom":"役茹㐌暫從容","quocngu":"Việc nhà đã tạm thong dong,"},{"nom":"星期𠽖也㐌蒙度𧗱","quocngu":"Tinh kỳ giục giã đã mong độ về."},{"nom":"󰜋命娘𦰟畑𣌉","quocngu":"Một mình nàng ngọn đèn khuya,"},{"nom":"𬡢滛湥淚𩄲車𠃅愁","quocngu":"Áo dầm giọt lệ, mây xe mái sầu."},{"nom":"分油油丕拱油","quocngu":"Phận dầu, dầu vậy cũng dầu,"},{"nom":"𡭧𢚸刀等閉𥹰󰜋𠳒","quocngu":"Chút lòng đeo đẳng bấy lâu một lời."},{"nom":"功程計别󰋇𨑮","quocngu":"Công trình kể biết mấy mươi."},{"nom":"爲些𠻞喫朱𠊛󰇾揚","quocngu":"Vì ta khăng khít cho người dở dang."},{"nom":"誓花渚燥𡃹鐄","quocngu":"Thề hoa chưa ráo chén vàng,"},{"nom":"磊誓催㐌負仿貝花","quocngu":"Lỗi thề thôi đã phũ phàng với hoa."},{"nom":"𡗶撩𡽫渃包賒","quocngu":"Trời Liêu non nước bao xa,"},{"nom":"擬󰠳𢩵󰘇𢺺茹自碎","quocngu":"Nghĩ đâu rẽ cửa chia nhà tự tôi!"},{"nom":"别包緣𡢻誓培","quocngu":"Biết bao duyên nợ thề bồi,"},{"nom":"劫尼催世時催群之","quocngu":"Kiếp này thôi thế thì thôi còn gì?"},{"nom":"再生渚𢴑香誓","quocngu":"Tái sinh chưa dứt hương thề,"},{"nom":"爫身𬌥馭填義竹枚","quocngu":"Làm thân trâu ngựa đền nghì trúc mai"},{"nom":"𡢻情渚者朱埃","quocngu":"Nợ tình chưa trả cho ai,"},{"nom":"塊情芒𫴋泉臺渚散","quocngu":"Khối tình mang xuống tuyền đài chưa tan!\\""},{"nom":"浽𥢆𥢆仍盘桓","quocngu":"Nỗi riêng, riêng những bàn hoàn,"},{"nom":"油炵𤽸𥒦湥灡渗巾","quocngu":"Dầu chong trắng đĩa, giọt tràn thấm khăn."},{"nom":"翠雲秩醒聀春","quocngu":"Thuý Vân chợt tỉnh giấc xuân,"},{"nom":"𠁑畑𥊘典殷勤𠳨嘆","quocngu":"Dưới đèn thì đến ân cần hỏi han."},{"nom":"機𡗶橷𣷭多端","quocngu":"Cơ trời dâu bể đa đoan,"},{"nom":"󰜋茹底姉𥢆寃󰜋命","quocngu":"Một nhà để chị riêng oan một mình."},{"nom":"故之𡎦忍更殘","quocngu":"Cớ chi ngồi nhẫn canh tàn"},{"nom":"浽𬓲群默貝情之低","quocngu":"Nỗi riêng còn mắc với tình chi đây?"},{"nom":"浪𢚸遁也式苔","quocngu":"Rằng: \\"Lòng rộn rã thức đầy,"},{"nom":"絲緣群王䋦尼渚衝","quocngu":"Tơ duyên còn vướng mối này chưa xong."},{"nom":"𠼯㖼𦋦拱𢢆𢠅","quocngu":"Hở môi ra cũng thẹn thùng,"},{"nom":"底𢚸時負𬌓𢚸貝埃","quocngu":"Để lòng thì phụ tấm lòng với ai!"},{"nom":"𢚁㛪㛪固𠹾𠳒","quocngu":"Cậy em, em có chịu lời,"},{"nom":"𡎦𨕭朱姉𥛉耒仕䜹","quocngu":"Ngồi lên cho chị lạy rồi sẽ thưa."},{"nom":"𡧲塘坦挭相思","quocngu":"Giữa đường đứt gánh tương tư,"},{"nom":"膠鸞執䋦絲乘默㛪","quocngu":"Keo loan chắp nối tơ thừa mặc em."},{"nom":"汝自欺﨤払金","quocngu":"Nhớ từ khi gặp chàng Kim,"},{"nom":"欺𣈜𦑗約欺𣎀𡃹誓","quocngu":"Khi ngày quạt ước, khi đêm chén thề."},{"nom":"事󰠳㳥󰊄不期","quocngu":"Sự đâu sóng gió bất kỳ,"},{"nom":"孝情固𨤰𠄩皮院𠄩","quocngu":"Hiếu tình có lẽ hai bề vẹn hai."},{"nom":"𣈜春㛪唉群𨱽","quocngu":"Thì xuân em hãy còn dài,"},{"nom":"㤕情𧖱𧗅台𠳒渃𡽫","quocngu":"Xót tình máu mủ, thay lời nước non."},{"nom":"姉油𦧘󰞺昌𤷱","quocngu":"Chị dù thịt nát xương mòn,"},{"nom":"吟唭𠃩𤂬挨群𦹳淶","quocngu":"Ngậm cười chín suối hãy còn thơm lây."},{"nom":"隻󰠽貝幅詞𩄲","quocngu":"Chiếc thoa với bức tờ mây,"},{"nom":"緣尼時𡨹物尼𧵑終","quocngu":"Duyên này thì giữ, vật này của chung."},{"nom":"油㛪𢧚𡞕𢧚𫯳","quocngu":"Dầu em nên vợ nên chồng,"},{"nom":"㤕𠊛命薄乙𢚸𫽄涓","quocngu":"Xót người mệnh bạc ắt lòng chẳng quên."},{"nom":"秩𠊛群𡭧𧵑信","quocngu":"Mất người còn chút của tin,"},{"nom":"泛弹貝𬌓𦎛願𣈜初","quocngu":"Phím đàn với tấm gương nguyền ngày xưa."},{"nom":"枚𡢐油固包𣇞","quocngu":"Mai sau dù có bao giờ,"},{"nom":"㤕󰌎香𧘇搊絲泛尼","quocngu":"Đốt lò hương ấy, so tơ phím này."},{"nom":"𬂙𦋦𦰟𦹵𦲿𣘃","quocngu":"Trông ra ngọn cỏ lá cây,"},{"nom":"𧡊囂囂󰊄時咍姉𧗱","quocngu":"Thấy hiu hiu gió thì hay chị về."},{"nom":"𠺌群芒𥘀𠳒誓","quocngu":"Hồn còn mang nặng lời thề,"},{"nom":"󰞺身蒲柳嗔宜竹枚","quocngu":"Nát thân bồ liễu, đền nghì trúc mai."},{"nom":"夜臺隔󰘚屈𠳒","quocngu":"Dạ đài cách mặt khuất lời,"},{"nom":"洒嗔湥淚朱𠊛托寃","quocngu":"Rảy xin giọt lệ cho người thác oan."},{"nom":"悲𣇞簪技𦎛散","quocngu":"Bây giờ trâm gãy gương tan,"},{"nom":"計爫牢掣閍萬愛恩","quocngu":"Kể làm sao xiết muôn vàn ái ân."},{"nom":"𤾓𠦳𠳚𥛉情君","quocngu":"Trăm nghìn gửi lại tình quân,"},{"nom":"𩄲絲𬑰𨤔固銀𧘇催","quocngu":"Mây tơ vắn vủi có ngần ấy thôi."},{"nom":"分𫳵分薄如𪿙","quocngu":"Phận sao phận bạc như vôi,"},{"nom":"㐌𢝜渃沚花㵢吕󰟯","quocngu":"Đã đành nước chảy hoa trôi lỡ làng."},{"nom":"喂金郎唉金郎","quocngu":"Ôi Kim lang! Hỡi Kim lang!"},{"nom":"催催妾㐌負払自低","quocngu":"Thôi thôi thiếp đã phụ chàng từ đây!\\""},{"nom":"𣴓𠳒魂𢴑𧖱醝","quocngu":"Cạn lời hồn dứt máu say,"},{"nom":"󰜋唏朗𡴯堆𢬣冷同","quocngu":"Một hơi lặng ngất, đôi tay lạnh đồng."},{"nom":"椿萱秩醒聀燶","quocngu":"Xuân huyên chợt tỉnh giấc nồng,"},{"nom":"󰜋茹圍笠几𥪝𠊛外","quocngu":"Một nhà vây lớp kẻ trong người ngoài."},{"nom":"几湯𠊛𬟥排排","quocngu":"Kẻ thang người thuốc bời bời,"},{"nom":"買油千彙渚沛湥紅","quocngu":"Mới dầu thiên vựng, chưa phai giọt hồng."},{"nom":"𠳨𫳵𦋦事𨔍𨓡","quocngu":"Hỏi: \\"Sao ra sự lạ lùng?"},{"nom":"翹強𠽋𠴑𨷑空𦋦𠳒","quocngu":"Kiều càng nức nở mở không ra lời."},{"nom":"浽娘雲買󰁹𦖻","quocngu":"Nỗi nàng Vân mới rỉ tai,"},{"nom":"隻󰠽底貝詞掊於低","quocngu":"Chiếc thoa đây với tờ bồi ở đây."},{"nom":"尼吒爫𦇒緣眉","quocngu":"Này cha làm lỗi duyên mày"},{"nom":"催時浽󰀎𡢐尼㐌㛪","quocngu":"Thôi thì nỗi ấy sau này đã em."},{"nom":"爲埃用𣒵淶針","quocngu":"Vì ai rụng cải rơi trâm,"},{"nom":"底𡥵䕯浽𩄲沉爲埃","quocngu":"Để con bèo nổi mây chìm vì ai?"},{"nom":"𠳒𡥵𠸕吏󰜋𠄩","quocngu":"Lời con dặn lại một hai,"},{"nom":"油𤷱碑𥒥敢差𡬷鐄","quocngu":"Dẫu mòn bia đá dám sai tấc vàng!\\""},{"nom":"𥛉催娘吏𠽔𠴔","quocngu":"Lạy thôi nàng lại thưa chiềng:"},{"nom":"𢘾吒者特󰒂払朱吹","quocngu":"Nhờ cha trả được nghĩa chàng cho xuôi."},{"nom":"䚿之身分碎隊","quocngu":"Thứ chi thân phận tôi đòi,"},{"nom":"酉浪昌𤽸圭𠊛管󰠳","quocngu":"Dẫu rằng xương trắng quê người quản đâu!\\""},{"nom":"掣包計浽𬌓愁","quocngu":"Xiết bao kể nỗi tấm sầu,"},{"nom":"刻更㐌𠽖南楼󰋇囬","quocngu":"Khắc canh đã giục nam lâu mấy hồi."},{"nom":"轎花󰠳㐌典外","quocngu":"Kiệu hoa đâu đã đến ngoài,"},{"nom":"管絃󰠳吏𠽖𣈜生離","quocngu":"Quản huyền đâu lại giục ngày sinh ly."},{"nom":"𤴬𢚸几於𠊛𠫾","quocngu":"Đau lòng kẻ ở người đi,"},{"nom":"湥淶滲𥒥絲𢺺癒蚕","quocngu":"Giọt rơi thấm đá, tơ chia rũ tằm."},{"nom":"𡗶𣋚𩄲𢹣最霪","quocngu":"Trời hôm mây kéo tối rầm,"},{"nom":"油油𦰟𦹵滛滛梗霜","quocngu":"Dàu dàu ngọn cỏ, đầm đầm cành sương."},{"nom":"逴娘𧗱典駐坊","quocngu":"Rước nàng về đến trú phường,"},{"nom":"𦊚皮春鎖󰜋娘於𥪞","quocngu":"Bốn bề xuân khóa một nàng ở trong."},{"nom":"汲凝𢢆錄𠲖紅","quocngu":"Ngập ngừng thẹn lục e hồng,"},{"nom":"擬𢚸吏㤕車𢚸隊番","quocngu":"Nghĩ lòng lại xót xa lòng đòi phen."},{"nom":"品僊淶典𢬣𪬡","quocngu":"Phẩm tiên rơi đến tay hèn,"},{"nom":"懷功𬋟𡨹湄廛貝埃","quocngu":"Hoài công nắng giữ mưa gìn với ai!"},{"nom":"别身典𨀈落𩔗","quocngu":"Biết thân đến bước lạc loài,"},{"nom":"蕋逃㐌披朱𠊛情鍾","quocngu":"Nhị đào đã bẻ cho người tình chung."},{"nom":"爲埃垠頓󰊄東","quocngu":"Vì ai ngăn đón gió đông."},{"nom":"舌𢚸欺於𤴬𢚸欺𠫾","quocngu":"Thiệt lòng khi ở, đau lòng khi đi."},{"nom":"重逢油禍固欺","quocngu":"Trùng phùng dù hoạ có khi,"},{"nom":"身尼催固群之𦓡蒙","quocngu":"Thân này thôi có ra gì mà mong."},{"nom":"㐌生𦋦數龍冬","quocngu":"Đã sinh ra số long đong,"},{"nom":"群急𥙩刼𦟐紅特𫳵","quocngu":"Còn kíp lấy kiếp má hồng được sao?\\""},{"nom":"𨕭案産固𡥵刀","quocngu":"Trên yên sẵn có con dao,"},{"nom":"𨁪𢶒娘㐌𢶒𠓨襖巾","quocngu":"Giấu gói nàng đã gói vào áo khăn."},{"nom":"防欺渃㐌典蹎","quocngu":"Phòng khi nước đã đến chân,"},{"nom":"刀尼時料貝身𡢐尼","quocngu":"Dao này thì liệu với thân sau này."},{"nom":"𣎀秋󰜋刻󰜋迡","quocngu":"Đêm thu một khắc một chầy,"},{"nom":"氷傾如醒如醝󰜋命","quocngu":"Bâng khuâng như tỉnh như say một mình."},{"nom":"𫽄󰑼妸馬監生","quocngu":"Chẳng là gã Mã giám sinh,"},{"nom":"刎󰑼󰜋𠀲風情㐌𪡵","quocngu":"Vẫn là một đứa phong tình đã quen."},{"nom":"戈制吏﨤囬顛","quocngu":"Qua chơi lại gặp hồi đen,"},{"nom":"𪡵漨吏劍咹沔月花","quocngu":"Quen vùng lại kiếm ăn miền nguyệt hoa."},{"nom":"楼撑固媒秀󰜏","quocngu":"Lầu xanh có mụ Tú bà,"},{"nom":"󰆌制㐌𧿨𧗱𫅷歇緣","quocngu":"Làng chơi đã trở về già hết duyên."},{"nom":"情期𫽄限𦓡𢧚","quocngu":"Tình cờ chẳng hẹn mà nên,"},{"nom":"𩈘鋸𦲾䔲堆邊󰜋坊","quocngu":"Mạt cưa mướp đắng đôi bên một phường."},{"nom":"終𦝄𨷑󰜋𡾵行","quocngu":"Chung lưng mở một ngôi hàng,"},{"nom":"觥𢆥奔粉半香㐌例","quocngu":"Quanh năm buôn phấn bán hương đã lề."},{"nom":"𨄹尋泣𢄂時圭","quocngu":"Dạo tìm khắp chợ thì quê,"},{"nom":"者名侯下𠰺藝咹制","quocngu":"Giả danh hầu hạ, dạy nghề ăn chơi."},{"nom":"磊埋歐拱事𡗶","quocngu":"Rủi may âu cũng sự trời,"},{"nom":"断膓吏論󰘚𠊛無緣","quocngu":"Đoạn trường lại lộn mặt người vô duyên."},{"nom":"㤕娘𡭧分婵娟","quocngu":"Xót nàng chút phận thuyền quyên,"},{"nom":"梗花󰝡半𠓨船俚倴","quocngu":"Cành hoa đem bán vào thuyền lái buôn."},{"nom":"卯𩢬㐌默𠓨囷","quocngu":"Mẹo lừa đã mắc vào khuôn,"},{"nom":"聘󰀩𥜤價迎婚産𣈜","quocngu":"Sính nghi rẻ giá, nghinh hôn sẵn ngày."},{"nom":"𢜠󰠐旗㐌典𢬣","quocngu":"Mừng thầm: \\"Cờ đã đến tay,"},{"nom":"強𥆾𨤔玉強醝曲鐄","quocngu":"Càng nhìn vẻ ngọc, càng say khúc vàng."},{"nom":"㐌𢧚國色天香","quocngu":"Đã nên quốc sắc thiên hương,"},{"nom":"󰜋唭尼罕𠦳鐄𫽄訛","quocngu":"Một cười này hẳn nghìn vàng chẳng ngoa!"},{"nom":"𧗱低自𠓀𣷭花","quocngu":"Về đây từ trước bẻ hoa,"},{"nom":"王孫貴客乙󰑼都饒","quocngu":"Vương tôn quý khách ắt là đua nhau."},{"nom":"罕𠀧𤾓两劍󰠳","quocngu":"Hẳn ba trăm lạng kém đâu,"},{"nom":"拱㐌皮本群𡢐時利","quocngu":"Cũng đà vừa vốn còn sau thì lời."},{"nom":"𠰳唁掑典羡尼","quocngu":"Miếng ngon kề đến tận nơi,"},{"nom":"本茹拱惜𧵑𡗶拱貪","quocngu":"Vốn nhà cũng tiếc, của trời cũng tham."},{"nom":"桃僊㐌𤊰𢬣凡","quocngu":"Đào tiên đã bén tay phàm,"},{"nom":"時楥梗橘朱甘事𠁀","quocngu":"Thì vin cành quít cho cam sự đời."},{"nom":"𠁑塵󰋇󰘚廊制","quocngu":"Dưới trần mấy mặt làng chơi,"},{"nom":"制花㐌易󰋇𠊛别花","quocngu":"Chơi hoa đã dễ mấy người biết hoa!"},{"nom":"渃蒲榴𧖱𬚱𬷤","quocngu":"Nước vỏ lựu, máu mào gà,"},{"nom":"摱牟招集吏󰑼群原","quocngu":"Mượn màu chiêu tập lại là còn nguyên."},{"nom":"𦚖𤎎打吝𡥵顛","quocngu":"Mập mờ đánh lận con đen,"},{"nom":"包饒拱閉饒錢秩之","quocngu":"Bao nhiêu cũng bấy nhiêu tiền mất chi?"},{"nom":"媒𫅷或固調之","quocngu":"Mụ già hoặc có điều gì,"},{"nom":"料功秩󰜋𣇜跪𦓡催","quocngu":"Liều công mất một buổi quì mà thôi."},{"nom":"典低塘詫賒吹","quocngu":"Đến đây đường sá xa xôi,"},{"nom":"𦓡些不動女𠊛生𪟽","quocngu":"Mà ta bất động nữa người sinh nghi.\\""},{"nom":"惜台󰜋朶茶縻","quocngu":"Tiếc thay một đoá trà mi,"},{"nom":"𡥵蜂㐌𨷑塘𠫾𡓃𧗱","quocngu":"Con ong đã mở đường đi lối về."},{"nom":"󰜋干湄󰊄󰠱泥","quocngu":"Một cơn mưa gió nặng nề,"},{"nom":"傷之典玉惜之典香","quocngu":"Thương gì đến ngọc, tiếc gì đến hương."},{"nom":"席春󰜋聀𢠩恾","quocngu":"Tiệc xuân một giấc mơ màng,"},{"nom":"燭花底妬默娘𦣰猪","quocngu":"Đuốc hoa để đó mặc nàng nằm trơ."},{"nom":"浽壙尋瀉𣻆湄","quocngu":"Nỗi [quãng] tầm tã tuôn mưa,"},{"nom":"分𡄎浽客分𢗼浽命","quocngu":"Phần ngẫm nỗi khách, phần lo nỗi mình."},{"nom":"從之󰑼種灰醒","quocngu":"Tuồng chi là giống hôi tanh,"},{"nom":"身𠦳鐄底丐名𦟐紅","quocngu":"Thân nghìn vàng để cái danh má hồng."},{"nom":"催群之女麻蒙","quocngu":"Thôi còn chi nữa mà mong,"},{"nom":"𠁀𠊛催世󰑼衝󰜋𠁀","quocngu":"Đời người thôi thế là xong một đời.\\""},{"nom":"恨緣悴分排排","quocngu":"Giận duyên tủi phận bời bời,"},{"nom":"擒刀娘㐌算排捐生","quocngu":"Cầm dao nàng đã toan bài quyên sinh."},{"nom":"𢪀𠫾𢪀吏󰜋命","quocngu":"Nghĩ đi nghĩ lại một mình,"},{"nom":"󰜋命時𠤆𠄩情時𫳵","quocngu":"Một mình thì chớ, hai tình thì sao?"},{"nom":"𡢐油生事世󰅹","quocngu":"Sau dầu sinh sự thế nào,"},{"nom":"追原𫽄矯累𠓨雙親","quocngu":"Truy nguyên chẳng kẻo luỵ vào song thân."},{"nom":"浽命歐拱簡寅","quocngu":"Nỗi mình âu cũng giãn dần,"},{"nom":"急迡催拱󰜋吝𦓡催","quocngu":"Kíp chầy thôi cũng một lần mà thôi!\\""},{"nom":"仍󰑼𢵋旦虐吹","quocngu":"Những là đo đắn ngược xuôi,"},{"nom":"㗂𬷤𦖑㐌嘅催買墙","quocngu":"Tiếng gà nghe đã gáy thôi mé tường."},{"nom":"楼枚皮㗜𧥇霜","quocngu":"Lầu mai vừa rúc còi sương,"},{"nom":"馬生𠽖𨄹倍傍𦋦𠫾","quocngu":"Mã sinh giục rạo vội vàng ra đi."},{"nom":"斷膓台𣅶分岐","quocngu":"Đoạn trường thay lúc phân kỳ,"},{"nom":"𨀒𪀊泣警𨋣車岌𡹡","quocngu":"Vó câu khấp khểnh, bánh xe gập ghềnh."},{"nom":"皮外𨑮𨤮長亭","quocngu":"Bề ngoài mười dặm trường đình,"},{"nom":"王翁𨷑席賤行迻蹺","quocngu":"Vương Ông mở tiệc tiễn hành đưa theo."},{"nom":"外茄主客󰖧迢","quocngu":"Ngoài thì chủ khách dập dìu,"},{"nom":"󰜋茹萱貝󰜋翹於𥪞","quocngu":"Một nhà huyên với một Kiều ở trong."},{"nom":"𥆾強呂渚湥紅","quocngu":"Nhìn càng lã chã giọt hồng,"},{"nom":"󰁹𦖻娘買𤉒𢚸𥰊高","quocngu":"Rỉ tai nàng mới giãi lòng thấp cao."},{"nom":"虎生𦋦分䜹桃","quocngu":"Hổ sinh ra phận thơ đào,"},{"nom":"功托󰒂媄劫󰅹者衝","quocngu":"Công cha nghĩa mẹ kiếp nào trả xong?"},{"nom":"呂󰟯渃濁𡏧𤄯","quocngu":"Lỡ làng nước đục bụi trong,"},{"nom":"𤾓𢆥底󰜋𬌓𢚸自低","quocngu":"Trăm năm để một tấm lòng từ đây."},{"nom":"󰏙𦎛𥪞閉饒𣈜","quocngu":"Xem gương trong bấy nhiêu ngày,"},{"nom":"身𡥵𫽄矯默𢬣姂𫅷","quocngu":"Thân con chẳng kẻo mắc tay bợm già."},{"nom":"欺𧗱補永𥪞茹","quocngu":"Khi về bỏ vắng trong nhà,"},{"nom":"欺𠓨推孕欺𦋦倍鐄","quocngu":"Khi vào dồi dắng, khi ra vội vàng."},{"nom":"欺咹欺呐呂󰟯","quocngu":"Khi ăn, khi nói lỡ làng,"},{"nom":"欺柴欺伵󰏙常󰏙輕","quocngu":"Khi thầy, khi tớ xem thường xem khinh."},{"nom":"恪牟几貴𠊛清","quocngu":"Khác màu kẻ quý người thanh,"},{"nom":"𡄎𦋦朱技如形𡥵奔","quocngu":"Ngẫm ra cho kỹ như hình con buôn."},{"nom":"催𡥵群呐之𡥵","quocngu":"Thôi con còn nói chi con,"},{"nom":"𤯩𢘾坦客托墫圭𠊛","quocngu":"Sống nhờ đất khách, thác chôn quê người.\\""},{"nom":"王󰜏𦖑閉饒𠳒","quocngu":"Vương bà nghe bấy nhiêu lời,"},{"nom":"㗂寃㐌悶拍𡗶呌𨖲","quocngu":"Tiếng oan đã muốn vạch trời kêu lên."},{"nom":"𠄽旬渚𣴓𡃹𡅳","quocngu":"Vài tuần chưa cạn chén khuyên,"},{"nom":"𠃅外𢪀㐌𠽖連𨇒車","quocngu":"Mái ngoài nghỉ đã giục liền ruổi xe."},{"nom":"㤕𡥵𢚸󰠱迡迡","quocngu":"Xót con lòng nặng chề chề,"},{"nom":"𠓀鞍翁㐌𡅧呢𥰊高","quocngu":"Trước yên ông đã nằn nì thấp cao:"},{"nom":"㤕身柳要䜹桃","quocngu":"\\"xót thân liễu yếu thơ đào,"},{"nom":"窒洳旦浽󰟘𠓨碎𤽗","quocngu":"Rấp nhơ đến đỗi dấn vào tôi ngươi."},{"nom":"自低𧣳𣷭邊𡗶","quocngu":"Từ đây góc bể bên trời,"},{"nom":"𬋟湄退退圭𠊛󰜋身","quocngu":"Nắng mưa thui thủi quê người một thân."},{"nom":"𠦳尋𢘾䏾松筠","quocngu":"Nghìn tầm nhờ bóng tùng quân,"},{"nom":"雪霜𩂏𨔾朱身葛藤","quocngu":"Tuyết sương che chở cho thân cát đằng.\\""},{"nom":"󰠾𠳒客買䜹浪","quocngu":"[Cạn] lời khách mới thưa rằng:"},{"nom":"纀蹎催拱赤繩冉𢭂","quocngu":"Buộc chân thôi cũng xích thằng nhiệm trao."},{"nom":"枚𡢐油典世󰅹","quocngu":"Mai sau dầu dến thế nào,"},{"nom":"箕𦎛日月怒刀鬼神","quocngu":"Kìa gương nhật nguyệt, nọ dao quỉ thần."},{"nom":"同同󰊄𠽖𩄲秦","quocngu":"Đùng đùng gió giục mây tần,"},{"nom":"󰜋車𥪞𡎝紅塵如𠖤","quocngu":"Một xe trong cõi hồng trần như bay,"},{"nom":"𬖉潙拔淚分𢬣","quocngu":"Trông vời gạt lệ phân tay,"},{"nom":"𧣳𡗶審審𣈜𣈜󰠐󰠐","quocngu":"Góc trời thăm thẳm, ngày ngày đăm đăm."},{"nom":"娘時𡎝客車駸","quocngu":"Nàng thì cõi khách xa xăm,"},{"nom":"泊扡梂這顛霪岸逐","quocngu":"Bạc phau cầu giá, đen rầm ngàn [giục]."},{"nom":"葦𦰤察察唏枚","quocngu":"Vi lau san sát hơi may,"},{"nom":"󰜋𡗶秋底𬓲埃󰜋𠊛","quocngu":"Một trời thu để riêng ai một người."},{"nom":"𨤮𣌉岌淨𩂟𣾺","quocngu":"Dặm khuya ngất tạnh mù khơi,"},{"nom":"𧡊𦝄𦓡𢢆仍𠳒𡽫滝","quocngu":"Thấy trăng mà thẹn những lời non sông."},{"nom":"楼秋層碧杆紅","quocngu":"Lầu thu từng biếc chen hồng,"},{"nom":"𦖑𫚳如弋󰌵𢚸晨昏","quocngu":"Nghe chim như nhắc tấm lòng thần hôn."},{"nom":"仍󰑼𨔍渃𨔍𡽫","quocngu":"Những là lạ nước lạ non,"},{"nom":"臨淄皮󰜋𣎃𧷺典尼","quocngu":"Lâm Truy vừa một tháng tròn đến nơi."},{"nom":"車珠停𨋣󰘇外","quocngu":"Xe châu dừng bánh cửa ngoài,"},{"nom":"簾𥪞㐌𧡊󰜋𠊛𨀈𦋦","quocngu":"Rèm trong đã thấy một người bước ra."},{"nom":"脱𬖉𤁕𤁕牟皮","quocngu":"Thoắt trông nhờn nhợt màu da,"},{"nom":"咹之高𢀲悌陀爫𫳵","quocngu":"Ăn gì cao lớn đẫy đà làm sao?"},{"nom":"𠓀車雷呂嘆嘲","quocngu":"Trước xe lôi lả han chào,"},{"nom":"󰂅𠳒娘買𨀈𠓨羡尼","quocngu":"Vâng lời nàng mới bước vào tận nơi."},{"nom":"邊時󰋇妸𪵟𧍋","quocngu":"Bên thì mấy ả mày ngài,"},{"nom":"邊時𡎥𦊚𢆥𠊛廊制","quocngu":"Bên thì ngồi bốn năm người làng chơi."},{"nom":"𡧲時香󰌕罕灰","quocngu":"Giữa thì hương lửa hẳn hoi,"},{"nom":"𨕭撩󰜋象𤽸堆󰋃𪵟","quocngu":"Trên treo một tượng trắng đôi lông mày."},{"nom":"楼青捐𡓃初󰅒","quocngu":"Lầu xanh quen lối xưa nay,"},{"nom":"藝尼時𥙩翁尼先師","quocngu":"Nghề này thì lấy ông này tiên sư,"},{"nom":"香𣋚花󰉲奉蜍","quocngu":"Hương hôm hoa sớm phụng thờ,"},{"nom":"姑󰅹醜𩴬朱䜹䋦行","quocngu":"Cô nào xấu vía cho thưa mối hàng,"},{"nom":"𢶒襜𢯰襖󱋓𠴔","quocngu":"Cổi xiêm lột áo chán chường,"},{"nom":"𠓀晨仕願𤗖香淋滛","quocngu":"Trước thần sẽ nguyện mảnh hương lầm rầm."},{"nom":"𢷮花𢯰𫴋𥴜𦣰","quocngu":"Đổi hoa lót xuống chiếu nằm,"},{"nom":"𧊉蜂𠖤吏喑喑四圍","quocngu":"Bướm ong bay lại ầm ầm tứ vi."},{"nom":"翹群魚謹別之","quocngu":"Kiều còn ngơ ngẩn biết gì,"},{"nom":"拠𠳒𥛉𫴋媒時󰂴𣦍","quocngu":"Cứ lời lạy xuống mụ thì khấn ngay:"},{"nom":"󰘇行奔半朱枚","quocngu":"Cửa hàng buôn bán cho may,"},{"nom":"𣎀𣎀寒食𣈜𣈜元宵","quocngu":"Đêm đêm Hàn thực, ngày ngày Nguyên tiêu."},{"nom":"閍𠦳𠊛𧡊拱腰","quocngu":"Muôn nghìn người thấy cũng yêu,"},{"nom":"㖔𡁞鸚燕習耀竹枚","quocngu":"Xôn xao anh yến, dập dìu trúc mai."},{"nom":"信鴈刎𦲿詩排","quocngu":"Tin nhạn vẩn, lá thơ bài,"},{"nom":"迻𠊛󰘇𠓀逴𠊛󰘇𡢐","quocngu":"Đưa người cửa trước, rước người cửa sau!\\""},{"nom":"𨔍𦖻𦖑渚別󰠳","quocngu":"Lạ tai nghe chửa biết đâu,"},{"nom":"󰏙情𦋦拱仍牟󰇾揚","quocngu":"Xem tình ra cũng những màu dở dang."},{"nom":"礼衝香火家堂","quocngu":"Lễ xong hương hoả gia đường,"},{"nom":"秀󰜏勿𧂭𨖲床𡎦𣦍","quocngu":"Tú bà vắt nóc lên giường ngồi ngay."},{"nom":"𠰺浪𡥵𥛉媄低","quocngu":"Dạy rằng: \\"Con lạy mẹ đây,"},{"nom":"𥛉耒時𥛉舅眉遇箕","quocngu":"Lạy rồi thì lạy cậu mày ngộ kia\\""},{"nom":"娘浪沛𨀈流離","quocngu":"Nàng rằng: \\"Phải bước lưu ly,"},{"nom":"分𪬡󰂅㐌泔皮小星","quocngu":"Phận hèn vâng đã cam bề tiểu tinh."},{"nom":"調󰠳𥙩燕爫鸚","quocngu":"Điều đâu lấy yến làm anh,"},{"nom":"癡䜹𫽄別󰑼名分之","quocngu":"Ngây thơ chẳng biết là danh phận gì?"},{"nom":"𨇜調納采于歸","quocngu":"Đủ điều nạp thái vu qui,"},{"nom":"㐌欺崇作吏欺𨅸𡎦","quocngu":"Đã khi suồng sã, lại khi đứng ngồi."},{"nom":"𣇞𦋦台堛𢬭𡾵","quocngu":"Giờ ra thay bậc đổi ngôi,"},{"nom":"敢呼𠳚吏󰜋𠳒朱明","quocngu":"Dám hô gửi lại một lời cho minh.\\""},{"nom":"媒𦖑娘呐𫨩情","quocngu":"Mụ nghe nàng nói hay tình,"},{"nom":"閉𣇞買浽三彭媒𨖲","quocngu":"Bấy giờ mới nổi tam bành mụ lên."},{"nom":"尼尼事㐌果然","quocngu":"Này này sự đã quả nhiên,"},{"nom":"催陀刼𤯩𫯳綿𠫾耒","quocngu":"Thôi đà cướp sống chồng min đi rồi!\\""},{"nom":"保浪𠫾𨄹𥙩𠊛","quocngu":"Bảo rằng: \\"Đi dạo lấy người,"},{"nom":"󰝡𧗱逴客劎利𦓡咹","quocngu":"Đem về rước khách kiếm lời mà ăn."},{"nom":"從無󰒂於不仁","quocngu":"Tuồng vô nghĩa, ở bất nhân,"},{"nom":"𢞂命𫏾㐌秦緡此制","quocngu":"Buồn mình trước đã tần mần thử chơi."},{"nom":"牟湖㐌秩𠫾耒","quocngu":"Màu hồ đã mất đi rồi,"},{"nom":"催催本另𠫾𠁀茹魔","quocngu":"Thôi thôi vốn liếng đi đời nhà ma!\\""},{"nom":"𡥵箕㐌半朱些","quocngu":"Con kia đã bán cho ta,"},{"nom":"入家沛據法茹蚤低","quocngu":"Nhập gia phải cứ phép nhà tao đây."},{"nom":"老箕固󰇾排碑","quocngu":"Lão kia có giở bài bây,"},{"nom":"𫽄挷𠓨󰘚𦓡眉吏𦖑","quocngu":"Chẳng văng vào mặt mà mày lại nghe!"},{"nom":"據牢𠹾卒󰜋皮","quocngu":"Cớ sao chịu tốt một bề,"},{"nom":"𡛔絲𦓡㐌語藝𣌋𫳵","quocngu":"Gái tơ mà đã ngứa nghề sớm sao!"},{"nom":"沛爫朱別法蚤","quocngu":"Phải làm cho biết phép tao!\\""},{"nom":"𪮞皮鞭拉𪮭𠓨𦋦𢬣","quocngu":"Giật bì tiên rắp sấn vào ra tay."},{"nom":"娘浪𡗶瀋坦苔","quocngu":"Nàng rằng: \\"Trời thẳm đất dày,"},{"nom":"身尼㐌補仍𣈜𦋦𠫾","quocngu":"Thân này đã bỏ những ngày ra đi."},{"nom":"催時催固惜之","quocngu":"Thôi thì thôi có tiếc gì!\\""},{"nom":"産刀𢬣襖即時󰇾𦋦","quocngu":"Sẵn dao tay áo tức thì giở ra."},{"nom":"𢜝肝󰞺玉料花","quocngu":"Sợ gan nát ngọc liều hoa,"},{"nom":"媒群𬖉󰘚娘陀過𢬣","quocngu":"Mụ còn trông mặt, nàng đà quá tay."},{"nom":"傷喂才色墨尼","quocngu":"Thương ôi, tài sắc mực này,"},{"nom":"󰜋刀寃孽𢴑𦀊風塵","quocngu":"Một dao oan nghiệt dứt dây phong trần."},{"nom":"浽寃破𡋿賒𧵆","quocngu":"Nỗi oan phá lở xa gần,"},{"nom":"𥪞茹𠊛質󰜋吝如𣑻","quocngu":"Trong nhà người chật một lần như nêm."},{"nom":"娘時弼弼聀僊","quocngu":"Nàng thì bằn bặt giấc tiên,"},{"nom":"媒時󰜋󰜋󰘚𥚆隗𠖤","quocngu":"Mụ thì mồn một mặt nhìn hồn bay."},{"nom":"域娘𠓨准軒西","quocngu":"Vực nàng vào chốn hiên tây,"},{"nom":"割𠊛𫀅朔連柴𬟥湯","quocngu":"Cắt người coi sóc, liền thầy thuốc thang."},{"nom":"󰅹𫨩渚歇陳緣","quocngu":"Nào hay chưa hết trần duyên,"},{"nom":"𥪝𩄲催㐌𨅸边󰜋娘","quocngu":"Trong mây thôi đã đứng bên một nàng."},{"nom":"󰁹浪因果󰇾揚","quocngu":"Rỉ rằng: \\"Nhân quả dở dang,"},{"nom":"㐌算遁𡢻斷膓特牢","quocngu":"Đã toan trốn nợ đoạn tràng được sao?"},{"nom":"𢼂群󰠱業𦟐桃","quocngu":"Số còn nặng nghiệp má đào,"},{"nom":"𠊛油悶決𡗶󰅹㐌朱","quocngu":"Người dù muốn quyết, trời nào đã cho!"},{"nom":"涘嗔歇刼柳蒲","quocngu":"Hãy xin hết kiếp liễu bồ,"},{"nom":"滝錢塘仕限㗅𧗱𡢐","quocngu":"Sông Tiền Đường sẽ hẹn hò về sau.\\""},{"nom":"𬟥湯卒󰜋𣈜輸","quocngu":"Thuốc thang suốt một ngày thâu,"},{"nom":"聀迷𦖑㐌油油皮散","quocngu":"Giấc mê nghe đã dàu dàu vừa tan."},{"nom":"秀󰜏直産边幔","quocngu":"Tú bà chực sẵn bên màn,"},{"nom":"招𠳒𡅳解綿蠻𫽻寅","quocngu":"Gieo lời khuyên giải miên man gỡ dần."},{"nom":"󰜋𠊛易固󰋇身","quocngu":"Một người dễ có mấy thân."},{"nom":"花春登蕋𣈜春群𨱽","quocngu":"Hoa xuân đăng nhuỵ, ngày xuân còn dài."},{"nom":"共󰑼呂󰜋𠰃𠄩","quocngu":"Cũng là lỡ một lầm hai,"},{"nom":"𥒥鐄牢女押奈𩄲湄","quocngu":"Đá vàng sao nỡ ép nài mây mưa."},{"nom":"呂󰖄卒㐌𠓨低","quocngu":"Lỡ chân trót đã vào đây,"},{"nom":"鎖房春底行𣈜桃𡽫","quocngu":"Khoá phòng xuân để hành ngày đào non."},{"nom":"𠊛群時𧵑唉群","quocngu":"Người còn thì của hãy còn,"},{"nom":"尋尼稱當󰑼𡥵丐茹","quocngu":"Tìm nơi xứng đáng là con cái nhà."},{"nom":"爫之罪報寃家","quocngu":"Làm chi tội báo oan gia,"},{"nom":"舌命𦓡害典些𫨩之","quocngu":"Thiệt mình mà hại đến ta hay gì?\\""},{"nom":"拱𦖻󰋇浽𡅧尼","quocngu":"Kề tai mấy nỗi nằn nì,"},{"nom":"娘𦖑󰟯拱是非攊𢬗","quocngu":"Nàng nghe dường cũng thị phi rạch ròi."},{"nom":"𡲤𥪞晨夢󰋇𠳒","quocngu":"Vả trong thần mộng mấy lời,"},{"nom":"夙姻時拱固𡗶於𥪞","quocngu":"Túc nhân thì cũng có trời ở trong."},{"nom":"刼尼𡢻者渚衝","quocngu":"Kiếp này nợ trả chưa xong,"},{"nom":"爫之時㤨󰜋𫯳刼𡢐","quocngu":"Làm chi thì cũng một chồng kiếp sau."},{"nom":"朗𦖑𠸬噤𨃴頭","quocngu":"Lặng nghe thẩm [nẩm] gót đầu,"},{"nom":"䜹浪埃固悶󰠲世尼","quocngu":"Thưa rằng: \\"Ai có muốn đâu thế này."},{"nom":"特如𠳒世𪡔枚","quocngu":"Được như lời thế là may,"},{"nom":"罕浪𪰹固如𣈙朱庄","quocngu":"Hẳn rằng mai có như rày cho chăng."},{"nom":"𢜝欺蜂𧊉代騰","quocngu":"Sợ khi ong bướm đãi đằng,"},{"nom":"典調𤯩濁牢朋托冲","quocngu":"Đến điều sống đục sao bằng thác trong.\\""},{"nom":"媒浪𡥵唉從容","quocngu":"Mụ rằng: \\"Con hãy thong dong,"},{"nom":"沛調𢚸吏對𢚸𦓡制","quocngu":"Phải điều lòng lại dối lòng mà chơi!"},{"nom":"枚𡢐於𫽄如𠳒","quocngu":"Mai sau ở chẳng như lời,"},{"nom":"𨕭頭固䏾󰘚𡗶𤎜𤐝","quocngu":"Trên đầu có bóng mặt trời rạng soi.\\""},{"nom":"𧡊𠳒决斷罕灰","quocngu":"Thấy lời quyết đoán hẳn hoi,"},{"nom":"停𢚸娘拱仕𠿯𠿯寅","quocngu":"Đành lòng nàng cũng sẽ nguôi nguôi dần."},{"nom":"𫏾𡢐凝碧鎖春","quocngu":"Trước sau Ngưng Bích khoá xuân,"},{"nom":"越𡽫賒󰌵𦝄𧵆於終","quocngu":"Vết non xa, tấm trăng gần ở chung."},{"nom":"𦊚皮八𠯪賒𬂙","quocngu":"Bốn bề bát ngát xa trông,"},{"nom":"吉鐄堒怒𡏧紅𨤮箕","quocngu":"Cát vàng cồn nọ, bụi hồng dặm kia."},{"nom":"彼傍𩄲𣌋畑𣌉","quocngu":"Bẽ bàng mây sớm đèn khuya,"},{"nom":"姅情姅景如𢺺𬌓𢚸","quocngu":"Nửa tình nửa cảnh như chia tấm lòng."},{"nom":"想𠊛𠁑月󱋓同","quocngu":"Tưởng người dưới nguyệt chén đồng,"},{"nom":"信霜隴唉𣈙𬂙𪰹徐","quocngu":"Tin sương luống hãy rày trông mai chờ."},{"nom":"边𡗶𧣳𣷭巴把","quocngu":"Bên trời góc bể bơ vơ,"},{"nom":"𬌓𣘈滑𣳮包𣇞朱派","quocngu":"Tấm son gột rửa bao giờ cho phai."},{"nom":"㤕𠊛𢭸󰘇𣋚𪰹","quocngu":"Xót người tựa cửa hôm mai,"},{"nom":"𦑗燶搭冷仍埃妬徐","quocngu":"Quạt nồng đắp lạnh những ai đó giờ?"},{"nom":"蓬萊隔󰋇𬋟湄","quocngu":"Bồng Lai cách mấy nắng mưa,"},{"nom":"固欺㭲子㐌皮𠊛揞","quocngu":"Có khi gốc tử đã vừa người ôm."},{"nom":"盆𬂙󰘇𣷭𧵆𣋚","quocngu":"Buồn trông cửa bể gần hôm,"},{"nom":"船埃湿倘𦑃帆賒賒","quocngu":"Thuyền ai thấp thoáng cánh buồm xa xa."},{"nom":"𢞂𬂙𦰟渃買沙","quocngu":"Buồn trông ngọn nước mới sa,"},{"nom":"花㵢蔓莫別󰑼𧗱󰠳","quocngu":"Hoa trôi man mác biết là về đâu?"},{"nom":"𢞂𬂙内𦹵油油","quocngu":"Buồn trông nội cỏ dàu dàu,"},{"nom":"󰖄𩄲󰘚坦󰜋牟撑撑","quocngu":"Chân mây mặt đất một màu xanh xanh."},{"nom":"𢞂𬂙𩙌捲󰘚溋","quocngu":"Buồn trông gió cuốn mặt duềnh,"},{"nom":"喑啿㗂㳥呌觥槣𡎦","quocngu":"OM thòm tiếng sóng kêu quanh ghế ngồi."},{"nom":"終觥仍渃𡽫𠊛","quocngu":"Chung quanh những nước non người,"},{"nom":"𤴬𢚸流落𢧚𠄽𦊚句","quocngu":"Đau lòng lưu lạc nên vài bốn câu."},{"nom":"唅𠿯𢷀幅簾珠","quocngu":"Ngậm ngùi rủ bức rèm châu,"},{"nom":"隔楼𦖑固㗂󰠳和韻","quocngu":"Cách lầu nghe có tiếng đâu hoạ vần."},{"nom":"󰜋払皮擢清春","quocngu":"Một chàng vừa trạc thanh xuân,"},{"nom":"形容沚淬襖巾妙揚","quocngu":"Hình dung chải chuốt, áo khăn dịu dàng."},{"nom":"擬浪拱脉書香","quocngu":"Nghĩ rằng cũng mạch thư hương,"},{"nom":"𠳨𦋦買別浪払楚卿","quocngu":"Hỏi ra mới biết rằng chàng Sở khanh."},{"nom":"䏾娥湿倘𠁑萌","quocngu":"Bóng nga thấp thoáng dưới mành,"},{"nom":"𬖉払娘拱𦋦情刀帶","quocngu":"Trông chàng, nàng cũng ra tình đeo đai."},{"nom":"嘆喂色渃香𡗶","quocngu":"Than ôi! Sắc nước hương trời,"},{"nom":"惜朱󰠲俸落類典低","quocngu":"Tiếc cho đâu bỗng lạc loài đến đây?"},{"nom":"價停中月𨕭𩄲","quocngu":"Giá đành trong nguyệt trên mây,"},{"nom":"花𫳵花窖也苔貝花","quocngu":"Hoa sao hoa khéo dã dày mấy hoa?"},{"nom":"汝肝𥢆𢚷𡗶𫅷","quocngu":"Nhớ gan riêng giận trời già,"},{"nom":"𢚸尼埃𤏣朱埃唉𢚸","quocngu":"Lòng này ai tỏ cho ta hỡi lòng!"},{"nom":"婵娟󰂇別󰠰䧺","quocngu":"Thuyền quyên ví biết anh hùng,"},{"nom":"𦋦𢬣操櫃數籠如制","quocngu":"Ra tay tháo cũi sổ lồng như chơi!\\""},{"nom":"窻秋㐌怯𦑃外","quocngu":"Song thu đã khép cánh ngoài,"},{"nom":"𦖻群同望󰋇𠳒𨫊釘","quocngu":"Tai còn đồng vọng mấy lời sắt đanh."},{"nom":"擬𠊛催吏擬命","quocngu":"Nghĩ người thôi lại nghĩ mình,"},{"nom":"感𢚸洙悴𤁕情如爲","quocngu":"Cám lòng chua xót, lạt tình như vi."},{"nom":"仍󰑼吝呂𪱆湄","quocngu":"Những là lần lữa nắng mưa,"},{"nom":"刼風塵別包𣇞󰑼催","quocngu":"Kiếp phong trần biết bao giờ là thôi?"},{"nom":"停料𠴍󰜋𠄩𠳒","quocngu":"Đánh liều nhắn một hai lời,"},{"nom":"洳𢬣濟度𢵼𠊛沉淪","quocngu":"Nhờ tay tế độ vớt người trầm luân."},{"nom":"󰟚箋計歇賒𧵆","quocngu":"Mảnh tiên kể hết xa gần,"},{"nom":"浽茹報答浽身落類","quocngu":"Nỗi nhà báo đáp, nỗi thân lạc loài."},{"nom":"散箱皮𠓇𣈜枚","quocngu":"Tan sương vừa rạng ngày mai,"},{"nom":"便鴻娘買𠴍𠳒𠳚郎","quocngu":"Tiện hồng nàng mới nhắn lời gửi sang."},{"nom":"𡗶西朗蕩䏾鐄","quocngu":"Trời tây lãng đãng bóng vàng,"},{"nom":"復书㐌𧡊信払典尼","quocngu":"Phục thư đã thấy tin chàng đến nơi."},{"nom":"𨷑󰏙󰜋幅箋枚","quocngu":"Mở xem một bức tiên mai,"},{"nom":"伶伶昔越固𠄩𫳘題","quocngu":"Rành rành tích việt có hai chữ đề."},{"nom":"𥙩𥪞意思𦓡推","quocngu":"Lấy trong ý tứ mà suy:"},{"nom":"𣈜𠄩𨑮󰜋戌時沛庄","quocngu":"Ngày hai mươi mốt, tuất thì phải chăng?"},{"nom":"𫚳𣋚催脱𧗱棱","quocngu":"Chim hôm thoi thót về rừng,"},{"nom":"架茶度㐌唅𦝄姅萌","quocngu":"Giá trà độ đã ngậm gương nửa mành."},{"nom":"墻東𢯦動䏾梗","quocngu":"Tường đông lay động bóng cành,"},{"nom":"𢩵窻㐌𧡊楚卿𥊩𠓨","quocngu":"Đẩy song đã thấy Sở khanh lẻn vào."},{"nom":"尙崇打惮𦋦嘲","quocngu":"Sượng sùng đánh dạn ra chào,"},{"nom":"𥛉催娘買󰁹𢭂殷勤","quocngu":"Lạy thôi nàng mới rỉ trao ân cần."},{"nom":"浪碎䕯浡拙身","quocngu":"Rằng: \\"Tôi bèo bọt xót thân,"},{"nom":"落塘芒𥙩𡢻𫱞燕鸚","quocngu":"Lạc đàng mang lấy nợ nần yến anh."},{"nom":"敢洳骨肉死生","quocngu":"Dám nhờ cốt nhục tử sinh,"},{"nom":"群𡗉結𦹵唅㐌𧗱𡢐","quocngu":"Còn nhiều kết cỏ ngậm đà về sau.\\""},{"nom":"朗𡎢侵㗂𡴯頭","quocngu":"Lặng ngồi xẩm tiếng gật đầu:"},{"nom":"些低沛慢埃󰠲𦓡浪","quocngu":"\\"Ta đây phải mượn ai đâu mà rằng!"},{"nom":"娘陀別典些庄","quocngu":"Nàng đà biết đến ta chăng,"},{"nom":"浽沉淪楼朱平買催","quocngu":"Nỗi trầm luân lâu cho bằng mới thôi!\\""},{"nom":"娘浪󰗾事恩𠊛","quocngu":"Nàng rằng: \\"Muôn sự ơn người,"},{"nom":"世󰅹嗔决󰜋排朱衝","quocngu":"Thế nào xin quyết một bài cho xong.\\""},{"nom":"浪些固馭追風","quocngu":"Rằng: \\"Ta có ngựa truy phong,"},{"nom":"固𠸜𠁑帳本𣳔健兒","quocngu":"Có tên dưới trướng vốn dòng kiện nhi."},{"nom":"乘機𨇍𨀈𦋦𠫾","quocngu":"Thừa cơ lẻn bước ra đi,"},{"nom":"𠀧𨑮𦒹酌酌之吏欣","quocngu":"Ba mươi sáu chước, chước gì lại hơn."},{"nom":"油欺󰊄夾湄单","quocngu":"Dù khi gió kép mưa đơn,"},{"nom":"固些低拱𫽄干㨿之","quocngu":"Có ta đây cũng chẳng cơn cớ gì!\\""},{"nom":"𦖑𠳒娘㐌生疑","quocngu":"Nghe lời nàng đã sinh nghi."},{"nom":"双陀過典管之特身","quocngu":"Song đà quá đến quản gì được thân."},{"nom":"拱料䏕眜移蹎","quocngu":"Cũng liều nhắm mắt đưa chân,"},{"nom":"𦓡󰏙𡥵造𡏦運典󰠳","quocngu":"Mà xem con tạo xoay vần đến đâu!"},{"nom":"共饒𨇍𨀈𠁑楼","quocngu":"Cùng nhau lẻn bước dưới lầu,"},{"nom":"双双馭𠓀馭𡢐󰜋󰟞","quocngu":"Song song ngựa trước ngựa sau một đoàn."},{"nom":"𣎀秋刻漏更殘","quocngu":"Đêm thu khắc lậu canh tàn,"},{"nom":"󰊄𣘃律𦲿𦝄岸唅𦎛","quocngu":"Gió cây trút lá, trăng ngàn ngậm gương."},{"nom":"㩡𤷱𦹵𤁕味霜","quocngu":"Lối mòn cỏ lợt màu sương,"},{"nom":"𢚸圭𠫾󰜋𨀈塘󰜋𤴬","quocngu":"Lòng quê đi một bước đường một đau."},{"nom":"㗂𬷤嗃𠳗嘅哞","quocngu":"Tiếng gà xao xác gáy mau,"},{"nom":"㗂𠊛󰠳㐌𠃅𡢐𠰺扛","quocngu":"Tiếng người đâu đã mé sau dậy dàng."},{"nom":"娘強村式肝鐄","quocngu":"Nàng càng thổn thức gan vàng,"},{"nom":"楚卿㐌雉𦀊綱𡓃󰅹","quocngu":"Sở khanh đã rẽ dây cương lối nào!"},{"nom":"󰜋𠇮坤別爫牢","quocngu":"Một mình khôn biết làm sao,"},{"nom":"埮棱𨀈湿𨀈高駭䧺","quocngu":"Dặm rừng bước thấp bước cao hãi hùng."},{"nom":"化兒寔固女𢚸","quocngu":"Hoá nhi thật có nỡ lòng,"},{"nom":"爫之𠫅�紆紅𡗋󰅉","quocngu":"Làm chi dày [?] vò hồng lắm nau!"},{"nom":"󰜋󰟞都旦𠓀𡢐","quocngu":"Một đoàn đổ đến trước sau,"},{"nom":"𤢇󰠳𠁑坦𦑃󰠳𨕭𡗶","quocngu":"Vuốt đâu dưới đất, cánh đâu trên trời."},{"nom":"秀󰜏速𥊣典𣦍","quocngu":"Tú bà tốc thẳng đến ngay,"},{"nom":"喑喑押掉󰜋唏吏茹","quocngu":"Hằm hằm áp điệu một hơi lại nhà."},{"nom":"󰜌行𫽄𠳨𫽄查","quocngu":"Hưng hành chẳng hỏi chẳng tra,"},{"nom":"當𢬣培柳拉花哉排","quocngu":"Đang tay vùi liễu giập hoa tơi bời."},{"nom":"𦧘䏧埃拱󰑼𠊛","quocngu":"Thịt da ai cũng là người,"},{"nom":"𢚸󰅹紅用𧺀淶𫽄𤴬","quocngu":"Lòng nào hồng rụng thắm rời chẳng đau."},{"nom":"歇𠳒首復懇求","quocngu":"Hết lời thú phục khẩn cầu,"},{"nom":"捥𦝄𡶀覩拮頭𧖱沙","quocngu":"Uốn lưng núi đổ, cất đầu máu sa."},{"nom":"浪碎𡭧分婵󰜏","quocngu":"Rằng: \\"Tôi chút phận đàn bà,"},{"nom":"渃𡽫離󰘇離茹典低","quocngu":"Nước non lìa cửa lìa nhà đến đây."},{"nom":"悲𣇞𤯩死於𢬣","quocngu":"Bây giờ sống chết ở tay,"},{"nom":"身尼㐌典世尼時催","quocngu":"Thân này đã đến thế này thì thôi!"},{"nom":"仍碎固詫之碎","quocngu":"Nhưng tôi có sá chi tôi."},{"nom":"分碎停丕本𠊛低󰠳","quocngu":"Phận tôi đành vậy, vốn người để đâu?"},{"nom":"身𧐖包管壈頭","quocngu":"Thân lươn bao quản lấm đầu,"},{"nom":"㤕𢚸貞白自𥹰典𣇞","quocngu":"Xót lòng trinh bạch từ lâu đến giờ\\""},{"nom":"特𠳒媒買隨機","quocngu":"Được lời mụ mới tuỳ cơ,"},{"nom":"扒𠊛保領爫詞供招","quocngu":"Bắt người bảo lãnh làm tờ cung chiêu."},{"nom":"排肩固妸馬嬌","quocngu":"Bày vai có ả Mã Kiều,"},{"nom":"㤕娘𦋦買打料𠹾端","quocngu":"Xót nàng ra mới đánh liều chịu đoan."},{"nom":"媒強計日計寬","quocngu":"Mụ càng kể nhặt kể khoan,"},{"nom":"頓󰈝典墨燶󰜊買他","quocngu":"Gạn gùng đến mực nồng nàn mới tha,"},{"nom":"域娘𠓨擬𥪞茹","quocngu":"Vực nàng vào nghỉ trong nhà,"},{"nom":"馬嬌吏𠼯意𦋦吲𠳒","quocngu":"Mã Kiều lại hở ý ra dặn lời:"},{"nom":"傕陀默吝時催","quocngu":"Thôi đà mắc lận thì thôi!"},{"nom":"𠫾󰠳𫽄別𡥵𠊛楚卿","quocngu":"Đi đâu chẳng biết con người Sở Khanh?"},{"nom":"自情浽㗂楼撑","quocngu":"Tự tình nổi tiếng lầu xanh,"},{"nom":"󰜋𢬣墫別󰋇梗芙容","quocngu":"Một tay chôn biết mấy cành phù dung!"},{"nom":"拖刀立産斫用","quocngu":"Đà đao lập sẵn chước dùng,"},{"nom":"𨔍之󰜋骨󰜋童初󰅒","quocngu":"Lạ gì một cốt một đồng xưa nay."},{"nom":"固𠀧𤾓两𢭂𢬣","quocngu":"Có ba trăm lạng trao tay,"},{"nom":"空仍之固𠊛尼怒箕","quocngu":"Không dưng chi có người này nọ kia!"},{"nom":"耒𦋦呂󰘚卽時","quocngu":"Rồi ra trở mặt tức thì,"},{"nom":"扒𠳒呌渚淶之麻𠁀","quocngu":"Bớt lời kêu chớ lây chi mà đời.\\""},{"nom":"娘浪誓説󰠱𠳒","quocngu":"Nàng rằng: \\"Thề thốt nặng lời,"},{"nom":"固󰠳麻吏󰑼𠊛險溇","quocngu":"Có đâu mà lại là người hiểm sâu!\\""},{"nom":"群當推𠓀擬𡢐","quocngu":"Còn đương suy trước nghĩ sau,"},{"nom":"󰘚謨㐌𧡊於󰠳引𠓨","quocngu":"Mặt mo đã thấy ở đâu dẫn vào."},{"nom":"楚卿蓮㗂嘹唫","quocngu":"Sở Khanh lên tiếng rêu câm,"},{"nom":"喥𦖑娘固𡥵󰅹於低","quocngu":"\\"Độ nghe nàng có con nào ở đây?"},{"nom":"抛朱眷󰊄𢷀𩄲","quocngu":"Phao cho quyến gió rủ mây,"},{"nom":"唉󰏙固別󰘚尼󰑼埃","quocngu":"Hãy xem có biết mặt này là ai?\\""},{"nom":"娘浪傕世時催","quocngu":"Nàng rằng: \\"Thôi thế thì thôi,"},{"nom":"浪空時拱󰂅𠳒浪空","quocngu":"Rằng không thì cũng vâng lời rằng không!\\""},{"nom":"楚卿咶噒同同","quocngu":"Sở Khanh thét mắng đùng đùng,"},{"nom":"𨀈𠓨皮立恃䧺𦋦𢬣","quocngu":"Bước vào vừa rắp thị hùng ra tay."},{"nom":"娘浪𡗶尔固咍","quocngu":"Nàng rằng: \\"Trời nhé có hay!"},{"nom":"眷鸚𫫵燕事尼在埃","quocngu":"Quyến anh rủ yến sự này tại ai?"},{"nom":"󰝡𠊛𢩵𫴋汫台","quocngu":"Đem người dảy xuống giếng thơi."},{"nom":"呐耒耒吏咹𠳒特𣦍","quocngu":"Nói rồi rồi lại ăn lời được ngay!"},{"nom":"群箋昔越於𢬣","quocngu":"Còn tiên Tích Việt ở tay,"},{"nom":"𤑟𤉜󰘚󰀎󰘚尼渚埃","quocngu":"Rõ ràng mặt ấy mặt này chứ ai?\\""},{"nom":"𠳒𣦍冬󰘚𥪞外","quocngu":"Lời ngay đông mặt trong ngoài,"},{"nom":"几吱不義𠊛唭無良","quocngu":"Kẻ chê bất nghĩa, người cười vô lương."},{"nom":"負情案㐌𤑟𤉜","quocngu":"Phụ tình án đã rõ ràng,"},{"nom":"除衝擬買劍塘操𨆢","quocngu":"Chờ xong nghỉ mới kiếm đường tháo lui."},{"nom":"󰟀𥢆𥢆仍湥洡","quocngu":"Buồng riêng, riêng những sụt sùi,"},{"nom":"擬身麻吏唅𠿯朱身","quocngu":"Nghĩ thân mà lại ngậm ngùi cho thân."},{"nom":"惜台𥪞價𤽸銀","quocngu":"Tiếc thay trong giá trắng ngần,"},{"nom":"典風塵拱風塵如唉","quocngu":"Đến phong trần, cũng phong trần như ai!"},{"nom":"粃𢝙拱󰜋刼𠊛","quocngu":"Tẻ vui cũng một kiếp người,"},{"nom":"紅顔沛眾於𠁀買油","quocngu":"Hồng nhan phải giống ở đời mãi ru?"},{"nom":"刼初㐌唪塘修","quocngu":"Kiếp xưa đã vụng đường tu,"},{"nom":"刼尼拯矯填蒲買吹","quocngu":"Kiếp này chẳng kẻo đền bù mới xuôi."},{"nom":"油牢󰜍㐌捛淶","quocngu":"Dẫu sao bình đã vỡ rơi,"},{"nom":"𥙩身麻者𡢻𠁀朱衝","quocngu":"Lấy thân mà trả nợ đời cho xong!\\""},{"nom":"皮旬月𤎜𦎛冲","quocngu":"Vừa tuần nguyệt rạng gương trong,"},{"nom":"秀󰜏𥊘吏從容𠸕𠻀","quocngu":"Tú bà ghé lại thong dong dặn dò:"},{"nom":"藝制拱𡗋功夫","quocngu":"Nghề chơi cũng lắm công phu,"},{"nom":"廊制些沛別朱󰖆調","quocngu":"Làng chơi ta phải biết cho đủ điều.\\""},{"nom":"娘浪𩄲󰊄立󰃚","quocngu":"Nàng rằng: \\"mây gió dập dìu,"},{"nom":"料身時拱沛料世催","quocngu":"Liều thân thì cũng phải liều thế thôi!\\""},{"nom":"媒浪埃拱如埃","quocngu":"Mụ rằng: \\"Ai cũng như ai,"},{"nom":"𠊛些埃秩錢𢙇典低","quocngu":"Người ta ai mất tiền hoài đến đây?"},{"nom":"於𥪞群𡗋調咍","quocngu":"Ở trong còn lắm điều hay,"},{"nom":"浽𣎀怯𨷑浽𣈜𥢆終","quocngu":"Nỗi đêm khép mở, nỗi ngày riêng chung."},{"nom":"尼𡥵属𥙩爫𢚸","quocngu":"Này con thuộc lấy làm lòng,"},{"nom":"鑅外𬙞𫳘鑅𥪞糁藝","quocngu":"Vành ngoài bảy chữ, vành trong tám nghề."},{"nom":"制朱柳󰇏花吱","quocngu":"Chơi cho liễu chán hoa chê,"},{"nom":"朱𡑝六𥒥朱迷𢠨𠁀","quocngu":"Cho lăn lóc đá, cho mê mẫn đời."},{"nom":"欺𠺺杳六󰞺𧍋","quocngu":"Khi khoé yểu, lúc nét ngài,"},{"nom":"欺𡄎擬月欺唭呡花","quocngu":"Khi ngâm ngợi nguyệt, khi cười răn hoa."},{"nom":"調󰑼藝業𥪞茹","quocngu":"Đều là nghề nghiệp trong nhà,"},{"nom":"󰖆銀󰀎󰞺買󰑼𠊛𤐝","quocngu":"Đủ ngần ấy nết mới là người soi.\\""},{"nom":"𨃴頭󰂅𠰺󰋇𠳒","quocngu":"Gót đầu vâng dạy mấy lời,"},{"nom":"󰟯珠󰞺月󰟯派𨤔紅","quocngu":"Dường chau nét nguyệt, dường phai vẻ hồng."},{"nom":"仍𦖑叻㐌𢢆樁","quocngu":"Những nghe nói, đã thẹn thùng,"},{"nom":"渃𠁀𡗋浽𨔍𨓡乞溪","quocngu":"Nước đời lắm nỗi lạ lùng khắt khe!"},{"nom":"悴命󰘇閣󰟀圭","quocngu":"Tủi mình cửa các buồng khuê,"},{"nom":"捛𢚸󰄴𥙩仍藝業咍","quocngu":"Vỡ lòng học lấy những nghề nghiệp hay!"},{"nom":"窖󰑼󰘚惮眉𠫅","quocngu":"Khéo là mặt dạn mày dày,"},{"nom":"刼𠊛㐌典世尼時催","quocngu":"Kiếp người đã đến thế này thì thôi!"},{"nom":"傷台身分落類","quocngu":"Thương thay thân phận lạc loài,"},{"nom":"酉牢拱於𢬣𠊛別牢","quocngu":"Dẫu sao cũng ở tay người biết sao?"},{"nom":"楼撑買𢷀帳桃","quocngu":"Lầu xanh mới rủ trướng đào,"},{"nom":"強撩價玉強高品𠊛","quocngu":"Càng treo giá ngọc, càng cao phẩm người."},{"nom":"別包𧊉泪蜂𢯦","quocngu":"Biết bao bướm lệ ong lơi,"},{"nom":"局醝苔𣎃陣唭卒𣎀","quocngu":"Cuộc say đầy tháng, trận cười trót đêm."},{"nom":"摺耀𦲿𬰅梗𪀄","quocngu":"Dập dìu lá gió cành chim,"},{"nom":"𣋽迻宋玉最尋長卿","quocngu":"Sớm đưa Tống Ngọc, tối tìm Tràng Khanh."},{"nom":"欺醒𨢇𣅶殘更","quocngu":"Khi tỉnh rượu, lúc tàn canh,"},{"nom":"秩命命吏傷命㤕車","quocngu":"Giật mình, mình lại thương mình xót xa."},{"nom":"欺𫳵封錦𢷀󰑔","quocngu":"Khi sao phong gấm rủ là,"},{"nom":"𣇞𫳵散作如花𡨌塘","quocngu":"Giờ sao tan tác như hoa giữa đường?"},{"nom":"󰘚𫳵𠫅󰊄惮霜","quocngu":"Mặt sao dày gió dạn sương,"},{"nom":"身𫳵𧊉󰇏蜂星閉身","quocngu":"Thân sao bướm chán ong tinh bấy thân?"},{"nom":"默𠊛湄楚𩄲秦","quocngu":"Mặc người mưa Sở mây Tần,"},{"nom":"仍𠇮󰅹別固春󰑼之","quocngu":"Những mình nào biết có xuân là gì!"},{"nom":"隊番󰊄𢭸花掑","quocngu":"Đòi phen gió tựa hoa kề,"},{"nom":"姅簾𩄲吘𦊛務𦝄輸","quocngu":"Nửa rèm mây ngỏ, bốn mùa trăng thâu."},{"nom":"景󰅹景拯刀愁","quocngu":"Cảnh nào cảnh chẳng đeo sầu,"},{"nom":"𠊛𢞂景固𢝙󰠳包𣇞","quocngu":"Người buồn cảnh có vui đâu bao giờ."},{"nom":"隊番󰞺󰖽勾詩","quocngu":"Đòi phen nét vẽ câu thơ,"},{"nom":"宫琴𥪞月渃碁𠁑礼","quocngu":"Cung cầm trong nguyệt, nước cờ dưới lễ."},{"nom":"𢝙󰑼𢝙強矯󰑼","quocngu":"Vui là vui gượng kẻo là,"},{"nom":"埃知音妬漫𣻕貝埃","quocngu":"Ai tri âm đó mặn mà với ai?"},{"nom":"蜍於󰊄竹湄枚","quocngu":"Thờ ơ gió trúc mưa mai,"},{"nom":"謹魚𤾓浽搥埋󰜋身","quocngu":"Ngẩn ngơ trăm nỗi, giùi mài một thân."},{"nom":"愔𢚸隊󰞃賒𧵆","quocngu":"Ôm lòng đòi đoạn xa gần,"},{"nom":"𫽄紆𦓡𦇒𫽄寅𦓡𤴬","quocngu":"Chẳng vò mà rối, chẳng dần mà đau!"},{"nom":"洳恩𠃩𫳘高溇","quocngu":"Nhớ ơn chín chữ cao sâu,"},{"nom":"󰜋𣈜󰜋我䏾橷斜斜","quocngu":"Một ngày một ngả bóng dâu tà tà."},{"nom":"𨤮𠦳渃瀋𡽫賒","quocngu":"Dặm ngàn nước thẳm non xa,"},{"nom":"𢪀󰠳身分𡥵𦋦世尼","quocngu":"Nghĩ đâu thân phận con ra thế này!"},{"nom":"𡑝槐堆𡭧䜹𬏝","quocngu":"Sân hoè đôi chút thơ ngây,"},{"nom":"珍甘埃几柂台󰜋命","quocngu":"Trân cam ai kẻ đỡ thay một mình?"},{"nom":"𢖵𠳒願約𠀧生","quocngu":"Nhớ lời nguyện ước ba sinh,"},{"nom":"賒吹埃固別情庄埃","quocngu":"Xa xôi ai có biết tình chăng ai?"},{"nom":"欺𧗱𠳨柳章臺","quocngu":"Khi về hỏi liễu Chương Đài,"},{"nom":"梗春㐌𢯏朱𠊛專𢬣","quocngu":"Cành xuân đã bẻ cho người chuyên tay!"},{"nom":"情溇蒙者󰒂𠫅","quocngu":"Tình sâu mong trả nghĩa dày,"},{"nom":"花箕㐌執𣘃尼朱渚","quocngu":"Hoa kia đã chắp cây này cho chưa?"},{"nom":"䋦情隊󰞃紆絲","quocngu":"Mối tình đòi đoạn vò tơ,"},{"nom":"聀鄕關隴吝𢠩更𨱽","quocngu":"Giấc hương quan luống lần mơ canh dài."},{"nom":"窻紗宇宇方𡗶","quocngu":"Song sa vò võ phương trời,"},{"nom":"󰅒黄昏㐌吏枚昏黄","quocngu":"Nay hoàng hôn đã lại mai hôn hoàng."},{"nom":"吝吝兎鉑鵶鐄","quocngu":"Lần lần thỏ bạc ác vàng,"},{"nom":"㤕𠊛冲會断膓隊干","quocngu":"Xót người trong hội đoạn tràng đòi cơn!"},{"nom":"㐌朱𥙩𫳘紅顔","quocngu":"Đã cho lấy chữ hồng nhan,"},{"nom":"爫朱朱害朱殘朱斤","quocngu":"Làm cho, cho hại, cho tàn, cho cân!"},{"nom":"㐌𨃐𠓨刼風塵","quocngu":"Đã đày vào kiếp phong trần,"},{"nom":"𫳵朱耻辱󰜋吝買催","quocngu":"Sao cho sỉ nhục một lần mới thôi!"},{"nom":"客遊俸固󰜋𠊛","quocngu":"Khách du bỗng có một người,"},{"nom":"其心户束拱𣳔書香","quocngu":"Kỳ Tâm họ Thúc, cũng dòng thư hương."},{"nom":"本𠊛縣錫州常","quocngu":"Vốn người huyện Tích châu Thường,"},{"nom":"蹺嚴堂𨷑𡾵行臨淄","quocngu":"Theo nghiêm đường mở ngôi hàng Lâm Truy."},{"nom":"花魁慕㗂翹兒","quocngu":"Hoa khôi mộ tiếng Kiều nhi,"},{"nom":"帖紅尋典香閨𠳚𠓨","quocngu":"Thiếp hồng tìm đến hương khuê gửi vào."},{"nom":"帳蘇夾󰘚花桃","quocngu":"Trướng tô giáp mặt hoa đào,"},{"nom":"𨤔󰅹𫽄漫󰞺󰅹𫽄於","quocngu":"Vẻ nào chẳng mặn, nét nào chẳng ưa?"},{"nom":"海棠蔓蔓梗絲","quocngu":"Hải đường mơn mởn cành tơ,"},{"nom":"𣈜春強󰊄強湄強燶","quocngu":"Ngày xuân càng gió, càng mưa, càng nồng."},{"nom":"月花花月恼濃","quocngu":"Nguyệt hoa, hoa nguyệt não nùng,"},{"nom":"𣎀春埃易扲𢚸特庄","quocngu":"Đêm xuân ai dễ cầm lòng được chăng?"},{"nom":"𨔍之声氣𨤰恒","quocngu":"Lạ gì thanh khí lẽ hằng,"},{"nom":"󰜋𦀊󰜋纀埃扛朱𦋦","quocngu":"Một dây một buộc ai giằng cho ra?"},{"nom":"󰟭桃最槾憐󰑼","quocngu":"Sớm đào tối mận lân la,"},{"nom":"𠓀群𦝄󰊄𡢐𦋦𥒥鐄","quocngu":"Trước còn trăng gió, sau ra đá vàng."},{"nom":"牒󰠲𠶣𠽊𨔍󰟯","quocngu":"Dịp đâu may mắn lạ dường,"},{"nom":"吏皮及曠椿堂吏圭","quocngu":"Lại vừa gặp khoảng xuân đường lại quê."},{"nom":"生強󰜋醒𨑮迷","quocngu":"Sinh càng một tỉnh, mười mê,"},{"nom":"𣈜春𡗋𣅶𠫾𧗱貝春","quocngu":"Ngày xuân lắm lúc đi về với xuân."},{"nom":"欺󰊄閣欺𦝄𡑝","quocngu":"Khi gió gác, khi trăng sân,"},{"nom":"瓢僊淬𨢇勾神浽詩","quocngu":"Bầu tiên rót rượu, câu thần nối thơ."},{"nom":"欺香󰟭欺𩄲󰡀","quocngu":"Khi hương sớm, khi mây trưa,"},{"nom":"盘茶點渃塘絲和弹","quocngu":"Bàn trà điểm nước, đường tơ hoạ đàn."},{"nom":"蔑埋冲局追歡","quocngu":"Miệt mài trong cuộc truy hoan,"},{"nom":"強悁属󰞺強𢺤𢬢情","quocngu":"Càng quen thuộc nết, càng dan díu tình."},{"nom":"𨔍朱丐㳥傾城","quocngu":"Lạ cho cái sóng khuynh thành,"},{"nom":"爫朱覩舘漂亭如制","quocngu":"Làm cho đổ quán xiêu đình như chơi!"},{"nom":"束生悁󰞺卜淶","quocngu":"Thúc sinh quen nết bốc rời,"},{"nom":"𤾓𠦳覩󰜋陣唭如空","quocngu":"Trăm nghìn đổ một trận cười như không."},{"nom":"媒強蘇綠捽紅","quocngu":"Mụ càng tô lục chuốt hồng,"},{"nom":"𧖱貪係𧡊唏銅時迷","quocngu":"Máu tham hễ thấy hơi đồng thì mê,"},{"nom":"𠁑𦝄鵑㐌噲夏","quocngu":"Dưới trăng quyên đã gọi hè,"},{"nom":"頭墻󰌕榴󰟧𤍶󰠐葻","quocngu":"Đầu tường lửa lựu lập loè đâm bông."},{"nom":"󰟀𦂛沛貝從容","quocngu":"Buồng the phải buổi thong dong,"},{"nom":"湯蘭𢷀幅帳紅浸花","quocngu":"Thang lan rủ bức trướng hồng tẩm hoa."},{"nom":"𤑟牟冲玉𤽸牙","quocngu":"Rõ màu trong ngọc trắng ngà,"},{"nom":"𠫅𠫅産𤒘󰜋座天然","quocngu":"Dày dày sẵn đúc một toà thiên nhiên."},{"nom":"生強𤏣󰞺強𠸦","quocngu":"Sinh càng tỏ nét càng khen,"},{"nom":"寫情𢬣草󰜋篇律唐","quocngu":"Tạ tình tay thảo một thiên luật Đường."},{"nom":"娘強󰂅別𢚸払","quocngu":"Nàng càng: \\"Vâng biết lòng chàng,"},{"nom":"𠳒𠳒珠月行行錦絩","quocngu":"Lời lời châu nguyệt, hàng hàng gấm thêu."},{"nom":"𫨩𪬡𨤰拱浽貂","quocngu":"Hay hèn lẽ cũng nối điêu,"},{"nom":"浽圭𢪀󰜋𠄩調昂昂","quocngu":"Nỗi quê nghĩ một hai điều ngang ngang."},{"nom":"𢚸群𠳚盎𩄲鐄","quocngu":"Lòng còn gửi áng mây vàng,"},{"nom":"和韻嗔唉𠹾払𣋚󰅒","quocngu":"Hoạ vần xin hãy chịu chàng hôm nay.\\""},{"nom":"浪牢固𨔍𨓡台","quocngu":"Rằng: \\"Sao có lạ lùng thay!"},{"nom":"梗箕拯沛檜尼麻𦋦","quocngu":"Cành kia chẳng phải cội này mà ra?\\""},{"nom":"娘強悴㤕秋波","quocngu":"Nàng càng tủi xót thu ba,"},{"nom":"断膓六󰀎󰇾麻𢞂星","quocngu":"Đoạn trường lúc ấy giở mà buồn tênh."},{"nom":"恪如花㐌離梗","quocngu":"\\"khác như hoa đã lìa cành,"},{"nom":"払如𡥵𧊉󰡃鑅麻制","quocngu":"Chàng như con bướm liệng vành mà chơi."},{"nom":"主春停㐌固尼","quocngu":"Chúa xuân đành đã có nơi,"},{"nom":"𥐆𣈜催𠤆𨱽𠳒爫之","quocngu":"Ngắn ngày thôi chớ dài lời làm chi!"},{"nom":"生浪自課相知","quocngu":"Sinh rằng: \\"Từ thuở tương tri,"},{"nom":"𬌓𥢆𥢆仍𥘀爲渃𡽫","quocngu":"Tấm riêng, riêng những nặng vì nước non."},{"nom":"𤾓𢆥併局𣃲𧷺","quocngu":"Trăm năm tính cuộc vuông tròn,"},{"nom":"沛𢲛朱典𦰟源瀝滝","quocngu":"Phải dò cho đến ngọn nguồn lạch sông.\\""},{"nom":"浪浪󰗾隊恩𢚸","quocngu":"Rằng rằng: \\"Muôn đội ơn lòng,"},{"nom":"𡭧𠲖边娶边從易󰠳","quocngu":"Chút e bên thú bên tòng dễ đâu."},{"nom":"平康赧那閉𥹰","quocngu":"Bình khang nấn ná bấy lâu,"},{"nom":"妖花妖特󰜋牟點粧","quocngu":"Yêu hoa, yêu được một màu điểm trang."},{"nom":"耒𦋦𣳮粉泒香","quocngu":"Rồi ra lở phấn phai hương,"},{"nom":"𢚸箕拧特常常󰑼庄","quocngu":"Lòng kia giữ được thường thường là chăng?"},{"nom":"𡲤冲㙴桂宮𦝄","quocngu":"Vả trong thềm quế cung trăng,"},{"nom":"主張停㐌姉嫦於𥪞","quocngu":"Chủ trương đành đã chị Thường ở trong."},{"nom":"閉𣇞康潔帶同","quocngu":"Bấy giờ khăng khít dải đồng,"},{"nom":"添𠊛𠊛拱𢺺𢚸𥢆西","quocngu":"Thêm người, người cũng chia lòng riêng tây."},{"nom":"尾之𡭧分䕯𩄲","quocngu":"Vẻ chi chút phận bèo mây,"},{"nom":"爫朱𣷭爱欺菭欺潙","quocngu":"Làm cho bể ái khi đầy khi vơi."},{"nom":"𤾓調昂語爲碎","quocngu":"Trăm điều ngang ngửa vì tôi,"},{"nom":"身𡢐埃𠹾罪𡗶󰀎朱","quocngu":"Thân sau ai chịu tội trời ấy cho?"},{"nom":"如払固凭𢬣孤","quocngu":"Như chàng có vững tay co,"},{"nom":"𨑮分拱㙮店朱󰜋𠄽","quocngu":"Mười phần cũng đắp điếm cho một vài."},{"nom":"󰟨𥪞油𢀲欣外","quocngu":"Thế trong dù lớn hơn ngoài,"},{"nom":"𠓀唅獅子𠳚𠊛藤𦲿","quocngu":"Trước hàm sư tử gửi người đằng la."},{"nom":"儈頭淪𫴋𠃅茹","quocngu":"Cúi đầu luồn xuống mái nhà,"},{"nom":"󰟩咮吏罪平𠀧󰌕燶","quocngu":"Giấm chua lại tội bằng ba lửa nồng!"},{"nom":"於𨕭群固茹椿","quocngu":"Ở trên còn có nhà thung,"},{"nom":"𢚸𨕭𬂙𫴋別𢚸固傷","quocngu":"Lòng trên trông xuống biết lòng có thương?"},{"nom":"咤之柳𪭟花墻","quocngu":"Sá chi liễu ngõ hoa tường,"},{"nom":"楼撑吏補𦋦坊楼撑","quocngu":"Lầu xanh lại bỏ ra phường lầu xanh!"},{"nom":"吏強洳󰟯𤵺形","quocngu":"Lại càng dơ dáng dại hình,"},{"nom":"停身分妾𢪀名價払","quocngu":"Đành thân phận thiếp, nghĩ danh giá chàng."},{"nom":"傷牢朱院時傷","quocngu":"Thương sao cho vẹn thì thương,"},{"nom":"併牢朱論每塘時󰂅","quocngu":"Tính sao cho trọn mọi đường thì vâng.\\""},{"nom":"生浪咍呐提澄","quocngu":"Sinh rằng: \\"Hay nói đè chừng,"},{"nom":"𢚸低𢚸帝渚曾咍牢","quocngu":"Lòng đây lòng đấy chưa từng hay sao?"},{"nom":"塘𨱽渚𪿒吳𣒲","quocngu":"Đường dài chớ ngại Ngô Lào,"},{"nom":"𤾓調駭據𬂙𠓨󰜋些","quocngu":"Trăm điều hãy cứ trông vào một ta."},{"nom":"㐌𧵆之固調賒","quocngu":"Đã gần chi có điều xa,"},{"nom":"𥒥鐄拱决風波拱料","quocngu":"Đá vàng cũng quyết, phong ba cũng liều!\\""},{"nom":"共饒根紊典調","quocngu":"Cùng nhau căn vặn đến điều,"},{"nom":"指𡽫誓𣷭𥘀招典𠳒","quocngu":"Chỉ non thề bể nặng gieo đến lời."},{"nom":"𠰚𡽫𣎀𥐆情𨱽","quocngu":"Nỉ non đêm ngắn tình dài,"},{"nom":"外軒兎㐌𡽫兑唅𦎛","quocngu":"Ngoài hiên thỏ đã non đoài ngậm gương."},{"nom":"慢調竹院乘凉","quocngu":"Mượn điều trúc viện thừa lương,"},{"nom":"連𧗱駭暫酉娘󰜋尼","quocngu":"Liền về hãy tạm giấu nàng một nơi."},{"nom":"󰇏和拉産𠄩排","quocngu":"Chiến hoà sắp sẵn hai bài,"},{"nom":"𢚁𢬣柴署摱𠊛𠻀𪡔","quocngu":"Cậy tay thầy thợ, mượn người dò la."},{"nom":"半信典󰘚秀󰜏","quocngu":"Bắn tin đến mặt Tú bà,"},{"nom":"輸機媒拱求和敢牢","quocngu":"Thua cơ, mụ cũng cầu hoà, dám sao!"},{"nom":"𤑟𤉜𧵑引𢬣𢭂","quocngu":"Rõ ràng của dẫn tay trao,"},{"nom":"還原󰜋帖申𠓨󰘇公","quocngu":"Hoàn nguyên một thiếp thân vào cửa công."},{"nom":"公私𠄩𨤰調衝","quocngu":"Công tư đôi lẽ đều xong,"},{"nom":"𨃴僊丿㐌脱𫒥塵埃","quocngu":"Gót tiên phút đã thoát vòng trần ai."},{"nom":"󰜋茹森合竹枚","quocngu":"Một nhà sum họp trúc mai,"},{"nom":"強溇義𣷭強𨱽情滝","quocngu":"Càng sâu nghĩa bể, càng dài tình sông."},{"nom":"香強淡󰌕強濃","quocngu":"Hương càng đượm, lửa càng nồng;"},{"nom":"強吹𨤔玉強籠牟蓮","quocngu":"Càng sôi vẻ ngọc, càng lồng màu sen."},{"nom":"姅𢆥唏㗂皮悁","quocngu":"Nửa năm hơi tiếng vừa quen,"},{"nom":"𡑝梧梗碧㐌𢫔𦲿鐄","quocngu":"Sân ngô cành biếc đã chen lá vàng."},{"nom":"𥴙秋皮乃𥱰霜","quocngu":"Giậu thu mới nảy giò sương,"},{"nom":"襘鞍㐌𧡊椿堂典尼","quocngu":"Gối yên đã thấy xuân đường đến nơi."},{"nom":"風雷浽陣排排","quocngu":"Phong lôi nổi trận bời bời,"},{"nom":"󰠱𢚸𠲖邑併排分𢺺","quocngu":"Nặng lòng e ấp, tính bài phân chia."},{"nom":"决𦖑辨自󰜋皮","quocngu":"Quyết ngay biện tự một bề,"},{"nom":"𠰺朱𦟐粉吏𧗱楼撑","quocngu":"Dạy cho má phấn lại về lầu xanh!"},{"nom":"𧡊𠳒嚴訓伶伶","quocngu":"Thấy lời nghiêm huấn rành rành,"},{"nom":"打料生買𥙩情奈呌","quocngu":"Đánh liều, sinh mới lấy tình nài kêu."},{"nom":"浪𡥵別罪㐌𡗉","quocngu":"Rằng: \\"Con biết tội đã nhiều,"},{"nom":"酉浪𩆐𩄰鈽鉊拱甘","quocngu":"Dẫu rằng sấm sét búa rìu cũng cam."},{"nom":"㤕爲𢬣㐌潀𪷞","quocngu":"Trót vì tay đã nhúng chàm,"},{"nom":"𤵺耒群別坤爫牢低","quocngu":"Dại rồi còn biết khôn làm sao đây!"},{"nom":"共饒𡲤㗂󰜋𣈜","quocngu":"Cùng nhau vả tiếng một ngày,"},{"nom":"揞琴埃女𢴑𦀊朱停","quocngu":"Ôm cầm ai nỡ dứt dây cho đành."},{"nom":"量𨕭决𫽄傷情","quocngu":"Lượng trên quyết chẳng thương tình,"},{"nom":"萡顛催固惜命爫之","quocngu":"Bạc đen thôi có tiếc mình làm chi!\\""},{"nom":"𧡊𠳒鐄𥒥知知","quocngu":"Thấy lời vàng đá tri tri,"},{"nom":"焠肝翁買告脾󰘇公","quocngu":"Sốt gan ông mới cáo tì cửa công."},{"nom":"坦平浽㳥同同","quocngu":"Đất bằng nổi sóng đùng đùng,"},{"nom":"府堂差𦲿票紅催查","quocngu":"Phủ đường sai lá phiếu hồng thôi tra."},{"nom":"共饒蹺𨃴差衙","quocngu":"Cùng nhau theo gót sai nha,"},{"nom":"双双𠓨𠓀𡑝花𥛉跪","quocngu":"Song song vào trước sân hoa lạy quì."},{"nom":"𬂙𨖲󰘚𨫊顛茌","quocngu":"Trông lên mặt sắt đen tại,"},{"nom":"立嚴𠓀駭𦋦威󰠱𠳒","quocngu":"Lập nghiêm trước hãy ra uy nặng lời:"},{"nom":"妸箕𤵺󰞺制排","quocngu":"Gã kia dại nết chơi bời,"},{"nom":"麻𡥵𠊛世󰑼𠊛𨒟迻","quocngu":"Mà con người thế là người đong đưa!"},{"nom":"從之花貸香乘","quocngu":"Tuồng chi hoa thải hương thừa,"},{"nom":"摱牟𣘈粉打𩢬𡥵顛","quocngu":"Mượn màu son phấn đánh lừa con đen!"},{"nom":"推𥪞情狀原单","quocngu":"Suy trong tình trạng nguyên đơn,"},{"nom":"皮󰅹時拱渚安皮󰅹","quocngu":"Bề nào thì cũng chưa yên bề nào."},{"nom":"法公照案論𠓨","quocngu":"Phép công chiếu án luận vào,"},{"nom":"固𠄩塘󰀎悶牢默命","quocngu":"Có hai đường ấy, muốn sao mặc mình:"},{"nom":"󰜋󰑼據法加刑","quocngu":"Một là cứ phép gia hình,"},{"nom":"󰜋󰑼吏據楼撑付𧗱","quocngu":"Một là lại cứ lầu xanh phó về!\\""},{"nom":"娘浪㐌决󰜋皮","quocngu":"Nàng rằng: \\"Đã quyết một bề,"},{"nom":"󰔓尼王𥙩絲箕󰋇吝","quocngu":"Nhện này vương lấy tơ kia mấy lần!"},{"nom":"蜀𬈴身拱󰑼身","quocngu":"Đục trong thân cũng là thân,"},{"nom":"要詩󰂅𠹾𠓀𡑝雷霆","quocngu":"Yếu thơ vâng chịu trước sân lôi đình.\\""},{"nom":"𠰺浪據法加刑","quocngu":"Dạy rằng: \\"Cứ phép gia hình!\\""},{"nom":"𠀧核秩吏󰜋梗牡丹","quocngu":"Ba cây chập lại một cành mẫu đơn."},{"nom":"分停之敢呌寃","quocngu":"Phận đành chi dám kêu oan,"},{"nom":"桃𤸫𤷄𦟐柳散作眉","quocngu":"Đào hoen quẹn má, liễu tan tác mày."},{"nom":"󰜋𡑝淋吉㐌苔","quocngu":"Một sân lầm cát đã đầy,"},{"nom":"𦎛泸渃水枚𤷍纀霜","quocngu":"Gương lờ nước thuỷ, mai gầy vóc sương."},{"nom":"𢪀情払束麻傷","quocngu":"Nghĩ tình chàng Thúc mà thương,"},{"nom":"裊賒𬂙𧡊𢚸強㤕車","quocngu":"Nẻo xa trông thấy lòng càng xót xa."},{"nom":"哭浪寃酷爲些","quocngu":"Khóc rằng: \\"Oan khốc vì ta,"},{"nom":"固𦖑命𠓀渚陀戾𡢐","quocngu":"Có nghe mình trước, chớ đà lệ sau."},{"nom":"𣴓𢚸生買𢪀溇","quocngu":"Cạn lòng sinh mới nghĩ sâu,"},{"nom":"底埃𦝄悴花愁爲埃","quocngu":"Để ai trăng tủi hoa sầu vì ai?\\""},{"nom":"府堂𦖑倘𠓨𦖻","quocngu":"Phủ đường nghe thoảng vào tai,"},{"nom":"動𢚸吏𣴓典𠳒𥢆酉","quocngu":"Động lòng lại gạn đến lời riêng dậu."},{"nom":"湥洡払買䜹𣦍","quocngu":"Sụt sùi, chàng mới thưa ngay,"},{"nom":"頭𡳪計事𣈜𣈜求親","quocngu":"Đầu đuôi kể sự ngày ngày cầu thân."},{"nom":"娘陀併歇賒𧵆","quocngu":"Nàng đà tính hết xa gần."},{"nom":"自初娘㐌別身固𣈙","quocngu":"Từ xưa nàng đã biết thân có rày!"},{"nom":"在碎称𥙩󰜋𢬣","quocngu":"Tại tôi xứng lấy một tay,"},{"nom":"底娘朱典浽尼爲碎","quocngu":"Để nàng cho đến nỗi này vì tôi.\\""},{"nom":"𦖑𠳒呐拱傷𠳒","quocngu":"Nghe lời nói cũng thương lời,"},{"nom":"擛威買𠰺𨷑排解圍","quocngu":"Dẹp uy mới dạy mở bài giải vi."},{"nom":"浪如罕固世時","quocngu":"Rằng: \\"Như hẳn có thế thì,"},{"nom":"𦝄花双拱是非別調","quocngu":"Trăng hoa song cũng thị phi biết điều!\\""},{"nom":"生浪𡭧分浡䕯","quocngu":"Sinh rằng: \\"Chút phận bọt bèo,"},{"nom":"蹺隊拱𡲤𠃣𡗉筆硯","quocngu":"Theo đòi cũng vả ít nhiều bút nghiên.\\""},{"nom":"唭浪㐌世時𢧚","quocngu":"Cười rằng: \\"Đã thế thì nên!"},{"nom":"木枷唉此󰜋篇呈芸","quocngu":"Mộc già hãy thử một thiên trình nghề.\\""},{"nom":"娘󰂅拮筆𢬣題","quocngu":"Nàng vâng cất bút tay đề,"},{"nom":"箋花呈𠓀案批󰏙詳","quocngu":"Tiên hoa trình trước án phê, xem tường."},{"nom":"𠸦浪價𤁕盛唐","quocngu":"Khen rằng: \\"Giá lợt Thịnh Đường,"},{"nom":"才尼色󰀎𠦳鐄渚斤","quocngu":"Tài này sắc ấy nghìn vàng chưa cân!"},{"nom":"寔󰑼才子佳人","quocngu":"Thực là tài tử giai nhân,"},{"nom":"朱陳𡥵固朱陳󰅹欣","quocngu":"Châu Trần, con có Châu Trần nào hơn!"},{"nom":"催停逴󰇾鳩𪬡","quocngu":"Thôi đừng rước dữ, cưu hờn,"},{"nom":"爫之捛𣜿朱弹昂宫","quocngu":"Làm chi lỡ nhịp cho đờn ngang cung."},{"nom":"㐌迻典𠓀󰘇公","quocngu":"Đã đưa đến trước cửa công,"},{"nom":"外時󰑼𨤰双𥪞󰑼情","quocngu":"Ngoài thì là lý, song trong là tình."},{"nom":"妯𡥵冲道家庭","quocngu":"Dâu con trong đạo gia đình,"},{"nom":"催時擛浽不平󰑼衝","quocngu":"Thôi thì dẹp nỗi bất bình là xong!\\""},{"nom":"急傳懺所礼公","quocngu":"Kíp truyền sắm sửa lễ công,"},{"nom":"轎花拮󰊄𤒘紅𨇒𬁖","quocngu":"Kiệu hoa cất gió, đuốc hồng ruỗi sao."},{"nom":"排行鼓舞㖔𡁞","quocngu":"Bày hàng cổ vũ xôn xao,"},{"nom":"双双迻細帳桃聘堆","quocngu":"Song song đưa tới trướng đào sánh đôi."},{"nom":"傷爲行重爲才","quocngu":"Thương vì hạnh, trọng vì tài."},{"nom":"束翁催拱擛𠳒風波","quocngu":"Thúc ông thôi cũng dẹp lời phong ba."},{"nom":"蕙香𠶗𠽋󰜋茹","quocngu":"Huệ hương sực nức một nhà,"},{"nom":"曾荄䔲吏󰚷𣻕欣初","quocngu":"Từng cay đắng, lại mặn mà hơn xưa."},{"nom":"𠻵𠸟𨢇󰟭棋𬁑","quocngu":"Mảng vui rượu sớm cờ trưa,"},{"nom":"桃陀泒𧺀蓮皮乃撑","quocngu":"Đào đà phai thắm, sen vừa nảy xanh."},{"nom":"帳糊永𨤔𣎀清","quocngu":"Trướng hồ vắng vẻ đêm thanh,"},{"nom":"𠲖情娘買排情𥢆終","quocngu":"E tình nàng mới bày tình riêng chung."},{"nom":"分蒲自院𫳘從","quocngu":"Phận bồ từ vẹn chữ tòng,"},{"nom":"対台鴈亇㐌共苔年","quocngu":"Đổi thay nhạn cá đã cùng đầy niên."},{"nom":"信茹𣈜󰜋永信","quocngu":"Tin nhà ngày một vắng tin,"},{"nom":"󰚷情葛藟𤁕情糟糠","quocngu":"Mặn tình cát luỹ, nhạt tình tao khang."},{"nom":"𢪀𦋦寔拱𢧚󰟯","quocngu":"Nghĩ ra thật cũng nên dường,"},{"nom":"沁唏埃易𡨹扛朱些","quocngu":"Tăm hơi ai dễ giữ giàng cho ta?"},{"nom":"濫𦖑几𢀲𥪝茹","quocngu":"Trộm nghe kẻ lớn trong nhà,"},{"nom":"於𥪝囷法呐𦋦䋦𦀚","quocngu":"Ở trong khuôn phép, nói ra mối giường."},{"nom":"𠲖咍仍胣非常","quocngu":"E hay những dạ phi thường,"},{"nom":"易𢲛󰟱𣷭坤量底滝","quocngu":"Dễ dò rốn bể khôn lường đáy sông."},{"nom":"麻些卒󰜋𢆥𣳔","quocngu":"Mà ta suốt một năm ròng,"},{"nom":"世󰅹拱𫽄酉衝特󰅹","quocngu":"Thế nào cũng chẳng dấu xong được nào."},{"nom":"閉迡渚𤏣消耗","quocngu":"Bấy chầy chưa tỏ tiêu hao,"},{"nom":"或󰑼沖固爫牢庒󰑼","quocngu":"Hoặc là trong có làm sao chăng là?"},{"nom":"吀払料急吏茹","quocngu":"Xin chàng liệu kíp lại nhà,"},{"nom":"𠓀󰑼惵意𡢐些別情","quocngu":"Trước là đẹp ý, sau ta biết tình."},{"nom":"𣎀𣈜𡨹墨酉觥","quocngu":"Đêm ngày giữ mực giấu quanh,"},{"nom":"𣈙吝埋呂如形渚通","quocngu":"Rày lần mai lữa như hình chưa thông!\\""},{"nom":"𦖑𠳒𡅳乳從容","quocngu":"Nghe lời khuyên nhủ thong dong,"},{"nom":"定𢚸生買决情回裝","quocngu":"Định lòng Sinh mới quyết tình hồi trang."},{"nom":"𤎜𦋦𠳚典椿臺","quocngu":"Rạng ra gửi đến xuân đài,"},{"nom":"束翁拱倍逐払寧家","quocngu":"Thúc ông cũng vội giục chàng ninh gia."},{"nom":"餞迻󰜋󱋓開河","quocngu":"Tiễn đưa một chén quan hà,"},{"nom":"春亭脱㐌遁𦋦臯亭","quocngu":"Xuân đình thoắt đã dọn ra cao đình."},{"nom":"滝秦󰜋帶撑撑","quocngu":"Sông Tần một dải xanh xanh,"},{"nom":"雷催坡柳󰋇梗楊䦕","quocngu":"Loi thoi bờ liễu mấy cành Dương quan."},{"nom":"扲𢬣𨱽𥐆咀嘆","quocngu":"Cầm tay dài ngắn thở than,"},{"nom":"𢺺配󰋈󱋓合散喭𠳒","quocngu":"Chia phôi ngừng chén, hợp tan nghẹn lời."},{"nom":"娘浪𡽫渃賒𣾺","quocngu":"Nàng rằng: \\"Non nước xa khơi,"},{"nom":"牢朱𥪞蔭時外買淹","quocngu":"Sao cho trong ấm thì ngoài mới êm."},{"nom":"易𤍶𦀫𧺀腀針","quocngu":"Dễ loà yếm thắm trôn kim,"},{"nom":"爫之氷󰟲扒𪀄苦𢚸","quocngu":"Làm chi bưng mắt bắt chim khó lòng."},{"nom":"堆些拙義䕯蓬","quocngu":"Đôi ta chút nghĩa đèo bòng,"},{"nom":"典茹𠓀料呐𠼾朱明","quocngu":"Đến nhà trước liệu nói sòng cho minh."},{"nom":"油欺湄󰊄不情","quocngu":"Dù khi mưa gió bất tình,"},{"nom":"𢀲𦋦威𢀲碎停分碎","quocngu":"Lớn ra uy lớn, tôi đành phận tôi."},{"nom":"欣調酉虐酉吹","quocngu":"Hơn điều giấu ngược giấu xuôi,"},{"nom":"吏芒仍󰟳齊𡗶典𡢐","quocngu":"Lại mang những việc tày trời đến sau."},{"nom":"傷饒吀𢖵𠳒饒","quocngu":"Thương nhau xin nhớ lời nhau,"},{"nom":"𢆥迡拱𫽄𠫾󰠳麻迡","quocngu":"Năm chầy cũng chẳng đi đâu mà chầy!"},{"nom":"󱋓迻𢖵𩛷𣋚󰅒","quocngu":"Chén đưa nhớ bữa hôm nay,"},{"nom":"󱋓𢜠吀待𣎀尼𢆥𡢐","quocngu":"Chén mừng xin đợi đêm này năm sau!\\""},{"nom":"𠊛𨖲馭几𢺺袍","quocngu":"Người lên ngựa, kẻ chia bào,"},{"nom":"棱󰊈秋㐌染牟関山","quocngu":"Rừng phong thu đã nhuốm màu quan san."},{"nom":"埮𥿁𣻃捲征鞍","quocngu":"Dặm vương bụi cuốn chinh an,"},{"nom":"𬖉𠊛㐌屈󰋇岸橷撑","quocngu":"Trông người đã khuất mấy ngàn dâu xanh."},{"nom":"𠊛𧗱隻䏾𢆥更","quocngu":"Người về chiếc bóng năm canh,"},{"nom":"几𠫾󰗾埮󰜋命賒吹","quocngu":"Kẻ đi muôn dặm một mình xa xôi."},{"nom":"暈𦝄埃仕爫堆","quocngu":"Vầng trăng ai xẻ làm đôi,"},{"nom":"姅印襘隻姅𤐝埮𨱽","quocngu":"Nửa in gối chiếc, nửa soi dặm dài."},{"nom":"計之仍浽育塘","quocngu":"Kể chi những nỗi dọc đường."},{"nom":"󰟀𥪞尼浽主張於茹","quocngu":"Buồng trong, này nỗi chủ trương ở nhà."},{"nom":"本𣳔户宦名家","quocngu":"Vốn dòng họ Hoạn danh gia,"},{"nom":"𡥵官吏部𠸜󰑼宦姐","quocngu":"Con quan Lại bộ tên là Hoạn thư."},{"nom":"緣藤順裊󰊄迻","quocngu":"Duyên Đằng thuận nẻo gió đưa,"},{"nom":"共払結𩯀車絲仍𣈜","quocngu":"Cùng chàng kết tóc xe tơ những ngày."},{"nom":"於咹時󰞺拱咍","quocngu":"Ở ăn thì nết cũng hay,"},{"nom":"呐調緘纀時𢬣拱𫅷","quocngu":"Nói điều dàm buộc thì tay cũng già."},{"nom":"自𦖑園買添花","quocngu":"Từ nghe vườn mới thêm hoa,"},{"nom":"𠰘𠊛㐌𡗋信茹時空","quocngu":"Miệng người đã lắm, tin nhà thì không."},{"nom":"󰌕心強拉強燶","quocngu":"Lửa tâm càng dập càng nồng,"},{"nom":"責𠊛顛薄𦋦𢚸𦝄花","quocngu":"Giận người đen bạc ra lòng trăng hoa:"},{"nom":"󰂇平首寔拱些","quocngu":"Ví bằng thú thật cùng ta,"},{"nom":"󰠃容几𠁑買󰑼量𨕭","quocngu":"Cùng dung kẻ dưới mới là lượng trên."},{"nom":"𢚵之𫽄𡨹𥙩𪤍","quocngu":"Dại chi chẳng giữ lấy nền,"},{"nom":"卒之麻逴㗂悭𠓨命","quocngu":"Tốt chi mà rước tiếng ghen vào mình?"},{"nom":"吏群氷扒酉觥","quocngu":"Lại còn bưng bít giấu quanh,"},{"nom":"爫之仍退𥘷名𠽋唭","quocngu":"Làm chi những thói trẻ ranh nực cười!"},{"nom":"併浪隔󰘚屈𠳒","quocngu":"Tính rằng cách mặt khuất lời,"},{"nom":"酉些些拱料排酉朱","quocngu":"Giấu ta, ta cũng liệu bài giấu cho!"},{"nom":"𢗼之役󰀎麻𢗼","quocngu":"Lo gì việc ấy mà lo,"},{"nom":"蜆𥪞𠰘󱋓吏𨆶𠫾󰠳","quocngu":"Kiến trong miệng chén lại bò đi đâu?"},{"nom":"爫朱𥆾𫽄特饒","quocngu":"Làm cho nhìn chẳng được nhau,"},{"nom":"爫朱苔墮拮頭𫽄𨖲","quocngu":"Làm cho đày đoạ cất đầu chẳng lên!"},{"nom":"爫朱𬖉𧡊眼前","quocngu":"Làm cho trông thấy nhãn tiền,"},{"nom":"朱𠊛𠶀板半船別𢬣","quocngu":"Cho người thăm ván bán thuyền biết tay.\\""},{"nom":"浽忍謹𫽄埃咍","quocngu":"Nỗi nhẫn kín chẳng ai hay,"},{"nom":"外𦖻底默󰊄𠖤𠃅外","quocngu":"Ngoài tai để mặc gió bay mái ngoài."},{"nom":"旬𡢐俸𧡊𠄩𠊛","quocngu":"Tuần sau bỗng thấy hai người,"},{"nom":"𫫗信󰀎拱料排新功","quocngu":"Mách tin ấy cũng liệu bài tân công."},{"nom":"小姐浽𢚷同同","quocngu":"Tiểu thư nổi giận đùng đùng:"},{"nom":"𡃍𢬣絩𦂾𦋦𢚸撩𤽗","quocngu":"Gớm thay thêu dệt ra lòng trêu ngươi!"},{"nom":"𫯳蚤󰅹沛如埃","quocngu":"Chồng tao nào phải như ai,"},{"nom":"調尼罕𠰘仍𠊛是非","quocngu":"Điều này hẳn miệng những người thị phi!\\""},{"nom":"倍鐄𫴋令𦋦威","quocngu":"Vội vàng xuống lệnh ra uy,"},{"nom":"𠀲時抯𠰘𠀲時𢯏𪘵","quocngu":"Đứa thì vả miệng, đứa thì bẻ răng."},{"nom":"𥪞外謹没如𢬄","quocngu":"Trong ngoài kín mít như bưng,"},{"nom":"󰅹埃群敢呐能󰜋𠳒","quocngu":"Nào ai còn dám nói năng một lời!"},{"nom":"󰟀桃𣌉󰟭清台","quocngu":"Buồng đào khuya sớm thảnh thơi."},{"nom":"𦋦𠓨󰜋墨呐唭如空","quocngu":"Ra vào một mực nói cười như không."},{"nom":"𣎀𣈜𢚸仍𠸕𢚸","quocngu":"Đêm ngày lòng những nhủ lòng,"},{"nom":"生陀𧗱典楼紅𠁑鞍","quocngu":"Sinh đà về đến lầu hồng dưới yên."},{"nom":"𠳒散合浽寒喧","quocngu":"Lời tan hợp, nỗi hàn huyên,"},{"nom":"𫳘情強󰚷𫳘緣強燶","quocngu":"Chữ tình càng mặn, chữ duyên càng nồng."},{"nom":"洗陳𢝙󱋓從容","quocngu":"Tẩy trần vui chén thong dong,"},{"nom":"浽𢚸埃於𥪝𢚸麻𦋦","quocngu":"Nỗi lòng ai ở trong lòng mà ra?"},{"nom":"払𧗱󰏙意思茹","quocngu":"Chàng về xem ý tứ nhà,"},{"nom":"事命拱拉鄰󰑼𤋵排","quocngu":"Sự mình cũng rắp lân la giải bày."},{"nom":"󰋇番唭呐醒醝","quocngu":"Mấy phen cười nói tỉnh say,"},{"nom":"𩯀絲不動𡮳埋事情","quocngu":"Tóc tơ bất động mảy may sự tình."},{"nom":"𢪀陀𢬄謹𠰘󰜍","quocngu":"Nghĩ đà bưng kín miệng bình,"},{"nom":"󰅹埃固考麻命吏称","quocngu":"Nào ai có khảo mà mình lại xưng?"},{"nom":"仍󰑼𠲖邑用浪","quocngu":"Những là e ấp dùng dằng,"},{"nom":"捽𦀊𢜝女動棱吏催","quocngu":"Rút dây sợ nữa động rừng, lại thôi."},{"nom":"固欺𢝙傳摸唭","quocngu":"Có khi vui chuyện mua cười,"},{"nom":"小姐吏󰇾仍調󰠳󰠳","quocngu":"Tiểu thư lại giở những điều đâu đâu."},{"nom":"浪𥪞玉𥒥鐄鍮","quocngu":"Rằng: \\"Trong ngọc đá vàng thau,"},{"nom":"𨑮分些㐌信饒奇𨑮","quocngu":"Mười phần ta đã tin nhau cả mười."},{"nom":"𠸦朱仍𠰘容󰟼","quocngu":"Khen cho những miệng dông tiện,"},{"nom":"𧊉蜂吏達仍𠳒󰣁箕","quocngu":"Bướm ong lại đặt những lời nọ kia."},{"nom":"妾油䏾𫽄𫨩推","quocngu":"Thiếp dù bụng chẳng hay suy,"},{"nom":"㐌洳䏾𢪀吏碑𠰘唭","quocngu":"Đã dơ bụng nghĩ, lại bia miệng cười.\\""},{"nom":"𧡊𠳒統請如制","quocngu":"Thấy lời thủng thỉnh như chơi,"},{"nom":"順𠳒払拱呐吹拖扽","quocngu":"Thuận lời chàng cũng nói xuôi đỡ đòn,"},{"nom":"仍󰑼唭粉𠹳𣘈","quocngu":"Những là cười phấn, cợt son,"},{"nom":"畑𣌉炵䏾𦝄𧷺聘𦠘","quocngu":"Đèn khuya chong bóng, trăng tròn sánh vai,"},{"nom":"𡽫圭蓴馘𤊰味","quocngu":"Non quê thuần hức bén mùi,"},{"nom":"汫鐄㐌𢮖󰜋𠄽𦲿梧","quocngu":"Giếng vàng đã khổn một vài lá ngô."},{"nom":"鄭念𢖵景江湖","quocngu":"Chạnh niềm nhớ cảnh giang hồ,"},{"nom":"󰜋念開塞󰋇務󰊄𦝄","quocngu":"Một niềm quan tái, mấy mùa gió trăng."},{"nom":"情𥢆渚敢󰁹𪘵","quocngu":"Tình riêng chưa dám rỉ răng,"},{"nom":"小姐𠓀㐌料澄啂戈","quocngu":"Tiểu thư trước đã liệu chừng nhủ qua:"},{"nom":"隔𠄼𩄲萡賒賒","quocngu":"Cách năm mây bạc xa xa,"},{"nom":"臨淄拱沛併麻晨昏","quocngu":"Lâm Truy cũng phải tính mà thần hôn.\\""},{"nom":"特𠳒如𨷑𡬷𣘈","quocngu":"Được lời như mở tấc son,"},{"nom":"𨀒駒𥊢𨇒渃𡽫圭𠊛","quocngu":"Vó câu thẳng ruổi nước non quê người."},{"nom":"龍玲底渃印𡗶","quocngu":"Long lanh đáy nước in trời,"},{"nom":"城磋𤌋碧𡽫披䏾鐄","quocngu":"Thành xây khói biếc, non phơi bóng vàng."},{"nom":"榑駒皮𢶢琰𨱽","quocngu":"Roi câu vừa gióng dặm trường,"},{"nom":"車香娘㐌順塘歸寧","quocngu":"Xe hương nàng đã thuận đường quy ninh,"},{"nom":"䜹茹萱歇每情","quocngu":"Thưa nhà huyên hết mọi tình,"},{"nom":"浽払於萡浽命𠹾顛","quocngu":"Nỗi chàng ở bạc, nỗi mình chịu đen."},{"nom":"𢪀浪恨𤴪𪬡悭","quocngu":"Nghĩ rằng: \\"giận ghẻ hờn ghen,"},{"nom":"醜払麻固埃𠸦之命","quocngu":"Xấu chàng mà có ai khen chi mình!"},{"nom":"丕𢧚撔󰘚爫清","quocngu":"Vậy nên ngảnh mặt làm thinh,"},{"nom":"謀高本㐌泣名仍𣈜","quocngu":"Mưu cao vốn đã rắp ranh những ngày,"},{"nom":"臨淄塘步𣎃迡","quocngu":"Lâm Truy đường bộ tháng chầy,"},{"nom":"麻塘海道𨖅𣦍時𧵆","quocngu":"Mà đường hải đạo sang ngay thì gần."},{"nom":"𢶿船𢫘󰘚家人","quocngu":"Dọn thuyền lựa mặt gia nhân,"},{"nom":"唉󰝡𦀊𧺀纀蹎娘𧗱","quocngu":"Hãy đem dây thắm buộc đen nàng về."},{"nom":"爫朱朱𤻻朱迷","quocngu":"Làm cho, cho mệt, cho mê,"},{"nom":"爫朱𤴬疸𠵱從朱䁛","quocngu":"Làm cho đau đớn, ê tòng cho coi!"},{"nom":"𠓀朱補恄仍𠊛","quocngu":"Trước cho bõ ghét những người,"},{"nom":"𡢐朱底󰜋㗂唭𧗱𡢐","quocngu":"Sau cho để một tiếng cười về sau!\\""},{"nom":"夫人𠸦斫窒牟","quocngu":"Phu nhân khen chước rất mầu,"},{"nom":"朝𡥵買𠰺默油𦋦𢬣","quocngu":"Chiều con, mới dạy mặc dầu ra tay."},{"nom":"所郎帆󰊄撩𩄲","quocngu":"Sửa sang buồm gió lèo mây,"},{"nom":"犬鷹吏𪮙󰜋𠄽棍桄","quocngu":"Khuyển Ưng lại chọn một vài côn quang."},{"nom":"𠸕𠻀歇各每塘","quocngu":"Dặn dò hết các mọi đường,"},{"nom":"順風󰜋𦲿𣾼𨖅𣷷󰟴","quocngu":"Thuận phong một lá vượt sang biển Tề."},{"nom":"娘自隻䏾窻𦂛","quocngu":"Nàng từ chiếc bóng song the,"},{"nom":"塘箕浽怒如𢺺䋦愁","quocngu":"Đường kia nỗi nọ như chia mối sầu."},{"nom":"䏾橷㐌熾昂頭","quocngu":"Bóng dâu đã xế ngang đầu,"},{"nom":"別󰠳蔭冷別󰠳𠮾𫬍","quocngu":"Biết đâu ấm lạnh, biết đâu ngọt bùi."},{"nom":"𩯀誓㐌枕觥𦠘","quocngu":"Tóc thề đã chấm quanh vai,"},{"nom":"󰅹𠊛𡽫渃󰅹𠊛鉄𣘈","quocngu":"Nào người non nước, nào người sắt son?"},{"nom":"𦼜󰡄𡮍分𡥵𡥵","quocngu":"Sắn bìm chút phận con con,"},{"nom":"囷緣別固𣃲𧷺朱庒","quocngu":"Khuôn duyên biết có vuông tròn cho chăng?"},{"nom":"身牢𡗉浽不平","quocngu":"Thân sao nhiều nỗi bất bằng?"},{"nom":"料如供廣妸姮𢪀󰅉","quocngu":"Liều như cung Quảng ả Hằng nghĩ nao!"},{"nom":"𣎀秋󰊄律窻桃","quocngu":"Đêm thu gió lọt song đào,"},{"nom":"姅鑅𦝄缺𠀧𬁖𡨌𡗶","quocngu":"Nửa vành trăng khuyết, ba sao giữa trời."},{"nom":"󰠱香典𠓀天臺","quocngu":"Nén hương đến trước thiên đài,"},{"nom":"浽𢚸懇渚𣴓𠳒云爲","quocngu":"Nỗi lòng khấn chửa cạn lời vân vi."},{"nom":"𠁑花㖂𠎪惡人","quocngu":"Dưới hoa dậy lũ ác nhân,"},{"nom":"喑喑哭鬼驚神木𦋦","quocngu":"Ầm ầm khốc quỷ kinh thần mọc ra!"},{"nom":"苔𡑝鎌捽󰡅𤍶","quocngu":"Đầy sân gươm tuốt sáng loà,"},{"nom":"失驚娘渚別󰑼爫牢","quocngu":"Thất kinh nàng chửa biết là làm sao,"},{"nom":"茦迷󰠳㐌洒𠓨","quocngu":"Thuốc mê đâu đã tưới vào,"},{"nom":"𢠩恾如聀占包別之","quocngu":"Mơ màng như giấc chiêm bao biết gì!"},{"nom":"𧿆𣦍𨖲馭卽時","quocngu":"Dảy ngay lên ngựa tức thì,"},{"nom":"房桃院册𦊛皮󰌕󰡆","quocngu":"Phòng đào viện sách, tư bề lửa dong."},{"nom":"産屍無主边滝","quocngu":"Sẵn thây vô chủ bên sông"},{"nom":"󰝡𠓨底妬吝崇埃台","quocngu":"Đem vào để đó, lận sòng ai thay?"},{"nom":"碎隊魄落魂𠖤","quocngu":"Tôi đòi phách lạc, hồn bay,"},{"nom":"坡乾蓓𦹵㭲𣘃隐命","quocngu":"Pha càn bụi cỏ gốc cây ẩn mình."},{"nom":"束翁茹拱𧵆觥","quocngu":"Thúc ông nhà cũng gần quanh,"},{"nom":"秩𬖉𦰟󰌕失驚用淶","quocngu":"Chợt trông ngọn lửa, thất kinh rụng rời."},{"nom":"伵柴𧿆𥊢典尼","quocngu":"Tớ thầy nhảy thẳng đến nơi,"},{"nom":"哉排洒󰌕尋𠊛劳�","quocngu":"Tơi bời tưới lửa tìm người lao [?]"},{"nom":"󰊄高𦰟󰌕強高","quocngu":"Gió cao ngọn lửa càng cao,"},{"nom":"碎隊尋覩娘󰅹𧡊󰠳","quocngu":"Tôi đòi tìm đủ, nàng nào thấy đâu!"},{"nom":"歇虚歇海𥆾饒","quocngu":"Hớt hơ hớt hải nhìn nhau,"},{"nom":"汫溇蓓葚𠓀𡢐尋光","quocngu":"Giếng sâu, bụi rậm trước sau tìm quàng."},{"nom":"𧼋𦋦准𬟗房香","quocngu":"Chạy ra chốn cũ phòng hương,"},{"nom":"𬂙炭𧡊󰜋埬昌𤈜殘","quocngu":"Trông than thấy một đống xương cháy tàn,"},{"nom":"𣦍情埃別謀奸","quocngu":"Ngay tình ai biết mưu gian,"},{"nom":"罕娘催吏固盘浪埃","quocngu":"Hẳn nàng thôi lại có bàn rằng ai!"},{"nom":"束翁洡湥𥐆𨱽","quocngu":"Thúc ông sùi sụt ngắn dài,"},{"nom":"𢪀𡥵永尾傷𠊛󰞺那","quocngu":"Nghĩ con vắng vẻ thương người nết na."},{"nom":"遺骸抇拉𧗱茹","quocngu":"Di hài nhặt sắp về nhà,"},{"nom":"󰅹󰑼衾斂󰅹󰑼䘮齋","quocngu":"Nào là khâm liệm, nào là tang trai"},{"nom":"礼常㐌覩󰜋𠄩","quocngu":"Lễ thường đã đủ một hai,"},{"nom":"陸程払拱典尼閉𣇞","quocngu":"Lục trình chàng cũng đến nơi bấy giờ."},{"nom":"𨀈𠓨准𬟗楼䜹","quocngu":"Bước vào chốn cũ lầu thơ,"},{"nom":"𪿙炭󰜋埬󰌱湄𦊚墻","quocngu":"Tro than một đống, nắng mưa bốn tường."},{"nom":"𨖅茹吒細中堂","quocngu":"Sang nhà cha, tới trung đường,"},{"nom":"火床牌位蜍娘於𨕭","quocngu":"Linh sàng bài vị thờ nàng ở trên."},{"nom":"唉喂呐歇事緣","quocngu":"Hỡi ôi! Nói hết sự duyên,"},{"nom":"絲情𠞹𫆧󰌕煩𤈜肝","quocngu":"Tơ tình đứt ruột, lửa phiền cháy gan!"},{"nom":"招命勿把哭嘆","quocngu":"Gieo mình vật vã khóc than;"},{"nom":"𡥵𠊛世󰀎托寃世尼","quocngu":"Con người thế ấy, thác oan thế này!"},{"nom":"聀浪枚竹吏圍","quocngu":"Chắc rằng mai trúc lại vầy,"},{"nom":"埃咍永訣󰑼𣈜迻饒","quocngu":"Ai hay vĩnh quyết là ngày đưa [nhau]."},{"nom":"傷強𢪀𢪀強𤴬","quocngu":"Thương càng nghĩ, nghĩ càng đau,"},{"nom":"易埃垃惨𦑗愁朱�","quocngu":"Dễ ai lấp thảm, quạt sầu cho [?]"},{"nom":"𧵆沔𦖑固󰜋柴","quocngu":"Gần miền nghe có một thầy,"},{"nom":"󰠀符殺鬼高𢬣通玄","quocngu":"Phi phù sát quỷ, cao tay thông huyền."},{"nom":"𨕭三寶𠁑九泉","quocngu":"Trên Tam bảo, dưới cửu tuyền,"},{"nom":"尋󰠳時拱別信𤑟𤉜","quocngu":"Tìm đâu thì cũng biết tin rõ ràng."},{"nom":"懺生礼物逴𨖅","quocngu":"Sắm sanh lễ vật rước sang,"},{"nom":"吀尋朱𧡊󰘚娘𠳨嘆","quocngu":"Xin tìm cho thấy mặt nàng hỏi han."},{"nom":"道人伏𠓀凈𡊨","quocngu":"Đạo nhân phục trước tĩnh đàn."},{"nom":"出神𦀊丿渚殘𥘀香","quocngu":"Xuất thần giây phút chưa tàn nén [hương]"},{"nom":"阻𧗱明白呐詳","quocngu":"Trở về minh bạch nói tường:"},{"nom":"𩈘娘𫽄𧡊󰟳娘㐌查","quocngu":"Mặt nàng chẳng thấy, việc nàng đã tra."},{"nom":"𠊛尼󰠱刼寃家","quocngu":"Người này nặng kiếp oan gia,"},{"nom":"群𡗉女𡗋牢陀托朱","quocngu":"Còn nhiều nợ lắm sao đà thác cho!"},{"nom":"孛宮登默难蘇","quocngu":"Bột cung đăng mắc nạn to,"},{"nom":"󰜋𢆥女買𠶀𠻀特信","quocngu":"Một năm nữa mới thăm dò được tin."},{"nom":"𠄩边夾𩈘廛廛","quocngu":"Hai bên giáp mặt chiền chiền,"},{"nom":"悶認麻𫽄敢認𨔍台","quocngu":"Muốn nhận mà chẳng dám nhận lạ thay!\\""},{"nom":"𦖑𠳒呐𨔍󰟯尼","quocngu":"Nghe lời nói lạ dường này,"},{"nom":"事娘㐌世𠳒柴敢信","quocngu":"Sự nàng đã thế, lời thầy dám tin."},{"nom":"𫽄戈童骨光扦","quocngu":"Chẳng qua đồng cốt quàng xiên,"},{"nom":"𠊛󰠳麻吏体𨕭𡎝塵","quocngu":"Người đâu mà lại thấy trên cõi trần?"},{"nom":"惜花仍吟𠿯春","quocngu":"Tiếc hoa những ngậm ngùi xuân,"},{"nom":"身尼易吏󰋇吝﨤仙","quocngu":"Thân này dễ lại mấy lần gặp tiên!"},{"nom":"渃㵢花用㐌安","quocngu":"Nước trôi hoa rụng đã yên,"},{"nom":"咍󰠳地獄於沔人間","quocngu":"Hay đâu địa ngục ở miền nhân gian!"},{"nom":"犬鷹㐌担謀好","quocngu":"Khuyển Ưng đã đắt mưu hảo,"},{"nom":"域娘迻𫴋底安𠁑船","quocngu":"Vực nàng đưa xuống để an dưới thuyền."},{"nom":"帆高撩𬆅𦑃耑","quocngu":"Buồm cao lèo thẳng cánh xuyền,"},{"nom":"提澄縣錫氷沔𣾼𨖅","quocngu":"Đè chừng huyện Tích băng miền vượt sang."},{"nom":"㨋渡蓮𠓀󰟷堂","quocngu":"Giã đò, lên trước sảnh đường,"},{"nom":"犬鷹𠄩𠀲納娘𤼸功","quocngu":"Khuyển Ưng hai đứa nộp nàng dâng công."},{"nom":"域娘暫𫴋問房","quocngu":"Vực nàng tạm xuống vấn phòng,"},{"nom":"唉群帖帖聀燶渚派","quocngu":"Hãy còn thiêm thiếp giấc nồng chưa phai."},{"nom":"黄梁𦖑醒愧枚","quocngu":"Hoàng lương nghe tỉnh hồn mai,"},{"nom":"󰘇茹󰠳秩楼󰉟󰅹低","quocngu":"Cửa nhà đâu mất, lâu đài nào đây?"},{"nom":"傍徨󰇾醒󰇾醝","quocngu":"Bàng hoàng dở tỉnh dở say,"},{"nom":"󰟷堂𠻵㗂隊𣦍蓮侯","quocngu":"Sảnh đường mảng tiếng đòi ngay lên hầu."},{"nom":"阿鬟𨕭𠁑逐毛","quocngu":"Ả hoàn trên dưới giục mau,"},{"nom":"害䧺娘買蹺𡢐󰜋𠊛","quocngu":"Hãi hùng nàng mới theo sau một người."},{"nom":"𥆾𬂙座曠圯𨱽","quocngu":"Nhìn trông toà rộng dãy dài."},{"nom":"天官家宰固牌撩𨖲","quocngu":"Thiên quan gia tể có bài treo lên."},{"nom":"班𣈜蠟𤏧𠄩边","quocngu":"Ban ngày sáp thắp hai bên."},{"nom":"𨕭床七寶𡎦𨕭󰜋󰜏","quocngu":"Trên giường thất bảo, ngồi trên một bà."},{"nom":"𠲟𠴛𦰟𠳨梗查","quocngu":"Gạn gùng ngọn hỏi ngành tra,"},{"nom":"事命娘㐌據麻𠳚申","quocngu":"Sự mình nàng đã cứ mà gửi thân."},{"nom":"不情浽陣𩄲湄","quocngu":"Bất tình nổi trận mây mưa."},{"nom":"󰟳娘仍𥞁巴蜍悁身","quocngu":"Việc nàng những giống bơ thờ quen thân."},{"nom":"昆尼𫽄沛善人","quocngu":"Con này chẳng phải thiện nhân,"},{"nom":"𫽄牟道主時軍論𫯳","quocngu":"Chẳng màu đạo chúa thì quân lộn chồng."},{"nom":"𦋦從猫𡏢𤠄同","quocngu":"Ra tuồng mèo mả gà đồng,"},{"nom":"𦋦從隴縱𫽄衝皮󰅹","quocngu":"Ra tuồng lúng túng chẳng xong bề nào."},{"nom":"㐌󰝡命半󰘇蚤","quocngu":"Đã đem mình bán cửa tao,"},{"nom":"吏群共煩爫高世尼","quocngu":"Lại còn khủng khỉnh làm cao thế này!"},{"nom":"󰅹󰑼家法怒𠖤","quocngu":"Nào là gia pháp nọ bay!"},{"nom":"唉朱𠀧過別𢬣󰜋吝","quocngu":"Hãy cho ba quá biết tay một lần!\\""},{"nom":"阿鬟𨕭𠁑㖡噒","quocngu":"Ả hoàn trên dưới dạ rân,"},{"nom":"唒浪𤾓𠰘坤分𨤰󰅹","quocngu":"Dẫu rằng trăm miệng khôn phân lẽ nào!"},{"nom":"竹棍𦋦飭扱𠓨","quocngu":"Trúc côn ra sức đập vào,"},{"nom":"𦧘󰅹𫽄󰞺肝󰅹𫽄󰟹","quocngu":"Thịt nào chẳng nát, gan nào chẳng kinh!"},{"nom":"㤕台桃李󰜋梗","quocngu":"Xót thay đào lý một cành,"},{"nom":"󰜋畨湄󰊄散情󰜋畨","quocngu":"Một phen mưa gió, tan tành một phen!"},{"nom":"花奴傳𠰺𢬭𠸜","quocngu":"Hoa nô truyền dạy đổi tên,"},{"nom":"房桃𠰺押𠓨畨侍牌","quocngu":"Phòng đào dạy ép vào phiên thị tì."},{"nom":"𦋦𠓨蹺𠎪青衣","quocngu":"Ra vào theo lũ thanh y,"},{"nom":"𤋵畑𩄲𦇒䏧𨨲管包","quocngu":"Dãi đèn mây rối da chì quản bao!"},{"nom":"管家固󰜋媒󰅹","quocngu":"Quản gia có một mụ nào,"},{"nom":"体𠊛体󰞺𦋦𠓨麻傷","quocngu":"Thấy người thấy nết ra vào mà thương."},{"nom":"欺茶󱋓欺𬟥湯","quocngu":"Khi chè chén, khi thuốc thang,"},{"nom":"󰝡𠳒方便𨷑塘好生","quocngu":"Đem lời phương tiện, mở đường hiếu sinh."},{"nom":"𠰺浪埋磊㐌停","quocngu":"Dạy rằng: \\"May rủi đã đành,"},{"nom":"柳蒲命𡨹𥙩命朱咍","quocngu":"Liễu bồ mình giữ lấy mình cho hay."},{"nom":"拱󰑼寃業之低","quocngu":"Cũng là oan nghiệp chi đây,"},{"nom":"沙機買典世尼庄仍","quocngu":"Sa cơ mới đến thế này, chẳng dưng."},{"nom":"於低𦖻壁脉棱","quocngu":"Ở đây tai vách mạch rừng."},{"nom":"体埃涓属拱停𥆾之","quocngu":"Thấy ai quen thuộc cũng đừng nhìn chi."},{"nom":"矯欺𩆐𩄰不期","quocngu":"Kẻo khi sấm sét bất kỳ,"},{"nom":"昆蜂丐蜆呌之特寃","quocngu":"Con ong cái kiến kêu gì được oan!\\""},{"nom":"娘強湥玉如滇","quocngu":"Nàng càng giọt ngọc như chan,"},{"nom":"浽𢚸𩛂仍盘桓念西","quocngu":"Nỗi lòng no những bàn hoàn niềm tây."},{"nom":"風陳刼㐌𠹾苔","quocngu":"Phong trần kiếp đã chịu đầy,"},{"nom":"淋炭吏固次尼平𠄩","quocngu":"Lầm than lại có thứ này bằng hai!"},{"nom":"爫牢鉑𫽄皮催","quocngu":"Làm sao bạc chẳng vừa thôi,"},{"nom":"󰇿󰇿𫃚買𥙩𠊛紅顔","quocngu":"Khăng khăng buộc mãi lấy người hồng nhan!"},{"nom":"㐌停夙債前寃","quocngu":"Đã đành túc trái tiền oan,"},{"nom":"拱料玉󰞺花殘麻之","quocngu":"Cũng liều ngọc nát, hoa tàn mà chi!\\""},{"nom":"仍󰑼娘耨戈時","quocngu":"Những là nương náu qua thì,"},{"nom":"小姐沛𣇜買𧗱寧家","quocngu":"Tiểu thư phải buổi mới về ninh gia."},{"nom":"媄𡥵路傳隣󰑼","quocngu":"Mẹ con trò chuyện lân la,"},{"nom":"夫人買哙娘𦋦𠰺𠳒","quocngu":"Phu nhân mới gọi nàng ra dạy lời:"},{"nom":"小姐𠁑帳少𠊛","quocngu":"Tiểu thư dưới trướng thiếu người,"},{"nom":"朱𧗱边󰀎蹺隊楼粧","quocngu":"Cho về bên ấy theo đòi lầu trang.\\""},{"nom":"領𠳒娘買蹺𨖅","quocngu":"Lĩnh lời nàng mới theo sang,"},{"nom":"別󰠲地獄天堂󰑼󰠲","quocngu":"Biết đâu địa ngục thiên đàng là đâu!"},{"nom":"󰉺𣌉巾󰘚备頭","quocngu":"Sớm khuya khăn mặt, lược đầu,"},{"nom":"分𡥵候㑏𡥵候敢差","quocngu":"Phận con hầu giữ con hầu dám sai."},{"nom":"𠳨𣎀淹妸朝𡗶","quocngu":"Hỏi đêm êm ả chiều trời,"},{"nom":"竹絲𠳨曲芸制𠳨閣","quocngu":"Trúc tơ hỏi khúc nghề chơi hỏi các."},{"nom":"領𠳒娘買󰇾𦀊","quocngu":"Lĩnh lời nàng mới giở dây,"},{"nom":"𠰚𡽫咱素易差𢚸𠊛","quocngu":"Nỉ non thánh tố dễ say lòng người!"},{"nom":"小姐󰏙拱傷才","quocngu":"Tiểu thư xem cũng thương tài,"},{"nom":"囷威󰟯拱扒𠄽𦊚分","quocngu":"Khuôn uy dường cũng bớt vài bốn phân."},{"nom":"󰘇𠊛苔墮𠳨身","quocngu":"Cửa người đày đoạ hỏi thân,"},{"nom":"󰉺唯𠰚䏾𣎀魚恨𢚸","quocngu":"Sớm năn nỉ bóng, đêm ngơ hận lòng."},{"nom":"臨淄𡮍󰒂刀蓬","quocngu":"Lâm Truy chút nghĩa đèo bòng,"},{"nom":"渃𡽫底𫳘相逢刼𡢐","quocngu":"Nước non để chữ \\"tương phùng\\" kiếp sau!"},{"nom":"𦊚方𩄲𤽸󰜋牟","quocngu":"Bốn phương mây trắng một màu,"},{"nom":"𥊛潙故囯別󰠲󰑼茹","quocngu":"Trông vời cố quốc biết đâu là nhà?"},{"nom":"吝吝𣎃淪𣈜戈","quocngu":"Lần lần tháng [trọn] ngày qua,"},{"nom":"浽𧵆󰅹別塘車世尼","quocngu":"Nỗi gần nào biết đường xa thế này?"},{"nom":"臨淄白誅鴛𠖤","quocngu":"Lâm Truy bạch trụ uyên bay,"},{"nom":"房空傷几𣎃𣈜隻身","quocngu":"Phòng không thương kẻ tháng ngày chiếc thân."},{"nom":"眉撑𦝄買甲痕","quocngu":"Mày xanh trăng mới giáp ngần,"},{"nom":"粉乘香𬟗倍分㤕車","quocngu":"Phấn thừa hương cũ bội phần xót xa!"},{"nom":"蓮殘枚吏𦬑𦋦","quocngu":"Sen tàn, mai lại nở ra,"},{"nom":"愁𨱽𣈜𥐆冬陀𨖅春","quocngu":"Sầu dài ngày ngắn đông đà sang xuân."},{"nom":"尋󰠲朱𧡊故人","quocngu":"Tìm đâu cho thấy cố nhân?"},{"nom":"𥙩勾運命𢣧寅𢖵傷","quocngu":"Lấy câu vận mệnh khuây dần nhớ thương."},{"nom":"鄭念𢖵景家香","quocngu":"Chạnh niềm, nhớ cảnh gia hương,"},{"nom":"𢖵圭払吏尋塘深圭","quocngu":"Nhớ quê, chàng lại tìm đường thăm quê."},{"nom":"小姐迍󰘇𣎀提","quocngu":"Tiểu thư đón cửa đêm giề,"},{"nom":"寒暄皮𣴓每皮𧵆賒","quocngu":"Hàn huyên vừa cạn mọi bề gần xa."},{"nom":"茹香高捲幅𬗢","quocngu":"Nhà hương cao cuốn bức là,"},{"nom":"房冲傳噲娘𦋦𥛉𢜠","quocngu":"Buồng trong truyền gọi nàng ra lạy mừng."},{"nom":"𨀈𦋦󰜋𨀈󰜋𥩯","quocngu":"Bước ra một bước một dừng,"},{"nom":"𥊛車娘㐌𤏣澄裊車","quocngu":"Trông xa, nàng đã tỏ chừng nẻo xa:"},{"nom":"沛浪𪱆関畑𤍶","quocngu":"\\"Phải rằng nắng quan đèn loà."},{"nom":"𤑟𤉜𡎦妬𫽄󰑼束生","quocngu":"Rõ ràng ngồi đó, chẳng là Thúc sinh?"},{"nom":"碑𣇞情買𤑟情","quocngu":"Bây giờ tình mới tỏ tình,"},{"nom":"催催㐌默𠓨𫒥𫽄差","quocngu":"Thôi thôi đã mắc vào vành chẳng sai!"},{"nom":"斫󰠲固斫𨔍𠁀","quocngu":"Chước đâu có chước lạ đời,"},{"nom":"𠊛󰠲麻吏固𠊛精麻","quocngu":"Người đâu mà lại có người tinh ma!"},{"nom":"𤑟𤉜寔侶堆些","quocngu":"Rõ ràng thật lứa đôi ta,"},{"nom":"爫𦋦昆於主茹堆尼","quocngu":"Làm ra con ở, chúa nhà đôi nơi!"},{"nom":"皮外噠噠呐唭","quocngu":"Bề ngoài thơn thớt nói cười,"},{"nom":"麻冲岩險𣩂𠊛空刀","quocngu":"Mà trong nham hiểm chết người không dao."},{"nom":"碑𣇞坦隰𡗶高","quocngu":"Bây giờ đất thấp trời cao,"},{"nom":"咹爫牢呐爫牢碑𣇞","quocngu":"Ăn làm sao, nói làm sao bây giờ?\\""},{"nom":"強𬂙𩈘強謹魚","quocngu":"Càng trông mặt, càng ngẩn ngơ,"},{"nom":"𦛌蟳隊段如絲𦇒排","quocngu":"Ruột tằm đòi đoạn như tơ rối bời,"},{"nom":"𢜝威敢𫽄𠰩𠳒","quocngu":"Sợ uy, dám chẳng [vâng] lời"},{"nom":"儈頭納𫴋𡑝枚󰜋朝","quocngu":"Cúi đầu nép xuống sân mai một chiều."},{"nom":"生陀茀落塊漂","quocngu":"Sinh đà phất lạc hồn xiêu,"},{"nom":"傷喂𫽄沛娘翹於低","quocngu":"Thương ôi! Chẳng phải nàng Kiều ở đây?"},{"nom":"因爫牢典世尼","quocngu":"Nhân làm sao đến thế này?"},{"nom":"催催些㐌默𢬣埃洡","quocngu":"Thôi thôi, ta đã mắc tay ai rồi!\\""},{"nom":"𢜝涓敢𠼯𦋦𠳒","quocngu":"Sợ quen dám hở ra lời,"},{"nom":"坤垠湥玉湥洡㳶沙","quocngu":"Khôn ngăn giọt ngọc sụt sùi nhỏ sa."},{"nom":"小姐𬂙󰘚𠳨查","quocngu":"Tiểu thư trông mặt hỏi tra:"},{"nom":"買𧗱固役之麻動容","quocngu":"Mới về có việc chi mà động dong?"},{"nom":"生浪孝服皮衝","quocngu":"Sinh rằng: \\"Hiếu phục vừa xong,"},{"nom":"推𢚸涉𡵆𤴬𢚸終天","quocngu":"Suy lòng trắc khởi/dĩ đau lòng chung thiên.\\""},{"nom":"𠸦浪孝子㐌𢧚","quocngu":"Khen rằng: \\"Hiếu tử đã nên!"},{"nom":"洗塵𠼦󱋓解煩𣎀秋","quocngu":"Tẩy trần mượn chén giải phiền đêm thu.\\""},{"nom":"𡞕𫯳󱋓酢󱋓酬","quocngu":"Vợ chồng chén tạc chén thù,"},{"nom":"扒娘𨅸直持壼𠄩尼","quocngu":"Bắt nàng đứng chực trì hồ hai nơi."},{"nom":"扒寬扒日典𠳒","quocngu":"Bắt khoan bắt nhặt đến lời,"},{"nom":"扒跪尽󰘚扒𨑮尽𢬣","quocngu":"Bắt quì tận mặt, bắt mời tận tay."},{"nom":"生強如𤵺如𬏝","quocngu":"Sinh càng như dại như ngây,"},{"nom":"湥𨱽湥𥐆󱋓苔󱋓潙","quocngu":"Giọt dài giọt ngắn, chén đầy chén vơi."},{"nom":"𢘩𠫾秩呐秩唭","quocngu":"[Dựng] đi, chợt nói chợt cười,"},{"nom":"告醝払㐌淡排𤎜𦋦","quocngu":"Cáo say, chàng đã đạm bài lảng ra."},{"nom":"小姐倍𠯦昆花","quocngu":"Tiểu thư vội thét: \\"Con Hoa!"},{"nom":"呐𠓨仍法󰇾𦋦仍扽","quocngu":"Nói vào những phép giở ra những đòn!\\""},{"nom":"生強󰞺𦛌散魂","quocngu":"Sinh càng nát ruột tan hồn."},{"nom":"󱋓𠶆沛吟蒲几燥𣦍","quocngu":"Chén mời phải ngậm bồ hòn ráo ngay!"},{"nom":"小姐唭呐省醝","quocngu":"Tiểu thư cười nói tỉnh say,"},{"nom":"渚衝局𨢇吏排路制","quocngu":"Chưa xong cuộc rượu lại bày trò chơi."},{"nom":"浪花奴覩每才","quocngu":"Rằng: \\"Hoa nô đủ mọi tài,"},{"nom":"版弹此𨄹󰜋排払𦖑","quocngu":"Bản đàn thử dạo một bài chàng nghe!"},{"nom":"娘陀散渙痺迷","quocngu":"Nàng đà tán hoán tê mê,"},{"nom":"󰂅𠳒𦋦𠓀展𦂛紊弹","quocngu":"Vâng lời ra trước triển the vặn đàn."},{"nom":"𦊚𦀊如哭如嘆","quocngu":"Bốn dây như khóc như than,"},{"nom":"遣𠊛𨕭席拱散󰞺𢚸","quocngu":"Khiến người trên tiệc cũng tan nát lòng!"},{"nom":"拱𥪞󰜋㗂絲同","quocngu":"Cùng trong một tiếng tơ đồng,"},{"nom":"𠊛外唭𦬻𠊛𥪞哭󰠐","quocngu":"Người ngoài cười nụ, người trong khóc thầm!"},{"nom":"湥珠呂渚坤扲","quocngu":"Giọt châu lã chã khôn cầm,"},{"nom":"儈頭払仍拔󰠐湥霜","quocngu":"Cúi đầu chàng những gạt thầm giọt sương."},{"nom":"小姐吏𠽇𥙩娘","quocngu":"Tiểu thư lại nẹt lấy nàng:"},{"nom":"局𢝙𢭮曲断膓󰀎之","quocngu":"Cuộc vui gảy khúc đoạn tràng ấy chi!"},{"nom":"牢𫽄別意思之","quocngu":"Sao chẳng biết ý tứ gì?"},{"nom":"朱払𢞂把罪爲在𤽗","quocngu":"Cho chàng buồn bã tội vì tại ngươi!\\""},{"nom":"生強惨切徘徊","quocngu":"Sinh càng thảm thiết bồi hồi,"},{"nom":"倍傍強呐強唭朱戈","quocngu":"Vội vàng gượng nói, gượng cười cho qua."},{"nom":"曲𧍰更㐌點𠀧","quocngu":"Khúc rồng canh đã điểm ba,"},{"nom":"小姐𥆾󰘚󰟯陀甘心","quocngu":"Tiểu thư nhìn mặt dường đà cam tâm."},{"nom":"𢚸𥢆㕸𠳚𢜠󰠐","quocngu":"Lòng riêng khấp khởi mừng thầm:"},{"nom":"𢝙尼㐌補𤴬吟初󰅒","quocngu":"Vui này đã bõ đau ngầm xưa nay!"},{"nom":"生時肝𤉗𦛌苔","quocngu":"Sinh thì gan héo ruột đầy,"},{"nom":"浽𢚸強𢪀強荄䔲𢚸","quocngu":"Nỗi lòng càng nghĩ càng cay đắng lòng."},{"nom":"𠊛𠓨終襘鸾房","quocngu":"Người vào chung gối loan phòng,"},{"nom":"娘𦋦𢭸䏾畑終更𨱽","quocngu":"Nàng ra tựa bóng đèn chong canh dài."},{"nom":"悲𣇞買𤑟沁唏","quocngu":"Bây giờ mới rõ tăm hơi,"},{"nom":"𧖱悭󰠲固𨔍𠁀茹悭","quocngu":"Máu ghen đâu có lạ đời nhà ghen!"},{"nom":"斫󰠲𢪊翠𢺺鴛","quocngu":"Chước đâu rẽ thuý chia uyên."},{"nom":"埃𦋦塘刀埃𥆾特埃","quocngu":"Ai ra đường đao, ai nhìn được ai!"},{"nom":"悲𣇞󰜋域󰜋𡗶","quocngu":"Bây giờ một vực một trời,"},{"nom":"歇調輕重歇𠳒是非","quocngu":"Hết điều khinh trọng, hết lời thị phi!"},{"nom":"珥如苝󰠱如𨨲","quocngu":"Nhẹ như bấc, nặng như chì,"},{"nom":"𫽻朱𦋦女群之󰑼緣","quocngu":"Gỡ cho ra nữa còn gì là duyên!"},{"nom":"呂󰟯𡮍分婵娟","quocngu":"Lỡ làng chút phận thuyền quyên,"},{"nom":"𣷭溇㳥奇固全特爲","quocngu":"Bể sâu sóng cả có tuyền được vay?"},{"nom":"󰜋𠇮陰倚𣎀迡","quocngu":"Một mình âm ỉ đêm chầy,"},{"nom":"𥒦油潙渃眜苔𢆥更","quocngu":"Đĩa dầu vơi, nước mắt đầy năm canh."},{"nom":"󰉺𣌉候下󰉟萾","quocngu":"Sớm khuya hầu hạ đài doanh,"},{"nom":"小姐𪮻󰘚提情𠳨查","quocngu":"Tiểu thư chạm mặt, đè tình hỏi tra."},{"nom":"𢫘𠳒娘買䜹戈","quocngu":"Lựa lời, nàng mới thưa qua,"},{"nom":"沛欺命吏㤕車浽命","quocngu":"Phải khi mình lại xót xa nỗi mình."},{"nom":"小姐吏𠳨束生","quocngu":"Tiểu thư lại hỏi Thúc sinh:"},{"nom":"忌払查𥙩寔情朱󰅉","quocngu":"Cậy chàng tra lấy thực tình cho nao!"},{"nom":"生陀撻𦛌如胞","quocngu":"Sinh đà rát ruột như bào,"},{"nom":"呐𦋦𫽄便𬂙𠓨𫽄登","quocngu":"Nói ra chẳng tiện, trông vào chẳng đăng!"},{"nom":"仍衣吏累典娘","quocngu":"Những e lại luỵ đến nàng,"},{"nom":"打料買仕𢫘塘𠳨查","quocngu":"Đánh liều mới sẽ lựa đường hỏi tra."},{"nom":"儈頭跪𠓀𡑝花","quocngu":"Cúi đầu quì trước sân hoa,"},{"nom":"申供娘買𨖲戈󰜋𠳒","quocngu":"Thân cung nàng mới lên qua một lời."},{"nom":"靣前呈貝小姐","quocngu":"Diện tiền trình với tiểu thư,"},{"nom":"脱󰏙󰟯固謹魚𡮍情","quocngu":"Thoắt xem dường có ngẩn ngơ chút tình."},{"nom":"連𢬣𢭂吏束生","quocngu":"Liền tay trao lại Thúc sinh,"},{"nom":"浪才𢧚重麻情𢧚傷","quocngu":"Rằng: \\"Tài nên trọng, mà tình nên thương!"},{"nom":"󰂇𫽄固𢼂𢀭𢀨","quocngu":"Ví chăng có số giàu sang."},{"nom":"債尼酉𨯹茹鐄拱𢧚","quocngu":"Trái này dẫu đúc nhà vàng cũng nên!"},{"nom":"彼塵沉浽婵娟","quocngu":"Bể trần chìm nổi thuyền quyên,"},{"nom":"有才傷浽󰟁緣𨔍𠁀","quocngu":"Hữu tài thương nỗi vô duyên lạ đời.\\""},{"nom":"生浪寔固如𠳒","quocngu":"Sinh rằng: \\"Thật có như lời,"},{"nom":"紅顔萡命󰜋𠊛󰅹爲","quocngu":"Hồng nhan bạc mệnh một người nào vay!"},{"nom":"𠦳初歐拱世尼","quocngu":"Nghìn xưa âu cũng thế này,"},{"nom":"悲𣇞歐料扒𢬣買皮","quocngu":"Bây giờ âu liệu bớt tay mới vừa.\\""},{"nom":"小姐浪意𥪞詞","quocngu":"Tiểu thư rằng: \\"Ý trong tờ,"},{"nom":"㕸󰝡命萡吀洳󰘇空","quocngu":"Rắp đem mệnh bạc xin nhờ cửa không."},{"nom":"催時催拱朝𢚸","quocngu":"Thôi thì thôi cũng chiều lòng,"},{"nom":"拱朱𢪀議冲𨦩𨀈𦋦","quocngu":"Cũng cho nghỉ nghị trong vòng bước ra."},{"nom":"産󰞹音閣園些","quocngu":"Sẵn Quan Âm các vườn ta,"},{"nom":"固核𤾓𫵟固花𦊚務","quocngu":"Có cây trăm thước, có hoa bốn mùa."},{"nom":"固古樹固山瑚","quocngu":"Có cổ thụ, có sơn hồ,"},{"nom":"朱娘𦋦妬𡨹厨誦经","quocngu":"Cho nàng ra đó, giữ chùa tụng kinh.\\""},{"nom":"曾曾𡗶買平明","quocngu":"Tâng tâng trời mới bình minh,"},{"nom":"香花五供懺生礼常","quocngu":"Hương hoa ngũ cúng, sắm sanh lễ thường."},{"nom":"迻払典𠓀佛堂","quocngu":"Đưa chàng đến trước Phật đường,"},{"nom":"三歸五戒朱娘出家","quocngu":"Tam qui ngũ giới, cho nàng xuất gia."},{"nom":"襖撑𢬭𥙩袈裟","quocngu":"Áo xanh đổi lấy cà sa,"},{"nom":"法名吏𢬭𠸜𦋦濯泉","quocngu":"Pháp danh lại đổi tên ra Trạc Tuyền."},{"nom":"󰉺𣌉併覩油畑","quocngu":"Sớm khuya tính đủ dầu đèn,"},{"nom":"春秋割産𠄩𠸜香茶","quocngu":"Xuân, Thu cắt sẵn hai tên hương trà."},{"nom":"娘自另𨁪園花","quocngu":"Nàng từ lánh dấu vườn hoa,"},{"nom":"󰟯𧵆棱紫󰟯賒𡏧紅","quocngu":"Dường gần rừng tía, dường xa bụi hồng."},{"nom":"因緣󰠲吏群蒙","quocngu":"Nhân duyên đâu lại còn mong,"},{"nom":"塊調𢢆粉悴紅時催","quocngu":"Khỏi điều thẹn phấn tủi hồng thì thôi."},{"nom":"佛前惨垃愁洃","quocngu":"Phật tiền thảm lấp sầu khơi,"},{"nom":"𣈜鋪手字𣎀㘨心香","quocngu":"Ngày pho thủ tự, đêm nồi tâm hương."},{"nom":"朱咍湥渃梗楊","quocngu":"Cho hay giọt nước cành dương,"},{"nom":"󰌎𢚸洒㴽每塘塵緣","quocngu":"Lò lòng tưới tắt mọi đường trần duyên."},{"nom":"𣙩𣘽自𧿨牟禅","quocngu":"Sồng nâu từ trở mầu thiền,"},{"nom":"𡑝秋𦝄㐌𠄽番𨅸頭","quocngu":"Sân thu trăng đã vài phen đứng đầu."},{"nom":"󰘇房扦日䋥毛","quocngu":"Cửa phòng then nhặt lưới mau,"},{"nom":"呐𠳒𠓀󰘚淶珠永𠊛","quocngu":"Nói lời trước mặt, rơi châu vắng người."},{"nom":"閣經院冊堆尼","quocngu":"Gác kinh viện sách đôi nơi,"},{"nom":"冲𡬼𡬷吏扱𨑮関山","quocngu":"Trong gang tấc lại gấp mười quan san."},{"nom":"仍󰑼吟咀𠸂嘆","quocngu":"Những là ngậm thở giọt than,"},{"nom":"小姐沛𣇜問安𧗱茹","quocngu":"Tiểu thư phải buổi vấn an về nhà."},{"nom":"乘机生買輦𦋦","quocngu":"Thừa cơ sinh mới lẻn ra,"},{"nom":"侵侵典𠃅圍花貝娘","quocngu":"Xăm xăm đến mé vi hoa với nàng."},{"nom":"湥淶󰇾浽断膓","quocngu":"Sụt sùi giở nỗi đoạn trường,"},{"nom":"湥珠尋謝埮𨱽襖撑","quocngu":"Giọt châu tầm tã đượm dài áo xanh."},{"nom":"㐌甘𠹾萡貝情","quocngu":"Đã cam chịu bạc với tình,"},{"nom":"主春底罪󰜋命朱花","quocngu":"Chúa xuân để tội một mình cho hoa."},{"nom":"𥰊机輸智弹󰜏","quocngu":"Thấp cơ thua trí đàn bà,"},{"nom":"𬂙𠓨𤴬𦛌呐𦋦𪿒𡗶","quocngu":"Trông vào đau ruột, nói ra ngại lời."},{"nom":"爲些朱累典𠊛","quocngu":"Vì ta cho luỵ đến người,"},{"nom":"吉淋玉𤽸舌𠁀春撑","quocngu":"Cát lầm ngọc trắng, thiệt đời xuân xanh."},{"nom":"管之𨕭閣𠁑溋","quocngu":"Quản chi trên gác dưới duềnh,"},{"nom":"拱算𤯩托貝情朱衝","quocngu":"Cũng toan sống thác với tình cho xong."},{"nom":"宗堂𡮍渚甘𢚸","quocngu":"Tông đường chút chửa cam lòng,"},{"nom":"哏󰛈𢯏󰜋𫳘同爫𠄩","quocngu":"Cắn răng bẻ một chữ đồng làm hai."},{"nom":"𢢆命𥒥󰞺鐄派","quocngu":"Thẹn mình đá nát vàng phai,"},{"nom":"𤾓身易贖󰜋𠳒特牢","quocngu":"Trăm thân dễ chuộc một lời được sao?\\""},{"nom":"娘浪隻拍㳥桃","quocngu":"Nàng rằng: \\"Chiếc bách sóng đào,"},{"nom":"浽沉拱默𣅶󰅹磊埋","quocngu":"Nổi chìm cũng mặc lúc nào rủi may."},{"nom":"𡮍身𠹴𠶔淎淶","quocngu":"Chút thân quằn quại vũng lầy,"},{"nom":"𤯩乘群想典𣈙女牢","quocngu":"Sống thừa còn tưởng đến rày nữa sao?"},{"nom":"拱料󰜋湥湄滛","quocngu":"Cũng liều một giọt mưa rào,"},{"nom":"麻朱天下𬂙𠓨拱台","quocngu":"Mà cho thiên hạ trông vào cũng thay."},{"nom":"𡮍爲琹㐌󰐻𦀊","quocngu":"Chút vì cầm đã bén dây,"},{"nom":"𫽄𤾓𫷜拱󰜋𣈜緣些","quocngu":"Chẳng trăm năm cũng một ngày duyên ta."},{"nom":"料排𨷑󰘇朱𦋦","quocngu":"Liệu bài mở cửa cho ra,"},{"nom":"󰀎󰑼情󰠱󰀎󰑼恩溇","quocngu":"Ấy là tình nặng, ấy là ân sâu!\\""},{"nom":"生浪𥢆想閉󰡇","quocngu":"Sinh rằng: \\"Riêng tưởng bấy lâu,"},{"nom":"𢚸𠊛岩險別󰠳麻量","quocngu":"Lòng người nham hiểm biết đâu mà lường."},{"nom":"女欺𬲄膆負傍","quocngu":"Nữa khi giông tố phũ phàng,"},{"nom":"舌𬓲蒂拱吏強極低","quocngu":"Thiệt riêng đấy, cũng lại càng cực đây."},{"nom":"料麻高𧼋賒𠖤","quocngu":"Liệu mà cao chạy xa bay,"},{"nom":"爱恩些固銀尼麻催","quocngu":"Ái ân ta có ngần này mà thôi!"},{"nom":"悲𣇞几虐𠊛吹","quocngu":"Bây giờ kẻ ngược người xuôi,"},{"nom":"別包𣇞吏綏𠳒渃𡽫","quocngu":"Biết bao giờ lại nối lời nước non?"},{"nom":"酉浪滝𣴓𥒥𤷱","quocngu":"Dẫu rằng sông cạn đá mòn,"},{"nom":"昆蚕典𣩂拱群𢹣絲","quocngu":"Con tằm đến chết cũng còn kéo tơ.\\""},{"nom":"共饒計礼𡢐初","quocngu":"Cùng nhau kể lể sau xưa,"},{"nom":"呐耒吏呐𠳒渚歇𠳒","quocngu":"Nói rồi lại nói, lời chưa hết lời."},{"nom":"󰘚𬂙𢬣𫽄女移","quocngu":"Mặt trông tay chẳng nỡ rời,"},{"nom":"花婢㐌動㗂𠊛裊賒","quocngu":"Hoa tì đã động tiếng người nẻo xa."},{"nom":"忍󰋈呐淬𨅸𦋦","quocngu":"Nhận ngừng nói tủi đứng ra,"},{"nom":"小姐󰠲㐌𨀌花𨀈𠓨","quocngu":"Tiểu thư đâu đã lánh hoa bước vào."},{"nom":"唭唭呐呐𠮾嗷","quocngu":"Cười cười nói nói ngọt ngào,"},{"nom":"𠳨払買於准󰅹吏制","quocngu":"Hỏi: \\"Chàng mới ở chốn nào lại chơi?\\""},{"nom":"𠲝觥生買料𠳒","quocngu":"Dối quanh sinh mới liệu lời:"},{"nom":"尋花過𨀈󰏙𠊛曰經","quocngu":"Tìm hoa quá bước, xem người viết kinh."},{"nom":"𠸦浪筆法㐌精","quocngu":"Khen rằng: \\"Bút pháp đã tinh,"},{"nom":"搊𠓨貝帖香亭󰅹輸","quocngu":"So vào với thiếp hương đình nào thua!"},{"nom":"惜台流落江湖","quocngu":"Tiếc thay lưu lạc giang hồ,"},{"nom":"𠦳鐄寔拱𢧚模𥙩才","quocngu":"Nghìn vàng thực cũng nên mua lấy tài!\\""},{"nom":"船茶𣴓渃紅梅","quocngu":"Thuyền trà cạn nước hồng mai,"},{"nom":"從容綏𨃴書齋共𧗱","quocngu":"Thong dong nối gót thư trai cùng về."},{"nom":"娘強𠲖戾塢𠲖","quocngu":"Nàng càng e lệ ủ ê,"},{"nom":"󰁹𦖻𠳨吏花婢𠓀𡢐","quocngu":"Rỉ tai hỏi lại hoa tì trước sau."},{"nom":"花浪󰜏𦥃閉𥹰","quocngu":"Hoa rằng: \\"Bà đến bấy lâu,"},{"nom":"𨂚蹎𨅸納度󰠲姅𣇞","quocngu":"Rón chân đứng núp độ đâu nữa giờ."},{"nom":"仃仃技𩯀蹎絲","quocngu":"Rành rành kẽ tóc chân tơ,"},{"nom":"󰋇𠳒𦖑歇㐌餘𤏣詳","quocngu":"Mấy lời nghe hết, đã dư tỏ tường."},{"nom":"包饒断苦情傷","quocngu":"Bao nhiêu đoạn khổ tình thương."},{"nom":"浽翁勿巴浽娘咀嘆","quocngu":"Nỗi ông vật vã, nỗi nàng thở than."},{"nom":"垠碎𨅸吏󰜋边","quocngu":"Ngăn tôi đứng lại một bên,"},{"nom":"󰇏𦖻耒買𨀈𨖲𨕭楼","quocngu":"Chán tai rồi mới bước lên trên lầu.\\""},{"nom":"𦖑催󰟹駭掣󰠲","quocngu":"Nghe thôi, kinh hãi xiết đâu:"},{"nom":"弹󰜏体󰀎𧡊歐󰜋𠊛","quocngu":"\\"Đàn bà thể ấy, thấy âu một người!"},{"nom":"𧘇買肝𧘇買才","quocngu":"Ấy mới gan, ấy mới tài!"},{"nom":"𢪀強添浽䔲荄用移","quocngu":"Nghĩ càng thêm nỗi đắng cay rụng rời!"},{"nom":"𠊛󰠲溇色渃𠁀","quocngu":"Người đâu sâu sắc nước đời,"},{"nom":"麻払束沛𦋦𠊛抪𢬣","quocngu":"Mà chàng Thúc phải ra người bó tay!"},{"nom":"寔賍扒特󰟯尼","quocngu":"Thực tang, bắt được dường này,"},{"nom":"𧖱悭埃拱珠眉哏𬹸","quocngu":"Máu ghen ai cũng chau mày cắn răng."},{"nom":"世麻㛪𫽄代藤","quocngu":"Thế mà im chẳng đãi đằng,"},{"nom":"嘲𨑮𢝙𨤔呐能妙揚","quocngu":"Chào mời vui vẻ, nói năng dịu dàng!"},{"nom":"𢚷妯𦋦胣世常","quocngu":"Giận dầu ra dạ thế thường,"},{"nom":"唭妯買寔坤量險溇","quocngu":"Cười dầu mới thực khôn lường hiểm sâu!"},{"nom":"身些些沛󰠐歐","quocngu":"Thân ta, ta phải đăm âu,"},{"nom":"𠰘𤞻毒𧋻於󰠲准尼","quocngu":"Miệng hùm, nọc rắn ở đâu chốn này!"},{"nom":"󰂇𫽄执𦑃高𠖤","quocngu":"Ví chăng chắp cánh cao bay,"},{"nom":"撩核𥹰拱固𣈜𢯏花","quocngu":"Trèo cây lâu cũng có ngày bẻ hoa!"},{"nom":"分䕯包管渃沙","quocngu":"Phận bèo bao quản nước sa,"},{"nom":"泠汀󰠲女拱󰑼泠汀","quocngu":"Lênh đênh đâu nữa cũng là lênh đênh."},{"nom":"㐱𠲖圭貫󰜋命","quocngu":"Chỉn e quê quán một mình,"},{"nom":"𢬣空渚易尋𨪪蔭𩛂","quocngu":"Tay không chưa dễ tìm vành ấm no!\\""},{"nom":"𢪀𠫾𢪀吏觥孤","quocngu":"Nghĩ đi, nghĩ lại quanh co."},{"nom":"佛前産固每圖金銀","quocngu":"Phật tiền sẵn có mọi đồ kim ngân."},{"nom":"边命㩫底𧦈身","quocngu":"Bên mình giắt để hộ thân,"},{"nom":"吝𦖑更㐌󰜋分𪔠𠀧","quocngu":"Lần nghe canh đã một phần trống ba."},{"nom":"拮命戈𦰟墻花","quocngu":"Cất mình qua ngọn tường hoa,"},{"nom":"吝塘蹺䏾𦝄斜𧗱西","quocngu":"Lần đường theo bóng trăng tà về tây."},{"nom":"𩆪𩂟淡吉頽核","quocngu":"Mịt mù dặm cát đồi cây,"},{"nom":"㗂𤠄店𦹵𨁪𩌂求霜","quocngu":"Tiếng gà điếm cỏ, dấu giày cầu sương."},{"nom":"更𣌉身𡛔琰長","quocngu":"Canh khuya thân gái dặm trường."},{"nom":"分𠲖塘詫分傷𤋵油","quocngu":"Phần e đường sá, phần thương dãi dầu."},{"nom":"𡗶東皮𠓇岸橷","quocngu":"Trời đông vừa rạng ngàn dâu,"},{"nom":"巴爲󰅹㐌別󰠲󰑼茄","quocngu":"Bơ vơ nào đã biết đâu là nhà!"},{"nom":"厨󰠲𬂙体裊賒","quocngu":"Chùa đâu trông thấy nẻo xa,"},{"nom":"伶伶招隐庵𠀧𫳘排","quocngu":"Rành rành chiêu ẩn am ba chữ bài."},{"nom":"侵侵𢱗𠃅󰘇外","quocngu":"Xăm xăm gõ mé cửa ngoài,"},{"nom":"住持𦖑㗂逴𠶆𠓨𥪞","quocngu":"Trụ trì nghe tiếng, rước mời vào trong."},{"nom":"体歐咹默𣘽𣙩","quocngu":"Thấy âu ăn mặc nâu sồng,"},{"nom":"󰔼緣師長𫅜𢚸連傷","quocngu":"Giác Duyên sư trưởng lành lòng liền thương."},{"nom":"𣵲󰠃梗𦰟朱詳","quocngu":"Gạn gùng ngành ngọn cho tường,"},{"nom":"𨔍𨓡娘唉尋塘呐觥","quocngu":"Lạ lùng, nàng hãy tìm đường nói quanh:"},{"nom":"小婵圭於北京","quocngu":"Tiểu thiền quê ở Bắc Kinh,"},{"nom":"皈師皈佛修行閉𥹰","quocngu":"Qui sư, qui Phật tu hành bấy lâu."},{"nom":"本師耒拱典𡢐","quocngu":"Bản sư rồi cũng đến sau,"},{"nom":"𠰺迻法寶𨖅侯師兄","quocngu":"Dạy đưa pháp bảo sang hầu sư huynh.\\""},{"nom":"𣈙󰂅面献伶伶","quocngu":"Rày vâng diện hiến rành rành,"},{"nom":"鐘鐄磬萡边命󰇾𦋦","quocngu":"Chuông vàng, khánh bạc bên mình giở ra."},{"nom":"󰏙戈師買𠰺戈","quocngu":"Xem qua sư mới dạy qua:"},{"nom":"沛尼恒水𨔍些厚情","quocngu":"Phải ni Hằng Thuỷ là ta hậu tình."},{"nom":"㐱𠲖塘詫󰜋命","quocngu":"Chỉn e đường sá một mình,"},{"nom":"於低徐待師兄𠃣𣈜","quocngu":"Ở đây chờ đợi sư huynh ít ngày.\\""},{"nom":"𠳚身特准庵𩄲","quocngu":"Gửi thân được trốn am mây,"},{"nom":"採𦯬㙮𢬭𣎃𣈜從容","quocngu":"Thái dưa đắp đổi tháng ngày thong dong,"},{"nom":"偈經勾𡢐属𢚸","quocngu":"Kệ kinh câu sau thuộc lòng,"},{"nom":"香畑役𡢐济房涓𢬣","quocngu":"Hương đèn việc sau, trai phòng quen tay."},{"nom":"󰉺𣌉𦋦𠃅幡𩄲","quocngu":"Sớm khuya ra mái, phướn mây,"},{"nom":"𦰟畑挑月㗂𣖖󰠱霜","quocngu":"Ngọn đèn khêu nguyệt, tiếng chày nặng sương."},{"nom":"体娘聰慧恪常","quocngu":"Thấy nàng thông tuệ khác thường,"},{"nom":"師強你󰘚娘強凭󰖄","quocngu":"Sư càng nể mặt, nàng càng vững chân."},{"nom":"󰠮禅皮㐌𡳳春","quocngu":"Cửa thiền vừa đã cuối xuân,"},{"nom":"䏾花苔坦𨤔銀昂𡗶","quocngu":"Bóng hoa rợp đất, vẻ ngân ngang trời."},{"nom":"󰊄光𩄲淨請台","quocngu":"Gió quang mây tạnh thảnh thơi,"},{"nom":"固𠊛𡊨越𨖲制󰠮伽","quocngu":"Có người đàn việt lên chơi cửa già."},{"nom":"󰇾圖鐘磬󰏙戈","quocngu":"Giở đồ chuông khánh xem qua,"},{"nom":"𠸦浪窖种𧵑茹宦娘","quocngu":"Khen rằng: \\"Khéo giống của nhà Hoạn nương!\\""},{"nom":"󰔼緣寔意𢗼量","quocngu":"Giác Duyên thực ý lo lường,"},{"nom":"𣎀清買𠳨吏娘𠓀𡢐","quocngu":"Đêm thanh mới hỏi lại nàng trước sau."},{"nom":"𢪀浪坤浽酉牟","quocngu":"Nghĩ rằng khôn nỗi giấu mầu,"},{"nom":"事命娘買𨃴頭排𣦍","quocngu":"Sự mình, nàng mới gót đầu bày ngay:"},{"nom":"悲除事㐌󰟯尼","quocngu":"Bây giờ, sự đã dường này,"},{"nom":"分𪬡油磊油埋在𠊛","quocngu":"Phận hèn, dù rủi dù may tại người.\\""},{"nom":"󰔼緣𦖑呐用移","quocngu":"Giác Duyên nghe nói rụng rời."},{"nom":"姅傷姅𢜝徘徊𫽄衝","quocngu":"Nửa thương, nửa sợ bồi hồi chẳng xong."},{"nom":"󰁹𦖑娘買待𢚸","quocngu":"RỈ nghe nàng mới giãi lòng:"},{"nom":"於低󰘇佛󰑼空狹之","quocngu":"Ở đây cửa Phật là không hẹp gì;"},{"nom":"𠲖庄仍事不期","quocngu":"E chăng những sự bất kỳ,"},{"nom":"底娘朱典世尼拱傷","quocngu":"Để nàng cho đến thế này cũng thương!"},{"nom":"另賒𠓀料尋塘","quocngu":"Lánh xa trước liệu tìm đường,"},{"nom":"等徐渃典𢧚󰟯群圭","quocngu":"Đứng chờ nước đến nên dường còn quê.\\""},{"nom":"固茹娘泊边箕","quocngu":"Có nhà nàng Bạc bên kia,"},{"nom":"庵𩄲涓磊𠫾𧗱油香","quocngu":"Am mây quen lối đi về dầu hương."},{"nom":"𠴍𨖅吲𠳨每塘","quocngu":"Nhắn sang dặn hỏi mọi đường,"},{"nom":"迍茹唉暫朱娘翥蹎","quocngu":"Dọn nhà hãy tạm cho nàng chứa chân,"},{"nom":"仍𢜠特准安身","quocngu":"Những mừng được chốn an thân,"},{"nom":"倍傍󰅹及併𧵆併賒","quocngu":"Vội vàng nào kịp tính gần, tính xa."},{"nom":"󰅹疑拱祖姂𫅷","quocngu":"Nào ngờ cũng tổ bợm già,"},{"nom":"泊󰜏󰄴貝秀󰜏同門","quocngu":"Bạc bà học với Tú bà đồng môn!"},{"nom":"体娘𤁕粉󰕔𣘈","quocngu":"Thấy nàng lạt phấn sàm son,"},{"nom":"𢜠󰠐特𣇜半奔固利","quocngu":"Mừng thầm được buổi bán buôn có lời."},{"nom":"虚空達補𢧚𠳒","quocngu":"Hư không đặt bỏ nên lời,"},{"nom":"娘它𢀲𢜝用淶𡗋畨","quocngu":"Nàng đà lớn sợ, rụng rời lắm phen."},{"nom":"媒強吹𠲝朱連","quocngu":"Mụ càng xui đuổi cho liền,"},{"nom":"𥙩𠳒凶險押緣朱陳","quocngu":"Lấy lời hung hiểm, ép duyên Châu Trần."},{"nom":"浪娘閍埮󰜋身","quocngu":"Rằng: \\"Nàng muôn dặm một thân,"},{"nom":"吏恾𥙩㗂󰀿𧵆𫅜賒","quocngu":"Lại mang lấy tiếng dữ gần, lành xa."},{"nom":"害寃家𧵑破茹","quocngu":"Hại oan gia, của phá gia,"},{"nom":"群埃敢貯𠓨茹女低","quocngu":"Còn ai dám chứa vào nhà nữa đây!"},{"nom":"急算劍准車𦀊","quocngu":"Kíp toan kiếm chốn xe dây,"},{"nom":"空仍渚易麻𠖤塘𡗶","quocngu":"Không dưng chưa dễ mà bay đường trời!"},{"nom":"尼𧵆時𫽄便尼","quocngu":"Nơi gần thì chẳng tiện nơi,"},{"nom":"尼賒時𫽄固𠊛󰅹賒","quocngu":"Nơi xa thì chẳng có người nào xa."},{"nom":"尼払泊倖𡥙茹","quocngu":"Này chàng Bạc Hạnh cháu nhà,"},{"nom":"共𥪞親戚𦛌𦚐𫽄埃","quocngu":"Cũng trong thân thích ruột rà chẳng ai."},{"nom":"󰁮茹奔半州台","quocngu":"Cửa nhà buôn bán Châu Thai,"},{"nom":"寔他固󰜋单差𫽄𪟽","quocngu":"Thật thà có một, đơn sai chẳng ngờ."},{"nom":"世󰅹娘拱沛𦖑","quocngu":"Thế nào nàng cũng phải nghe."},{"nom":"成身耒仕料𧗱州台","quocngu":"Thành thân rồi sẽ liệu về châu Thai."},{"nom":"閉󰅒埃吏別埃","quocngu":"Bấy nay ai lại biết ai,"},{"nom":"油𢚸𣷭𢌌滝𨱽青青","quocngu":"Dầu lòng bể rộng, sông dài thênh thênh."},{"nom":"娘油𫽄决順情","quocngu":"Nàng dù chẳng quyết thuận tình."},{"nom":"債命裊𠓀累命典𡢐","quocngu":"Trái mình nẻo trước, luỵ mình đến sau.\\""},{"nom":"娘強󰘚塢眉咮","quocngu":"Nàng càng mặt ủ mày chau,"},{"nom":"強𦖑媒呐強𤴬如寅","quocngu":"Càng nghe mụ nói càng đau như dần."},{"nom":"𢪀命縱坦仕蹎","quocngu":"Nghĩ mình túng đất sẩy chân,"},{"nom":"世󰠃娘買賒𧵆咀嘆","quocngu":"Thế cùng, nàng mới xa gần thở than:"},{"nom":"妾如昆燕落弹","quocngu":"Thiếp như con én lạc đàn,"},{"nom":"沛弓𣈙㐌𢜝𬅉𣛠弓","quocngu":"Phải cung, rày đã sợ làn mây cong!"},{"nom":"󰠃塘油併𫳘從","quocngu":"Cùng đường dù tính chữ tòng,"},{"nom":"別𠊛別󰘚別𢚸爫牢","quocngu":"Biết người, biết mặt, biết lòng làm sao?"},{"nom":"女欺閍󰜋世󰅹","quocngu":"Nữa khi muôn một thế nào,"},{"nom":"半𤞻奔鬼聀𠓨𦝄󰠲","quocngu":"Bán hùm buôn quỉ chắc vào lưng đâu?"},{"nom":"油埃𢚸固所求","quocngu":"Dù ai lòng có sở cầu,"},{"nom":"心盟吀决貝饒󰜋𠳒","quocngu":"Tâm minh, xin quyết với nhau một lời."},{"nom":"証明固坦固𡗶","quocngu":"Chứng minh có đất có trời,"},{"nom":"閉𣇞󰠇𣷭𦋦𣾺管之","quocngu":"Bấy giờ vượt bể ra khơi quản gì?\\""},{"nom":"特𠳒媒買𦋦𠫾","quocngu":"Được lời mụ mới ra đi,"},{"nom":"𫫗信户泊卽時懺生","quocngu":"Mách tin họ Bạc tức thì sắm sanh."},{"nom":"󰜋茹扽擛令停","quocngu":"Một nhà dọn dẹp linh đình,"},{"nom":"抉𡑝達逴𣳮󰜍烙香","quocngu":"Quét sân, đặt trác, rửa bình, thắp hương."},{"nom":"泊生跪𫴋倍鐄","quocngu":"Bạc sinh quì xuống vội vàng,"},{"nom":"過𠳒吀歇城隍士公","quocngu":"Quá lời xin hết thành hoàng, sĩ công."},{"nom":"󰠈𡑝𢚸㐌待𢚸","quocngu":"Trước sân, lòng đã giãi lòng,"},{"nom":"冲幔爫礼絲紅結緣","quocngu":"Trong màn làm lễ tơ hồng kết duyên."},{"nom":"成親買逴𫴋船","quocngu":"Thành thân mới rước xuống thuyền,"},{"nom":"順󱏹󰜋𦲿吹沔州台","quocngu":"Thuận buồm một lá, xuôi miền Châu Thai."},{"nom":"船皮杜𣷷請台","quocngu":"Thuyền vừa đỗ bến thảnh thơi,"},{"nom":"泊生𫴋畧尋尼𠳨𣈜","quocngu":"Bạc sinh xuống trước tìm nơi hỏi ngày."},{"nom":"共茹行院初󰅒","quocngu":"Cũng nhà hàng viện xưa nay,"},{"nom":"拱坊半𦧘拱𢬣奔𠊛","quocngu":"Cũng phường bán thịt, cũng tay buôn người."},{"nom":"󰏙𠊛定價皮耒","quocngu":"Xem người định giá vừa rồi,"},{"nom":"䋦行󰜋㐌𦋦𨑮時󰇵","quocngu":"Mối hàng một, đã ra mười thì buông."},{"nom":"𠼦𠊛税󰖛逴娘","quocngu":"Mượn người thuê kiệu rước nàng,"},{"nom":"泊󰝡󰘚泊劍塘朱賒","quocngu":"Bạc đem mặt Bạc kiếm đường cho xa!"},{"nom":"󰖛花達𠓀㙴花","quocngu":"Kiệu hoa đặt trước thềm hoa,"},{"nom":"边𥪞体󰜋媒𦋦倍傍","quocngu":"Bên trong thấy một mụ ra vội vàng."},{"nom":"迻娘𠓨𥛉家堂","quocngu":"Đưa nàng vào lạy gia đường,"},{"nom":"共神眉𤽸共坊楼撑","quocngu":"Cũng thần mày trắng, cũng phường lầu xanh!"},{"nom":"脱𬂙娘㐌別情","quocngu":"Thoắt trông nàng đã biết tình,"},{"nom":"𪀄籠坤䋥拮命𠖤高","quocngu":"Chim lồng khôn lẽ cất mình bay cao."},{"nom":"劎朱丐𢼂花桃","quocngu":"Gớm cho cái số hoa đào,"},{"nom":"𫽻𦋦耒吏𫃚𠓨如制","quocngu":"Gỡ ra rồi lại buộc vào như chơi!"},{"nom":"𢪀𠁀麻喭朱𠁀","quocngu":"Nghĩ đời mà ngán cho đời,"},{"nom":"才情之𡗋朱𡗶坦悭","quocngu":"Tài tình chi lắm cho trời đất ghen!"},{"nom":"惜台渃㐌打矾","quocngu":"Tiếc thay nước đã đánh phèn,"},{"nom":"麻朱𡎛吏蓮𨖲買吝","quocngu":"Mà cho bùn lại liên lên mấy lần."},{"nom":"洪鈞貝客紅裙","quocngu":"Hồng quân với khách hồng quần,"},{"nom":"㐌磋旦世群恨渚他","quocngu":"Đã xoay đến thế còn hờn chưa tha."},{"nom":"𣳮自落𨀈𨀈𦋦","quocngu":"Lỡ từ lạc bước, bước ra,"},{"nom":"丐身料仍自茹料𠫾","quocngu":"Cái thân liệu những từ nhà liệu đi."},{"nom":"頭撑㐌罪情之","quocngu":"Đầu xanh đã tội tình gì?"},{"nom":"𦟐紅填過姅時渚催","quocngu":"Má hồng đền quá nửa thì, chưa thôi!"},{"nom":"別身𧼋𫽄塊𡗶","quocngu":"Biết thân chạy chẳng khỏi trời,"},{"nom":"拱料󰘚粉朱耒𣈜撑","quocngu":"Cũng liều mặt phấn, cho rồi ngày xanh."},{"nom":"吝輸󰊄沫𣎀清","quocngu":"Lần thâu gió mát đêm thanh,"},{"nom":"俸󰠳固客边庭旦制","quocngu":"Bỗng đâu có khách biên đình đến chơi."},{"nom":"󰙐𤞻𦛜燕眉𧍋","quocngu":"Râu hầm, hàm én, mày ngài,"},{"nom":"𦠘𠄼𡬷𢌌身𨑮𡱩高","quocngu":"Vai năm tấc rộng, thân mười thước cao."},{"nom":"堂堂󰜋等󰠰豪","quocngu":"Đường đường một đấng anh hào,"},{"nom":"棍拳欣飭畧韜𫡂才","quocngu":"Côn quyền hơn sức, lược thao gồm tài."},{"nom":"隊𡗶踏坦於𠁀","quocngu":"Đội trời, đạp đất ở đời,"},{"nom":"户徐𠸜海本𠊛越東","quocngu":"Họ Từ, tên Hải vốn người Việt Đông."},{"nom":"江湖涓趣浘漨","quocngu":"Giang hồ quen thú vẫy vùng,"},{"nom":"鎌弹姅梗𡽫滝󰜋掉","quocngu":"Gươm đàn nửa gánh, non sông một chèo."},{"nom":"戈制体㗂娘翹","quocngu":"Qua chơi thấy tiếng nàng Kiều,"},{"nom":"𬌓𢚸兒女拱漂󰠰䧺","quocngu":"Tấm lòng nhi nữ cũng xiêu anh hùng."},{"nom":"帖名迻旦楼紅","quocngu":"Thiếp danh đưa đến lầu hồng,"},{"nom":"𠄩边共𥆁𠄩𢚸共於","quocngu":"Hai bên cùng liếc, hai lòng cùng ưa."},{"nom":"徐浪心腹相期","quocngu":"Từ rằng: \\"Tâm phúc tương cờ,"},{"nom":"沛𠊛𦝄󰊄勾爲咍牢","quocngu":"Phải người trăng gió câu vờ hay sao?"},{"nom":"閉𥹰𦖑㗂𦟐桃","quocngu":"Bấy lâu nghe tiếng má đào,"},{"nom":"𬑉撑𫽄底埃𠓨洞空","quocngu":"Mắt xanh chẳng để ai vào động không?"},{"nom":"󰜋𠁀特󰋇󰠰䧺","quocngu":"Một đời được mấy anh hùng,"},{"nom":"補之󰠩𡊱𪀄籠麻制","quocngu":"Bõ chi cá chậu chim lồng mà chơi!\\""},{"nom":"娘浪𠊛𠰺過𠳒","quocngu":"Nàng rằng: \\"Người dạy quá lời,"},{"nom":"身尼群敢󰏙埃爫常","quocngu":"Thân này còn dám xem ai làm thường!"},{"nom":"㤕貞𪮙𥒥此鐄","quocngu":"Xót riêng chọn đá thử vàng,"},{"nom":"別󰠲麻𠳚肝膓𠓨󰠲","quocngu":"Biết đâu mà gửi can tràng vào đâu?"},{"nom":"群如𠓨𠓀𦋦𡢐","quocngu":"Còn như vào trước ra sau,"},{"nom":"埃朱挸𪮙鐄鍮在命","quocngu":"Ai cho kén chọn vàng thau tại mình?\\""},{"nom":"徐浪𠳒呐有情","quocngu":"Từ rằng: \\"Lời nói hữu tình,"},{"nom":"遣𠊛吏𢖵勾平原君","quocngu":"Khiến người lại nhớ câu Bình Nguyên Quân."},{"nom":"吏低󰏙吏朱𧵆","quocngu":"Lại đây xem lại cho gần,"},{"nom":"倣信特󰜋𠄽分咍空","quocngu":"Phỏng tin được một vài phần hay không?\\""},{"nom":"䜹浪量奇包容","quocngu":"Thưa rằng: \\"Lượng cả bao dong,"},{"nom":"晋陽特体𩄲𧍰固畨","quocngu":"Tấn Dương được thấy mây rồng có phen."},{"nom":"𢌌傷𦹵内花𪬡","quocngu":"Rộng thương cỏ nội hoa hèn,"},{"nom":"𡮍身䕯浡敢煩枚𡢐","quocngu":"Chút thân bèo bọt dám phiền mai sau!\\""},{"nom":"𦖑𠳒皮意咭頭","quocngu":"Nghe lời vừa ý, gật đầu,"},{"nom":"唭浪知己𠓀𡢐󰋇𠊛","quocngu":"Cười rằng: \\"Tri kỉ trước sau mấy người?"},{"nom":"𠸦朱𡥵眜精𠁀","quocngu":"Khen cho con mắt tinh đời,"},{"nom":"󰠰䧺𨅸𡧲塵埃買𫅷","quocngu":"Anh hùng đứng giữa trần ai mới già!"},{"nom":"󰜋𠳒㐌別旦些","quocngu":"Một lời đã biết đến ta,"},{"nom":"󰗾鍾𠦳駟拱󰑼固饒","quocngu":"Muôn chung nghìn tứ cũng là có nhau!\\""},{"nom":"𠄩边意合心投","quocngu":"Hai bên ý hợp tâm đầu,"},{"nom":"欺親𫽄路󰑼求買親","quocngu":"Khi thân, chẳng lọ là cầu mới thân!"},{"nom":"吘𠳒呐貝氷大","quocngu":"Ngỏ lời nói với băng đại,"},{"nom":"󰟗𤾓吏據原均照还","quocngu":"[Tiền] trăm lại cứ nguyên quân chiếu hoàn."},{"nom":"房貞所准清閒","quocngu":"Phòng riêng sửa chốn thanh nhàn,"},{"nom":"達床七宝圍幔八仙","quocngu":"Đặt giường thất bảo, vây màn bát tiên."},{"nom":"𤳆󰠰䧺𡛔婵娟","quocngu":"Trai anh hùng, gái thuyền quyên,"},{"nom":"菲願聘鳯惵緣騎𧏵","quocngu":"Phỉ nguyền sánh phượng, đẹp duyên cưỡi rồng."},{"nom":"𡛤𢆥香󰌕登燶","quocngu":"Nửa năm hương lửa đăng nồng,"},{"nom":"丈夫卒㐌動𢚸𦊚方","quocngu":"Trượng phu chợt đã động lòng bốn phương."},{"nom":"𬂙潙𡗶𣷭溟濛","quocngu":"Trông vời trời bể mênh mang,"},{"nom":"青鎌鞍馭𨖲塘𥊢𢫝","quocngu":"Thanh gươm, yên ngựa lên đàng thẳng dong."},{"nom":"娘浪分𡛔𫳘從","quocngu":"Nàng rằng: \\"Phận gái chữ tòng,"},{"nom":"払𠫾妾拱决𢚸吀𠫾","quocngu":"\\"Chàng đi thiếp cũng quyết lòng xin đi\\"."},{"nom":"徐浪心腹相知","quocngu":"Từ rằng: \\"Tâm phúc tương tri,"},{"nom":"牢渚脱塊女兒常情","quocngu":"Sao chưa thoát khỏi nữ nhi thường tình?"},{"nom":"包𣇞𨑮萬精兵","quocngu":"Bao giờ mười vạn tinh binh,"},{"nom":"㗂鉦𠰺坦䏾旌葉塘","quocngu":"Tiếng chiêng dậy đất, bóng tinh rợp đường."},{"nom":"爫朱𤑟󰘚非常","quocngu":"Làm cho rõ mặt phi thường,"},{"nom":"碑𣇞些仕逴娘宜家","quocngu":"Bấy giờ ta sẽ rước nàng nghi gia."},{"nom":"朋󰅒𦊚𣷭空茹","quocngu":"Bằng nay bốn bể không nhà,"},{"nom":"蹺強添伴別󰑼𠫾󰠲","quocngu":"Theo càng thêm bạn biết là đi đâu?"},{"nom":"停𢚸徐妬𠃣𥹰","quocngu":"Đành lòng chờ đó ít lâu,"},{"nom":"迡庒󰑼󰜋𫷜𡢐倍之","quocngu":"Chầy chăng là một năm sau, vội gì!\\""},{"nom":"决𠳒𢴑襖𦋦𠫾","quocngu":"Quyết lời dứt áo ra đi,"},{"nom":"󰊄𩄲平㐌旦󰠍埮𣾺","quocngu":"Gió mây bằng đã đến [kì] dặm khơi."},{"nom":"娘時隻䏾窻梅","quocngu":"Nàng thì chiếc bóng song mai,"},{"nom":"𣎀輸蕩蕩𣈜掑扦𩄲","quocngu":"Đêm thâu đằng đẵng ngày cài then mây."},{"nom":"𡑝𦼔𫽄𡳒𨁪苔","quocngu":"Sân rêu chẳng vẽ dấu đầy,"},{"nom":"𦹵高欣𡱩柳𤷍𢽼分","quocngu":"Cỏ cao hơn thước, liễu gầy vài phân."},{"nom":"兑傷󰠎埮梓枌","quocngu":"Đoái thương muôn dặm tử phần,"},{"nom":"魂圭蹺𦰟𩄲秦賒賒","quocngu":"Hồn quê theo ngọn mây Tần xa xa."},{"nom":"拙台萱扲椿𫅷","quocngu":"Xót thay huyên cầm xuân già,"},{"nom":"𬌓𢚸傷𢖵別󰑼固𢢯","quocngu":"Tấm lòng thương nhớ biết là có nguôi?"},{"nom":"祝󰑼𨑮󰋇𫷜𡗶","quocngu":"Chốc đà mười mấy năm trời,"},{"nom":"群𦋦欺㐌䏧蝟𩯀霜","quocngu":"Còn ra khi đã da mồi tóc sương."},{"nom":"惜台𡮍󰒂󱀄強","quocngu":"Tiếc thay chút nghĩa cũ càng,"},{"nom":"酉离絲意群王絲𢚸","quocngu":"Dầu lìa tơ ý còn vương tơ lòng."},{"nom":"緣㛪油綏絲紅","quocngu":"Duyên em dù nối tơ hồng,"},{"nom":"埋𦋦欺㐌𢬣𢸚𢬣𫼳","quocngu":"May ra khi đã tay bồng tay mang."},{"nom":"𡬷𢚸故囯他鄕","quocngu":"Tấc lòng cố quốc tha hương."},{"nom":"塘箕浽怒滚昂排排","quocngu":"Đường kia nỗi nọ ngổn ngang bời bời."},{"nom":"𦑃鴻𠖤俸絶潙","quocngu":"Cánh hồng bay bổng tuyệt vời,"},{"nom":"㐌𤷱昆𬑉方𡗶󰝡󰝡","quocngu":"Đã mòn con mắt phương trời đăm đăm."},{"nom":"𣎀𣈜隴仍陰󰠐","quocngu":"Đêm ngày luống những âm thầm,"},{"nom":"󰌕兵󰠲㐌喑喑󰜋方","quocngu":"Lửa binh đâu đã ầm ầm một phương."},{"nom":"𡴯𡗶殺氣𢠩恾","quocngu":"Ngất trời sát khí mơ màng,"},{"nom":"𣹓滝鯨鰐秩塘甲兵","quocngu":"Đầy sông kình ngạc, chật đường giáp binh."},{"nom":"𠊛涓几属終觥","quocngu":"Người quen kẻ thuộc chung quanh,"},{"nom":"𫫵娘唉暫另命󰜋尼","quocngu":"Rủ nàng hãy tạm lánh mình một nơi."},{"nom":"娘浪𠓀㐌󱊲𠳒","quocngu":"Nàng rằng: \\"Trước đã hẹn lời,"},{"nom":"酉𥪞危險敢淶約初","quocngu":"Dẫu trong nguy hiểm dám rời ước xưa!\\""},{"nom":"群當用孕謹魚","quocngu":"Còn đang dùng dắng ngẩn ngơ,"},{"nom":"𠃅外㐌体䏾旗㗂𬫤","quocngu":"Mái ngoài đã thấy bóng cờ tiếng la."},{"nom":"甲兵捁且觥茹","quocngu":"Giáp binh kéo đến quanh nhà,"},{"nom":"同声拱㗇󰅹󰑼夫人","quocngu":"Đồng thanh cùng gửi: \\"Nào là phu nhân?\\""},{"nom":"𠄩边𨑮位將軍","quocngu":"Hai bên mười vị tướng quân,"},{"nom":"達鎌𢶒甲𠓀𡑝叩頭","quocngu":"Đặt gươm, cởi giáp, trước sân khấu đầu."},{"nom":"宫娥彩女綏𡢐","quocngu":"Cung nga, thể nữ nối sau,"},{"nom":"浪󰂅令旨逴朝于歸","quocngu":"Rằng: \\"Vâng lệnh chỉ rước chầu vu qui.\\""},{"nom":"産床鳯輦鵉儀","quocngu":"Sẵn sàng phượng liễn loan nghi,"},{"nom":"花𠖤𤎒𤈪霞衣𤑟𤉜","quocngu":"Hoa bay chấp chới, hà y rỡ ràng."},{"nom":"孕旗浽鞁蓮塘","quocngu":"Dựng cờ, nổi trống lên đàng,"},{"nom":"竹絲綏畧桃鐄捁𡢐","quocngu":"Trúc tơ nối trước, đào vàng kéo sau."},{"nom":"火碑前路𨇒毛","quocngu":"Hoả bài tiền lộ ruổi mau,"},{"nom":"南庭𦖑動𤿰朝大营","quocngu":"Nam đình nghe động trống chầu đại doanh."},{"nom":"捁旗壘發銃城","quocngu":"Kéo cờ luỹ, phát súng thành,"},{"nom":"徐公𦋦馭親迎󰠮外","quocngu":"Từ công ra ngựa thân nghênh cửa ngoài."},{"nom":"󰌕命𨔍𨤔巾帶","quocngu":"Rỡ mình lạ vẻ cân đai,"},{"nom":"唉群𦛜燕眉𧍋如初","quocngu":"Hãy còn hàm én mày ngài như xưa."},{"nom":"唭浪󰠩渃緣於","quocngu":"Cười rằng: \\"Cá nước duyên ưa,"},{"nom":"𢖵𠳒呐仍包𣇞咍空","quocngu":"Nhớ lời nói những bao giờ hay không?"},{"nom":"󰠰雄買別󰠰雄","quocngu":"Anh hùng mới biết anh hùng,"},{"nom":"𣈙󰏙倣㐌甘𢚸意渚","quocngu":"Rày xem [phỏng] đã cam lòng ấy chưa!\\""},{"nom":"娘浪𡮍分𬏝䜹","quocngu":"Nàng rằng: \\"Chút phận ngây thơ,"},{"nom":"共枚𦀊葛特𫼰䏾核","quocngu":"Cũng may dây cát được nhờ bóng cây!"},{"nom":"且悲𣇞買体饒","quocngu":"Đến bây giờ mới thấy nhau,"},{"nom":"麻𢚸㐌聀仍𣈜󰜋𠄩","quocngu":"Mà lòng đã chắc những ngày một hai!\\""},{"nom":"共饒𬂙󰘚奇唭","quocngu":"Cùng nhau trông mặt cả cười,"},{"nom":"爛𢬣𧗱准帳枚叙情","quocngu":"Dan tay về chốn trướng mai tự tình."},{"nom":"席排賞將󰍁軍","quocngu":"Tiệc bày thưởng tướng khao quân,"},{"nom":"喑󰝂𤿰陣習情楽軍","quocngu":"Om thòm trống trận, rập rình nhạc quân."},{"nom":"朱花補𣅶風塵","quocngu":"Cho hoa bõ lúc phong trần,"},{"nom":"𫳘情𣈜吏添春󰜋𣈜","quocngu":"Chữ tình ngày lại thêm xuân một ngày."},{"nom":"𥪞軍固𣅶𢝙圍","quocngu":"Trong quân có lúc vui vầy,"},{"nom":"從容買計事𣈜寒微","quocngu":"Thong dong mới kể sự ngày hàn vi:"},{"nom":"欺󰀡錫欺臨淄","quocngu":"Khi Vô Tích, khi Lâm Truy,"},{"nom":"尼時𩢬倒尼時㤕傷","quocngu":"Nơi thì lừa đảo, nơi thì xót thương."},{"nom":"𬌓身𣈙㐌貳󰟯","quocngu":"Tấm thân rày đã nhẹ nhàng,"},{"nom":"𪨃群恩愛堆塘渚衝","quocngu":"Chút còn ân ái đôi đường chưa xong.\\""},{"nom":"徐公𦖑呐始終","quocngu":"Từ công nghe nói thuỷ chung,"},{"nom":"不平浽陣同同𩆐󰠓","quocngu":"Bất bình nổi trận đùng đùng sấm vang."},{"nom":"嚴軍𪮙將産床","quocngu":"Nghiêm quân tuyển tướng sẵn sàng,"},{"nom":"󰡈旗󰜋令倍傍𨇒𬁖","quocngu":"Dưới cờ một lệnh vội vàng ruổi sao."},{"nom":"𠀧軍指𦰟旗桃","quocngu":"Ba quân chỉ ngọn cờ đào,"},{"nom":"道𦋦󰀡錫道𠓨臨淄","quocngu":"Đạo ra Vô Tích, đạo vào Lâm truy."},{"nom":"󰋇𠊛負萡初箕","quocngu":"Mấy người phụ bạc xưa kia."},{"nom":"照名尋𪮙扒𧗱𠳨查","quocngu":"Chiếu danh tầm chọn bắt về hỏi tra."},{"nom":"吏差令箭傳戈","quocngu":"Lại sai lệnh tiễn truyền qua,"},{"nom":"㑏床户束󰜋茹朱安","quocngu":"Giữ giàng họ Thúc một nhà cho yên."},{"nom":"媒宦姐娓󰔼緣","quocngu":"Mụ hoạn thư, vãi Giác Duyên,"},{"nom":"拱差令節󰝡信逴𠶆","quocngu":"Cũng sai lệnh tiễn đem tin rước mời."},{"nom":"誓師計歇每𠳒","quocngu":"Thệ sư kể hết mọi lời,"},{"nom":"𢚸𢚸拱陣𠊛𠊛執威","quocngu":"Lòng lòng cũng giận, người người chấp uy."},{"nom":"道𡗶報復㐱稽","quocngu":"Đạo trời báo phục chỉn ghê,"},{"nom":"窖台󰜋𡎤󰑖𧗱苔尼","quocngu":"Khéo thay một mẻ tóm về đầy nơi."},{"nom":"軍中鎌𢀲槊𨱽","quocngu":"Quân trung gươm lớn giáo dài."},{"nom":"𧗱𥪞侍立奇外双披","quocngu":"Vệ trong thị lập, cơ ngoài song phi,"},{"nom":"産床齊整威儀","quocngu":"Sẵn sàng tề chỉnh uy nghi,"},{"nom":"博銅秩坦旌旗𩄓𡑝","quocngu":"Bác đồng chật đất, tinh kỳ rợp sân."},{"nom":"帳𤞻𨷑𡨌中軍","quocngu":"Trướng hùm mở giữa trung quân,"},{"nom":"徐公聘貝夫人拱𡓮","quocngu":"Từ công sánh với phu nhân cùng ngồi."},{"nom":"先嚴𤿰渚𢴑回","quocngu":"Tiên nghiêm trống chửa dứt hồi"},{"nom":"點名𠓀引直外󰘇轅","quocngu":"Điểm danh trước dẫn chực ngoài cửa viên."},{"nom":"徐浪恩怨𠄩边","quocngu":"Từ rằng: \\"Ân oán hai bên,"},{"nom":"默娘處决報填朱明","quocngu":"Mặc nàng xử quyết báo đền cho minh.\\""},{"nom":"娘浪𢘾𢚁威灵","quocngu":"Nàng rằng: \\"Nhờ cậy uy linh,"},{"nom":"唉吀報答恩情朱孚","quocngu":"Hãy xin báo đáp ân tình cho phu."},{"nom":"報恩耒仕者𫌵","quocngu":"Báo ân rồi sẽ trả thù.\\""},{"nom":"徐浪役𧘇低朱默娘","quocngu":"Từ rằng: \\"Việc ấy để cho mặc nàng.\\""},{"nom":"朱鎌𠶆且束郎","quocngu":"Cho gươm mời đến Thúc lang,"},{"nom":"󰘚如盤覩命羕󰕵懷","quocngu":"Mặt như chàm đổ, mình dường giẽ hoài."},{"nom":"娘浪義重𠦳𡽫","quocngu":"Nàng rằng: \\"Nghĩa nặng nghìn non,"},{"nom":"臨淄𠊛󱀄払群𢖵空","quocngu":"Lâm Truy người cũ chàng còn nhớ không?"},{"nom":"参商𫽄院𫳘從","quocngu":"Sâm Thương chẳng vẹn chữ tòng,"},{"nom":"在埃呵敢負𢚸故人","quocngu":"Tại ai, há dám phụ lòng cố nhân?"},{"nom":"錦𤾓卷泊𠦳斤","quocngu":"Gấm trăm cuốn, bạc nghìn cân,"},{"nom":"謝𢚸易称報恩噲󰑼","quocngu":"Tạ lòng dễ xứng báo ân gọi là."},{"nom":"㛪払鬼怪精魔","quocngu":"Vợ chàng quỷ quái tinh ma,"},{"nom":"畨尼几𠎨󰜏𫅷﨤饒","quocngu":"Phen này kẻ cắp bà già gặp nhau!"},{"nom":"蜆𨁏𠰘󱋓渚𥹰","quocngu":"Kiến bò miệng chén chưa lâu,"},{"nom":"謀溇拱者義溇朱皮","quocngu":"Mưu sâu cũng trả nghĩa sâu cho vừa!\\""},{"nom":"束生𬂙󰘚閉𣇞","quocngu":"Thúc sinh trông mặt bấy giờ,"},{"nom":"蒲灰払㐌如湄𣿌滛","quocngu":"Mồ hôi chàng đã như mưa ướt dầm."},{"nom":"𢚸貞𢜠𢜝坤扲","quocngu":"Lòng riêng mừng sợ khôn cầm,"},{"nom":"𢜝台麻吏𢜠󰠐朱埃","quocngu":"Sợ thay mà lại mừng thầm cho ai!"},{"nom":"媒𫅷師長次𠄩","quocngu":"Mụ già, sư trưởng thứ hai,"},{"nom":"脱迻且畧倍𠶆蓮𨕭","quocngu":"Thoắt đưa đến trước, vội mời lên trên."},{"nom":"𢴑𢬣𨷑󰘚朱𥚆","quocngu":"Dắt tay mở mặt cho nhìn:"},{"nom":"花箕怒貝濯泉共碎","quocngu":"\\"Hoa kia nô với Trạc Tuyền cũng tôi!"},{"nom":"𢖵欺侶𨀈仕潙","quocngu":"Nhớ khi lỡ bước sẩy vời,"},{"nom":"𡽫鐄渚易填倍𬌓傷","quocngu":"Non vàng chưa dễ đền bồi tấm thương."},{"nom":"𠦳鐄噲𡮍礼常","quocngu":"Nghìn vàng gọi chút lễ thường."},{"nom":"麻𢚸漂母󰋇鐄朱斤","quocngu":"Mà lòng Phiếu mẫu mấy vàng cho cân!\\""},{"nom":"𠄩𠊛𬂙󰘚秦銀","quocngu":"Hai người trông mặt tần ngần,"},{"nom":"姅分怯𢜝姅分𢜠𢝙","quocngu":"Nửa phần khiếp sợ, nửa phần mừng vui."},{"nom":"娘浪吀唉󰟱𡓮","quocngu":"Nàng rằng: \\"Xin hãy rốn ngồi,"},{"nom":"󰏙朱𤑟󰘚別碎報𫌵","quocngu":"Xem cho rõ mặt, biết tôi báo thù!\\""},{"nom":"急傳諸將献俘","quocngu":"Kíp truyền chư tướng hiến phù."},{"nom":"吏󰝡各跡犯徒侯查","quocngu":"Lại đem các tích phạm đồ hậu tra."},{"nom":"𠁑旗鎌捽匣𦋦","quocngu":"Dưới cờ gươm tuốt nắp ra,"},{"nom":"正名首犯𠸜󰑼宦姐","quocngu":"Chính danh thủ phạm tên là Hoạn thư!"},{"nom":"脱𬂙娘㐌嘲䜹","quocngu":"Thoắt trông nàng đã chào thưa:"},{"nom":"小姐拱固碑𣇞旦尼","quocngu":"\\"Tiểu thư cũng có bây giờ đến nơi!\\""},{"nom":"弹󰜏易固󰋇𢬣","quocngu":"Đàn bà dễ có mấy tay,"},{"nom":"𠁀初󰋇󰘚𠁀尼󰋇肝","quocngu":"Đời xưa mấy mặt, đời này mấy gan!"},{"nom":"易揚󰑼𫗁紅顔","quocngu":"Dễ dàng là thói hồng nhan,"},{"nom":"彊荄󰠘𡗋彊寃債𡗉","quocngu":"Càng cay nghiệt lắm, càng oan trái nhiều!\\""},{"nom":"宦姐魂落魄漂","quocngu":"Hoạn Thư hồn lạc phách xiêu,"},{"nom":"叩頭𠁑帳󰇾調呌󰞻","quocngu":"Khấu đầu dưới trướng giở điều kêu ca."},{"nom":"浪碎拙胣弹󰜏","quocngu":"Rằng: \\"Tôi chút dạ đàn bà,"},{"nom":"悭𡀢時拱𠊛些常情","quocngu":"Ghen tuông thì cũng người ta thường tình."},{"nom":"𢪀朱欺閣曰經","quocngu":"Nghĩ cho khi gác viết kinh,"},{"nom":"貝欺塊𬮌𢴑情𫽄蹺","quocngu":"Với khi khỏi cửa dứt tình chẳng theo."},{"nom":"𢚸貞貞拱敬腰","quocngu":"Lòng riêng, riêng cũng kính yêu,"},{"nom":"𫯳終渚易埃朝朱埃","quocngu":"Chồng chung chưa dễ ai chiều cho ai!"},{"nom":"律𢚸𨠳役柊𣘃","quocngu":"Trót lòng gây việc chông gai,"},{"nom":"群𢘾量𣷭傷排󰅹庄","quocngu":"Còn nhờ lượng bể thương bài nào chăng!\\""},{"nom":"𠸦朱寔㐌𢧚浪","quocngu":"Khen cho: \\"Thật đã nên rằng,"},{"nom":"坤頑旦默呐能沛𠳒","quocngu":"Khôn ngoan đến mực, nói năng phải lời,"},{"nom":"他𦋦時拱埋𠁀","quocngu":"Tha ra thì cũng may đời,"},{"nom":"爫𦋦時拱𦋦𠊛𡮈然","quocngu":"Làm ra thì cũng ra người nhỏ nhen."},{"nom":"㐌𢚸知過時𢧚","quocngu":"Đã lòng tri quá thời nên!\\""},{"nom":"傳軍令𬕹帳前他𣦍","quocngu":"Truyền quân lệnh xuống trướng tiền tha ngay."},{"nom":"謝𢚸𥛉畧𡑝𩄲","quocngu":"Tạ lòng lạy trước sân mây,"},{"nom":"󰠮軒吏𢴑󰜋𦀊引𠓨","quocngu":"Cửa hiên lại dắt một dây dẫn vào."},{"nom":"娘浪󰠚󰠚𡗶高","quocngu":"Nàng rằng: \\"Lồng lộng trời cao,"},{"nom":"害人人害事󰅹在些","quocngu":"Hại nhân, nhân hại, sự nào tại ta?"},{"nom":"畧󰑼泊倖泊󰜏","quocngu":"Trước là Bạc Hạnh, Bạc bà,"},{"nom":"边󰑼鵉犬边󰑼楚卿","quocngu":"Bên là Ưng, Khuyển, bên là Sở Khanh."},{"nom":"秀󰜏貝馬监生","quocngu":"Tú bà với Mã Giám sinh,"},{"nom":"各𠸜罪󰀎登情群牢","quocngu":"Các tên tội ấy đăng tình còn sao?\\""},{"nom":"令󰄹傳𫴋内刀","quocngu":"Lệnh quân truyền xuống nội đao,"},{"nom":"誓牢時吏據牢加刑","quocngu":"Thề sao thì lại cứ sao gia hình."},{"nom":"𧖱淶𦧘󰞺散情","quocngu":"Máu rơi thịt nát tan tành,"},{"nom":"埃埃𬂙体魂󰟹魄淶","quocngu":"Ai ai trông thấy hồn kinh phách rời."},{"nom":"朱咍󰗾事在𡗶","quocngu":"Cho hay muôn sự tại trời,"},{"nom":"負𠊛𫽄補欺𠊛負些","quocngu":"Phụ người chẳng bõ khi người phụ ta!"},{"nom":"󰋇𠊛泊惡精麻","quocngu":"Mấy người bạc ác tinh ma,"},{"nom":"命爫命𠹾呌麻埃傷","quocngu":"Mình làm mình chịu kêu mà ai thương!"},{"nom":"𠀧軍冬󰘚法場","quocngu":"Ba quân đông mặt pháp trường."},{"nom":"青天白日𤑟𤉜朱𥋳","quocngu":"Thanh thiên bạch nhật rõ ràng cho coi."},{"nom":"役娘報復皮耒","quocngu":"Việc nàng báo phục vừa rồi,"},{"nom":"󰔼緣倍㐌𠳚𠳒辞󰆕","quocngu":"Giác Duyên vội vã gởi lời từ qui."},{"nom":"娘浪千載一時","quocngu":"Nàng rằng: \\"Thiên tải nhất thì,"},{"nom":"故人㐌易󰋇欺盘桓","quocngu":"Cố nhân đã dễ mấy khi bàn hoàn."},{"nom":"耒低䕯合迷散","quocngu":"Rồi đây bèo hợp mây tan,"},{"nom":"別󰠲䳽内𩄲岸󰑼󰠲","quocngu":"Biết đâu hạc nội, mây ngàn là đâu?\\""},{"nom":"師浪拱𫽄󰋇𥹰","quocngu":"Sư rằng: \\"Cũng chẳng mấy lâu,"},{"nom":"冲𠄼𢆥吏﨤饒妬麻","quocngu":"Trong năm năm lại gặp nhau đó mà."},{"nom":"𢖵𣈜行脚方賒","quocngu":"Nhớ ngày hành cước phương xa,"},{"nom":"報師三合本󰑼先知","quocngu":"Báo sư Tam Hợp vốn là tiên tri."},{"nom":"保朱會合之期","quocngu":"Bảo cho hội hợp chi kỳ,"},{"nom":"𢆥󰅒󰑼󰜋女時𠄼𢆥","quocngu":"Năm nay là một, nữa thì năm năm."},{"nom":"買咍前定𫽄啉","quocngu":"Mới hay tiền định chẳng lầm,"},{"nom":"㐌信調𠓀乙𥄮調𡢐","quocngu":"Đã tin điều trước, ắt nhằm điều sau."},{"nom":"群𡗉恩爱貝饒","quocngu":"Còn nhiều ân ái với nhau,"},{"nom":"機緣󰅹㐌歇󰠲倍之","quocngu":"Cơ duyên nào đã hết đâu, vội gì?\\""},{"nom":"娘浪前定先知","quocngu":"Nàng rằng: \\"Tiền định tiên tri,"},{"nom":"𠳒師㐌𠰺乙時𫽄差","quocngu":"Lời sư đã dạy ắt thì chẳng sai."},{"nom":"和包𣇞固﨤𠊛","quocngu":"Hoạ bao giờ có gặp người,"},{"nom":"爲碎𢚁𠳨󰜋𠳒終身","quocngu":"Vì tôi cậy hỏi một lời chung thân.\\""},{"nom":"󰔼緣󰂅吲慇懃","quocngu":"Giác Duyên vâng dặn ân cần,"},{"nom":"謝辞脱㐌移雖𡎝外","quocngu":"Tạ từ thoắt đã dời tuy cõi ngoài."},{"nom":"娘浪恩怨𫾐𢬗","quocngu":"Nàng rằng ân oán rạch ròi,"},{"nom":"𣷭寃󰟯㐌潙潙競𢚸","quocngu":"Bể oan dường đã vơi vơi cạnh lòng."},{"nom":"謝恩𥛉畧徐公","quocngu":"Tạ ân lạy trước Từ công:"},{"nom":"拙身蒲柳麻蒙固𣈙","quocngu":"[Chút] thân bồ liễu mà mong có rày!"},{"nom":"濫洳𩆷𬰓𦋦𢬣","quocngu":"Trộm nhờ sấm sét ra tay,"},{"nom":"𡬷貞如拮挭苔覩𠫾","quocngu":"Tấc riêng như cất gánh đầy đổ đi."},{"nom":"󰞺昌劄胣掣之","quocngu":"Nét xương ghi dạ xiết chi,"},{"nom":"易󰝡肝𧎜填󰀩𡗶撑","quocngu":"Dễ đem gan ốc đền nghì trời xanh.\\""},{"nom":"徐浪国士初󰅒","quocngu":"Từ rằng: \\"Quốc sĩ xưa nay,"},{"nom":"𪮙𠊛知己󰜋𣈜特庄","quocngu":"Chọn người tri kỷ một ngày được chăng?"},{"nom":"󰠰雄㗂㐌噲浪","quocngu":"Anh hùng tiếng đã gọi rằng,"},{"nom":"𡧲塘酉体不平麻他","quocngu":"Giữa đường dẫu thấy bất bằng mà tha!"},{"nom":"况之役拱役茹","quocngu":"Huống chi việc cũng việc nhà,"},{"nom":"路󰑼深謝買󰑼知恩","quocngu":"Lọ là thâm tạ mới là tri ân."},{"nom":"㤕娘群拙双親","quocngu":"Xót nàng còn chút song thân,"},{"nom":"閉󰅒几越𠊛秦隔賒","quocngu":"Bấy nay kẻ Việt, người Tần cách xa."},{"nom":"牢朱󰗾琰󰜋茹","quocngu":"Sao cho muôn dặm một nhà,"},{"nom":"朱𠊛体󰘚󰑼些甘𢚸","quocngu":"Cho người thấy mặt là ta cam lòng.\\""},{"nom":"倍傳所席軍中","quocngu":"Vội truyền sửa tiệc quân trung,"},{"nom":"󰗾兵𠦳將會同洗寃","quocngu":"Muôn binh nghìn tướng hội đồng tẩy oan."},{"nom":"乘機竹扯塊散","quocngu":"Thừa cơ trúc chẻ khối tan,"},{"nom":"兵威自󰀎𩆷灡冲外","quocngu":"Binh uy từ ấy sấm ran trong ngoài."},{"nom":"朝廷貞󰜋谷𡗶","quocngu":"Triều đình riêng một góc trời"},{"nom":"𫡂𠄩文武𫼢堆山河","quocngu":"Gồm hai văn võ, rạch đôi sơn hà."},{"nom":"隊干󰊄𢭯湄沙","quocngu":"Đòi cơn gió quét mưa sa,"},{"nom":"縣城踏覩𠄼座𡎝南","quocngu":"Huyện thành đạp đổ năm toà cõi nam."},{"nom":"風塵󰠜󰜋𥚇鎌","quocngu":"Phong trần mài một lưỡi gươm,"},{"nom":"仍類䏧襖襊粓詫之","quocngu":"Những loài da áo túi cơm sá gì!"},{"nom":"迎昂󰜋𡎝边陲","quocngu":"Nghênh ngang một cõi biên thuỳ,"},{"nom":"少之孤寡少之𬡹王","quocngu":"Thiếu gì cô quả, thiếu gì bá vương."},{"nom":"𠓀旗埃敢争強","quocngu":"Trước cờ ai dám tranh cường,"},{"nom":"𠄼𢆥雄據󰜋方海瀕","quocngu":"Năm năm hùng cứ một phương hải tần."},{"nom":"固宜總督重臣","quocngu":"Có nghi tổng đốc trọng thần,"},{"nom":"󰑼胡宗憲經綸𠁟才","quocngu":"Là Hồ Tôn Hiến, kinh luân gồm tài."},{"nom":"𢩽車󰂅旨特差","quocngu":"Dẩy xe vâng chỉ đặc sai,"},{"nom":"便宜八勦役外董戎","quocngu":"Tiện nghi bát tiễu, việc ngoài đổng nhung."},{"nom":"別徐󰑼等󰠰雄","quocngu":"Biết Từ là đấng anh hùng,"},{"nom":"別娘拱預軍中論盘","quocngu":"Biết nàng cũng dự quân trung luận bàn."},{"nom":"㨂軍爫斫招安","quocngu":"Đóng quân, làm chước chiêu an,"},{"nom":"玉鐄錦纀差官説降","quocngu":"Ngọc vàng gấm vóc sai quan thuyết hàng."},{"nom":"吏貞󰜋礼貝娘","quocngu":"Lại riêng một lễ với nàng,"},{"nom":"𠄩𠸜彩女玉鐄𠦳斤","quocngu":"Hai tên thể nữ, ngọc vàng nghìn cân."},{"nom":"信𠓨𠳚畧軍中","quocngu":"Tin vào gửi trước quân trung,"},{"nom":"徐公貞唉𨑮分糊塗","quocngu":"Từ công riêng hãy mười phân hồ đồ."},{"nom":"󰜋𢬣𨠳孕基圖","quocngu":"Một tay gây dựng cơ đồ,"},{"nom":"閉𥹰彼楚滝吳縱横","quocngu":"Bấy lâu bể Sở, sông Ngô tung hoành!"},{"nom":"抪身𧗱貝朝廷","quocngu":"Bó thân về với triều đình,"},{"nom":"降臣愚老分命𦋦󰠲","quocngu":"Hàng thần ngu láo, phận mình ra đâu?"},{"nom":"襖襜纀繓𥙩饒","quocngu":"Áo xiêm buộc trói lấy nhau,"},{"nom":"𠓨𠍓𦋦儈公侯麻之","quocngu":"Vào luồn ra cúi công hầu mà chi?"},{"nom":"牢朋貞󰜋边陲","quocngu":"Sao bằng riêng một biên thuỳ,"},{"nom":"飭尼㐌易爫之特饒","quocngu":"Sức này đã dễ làm gì được nhau?"},{"nom":"濁𡗶潰渃默油","quocngu":"Chọc trời quấy nước mặc dầu,"},{"nom":"育昂󰅹別𨕭頭固埃","quocngu":"Dọc ngang nào biết trên đầu có ai?"},{"nom":"娘時寔胣信𠊛","quocngu":"Nàng thì thật dạ tin người,"},{"nom":"共饒呐𠮾𦖑𠳒易漂","quocngu":"Cũng nhiều, nói ngọt nghe lời dễ xiêu."},{"nom":"𢪀命𩈘渃𦑃䕯","quocngu":"Nghĩ mình mặt nước cánh bèo,"},{"nom":"㐌𬲢流落吏𡗉󰠡屯","quocngu":"Đã nhiều lưu lạc lại nhiều gian truân."},{"nom":"平󰅒𠹾㗂王臣","quocngu":"Bằng nay chịu tiếng vương thần."},{"nom":"青青塘丐青雲狹之","quocngu":"Thênh thênh đường cái thanh vân hẹp gì!"},{"nom":"公私院奇𠄩皮","quocngu":"Công tư vẹn cả hai bề,"},{"nom":"寅迦耒仕料𧗱故鄕","quocngu":"Dần dà rồi sẽ liệu về cố hương."},{"nom":"拱𡾵命婦堂拱","quocngu":"Cũng ngôi mệnh phụ đường đường,"},{"nom":"𦬑囊眉󰘚𤑟𤉜媄吒","quocngu":"Nở nang mày mặt, rỡ ràng mẹ cha."},{"nom":"𨕭爲渃𠁑爲茹","quocngu":"Trên vì nước, dưới vì nhà,"},{"nom":"󰜋󰑼得孝𠄩󰑼得忠","quocngu":"Một là đắc hiếu, hai là đắc trung."},{"nom":"𫽄欣隻栢𡧲𣳔","quocngu":"Chẳng hơn chiếc bách giữa dòng,"},{"nom":"𠲖提㳥󰊄駭雄𦹵花","quocngu":"E dè sóng gió, hãi hùng cỏ hoa."},{"nom":"因欺盘萡𧵆賒","quocngu":"Nhân khi bàn bạc gần xa,"},{"nom":"乘機娘買盘𦋦呐𠓨","quocngu":"Thừa cơ, nàng mới bàn ra nói vào."},{"nom":"浪冲聖帝𣼭󰠢","quocngu":"Rằng: \\"Trong Thánh đế dồi dào,"},{"nom":"洒𦋦㐌泣渗𠓨㐌溇","quocngu":"Tưới ra đã khắp, thấm vào đã sâu."},{"nom":"平成功德閉𥹰","quocngu":"Bình thành công đức bấy lâu,"},{"nom":"埃埃拱隊𨕭頭別包","quocngu":"Ai ai cũng đội trên đầu biết bao."},{"nom":"𡄎自𧻭󰟳兵刀","quocngu":"Ngẫm từ gây việc binh đao,"},{"nom":"埬昌無定㐌高平頭","quocngu":"Đống xương Vô Định đã cao bằng đầu."},{"nom":"爫之底㗂𧗱𡢐","quocngu":"Làm chi để tiếng về sau,"},{"nom":"𠦳𫷜埃固𠸦󰠲黄巢","quocngu":"Nghìn năm ai có khen đâu Hoàng Sào!"},{"nom":"牢朋祿重權高","quocngu":"Sao bằng lộc trọng quyền cao,"},{"nom":"功名埃𢴑𨇒󰅹朱戈","quocngu":"Công danh ai dứt lối nào cho qua?\\""},{"nom":"𦖑𠳒娘呐漫𣻕","quocngu":"Nghe lời nàng nói mặn mà,"},{"nom":"世功徐買阻𦋦世降","quocngu":"Thế công, Từ mới trở ra thế hàng."},{"nom":"整󰀩接使倍傍","quocngu":"Chỉnh nghi tiếp sứ vội vàng,"},{"nom":"限期束用决塘解兵","quocngu":"Hẹn kỳ thúc dụng, quyết đường giải binh."},{"nom":"信𠳒城下要盟","quocngu":"Tin lời thành hạ yêu minh,"},{"nom":"𦰟旗魚咢𤿰更雉長","quocngu":"Ngọn cờ ngơ ngác, trống canh trễ tràng."},{"nom":"役兵補𫽄𡨹𢭩","quocngu":"Việc binh bỏ chẳng giữ giàng,"},{"nom":"王師𥉰㐌訴詳寔虚","quocngu":"Vương sư dòm đã tỏ tường thực hư."},{"nom":"胡公决計乘机","quocngu":"Hồ công quyết kế thừa cơ,"},{"nom":"礼先兵後刻期裏政","quocngu":"Lễ tiên, binh hậu, khắc cờ lý chính."},{"nom":"捁旗招撫󰝡鋒","quocngu":"Kéo cờ chiêu phủ đem phong,"},{"nom":"礼儀𢺤畧搏銅伏𡢐","quocngu":"Lễ nghi dàn trước, bác đồng phục sau."},{"nom":"徐公哬頭別󰠲","quocngu":"Từ công hờ đầu biết đâu?"},{"nom":"大官礼服𦋦頭擧轅","quocngu":"Đại quan lễ phục ra đầu cửa viên."},{"nom":"胡公暗號陣前","quocngu":"Hồ công ám hiệu trận tiền,"},{"nom":"𠀧皮發銃𦊚边捁旗","quocngu":"Ba bề phát súng, bốn bên kéo cờ."},{"nom":"當欺不意𫽄𪟽","quocngu":"Đang khi bất ý chẳng ngờ,"},{"nom":"𤞻𤍌欺㐌沙機拱𪬡","quocngu":"Hùm thiêng khi đã sa cơ cũng hèn!"},{"nom":"死生料𡧲陣前","quocngu":"Tử sinh liều giữa trận tiền,"},{"nom":"惮苔朱別用連將軍","quocngu":"Dạn dày cho biết dụng liền tướng quân!"},{"nom":"氣𤍌欺㐌𧗱臣","quocngu":"Khí thiêng khi đã về thần,"},{"nom":"然然群𨅸墫蹎𠓨𥿺","quocngu":"Nhơn nhơn còn đứng chôn chân vào vòng!"},{"nom":"猪如𥒥凭如銅","quocngu":"Trơ như đá, vững như đồng,"},{"nom":"埃𢯦朱轉埃𢫝𫽄移","quocngu":"Ai lay cho chuyển, ai rung chẳng rời."},{"nom":"官󰄹追殺󱁲𨱽","quocngu":"Quan quân truy sát đuổi dài,"},{"nom":"喑喑殺氣𩁶𡗶埃當","quocngu":"ầm ầm sát khí, ngất trời ai đang!"},{"nom":"冲濠外壘散塃","quocngu":"Trong hào, ngoài luỹ tan hoang,"},{"nom":"乱軍皮𢴑𢬣娘典尼","quocngu":"Loạn quân vừa dắt tay nàng đến nơi."},{"nom":"冲𨦩𠸜𥒥排排","quocngu":"Trong vòng tên đá bời bời,"},{"nom":"体徐群𥪸𡨌𡗶猪猪","quocngu":"Thấy Từ còn đứng giữa trời trơ trơ."},{"nom":"哭浪智勇固乘","quocngu":"Khóc rằng: \\"Trí dũng có thừa,"},{"nom":"𪽝𦖑𠳒妾妟机會尼","quocngu":"Bởi nghe lời thiếp [nên] cơ hội này."},{"nom":"󰘚󰅹𬖉体饒低","quocngu":"Mặt nào trông thấy nhau đây?"},{"nom":"他料𤯩𣨰󰜋𣈜貝饒","quocngu":"Thà liều sống thác một ngày với nhau!\\""},{"nom":"𣳔秋如𣾶干愁","quocngu":"Dòng thu như giội cơn sầu,"},{"nom":"𢴑𠳒娘拱招頭󰜋边","quocngu":"Dứt lời nàng cũng gieo đầu một bên."},{"nom":"𨔍台寃氣相纏","quocngu":"Lạ thay oan khí tương triền!"},{"nom":"娘皮伏下徐連我𦋦","quocngu":"Nàng vừa phục hạ Từ liền ngã ra."},{"nom":"官軍几吏𠊛戈","quocngu":"Quan quân kẻ lại người qua,"},{"nom":"㤕娘仕吏或𦋦寅寅","quocngu":"Xót nàng sẽ lại vực ra dần dần."},{"nom":"引𠓨旦畧中宇","quocngu":"Dẫn vào đến trước trung vũ,"},{"nom":"胡公体󰘚殷勤𠳨𠻃","quocngu":"Hồ công thấy mặt ân cần hỏi han."},{"nom":"浪娘𡭧分𥿁顔","quocngu":"Rằng: \\"Nàng chút phận vướng nhan,"},{"nom":"﨤干兵革𡗉󰜊拱傷","quocngu":"Gặp cơn binh cách nhiều nàn cũng thương!"},{"nom":"㐌咍城算庙堂","quocngu":"Đã hay thành toán miếu đường,"},{"nom":"執功拱固𠳒娘買𢧚","quocngu":"Giúp công cũng có lời nàng mới nên."},{"nom":"悲𣇞事㐌萬全","quocngu":"Bây giờ sự đã vạn tuyền,"},{"nom":"默𢚸𢪀𥙩悶吀皮󰅹","quocngu":"Mặc lòng nghĩ lấy, muốn xin bề nào?\\""},{"nom":"娘強悴玉𣻆󰠢","quocngu":"Nàng càng tủi ngọc tuôn dào,"},{"nom":"汲󰋈買𠳚湿高事𢚸","quocngu":"Ngập ngừng mới gửi thấp cao sự lòng."},{"nom":"浪徐󰑼等󰠰雄","quocngu":"Rằng: \\"Từ là đấng anh hùng,"},{"nom":"育昂𡗶𢌌浘逢𣷭𣾺","quocngu":"Dọc ngang trời rộng, vẫy phùng bể khơi!"},{"nom":"信碎𢧚過𦖑𠳒","quocngu":"Tin tôi nên quá nghe lời,"},{"nom":"迻身百戰爫碎朝廷","quocngu":"Đưa thân bách chiến làm tôi triều đình."},{"nom":"語󰑼夫貴婦荣","quocngu":"Ngỡ là phu quí, phụ vinh,"},{"nom":"埃𪟽󰜋丿散情𦧘昌","quocngu":"Ai ngờ một phút tan tành thịt xương!"},{"nom":"𠄼𫷜𡗶𣷭昂藏","quocngu":"Năm năm trời bể ngang tàng."},{"nom":"𢪉命𠫾補戰場如空","quocngu":"Dấn mình đi bỏ chiến trường như không."},{"nom":"窖勸計𥙩爫功","quocngu":"Khéo khuyên kể lấy làm công,"},{"nom":"計包饒吏𤴬𢚸閉饒","quocngu":"Kể bao nhiêu lại đau lòng bấy nhiêu!"},{"nom":"察命功𠃣罪𡗉","quocngu":"Xét mình công ít tội nhiều,"},{"nom":"𤯩乘碎㐌𢧚料命碎","quocngu":"Sống thừa, tôi đã nên liều mình tôi."},{"nom":"吀朱󰟼士󰜋堆","quocngu":"Xin cho tiện sĩ một doi,"},{"nom":"噲󰑼答底𥙩𠊛死生","quocngu":"Gọi là đắp để lấy người tử sinh!\\""},{"nom":"胡公𦖑呐傷情","quocngu":"Hồ công nghe nói thương tình,"},{"nom":"傳朱藁葬遺形边滝","quocngu":"Truyền cho cảo táng di hình bên sông."},{"nom":"冲軍𨷑席賀功","quocngu":"Trong quân mở tiệc hạ công,"},{"nom":"㖔𡁞絲竹會同軍官","quocngu":"Xôn xao tơ trúc, hội đồng quân quan."},{"nom":"扒娘侍宴𠁑幔","quocngu":"Bắt nàng thị yến dưới màn,"},{"nom":"󰇾醝吏押紊弹日奏","quocngu":"Dở say lại ép vặn đàn nhặt tâu."},{"nom":"󰜋宮󰊄悴湄愁","quocngu":"Một cung gió tủi mưa sầu,"},{"nom":"𦊚宮恥𧖱𠄼頭𦰟𢬣","quocngu":"Bốn cung rỉ máu năm đầu ngón tay."},{"nom":"蟡吟猿唿󰅹󰟴","quocngu":"Ve ngâm vượn hót nào tày,"},{"nom":"律𦖻胡拱𤶑眉淶珠","quocngu":"Lọt tai, Hồ cũng nhăn mày rơi châu."},{"nom":"𠳨浪尼曲於󰠲","quocngu":"Hỏi rằng: \\"Này khúc ở đâu?"},{"nom":"𦖑𦋦󰗾怨𠦳愁𡗋台","quocngu":"Nghe ra muôn oán nghìn sầu lắm thay!\\""},{"nom":"䜹浪萡分曲尼","quocngu":"Thưa rằng: \\"Bạc phận khúc này,"},{"nom":"譜𠓨弹󰀎仍𣈜群󰡉","quocngu":"Phổ vào đàn ấy những ngày còn thơ."},{"nom":"宮琹捛仍𣈜初","quocngu":"Cung cầm lựa những ngày xưa."},{"nom":"麻𦎛萡命悲𣇞󰑼低","quocngu":"Mà gương bạc mệnh bây giờ là đây!\\""},{"nom":"𦖑強󰇮󰇮強醝","quocngu":"Nghe càng đắm, đắm càng say,"},{"nom":"𨔍朱󰘚𨫊拱𬏝爲情","quocngu":"Lạ cho mặt sắt cũng ngây vì tình!"},{"nom":"𠰺浪香火𠀧圭","quocngu":"Dạy rằng: \\"Hương hỏa ba quê."},{"nom":"𦀊鵉吀綏琹冷朱埃","quocngu":"Dây loan xin nối cầm lành cho ai.\\""},{"nom":"䜹浪𡭧分落類","quocngu":"Thưa rằng: \\"Chút phận lạc loài."},{"nom":"𥪞𠇮𢪀㐌固𠊛𣨰寃","quocngu":"Trong mình nghĩ đã có người thác oan."},{"nom":"群之女𦑃花残","quocngu":"Còn chi nữa cánh hoa tàn,"},{"nom":"絲𢚸㐌𢴑𦀊弹小憐","quocngu":"Tơ lòng đã dứt dây đàn Tiểu Lân."},{"nom":"𢌌傷群𤗖紅裙","quocngu":"Rộng thương còn mảnh hồng quần,"},{"nom":"唏残特体㭲粉󰑼󰡊","quocngu":"Hơi tàn được thấy gốc phần là may!\\""},{"nom":"賀功𡃹㐌過醝","quocngu":"Hạ công chén đã quá say,"},{"nom":"胡功旦𣅶𬋌𣈜𢖵𦋦","quocngu":"Hồ công đến lúc rạng ngày nhớ ra."},{"nom":"𢪀命方靣国家","quocngu":"Nghĩ mình phương diện quốc gia,"},{"nom":"官𨕭𥄮𫴋𠊛些𬖉𠓨","quocngu":"Quan trên nhắm xuống, người ta trông vào."},{"nom":"沛從𦝄󰊄咍牢","quocngu":"Phải tuồng trăng gió hay sao?"},{"nom":"事尼別併世󰅹特假","quocngu":"Sự này, biết tính thế nào được đây?"},{"nom":"早衙皮𣇜𠓇𣈜","quocngu":"Tảo nha vừa buổi rạng ngày,"},{"nom":"决情公買󰠣𣦍󰜋排","quocngu":"Quyết tình công mới đoán ngay một bài."},{"nom":"令官埃敢󰠤𠳒","quocngu":"Lệnh quan ai dám cãi lời,"},{"nom":"押情買擀朱𠊛士官","quocngu":"Ép tình mới gán cho người sĩ quan."},{"nom":"翁絲寔𠰚多端","quocngu":"Ông tơ thực nhé đa đoan!"},{"nom":"車絲牢窖撝乾撝吀","quocngu":"Xe tơ sao khéo vơ càn vơ xiên."},{"nom":"󰖛花押𥊢𫴋船","quocngu":"Kiệu hoa áp thẳng xuống thuyền,"},{"nom":"𦲿幔𢷀隰𦰟畑挑高","quocngu":"Lá màn rủ thấp, ngọn đèn khêu cao."},{"nom":"娘強塢柳派桃","quocngu":"Nàng càng ủ liễu phai đào,"},{"nom":"𤾓分󰅹固分󰅹分鮮","quocngu":"Trăm phần nào có phần nào phần tươi?"},{"nom":"仃身吉垃㳥𡏧","quocngu":"Đành thân cát lấp sóng vùi,"},{"nom":"刼功吒媄舌𠁀聰明","quocngu":"Cướp công cha mẹ thiệt đời thông minh."},{"nom":"蹎𡗶󰘚彼泠汀","quocngu":"Chân trời mặt biển lênh đênh,"},{"nom":"捻昌別𢭮死生准󰅹","quocngu":"Nắm xương biết gửi tử sinh chốn nào?"},{"nom":"緣󰠲埃󰠥絲桃","quocngu":"Duyên đâu ai dứt tơ đào,"},{"nom":"女󰠲埃㐌𢴑𠓨羡𢬣","quocngu":"Nợ đâu ai đã dắt vào tận tay!"},{"nom":"身牢身旦世尼","quocngu":"Thân sao thân đến thế này,"},{"nom":"群𣈜󰅹拱餘𣈜󰀎催","quocngu":"Còn ngày nào cũng dư ngày ấy thôi!"},{"nom":"㐌空別𤯩󰑼𫽗","quocngu":"Đã không biết sống là vui,"},{"nom":"𬌓身󰅹別舌耒󰑼傷","quocngu":"Tấm thân nào biết thiệt thòi là thương!"},{"nom":"󰜋命荄䔲𤾓塘","quocngu":"Một mình cay đắng trăm đường,"},{"nom":"催時󰞺玉散鐄時催","quocngu":"Thôi thì nát ngọc tan vàng thì thôi!"},{"nom":"𤗖𦝄㐌挌𡽫兑","quocngu":"Mảnh trăng đã gác non đoài,"},{"nom":"󰜋命隴仍𨅸𡎢渚衝","quocngu":"Một mình luống những đứng ngồi chưa xong."},{"nom":"潮󰠲浽㗂同同","quocngu":"Triều đâu nổi tiếng đùng đùng,"},{"nom":"𠳨𦋦買別浪滝前塘","quocngu":"Hỏi ra mới biết rằng sông Tiền Đường,"},{"nom":"𢖵𠳒神夢𤑟𤉜","quocngu":"Nhớ lời thần mộng rõ ràng,"},{"nom":"尼催歇刼断膓󰑼低","quocngu":"Này thôi hết kiếp đoạn tràng là đây!"},{"nom":"淡仙娘𠰚固咍","quocngu":"Đạm Tiên nàng nhé có hay!"},{"nom":"限些時待𠁑尼逴些","quocngu":"Hẹn ta thì đợi dưới này rước ta.\\""},{"nom":"𠁑畑産幅箋花","quocngu":"Dưới đèn sẵn bức tiên hoa,"},{"nom":"󰜋篇絶筆噲󰑼底𡢐","quocngu":"Một thiên tuyệt bút gọi là để sau."},{"nom":"󰁮房倍𨷑簾珠","quocngu":"Cửa phòng vội mở rèm châu,"},{"nom":"𡗶高𣷭𢌌󰜋牟包󰑼","quocngu":"Trời cao bể rộng một màu bao la."},{"nom":"徐浪公厚待些","quocngu":"Từ rằng: \\"Công hậu đãi ta,"},{"nom":"𡮍爲役渃麻𦋦負𢚸","quocngu":"Chút vì việc nước mà ra phụ lòng."},{"nom":"折𫯳麻吏𥙩𫯳","quocngu":"Giết chồng mà lại lấy chồng,"},{"nom":"󰘚󰅹麻吏𥪸冲𡎝𠁀","quocngu":"Mặt nào mà lại đứng trong cõi đời?"},{"nom":"催時󰜋托朱耒","quocngu":"Thôi thì một thác cho rồi,"},{"nom":"𬌓𢚸付默𨕭𡗶𠁑滝","quocngu":"Tấm lòng phó mặc trên trời dưới sông!\\""},{"nom":"𬖉潙昆渃溟濛","quocngu":"Trông vời con nước mênh mông,"},{"nom":"󰝂命招𫴋𡧲𣳔長江","quocngu":"Đem mình gieo xuống giữa dòng trường giang."},{"nom":"士官蹺𣾼倍傍","quocngu":"Sĩ quan theo vớt vội vàng,"},{"nom":"時它沈玉潛香朱耒","quocngu":"Thì đà đắm ngọc tiềm hương cho rồi."},{"nom":"傷台拱󰜋身𠊛","quocngu":"Thương thay cũng một thân người,"},{"nom":"窖台󰋑𥙩色才爫之","quocngu":"Khéo thay mang lấy sắc tài làm chi!"},{"nom":"仍󰑼寃苦流󰡞","quocngu":"Những là oan khổ lưu ly,"},{"nom":"徐朱歇刼群之󰑼身","quocngu":"Chờ cho hết kiếp còn gì là thân?"},{"nom":"𨑮𠄻𢆥閉饒吝","quocngu":"Mười lăm năm, bấy nhiêu lần,"},{"nom":"爫𦎛朱客紅裙此𤐝","quocngu":"Làm gương cho khách hồng quần thử soi!"},{"nom":"𠁀𠊛旦世時催","quocngu":"Đời người đến thế thì thôi!"},{"nom":"冲机陽極陰回坤台","quocngu":"Trong cơ dương cực âm hồi khôn thay."},{"nom":"󰋇𠊛為󰒂初󰅒","quocngu":"Mấy người vì nghĩa xưa nay,"},{"nom":"𡗶爫之旦𥹰𣈜強傷","quocngu":"Trời làm chi đến lâu ngày càng thương!"},{"nom":"󰔼緣自節啫娘","quocngu":"Giác Duyên từ tiết giã nàng,"},{"nom":"撩䕯掛𫌇𢌌塘雲遊","quocngu":"Đeo bầu quảy níp, rộng đường vân du."},{"nom":"﨤妑三合道姑","quocngu":"Gặp bà Tam Hợp đạo cô,"},{"nom":"從容𠳨歇𡮈蘇事娘","quocngu":"Thong dong hỏi hết nhỏ to sự nàng:"},{"nom":"𠊛牢孝󰒂覩塘","quocngu":"Người sao hiếu nghĩa đủ đường?"},{"nom":"刼牢﨤仍断膓世催","quocngu":"Kiếp sao rặt những đoạn trường thế thôi?\\""},{"nom":"師浪福禍道𡗶","quocngu":"Sư rằng: \\"Phúc hoạ đạo trời,"},{"nom":"檜源拱於𢚸𠊛麻𦋦","quocngu":"Cội nguồn cũng ở lòng người mà ra."},{"nom":"固𡗶麻拱在些","quocngu":"Có trời mà cũng tại ta,"},{"nom":"修󰑼檜福情󰑼𦀊寃","quocngu":"Tu là cội phúc, tình là dây oan."},{"nom":"翠翹色稍坤頑","quocngu":"Thuý Kiều sắc sảo khôn ngoan,"},{"nom":"無緣󰑼分紅顔㐌停","quocngu":"Vô duyên là phận hồng nhan đã đành."},{"nom":"吏芒𥙩󰜋𫳘情","quocngu":"Lại mang lấy một chữ Tình,"},{"nom":"墟墟命纀𥙩命𠓨沖","quocngu":"Khư khư mình buộc lấy mình vào trong."},{"nom":"丕𢧚仍性從容","quocngu":"Vậy nên những tính thong dong,"},{"nom":"於空安稳𡎢空凭鐄","quocngu":"Ở không yên ổn, ngồi không vững vàng."},{"nom":"磨迻𡓃鬼󰝡塘","quocngu":"Ma đưa lối, quỷ đem đường,"},{"nom":"吏尋仍性断膓麻𠫾","quocngu":"Lại tìm những tính đoạn trường mà đi."},{"nom":"歇难󰀎旦难箕","quocngu":"Hết nạn ấy đến nạn kia,"},{"nom":"青楼𠄩𦀎青衣𠄩吝","quocngu":"Thanh lâu hai lượt, thanh y hai lần."},{"nom":"𡧲𥿺槊孕鎌陳","quocngu":"Trong vòng giáo dựng gươm trần,"},{"nom":"掑𪘵𤞻𤢿𠳚身碎隊","quocngu":"Kề răng hùm sói, gửi thân tôi đòi."},{"nom":"𡧲𨦩渃𣲆㳥󰋭","quocngu":"Giữa dòng nước dẫy sóng dồi,"},{"nom":"𠓀唅𧏵󰠩招命永醒","quocngu":"Trước hàm rồng cá, gieo mình vắng tanh."},{"nom":"寃箕蹺買貝情","quocngu":"Oan kia theo mãi với tình,"},{"nom":"󰜋命命別󰜋命命咍","quocngu":"Một mình mình biết, một mình mình hay."},{"nom":"爫朱𤯩墮𣨰苔","quocngu":"Làm cho sống đoạ thác đày,"},{"nom":"断膓朱歇刼尼買催","quocngu":"Đoạn trường cho hết kiếp này mới thôi!\\""},{"nom":"󰔼緣𦖑呐用淶","quocngu":"Giác Duyên nghe nói rụng rời:"},{"nom":"󰜋𠁀娘𠰚傷喂群之","quocngu":"Một đời nàng nhé thương ôi còn gì!"},{"nom":"師浪双𫽄兮之","quocngu":"Sư rằng song chẳng hề chi,"},{"nom":"業緣斤吏弋𠫾群𡗉","quocngu":"Nghiệp duyên cân lại nhắc đi còn nhiều."},{"nom":"察沖罪業翠翹","quocngu":"Xét trong tội nghiệp Thuý Kiều,"},{"nom":"默調情爱塊調邪淫","quocngu":"Mắc điều tình ái, khỏi điều tà dâm."},{"nom":"𥙩情深啫情深","quocngu":"Lấy tình thâm, trả tình thâm,"},{"nom":"半命㐌動孝心旦𡗶","quocngu":"Bán mình đã động hiếu tâm đến trời!"},{"nom":"害󰜋𠊛救󰜋𠊛","quocngu":"Hại một người, cứu một người,"},{"nom":"別塘輕重別𠳒沛庒","quocngu":"Biết đường khinh trọng, biết lời phải chăng."},{"nom":"所功󰆙󰀎埃平","quocngu":"Thửa công đức ấy ai bằng?"},{"nom":"夙愆㐌𣳮凌凌泟耒","quocngu":"Túc khiên đã rửa lâng lâng sạch rồi!"},{"nom":"欺𢧚𡗶拱朝𠊛","quocngu":"Khi nên trời cũng chiều người,"},{"nom":"珥󰟯𡢻畧填培緣𡢐","quocngu":"Nhẹ nhàng nợ trước, đền bồi duyên sau."},{"nom":"󰔼緣油𢖵󰒂饒","quocngu":"Giác Duyên dù nhớ nghĩa nhau,"},{"nom":"錢塘典󰜋𥯤𦰤逴𠊛","quocngu":"Tiền Đường đến một bè lau rước người."},{"nom":"畧𡢐朱院󰜋𠳒","quocngu":"Trước sau cho vẹn một lời,"},{"nom":"緣些麻拱福𡗶之空","quocngu":"Duyên ta mà cũng phúc trời chi không!\\""},{"nom":"󰔼緣𦖑呐𢜠𢚸","quocngu":"Giác Duyên nghe nói mừng lòng,"},{"nom":"鄰󰑼尋趣边滝錢塘","quocngu":"Lân la tìm thú bên sông Tiền Đường."},{"nom":"打棦笘𧂭草堂","quocngu":"Đánh tranh chụm nóc thảo đường,"},{"nom":"󰜋間渃碧𩄲鐄𢺺堆","quocngu":"Một gian nước biếc mây vàng chia đôi."},{"nom":"𠾔𫷜漁父𠄩𠊛","quocngu":"Thuê năm ngư phủ hai người,"},{"nom":"㨂船直𣷷結𥾒扛滝","quocngu":"Đóng thuyền chực bến kết chài giăng sông."},{"nom":"󰜋𢚸拯管󰋇功","quocngu":"Một lòng chẳng quản mấy công,"},{"nom":"窖𥪝﨤𫽻拱𥪝轉運","quocngu":"Khéo trong gặp gỡ cũng trong chuyển vần."},{"nom":"翹自招𫴋溋銀","quocngu":"Kiều từ gieo xuống duềnh ngân,"},{"nom":"渃吹俸㐌㵢寅羡尼","quocngu":"Nước xuôi bỗng đã trôi dần tận nơi."},{"nom":"漁翁捁䋥𢵼𠊛","quocngu":"Ngư ông kéo lưới vớt người,"},{"nom":"𡄎𠳒三合𤑟𨑮𫽄吪","quocngu":"Ngẫm lời Tam Hợp rõ mười chẳng ngoa!"},{"nom":"𨕭梅洌𣹕襖󰑔","quocngu":"Trên mui lướt [mướt] áo là,"},{"nom":"雖滛唏渃渚𤍶䏾𦎛","quocngu":"Tuy dầm hơi nước chưa loà bóng gương."},{"nom":"󰔼緣𥚆寔󰘚娘","quocngu":"Giác Duyên nhìn thật mặt nàng,"},{"nom":"娘群帖帖聀鐄渚泒","quocngu":"Nàng còn thiêm thiếp giấc vàng chưa phai."},{"nom":"𢠩恾魄桂魂枚","quocngu":"Mơ màng phách quế hồn mai,"},{"nom":"淡仙脱㐌体𠊛𣈜初","quocngu":"Đạm Tiên, thoắt đã thấy người ngày xưa."},{"nom":"浪碎㐌固𢚸𣇞","quocngu":"Rằng: \\"Tôi đã có lòng chờ,"},{"nom":"秩功㐌󰋇𢆥乘於低","quocngu":"Mất công đã mấy năm thừa ở đây."},{"nom":"姉牢分蒙德苔","quocngu":"Chị sao phận mỏng đức dày?"},{"nom":"刼尼拱丕𢚸尼易埃","quocngu":"Kiếp này cũng vậy, lòng này dễ ai!"},{"nom":"󰌺誠㐌透旦𡗶","quocngu":"Tấm thành đã thấu đến trời,"},{"nom":"半命󰑼孝救𠊛󰑼仁","quocngu":"Bán mình là hiếu, cứu người là nhân"},{"nom":"󰜋命爲渃爲民","quocngu":"Một mình vì nước vì dân."},{"nom":"陽功拮󰜋銅斤㐌𫅷","quocngu":"Dương công cất một đồng cân đã già!"},{"nom":"断膓𢼂捽𠸜𦋦","quocngu":"Đoạn trường sổ rút tên ra,"},{"nom":"断膓䜹沛迎麻者蹺","quocngu":"Đoạn trường thơ phải nghênh mà trả nhau."},{"nom":"群𡗉享受𧗱𡢐","quocngu":"Còn nhiều hưởng thụ về sau,"},{"nom":"緣初苔弹福𥹰𣼭󰠢","quocngu":"Duyên xưa đầy đặn, phúc lâu dồi dào.\\""},{"nom":"娘群魚謹別牢","quocngu":"Nàng còn ngơ ngẩn biết sao,"},{"nom":"濯泉𦖑㗂噲𠓨边𦖻","quocngu":"Trạc Tuyền! nghe tiếng gọi vào bên tai."},{"nom":"秩命脱醒聀枚","quocngu":"Giật mình thoắt tỉnh giấc mai,"},{"nom":"氷傾󰅹㐌別埃麻𥆾","quocngu":"Bâng khuâng nào đã biết ai mà nhìn."},{"nom":"冲船󰅹体淡仙","quocngu":"Trong thuyền nào thấy Đạm Tiên?"},{"nom":"边命只体󰔼緣𡎢掑","quocngu":"Bên mình chỉ thấy Giác Duyên ngồi kề."},{"nom":"体饒𢜠𢙲𤾓皮","quocngu":"Thấy nhau mừng rỡ trăm bề,"},{"nom":"扽船買逴娘𧗱草芦","quocngu":"Dọn thuyền mới rước nàng về thảo lư."},{"nom":"󰜋茹終乍󰉺𣉎","quocngu":"Một nhà chung chạ sớm trưa,"},{"nom":"󰊄𦝄沫󰘚㙁𦯬斎𢚸","quocngu":"Gió trăng mát mặt muối dưa chay lòng."},{"nom":"𦊚皮八𠯪溟濛","quocngu":"Bốn bề bát ngát mênh mông,"},{"nom":"潮𤼸𣋚󰉺𩄲篭𫏾𡢐","quocngu":"Triều dâng hôm sớm, mây lồng trước sau."},{"nom":"难初淬泟漏漏","quocngu":"Nạn xưa trút sạch làu làu,"},{"nom":"緣初渚易別󰠲��","quocngu":"Duyên xưa chưa dễ biết đâu [?] [?]"},{"nom":"浽娘灾难㐌苔","quocngu":"Nỗi nàng tai nạn đã đầy,"},{"nom":"浽払金重閉迡買�","quocngu":"Nỗi chàng Kim Trọng bấy chầy mới [?]"},{"nom":"自𣈜󰗾埮扶䘮","quocngu":"Từ ngày muôn dặm phù tang,"},{"nom":"姅𫷜於坦遼陽吏茹","quocngu":"Nửa năm ở đất Liêu Dương lại nhà."},{"nom":"倍𨖅園翠𢲛󰑼","quocngu":"Vội sang vườn Thuý dò la,"},{"nom":"𥆾風景�󰅒它恪初","quocngu":"Nhìn xem phong [?] nay đà khác xưa."},{"nom":"苔園𦹵木𦰤䜹","quocngu":"Đầy vườn cỏ mọc lau thưa,"},{"nom":"窻𦝄𡕷揆壁湄也淶","quocngu":"Song trăng quạnh quẽ, vách mưa rã rời."},{"nom":"𠓀𡢐󰅹体䏾𠊛","quocngu":"Trước sau nào thấy bóng người,"},{"nom":"花桃𫷜外群唭󰊄東","quocngu":"Hoa đào năm ngoái còn cười gió đông."},{"nom":"立茌燕冷󰜑空","quocngu":"Xập xè én lạnh lầu không,"},{"nom":"𦹵蘭󰘚坦𦼔封𨁪𩌂","quocngu":"Cỏ lan mặt đất, rêu phong dấu giày."},{"nom":"𡳳墻核㭲木𣹓","quocngu":"Cuối tường gai góc mọc đầy,"},{"nom":"𠫾𧗱尼仍𡓃尼𫷜初","quocngu":"Đi về này những lối này năm xưa."},{"nom":"終觥令𠖯如詞","quocngu":"Chung quanh lặng ngắt như tờ,"},{"nom":"浽念心事悲𣇞𠳨埃","quocngu":"Nỗi niềm tâm sự bây giờ hỏi ai?"},{"nom":"郎盈固几𨖅𨔈","quocngu":"Láng giềng có kẻ sang chơi,"},{"nom":"鄰󰑼仕𠳨󰜋𠄩事情","quocngu":"Lân la sẽ hỏi một hai sự tình."},{"nom":"𠳨翁翁默訟庭","quocngu":"Hỏi ông, ông mắc tụng đình,"},{"nom":"𠳨娘娘㐌半命贖吒","quocngu":"Hỏi nàng, nàng đã bán mình chuộc cha."},{"nom":"𠳨茹茹㐌移賒","quocngu":"Hỏi nhà, nhà đã dời xa,"},{"nom":"𠳨払王󰞹共󰑼翠雲","quocngu":"Hỏi chàng Vương quan cùng là Thuý Vân."},{"nom":"調󰅒沙淬庫巾","quocngu":"Đều nay sa sút khó khăn,"},{"nom":"𠾔枚伴曰劍咹吝�","quocngu":"Thuê may bán viết kiếm ăn lần [?]"},{"nom":"調󰠲𩄰打𦝄𡗶","quocngu":"Điều đâu sét đánh lưng trời,"},{"nom":"脱𦖑払脱用淶掣包","quocngu":"Thoắt nghe chàng thoắt rụng rời xiết bao!"},{"nom":"倍嘆移住尼󰅹","quocngu":"Vội han di trú nơi nao?"},{"nom":"打塘払買尋𠓨羡尼","quocngu":"Đánh đường, chàng mới tìm vào tận nơi."},{"nom":"茹棦壁坦左哉","quocngu":"Nhà tranh vách đất tả tơi,"},{"nom":"𦰤撩簾󰞺竹𤷍𤗹䜹","quocngu":"Lau treo rèm nát, trúc cài phên thưa."},{"nom":"󰜋𡑝坦𦹵滛湄","quocngu":"Một sân đất cỏ dầm mưa,"},{"nom":"強嗷喭浽強魚謹󰟯","quocngu":"Càng ngao ngán nỗi, càng ngơ ngẩn dường!"},{"nom":"打料蓮㗂外墻","quocngu":"Đánh liều lên tiếng ngoài tường."},{"nom":"払王𦖑㗂倍傍𧼋𦋦","quocngu":"Chàng Vương nghe tiếng vội vàng chạy ra."},{"nom":"𢴑𢬣倍逴𠓨茹","quocngu":"Dắt tay vội rước vào nhà,"},{"nom":"𠃅楼員外翁妑𦋦𣦍","quocngu":"Mái lầu Viên ngoại ông bà ra ngay."},{"nom":"哭嘆計歇念西","quocngu":"Khóc than kể hết niềm tây:"},{"nom":"払喂別浽渃尼朱渚","quocngu":"Chàng ôi, biết nỗi nước này cho chưa?"},{"nom":"翹兒分蒙如詞","quocngu":"Kiều nhi phận mỏng như tờ,"},{"nom":"󰜋𠳒㐌磊𩅘絲貝払","quocngu":"Một lời đã lỗi tóc tơ với chàng!"},{"nom":"﨤干家变𨔍󰟯","quocngu":"Gặp cơn gia biến lạ dường,"},{"nom":"半命奴沛尋塘救吒","quocngu":"Bán mình nó phải tìm đường cứu cha."},{"nom":"用浪欺𨀈蹎𦋦","quocngu":"Dùng dằng khi bước chân ra,"},{"nom":"極𤾓𠦳浽吲𠀧𦊚吝","quocngu":"Cực trăm nghìn nỗi, dặn ba bốn lần."},{"nom":"律𠳒𥘀貝郎君","quocngu":"Trót lời nặng với lang quân,"},{"nom":"曼昆㛪奴翠雲台𠳒","quocngu":"Mượn con em nó Thuý Vân thay lời."},{"nom":"會󰑼者𡮍義𠊛","quocngu":"Hội là trả chút nghĩa người,"},{"nom":"愁尼弋弋閍𠁀渚悁","quocngu":"Sầu này dằng dặc muôn đời chưa quên!"},{"nom":"刼尼緣㐌負緣","quocngu":"Kiếp này duyên đã phụ duyên,"},{"nom":"夜臺群別仕填來生","quocngu":"Dạ đài còn biết sẽ đền lai sinh."},{"nom":"󰋇𠳒記註丁寧","quocngu":"Mấy lời ký chú đinh ninh,"},{"nom":"𥱬𢚸底胣拮命𦋦𠫾","quocngu":"Ghi lòng để dạ cất mình ra đi."},{"nom":"分牢萡貝翹兒","quocngu":"Phận sao bạc mấy Kiều nhi,"},{"nom":"払金𧗱妬昆時𠫾󰠲","quocngu":"Chàng Kim về đó, con thì đi Đâu?\\""},{"nom":"翁妑強呐強𤴬","quocngu":"Ông bà càng nói, càng đau,"},{"nom":"払強𦖑呐強油如𦯬","quocngu":"Chàng càng nghe nói, càng dàu như dưa."},{"nom":"勿命抱󰊄𣻆湄","quocngu":"Vật mình bão gió tuôn mưa,"},{"nom":"滛湜湥玉引蜍愧枚","quocngu":"Dầm dề giọt ngọc, thẫn thờ hồn mai!"},{"nom":"𤴬隊段𤴪隊催","quocngu":"Đau đòi đoạn, ghẻ đòi thôi,"},{"nom":"省𦋦吏哭哭耒吏迷","quocngu":"Tỉnh ra lại khóc, khóc rồi lại mê."},{"nom":"体払𤴬浽别離","quocngu":"Thấy chàng đau nỗi biệt ly,"},{"nom":"忍󰁇翁買撫𧗱吏勸","quocngu":"Nhận ngừng ông mới vỗ về lại khuyên:"},{"nom":"悲㐌板㐌㨂船","quocngu":"\\"Bây đã ván đã đóng thuyền,"},{"nom":"㐌停分萡坤填情鍾","quocngu":"Đã đành phận bạc khôn đền tình chung!"},{"nom":"過傷𡭧󰒂岩蓬","quocngu":"Quá thương chút nghĩa nham bòng."},{"nom":"𠦳鐄身󰀎時𪡥補牢","quocngu":"Nghìn vàng thân ấy thì hòng bỏ sao?\\""},{"nom":"𠴗𠼵勸解𤾓朝","quocngu":"Dỗ dành khuyên giải trăm chiều,"},{"nom":"󰌕煩坤拉強挑䋦煩","quocngu":"Lửa phiền khôn dập, càng khêu mối phiền!"},{"nom":"誓初󰇾旦金環","quocngu":"Thề xưa giở đến kim hoàn,"},{"nom":"𧵑初吏󰇾旦弹貝香","quocngu":"Của xưa lại giở đến đàn với hương."},{"nom":"生強𬂙𧡊強傷","quocngu":"Sinh càng trông thấy càng thương,"},{"nom":"肝強卽最𦛌強悴賒","quocngu":"Gan càng tức tối, ruột càng xót xa."},{"nom":"浪碎卒過𡗶𦋦","quocngu":"Rằng: \\"Tôi trót quá trời ra,"},{"nom":"底朱旦浽㵢花𣼸䕯","quocngu":"Để cho đến nỗi trôi hoa dạt bèo."},{"nom":"共饒誓説㐌𡗉","quocngu":"Cùng nhau thề thốt đã nhiều"},{"nom":"仍調鐄𥒥沛調呐空","quocngu":"Những điều vàng đá phải điều nói không!"},{"nom":"渚𧜖襘拱𡞕𫯳","quocngu":"Chưa chăn gối cũng vợ chồng."},{"nom":"𢚸󰅹麻文𢴑𢚸朱當","quocngu":"Lòng nào mà văn dứt lòng cho đang?"},{"nom":"包饒𧵑󰋇𣈜塘","quocngu":"Bao nhiêu của, mấy ngày đàng,"},{"nom":"群碎碎󰜋﨤娘買催","quocngu":"Còn tôi, tôi một gặp nàng mới thôi!\\""},{"nom":"浽傷呐𫽄歇𠳒","quocngu":"Nỗi thương nói chẳng hết lời,"},{"nom":"謝辞生買湥洡𧿨𦋦","quocngu":"Tạ từ, Sinh mới sụt sùi trở ra."},{"nom":"倍𧗱所准園花","quocngu":"Vội về sửa chốn vườn hoa,"},{"nom":"逴𠶆員外翁妑拱𨖅","quocngu":"Rước mời viên ngoại ông bà cùng sang."},{"nom":"晨昏針𡮍礼常","quocngu":"Thần hôn chăm chút lễ thường,"},{"nom":"養親台𬌓𢚸娘𣈜初","quocngu":"Dưỡng thân thay tấm lòng nàng ngày xưa."},{"nom":"丁寧埋湥劄䜹","quocngu":"Đinh ninh mài giọt chép thơ,"},{"nom":"割𠊛尋隊迻詞𠴍咖","quocngu":"Cắt người tìm tõi, đưa tờ nhắn gia."},{"nom":"別包功摱功税","quocngu":"Biết bao công mướn công thuê,"},{"nom":"臨淄󰋇度𠫾𧗱埮𣾺","quocngu":"Lâm Truy mấy độ đi về dặm khơi."},{"nom":"𠊚󰜋尼𠳨󰜋尼","quocngu":"Người một nơi, hỏi một nơi,"},{"nom":"溟濛󰅹別𣷭𡗶尼󰅹","quocngu":"Mênh mông nào biết bể trời nơi nao?"},{"nom":"生強惨切渴滈","quocngu":"Sinh càng thảm thiết, khát khao,"},{"nom":"如燶肝鉄如胞𢚸𣘈","quocngu":"Như nung gan sắt, như bào lòng son."},{"nom":"𦛌蟳𣈜󰜋𤉗𤈊","quocngu":"Ruột tằm ngày một héo don,"},{"nom":"雪霜𣈜󰜋耗𤷱命蟡","quocngu":"Tuyết sương ngày một hao mòn hình ve."},{"nom":"矧䜹𣅶省𣅶迷","quocngu":"Thẩn thờ lúc tỉnh lúc mê,"},{"nom":"𧖱蹺渃𬑉魂離占包","quocngu":"Máu theo nước mắt, hồn lìa chiêm bao!"},{"nom":"椿萱𢗼𢜝掣包","quocngu":"Xuân huyên lo sợ xiết bao,"},{"nom":"過𦋦欺旦世󰅹麻咍","quocngu":"Quá ra khi đến thế nào mà hay!"},{"nom":"倍傍懺所𪮙𣈜","quocngu":"Vội vàng sắm sửa chọn ngày,"},{"nom":"緣雲𣋽㐌車𦀊朱払","quocngu":"Duyên Vân sớm đã se dây cho chàng."},{"nom":"𠊛窈窕几文章","quocngu":"Người yểu điệu, kẻ văn chương,"},{"nom":"𪟦才𡛔色春當皮時","quocngu":"Trai tài, gái sắc xuân đương vừa thì."},{"nom":"雖浪𢝙𫳘手歸","quocngu":"Tuy rằng vui chữ thủ quy,"},{"nom":"𢝙尼㐌拮愁箕特󰅹","quocngu":"Vui này đã cất sầu kia được nào!"},{"nom":"欺咹於𣅶𦋦𠓨","quocngu":"Khi ăn ở, lúc ra vào,"},{"nom":"強歐緣買強𩆋情初","quocngu":"Càng âu duyên mới, càng dào tình xưa."},{"nom":"浽娘𢖵典包𣇞","quocngu":"Nỗi nàng nhớ đến bao giờ,"},{"nom":"𣻆珠隊陣紆絲𤾓𨦩","quocngu":"Tuôn châu đòi trận, vò tơ trăm vòng."},{"nom":"固欺永𨤔書房","quocngu":"Có khi vắng vẻ thư phòng,"},{"nom":"炪炉香󰇾泛銅𣈜初","quocngu":"Đốt lò hương, giở phím đồng ngày xưa."},{"nom":"𢯏𢴾𢷀󰁹㗂絲","quocngu":"Bẻ bai, rủ rỉ tiếng tơ,"},{"nom":"沉𠖤𤁕𤌋󰊄迻𢯦簾","quocngu":"Trầm bay nhạt khói, gió đưa lay rèm."},{"nom":"󰟯如边屋边㙴","quocngu":"Dường như bên ốc bên thềm,"},{"nom":"㗂嬌同望䏾襜𢠩恾","quocngu":"Tiếng Kiều đồng vọng, bóng xiêm mơ màng."},{"nom":"𪽝𢚸鑿𥒥記鐄","quocngu":"Bởi lòng tạc đá ghi vàng,"},{"nom":"想娘𢧚吏体娘𧗱低","quocngu":"Tưởng nàng nên lại thấy nàng về đây."},{"nom":"仍󰑼煩悶𣎀𣈜","quocngu":"Những là phiền muộn đêm ngày,"},{"nom":"春秋別㐌対台󰋇吝","quocngu":"Xuân thu biết đã đổi thay mấy lần?"},{"nom":"制科﨤會場文","quocngu":"Chế khoa gặp hội tràng văn,"},{"nom":"王金拱占榜春󰜋𣈜","quocngu":"Vương Kim cùng chiếm bảng xuân một ngày."},{"nom":"𨷶𡗶𢌌𨷑塘𩄲","quocngu":"Cửa trời rộng mở đường mây,"},{"nom":"花嘲𡉦杏香𠖤埮枌","quocngu":"Hoa chào ngõ hạnh, hương bay dặm phần."},{"nom":"払王𢖵旦賒𧵆","quocngu":"Chàng Vương nhớ đến xa gần,"},{"nom":"𨖅茹終老謝恩周旋","quocngu":"Sang nhà Chung lão tạ ân chu tuyền."},{"nom":"情初恩者󰒂填","quocngu":"Tình xưa ân trả nghĩa đền,"},{"nom":"加親六買結緣朱陳","quocngu":"Gia thân lúc mới kết duyên Châu Trần."},{"nom":"払強珥𨀈青雲","quocngu":"Chàng càng nhẹ bước thanh vân,"},{"nom":"浽払強𢪀賒𧵆強傷","quocngu":"Nỗi chàng càng nghĩ xa gần càng thương."},{"nom":"󰀎唉吲玉誓鐄","quocngu":"Ấy ai dặn ngọc thề vàng,"},{"nom":"悲𣇞金馬玉堂貝埃","quocngu":"Bây giờ Kim mã, ngọc đường với ai."},{"nom":"𦰟薸蹎㳥落類","quocngu":"Ngọn bèo chân sóng lạc loài,"},{"nom":"𢪀命荣顕傷𠊛流離","quocngu":"Nghĩ mình vinh hiển, thương người lưu ly."},{"nom":"󰂅𦋦外任臨淄","quocngu":"Vâng ra ngoại nhậm Lâm Truy,"},{"nom":"開山𠦳埮妻兒󰜋󰟞","quocngu":"Khai sơn nghìn dặm, thê nhi một đoàn."},{"nom":"琹堂𣈜𣎃清閒","quocngu":"Cầm đường ngày tháng thanh nhàn,"},{"nom":"󰟭𣌉㗂䳽㗂弹逍遙","quocngu":"Sớm khuya tiếng hạc tiếng đàn tiêu dao."},{"nom":"房春帳𢷀花桃","quocngu":"Phòng xuân trướng rủ hoa đào,"},{"nom":"娘雲𦣰俸占包体娘","quocngu":"Nàng Vân nằm bỗng chiêm bao thấy nàng."},{"nom":"省𦋦買󰁹共払","quocngu":"Tỉnh ra mới rỉ cùng chàng,"},{"nom":"𦖑𠳒払拱𠄩唐信𪟽","quocngu":"Nghe lời chàng cũng hai đường tin nghi."},{"nom":"怒臨清貝臨淄","quocngu":"Nọ Lâm Thanh với Lâm Truy,"},{"nom":"恪饒󰜋𫳘或欺固𠰃","quocngu":"Khác nhau một chữ, hoặc khi có lầm."},{"nom":"冲机声氣相尋","quocngu":"Trong cơ thanh khí tương tầm,"},{"nom":"於低或固佳音庄󰑼","quocngu":"Ở đây hoặc có giai âm chăng là?"},{"nom":"升堂払買𠳨查","quocngu":"Thăng đường chàng mới hỏi tra,"},{"nom":"户都固几吏𫅷䜹蓮","quocngu":"Họ Đô có kẻ lại già thưa lên:"},{"nom":"事尼㐌外𨑮年","quocngu":"Sự này đã ngoại mười niên,"},{"nom":"碎它別󰘚別𠸜冷冷","quocngu":"Tôi đà biết mặt biết tên rành rành."},{"nom":"秀妑共馬監生","quocngu":"Tú bà cùng Mã Giám sinh,"},{"nom":"𠫾摸𠊛於北京迻𧗱","quocngu":"Đi mua người ở Bắc Kinh đưa về."},{"nom":"翠翹才色埃皮","quocngu":"Thuý Kiều tài sắc ai bì,"},{"nom":"固芸弹吏覩芸文詩","quocngu":"Có nghề đàn lại đủ nghề văn thơ."},{"nom":"坚貞𫽄沛肝皮","quocngu":"Kiên trinh chẳng phải gan vừa,"},{"nom":"料命世󰀎沛𩢬世箕","quocngu":"Liều mình thế ấy, phải lừa thế kia."},{"nom":"風塵𠹾㐌𠵱痆","quocngu":"Phong trần chịu đã ê chề,"},{"nom":"𦀊緣𡢐吏車𧗱束郎","quocngu":"Dây duyên sau lại xe về Thúc lang."},{"nom":"沛𢬣𡞕奇負傍","quocngu":"Phải tay vợ cả phũ phàng,"},{"nom":"扒𧗱無錫算塘披花","quocngu":"Bắt về Vô Tích toan đường bẻ hoa."},{"nom":"𢴑命娘沛遁𦋦","quocngu":"Dứt mình nàng phải trốn ra,"},{"nom":"𫽄埋吏﨤󰜋茹萡箕","quocngu":"Chẳng may lại gặp một nhà Bạc kia."},{"nom":"脱奔𧗱脱半𠫾","quocngu":"Thoắt buôn về, thoắt bán đi,"},{"nom":"𩄲㵢䕯浽少之󰑼尼","quocngu":"Mây trôi bèo nổi thiếu gì là nơi!"},{"nom":"俸󰠲吏﨤󰜋𠊛","quocngu":"Bỗng đâu lại gặp một người,"},{"nom":"欣𠊛智勇迎𡗶威灵","quocngu":"Hơn người trí dũng, nghiêng trời uy linh."},{"nom":"冲𢬣󰗾萬精兵","quocngu":"Trong tay muôn vạn tinh binh,"},{"nom":"捁𧗱㨂秩󰜋城臨淄","quocngu":"Kéo về đóng chật một thành Lâm Truy."},{"nom":"𩯀絲各跡每期","quocngu":"Tóc tơ các tích mọi kỳ,"},{"nom":"怨時者怨恩時者恩","quocngu":"Oán thì trả oán, ân thì trả ân."},{"nom":"㐌𢧚固義固仁","quocngu":"Đã nên có nghĩa, có nhân,"},{"nom":"畧𡢐論院賒𧵆誼𠸦","quocngu":"Trước sau trọn vẹn, xa gần ngợi khen."},{"nom":"渚詳特户特𠸜","quocngu":"Chưa tường được họ được tên,"},{"nom":"事尼𠳨束生員買詳","quocngu":"Sự này, hỏi Thúc sinh viên mới tường.\\""},{"nom":"𦖑𠳒都呐𤑟𤉜","quocngu":"Nghe lời Đô nói rõ ràng,"},{"nom":"卽時迎帖𠶆払束生","quocngu":"Tức thì nghênh thiếp mời chàng Thúc sinh."},{"nom":"浽娘𠳨歇分明","quocngu":"Nỗi nàng hỏi hết phân minh,"},{"nom":"𫯳昆󰠳些姓名󰑼之","quocngu":"Chồng con đâu tá, tính danh là gì?"},{"nom":"束浪﨤𣅶流離","quocngu":"Thúc rằng: \\"Gặp lúc loạn ly,"},{"nom":"冲軍碎𠳨少之𩯀絲","quocngu":"Trong quân tôi hỏi thiếu gì tóc tơ."},{"nom":"大王𠸜海户徐","quocngu":"Đại vương tên Hải, họ Từ,"},{"nom":"打悁𤾓陣飭餘󰗾𠊛","quocngu":"Đánh quen trăm trận, sức dư muôn người."},{"nom":"﨤娘時於台州","quocngu":"Gặp nàng thì ở Thai Châu,"},{"nom":"𨔍之國色天才沛緣","quocngu":"Lạ gì quốc sắc thiên tài phải duyên."},{"nom":"浘漨冲閉饒年","quocngu":"Vẫy vùng trong bấy nhiêu niên,"},{"nom":"爫𢧚動地󰟹天同同","quocngu":"Làm nên đông địa kinh thiên đùng đùng."},{"nom":"大軍屯㨂𡎝東","quocngu":"Đại quân đồn đóng cõi đông,"},{"nom":"𧗱𡢐𫽄別雲夢爫牢","quocngu":"Về sau chẳng biết vân mồng làm sao.\\""},{"nom":"𦖑詳梗𦰟消耗","quocngu":"Nghe tường ngành ngọn tiêu hao,"},{"nom":"𢚸𥢆払𨻫劳刀矧蜍","quocngu":"Lòng riêng, chàng luống lao đao thẫn thờ:"},{"nom":"㤕台隻𦲿𠀧爲","quocngu":"Xót thay chiếc lá bơ vơ!"},{"nom":"刼塵別𢷀包𣇞朱衝","quocngu":"Kiếp trần biết rũ bao giờ cho xong?"},{"nom":"花㵢渃沚𣵶𣳔","quocngu":"Hoa trôi nước chảy xuôi dòng,"},{"nom":"㤕身沉浽𤴬𢚸合散","quocngu":"Xót thân chìm nỗi, đau lòng hợp tan."},{"nom":"𠳒初㐌磊󰗾萬","quocngu":"Lời xưa đã lỗi muôn vàn,"},{"nom":"𤗖𦎛群妬泛弹群低","quocngu":"Mảnh gương còn đó, phím đàn còn đây."},{"nom":"弹琴窖謹魚𦀊","quocngu":"Đàn cầm khéo ngẩn ngơ dây,"},{"nom":"󰌎香別固刼尼女催","quocngu":"Lò hương biết có kiếp này nữa thôi?"},{"nom":"萍蓬群𡮍賒吹","quocngu":"Bình bồng còn chút xa xôi,"},{"nom":"󰞈鍾牢女咹𡎢朱安","quocngu":"Đỉnh chung sao nỡ ăn ngồi cho an!\\""},{"nom":"泣蒙撩印辞官","quocngu":"Rắp mong treo ấn từ quan,"},{"nom":"󰋇滝拱𤂬󰋇岸拱戈","quocngu":"Mấy sông cũng lội, mấy ngàn cũng qua."},{"nom":"𤄱命冲󰠨干戈","quocngu":"Dấn mình trong áng can qua,"},{"nom":"𠓨生𦋦死和󰑼体饒","quocngu":"Vào sinh ra tử hoạ là thấy nhau."},{"nom":"𢪀調𡗶瀋域溇","quocngu":"Nghĩ điều trời thẳm vực sâu,"},{"nom":"䏾𫚳沁󰠩別󰠲麻𥆾","quocngu":"Bóng chim tăm cá biết đâu mà nhìn."},{"nom":"仍󰑼赧那待信","quocngu":"Những là nấn ná đợi tin,"},{"nom":"𬋟湄㐌別󰋇畨対移","quocngu":"Nắng mưa đã biết mấy phen đổi dời?"},{"nom":"𠄼𩄲俸体詔𡗶","quocngu":"Năm mây bỗng thấy chiếu trời,"},{"nom":"欽頒勑旨旦尼停停","quocngu":"Khâm ban sắc chỉ đến nơi rành rành."},{"nom":"金時改任南平","quocngu":"Kim thì cải nhậm Nam Bình,"},{"nom":"払王拱改任城維陽","quocngu":"Chàng Vương cũng cải nhậm thành Duy Dương."},{"nom":"懺生車馭倍鐄","quocngu":"Sắm xanh xe ngựa vội vàng,"},{"nom":"𠄩茹拱順󰜋𣈜赴官","quocngu":"Hai nhà cũng thuận một ngày phó quan."},{"nom":"仕𦖑世賊㐌散","quocngu":"Xảy nghe thế giặc đã tan,"},{"nom":"㳥淹福建󰌕殘浙江","quocngu":"Sóng êm Phúc Kiến, lửa tàn Chiết Giang."},{"nom":"特信金買𫫵王","quocngu":"Được tin Kim mới rủ Vương,"},{"nom":"便塘拱吏尋娘𡢐初","quocngu":"Tiện đường cùng lại tìm nàng sau xưa."},{"nom":"杭州旦妬閉𣇞","quocngu":"Hàng Châu đến đó bấy giờ,"},{"nom":"寔信𠳨特𩯀絲停停","quocngu":"Thật tin hỏi được tóc tơ rành rành."},{"nom":"浪𣈜󰟭怒交兵","quocngu":"Rằng: \\"Ngày hôm nọ giao binh,"},{"nom":"失机徐㐌收灵陣前","quocngu":"Thất cơ Từ đã thu linh trận tiền."},{"nom":"娘翹功奇𫽄填","quocngu":"Nàng Kiều công cả chẳng đền,"},{"nom":"令軍吏扒押緣土酋","quocngu":"Lệnh quân lại bắt ép duyên thổ tù."},{"nom":"娘陀招玉沉珠","quocngu":"Nàng đà gieo ngọc trầm châu,"},{"nom":"滝錢塘妬󰀎墓紅顔","quocngu":"Sông Tiền Đường đó, ấy mồ hồng nhan!\\""},{"nom":"傷喂空合麻散","quocngu":"Thương ôi! Không hợp mà tan,"},{"nom":"󰜋茹荣顕貞寃󰜋娘","quocngu":"Một nhà vinh hiển riêng oan một nàng."},{"nom":"招魂設位礼常","quocngu":"Chiêu hồn thiết vị lễ thường,"},{"nom":"解寃立󰜋𡊨場边滝","quocngu":"Giải oan lập một đàn tràng bên sông."},{"nom":"𦰟潮𡽫泊重重","quocngu":"Ngọn triều non bạc trùng trùng,"},{"nom":"渭𬂙群想𦑃鴻𣅶招","quocngu":"Vời trông còn tưởng cánh hồng lúc gieo."},{"nom":"情深𣷷惨𨔍調","quocngu":"Tình thâm biển thảm lạ điều,"},{"nom":"󰅹魂精𧗱別蹺准󰅹","quocngu":"Nào hồn tinh vệ biết theo chốn nào?"},{"nom":"机緣󰠲俸𨔍台","quocngu":"Cơ duyên đâu bỗng lạ thay?"},{"nom":"󰔼緣󰠲俸尋𠓨旦尼","quocngu":"Giác Duyên đâu bỗng tìm vào đến nơi."},{"nom":"𬂙𨖲灵位𫳘排","quocngu":"Trông lên linh vị chữ bài,"},{"nom":"秩󰟹買𠳨仍𠊛󰠲些","quocngu":"Thất kinh mới hỏi: \\"Những người đâu ta?"},{"nom":"貝娘親戚𧵆車","quocngu":"Với nàng thân thích gần xa,"},{"nom":"𠊛群牢俸爫麻哭𠊛","quocngu":"Người còn sao bỗng làm ma khóc người?\\""},{"nom":"𦖑信如楽用移","quocngu":"Nghe tin nhơ nhác rụng rời,"},{"nom":"森觥計户遁𠳒𠳨查","quocngu":"Xúm quanh kể họ, rộn lời hỏi tra."},{"nom":"尼𫯳尼媄尼吒","quocngu":"Này chồng, này mẹ, này cha,"},{"nom":"尼󰑼㛪𦛌尼󰑼㛪妯","quocngu":"Này là em ruột, này là em dâu."},{"nom":"實信𦖑㐌閉𥹰","quocngu":"Thật tin nghe đã bấy lâu,"},{"nom":"法師𠰺世事󰠲𨔍󰟯","quocngu":"Pháp sư dạy thế, sự đâu lạ dường!\\""},{"nom":"師浪固果貝娘","quocngu":"Sư rằng: \\"có quả với nàng,"},{"nom":"臨淄𣇜畧錢塘𣇜𡢐","quocngu":"Lâm Truy buổi trước, Tiền Đường buổi sau."},{"nom":"欺娘招玉沉珠","quocngu":"Khi nàng gieo ngọc trầm châu,"},{"nom":"迍蹺碎㐌﨤饒逴𧗱","quocngu":"Đón theo, tôi đã gặp nhau rước về."},{"nom":"共饒娘𫔸菩提","quocngu":"Cùng nhau nương cửa Bồ đề,"},{"nom":"草菴妬拱𧵆掑𫽄賒","quocngu":"Thảo am đó, cũng gần kề chẳng xa."},{"nom":"𫢋前茹泊鄰󰑼","quocngu":"Phật tiền nhà bạc lân la,"},{"nom":"󰠐󰠐娘拱女茹坤𢣧","quocngu":"Đăm đăm nàng cũng nhớ nhà khôn khuây.\\""},{"nom":"𦖑信𦬑󰘚󰘉眉","quocngu":"Nghe tin nở mặt nở mày,"},{"nom":"𢜠󰅹吏過𢜠尼女庄","quocngu":"Mừng nào lại quá mừng này nữa chăng?"},{"nom":"自畨隻𦲿離棱","quocngu":"Từ phen chiếc lá lìa rừng,"},{"nom":"𠶀尋𨻫仍料澄渃𡽫","quocngu":"Thăm tìm luống những liệu chừng nước non"},{"nom":"𤑟𤉜花用香𠖤","quocngu":"Rõ ràng hoa rụng hương bay."},{"nom":"刼𡢐和体刼尼罕催","quocngu":"Kiếp sau hoạ thấy, kiếp này hẳn thôi."},{"nom":"冥陽堆我聀耒","quocngu":"Minh dương đôi ngả chắc rồi."},{"nom":"𡎝塵麻吏体𠊛九源","quocngu":"Cõi trần mà lại thấy người cửu nguyên!"},{"nom":"𢮿饒𥛉謝󰔼緣","quocngu":"Quây nhau lạy tạ Giác Duyên,"},{"nom":"步行󰜋屡蹺連󰜋欺","quocngu":"Bộ hành một lũ theo liền một khi."},{"nom":"𢯏𦰤拍𦹵尋𠫾","quocngu":"Bẻ lau vạch cỏ tìm đi,"},{"nom":"情深𨻫唉狐疑姅分","quocngu":"Tình thâm luống hãy hồ nghi nửa phần."},{"nom":"觥孤蹺𦄂江津","quocngu":"Quanh co theo dải giang tân,"},{"nom":"塊𦝄牢㐌細𡑝𫢋堂","quocngu":"Khỏi trăng lao đã tới sân Phật đường."},{"nom":"󰔼緣蓮㗂噲娘","quocngu":"Giác Duyên lên tiếng gọi nàng,"},{"nom":"房冲倍𨄹蓮鐄𨀈𦋦","quocngu":"Phòng trong vội dạo sen vàng bước ra."},{"nom":"恥䀡覩󰘚󰜋茹","quocngu":"Sảy xem đủ mặt một nhà,"},{"nom":"椿𫅷群跬萱𫅷群鮮","quocngu":"Xuân già còn khoẻ huyên già còn tươi."},{"nom":"𠄩㛪方長和𠄩","quocngu":"Hai em phương trưởng hoà hai,"},{"nom":"怒払金妬󰑼𠊛𣈜初","quocngu":"Nọ chàng Kim đó là người ngày xưa!"},{"nom":"想悲𣇞󰑼包𣇞","quocngu":"Tưởng bây giờ là bao giờ,"},{"nom":"𤑟𤉜𨷑𬑉群𪟽占包","quocngu":"Rõ ràng mở mắt còn ngờ chiêm bao!"},{"nom":"湥珠𡃑𡁾淃袍","quocngu":"Giọt châu thánh thót quẹn bào,"},{"nom":"𢜠𢜠怍怍掣包事情","quocngu":"Mừng mừng sợ sợ xiết bao sự tình!"},{"nom":"萱𫅷𠁑檜招命","quocngu":"Huyên già dưới gối gieo mình,"},{"nom":"哭嘆命叽事命頭𡳪","quocngu":"Khóc than mình kể sự mình đầu đuôi:"},{"nom":"自昆流落圭𠊛","quocngu":"Từ con lưu lạc quê người,"},{"nom":"䕯㵢㳥撫祝𨑮𠄻𫷜","quocngu":"Bèo trôi sóng vỗ, chốc mười lăm năm!"},{"nom":"併浪滝渃吉淋","quocngu":"Tính rằng sông nước cát lầm,"},{"nom":"刼尼埃吏群今扱低","quocngu":"Kiếp này ai lại còn cầm gặp đây!\\""},{"nom":"翁妑𬂙󰘚𢭂𢬣","quocngu":"Ông bà trông mặt trao tay,"},{"nom":"容桄庄恪之𣈜𨀈𦋦","quocngu":"Dung quang chẳng khác chi ngày bước ra."},{"nom":"閉迡待月油花","quocngu":"Bấy chầy dãi nguyệt dầu hoa,"},{"nom":"𨑮分春固𤷍𠀧𦊚分","quocngu":"Mười phần xuân có gầy ba bốn phần."},{"nom":"浽𢜠翁𥙩之斤","quocngu":"Nỗi mừng ông lấy gì cân,"},{"nom":"𠳒散合傳賒𧵆少󰠲","quocngu":"Lời tan hợp, chuyện xa gần thiếu đâu!"},{"nom":"𠄩㛪𠳨畧嘆𡢐","quocngu":"Hai em hỏi trước han sau,"},{"nom":"𨅸𬂙娘㐌阻愁爫鮮","quocngu":"Đứng trông, nàng đã trở sầu làm tươi."},{"nom":"𢮿饒𥛉畧𫢋󰉟","quocngu":"Quây nhau lạy trước Phật đài,"},{"nom":"再生陳謝𢚸𠊛慈悲","quocngu":"Tái sinh trần tạ lòng người từ bi."},{"nom":"轎花𠽖逴卽時","quocngu":"Kiệu hoa giục rước tức thì,"},{"nom":"王翁𠰺逴共𧗱󰜋尼","quocngu":"Vương ông dạy rước cùng về một nơi."},{"nom":"娘浪𡮍分花淶","quocngu":"Nàng rằng: \\"[Chút] phận hoa rơi."},{"nom":"姅𠁀唸𣦆每味䔲荄","quocngu":"Nửa đời nếm trải mọi mùi đắng cay."},{"nom":"併浪󰘚渃蹎𩄲","quocngu":"Tính rằng mặt nước chân mây,"},{"nom":"𢚸󰅹群想固𣈙女空","quocngu":"Lòng nào còn tưởng có rày nữa không?"},{"nom":"時𣈙再世相逢","quocngu":"Thì rày tái thế tương phùng,"},{"nom":"渴󰋫㐌妥𬌓𢚸𥹰󰅒","quocngu":"Khát khao đã thoả tấm lòng lâu nay!"},{"nom":"㐌󰝡命補庵𩄲","quocngu":"Đã đem mình bỏ am mây,"},{"nom":"歲尼改貝𦹵𣘃拱皮","quocngu":"Tuổi này gửi với cỏ cây cũng vừa."},{"nom":"味婵㐌𤊰㙁益","quocngu":"Mùi thiền đã bén muối ích,"},{"nom":"牟婵咹默㐌於𣘽𣙩","quocngu":"Màu thiền ăn mặc đã ưa nâu sồng."},{"nom":"事𠁀㐌𤎕󰌎𢚸","quocngu":"Sự đời đã tắt lò lòng,"},{"nom":"群𢫔𠓨准𡏧紅爫之","quocngu":"Còn chen vào chốn bụi hồng làm chi!"},{"nom":"󰇾揚󰅹固咍之","quocngu":"Dở dang nào có hay gì,"},{"nom":"㐌修修律戈時時催","quocngu":"Đã tu, tu trót qua thì thì thôi!"},{"nom":"重生恩𥘀𣷭𡗶","quocngu":"Trùng sinh ân nặng bể trời,"},{"nom":"𢚸󰅹女𢴑󰒂𠊛𦋦𠫾","quocngu":"Lòng nào nỡ dứt nghĩa người ra đi?\\""},{"nom":"翁浪彼此一時","quocngu":"Ông rằng: \\"Bỉ thử nhất thì,"},{"nom":"修行時拱沛欺從權","quocngu":"Tu hành thì cũng phải khi tòng quyền."},{"nom":"沛調求𫢋求仙","quocngu":"Phải điều cầu Phật cầu tiên,"},{"nom":"情箕孝怒埃填朱低","quocngu":"Tình kia, Hiếu nọ ai đền cho đây?"},{"nom":"度生洳󰆙高𪠗","quocngu":"Độ sinh nhờ đức cao dày,"},{"nom":"立庵耒仕逴柴於終","quocngu":"Lập am rồi sẽ rước thầy ở chung.\\""},{"nom":"𦖑𠳒娘㐌朝𢚸","quocngu":"Nghe lời, nàng đã phải lòng,"},{"nom":"啫師啫景調共𨀈𦋦","quocngu":"Giã sư, giã cảnh đều cùng bước ra."},{"nom":"󰜋󰟞𧗱旦官衙","quocngu":"Một đoàn về đến quan nha,"},{"nom":"󰟞圓倍𨷑席花𢝙圍","quocngu":"Đoàn viên vội mở tiệc hoa vui vầy."},{"nom":"藏藏𡃹菊󰇾醝","quocngu":"Tàng tàng chén cúc dở say,"},{"nom":"𨅸𨖲雲買待排󰜋𠄩","quocngu":"Đứng lên Vân mới giãi bày một hai."},{"nom":"浪冲作合機𡗶","quocngu":"Rằng: \\"Trong tác hợp cơ trời,"},{"nom":"𠄩边﨤𫽻󰜋𠳒結交","quocngu":"Hai bên gặp gỡ một lời kết giao."},{"nom":"﨤干平地波濤","quocngu":"Gặp cơn bình địa ba đào,"},{"nom":"丕󰝡緣姉𫃚𠓨朱㛪","quocngu":"Vậy đem duyên chị buộc vào cho em."},{"nom":"拱󰑼分改緣金","quocngu":"Cũng là phận cải duyên kim,"},{"nom":"拱󰑼𧖱沚𦛌𦡙渚牢","quocngu":"Cũng là máu chảy ruột mềm chớ sao?"},{"nom":"仍󰑼𣈙約枚呦","quocngu":"Những là rày ước mai ao,"},{"nom":"𨑮𠄻𫷜󰀎別包饒情","quocngu":"Mười lăm năm ấy, biết bao nhiêu tình!"},{"nom":"悲𣇞𦎛󰡋吏𫅜","quocngu":"Bây giờ gương vỡ lại lành,"},{"nom":"囷𤍌𢫘搗㐌盈固尼","quocngu":"Khuôn thiêng lừa đảo đã dành có nơi."},{"nom":"群緣枚吏群𠊛","quocngu":"Còn duyên may lại còn người,"},{"nom":"群暈𦝄泊群𠳒願初","quocngu":"Còn vầng trăng bạc, còn lời nguyền xưa."},{"nom":"菓梅𠀧𬙞欺皮","quocngu":"Quả mai ba bảy khi vừa,"},{"nom":"桃𡽫𣌋料車絲及時","quocngu":"Đào non sớm liệu xe tơ kịp thì!\\""},{"nom":"𢴑𠳒娘倍喝𠫾","quocngu":"Dứt lời, nàng vội gạt đi:"},{"nom":"事󰗾𫷜𬟗計之碑𣇞","quocngu":"Sự muôn năm cũ, kể chi bây giờ?"},{"nom":"󰜋𠳒雖固約初","quocngu":"Một lời tuy có ước xưa,"},{"nom":"察命待󰊄油湄㐌𡗉","quocngu":"Xét mình dãi gió dầu mưa đã nhiều."},{"nom":"呐強虎𢢆𤾓朝","quocngu":"Nói càng hổ thẹn trăm chiều,"},{"nom":"時朱𦰟渃水潮沚吹","quocngu":"Thì cho ngọn nước thuỷ triều chảy xuôi!\\""},{"nom":"払浪呐拱𨔍𠁀","quocngu":"Chàng rằng: \\"Nói cũng lạ đời,"},{"nom":"酉𢚸箕丕群𠳒󰀎牢","quocngu":"Dẫu lòng kia vậy, còn lời ấy sao?"},{"nom":"󰜋𠳒㐌律深交","quocngu":"Một lời đã trót thâm giao,"},{"nom":"𠁑𡗶固坦𨕭高固𡗶","quocngu":"Dưới trời có đất, trên cao có trời!"},{"nom":"酉浪物対𬁖移","quocngu":"Dẫu rằng vật đổi sao dời,"},{"nom":"死生拱𪧚𥙩𠳒死生","quocngu":"Tử sinh cũng giữ lấy lời tử sinh."},{"nom":"緣箕固負之情","quocngu":"Duyên kia có phụ chi tình,"},{"nom":"麻算支挭鍾情爫𠄩","quocngu":"Mà toan chia gánh chung tình làm hai?\\""},{"nom":"娘浪家室緣諧","quocngu":"Nàng rằng: \\"Gia thất duyên hài."},{"nom":"㤕𢚸恩愛埃埃拱𢚸","quocngu":"Xót lòng ân ái, ai ai cũng lòng."},{"nom":"𢪀浪冲道𡞕𫯳","quocngu":"Nghĩ rằng trong đạo vợ chồng,"},{"nom":"花𦹳封蕋𦝄𨦩𧷺𦎛","quocngu":"Hoa thơm phong nhị, trăng vòng tròn gương."},{"nom":"𫳘貞登價𠦳鐄","quocngu":"Chữ trinh đáng giá nghìn vàng,"},{"nom":"𤒘花𫽄𢢆貝払枚初","quocngu":"Đuốc hoa chẳng thẹn với chàng mai xưa."},{"nom":"妾自遇变旦𣇞","quocngu":"Thiếp từ ngộ biến đến giờ,"},{"nom":"蜂戈𧊉吏㐌乘醜車","quocngu":"Ong qua bướm lại đã thừa xấu xa."},{"nom":"閉迡󰊄匝湄沙","quocngu":"Bấy chầy gió táp mưa sa,"},{"nom":"󰋇𦝄共缺󰋇花共殘","quocngu":"Mấy trăng cũng khuyết, mấy hoa cũng tàn."},{"nom":"群之󰑼丐紅顔","quocngu":"Còn chi là cái hồng nhan,"},{"nom":"㐌衝身世群算浽󰅹","quocngu":"Đã xong thân thế, còn toan nỗi nào?"},{"nom":"𢪀命𫽄虎命牢","quocngu":"Nghĩ mình, chẳng hổ mình sao?"},{"nom":"敢󰝡塵垢預𠓨布荆","quocngu":"Dám đem trần cấu dự vào bố kinh!"},{"nom":"㐌咍払𥘀爲情","quocngu":"Đã hay chàng nặng vì tình,"},{"nom":"𬖉花畑𫽄󰠪命𡗋𠱋","quocngu":"Trông hoa đèn, chẳng tủi mình lắm ru!"},{"nom":"自𣈙怯󰁮房秋","quocngu":"Từ rày khép cửa phòng thu,"},{"nom":"𫽄修時拱󰑼修買󰑼","quocngu":"Chẳng tu thì cũng là tu mới là!"},{"nom":"払油𪫢旦情賒","quocngu":"Chàng dù nghĩ đến tình xa,"},{"nom":"󰝡情琴瑟対𦋦琹琪","quocngu":"Đem tình cầm sắt đổi ra cầm cờ."},{"nom":"呐之結𩯀車絲","quocngu":"Nói chi kết tóc xe tơ,"},{"nom":"㐌𢞂奇𦛌麻洳奇𠁀","quocngu":"Đã buồn cả ruột mà dơ cả đời!\\""},{"nom":"払浪窖呐𢧚𠳒","quocngu":"Chàng rằng: \\"Khéo nói nên lời,"},{"nom":"麻冲𨤰沛固𠊛固些","quocngu":"Mà trong lẽ phải có người có ta!"},{"nom":"初󰅒冲道弹妑","quocngu":"Xưa nay trong đạo đàn bà,"},{"nom":"𡨸貞箕拱固𠀧𬙞󰟯","quocngu":"Chữ Trinh kia cũng có ba bảy đường."},{"nom":"固欺变固欺常","quocngu":"Có khi biến, có khi thường,"},{"nom":"固權󰅹沛󰜋塘執經","quocngu":"Có quyền nào phải một đường chấp kinh?"},{"nom":"如娘𥙩孝爫貞","quocngu":"Như nàng lấy Hiếu làm Trinh,"},{"nom":"蓓󰅹朱濁特命󰀎爲","quocngu":"Bụi nào cho đục được mình ấy vay?"},{"nom":"𡗶群底固歆󰅒","quocngu":"Trời còn để có hôm nay,"},{"nom":"散霜別午盎𩄲𡧲𡗶","quocngu":"Tan sương biết ngõ, áng mây giữa trời."},{"nom":"花殘麻吏添鮮","quocngu":"Hoa tàn mà lại thêm tươi,"},{"nom":"𦝄殘麻吏欣𨑮𠄻初","quocngu":"Trăng tàn mà lại hơn mười rằm xưa."},{"nom":"固調之女麻𪟽","quocngu":"Có điều chi nữa mà ngờ,"},{"nom":"客戈塘底𠾿哬払羊","quocngu":"Khách qua đường để hững hờ chàng Tiêu!\\""},{"nom":"𦖑払呐㐌歇調","quocngu":"Nghe chàng nói đã hết điều,"},{"nom":"𠄩親時拱决蹺󰜋排","quocngu":"Hai thân thì cũng quyết theo một bài."},{"nom":"歇𠳒坤𨤰咥𠳒","quocngu":"Hết lời khôn lẽ chối lời,"},{"nom":"𨃴頭娘仍𥐆𨱽咀嘆","quocngu":"Gót đầu nàng những ngắn dài thở than."},{"nom":"茹皮𨷑席團圓","quocngu":"Nhà vừa mở tiệc đoàn viên,"},{"nom":"花𤐝𦰟𤒘紅杆幅󰑔","quocngu":"Hoa soi ngọn đuốc, hồng chen bức là."},{"nom":"共饒交𥛉󰜋茹","quocngu":"Cùng nhau giao bái một nhà,"},{"nom":"礼它覩礼堆󰑼覩堆","quocngu":"Lễ đà đủ lễ, đôi là đủ đôi."},{"nom":"洞房迢迭󱋓瑁","quocngu":"Động phòng dìu dặt chén mồi,"},{"nom":"氷傾緣買吟𠿯情初","quocngu":"Bâng khuâng duyên mới, ngậm ngùi tình xưa."},{"nom":"仍自連𡉦桃絲","quocngu":"Những từ sen ngó đào tơ,"},{"nom":"𨑮𠄻𫷜買悲𣇞󰑼低","quocngu":"Mười lăm năm mới bây giờ là đây!"},{"nom":"情緣󰀎合散尼","quocngu":"Tình duyên ấy, hợp tan này,"},{"nom":"悲歡󰋇浽𣎀尼𦝄高","quocngu":"Bi hoan mấy nỗi, đêm này trăng cao."},{"nom":"更𣌉幅錦𢷀幍","quocngu":"Canh khuya bức gấm rủ thao,"},{"nom":"𠁑畑𤏣󰒂𦟐桃添春","quocngu":"Dưới đèn tỏ nghĩa, má đào thêm xuân."},{"nom":"情人吏﨤情人","quocngu":"Tình nhân lại gặp tình nhân,"},{"nom":"花初蜂󱀄󰋇分重情","quocngu":"Hoa xưa ong cũ, mấy phân trọng tình!"},{"nom":"娘浪分妾㐌停","quocngu":"Nàng rằng: \\"Phận thiếp đã đành,"},{"nom":"固爫之女丐命補𠫾","quocngu":"Có làm chi nữa cái mình bỏ đi!"},{"nom":"𢪀払󰒂󱀄情記","quocngu":"Nghĩ chàng nghĩa cũ tình ghi,"},{"nom":"朝𢚸噲固唱隨𡮨枚","quocngu":"Chiều lòng gọi có xướng tuỳ mảy may."},{"nom":"𥢆𢚸㐌𢢆𡗋台","quocngu":"Riêng lòng đã thẹn lắm thay,"},{"nom":"共它󰘚惮眉𠫆苦𥋳","quocngu":"Cũng đà mặt dạn mày dày khó coi!"},{"nom":"仍󰑼歐厭𨦩外","quocngu":"Những là âu yếm vành ngoài,"},{"nom":"群算𨷑󰘚貝𠊛朱戈","quocngu":"Còn toan mở mặt với người cho qua."},{"nom":"吏如仍𫗁𠊛些","quocngu":"Lại như những thói người ta,"},{"nom":"𣾼香𠁑坦𢯏花𡳳務","quocngu":"Vớt hương dưới đất, bẻ hoa cuối mùa."},{"nom":"拱洳󰇾辱排路","quocngu":"Cũng nhơ giở nhuốc bày trò,"},{"nom":"群情󰠲女麻𫌵帝催","quocngu":"Còn tình đâu nữa mà thù đấy thôi!"},{"nom":"𠊛腰些醜貝𠊛","quocngu":"Người yêu ta xấu với người,"},{"nom":"腰饒時吏平𨑮負饒","quocngu":"Yêu nhau thì lại bằng mười phụ nhau!"},{"nom":"󰘇茹油併𧗱娄","quocngu":"Cửa nhà dù tính về lâu,"},{"nom":"時群㛪妬路求姉低","quocngu":"Thì còn em đó, lọ cầu chị đây?"},{"nom":"𡦂貞群󰜋𡮍尼","quocngu":"Chữ trinh còn một chút này,"},{"nom":"𫽄扲木凭束𨃐朱散","quocngu":"Chẳng cầm mộc vững đông giày cho tan!"},{"nom":"群𡗉恩爱滇滇","quocngu":"Còn nhiều ân ái chan chan,"},{"nom":"咍之圍丐花殘麻別","quocngu":"Hay gì vầy cái hoa tàn mà biết?\\""},{"nom":"払浪哏咘󰜋𠳒","quocngu":"Chàng rằng: \\"Gắn bó một lời,"},{"nom":"俸空󰠩渃𫚳𡗶𠴊饒","quocngu":"Bỗng không cá nước chim trời lỡ nhau."},{"nom":"㤕𠊛流落閉𥹰","quocngu":"Xót người lưu lạc bấy lâu,"},{"nom":"想誓説𥘀拱𤴬疸󰡌","quocngu":"Tưởng thề thốt nặng cũng đau đớn lắm!"},{"nom":"傷饒生死㐌𡗉","quocngu":"Thương nhau sinh tử đã nhiều,"},{"nom":"迻僥群少闭饒󰑼情","quocngu":"Đưa nhau còn thiếu bấy nhiêu là tình."},{"nom":"澄春絲柳群撑","quocngu":"Chừng xuân tơ liễu còn xanh,"},{"nom":"𢪀渚渚脱塊鋉爱恩","quocngu":"Nghĩ chưa chưa thoát khỏi vành ái ân."},{"nom":"𦎛冲𫽄拙蓓塵","quocngu":"Gương trong chẳng chút bụi trần,"},{"nom":"󰜋𠳒决罕󰗾分敬添","quocngu":"Một lời quyết hẳn muôn phần kinh thêm!"},{"nom":"閉𥹰渧𣷭摸針","quocngu":"Bấy lâu đáy bể mò kim,"},{"nom":"󰑼𡗉鐄𥒥沛尋𦝄花","quocngu":"Là nhiều vàng đá phải tìm trăng hoa."},{"nom":"埃𪟽吏合󰜋茹","quocngu":"Ai ngờ lại họp một nhà,"},{"nom":"路󰑼𧜖噲買𦋦瑟琴","quocngu":"Lọ là chăn gối mới ra sắt cầm!\\""},{"nom":"𦖑𠳒所襖掑簪","quocngu":"Nghe lời sửa áo cài trâm,"},{"nom":"叩頭𥛉畧高深𠦳重","quocngu":"Khấu đầu lạy trước cao thâm nghìn trùng."},{"nom":"身殘溱濁恢冲","quocngu":"\\"Thân tàn [tràn] đục khơi trong"},{"nom":"󰑼𢘾君子恪𢚸𠊛些","quocngu":"Là nhờ quân tử khác lòng người ta."},{"nom":"󰋇𠳒心腹𦛌𦚐","quocngu":"Mấy lời tâm phúc ruột rà."},{"nom":"相知󰒂󰀎買󰑼相知","quocngu":"Tương tri dường ấy mới là tương tri!"},{"nom":"𨔾𩂏𦅰纀少之","quocngu":"Chở che đùm bọc thiếu gì,"},{"nom":"𤾓𫷜名節拱𧗱𣎀󰅒","quocngu":"Trăm năm danh tiết cũng về đêm nay!\\""},{"nom":"脱催𢬣吏扲𢬣","quocngu":"Thoắt thôi tay lại cầm tay,"},{"nom":"強腰爲󰞺強傷爲情","quocngu":"Càng yêu vì nết, càng thương vì tình."},{"nom":"添𤓢架浽香缾","quocngu":"Thêm nến giá, nổi hương bình,"},{"nom":"共饒吏祝󱋓瓊交歡","quocngu":"Cùng nhau lại chuốc chén quỳnh giao hoan."},{"nom":"情初來𣼽坤寒","quocngu":"Tình xưa lai láng khôn hàn,"},{"nom":"從容吏𠳨𦰟弹𣈜初","quocngu":"Thong dong lại hỏi ngón đàn ngày xưa."},{"nom":"娘浪爲󰋇塘絲","quocngu":"Nàng rằng: \\"Vì mấy đường tơ,"},{"nom":"𡗋𠊛朱旦悲𣇞吏催","quocngu":"Lắm người cho đến bây giờ lại thôi."},{"nom":"咹󱋔時事㐌耒","quocngu":"Ăn năn thì sự đã rồi,"},{"nom":"你𢚸𠊛󰉵󰂅𠳒󰜋畨","quocngu":"Nể lòng người cũ vâng lời một phen.\\""},{"nom":"泛弹迢迭𢬣仙","quocngu":"Phím đàn dè dặt tay tiên,"},{"nom":"𤌋沉高湿㗂弹𧵆賒","quocngu":"Khói trầm cao thấp, tiếng đàn gần xa."},{"nom":"曲󰠲淡蔭陽和","quocngu":"Khúc đâu đầm ấm dương hoà,"},{"nom":"󰀎󰑼蝴蝶咍󰑼莊生","quocngu":"Ấy là hồ điệp hay là Trang sinh."},{"nom":"曲󰠲淹爱春情","quocngu":"Khúc đâu êm ái xuân tình,"},{"nom":"󰀎魂蜀帝咍命杜鵑","quocngu":"Ấy hồn Thục đế hay mình đỗ quyên?"},{"nom":"冲牢珠㳶溋涓","quocngu":"Trong sao châu nhỏ duềnh quyên,"},{"nom":"蔭牢曷玉蓝田買冬","quocngu":"Ấm sao hạt ngọc Lam Điền mới đông!"},{"nom":"津𦖻𦖑𨔊𠄼宫","quocngu":"Lọt tai nghe suốt năm cung,"},{"nom":"㗂󰅹󰑼𫽄恼燶𠮿𡁞","quocngu":"Tiếng nào là chẳng não nùng xôn xao."},{"nom":"払浪譜󰀎𢬣󰅹","quocngu":"Chàng rằng: \\"Phổ ấy tay nào,"},{"nom":"初牢愁惨󰅒牢𢝙圍","quocngu":"Xưa sau sầu thảm, nay sao vui vầy?"},{"nom":"傷𢝙𪽝在𢚸尼","quocngu":"Thương vui bởi tại lòng này,"},{"nom":"咍󰑼苦尽旦𣈜甘來","quocngu":"Hay là khổ tận đến ngày cam lai?\\""},{"nom":"娘浪爲𡮍咍制","quocngu":"Nàng rằng: \\"Vì chút hay chơi,"},{"nom":"断膓㗂󰀎害𠊛閉𥹰","quocngu":"Đoạn trường tiếng ấy hại người bấy lâu!"},{"nom":"󰜋畨知己共饒","quocngu":"Một phen tri kỷ cùng nhau,"},{"nom":"卷𦀊自帝𧗱𡢐拱除","quocngu":"Cuốn dây từ đấy về sau cũng chừa.\\""},{"nom":"傳路渚𣴓𩯀絲","quocngu":"Chuyện trò chưa cạn tóc tơ,"},{"nom":"𬷤它嘅創𡗶皮孕東","quocngu":"Gà đà gáy sáng, trời vừa rạng đông."},{"nom":"情𥢆払吏呐󰠃","quocngu":"Tình riêng, chàng lại nói cùng,"},{"nom":"󰜋茹埃拱𨔍𨓡𠸦劳","quocngu":"Một nhà ai cũng lạ lùng khen lao."},{"nom":"朱咍淑女志高","quocngu":"Cho hay thục nữ chí cao,"},{"nom":"沛𠊛󰉺槾最桃如埃","quocngu":"Phải người sớm mận tối đào như ai?"},{"nom":"𠄩情院尾和𠄩","quocngu":"Hai tình vẹn vẽ hoà hai,"},{"nom":"𫽄𥪞𧜖𫋻拱外琴詩","quocngu":"Chẳng trong chăn gối, cũng ngoài cầm thơ."},{"nom":"欺󱋓𨢇欺局棋","quocngu":"Khi chén rượu, khi cuộc cờ,"},{"nom":"欺󰏙花𦬑欺徐𦝄𨖲","quocngu":"Khi xem hoa nở, khi chờ trăng lên."},{"nom":"𠀧生㐌菲𨑮願","quocngu":"Ba sinh đã phỉ mười nguyền,"},{"nom":"緣堆𡋿拱󰑼緣伴排","quocngu":"Duyên đôi lứa cũng là duyên bạn bầy."},{"nom":"𢖵𠳒立󰜋庵𩄲","quocngu":"Nhớ lời lập một am mây,"},{"nom":"遣𠊛親戚逴柴󰔼緣","quocngu":"Khiến người thân thích, rước thầy Giác Duyên."},{"nom":"旦尼㨂󰁮掑杄","quocngu":"Đến nơi đóng cửa cài then,"},{"nom":"𦼔𠆳技額𦹵𨕭𠃅茹","quocngu":"Rêu trùm kẽ ngạch, cỏ trên mái nhà."},{"nom":"師它󰇼𬟥方賒","quocngu":"Sư đà hái thuốc phương xa,"},{"nom":"𩄲𠖤鶴另別󰑼尋󰠲","quocngu":"Mây bay hạc lánh biết là tìm đâu?"},{"nom":"𥘀爲𡮍󰒂初𡢐","quocngu":"Nặng vì chút nghĩa xưa sau,"},{"nom":"𨕭庵據𡨹香油𣋚枚","quocngu":"Trên am cứ giữ hương dầu hôm mai."},{"nom":"󰜋茹福祿𠁟𠄩","quocngu":"Một nhà phúc lộc gồm hai,"},{"nom":"千年弋弋官堦吝吝","quocngu":"Thiên niên dằng dặc quan giai lần lần."},{"nom":"丞家𫽄歇娘雲","quocngu":"Thừa gia chẳng hết nàng Vân:"},{"nom":"󰜋核樛木󰜋𡑝桂槐","quocngu":"Một cây cù mộc, một sân quế hoè."},{"nom":"風流富貴埃皮","quocngu":"Phong lưu phú quý ai bì,"},{"nom":"圍春󰜋󰘇底碑󰗾𠁀","quocngu":"Ví xuân một cửa để bia muôn đời."},{"nom":"𡄎咍󰗾事在𡗶","quocngu":"Ngẫm hay muôn sự tại trời,"},{"nom":"𡗶箕㐌扒爫𠊛固身","quocngu":"Trời kia đã bắt làm người có thân."},{"nom":"扒風塵沛風塵","quocngu":"Bắt phong trần, phải phong trần,"},{"nom":"朱清高買特分清高","quocngu":"Cho thanh cao mới được phần thanh cao."},{"nom":"固󰠲天爲𠊛󰅹","quocngu":"Có đâu thiên vị người nào,"},{"nom":"𫳘才𫳘命𣼭󰠢奇𠄩","quocngu":"Chữ tài chữ mệnh dồi dào cả hai."},{"nom":"固才麻𢚁之才","quocngu":"Có tài mà cậy chi tài,"},{"nom":"𫳘才連貝𫳘灾󰜋韻","quocngu":"Chữ Tài liền với chữ Tai một vần."},{"nom":"㐌芒𥙩業𠓨身","quocngu":"Đã mang lấy nghiệp vào thân,"},{"nom":"拱停責吝𡗶𧵆𡗶賒","quocngu":"Cũng đừng trách lẫn trời gần trời xa."},{"nom":"善根於在𢚸些","quocngu":"Thiện căn ở tại lòng ta,"},{"nom":"𫳘心箕買朋𠀧𫳘才","quocngu":"Chữ Tâm kia mới bằng ba chữ tài."},{"nom":"𠳒圭抇𪭯容𨱽","quocngu":"Lời quê nhặt gói dông dài,"},{"nom":"模𢝙拱特󰜋𠄽𪔠更","quocngu":"Mua vui cũng được một vài trống canh."}]');
+
+/***/ }),
+
+/***/ 200:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"name":"sharp","description":"High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, GIF, AVIF and TIFF images","version":"0.33.4","author":"Lovell Fuller <npm@lovell.info>","homepage":"https://sharp.pixelplumbing.com","contributors":["Pierre Inglebert <pierre.inglebert@gmail.com>","Jonathan Ong <jonathanrichardong@gmail.com>","Chanon Sajjamanochai <chanon.s@gmail.com>","Juliano Julio <julianojulio@gmail.com>","Daniel Gasienica <daniel@gasienica.ch>","Julian Walker <julian@fiftythree.com>","Amit Pitaru <pitaru.amit@gmail.com>","Brandon Aaron <hello.brandon@aaron.sh>","Andreas Lind <andreas@one.com>","Maurus Cuelenaere <mcuelenaere@gmail.com>","Linus Unnebäck <linus@folkdatorn.se>","Victor Mateevitsi <mvictoras@gmail.com>","Alaric Holloway <alaric.holloway@gmail.com>","Bernhard K. Weisshuhn <bkw@codingforce.com>","Chris Riley <criley@primedia.com>","David Carley <dacarley@gmail.com>","John Tobin <john@limelightmobileinc.com>","Kenton Gray <kentongray@gmail.com>","Felix Bünemann <Felix.Buenemann@gmail.com>","Samy Al Zahrani <samyalzahrany@gmail.com>","Chintan Thakkar <lemnisk8@gmail.com>","F. Orlando Galashan <frulo@gmx.de>","Kleis Auke Wolthuizen <info@kleisauke.nl>","Matt Hirsch <mhirsch@media.mit.edu>","Matthias Thoemmes <thoemmes@gmail.com>","Patrick Paskaris <patrick@paskaris.gr>","Jérémy Lal <kapouer@melix.org>","Rahul Nanwani <r.nanwani@gmail.com>","Alice Monday <alice0meta@gmail.com>","Kristo Jorgenson <kristo.jorgenson@gmail.com>","YvesBos <yves_bos@outlook.com>","Guy Maliar <guy@tailorbrands.com>","Nicolas Coden <nicolas@ncoden.fr>","Matt Parrish <matt.r.parrish@gmail.com>","Marcel Bretschneider <marcel.bretschneider@gmail.com>","Matthew McEachen <matthew+github@mceachen.org>","Jarda Kotěšovec <jarda.kotesovec@gmail.com>","Kenric D\'Souza <kenric.dsouza@gmail.com>","Oleh Aleinyk <oleg.aleynik@gmail.com>","Marcel Bretschneider <marcel.bretschneider@gmail.com>","Andrea Bianco <andrea.bianco@unibas.ch>","Rik Heywood <rik@rik.org>","Thomas Parisot <hi@oncletom.io>","Nathan Graves <nathanrgraves+github@gmail.com>","Tom Lokhorst <tom@lokhorst.eu>","Espen Hovlandsdal <espen@hovlandsdal.com>","Sylvain Dumont <sylvain.dumont35@gmail.com>","Alun Davies <alun.owain.davies@googlemail.com>","Aidan Hoolachan <ajhoolachan21@gmail.com>","Axel Eirola <axel.eirola@iki.fi>","Freezy <freezy@xbmc.org>","Daiz <taneli.vatanen@gmail.com>","Julian Aubourg <j@ubourg.net>","Keith Belovay <keith@picthrive.com>","Michael B. Klein <mbklein@gmail.com>","Jordan Prudhomme <jordan@raboland.fr>","Ilya Ovdin <iovdin@gmail.com>","Andargor <andargor@yahoo.com>","Paul Neave <paul.neave@gmail.com>","Brendan Kennedy <brenwken@gmail.com>","Brychan Bennett-Odlum <git@brychan.io>","Edward Silverton <e.silverton@gmail.com>","Roman Malieiev <aromaleev@gmail.com>","Tomas Szabo <tomas.szabo@deftomat.com>","Robert O\'Rourke <robert@o-rourke.org>","Guillermo Alfonso Varela Chouciño <guillevch@gmail.com>","Christian Flintrup <chr@gigahost.dk>","Manan Jadhav <manan@motionden.com>","Leon Radley <leon@radley.se>","alza54 <alza54@thiocod.in>","Jacob Smith <jacob@frende.me>","Michael Nutt <michael@nutt.im>","Brad Parham <baparham@gmail.com>","Taneli Vatanen <taneli.vatanen@gmail.com>","Joris Dugué <zaruike10@gmail.com>","Chris Banks <christopher.bradley.banks@gmail.com>","Ompal Singh <ompal.hitm09@gmail.com>","Brodan <christopher.hranj@gmail.com>","Ankur Parihar <ankur.github@gmail.com>","Brahim Ait elhaj <brahima@gmail.com>","Mart Jansink <m.jansink@gmail.com>","Lachlan Newman <lachnewman007@gmail.com>","Dennis Beatty <dennis@dcbeatty.com>","Ingvar Stepanyan <me@rreverser.com>"],"scripts":{"install":"node install/check","clean":"rm -rf src/build/ .nyc_output/ coverage/ test/fixtures/output.*","test":"npm run test-lint && npm run test-unit && npm run test-licensing && npm run test-types","test-lint":"semistandard && cpplint","test-unit":"nyc --reporter=lcov --reporter=text --check-coverage --branches=100 mocha","test-licensing":"license-checker --production --summary --onlyAllow=\\"Apache-2.0;BSD;ISC;LGPL-3.0-or-later;MIT\\"","test-leak":"./test/leak/leak.sh","test-types":"tsd","package-from-local-build":"node npm/from-local-build","package-from-github-release":"node npm/from-github-release","docs-build":"node docs/build && node docs/search-index/build","docs-serve":"cd docs && npx serve","docs-publish":"cd docs && npx firebase-tools deploy --project pixelplumbing --only hosting:pixelplumbing-sharp"},"type":"commonjs","main":"lib/index.js","types":"lib/index.d.ts","files":["install","lib","src/*.{cc,h,gyp}"],"repository":{"type":"git","url":"git://github.com/lovell/sharp.git"},"keywords":["jpeg","png","webp","avif","tiff","gif","svg","jp2","dzi","image","resize","thumbnail","crop","embed","libvips","vips"],"dependencies":{"color":"^4.2.3","detect-libc":"^2.0.3","semver":"^7.6.0"},"optionalDependencies":{"@img/sharp-darwin-arm64":"0.33.4","@img/sharp-darwin-x64":"0.33.4","@img/sharp-libvips-darwin-arm64":"1.0.2","@img/sharp-libvips-darwin-x64":"1.0.2","@img/sharp-libvips-linux-arm":"1.0.2","@img/sharp-libvips-linux-arm64":"1.0.2","@img/sharp-libvips-linux-s390x":"1.0.2","@img/sharp-libvips-linux-x64":"1.0.2","@img/sharp-libvips-linuxmusl-arm64":"1.0.2","@img/sharp-libvips-linuxmusl-x64":"1.0.2","@img/sharp-linux-arm":"0.33.4","@img/sharp-linux-arm64":"0.33.4","@img/sharp-linux-s390x":"0.33.4","@img/sharp-linux-x64":"0.33.4","@img/sharp-linuxmusl-arm64":"0.33.4","@img/sharp-linuxmusl-x64":"0.33.4","@img/sharp-wasm32":"0.33.4","@img/sharp-win32-ia32":"0.33.4","@img/sharp-win32-x64":"0.33.4"},"devDependencies":{"@emnapi/runtime":"^1.1.1","@img/sharp-libvips-dev":"1.0.2","@img/sharp-libvips-dev-wasm32":"1.0.3","@img/sharp-libvips-win32-ia32":"1.0.2","@img/sharp-libvips-win32-x64":"1.0.2","@types/node":"*","async":"^3.2.5","cc":"^3.0.1","emnapi":"^1.1.1","exif-reader":"^2.0.1","extract-zip":"^2.0.1","icc":"^3.0.0","jsdoc-to-markdown":"^8.0.1","license-checker":"^25.0.1","mocha":"^10.4.0","node-addon-api":"^8.0.0","nyc":"^15.1.0","prebuild":"^13.0.1","semistandard":"^17.0.0","tar-fs":"^3.0.6","tsd":"^0.31.0"},"license":"Apache-2.0","engines":{"node":"^18.17.0 || ^20.3.0 || >=21.0.0","libvips":">=8.15.2"},"funding":{"url":"https://opencollective.com/libvips"},"binary":{"napi_versions":[9]},"semistandard":{"env":["mocha"]},"cc":{"linelength":"120","filter":["build/include"]},"nyc":{"include":["lib"]},"tsd":{"directory":"test/types/"}}');
 
 /***/ })
 
@@ -26934,8 +36652,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 /**
  * The entrypoint for the action.
  */
-const random_1 = __nccwpck_require__(7277);
-(0, random_1.run)();
+const generate_1 = __nccwpck_require__(1324);
+(0, generate_1.run)();
 
 })();
 

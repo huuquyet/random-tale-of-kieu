@@ -1,6 +1,6 @@
-import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import * as core from '@actions/core'
+import sharp from 'sharp'
 import { default as truyenKieu } from '../assets/truyen-kieu-1871.json'
 
 interface DoubleQuotes {
@@ -40,7 +40,7 @@ function getRandomQuotes(): DoubleQuotes {
 async function updateFile(fileName: string, result: string) {
   try {
     const filePath = resolve(fileName)
-    const contents = await readFile(filePath, { encoding: 'utf8' })
+    const contents = await Bun.file(filePath).text()
     const regex = new RegExp(`(${START_KIEU})[\\s\\S]*?(${END_KIEU})`, '')
 
     // Check if patterns exist to insert the quotes
@@ -49,7 +49,7 @@ async function updateFile(fileName: string, result: string) {
     }
 
     const newContents = contents.replace(regex, `$1${result}\n$2`)
-    await writeFile(filePath, newContents)
+    await Bun.write(filePath, newContents)
     core.info(`Updated ${fileName} with random quotes from The Tale of Kieu ✅ 💖`)
   } catch (error: any) {
     console.error(error)
@@ -59,7 +59,7 @@ async function updateFile(fileName: string, result: string) {
 }
 
 /** Get random quotes from The Tale of Kieu (nom version) */
-export async function run() {
+export async function randomKieu() {
   core.info('Updating with random quotes from The Tale of Kieu... 📁')
 
   const poem: DoubleQuotes = getRandomQuotes()
@@ -72,4 +72,10 @@ export async function run() {
 
   await updateFile('./README.md', result)
   await updateFile('./assets/random-kieu.svg', result)
+
+  // convert svg to webp
+  sharp('./assets/random-kieu.svg')
+    .toFile('./assets/random-kieu.webp')
+    .then((info: any) => core.info(info))
+    .catch((err: any) => console.error(err))
 }

@@ -1,6 +1,6 @@
 /**
  * The entrypoint for the action.
  */
-import { run } from './random'
+import { run } from './generate'
 
 run()

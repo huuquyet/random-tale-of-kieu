@@ -4,11 +4,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“埮𥿁𣻃捲征鞍</p>
-      <p class="nom">𬖉𠊛㐌屈󰋇岸橷撑”</p>
-      <p class="quocngu">Dặm vương bụi cuốn chinh an,</p>
-      <p class="quocngu">Trông người đã khuất mấy ngàn dâu xanh.</p>
-      <p class="author"><i>(Dòng 1521-1522) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">\u201C󰁹𦖑娘買待𢚸</p>
+      <p class="nom">於低󰘇佛󰑼空狹之\u201D</p>
+      <p class="quocngu">RỈ nghe nàng mới giãi lòng:</p>
+      <p class="quocngu">Ở đây cửa Phật là không hẹp gì;</p>
+      <p class="author"><i>(D\u00F2ng 2075-2076) Truy\u1EC7n Ki\u1EC1u</i> -- Nguy\u1EC5n Du</p>
 <!-- END_KIEU -->
 </div>
 
