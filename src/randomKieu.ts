@@ -1,4 +1,3 @@
-import { resolve } from 'node:path'
 import * as core from '@actions/core'
 import { encode } from 'html-entities'
 import sharp from 'sharp'
@@ -50,20 +49,19 @@ function getRandomQuotes(): DoubleQuotes {
 }
 
 /** Update files with comment blocks inside */
-async function updateFile(fileName: string, result: string) {
+async function updateFile(filePath: string, result: string) {
   try {
-    const filePath = resolve(fileName)
     const contents = await Bun.file(filePath).text()
     const regex = new RegExp(`(${START_KIEU})[\\s\\S]*?(${END_KIEU})`, '')
 
     // Check if patterns exist to insert the quotes
     if (!regex.test(contents)) {
-      core.info(`Please add comment blocks in ${fileName} to update and try again ⚠️`)
+      core.info(`Please add comment blocks in ${filePath} to update and try again ⚠️`)
     }
 
     const newContents = contents.replace(regex, `$1${result}\n$2`)
     await Bun.write(filePath, newContents)
-    core.info(`Updated ${fileName} with random quotes from The Tale of Kieu ✅ 💖`)
+    core.info(`Updated ${filePath} with random quotes from The Tale of Kieu ✅ 💖`)
   } catch (error: any) {
     console.error(error)
     // Fail the workflow run if an error occurs
@@ -89,8 +87,9 @@ export async function randomKieu() {
   await updateFile('./assets/random-kieu.svg', result)
 
   // convert svg to webp
-  sharp('./assets/random-kieu.svg')
-    .toFile('./assets/random-kieu.webp')
+  await sharp('./assets/random-kieu.svg')
+    .toFormat('jpeg', { mozjpeg: true })
+    .toFile('./assets/random-kieu.jpg')
     .then((info: any) => core.info(info))
     .catch((err: any) => console.error(err))
 }
