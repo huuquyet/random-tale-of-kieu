@@ -4,11 +4,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">&#8220;&#141085;&#23041;&#25954;&#180036;&#134185;&#134354;</p>
-      <p class="nom">&#20744;&#38957;&#32013;&#179467;&#136285;&#26522;&#984843;&#26397;&#8221;</p>
-      <p class="quocngu">S&#7907; uy, d&#225;m ch&#7859;ng [v&#226;ng] l&#7901;i</p>
-      <p class="quocngu">C&#250;i &#273;&#7847;u n&#233;p xu&#7889;ng s&#226;n mai m&#7897;t chi&#7873;u.</p>
-      <p class="author"><i>(D&#242;ng 1821-1822) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
+      <p class="nom">&#8220;&#142783;&#33337;&#142040;&#984602;&#23478;&#20154;</p>
+      <p class="nom">&#21769;&#984929;&#155658;&#163456;&#32384;&#36430;&#23064;&#161265;&#8221;</p>
+      <p class="quocngu">D&#7885;n thuy&#7873;n l&#7921;a m&#7863;t gia nh&#226;n,</p>
+      <p class="quocngu">H&#227;y &#273;em d&#226;y th&#7855;m bu&#7897;c &#273;en n&#224;ng v&#7873;.</p>
+      <p class="author"><i>(D&#242;ng 1615-1616) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -22,19 +22,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```
- _______________________________________
-/ “Those who dare to fail miserably can \
-| achieve greatly.”                     |
-|                                       |
-\  -- John F. Kennedy                   /
- ---------------------------------------
-     \
-      \
-       ("`-'  '-/") .___..--' ' "`-._
-         ` o_ o  )    `-.   (      ) .`-.__. `)
-         (_Y_.) ' ._   )   `._` ;  `` -. .-'
-      _.. `--'_..-_/   /--' _ .' ,4
-   ( i l ),-''  ( l i),'  ( ( ! .-'    
-```
+ ________________________________________
+/ “There is never enough time to do      \
+| everything, but there is always enough |
+| time to do the most important thing.”  |
+|                                        |
+\  -- Brian Tracy                        /
+ ----------------------------------------
+  \
+   \
 
+      ^(;,;)^
+
+```
 <!-- END_QUOTE -->
