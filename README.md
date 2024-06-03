@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">&#8220;&#142783;&#33337;&#142040;&#984602;&#23478;&#20154;</p>
-      <p class="nom">&#21769;&#984929;&#155658;&#163456;&#32384;&#36430;&#23064;&#161265;&#8221;</p>
-      <p class="quocngu">D&#7885;n thuy&#7873;n l&#7921;a m&#7863;t gia nh&#226;n,</p>
-      <p class="quocngu">H&#227;y &#273;em d&#226;y th&#7855;m bu&#7897;c &#273;en n&#224;ng v&#7873;.</p>
-      <p class="author"><i>(D&#242;ng 1615-1616) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
+      <p class="nom">&#8220;&#33492;&#33593;&#13831;&#13762;&#160454;&#25745;</p>
+      <p class="nom">&#29992;&#28150;&#28261;&#26611;&#25955;&#24773;&#27292;&#26522;&#8221;</p>
+      <p class="quocngu">&#272;&#7847;y nh&#224; vang ti&#7871;ng ru&#7891;i xanh.</p>
+      <p class="quocngu">R&#7909;ng r&#7901;i gi&#7885;t li&#7877;u, tan t&#224;nh c&#7897;i mai.</p>
+      <p class="author"><i>(D&#242;ng 581-582) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,17 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```
- ________________________________________
-/ “There is never enough time to do      \
-| everything, but there is always enough |
-| time to do the most important thing.”  |
-|                                        |
-\  -- Brian Tracy                        /
- ----------------------------------------
+ ____________________________________________
+/ “Sometimes I am happy and sometimes not. I \
+| am, after all, a human being, you know.    |
+| And I am glad that we are sometimes happy  |
+| and sometimes not. You get your wisdom     |
+| working by having different emotions.”     |
+|                                            |
+\  -- Yoko Ono                               /
+ --------------------------------------------
   \
    \
+    \
 
-      ^(;,;)^
-
+     iﾆﾆi
+    /   /ヽ
+   ｜農｜｜
+   ｜協｜｜
+   ｜牛｜｜＿
+ ／｜乳｜｜／
+ ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->
