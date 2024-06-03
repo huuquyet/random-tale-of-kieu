@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">&#8220;&#33492;&#33593;&#13831;&#13762;&#160454;&#25745;</p>
-      <p class="nom">&#29992;&#28150;&#28261;&#26611;&#25955;&#24773;&#27292;&#26522;&#8221;</p>
-      <p class="quocngu">&#272;&#7847;y nh&#224; vang ti&#7871;ng ru&#7891;i xanh.</p>
-      <p class="quocngu">R&#7909;ng r&#7901;i gi&#7885;t li&#7877;u, tan t&#224;nh c&#7897;i mai.</p>
-      <p class="author"><i>(D&#242;ng 581-582) Truy&#7879;n Ki&#7873;u</i> -- Nguy&#7877;n Du</p>
+      <p class="nom">“𦖑𠳒都呐𤑟𤉜</p>
+      <p class="nom">卽時迎帖𠶆払束生”</p>
+      <p class="quocngu">Nghe lời Đô nói rõ ràng,</p>
+      <p class="quocngu">Tức thì nghênh thiếp mời chàng Thúc sinh.</p>
+      <p class="author"><i>(Dòng 2913-2914) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```
- ____________________________________________
-/ “Sometimes I am happy and sometimes not. I \
-| am, after all, a human being, you know.    |
-| And I am glad that we are sometimes happy  |
-| and sometimes not. You get your wisdom     |
-| working by having different emotions.”     |
-|                                            |
-\  -- Yoko Ono                               /
- --------------------------------------------
-  \
-   \
-    \
+ ________________________________________
+/ “Having nothing, nothing can he lose.” \
+|                                        |
+\  -- William Shakespeare                /
+ ----------------------------------------
+         \
+          \
+                    ##        .
+              ## ## ##       ==
+           ## ## ## ##      ===
+       /""""""""""""""""\___/ ===
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+       \______ o          __/
+         \    \        __/
+          \____\______/
 
-     iﾆﾆi
-    /   /ヽ
-   ｜農｜｜
-   ｜協｜｜
-   ｜牛｜｜＿
- ／｜乳｜｜／
- ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->

@@ -1,3 +1,5 @@
+import { readFile, writeFile } from 'node:fs/promises'
+import { resolve } from 'node:path'
 import * as core from '@actions/core'
 import * as cowsay from 'cowsay'
 
@@ -6,19 +8,20 @@ const START_QUOTE: string = '<!-- START_QUOTE -->'
 const END_QUOTE: string = '<!-- END_QUOTE -->'
 
 /** Update files with comment blocks inside */
-async function updateFile(filePath: string, result: string) {
+async function updateFile(fileName: string, result: string) {
   try {
-    const contents = await Bun.file(filePath).text()
+    const filePath = resolve(fileName)
+    const contents = await readFile(filePath, { encoding: 'utf8' })
     const regex = new RegExp(`(${START_QUOTE})[\\s\\S]*?(${END_QUOTE})`, '')
 
     // Check if patterns exist to insert the quotes
     if (!regex.test(contents)) {
-      core.info(`Please add comment blocks in ${filePath} to update and try again ⚠️`)
+      core.info(`Please add comment blocks in ${fileName} to update and try again ⚠️`)
     }
 
     const newContents = contents.replace(regex, `$1${result}$2`)
-    await Bun.write(filePath, newContents)
-    core.info(`Updated ${filePath} with random quotes ✅ 💖`)
+    await writeFile(filePath, newContents)
+    core.info(`Updated ${fileName} with random quotes ✅ 💖`)
   } catch (error: any) {
     console.error(error)
     // Fail the workflow run if an error occurs

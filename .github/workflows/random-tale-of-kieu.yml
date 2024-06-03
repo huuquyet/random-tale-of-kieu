@@ -28,13 +28,6 @@ jobs:
     # Checkout the main branch
     - uses: actions/checkout@v4
 
-    # Setup bun
-    - name: Setup bun
-      id: bun
-      uses: oven-sh/setup-bun@v1
-      with:
-        bun-version: latest
-
     # Uses action in the root directory to get random Tale of Kieu
     - name: The random quotes from The Tale of Kieu
       id: kieu
