@@ -8,14 +8,5 @@ branding:
   color: "red"
 
 runs:
-  using: "composite"
-  steps:
-    - name: Setup bun
-      uses: oven-sh/setup-bun@v1
-      with:
-        bun-version: latest
-    - name: Generate random quotes from The Tale of Kieu
-      run: |
-        bun install
-        bun start
-      shell: bash
+  using: 'node20'
+  main: dist/index.js

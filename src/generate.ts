@@ -1,4 +1,3 @@
-import * as core from '@actions/core'
 import { randomKieu } from './randomKieu'
 import { randomQuotes } from './randomQuotes'
 
