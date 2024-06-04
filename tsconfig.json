@@ -6,22 +6,21 @@
     },
     "rootDirs": ["./src"],
     "outDir": "./dist",
-    "types": ["bun-types"],
 
     // Enable latest features
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "target": "ESNext",
-    "module": "NodeNext",
-    // "moduleDetection": "force",
+    "module": "ESNext",
+    "moduleDetection": "force",
     // "jsx": "react-jsx",
     // "allowJs": true,
 
     // Bundler mode
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Bundler",
     "esModuleInterop": true,
     // "allowImportingTsExtensions": true,
     // "verbatimModuleSyntax": true,
-    // "noEmit": true,
+    "noEmit": true,
 
     // Best practices
     "resolveJsonModule": true,
