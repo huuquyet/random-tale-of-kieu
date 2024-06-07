@@ -1,9 +1,9 @@
 name: random-tale-of-kieu
 
 on:
-  # Run automatically everyday at 00:05
-  # schedule:
-  # - cron: "5 0 * * *"
+  # Run automatically everyday at 00:00
+  schedule:
+  - cron: "0 0 * * *"
   
   # Allows to manually run the job at any time
   workflow_dispatch:

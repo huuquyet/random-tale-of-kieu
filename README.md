@@ -24,7 +24,7 @@ SVG:
 ## Random quote from api.quotable.io with ASCII format
 
 <!-- START_QUOTE -->
-```
+```rust
  ____________________________________________
 / “So is cheerfulness, or a good temper, the \
 | more it is spent, the more remains.”       |

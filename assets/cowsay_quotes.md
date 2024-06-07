@@ -1,4 +1,4 @@
-```
+```rust
  ______________________________________________________
 / The only true wisdom is in knowing you know nothing. \
 |                                                      |

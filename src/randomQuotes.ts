@@ -43,7 +43,7 @@ export async function randomQuotes() {
     const text = `“${wrap}”\n\n -- ${quote.author}`
     // Display the quote with cowsay ASCII art
     const ascii = cowsay.say({ text, r: true })
-    const result = String.raw`${'\n```\n'}${ascii}${'\n```\n'}`
+    const result = String.raw`${'\n```rust\n'}${ascii}${'\n```\n'}`
 
     await updateFile('./README.md', result)
   } catch (error: any) {
