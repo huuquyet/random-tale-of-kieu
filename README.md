@@ -24,7 +24,7 @@ SVG:
 ## Random quote from api.quotable.io with ASCII format
 
 <!-- START_QUOTE -->
-```
+```rust
  ____________________________________________
 / “When it is obvious that the goals cannot  \
 | be reached, don't adjust the goals, adjust |

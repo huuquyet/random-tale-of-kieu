@@ -6,7 +6,7 @@
 
   "files": {
     "ignoreUnknown": true,
-    "ignore": ["./node_modules", "./.pnp*", "./coverage", "./dist", "./types", "./build"]
+    "ignore": ["./node_modules", "./.pnp*", "./coverage", "./dist", "./types", "./.vscode"]
   },
   "linter": {
     "enabled": true,
