@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“於𨕭群固茹椿</p>
-      <p class="nom">𢚸𨕭𬂙𫴋別𢚸固傷”</p>
-      <p class="quocngu">Ở trên còn có nhà thung,</p>
-      <p class="quocngu">Lòng trên trông xuống biết lòng có thương?</p>
-      <p class="author"><i>(Dòng 1353-1354) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“花唭玉説端莊</p>
+      <p class="nom">𩄲輸渃𩯀雪讓牟䏧”</p>
+      <p class="quocngu">Hoa cười ngọc thốt đoan trang,</p>
+      <p class="quocngu">Mây thua nước tóc, tuyết nhường màu da.</p>
+      <p class="author"><i>(Dòng 21-22) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,18 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “When it is obvious that the goals cannot  \
-| be reached, don't adjust the goals, adjust |
-| the action steps.”                         |
+/ “There are three faithful friends - an old \
+| wife, an old dog, and ready money.”        |
 |                                            |
-\  -- Confucius                              /
+\  -- Benjamin Franklin                      /
  --------------------------------------------
-  \
-   \          . .: -ーー― :._
-    \       ／.: .: .: .:     ＞  r⌒ヽ
-           / .:         ｜.､.:＼  ﾉ ノ
-          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
-          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
-          |: .:/ c─-        Ｙ:| /
-          |:ﾊ:{``   ,  --┐  人V /
-          ﾉ:L＼>   く_,￣┘／  ＼
-   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
-   L_,vー─-|    ､ }  ＶYﾊ   Y
-             ￣￣Ｖ  ｜/∧   ﾍ
-                  {   |//∧  ﾍ
-                  {    ＼//   ﾍ
-                  {            ＼
-                  ｝             >
+\
+ \
+    ______
+   / ___M ]__
+C{ ( o o )}
+    {     ••
+      \___
+      ----´
 ```
 <!-- END_QUOTE -->
