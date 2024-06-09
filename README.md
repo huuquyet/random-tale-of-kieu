@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“花唭玉説端莊</p>
-      <p class="nom">𩄲輸渃𩯀雪讓牟䏧”</p>
-      <p class="quocngu">Hoa cười ngọc thốt đoan trang,</p>
-      <p class="quocngu">Mây thua nước tóc, tuyết nhường màu da.</p>
-      <p class="author"><i>(Dòng 21-22) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“平󰅒𠹾㗂王臣</p>
+      <p class="nom">青青塘丐青雲狹之”</p>
+      <p class="quocngu">Bằng nay chịu tiếng vương thần.</p>
+      <p class="quocngu">Thênh thênh đường cái thanh vân hẹp gì!</p>
+      <p class="author"><i>(Dòng 2477-2478) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,18 +26,21 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “There are three faithful friends - an old \
-| wife, an old dog, and ready money.”        |
+/ “Meetings are indispensable when you don't \
+| want to do anything.”                      |
 |                                            |
-\  -- Benjamin Franklin                      /
+\  -- John Kenneth Galbraith                 /
  --------------------------------------------
-\
- \
-    ______
-   / ___M ]__
-C{ ( o o )}
-    {     ••
-      \___
-      ----´
+  \
+   \
+    \
+
+     iﾆﾆi
+    /   /ヽ
+   ｜農｜｜
+   ｜協｜｜
+   ｜牛｜｜＿
+ ／｜乳｜｜／
+ ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->
