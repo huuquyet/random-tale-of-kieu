@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“平󰅒𠹾㗂王臣</p>
-      <p class="nom">青青塘丐青雲狹之”</p>
-      <p class="quocngu">Bằng nay chịu tiếng vương thần.</p>
-      <p class="quocngu">Thênh thênh đường cái thanh vân hẹp gì!</p>
-      <p class="author"><i>(Dòng 2477-2478) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“生陀茀落塊漂</p>
+      <p class="nom">傷喂𫽄沛娘翹於低”</p>
+      <p class="quocngu">Sinh đà phất lạc hồn xiêu,</p>
+      <p class="quocngu">Thương ôi! Chẳng phải nàng Kiều ở đây?</p>
+      <p class="author"><i>(Dòng 1823-1824) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Meetings are indispensable when you don't \
-| want to do anything.”                      |
-|                                            |
-\  -- John Kenneth Galbraith                 /
- --------------------------------------------
-  \
-   \
-    \
-
-     iﾆﾆi
-    /   /ヽ
-   ｜農｜｜
-   ｜協｜｜
-   ｜牛｜｜＿
- ／｜乳｜｜／
- ￣￣￣￣￣
+ __________________________________________
+/ “Every adversity, every failure, every   \
+| heartache carries with it the seed of an |
+| equal or greater benefit.”               |
+|                                          |
+\  -- Napoleon Hill                        /
+ ------------------------------------------
+ \     /\  ___  /\
+  \   // \/   \/ \\
+     ((    o o    ))
+      \\ /     \ //
+       \/  | |  \/ 
+        |  | |  |  
+        |  | |  |  
+        |   o   |  
+        | |   | |  
+        |m|   |m|  
 ```
 <!-- END_QUOTE -->
