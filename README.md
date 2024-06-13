@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“重生恩𥘀𣷭𡗶</p>
-      <p class="nom">𢚸󰅹女𢴑󰒂𠊛𦋦𠫾”</p>
-      <p class="quocngu">Trùng sinh ân nặng bể trời,</p>
-      <p class="quocngu">Lòng nào nỡ dứt nghĩa người ra đi?"</p>
-      <p class="author"><i>(Dòng 3049-3050) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰌕心強拉強燶</p>
+      <p class="nom">責𠊛顛薄𦋦𢚸𦝄花”</p>
+      <p class="quocngu">Lửa tâm càng dập càng nồng,</p>
+      <p class="quocngu">Giận người đen bạc ra lòng trăng hoa:</p>
+      <p class="author"><i>(Dòng 1537-1538) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Love is flower like; Friendship is like a \
-| sheltering tree.”                          |
-|                                            |
-\  -- Samuel Taylor Coleridge                /
- --------------------------------------------
-    \
-     \
-            .+
-             /M;
-              H#@:              ;,
-              -###H-          -@/
-               %####$.  -;  .%#X
-                M#####+;#H :M#M.
-..          .+/;%#########X###-
- -/%H%+;-,    +##############/
-    .:$M###MH$%+############X  ,--=;-
-        -/H#####################H+=.
-           .+#################X.
-         =%M####################H;.
-            /@###############+;;/%%;,
-         -%###################$.
-       ;H######################M=
-    ,%#####MH$%;+#####M###-/@####%
-  :$H%+;=-      -####X.,H#   -+M##@-
- .              ,###;    ;      =$##+
-                .#H,               :XH,
-                 +                   .;-
+ __________________________________________
+/ “It's not what you look at that matters, \
+| it's what you see.”                      |
+|                                          |
+\  -- Henry David Thoreau                  /
+ ------------------------------------------
+          \      (__)      
+           \     /oo|  
+            \   (_"_)*+++++++++*
+                   //I#\\\\\\\\I\
+                   I[I|I|||||I I `
+                   I`I'///'' I I
+                   I I       I I
+                   ~ ~       ~ ~
+                     Scowleton
 ```
 <!-- END_QUOTE -->
