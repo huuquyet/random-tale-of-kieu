@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰌕心強拉強燶</p>
-      <p class="nom">責𠊛顛薄𦋦𢚸𦝄花”</p>
-      <p class="quocngu">Lửa tâm càng dập càng nồng,</p>
-      <p class="quocngu">Giận người đen bạc ra lòng trăng hoa:</p>
-      <p class="author"><i>(Dòng 1537-1538) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡥵箕㐌半朱些</p>
+      <p class="nom">入家沛據法茹蚤低”</p>
+      <p class="quocngu">Con kia đã bán cho ta,</p>
+      <p class="quocngu">Nhập gia phải cứ phép nhà tao đây.</p>
+      <p class="author"><i>(Dòng 971-972) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,16 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “It's not what you look at that matters, \
-| it's what you see.”                      |
-|                                          |
-\  -- Henry David Thoreau                  /
- ------------------------------------------
-          \      (__)      
-           \     /oo|  
-            \   (_"_)*+++++++++*
-                   //I#\\\\\\\\I\
-                   I[I|I|||||I I `
-                   I`I'///'' I I
-                   I I       I I
-                   ~ ~       ~ ~
-                     Scowleton
+ _________________________________________
+/ “Nothing in life is to be feared. It is \
+| only to be understood.”                 |
+|                                         |
+\  -- Marie Curie                         /
+ -----------------------------------------
+  \
+   \   \
+        \ /\
+        ( )
+      .( o ).
 ```
 <!-- END_QUOTE -->
