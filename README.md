@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“払浪譜󰀎𢬣󰅹</p>
-      <p class="nom">初牢愁惨󰅒牢𢝙圍”</p>
-      <p class="quocngu">Chàng rằng: "Phổ ấy tay nào,</p>
-      <p class="quocngu">Xưa sau sầu thảm, nay sao vui vầy?</p>
-      <p class="author"><i>(Dòng 3207-3208) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“他𦋦時拱埋𠁀</p>
+      <p class="nom">爫𦋦時拱𦋦𠊛𡮈然”</p>
+      <p class="quocngu">Tha ra thì cũng may đời,</p>
+      <p class="quocngu">Làm ra thì cũng ra người nhỏ nhen.</p>
+      <p class="author"><i>(Dòng 2375-2376) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Take rest; a field that has rested gives a \
-| bountiful crop.”                            |
-|                                             |
-\  -- Ovid                                    /
- ---------------------------------------------
-  \
-     \
-                  _ _
-       | \__/|  .~    ~.
-       /oo `./      .'
-      {o__,   \    {
-        / .  . )    \
-        `-` '-' \    }
-       .(   _(   )_.'
-      '---.~_ _ _|
-                                                     
+ ____________________________________________
+/ “The opportunity for brotherhood presents  \
+| itself every time you meet a human being.” |
+|                                            |
+\  -- Jane Wyman                             /
+ --------------------------------------------
+      \                            |     |
+       \                        ,--|     |-.
+                         __,----|  |     | |
+                       ,;::     |  `_____' |
+                       `._______|    i^i   |
+                                `----| |---'| .
+                           ,-------._| |== ||//
+                           |       |_|P`.  /'/
+                           `-------' 'Y Y/'/'
+                                     .==\ /_\
+   ^__^                             /   /'|  `i
+   (oo)\_______                   /'   /  |   |
+   (__)\       )\/\             /'    /   |   `i
+       ||----w |           ___,;`----'.___L_,-'`\__
+       ||     ||          i_____;----\.____i""\____\
 ```
 <!-- END_QUOTE -->
