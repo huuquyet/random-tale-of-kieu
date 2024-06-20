@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“火碑前路𨇒毛</p>
-      <p class="nom">南庭𦖑動𤿰朝大营”</p>
-      <p class="quocngu">Hoả bài tiền lộ ruổi mau,</p>
-      <p class="quocngu">Nam đình nghe động trống chầu đại doanh.</p>
-      <p class="author"><i>(Dòng 2269-2270) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“信𠳒城下要盟</p>
+      <p class="nom">𦰟旗魚咢𤿰更雉長”</p>
+      <p class="quocngu">Tin lời thành hạ yêu minh,</p>
+      <p class="quocngu">Ngọn cờ ngơ ngác, trống canh trễ tràng.</p>
+      <p class="author"><i>(Dòng 2503-2504) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,16 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Effort only fully releases its reward \
-| after a person refuses to quit.”       |
-|                                        |
-\  -- Napoleon Hill                      /
- ----------------------------------------
-       \   \_______
- v__v   \  \   O   )
- (oo)      ||----w |
- (__)      ||     ||  \/\
-    
+ __________________________________________
+/ “Iron rusts from disuse; water loses its \
+| purity from stagnation... even so does   |
+| inaction sap the vigor of the mind.”     |
+|                                          |
+\  -- Leonardo da Vinci                    /
+ ------------------------------------------
+             \
+              \
+                             ,.---._
+                   ,,,,     /       `,
+                    \\\\   /    '\_  ;
+                     |||| /\/``-.__\;'
+                     ::::/\/_
+     {{`-.__.-'(`(^^(^^^(^ 9 `.========='
+    {{{{{{ { ( ( (  (   (-----:=
+     {{.-'~~'-.(,(,,(,,,(__6_.'=========.
+                     ::::\/\
+                     |||| \/\  ,-'/,
+                    ////   \ `` _/ ;
+                   ''''     \  `  .'
+                             `---'
 ```
 <!-- END_QUOTE -->
