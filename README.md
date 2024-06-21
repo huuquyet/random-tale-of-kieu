@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“信𠳒城下要盟</p>
-      <p class="nom">𦰟旗魚咢𤿰更雉長”</p>
-      <p class="quocngu">Tin lời thành hạ yêu minh,</p>
-      <p class="quocngu">Ngọn cờ ngơ ngác, trống canh trễ tràng.</p>
-      <p class="author"><i>(Dòng 2503-2504) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“欺𧗱補永𥪞茹</p>
+      <p class="nom">欺𠓨推孕欺𦋦倍鐄”</p>
+      <p class="quocngu">Khi về bỏ vắng trong nhà,</p>
+      <p class="quocngu">Khi vào dồi dắng, khi ra vội vàng.</p>
+      <p class="author"><i>(Dòng 883-884) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Iron rusts from disuse; water loses its \
-| purity from stagnation... even so does   |
-| inaction sap the vigor of the mind.”     |
-|                                          |
-\  -- Leonardo da Vinci                    /
- ------------------------------------------
-             \
-              \
-                             ,.---._
-                   ,,,,     /       `,
-                    \\\\   /    '\_  ;
-                     |||| /\/``-.__\;'
-                     ::::/\/_
-     {{`-.__.-'(`(^^(^^^(^ 9 `.========='
-    {{{{{{ { ( ( (  (   (-----:=
-     {{.-'~~'-.(,(,,(,,,(__6_.'=========.
-                     ::::\/\
-                     |||| \/\  ,-'/,
-                    ////   \ `` _/ ;
-                   ''''     \  `  .'
-                             `---'
+ _________________________________________
+/ “The farther backward you can look, the \
+| farther forward you can see.”           |
+|                                         |
+\  -- Winston Churchill                   /
+ -----------------------------------------
+     \
+      \
+     _              __
+    / `\  (~._    ./  )
+    \__/ __`-_\__/ ./
+   _ \ \/  \   \ |_   __
+ (   )  \__/ -^    \ /  \
+  \_/ "  \  | o  o  |.. /  __
+       \. --' ====  /  || /  \
+         \   .  .  |---__.\__/
+         /  :     /   |   |
+         /   :   /     \_/
+      --/ ::    (
+     (  |     (  (____
+   .--  .. ----**.____)
+   \___/
 ```
 <!-- END_QUOTE -->
