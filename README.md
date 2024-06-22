@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“欺𧗱補永𥪞茹</p>
-      <p class="nom">欺𠓨推孕欺𦋦倍鐄”</p>
-      <p class="quocngu">Khi về bỏ vắng trong nhà,</p>
-      <p class="quocngu">Khi vào dồi dắng, khi ra vội vàng.</p>
-      <p class="author"><i>(Dòng 883-884) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“香𣋚花󰉲奉蜍</p>
+      <p class="nom">姑󰅹醜𩴬朱䜹䋦行”</p>
+      <p class="quocngu">Hương hôm hoa sớm phụng thờ,</p>
+      <p class="quocngu">Cô nào xấu vía cho thưa mối hàng,</p>
+      <p class="author"><i>(Dòng 933-934) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The farther backward you can look, the \
-| farther forward you can see.”           |
-|                                         |
-\  -- Winston Churchill                   /
- -----------------------------------------
-     \
-      \
-     _              __
-    / `\  (~._    ./  )
-    \__/ __`-_\__/ ./
-   _ \ \/  \   \ |_   __
- (   )  \__/ -^    \ /  \
-  \_/ "  \  | o  o  |.. /  __
-       \. --' ====  /  || /  \
-         \   .  .  |---__.\__/
-         /  :     /   |   |
-         /   :   /     \_/
-      --/ ::    (
-     (  |     (  (____
-   .--  .. ----**.____)
-   \___/
+ ____________________________________________
+/ “We are all inclined to judge ourselves by \
+| our ideals; others, by their acts.”        |
+|                                            |
+\  -- Harold Nicolson                        /
+ --------------------------------------------
+   \
+    \
+  
+             _ - ￣ - _
+           _-_＿＿＿＿_- _
+         ￣ｌ  ●   ●  l￣
+            ヽ､_ ⌒ _ノ
+         _ -‐ニ ￣ ニ‐- _
+  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
+ ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
 ```
 <!-- END_QUOTE -->
