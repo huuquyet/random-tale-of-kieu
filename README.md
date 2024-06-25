@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦝄𫅷獨地爫𫳵</p>
-      <p class="nom">擒𦀊𫽄擬纀𠓨自然”</p>
-      <p class="quocngu">Trăng già độc địa làm sao?</p>
-      <p class="quocngu">Cầm dây chẳng nghĩ buộc vào tự nhiên.</p>
-      <p class="author"><i>(Dòng 687-688) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“小婵圭於北京</p>
+      <p class="nom">皈師皈佛修行閉𥹰”</p>
+      <p class="quocngu">Tiểu thiền quê ở Bắc Kinh,</p>
+      <p class="quocngu">Qui sư, qui Phật tu hành bấy lâu.</p>
+      <p class="author"><i>(Dòng 2043-2044) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Adversity has the effect of eliciting     \
-| talents, which in prosperous circumstances |
-| would have lain dormant.”                  |
-|                                            |
-\  -- Horace                                 /
- --------------------------------------------
- \      .------------------------.
-  \     |       PSYCHIATRIC      |
-   \    |         HELP  5¢       |
-    \   |________________________|
-     \  ||     .-"""--.         ||
-      \ ||    /        \.-.     ||
-        ||   |     ._,     \    ||
-        ||   \_/`-'   '-.,_/    ||
-        ||   (_   (' _)') \     ||
-        ||   /|           |\    ||
-        ||  | \     __   / |    ||
-        ||   \_).,_____,/}/     ||
-      __||____;_--'___'/ (      ||
-     |\ ||   (__,\\    \_/------||
-     ||\||______________________||
-     ||||                        |
-     ||||       THE DOCTOR       |
-     \|||         IS [IN]   _____|
-      \||                  (______)
- jgs   `|___________________//||\\
-                           //=||=\\
-                           `  ``  `
+ _________________________________________
+/ “It's supposed to be automatic, but     \
+| actually you have to push this button.” |
+|                                         |
+\  -- John Brunner                        /
+ -----------------------------------------
+ \
+  \
+    <>_
+  (\)  )
+   \__/
+  (____)
+   |  |
+   |__|
+  /____\
+ (______)
 ```
 <!-- END_QUOTE -->
