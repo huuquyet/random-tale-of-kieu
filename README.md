@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“小婵圭於北京</p>
-      <p class="nom">皈師皈佛修行閉𥹰”</p>
-      <p class="quocngu">Tiểu thiền quê ở Bắc Kinh,</p>
-      <p class="quocngu">Qui sư, qui Phật tu hành bấy lâu.</p>
-      <p class="author"><i>(Dòng 2043-2044) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣴓𢚸生買𢪀溇</p>
+      <p class="nom">底埃𦝄悴花愁爲埃”</p>
+      <p class="quocngu">Cạn lòng sinh mới nghĩ sâu,</p>
+      <p class="quocngu">Để ai trăng tủi hoa sầu vì ai?"</p>
+      <p class="author"><i>(Dòng 1435-1436) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “It's supposed to be automatic, but     \
-| actually you have to push this button.” |
-|                                         |
-\  -- John Brunner                        /
- -----------------------------------------
- \
-  \
-    <>_
-  (\)  )
-   \__/
-  (____)
-   |  |
-   |__|
-  /____\
- (______)
+ ____________________________________________
+/ “Love does not consist of gazing at each   \
+| other, but in looking together in the same |
+| direction.”                                |
+|                                            |
+\  -- Antoine de Saint-Exupéry               /
+ --------------------------------------------
+     \
+      \
+       ("`-'  '-/") .___..--' ' "`-._
+         ` o_ o  )    `-.   (      ) .`-.__. `)
+         (_Y_.) ' ._   )   `._` ;  `` -. .-'
+      _.. `--'_..-_/   /--' _ .' ,4
+   ( i l ),-''  ( l i),'  ( ( ! .-'    
 ```
 <!-- END_QUOTE -->
