@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣴓𢚸生買𢪀溇</p>
-      <p class="nom">底埃𦝄悴花愁爲埃”</p>
-      <p class="quocngu">Cạn lòng sinh mới nghĩ sâu,</p>
-      <p class="quocngu">Để ai trăng tủi hoa sầu vì ai?"</p>
-      <p class="author"><i>(Dòng 1435-1436) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浽娘雲買󰁹𦖻</p>
+      <p class="nom">隻󰠽底貝詞掊於低”</p>
+      <p class="quocngu">Nỗi nàng Vân mới rỉ tai,</p>
+      <p class="quocngu">Chiếc thoa đây với tờ bồi ở đây.</p>
+      <p class="author"><i>(Dòng 765-766) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Love does not consist of gazing at each   \
-| other, but in looking together in the same |
-| direction.”                                |
-|                                            |
-\  -- Antoine de Saint-Exupéry               /
- --------------------------------------------
-     \
-      \
-       ("`-'  '-/") .___..--' ' "`-._
-         ` o_ o  )    `-.   (      ) .`-.__. `)
-         (_Y_.) ' ._   )   `._` ;  `` -. .-'
-      _.. `--'_..-_/   /--' _ .' ,4
-   ( i l ),-''  ( l i),'  ( ( ! .-'    
+ ______________________________________
+/ “To be wronged is nothing unless you \
+| continue to remember it.”            |
+|                                      |
+\  -- Confucius                        /
+ --------------------------------------
+          \      (__)      
+           \     /oo|  
+            \   (_"_)*+++++++++*
+                   //I#\\\\\\\\I\
+                   I[I|I|||||I I `
+                   I`I'///'' I I
+                   I I       I I
+                   ~ ~       ~ ~
+                     Scowleton
 ```
 <!-- END_QUOTE -->
