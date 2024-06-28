@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浽娘雲買󰁹𦖻</p>
-      <p class="nom">隻󰠽底貝詞掊於低”</p>
-      <p class="quocngu">Nỗi nàng Vân mới rỉ tai,</p>
-      <p class="quocngu">Chiếc thoa đây với tờ bồi ở đây.</p>
-      <p class="author"><i>(Dòng 765-766) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㤿𧛋帳𢷀幔𩂏</p>
+      <p class="nom">墻東蜂𧊉𠫾𧗱默埃”</p>
+      <p class="quocngu">Êm niềm trướng rủ màn che,</p>
+      <p class="quocngu">Tường đông ong bướm đi về mặc ai.</p>
+      <p class="author"><i>(Dòng 37-38) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________
-/ “To be wronged is nothing unless you \
-| continue to remember it.”            |
-|                                      |
-\  -- Confucius                        /
- --------------------------------------
-          \      (__)      
-           \     /oo|  
-            \   (_"_)*+++++++++*
-                   //I#\\\\\\\\I\
-                   I[I|I|||||I I `
-                   I`I'///'' I I
-                   I I       I I
-                   ~ ~       ~ ~
-                     Scowleton
+ ________________________________________
+/ “Fear grows in darkness; if you think  \
+| there's a bogeyman around, turn on the |
+| light.”                                |
+|                                        |
+\  -- Dorothy Thompson                   /
+ ----------------------------------------
+   \
+    \
+  
+             _ - ￣ - _
+           _-_＿＿＿＿_- _
+         ￣ｌ  ●   ●  l￣
+            ヽ､_ ⌒ _ノ
+         _ -‐ニ ￣ ニ‐- _
+  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
+ ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
 ```
 <!-- END_QUOTE -->
