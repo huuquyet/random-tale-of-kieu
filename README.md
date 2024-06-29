@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㤿𧛋帳𢷀幔𩂏</p>
-      <p class="nom">墻東蜂𧊉𠫾𧗱默埃”</p>
-      <p class="quocngu">Êm niềm trướng rủ màn che,</p>
-      <p class="quocngu">Tường đông ong bướm đi về mặc ai.</p>
-      <p class="author"><i>(Dòng 37-38) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“祝󰑼𨑮󰋇𫷜𡗶</p>
+      <p class="nom">群𦋦欺㐌䏧蝟𩯀霜”</p>
+      <p class="quocngu">Chốc đà mười mấy năm trời,</p>
+      <p class="quocngu">Còn ra khi đã da mồi tóc sương.</p>
+      <p class="author"><i>(Dòng 2239-2240) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Fear grows in darkness; if you think  \
-| there's a bogeyman around, turn on the |
-| light.”                                |
-|                                        |
-\  -- Dorothy Thompson                   /
- ----------------------------------------
-   \
-    \
-  
-             _ - ￣ - _
-           _-_＿＿＿＿_- _
-         ￣ｌ  ●   ●  l￣
-            ヽ､_ ⌒ _ノ
-         _ -‐ニ ￣ ニ‐- _
-  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
- ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
+ ___________________________________________
+/ “We know what we are but know not what we \
+| may be.”                                  |
+|                                           |
+\  -- William Shakespeare                   /
+ -------------------------------------------
+     \
+      \ 
+  /\          /\                               
+ ( \\        // )                              
+  \ \\      // /                               
+   \_\\||||//_/                                
+     / _  _ \/                                 
+                                               
+     |(o)(o)|\/                                
+     |      | \/                               
+     \      /  \/_____________________         
+      |____|     \\                  \\        
+     /      \     ||                  \\       
+     \ 0  0 /     |/                  |\\      
+      \____/ \    V           (       / \\     
+       / \    \     )          \     /   \\    
+      / | \    \_|  |___________\   /     "" 
+                  ||  |     \   /\  \          
+                  ||  /      \  \ \  \         
+                  || |        | |  | |         
+                  || |        | |  | |         
+                  ||_|        |_|  |_|         
+                 //_/        /_/  /_/          
 ```
 <!-- END_QUOTE -->
