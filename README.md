@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“祝󰑼𨑮󰋇𫷜𡗶</p>
-      <p class="nom">群𦋦欺㐌䏧蝟𩯀霜”</p>
-      <p class="quocngu">Chốc đà mười mấy năm trời,</p>
-      <p class="quocngu">Còn ra khi đã da mồi tóc sương.</p>
-      <p class="author"><i>(Dòng 2239-2240) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“斜斜䏾我𧗱西</p>
+      <p class="nom">姉㛪他矧攔𢬣𦋦𧗱”</p>
+      <p class="quocngu">Tà tà bóng ngả về tây,</p>
+      <p class="quocngu">Chị em thơ thẩn dan tay ra về.</p>
+      <p class="author"><i>(Dòng 51-52) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,12 +25,14 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “We know what we are but know not what we \
-| may be.”                                  |
-|                                           |
-\  -- William Shakespeare                   /
- -------------------------------------------
+ ____________________________________________
+/ “Happiness cannot be travelled to, owned,  \
+| earned, worn or consumed. Happiness is the |
+| spiritual experience of living every       |
+| minute with love, grace and gratitude.”    |
+|                                            |
+\  -- Denis Waitley                          /
+ --------------------------------------------
      \
       \ 
   /\          /\                               
