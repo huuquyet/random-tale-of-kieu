@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“斜斜䏾我𧗱西</p>
-      <p class="nom">姉㛪他矧攔𢬣𦋦𧗱”</p>
-      <p class="quocngu">Tà tà bóng ngả về tây,</p>
-      <p class="quocngu">Chị em thơ thẩn dan tay ra về.</p>
-      <p class="author"><i>(Dòng 51-52) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“爫朱𬖉𧡊眼前</p>
+      <p class="nom">朱𠊛𠶀板半船別𢬣”</p>
+      <p class="quocngu">Làm cho trông thấy nhãn tiền,</p>
+      <p class="quocngu">Cho người thăm ván bán thuyền biết tay."</p>
+      <p class="author"><i>(Dòng 1551-1552) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Happiness cannot be travelled to, owned,  \
-| earned, worn or consumed. Happiness is the |
-| spiritual experience of living every       |
-| minute with love, grace and gratitude.”    |
-|                                            |
-\  -- Denis Waitley                          /
- --------------------------------------------
-     \
-      \ 
-  /\          /\                               
- ( \\        // )                              
-  \ \\      // /                               
-   \_\\||||//_/                                
-     / _  _ \/                                 
-                                               
-     |(o)(o)|\/                                
-     |      | \/                               
-     \      /  \/_____________________         
-      |____|     \\                  \\        
-     /      \     ||                  \\       
-     \ 0  0 /     |/                  |\\      
-      \____/ \    V           (       / \\     
-       / \    \     )          \     /   \\    
-      / | \    \_|  |___________\   /     "" 
-                  ||  |     \   /\  \          
-                  ||  /      \  \ \  \         
-                  || |        | |  | |         
-                  || |        | |  | |         
-                  ||_|        |_|  |_|         
-                 //_/        /_/  /_/          
+ _____________________________________________
+/ “People usually compare the computer to the \
+| head of the human being. I would say that   |
+| hardware is the bone of the head, the       |
+| skull. The semiconductor is the brain       |
+| within the head. The software is the        |
+| wisdom. And data is the knowledge.”         |
+|                                             |
+\  -- Masayoshi Son                           /
+ ---------------------------------------------
+                                    \
+                                     \
+                                                         ____                   
+                                               [(=]|[==/   @  \     
+                                                      |--------|                
+     *                                     *  .       ==========                
+.  / *    .                         *   .* . * /.     ==========                
+ / /  .                      *   .    *  \. * /      ||||||||||||               
+ =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
+  \  \ .                             *  (===========[  /=========]              
+.  \   *  *                          .    /  * \   |==============]             
+         *                        *      *         C @ @ @ @ @ @ |D             
+        *  *                          .           /              |              
+                                         .       C  @ @ @  @ @  @ |D            
+          *                          *          /                 |             
+                                               C  @  @  @  @  @  @ |D           
+                                              /                    |            
+                                             C  @   @   @   @  @  @ |D          
+                                            /                       |           
+                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
+                                            -------------------------           
+Modified from howard1@vax.oxford.ac.uk
 ```
 <!-- END_QUOTE -->
