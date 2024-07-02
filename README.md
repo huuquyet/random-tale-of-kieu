@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“爫朱𬖉𧡊眼前</p>
-      <p class="nom">朱𠊛𠶀板半船別𢬣”</p>
-      <p class="quocngu">Làm cho trông thấy nhãn tiền,</p>
-      <p class="quocngu">Cho người thăm ván bán thuyền biết tay."</p>
-      <p class="author"><i>(Dòng 1551-1552) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“俸󰠲吏﨤󰜋𠊛</p>
+      <p class="nom">欣𠊛智勇迎𡗶威灵”</p>
+      <p class="quocngu">Bỗng đâu lại gặp một người,</p>
+      <p class="quocngu">Hơn người trí dũng, nghiêng trời uy linh.</p>
+      <p class="author"><i>(Dòng 2903-2904) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “People usually compare the computer to the \
-| head of the human being. I would say that   |
-| hardware is the bone of the head, the       |
-| skull. The semiconductor is the brain       |
-| within the head. The software is the        |
-| wisdom. And data is the knowledge.”         |
-|                                             |
-\  -- Masayoshi Son                           /
- ---------------------------------------------
-                                    \
-                                     \
-                                                         ____                   
-                                               [(=]|[==/   @  \     
-                                                      |--------|                
-     *                                     *  .       ==========                
-.  / *    .                         *   .* . * /.     ==========                
- / /  .                      *   .    *  \. * /      ||||||||||||               
- =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
-  \  \ .                             *  (===========[  /=========]              
-.  \   *  *                          .    /  * \   |==============]             
-         *                        *      *         C @ @ @ @ @ @ |D             
-        *  *                          .           /              |              
-                                         .       C  @ @ @  @ @  @ |D            
-          *                          *          /                 |             
-                                               C  @  @  @  @  @  @ |D           
-                                              /                    |            
-                                             C  @   @   @   @  @  @ |D          
-                                            /                       |           
-                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
-                                            -------------------------           
-Modified from howard1@vax.oxford.ac.uk
+ _________________________________________
+/ “The hours of folly are measured by the \
+| clock; but of wisdom, no clock can      |
+| measure.”                               |
+|                                         |
+\  -- William Blake                       /
+ -----------------------------------------
+     \ 
+      \
+           ,,,
+          (0 0)
+   +---ooO-(_)-Ooo---+
+   |                 |
 ```
 <!-- END_QUOTE -->
