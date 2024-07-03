@@ -4,25 +4,21 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "rootDirs": ["./src"],
     "outDir": "./dist",
 
-    // Enable latest features
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "target": "ESNext",
     "module": "ESNext",
     "moduleDetection": "force",
-    // "jsx": "react-jsx",
-    // "allowJs": true,
+    // "jsx": "preserve",
+    "allowJs": true,
 
-    // Bundler mode
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
     // "allowImportingTsExtensions": true,
     // "verbatimModuleSyntax": true,
     "noEmit": true,
 
-    // Best practices
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
@@ -30,11 +26,10 @@
     // "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
 
-    // Some stricter flags
-    "noImplicitAny": true
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noPropertyAccessFromIndexSignature": true
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature": true
   },
   "include": ["./src/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "./dist"]
