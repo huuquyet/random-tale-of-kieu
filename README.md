@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“俸󰠲吏﨤󰜋𠊛</p>
-      <p class="nom">欣𠊛智勇迎𡗶威灵”</p>
-      <p class="quocngu">Bỗng đâu lại gặp một người,</p>
-      <p class="quocngu">Hơn người trí dũng, nghiêng trời uy linh.</p>
-      <p class="author"><i>(Dòng 2903-2904) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“旬𡢐俸𧡊𠄩𠊛</p>
+      <p class="nom">𫫗信󰀎拱料排新功”</p>
+      <p class="quocngu">Tuần sau bỗng thấy hai người,</p>
+      <p class="quocngu">Mách tin ấy cũng liệu bài tân công.</p>
+      <p class="author"><i>(Dòng 1555-1556) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The hours of folly are measured by the \
-| clock; but of wisdom, no clock can      |
-| measure.”                               |
-|                                         |
-\  -- William Blake                       /
- -----------------------------------------
-     \ 
-      \
-           ,,,
-          (0 0)
-   +---ooO-(_)-Ooo---+
-   |                 |
+ ___________________________________________
+/ “Chance is always powerful. Let your hook \
+| be always cast; in the pool where you     |
+| least expect it, there will be a fish.”   |
+|                                           |
+\  -- Ovid                                  /
+ -------------------------------------------
+   \      {
+    \  }   }   {
+      {   {  }  }
+       }   }{  {
+      {  }{  }  }
+     ( }{ }{  { )
+    .-{   }   }-.
+   ( ( } { } { } )
+   |`-.._____..-'|
+   |             ;--.
+   |   (__)     (__  \
+   |   (oo)      | )  )
+   |    \/       |/  /
+   |             /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
 ```
 <!-- END_QUOTE -->
