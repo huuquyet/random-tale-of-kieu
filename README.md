@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“身牢𡗉浽不平</p>
-      <p class="nom">料如供廣妸姮𢪀󰅉”</p>
-      <p class="quocngu">Thân sao nhiều nỗi bất bằng?</p>
-      <p class="quocngu">Liều như cung Quảng ả Hằng nghĩ nao!</p>
-      <p class="author"><i>(Dòng 1635-1636) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢪀朱欺閣曰經</p>
+      <p class="nom">貝欺塊𬮌𢴑情𫽄蹺”</p>
+      <p class="quocngu">Nghĩ cho khi gác viết kinh,</p>
+      <p class="quocngu">Với khi khỏi cửa dứt tình chẳng theo.</p>
+      <p class="author"><i>(Dòng 2367-2368) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “One should not hurt others if one loves \
-| oneself.”                                |
-|                                          |
-\  -- The Buddha                           /
- ------------------------------------------
-  \
-   \                                 
-      /  \~~~/  \         
-     (    ..     )----,      
-      \__     __/      \     
-        )|  /)         |\    
-         | /\  /___\   / ^   
-          "-|__|   |__|      
+ ____________________________________________
+/ “The trouble with most people is that they \
+| think with their hopes or fears or wishes  |
+| rather than with their minds.”             |
+|                                            |
+\  -- Will Durant                            /
+ --------------------------------------------
+   \
+    \
+
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
