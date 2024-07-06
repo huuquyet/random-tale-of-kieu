@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢪀朱欺閣曰經</p>
-      <p class="nom">貝欺塊𬮌𢴑情𫽄蹺”</p>
-      <p class="quocngu">Nghĩ cho khi gác viết kinh,</p>
-      <p class="quocngu">Với khi khỏi cửa dứt tình chẳng theo.</p>
-      <p class="author"><i>(Dòng 2367-2368) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浽娘𢖵典包𣇞</p>
+      <p class="nom">𣻆珠隊陣紆絲𤾓𨦩”</p>
+      <p class="quocngu">Nỗi nàng nhớ đến bao giờ,</p>
+      <p class="quocngu">Tuôn châu đòi trận, vò tơ trăm vòng.</p>
+      <p class="author"><i>(Dòng 2847-2848) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,32 +26,17 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “The trouble with most people is that they \
-| think with their hopes or fears or wishes  |
-| rather than with their minds.”             |
+/ “Much wisdom often goes with fewer words.” \
 |                                            |
-\  -- Will Durant                            /
+\  -- Sophocles                              /
  --------------------------------------------
    \
     \
-
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+          _,--',   _._.--._____
+   .--.--';_'-.', ";_      _.,-'
+  .'--'.  _.'    {`'-;_ .-.>.'
+        '-:_      )  / `' '=.
+          ) >     {_/,     /~)
+  snd     |/               `^ .'
 ```
 <!-- END_QUOTE -->
