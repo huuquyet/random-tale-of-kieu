@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“斫󰠲固斫𨔍𠁀</p>
-      <p class="nom">𠊛󰠲麻吏固𠊛精麻”</p>
-      <p class="quocngu">Chước đâu có chước lạ đời,</p>
-      <p class="quocngu">Người đâu mà lại có người tinh ma!</p>
-      <p class="author"><i>(Dòng 1811-1812) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“媒𦖑娘呐𫨩情</p>
+      <p class="nom">閉𣇞買浽三彭媒𨖲”</p>
+      <p class="quocngu">Mụ nghe nàng nói hay tình,</p>
+      <p class="quocngu">Bấy giờ mới nổi tam bành mụ lên.</p>
+      <p class="author"><i>(Dòng 961-962) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,14 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “We are what our thoughts have made us; so  \
-| take care about what you think. Words are   |
-| secondary. Thoughts live; they travel far.” |
-|                                             |
-\  -- Swami Vivekananda                       /
- ---------------------------------------------
+ ___________________________________________
+/ “All phenomena are preceded by the mind,  \
+| created by the mind, and have the mind as |
+| their master.”                            |
+|                                           |
+\  -- The Buddha                            /
+ -------------------------------------------
   \
-   \
-    \
-    
-           ____
-       ,: .: .: :.ヽ
-     ,'       /\   ｉ
-     {: .:ﾉﾚﾍ/  Viﾍ:}
-    .{,､〈 Ｏ   Ｏ{.:.
-    ノヽ\!"       }.:ﾊ
-      Ｗﾊw=-､へ,ｬ<,V'      
-         /ﾍ }{./\
-        ;: i:V:!;}
-        |:｜: :｜}
-        |:|:｡: ｡l}
-        >-'-ﾟ-'`ﾟu
-        ｰi-i～i-i~
-         |.|  |.|
-         |-|  |-|
-         ヒｺ  ヒｺ 
+¯\_(ツ)_/¯
 ```
 <!-- END_QUOTE -->
