@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import * as core from '@actions/core'
-import { default as truyenKieu } from '../assets/truyen-kieu-1871.json'
+import { default as truyenKieu } from '../assets/truyen-kieu-1870.json'
 
 interface DoubleQuotes {
   line: number
