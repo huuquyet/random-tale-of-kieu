@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Li�
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“媒𦖑娘呐𫨩情</p>
-      <p class="nom">閉𣇞買浽三彭媒𨖲”</p>
-      <p class="quocngu">Mụ nghe nàng nói hay tình,</p>
-      <p class="quocngu">Bấy giờ mới nổi tam bành mụ lên.</p>
-      <p class="author"><i>(Dòng 961-962) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㩡𤷱𦹵𤁕味霜</p>
+      <p class="nom">𢚸圭𠫾󰜋𨀈塘󰜋𤴬”</p>
+      <p class="quocngu">Lối mòn cỏ lợt màu sương,</p>
+      <p class="quocngu">Lòng quê đi một bước đường một đau.</p>
+      <p class="author"><i>(Dòng 1121-1122) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,15 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “All phenomena are preceded by the mind,  \
-| created by the mind, and have the mind as |
-| their master.”                            |
-|                                           |
-\  -- The Buddha                            /
- -------------------------------------------
+ _____________________________________________
+/ “'All conditioned things are impermanent' — \
+| when one sees this with wisdom, one turns   |
+| away from suffering.”                       |
+|                                             |
+\  -- The Buddha                              /
+ ---------------------------------------------
+ \
   \
-¯\_(ツ)_/¯
+     __ 
+    /  \  
+    |  |
+    @  @
+    |  |
+    || |/ 
+    || || 
+    |\_/|
+    \___/
 ```
 <!-- END_QUOTE -->
 
