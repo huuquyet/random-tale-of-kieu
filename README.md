@@ -36,3 +36,9 @@ SVG:
 ¯\_(ツ)_/¯
 ```
 <!-- END_QUOTE -->
+
+## Included fonts
+
+- [Jigmo font](https://github.com/kamichikoichi/jigmo)
+- [Nom Na Tong font](https://github.com/nomfoundation/font)
+- [Minh Nguyen font](https://github.com/TKYKmori/Minh-Nguyen)
