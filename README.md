@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“脱兜𧡊󰜋小嬌</p>
-      <p class="nom">固朝風韻固朝清新”</p>
-      <p class="quocngu">Thoắt đâu thấy một tiểu kiều,</p>
-      <p class="quocngu">Có chiều phong vận, có chiều thanh tân.</p>
-      <p class="author"><i>(Dòng 187-188) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠊚腋𡱩几𢬣刀</p>
+      <p class="nom">頭𬌥󰘚馭泑泑如㵢”</p>
+      <p class="quocngu">Người nách thước, kẻ tay đao,</p>
+      <p class="quocngu">Đầu trâu mặt ngựa ào ào như sôi.</p>
+      <p class="author"><i>(Dòng 577-578) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,44 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “All perceiving is also thinking, all \
-| reasoning is also intuition, all      |
-| observation is also invention.”       |
-|                                       |
-\  -- Rudolf Arnheim                    /
- ---------------------------------------
-    \
-     \
-              /\
-             <  \
-             |\  \
-             | \  \
-             | .\  >
-             |  .\/|
-             |   .||
-             |    ||
-            / \   ||
-           /,-.\: ||
-          /,,  `\ ||
-         /,  ', `\||
-        /, *   ''/ |
-       /,    *,'/  |
-      /,     , /   |
-     / :    , /   .|
-    /\ :   , /   /||
-   |\ \ .., /   / ||
-   |.\ \ . /   /  ||
-   |  \ \ /   /   ||
-   |   \ /   /    |'
-   |\o '|o  /
-   ||\o |  /
-   || \ | /
-   ||  \|/
-   |'   ||
-        ||
-        ||
-        |'
+ _____________________________________________
+/ “Start where you are. Use what you have. Do \
+| what you can.”                              |
+|                                             |
+\  -- Arthur Ashe                             /
+ ---------------------------------------------
+       \     *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+        \        MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+         \       MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+          \        'MMM8&&&'      *
+          |\___/|
+         =) oYo (=            .              '
+          \  ^  /
+           )=*=(       *
+          /     \
+          |     |
+         /| | | |\
+         \| | |_|/\
+  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
 ```
 <!-- END_QUOTE -->
 
