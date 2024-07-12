@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠊚腋𡱩几𢬣刀</p>
-      <p class="nom">頭𬌥󰘚馭泑泑如㵢”</p>
-      <p class="quocngu">Người nách thước, kẻ tay đao,</p>
-      <p class="quocngu">Đầu trâu mặt ngựa ào ào như sôi.</p>
-      <p class="author"><i>(Dòng 577-578) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“盧疎絲柳󰇵萌</p>
+      <p class="nom">昆鶯學呐𨕭梗𠸍枚”</p>
+      <p class="quocngu">Lơ thơ tơ liễu buông mành,</p>
+      <p class="quocngu">Con oanh học nói trên cành mỉa mai.</p>
+      <p class="author"><i>(Dòng 269-270) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,32 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Start where you are. Use what you have. Do \
-| what you can.”                              |
+/ “Two persons cannot long be friends if they \
+| cannot forgive each other's little          |
+| failings.”                                  |
 |                                             |
-\  -- Arthur Ashe                             /
+\  -- Jean de La Bruyère                      /
  ---------------------------------------------
-       \     *     ,MMM8&&&.            *
-                  MMMM88&&&&&    .
-        \        MMMM88&&&&&&&
-     *           MMM88&&&&&&&&
-         \       MMM88&&&&&&&&
-                 'MMM88&&&&&&'
-          \        'MMM8&&&'      *
-          |\___/|
-         =) oYo (=            .              '
-          \  ^  /
-           )=*=(       *
-          /     \
-          |     |
-         /| | | |\
-         \| | |_|/\
-  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
-  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   \
+    \
+
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
 
 ```
 <!-- END_QUOTE -->
