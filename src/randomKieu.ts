@@ -17,7 +17,7 @@ const END_KIEU = '<!-- END_KIEU -->'
 
 /** Get 2 random lines from json file of Truyen Kieu */
 function getRandomQuotes(): DoubleQuotes {
-  const randomIndex = Math.floor(Math.random() * (truyenKieu.length / 2))
+  const randomIndex = Math.floor(Math.random() * (truyenKieu.length / 2 - 3))
 
   // Get 2 random lines from json file of Truyen Kieu
   const line = 2 * randomIndex + 1
