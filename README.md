@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“盧疎絲柳󰇵萌</p>
-      <p class="nom">昆鶯學呐𨕭梗𠸍枚”</p>
-      <p class="quocngu">Lơ thơ tơ liễu buông mành,</p>
-      <p class="quocngu">Con oanh học nói trên cành mỉa mai.</p>
-      <p class="author"><i>(Dòng 269-270) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“拱羅寃業之低</p>
+      <p class="nom">沙機買典勢尼󰝸仍”</p>
+      <p class="quocngu">Cũng là oan nghiệp chi đây,</p>
+      <p class="quocngu">Sa cơ mới đến thế này, chẳng dưng.</p>
+      <p class="author"><i>(Dòng 1753-1754) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Two persons cannot long be friends if they \
-| cannot forgive each other's little          |
-| failings.”                                  |
-|                                             |
-\  -- Jean de La Bruyère                      /
- ---------------------------------------------
-   \
-    \
-
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-
+ ___________________________________________
+/ “Opportunity is missed by most because it \
+| is dressed in overalls and looks like     |
+| work.”                                    |
+|                                           |
+\  -- Thomas Edison                         /
+ -------------------------------------------
+  \
+   \                                 
+      /  \~~~/  \         
+     (    ..     )----,      
+      \__     __/      \     
+        )|  /)         |\    
+         | /\  /___\   / ^   
+          "-|__|   |__|      
 ```
 <!-- END_QUOTE -->
 
