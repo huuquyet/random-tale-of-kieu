@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“拱羅寃業之低</p>
-      <p class="nom">沙機買典勢尼󰝸仍”</p>
-      <p class="quocngu">Cũng là oan nghiệp chi đây,</p>
-      <p class="quocngu">Sa cơ mới đến thế này, chẳng dưng.</p>
-      <p class="author"><i>(Dòng 1753-1754) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𩙍兜擲幅萌萌</p>
+      <p class="nom">醒𠚢買別浪命占包”</p>
+      <p class="quocngu">Gió đâu sịch bức mành mành,</p>
+      <p class="quocngu">Tỉnh ra mới biết là mình chiêm bao.</p>
+      <p class="author"><i>(Dòng 213-214) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Opportunity is missed by most because it \
-| is dressed in overalls and looks like     |
-| work.”                                    |
-|                                           |
-\  -- Thomas Edison                         /
- -------------------------------------------
-  \
-   \                                 
-      /  \~~~/  \         
-     (    ..     )----,      
-      \__     __/      \     
-        )|  /)         |\    
-         | /\  /___\   / ^   
-          "-|__|   |__|      
+ _________________________________________
+/ “You can't blame gravity for falling in \
+| love.”                                  |
+|                                         |
+\  -- Albert Einstein                     /
+ -----------------------------------------
+     \
+      \
+
+ +@##########M/             :@#########@/
+ \##############$;H#######@;+#############
+ \###############M########################
+ \##############X,-/++/+%+/,%#############
+ \############M$:           -X############
+ \##########H;.      ,--.     =X##########
+ :X######M;     -$H@M##MH%:    :H#######@
+   =%#M+=,   ,+@#######M###H:    -=/M#%
+   %M##@+   .X##$, ./+- ./###;    +M##%
+   %####M.  /###=         @##M.   X###%
+   %####M.  ;M##H:.     =$###X.   $###%
+   %####@.   /####M$-./@#####:    %###%
+   %H#M/,     /H###########@:     ./M#%
+  ;$H##@@H:    .;$HM#MMMH$;,   ./H@M##M$=
+ X#########%.      ..,,.     .;@#########
+ \###########H+:.           ./@###########
+ \##############/ ./%%%%+/.-M#############
+ \##############H$@#######@@##############
+ \##############X%########M$M#############
+ +M##########H:            .$##########X=
 ```
 <!-- END_QUOTE -->
 
