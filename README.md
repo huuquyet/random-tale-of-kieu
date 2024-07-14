@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𩙍兜擲幅萌萌</p>
-      <p class="nom">醒𠚢買別浪命占包”</p>
-      <p class="quocngu">Gió đâu sịch bức mành mành,</p>
-      <p class="quocngu">Tỉnh ra mới biết là mình chiêm bao.</p>
-      <p class="author"><i>(Dòng 213-214) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋命量慮更迡</p>
+      <p class="nom">塘賒擬浽𡢐尼麻驚”</p>
+      <p class="quocngu">Một mình lưỡng lự canh chầy,</p>
+      <p class="quocngu">Đường xa nghĩ nỗi sau này mà kinh.</p>
+      <p class="author"><i>(Dòng 217-218) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “You can't blame gravity for falling in \
-| love.”                                  |
-|                                         |
-\  -- Albert Einstein                     /
- -----------------------------------------
-     \
-      \
-
- +@##########M/             :@#########@/
- \##############$;H#######@;+#############
- \###############M########################
- \##############X,-/++/+%+/,%#############
- \############M$:           -X############
- \##########H;.      ,--.     =X##########
- :X######M;     -$H@M##MH%:    :H#######@
-   =%#M+=,   ,+@#######M###H:    -=/M#%
-   %M##@+   .X##$, ./+- ./###;    +M##%
-   %####M.  /###=         @##M.   X###%
-   %####M.  ;M##H:.     =$###X.   $###%
-   %####@.   /####M$-./@#####:    %###%
-   %H#M/,     /H###########@:     ./M#%
-  ;$H##@@H:    .;$HM#MMMH$;,   ./H@M##M$=
- X#########%.      ..,,.     .;@#########
- \###########H+:.           ./@###########
- \##############/ ./%%%%+/.-M#############
- \##############H$@#######@@##############
- \##############X%########M$M#############
- +M##########H:            .$##########X=
+ ____________________________________________
+/ “The function of wisdom is to discriminate \
+| between good and evil.”                    |
+|                                            |
+\  -- Cicero                                 /
+ --------------------------------------------
+ \       \      \      
+  \        ^__^  \        
+    ^__^   (oo)   ^__^  
+    (oo)   (__)   (oo)   
+    (__)          (__)   
+oyo/:                :/oy+
+/mmmmm+   syyyyo  `ommmmm/
+ smmmmms. -ymmy. .smmmmmo 
+ `+dmmmmd+``::``+dmmmmd+  
+   -ymmmmmh/``+hmmmmmy-   
+    `/hmmmmmhhmmmmmh/`    
+      `/hmmmmmmmmh/`      
+        `/hmmmmmd/        
+      `oo.`/dmmmmdo`      
+     `ymmd+``ommmmmy`     
+     smmmmd-  /mmmmms     
+    -mmmmm+    ommmmm-    
+    -ooooo`    .ooooo.     
 ```
 <!-- END_QUOTE -->
 
