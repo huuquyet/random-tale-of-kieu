@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋命量慮更迡</p>
-      <p class="nom">塘賒擬浽𡢐尼麻驚”</p>
-      <p class="quocngu">Một mình lưỡng lự canh chầy,</p>
-      <p class="quocngu">Đường xa nghĩ nỗi sau này mà kinh.</p>
-      <p class="author"><i>(Dòng 217-218) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“姅𢆥唏㗂𣃣悁</p>
+      <p class="nom">𡑝梧梗碧㐌氊蘿鐄”</p>
+      <p class="quocngu">Nửa năm hơi tiếng vừa quen,</p>
+      <p class="quocngu">Sân ngô cành biếc đã chen lá vàng.</p>
+      <p class="author"><i>(Dòng 1385-1386) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The function of wisdom is to discriminate \
-| between good and evil.”                    |
-|                                            |
-\  -- Cicero                                 /
- --------------------------------------------
- \       \      \      
-  \        ^__^  \        
-    ^__^   (oo)   ^__^  
-    (oo)   (__)   (oo)   
-    (__)          (__)   
-oyo/:                :/oy+
-/mmmmm+   syyyyo  `ommmmm/
- smmmmms. -ymmy. .smmmmmo 
- `+dmmmmd+``::``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+``ommmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.     
+ _____________________________________
+/ “The most certain sign of wisdom is \
+| cheerfulness.”                      |
+|                                     |
+\  -- Michel de Montaigne             /
+ -------------------------------------
+    \
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,              -%HX$%%%+;
+ =-./@M@M$                  .;@MMMM@MM:
+ X@/ -$MM/                    .+MM@@@M$
+,@M@H: :@:                    . =X#@@@@-
+,@@@MMX, .                    /H- ;@M@M=
+.H@@@@M@+,                    %MM+..%#$.
+ /MMMM@MMH/.                  XM@MH; =;
+  /%+%$XHH@$=              , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
