@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“固兜偏爲𠊛󰅹</p>
-      <p class="nom">𡦂才𡦂命𣼭󰠢奇𠄩”</p>
-      <p class="quocngu">Có đâu thiên vị người nào,</p>
-      <p class="quocngu">Chữ tài chữ mệnh dồi dào cả hai.</p>
-      <p class="author"><i>(Dòng 3245-3246) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“吏強塢湥󰞺花</p>
+      <p class="nom">愁𣻆󰑒綏珠沙𥐆𨱽”</p>
+      <p class="quocngu">Lại càng ủ dột nét hoa,</p>
+      <p class="quocngu">Sầu tuôn đứt nối, châu sa vắn dài.</p>
+      <p class="author"><i>(Dòng 103-104) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “You don't choose your family. They are \
-| God's gift to you, as you are to them.” |
-|                                         |
-\  -- Desmond Tutu                        /
- -----------------------------------------
-        \
-         \
-          )__(
-         '|oo|'________/
-          |__|         |
-             ||"""""""||
-             ||       ||
+ _____________________________________________
+/ “Does wisdom perhaps appear on the earth as \
+| a raven which is inspired by the smell of   |
+| carrion?”                                   |
+|                                             |
+\  -- Friedrich Nietzsche                     /
+ ---------------------------------------------
+       \    ____
+        \  /    \
+          | ^__^ |
+          | (oo) |______
+          | (__) |      )\/\
+           \____/|----w |
+                ||     ||
 
+	         Moofasa
 ```
 <!-- END_QUOTE -->
 
