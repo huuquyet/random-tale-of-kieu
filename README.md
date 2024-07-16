@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“別徐羅𨅸英雄</p>
-      <p class="nom">別娘拱預軍中論盤”</p>
-      <p class="quocngu">Biết Từ là đấng anh hùng,</p>
-      <p class="quocngu">Biết nàng cũng dự quân trung luận bàn.</p>
-      <p class="author"><i>(Dòng 2455-2456) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“固兜偏爲𠊛󰅹</p>
+      <p class="nom">𡦂才𡦂命𣼭󰠢奇𠄩”</p>
+      <p class="quocngu">Có đâu thiên vị người nào,</p>
+      <p class="quocngu">Chữ tài chữ mệnh dồi dào cả hai.</p>
+      <p class="author"><i>(Dòng 3245-3246) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Music is a higher revelation than all \
-| wisdom and philosophy.”                |
-|                                        |
-\  -- Ludwig van Beethoven               /
- ----------------------------------------
-  \
-   \
+ _________________________________________
+/ “You don't choose your family. They are \
+| God's gift to you, as you are to them.” |
+|                                         |
+\  -- Desmond Tutu                        /
+ -----------------------------------------
+        \
+         \
+          )__(
+         '|oo|'________/
+          |__|         |
+             ||"""""""||
+             ||       ||
 
-     Lｰ'{r ｧjｰノ
-      _`)-ﾑ{
-    /´::( ･)ヽ-- ､
-   {::::::::::::::}
-   ゝ:::::.ノー-
-     しｿ¨UU
 ```
 <!-- END_QUOTE -->
 
