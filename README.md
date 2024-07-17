@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“噲羅者㤕義𠊚</p>
-      <p class="nom">愁尼弋弋𨷈𠁀渚𫡻”</p>
-      <p class="quocngu">Gọi là trả chút nghĩa người,</p>
-      <p class="quocngu">Sầu này dằng dặc muôn đời chưa quên!</p>
-      <p class="author"><i>(Dòng 2785-2786) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“禍包𣇞固﨤𠊚</p>
+      <p class="nom">爲碎𢚁𠳨󰜋𠳒終身”</p>
+      <p class="quocngu">Họa bao giờ có gặp người,</p>
+      <p class="quocngu">Vì tôi cậy hỏi một lời chung thân."</p>
+      <p class="author"><i>(Dòng 2415-2416) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,48 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “It is one of the blessings of old friends \
-| that you can afford to be stupid with      |
-| them.”                                     |
+/ “Along with success comes a reputation for \
+| wisdom.”                                   |
 |                                            |
-\  -- Ralph Waldo Emerson                    /
+\  -- Euripides                              /
  --------------------------------------------
-      \
-       \
-        \                                     ,
-                                            ,o
-                                            :o
-                   _....._                  `:o
-                 .\'       ``-.                \o
-                /  _      _   \                \o
-               :  /*\    /*\   )                ;o
-               |  \_/    \_/   /                ;o
-               (       U      /                 ;o
-                \  (\_____/) /                  /o
-                 \   \_m_/  (                  /o
-                  \         (                ,o:
-                  )          \,           .o;o\'           ,o\'o\'o.
-                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
- .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
- o           ./o./ /       .o \.              __,-o o,o\'
- \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
- `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
- .,  ``o-o\'  ,.oo/   \'o /\.o`.
- `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
-   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
-                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
-                  \ o\              ``-o-o\'\'\'\'
-   ,-o;o           \o \
-  /o/               )o )  Carl Pilcher
- (o(               /o /                |
-  \o\.       ...-o\'o /              \   |
-    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      ```o--\'\'\'                       \| /
-                                       |/
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                                       |
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          \
+           \
 
+
+      ^^      .-=-=-=-.  ^^
+  ^^        (`-=-=-=-=-`)         ^^
+          (`-=-=-=-=-=-=-`)  ^^         ^^
+    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
+        ( `-=-=-=-(@)-=-=-` )      ^^
+        (`-=-=-=-=-=-=-=-=-`)  ^^
+        (`-=-=-=-=-=-=-=-=-`)              ^^
+        (`-=-=-=-=-=-=-=-=-`)                      ^^
+        (`-=-=-=-=-=-=-=-=-`)  ^^
+         (`-=-=-=-=-=-=-=-`)          ^^
+          (`-=-=-=-=-=-=-`)  ^^                 ^^
+      jgs   (`-=-=-=-=-`)
+             `-=-=-=-=-`
 ```
 <!-- END_QUOTE -->
 
