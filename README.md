@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“吏強塢湥󰞺花</p>
-      <p class="nom">愁𣻆󰑒綏珠沙𥐆𨱽”</p>
-      <p class="quocngu">Lại càng ủ dột nét hoa,</p>
-      <p class="quocngu">Sầu tuôn đứt nối, châu sa vắn dài.</p>
-      <p class="author"><i>(Dòng 103-104) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“噲羅者㤕義𠊚</p>
+      <p class="nom">愁尼弋弋𨷈𠁀渚𫡻”</p>
+      <p class="quocngu">Gọi là trả chút nghĩa người,</p>
+      <p class="quocngu">Sầu này dằng dặc muôn đời chưa quên!</p>
+      <p class="author"><i>(Dòng 2785-2786) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,49 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Does wisdom perhaps appear on the earth as \
-| a raven which is inspired by the smell of   |
-| carrion?”                                   |
-|                                             |
-\  -- Friedrich Nietzsche                     /
- ---------------------------------------------
-       \    ____
-        \  /    \
-          | ^__^ |
-          | (oo) |______
-          | (__) |      )\/\
-           \____/|----w |
-                ||     ||
+ ____________________________________________
+/ “It is one of the blessings of old friends \
+| that you can afford to be stupid with      |
+| them.”                                     |
+|                                            |
+\  -- Ralph Waldo Emerson                    /
+ --------------------------------------------
+      \
+       \
+        \                                     ,
+                                            ,o
+                                            :o
+                   _....._                  `:o
+                 .\'       ``-.                \o
+                /  _      _   \                \o
+               :  /*\    /*\   )                ;o
+               |  \_/    \_/   /                ;o
+               (       U      /                 ;o
+                \  (\_____/) /                  /o
+                 \   \_m_/  (                  /o
+                  \         (                ,o:
+                  )          \,           .o;o\'           ,o\'o\'o.
+                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
+ .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
+ o           ./o./ /       .o \.              __,-o o,o\'
+ \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
+ `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
+ .,  ``o-o\'  ,.oo/   \'o /\.o`.
+ `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
+   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
+                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
+                  \ o\              ``-o-o\'\'\'\'
+   ,-o;o           \o \
+  /o/               )o )  Carl Pilcher
+ (o(               /o /                |
+  \o\.       ...-o\'o /              \   |
+    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ```o--\'\'\'                       \| /
+                                       |/
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                       |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	         Moofasa
 ```
 <!-- END_QUOTE -->
 
