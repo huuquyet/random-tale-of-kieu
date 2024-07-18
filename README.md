@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“禍包𣇞固﨤𠊚</p>
-      <p class="nom">爲碎𢚁𠳨󰜋𠳒終身”</p>
-      <p class="quocngu">Họa bao giờ có gặp người,</p>
-      <p class="quocngu">Vì tôi cậy hỏi một lời chung thân."</p>
-      <p class="author"><i>(Dòng 2415-2416) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“茹蘭清永󰜋命</p>
+      <p class="nom">𡄎機會遇㐌停𣋚󰅒”</p>
+      <p class="quocngu">Nhà lan thanh vắng một mình,</p>
+      <p class="quocngu">Gẫm cơ hội ngộ đã dành hôm nay.</p>
+      <p class="author"><i>(Dòng 375-376) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,28 +26,34 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Along with success comes a reputation for \
-| wisdom.”                                   |
+/ “Things are as they are. Looking out into  \
+| it the universe at night, we make no       |
+| comparisons between right and wrong stars, |
+| nor between well and badly arranged        |
+| constellations.”                           |
 |                                            |
-\  -- Euripides                              /
+\  -- Alan Watts                             /
  --------------------------------------------
-          \
-           \
-
-
-      ^^      .-=-=-=-.  ^^
-  ^^        (`-=-=-=-=-`)         ^^
-          (`-=-=-=-=-=-=-`)  ^^         ^^
-    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
-        ( `-=-=-=-(@)-=-=-` )      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-        (`-=-=-=-=-=-=-=-=-`)              ^^
-        (`-=-=-=-=-=-=-=-=-`)                      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-         (`-=-=-=-=-=-=-=-`)          ^^
-          (`-=-=-=-=-=-=-`)  ^^                 ^^
-      jgs   (`-=-=-=-=-`)
-             `-=-=-=-=-`
+            \
+             \
+              \
+                    .  .:----.:  .      
+                  ／    .: .: .: .:＼
+                 .          .. .: .: ヽ
+                /.: :/|:/.:ﾊ::ﾊ : .: .:.  
+              ノ.: ./-|/ |/ V- V､.: .:.:|            
+               ｜:ノ   _     _   V: .:,:|
+                |:}  =＝     ＝= |:l､:.:|
+                |:ﾉ''    ＿_   ''|:| }::|
+               八:ヽ.   V_ 丿   .|ﾉｲ: :八
+                 ヽ/≧=-z:-:r:=≦l:ﾉ|:／
+                    ／/ ﾚﾇﾘ: 〉 ＼
+                   / :〉|/l/:< : ハ  
+                  /:}:{:|:/:/ : : :.     
+                 /: { : ': /: : {: :|            
+                 {: : :ヽ:/: : : : :}          
+                /} :}:o : : o: {: : ﾊ                
+                {: :ﾘ: : : : : |: : }  
 ```
 <!-- END_QUOTE -->
 
