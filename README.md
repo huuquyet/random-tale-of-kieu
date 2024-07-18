@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“茹蘭清永󰜋命</p>
-      <p class="nom">𡄎機會遇㐌停𣋚󰅒”</p>
-      <p class="quocngu">Nhà lan thanh vắng một mình,</p>
-      <p class="quocngu">Gẫm cơ hội ngộ đã dành hôm nay.</p>
-      <p class="author"><i>(Dòng 375-376) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“邊𡗶𧣳𣷭巴爲</p>
+      <p class="nom">󰌵𣘈滑典包𣇞朱派”</p>
+      <p class="quocngu">Bên trời góc bể bơ vơ,</p>
+      <p class="quocngu">Tấm son gột đến bao giờ cho phai.</p>
+      <p class="author"><i>(Dòng 1041-1042) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Things are as they are. Looking out into  \
-| it the universe at night, we make no       |
-| comparisons between right and wrong stars, |
-| nor between well and badly arranged        |
-| constellations.”                           |
-|                                            |
-\  -- Alan Watts                             /
- --------------------------------------------
-            \
-             \
-              \
-                    .  .:----.:  .      
-                  ／    .: .: .: .:＼
-                 .          .. .: .: ヽ
-                /.: :/|:/.:ﾊ::ﾊ : .: .:.  
-              ノ.: ./-|/ |/ V- V､.: .:.:|            
-               ｜:ノ   _     _   V: .:,:|
-                |:}  =＝     ＝= |:l､:.:|
-                |:ﾉ''    ＿_   ''|:| }::|
-               八:ヽ.   V_ 丿   .|ﾉｲ: :八
-                 ヽ/≧=-z:-:r:=≦l:ﾉ|:／
-                    ／/ ﾚﾇﾘ: 〉 ＼
-                   / :〉|/l/:< : ハ  
-                  /:}:{:|:/:/ : : :.     
-                 /: { : ': /: : {: :|            
-                 {: : :ヽ:/: : : : :}          
-                /} :}:o : : o: {: : ﾊ                
-                {: :ﾘ: : : : : |: : }  
+ _____________________________________________
+/ “Friendship often ends in love, but love in \
+| friendship - never.”                        |
+|                                             |
+\  -- Albert Camus                            /
+ ---------------------------------------------
+     \              
+      \    /ss/           
+   `oys:  .dmmd`  :syo`   
+   /dmmy   .//.   hmmd:   
+    -/:`          `:/-    
+oyo/:.     ^__^     .:/oy+
+/mmmmm+   <(oo\)>  `ommmmm/
+ smmmmms. -(__). .smmmmmo 
+ `+dmmmmd+``  ``+dmmmmd+  
+   -ymmmmmh/``+hmmmmmy-   
+    `/hmmmmmhhmmmmmh/`    
+      `/hmmmmmmmmh/`      
+        `/hmmmmmd/        
+      `oo.`/dmmmmdo`      
+     `ymmd+`VVmmmmmy`     
+     smmmmd-  /mmmmms     
+    -mmmmm+    ommmmm-    
+    -ooooo`    .ooooo.    
 ```
 <!-- END_QUOTE -->
 
