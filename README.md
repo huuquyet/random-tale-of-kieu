@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“邊𡗶𧣳𣷭巴爲</p>
-      <p class="nom">󰌵𣘈滑典包𣇞朱派”</p>
-      <p class="quocngu">Bên trời góc bể bơ vơ,</p>
-      <p class="quocngu">Tấm son gột đến bao giờ cho phai.</p>
-      <p class="author"><i>(Dòng 1041-1042) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“雲浪姉拱󱋨唭</p>
+      <p class="nom">窖餘渃𬑉哭𠊚𠁀𠸗”</p>
+      <p class="quocngu">Vân rằng: "Chị cũng nực cười,</p>
+      <p class="quocngu">Khéo dư nước mắt khóc người đời xưa"</p>
+      <p class="author"><i>(Dòng 105-106) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,29 +26,18 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Friendship often ends in love, but love in \
-| friendship - never.”                        |
+/ “Take rest; a field that has rested gives a \
+| bountiful crop.”                            |
 |                                             |
-\  -- Albert Camus                            /
+\  -- Ovid                                    /
  ---------------------------------------------
-     \              
-      \    /ss/           
-   `oys:  .dmmd`  :syo`   
-   /dmmy   .//.   hmmd:   
-    -/:`          `:/-    
-oyo/:.     ^__^     .:/oy+
-/mmmmm+   <(oo\)>  `ommmmm/
- smmmmms. -(__). .smmmmmo 
- `+dmmmmd+``  ``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+`VVmmmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.    
+  \
+   \
+      /\_)o<
+     |      \
+     | o . o|
+      \_____/
+           
 ```
 <!-- END_QUOTE -->
 
