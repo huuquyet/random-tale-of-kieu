@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“雲浪姉拱󱋨唭</p>
-      <p class="nom">窖餘渃𬑉哭𠊚𠁀𠸗”</p>
-      <p class="quocngu">Vân rằng: "Chị cũng nực cười,</p>
-      <p class="quocngu">Khéo dư nước mắt khóc người đời xưa"</p>
-      <p class="author"><i>(Dòng 105-106) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“擬浪坤餒𨁪牟</p>
+      <p class="nom">事命娘買𨃴頭排𬆄”</p>
+      <p class="quocngu">Nghĩ rằng khôn nỗi giấu mầu,</p>
+      <p class="quocngu">Sự mình, nàng mới gót đầu bày ngay:</p>
+      <p class="author"><i>(Dòng 2069-2070) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Take rest; a field that has rested gives a \
-| bountiful crop.”                            |
-|                                             |
-\  -- Ovid                                    /
- ---------------------------------------------
-  \
-   \
-      /\_)o<
-     |      \
-     | o . o|
-      \_____/
-           
+ __________________________________________
+/ “Now this is not the end. It is not even \
+| the beginning of the end. But it is,     |
+| perhaps, the end of the beginning.”      |
+|                                          |
+\  -- Winston Churchill                    /
+ ------------------------------------------
+     \
+      \
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+             ,--==-:$;
+         ,/$@#######@X+-
+      ./@###############X=
+     /M#####X+/;;;;+H#####$.
+    %####M/;+H@XX@@%;;@####@,
+   +####H=+##$,--,=M#X-%####@.
+  -####X,X@HHXH##MXHXXH-+####$
+  X###@.X/$M$:####$=@X/X,X####-
+ .####:+$:##@:####$:##H/X=####%
+ -%%$%,+==%$+-$+:$;-$%-+,/$%%+
+ -/+%%X$XX$$$$%$$%$X$X$%+/-
 ```
 <!-- END_QUOTE -->
 
