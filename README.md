@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“曲兜淹爱春情</p>
-      <p class="nom">意魂蜀帝𫨩命杜鵑”</p>
-      <p class="quocngu">Khúc đâu êm ái xuân tình,</p>
-      <p class="quocngu">Ấy hồn Thục đế hay mình đỗ quyên?</p>
-      <p class="author"><i>(Dòng 3201-3202) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠦳尋洳䏾松筠</p>
+      <p class="nom">雪霜𩂏𨔾朱身葛藤”</p>
+      <p class="quocngu">Nghìn tầm nhờ bóng tùng quân,</p>
+      <p class="quocngu">Tuyết sương che chở cho thân cát đằng.</p>
+      <p class="author"><i>(Dòng 901-902) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “People don't notice whether it's winter or \
-| summer when they're happy.”                 |
-|                                             |
-\  -- Anton Chekhov                           /
- ---------------------------------------------
+ ___________________________________________
+/ “We are all something, but none of us are \
+| everything.”                              |
+|                                           |
+\  -- Blaise Pascal                         /
+ -------------------------------------------
    \
     \
-    ____  
-   /# /_\_
-  |  |/oo\
-  |  \\_/_/
- / |_   |  
-|  ||\_ ~| 
-|  ||| \/  
-|  |||_    
- \//  |    
-  ||  |    
-  ||_  \   
-  \_|  o|  
-  /\___/   
- /  ||||__ 
-    (___)_)
+     \
+                '-.
+      .---._     \ \.--'
+    /       `-..__)  ,-'
+   |    0           /
+    \--.__,   .__.,`
+     `-.___'._\_.'
+
 ```
 <!-- END_QUOTE -->
 
