@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“没畨知己𢜠饒</p>
-      <p class="nom">捲𦀊自意𧗱𡢐拱悇”</p>
-      <p class="quocngu">Một phen tri kỷ mừng nhau,</p>
-      <p class="quocngu">Cuốn dây từ ấy về sau cũng chừa."</p>
-      <p class="author"><i>(Dòng 3213-3214) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“役娘報復𣃣耒</p>
+      <p class="nom">覺緣倍㐌𠳚𠳒辭歸”</p>
+      <p class="quocngu">Việc nàng báo phục vừa rồi,</p>
+      <p class="quocngu">Giác Duyên vội đã gởi lời từ quy.</p>
+      <p class="author"><i>(Dòng 2397-2398) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Strength does not come from physical  \
-| capacity. It comes from an indomitable |
-| will.”                                 |
-|                                        |
-\  -- Mahatma Gandhi                     /
- ----------------------------------------
-  \
-   \   \_\_    _/_/
-    \      \__/
-           (oo)\_______
-           (__)\       )\/\
-               ||----- |
-               ||     ||
+ ____________________________________________
+/ “Perseverance is a great element of        \
+| success. If you only knock long enough and |
+| loud enough at the gate, you are sure to   |
+| wake up somebody.”                         |
+|                                            |
+\  -- Henry Wadsworth Longfellow             /
+ --------------------------------------------
+     \
+      \
+     _              __
+    / `\  (~._    ./  )
+    \__/ __`-_\__/ ./
+   _ \ \/  \   \ |_   __
+ (   )  \__/ -^    \ /  \
+  \_/ "  \  | o  o  |.. /  __
+       \. --' ====  /  || /  \
+         \   .  .  |---__.\__/
+         /  :     /   |   |
+         /   :   /     \_/
+      --/ ::    (
+     (  |     (  (____
+   .--  .. ----**.____)
+   \___/
 ```
 <!-- END_QUOTE -->
 
