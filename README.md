@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“役娘報復𣃣耒</p>
-      <p class="nom">覺緣倍㐌𠳚𠳒辭歸”</p>
-      <p class="quocngu">Việc nàng báo phục vừa rồi,</p>
-      <p class="quocngu">Giác Duyên vội đã gởi lời từ quy.</p>
-      <p class="author"><i>(Dòng 2397-2398) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋𠳒呐渚趿䜹</p>
+      <p class="nom">丿兜陣𩙍捲旗旦𬆄”</p>
+      <p class="quocngu">Một lời nói chửa kịp thưa,</p>
+      <p class="quocngu">Phút đâu trận gió cuốn cờ đến ngay.</p>
+      <p class="author"><i>(Dòng 119-120) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,29 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Perseverance is a great element of        \
-| success. If you only knock long enough and |
-| loud enough at the gate, you are sure to   |
-| wake up somebody.”                         |
+/ “Just as much as we see in others, we have \
+| in ourselves.”                             |
 |                                            |
-\  -- Henry Wadsworth Longfellow             /
+\  -- William Hazlitt                        /
  --------------------------------------------
-     \
-      \
-     _              __
-    / `\  (~._    ./  )
-    \__/ __`-_\__/ ./
-   _ \ \/  \   \ |_   __
- (   )  \__/ -^    \ /  \
-  \_/ "  \  | o  o  |.. /  __
-       \. --' ====  /  || /  \
-         \   .  .  |---__.\__/
-         /  :     /   |   |
-         /   :   /     \_/
-      --/ ::    (
-     (  |     (  (____
-   .--  .. ----**.____)
-   \___/
+   \
+    \
+         _____
+       .\'/L|__`.
+      / =[_]O|` \
+      |\"+_____\":|
+    __:='|____`-:__
+   ||[] ||====| []||
+   ||[] | |=| | []||
+   |:||_|=|U| |_||:|
+   |:|||]_=_ =[_||:| LS
+   | |||] [_][]C|| |
+   | ||-\'\"\"\"\"\"`-|| |
+   /|\\_\_|_|_/_//|\
+  |___|   /|\   |___|
+  `---\'  |___|  `---\'
+         `---'
 ```
 <!-- END_QUOTE -->
 
