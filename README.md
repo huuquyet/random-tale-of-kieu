@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋𠳒呐渚趿䜹</p>
-      <p class="nom">丿兜陣𩙍捲旗旦𬆄”</p>
-      <p class="quocngu">Một lời nói chửa kịp thưa,</p>
-      <p class="quocngu">Phút đâu trận gió cuốn cờ đến ngay.</p>
-      <p class="author"><i>(Dòng 119-120) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“䏾斜如逐干盆</p>
+      <p class="nom">客它𨖲馭𠊚群𥊘蹺”</p>
+      <p class="quocngu">Bóng tà như giục cơn buồn,</p>
+      <p class="quocngu">Khách đà lên ngựa, người còn ghé theo.</p>
+      <p class="author"><i>(Dòng 167-168) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Just as much as we see in others, we have \
-| in ourselves.”                             |
-|                                            |
-\  -- William Hazlitt                        /
- --------------------------------------------
-   \
-    \
-         _____
-       .\'/L|__`.
-      / =[_]O|` \
-      |\"+_____\":|
-    __:='|____`-:__
-   ||[] ||====| []||
-   ||[] | |=| | []||
-   |:||_|=|U| |_||:|
-   |:|||]_=_ =[_||:| LS
-   | |||] [_][]C|| |
-   | ||-\'\"\"\"\"\"`-|| |
-   /|\\_\_|_|_/_//|\
-  |___|   /|\   |___|
-  `---\'  |___|  `---\'
-         `---'
+ __________________________________________
+/ “If I find 10,000 ways something won't   \
+| work, I haven't failed. I am not         |
+| discouraged, because every wrong attempt |
+| discarded is another step forward.”      |
+|                                          |
+\  -- Thomas Edison                        /
+ ------------------------------------------
+  \
+   \ ,   _ ___.--'''`--''//-,-_--_.
+      \`"' ` || \\ \ \\/ / // / ,-\\`,_
+     /'`  \ \ || Y  | \|/ / // / - |__ `-,
+    /o"\  ` \ `\ |  | ||/ // | \/  \  `-._`-,_.,
+   /  _.-. `.-\,___/\ _/|_/_\_\/|_/ |     `-._._)
+   `-'``/  /  |  // \__/\__  /  \__/ \
+        `-'  /-\/  | -|   \__ \   |-' |
+          __/\ / _/ \/ __,-'   ) ,' _|'
+         (((__/(((_.' ((___..-'((__,'
 ```
 <!-- END_QUOTE -->
 
