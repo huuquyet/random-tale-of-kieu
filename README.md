@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“䏾斜如逐干盆</p>
-      <p class="nom">客它𨖲馭𠊚群𥊘蹺”</p>
-      <p class="quocngu">Bóng tà như giục cơn buồn,</p>
-      <p class="quocngu">Khách đà lên ngựa, người còn ghé theo.</p>
-      <p class="author"><i>(Dòng 167-168) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“計包掣餒慘愁</p>
+      <p class="nom">斷膓埃固戈橋買𫨩”</p>
+      <p class="quocngu">Kể bao xiết nỗi thảm sầu,</p>
+      <p class="quocngu">Đoạn trường ai có qua cầu mới hay.</p>
+      <p class="author"><i>(Dòng 1681-1682) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “If I find 10,000 ways something won't   \
-| work, I haven't failed. I am not         |
-| discouraged, because every wrong attempt |
-| discarded is another step forward.”      |
-|                                          |
-\  -- Thomas Edison                        /
- ------------------------------------------
-  \
-   \ ,   _ ___.--'''`--''//-,-_--_.
-      \`"' ` || \\ \ \\/ / // / ,-\\`,_
-     /'`  \ \ || Y  | \|/ / // / - |__ `-,
-    /o"\  ` \ `\ |  | ||/ // | \/  \  `-._`-,_.,
-   /  _.-. `.-\,___/\ _/|_/_\_\/|_/ |     `-._._)
-   `-'``/  /  |  // \__/\__  /  \__/ \
-        `-'  /-\/  | -|   \__ \   |-' |
-          __/\ / _/ \/ __,-'   ) ,' _|'
-         (((__/(((_.' ((___..-'((__,'
+ _________________________________________
+/ “The fewer rules a coach has, the fewer \
+| rules there are for players to break.”  |
+|                                         |
+\  -- John Madden                         /
+ -----------------------------------------
+           \
+            \
+        "-.. __      __.='>
+         `.     """""   ,'
+           "-..__   _.-"
+   ~ ~~ ~ ~  ~   """  ~~  ~
 ```
 <!-- END_QUOTE -->
 
