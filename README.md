@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“計包掣餒慘愁</p>
-      <p class="nom">斷膓埃固戈橋買𫨩”</p>
-      <p class="quocngu">Kể bao xiết nỗi thảm sầu,</p>
-      <p class="quocngu">Đoạn trường ai có qua cầu mới hay.</p>
-      <p class="author"><i>(Dòng 1681-1682) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“謝恩𥛉𠓀徐公</p>
+      <p class="nom">㤕身蒲柳󰅹蒙固𣈙”</p>
+      <p class="quocngu">Tạ ân lạy trước Từ công:</p>
+      <p class="quocngu">Xót thân bồ liễu nào mong có rày!</p>
+      <p class="author"><i>(Dòng 2421-2422) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The fewer rules a coach has, the fewer \
-| rules there are for players to break.”  |
-|                                         |
-\  -- John Madden                         /
- -----------------------------------------
-           \
-            \
-        "-.. __      __.='>
-         `.     """""   ,'
-           "-..__   _.-"
-   ~ ~~ ~ ~  ~   """  ~~  ~
+ ___________________________________________
+/ “I've missed more than 9000 shots in my   \
+| career. I've lost almost 300 games. 26    |
+| times, I've been trusted to take the game |
+| winning shot and missed. I've failed over |
+| and over and over again in my life. And   |
+| that is why I succeed.”                   |
+|                                           |
+\  -- Michael Jordan                        /
+ -------------------------------------------
+                 \
+                  \  _,._
+                 __.'   _)
+                <_,)'.-"o\
+                  /' (    \
+      _.-----..,-'   (`"--^
+     //              |     
+    (|   `;      ,   |  
+      \   ;.----/  ,/ 
+       ) // /   | |\ \
+       \ \\`\   | |/ /
+        \ \\ \  | |\/
 ```
 <!-- END_QUOTE -->
 
