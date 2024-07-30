@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“謝恩𥛉𠓀徐公</p>
-      <p class="nom">㤕身蒲柳󰅹蒙固𣈙”</p>
-      <p class="quocngu">Tạ ân lạy trước Từ công:</p>
-      <p class="quocngu">Xót thân bồ liễu nào mong có rày!</p>
-      <p class="author"><i>(Dòng 2421-2422) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“仍羅煩悶𣈘𣈜</p>
+      <p class="nom">春秋別㐌𢷮𠳙󰋇吝”</p>
+      <p class="quocngu">Những là phiền muộn đêm ngày,</p>
+      <p class="quocngu">Xuân thu biết đã đổi thay mấy lần?</p>
+      <p class="author"><i>(Dòng 2857-2858) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I've missed more than 9000 shots in my   \
-| career. I've lost almost 300 games. 26    |
-| times, I've been trusted to take the game |
-| winning shot and missed. I've failed over |
-| and over and over again in my life. And   |
-| that is why I succeed.”                   |
-|                                           |
-\  -- Michael Jordan                        /
- -------------------------------------------
-                 \
-                  \  _,._
-                 __.'   _)
-                <_,)'.-"o\
-                  /' (    \
-      _.-----..,-'   (`"--^
-     //              |     
-    (|   `;      ,   |  
-      \   ;.----/  ,/ 
-       ) // /   | |\ \
-       \ \\`\   | |/ /
-        \ \\ \  | |\/
+ _______________________________________
+/ “It is more shameful to distrust our  \
+| friends than to be deceived by them.” |
+|                                       |
+\  -- Confucius                         /
+ ---------------------------------------
+     \
+      \
+        ,__, |    | 
+        (oo)\|    |___
+        (__)\|    |   )\_
+             |    |_w |  \
+             |    |  ||   *
+
+             Cower....
 ```
 <!-- END_QUOTE -->
 
