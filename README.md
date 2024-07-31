@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“仍羅煩悶𣈘𣈜</p>
-      <p class="nom">春秋別㐌𢷮𠳙󰋇吝”</p>
-      <p class="quocngu">Những là phiền muộn đêm ngày,</p>
-      <p class="quocngu">Xuân thu biết đã đổi thay mấy lần?</p>
-      <p class="author"><i>(Dòng 2857-2858) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋茹森合竹梅</p>
+      <p class="nom">強溇義𣷭強𨱽情滝”</p>
+      <p class="quocngu">Một nhà sum họp trúc mai,</p>
+      <p class="quocngu">Càng sâu nghĩa bể, càng dài tình sông.</p>
+      <p class="author"><i>(Dòng 1381-1382) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “It is more shameful to distrust our  \
-| friends than to be deceived by them.” |
-|                                       |
-\  -- Confucius                         /
- ---------------------------------------
-     \
-      \
-        ,__, |    | 
-        (oo)\|    |___
-        (__)\|    |   )\_
-             |    |_w |  \
-             |    |  ||   *
-
-             Cower....
+ ________________________________________
+/ “A house divided against itself cannot \
+| stand.”                                |
+|                                        |
+\  -- Abraham Lincoln                    /
+ ----------------------------------------
+  \
+   \
+       __     
+      UooU\.'@@@@@@`.
+      \__/(@@@@@@@@@@)
+           (@@@@@@@@)
+           `YY~~~~YY'
+            ||    ||
 ```
 <!-- END_QUOTE -->
 
