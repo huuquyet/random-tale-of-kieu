@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋茹森合竹梅</p>
-      <p class="nom">強溇義𣷭強𨱽情滝”</p>
-      <p class="quocngu">Một nhà sum họp trúc mai,</p>
-      <p class="quocngu">Càng sâu nghĩa bể, càng dài tình sông.</p>
-      <p class="author"><i>(Dòng 1381-1382) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦖑𠳒呐邏󰟯尼</p>
+      <p class="nom">事娘羅世𠳒柴鍳信”</p>
+      <p class="quocngu">Nghe lời nói lạ dường này,</p>
+      <p class="quocngu">Sự nàng là thế, lời thầy dám tin.</p>
+      <p class="author"><i>(Dòng 1699-1700) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “A house divided against itself cannot \
-| stand.”                                |
-|                                        |
-\  -- Abraham Lincoln                    /
- ----------------------------------------
-  \
-   \
-       __     
-      UooU\.'@@@@@@`.
-      \__/(@@@@@@@@@@)
-           (@@@@@@@@)
-           `YY~~~~YY'
-            ||    ||
+ _____________________________________________
+/ “Anybody can make history. Only a great man \
+| can write it.”                              |
+|                                             |
+\  -- Oscar Wilde                             /
+ ---------------------------------------------
+     \     .-.
+      \  .'   `.
+       \ :g g   :
+        \: o    `.
+        :         ``.
+       :             `.
+      :  :         .   `.
+      :   :          ` . `.
+       `.. :            `. ``;
+          `:;             `:'
+             :              `.
+              `.              `.     .
+                `'`'`'`---..,___`;.-'
 ```
 <!-- END_QUOTE -->
 
