@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦖑𠳒呐邏󰟯尼</p>
-      <p class="nom">事娘羅世𠳒柴鍳信”</p>
-      <p class="quocngu">Nghe lời nói lạ dường này,</p>
-      <p class="quocngu">Sự nàng là thế, lời thầy dám tin.</p>
-      <p class="author"><i>(Dòng 1699-1700) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤑟牟𤄯玉𤽸牙</p>
+      <p class="nom">𠫅𠫅産𨯹󰜋座天然”</p>
+      <p class="quocngu">Rõ màu trong ngọc trắng ngà,</p>
+      <p class="quocngu">Dày dày sẵn đúc một toà thiên nhiên.</p>
+      <p class="author"><i>(Dòng 1311-1312) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,24 +26,20 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Anybody can make history. Only a great man \
-| can write it.”                              |
+/ “Much wisdom often goes with fewest words.” \
 |                                             |
-\  -- Oscar Wilde                             /
+\  -- Sophocles                               /
  ---------------------------------------------
-     \     .-.
-      \  .'   `.
-       \ :g g   :
-        \: o    `.
-        :         ``.
-       :             `.
-      :  :         .   `.
-      :   :          ` . `.
-       `.. :            `. ``;
-          `:;             `:'
-             :              `.
-              `.              `.     .
-                `'`'`'`---..,___`;.-'
+       \
+        \
+         \        .:  ￣￣￣￣:.丶､
+               ／.: .: .: .: .: .: ＼
+              /    ／|    /\.:| .: :.
+             / .:|乂 |/{:/ _乂/\ .:.:|
+           ノ.:\/ｨ庁ﾐ` \/ｨ庁ﾐx  \/:.:|
+             |:}{弋.ﾉ    弋ノ } /.:.:|
+             ﾚ:ﾘ''          '' ｜:ハ:＼
+             {人       ,、    ,｜/ノ:厂 
 ```
 <!-- END_QUOTE -->
 
