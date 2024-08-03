@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤑟牟𤄯玉𤽸牙</p>
-      <p class="nom">𠫅𠫅産𨯹󰜋座天然”</p>
-      <p class="quocngu">Rõ màu trong ngọc trắng ngà,</p>
-      <p class="quocngu">Dày dày sẵn đúc một toà thiên nhiên.</p>
-      <p class="author"><i>(Dòng 1311-1312) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“沛調咹󰟉於𪰛</p>
+      <p class="nom">節𤾓𢆥女補𠫾󰜋𣈜”</p>
+      <p class="quocngu">Phải điều ăn xổi ở thì.</p>
+      <p class="quocngu">Tiết trăm năm nỡ bỏ đi một ngày!</p>
+      <p class="author"><i>(Dòng 509-510) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Much wisdom often goes with fewest words.” \
-|                                             |
-\  -- Sophocles                               /
- ---------------------------------------------
-       \
-        \
-         \        .:  ￣￣￣￣:.丶､
-               ／.: .: .: .: .: .: ＼
-              /    ／|    /\.:| .: :.
-             / .:|乂 |/{:/ _乂/\ .:.:|
-           ノ.:\/ｨ庁ﾐ` \/ｨ庁ﾐx  \/:.:|
-             |:}{弋.ﾉ    弋ノ } /.:.:|
-             ﾚ:ﾘ''          '' ｜:ハ:＼
-             {人       ,、    ,｜/ノ:厂 
+ ____________________________________________
+/ “Do the one thing you think you cannot do. \
+| Fail at it. Try again. Do better the       |
+| second time. The only people who never     |
+| tumble are those who never mount the high  |
+| wire. This is your moment. Own it.”        |
+|                                            |
+\  -- Oprah Winfrey                          /
+ --------------------------------------------
+   \
+    \
+      _____   _________
+     /     \_/         |
+    |                 ||
+    |                 ||
+   |    ###\  /###   | |
+   |     o  \/  o    | |
+  /|                 | |
+ / |        <        |\ \
+| /|                 | | |
+| |     \_______/   |  | |
+| |                 | / /
+/||                 /|||
+   ----------------|
+        | |    | |
+        ***    ***
+       /___\  /___\
 ```
 <!-- END_QUOTE -->
 
