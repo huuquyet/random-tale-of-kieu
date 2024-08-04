@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“沛調咹󰟉於𪰛</p>
-      <p class="nom">節𤾓𢆥女補𠫾󰜋𣈜”</p>
-      <p class="quocngu">Phải điều ăn xổi ở thì.</p>
-      <p class="quocngu">Tiết trăm năm nỡ bỏ đi một ngày!</p>
-      <p class="author"><i>(Dòng 509-510) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“緣箕固負之命</p>
+      <p class="nom">𦓡筭技梗鍾情爫𠄩”</p>
+      <p class="quocngu">Duyên kia có phụ chi mình,</p>
+      <p class="quocngu">Mà toan chia gánh chung tình làm hai?"</p>
+      <p class="author"><i>(Dòng 3089-3090) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Do the one thing you think you cannot do. \
-| Fail at it. Try again. Do better the       |
-| second time. The only people who never     |
-| tumble are those who never mount the high  |
-| wire. This is your moment. Own it.”        |
-|                                            |
-\  -- Oprah Winfrey                          /
- --------------------------------------------
+ _________________________________________
+/ “True friendship ought never to conceal \
+| what it thinks.”                        |
+|                                         |
+\  -- Jerome                              /
+ -----------------------------------------
    \
     \
-      _____   _________
-     /     \_/         |
-    |                 ||
-    |                 ||
-   |    ###\  /###   | |
-   |     o  \/  o    | |
-  /|                 | |
- / |        <        |\ \
-| /|                 | | |
-| |     \_______/   |  | |
-| |                 | / /
-/||                 /|||
-   ----------------|
-        | |    | |
-        ***    ***
-       /___\  /___\
+
+     |\_/|
+     |o o|__
+     --*--__\
+     C_C_(___)
 ```
 <!-- END_QUOTE -->
 
