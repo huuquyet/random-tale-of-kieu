@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“緣箕固負之命</p>
-      <p class="nom">𦓡筭技梗鍾情爫𠄩”</p>
-      <p class="quocngu">Duyên kia có phụ chi mình,</p>
-      <p class="quocngu">Mà toan chia gánh chung tình làm hai?"</p>
-      <p class="author"><i>(Dòng 3089-3090) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“風雷浽陣󰢗󰢗</p>
+      <p class="nom">󰠱𢚸𠲖唈併排分𢺺”</p>
+      <p class="quocngu">Phong lôi nổi trận bời bời,</p>
+      <p class="quocngu">Nặng lòng e ấp, tính bài phân chia.</p>
+      <p class="author"><i>(Dòng 1389-1390) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “True friendship ought never to conceal \
-| what it thinks.”                        |
-|                                         |
-\  -- Jerome                              /
- -----------------------------------------
-   \
-    \
-
-     |\_/|
-     |o o|__
-     --*--__\
-     C_C_(___)
+ __________________________________________
+/ “You are always free to change your mind \
+| and choose a different future, or a      |
+| different past.”                         |
+|                                          |
+\  -- Richard Bach                         /
+ ------------------------------------------
+     \
+      \
+             ,;;;;;;;,
+            ;;;;;;;;;;;,
+           ;;;;;'_____;'
+           ;;;(/))))|((\
+           _;;((((((|))))
+          / |_\\\\\\\\\\\\
+     .--~(  \ ~))))))))))))
+    /     \  `\-(((((((((((\\
+    |    | `\   ) |\       /|)
+     |    |  `. _/  \_____/ |
+      |    , `\~            /
+       |    \  \           /
+      | `.   `\|          /
+      |   ~-   `\        /
+       \____~._/~ -_,   (\
+        |-----|\   \    ';;
+       |      | :;;;'     \
+      |  /    |            |
+      |       |            |
 ```
 <!-- END_QUOTE -->
 
