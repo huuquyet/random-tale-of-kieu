@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“風雷浽陣󰢗󰢗</p>
-      <p class="nom">󰠱𢚸𠲖唈併排分𢺺”</p>
-      <p class="quocngu">Phong lôi nổi trận bời bời,</p>
-      <p class="quocngu">Nặng lòng e ấp, tính bài phân chia.</p>
-      <p class="author"><i>(Dòng 1389-1390) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㛪払鬼怪精魔</p>
+      <p class="nom">畨尼几𠎨󰜏𫅷﨤饒”</p>
+      <p class="quocngu">Vợ chàng quỷ quái tinh ma,</p>
+      <p class="quocngu">Phen này kẻ cắp bà già gặp nhau!</p>
+      <p class="author"><i>(Dòng 2333-2334) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “You are always free to change your mind \
-| and choose a different future, or a      |
-| different past.”                         |
-|                                          |
-\  -- Richard Bach                         /
- ------------------------------------------
-     \
-      \
-             ,;;;;;;;,
-            ;;;;;;;;;;;,
-           ;;;;;'_____;'
-           ;;;(/))))|((\
-           _;;((((((|))))
-          / |_\\\\\\\\\\\\
-     .--~(  \ ~))))))))))))
-    /     \  `\-(((((((((((\\
-    |    | `\   ) |\       /|)
-     |    |  `. _/  \_____/ |
-      |    , `\~            /
-       |    \  \           /
-      | `.   `\|          /
-      |   ~-   `\        /
-       \____~._/~ -_,   (\
-        |-----|\   \    ';;
-       |      | :;;;'     \
-      |  /    |            |
-      |       |            |
+ _____________________________________________
+/ “The purpose of learning is growth, and our \
+| minds, unlike our bodies, can continue      |
+| growing as we continue to live.”            |
+|                                             |
+\  -- Mortimer J. Adler                       /
+ ---------------------------------------------
+          \      (__)      
+           \     /oo|  
+            \   (_"_)*+++++++++*
+                   //I#\\\\\\\\I\
+                   I[I|I|||||I I `
+                   I`I'///'' I I
+                   I I       I I
+                   ~ ~       ~ ~
+                     Scowleton
 ```
 <!-- END_QUOTE -->
 
