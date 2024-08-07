@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㛪払鬼怪精魔</p>
-      <p class="nom">畨尼几𠎨󰜏𫅷﨤饒”</p>
-      <p class="quocngu">Vợ chàng quỷ quái tinh ma,</p>
-      <p class="quocngu">Phen này kẻ cắp bà già gặp nhau!</p>
-      <p class="author"><i>(Dòng 2333-2334) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“歐停果刼因綠</p>
+      <p class="nom">拱𠊚󰜋會󰜋船兜賒”</p>
+      <p class="quocngu">Âu đành quả kiếp nhân duyên,</p>
+      <p class="quocngu">Cùng người một hội một thuyền đâu xa.</p>
+      <p class="author"><i>(Dòng 201-202) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,21 +26,21 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “The purpose of learning is growth, and our \
-| minds, unlike our bodies, can continue      |
-| growing as we continue to live.”            |
+/ “It is common sense to take a method and    \
+| try it. If it fails, admit it frankly and   |
+| try another. But above all, try something.” |
 |                                             |
-\  -- Mortimer J. Adler                       /
+\  -- Franklin D. Roosevelt                   /
  ---------------------------------------------
-          \      (__)      
-           \     /oo|  
-            \   (_"_)*+++++++++*
-                   //I#\\\\\\\\I\
-                   I[I|I|||||I I `
-                   I`I'///'' I I
-                   I I       I I
-                   ~ ~       ~ ~
-                     Scowleton
+   \
+    \              ....       
+           ........    .      
+          .            .      
+         .             .      
+.........              .......
+..............................
+
+Elephant inside ASCII snake
 ```
 <!-- END_QUOTE -->
 
