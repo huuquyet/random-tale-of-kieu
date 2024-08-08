@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“歐停果刼因綠</p>
-      <p class="nom">拱𠊚󰜋會󰜋船兜賒”</p>
-      <p class="quocngu">Âu đành quả kiếp nhân duyên,</p>
-      <p class="quocngu">Cùng người một hội một thuyền đâu xa.</p>
-      <p class="author"><i>(Dòng 201-202) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“欺醒𨢇𣅶殘更</p>
+      <p class="nom">弋𨉟𨉟吏傷𨉟㤕車”</p>
+      <p class="quocngu">Khi tỉnh rượu, lúc tàn canh,</p>
+      <p class="quocngu">Giật mình, mình lại thương mình xót xa.</p>
+      <p class="author"><i>(Dòng 1233-1234) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “It is common sense to take a method and    \
-| try it. If it fails, admit it frankly and   |
-| try another. But above all, try something.” |
-|                                             |
-\  -- Franklin D. Roosevelt                   /
- ---------------------------------------------
-   \
-    \              ....       
-           ........    .      
-          .            .      
-         .             .      
-.........              .......
-..............................
-
-Elephant inside ASCII snake
+ __________________________________________
+/ “Blessed is the man who expects nothing, \
+| for he shall never be disappointed.”     |
+|                                          |
+\  -- Alexander Pope                       /
+ ------------------------------------------
+     \              
+      \    /ss/           
+   `oys:  .dmmd`  :syo`   
+   /dmmy   .//.   hmmd:   
+    -/:`          `:/-    
+oyo/:.     ^__^     .:/oy+
+/mmmmm+   <(oo\)>  `ommmmm/
+ smmmmms. -(__). .smmmmmo 
+ `+dmmmmd+``  ``+dmmmmd+  
+   -ymmmmmh/``+hmmmmmy-   
+    `/hmmmmmhhmmmmmh/`    
+      `/hmmmmmmmmh/`      
+        `/hmmmmmd/        
+      `oo.`/dmmmmdo`      
+     `ymmd+`VVmmmmmy`     
+     smmmmd-  /mmmmms     
+    -mmmmm+    ommmmm-    
+    -ooooo`    .ooooo.    
 ```
 <!-- END_QUOTE -->
 
