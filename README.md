@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“欺醒𨢇𣅶殘更</p>
-      <p class="nom">弋𨉟𨉟吏傷𨉟㤕車”</p>
-      <p class="quocngu">Khi tỉnh rượu, lúc tàn canh,</p>
-      <p class="quocngu">Giật mình, mình lại thương mình xót xa.</p>
-      <p class="author"><i>(Dòng 1233-1234) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“擬命方靣國家</p>
+      <p class="nom">官𨕭𥄮𫴋𠊚些𬂙𠓨”</p>
+      <p class="quocngu">Nghĩ mình phương diện quốc gia,</p>
+      <p class="quocngu">Quan trên nhắm xuống, người ta trông vào.</p>
+      <p class="author"><i>(Dòng 2591-2592) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Blessed is the man who expects nothing, \
-| for he shall never be disappointed.”     |
-|                                          |
-\  -- Alexander Pope                       /
- ------------------------------------------
-     \              
-      \    /ss/           
-   `oys:  .dmmd`  :syo`   
-   /dmmy   .//.   hmmd:   
-    -/:`          `:/-    
-oyo/:.     ^__^     .:/oy+
-/mmmmm+   <(oo\)>  `ommmmm/
- smmmmms. -(__). .smmmmmo 
- `+dmmmmd+``  ``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+`VVmmmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.    
+ ___________________________________________
+/ “I look forward to a great future for     \
+| America - a future in which our country   |
+| will match its military strength with our |
+| moral restraint, its wealth with our      |
+| wisdom, its power with our purpose.”      |
+|                                           |
+\  -- John F. Kennedy                       /
+ -------------------------------------------
+  \
+   \
+    \
+
+     iﾆﾆi
+    /   /ヽ
+   ｜農｜｜
+   ｜協｜｜
+   ｜牛｜｜＿
+ ／｜乳｜｜／
+ ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->
 
