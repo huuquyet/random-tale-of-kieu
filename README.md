@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“擬命方靣國家</p>
-      <p class="nom">官𨕭𥄮𫴋𠊚些𬂙𠓨”</p>
-      <p class="quocngu">Nghĩ mình phương diện quốc gia,</p>
-      <p class="quocngu">Quan trên nhắm xuống, người ta trông vào.</p>
-      <p class="author"><i>(Dòng 2591-2592) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤄯牢珠㳶溋涓</p>
+      <p class="nom">廕牢曷玉籃田買冬”</p>
+      <p class="quocngu">Trong sao châu nhỏ duềnh quyên!</p>
+      <p class="quocngu">Ấm sao hạt ngọc Lam Điền mới đông!</p>
+      <p class="author"><i>(Dòng 3203-3204) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I look forward to a great future for     \
-| America - a future in which our country   |
-| will match its military strength with our |
-| moral restraint, its wealth with our      |
-| wisdom, its power with our purpose.”      |
-|                                           |
-\  -- John F. Kennedy                       /
- -------------------------------------------
-  \
-   \
-    \
-
-     iﾆﾆi
-    /   /ヽ
-   ｜農｜｜
-   ｜協｜｜
-   ｜牛｜｜＿
- ／｜乳｜｜／
- ￣￣￣￣￣
+ _____________________________________
+/ “It is easy to be brave from a safe \
+| distance.”                          |
+|                                     |
+\  -- Aesop                           /
+ -------------------------------------
+\
+ \
+    ______
+   / ___M ]__
+C{ ( o o )}
+    {     ••
+      \___
+      ----´
 ```
 <!-- END_QUOTE -->
 
