@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤄯牢珠㳶溋涓</p>
-      <p class="nom">廕牢曷玉籃田買冬”</p>
-      <p class="quocngu">Trong sao châu nhỏ duềnh quyên!</p>
-      <p class="quocngu">Ấm sao hạt ngọc Lam Điền mới đông!</p>
-      <p class="author"><i>(Dòng 3203-3204) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤴬𢚸死别生離</p>
+      <p class="nom">身群拯惜惜之典綠”</p>
+      <p class="quocngu">Đau lòng tử biệt sinh ly,</p>
+      <p class="quocngu">Thân còn chẳng tiếc, tiếc gì đến duyên!</p>
+      <p class="author"><i>(Dòng 617-618) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________
-/ “It is easy to be brave from a safe \
-| distance.”                          |
-|                                     |
-\  -- Aesop                           /
- -------------------------------------
-\
- \
-    ______
-   / ___M ]__
-C{ ( o o )}
-    {     ••
-      \___
-      ----´
+ __________________________________________
+/ “A wise man will make more opportunities \
+| than he finds.”                          |
+|                                          |
+\  -- Francis Bacon                        /
+ ------------------------------------------
+     \
+      \
+                   [\
+              .----' `-----.
+             //^^^^;;^^^^^^`\
+     _______//_____||_____()_\________
+    /826    :      : ___              `\
+   |>   ____;      ;  |/\><|   ____   _<)
+  {____/    \_________________/    \____}
+       \ '' /                 \ '' /
+ jgs    '--'                   '--'
 ```
 <!-- END_QUOTE -->
 
