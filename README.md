@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤴬𢚸死别生離</p>
-      <p class="nom">身群拯惜惜之典綠”</p>
-      <p class="quocngu">Đau lòng tử biệt sinh ly,</p>
-      <p class="quocngu">Thân còn chẳng tiếc, tiếc gì đến duyên!</p>
-      <p class="author"><i>(Dòng 617-618) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“榮花補課風塵</p>
+      <p class="nom">𡦂情𣈜吏添春󰜋𣈜”</p>
+      <p class="quocngu">Vinh hoa bõ thuở phong trần,</p>
+      <p class="quocngu">Chữ tình ngày lại thêm xuân một ngày.</p>
+      <p class="author"><i>(Dòng 2287-2288) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,34 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  __________________________________________
-/ “A wise man will make more opportunities \
-| than he finds.”                          |
+/ “Irrigators channel waters; fletchers    \
+| straighten arrows; carpenters bend wood; |
+| the wise master themselves.”             |
 |                                          |
-\  -- Francis Bacon                        /
+\  -- The Buddha                           /
  ------------------------------------------
-     \
-      \
-                   [\
-              .----' `-----.
-             //^^^^;;^^^^^^`\
-     _______//_____||_____()_\________
-    /826    :      : ___              `\
-   |>   ____;      ;  |/\><|   ____   _<)
-  {____/    \_________________/    \____}
-       \ '' /                 \ '' /
- jgs    '--'                   '--'
+   \
+    \
+     \                 ____
+                 .: :<::. ::.>: :.
+               ／:: ::. :. ::. ::`:、
+               `::. ::.ィ:.i::.、::.ヽ
+             /'      ./|..ﾄ.}V.. .. ﾊ
+            '.. .. ./L/｜:| 一V::. ::１
+            i::. ::/}/` V:| V Vﾄ::. ::i
+            |::. :/Y芋ミV!Y 芋ミ|::. .|
+            ,::. ハ {::}  V {::}}:r,:代
+            /::. :}  つﾉ    つﾉ｜:レ:}ゝ  ヽ
+              V::八    r一 ┐   ｨ!::.:ﾘ      }
+       ｛r     ＼ﾊ:＞- .一-'.s<:ハ}ヽ}   __ノ ﾉ
+        弋二一   ヽ:{＞}_ノ  / ゝ､
+                ｡＜   〈ﾊ〉  {    `、
+              ／     i       `､.    `、
+            ／    フ^|   　   ',ﾞ、   `、
+           く   ／   |         ', ﾞ、y ヽ
+           tゝ_r     r          ',  ><一'
+                    /  ゞ＿      '
+                   /      一      `
 ```
 <!-- END_QUOTE -->
 
