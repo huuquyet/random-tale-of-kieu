@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“榮花補課風塵</p>
-      <p class="nom">𡦂情𣈜吏添春󰜋𣈜”</p>
-      <p class="quocngu">Vinh hoa bõ thuở phong trần,</p>
-      <p class="quocngu">Chữ tình ngày lại thêm xuân một ngày.</p>
-      <p class="author"><i>(Dòng 2287-2288) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌朱𠓨幅布荆</p>
+      <p class="nom">道從夫𥙩𡦂貞爫頭”</p>
+      <p class="quocngu">Đã cho vào bậc bố kinh,</p>
+      <p class="quocngu">Đạo tòng phu lấy chữ trinh làm đầu.</p>
+      <p class="author"><i>(Dòng 505-506) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Irrigators channel waters; fletchers    \
-| straighten arrows; carpenters bend wood; |
-| the wise master themselves.”             |
-|                                          |
-\  -- The Buddha                           /
- ------------------------------------------
-   \
-    \
-     \                 ____
-                 .: :<::. ::.>: :.
-               ／:: ::. :. ::. ::`:、
-               `::. ::.ィ:.i::.、::.ヽ
-             /'      ./|..ﾄ.}V.. .. ﾊ
-            '.. .. ./L/｜:| 一V::. ::１
-            i::. ::/}/` V:| V Vﾄ::. ::i
-            |::. :/Y芋ミV!Y 芋ミ|::. .|
-            ,::. ハ {::}  V {::}}:r,:代
-            /::. :}  つﾉ    つﾉ｜:レ:}ゝ  ヽ
-              V::八    r一 ┐   ｨ!::.:ﾘ      }
-       ｛r     ＼ﾊ:＞- .一-'.s<:ハ}ヽ}   __ノ ﾉ
-        弋二一   ヽ:{＞}_ノ  / ゝ､
-                ｡＜   〈ﾊ〉  {    `、
-              ／     i       `､.    `、
-            ／    フ^|   　   ',ﾞ、   `、
-           く   ／   |         ', ﾞ、y ヽ
-           tゝ_r     r          ',  ><一'
-                    /  ゞ＿      '
-                   /      一      `
+ _______________________________________
+/ “To hell with circumstances, I create \
+| opportunities.”                       |
+|                                       |
+\  -- Bruce Lee                         /
+ ---------------------------------------
+   \      {
+    \  }   }   {
+      {   {  }  }
+       }   }{  {
+      {  }{  }  }
+     ( }{ }{  { )
+    .-{   }   }-.
+   ( ( } { } { } )
+   |`-.._____..-'|
+   |             ;--.
+   |   (__)     (__  \
+   |   (oo)      | )  )
+   |    \/       |/  /
+   |             /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
 ```
 <!-- END_QUOTE -->
 
