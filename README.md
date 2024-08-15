@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“因爫牢典世尼</p>
-      <p class="nom">崔崔些㐌默𢬣󰘚讎”</p>
-      <p class="quocngu">Nhân làm sao đến thế này?</p>
-      <p class="quocngu">Thôi thôi, ta đã mắc tay mặt thù!"</p>
-      <p class="author"><i>(Dòng 1825-1826) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“窖羅󰘚憚𪵟𠫆</p>
+      <p class="nom">刼尼㐌典世尼羅傕”</p>
+      <p class="quocngu">Khéo là mặt dạn mày dày,</p>
+      <p class="quocngu">Kiếp này đã đến thế này là thôi!</p>
+      <p class="author"><i>(Dòng 1223-1224) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,43 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Happiness is the reward we get for living \
-| to the highest right we know.”             |
-|                                            |
-\  -- Richard Bach                           /
- --------------------------------------------
-        \    ,-^-.
-         \   !oYo!
-          \ /./=\.\______
-               ##        )\/\
-                ||-----w||
-                ||      ||
-
-               Cowth Vader
+ __________________________________________
+/ “Three things cannot be long hidden: the \
+| sun, the moon, and the truth.”           |
+|                                          |
+\  -- The Buddha                           /
+ ------------------------------------------
+    \
+     \                                                           ＿＿＿ノ^l
+      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
+                                                 く                       /
+                                                  `ヽ,   __､-'           /
+                                                    __＞‐´               |
+                                           ._,;‐''``              ,     /
+                                         _;"                     /     /
+                                       ／                       /     く
+                                     ／                        /       |
+                                   ／                        ／       ｌ
+                                 ノ                        ／￣ヽ     /
+                                /                        ／     ） _ノ
+                            ,r'″ヽ、                   ／        ￣
+                           /      ヽ                 ／
+                        ＿ﾉ        `r            _､‐'
+                      ／          _l,_       _､‐'
+                 __,r'          ／r;;,ヽ   ／
+               ,/              ｜.;●,;;|  ノ
+              ノ ／  ／／       ヽ､!!!ﾞﾉ "
+            ／ ／／／  ／／___,r''"￣
+           / ／ / / /／ / /
+      ___／／/／／／ ／／/
+  ／￣＿_／／／/ / ／／／
+ l ／´___／／／／／／ /
+ しレ"／／/ /  ／／//／
+      / ,/ / ／／／ /
+      ﾚ'   ﾚ'／／ ／
+           ／l｜l/
+          ｜|ﾚ'lノ
+           レ'
 ```
 <!-- END_QUOTE -->
 
