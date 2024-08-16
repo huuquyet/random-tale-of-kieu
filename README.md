@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“窖羅󰘚憚𪵟𠫆</p>
-      <p class="nom">刼尼㐌典世尼羅傕”</p>
-      <p class="quocngu">Khéo là mặt dạn mày dày,</p>
-      <p class="quocngu">Kiếp này đã đến thế này là thôi!</p>
-      <p class="author"><i>(Dòng 1223-1224) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“朱𫨩淑女志高</p>
+      <p class="nom">沛𠊛𣌋槾最桃如埃”</p>
+      <p class="quocngu">Cho hay thục nữ chí cao,</p>
+      <p class="quocngu">Phải người sớm mận tối đào như ai?</p>
+      <p class="author"><i>(Dòng 3219-3220) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,43 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Three things cannot be long hidden: the \
-| sun, the moon, and the truth.”           |
-|                                          |
-\  -- The Buddha                           /
- ------------------------------------------
-    \
-     \                                                           ＿＿＿ノ^l
-      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
-                                                 く                       /
-                                                  `ヽ,   __､-'           /
-                                                    __＞‐´               |
-                                           ._,;‐''``              ,     /
-                                         _;"                     /     /
-                                       ／                       /     く
-                                     ／                        /       |
-                                   ／                        ／       ｌ
-                                 ノ                        ／￣ヽ     /
-                                /                        ／     ） _ノ
-                            ,r'″ヽ、                   ／        ￣
-                           /      ヽ                 ／
-                        ＿ﾉ        `r            _､‐'
-                      ／          _l,_       _､‐'
-                 __,r'          ／r;;,ヽ   ／
-               ,/              ｜.;●,;;|  ノ
-              ノ ／  ／／       ヽ､!!!ﾞﾉ "
-            ／ ／／／  ／／___,r''"￣
-           / ／ / / /／ / /
-      ___／／/／／／ ／／/
-  ／￣＿_／／／/ / ／／／
- l ／´___／／／／／／ /
- しレ"／／/ /  ／／//／
-      / ,/ / ／／／ /
-      ﾚ'   ﾚ'／／ ／
-           ／l｜l/
-          ｜|ﾚ'lノ
-           レ'
+ ____________________________________________
+/ “Friends are those rare people who ask how \
+| we are and then wait to hear the answer.”  |
+|                                            |
+\  -- Ed Cunningham                          /
+ --------------------------------------------
+   \
+    \        .
+     .---.  //
+    Y|o o|Y// 
+   /_(i=i)K/ 
+   ~()~*~()~  
+    (_)-(_)   
+
+     Darth 
+     Vader    
+     koala        
 ```
 <!-- END_QUOTE -->
 
