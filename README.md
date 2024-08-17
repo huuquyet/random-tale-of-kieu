@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“朱𫨩淑女志高</p>
-      <p class="nom">沛𠊛𣌋槾最桃如埃”</p>
-      <p class="quocngu">Cho hay thục nữ chí cao,</p>
-      <p class="quocngu">Phải người sớm mận tối đào như ai?</p>
-      <p class="author"><i>(Dòng 3219-3220) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢩣𥢆𥢆仍湥洡</p>
+      <p class="nom">擬身麻吏吟𠿯朱身”</p>
+      <p class="quocngu">Buồng riêng, riêng những sụt sùi,</p>
+      <p class="quocngu">Nghĩ thân mà lại ngậm ngùi cho thân.</p>
+      <p class="author"><i>(Dòng 1189-1190) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Friends are those rare people who ask how \
-| we are and then wait to hear the answer.”  |
-|                                            |
-\  -- Ed Cunningham                          /
- --------------------------------------------
-   \
-    \        .
-     .---.  //
-    Y|o o|Y// 
-   /_(i=i)K/ 
-   ~()~*~()~  
-    (_)-(_)   
-
-     Darth 
-     Vader    
-     koala        
+ ___________________________________________
+/ “Sooner or later, those who win are those \
+| who think they can.”                      |
+|                                           |
+\  -- Richard Bach                          /
+ -------------------------------------------
+     \
+      \
+             ,;;;;;;;,
+            ;;;;;;;;;;;,
+           ;;;;;'_____;'
+           ;;;(/))))|((\
+           _;;((((((|))))
+          / |_\\\\\\\\\\\\
+     .--~(  \ ~))))))))))))
+    /     \  `\-(((((((((((\\
+    |    | `\   ) |\       /|)
+     |    |  `. _/  \_____/ |
+      |    , `\~            /
+       |    \  \           /
+      | `.   `\|          /
+      |   ~-   `\        /
+       \____~._/~ -_,   (\
+        |-----|\   \    ';;
+       |      | :;;;'     \
+      |  /    |            |
+      |       |            |
 ```
 <!-- END_QUOTE -->
 
