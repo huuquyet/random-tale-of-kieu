@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“官軍几吏𠊚戈</p>
-      <p class="nom">㤕娘仕吏域𠚢寅寅”</p>
-      <p class="quocngu">Quan quân kẻ lại người qua,</p>
-      <p class="quocngu">Xót nàng sẽ lại vực ra dần dần.</p>
-      <p class="author"><i>(Dòng 2537-2538) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“戈𨔈吏﨤回顛</p>
+      <p class="nom">悁塳吏劍咹沔月花”</p>
+      <p class="quocngu">Qua chơi lại gặp hồi đen,</p>
+      <p class="quocngu">Quen vùng lại kiếm ăn miền nguyệt hoa.</p>
+      <p class="author"><i>(Dòng 807-808) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________
-/ “The beginning is always today.” \
-|                                  |
-\  -- Mary Wollstonecraft          /
- ----------------------------------
+ ___________________________________________
+/ “Quality means doing it right when no one \
+| is looking.”                              |
+|                                           |
+\  -- Henry Ford                            /
+ -------------------------------------------
    \
     \
-              ___
-      D>=G==='   '.
-            |======|
-            |======|
-        )--/]IIIIII]
-           |_______|
-           C O O O D
-          C O  O  O D
-         C  O  O  O  D
-         C__O__O__O__D
-snd     [_____________]
+         ＿＿＿＿ ＿＿＿＿＿__
+      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
+       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
+         ｀ ＜. _  .ｰ ､                       !三  ＜
+                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
+                                                 ￣￣
 ```
 <!-- END_QUOTE -->
 
