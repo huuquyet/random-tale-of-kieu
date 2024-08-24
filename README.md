@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“特信金買𫫵王</p>
-      <p class="nom">便塘拱吏尋娘𡢐𠸗”</p>
-      <p class="quocngu">Được tin, Kim mới rủ Vương.</p>
-      <p class="quocngu">Tiện đường cùng lại tìm nàng sau xưa</p>
-      <p class="author"><i>(Dòng 2955-2956) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“對花𢯰𫴋詔𦣰</p>
+      <p class="nom">𧊉蜂𠫾吏喑喑四圍”</p>
+      <p class="quocngu">Đổi hoa lót xuống chiếu nằm,</p>
+      <p class="quocngu">Bướm ong đi lại ầm ầm tứ vi.</p>
+      <p class="author"><i>(Dòng 937-938) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “To command is to serve, nothing more and \
-| nothing less.”                            |
-|                                           |
-\  -- André Malraux                         /
- -------------------------------------------
-   \
-    \
-                      ,:二二二二:. .,
-                   ／.／＿＿＿_  ＼.:＼
-                  /. /／.: .: .:＼  : .:＼
-                 /.: .: .:/｜:/\ .:＼}.: .:.
-                .: |.:/一/ |:/ 一.:}: .: .:｜
-                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
-                |.: ｜= ＝    ＝＝= \/}: .:|
-                |:: ﾘ''           '' /:/､.:|
-               ノ:|:人    一一 ､    /:/ ﾉ.:|
-                , ┴＜＼  {     ｝ ,{:/イ::八
-               /_..   ＼` ー┬一r＜:八八／
-               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
-              /___ |  >､    ｀''＼   ｜
-             /ﾆ}::\/／  ＼       ｜  ｜
-          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
-           /__   V    ｝|  》=《      |
-           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
-             ￣        ｢   ゞ= '      }
-                      ﾉ               〉 
+ _________________________________________
+/ “It's easier to resist at the beginning \
+| than at the end.”                       |
+|                                         |
+\  -- Leonardo da Vinci                   /
+ -----------------------------------------
+         \
+          \
+           ___
+          (o o)
+         (  V  )
+        /--m-m-
 ```
 <!-- END_QUOTE -->
 
