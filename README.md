@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“對花𢯰𫴋詔𦣰</p>
-      <p class="nom">𧊉蜂𠫾吏喑喑四圍”</p>
-      <p class="quocngu">Đổi hoa lót xuống chiếu nằm,</p>
-      <p class="quocngu">Bướm ong đi lại ầm ầm tứ vi.</p>
-      <p class="author"><i>(Dòng 937-938) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“礙𥔘憚𩙍𠲖霜</p>
+      <p class="nom">䀡花䏾𢢆𬂙𦎛󰘚𠫆”</p>
+      <p class="quocngu">Ngại ngùng dạn gió e sương,</p>
+      <p class="quocngu">Xem hoa bóng thẹn, trông gương mặt dày.</p>
+      <p class="author"><i>(Dòng 635-636) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “It's easier to resist at the beginning \
-| than at the end.”                       |
-|                                         |
-\  -- Leonardo da Vinci                   /
- -----------------------------------------
-         \
-          \
-           ___
-          (o o)
-         (  V  )
-        /--m-m-
+ __________________________________________
+/ “Treat people as if they were what they  \
+| ought to be, and you help them to become |
+| what they are capable of being.”         |
+|                                          |
+\  -- Johann Wolfgang von Goethe           /
+ ------------------------------------------
+  \
+   \
+    \
+             ＿＿＿＿
+       ＜ :: :: :: :: `丶､
+       ／   _, ｨ:ﾊ ､＿: ::＼
+     ∠:: :/ |/|/ \/  \/:: |
+rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
+ヽ／＼i:｜   ┌──┐   i::|／＼ノ
+  ＼::|(||   |:::::|    ||)|::／
+    ＼|人|.、|:::::| .ｨ|ﾉ:八／
+      ＼\/\/>|:::::|<\/\/／
+        ＼ :::>TﾇT<::: ／
+          Y : ＼W／ : Y 
 ```
 <!-- END_QUOTE -->
 
