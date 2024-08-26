@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“礙𥔘憚𩙍𠲖霜</p>
-      <p class="nom">䀡花䏾𢢆𬂙𦎛󰘚𠫆”</p>
-      <p class="quocngu">Ngại ngùng dạn gió e sương,</p>
-      <p class="quocngu">Xem hoa bóng thẹn, trông gương mặt dày.</p>
-      <p class="author"><i>(Dòng 635-636) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“詫之柳𢨵花墻</p>
+      <p class="nom">樓撑吏補𠚢坊樓撑”</p>
+      <p class="quocngu">Sá chi liễu ngõ hoa tường,</p>
+      <p class="quocngu">Lầu xanh lại bỏ ra phường lầu xanh!</p>
+      <p class="author"><i>(Dòng 1355-1356) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,15 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Treat people as if they were what they  \
-| ought to be, and you help them to become |
-| what they are capable of being.”         |
-|                                          |
-\  -- Johann Wolfgang von Goethe           /
- ------------------------------------------
+ ___________________________________________
+/ “Through perseverance many people win     \
+| success out of what seemed destined to be |
+| certain failure.”                         |
+|                                           |
+\  -- Benjamin Disraeli                     /
+ -------------------------------------------
   \
-   \
-    \
-             ＿＿＿＿
-       ＜ :: :: :: :: `丶､
-       ／   _, ｨ:ﾊ ､＿: ::＼
-     ∠:: :/ |/|/ \/  \/:: |
-rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
-ヽ／＼i:｜   ┌──┐   i::|／＼ノ
-  ＼::|(||   |:::::|    ||)|::／
-    ＼|人|.、|:::::| .ｨ|ﾉ:八／
-      ＼\/\/>|:::::|<\/\/／
-        ＼ :::>TﾇT<::: ／
-          Y : ＼W／ : Y 
+¯\_(ツ)_/¯
 ```
 <!-- END_QUOTE -->
 
