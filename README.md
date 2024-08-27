@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“詫之柳𢨵花墻</p>
-      <p class="nom">樓撑吏補𠚢坊樓撑”</p>
-      <p class="quocngu">Sá chi liễu ngõ hoa tường,</p>
-      <p class="quocngu">Lầu xanh lại bỏ ra phường lầu xanh!</p>
-      <p class="author"><i>(Dòng 1355-1356) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“品𠎣淶典𢬣𢤞</p>
+      <p class="nom">懷功𬋟𪧚𩅹󱓀貝埃”</p>
+      <p class="quocngu">Phẩm tiên rơi đến tay hèn,</p>
+      <p class="quocngu">Hoài công nắng giữ mưa gìn với ai!</p>
+      <p class="author"><i>(Dòng 789-790) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,14 +26,20 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Through perseverance many people win     \
-| success out of what seemed destined to be |
-| certain failure.”                         |
+/ “Courage is rightly esteemed the first of \
+| human qualities... because it is the      |
+| quality which guarantees all others.”     |
 |                                           |
-\  -- Benjamin Disraeli                     /
+\  -- Winston Churchill                     /
  -------------------------------------------
-  \
-¯\_(ツ)_/¯
+        \
+         \
+          )__(
+         '|oo|'________/
+          |__|         |
+             ||"""""""||
+             ||       ||
+
 ```
 <!-- END_QUOTE -->
 
