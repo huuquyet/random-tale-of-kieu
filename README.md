@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“吝吝𣎃論𣈜戈</p>
-      <p class="nom">餒𧵆󰅹別塘賒世尼”</p>
-      <p class="quocngu">Lần lần tháng trọn ngày qua,</p>
-      <p class="quocngu">Nỗi gần nào biết đường xa thế này?</p>
-      <p class="author"><i>(Dòng 1789-1790) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“晨昏針𪨀禮常</p>
+      <p class="nom">養親𠳙𬌓𢚸娘𣈗𠸗”</p>
+      <p class="quocngu">Thần hôn chăm chút lễ thường,</p>
+      <p class="quocngu">Dưỡng thân thay tấm lòng nàng ngày xưa.</p>
+      <p class="author"><i>(Dòng 2823-2824) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Without passion man is a mere latent force \
-| and possibility, like the flint which       |
-| awaits the shock of the iron before it can  |
-| give forth its spark.”                      |
-|                                             |
-\  -- Henri-Frédéric Amiel                    /
- ---------------------------------------------
-  \
-   \
-       ___  
-     {~o_o~}
-      ( Y )
-     ()~*~()   
-     (_)-(_)   
+ ____________________________________________
+/ “How many cares one loses when one decides \
+| not to be something but to be someone.”    |
+|                                            |
+\  -- Coco Chanel                            /
+ --------------------------------------------
+     \
+      \
+        ,__, |    | 
+        (oo)\|    |___
+        (__)\|    |   )\_
+             |    |_w |  \
+             |    |  ||   *
+
+             Cower....
 ```
 <!-- END_QUOTE -->
 
