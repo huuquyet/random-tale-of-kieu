@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“晨昏針𪨀禮常</p>
-      <p class="nom">養親𠳙𬌓𢚸娘𣈗𠸗”</p>
-      <p class="quocngu">Thần hôn chăm chút lễ thường,</p>
-      <p class="quocngu">Dưỡng thân thay tấm lòng nàng ngày xưa.</p>
-      <p class="author"><i>(Dòng 2823-2824) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠳨𠚢𡢐買别浪</p>
+      <p class="nom">沛𠸜稱出在绳半絲”</p>
+      <p class="quocngu">Hỏi ra sau mới biết rằng:</p>
+      <p class="quocngu">Phải tên xưng xuất tại thằng bán tơ.</p>
+      <p class="author"><i>(Dòng 587-588) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,20 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “How many cares one loses when one decides \
-| not to be something but to be someone.”    |
+/ “Knowledge is proud that it knows so much; \
+| wisdom is humble that it knows no more.”   |
 |                                            |
-\  -- Coco Chanel                            /
+\  -- William Cowper                         /
  --------------------------------------------
-     \
-      \
-        ,__, |    | 
-        (oo)\|    |___
-        (__)\|    |   )\_
-             |    |_w |  \
-             |    |  ||   *
-
-             Cower....
+    \                                  ___-------___
+     \                             _-~~             ~~-_
+      \                         _-~                    /~-_
+             /^\__/^\         /~  \                   /    \
+           /|  o|| o|        /      \_______________/        \
+          | |___||__|      /       /                \          \
+          |          \    /      /                    \          \
+          |   (_______) /______/                        \_________ \
+          |         / /         \                      /            \
+           \         \^\\         \                  /               \     /
+             \         ||           \______________/      _-_       //\__//
+               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
+                 ~-----||====/~     |==================|       |/~~~~~
+                  (_(__/  ./     /                    \_\      \.
+                         (_(___/                         \_____)_)
 ```
 <!-- END_QUOTE -->
 
