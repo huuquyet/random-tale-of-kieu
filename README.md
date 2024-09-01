@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠳨𠚢𡢐買别浪</p>
-      <p class="nom">沛𠸜稱出在绳半絲”</p>
-      <p class="quocngu">Hỏi ra sau mới biết rằng:</p>
-      <p class="quocngu">Phải tên xưng xuất tại thằng bán tơ.</p>
-      <p class="author"><i>(Dòng 587-588) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𫢋前惨垃愁培</p>
+      <p class="nom">𣈜鋪手字𣈘㘨心香”</p>
+      <p class="quocngu">Phật tiền thảm lấp sầu vùi</p>
+      <p class="quocngu">Ngày pho thủ tự, đêm nồi tâm hương.</p>
+      <p class="author"><i>(Dòng 1929-1930) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,15 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Knowledge is proud that it knows so much; \
-| wisdom is humble that it knows no more.”   |
-|                                            |
-\  -- William Cowper                         /
- --------------------------------------------
-    \                                  ___-------___
-     \                             _-~~             ~~-_
-      \                         _-~                    /~-_
-             /^\__/^\         /~  \                   /    \
-           /|  o|| o|        /      \_______________/        \
-          | |___||__|      /       /                \          \
-          |          \    /      /                    \          \
-          |   (_______) /______/                        \_________ \
-          |         / /         \                      /            \
-           \         \^\\         \                  /               \     /
-             \         ||           \______________/      _-_       //\__//
-               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
-                 ~-----||====/~     |==================|       |/~~~~~
-                  (_(__/  ./     /                    \_\      \.
-                         (_(___/                         \_____)_)
+ ___________________________________________
+/ “A little more persistence, a little more \
+| effort, and what seemed hopeless failure  |
+| may turn to glorious success.”            |
+|                                           |
+\  -- Elbert Hubbard                        /
+ -------------------------------------------
+  \
+(╯°□°）╯︵ ┻━┻
 ```
 <!-- END_QUOTE -->
 
