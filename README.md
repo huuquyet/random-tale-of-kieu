@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𫢋前惨垃愁培</p>
-      <p class="nom">𣈜鋪手字𣈘㘨心香”</p>
-      <p class="quocngu">Phật tiền thảm lấp sầu vùi</p>
-      <p class="quocngu">Ngày pho thủ tự, đêm nồi tâm hương.</p>
-      <p class="author"><i>(Dòng 1929-1930) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌𢚸君子多恾</p>
+      <p class="nom">󰜋𠳒󰂅鑿𥒥鐄始終”</p>
+      <p class="quocngu">Đã lòng quân tử đa mang,</p>
+      <p class="quocngu">Một lời vâng tạc đá vàng thủy chung."</p>
+      <p class="author"><i>(Dòng 351-352) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,15 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “A little more persistence, a little more \
-| effort, and what seemed hopeless failure  |
-| may turn to glorious success.”            |
-|                                           |
-\  -- Elbert Hubbard                        /
- -------------------------------------------
-  \
-(╯°□°）╯︵ ┻━┻
+ _______________________________________
+/ “You must do the things you think you \
+| cannot do.”                           |
+|                                       |
+\  -- Eleanor Roosevelt                 /
+ ---------------------------------------
+     \
+      \
+                          .,---.
+                        ,/XM#MMMX;,
+                      -%##########M%,
+                     -@######%  $###@=
+      .,--,         -H#######$   $###M:
+   ,;$M###MMX;     .;##########$;HM###X=
+ ,/@##########H=      ;################+
+-+#############M/,      %##############+
+%M###############=      /##############:
+H################      .M#############;.
+@###############M      ,@###########M:.
+X################,      -$=X#######@:
+/@##################%-     +######$-
+.;##################X     .X#####+,
+ .;H################/     -X####+.
+   ,;X##############,       .MM/
+      ,:+$H@M#######M#$-    .$=
+           .,-=;+$@###X:    ;/=.
+                  .,/X$;   .::,
+                      .,    ..
 ```
 <!-- END_QUOTE -->
 
