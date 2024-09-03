@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌𢚸君子多恾</p>
-      <p class="nom">󰜋𠳒󰂅鑿𥒥鐄始終”</p>
-      <p class="quocngu">Đã lòng quân tử đa mang,</p>
-      <p class="quocngu">Một lời vâng tạc đá vàng thủy chung."</p>
-      <p class="author"><i>(Dòng 351-352) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠸦朱窖㐌𢧚浪</p>
+      <p class="nom">坤頑典墨呐能沛𠳒”</p>
+      <p class="quocngu">Khen cho: "Khéo đã nên rằng,</p>
+      <p class="quocngu">Khôn ngoan đến mực, nói năng phải lời,</p>
+      <p class="author"><i>(Dòng 2373-2374) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “You must do the things you think you \
-| cannot do.”                           |
-|                                       |
-\  -- Eleanor Roosevelt                 /
- ---------------------------------------
-     \
-      \
-                          .,---.
-                        ,/XM#MMMX;,
-                      -%##########M%,
-                     -@######%  $###@=
-      .,--,         -H#######$   $###M:
-   ,;$M###MMX;     .;##########$;HM###X=
- ,/@##########H=      ;################+
--+#############M/,      %##############+
-%M###############=      /##############:
-H################      .M#############;.
-@###############M      ,@###########M:.
-X################,      -$=X#######@:
-/@##################%-     +######$-
-.;##################X     .X#####+,
- .;H################/     -X####+.
-   ,;X##############,       .MM/
-      ,:+$H@M#######M#$-    .$=
-           .,-=;+$@###X:    ;/=.
-                  .,/X$;   .::,
-                      .,    ..
+ _____________________________________________
+/ “The real danger is not that computers will \
+| begin to think like men, but that men will  |
+| begin to think like computers.”             |
+|                                             |
+\  -- Sydney J. Harris                        /
+ ---------------------------------------------
+  \     .    _  .    
+   \    |\_|/__/|    
+       / / \/ \  \  
+      /__|o||o|__ \ 
+     |/_ \_/\_/ _\ |  
+     | | (____) | ||  
+     \/\___/\__/  // 
+     (_/         ||
+      |          ||
+      |          ||\   
+       \        //_/  
+        \______//
+       __ || __||
+      (____(____)
 ```
 <!-- END_QUOTE -->
 
