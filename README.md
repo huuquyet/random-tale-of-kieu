@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠸦朱窖㐌𢧚浪</p>
-      <p class="nom">坤頑典墨呐能沛𠳒”</p>
-      <p class="quocngu">Khen cho: "Khéo đã nên rằng,</p>
-      <p class="quocngu">Khôn ngoan đến mực, nói năng phải lời,</p>
-      <p class="author"><i>(Dòng 2373-2374) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“彙𦝄域域𡧲𡗶</p>
+      <p class="nom">丁寧𠄩󰘚󰜋𠳒雙雙”</p>
+      <p class="quocngu">Vầng trăng vằng vặc giữa trời,</p>
+      <p class="quocngu">Đinh ninh hai mặt một lời song song.</p>
+      <p class="author"><i>(Dòng 449-450) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The real danger is not that computers will \
-| begin to think like men, but that men will  |
-| begin to think like computers.”             |
-|                                             |
-\  -- Sydney J. Harris                        /
- ---------------------------------------------
-  \     .    _  .    
-   \    |\_|/__/|    
-       / / \/ \  \  
-      /__|o||o|__ \ 
-     |/_ \_/\_/ _\ |  
-     | | (____) | ||  
-     \/\___/\__/  // 
-     (_/         ||
-      |          ||
-      |          ||\   
-       \        //_/  
-        \______//
-       __ || __||
-      (____(____)
+ ____________________________________________
+/ “How many legs does a dog have if you call \
+| his tail a leg? Four. Saying that a tail   |
+| is a leg doesn't make it a leg.”           |
+|                                            |
+\  -- Abraham Lincoln                        /
+ --------------------------------------------
+ \       \      \      
+  \        ^__^  \        
+    ^__^   (oo)   ^__^  
+    (oo)   (__)   (oo)   
+    (__)          (__)   
+oyo/:                :/oy+
+/mmmmm+   syyyyo  `ommmmm/
+ smmmmms. -ymmy. .smmmmmo 
+ `+dmmmmd+``::``+dmmmmd+  
+   -ymmmmmh/``+hmmmmmy-   
+    `/hmmmmmhhmmmmmh/`    
+      `/hmmmmmmmmh/`      
+        `/hmmmmmd/        
+      `oo.`/dmmmmdo`      
+     `ymmd+``ommmmmy`     
+     smmmmd-  /mmmmms     
+    -mmmmm+    ommmmm-    
+    -ooooo`    .ooooo.     
 ```
 <!-- END_QUOTE -->
 
