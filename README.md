@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“彙𦝄域域𡧲𡗶</p>
-      <p class="nom">丁寧𠄩󰘚󰜋𠳒雙雙”</p>
-      <p class="quocngu">Vầng trăng vằng vặc giữa trời,</p>
-      <p class="quocngu">Đinh ninh hai mặt một lời song song.</p>
-      <p class="author"><i>(Dòng 449-450) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“共饒根紊典調</p>
+      <p class="nom">指𡽫誓𣷭󰠱招歇𠳒”</p>
+      <p class="quocngu">Cùng nhau căn vặn đến điều,</p>
+      <p class="quocngu">Chỉ non thề bể nặng gieo hết lời.</p>
+      <p class="author"><i>(Dòng 1367-1368) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,30 +26,41 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “How many legs does a dog have if you call \
-| his tail a leg? Four. Saying that a tail   |
-| is a leg doesn't make it a leg.”           |
+/ “If you don't go after what you want,      \
+| you'll never have it. If you don't ask,    |
+| the answer is always no. If you don't step |
+| forward, you're always in the same place.” |
 |                                            |
-\  -- Abraham Lincoln                        /
+\  -- Nora Roberts                           /
  --------------------------------------------
- \       \      \      
-  \        ^__^  \        
-    ^__^   (oo)   ^__^  
-    (oo)   (__)   (oo)   
-    (__)          (__)   
-oyo/:                :/oy+
-/mmmmm+   syyyyo  `ommmmm/
- smmmmms. -ymmy. .smmmmmo 
- `+dmmmmd+``::``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+``ommmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.     
+    \
+     \
+      \
+       \
+        \
+         \
+    \     \                     /
+     \     \                   /
+      \     \                 /
+       ]     \               [    ,'|
+       ]      \              [   /  |
+       ]___               ___[ ,'   |
+       ]  ]\             /[  [ |:   |
+       ]  ] \           / [  [ |:   |
+       ]  ]  ]         [  [  [ |:   |
+       ]  ]  ]__     __[  [  [ |:   |
+       ]  ]  ] ]\ _ /[ [  [  [ |:   |
+       ]  ]  ] ] (#) [ [  [  [ :===='
+       ]  ]  ]_].nHn.[_[  [  [
+       ]  ]  ]  HHHHH. [  [  [
+       ]  ] /   `HH("N  \ [  [
+       ]__]/     HHH  "  \[__[
+       ]         NNN         [
+       ]         N/"         [
+       ]         N H         [
+      /          N            \
+     /           q,            \
+    /                           \
 ```
 <!-- END_QUOTE -->
 
