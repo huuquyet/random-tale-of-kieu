@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“共饒根紊典調</p>
-      <p class="nom">指𡽫誓𣷭󰠱招歇𠳒”</p>
-      <p class="quocngu">Cùng nhau căn vặn đến điều,</p>
-      <p class="quocngu">Chỉ non thề bể nặng gieo hết lời.</p>
-      <p class="author"><i>(Dòng 1367-1368) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“轎花𠽖逴卽𪰛</p>
+      <p class="nom">王翁𠰺逴共𧗱󰜋尼”</p>
+      <p class="quocngu">Kiệu hoa giục rước tức thì,</p>
+      <p class="quocngu">Vương ông dạy rước cùng về một nơi.</p>
+      <p class="author"><i>(Dòng 3033-3034) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,41 +26,29 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “If you don't go after what you want,      \
-| you'll never have it. If you don't ask,    |
-| the answer is always no. If you don't step |
-| forward, you're always in the same place.” |
+/ “To succeed, we must first believe that we \
+| can.”                                      |
 |                                            |
-\  -- Nora Roberts                           /
+\  -- Michael Korda                          /
  --------------------------------------------
+   \
     \
-     \
-      \
-       \
-        \
-         \
-    \     \                     /
-     \     \                   /
-      \     \                 /
-       ]     \               [    ,'|
-       ]      \              [   /  |
-       ]___               ___[ ,'   |
-       ]  ]\             /[  [ |:   |
-       ]  ] \           / [  [ |:   |
-       ]  ]  ]         [  [  [ |:   |
-       ]  ]  ]__     __[  [  [ |:   |
-       ]  ]  ] ]\ _ /[ [  [  [ |:   |
-       ]  ]  ] ] (#) [ [  [  [ :===='
-       ]  ]  ]_].nHn.[_[  [  [
-       ]  ]  ]  HHHHH. [  [  [
-       ]  ] /   `HH("N  \ [  [
-       ]__]/     HHH  "  \[__[
-       ]         NNN         [
-       ]         N/"         [
-       ]         N H         [
-      /          N            \
-     /           q,            \
-    /                           \
+       ／ .: .: .: .: .: .: .:  .: .: . ＼
+     ./   .: .: .: .: .: .: .:  .: .: .: .ヽ
+     /          /  . ..l..  ヽ.: .: .: .: .:.
+    ,    .. .: /  .| : ハ: .|  ＼.: .: .: .: .
+    |.: .:.l.:/  ヽ|.:/  ､ .|.ノ ＼ .l:.: .: |
+    |.: .:.|:/.ｨ≠ﾐ|:/    ＼| ィ≠ミ､|.:.: .:|
+    |.: .: ノ /Y::::ヽ       Y::::ヽヽ＼ .: ｜
+   /:.: /^|:|{.{:::::}       {:::::}.} |:|ヽ:､
+ ノ:ノ: { |:| Ｕうーソ       うーソ  |:| }ヽ:＼
+    | : ヽ|.|  '' ￣           ￣ ''U|:| /:|
+     :: ::人|                        |人::ﾘ
+     Vﾊ:: :: \                     /::  ﾊ/
+      \|ヽ:: ::ヽ､     --      ,イ::／|／
+          ＼| ヽ:≧=r-r---r-r=≦:ノ|／
+             . :´:.ヽ二二.ノ: :｀: .
+            ／: : :  ／ハ＼: : : : ＼
 ```
 <!-- END_QUOTE -->
 
