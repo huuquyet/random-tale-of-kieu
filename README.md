@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“轎花𠽖逴卽𪰛</p>
-      <p class="nom">王翁𠰺逴共𧗱󰜋尼”</p>
-      <p class="quocngu">Kiệu hoa giục rước tức thì,</p>
-      <p class="quocngu">Vương ông dạy rước cùng về một nơi.</p>
-      <p class="author"><i>(Dòng 3033-3034) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡃹霞聘喠瓊漿</p>
+      <p class="nom">𦄂羅香論屏𦎛䏾籠”</p>
+      <p class="quocngu">Chén hà sánh giọng quỳnh tương,</p>
+      <p class="quocngu">Giải là hương lộn, bình gương bóng lồng.</p>
+      <p class="author"><i>(Dòng 453-454) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “To succeed, we must first believe that we \
-| can.”                                      |
-|                                            |
-\  -- Michael Korda                          /
- --------------------------------------------
-   \
-    \
-       ／ .: .: .: .: .: .: .:  .: .: . ＼
-     ./   .: .: .: .: .: .: .:  .: .: .: .ヽ
-     /          /  . ..l..  ヽ.: .: .: .: .:.
-    ,    .. .: /  .| : ハ: .|  ＼.: .: .: .: .
-    |.: .:.l.:/  ヽ|.:/  ､ .|.ノ ＼ .l:.: .: |
-    |.: .:.|:/.ｨ≠ﾐ|:/    ＼| ィ≠ミ､|.:.: .:|
-    |.: .: ノ /Y::::ヽ       Y::::ヽヽ＼ .: ｜
-   /:.: /^|:|{.{:::::}       {:::::}.} |:|ヽ:､
- ノ:ノ: { |:| Ｕうーソ       うーソ  |:| }ヽ:＼
-    | : ヽ|.|  '' ￣           ￣ ''U|:| /:|
-     :: ::人|                        |人::ﾘ
-     Vﾊ:: :: \                     /::  ﾊ/
-      \|ヽ:: ::ヽ､     --      ,イ::／|／
-          ＼| ヽ:≧=r-r---r-r=≦:ノ|／
-             . :´:.ヽ二二.ノ: :｀: .
-            ／: : :  ／ハ＼: : : : ＼
+ __________________________________________
+/ “The poor man is not he who is without a \
+| cent, but he who is without a dream.”    |
+|                                          |
+\  -- Harry Kemp                           /
+ ------------------------------------------
+     \     .-.
+      \  .'   `.
+       \ :g g   :
+        \: o    `.
+        :         ``.
+       :             `.
+      :  :         .   `.
+      :   :          ` . `.
+       `.. :            `. ``;
+          `:;             `:'
+             :              `.
+              `.              `.     .
+                `'`'`'`---..,___`;.-'
 ```
 <!-- END_QUOTE -->
 
