@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡃹霞聘喠瓊漿</p>
-      <p class="nom">𦄂羅香論屏𦎛䏾籠”</p>
-      <p class="quocngu">Chén hà sánh giọng quỳnh tương,</p>
-      <p class="quocngu">Giải là hương lộn, bình gương bóng lồng.</p>
-      <p class="author"><i>(Dòng 453-454) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢚸疎來𣼽徘徊</p>
+      <p class="nom">㭲𣘃吏拍󰜋排古詩”</p>
+      <p class="quocngu">Lòng thơ lai láng bồi hồi,</p>
+      <p class="quocngu">Gốc cây lại vạch một bài cổ thi.</p>
+      <p class="author"><i>(Dòng 131-132) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,24 +26,16 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  __________________________________________
-/ “The poor man is not he who is without a \
-| cent, but he who is without a dream.”    |
+/ “Friends are the siblings God never gave \
+| us.”                                     |
 |                                          |
-\  -- Harry Kemp                           /
+\  -- Mencius                              /
  ------------------------------------------
-     \     .-.
-      \  .'   `.
-       \ :g g   :
-        \: o    `.
-        :         ``.
-       :             `.
-      :  :         .   `.
-      :   :          ` . `.
-       `.. :            `. ``;
-          `:;             `:'
-             :              `.
-              `.              `.     .
-                `'`'`'`---..,___`;.-'
+  \
+   \ ..:::::::::.
+    ::::::::::::::
+   /. `::::::::::::
+  O__,_:::::::::::'
 ```
 <!-- END_QUOTE -->
 
