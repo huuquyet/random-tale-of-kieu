@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢚸疎來𣼽徘徊</p>
-      <p class="nom">㭲𣘃吏拍󰜋排古詩”</p>
-      <p class="quocngu">Lòng thơ lai láng bồi hồi,</p>
-      <p class="quocngu">Gốc cây lại vạch một bài cổ thi.</p>
-      <p class="author"><i>(Dòng 131-132) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“邏朱丐㳥傾城</p>
+      <p class="nom">爫朱覩舘漂亭如𨔈”</p>
+      <p class="quocngu">Lạ cho cái sóng khuynh thành,</p>
+      <p class="quocngu">Làm cho đổ quán xiêu đình như chơi!</p>
+      <p class="author"><i>(Dòng 1301-1302) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,17 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Friends are the siblings God never gave \
-| us.”                                     |
-|                                          |
-\  -- Mencius                              /
- ------------------------------------------
+ _____________________________________________
+/ “Accept the challenges so that you can feel \
+| the exhilaration of victory.”               |
+|                                             |
+\  -- George S. Patton                        /
+ ---------------------------------------------
   \
-   \ ..:::::::::.
-    ::::::::::::::
-   /. `::::::::::::
-  O__,_:::::::::::'
+   \          . .: -ーー― :._
+    \       ／.: .: .: .:     ＞  r⌒ヽ
+           / .:         ｜.､.:＼  ﾉ ノ
+          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
+          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
+          |: .:/ c─-        Ｙ:| /
+          |:ﾊ:{``   ,  --┐  人V /
+          ﾉ:L＼>   く_,￣┘／  ＼
+   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
+   L_,vー─-|    ､ }  ＶYﾊ   Y
+             ￣￣Ｖ  ｜/∧   ﾍ
+                  {   |//∧  ﾍ
+                  {    ＼//   ﾍ
+                  {            ＼
+                  ｝             >
 ```
 <!-- END_QUOTE -->
 
