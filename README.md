@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“邏朱丐㳥傾城</p>
-      <p class="nom">爫朱覩舘漂亭如𨔈”</p>
-      <p class="quocngu">Lạ cho cái sóng khuynh thành,</p>
-      <p class="quocngu">Làm cho đổ quán xiêu đình như chơi!</p>
-      <p class="author"><i>(Dòng 1301-1302) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡗶東𣃣𠓇𠦳橷</p>
+      <p class="nom">𠇕爲󰅹㐌別兜羅茄”</p>
+      <p class="quocngu">Trời đông vừa rạng ngàn dâu,</p>
+      <p class="quocngu">Bơ vơ nào đã biết đâu là nhà!</p>
+      <p class="author"><i>(Dòng 2033-2034) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Accept the challenges so that you can feel \
-| the exhilaration of victory.”               |
-|                                             |
-\  -- George S. Patton                        /
- ---------------------------------------------
-  \
-   \          . .: -ーー― :._
-    \       ／.: .: .: .:     ＞  r⌒ヽ
-           / .:         ｜.､.:＼  ﾉ ノ
-          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
-          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
-          |: .:/ c─-        Ｙ:| /
-          |:ﾊ:{``   ,  --┐  人V /
-          ﾉ:L＼>   く_,￣┘／  ＼
-   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
-   L_,vー─-|    ､ }  ＶYﾊ   Y
-             ￣￣Ｖ  ｜/∧   ﾍ
-                  {   |//∧  ﾍ
-                  {    ＼//   ﾍ
-                  {            ＼
-                  ｝             >
+ ___________________________________________
+/ “All our knowledge has its origins in our \
+| perceptions.”                             |
+|                                           |
+\  -- Leonardo da Vinci                     /
+ -------------------------------------------
+   \
+    \
+      .-+$H###MM@MMMMM##@$+-,. ....
+-@$+%$+%HX+--..  .  . .,:X$/+/++$#:
+-#MXH$=                      $HXH#:
+ .--,:#+   ,+$HMX =@@X%, . .X#:,,,
+     =#@$H :####H =####;,M%$#X
+     X###$ $####X =####H %###X
+    ;###X /###@$: ,+HM##H.+###;
+   :###;,X##%=;%H@H$;-;M#@-;###/
+  ,M##;.@##;-H#######M=.M##-:###-
+  ;##M ;##X @###H-=@###.;##X H##;
+  ;##M./##X.@###H:/M###-=##X X##;
+  -###;,M##:,@########+-H##; @##-
+   %##M==@##%==%HMH%::/M##+.X##+
+    %###/./###X+: -+$M##M=,X##+
+     X###X X####H +#####% @##H
+     :###H %####H +#####; X##;
+     /#$.  -HM##H /###@+.  +#$. .
+/HX%$X:      .,-, .-,.      =XX$H@-
+/#H+/+%+/+;=.          .=/%;;/;;+#+
+ ..  .,-:XM#MM@@@@@@H@@M#@+=,.   ,,
 ```
 <!-- END_QUOTE -->
 
