@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡗶東𣃣𠓇𠦳橷</p>
-      <p class="nom">𠇕爲󰅹㐌別兜羅茄”</p>
-      <p class="quocngu">Trời đông vừa rạng ngàn dâu,</p>
-      <p class="quocngu">Bơ vơ nào đã biết đâu là nhà!</p>
-      <p class="author"><i>(Dòng 2033-2034) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“王觀由引𧵆賒</p>
+      <p class="nom">淡仙娘意𠸗羅歌兒”</p>
+      <p class="quocngu">Vương Quan do dẫn gần xa:</p>
+      <p class="quocngu">"Đạm Tiên nàng ấy xưa là ca nhi.</p>
+      <p class="author"><i>(Dòng 61-62) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
