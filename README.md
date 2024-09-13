@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“事𢚸吘貝氷人</p>
-      <p class="nom">𠄩𤾓吏據原銀照還”</p>
-      <p class="quocngu">Sự lòng ngỏ với băng nhân:</p>
-      <p class="quocngu">Hai trăm lại cứ nguyên ngân chiếu hoàn.</p>
-      <p class="author"><i>(Dòng 2207-2208) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“領𠳒娘買攄𦀊</p>
+      <p class="nom">𠰚𡽫𡃑𡁾易醝𢚸𠊚”</p>
+      <p class="quocngu">Lĩnh lời nàng mới lựa dây,</p>
+      <p class="quocngu">Nỉ non thánh thót dễ say lòng người!</p>
+      <p class="author"><i>(Dòng 1779-1780) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
