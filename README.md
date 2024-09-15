@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𫨩𪬡𨤰拱󰡸貂</p>
-      <p class="nom">餒圭𢷣󰜋𠄩調昂昂”</p>
-      <p class="quocngu">Hay hèn, lẽ cũng nối điêu,</p>
-      <p class="quocngu">Nỗi quê dở một hai điều ngang ngang.</p>
-      <p class="author"><i>(Dòng 1317-1318) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“過關尼曲昭君</p>
+      <p class="nom">姅分戀主姅分思家”</p>
+      <p class="quocngu">Quá quan này khúc Chiêu Quân,</p>
+      <p class="quocngu">Nửa phần luyến chúa, nửa phần tư gia.</p>
+      <p class="author"><i>(Dòng 479-480) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
