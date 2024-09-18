@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“仍羅唭粉𠹳𣘈</p>
-      <p class="nom">畑𣌉終䏾𦝄𧷺聘𦠘”</p>
-      <p class="quocngu">Những là cười phấn cợt son,</p>
-      <p class="quocngu">Đèn khuya chung bóng, trăng tròn sánh vai,</p>
-      <p class="author"><i>(Dòng 1591-1592) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“嘆喂色渃香𡗶</p>
+      <p class="nom">惜朱兜俸落類典低”</p>
+      <p class="quocngu">Than ôi! Sắc nước hương trời,</p>
+      <p class="quocngu">Tiếc cho đâu bỗng lạc loài đến đây?</p>
+      <p class="author"><i>(Dòng 1065-1066) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
