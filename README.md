@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“嘆喂色渃香𡗶</p>
-      <p class="nom">惜朱兜俸落類典低”</p>
-      <p class="quocngu">Than ôi! Sắc nước hương trời,</p>
-      <p class="quocngu">Tiếc cho đâu bỗng lạc loài đến đây?</p>
-      <p class="author"><i>(Dòng 1065-1066) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“擬𠁀𦓡喭朱𠁀</p>
+      <p class="nom">才情之𡗋朱𡗶坦慳”</p>
+      <p class="quocngu">Nghĩ đời mà ngán cho đời,</p>
+      <p class="quocngu">Tài tình chi lắm cho trời đất ghen!</p>
+      <p class="author"><i>(Dòng 2153-2154) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
