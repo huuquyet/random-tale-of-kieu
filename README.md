@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“擬𠁀𦓡喭朱𠁀</p>
-      <p class="nom">才情之𡗋朱𡗶坦慳”</p>
-      <p class="quocngu">Nghĩ đời mà ngán cho đời,</p>
-      <p class="quocngu">Tài tình chi lắm cho trời đất ghen!</p>
-      <p class="author"><i>(Dòng 2153-2154) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪𢚸當忖恜菭</p>
+      <p class="nom">絲綠群王䋦尼渚衝”</p>
+      <p class="quocngu">Rằng: "Lòng đương thổn thức đầy,</p>
+      <p class="quocngu">Tơ duyên còn vướng mối này chưa xong.</p>
+      <p class="author"><i>(Dòng 719-720) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
