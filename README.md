@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浪𢚸當忖恜菭</p>
-      <p class="nom">絲綠群王䋦尼渚衝”</p>
-      <p class="quocngu">Rằng: "Lòng đương thổn thức đầy,</p>
-      <p class="quocngu">Tơ duyên còn vướng mối này chưa xong.</p>
-      <p class="author"><i>(Dòng 719-720) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐱𠵱圭客󰜋命</p>
+      <p class="nom">𢬣空渚易尋鑅廕𩛂”</p>
+      <p class="quocngu">Chỉn e quê khách một mình,</p>
+      <p class="quocngu">Tay không chưa dễ tìm vành ấm no!"</p>
+      <p class="author"><i>(Dòng 2021-2022) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
