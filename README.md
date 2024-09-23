@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“咹𡅧𪰛事㐌耒</p>
-      <p class="nom">𢘝𢚸𠊛𡳵󰂅𠳒󰜋畨”</p>
-      <p class="quocngu">Ăn năn thì sự đã rồi,</p>
-      <p class="quocngu">Nể lòng người cũ vâng lời một phen."</p>
-      <p class="author"><i>(Dòng 3195-3196) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“戈𨔈吏﨤回顛</p>
+      <p class="nom">悁塳吏劍咹沔月花”</p>
+      <p class="quocngu">Qua chơi lại gặp hồi đen,</p>
+      <p class="quocngu">Quen vùng lại kiếm ăn miền nguyệt hoa.</p>
+      <p class="author"><i>(Dòng 807-808) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
