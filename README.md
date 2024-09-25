@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“﨤干家變邏󰟯</p>
-      <p class="nom">半命怒沛尋塘救吒”</p>
-      <p class="quocngu">Gặp cơn gia biến lạ dường,</p>
-      <p class="quocngu">Bán mình nó phải tìm đường cứu cha.</p>
-      <p class="author"><i>(Dòng 2779-2780) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“萍蓬群几賒吹</p>
+      <p class="nom">󰞈鍾牢女咹𡎥朱安”</p>
+      <p class="quocngu">Bình bồng còn kẻ xa xôi,</p>
+      <p class="quocngu">Đỉnh chung sao nỡ ăn ngồi cho an!</p>
+      <p class="author"><i>(Dòng 2937-2938) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
