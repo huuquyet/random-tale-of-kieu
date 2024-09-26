@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“萍蓬群几賒吹</p>
-      <p class="nom">󰞈鍾牢女咹𡎥朱安”</p>
-      <p class="quocngu">Bình bồng còn kẻ xa xôi,</p>
-      <p class="quocngu">Đỉnh chung sao nỡ ăn ngồi cho an!</p>
-      <p class="author"><i>(Dòng 2937-2938) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“仍𦖑呐㐌𢢆𢝣</p>
+      <p class="nom">渃𠁀𪥀浽邏𨓡汔溪”</p>
+      <p class="quocngu">Những nghe nói đã thẹn thùng,</p>
+      <p class="quocngu">Nước đời lắm nỗi lạ lùng khắt khe!</p>
+      <p class="author"><i>(Dòng 1219-1220) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
