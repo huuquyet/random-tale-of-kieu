@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“悲𣇞𦎛󰡋吏𫅜</p>
-      <p class="nom">囷󰡼攎𤀓㐌仃固尼”</p>
-      <p class="quocngu">Bây giờ gương vỡ lại lành,</p>
-      <p class="quocngu">Khuôn thiêng lừa lọc đã đành có nơi.</p>
-      <p class="author"><i>(Dòng 3071-3072) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𥢆𢚸㐌𢢆𡗋台</p>
+      <p class="nom">共它󰘚憚𪵟𠫅苦𥋳”</p>
+      <p class="quocngu">Riêng lòng đã thẹn lắm thay,</p>
+      <p class="quocngu">Cũng mang mặt dạn mày dày khó coi!</p>
+      <p class="author"><i>(Dòng 3149-3150) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
