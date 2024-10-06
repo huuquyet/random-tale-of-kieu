@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“風流窒默紅裙</p>
-      <p class="nom">春撑執齒細旬及筓”</p>
-      <p class="quocngu">Phong lưu rất mực hồng quần,</p>
-      <p class="quocngu">Xuân xanh xấp xỉ tới tuần cập kê,</p>
-      <p class="author"><i>(Dòng 35-36) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰋇吝󰘇㨂杄掑</p>
+      <p class="nom">𣲆㙴花用别𠊚於兜”</p>
+      <p class="quocngu">Mấy lần cửa đóng then cài,</p>
+      <p class="quocngu">Dãy thềm hoa rụng biết người ở đâu</p>
+      <p class="author"><i>(Dòng 271-272) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
