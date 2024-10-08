@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘自隻䏾窗𦂛</p>
-      <p class="nom">塘箕餒怒如𢺺䋦愁”</p>
-      <p class="quocngu">Nàng từ chiếc bóng song the,</p>
-      <p class="quocngu">Đường kia nỗi nọ như chia mối sầu.</p>
-      <p class="author"><i>(Dòng 1627-1628) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“特如𠳒世羅埋</p>
+      <p class="nom">罕浪𣈕固如𠳒朱庒”</p>
+      <p class="quocngu">Được như lời thế là may,</p>
+      <p class="quocngu">Hẳn rằng mai có như rày cho chăng.</p>
+      <p class="author"><i>(Dòng 1023-1024) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
