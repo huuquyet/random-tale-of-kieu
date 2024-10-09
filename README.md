@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“特如𠳒世羅埋</p>
-      <p class="nom">罕浪𣈕固如𠳒朱庒”</p>
-      <p class="quocngu">Được như lời thế là may,</p>
-      <p class="quocngu">Hẳn rằng mai có như rày cho chăng.</p>
-      <p class="author"><i>(Dòng 1023-1024) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𥪝欺𢭸𦑃連梗</p>
+      <p class="nom">麻𢚸𥜤󰠹㐌呈󰜋邊”</p>
+      <p class="quocngu">Trong khi tựa cánh liền cành,</p>
+      <p class="quocngu">Mà lòng rẻ rúng đã trình một bên.</p>
+      <p class="author"><i>(Dòng 515-516) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
