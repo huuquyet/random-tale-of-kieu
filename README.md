@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“束生悁󰞺卜徠</p>
-      <p class="nom">𤾓𠦳覩󰜋陣唭如空”</p>
-      <p class="quocngu">Thúc sinh quen nết bốc rời,</p>
-      <p class="quocngu">Trăm nghìn đổ một trận cười như không.</p>
-      <p class="author"><i>(Dòng 1303-1304) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“斧刀包管身殘</p>
+      <p class="nom">女菭墮𥘷強冤酷𫅷”</p>
+      <p class="quocngu">Búa dao bao quản thân tàn,</p>
+      <p class="quocngu">Nỡ đày đoạ trẻ, càng oan khốc già.</p>
+      <p class="author"><i>(Dòng 661-662) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
