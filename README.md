@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“斧刀包管身殘</p>
-      <p class="nom">女菭墮𥘷強冤酷𫅷”</p>
-      <p class="quocngu">Búa dao bao quản thân tàn,</p>
-      <p class="quocngu">Nỡ đày đoạ trẻ, càng oan khốc già.</p>
-      <p class="author"><i>(Dòng 661-662) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“徵凌爫𢷣𠚢威</p>
+      <p class="nom">繩童抯𠰘昆婢𢯏𪘵”</p>
+      <p class="quocngu">Chưng lừng làm dữ ra uy,</p>
+      <p class="quocngu">Thằng đồng vả miệng, con tì bẻ răng.</p>
+      <p class="author"><i>(Dòng 1561-1562) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
