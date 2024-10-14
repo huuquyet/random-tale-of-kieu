@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰢯󰢇劄胣呐之</p>
-      <p class="nom">易󰝡肝𧎜填󰀩𡗶𩄲”</p>
-      <p class="quocngu">Khắc xương chép dạ nói chi,</p>
-      <p class="quocngu">Dễ đem gan Ốc đền nghì trời mây.</p>
-      <p class="author"><i>(Dòng 2425-2426) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“詫之柳𢨵花墻</p>
+      <p class="nom">樓撑吏補𠚢坊樓撑”</p>
+      <p class="quocngu">Sá chi liễu ngõ hoa tường,</p>
+      <p class="quocngu">Lầu xanh lại bỏ ra phường lầu xanh!</p>
+      <p class="author"><i>(Dòng 1355-1356) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
