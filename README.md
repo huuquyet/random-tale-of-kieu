@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“詫之柳𢨵花墻</p>
-      <p class="nom">樓撑吏補𠚢坊樓撑”</p>
-      <p class="quocngu">Sá chi liễu ngõ hoa tường,</p>
-      <p class="quocngu">Lầu xanh lại bỏ ra phường lầu xanh!</p>
-      <p class="author"><i>(Dòng 1355-1356) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪𡭧分癡踈</p>
+      <p class="nom">拱埋𦀊葛特洳䏾𣘃”</p>
+      <p class="quocngu">Nàng rằng: "Chút phận ngây thơ,</p>
+      <p class="quocngu">Cũng may dây cát được nhờ bóng cây!</p>
+      <p class="author"><i>(Dòng 2279-2280) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
