@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㤕台隻蘿𠀧潙</p>
-      <p class="nom">刼塵別𢷀包𣇞朱衝”</p>
-      <p class="quocngu">Xót thay chiếc lá bơ vơ,</p>
-      <p class="quocngu">Kiếp trần biết giũ bao giờ cho xong?</p>
-      <p class="author"><i>(Dòng 2929-2930) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌甘𠹾薄貝情</p>
+      <p class="nom">主東底罪󰜋命朱花”</p>
+      <p class="quocngu">Đã cam chịu bạc với tình,</p>
+      <p class="quocngu">Chúa đông để tội một mình cho hoa.</p>
+      <p class="author"><i>(Dòng 1945-1946) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
