@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“負旁之閉化工</p>
-      <p class="nom">𣈜撑𤷱痗𦟐紅配坡”</p>
-      <p class="quocngu">Phũ phàng chi bấy hóa công</p>
-      <p class="quocngu">Ngày xanh mòn mỏi má hồng phôi pha.</p>
-      <p class="author"><i>(Dòng 85-86) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“嚉觥生買料𠳒</p>
+      <p class="nom">尋花過𨀈䀡𠊚曰經”</p>
+      <p class="quocngu">Dối quanh sinh mới liệu lời:</p>
+      <p class="quocngu">Tìm hoa quá bước, xem người viết kinh.</p>
+      <p class="author"><i>(Dòng 1985-1986) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
