@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“嚉觥生買料𠳒</p>
-      <p class="nom">尋花過𨀈䀡𠊚曰經”</p>
-      <p class="quocngu">Dối quanh sinh mới liệu lời:</p>
-      <p class="quocngu">Tìm hoa quá bước, xem người viết kinh.</p>
-      <p class="author"><i>(Dòng 1985-1986) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣦰戈󰜋局𣷭橷</p>
+      <p class="nom">仍調𬂙𧡊麻𤴬疸𢚸”</p>
+      <p class="quocngu">Trải qua một cuộc bể dâu,</p>
+      <p class="quocngu">Những điều trông thấy mà đau đớn lòng.</p>
+      <p class="author"><i>(Dòng 3-4) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
