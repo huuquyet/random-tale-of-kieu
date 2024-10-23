@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣦰戈󰜋局𣷭橷</p>
-      <p class="nom">仍調𬂙𧡊麻𤴬疸𢚸”</p>
-      <p class="quocngu">Trải qua một cuộc bể dâu,</p>
-      <p class="quocngu">Những điều trông thấy mà đau đớn lòng.</p>
-      <p class="author"><i>(Dòng 3-4) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡄎綠奇遇𠸗𫢩</p>
+      <p class="nom">侶堆埃吏𫅠齊崔張”</p>
+      <p class="quocngu">Gẫm duyên kỳ ngộ xưa nay,</p>
+      <p class="quocngu">Lứa đôi ai dễ đẹp tày Thôi Trương.</p>
+      <p class="author"><i>(Dòng 511-512) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
