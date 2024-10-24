@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡄎綠奇遇𠸗𫢩</p>
-      <p class="nom">侶堆埃吏𫅠齊崔張”</p>
-      <p class="quocngu">Gẫm duyên kỳ ngộ xưa nay,</p>
-      <p class="quocngu">Lứa đôi ai dễ đẹp tày Thôi Trương.</p>
-      <p class="author"><i>(Dòng 511-512) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦖑詳梗𦰟消耗</p>
+      <p class="nom">𢚸𥢆𨻫仍勞刀矧蜍”</p>
+      <p class="quocngu">Nghe tường ngành ngọn tiêu hao,</p>
+      <p class="quocngu">Lòng riêng, luống những lao đao thẫn thờ.</p>
+      <p class="author"><i>(Dòng 2927-2928) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
