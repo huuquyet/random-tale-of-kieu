@@ -33,8 +33,13 @@ async function updateFile(fileName: string, result: string) {
 export async function randomQuotes() {
   core.info('Updating with random quotes... 📁')
   try {
-    // Get random quotes from https://github.com/lukePeavey/quotable
-    const response = await fetch('https://api.quotable.io/quotes/random')
+    // Get random quotes from https://github.com/hiteshchoudhary/apihub
+    const response = await fetch('https://api.freeapi.app/api/v1/public/quotes/quote/random', {
+      method: 'GET',
+      headers: {
+        accept: 'application/json',
+      },
+    })
     const quotes = await response.json()
     const quote = quotes[0]
 

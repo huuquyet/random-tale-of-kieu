@@ -13,8 +13,8 @@ END="<!-- END_QUOTE -->"
 # sed -n '/'"$START"'/,/'"$END"'/{//!p}' README.md
 # sed -n '/START_QUOTE/,/END_QUOTE/{//!p}' README.md
 
-# Get random quotes from https://github.com/lukePeavey/quotable
-QUOTABLE=$( curl -s -X GET -H "Content-Type: application/json" https://api.quotable.io/quotes/random | jq -r '.[0]' )
+# Get random quotes from https://github.com/hiteshchoudhary/apihub
+QUOTABLE=$( curl -s -X GET -H "Content-Type: application/json" https://api.freeapi.app/api/v1/public/quotes/quote/random | jq -r '.[0]' )
 CONTENT=$( echo $QUOTABLE | jq -r '.content' )  
 AUTHOR=$( echo $QUOTABLE | jq -r '.author' ) 
 DISPLAY=' \

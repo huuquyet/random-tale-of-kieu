@@ -21,7 +21,7 @@ SVG:
   <img src="./assets/random-kieu.svg" alt="The Tale of Kieu - Nguyen Du">
 </div>
 
-## Random quote from api.quotable.io with ASCII format
+## Random quote from api.freeapi.app with ASCII format
 
 <!-- START_QUOTE -->
 ```rust

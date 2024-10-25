@@ -1,14 +1,18 @@
 require('./sourcemap-register.js');/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 7351:
+/***/ 4914:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -21,14 +25,14 @@ var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
     __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.issue = exports.issueCommand = void 0;
-const os = __importStar(__nccwpck_require__(2037));
-const utils_1 = __nccwpck_require__(5278);
+const os = __importStar(__nccwpck_require__(857));
+const utils_1 = __nccwpck_require__(302);
 /**
  * Commands
  *
@@ -83,13 +87,13 @@ class Command {
     }
 }
 function escapeData(s) {
-    return utils_1.toCommandValue(s)
+    return (0, utils_1.toCommandValue)(s)
         .replace(/%/g, '%25')
         .replace(/\r/g, '%0D')
         .replace(/\n/g, '%0A');
 }
 function escapeProperty(s) {
-    return utils_1.toCommandValue(s)
+    return (0, utils_1.toCommandValue)(s)
         .replace(/%/g, '%25')
         .replace(/\r/g, '%0D')
         .replace(/\n/g, '%0A')
@@ -100,14 +104,18 @@ function escapeProperty(s) {
 
 /***/ }),
 
-/***/ 2186:
+/***/ 7484:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -120,7 +128,7 @@ var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
     __setModuleDefault(result, mod);
     return result;
 };
@@ -134,13 +142,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getIDToken = exports.getState = exports.saveState = exports.group = exports.endGroup = exports.startGroup = exports.info = exports.notice = exports.warning = exports.error = exports.debug = exports.isDebug = exports.setFailed = exports.setCommandEcho = exports.setOutput = exports.getBooleanInput = exports.getMultilineInput = exports.getInput = exports.addPath = exports.setSecret = exports.exportVariable = exports.ExitCode = void 0;
-const command_1 = __nccwpck_require__(7351);
-const file_command_1 = __nccwpck_require__(717);
-const utils_1 = __nccwpck_require__(5278);
-const os = __importStar(__nccwpck_require__(2037));
-const path = __importStar(__nccwpck_require__(1017));
-const oidc_utils_1 = __nccwpck_require__(8041);
+exports.platform = exports.toPlatformPath = exports.toWin32Path = exports.toPosixPath = exports.markdownSummary = exports.summary = exports.getIDToken = exports.getState = exports.saveState = exports.group = exports.endGroup = exports.startGroup = exports.info = exports.notice = exports.warning = exports.error = exports.debug = exports.isDebug = exports.setFailed = exports.setCommandEcho = exports.setOutput = exports.getBooleanInput = exports.getMultilineInput = exports.getInput = exports.addPath = exports.setSecret = exports.exportVariable = exports.ExitCode = void 0;
+const command_1 = __nccwpck_require__(4914);
+const file_command_1 = __nccwpck_require__(4753);
+const utils_1 = __nccwpck_require__(302);
+const os = __importStar(__nccwpck_require__(857));
+const path = __importStar(__nccwpck_require__(6928));
+const oidc_utils_1 = __nccwpck_require__(5306);
 /**
  * The code to exit an action
  */
@@ -154,7 +162,7 @@ var ExitCode;
      * A code indicating that the action was a failure
      */
     ExitCode[ExitCode["Failure"] = 1] = "Failure";
-})(ExitCode = exports.ExitCode || (exports.ExitCode = {}));
+})(ExitCode || (exports.ExitCode = ExitCode = {}));
 //-----------------------------------------------------------------------
 // Variables
 //-----------------------------------------------------------------------
@@ -165,13 +173,13 @@ var ExitCode;
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function exportVariable(name, val) {
-    const convertedVal = utils_1.toCommandValue(val);
+    const convertedVal = (0, utils_1.toCommandValue)(val);
     process.env[name] = convertedVal;
     const filePath = process.env['GITHUB_ENV'] || '';
     if (filePath) {
-        return file_command_1.issueFileCommand('ENV', file_command_1.prepareKeyValueMessage(name, val));
+        return (0, file_command_1.issueFileCommand)('ENV', (0, file_command_1.prepareKeyValueMessage)(name, val));
     }
-    command_1.issueCommand('set-env', { name }, convertedVal);
+    (0, command_1.issueCommand)('set-env', { name }, convertedVal);
 }
 exports.exportVariable = exportVariable;
 /**
@@ -179,7 +187,7 @@ exports.exportVariable = exportVariable;
  * @param secret value of the secret
  */
 function setSecret(secret) {
-    command_1.issueCommand('add-mask', {}, secret);
+    (0, command_1.issueCommand)('add-mask', {}, secret);
 }
 exports.setSecret = setSecret;
 /**
@@ -189,10 +197,10 @@ exports.setSecret = setSecret;
 function addPath(inputPath) {
     const filePath = process.env['GITHUB_PATH'] || '';
     if (filePath) {
-        file_command_1.issueFileCommand('PATH', inputPath);
+        (0, file_command_1.issueFileCommand)('PATH', inputPath);
     }
     else {
-        command_1.issueCommand('add-path', {}, inputPath);
+        (0, command_1.issueCommand)('add-path', {}, inputPath);
     }
     process.env['PATH'] = `${inputPath}${path.delimiter}${process.env['PATH']}`;
 }
@@ -267,10 +275,10 @@ exports.getBooleanInput = getBooleanInput;
 function setOutput(name, value) {
     const filePath = process.env['GITHUB_OUTPUT'] || '';
     if (filePath) {
-        return file_command_1.issueFileCommand('OUTPUT', file_command_1.prepareKeyValueMessage(name, value));
+        return (0, file_command_1.issueFileCommand)('OUTPUT', (0, file_command_1.prepareKeyValueMessage)(name, value));
     }
     process.stdout.write(os.EOL);
-    command_1.issueCommand('set-output', { name }, utils_1.toCommandValue(value));
+    (0, command_1.issueCommand)('set-output', { name }, (0, utils_1.toCommandValue)(value));
 }
 exports.setOutput = setOutput;
 /**
@@ -279,7 +287,7 @@ exports.setOutput = setOutput;
  *
  */
 function setCommandEcho(enabled) {
-    command_1.issue('echo', enabled ? 'on' : 'off');
+    (0, command_1.issue)('echo', enabled ? 'on' : 'off');
 }
 exports.setCommandEcho = setCommandEcho;
 //-----------------------------------------------------------------------
@@ -310,7 +318,7 @@ exports.isDebug = isDebug;
  * @param message debug message
  */
 function debug(message) {
-    command_1.issueCommand('debug', {}, message);
+    (0, command_1.issueCommand)('debug', {}, message);
 }
 exports.debug = debug;
 /**
@@ -319,7 +327,7 @@ exports.debug = debug;
  * @param properties optional properties to add to the annotation.
  */
 function error(message, properties = {}) {
-    command_1.issueCommand('error', utils_1.toCommandProperties(properties), message instanceof Error ? message.toString() : message);
+    (0, command_1.issueCommand)('error', (0, utils_1.toCommandProperties)(properties), message instanceof Error ? message.toString() : message);
 }
 exports.error = error;
 /**
@@ -328,7 +336,7 @@ exports.error = error;
  * @param properties optional properties to add to the annotation.
  */
 function warning(message, properties = {}) {
-    command_1.issueCommand('warning', utils_1.toCommandProperties(properties), message instanceof Error ? message.toString() : message);
+    (0, command_1.issueCommand)('warning', (0, utils_1.toCommandProperties)(properties), message instanceof Error ? message.toString() : message);
 }
 exports.warning = warning;
 /**
@@ -337,7 +345,7 @@ exports.warning = warning;
  * @param properties optional properties to add to the annotation.
  */
 function notice(message, properties = {}) {
-    command_1.issueCommand('notice', utils_1.toCommandProperties(properties), message instanceof Error ? message.toString() : message);
+    (0, command_1.issueCommand)('notice', (0, utils_1.toCommandProperties)(properties), message instanceof Error ? message.toString() : message);
 }
 exports.notice = notice;
 /**
@@ -356,14 +364,14 @@ exports.info = info;
  * @param name The name of the output group
  */
 function startGroup(name) {
-    command_1.issue('group', name);
+    (0, command_1.issue)('group', name);
 }
 exports.startGroup = startGroup;
 /**
  * End an output group.
  */
 function endGroup() {
-    command_1.issue('endgroup');
+    (0, command_1.issue)('endgroup');
 }
 exports.endGroup = endGroup;
 /**
@@ -401,9 +409,9 @@ exports.group = group;
 function saveState(name, value) {
     const filePath = process.env['GITHUB_STATE'] || '';
     if (filePath) {
-        return file_command_1.issueFileCommand('STATE', file_command_1.prepareKeyValueMessage(name, value));
+        return (0, file_command_1.issueFileCommand)('STATE', (0, file_command_1.prepareKeyValueMessage)(name, value));
     }
-    command_1.issueCommand('save-state', { name }, utils_1.toCommandValue(value));
+    (0, command_1.issueCommand)('save-state', { name }, (0, utils_1.toCommandValue)(value));
 }
 exports.saveState = saveState;
 /**
@@ -425,25 +433,29 @@ exports.getIDToken = getIDToken;
 /**
  * Summary exports
  */
-var summary_1 = __nccwpck_require__(1327);
+var summary_1 = __nccwpck_require__(1847);
 Object.defineProperty(exports, "summary", ({ enumerable: true, get: function () { return summary_1.summary; } }));
 /**
  * @deprecated use core.summary
  */
-var summary_2 = __nccwpck_require__(1327);
+var summary_2 = __nccwpck_require__(1847);
 Object.defineProperty(exports, "markdownSummary", ({ enumerable: true, get: function () { return summary_2.markdownSummary; } }));
 /**
  * Path exports
  */
-var path_utils_1 = __nccwpck_require__(2981);
+var path_utils_1 = __nccwpck_require__(1976);
 Object.defineProperty(exports, "toPosixPath", ({ enumerable: true, get: function () { return path_utils_1.toPosixPath; } }));
 Object.defineProperty(exports, "toWin32Path", ({ enumerable: true, get: function () { return path_utils_1.toWin32Path; } }));
 Object.defineProperty(exports, "toPlatformPath", ({ enumerable: true, get: function () { return path_utils_1.toPlatformPath; } }));
+/**
+ * Platform utilities exports
+ */
+exports.platform = __importStar(__nccwpck_require__(8968));
 //# sourceMappingURL=core.js.map
 
 /***/ }),
 
-/***/ 717:
+/***/ 4753:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -451,7 +463,11 @@ Object.defineProperty(exports, "toPlatformPath", ({ enumerable: true, get: funct
 // For internal use, subject to change.
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -464,7 +480,7 @@ var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
     __setModuleDefault(result, mod);
     return result;
 };
@@ -472,10 +488,10 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.prepareKeyValueMessage = exports.issueFileCommand = void 0;
 // We use any as a valid input type
 /* eslint-disable @typescript-eslint/no-explicit-any */
-const fs = __importStar(__nccwpck_require__(7147));
-const os = __importStar(__nccwpck_require__(2037));
-const uuid_1 = __nccwpck_require__(5840);
-const utils_1 = __nccwpck_require__(5278);
+const crypto = __importStar(__nccwpck_require__(6982));
+const fs = __importStar(__nccwpck_require__(9896));
+const os = __importStar(__nccwpck_require__(857));
+const utils_1 = __nccwpck_require__(302);
 function issueFileCommand(command, message) {
     const filePath = process.env[`GITHUB_${command}`];
     if (!filePath) {
@@ -484,14 +500,14 @@ function issueFileCommand(command, message) {
     if (!fs.existsSync(filePath)) {
         throw new Error(`Missing file at path: ${filePath}`);
     }
-    fs.appendFileSync(filePath, `${utils_1.toCommandValue(message)}${os.EOL}`, {
+    fs.appendFileSync(filePath, `${(0, utils_1.toCommandValue)(message)}${os.EOL}`, {
         encoding: 'utf8'
     });
 }
 exports.issueFileCommand = issueFileCommand;
 function prepareKeyValueMessage(key, value) {
-    const delimiter = `ghadelimiter_${uuid_1.v4()}`;
-    const convertedValue = utils_1.toCommandValue(value);
+    const delimiter = `ghadelimiter_${crypto.randomUUID()}`;
+    const convertedValue = (0, utils_1.toCommandValue)(value);
     // These should realistically never happen, but just in case someone finds a
     // way to exploit uuid generation let's not allow keys or values that contain
     // the delimiter.
@@ -508,7 +524,7 @@ exports.prepareKeyValueMessage = prepareKeyValueMessage;
 
 /***/ }),
 
-/***/ 8041:
+/***/ 5306:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -524,9 +540,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.OidcClient = void 0;
-const http_client_1 = __nccwpck_require__(6255);
-const auth_1 = __nccwpck_require__(5526);
-const core_1 = __nccwpck_require__(2186);
+const http_client_1 = __nccwpck_require__(4844);
+const auth_1 = __nccwpck_require__(4552);
+const core_1 = __nccwpck_require__(7484);
 class OidcClient {
     static createHttpClient(allowRetry = true, maxRetry = 10) {
         const requestOptions = {
@@ -576,9 +592,9 @@ class OidcClient {
                     const encodedAudience = encodeURIComponent(audience);
                     id_token_url = `${id_token_url}&audience=${encodedAudience}`;
                 }
-                core_1.debug(`ID token url is ${id_token_url}`);
+                (0, core_1.debug)(`ID token url is ${id_token_url}`);
                 const id_token = yield OidcClient.getCall(id_token_url);
-                core_1.setSecret(id_token);
+                (0, core_1.setSecret)(id_token);
                 return id_token;
             }
             catch (error) {
@@ -592,14 +608,18 @@ exports.OidcClient = OidcClient;
 
 /***/ }),
 
-/***/ 2981:
+/***/ 1976:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -612,13 +632,13 @@ var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
     __setModuleDefault(result, mod);
     return result;
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.toPlatformPath = exports.toWin32Path = exports.toPosixPath = void 0;
-const path = __importStar(__nccwpck_require__(1017));
+const path = __importStar(__nccwpck_require__(6928));
 /**
  * toPosixPath converts the given path to the posix form. On Windows, \\ will be
  * replaced with /.
@@ -657,7 +677,108 @@ exports.toPlatformPath = toPlatformPath;
 
 /***/ }),
 
-/***/ 1327:
+/***/ 8968:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getDetails = exports.isLinux = exports.isMacOS = exports.isWindows = exports.arch = exports.platform = void 0;
+const os_1 = __importDefault(__nccwpck_require__(857));
+const exec = __importStar(__nccwpck_require__(5236));
+const getWindowsInfo = () => __awaiter(void 0, void 0, void 0, function* () {
+    const { stdout: version } = yield exec.getExecOutput('powershell -command "(Get-CimInstance -ClassName Win32_OperatingSystem).Version"', undefined, {
+        silent: true
+    });
+    const { stdout: name } = yield exec.getExecOutput('powershell -command "(Get-CimInstance -ClassName Win32_OperatingSystem).Caption"', undefined, {
+        silent: true
+    });
+    return {
+        name: name.trim(),
+        version: version.trim()
+    };
+});
+const getMacOsInfo = () => __awaiter(void 0, void 0, void 0, function* () {
+    var _a, _b, _c, _d;
+    const { stdout } = yield exec.getExecOutput('sw_vers', undefined, {
+        silent: true
+    });
+    const version = (_b = (_a = stdout.match(/ProductVersion:\s*(.+)/)) === null || _a === void 0 ? void 0 : _a[1]) !== null && _b !== void 0 ? _b : '';
+    const name = (_d = (_c = stdout.match(/ProductName:\s*(.+)/)) === null || _c === void 0 ? void 0 : _c[1]) !== null && _d !== void 0 ? _d : '';
+    return {
+        name,
+        version
+    };
+});
+const getLinuxInfo = () => __awaiter(void 0, void 0, void 0, function* () {
+    const { stdout } = yield exec.getExecOutput('lsb_release', ['-i', '-r', '-s'], {
+        silent: true
+    });
+    const [name, version] = stdout.trim().split('\n');
+    return {
+        name,
+        version
+    };
+});
+exports.platform = os_1.default.platform();
+exports.arch = os_1.default.arch();
+exports.isWindows = exports.platform === 'win32';
+exports.isMacOS = exports.platform === 'darwin';
+exports.isLinux = exports.platform === 'linux';
+function getDetails() {
+    return __awaiter(this, void 0, void 0, function* () {
+        return Object.assign(Object.assign({}, (yield (exports.isWindows
+            ? getWindowsInfo()
+            : exports.isMacOS
+                ? getMacOsInfo()
+                : getLinuxInfo()))), { platform: exports.platform,
+            arch: exports.arch,
+            isWindows: exports.isWindows,
+            isMacOS: exports.isMacOS,
+            isLinux: exports.isLinux });
+    });
+}
+exports.getDetails = getDetails;
+//# sourceMappingURL=platform.js.map
+
+/***/ }),
+
+/***/ 1847:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -673,8 +794,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.summary = exports.markdownSummary = exports.SUMMARY_DOCS_URL = exports.SUMMARY_ENV_VAR = void 0;
-const os_1 = __nccwpck_require__(2037);
-const fs_1 = __nccwpck_require__(7147);
+const os_1 = __nccwpck_require__(857);
+const fs_1 = __nccwpck_require__(9896);
 const { access, appendFile, writeFile } = fs_1.promises;
 exports.SUMMARY_ENV_VAR = 'GITHUB_STEP_SUMMARY';
 exports.SUMMARY_DOCS_URL = 'https://docs.github.com/actions/using-workflows/workflow-commands-for-github-actions#adding-a-job-summary';
@@ -947,7 +1068,7 @@ exports.summary = _summary;
 
 /***/ }),
 
-/***/ 5278:
+/***/ 302:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -994,7 +1115,742 @@ exports.toCommandProperties = toCommandProperties;
 
 /***/ }),
 
-/***/ 5526:
+/***/ 5236:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getExecOutput = exports.exec = void 0;
+const string_decoder_1 = __nccwpck_require__(3193);
+const tr = __importStar(__nccwpck_require__(6665));
+/**
+ * Exec a command.
+ * Output will be streamed to the live console.
+ * Returns promise with return code
+ *
+ * @param     commandLine        command to execute (can include additional args). Must be correctly escaped.
+ * @param     args               optional arguments for tool. Escaping is handled by the lib.
+ * @param     options            optional exec options.  See ExecOptions
+ * @returns   Promise<number>    exit code
+ */
+function exec(commandLine, args, options) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const commandArgs = tr.argStringToArray(commandLine);
+        if (commandArgs.length === 0) {
+            throw new Error(`Parameter 'commandLine' cannot be null or empty.`);
+        }
+        // Path to tool to execute should be first arg
+        const toolPath = commandArgs[0];
+        args = commandArgs.slice(1).concat(args || []);
+        const runner = new tr.ToolRunner(toolPath, args, options);
+        return runner.exec();
+    });
+}
+exports.exec = exec;
+/**
+ * Exec a command and get the output.
+ * Output will be streamed to the live console.
+ * Returns promise with the exit code and collected stdout and stderr
+ *
+ * @param     commandLine           command to execute (can include additional args). Must be correctly escaped.
+ * @param     args                  optional arguments for tool. Escaping is handled by the lib.
+ * @param     options               optional exec options.  See ExecOptions
+ * @returns   Promise<ExecOutput>   exit code, stdout, and stderr
+ */
+function getExecOutput(commandLine, args, options) {
+    var _a, _b;
+    return __awaiter(this, void 0, void 0, function* () {
+        let stdout = '';
+        let stderr = '';
+        //Using string decoder covers the case where a mult-byte character is split
+        const stdoutDecoder = new string_decoder_1.StringDecoder('utf8');
+        const stderrDecoder = new string_decoder_1.StringDecoder('utf8');
+        const originalStdoutListener = (_a = options === null || options === void 0 ? void 0 : options.listeners) === null || _a === void 0 ? void 0 : _a.stdout;
+        const originalStdErrListener = (_b = options === null || options === void 0 ? void 0 : options.listeners) === null || _b === void 0 ? void 0 : _b.stderr;
+        const stdErrListener = (data) => {
+            stderr += stderrDecoder.write(data);
+            if (originalStdErrListener) {
+                originalStdErrListener(data);
+            }
+        };
+        const stdOutListener = (data) => {
+            stdout += stdoutDecoder.write(data);
+            if (originalStdoutListener) {
+                originalStdoutListener(data);
+            }
+        };
+        const listeners = Object.assign(Object.assign({}, options === null || options === void 0 ? void 0 : options.listeners), { stdout: stdOutListener, stderr: stdErrListener });
+        const exitCode = yield exec(commandLine, args, Object.assign(Object.assign({}, options), { listeners }));
+        //flush any remaining characters
+        stdout += stdoutDecoder.end();
+        stderr += stderrDecoder.end();
+        return {
+            exitCode,
+            stdout,
+            stderr
+        };
+    });
+}
+exports.getExecOutput = getExecOutput;
+//# sourceMappingURL=exec.js.map
+
+/***/ }),
+
+/***/ 6665:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.argStringToArray = exports.ToolRunner = void 0;
+const os = __importStar(__nccwpck_require__(857));
+const events = __importStar(__nccwpck_require__(4434));
+const child = __importStar(__nccwpck_require__(5317));
+const path = __importStar(__nccwpck_require__(6928));
+const io = __importStar(__nccwpck_require__(4994));
+const ioUtil = __importStar(__nccwpck_require__(5207));
+const timers_1 = __nccwpck_require__(3557);
+/* eslint-disable @typescript-eslint/unbound-method */
+const IS_WINDOWS = process.platform === 'win32';
+/*
+ * Class for running command line tools. Handles quoting and arg parsing in a platform agnostic way.
+ */
+class ToolRunner extends events.EventEmitter {
+    constructor(toolPath, args, options) {
+        super();
+        if (!toolPath) {
+            throw new Error("Parameter 'toolPath' cannot be null or empty.");
+        }
+        this.toolPath = toolPath;
+        this.args = args || [];
+        this.options = options || {};
+    }
+    _debug(message) {
+        if (this.options.listeners && this.options.listeners.debug) {
+            this.options.listeners.debug(message);
+        }
+    }
+    _getCommandString(options, noPrefix) {
+        const toolPath = this._getSpawnFileName();
+        const args = this._getSpawnArgs(options);
+        let cmd = noPrefix ? '' : '[command]'; // omit prefix when piped to a second tool
+        if (IS_WINDOWS) {
+            // Windows + cmd file
+            if (this._isCmdFile()) {
+                cmd += toolPath;
+                for (const a of args) {
+                    cmd += ` ${a}`;
+                }
+            }
+            // Windows + verbatim
+            else if (options.windowsVerbatimArguments) {
+                cmd += `"${toolPath}"`;
+                for (const a of args) {
+                    cmd += ` ${a}`;
+                }
+            }
+            // Windows (regular)
+            else {
+                cmd += this._windowsQuoteCmdArg(toolPath);
+                for (const a of args) {
+                    cmd += ` ${this._windowsQuoteCmdArg(a)}`;
+                }
+            }
+        }
+        else {
+            // OSX/Linux - this can likely be improved with some form of quoting.
+            // creating processes on Unix is fundamentally different than Windows.
+            // on Unix, execvp() takes an arg array.
+            cmd += toolPath;
+            for (const a of args) {
+                cmd += ` ${a}`;
+            }
+        }
+        return cmd;
+    }
+    _processLineBuffer(data, strBuffer, onLine) {
+        try {
+            let s = strBuffer + data.toString();
+            let n = s.indexOf(os.EOL);
+            while (n > -1) {
+                const line = s.substring(0, n);
+                onLine(line);
+                // the rest of the string ...
+                s = s.substring(n + os.EOL.length);
+                n = s.indexOf(os.EOL);
+            }
+            return s;
+        }
+        catch (err) {
+            // streaming lines to console is best effort.  Don't fail a build.
+            this._debug(`error processing line. Failed with error ${err}`);
+            return '';
+        }
+    }
+    _getSpawnFileName() {
+        if (IS_WINDOWS) {
+            if (this._isCmdFile()) {
+                return process.env['COMSPEC'] || 'cmd.exe';
+            }
+        }
+        return this.toolPath;
+    }
+    _getSpawnArgs(options) {
+        if (IS_WINDOWS) {
+            if (this._isCmdFile()) {
+                let argline = `/D /S /C "${this._windowsQuoteCmdArg(this.toolPath)}`;
+                for (const a of this.args) {
+                    argline += ' ';
+                    argline += options.windowsVerbatimArguments
+                        ? a
+                        : this._windowsQuoteCmdArg(a);
+                }
+                argline += '"';
+                return [argline];
+            }
+        }
+        return this.args;
+    }
+    _endsWith(str, end) {
+        return str.endsWith(end);
+    }
+    _isCmdFile() {
+        const upperToolPath = this.toolPath.toUpperCase();
+        return (this._endsWith(upperToolPath, '.CMD') ||
+            this._endsWith(upperToolPath, '.BAT'));
+    }
+    _windowsQuoteCmdArg(arg) {
+        // for .exe, apply the normal quoting rules that libuv applies
+        if (!this._isCmdFile()) {
+            return this._uvQuoteCmdArg(arg);
+        }
+        // otherwise apply quoting rules specific to the cmd.exe command line parser.
+        // the libuv rules are generic and are not designed specifically for cmd.exe
+        // command line parser.
+        //
+        // for a detailed description of the cmd.exe command line parser, refer to
+        // http://stackoverflow.com/questions/4094699/how-does-the-windows-command-interpreter-cmd-exe-parse-scripts/7970912#7970912
+        // need quotes for empty arg
+        if (!arg) {
+            return '""';
+        }
+        // determine whether the arg needs to be quoted
+        const cmdSpecialChars = [
+            ' ',
+            '\t',
+            '&',
+            '(',
+            ')',
+            '[',
+            ']',
+            '{',
+            '}',
+            '^',
+            '=',
+            ';',
+            '!',
+            "'",
+            '+',
+            ',',
+            '`',
+            '~',
+            '|',
+            '<',
+            '>',
+            '"'
+        ];
+        let needsQuotes = false;
+        for (const char of arg) {
+            if (cmdSpecialChars.some(x => x === char)) {
+                needsQuotes = true;
+                break;
+            }
+        }
+        // short-circuit if quotes not needed
+        if (!needsQuotes) {
+            return arg;
+        }
+        // the following quoting rules are very similar to the rules that by libuv applies.
+        //
+        // 1) wrap the string in quotes
+        //
+        // 2) double-up quotes - i.e. " => ""
+        //
+        //    this is different from the libuv quoting rules. libuv replaces " with \", which unfortunately
+        //    doesn't work well with a cmd.exe command line.
+        //
+        //    note, replacing " with "" also works well if the arg is passed to a downstream .NET console app.
+        //    for example, the command line:
+        //          foo.exe "myarg:""my val"""
+        //    is parsed by a .NET console app into an arg array:
+        //          [ "myarg:\"my val\"" ]
+        //    which is the same end result when applying libuv quoting rules. although the actual
+        //    command line from libuv quoting rules would look like:
+        //          foo.exe "myarg:\"my val\""
+        //
+        // 3) double-up slashes that precede a quote,
+        //    e.g.  hello \world    => "hello \world"
+        //          hello\"world    => "hello\\""world"
+        //          hello\\"world   => "hello\\\\""world"
+        //          hello world\    => "hello world\\"
+        //
+        //    technically this is not required for a cmd.exe command line, or the batch argument parser.
+        //    the reasons for including this as a .cmd quoting rule are:
+        //
+        //    a) this is optimized for the scenario where the argument is passed from the .cmd file to an
+        //       external program. many programs (e.g. .NET console apps) rely on the slash-doubling rule.
+        //
+        //    b) it's what we've been doing previously (by deferring to node default behavior) and we
+        //       haven't heard any complaints about that aspect.
+        //
+        // note, a weakness of the quoting rules chosen here, is that % is not escaped. in fact, % cannot be
+        // escaped when used on the command line directly - even though within a .cmd file % can be escaped
+        // by using %%.
+        //
+        // the saving grace is, on the command line, %var% is left as-is if var is not defined. this contrasts
+        // the line parsing rules within a .cmd file, where if var is not defined it is replaced with nothing.
+        //
+        // one option that was explored was replacing % with ^% - i.e. %var% => ^%var^%. this hack would
+        // often work, since it is unlikely that var^ would exist, and the ^ character is removed when the
+        // variable is used. the problem, however, is that ^ is not removed when %* is used to pass the args
+        // to an external program.
+        //
+        // an unexplored potential solution for the % escaping problem, is to create a wrapper .cmd file.
+        // % can be escaped within a .cmd file.
+        let reverse = '"';
+        let quoteHit = true;
+        for (let i = arg.length; i > 0; i--) {
+            // walk the string in reverse
+            reverse += arg[i - 1];
+            if (quoteHit && arg[i - 1] === '\\') {
+                reverse += '\\'; // double the slash
+            }
+            else if (arg[i - 1] === '"') {
+                quoteHit = true;
+                reverse += '"'; // double the quote
+            }
+            else {
+                quoteHit = false;
+            }
+        }
+        reverse += '"';
+        return reverse
+            .split('')
+            .reverse()
+            .join('');
+    }
+    _uvQuoteCmdArg(arg) {
+        // Tool runner wraps child_process.spawn() and needs to apply the same quoting as
+        // Node in certain cases where the undocumented spawn option windowsVerbatimArguments
+        // is used.
+        //
+        // Since this function is a port of quote_cmd_arg from Node 4.x (technically, lib UV,
+        // see https://github.com/nodejs/node/blob/v4.x/deps/uv/src/win/process.c for details),
+        // pasting copyright notice from Node within this function:
+        //
+        //      Copyright Joyent, Inc. and other Node contributors. All rights reserved.
+        //
+        //      Permission is hereby granted, free of charge, to any person obtaining a copy
+        //      of this software and associated documentation files (the "Software"), to
+        //      deal in the Software without restriction, including without limitation the
+        //      rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+        //      sell copies of the Software, and to permit persons to whom the Software is
+        //      furnished to do so, subject to the following conditions:
+        //
+        //      The above copyright notice and this permission notice shall be included in
+        //      all copies or substantial portions of the Software.
+        //
+        //      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        //      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        //      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        //      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        //      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+        //      FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+        //      IN THE SOFTWARE.
+        if (!arg) {
+            // Need double quotation for empty argument
+            return '""';
+        }
+        if (!arg.includes(' ') && !arg.includes('\t') && !arg.includes('"')) {
+            // No quotation needed
+            return arg;
+        }
+        if (!arg.includes('"') && !arg.includes('\\')) {
+            // No embedded double quotes or backslashes, so I can just wrap
+            // quote marks around the whole thing.
+            return `"${arg}"`;
+        }
+        // Expected input/output:
+        //   input : hello"world
+        //   output: "hello\"world"
+        //   input : hello""world
+        //   output: "hello\"\"world"
+        //   input : hello\world
+        //   output: hello\world
+        //   input : hello\\world
+        //   output: hello\\world
+        //   input : hello\"world
+        //   output: "hello\\\"world"
+        //   input : hello\\"world
+        //   output: "hello\\\\\"world"
+        //   input : hello world\
+        //   output: "hello world\\" - note the comment in libuv actually reads "hello world\"
+        //                             but it appears the comment is wrong, it should be "hello world\\"
+        let reverse = '"';
+        let quoteHit = true;
+        for (let i = arg.length; i > 0; i--) {
+            // walk the string in reverse
+            reverse += arg[i - 1];
+            if (quoteHit && arg[i - 1] === '\\') {
+                reverse += '\\';
+            }
+            else if (arg[i - 1] === '"') {
+                quoteHit = true;
+                reverse += '\\';
+            }
+            else {
+                quoteHit = false;
+            }
+        }
+        reverse += '"';
+        return reverse
+            .split('')
+            .reverse()
+            .join('');
+    }
+    _cloneExecOptions(options) {
+        options = options || {};
+        const result = {
+            cwd: options.cwd || process.cwd(),
+            env: options.env || process.env,
+            silent: options.silent || false,
+            windowsVerbatimArguments: options.windowsVerbatimArguments || false,
+            failOnStdErr: options.failOnStdErr || false,
+            ignoreReturnCode: options.ignoreReturnCode || false,
+            delay: options.delay || 10000
+        };
+        result.outStream = options.outStream || process.stdout;
+        result.errStream = options.errStream || process.stderr;
+        return result;
+    }
+    _getSpawnOptions(options, toolPath) {
+        options = options || {};
+        const result = {};
+        result.cwd = options.cwd;
+        result.env = options.env;
+        result['windowsVerbatimArguments'] =
+            options.windowsVerbatimArguments || this._isCmdFile();
+        if (options.windowsVerbatimArguments) {
+            result.argv0 = `"${toolPath}"`;
+        }
+        return result;
+    }
+    /**
+     * Exec a tool.
+     * Output will be streamed to the live console.
+     * Returns promise with return code
+     *
+     * @param     tool     path to tool to exec
+     * @param     options  optional exec options.  See ExecOptions
+     * @returns   number
+     */
+    exec() {
+        return __awaiter(this, void 0, void 0, function* () {
+            // root the tool path if it is unrooted and contains relative pathing
+            if (!ioUtil.isRooted(this.toolPath) &&
+                (this.toolPath.includes('/') ||
+                    (IS_WINDOWS && this.toolPath.includes('\\')))) {
+                // prefer options.cwd if it is specified, however options.cwd may also need to be rooted
+                this.toolPath = path.resolve(process.cwd(), this.options.cwd || process.cwd(), this.toolPath);
+            }
+            // if the tool is only a file name, then resolve it from the PATH
+            // otherwise verify it exists (add extension on Windows if necessary)
+            this.toolPath = yield io.which(this.toolPath, true);
+            return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
+                this._debug(`exec tool: ${this.toolPath}`);
+                this._debug('arguments:');
+                for (const arg of this.args) {
+                    this._debug(`   ${arg}`);
+                }
+                const optionsNonNull = this._cloneExecOptions(this.options);
+                if (!optionsNonNull.silent && optionsNonNull.outStream) {
+                    optionsNonNull.outStream.write(this._getCommandString(optionsNonNull) + os.EOL);
+                }
+                const state = new ExecState(optionsNonNull, this.toolPath);
+                state.on('debug', (message) => {
+                    this._debug(message);
+                });
+                if (this.options.cwd && !(yield ioUtil.exists(this.options.cwd))) {
+                    return reject(new Error(`The cwd: ${this.options.cwd} does not exist!`));
+                }
+                const fileName = this._getSpawnFileName();
+                const cp = child.spawn(fileName, this._getSpawnArgs(optionsNonNull), this._getSpawnOptions(this.options, fileName));
+                let stdbuffer = '';
+                if (cp.stdout) {
+                    cp.stdout.on('data', (data) => {
+                        if (this.options.listeners && this.options.listeners.stdout) {
+                            this.options.listeners.stdout(data);
+                        }
+                        if (!optionsNonNull.silent && optionsNonNull.outStream) {
+                            optionsNonNull.outStream.write(data);
+                        }
+                        stdbuffer = this._processLineBuffer(data, stdbuffer, (line) => {
+                            if (this.options.listeners && this.options.listeners.stdline) {
+                                this.options.listeners.stdline(line);
+                            }
+                        });
+                    });
+                }
+                let errbuffer = '';
+                if (cp.stderr) {
+                    cp.stderr.on('data', (data) => {
+                        state.processStderr = true;
+                        if (this.options.listeners && this.options.listeners.stderr) {
+                            this.options.listeners.stderr(data);
+                        }
+                        if (!optionsNonNull.silent &&
+                            optionsNonNull.errStream &&
+                            optionsNonNull.outStream) {
+                            const s = optionsNonNull.failOnStdErr
+                                ? optionsNonNull.errStream
+                                : optionsNonNull.outStream;
+                            s.write(data);
+                        }
+                        errbuffer = this._processLineBuffer(data, errbuffer, (line) => {
+                            if (this.options.listeners && this.options.listeners.errline) {
+                                this.options.listeners.errline(line);
+                            }
+                        });
+                    });
+                }
+                cp.on('error', (err) => {
+                    state.processError = err.message;
+                    state.processExited = true;
+                    state.processClosed = true;
+                    state.CheckComplete();
+                });
+                cp.on('exit', (code) => {
+                    state.processExitCode = code;
+                    state.processExited = true;
+                    this._debug(`Exit code ${code} received from tool '${this.toolPath}'`);
+                    state.CheckComplete();
+                });
+                cp.on('close', (code) => {
+                    state.processExitCode = code;
+                    state.processExited = true;
+                    state.processClosed = true;
+                    this._debug(`STDIO streams have closed for tool '${this.toolPath}'`);
+                    state.CheckComplete();
+                });
+                state.on('done', (error, exitCode) => {
+                    if (stdbuffer.length > 0) {
+                        this.emit('stdline', stdbuffer);
+                    }
+                    if (errbuffer.length > 0) {
+                        this.emit('errline', errbuffer);
+                    }
+                    cp.removeAllListeners();
+                    if (error) {
+                        reject(error);
+                    }
+                    else {
+                        resolve(exitCode);
+                    }
+                });
+                if (this.options.input) {
+                    if (!cp.stdin) {
+                        throw new Error('child process missing stdin');
+                    }
+                    cp.stdin.end(this.options.input);
+                }
+            }));
+        });
+    }
+}
+exports.ToolRunner = ToolRunner;
+/**
+ * Convert an arg string to an array of args. Handles escaping
+ *
+ * @param    argString   string of arguments
+ * @returns  string[]    array of arguments
+ */
+function argStringToArray(argString) {
+    const args = [];
+    let inQuotes = false;
+    let escaped = false;
+    let arg = '';
+    function append(c) {
+        // we only escape double quotes.
+        if (escaped && c !== '"') {
+            arg += '\\';
+        }
+        arg += c;
+        escaped = false;
+    }
+    for (let i = 0; i < argString.length; i++) {
+        const c = argString.charAt(i);
+        if (c === '"') {
+            if (!escaped) {
+                inQuotes = !inQuotes;
+            }
+            else {
+                append(c);
+            }
+            continue;
+        }
+        if (c === '\\' && escaped) {
+            append(c);
+            continue;
+        }
+        if (c === '\\' && inQuotes) {
+            escaped = true;
+            continue;
+        }
+        if (c === ' ' && !inQuotes) {
+            if (arg.length > 0) {
+                args.push(arg);
+                arg = '';
+            }
+            continue;
+        }
+        append(c);
+    }
+    if (arg.length > 0) {
+        args.push(arg.trim());
+    }
+    return args;
+}
+exports.argStringToArray = argStringToArray;
+class ExecState extends events.EventEmitter {
+    constructor(options, toolPath) {
+        super();
+        this.processClosed = false; // tracks whether the process has exited and stdio is closed
+        this.processError = '';
+        this.processExitCode = 0;
+        this.processExited = false; // tracks whether the process has exited
+        this.processStderr = false; // tracks whether stderr was written to
+        this.delay = 10000; // 10 seconds
+        this.done = false;
+        this.timeout = null;
+        if (!toolPath) {
+            throw new Error('toolPath must not be empty');
+        }
+        this.options = options;
+        this.toolPath = toolPath;
+        if (options.delay) {
+            this.delay = options.delay;
+        }
+    }
+    CheckComplete() {
+        if (this.done) {
+            return;
+        }
+        if (this.processClosed) {
+            this._setResult();
+        }
+        else if (this.processExited) {
+            this.timeout = timers_1.setTimeout(ExecState.HandleTimeout, this.delay, this);
+        }
+    }
+    _debug(message) {
+        this.emit('debug', message);
+    }
+    _setResult() {
+        // determine whether there is an error
+        let error;
+        if (this.processExited) {
+            if (this.processError) {
+                error = new Error(`There was an error when attempting to execute the process '${this.toolPath}'. This may indicate the process failed to start. Error: ${this.processError}`);
+            }
+            else if (this.processExitCode !== 0 && !this.options.ignoreReturnCode) {
+                error = new Error(`The process '${this.toolPath}' failed with exit code ${this.processExitCode}`);
+            }
+            else if (this.processStderr && this.options.failOnStdErr) {
+                error = new Error(`The process '${this.toolPath}' failed because one or more lines were written to the STDERR stream`);
+            }
+        }
+        // clear the timeout
+        if (this.timeout) {
+            clearTimeout(this.timeout);
+            this.timeout = null;
+        }
+        this.done = true;
+        this.emit('done', error, this.processExitCode);
+    }
+    static HandleTimeout(state) {
+        if (state.done) {
+            return;
+        }
+        if (!state.processClosed && state.processExited) {
+            const message = `The STDIO streams did not close within ${state.delay /
+                1000} seconds of the exit event from process '${state.toolPath}'. This may indicate a child process inherited the STDIO streams and has not yet exited.`;
+            state._debug(message);
+        }
+        state._setResult();
+    }
+}
+//# sourceMappingURL=toolrunner.js.map
+
+/***/ }),
+
+/***/ 4552:
 /***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
@@ -1082,7 +1938,7 @@ exports.PersonalAccessTokenCredentialHandler = PersonalAccessTokenCredentialHand
 
 /***/ }),
 
-/***/ 6255:
+/***/ 4844:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -1122,11 +1978,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.HttpClient = exports.isHttps = exports.HttpClientResponse = exports.HttpClientError = exports.getProxyUrl = exports.MediaTypes = exports.Headers = exports.HttpCodes = void 0;
-const http = __importStar(__nccwpck_require__(3685));
-const https = __importStar(__nccwpck_require__(5687));
-const pm = __importStar(__nccwpck_require__(9835));
-const tunnel = __importStar(__nccwpck_require__(4294));
-const undici_1 = __nccwpck_require__(1773);
+const http = __importStar(__nccwpck_require__(8611));
+const https = __importStar(__nccwpck_require__(5692));
+const pm = __importStar(__nccwpck_require__(4988));
+const tunnel = __importStar(__nccwpck_require__(770));
+const undici_1 = __nccwpck_require__(6752);
 var HttpCodes;
 (function (HttpCodes) {
     HttpCodes[HttpCodes["OK"] = 200] = "OK";
@@ -1741,7 +2597,7 @@ const lowercaseKeys = (obj) => Object.keys(obj).reduce((c, k) => ((c[k.toLowerCa
 
 /***/ }),
 
-/***/ 9835:
+/***/ 4988:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -1830,7 +2686,503 @@ function isLoopbackAddress(host) {
 
 /***/ }),
 
-/***/ 5063:
+/***/ 5207:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var _a;
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getCmdPath = exports.tryGetExecutablePath = exports.isRooted = exports.isDirectory = exports.exists = exports.READONLY = exports.UV_FS_O_EXLOCK = exports.IS_WINDOWS = exports.unlink = exports.symlink = exports.stat = exports.rmdir = exports.rm = exports.rename = exports.readlink = exports.readdir = exports.open = exports.mkdir = exports.lstat = exports.copyFile = exports.chmod = void 0;
+const fs = __importStar(__nccwpck_require__(9896));
+const path = __importStar(__nccwpck_require__(6928));
+_a = fs.promises
+// export const {open} = 'fs'
+, exports.chmod = _a.chmod, exports.copyFile = _a.copyFile, exports.lstat = _a.lstat, exports.mkdir = _a.mkdir, exports.open = _a.open, exports.readdir = _a.readdir, exports.readlink = _a.readlink, exports.rename = _a.rename, exports.rm = _a.rm, exports.rmdir = _a.rmdir, exports.stat = _a.stat, exports.symlink = _a.symlink, exports.unlink = _a.unlink;
+// export const {open} = 'fs'
+exports.IS_WINDOWS = process.platform === 'win32';
+// See https://github.com/nodejs/node/blob/d0153aee367422d0858105abec186da4dff0a0c5/deps/uv/include/uv/win.h#L691
+exports.UV_FS_O_EXLOCK = 0x10000000;
+exports.READONLY = fs.constants.O_RDONLY;
+function exists(fsPath) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            yield exports.stat(fsPath);
+        }
+        catch (err) {
+            if (err.code === 'ENOENT') {
+                return false;
+            }
+            throw err;
+        }
+        return true;
+    });
+}
+exports.exists = exists;
+function isDirectory(fsPath, useStat = false) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const stats = useStat ? yield exports.stat(fsPath) : yield exports.lstat(fsPath);
+        return stats.isDirectory();
+    });
+}
+exports.isDirectory = isDirectory;
+/**
+ * On OSX/Linux, true if path starts with '/'. On Windows, true for paths like:
+ * \, \hello, \\hello\share, C:, and C:\hello (and corresponding alternate separator cases).
+ */
+function isRooted(p) {
+    p = normalizeSeparators(p);
+    if (!p) {
+        throw new Error('isRooted() parameter "p" cannot be empty');
+    }
+    if (exports.IS_WINDOWS) {
+        return (p.startsWith('\\') || /^[A-Z]:/i.test(p) // e.g. \ or \hello or \\hello
+        ); // e.g. C: or C:\hello
+    }
+    return p.startsWith('/');
+}
+exports.isRooted = isRooted;
+/**
+ * Best effort attempt to determine whether a file exists and is executable.
+ * @param filePath    file path to check
+ * @param extensions  additional file extensions to try
+ * @return if file exists and is executable, returns the file path. otherwise empty string.
+ */
+function tryGetExecutablePath(filePath, extensions) {
+    return __awaiter(this, void 0, void 0, function* () {
+        let stats = undefined;
+        try {
+            // test file exists
+            stats = yield exports.stat(filePath);
+        }
+        catch (err) {
+            if (err.code !== 'ENOENT') {
+                // eslint-disable-next-line no-console
+                console.log(`Unexpected error attempting to determine if executable file exists '${filePath}': ${err}`);
+            }
+        }
+        if (stats && stats.isFile()) {
+            if (exports.IS_WINDOWS) {
+                // on Windows, test for valid extension
+                const upperExt = path.extname(filePath).toUpperCase();
+                if (extensions.some(validExt => validExt.toUpperCase() === upperExt)) {
+                    return filePath;
+                }
+            }
+            else {
+                if (isUnixExecutable(stats)) {
+                    return filePath;
+                }
+            }
+        }
+        // try each extension
+        const originalFilePath = filePath;
+        for (const extension of extensions) {
+            filePath = originalFilePath + extension;
+            stats = undefined;
+            try {
+                stats = yield exports.stat(filePath);
+            }
+            catch (err) {
+                if (err.code !== 'ENOENT') {
+                    // eslint-disable-next-line no-console
+                    console.log(`Unexpected error attempting to determine if executable file exists '${filePath}': ${err}`);
+                }
+            }
+            if (stats && stats.isFile()) {
+                if (exports.IS_WINDOWS) {
+                    // preserve the case of the actual file (since an extension was appended)
+                    try {
+                        const directory = path.dirname(filePath);
+                        const upperName = path.basename(filePath).toUpperCase();
+                        for (const actualName of yield exports.readdir(directory)) {
+                            if (upperName === actualName.toUpperCase()) {
+                                filePath = path.join(directory, actualName);
+                                break;
+                            }
+                        }
+                    }
+                    catch (err) {
+                        // eslint-disable-next-line no-console
+                        console.log(`Unexpected error attempting to determine the actual case of the file '${filePath}': ${err}`);
+                    }
+                    return filePath;
+                }
+                else {
+                    if (isUnixExecutable(stats)) {
+                        return filePath;
+                    }
+                }
+            }
+        }
+        return '';
+    });
+}
+exports.tryGetExecutablePath = tryGetExecutablePath;
+function normalizeSeparators(p) {
+    p = p || '';
+    if (exports.IS_WINDOWS) {
+        // convert slashes on Windows
+        p = p.replace(/\//g, '\\');
+        // remove redundant slashes
+        return p.replace(/\\\\+/g, '\\');
+    }
+    // remove redundant slashes
+    return p.replace(/\/\/+/g, '/');
+}
+// on Mac/Linux, test the execute bit
+//     R   W  X  R  W X R W X
+//   256 128 64 32 16 8 4 2 1
+function isUnixExecutable(stats) {
+    return ((stats.mode & 1) > 0 ||
+        ((stats.mode & 8) > 0 && stats.gid === process.getgid()) ||
+        ((stats.mode & 64) > 0 && stats.uid === process.getuid()));
+}
+// Get the path of cmd.exe in windows
+function getCmdPath() {
+    var _a;
+    return (_a = process.env['COMSPEC']) !== null && _a !== void 0 ? _a : `cmd.exe`;
+}
+exports.getCmdPath = getCmdPath;
+//# sourceMappingURL=io-util.js.map
+
+/***/ }),
+
+/***/ 4994:
+/***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.findInPath = exports.which = exports.mkdirP = exports.rmRF = exports.mv = exports.cp = void 0;
+const assert_1 = __nccwpck_require__(2613);
+const path = __importStar(__nccwpck_require__(6928));
+const ioUtil = __importStar(__nccwpck_require__(5207));
+/**
+ * Copies a file or folder.
+ * Based off of shelljs - https://github.com/shelljs/shelljs/blob/9237f66c52e5daa40458f94f9565e18e8132f5a6/src/cp.js
+ *
+ * @param     source    source path
+ * @param     dest      destination path
+ * @param     options   optional. See CopyOptions.
+ */
+function cp(source, dest, options = {}) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const { force, recursive, copySourceDirectory } = readCopyOptions(options);
+        const destStat = (yield ioUtil.exists(dest)) ? yield ioUtil.stat(dest) : null;
+        // Dest is an existing file, but not forcing
+        if (destStat && destStat.isFile() && !force) {
+            return;
+        }
+        // If dest is an existing directory, should copy inside.
+        const newDest = destStat && destStat.isDirectory() && copySourceDirectory
+            ? path.join(dest, path.basename(source))
+            : dest;
+        if (!(yield ioUtil.exists(source))) {
+            throw new Error(`no such file or directory: ${source}`);
+        }
+        const sourceStat = yield ioUtil.stat(source);
+        if (sourceStat.isDirectory()) {
+            if (!recursive) {
+                throw new Error(`Failed to copy. ${source} is a directory, but tried to copy without recursive flag.`);
+            }
+            else {
+                yield cpDirRecursive(source, newDest, 0, force);
+            }
+        }
+        else {
+            if (path.relative(source, newDest) === '') {
+                // a file cannot be copied to itself
+                throw new Error(`'${newDest}' and '${source}' are the same file`);
+            }
+            yield copyFile(source, newDest, force);
+        }
+    });
+}
+exports.cp = cp;
+/**
+ * Moves a path.
+ *
+ * @param     source    source path
+ * @param     dest      destination path
+ * @param     options   optional. See MoveOptions.
+ */
+function mv(source, dest, options = {}) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (yield ioUtil.exists(dest)) {
+            let destExists = true;
+            if (yield ioUtil.isDirectory(dest)) {
+                // If dest is directory copy src into dest
+                dest = path.join(dest, path.basename(source));
+                destExists = yield ioUtil.exists(dest);
+            }
+            if (destExists) {
+                if (options.force == null || options.force) {
+                    yield rmRF(dest);
+                }
+                else {
+                    throw new Error('Destination already exists');
+                }
+            }
+        }
+        yield mkdirP(path.dirname(dest));
+        yield ioUtil.rename(source, dest);
+    });
+}
+exports.mv = mv;
+/**
+ * Remove a path recursively with force
+ *
+ * @param inputPath path to remove
+ */
+function rmRF(inputPath) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (ioUtil.IS_WINDOWS) {
+            // Check for invalid characters
+            // https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file
+            if (/[*"<>|]/.test(inputPath)) {
+                throw new Error('File path must not contain `*`, `"`, `<`, `>` or `|` on Windows');
+            }
+        }
+        try {
+            // note if path does not exist, error is silent
+            yield ioUtil.rm(inputPath, {
+                force: true,
+                maxRetries: 3,
+                recursive: true,
+                retryDelay: 300
+            });
+        }
+        catch (err) {
+            throw new Error(`File was unable to be removed ${err}`);
+        }
+    });
+}
+exports.rmRF = rmRF;
+/**
+ * Make a directory.  Creates the full path with folders in between
+ * Will throw if it fails
+ *
+ * @param   fsPath        path to create
+ * @returns Promise<void>
+ */
+function mkdirP(fsPath) {
+    return __awaiter(this, void 0, void 0, function* () {
+        assert_1.ok(fsPath, 'a path argument must be provided');
+        yield ioUtil.mkdir(fsPath, { recursive: true });
+    });
+}
+exports.mkdirP = mkdirP;
+/**
+ * Returns path of a tool had the tool actually been invoked.  Resolves via paths.
+ * If you check and the tool does not exist, it will throw.
+ *
+ * @param     tool              name of the tool
+ * @param     check             whether to check if tool exists
+ * @returns   Promise<string>   path to tool
+ */
+function which(tool, check) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (!tool) {
+            throw new Error("parameter 'tool' is required");
+        }
+        // recursive when check=true
+        if (check) {
+            const result = yield which(tool, false);
+            if (!result) {
+                if (ioUtil.IS_WINDOWS) {
+                    throw new Error(`Unable to locate executable file: ${tool}. Please verify either the file path exists or the file can be found within a directory specified by the PATH environment variable. Also verify the file has a valid extension for an executable file.`);
+                }
+                else {
+                    throw new Error(`Unable to locate executable file: ${tool}. Please verify either the file path exists or the file can be found within a directory specified by the PATH environment variable. Also check the file mode to verify the file is executable.`);
+                }
+            }
+            return result;
+        }
+        const matches = yield findInPath(tool);
+        if (matches && matches.length > 0) {
+            return matches[0];
+        }
+        return '';
+    });
+}
+exports.which = which;
+/**
+ * Returns a list of all occurrences of the given tool on the system path.
+ *
+ * @returns   Promise<string[]>  the paths of the tool
+ */
+function findInPath(tool) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (!tool) {
+            throw new Error("parameter 'tool' is required");
+        }
+        // build the list of extensions to try
+        const extensions = [];
+        if (ioUtil.IS_WINDOWS && process.env['PATHEXT']) {
+            for (const extension of process.env['PATHEXT'].split(path.delimiter)) {
+                if (extension) {
+                    extensions.push(extension);
+                }
+            }
+        }
+        // if it's rooted, return it if exists. otherwise return empty.
+        if (ioUtil.isRooted(tool)) {
+            const filePath = yield ioUtil.tryGetExecutablePath(tool, extensions);
+            if (filePath) {
+                return [filePath];
+            }
+            return [];
+        }
+        // if any path separators, return empty
+        if (tool.includes(path.sep)) {
+            return [];
+        }
+        // build the list of directories
+        //
+        // Note, technically "where" checks the current directory on Windows. From a toolkit perspective,
+        // it feels like we should not do this. Checking the current directory seems like more of a use
+        // case of a shell, and the which() function exposed by the toolkit should strive for consistency
+        // across platforms.
+        const directories = [];
+        if (process.env.PATH) {
+            for (const p of process.env.PATH.split(path.delimiter)) {
+                if (p) {
+                    directories.push(p);
+                }
+            }
+        }
+        // find all matches
+        const matches = [];
+        for (const directory of directories) {
+            const filePath = yield ioUtil.tryGetExecutablePath(path.join(directory, tool), extensions);
+            if (filePath) {
+                matches.push(filePath);
+            }
+        }
+        return matches;
+    });
+}
+exports.findInPath = findInPath;
+function readCopyOptions(options) {
+    const force = options.force == null ? true : options.force;
+    const recursive = Boolean(options.recursive);
+    const copySourceDirectory = options.copySourceDirectory == null
+        ? true
+        : Boolean(options.copySourceDirectory);
+    return { force, recursive, copySourceDirectory };
+}
+function cpDirRecursive(sourceDir, destDir, currentDepth, force) {
+    return __awaiter(this, void 0, void 0, function* () {
+        // Ensure there is not a run away recursive copy
+        if (currentDepth >= 255)
+            return;
+        currentDepth++;
+        yield mkdirP(destDir);
+        const files = yield ioUtil.readdir(sourceDir);
+        for (const fileName of files) {
+            const srcFile = `${sourceDir}/${fileName}`;
+            const destFile = `${destDir}/${fileName}`;
+            const srcFileStat = yield ioUtil.lstat(srcFile);
+            if (srcFileStat.isDirectory()) {
+                // Recurse
+                yield cpDirRecursive(srcFile, destFile, currentDepth, force);
+            }
+            else {
+                yield copyFile(srcFile, destFile, force);
+            }
+        }
+        // Change the mode for the newly created directory
+        yield ioUtil.chmod(destDir, (yield ioUtil.stat(sourceDir)).mode);
+    });
+}
+// Buffered file copy
+function copyFile(srcFile, destFile, force) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if ((yield ioUtil.lstat(srcFile)).isSymbolicLink()) {
+            // unlink/re-link it
+            try {
+                yield ioUtil.lstat(destFile);
+                yield ioUtil.unlink(destFile);
+            }
+            catch (e) {
+                // Try to override file permission
+                if (e.code === 'EPERM') {
+                    yield ioUtil.chmod(destFile, '0666');
+                    yield ioUtil.unlink(destFile);
+                }
+                // other errors = it doesn't exist, no work to do
+            }
+            // Copy over symlink
+            const symlinkFull = yield ioUtil.readlink(srcFile);
+            yield ioUtil.symlink(symlinkFull, destFile, ioUtil.IS_WINDOWS ? 'junction' : null);
+        }
+        else if (!(yield ioUtil.exists(destFile)) || force) {
+            yield ioUtil.copyFile(srcFile, destFile);
+        }
+    });
+}
+//# sourceMappingURL=io.js.map
+
+/***/ }),
+
+/***/ 21:
 /***/ ((module) => {
 
 "use strict";
@@ -1848,13 +3200,13 @@ module.exports = () => {
 
 /***/ }),
 
-/***/ 9087:
+/***/ 9562:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 var __webpack_unused_export__;
-var balloon = __nccwpck_require__(2231);
-var cows = __nccwpck_require__(2228);
-var faces = __nccwpck_require__(6057);
+var balloon = __nccwpck_require__(7437);
+var cows = __nccwpck_require__(4208);
+var faces = __nccwpck_require__(4684);
 
 /**
  * @param options
@@ -1907,7 +3259,7 @@ var faces = __nccwpck_require__(6057);
  * 
  * @returns {string} compiled cow
  */
-exports.T = function (options) {
+exports.cv = function (options) {
 	return doIt(options, true);
 };
 
@@ -2006,10 +3358,10 @@ function doIt (options, sayAloud) {
 
 /***/ }),
 
-/***/ 2231:
+/***/ 7437:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-var stringWidth = __nccwpck_require__(2577);
+var stringWidth = __nccwpck_require__(60);
 
 exports.say = function (text, wrap) {
 	var delimiters = {
@@ -2119,12 +3471,12 @@ function bottom (length) {
 
 /***/ }),
 
-/***/ 2228:
+/***/ 4208:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
-var path = __nccwpck_require__(1017);
-var fs = __nccwpck_require__(7147);
-var replacer = __nccwpck_require__(6006);
+var path = __nccwpck_require__(6928);
+var fs = __nccwpck_require__(9896);
+var replacer = __nccwpck_require__(7786);
 
 var textCache = {};
 var cowsPath = __nccwpck_require__.ab + "cows";
@@ -2176,7 +3528,7 @@ exports.listSync = function () {
 
 /***/ }),
 
-/***/ 6057:
+/***/ 4684:
 /***/ ((module) => {
 
 var modes = {
@@ -2230,7 +3582,7 @@ module.exports = function (options) {
 
 /***/ }),
 
-/***/ 6006:
+/***/ 7786:
 /***/ ((module) => {
 
 module.exports = function (cow, variables) {
@@ -2284,7 +3636,7 @@ function extractTheCow (cow) {
 
 /***/ }),
 
-/***/ 4882:
+/***/ 4519:
 /***/ ((module) => {
 
 "use strict";
@@ -2338,13 +3690,13 @@ module.exports = x => {
 
 /***/ }),
 
-/***/ 2577:
+/***/ 60:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const stripAnsi = __nccwpck_require__(5591);
-const isFullwidthCodePoint = __nccwpck_require__(4882);
+const stripAnsi = __nccwpck_require__(3958);
+const isFullwidthCodePoint = __nccwpck_require__(4519);
 
 module.exports = str => {
 	if (typeof str !== 'string' || str.length === 0) {
@@ -2382,39 +3734,39 @@ module.exports = str => {
 
 /***/ }),
 
-/***/ 5591:
+/***/ 3958:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const ansiRegex = __nccwpck_require__(5063);
+const ansiRegex = __nccwpck_require__(21);
 
 module.exports = input => typeof input === 'string' ? input.replace(ansiRegex(), '') : input;
 
 
 /***/ }),
 
-/***/ 4294:
+/***/ 770:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-module.exports = __nccwpck_require__(4219);
+module.exports = __nccwpck_require__(218);
 
 
 /***/ }),
 
-/***/ 4219:
+/***/ 218:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-var net = __nccwpck_require__(1808);
-var tls = __nccwpck_require__(4404);
-var http = __nccwpck_require__(3685);
-var https = __nccwpck_require__(5687);
-var events = __nccwpck_require__(2361);
-var assert = __nccwpck_require__(9491);
-var util = __nccwpck_require__(3837);
+var net = __nccwpck_require__(9278);
+var tls = __nccwpck_require__(4756);
+var http = __nccwpck_require__(8611);
+var https = __nccwpck_require__(5692);
+var events = __nccwpck_require__(4434);
+var assert = __nccwpck_require__(2613);
+var util = __nccwpck_require__(9023);
 
 
 exports.httpOverHttp = httpOverHttp;
@@ -2674,36 +4026,36 @@ exports.debug = debug; // for test
 
 /***/ }),
 
-/***/ 1773:
+/***/ 6752:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Client = __nccwpck_require__(3598)
-const Dispatcher = __nccwpck_require__(412)
-const errors = __nccwpck_require__(8045)
-const Pool = __nccwpck_require__(4634)
-const BalancedPool = __nccwpck_require__(7931)
-const Agent = __nccwpck_require__(7890)
-const util = __nccwpck_require__(3983)
+const Client = __nccwpck_require__(6197)
+const Dispatcher = __nccwpck_require__(992)
+const errors = __nccwpck_require__(8707)
+const Pool = __nccwpck_require__(5076)
+const BalancedPool = __nccwpck_require__(1093)
+const Agent = __nccwpck_require__(9965)
+const util = __nccwpck_require__(3440)
 const { InvalidArgumentError } = errors
-const api = __nccwpck_require__(4059)
-const buildConnector = __nccwpck_require__(2067)
-const MockClient = __nccwpck_require__(8687)
-const MockAgent = __nccwpck_require__(6771)
-const MockPool = __nccwpck_require__(6193)
-const mockErrors = __nccwpck_require__(888)
-const ProxyAgent = __nccwpck_require__(7858)
-const RetryHandler = __nccwpck_require__(2286)
-const { getGlobalDispatcher, setGlobalDispatcher } = __nccwpck_require__(1892)
-const DecoratorHandler = __nccwpck_require__(6930)
-const RedirectHandler = __nccwpck_require__(2860)
-const createRedirectInterceptor = __nccwpck_require__(8861)
+const api = __nccwpck_require__(6615)
+const buildConnector = __nccwpck_require__(9136)
+const MockClient = __nccwpck_require__(7365)
+const MockAgent = __nccwpck_require__(7501)
+const MockPool = __nccwpck_require__(4004)
+const mockErrors = __nccwpck_require__(2429)
+const ProxyAgent = __nccwpck_require__(2720)
+const RetryHandler = __nccwpck_require__(3573)
+const { getGlobalDispatcher, setGlobalDispatcher } = __nccwpck_require__(2581)
+const DecoratorHandler = __nccwpck_require__(8840)
+const RedirectHandler = __nccwpck_require__(8299)
+const createRedirectInterceptor = __nccwpck_require__(4415)
 
 let hasCrypto
 try {
-  __nccwpck_require__(6113)
+  __nccwpck_require__(6982)
   hasCrypto = true
 } catch {
   hasCrypto = false
@@ -2782,7 +4134,7 @@ if (util.nodeMajor > 16 || (util.nodeMajor === 16 && util.nodeMinor >= 8)) {
   let fetchImpl = null
   module.exports.fetch = async function fetch (resource) {
     if (!fetchImpl) {
-      fetchImpl = (__nccwpck_require__(4881).fetch)
+      fetchImpl = (__nccwpck_require__(2315).fetch)
     }
 
     try {
@@ -2795,20 +4147,20 @@ if (util.nodeMajor > 16 || (util.nodeMajor === 16 && util.nodeMinor >= 8)) {
       throw err
     }
   }
-  module.exports.Headers = __nccwpck_require__(554).Headers
-  module.exports.Response = __nccwpck_require__(7823).Response
-  module.exports.Request = __nccwpck_require__(8359).Request
-  module.exports.FormData = __nccwpck_require__(2015).FormData
-  module.exports.File = __nccwpck_require__(8511).File
-  module.exports.FileReader = __nccwpck_require__(1446).FileReader
+  module.exports.Headers = __nccwpck_require__(6349).Headers
+  module.exports.Response = __nccwpck_require__(8676).Response
+  module.exports.Request = __nccwpck_require__(5194).Request
+  module.exports.FormData = __nccwpck_require__(3073).FormData
+  module.exports.File = __nccwpck_require__(3041).File
+  module.exports.FileReader = __nccwpck_require__(2160).FileReader
 
-  const { setGlobalOrigin, getGlobalOrigin } = __nccwpck_require__(1246)
+  const { setGlobalOrigin, getGlobalOrigin } = __nccwpck_require__(5628)
 
   module.exports.setGlobalOrigin = setGlobalOrigin
   module.exports.getGlobalOrigin = getGlobalOrigin
 
-  const { CacheStorage } = __nccwpck_require__(7907)
-  const { kConstruct } = __nccwpck_require__(9174)
+  const { CacheStorage } = __nccwpck_require__(4738)
+  const { kConstruct } = __nccwpck_require__(296)
 
   // Cache & CacheStorage are tightly coupled with fetch. Even if it may run
   // in an older version of Node, it doesn't have any use without fetch.
@@ -2816,21 +4168,21 @@ if (util.nodeMajor > 16 || (util.nodeMajor === 16 && util.nodeMinor >= 8)) {
 }
 
 if (util.nodeMajor >= 16) {
-  const { deleteCookie, getCookies, getSetCookies, setCookie } = __nccwpck_require__(1724)
+  const { deleteCookie, getCookies, getSetCookies, setCookie } = __nccwpck_require__(3168)
 
   module.exports.deleteCookie = deleteCookie
   module.exports.getCookies = getCookies
   module.exports.getSetCookies = getSetCookies
   module.exports.setCookie = setCookie
 
-  const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(685)
+  const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(4322)
 
   module.exports.parseMIMEType = parseMIMEType
   module.exports.serializeAMimeType = serializeAMimeType
 }
 
 if (util.nodeMajor >= 18 && hasCrypto) {
-  const { WebSocket } = __nccwpck_require__(4284)
+  const { WebSocket } = __nccwpck_require__(5171)
 
   module.exports.WebSocket = WebSocket
 }
@@ -2849,20 +4201,20 @@ module.exports.mockErrors = mockErrors
 
 /***/ }),
 
-/***/ 7890:
+/***/ 9965:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { InvalidArgumentError } = __nccwpck_require__(8045)
-const { kClients, kRunning, kClose, kDestroy, kDispatch, kInterceptors } = __nccwpck_require__(2785)
-const DispatcherBase = __nccwpck_require__(4839)
-const Pool = __nccwpck_require__(4634)
-const Client = __nccwpck_require__(3598)
-const util = __nccwpck_require__(3983)
-const createRedirectInterceptor = __nccwpck_require__(8861)
-const { WeakRef, FinalizationRegistry } = __nccwpck_require__(6436)()
+const { InvalidArgumentError } = __nccwpck_require__(8707)
+const { kClients, kRunning, kClose, kDestroy, kDispatch, kInterceptors } = __nccwpck_require__(6443)
+const DispatcherBase = __nccwpck_require__(1)
+const Pool = __nccwpck_require__(5076)
+const Client = __nccwpck_require__(6197)
+const util = __nccwpck_require__(3440)
+const createRedirectInterceptor = __nccwpck_require__(4415)
+const { WeakRef, FinalizationRegistry } = __nccwpck_require__(3194)()
 
 const kOnConnect = Symbol('onConnect')
 const kOnDisconnect = Symbol('onDisconnect')
@@ -3005,11 +4357,11 @@ module.exports = Agent
 
 /***/ }),
 
-/***/ 7032:
+/***/ 158:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const { addAbortListener } = __nccwpck_require__(3983)
-const { RequestAbortedError } = __nccwpck_require__(8045)
+const { addAbortListener } = __nccwpck_require__(3440)
+const { RequestAbortedError } = __nccwpck_require__(8707)
 
 const kListener = Symbol('kListener')
 const kSignal = Symbol('kSignal')
@@ -3066,16 +4418,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9744:
+/***/ 4660:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { AsyncResource } = __nccwpck_require__(852)
-const { InvalidArgumentError, RequestAbortedError, SocketError } = __nccwpck_require__(8045)
-const util = __nccwpck_require__(3983)
-const { addSignal, removeSignal } = __nccwpck_require__(7032)
+const { AsyncResource } = __nccwpck_require__(290)
+const { InvalidArgumentError, RequestAbortedError, SocketError } = __nccwpck_require__(8707)
+const util = __nccwpck_require__(3440)
+const { addSignal, removeSignal } = __nccwpck_require__(158)
 
 class ConnectHandler extends AsyncResource {
   constructor (opts, callback) {
@@ -3178,7 +4530,7 @@ module.exports = connect
 
 /***/ }),
 
-/***/ 8752:
+/***/ 6862:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -3188,16 +4540,16 @@ const {
   Readable,
   Duplex,
   PassThrough
-} = __nccwpck_require__(2781)
+} = __nccwpck_require__(2203)
 const {
   InvalidArgumentError,
   InvalidReturnValueError,
   RequestAbortedError
-} = __nccwpck_require__(8045)
-const util = __nccwpck_require__(3983)
-const { AsyncResource } = __nccwpck_require__(852)
-const { addSignal, removeSignal } = __nccwpck_require__(7032)
-const assert = __nccwpck_require__(9491)
+} = __nccwpck_require__(8707)
+const util = __nccwpck_require__(3440)
+const { AsyncResource } = __nccwpck_require__(290)
+const { addSignal, removeSignal } = __nccwpck_require__(158)
+const assert = __nccwpck_require__(2613)
 
 const kResume = Symbol('resume')
 
@@ -3435,21 +4787,21 @@ module.exports = pipeline
 
 /***/ }),
 
-/***/ 5448:
+/***/ 4043:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Readable = __nccwpck_require__(3858)
+const Readable = __nccwpck_require__(9927)
 const {
   InvalidArgumentError,
   RequestAbortedError
-} = __nccwpck_require__(8045)
-const util = __nccwpck_require__(3983)
-const { getResolveErrorBodyCallback } = __nccwpck_require__(7474)
-const { AsyncResource } = __nccwpck_require__(852)
-const { addSignal, removeSignal } = __nccwpck_require__(7032)
+} = __nccwpck_require__(8707)
+const util = __nccwpck_require__(3440)
+const { getResolveErrorBodyCallback } = __nccwpck_require__(7655)
+const { AsyncResource } = __nccwpck_require__(290)
+const { addSignal, removeSignal } = __nccwpck_require__(158)
 
 class RequestHandler extends AsyncResource {
   constructor (opts, callback) {
@@ -3623,22 +4975,22 @@ module.exports.RequestHandler = RequestHandler
 
 /***/ }),
 
-/***/ 5395:
+/***/ 3560:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { finished, PassThrough } = __nccwpck_require__(2781)
+const { finished, PassThrough } = __nccwpck_require__(2203)
 const {
   InvalidArgumentError,
   InvalidReturnValueError,
   RequestAbortedError
-} = __nccwpck_require__(8045)
-const util = __nccwpck_require__(3983)
-const { getResolveErrorBodyCallback } = __nccwpck_require__(7474)
-const { AsyncResource } = __nccwpck_require__(852)
-const { addSignal, removeSignal } = __nccwpck_require__(7032)
+} = __nccwpck_require__(8707)
+const util = __nccwpck_require__(3440)
+const { getResolveErrorBodyCallback } = __nccwpck_require__(7655)
+const { AsyncResource } = __nccwpck_require__(290)
+const { addSignal, removeSignal } = __nccwpck_require__(158)
 
 class StreamHandler extends AsyncResource {
   constructor (opts, factory, callback) {
@@ -3851,17 +5203,17 @@ module.exports = stream
 
 /***/ }),
 
-/***/ 6923:
+/***/ 1882:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { InvalidArgumentError, RequestAbortedError, SocketError } = __nccwpck_require__(8045)
-const { AsyncResource } = __nccwpck_require__(852)
-const util = __nccwpck_require__(3983)
-const { addSignal, removeSignal } = __nccwpck_require__(7032)
-const assert = __nccwpck_require__(9491)
+const { InvalidArgumentError, RequestAbortedError, SocketError } = __nccwpck_require__(8707)
+const { AsyncResource } = __nccwpck_require__(290)
+const util = __nccwpck_require__(3440)
+const { addSignal, removeSignal } = __nccwpck_require__(158)
+const assert = __nccwpck_require__(2613)
 
 class UpgradeHandler extends AsyncResource {
   constructor (opts, callback) {
@@ -3964,22 +5316,22 @@ module.exports = upgrade
 
 /***/ }),
 
-/***/ 4059:
+/***/ 6615:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-module.exports.request = __nccwpck_require__(5448)
-module.exports.stream = __nccwpck_require__(5395)
-module.exports.pipeline = __nccwpck_require__(8752)
-module.exports.upgrade = __nccwpck_require__(6923)
-module.exports.connect = __nccwpck_require__(9744)
+module.exports.request = __nccwpck_require__(4043)
+module.exports.stream = __nccwpck_require__(3560)
+module.exports.pipeline = __nccwpck_require__(6862)
+module.exports.upgrade = __nccwpck_require__(1882)
+module.exports.connect = __nccwpck_require__(4660)
 
 
 /***/ }),
 
-/***/ 3858:
+/***/ 9927:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -3987,11 +5339,11 @@ module.exports.connect = __nccwpck_require__(9744)
 
 
 
-const assert = __nccwpck_require__(9491)
-const { Readable } = __nccwpck_require__(2781)
-const { RequestAbortedError, NotSupportedError, InvalidArgumentError } = __nccwpck_require__(8045)
-const util = __nccwpck_require__(3983)
-const { ReadableStreamFrom, toUSVString } = __nccwpck_require__(3983)
+const assert = __nccwpck_require__(2613)
+const { Readable } = __nccwpck_require__(2203)
+const { RequestAbortedError, NotSupportedError, InvalidArgumentError } = __nccwpck_require__(8707)
+const util = __nccwpck_require__(3440)
+const { ReadableStreamFrom, toUSVString } = __nccwpck_require__(3440)
 
 let Blob
 
@@ -4271,7 +5623,7 @@ function consumeEnd (consume) {
       resolve(dst.buffer)
     } else if (type === 'blob') {
       if (!Blob) {
-        Blob = (__nccwpck_require__(4300).Blob)
+        Blob = (__nccwpck_require__(181).Blob)
       }
       resolve(new Blob(body, { type: stream[kContentType] }))
     }
@@ -4309,14 +5661,14 @@ function consumeFinish (consume, err) {
 
 /***/ }),
 
-/***/ 7474:
+/***/ 7655:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const assert = __nccwpck_require__(9491)
+const assert = __nccwpck_require__(2613)
 const {
   ResponseStatusCodeError
-} = __nccwpck_require__(8045)
-const { toUSVString } = __nccwpck_require__(3983)
+} = __nccwpck_require__(8707)
+const { toUSVString } = __nccwpck_require__(3440)
 
 async function getResolveErrorBodyCallback ({ callback, body, contentType, statusCode, statusMessage, headers }) {
   assert(body)
@@ -4362,7 +5714,7 @@ module.exports = { getResolveErrorBodyCallback }
 
 /***/ }),
 
-/***/ 7931:
+/***/ 1093:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -4371,7 +5723,7 @@ module.exports = { getResolveErrorBodyCallback }
 const {
   BalancedPoolMissingUpstreamError,
   InvalidArgumentError
-} = __nccwpck_require__(8045)
+} = __nccwpck_require__(8707)
 const {
   PoolBase,
   kClients,
@@ -4379,10 +5731,10 @@ const {
   kAddClient,
   kRemoveClient,
   kGetDispatcher
-} = __nccwpck_require__(3198)
-const Pool = __nccwpck_require__(4634)
-const { kUrl, kInterceptors } = __nccwpck_require__(2785)
-const { parseOrigin } = __nccwpck_require__(3983)
+} = __nccwpck_require__(8640)
+const Pool = __nccwpck_require__(5076)
+const { kUrl, kInterceptors } = __nccwpck_require__(6443)
+const { parseOrigin } = __nccwpck_require__(3440)
 const kFactory = Symbol('factory')
 
 const kOptions = Symbol('options')
@@ -4560,24 +5912,24 @@ module.exports = BalancedPool
 
 /***/ }),
 
-/***/ 6101:
+/***/ 479:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kConstruct } = __nccwpck_require__(9174)
-const { urlEquals, fieldValues: getFieldValues } = __nccwpck_require__(2396)
-const { kEnumerableProperty, isDisturbed } = __nccwpck_require__(3983)
-const { kHeadersList } = __nccwpck_require__(2785)
-const { webidl } = __nccwpck_require__(1744)
-const { Response, cloneResponse } = __nccwpck_require__(7823)
-const { Request } = __nccwpck_require__(8359)
-const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5861)
-const { fetching } = __nccwpck_require__(4881)
-const { urlIsHttpHttpsScheme, createDeferredPromise, readAllBytes } = __nccwpck_require__(2538)
-const assert = __nccwpck_require__(9491)
-const { getGlobalDispatcher } = __nccwpck_require__(1892)
+const { kConstruct } = __nccwpck_require__(296)
+const { urlEquals, fieldValues: getFieldValues } = __nccwpck_require__(3993)
+const { kEnumerableProperty, isDisturbed } = __nccwpck_require__(3440)
+const { kHeadersList } = __nccwpck_require__(6443)
+const { webidl } = __nccwpck_require__(4222)
+const { Response, cloneResponse } = __nccwpck_require__(8676)
+const { Request } = __nccwpck_require__(5194)
+const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(9710)
+const { fetching } = __nccwpck_require__(2315)
+const { urlIsHttpHttpsScheme, createDeferredPromise, readAllBytes } = __nccwpck_require__(5523)
+const assert = __nccwpck_require__(2613)
+const { getGlobalDispatcher } = __nccwpck_require__(2581)
 
 /**
  * @see https://w3c.github.io/ServiceWorker/#dfn-cache-batch-operation
@@ -5406,16 +6758,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7907:
+/***/ 4738:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kConstruct } = __nccwpck_require__(9174)
-const { Cache } = __nccwpck_require__(6101)
-const { webidl } = __nccwpck_require__(1744)
-const { kEnumerableProperty } = __nccwpck_require__(3983)
+const { kConstruct } = __nccwpck_require__(296)
+const { Cache } = __nccwpck_require__(479)
+const { webidl } = __nccwpck_require__(4222)
+const { kEnumerableProperty } = __nccwpck_require__(3440)
 
 class CacheStorage {
   /**
@@ -5558,28 +6910,28 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9174:
+/***/ 296:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 module.exports = {
-  kConstruct: (__nccwpck_require__(2785).kConstruct)
+  kConstruct: (__nccwpck_require__(6443).kConstruct)
 }
 
 
 /***/ }),
 
-/***/ 2396:
+/***/ 3993:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const assert = __nccwpck_require__(9491)
-const { URLSerializer } = __nccwpck_require__(685)
-const { isValidHeaderName } = __nccwpck_require__(2538)
+const assert = __nccwpck_require__(2613)
+const { URLSerializer } = __nccwpck_require__(4322)
+const { isValidHeaderName } = __nccwpck_require__(5523)
 
 /**
  * @see https://url.spec.whatwg.org/#concept-url-equals
@@ -5628,7 +6980,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3598:
+/***/ 6197:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -5638,14 +6990,14 @@ module.exports = {
 
 /* global WebAssembly */
 
-const assert = __nccwpck_require__(9491)
-const net = __nccwpck_require__(1808)
-const http = __nccwpck_require__(3685)
-const { pipeline } = __nccwpck_require__(2781)
-const util = __nccwpck_require__(3983)
-const timers = __nccwpck_require__(9459)
-const Request = __nccwpck_require__(2905)
-const DispatcherBase = __nccwpck_require__(4839)
+const assert = __nccwpck_require__(2613)
+const net = __nccwpck_require__(9278)
+const http = __nccwpck_require__(8611)
+const { pipeline } = __nccwpck_require__(2203)
+const util = __nccwpck_require__(3440)
+const timers = __nccwpck_require__(8804)
+const Request = __nccwpck_require__(4655)
+const DispatcherBase = __nccwpck_require__(1)
 const {
   RequestContentLengthMismatchError,
   ResponseContentLengthMismatchError,
@@ -5659,8 +7011,8 @@ const {
   HTTPParserError,
   ResponseExceededMaxSizeError,
   ClientDestroyedError
-} = __nccwpck_require__(8045)
-const buildConnector = __nccwpck_require__(2067)
+} = __nccwpck_require__(8707)
+const buildConnector = __nccwpck_require__(9136)
 const {
   kUrl,
   kReset,
@@ -5712,12 +7064,12 @@ const {
   kHTTP2BuildRequest,
   kHTTP2CopyHeaders,
   kHTTP1BuildRequest
-} = __nccwpck_require__(2785)
+} = __nccwpck_require__(6443)
 
 /** @type {import('http2')} */
 let http2
 try {
-  http2 = __nccwpck_require__(5158)
+  http2 = __nccwpck_require__(5675)
 } catch {
   // @ts-ignore
   http2 = { constants: {} }
@@ -5745,7 +7097,7 @@ const kClosedResolve = Symbol('kClosedResolve')
 const channels = {}
 
 try {
-  const diagnosticsChannel = __nccwpck_require__(7643)
+  const diagnosticsChannel = __nccwpck_require__(1637)
   channels.sendHeaders = diagnosticsChannel.channel('undici:client:sendHeaders')
   channels.beforeConnect = diagnosticsChannel.channel('undici:client:beforeConnect')
   channels.connectError = diagnosticsChannel.channel('undici:client:connectError')
@@ -6118,16 +7470,16 @@ function onHTTP2GoAway (code) {
   resume(client)
 }
 
-const constants = __nccwpck_require__(953)
-const createRedirectInterceptor = __nccwpck_require__(8861)
+const constants = __nccwpck_require__(2824)
+const createRedirectInterceptor = __nccwpck_require__(4415)
 const EMPTY_BUF = Buffer.alloc(0)
 
 async function lazyllhttp () {
-  const llhttpWasmData = process.env.JEST_WORKER_ID ? __nccwpck_require__(1145) : undefined
+  const llhttpWasmData = process.env.JEST_WORKER_ID ? __nccwpck_require__(3870) : undefined
 
   let mod
   try {
-    mod = await WebAssembly.compile(Buffer.from(__nccwpck_require__(5627), 'base64'))
+    mod = await WebAssembly.compile(Buffer.from(__nccwpck_require__(3434), 'base64'))
   } catch (e) {
     /* istanbul ignore next */
 
@@ -6135,7 +7487,7 @@ async function lazyllhttp () {
     // being enabled, but the occurring of this other error
     // * https://github.com/emscripten-core/emscripten/issues/11495
     // got me to remove that check to avoid breaking Node 12.
-    mod = await WebAssembly.compile(Buffer.from(llhttpWasmData || __nccwpck_require__(1145), 'base64'))
+    mod = await WebAssembly.compile(Buffer.from(llhttpWasmData || __nccwpck_require__(3870), 'base64'))
   }
 
   return await WebAssembly.instantiate(mod, {
@@ -7919,7 +9271,7 @@ module.exports = Client
 
 /***/ }),
 
-/***/ 6436:
+/***/ 3194:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -7927,7 +9279,7 @@ module.exports = Client
 
 /* istanbul ignore file: only for Node 12 */
 
-const { kConnected, kSize } = __nccwpck_require__(2785)
+const { kConnected, kSize } = __nccwpck_require__(6443)
 
 class CompatWeakRef {
   constructor (value) {
@@ -7975,7 +9327,7 @@ module.exports = function () {
 
 /***/ }),
 
-/***/ 663:
+/***/ 9237:
 /***/ ((module) => {
 
 "use strict";
@@ -7995,16 +9347,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1724:
+/***/ 3168:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { parseSetCookie } = __nccwpck_require__(4408)
-const { stringify, getHeadersList } = __nccwpck_require__(3121)
-const { webidl } = __nccwpck_require__(1744)
-const { Headers } = __nccwpck_require__(554)
+const { parseSetCookie } = __nccwpck_require__(8915)
+const { stringify, getHeadersList } = __nccwpck_require__(3834)
+const { webidl } = __nccwpck_require__(4222)
+const { Headers } = __nccwpck_require__(6349)
 
 /**
  * @typedef {Object} Cookie
@@ -8187,16 +9539,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4408:
+/***/ 8915:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { maxNameValuePairSize, maxAttributeValueSize } = __nccwpck_require__(663)
-const { isCTLExcludingHtab } = __nccwpck_require__(3121)
-const { collectASequenceOfCodePointsFast } = __nccwpck_require__(685)
-const assert = __nccwpck_require__(9491)
+const { maxNameValuePairSize, maxAttributeValueSize } = __nccwpck_require__(9237)
+const { isCTLExcludingHtab } = __nccwpck_require__(3834)
+const { collectASequenceOfCodePointsFast } = __nccwpck_require__(4322)
+const assert = __nccwpck_require__(2613)
 
 /**
  * @description Parses the field-value attributes of a set-cookie header string.
@@ -8512,14 +9864,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3121:
+/***/ 3834:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const assert = __nccwpck_require__(9491)
-const { kHeadersList } = __nccwpck_require__(2785)
+const assert = __nccwpck_require__(2613)
+const { kHeadersList } = __nccwpck_require__(6443)
 
 function isCTLExcludingHtab (value) {
   if (value.length === 0) {
@@ -8811,16 +10163,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2067:
+/***/ 9136:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const net = __nccwpck_require__(1808)
-const assert = __nccwpck_require__(9491)
-const util = __nccwpck_require__(3983)
-const { InvalidArgumentError, ConnectTimeoutError } = __nccwpck_require__(8045)
+const net = __nccwpck_require__(9278)
+const assert = __nccwpck_require__(2613)
+const util = __nccwpck_require__(3440)
+const { InvalidArgumentError, ConnectTimeoutError } = __nccwpck_require__(8707)
 
 let tls // include tls conditionally since it is not always available
 
@@ -8903,7 +10255,7 @@ function buildConnector ({ allowH2, maxCachedSessions, socketPath, timeout, ...o
     let socket
     if (protocol === 'https:') {
       if (!tls) {
-        tls = __nccwpck_require__(4404)
+        tls = __nccwpck_require__(4756)
       }
       servername = servername || options.servername || util.getServerName(host) || null
 
@@ -9008,7 +10360,7 @@ module.exports = buildConnector
 
 /***/ }),
 
-/***/ 4462:
+/***/ 735:
 /***/ ((module) => {
 
 "use strict";
@@ -9134,7 +10486,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8045:
+/***/ 8707:
 /***/ ((module) => {
 
 "use strict";
@@ -9372,7 +10724,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2905:
+/***/ 4655:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -9381,10 +10733,10 @@ module.exports = {
 const {
   InvalidArgumentError,
   NotSupportedError
-} = __nccwpck_require__(8045)
-const assert = __nccwpck_require__(9491)
-const { kHTTP2BuildRequest, kHTTP2CopyHeaders, kHTTP1BuildRequest } = __nccwpck_require__(2785)
-const util = __nccwpck_require__(3983)
+} = __nccwpck_require__(8707)
+const assert = __nccwpck_require__(2613)
+const { kHTTP2BuildRequest, kHTTP2CopyHeaders, kHTTP1BuildRequest } = __nccwpck_require__(6443)
+const util = __nccwpck_require__(3440)
 
 // tokenRegExp and headerCharRegex have been lifted from
 // https://github.com/nodejs/node/blob/main/lib/_http_common.js
@@ -9414,7 +10766,7 @@ const channels = {}
 let extractBody
 
 try {
-  const diagnosticsChannel = __nccwpck_require__(7643)
+  const diagnosticsChannel = __nccwpck_require__(1637)
   channels.create = diagnosticsChannel.channel('undici:request:create')
   channels.bodySent = diagnosticsChannel.channel('undici:request:bodySent')
   channels.headers = diagnosticsChannel.channel('undici:request:headers')
@@ -9579,7 +10931,7 @@ class Request {
       }
 
       if (!extractBody) {
-        extractBody = (__nccwpck_require__(1472).extractBody)
+        extractBody = (__nccwpck_require__(8923).extractBody)
       }
 
       const [bodyStream, contentType] = extractBody(body)
@@ -9879,7 +11231,7 @@ module.exports = Request
 
 /***/ }),
 
-/***/ 2785:
+/***/ 6443:
 /***/ ((module) => {
 
 module.exports = {
@@ -9949,22 +11301,22 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3983:
+/***/ 3440:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const assert = __nccwpck_require__(9491)
-const { kDestroyed, kBodyUsed } = __nccwpck_require__(2785)
-const { IncomingMessage } = __nccwpck_require__(3685)
-const stream = __nccwpck_require__(2781)
-const net = __nccwpck_require__(1808)
-const { InvalidArgumentError } = __nccwpck_require__(8045)
-const { Blob } = __nccwpck_require__(4300)
-const nodeUtil = __nccwpck_require__(3837)
-const { stringify } = __nccwpck_require__(3477)
-const { headerNameLowerCasedRecord } = __nccwpck_require__(4462)
+const assert = __nccwpck_require__(2613)
+const { kDestroyed, kBodyUsed } = __nccwpck_require__(6443)
+const { IncomingMessage } = __nccwpck_require__(8611)
+const stream = __nccwpck_require__(2203)
+const net = __nccwpck_require__(9278)
+const { InvalidArgumentError } = __nccwpck_require__(8707)
+const { Blob } = __nccwpck_require__(181)
+const nodeUtil = __nccwpck_require__(9023)
+const { stringify } = __nccwpck_require__(3480)
+const { headerNameLowerCasedRecord } = __nccwpck_require__(735)
 
 const [nodeMajor, nodeMinor] = process.versions.node.split('.').map(v => Number(v))
 
@@ -10333,7 +11685,7 @@ async function * convertIterableToBuffer (iterable) {
 let ReadableStream
 function ReadableStreamFrom (iterable) {
   if (!ReadableStream) {
-    ReadableStream = (__nccwpck_require__(5356).ReadableStream)
+    ReadableStream = (__nccwpck_require__(3774).ReadableStream)
   }
 
   if (ReadableStream.from) {
@@ -10479,19 +11831,19 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4839:
+/***/ 1:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Dispatcher = __nccwpck_require__(412)
+const Dispatcher = __nccwpck_require__(992)
 const {
   ClientDestroyedError,
   ClientClosedError,
   InvalidArgumentError
-} = __nccwpck_require__(8045)
-const { kDestroy, kClose, kDispatch, kInterceptors } = __nccwpck_require__(2785)
+} = __nccwpck_require__(8707)
+const { kDestroy, kClose, kDispatch, kInterceptors } = __nccwpck_require__(6443)
 
 const kDestroyed = Symbol('destroyed')
 const kClosed = Symbol('closed')
@@ -10679,13 +12031,13 @@ module.exports = DispatcherBase
 
 /***/ }),
 
-/***/ 412:
+/***/ 992:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const EventEmitter = __nccwpck_require__(2361)
+const EventEmitter = __nccwpck_require__(4434)
 
 class Dispatcher extends EventEmitter {
   dispatch () {
@@ -10706,14 +12058,14 @@ module.exports = Dispatcher
 
 /***/ }),
 
-/***/ 1472:
+/***/ 8923:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Busboy = __nccwpck_require__(727)
-const util = __nccwpck_require__(3983)
+const Busboy = __nccwpck_require__(9581)
+const util = __nccwpck_require__(3440)
 const {
   ReadableStreamFrom,
   isBlobLike,
@@ -10721,18 +12073,18 @@ const {
   readableStreamClose,
   createDeferredPromise,
   fullyReadBody
-} = __nccwpck_require__(2538)
-const { FormData } = __nccwpck_require__(2015)
-const { kState } = __nccwpck_require__(5861)
-const { webidl } = __nccwpck_require__(1744)
-const { DOMException, structuredClone } = __nccwpck_require__(1037)
-const { Blob, File: NativeFile } = __nccwpck_require__(4300)
-const { kBodyUsed } = __nccwpck_require__(2785)
-const assert = __nccwpck_require__(9491)
-const { isErrored } = __nccwpck_require__(3983)
-const { isUint8Array, isArrayBuffer } = __nccwpck_require__(9830)
-const { File: UndiciFile } = __nccwpck_require__(8511)
-const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(685)
+} = __nccwpck_require__(5523)
+const { FormData } = __nccwpck_require__(3073)
+const { kState } = __nccwpck_require__(9710)
+const { webidl } = __nccwpck_require__(4222)
+const { DOMException, structuredClone } = __nccwpck_require__(7326)
+const { Blob, File: NativeFile } = __nccwpck_require__(181)
+const { kBodyUsed } = __nccwpck_require__(6443)
+const assert = __nccwpck_require__(2613)
+const { isErrored } = __nccwpck_require__(3440)
+const { isUint8Array, isArrayBuffer } = __nccwpck_require__(8253)
+const { File: UndiciFile } = __nccwpck_require__(3041)
+const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(4322)
 
 let ReadableStream = globalThis.ReadableStream
 
@@ -10744,7 +12096,7 @@ const textDecoder = new TextDecoder()
 // https://fetch.spec.whatwg.org/#concept-bodyinit-extract
 function extractBody (object, keepalive = false) {
   if (!ReadableStream) {
-    ReadableStream = (__nccwpck_require__(5356).ReadableStream)
+    ReadableStream = (__nccwpck_require__(3774).ReadableStream)
   }
 
   // 1. Let stream be null.
@@ -10965,7 +12317,7 @@ function extractBody (object, keepalive = false) {
 function safelyExtractBody (object, keepalive = false) {
   if (!ReadableStream) {
     // istanbul ignore next
-    ReadableStream = (__nccwpck_require__(5356).ReadableStream)
+    ReadableStream = (__nccwpck_require__(3774).ReadableStream)
   }
 
   // To safely extract a body and a `Content-Type` value from
@@ -11319,13 +12671,13 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1037:
+/***/ 7326:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { MessageChannel, receiveMessageOnPort } = __nccwpck_require__(1267)
+const { MessageChannel, receiveMessageOnPort } = __nccwpck_require__(8167)
 
 const corsSafeListedMethods = ['GET', 'HEAD', 'POST']
 const corsSafeListedMethodsSet = new Set(corsSafeListedMethods)
@@ -11478,12 +12830,12 @@ module.exports = {
 
 /***/ }),
 
-/***/ 685:
+/***/ 4322:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const assert = __nccwpck_require__(9491)
-const { atob } = __nccwpck_require__(4300)
-const { isomorphicDecode } = __nccwpck_require__(2538)
+const assert = __nccwpck_require__(2613)
+const { atob } = __nccwpck_require__(181)
+const { isomorphicDecode } = __nccwpck_require__(5523)
 
 const encoder = new TextEncoder()
 
@@ -12112,19 +13464,19 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8511:
+/***/ 3041:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { Blob, File: NativeFile } = __nccwpck_require__(4300)
-const { types } = __nccwpck_require__(3837)
-const { kState } = __nccwpck_require__(5861)
-const { isBlobLike } = __nccwpck_require__(2538)
-const { webidl } = __nccwpck_require__(1744)
-const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(685)
-const { kEnumerableProperty } = __nccwpck_require__(3983)
+const { Blob, File: NativeFile } = __nccwpck_require__(181)
+const { types } = __nccwpck_require__(9023)
+const { kState } = __nccwpck_require__(9710)
+const { isBlobLike } = __nccwpck_require__(5523)
+const { webidl } = __nccwpck_require__(4222)
+const { parseMIMEType, serializeAMimeType } = __nccwpck_require__(4322)
+const { kEnumerableProperty } = __nccwpck_require__(3440)
 const encoder = new TextEncoder()
 
 class File extends Blob {
@@ -12464,17 +13816,17 @@ module.exports = { File, FileLike, isFileLike }
 
 /***/ }),
 
-/***/ 2015:
+/***/ 3073:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { isBlobLike, toUSVString, makeIterator } = __nccwpck_require__(2538)
-const { kState } = __nccwpck_require__(5861)
-const { File: UndiciFile, FileLike, isFileLike } = __nccwpck_require__(8511)
-const { webidl } = __nccwpck_require__(1744)
-const { Blob, File: NativeFile } = __nccwpck_require__(4300)
+const { isBlobLike, toUSVString, makeIterator } = __nccwpck_require__(5523)
+const { kState } = __nccwpck_require__(9710)
+const { File: UndiciFile, FileLike, isFileLike } = __nccwpck_require__(3041)
+const { webidl } = __nccwpck_require__(4222)
+const { Blob, File: NativeFile } = __nccwpck_require__(181)
 
 /** @type {globalThis['File']} */
 const File = NativeFile ?? UndiciFile
@@ -12737,7 +14089,7 @@ module.exports = { FormData }
 
 /***/ }),
 
-/***/ 1246:
+/***/ 5628:
 /***/ ((module) => {
 
 "use strict";
@@ -12785,7 +14137,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 554:
+/***/ 6349:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -12793,16 +14145,16 @@ module.exports = {
 
 
 
-const { kHeadersList, kConstruct } = __nccwpck_require__(2785)
-const { kGuard } = __nccwpck_require__(5861)
-const { kEnumerableProperty } = __nccwpck_require__(3983)
+const { kHeadersList, kConstruct } = __nccwpck_require__(6443)
+const { kGuard } = __nccwpck_require__(9710)
+const { kEnumerableProperty } = __nccwpck_require__(3440)
 const {
   makeIterator,
   isValidHeaderName,
   isValidHeaderValue
-} = __nccwpck_require__(2538)
-const { webidl } = __nccwpck_require__(1744)
-const assert = __nccwpck_require__(9491)
+} = __nccwpck_require__(5523)
+const { webidl } = __nccwpck_require__(4222)
+const assert = __nccwpck_require__(2613)
 
 const kHeadersMap = Symbol('headers map')
 const kHeadersSortedMap = Symbol('headers map sorted')
@@ -13382,7 +14734,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4881:
+/***/ 2315:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -13396,10 +14748,10 @@ const {
   makeAppropriateNetworkError,
   filterResponse,
   makeResponse
-} = __nccwpck_require__(7823)
-const { Headers } = __nccwpck_require__(554)
-const { Request, makeRequest } = __nccwpck_require__(8359)
-const zlib = __nccwpck_require__(9796)
+} = __nccwpck_require__(8676)
+const { Headers } = __nccwpck_require__(6349)
+const { Request, makeRequest } = __nccwpck_require__(5194)
+const zlib = __nccwpck_require__(3106)
 const {
   bytesMatch,
   makePolicyContainer,
@@ -13429,10 +14781,10 @@ const {
   urlIsLocal,
   urlIsHttpHttpsScheme,
   urlHasHttpsScheme
-} = __nccwpck_require__(2538)
-const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5861)
-const assert = __nccwpck_require__(9491)
-const { safelyExtractBody } = __nccwpck_require__(1472)
+} = __nccwpck_require__(5523)
+const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(9710)
+const assert = __nccwpck_require__(2613)
+const { safelyExtractBody } = __nccwpck_require__(8923)
 const {
   redirectStatusSet,
   nullBodyStatus,
@@ -13440,16 +14792,16 @@ const {
   requestBodyHeader,
   subresourceSet,
   DOMException
-} = __nccwpck_require__(1037)
-const { kHeadersList } = __nccwpck_require__(2785)
-const EE = __nccwpck_require__(2361)
-const { Readable, pipeline } = __nccwpck_require__(2781)
-const { addAbortListener, isErrored, isReadable, nodeMajor, nodeMinor } = __nccwpck_require__(3983)
-const { dataURLProcessor, serializeAMimeType } = __nccwpck_require__(685)
-const { TransformStream } = __nccwpck_require__(5356)
-const { getGlobalDispatcher } = __nccwpck_require__(1892)
-const { webidl } = __nccwpck_require__(1744)
-const { STATUS_CODES } = __nccwpck_require__(3685)
+} = __nccwpck_require__(7326)
+const { kHeadersList } = __nccwpck_require__(6443)
+const EE = __nccwpck_require__(4434)
+const { Readable, pipeline } = __nccwpck_require__(2203)
+const { addAbortListener, isErrored, isReadable, nodeMajor, nodeMinor } = __nccwpck_require__(3440)
+const { dataURLProcessor, serializeAMimeType } = __nccwpck_require__(4322)
+const { TransformStream } = __nccwpck_require__(3774)
+const { getGlobalDispatcher } = __nccwpck_require__(2581)
+const { webidl } = __nccwpck_require__(4222)
+const { STATUS_CODES } = __nccwpck_require__(8611)
 const GET_OR_HEAD = ['GET', 'HEAD']
 
 /** @type {import('buffer').resolveObjectURL} */
@@ -14191,7 +15543,7 @@ function schemeFetch (fetchParams) {
     }
     case 'blob:': {
       if (!resolveObjectURL) {
-        resolveObjectURL = (__nccwpck_require__(4300).resolveObjectURL)
+        resolveObjectURL = (__nccwpck_require__(181).resolveObjectURL)
       }
 
       // 1. Let blobURLEntry be request’s current URL’s blob URL entry.
@@ -15190,7 +16542,7 @@ async function httpNetworkFetch (
   // cancelAlgorithm set to cancelAlgorithm, highWaterMark set to
   // highWaterMark, and sizeAlgorithm set to sizeAlgorithm.
   if (!ReadableStream) {
-    ReadableStream = (__nccwpck_require__(5356).ReadableStream)
+    ReadableStream = (__nccwpck_require__(3774).ReadableStream)
   }
 
   const stream = new ReadableStream(
@@ -15538,7 +16890,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 8359:
+/***/ 5194:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -15546,17 +16898,17 @@ module.exports = {
 
 
 
-const { extractBody, mixinBody, cloneBody } = __nccwpck_require__(1472)
-const { Headers, fill: fillHeaders, HeadersList } = __nccwpck_require__(554)
-const { FinalizationRegistry } = __nccwpck_require__(6436)()
-const util = __nccwpck_require__(3983)
+const { extractBody, mixinBody, cloneBody } = __nccwpck_require__(8923)
+const { Headers, fill: fillHeaders, HeadersList } = __nccwpck_require__(6349)
+const { FinalizationRegistry } = __nccwpck_require__(3194)()
+const util = __nccwpck_require__(3440)
 const {
   isValidHTTPToken,
   sameOrigin,
   normalizeMethod,
   makePolicyContainer,
   normalizeMethodRecord
-} = __nccwpck_require__(2538)
+} = __nccwpck_require__(5523)
 const {
   forbiddenMethodsSet,
   corsSafeListedMethodsSet,
@@ -15566,15 +16918,15 @@ const {
   requestCredentials,
   requestCache,
   requestDuplex
-} = __nccwpck_require__(1037)
+} = __nccwpck_require__(7326)
 const { kEnumerableProperty } = util
-const { kHeaders, kSignal, kState, kGuard, kRealm } = __nccwpck_require__(5861)
-const { webidl } = __nccwpck_require__(1744)
-const { getGlobalOrigin } = __nccwpck_require__(1246)
-const { URLSerializer } = __nccwpck_require__(685)
-const { kHeadersList, kConstruct } = __nccwpck_require__(2785)
-const assert = __nccwpck_require__(9491)
-const { getMaxListeners, setMaxListeners, getEventListeners, defaultMaxListeners } = __nccwpck_require__(2361)
+const { kHeaders, kSignal, kState, kGuard, kRealm } = __nccwpck_require__(9710)
+const { webidl } = __nccwpck_require__(4222)
+const { getGlobalOrigin } = __nccwpck_require__(5628)
+const { URLSerializer } = __nccwpck_require__(4322)
+const { kHeadersList, kConstruct } = __nccwpck_require__(6443)
+const assert = __nccwpck_require__(2613)
+const { getMaxListeners, setMaxListeners, getEventListeners, defaultMaxListeners } = __nccwpck_require__(4434)
 
 let TransformStream = globalThis.TransformStream
 
@@ -16061,7 +17413,7 @@ class Request {
 
       // 2. Set finalBody to the result of creating a proxy for inputBody.
       if (!TransformStream) {
-        TransformStream = (__nccwpck_require__(5356).TransformStream)
+        TransformStream = (__nccwpck_require__(3774).TransformStream)
       }
 
       // https://streams.spec.whatwg.org/#readablestream-create-a-proxy
@@ -16492,15 +17844,15 @@ module.exports = { Request, makeRequest }
 
 /***/ }),
 
-/***/ 7823:
+/***/ 8676:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { Headers, HeadersList, fill } = __nccwpck_require__(554)
-const { extractBody, cloneBody, mixinBody } = __nccwpck_require__(1472)
-const util = __nccwpck_require__(3983)
+const { Headers, HeadersList, fill } = __nccwpck_require__(6349)
+const { extractBody, cloneBody, mixinBody } = __nccwpck_require__(8923)
+const util = __nccwpck_require__(3440)
 const { kEnumerableProperty } = util
 const {
   isValidReasonPhrase,
@@ -16510,22 +17862,22 @@ const {
   serializeJavascriptValueToJSONString,
   isErrorLike,
   isomorphicEncode
-} = __nccwpck_require__(2538)
+} = __nccwpck_require__(5523)
 const {
   redirectStatusSet,
   nullBodyStatus,
   DOMException
-} = __nccwpck_require__(1037)
-const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(5861)
-const { webidl } = __nccwpck_require__(1744)
-const { FormData } = __nccwpck_require__(2015)
-const { getGlobalOrigin } = __nccwpck_require__(1246)
-const { URLSerializer } = __nccwpck_require__(685)
-const { kHeadersList, kConstruct } = __nccwpck_require__(2785)
-const assert = __nccwpck_require__(9491)
-const { types } = __nccwpck_require__(3837)
+} = __nccwpck_require__(7326)
+const { kState, kHeaders, kGuard, kRealm } = __nccwpck_require__(9710)
+const { webidl } = __nccwpck_require__(4222)
+const { FormData } = __nccwpck_require__(3073)
+const { getGlobalOrigin } = __nccwpck_require__(5628)
+const { URLSerializer } = __nccwpck_require__(4322)
+const { kHeadersList, kConstruct } = __nccwpck_require__(6443)
+const assert = __nccwpck_require__(2613)
+const { types } = __nccwpck_require__(9023)
 
-const ReadableStream = globalThis.ReadableStream || (__nccwpck_require__(5356).ReadableStream)
+const ReadableStream = globalThis.ReadableStream || (__nccwpck_require__(3774).ReadableStream)
 const textEncoder = new TextEncoder('utf-8')
 
 // https://fetch.spec.whatwg.org/#response-class
@@ -17071,7 +18423,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5861:
+/***/ 9710:
 /***/ ((module) => {
 
 "use strict";
@@ -17089,18 +18441,18 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2538:
+/***/ 5523:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { redirectStatusSet, referrerPolicySet: referrerPolicyTokens, badPortsSet } = __nccwpck_require__(1037)
-const { getGlobalOrigin } = __nccwpck_require__(1246)
-const { performance } = __nccwpck_require__(4074)
-const { isBlobLike, toUSVString, ReadableStreamFrom } = __nccwpck_require__(3983)
-const assert = __nccwpck_require__(9491)
-const { isUint8Array } = __nccwpck_require__(9830)
+const { redirectStatusSet, referrerPolicySet: referrerPolicyTokens, badPortsSet } = __nccwpck_require__(7326)
+const { getGlobalOrigin } = __nccwpck_require__(5628)
+const { performance } = __nccwpck_require__(2987)
+const { isBlobLike, toUSVString, ReadableStreamFrom } = __nccwpck_require__(3440)
+const assert = __nccwpck_require__(2613)
+const { isUint8Array } = __nccwpck_require__(8253)
 
 let supportedHashes = []
 
@@ -17109,7 +18461,7 @@ let supportedHashes = []
 let crypto
 
 try {
-  crypto = __nccwpck_require__(6113)
+  crypto = __nccwpck_require__(6982)
   const possibleRelevantHashes = ['sha256', 'sha384', 'sha512']
   supportedHashes = crypto.getHashes().filter((hash) => possibleRelevantHashes.includes(hash))
 /* c8 ignore next 3 */
@@ -18062,7 +19414,7 @@ let ReadableStream = globalThis.ReadableStream
 
 function isReadableStreamLike (stream) {
   if (!ReadableStream) {
-    ReadableStream = (__nccwpck_require__(5356).ReadableStream)
+    ReadableStream = (__nccwpck_require__(3774).ReadableStream)
   }
 
   return stream instanceof ReadableStream || (
@@ -18241,14 +19593,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1744:
+/***/ 4222:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { types } = __nccwpck_require__(3837)
-const { hasOwn, toUSVString } = __nccwpck_require__(2538)
+const { types } = __nccwpck_require__(9023)
+const { hasOwn, toUSVString } = __nccwpck_require__(5523)
 
 /** @type {import('../../types/webidl').Webidl} */
 const webidl = {}
@@ -18895,7 +20247,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4854:
+/***/ 396:
 /***/ ((module) => {
 
 "use strict";
@@ -19193,7 +20545,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1446:
+/***/ 2160:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -19203,16 +20555,16 @@ const {
   staticPropertyDescriptors,
   readOperation,
   fireAProgressEvent
-} = __nccwpck_require__(7530)
+} = __nccwpck_require__(165)
 const {
   kState,
   kError,
   kResult,
   kEvents,
   kAborted
-} = __nccwpck_require__(9054)
-const { webidl } = __nccwpck_require__(1744)
-const { kEnumerableProperty } = __nccwpck_require__(3983)
+} = __nccwpck_require__(6812)
+const { webidl } = __nccwpck_require__(4222)
+const { kEnumerableProperty } = __nccwpck_require__(3440)
 
 class FileReader extends EventTarget {
   constructor () {
@@ -19545,13 +20897,13 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5504:
+/***/ 5976:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { webidl } = __nccwpck_require__(1744)
+const { webidl } = __nccwpck_require__(4222)
 
 const kState = Symbol('ProgressEvent state')
 
@@ -19631,7 +20983,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9054:
+/***/ 6812:
 /***/ ((module) => {
 
 "use strict";
@@ -19649,7 +21001,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7530:
+/***/ 165:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -19661,14 +21013,14 @@ const {
   kResult,
   kAborted,
   kLastProgressEventFired
-} = __nccwpck_require__(9054)
-const { ProgressEvent } = __nccwpck_require__(5504)
-const { getEncoding } = __nccwpck_require__(4854)
-const { DOMException } = __nccwpck_require__(1037)
-const { serializeAMimeType, parseMIMEType } = __nccwpck_require__(685)
-const { types } = __nccwpck_require__(3837)
-const { StringDecoder } = __nccwpck_require__(1576)
-const { btoa } = __nccwpck_require__(4300)
+} = __nccwpck_require__(6812)
+const { ProgressEvent } = __nccwpck_require__(5976)
+const { getEncoding } = __nccwpck_require__(396)
+const { DOMException } = __nccwpck_require__(7326)
+const { serializeAMimeType, parseMIMEType } = __nccwpck_require__(4322)
+const { types } = __nccwpck_require__(9023)
+const { StringDecoder } = __nccwpck_require__(3193)
+const { btoa } = __nccwpck_require__(181)
 
 /** @type {PropertyDescriptor} */
 const staticPropertyDescriptors = {
@@ -20049,7 +21401,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1892:
+/***/ 2581:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -20058,8 +21410,8 @@ module.exports = {
 // We include a version number for the Dispatcher API. In case of breaking changes,
 // this version number must be increased to avoid conflicts.
 const globalDispatcher = Symbol.for('undici.globalDispatcher.1')
-const { InvalidArgumentError } = __nccwpck_require__(8045)
-const Agent = __nccwpck_require__(7890)
+const { InvalidArgumentError } = __nccwpck_require__(8707)
+const Agent = __nccwpck_require__(9965)
 
 if (getGlobalDispatcher() === undefined) {
   setGlobalDispatcher(new Agent())
@@ -20089,7 +21441,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 6930:
+/***/ 8840:
 /***/ ((module) => {
 
 "use strict";
@@ -20132,17 +21484,17 @@ module.exports = class DecoratorHandler {
 
 /***/ }),
 
-/***/ 2860:
+/***/ 8299:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const util = __nccwpck_require__(3983)
-const { kBodyUsed } = __nccwpck_require__(2785)
-const assert = __nccwpck_require__(9491)
-const { InvalidArgumentError } = __nccwpck_require__(8045)
-const EE = __nccwpck_require__(2361)
+const util = __nccwpck_require__(3440)
+const { kBodyUsed } = __nccwpck_require__(6443)
+const assert = __nccwpck_require__(2613)
+const { InvalidArgumentError } = __nccwpck_require__(8707)
+const EE = __nccwpck_require__(4434)
 
 const redirectableStatusCodes = [300, 301, 302, 303, 307, 308]
 
@@ -20361,14 +21713,14 @@ module.exports = RedirectHandler
 
 /***/ }),
 
-/***/ 2286:
+/***/ 3573:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const assert = __nccwpck_require__(9491)
+const assert = __nccwpck_require__(2613)
 
-const { kRetryHandlerDefaultRetry } = __nccwpck_require__(2785)
-const { RequestRetryError } = __nccwpck_require__(8045)
-const { isDisturbed, parseHeaders, parseRangeHeader } = __nccwpck_require__(3983)
+const { kRetryHandlerDefaultRetry } = __nccwpck_require__(6443)
+const { RequestRetryError } = __nccwpck_require__(8707)
+const { isDisturbed, parseHeaders, parseRangeHeader } = __nccwpck_require__(3440)
 
 function calculateRetryAfterHeader (retryAfter) {
   const current = Date.now()
@@ -20704,13 +22056,13 @@ module.exports = RetryHandler
 
 /***/ }),
 
-/***/ 8861:
+/***/ 4415:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const RedirectHandler = __nccwpck_require__(2860)
+const RedirectHandler = __nccwpck_require__(8299)
 
 function createRedirectInterceptor ({ maxRedirections: defaultMaxRedirections }) {
   return (dispatch) => {
@@ -20733,14 +22085,14 @@ module.exports = createRedirectInterceptor
 
 /***/ }),
 
-/***/ 953:
+/***/ 2824:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SPECIAL_HEADERS = exports.HEADER_STATE = exports.MINOR = exports.MAJOR = exports.CONNECTION_TOKEN_CHARS = exports.HEADER_CHARS = exports.TOKEN = exports.STRICT_TOKEN = exports.HEX = exports.URL_CHAR = exports.STRICT_URL_CHAR = exports.USERINFO_CHARS = exports.MARK = exports.ALPHANUM = exports.NUM = exports.HEX_MAP = exports.NUM_MAP = exports.ALPHA = exports.FINISH = exports.H_METHOD_MAP = exports.METHOD_MAP = exports.METHODS_RTSP = exports.METHODS_ICE = exports.METHODS_HTTP = exports.METHODS = exports.LENIENT_FLAGS = exports.FLAGS = exports.TYPE = exports.ERROR = void 0;
-const utils_1 = __nccwpck_require__(1891);
+const utils_1 = __nccwpck_require__(172);
 // C headers
 var ERROR;
 (function (ERROR) {
@@ -21018,7 +22370,7 @@ exports.SPECIAL_HEADERS = {
 
 /***/ }),
 
-/***/ 1145:
+/***/ 3870:
 /***/ ((module) => {
 
 module.exports = 'AGFzbQEAAAABMAhgAX8Bf2ADf39/AX9gBH9/f38Bf2AAAGADf39/AGABfwBgAn9/AGAGf39/f39/AALLAQgDZW52GHdhc21fb25faGVhZGVyc19jb21wbGV0ZQACA2VudhV3YXNtX29uX21lc3NhZ2VfYmVnaW4AAANlbnYLd2FzbV9vbl91cmwAAQNlbnYOd2FzbV9vbl9zdGF0dXMAAQNlbnYUd2FzbV9vbl9oZWFkZXJfZmllbGQAAQNlbnYUd2FzbV9vbl9oZWFkZXJfdmFsdWUAAQNlbnYMd2FzbV9vbl9ib2R5AAEDZW52GHdhc21fb25fbWVzc2FnZV9jb21wbGV0ZQAAA0ZFAwMEAAAFAAAAAAAABQEFAAUFBQAABgAAAAAGBgYGAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAAABAQcAAAUFAwABBAUBcAESEgUDAQACBggBfwFBgNQECwfRBSIGbWVtb3J5AgALX2luaXRpYWxpemUACRlfX2luZGlyZWN0X2Z1bmN0aW9uX3RhYmxlAQALbGxodHRwX2luaXQAChhsbGh0dHBfc2hvdWxkX2tlZXBfYWxpdmUAQQxsbGh0dHBfYWxsb2MADAZtYWxsb2MARgtsbGh0dHBfZnJlZQANBGZyZWUASA9sbGh0dHBfZ2V0X3R5cGUADhVsbGh0dHBfZ2V0X2h0dHBfbWFqb3IADxVsbGh0dHBfZ2V0X2h0dHBfbWlub3IAEBFsbGh0dHBfZ2V0X21ldGhvZAARFmxsaHR0cF9nZXRfc3RhdHVzX2NvZGUAEhJsbGh0dHBfZ2V0X3VwZ3JhZGUAEwxsbGh0dHBfcmVzZXQAFA5sbGh0dHBfZXhlY3V0ZQAVFGxsaHR0cF9zZXR0aW5nc19pbml0ABYNbGxodHRwX2ZpbmlzaAAXDGxsaHR0cF9wYXVzZQAYDWxsaHR0cF9yZXN1bWUAGRtsbGh0dHBfcmVzdW1lX2FmdGVyX3VwZ3JhZGUAGhBsbGh0dHBfZ2V0X2Vycm5vABsXbGxodHRwX2dldF9lcnJvcl9yZWFzb24AHBdsbGh0dHBfc2V0X2Vycm9yX3JlYXNvbgAdFGxsaHR0cF9nZXRfZXJyb3JfcG9zAB4RbGxodHRwX2Vycm5vX25hbWUAHxJsbGh0dHBfbWV0aG9kX25hbWUAIBJs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ADcDACAAQShqQgA3AwAgAEEgakIANwMAIABBEGpCADcDACAAQQhqQgA3AwAgAEHdATYCHEEAC3sBAX8CQCAAKAIMIgMNAAJAIAAoAgRFDQAgACABNgIECwJAIAAgASACEMSAgIAAIgMNACAAKAIMDwsgACADNgIcQQAhAyAAKAIEIgFFDQAgACABIAIgACgCCBGBgICAAAAiAUUNACAAIAI2AhQgACABNgIMIAEhAwsgAwvk8wEDDn8DfgR/I4CAgIAAQRBrIgMkgICAgAAgASEEIAEhBSABIQYgASEHIAEhCCABIQkgASEKIAEhCyABIQwgASENIAEhDiABIQ8CQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkAgACgCHCIQQX9qDt0B2gEB2QECAwQFBgcICQoLDA0O2AEPENcBERLWARMUFRYXGBkaG+AB3wEcHR7VAR8gISIjJCXUASYnKCkqKyzTAdIBLS7RAdABLzAxMjM0NTY3ODk6Ozw9Pj9AQUJDREVG2wFHSElKzwHOAUvNAUzMAU1OT1BRUlNUVVZXWFlaW1xdXl9gYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXp7fH1+f4ABgQGCAYMBhAGFAYYBhwGIAYkB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QAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkAC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FCAAIBA2AgxBACEQDLIBCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQp4CAgAAiEA0AIAEhAQxNCyAAQdMANgIcIAAgATYCFCAAIBA2AgxBACEQDLEBCyAAKAIEIRAgAEEANgIEAkAgACAQIAEQp4CAgAAiEA0AIAEhAQxRCyAAQeUANgIcIAAgATYCFCAAIBA2AgxBACEQDLABCyAAQQA2AhwgACABNgIUIABBxoqAgAA2AhAgAEEHNgIMQQAhEAyvAQsgACgCBCEQIABBADYCBAJAIAAgECABEKeAgIAAIhANACABIQEMSQsgAEHSADYCHCAAIAE2AhQgACAQNgIMQQAhEAyuAQsgACgCBCEQIABBADYCBAJAIAAgECABEKeAgIAAIhANACABIQEMSQsgAEHTADYCHCAAIAE2AhQgACAQNgIMQQAhEAytAQsgACgCBCEQIABBADYCBAJAIAAgECABEKeAgIAAIhANACABIQEMTQsgAEHlADYCHCAAIAE2AhQgACAQNgIMQQAhEAysAQsgAEEANgIcIAAgATYCFCAAQdyIgIAANgIQIABBBzYCDEEAIRAMqwELIBBBP0cNASABQQFqIQELQQUhEAyQAQtBACEQIABBADYCHCAAIAE2AhQgAEH9koCAADYCECAAQQc2AgwMqAELIAAoAgQhECAAQQA2AgQCQCAAIBAgARCngICAACIQDQAgASEBDEILIABB0gA2AhwgACABNgIUIAAgEDYCDEEAIRAMpwELIAAoAgQhECAAQQA2AgQCQCAAIBAgARCngICAACIQDQAgASEBDEILIABB0wA2AhwgACABNgIUIAAgEDYCDEEAIRAMpgELIAAoAgQhECAAQQA2AgQCQCAAIBAgARCngICAACIQDQAgASEBDEYLIABB5QA2AhwgACABNgIUIAAgEDYCDEEAIRAMpQELIAAoAgQhASAAQQA2AgQCQCAAIAEgFBCngICAACIBDQAgFCEBDD8LIABB0gA2AhwgACAUNgIUIAAgATYCDEEAIRAMpAELIAAoAgQhASAAQQA2AgQCQCAAIAEgFBCngICAACIBDQAgFCEBDD8LIABB0wA2AhwgACAUNgIUIAAgATYCDEEAIRAMowELIAAoAgQhASAAQQA2AgQCQCAAIAEgFBCngICAACIBDQAgFCEBDEMLIABB5QA2AhwgACAU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YWdlX2JlZ2luYCBjYWxsYmFjayBlcnJvcgBgb25fY2h1bmtfZXh0ZW5zaW9uX3ZhbHVlYCBjYWxsYmFjayBlcnJvcgBgb25fc3RhdHVzX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fdmVyc2lvbl9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX3VybF9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX2NodW5rX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25faGVhZGVyX3ZhbHVlX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fbWVzc2FnZV9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX21ldGhvZF9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX2hlYWRlcl9maWVsZF9jb21wbGV0ZWAgY2FsbGJhY2sgZXJyb3IAYG9uX2NodW5rX2V4dGVuc2lvbl9uYW1lYCBjYWxsYmFjayBlcnJvcgBVbmV4cGVjdGVkIGNoYXIgaW4gdXJsIHNlcnZlcgBJbnZhbGlkIGhlYWRlciB2YWx1ZSBjaGFyAEludmFsaWQgaGVhZGVyIGZpZWxkIGNoYXIAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl92ZXJzaW9uAEludmFsaWQgbWlub3IgdmVyc2lvbgBJbnZhbGlkIG1ham9yIHZlcnNpb24ARXhwZWN0ZWQgc3BhY2UgYWZ0ZXIgdmVyc2lvbgBFeHBlY3RlZCBDUkxGIGFmdGVyIHZlcnNpb24ASW52YWxpZCBIVFRQIHZlcnNpb24ASW52YWxpZCBoZWFkZXIgdG9rZW4AU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl91cmwASW52YWxpZCBjaGFyYWN0ZXJzIGluIHVybABVbmV4cGVjdGVkIHN0YXJ0IGNoYXIgaW4gdXJsAERvdWJsZSBAIGluIHVybABFbXB0eSBDb250ZW50LUxlbmd0aABJbnZhbGlkIGNoYXJhY3RlciBpbiBDb250ZW50LUxlbmd0aABEdXBsaWNhdGUgQ29udGVudC1MZW5ndGgASW52YWxpZCBjaGFyIGluIHVybCBwYXRoAENvbnRlbnQtTGVuZ3RoIGNhbid0IGJlIHByZXNlbnQgd2l0aCBUcmFuc2Zlci1FbmNvZGluZwBJbnZhbGlkIGNoYXJhY3RlciBpbiBjaHVuayBzaXplAFNwYW4gY2FsbGJhY2sgZXJyb3IgaW4gb25faGVhZGVyX3ZhbHVlAFNwYW4gY2FsbGJhY2sgZXJyb3IgaW4gb25fY2h1bmtfZXh0ZW5zaW9uX3ZhbHVlAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIGV4dGVuc2lvbnMgdmFsdWUATWlzc2luZyBleHBlY3RlZCBMRiBhZnRlciBoZWFkZXIgdmFsdWUASW52YWxpZCBgVHJhbnNmZXItRW5jb2RpbmdgIGhlYWRlciB2YWx1ZQBJbnZhbGlkIGNoYXJhY3RlciBpbiBjaHVuayBleHRlbnNpb25zIHF1b3RlIHZhbHVlAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIGV4dGVuc2lvbnMgcXVvdGVkIHZhbHVlAFBhdXNlZCBieSBvbl9oZWFkZXJzX2NvbXBsZXRlAEludmFsaWQgRU9GIHN0YXRlAG9uX3Jlc2V0IHBhdXNlAG9uX2NodW5rX2hlYWRlciBwYXVzZQBvbl9tZXNzYWdlX2JlZ2luIHBhdXNlAG9uX2NodW5rX2V4dGVuc2lvbl92YWx1ZSBwYXVzZQBvbl9zdGF0dXNfY29tcGxldGUgcGF1c2UAb25fdmVyc2lvbl9jb21wbGV0ZSBwYXVzZQBvbl91cmxfY29tcGxldGUgcGF1c2UAb25fY2h1bmtfY29tcGxldGUgcGF1c2UAb25faGVhZGVyX3ZhbHVlX2NvbXBsZXRlIHBhdXNlAG9uX21lc3NhZ2VfY29tcGxldGUgcGF1c2UAb25fbWV0aG9kX2NvbXBsZXRlIHBhdXNlAG9uX2hlYWRlcl9maWVsZF9jb21wbGV0ZSBwYXVzZQBvbl9jaHVua19leHRlbnNpb25fbmFtZSBwYXVzZQBVbmV4cGVjdGVkIHNwYWNlIGFmdGVyIHN0YXJ0IGxpbmUAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9jaHVua19leHRlbnNpb25fbmFtZQBJbnZhbGlkIGNoYXJhY3RlciBpbiBjaHVuayBleHRlbnNpb25zIG5hbWUAUGF1c2Ugb24gQ09OTkVDVC9VcGdyYWRlAFBhdXNlIG9uIFBSSS9VcGdyYWRlAEV4cGVjdGVkIEhUVFAvMiBDb25uZWN0aW9uIFByZWZhY2UAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9tZXRob2QARXhwZWN0ZWQgc3BhY2UgYWZ0ZXIgbWV0aG9kAFNwYW4gY2FsbGJhY2sgZXJyb3IgaW4gb25faGVhZGVyX2ZpZWxkAFBhdXNlZABJbnZhbGlkIHdvcmQgZW5jb3VudGVyZWQASW52YWxpZCBtZXRob2QgZW5jb3VudGVyZWQAVW5leHBlY3RlZCBjaGFyIGluIHVybCBzY2hlbWEAUmVxdWVzdCBoYXMgaW52YWxpZCBgVHJhbnNmZXItRW5jb2RpbmdgAFNXSVRDSF9QUk9YWQBVU0VfUFJPWFkATUtBQ1RJVklUWQBVTlBST0NFU1NBQkxFX0VOVElUWQBDT1BZAE1PVkVEX1BFUk1BTkVOVExZAFRPT19FQVJMWQBOT1RJRlkARkFJTEVEX0RFUEVOREVOQ1kAQkFEX0dBVEVXQVkAUExBWQBQVVQAQ0hFQ0tPVVQAR0FURVdBWV9USU1FT1VUAFJFUVVFU1RfVElNRU9VVABORVRXT1JLX0NPTk5FQ1RfVElNRU9VVABDT05ORUNUSU9OX1RJTUVPVVQATE9HSU5fVElNRU9VVABORVRXT1JLX1JFQURfVElNRU9VVABQT1NUAE1JU0RJUkVDVEVEX1JFUVVFU1QAQ0xJRU5UX0NMT1NFRF9SRVFVRVNUAENMSUVOVF9DTE9TRURfTE9BRF9CQUxBTkNFRF9SRVFVRVNUAEJBRF9SRVFVRVNUAEhUVFBfUkVRVUVTVF9TRU5UX1RPX0hUVFBTX1BPUlQAUkVQT1JUAElNX0FfVEVBUE9UAFJFU0VUX0NPTlRFTlQATk9fQ09OVEVOVABQQVJUSUFMX0NPTlRFTlQASFBFX0lOVkFMSURfQ09OU1RBTlQASFBFX0NCX1JFU0VUAEdFVABIUEVfU1RSSUNUAENPTkZMSUNUAFRFTVBPUkFSWV9SRURJUkVDVABQRVJNQU5FTlRfUkVESVJFQ1QAQ09OTkVDVABNVUxUSV9TVEFUVVMASFBFX0lOVkFMSURfU1RBVFVTAFRPT19NQU5ZX1JFUVVFU1RTAEVBUkxZX0hJTlRTAFVOQVZBSUxBQkxFX0ZPUl9MRUdBTF9SRUFTT05TAE9QVElPTlMAU1dJVENISU5HX1BST1RPQ09MUwBWQVJJQU5UX0FMU09fTkVHT1RJQVRFUwBNVUxUSVBMRV9DSE9JQ0VTAElOVEVSTkFMX1NFUlZFUl9FUlJPUgBXRUJfU0VSVkVSX1VOS05PV05fRVJST1IAUkFJTEdVTl9FUlJPUgBJREVOVElUWV9QUk9WSURFUl9BVVRIRU5USUNBVElPTl9FUlJPUgBTU0xfQ0VSVElGSUNBVEVfRVJST1IASU5WQUxJRF9YX0ZPUldBUkRFRF9GT1IAU0VUX1BBUkFNRVRFUgBHRVRfUEFSQU1FVEVSAEhQRV9VU0VSAFNFRV9PVEhFUgBIUEVfQ0JfQ0hVTktfSEVBREVSAE1LQ0FMRU5EQVIAU0VUVVAAV0VCX1NFUlZFUl9JU19ET1dOAFRFQVJET1dOAEhQRV9DTE9TRURfQ09OTkVDVElPTgBIRVVSSVNUSUNfRVhQSVJBVElPTgBESVNDT05ORUNURURfT1BFUkFUSU9OAE5PTl9BVVRIT1JJVEFUSVZFX0lORk9STUFUSU9OAEhQRV9JTlZBTElEX1ZFUlNJT04ASFBFX0NCX01FU1NBR0VfQkVHSU4AU0lURV9JU19GUk9aRU4ASFBFX0lOVkFMSURfSEVBREVSX1RPS0VOAElOVkFMSURfVE9LRU4ARk9SQklEREVOAEVOSEFOQ0VfWU9VUl9DQUxNAEhQRV9JTlZBTElEX1VSTABCTE9DS0VEX0JZX1BBUkVOVEFMX0NPTlRST0wATUtDT0wAQUNMAEhQRV9JTlRFUk5BTABSRVFVRVNUX0hFQURFUl9GSUVMRFNfVE9PX0xBUkdFX1VOT0ZGSUNJQUwASFBFX09LAFVOTElOSwBVTkxPQ0sAUFJJAFJFVFJZX1dJVEgASFBFX0lOVkFMSURfQ09OVEVOVF9MRU5HVEgASFBFX1VORVhQRUNURURfQ09OVEVOVF9MRU5HVEgARkxVU0gAUFJPUFBBVENIAE0tU0VBUkNIAFVSSV9UT09fTE9ORwBQUk9DRVNTSU5HAE1JU0NFTExBTkVPVVNfUEVSU0lTVEVOVF9XQVJOSU5HAE1JU0NFTExBTkVPVVNfV0FSTklORwBIUEVfSU5WQUxJRF9UUkFOU0ZFUl9FTkNPRElORwBFeHBlY3RlZCBDUkxGAEhQRV9JTlZBTElEX0NIVU5LX1NJWkUATU9WRQBDT05USU5VRQBIUEVfQ0JfU1RBVFVTX0NPTVBMRVRFAEhQRV9DQl9IRUFERVJTX0NPTVBMRVRFAEhQRV9DQl9WRVJTSU9OX0NPTVBMRVRFAEhQRV9DQl9VUkxfQ09NUExFVEUASFBFX0NCX0NIVU5LX0NPTVBMRVRFAEhQRV9DQl9IRUFERVJfVkFMVUVfQ09NUExFVEUASFBFX0NCX0NIVU5LX0VYVEVOU0lPTl9WQUxVRV9DT01QTEVURQBIUEVfQ0JfQ0hVTktfRVhURU5TSU9OX05BTUVfQ09NUExFVEUASFBFX0NCX01FU1NBR0VfQ09NUExFVEUASFBFX0NCX01FVEhPRF9DT01QTEVURQBIUEVfQ0JfSEVBREVSX0ZJRUxEX0NPTVBMRVRFAERFTEVURQBIUEVfSU5WQUxJRF9FT0ZfU1RBVEUASU5WQUxJRF9TU0xfQ0VSVElGSUNBVEUAUEFVU0UATk9fUkVTUE9OU0UAVU5TVVBQT1JURURfTUVESUFfVFlQRQBHT05FAE5PVF9BQ0NFUFRBQkxFAFNFUlZJQ0VfVU5BVkFJTEFCTEUAUkFOR0VfTk9UX1NBVElTRklBQkxFAE9SSUdJTl9JU19VTlJFQUNIQUJMRQBSRVNQT05TRV9JU19TVEFMRQBQVVJHRQBNRVJHRQBSRVFVRVNUX0hFQURFUl9GSUVMRFNfVE9PX0xBUkdFAFJFUVVFU1RfSEVBREVSX1RPT19MQVJHRQBQQVlMT0FEX1RPT19MQVJHRQBJTlNVRkZJQ0lFTlRfU1RPUkFHRQBIUEVfUEFVU0VEX1VQR1JBREUASFBFX1BBVVNFRF9IMl9VUEdSQURFAFNPVVJDRQBBTk5PVU5DRQBUUkFDRQBIUEVfVU5FWFBFQ1RFRF9TUEFDRQBERVNDUklCRQBVTlNVQlNDUklCRQBSRUNPUkQASFBFX0lOVkFMSURfTUVUSE9EAE5PVF9GT1VORABQUk9QRklORABVTkJJTkQAUkVCSU5EAFVOQVVUSE9SSVpFRABNRVRIT0RfTk9UX0FMTE9XRUQASFRUUF9WRVJTSU9OX05PVF9TVVBQT1JURUQAQUxSRUFEWV9SRVBPUlRFRABBQ0NFUFRFRABOT1RfSU1QTEVNRU5URUQATE9PUF9ERVRFQ1RFRABIUEVfQ1JfRVhQRUNURUQASFBFX0xGX0VYUEVDVEVEAENSRUFURUQASU1fVVNFRABIUEVfUEFVU0VEAFRJTUVPVVRfT0NDVVJFRABQQVlNRU5UX1JFUVVJUkVEAFBSRUNPTkRJVElPTl9SRVFVSVJFRABQUk9YWV9BVVRIRU5USUNBVElPTl9SRVFVSVJFRABORVRXT1JLX0FVVEhFTlRJQ0FUSU9OX1JFUVVJUkVEAExFTkdUSF9SRVFVSVJFRABTU0xfQ0VSVElGSUNBVEVfUkVRVUlSRUQAVVBHUkFERV9SRVFVSVJFRABQQUdFX0VYUElSRUQAUFJFQ09ORElUSU9OX0ZBSUxFRABFWFBFQ1RBVElPTl9GQUlMRUQAUkVWQUxJREFUSU9OX0ZBSUxFRABTU0xfSEFORFNIQUtFX0ZBSUxFRABMT0NLRUQAVFJBTlNGT1JNQVRJT05fQVBQTElFRABOT1RfTU9ESUZJRUQATk9UX0VYVEVOREVEAEJBTkRXSURUSF9MSU1JVF9FWENFRURFRABTSVRFX0lTX09WRVJMT0FERUQASEVBRABFeHBlY3RlZCBIVFRQLwAAXhMAACYTAAAwEAAA8BcAAJ0TAAAVEgAAORcAAPASAAAKEAAAdRIAAK0SAACCEwAATxQAAH8QAACgFQAAIxQAAIkSAACLFAAATRUAANQRAADPFAAAEBgAAMkWAADcFgAAwREAAOAXAAC7FAAAdBQAAHwVAADlFAAACBcAAB8QAABlFQAAoxQAACgVAAACFQAAmRUAACwQAACLGQAATw8AANQOAABqEAAAzhAAAAIXAACJDgAAbhMAABwTAABmFAAAVhcAAMETAADNEwAAbBMAAGgXAABmFwAAXxcAACITAADODwAAaQ4AANgOAABjFgAAyxMAAKoOAAAoFwAAJhcAAMUTAABdFgAA6BEAAGcTAABlEwAA8hYAAHMTAAAdFwAA+RYAAPMRAADPDgAAzhUAAAwSAACzEQAApREAAGEQAAAyFwAAuxMAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIDAgICAgIAAAICAAICAAICAgICAgICAgIABAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAICAgICAAACAgACAgACAgICAgICAgICAAMABAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbG9zZWVlcC1hbGl2ZQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQIBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBY2h1bmtlZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAQEBAQEAAAEBAAEBAAEBAQEBAQEBAQEAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABlY3Rpb25lbnQtbGVuZ3Rob25yb3h5LWNvbm5lY3Rpb24AAAAAAAAAAAAAAAAAAAByYW5zZmVyLWVuY29kaW5ncGdyYWRlDQoNCg0KU00NCg0KVFRQL0NFL1RTUC8AAAAAAAAAAAAAAAABAgABAwAAAAAAAAAAAAAAAAAAAAAAAAQBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAQIAAQMAAAAAAAAAAAAAAAAAAAAAAAAEAQEFAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAMEAAAEBAQEBAQEBAQEBAUEBAQEBAQEBAQEBAQABAAGBwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEAAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAAAAAAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAAAAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOT1VOQ0VFQ0tPVVRORUNURVRFQ1JJQkVMVVNIRVRFQURTRUFSQ0hSR0VDVElWSVRZTEVOREFSVkVPVElGWVBUSU9OU0NIU0VBWVNUQVRDSEdFT1JESVJFQ1RPUlRSQ0hQQVJBTUVURVJVUkNFQlNDUklCRUFSRE9XTkFDRUlORE5LQ0tVQlNDUklCRUhUVFAvQURUUC8='
@@ -21026,7 +22378,7 @@ module.exports = 'AGFzbQEAAAABMAhgAX8Bf2ADf39/AX9gBH9/f38Bf2AAAGADf39/AGABfwBgAn
 
 /***/ }),
 
-/***/ 5627:
+/***/ 3434:
 /***/ ((module) => {
 
 module.exports = 'AGFzbQEAAAABMAhgAX8Bf2ADf39/AX9gBH9/f38Bf2AAAGADf39/AGABfwBgAn9/AGAGf39/f39/AALLAQgDZW52GHdhc21fb25faGVhZGVyc19jb21wbGV0ZQACA2VudhV3YXNtX29uX21lc3NhZ2VfYmVnaW4AAANlbnYLd2FzbV9vbl91cmwAAQNlbnYOd2FzbV9vbl9zdGF0dXMAAQNlbnYUd2FzbV9vbl9oZWFkZXJfZmllbGQAAQNlbnYUd2FzbV9vbl9oZWFkZXJfdmFsdWUAAQNlbnYMd2FzbV9vbl9ib2R5AAEDZW52GHdhc21fb25fbWVzc2FnZV9jb21wbGV0ZQAAA0ZFAwMEAAAFAAAAAAAABQEFAAUFBQAABgAAAAAGBgYGAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAAABAQcAAAUFAwABBAUBcAESEgUDAQACBggBfwFBgNQECwfRBSIGbWVtb3J5AgALX2luaXRpYWxpemUACRlfX2luZGlyZWN0X2Z1bmN0aW9uX3RhYmxlAQALbGxodHRwX2luaXQAChhsbGh0dHBfc2hvdWxkX2tlZXBfYWxpdmUAQQxsbGh0dHBfYWxsb2MADAZtYWxsb2MARgtsbGh0dHBfZnJlZQANBGZyZWUASA9sbGh0dHBfZ2V0X3R5cGUADhVsbGh0dHBfZ2V0X2h0dHBfbWFqb3IADxVsbGh0dHBfZ2V0X2h0dHBfbWlub3IAEBFsbGh0dHBfZ2V0X21ldGhvZAARFmxsaHR0cF9nZXRfc3RhdHVzX2NvZGUAEhJsbGh0dHBfZ2V0X3VwZ3JhZGUAEwxsbGh0dHBfcmVzZXQAFA5sbGh0dHBfZXhlY3V0ZQAVFGxsaHR0cF9zZXR0aW5nc19pbml0ABYNbGxodHRwX2ZpbmlzaAAXDGxsaHR0cF9wYXVzZQAYDWxsaHR0cF9yZXN1bWUAGRtsbGh0dHBfcmVzdW1lX2FmdGVyX3VwZ3JhZGUAGhBsbGh0dHBfZ2V0X2Vycm5vABsXbGxodHRwX2dldF9lcnJvcl9yZWFzb24AHBdsbGh0dHBfc2V0X2Vycm9yX3JlYXNvbgAdFGxsaHR0cF9nZXRfZXJyb3JfcG9zAB4RbGxodHRwX2Vycm5vX25hbWUAHxJsbGh0dHBfbWV0aG9kX25hbWUAIBJs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IAH9CwMAIABBMGogAf0LAwAgAEEgaiAB/QsDACAAQd0BNgIcQQALewEBfwJAIAAoAgwiAw0AAkAgACgCBEUNACAAIAE2AgQLAkAgACABIAIQxICAgAAiAw0AIAAoAgwPCyAAIAM2AhxBACEDIAAoAgQiAUUNACAAIAEgAiAAKAIIEYGAgIAAACIBRQ0AIAAgAjYCFCAAIAE2AgwgASEDCyADC+TzAQMOfwN+BH8jgICAgABBEGsiAySAgICAACABIQQgASEFIAEhBiABIQcgASEIIAEhCSABIQogASELIAEhDCABIQ0gASEOIAEhDwJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQCAAKAIcIhBBf2oO3QHaAQHZAQIDBAUGBwgJCgsMDQ7YAQ8Q1wEREtYBExQVFhcYGRob4AHfARwdHtUBHyAhIiMkJdQBJicoKSorLNMB0gEtLtEB0AEvMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUbbAUdISUrPAc4BS80BTMwBTU5PUFFSU1RVVldYWVpbXF1eX2BhYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ent8fX5/gAGBAYIBgwGEAYUBhgGHAYgBiQGKAYsBjAGNAY4BjwGQAZEB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QAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAAkACQAJAIBAOxwEAAQID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YWNrIGVycm9yAGBvbl9jaHVua19leHRlbnNpb25fdmFsdWVgIGNhbGxiYWNrIGVycm9yAGBvbl9zdGF0dXNfY29tcGxldGVgIGNhbGxiYWNrIGVycm9yAGBvbl92ZXJzaW9uX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fdXJsX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fY2h1bmtfY29tcGxldGVgIGNhbGxiYWNrIGVycm9yAGBvbl9oZWFkZXJfdmFsdWVfY29tcGxldGVgIGNhbGxiYWNrIGVycm9yAGBvbl9tZXNzYWdlX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fbWV0aG9kX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25faGVhZGVyX2ZpZWxkX2NvbXBsZXRlYCBjYWxsYmFjayBlcnJvcgBgb25fY2h1bmtfZXh0ZW5zaW9uX25hbWVgIGNhbGxiYWNrIGVycm9yAFVuZXhwZWN0ZWQgY2hhciBpbiB1cmwgc2VydmVyAEludmFsaWQgaGVhZGVyIHZhbHVlIGNoYXIASW52YWxpZCBoZWFkZXIgZmllbGQgY2hhcgBTcGFuIGNhbGxiYWNrIGVycm9yIGluIG9uX3ZlcnNpb24ASW52YWxpZCBtaW5vciB2ZXJzaW9uAEludmFsaWQgbWFqb3IgdmVyc2lvbgBFeHBlY3RlZCBzcGFjZSBhZnRlciB2ZXJzaW9uAEV4cGVjdGVkIENSTEYgYWZ0ZXIgdmVyc2lvbgBJbnZhbGlkIEhUVFAgdmVyc2lvbgBJbnZhbGlkIGhlYWRlciB0b2tlbgBTcGFuIGNhbGxiYWNrIGVycm9yIGluIG9uX3VybABJbnZhbGlkIGNoYXJhY3RlcnMgaW4gdXJsAFVuZXhwZWN0ZWQgc3RhcnQgY2hhciBpbiB1cmwARG91YmxlIEAgaW4gdXJsAEVtcHR5IENvbnRlbnQtTGVuZ3RoAEludmFsaWQgY2hhcmFjdGVyIGluIENvbnRlbnQtTGVuZ3RoAER1cGxpY2F0ZSBDb250ZW50LUxlbmd0aABJbnZhbGlkIGNoYXIgaW4gdXJsIHBhdGgAQ29udGVudC1MZW5ndGggY2FuJ3QgYmUgcHJlc2VudCB3aXRoIFRyYW5zZmVyLUVuY29kaW5nAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIHNpemUAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9oZWFkZXJfdmFsdWUAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9jaHVua19leHRlbnNpb25fdmFsdWUASW52YWxpZCBjaGFyYWN0ZXIgaW4gY2h1bmsgZXh0ZW5zaW9ucyB2YWx1ZQBNaXNzaW5nIGV4cGVjdGVkIExGIGFmdGVyIGhlYWRlciB2YWx1ZQBJbnZhbGlkIGBUcmFuc2Zlci1FbmNvZGluZ2AgaGVhZGVyIHZhbHVlAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIGV4dGVuc2lvbnMgcXVvdGUgdmFsdWUASW52YWxpZCBjaGFyYWN0ZXIgaW4gY2h1bmsgZXh0ZW5zaW9ucyBxdW90ZWQgdmFsdWUAUGF1c2VkIGJ5IG9uX2hlYWRlcnNfY29tcGxldGUASW52YWxpZCBFT0Ygc3RhdGUAb25fcmVzZXQgcGF1c2UAb25fY2h1bmtfaGVhZGVyIHBhdXNlAG9uX21lc3NhZ2VfYmVnaW4gcGF1c2UAb25fY2h1bmtfZXh0ZW5zaW9uX3ZhbHVlIHBhdXNlAG9uX3N0YXR1c19jb21wbGV0ZSBwYXVzZQBvbl92ZXJzaW9uX2NvbXBsZXRlIHBhdXNlAG9uX3VybF9jb21wbGV0ZSBwYXVzZQBvbl9jaHVua19jb21wbGV0ZSBwYXVzZQBvbl9oZWFkZXJfdmFsdWVfY29tcGxldGUgcGF1c2UAb25fbWVzc2FnZV9jb21wbGV0ZSBwYXVzZQBvbl9tZXRob2RfY29tcGxldGUgcGF1c2UAb25faGVhZGVyX2ZpZWxkX2NvbXBsZXRlIHBhdXNlAG9uX2NodW5rX2V4dGVuc2lvbl9uYW1lIHBhdXNlAFVuZXhwZWN0ZWQgc3BhY2UgYWZ0ZXIgc3RhcnQgbGluZQBTcGFuIGNhbGxiYWNrIGVycm9yIGluIG9uX2NodW5rX2V4dGVuc2lvbl9uYW1lAEludmFsaWQgY2hhcmFjdGVyIGluIGNodW5rIGV4dGVuc2lvbnMgbmFtZQBQYXVzZSBvbiBDT05ORUNUL1VwZ3JhZGUAUGF1c2Ugb24gUFJJL1VwZ3JhZGUARXhwZWN0ZWQgSFRUUC8yIENvbm5lY3Rpb24gUHJlZmFjZQBTcGFuIGNhbGxiYWNrIGVycm9yIGluIG9uX21ldGhvZABFeHBlY3RlZCBzcGFjZSBhZnRlciBtZXRob2QAU3BhbiBjYWxsYmFjayBlcnJvciBpbiBvbl9oZWFkZXJfZmllbGQAUGF1c2VkAEludmFsaWQgd29yZCBlbmNvdW50ZXJlZABJbnZhbGlkIG1ldGhvZCBlbmNvdW50ZXJlZABVbmV4cGVjdGVkIGNoYXIgaW4gdXJsIHNjaGVtYQBSZXF1ZXN0IGhhcyBpbnZhbGlkIGBUcmFuc2Zlci1FbmNvZGluZ2AAU1dJVENIX1BST1hZAFVTRV9QUk9YWQBNS0FDVElWSVRZAFVOUFJPQ0VTU0FCTEVfRU5USVRZAENPUFkATU9WRURfUEVSTUFORU5UTFkAVE9PX0VBUkxZAE5PVElGWQBGQUlMRURfREVQRU5ERU5DWQBCQURfR0FURVdBWQBQTEFZAFBVVABDSEVDS09VVABHQVRFV0FZX1RJTUVPVVQAUkVRVUVTVF9USU1FT1VUAE5FVFdPUktfQ09OTkVDVF9USU1FT1VUAENPTk5FQ1RJT05fVElNRU9VVABMT0dJTl9USU1FT1VUAE5FVFdPUktfUkVBRF9USU1FT1VUAFBPU1QATUlTRElSRUNURURfUkVRVUVTVABDTElFTlRfQ0xPU0VEX1JFUVVFU1QAQ0xJRU5UX0NMT1NFRF9MT0FEX0JBTEFOQ0VEX1JFUVVFU1QAQkFEX1JFUVVFU1QASFRUUF9SRVFVRVNUX1NFTlRfVE9fSFRUUFNfUE9SVABSRVBPUlQASU1fQV9URUFQT1QAUkVTRVRfQ09OVEVOVABOT19DT05URU5UAFBBUlRJQUxfQ09OVEVOVABIUEVfSU5WQUxJRF9DT05TVEFOVABIUEVfQ0JfUkVTRVQAR0VUAEhQRV9TVFJJQ1QAQ09ORkxJQ1QAVEVNUE9SQVJZX1JFRElSRUNUAFBFUk1BTkVOVF9SRURJUkVDVABDT05ORUNUAE1VTFRJX1NUQVRVUwBIUEVfSU5WQUxJRF9TVEFUVVMAVE9PX01BTllfUkVRVUVTVFMARUFSTFlfSElOVFMAVU5BVkFJTEFCTEVfRk9SX0xFR0FMX1JFQVNPTlMAT1BUSU9OUwBTV0lUQ0hJTkdfUFJPVE9DT0xTAFZBUklBTlRfQUxTT19ORUdPVElBVEVTAE1VTFRJUExFX0NIT0lDRVMASU5URVJOQUxfU0VSVkVSX0VSUk9SAFdFQl9TRVJWRVJfVU5LTk9XTl9FUlJPUgBSQUlMR1VOX0VSUk9SAElERU5USVRZX1BST1ZJREVSX0FVVEhFTlRJQ0FUSU9OX0VSUk9SAFNTTF9DRVJUSUZJQ0FURV9FUlJPUgBJTlZBTElEX1hfRk9SV0FSREVEX0ZPUgBTRVRfUEFSQU1FVEVSAEdFVF9QQVJBTUVURVIASFBFX1VTRVIAU0VFX09USEVSAEhQRV9DQl9DSFVOS19IRUFERVIATUtDQUxFTkRBUgBTRVRVUABXRUJfU0VSVkVSX0lTX0RPV04AVEVBUkRPV04ASFBFX0NMT1NFRF9DT05ORUNUSU9OAEhFVVJJU1RJQ19FWFBJUkFUSU9OAERJU0NPTk5FQ1RFRF9PUEVSQVRJT04ATk9OX0FVVEhPUklUQVRJVkVfSU5GT1JNQVRJT04ASFBFX0lOVkFMSURfVkVSU0lPTgBIUEVfQ0JfTUVTU0FHRV9CRUdJTgBTSVRFX0lTX0ZST1pFTgBIUEVfSU5WQUxJRF9IRUFERVJfVE9LRU4ASU5WQUxJRF9UT0tFTgBGT1JCSURERU4ARU5IQU5DRV9ZT1VSX0NBTE0ASFBFX0lOVkFMSURfVVJMAEJMT0NLRURfQllfUEFSRU5UQUxfQ09OVFJPTABNS0NPTABBQ0wASFBFX0lOVEVSTkFMAFJFUVVFU1RfSEVBREVSX0ZJRUxEU19UT09fTEFSR0VfVU5PRkZJQ0lBTABIUEVfT0sAVU5MSU5LAFVOTE9DSwBQUkkAUkVUUllfV0lUSABIUEVfSU5WQUxJRF9DT05URU5UX0xFTkdUSABIUEVfVU5FWFBFQ1RFRF9DT05URU5UX0xFTkdUSABGTFVTSABQUk9QUEFUQ0gATS1TRUFSQ0gAVVJJX1RPT19MT05HAFBST0NFU1NJTkcATUlTQ0VMTEFORU9VU19QRVJTSVNURU5UX1dBUk5JTkcATUlTQ0VMTEFORU9VU19XQVJOSU5HAEhQRV9JTlZBTElEX1RSQU5TRkVSX0VOQ09ESU5HAEV4cGVjdGVkIENSTEYASFBFX0lOVkFMSURfQ0hVTktfU0laRQBNT1ZFAENPTlRJTlVFAEhQRV9DQl9TVEFUVVNfQ09NUExFVEUASFBFX0NCX0hFQURFUlNfQ09NUExFVEUASFBFX0NCX1ZFUlNJT05fQ09NUExFVEUASFBFX0NCX1VSTF9DT01QTEVURQBIUEVfQ0JfQ0hVTktfQ09NUExFVEUASFBFX0NCX0hFQURFUl9WQUxVRV9DT01QTEVURQBIUEVfQ0JfQ0hVTktfRVhURU5TSU9OX1ZBTFVFX0NPTVBMRVRFAEhQRV9DQl9DSFVOS19FWFRFTlNJT05fTkFNRV9DT01QTEVURQBIUEVfQ0JfTUVTU0FHRV9DT01QTEVURQBIUEVfQ0JfTUVUSE9EX0NPTVBMRVRFAEhQRV9DQl9IRUFERVJfRklFTERfQ09NUExFVEUAREVMRVRFAEhQRV9JTlZBTElEX0VPRl9TVEFURQBJTlZBTElEX1NTTF9DRVJUSUZJQ0FURQBQQVVTRQBOT19SRVNQT05TRQBVTlNVUFBPUlRFRF9NRURJQV9UWVBFAEdPTkUATk9UX0FDQ0VQVEFCTEUAU0VSVklDRV9VTkFWQUlMQUJMRQBSQU5HRV9OT1RfU0FUSVNGSUFCTEUAT1JJR0lOX0lTX1VOUkVBQ0hBQkxFAFJFU1BPTlNFX0lTX1NUQUxFAFBVUkdFAE1FUkdFAFJFUVVFU1RfSEVBREVSX0ZJRUxEU19UT09fTEFSR0UAUkVRVUVTVF9IRUFERVJfVE9PX0xBUkdFAFBBWUxPQURfVE9PX0xBUkdFAElOU1VGRklDSUVOVF9TVE9SQUdFAEhQRV9QQVVTRURfVVBHUkFERQBIUEVfUEFVU0VEX0gyX1VQR1JBREUAU09VUkNFAEFOTk9VTkNFAFRSQUNFAEhQRV9VTkVYUEVDVEVEX1NQQUNFAERFU0NSSUJFAFVOU1VCU0NSSUJFAFJFQ09SRABIUEVfSU5WQUxJRF9NRVRIT0QATk9UX0ZPVU5EAFBST1BGSU5EAFVOQklORABSRUJJTkQAVU5BVVRIT1JJWkVEAE1FVEhPRF9OT1RfQUxMT1dFRABIVFRQX1ZFUlNJT05fTk9UX1NVUFBPUlRFRABBTFJFQURZX1JFUE9SVEVEAEFDQ0VQVEVEAE5PVF9JTVBMRU1FTlRFRABMT09QX0RFVEVDVEVEAEhQRV9DUl9FWFBFQ1RFRABIUEVfTEZfRVhQRUNURUQAQ1JFQVRFRABJTV9VU0VEAEhQRV9QQVVTRUQAVElNRU9VVF9PQ0NVUkVEAFBBWU1FTlRfUkVRVUlSRUQAUFJFQ09ORElUSU9OX1JFUVVJUkVEAFBST1hZX0FVVEhFTlRJQ0FUSU9OX1JFUVVJUkVEAE5FVFdPUktfQVVUSEVOVElDQVRJT05fUkVRVUlSRUQATEVOR1RIX1JFUVVJUkVEAFNTTF9DRVJUSUZJQ0FURV9SRVFVSVJFRABVUEdSQURFX1JFUVVJUkVEAFBBR0VfRVhQSVJFRABQUkVDT05ESVRJT05fRkFJTEVEAEVYUEVDVEFUSU9OX0ZBSUxFRABSRVZBTElEQVRJT05fRkFJTEVEAFNTTF9IQU5EU0hBS0VfRkFJTEVEAExPQ0tFRABUUkFOU0ZPUk1BVElPTl9BUFBMSUVEAE5PVF9NT0RJRklFRABOT1RfRVhURU5ERUQAQkFORFdJRFRIX0xJTUlUX0VYQ0VFREVEAFNJVEVfSVNfT1ZFUkxPQURFRABIRUFEAEV4cGVjdGVkIEhUVFAvAABeEwAAJhMAADAQAADwFwAAnRMAABUSAAA5FwAA8BIAAAoQAAB1EgAArRIAAIITAABPFAAAfxAAAKAVAAAjFAAAiRIAAIsUAABNFQAA1BEAAM8UAAAQGAAAyRYAANwWAADBEQAA4BcAALsUAAB0FAAAfBUAAOUUAAAIFwAAHxAAAGUVAACjFAAAKBUAAAIVAACZFQAALBAAAIsZAABPDwAA1A4AAGoQAADOEAAAAhcAAIkOAABuEwAAHBMAAGYUAABWFwAAwRMAAM0TAABsEwAAaBcAAGYXAABfFwAAIhMAAM4PAABpDgAA2A4AAGMWAADLEwAAqg4AACgXAAAmFwAAxRMAAF0WAADoEQAAZxMAAGUTAADyFgAAcxMAAB0XAAD5FgAA8xEAAM8OAADOFQAADBIAALMRAAClEQAAYRAAADIXAAC7EwAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAgEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgMCAgICAgAAAgIAAgIAAgICAgICAgICAgAEAAAAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAgICAgIAAAICAAICAAICAgICAgICAgIAAwAEAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsb3NlZWVwLWFsaXZlAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAgEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQFjaHVua2VkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQABAQEBAQAAAQEAAQEAAQEBAQEBAQEBAQAAAAAAAAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVjdGlvbmVudC1sZW5ndGhvbnJveHktY29ubmVjdGlvbgAAAAAAAAAAAAAAAAAAAHJhbnNmZXItZW5jb2RpbmdwZ3JhZGUNCg0KDQpTTQ0KDQpUVFAvQ0UvVFNQLwAAAAAAAAAAAAAAAAECAAEDAAAAAAAAAAAAAAAAAAAAAAAABAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAABAgABAwAAAAAAAAAAAAAAAAAAAAAAAAQBAQUBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAwQAAAQEBAQEBAQEBAQEBQQEBAQEBAQEBAQEBAAEAAYHBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAQABAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAAAAAAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE5PVU5DRUVDS09VVE5FQ1RFVEVDUklCRUxVU0hFVEVBRFNFQVJDSFJHRUNUSVZJVFlMRU5EQVJWRU9USUZZUFRJT05TQ0hTRUFZU1RBVENIR0VPUkRJUkVDVE9SVFJDSFBBUkFNRVRFUlVSQ0VCU0NSSUJFQVJET1dOQUNFSU5ETktDS1VCU0NSSUJFSFRUUC9BRFRQLw=='
@@ -21034,7 +22386,7 @@ module.exports = 'AGFzbQEAAAABMAhgAX8Bf2ADf39/AX9gBH9/f38Bf2AAAGADf39/AGABfwBgAn
 
 /***/ }),
 
-/***/ 1891:
+/***/ 172:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -21056,14 +22408,14 @@ exports.enumToMap = enumToMap;
 
 /***/ }),
 
-/***/ 6771:
+/***/ 7501:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kClients } = __nccwpck_require__(2785)
-const Agent = __nccwpck_require__(7890)
+const { kClients } = __nccwpck_require__(6443)
+const Agent = __nccwpck_require__(9965)
 const {
   kAgent,
   kMockAgentSet,
@@ -21074,14 +22426,14 @@ const {
   kGetNetConnect,
   kOptions,
   kFactory
-} = __nccwpck_require__(4347)
-const MockClient = __nccwpck_require__(8687)
-const MockPool = __nccwpck_require__(6193)
-const { matchValue, buildMockOptions } = __nccwpck_require__(9323)
-const { InvalidArgumentError, UndiciError } = __nccwpck_require__(8045)
-const Dispatcher = __nccwpck_require__(412)
-const Pluralizer = __nccwpck_require__(8891)
-const PendingInterceptorsFormatter = __nccwpck_require__(6823)
+} = __nccwpck_require__(1117)
+const MockClient = __nccwpck_require__(7365)
+const MockPool = __nccwpck_require__(4004)
+const { matchValue, buildMockOptions } = __nccwpck_require__(3397)
+const { InvalidArgumentError, UndiciError } = __nccwpck_require__(8707)
+const Dispatcher = __nccwpck_require__(992)
+const Pluralizer = __nccwpck_require__(1529)
+const PendingInterceptorsFormatter = __nccwpck_require__(6142)
 
 class FakeWeakRef {
   constructor (value) {
@@ -21235,15 +22587,15 @@ module.exports = MockAgent
 
 /***/ }),
 
-/***/ 8687:
+/***/ 7365:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { promisify } = __nccwpck_require__(3837)
-const Client = __nccwpck_require__(3598)
-const { buildMockDispatch } = __nccwpck_require__(9323)
+const { promisify } = __nccwpck_require__(9023)
+const Client = __nccwpck_require__(6197)
+const { buildMockDispatch } = __nccwpck_require__(3397)
 const {
   kDispatches,
   kMockAgent,
@@ -21252,10 +22604,10 @@ const {
   kOrigin,
   kOriginalDispatch,
   kConnected
-} = __nccwpck_require__(4347)
-const { MockInterceptor } = __nccwpck_require__(410)
-const Symbols = __nccwpck_require__(2785)
-const { InvalidArgumentError } = __nccwpck_require__(8045)
+} = __nccwpck_require__(1117)
+const { MockInterceptor } = __nccwpck_require__(1511)
+const Symbols = __nccwpck_require__(6443)
+const { InvalidArgumentError } = __nccwpck_require__(8707)
 
 /**
  * MockClient provides an API that extends the Client to influence the mockDispatches.
@@ -21302,13 +22654,13 @@ module.exports = MockClient
 
 /***/ }),
 
-/***/ 888:
+/***/ 2429:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { UndiciError } = __nccwpck_require__(8045)
+const { UndiciError } = __nccwpck_require__(8707)
 
 class MockNotMatchedError extends UndiciError {
   constructor (message) {
@@ -21327,13 +22679,13 @@ module.exports = {
 
 /***/ }),
 
-/***/ 410:
+/***/ 1511:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { getResponseData, buildKey, addMockDispatch } = __nccwpck_require__(9323)
+const { getResponseData, buildKey, addMockDispatch } = __nccwpck_require__(3397)
 const {
   kDispatches,
   kDispatchKey,
@@ -21341,9 +22693,9 @@ const {
   kDefaultTrailers,
   kContentLength,
   kMockDispatch
-} = __nccwpck_require__(4347)
-const { InvalidArgumentError } = __nccwpck_require__(8045)
-const { buildURL } = __nccwpck_require__(3983)
+} = __nccwpck_require__(1117)
+const { InvalidArgumentError } = __nccwpck_require__(8707)
+const { buildURL } = __nccwpck_require__(3440)
 
 /**
  * Defines the scope API for an interceptor reply
@@ -21541,15 +22893,15 @@ module.exports.MockScope = MockScope
 
 /***/ }),
 
-/***/ 6193:
+/***/ 4004:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { promisify } = __nccwpck_require__(3837)
-const Pool = __nccwpck_require__(4634)
-const { buildMockDispatch } = __nccwpck_require__(9323)
+const { promisify } = __nccwpck_require__(9023)
+const Pool = __nccwpck_require__(5076)
+const { buildMockDispatch } = __nccwpck_require__(3397)
 const {
   kDispatches,
   kMockAgent,
@@ -21558,10 +22910,10 @@ const {
   kOrigin,
   kOriginalDispatch,
   kConnected
-} = __nccwpck_require__(4347)
-const { MockInterceptor } = __nccwpck_require__(410)
-const Symbols = __nccwpck_require__(2785)
-const { InvalidArgumentError } = __nccwpck_require__(8045)
+} = __nccwpck_require__(1117)
+const { MockInterceptor } = __nccwpck_require__(1511)
+const Symbols = __nccwpck_require__(6443)
+const { InvalidArgumentError } = __nccwpck_require__(8707)
 
 /**
  * MockPool provides an API that extends the Pool to influence the mockDispatches.
@@ -21608,7 +22960,7 @@ module.exports = MockPool
 
 /***/ }),
 
-/***/ 4347:
+/***/ 1117:
 /***/ ((module) => {
 
 "use strict";
@@ -21639,27 +22991,27 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9323:
+/***/ 3397:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { MockNotMatchedError } = __nccwpck_require__(888)
+const { MockNotMatchedError } = __nccwpck_require__(2429)
 const {
   kDispatches,
   kMockAgent,
   kOriginalDispatch,
   kOrigin,
   kGetNetConnect
-} = __nccwpck_require__(4347)
-const { buildURL, nop } = __nccwpck_require__(3983)
-const { STATUS_CODES } = __nccwpck_require__(3685)
+} = __nccwpck_require__(1117)
+const { buildURL, nop } = __nccwpck_require__(3440)
+const { STATUS_CODES } = __nccwpck_require__(8611)
 const {
   types: {
     isPromise
   }
-} = __nccwpck_require__(3837)
+} = __nccwpck_require__(9023)
 
 function matchValue (match, value) {
   if (typeof match === 'string') {
@@ -21998,14 +23350,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 6823:
+/***/ 6142:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { Transform } = __nccwpck_require__(2781)
-const { Console } = __nccwpck_require__(6206)
+const { Transform } = __nccwpck_require__(2203)
+const { Console } = __nccwpck_require__(4236)
 
 /**
  * Gets the output of `console.table(…)` as a string.
@@ -22046,7 +23398,7 @@ module.exports = class PendingInterceptorsFormatter {
 
 /***/ }),
 
-/***/ 8891:
+/***/ 1529:
 /***/ ((module) => {
 
 "use strict";
@@ -22083,7 +23435,7 @@ module.exports = class Pluralizer {
 
 /***/ }),
 
-/***/ 8266:
+/***/ 4869:
 /***/ ((module) => {
 
 "use strict";
@@ -22208,16 +23560,16 @@ module.exports = class FixedQueue {
 
 /***/ }),
 
-/***/ 3198:
+/***/ 8640:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const DispatcherBase = __nccwpck_require__(4839)
-const FixedQueue = __nccwpck_require__(8266)
-const { kConnected, kSize, kRunning, kPending, kQueued, kBusy, kFree, kUrl, kClose, kDestroy, kDispatch } = __nccwpck_require__(2785)
-const PoolStats = __nccwpck_require__(9689)
+const DispatcherBase = __nccwpck_require__(1)
+const FixedQueue = __nccwpck_require__(4869)
+const { kConnected, kSize, kRunning, kPending, kQueued, kBusy, kFree, kUrl, kClose, kDestroy, kDispatch } = __nccwpck_require__(6443)
+const PoolStats = __nccwpck_require__(4622)
 
 const kClients = Symbol('clients')
 const kNeedDrain = Symbol('needDrain')
@@ -22410,10 +23762,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9689:
+/***/ 4622:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const { kFree, kConnected, kPending, kQueued, kRunning, kSize } = __nccwpck_require__(2785)
+const { kFree, kConnected, kPending, kQueued, kRunning, kSize } = __nccwpck_require__(6443)
 const kPool = Symbol('pool')
 
 class PoolStats {
@@ -22451,7 +23803,7 @@ module.exports = PoolStats
 
 /***/ }),
 
-/***/ 4634:
+/***/ 5076:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -22463,14 +23815,14 @@ const {
   kNeedDrain,
   kAddClient,
   kGetDispatcher
-} = __nccwpck_require__(3198)
-const Client = __nccwpck_require__(3598)
+} = __nccwpck_require__(8640)
+const Client = __nccwpck_require__(6197)
 const {
   InvalidArgumentError
-} = __nccwpck_require__(8045)
-const util = __nccwpck_require__(3983)
-const { kUrl, kInterceptors } = __nccwpck_require__(2785)
-const buildConnector = __nccwpck_require__(2067)
+} = __nccwpck_require__(8707)
+const util = __nccwpck_require__(3440)
+const { kUrl, kInterceptors } = __nccwpck_require__(6443)
+const buildConnector = __nccwpck_require__(9136)
 
 const kOptions = Symbol('options')
 const kConnections = Symbol('connections')
@@ -22553,19 +23905,19 @@ module.exports = Pool
 
 /***/ }),
 
-/***/ 7858:
+/***/ 2720:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kProxy, kClose, kDestroy, kInterceptors } = __nccwpck_require__(2785)
-const { URL } = __nccwpck_require__(7310)
-const Agent = __nccwpck_require__(7890)
-const Pool = __nccwpck_require__(4634)
-const DispatcherBase = __nccwpck_require__(4839)
-const { InvalidArgumentError, RequestAbortedError } = __nccwpck_require__(8045)
-const buildConnector = __nccwpck_require__(2067)
+const { kProxy, kClose, kDestroy, kInterceptors } = __nccwpck_require__(6443)
+const { URL } = __nccwpck_require__(7016)
+const Agent = __nccwpck_require__(9965)
+const Pool = __nccwpck_require__(5076)
+const DispatcherBase = __nccwpck_require__(1)
+const { InvalidArgumentError, RequestAbortedError } = __nccwpck_require__(8707)
+const buildConnector = __nccwpck_require__(9136)
 
 const kAgent = Symbol('proxy agent')
 const kClient = Symbol('proxy client')
@@ -22750,7 +24102,7 @@ module.exports = ProxyAgent
 
 /***/ }),
 
-/***/ 9459:
+/***/ 8804:
 /***/ ((module) => {
 
 "use strict";
@@ -22855,27 +24207,27 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5354:
+/***/ 8550:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const diagnosticsChannel = __nccwpck_require__(7643)
-const { uid, states } = __nccwpck_require__(9188)
+const diagnosticsChannel = __nccwpck_require__(1637)
+const { uid, states } = __nccwpck_require__(5913)
 const {
   kReadyState,
   kSentClose,
   kByteParser,
   kReceivedClose
-} = __nccwpck_require__(7578)
-const { fireEvent, failWebsocketConnection } = __nccwpck_require__(5515)
-const { CloseEvent } = __nccwpck_require__(2611)
-const { makeRequest } = __nccwpck_require__(8359)
-const { fetching } = __nccwpck_require__(4881)
-const { Headers } = __nccwpck_require__(554)
-const { getGlobalDispatcher } = __nccwpck_require__(1892)
-const { kHeadersList } = __nccwpck_require__(2785)
+} = __nccwpck_require__(2933)
+const { fireEvent, failWebsocketConnection } = __nccwpck_require__(3574)
+const { CloseEvent } = __nccwpck_require__(6255)
+const { makeRequest } = __nccwpck_require__(5194)
+const { fetching } = __nccwpck_require__(2315)
+const { Headers } = __nccwpck_require__(6349)
+const { getGlobalDispatcher } = __nccwpck_require__(2581)
+const { kHeadersList } = __nccwpck_require__(6443)
 
 const channels = {}
 channels.open = diagnosticsChannel.channel('undici:websocket:open')
@@ -22885,7 +24237,7 @@ channels.socketError = diagnosticsChannel.channel('undici:websocket:socket_error
 /** @type {import('crypto')} */
 let crypto
 try {
-  crypto = __nccwpck_require__(6113)
+  crypto = __nccwpck_require__(6982)
 } catch {
 
 }
@@ -23154,7 +24506,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 9188:
+/***/ 5913:
 /***/ ((module) => {
 
 "use strict";
@@ -23213,15 +24565,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2611:
+/***/ 6255:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { webidl } = __nccwpck_require__(1744)
-const { kEnumerableProperty } = __nccwpck_require__(3983)
-const { MessagePort } = __nccwpck_require__(1267)
+const { webidl } = __nccwpck_require__(4222)
+const { kEnumerableProperty } = __nccwpck_require__(3440)
+const { MessagePort } = __nccwpck_require__(8167)
 
 /**
  * @see https://html.spec.whatwg.org/multipage/comms.html#messageevent
@@ -23524,18 +24876,18 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5444:
+/***/ 1237:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { maxUnsigned16Bit } = __nccwpck_require__(9188)
+const { maxUnsigned16Bit } = __nccwpck_require__(5913)
 
 /** @type {import('crypto')} */
 let crypto
 try {
-  crypto = __nccwpck_require__(6113)
+  crypto = __nccwpck_require__(6982)
 } catch {
 
 }
@@ -23605,18 +24957,18 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1688:
+/***/ 3171:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { Writable } = __nccwpck_require__(2781)
-const diagnosticsChannel = __nccwpck_require__(7643)
-const { parserStates, opcodes, states, emptyBuffer } = __nccwpck_require__(9188)
-const { kReadyState, kSentClose, kResponse, kReceivedClose } = __nccwpck_require__(7578)
-const { isValidStatusCode, failWebsocketConnection, websocketMessageReceived } = __nccwpck_require__(5515)
-const { WebsocketFrameSend } = __nccwpck_require__(5444)
+const { Writable } = __nccwpck_require__(2203)
+const diagnosticsChannel = __nccwpck_require__(1637)
+const { parserStates, opcodes, states, emptyBuffer } = __nccwpck_require__(5913)
+const { kReadyState, kSentClose, kResponse, kReceivedClose } = __nccwpck_require__(2933)
+const { isValidStatusCode, failWebsocketConnection, websocketMessageReceived } = __nccwpck_require__(3574)
+const { WebsocketFrameSend } = __nccwpck_require__(1237)
 
 // This code was influenced by ws released under the MIT license.
 // Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
@@ -23957,7 +25309,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7578:
+/***/ 2933:
 /***/ ((module) => {
 
 "use strict";
@@ -23977,15 +25329,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5515:
+/***/ 3574:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { kReadyState, kController, kResponse, kBinaryType, kWebSocketURL } = __nccwpck_require__(7578)
-const { states, opcodes } = __nccwpck_require__(9188)
-const { MessageEvent, ErrorEvent } = __nccwpck_require__(2611)
+const { kReadyState, kController, kResponse, kBinaryType, kWebSocketURL } = __nccwpck_require__(2933)
+const { states, opcodes } = __nccwpck_require__(5913)
+const { MessageEvent, ErrorEvent } = __nccwpck_require__(6255)
 
 /* globals Blob */
 
@@ -24185,17 +25537,17 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4284:
+/***/ 5171:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const { webidl } = __nccwpck_require__(1744)
-const { DOMException } = __nccwpck_require__(1037)
-const { URLSerializer } = __nccwpck_require__(685)
-const { getGlobalOrigin } = __nccwpck_require__(1246)
-const { staticPropertyDescriptors, states, opcodes, emptyBuffer } = __nccwpck_require__(9188)
+const { webidl } = __nccwpck_require__(4222)
+const { DOMException } = __nccwpck_require__(7326)
+const { URLSerializer } = __nccwpck_require__(4322)
+const { getGlobalOrigin } = __nccwpck_require__(5628)
+const { staticPropertyDescriptors, states, opcodes, emptyBuffer } = __nccwpck_require__(5913)
 const {
   kWebSocketURL,
   kReadyState,
@@ -24204,14 +25556,14 @@ const {
   kResponse,
   kSentClose,
   kByteParser
-} = __nccwpck_require__(7578)
-const { isEstablished, isClosing, isValidSubprotocol, failWebsocketConnection, fireEvent } = __nccwpck_require__(5515)
-const { establishWebSocketConnection } = __nccwpck_require__(5354)
-const { WebsocketFrameSend } = __nccwpck_require__(5444)
-const { ByteParser } = __nccwpck_require__(1688)
-const { kEnumerableProperty, isBlobLike } = __nccwpck_require__(3983)
-const { getGlobalDispatcher } = __nccwpck_require__(1892)
-const { types } = __nccwpck_require__(3837)
+} = __nccwpck_require__(2933)
+const { isEstablished, isClosing, isValidSubprotocol, failWebsocketConnection, fireEvent } = __nccwpck_require__(3574)
+const { establishWebSocketConnection } = __nccwpck_require__(8550)
+const { WebsocketFrameSend } = __nccwpck_require__(1237)
+const { ByteParser } = __nccwpck_require__(3171)
+const { kEnumerableProperty, isBlobLike } = __nccwpck_require__(3440)
+const { getGlobalDispatcher } = __nccwpck_require__(2581)
+const { types } = __nccwpck_require__(9023)
 
 let experimentalWarned = false
 
@@ -24834,653 +26186,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5840:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-Object.defineProperty(exports, "v1", ({
-  enumerable: true,
-  get: function () {
-    return _v.default;
-  }
-}));
-Object.defineProperty(exports, "v3", ({
-  enumerable: true,
-  get: function () {
-    return _v2.default;
-  }
-}));
-Object.defineProperty(exports, "v4", ({
-  enumerable: true,
-  get: function () {
-    return _v3.default;
-  }
-}));
-Object.defineProperty(exports, "v5", ({
-  enumerable: true,
-  get: function () {
-    return _v4.default;
-  }
-}));
-Object.defineProperty(exports, "NIL", ({
-  enumerable: true,
-  get: function () {
-    return _nil.default;
-  }
-}));
-Object.defineProperty(exports, "version", ({
-  enumerable: true,
-  get: function () {
-    return _version.default;
-  }
-}));
-Object.defineProperty(exports, "validate", ({
-  enumerable: true,
-  get: function () {
-    return _validate.default;
-  }
-}));
-Object.defineProperty(exports, "stringify", ({
-  enumerable: true,
-  get: function () {
-    return _stringify.default;
-  }
-}));
-Object.defineProperty(exports, "parse", ({
-  enumerable: true,
-  get: function () {
-    return _parse.default;
-  }
-}));
-
-var _v = _interopRequireDefault(__nccwpck_require__(8628));
-
-var _v2 = _interopRequireDefault(__nccwpck_require__(6409));
-
-var _v3 = _interopRequireDefault(__nccwpck_require__(5122));
-
-var _v4 = _interopRequireDefault(__nccwpck_require__(9120));
-
-var _nil = _interopRequireDefault(__nccwpck_require__(5332));
-
-var _version = _interopRequireDefault(__nccwpck_require__(1595));
-
-var _validate = _interopRequireDefault(__nccwpck_require__(6900));
-
-var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
-
-var _parse = _interopRequireDefault(__nccwpck_require__(2746));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/***/ }),
-
-/***/ 4569:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _crypto = _interopRequireDefault(__nccwpck_require__(6113));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function md5(bytes) {
-  if (Array.isArray(bytes)) {
-    bytes = Buffer.from(bytes);
-  } else if (typeof bytes === 'string') {
-    bytes = Buffer.from(bytes, 'utf8');
-  }
-
-  return _crypto.default.createHash('md5').update(bytes).digest();
-}
-
-var _default = md5;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 5332:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-var _default = '00000000-0000-0000-0000-000000000000';
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 2746:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _validate = _interopRequireDefault(__nccwpck_require__(6900));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function parse(uuid) {
-  if (!(0, _validate.default)(uuid)) {
-    throw TypeError('Invalid UUID');
-  }
-
-  let v;
-  const arr = new Uint8Array(16); // Parse ########-....-....-....-............
-
-  arr[0] = (v = parseInt(uuid.slice(0, 8), 16)) >>> 24;
-  arr[1] = v >>> 16 & 0xff;
-  arr[2] = v >>> 8 & 0xff;
-  arr[3] = v & 0xff; // Parse ........-####-....-....-............
-
-  arr[4] = (v = parseInt(uuid.slice(9, 13), 16)) >>> 8;
-  arr[5] = v & 0xff; // Parse ........-....-####-....-............
-
-  arr[6] = (v = parseInt(uuid.slice(14, 18), 16)) >>> 8;
-  arr[7] = v & 0xff; // Parse ........-....-....-####-............
-
-  arr[8] = (v = parseInt(uuid.slice(19, 23), 16)) >>> 8;
-  arr[9] = v & 0xff; // Parse ........-....-....-....-############
-  // (Use "/" to avoid 32-bit truncation when bit-shifting high-order bytes)
-
-  arr[10] = (v = parseInt(uuid.slice(24, 36), 16)) / 0x10000000000 & 0xff;
-  arr[11] = v / 0x100000000 & 0xff;
-  arr[12] = v >>> 24 & 0xff;
-  arr[13] = v >>> 16 & 0xff;
-  arr[14] = v >>> 8 & 0xff;
-  arr[15] = v & 0xff;
-  return arr;
-}
-
-var _default = parse;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 814:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-var _default = /^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 807:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = rng;
-
-var _crypto = _interopRequireDefault(__nccwpck_require__(6113));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-const rnds8Pool = new Uint8Array(256); // # of random values to pre-allocate
-
-let poolPtr = rnds8Pool.length;
-
-function rng() {
-  if (poolPtr > rnds8Pool.length - 16) {
-    _crypto.default.randomFillSync(rnds8Pool);
-
-    poolPtr = 0;
-  }
-
-  return rnds8Pool.slice(poolPtr, poolPtr += 16);
-}
-
-/***/ }),
-
-/***/ 5274:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _crypto = _interopRequireDefault(__nccwpck_require__(6113));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function sha1(bytes) {
-  if (Array.isArray(bytes)) {
-    bytes = Buffer.from(bytes);
-  } else if (typeof bytes === 'string') {
-    bytes = Buffer.from(bytes, 'utf8');
-  }
-
-  return _crypto.default.createHash('sha1').update(bytes).digest();
-}
-
-var _default = sha1;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 8950:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _validate = _interopRequireDefault(__nccwpck_require__(6900));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * Convert array of 16 byte values to UUID string format of the form:
- * XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
- */
-const byteToHex = [];
-
-for (let i = 0; i < 256; ++i) {
-  byteToHex.push((i + 0x100).toString(16).substr(1));
-}
-
-function stringify(arr, offset = 0) {
-  // Note: Be careful editing this code!  It's been tuned for performance
-  // and works in ways you may not expect. See https://github.com/uuidjs/uuid/pull/434
-  const uuid = (byteToHex[arr[offset + 0]] + byteToHex[arr[offset + 1]] + byteToHex[arr[offset + 2]] + byteToHex[arr[offset + 3]] + '-' + byteToHex[arr[offset + 4]] + byteToHex[arr[offset + 5]] + '-' + byteToHex[arr[offset + 6]] + byteToHex[arr[offset + 7]] + '-' + byteToHex[arr[offset + 8]] + byteToHex[arr[offset + 9]] + '-' + byteToHex[arr[offset + 10]] + byteToHex[arr[offset + 11]] + byteToHex[arr[offset + 12]] + byteToHex[arr[offset + 13]] + byteToHex[arr[offset + 14]] + byteToHex[arr[offset + 15]]).toLowerCase(); // Consistency check for valid UUID.  If this throws, it's likely due to one
-  // of the following:
-  // - One or more input array values don't map to a hex octet (leading to
-  // "undefined" in the uuid)
-  // - Invalid input values for the RFC `version` or `variant` fields
-
-  if (!(0, _validate.default)(uuid)) {
-    throw TypeError('Stringified UUID is invalid');
-  }
-
-  return uuid;
-}
-
-var _default = stringify;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 8628:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _rng = _interopRequireDefault(__nccwpck_require__(807));
-
-var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// **`v1()` - Generate time-based UUID**
-//
-// Inspired by https://github.com/LiosK/UUID.js
-// and http://docs.python.org/library/uuid.html
-let _nodeId;
-
-let _clockseq; // Previous uuid creation time
-
-
-let _lastMSecs = 0;
-let _lastNSecs = 0; // See https://github.com/uuidjs/uuid for API details
-
-function v1(options, buf, offset) {
-  let i = buf && offset || 0;
-  const b = buf || new Array(16);
-  options = options || {};
-  let node = options.node || _nodeId;
-  let clockseq = options.clockseq !== undefined ? options.clockseq : _clockseq; // node and clockseq need to be initialized to random values if they're not
-  // specified.  We do this lazily to minimize issues related to insufficient
-  // system entropy.  See #189
-
-  if (node == null || clockseq == null) {
-    const seedBytes = options.random || (options.rng || _rng.default)();
-
-    if (node == null) {
-      // Per 4.5, create and 48-bit node id, (47 random bits + multicast bit = 1)
-      node = _nodeId = [seedBytes[0] | 0x01, seedBytes[1], seedBytes[2], seedBytes[3], seedBytes[4], seedBytes[5]];
-    }
-
-    if (clockseq == null) {
-      // Per 4.2.2, randomize (14 bit) clockseq
-      clockseq = _clockseq = (seedBytes[6] << 8 | seedBytes[7]) & 0x3fff;
-    }
-  } // UUID timestamps are 100 nano-second units since the Gregorian epoch,
-  // (1582-10-15 00:00).  JSNumbers aren't precise enough for this, so
-  // time is handled internally as 'msecs' (integer milliseconds) and 'nsecs'
-  // (100-nanoseconds offset from msecs) since unix epoch, 1970-01-01 00:00.
-
-
-  let msecs = options.msecs !== undefined ? options.msecs : Date.now(); // Per 4.2.1.2, use count of uuid's generated during the current clock
-  // cycle to simulate higher resolution clock
-
-  let nsecs = options.nsecs !== undefined ? options.nsecs : _lastNSecs + 1; // Time since last uuid creation (in msecs)
-
-  const dt = msecs - _lastMSecs + (nsecs - _lastNSecs) / 10000; // Per 4.2.1.2, Bump clockseq on clock regression
-
-  if (dt < 0 && options.clockseq === undefined) {
-    clockseq = clockseq + 1 & 0x3fff;
-  } // Reset nsecs if clock regresses (new clockseq) or we've moved onto a new
-  // time interval
-
-
-  if ((dt < 0 || msecs > _lastMSecs) && options.nsecs === undefined) {
-    nsecs = 0;
-  } // Per 4.2.1.2 Throw error if too many uuids are requested
-
-
-  if (nsecs >= 10000) {
-    throw new Error("uuid.v1(): Can't create more than 10M uuids/sec");
-  }
-
-  _lastMSecs = msecs;
-  _lastNSecs = nsecs;
-  _clockseq = clockseq; // Per 4.1.4 - Convert from unix epoch to Gregorian epoch
-
-  msecs += 12219292800000; // `time_low`
-
-  const tl = ((msecs & 0xfffffff) * 10000 + nsecs) % 0x100000000;
-  b[i++] = tl >>> 24 & 0xff;
-  b[i++] = tl >>> 16 & 0xff;
-  b[i++] = tl >>> 8 & 0xff;
-  b[i++] = tl & 0xff; // `time_mid`
-
-  const tmh = msecs / 0x100000000 * 10000 & 0xfffffff;
-  b[i++] = tmh >>> 8 & 0xff;
-  b[i++] = tmh & 0xff; // `time_high_and_version`
-
-  b[i++] = tmh >>> 24 & 0xf | 0x10; // include version
-
-  b[i++] = tmh >>> 16 & 0xff; // `clock_seq_hi_and_reserved` (Per 4.2.2 - include variant)
-
-  b[i++] = clockseq >>> 8 | 0x80; // `clock_seq_low`
-
-  b[i++] = clockseq & 0xff; // `node`
-
-  for (let n = 0; n < 6; ++n) {
-    b[i + n] = node[n];
-  }
-
-  return buf || (0, _stringify.default)(b);
-}
-
-var _default = v1;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 6409:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _v = _interopRequireDefault(__nccwpck_require__(5998));
-
-var _md = _interopRequireDefault(__nccwpck_require__(4569));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-const v3 = (0, _v.default)('v3', 0x30, _md.default);
-var _default = v3;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 5998:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = _default;
-exports.URL = exports.DNS = void 0;
-
-var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
-
-var _parse = _interopRequireDefault(__nccwpck_require__(2746));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function stringToBytes(str) {
-  str = unescape(encodeURIComponent(str)); // UTF8 escape
-
-  const bytes = [];
-
-  for (let i = 0; i < str.length; ++i) {
-    bytes.push(str.charCodeAt(i));
-  }
-
-  return bytes;
-}
-
-const DNS = '6ba7b810-9dad-11d1-80b4-00c04fd430c8';
-exports.DNS = DNS;
-const URL = '6ba7b811-9dad-11d1-80b4-00c04fd430c8';
-exports.URL = URL;
-
-function _default(name, version, hashfunc) {
-  function generateUUID(value, namespace, buf, offset) {
-    if (typeof value === 'string') {
-      value = stringToBytes(value);
-    }
-
-    if (typeof namespace === 'string') {
-      namespace = (0, _parse.default)(namespace);
-    }
-
-    if (namespace.length !== 16) {
-      throw TypeError('Namespace must be array-like (16 iterable integer values, 0-255)');
-    } // Compute hash of namespace and value, Per 4.3
-    // Future: Use spread syntax when supported on all platforms, e.g. `bytes =
-    // hashfunc([...namespace, ... value])`
-
-
-    let bytes = new Uint8Array(16 + value.length);
-    bytes.set(namespace);
-    bytes.set(value, namespace.length);
-    bytes = hashfunc(bytes);
-    bytes[6] = bytes[6] & 0x0f | version;
-    bytes[8] = bytes[8] & 0x3f | 0x80;
-
-    if (buf) {
-      offset = offset || 0;
-
-      for (let i = 0; i < 16; ++i) {
-        buf[offset + i] = bytes[i];
-      }
-
-      return buf;
-    }
-
-    return (0, _stringify.default)(bytes);
-  } // Function#name is not settable on some platforms (#270)
-
-
-  try {
-    generateUUID.name = name; // eslint-disable-next-line no-empty
-  } catch (err) {} // For CommonJS default export support
-
-
-  generateUUID.DNS = DNS;
-  generateUUID.URL = URL;
-  return generateUUID;
-}
-
-/***/ }),
-
-/***/ 5122:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _rng = _interopRequireDefault(__nccwpck_require__(807));
-
-var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function v4(options, buf, offset) {
-  options = options || {};
-
-  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
-
-
-  rnds[6] = rnds[6] & 0x0f | 0x40;
-  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
-
-  if (buf) {
-    offset = offset || 0;
-
-    for (let i = 0; i < 16; ++i) {
-      buf[offset + i] = rnds[i];
-    }
-
-    return buf;
-  }
-
-  return (0, _stringify.default)(rnds);
-}
-
-var _default = v4;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 9120:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _v = _interopRequireDefault(__nccwpck_require__(5998));
-
-var _sha = _interopRequireDefault(__nccwpck_require__(5274));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-const v5 = (0, _v.default)('v5', 0x50, _sha.default);
-var _default = v5;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 6900:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _regex = _interopRequireDefault(__nccwpck_require__(814));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function validate(uuid) {
-  return typeof uuid === 'string' && _regex.default.test(uuid);
-}
-
-var _default = validate;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 1595:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _validate = _interopRequireDefault(__nccwpck_require__(6900));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function version(uuid) {
-  if (!(0, _validate.default)(uuid)) {
-    throw TypeError('Invalid UUID');
-  }
-
-  return parseInt(uuid.substr(14, 1), 16);
-}
-
-var _default = version;
-exports["default"] = _default;
-
-/***/ }),
-
-/***/ 9491:
+/***/ 2613:
 /***/ ((module) => {
 
 "use strict";
@@ -25488,7 +26194,7 @@ module.exports = require("assert");
 
 /***/ }),
 
-/***/ 852:
+/***/ 290:
 /***/ ((module) => {
 
 "use strict";
@@ -25496,7 +26202,7 @@ module.exports = require("async_hooks");
 
 /***/ }),
 
-/***/ 4300:
+/***/ 181:
 /***/ ((module) => {
 
 "use strict";
@@ -25504,7 +26210,15 @@ module.exports = require("buffer");
 
 /***/ }),
 
-/***/ 6206:
+/***/ 5317:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("child_process");
+
+/***/ }),
+
+/***/ 4236:
 /***/ ((module) => {
 
 "use strict";
@@ -25512,7 +26226,7 @@ module.exports = require("console");
 
 /***/ }),
 
-/***/ 6113:
+/***/ 6982:
 /***/ ((module) => {
 
 "use strict";
@@ -25520,7 +26234,7 @@ module.exports = require("crypto");
 
 /***/ }),
 
-/***/ 7643:
+/***/ 1637:
 /***/ ((module) => {
 
 "use strict";
@@ -25528,7 +26242,7 @@ module.exports = require("diagnostics_channel");
 
 /***/ }),
 
-/***/ 2361:
+/***/ 4434:
 /***/ ((module) => {
 
 "use strict";
@@ -25536,7 +26250,7 @@ module.exports = require("events");
 
 /***/ }),
 
-/***/ 7147:
+/***/ 9896:
 /***/ ((module) => {
 
 "use strict";
@@ -25544,7 +26258,7 @@ module.exports = require("fs");
 
 /***/ }),
 
-/***/ 3685:
+/***/ 8611:
 /***/ ((module) => {
 
 "use strict";
@@ -25552,7 +26266,7 @@ module.exports = require("http");
 
 /***/ }),
 
-/***/ 5158:
+/***/ 5675:
 /***/ ((module) => {
 
 "use strict";
@@ -25560,7 +26274,7 @@ module.exports = require("http2");
 
 /***/ }),
 
-/***/ 5687:
+/***/ 5692:
 /***/ ((module) => {
 
 "use strict";
@@ -25568,7 +26282,7 @@ module.exports = require("https");
 
 /***/ }),
 
-/***/ 1808:
+/***/ 9278:
 /***/ ((module) => {
 
 "use strict";
@@ -25576,7 +26290,7 @@ module.exports = require("net");
 
 /***/ }),
 
-/***/ 5673:
+/***/ 8474:
 /***/ ((module) => {
 
 "use strict";
@@ -25584,7 +26298,7 @@ module.exports = require("node:events");
 
 /***/ }),
 
-/***/ 4492:
+/***/ 7075:
 /***/ ((module) => {
 
 "use strict";
@@ -25592,7 +26306,7 @@ module.exports = require("node:stream");
 
 /***/ }),
 
-/***/ 7261:
+/***/ 7975:
 /***/ ((module) => {
 
 "use strict";
@@ -25600,7 +26314,7 @@ module.exports = require("node:util");
 
 /***/ }),
 
-/***/ 2037:
+/***/ 857:
 /***/ ((module) => {
 
 "use strict";
@@ -25608,7 +26322,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 1017:
+/***/ 6928:
 /***/ ((module) => {
 
 "use strict";
@@ -25616,7 +26330,7 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 4074:
+/***/ 2987:
 /***/ ((module) => {
 
 "use strict";
@@ -25624,7 +26338,7 @@ module.exports = require("perf_hooks");
 
 /***/ }),
 
-/***/ 3477:
+/***/ 3480:
 /***/ ((module) => {
 
 "use strict";
@@ -25632,7 +26346,7 @@ module.exports = require("querystring");
 
 /***/ }),
 
-/***/ 2781:
+/***/ 2203:
 /***/ ((module) => {
 
 "use strict";
@@ -25640,7 +26354,7 @@ module.exports = require("stream");
 
 /***/ }),
 
-/***/ 5356:
+/***/ 3774:
 /***/ ((module) => {
 
 "use strict";
@@ -25648,7 +26362,7 @@ module.exports = require("stream/web");
 
 /***/ }),
 
-/***/ 1576:
+/***/ 3193:
 /***/ ((module) => {
 
 "use strict";
@@ -25656,7 +26370,15 @@ module.exports = require("string_decoder");
 
 /***/ }),
 
-/***/ 4404:
+/***/ 3557:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("timers");
+
+/***/ }),
+
+/***/ 4756:
 /***/ ((module) => {
 
 "use strict";
@@ -25664,7 +26386,7 @@ module.exports = require("tls");
 
 /***/ }),
 
-/***/ 7310:
+/***/ 7016:
 /***/ ((module) => {
 
 "use strict";
@@ -25672,7 +26394,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 3837:
+/***/ 9023:
 /***/ ((module) => {
 
 "use strict";
@@ -25680,7 +26402,7 @@ module.exports = require("util");
 
 /***/ }),
 
-/***/ 9830:
+/***/ 8253:
 /***/ ((module) => {
 
 "use strict";
@@ -25688,7 +26410,7 @@ module.exports = require("util/types");
 
 /***/ }),
 
-/***/ 1267:
+/***/ 8167:
 /***/ ((module) => {
 
 "use strict";
@@ -25696,7 +26418,7 @@ module.exports = require("worker_threads");
 
 /***/ }),
 
-/***/ 9796:
+/***/ 3106:
 /***/ ((module) => {
 
 "use strict";
@@ -25704,19 +26426,19 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 2960:
+/***/ 7182:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const WritableStream = (__nccwpck_require__(4492).Writable)
-const inherits = (__nccwpck_require__(7261).inherits)
+const WritableStream = (__nccwpck_require__(7075).Writable)
+const inherits = (__nccwpck_require__(7975).inherits)
 
-const StreamSearch = __nccwpck_require__(1142)
+const StreamSearch = __nccwpck_require__(4136)
 
-const PartStream = __nccwpck_require__(1620)
-const HeaderParser = __nccwpck_require__(2032)
+const PartStream = __nccwpck_require__(612)
+const HeaderParser = __nccwpck_require__(2271)
 
 const DASH = 45
 const B_ONEDASH = Buffer.from('-')
@@ -25925,17 +26647,17 @@ module.exports = Dicer
 
 /***/ }),
 
-/***/ 2032:
+/***/ 2271:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const EventEmitter = (__nccwpck_require__(5673).EventEmitter)
-const inherits = (__nccwpck_require__(7261).inherits)
-const getLimit = __nccwpck_require__(1467)
+const EventEmitter = (__nccwpck_require__(8474).EventEmitter)
+const inherits = (__nccwpck_require__(7975).inherits)
+const getLimit = __nccwpck_require__(2393)
 
-const StreamSearch = __nccwpck_require__(1142)
+const StreamSearch = __nccwpck_require__(4136)
 
 const B_DCRLF = Buffer.from('\r\n\r\n')
 const RE_CRLF = /\r\n/g
@@ -26033,14 +26755,14 @@ module.exports = HeaderParser
 
 /***/ }),
 
-/***/ 1620:
+/***/ 612:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const inherits = (__nccwpck_require__(7261).inherits)
-const ReadableStream = (__nccwpck_require__(4492).Readable)
+const inherits = (__nccwpck_require__(7975).inherits)
+const ReadableStream = (__nccwpck_require__(7075).Readable)
 
 function PartStream (opts) {
   ReadableStream.call(this, opts)
@@ -26054,7 +26776,7 @@ module.exports = PartStream
 
 /***/ }),
 
-/***/ 1142:
+/***/ 4136:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -26086,8 +26808,8 @@ module.exports = PartStream
  * Based heavily on the Streaming Boyer-Moore-Horspool C++ implementation
  * by Hongli Lai at: https://github.com/FooBarWidget/boyer-moore-horspool
  */
-const EventEmitter = (__nccwpck_require__(5673).EventEmitter)
-const inherits = (__nccwpck_require__(7261).inherits)
+const EventEmitter = (__nccwpck_require__(8474).EventEmitter)
+const inherits = (__nccwpck_require__(7975).inherits)
 
 function SBMH (needle) {
   if (typeof needle === 'string') {
@@ -26290,19 +27012,19 @@ module.exports = SBMH
 
 /***/ }),
 
-/***/ 727:
+/***/ 9581:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const WritableStream = (__nccwpck_require__(4492).Writable)
-const { inherits } = __nccwpck_require__(7261)
-const Dicer = __nccwpck_require__(2960)
+const WritableStream = (__nccwpck_require__(7075).Writable)
+const { inherits } = __nccwpck_require__(7975)
+const Dicer = __nccwpck_require__(7182)
 
-const MultipartParser = __nccwpck_require__(2183)
-const UrlencodedParser = __nccwpck_require__(8306)
-const parseParams = __nccwpck_require__(1854)
+const MultipartParser = __nccwpck_require__(1192)
+const UrlencodedParser = __nccwpck_require__(855)
+const parseParams = __nccwpck_require__(8929)
 
 function Busboy (opts) {
   if (!(this instanceof Busboy)) { return new Busboy(opts) }
@@ -26383,7 +27105,7 @@ module.exports.Dicer = Dicer
 
 /***/ }),
 
-/***/ 2183:
+/***/ 1192:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -26396,15 +27118,15 @@ module.exports.Dicer = Dicer
 //  * support limits.fieldNameSize
 //     -- this will require modifications to utils.parseParams
 
-const { Readable } = __nccwpck_require__(4492)
-const { inherits } = __nccwpck_require__(7261)
+const { Readable } = __nccwpck_require__(7075)
+const { inherits } = __nccwpck_require__(7975)
 
-const Dicer = __nccwpck_require__(2960)
+const Dicer = __nccwpck_require__(7182)
 
-const parseParams = __nccwpck_require__(1854)
-const decodeText = __nccwpck_require__(4619)
-const basename = __nccwpck_require__(8647)
-const getLimit = __nccwpck_require__(1467)
+const parseParams = __nccwpck_require__(8929)
+const decodeText = __nccwpck_require__(2747)
+const basename = __nccwpck_require__(692)
+const getLimit = __nccwpck_require__(2393)
 
 const RE_BOUNDARY = /^boundary$/i
 const RE_FIELD = /^form-data$/i
@@ -26697,15 +27419,15 @@ module.exports = Multipart
 
 /***/ }),
 
-/***/ 8306:
+/***/ 855:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const Decoder = __nccwpck_require__(7100)
-const decodeText = __nccwpck_require__(4619)
-const getLimit = __nccwpck_require__(1467)
+const Decoder = __nccwpck_require__(1496)
+const decodeText = __nccwpck_require__(2747)
+const getLimit = __nccwpck_require__(2393)
 
 const RE_CHARSET = /^charset$/i
 
@@ -26895,7 +27617,7 @@ module.exports = UrlEncoded
 
 /***/ }),
 
-/***/ 7100:
+/***/ 1496:
 /***/ ((module) => {
 
 "use strict";
@@ -26957,7 +27679,7 @@ module.exports = Decoder
 
 /***/ }),
 
-/***/ 8647:
+/***/ 692:
 /***/ ((module) => {
 
 "use strict";
@@ -26979,7 +27701,7 @@ module.exports = function basename (path) {
 
 /***/ }),
 
-/***/ 4619:
+/***/ 2747:
 /***/ (function(module) {
 
 "use strict";
@@ -27101,7 +27823,7 @@ module.exports = decodeText
 
 /***/ }),
 
-/***/ 1467:
+/***/ 2393:
 /***/ ((module) => {
 
 "use strict";
@@ -27125,14 +27847,14 @@ module.exports = function getLimit (limits, name, defaultLimit) {
 
 /***/ }),
 
-/***/ 1854:
+/***/ 8929:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 /* eslint-disable object-property-newline */
 
 
-const decodeText = __nccwpck_require__(4619)
+const decodeText = __nccwpck_require__(2747)
 
 const RE_ENCODED = /%[a-fA-F0-9][a-fA-F0-9]/g
 
@@ -27362,17 +28084,6 @@ module.exports = parseParams
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__nccwpck_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/compat */
 /******/ 	
 /******/ 	if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = __dirname + "/";
@@ -27382,17 +28093,15 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
 "use strict";
-// ESM COMPAT FLAG
-__nccwpck_require__.r(__webpack_exports__);
 
 ;// CONCATENATED MODULE: external "node:fs/promises"
 const promises_namespaceObject = require("node:fs/promises");
 ;// CONCATENATED MODULE: external "node:path"
 const external_node_path_namespaceObject = require("node:path");
 // EXTERNAL MODULE: ./node_modules/@actions/core/lib/core.js
-var core = __nccwpck_require__(2186);
+var core = __nccwpck_require__(7484);
 ;// CONCATENATED MODULE: ./assets/truyen-kieu-1870.json
-const truyen_kieu_1870_namespaceObject = JSON.parse('[{"nom":"𤾓𢆥𥪝𡎝𠊚些","quocngu":"Trăm năm trong cõi người ta."},{"nom":"𡦂才𡦂命窖羅恄饒","quocngu":"Chữ tài chữ mệnh khéo là ghét nhau."},{"nom":"𣦰戈󰜋局𣷭橷","quocngu":"Trải qua một cuộc bể dâu,"},{"nom":"仍調𬂙𧡊麻𤴬疸𢚸","quocngu":"Những điều trông thấy mà đau đớn lòng."},{"nom":"邏之彼嗇斯豐","quocngu":"Lạ gì bỉ sắc tư phong,"},{"nom":"𡗶撑悁貝𦟐紅打慳","quocngu":"Trời xanh quen với má hồng đánh ghen."},{"nom":"藁𦹳吝𢷣𠓀畑","quocngu":"Cảo thơm lần giở trước đèn,"},{"nom":"風情古錄群傳史撑","quocngu":"Phong tình cổ lục còn truyền sử xanh."},{"nom":"浪𢆥嘉靖朝明","quocngu":"Rằng: Năm Gia Tĩnh triều Minh,"},{"nom":"𦊚方滂𣼽𠄩京凭鐄","quocngu":"Bốn phương phẳng lặng, hai kinh vững vàng."},{"nom":"固茹員外户王","quocngu":"Có nhà Viên ngoại họ Vương,"},{"nom":"家資擬拱常常堛中","quocngu":"Gia tư nghĩ cũng thường thường bậc trung."},{"nom":"󰜋𤳇𡥵次卒𢚸","quocngu":"Một trai con thứ rốt lòng,"},{"nom":"王觀羅𡦂󰡸𣳔儒家","quocngu":"Vương Quan là chữ nối dòng nho gia."},{"nom":"頭𢚸𠄩妸素娥","quocngu":"Đầu lòng hai ả tố nga."},{"nom":"翠翹羅姉㛪羅翠雲","quocngu":"Thuý Kiều là chị, em là Thuý Vân."},{"nom":"梅骨格雪精神","quocngu":"Mai cốt cách, tuyết tinh thần,"},{"nom":"󰜋𠊚󰜋𨤔𨑮分院𨑮","quocngu":"Một người một vẻ mười phân vẹn mười."},{"nom":"雲䀡莊重恪潙","quocngu":"Vân xem trang trọng khác vời,"},{"nom":"囷𦝄苔󰡹󰞺𠊚𦬑囊","quocngu":"Khuôn lưng đầy đặn, nét người nở nang."},{"nom":"花唭玉呐端莊","quocngu":"Hoa cười ngọc nói đoan trang,"},{"nom":"𩄲輸渃𩯀雪讓牟䏢","quocngu":"Mây thua nước tóc, tuyết nhường màu da."},{"nom":"翹強色稍漫麻","quocngu":"Kiều càng sắc sảo mặn mà,"},{"nom":"搊皮才色吏羅分欣","quocngu":"So bề tài sắc lại là phần hơn."},{"nom":"𪤍秋水濕春山","quocngu":"Nền thu thuỷ, thấp xuân sơn,"},{"nom":"花慳輸𧺀柳𢤞劍撑","quocngu":"Hoa ghen thua thắm, liễu hờn kém xanh."},{"nom":"󰜋𠄩迎渃迎城","quocngu":"Một hai nghiêng nước nghiêng thành,"},{"nom":"色停固󰜋才停和𠄩","quocngu":"Sắc đành có một, tài đành họa hai."},{"nom":"聰明本産性𡗶","quocngu":"Thông minh vốn sẵn tính trời,"},{"nom":"坡藝詩畵𨇜味歌吟","quocngu":"Pha nghề thi hoạ, đủ mùi ca ngâm."},{"nom":"宮商漏堛五音","quocngu":"Cung thương làu bậc ngũ âm,"},{"nom":"藝𥢆咹縆胡琹𠬠張","quocngu":"Nghề riêng ăn đứt Hồ cầm một trương."},{"nom":"曲茄𢬣捛𢧚章","quocngu":"Khúc nhà tay lựa nên chương,"},{"nom":"󰜋宮薄命吏強󰞽人","quocngu":"Một cung Bạc mệnh lại càng não nhân."},{"nom":"風流窒默紅裙","quocngu":"Phong lưu rất mực hồng quần,"},{"nom":"春撑執齒細旬及筓","quocngu":"Xuân xanh xấp xỉ tới tuần cập kê,"},{"nom":"俺腍帳𢷀幔𩂏","quocngu":"Êm niềm trướng rủ màn che,"},{"nom":"墻東螉𧊉𠫾𧗱默埃","quocngu":"Tường đông ong bướm đi về mặc ai."},{"nom":"𣈜春昆燕迻梭","quocngu":"Ngày xuân con én đưa thoi,"},{"nom":"韶光𠃩𨔿㐌外𦒹𨑮","quocngu":"Thiều quang chín chục đã ngoài sáu mươi."},{"nom":"𦹵𡽫撑羡蹎𡗶","quocngu":"Cỏ non xanh tận chân trời,"},{"nom":"梗梨𤽸點󰜋𢽼󱖮花","quocngu":"Cành lê trắng điểm một vài bông hoa."},{"nom":"清明𥪝節𣎃𠀧","quocngu":"Thanh minh trong tiết tháng ba,"},{"nom":"禮羅掃墓會羅踏青","quocngu":"Lễ là tảo mộ, hội là đạp thanh."},{"nom":"𧵆賒奴󱋨燕󰢒","quocngu":"Gần xa nô nức yến anh,"},{"nom":"姉㛪懺所步行制春","quocngu":"Chị em sắm sửa bộ hành chơi xuân."},{"nom":"習燿才子佳人","quocngu":"Dập dìu tài tử giai nhân,"},{"nom":"馭車如渃襖裙如𢬧","quocngu":"Ngựa xe như nước, áo quần như nêm."},{"nom":"衮昂塸埬𢹣𨖲","quocngu":"Ngổn ngang gò đống kéo lên,"},{"nom":"梭鐄鈽𫽘烣錢紙𠖤","quocngu":"Thoi vàng vó rắc, tro tiền giấy bay."},{"nom":"斜斜䏾我𧗱西","quocngu":"Tà tà bóng ngả về tây,"},{"nom":"姉㛪他矧扛𢬣𠚢𧗱","quocngu":"Chị em thơ thẩn dan tay ra về."},{"nom":"𨀈寅蹺𦰟小溪","quocngu":"Bước dần theo ngọn tiểu khê,"},{"nom":"𨁮䀡風景固皮清清","quocngu":"Lần xem phong cảnh có bề thanh thanh."},{"nom":"󰅉󰅉𣳔渃捥觥","quocngu":"Nao nao dòng nước uốn quanh,"},{"nom":"𡑢橋儒𡮈𡳳𡌿北昂","quocngu":"Nhịp cầu nho nhỏ cuối ghềnh bắc ngang."},{"nom":"茌茌捻坦邊塘","quocngu":"Sè sè nắm đất bên đàng,"},{"nom":"油油𦰟𦹵姅鐄姅撑","quocngu":"Dàu dàu ngọn cỏ nửa vàng nửa xanh."},{"nom":"浪牢𥪝節清明","quocngu":"Rằng: \\"Sao trong tiết Thanh minh,"},{"nom":"麻低香𤌋永醒世麻","quocngu":"Mà đây hương khói vắng tanh thế mà?\\""},{"nom":"王觀由引𧵆賒","quocngu":"Vương Quan do dẫn gần xa:"},{"nom":"淡仙娘意𠸗羅歌兒","quocngu":"\\"Đạm Tiên nàng ấy xưa là ca nhi."},{"nom":"浽名才色𠬠期","quocngu":"Nổi danh tài sắc một kì,"},{"nom":"吨嗃外𬮷險之燕󰢒","quocngu":"Xôn xao ngoài cửa hiếm gì yến anh."},{"nom":"刼紅顔固蒙萌","quocngu":"Kiếp hồng nhan có mong manh,"},{"nom":"姅澄春脱技梗天香","quocngu":"Nửa chừng xuân thoắt gãy cành thiên hương."},{"nom":"固𠊚客於遠方","quocngu":"Có người khách ở viễn phương,"},{"nom":"賒𦖑拱󱋨㗂娘尋制","quocngu":"Xa nghe cũng nức tiếng nàng tìm chơi."},{"nom":"船情𣃣𨄾旦尼","quocngu":"Thuyền tình vừa ghé đến nơi,"},{"nom":"𪰛它簪技𤭸淶包𣇞","quocngu":"Thì đà trâm gãy bình rơi bao giờ."},{"nom":"𢩣空冷𡴯如詞","quocngu":"Buồng không lạnh ngất như tờ,"},{"nom":"𨁪車馭㐌𦼔矑𥊚撑","quocngu":"Dấu xe ngựa đã rêu lờ mờ xanh."},{"nom":"哭嘆坤掣事情","quocngu":"Khóc than khôn xiết sự tình,"},{"nom":"窖無緣閉羅命貝些","quocngu":"Khéo vô duyên bấy là mình với ta."},{"nom":"㐌空縁𠓀庒麻","quocngu":"Đã không duyên trước chăng mà,"},{"nom":"他之㤕的噲羅縁𡢐","quocngu":"Thà chi chút đích gọi là duyên sau."},{"nom":"懺生攝梓車珠","quocngu":"Sắm sanh nếp tử xe châu,"},{"nom":"𡏧燶󰜋捻默油𦹵花","quocngu":"Vùi nông một nấm/nắm mặc dầu cỏ hoa."},{"nom":"𣦰包兎𣵰鵶斜","quocngu":"Trải bao thỏ lặn ác tà,"},{"nom":"意墓無主埃麻咏𠽄","quocngu":"Ấy mồ vô chủ ai mà viếng thăm.\\""},{"nom":"𢚸兜産䋦傷心","quocngu":"Lòng đâu sẵn mối thương tâm,"},{"nom":"脱𦖑翹㐌潭潭珠沙","quocngu":"Thoắt nghe Kiều đã đầm đầm châu sa."},{"nom":"𤴬疸台分彈󰜏","quocngu":"Đau đớn thay phận đàn bà,"},{"nom":"𠳒浪薄命拱羅𠳒終","quocngu":"Lời rằng bạc mệnh cũng là lời chung."},{"nom":"負旁之閉化工","quocngu":"Phũ phàng chi bấy hóa công"},{"nom":"𣈜撑𤷱痗𦟐紅配坡","quocngu":"Ngày xanh mòn mỏi má hồng phôi pha."},{"nom":"𤯩爫𡞕泣𠊚些","quocngu":"Sống làm vợ khắp người ta,"},{"nom":"窖台𦣰𫴋羅魔空𫯳","quocngu":"Khéo thay nằm xuống là ma không chồng!"},{"nom":"󰅹𠊚鳯怎鸞終","quocngu":"Nào người phượng chạ loan chung,"},{"nom":"󰅹𠊚惜録貪紅羅埃","quocngu":"Nào người tiếc lục tham hồng là ai"},{"nom":"㐌空几兑𠊚懷","quocngu":"Đã không kẻ đoái người hoài,"},{"nom":"産低些劎󰜋𢽼󰠱香","quocngu":"Sẵn đây ta kiếm một vài nén hương."},{"nom":"噲羅﨤攑𡧲塘","quocngu":"Gọi là gặp gỡ giữa đường,"},{"nom":"禍羅𠊚󰡎𤂬鐄别朱","quocngu":"Họa là người dưới suối vàng biết chọ\\""},{"nom":"啉𠽍哏拜𡮈𫰅","quocngu":"Lầm rầm khấn vái nhỏ to,"},{"nom":"垃𡎥𬏓拮𠓀墓𨀈𠚢","quocngu":"Sụp ngồi và gật trước mồ bước ra."},{"nom":"󰜋漨𦹵曖䏾斜","quocngu":"Một vùng cỏ áy bóng tà,"},{"nom":"𩙍囂囂𠺙󰜋𬏓𦰟𦰤","quocngu":"Gió hiu hiu thổi một và ngọn lau."},{"nom":"隻簪産㩫𠃅頭","quocngu":"Chiếc trâm sẵn giắt mái đầu,"},{"nom":"拍䏧𣘃咏𦊚勾𠀧韻","quocngu":"Vạch da cây vịnh bốn câu ba vần."},{"nom":"吏強迷敏心神","quocngu":"Lại càng mê mẩn tâm thần,"},{"nom":"吏強𨅸𨁂秦銀拯𠚢","quocngu":"Lại càng đứng [sững] tần ngần chẳng ra."},{"nom":"吏強塢湥󰞺花","quocngu":"Lại càng ủ dột nét hoa,"},{"nom":"愁𣻆󰑒綏珠沙𥐆𨱽","quocngu":"Sầu tuôn đứt nối, châu sa vắn dài."},{"nom":"雲浪姉拱󱋨唭","quocngu":"Vân rằng: \\"Chị cũng nực cười,"},{"nom":"窖餘渃𬑉哭𠊚𠁀𠸗","quocngu":"Khéo dư nước mắt khóc người đời xưa\\""},{"nom":"浪紅顔自𠦳𠸗","quocngu":"Rằng: \\"Hồng nhan tự nghìn xưa,"},{"nom":"丐調薄命固除埃兜","quocngu":"Cái điều bạc mệnh có chừa ai đâu"},{"nom":"浽念想典𦓡𤴬","quocngu":"Nỗi niềm tưởng đến mà đau,"},{"nom":"𧡊𠊚𦣰帶别𡢐世󰅹","quocngu":"Thấy người nằm đấy biết sau thế nào\\""},{"nom":"觀浪姉呐咍牢","quocngu":"Quan rằng: \\"Chị nói hay sao,"},{"nom":"󰜋調羅󰜋刎𠓨苦𦖑","quocngu":"Một điều là một vận vào khó nghe."},{"nom":"於低陰氣𥘀泥","quocngu":"Ở đây âm khí nặng nề,"},{"nom":"䏾朝㐌我𨤮𧗱群賒","quocngu":"Bóng chiều đã ngả, dặm về còn xa."},{"nom":"翹浪仍等才花","quocngu":"Kiều rằng: \\"Những đấng tài hoa,"},{"nom":"托羅體魄群羅精英","quocngu":"Thác là thể phách, còn là tinh anh."},{"nom":"易台情吏﨤情","quocngu":"Dễ hay tình lại gặp tình,"},{"nom":"徐䀡乙𧡊顯靈碑𣇞","quocngu":"Chờ xem ắt thấy hiển linh bây giờ.\\""},{"nom":"󰜋𠳒呐渚趿䜹","quocngu":"Một lời nói chửa kịp thưa,"},{"nom":"丿兜陣𩙍捲旗旦𬆄","quocngu":"Phút đâu trận gió cuốn cờ đến ngay."},{"nom":"呦呦覩祿𢫝𣘃","quocngu":"Ào ào đổ lộc rung cây,"},{"nom":"於𥪝󰟯固香𠖤𠃣𡗉","quocngu":"Ở trong dường có hương bay ít nhiều."},{"nom":"提澄𦰟𩙍𨁮蹺","quocngu":"Đè chừng ngọn gió lần theo,"},{"nom":"𨁪鞋曾𨀈印𦼔伶伶","quocngu":"Dấu hài từng bước in rêu rành rành."},{"nom":"𩈘𥆾埃乃調驚","quocngu":"Mặt nhìn ai nấy đều kinh,"},{"nom":"娘浪尼寔精誠拯賒","quocngu":"Nàng rằng: \\"Này thực tinh thành chẳng xa."},{"nom":"有情些吏別些","quocngu":"Hữu tình ta lại biết ta,"},{"nom":"𫽄尼幽顯買羅姉㛪","quocngu":"Chẳng nề u hiển mới là chị em.\\""},{"nom":"㐌𢚸顯現朱䀡","quocngu":"Đã lòng hiển hiện cho xem,"},{"nom":"謝𢚸娘吏󰡸添𣀟𠳒","quocngu":"Tạ lòng nàng lại nối thêm vài lời."},{"nom":"𢚸疎來𣼽徘徊","quocngu":"Lòng thơ lai láng bồi hồi,"},{"nom":"㭲𣘃吏拍󰜋排古詩","quocngu":"Gốc cây lại vạch một bài cổ thi."},{"nom":"用𨀊𢷣於𢷣衛","quocngu":"Dùng dằng dở ở dở về,"},{"nom":"樂鐄兜俸㗂𦖑𧵆𧵆","quocngu":"Nhạc vàng đâu bỗng tiếng nghe gần gần."},{"nom":"𬂙澄𧡊󰜋文人","quocngu":"Trông chừng thấy một văn nhân,"},{"nom":"挵𢭾𢬣扣𨀈𨁮𨤮󰕸","quocngu":"Lỏng buông tay khấu bước lần dặm băng."},{"nom":"提𢹂𠦻襊𩙋𦝄","quocngu":"Đề huề lưng túi gió trăng,"},{"nom":"𡢐蹎蹺󰜋𠄽繩𡥵𡥵","quocngu":"Sau chân theo một vài thằng con con."},{"nom":"雪印色馭󰙃𤶐","quocngu":"Tuyết in sắc ngựa câu giòn,"},{"nom":"𦹵坡味襖染𡽫䏧𡗶","quocngu":"Cỏ pha mùi áo nhuộm non da trời."},{"nom":"裊賒買𤑟󰘚𠊚","quocngu":"Nẻo xa mới tỏ mặt người,"},{"nom":"客它𫴋馭細尼敘情","quocngu":"Khách đà xuống ngựa tới nơi tự tình."},{"nom":"鞋文𨁮𨀈𨤮撑","quocngu":"Hài văn lần bước dặm xanh,"},{"nom":"󰜋漨如𧡊𣘃瓊梗瑤","quocngu":"Một vùng như thấy cây quỳnh cành dao."},{"nom":"払王悁󰘚𠚢嘲","quocngu":"Chàng Vương quen mặt ra chào,"},{"nom":"𠄩翹依󰘚納𠓨󰡎花","quocngu":"Hai Kiều e mặt nép vào dưới hoa."},{"nom":"原𠊚觥橘兜賒","quocngu":"Nguyên người quanh quất đâu xa,"},{"nom":"户金𠸜重本茹簪纓","quocngu":"Họ Kim tên Trọng vốn nhà trâm anh."},{"nom":"𪤍富貴堛才名","quocngu":"Nền phú quý, bậc tài danh,"},{"nom":"文章󰞺坦聰明性𡗶","quocngu":"Văn chương nết đất, thông minh tính trời."},{"nom":"丰姿才貌捽潙","quocngu":"Phong tư tài mạo tót vời,"},{"nom":"𠓨𥪝風雅𠚢外豪花","quocngu":"Vào trong phong nhã, ra ngoài hào hoa."},{"nom":"終觥刎坦渃茹","quocngu":"Chung quanh vẫn đất nước nhà,"},{"nom":"貝王翁𠓀刎羅相親","quocngu":"Với Vương ông trước vẫn là tương thân."},{"nom":"刎𦖑𦹳󱋨鄕鄰","quocngu":"Vẫn nghe thơm nức hương lân,"},{"nom":"󰜋𪤍銅雀鎖春𠄩嬌","quocngu":"Một nền Đồng Tước khóa xuân hai Kiều."},{"nom":"渃𡽫隔󰋇源桃","quocngu":"Nước non cách mấy nguồn đào,"},{"nom":"仍羅濫唒忱夭祝蒙","quocngu":"Những là trộm dấu thầm yêu chốc mòng."},{"nom":"枚台邂逅相逢","quocngu":"May thay giải cấu tương phùng,"},{"nom":"趿旬妬蘿妥𢚸尋花","quocngu":"Gặp tuần đố lá, thỏa lòng tìm hoa."},{"nom":"䏾紅𥋷𧡊裊賒","quocngu":"Bóng hồng nhác thấy nẻo xa,"},{"nom":"春蘭秋菊漫麻奇𠄩","quocngu":"Xuân lan thu cúc mặn mà cả hai."},{"nom":"𠊚國色几天才","quocngu":"Người quốc sắc, kẻ thiên tài,"},{"nom":"情𥪝如㐌󰘚外群𠲖","quocngu":"Tình trong như đã, mặt ngoài còn e."},{"nom":"執廛干省干迷","quocngu":"Chập chờn cơn tỉnh cơn mê"},{"nom":"󰟱𡎥拯便攝衛㐱坤","quocngu":"Rốn ngồi chẳng tiện, dứt về chỉn khôn."},{"nom":"䏾斜如逐干盆","quocngu":"Bóng tà như giục cơn buồn,"},{"nom":"客它𨖲馭𠊚群𥊘蹺","quocngu":"Khách đà lên ngựa, người còn ghé theo."},{"nom":"󰡎𣳔渃沚沖󰡺","quocngu":"Dưới dòng nước chảy trong veo,"},{"nom":"邊梂絲柳䏾朝羅他","quocngu":"Bên cầu tơ liễu bóng chiều la tha."},{"nom":"翹自跙𨃴帳花","quocngu":"Kiều từ trở gót trướng hoa,"},{"nom":"󰘚𡗶旦坦鉦㐌搜空","quocngu":"Mặt trời đến đất, chiêng đà sưu không."},{"nom":"𤗖𦝄隻隻𥉰窻","quocngu":"Mảnh trăng chênh chếch dòm song."},{"nom":"鐄招痕渃𣘃籠䏾𡑝","quocngu":"Vàng gieo ngấn nước, cây lồng bóng sân."},{"nom":"海棠拖𦰟東鄰","quocngu":"Hải đường lả ngọn đông lân,"},{"nom":"湥霜撩𥘀梗春羅陀","quocngu":"Giọt sương treo nặng, cành xuân la đà."},{"nom":"󰜋𨉟𤎜𥋴󰞵娥","quocngu":"Một mình rạng ngắm bóng nga,"},{"nom":"遁塘𧵆貝𡑩賒排排","quocngu":"Rộn đường gần với nẻo xa bời bời."},{"nom":"𠊚麻旦世羅催","quocngu":"Người mà đến thế là thôi,"},{"nom":"𠁀繁花拱羅𠁀補𠫾","quocngu":"Đời phồn hoa cũng là đời bỏ đi."},{"nom":"𠊚兜﨤𫽻爫之","quocngu":"Người đâu gặp gỡ làm chi,"},{"nom":"𤾓𢆥別固緣之咍空","quocngu":"Trăm năm biết có duyên gì hay không?"},{"nom":"滚昂𤾓䋦邊𢚸","quocngu":"Ngổn ngang trăm mối bên lòng,"},{"nom":"𢧚勾絶句寓𥪝性情","quocngu":"Nên câu tuyệt cú ngụ trong tính tình."},{"nom":"征征䏾月熾甍","quocngu":"Chênh chênh bóng nguyệt xế mành,"},{"nom":"𢭸𡎢边篆󰜋𨉟燒燒","quocngu":"Tựa ngồi bên triện một mình thiu thiu."},{"nom":"脱兜𧡊󰜋小嬌","quocngu":"Thoắt đâu thấy một tiểu kiều,"},{"nom":"固朝風韻固朝清新","quocngu":"Có chiều phong vận, có chiều thanh tân."},{"nom":"霜印󰘚雪坡身","quocngu":"Sương in mặt, tuyết pha thân,"},{"nom":"蓮鐄朗蕩如𧵆如賒","quocngu":"Sen vàng lãng đãng như gần như xa."},{"nom":"逴𢜠噋𠳨𠻀羅","quocngu":"Rước mừng đón hỏi dò la:"},{"nom":"源桃落𡓃兜麻旦低","quocngu":"\\"Nguồn đào lạc lối đâu mà đến đây\\""},{"nom":"䜹浪聲氣𠸗󰅒","quocngu":"Thưa rằng: \\"Thanh khí xưa nay,"},{"nom":"買拱饒𣅶班𣈜㐌悁","quocngu":"Mới cùng nhau lúc ban ngày đã quên."},{"nom":"寒家於𠃅西軒","quocngu":"Hàn gia ở mé tây hiên,"},{"nom":"󰡎𣳔渃沚邊𨕭固橋","quocngu":"Dưới dòng nước chảy bên trên có cầu."},{"nom":"󰋇𢚸下顧旦饒","quocngu":"Mấy lòng hạ cố đến nhau,"},{"nom":"󰋇𠳒下賜捻珠招鐄","quocngu":"Mấy lời hạ tứ ném châu gieo vàng."},{"nom":"󰂅呈會主䀡詳","quocngu":"Vâng trình hội chủ xem tường,"},{"nom":"麻牢𥪝數斷膓固𠸜","quocngu":"Mà sao trong sổ đoạn trường có tên."},{"nom":"歐停果刼因綠","quocngu":"Âu đành quả kiếp nhân duyên,"},{"nom":"拱𠊚󰜋會󰜋船兜賒","quocngu":"Cùng người một hội một thuyền đâu xa."},{"nom":"尼𨑮排買買𠚢","quocngu":"Này mười bài mới mới ra,"},{"nom":"勾神吏摱筆花𦘧潙","quocngu":"Câu thần lại mượn bút hoa vẽ vời."},{"nom":"翹󰂅領意題排","quocngu":"Kiều vâng lĩnh ý đề bài,"},{"nom":"𢬣僊󰜋捤𨇜𨑮曲吟","quocngu":"Tay tiên một vẫy đủ mười khúc ngâm."},{"nom":"䀡詩𠽋󰟄𠸦忱","quocngu":"Xem thơ nức nở khen thầm:"},{"nom":"價停繡口錦心恪常","quocngu":"\\"Giá đành tú khẩu cẩm tâm khác thường."},{"nom":"󰂇󰝂𠓨集斷膓","quocngu":"Ví đem vào tập đoạn trường."},{"nom":"𪰛撩解一之讓朱埃","quocngu":"Thì treo giải nhất chi nhường cho ai\\""},{"nom":"㙴花客㐌跙鞋","quocngu":"Thềm hoa khách đã trở hài,"},{"nom":"娘群扲吏󰜋𠄩叙情","quocngu":"Nàng còn cầm lại một hai tự tình."},{"nom":"𩙍兜擲幅萌萌","quocngu":"Gió đâu sịch bức mành mành,"},{"nom":"醒𠚢買別浪命占包","quocngu":"Tỉnh ra mới biết là mình chiêm bao."},{"nom":"𬂙蹺󰅹𧡊兜󰅹","quocngu":"Trông theo nào thấy đâu nào,"},{"nom":"香乘󰟯唉𠚢𠓨兜低","quocngu":"Hương thừa dường hãy ra vào đâu đây."},{"nom":"󰜋命量慮更迡","quocngu":"Một mình lưỡng lự canh chầy,"},{"nom":"塘賒擬浽𡢐尼麻驚","quocngu":"Đường xa nghĩ nỗi sau này mà kinh."},{"nom":"花㵢䕯𣼸㐌停","quocngu":"Hoa trôi bèo dạt đã đành."},{"nom":"别綠命别分命世催","quocngu":"Biết duyên mình, biết phận mình thế thôi!"},{"nom":"浽𥢆笠笠㳥𣼭","quocngu":"Nỗi riêng lớp lớp sóng dồi,"},{"nom":"擬源干吏湥洡𠾕干","quocngu":"Nghĩ nguồn cơn lại sụt sùi đòi cơn."},{"nom":"喠翹𡃚󰁹帳鵉","quocngu":"Giọng Kiều rền rĩ trướng loan,"},{"nom":"茹萱秩醒𠳨干據之","quocngu":"Nhà huyên chợt tỉnh hỏi cơn cớ gì?"},{"nom":"據牢陳濁更𣌉","quocngu":"Cớ sao trằn trọc canh khuya,"},{"nom":"牟花梨唉滛湜湥𩅹","quocngu":"Màu hoa lê hãy dầm dề giọt mưa\\""},{"nom":"疎浪𡭧分癡疎","quocngu":"Thưa rằng: \\"Chút phận ngây thơ,"},{"nom":"養生堆侶𩯀絲渚填","quocngu":"Dưỡng sinh đôi lứa tóc tơ chưa đền."},{"nom":"𣇜𣈜制𡏢淡僊","quocngu":"Buổi ngày chơi mả Đạm Tiên,"},{"nom":"𥃱𠫾脱𧡊應連占包","quocngu":"Nhắp đi thoắt thấy ứng liền chiêm bao."},{"nom":"斷膓羅𢼂世󰅹","quocngu":"Đoạn trường là số thế nào,"},{"nom":"排𠚢世意詠𠓨世箕","quocngu":"Bài ra thế ấy, vịnh vào thế kia."},{"nom":"據𥪝夢兆麻推","quocngu":"Cứ trong mộng triệu mà suy,"},{"nom":"身𡥵催固𠚢之𣈕𡢐","quocngu":"Thân con thôi có ra gì mai sau!\\""},{"nom":"𠰺浪夢幻據兜","quocngu":"Dạy rằng: \\"Mộng ảo cứ đâu,"},{"nom":"俸空謨󰞽卓愁擬󰅹","quocngu":"Bỗng không mua não chác sầu nghĩ nao!\\""},{"nom":"󰂅𠳒勸解濕高","quocngu":"Vâng lời khuyên giải thấp cao,"},{"nom":"渚衝調擬㐌𩆍脉霜","quocngu":"Chưa xong điều nghĩ, đã dào mạch sương."},{"nom":"外窻𠴡𠱈鶯鐄","quocngu":"Ngoài song thỏ thẻ oanh vàng,"},{"nom":"腋墻󱖮柳𠖤昂𫏾萌","quocngu":"Nách tường bông liễu bay ngang trước mành."},{"nom":"軒斜擱䏾迎迎","quocngu":"Hiên tà gác bóng nghiêng nghiêng"},{"nom":"浽𥢆𥢆鄭𡬷𥢆󰜋命","quocngu":"Nỗi riêng, riêng trạnh tấc riêng một mình."},{"nom":"朱咍羅󰣉有情","quocngu":"Cho hay là giống hữu tình,"},{"nom":"妬埃𫽻䋦絲萌朱衝","quocngu":"Đố ai gỡ mối tơ mành cho xong."},{"nom":"払金自吏書窻","quocngu":"Chàng Kim từ lại thư song,"},{"nom":"浽娘更更邊𢚸𠴠𢣧","quocngu":"Nỗi nàng canh cánh bên lòng biếng khuây."},{"nom":"愁𢫝強𫽻強𣹓","quocngu":"Sầu đong càng giở càng đầy,"},{"nom":"𠀧秋扽吏󰜋𣈜𨱽稽","quocngu":"Ba thu dồn lại một ngày dài ghê."},{"nom":"𩄲秦鎖謹窻𦂛","quocngu":"Mây Tần khóa kín song the,"},{"nom":"𡏧紅料裊𠫾衛占包","quocngu":"Bụi hồng liệu nẻo đi về chiêm bao."},{"nom":"旬𦝄缺𥒦油耗","quocngu":"Tuần trăng khuyết, đĩa dầu hao,"},{"nom":"󰘚𢠩想󰘚𢚸嗷喭𢚸","quocngu":"Mặt mơ tưởng mặt, lòng ngao ngán lòng."},{"nom":"𢩣文唏𬰊如銅","quocngu":"Buồng văn hơi giá như đồng,"},{"nom":"竹痴󰇽兎絲𦙸𪣇鸞","quocngu":"Trúc se ngón thỏ, tơ chùng phím loan."},{"nom":"萌湘拂拂𩙍彈","quocngu":"Mành Tương phất phất gió đàn,"},{"nom":"香𡀲味𢖵茶乾𠰩情","quocngu":"Hương gây mùi nhớ, trà khan giọng tình."},{"nom":"󰂇庒綠女𠀧生","quocngu":"Ví chăng duyên nợ ba sinh,"},{"nom":"爫之󰝂󰣉傾城撩𤽗","quocngu":"Làm chi đem giống khuynh thành trêu ngươi."},{"nom":"氷傾𢖵景𢖵𠊚","quocngu":"Bâng khuâng nhớ cảnh nhớ người,"},{"nom":"𢖵尼奇遇倍移蹎𠫾","quocngu":"Nhớ nơi kỳ ngộ vội dời chân đi."},{"nom":"󰜋瀾𦹵木撑荑","quocngu":"Một làn cỏ mọc xanh rì,"},{"nom":"渃吟𤄯沕𧡊之汝兜","quocngu":"Nước ngâm trong vắt thấy gì nữa đâu!"},{"nom":"𩙍朝如𢭮干愁","quocngu":"Gió chiều như khảy cơn sầu,"},{"nom":"葦𦰤囂𫤾如牟改撩","quocngu":"Vi lau hiu hắt như màu gợi trêu."},{"nom":"鄭𥢆想𠃣𢖵𡗉","quocngu":"Trạnh riêng tưởng ít nhớ nhiều,"},{"nom":"侵侵提裊藍橋𨁮𨖅","quocngu":"Xăm xăm đè nẻo Lam Kiều lần sang."},{"nom":"審嚴謹槓高墙","quocngu":"Thâm nghiêm kín cổng cao tường,"},{"nom":"𣴓𣳔蘿𧺀𢴑塘𫚳撑","quocngu":"Cạn dòng lá thắm dứt đường chim xanh."},{"nom":"盧疎絲柳󰇵萌","quocngu":"Lơ thơ tơ liễu buông mành,"},{"nom":"昆鶯學呐𨕭梗𠸍枚","quocngu":"Con oanh học nói trên cành mỉa mai."},{"nom":"󰋇吝󰘇㨂杄掑","quocngu":"Mấy lần cửa đóng then cài,"},{"nom":"𣲆㙴花用别𠊚於兜","quocngu":"Dãy thềm hoa rụng biết người ở đâu"},{"nom":"秦銀𨅸椊𣇞𥹰","quocngu":"Tần ngần đứng suốt giờ lâu,"},{"nom":"𬧖觥秩𧡊𠃅𡢐固茹","quocngu":"Dạo quanh chợt thấy mé sau có nhà."},{"nom":"羅茹吳越商家","quocngu":"Là nhà Ngô Việt thương gia,"},{"nom":"𢩣空底妬𠊚賒渚衛","quocngu":"Buồng không để đó người xa chưa về."},{"nom":"𥙩調遊學𠳨𠾔","quocngu":"Lấy điều du học hỏi thuê,"},{"nom":"襊彈笈册提𢹂󰢸𨖅","quocngu":"Túi đàn cặp sách đề huề dọn sang."},{"nom":"固𣘃固𥒥産床","quocngu":"Có cây, có đá sẵn sàng,"},{"nom":"固軒攬翠󰞺鐄渚派","quocngu":"Có hiên Lãm Thuý nét vàng chưa phai."},{"nom":"忱𢜠准意𫳘排","quocngu":"Thầm mừng chốn ấy chữ bài,"},{"nom":"𠀧生歐罕綠𡗶之低","quocngu":"Ba sinh âu hẳn duyên trời chi đây."},{"nom":"窻糊姅怯𦑃𩄲","quocngu":"Song hồ nửa khép cánh mây,"},{"nom":"墻東𥊘眜𣈜𣈜恒𬂙","quocngu":"Tường đông ghé mắt ngày ngày hằng trông."},{"nom":"𡬷𡱸洞鎖原封","quocngu":"Tấc gang động toả nguyên phong,"},{"nom":"絶𩂟󰅹𧡊䏾紅𠓨𠚢","quocngu":"Tuyệt mù nào thấy bóng hồng vào ra."},{"nom":"忍自舘客鄰羅","quocngu":"Nhẫn từ quán khách lân la,"},{"nom":"旬𦝄瀋脱𫢩它菭𠄩","quocngu":"Tuần trăng thấm thoắt nay đà đầy hai."},{"nom":"隔墻沛𣇜淹𡗶","quocngu":"Cách tường phải buổi êm trời,"},{"nom":"󰡎桃󰟯固䏾𠊚切他","quocngu":"Dưới đào dường có bóng người thướt tha."},{"nom":"𢭾琹󰡻襖倍𠚢","quocngu":"Buông cầm xốc áo vội ra,"},{"nom":"香群𦹳𠽋𠊚它永醒","quocngu":"Hương còn thơm nức, người đà vắng tanh."},{"nom":"𨁮蹺墻錦𨄹觥","quocngu":"Lần theo tường gấm dạo quanh,"},{"nom":"𨕭桃𥋷𧡊󰜋梗金釵","quocngu":"Trên đào nhác thấy một cành kim thoa."},{"nom":"拁𢬣𢭲𥙩衛茹","quocngu":"Giơ tay với lấy về nhà:"},{"nom":"尼𥪝閨閣兜麻典低","quocngu":"\\"Này trong khuê các, đâu mà đến đây?"},{"nom":"𡄎歐𠊚意寶尼","quocngu":"Ngẫm âu người ấy báu này,"},{"nom":"拯緣渚易𠓨𢬣埃扲","quocngu":"Chẳng duyên chưa dễ vào tay ai cầm!\\""},{"nom":"連𢬣𥋴𥊘𠴠𦣰","quocngu":"Liền tay ngắm nghía biếng nằm,"},{"nom":"唉群倘倘香沉渚派","quocngu":"Hãy còn thoang thoảng hương trầm chưa phai."},{"nom":"散霜㐌𧡊䏾𠊚","quocngu":"Tan sương đã thấy bóng người"},{"nom":"觥墻𠚢意尋頺菫魚","quocngu":"Quanh tường ra ý tìm tòi ngẩn ngơ."},{"nom":"生它固意待徐","quocngu":"Sinh đà có ý đợi chờ,"},{"nom":"隔墻𨖲㗂賒迻厭𢚸","quocngu":"Cách tường lên tiếng xa đưa ướm lòng."},{"nom":"釵尼󰈫特虚空","quocngu":"Thoa này bắt được hư không,"},{"nom":"別兜合浦麻蒙珠衛","quocngu":"Biết đâu Hợp Phố mà mong châu về?\\""},{"nom":"㗂翹𦖑律邊箕","quocngu":"Tiếng Kiều nghe lọt bên kia,"},{"nom":"恩𠊚君子詫之𧵑逨","quocngu":"Ơn người quân tử sá gì của rơi."},{"nom":"隻釵󰅹𧵑󰋇𨑮","quocngu":"Chiếc thoa nào của mấy mươi,"},{"nom":"麻𢚸重義輕財掣包","quocngu":"Mà lòng trọng nghĩa khinh tài xiết bao!\\""},{"nom":"生浪鄰里𠚢𠓨","quocngu":"Sinh rằng: \\"Lân lý ra vào,"},{"nom":"𧵆低󰅹沛𠊚󰅹賒吹","quocngu":"Gần đây nào phải người nào xa xôi."},{"nom":"特𣈙如𡭧𦹳逨","quocngu":"Được rày như chút thơm rơi,"},{"nom":"計它少󰞽𢚸𠊚閉󰅒","quocngu":"Kể đà thiểu não lòng người bấy nay!"},{"nom":"󰋇婁買特󰜋𣈜","quocngu":"Mấy lâu mới được một ngày,"},{"nom":"停󰖄𣵲𡭧念西噲羅","quocngu":"Dừng chân gạn chút niềm tây gọi là.\\""},{"nom":"倍衛添𥙩𧵑茹","quocngu":"Vội về thêm lấy của nhà,"},{"nom":"釧鐄堆隻巾纙󰜋󰉓","quocngu":"Xuyến vàng đôi chiếc, khăn là một vuông."},{"nom":"堛𩄲𨂚𨀈𦰟墻","quocngu":"Bậc mây rón bước ngọn tường,"},{"nom":"沛𠊚𣋚怒𤑟𤉜󰝸㖇","quocngu":"Phải người hôm nọ rõ ràng chẳng nhe?"},{"nom":"𠶤𠼾𢷣意揬提","quocngu":"Sượng sùng giữ ý rụt rè,"},{"nom":"几𥆾羡󰘚𠊚𠲖儈頭","quocngu":"Kẻ nhìn tận mặt, người e cúi đầu."},{"nom":"浪自偶爾﨤饒","quocngu":"Rằng: \\"Từ ngẫu nhĩ gặp nhau,"},{"nom":"󰠐𬂙濫𢖵閉𥹰㐌𤶐","quocngu":"Thầm trông trộm nhớ bấy lâu đã chồn."},{"nom":"󰢇梅併㐌𢷀𤷱","quocngu":"Xương mai tính đã rũ mòn,"},{"nom":"𨁮驢埃別唉群𣋚󰅒","quocngu":"Lần lừa ai biết hãy còn hôm nay!"},{"nom":"𣎃𧷺如𠳚宫𩄲","quocngu":"Tháng tròn như gửi cung mây,"},{"nom":"陳陳󰜋分挹𣘃㐌料","quocngu":"Trần trần một phận ấp cây đã liều."},{"nom":"便低嗔󰜋𠄩調","quocngu":"Tiện đây xin một hai điều,"},{"nom":"臺𦎛𤐝典𨁪䕯朱庒","quocngu":"Đài gương soi đến dấu bèo cho chăng?\\""},{"nom":"菫魚娘買䜹浪","quocngu":"Ngần ngừ nàng mới thưa rằng:"},{"nom":"𫗁茹氷雪質恒菲葑","quocngu":"\\"Thói nhà băng tuyết, chất hằng phỉ phong."},{"nom":"油欺蘿𧺀𥿗紅","quocngu":"Dù khi lá thắm chỉ hồng,"},{"nom":"𢧚庒𪰛拱在𢚸媄吒","quocngu":"Nên chăng thì cũng tại lòng mẹ cha."},{"nom":"𥘀𢚸㤕柳爲花","quocngu":"Nặng lòng xót liễu vì hoa,"},{"nom":"𥘷䜹㐌別兜麻监𠽔","quocngu":"Trẻ thơ đã biết đâu mà dám thưa!\\""},{"nom":"生浪𣈙𩙍𣈕𩅹","quocngu":"Sinh rằng: \\"Rày gió mai mưa,"},{"nom":"𣈜春㐌易情期󰋇欺","quocngu":"Ngày xuân dễ đã tình cờ mấy khi."},{"nom":"油庒𥌀𬌓情癡","quocngu":"Dù chăng xét tấm tình si,"},{"nom":"舌低麻固益之典埃","quocngu":"Thiệt đây mà có ích gì đến ai"},{"nom":"𡭧之哏咘󰜋𠄩","quocngu":"Chút chi gắn bó một hai,"},{"nom":"朱停来仕料排䋦萌","quocngu":"Cho đành rồi sẽ liệu bài mối manh."},{"nom":"囷󰡼油負𡬷誠","quocngu":"Khuôn thiêng dầu phụ tấc thành,"},{"nom":"拱料補過春撑󰜋𠁀","quocngu":"Cũng liều bỏ quá xuân xanh một đời."},{"nom":"量春油決挾徊","quocngu":"Lượng xuân dù quyết hẹp hòi,"},{"nom":"功㧅等拯舌催𡗋由","quocngu":"Công đeo đẳng chẳng thiệt thòi lắm ru."},{"nom":"朗𦖑𠳒呐如󰡽","quocngu":"Lặng nghe lời nói như ru,"},{"nom":"朝春易遣󰞺秋礙顒","quocngu":"Chiều xuân dễ khiến nét thu ngại ngùng."},{"nom":"浪𥪝𣇜買邏𨓡","quocngu":"Rằng: \\"Trong buổi mới lạ lùng,"},{"nom":"𠰚𢚸固𨤰扲𢚸朱當","quocngu":"Nể lòng có lẽ cầm lòng cho đang!"},{"nom":"㐌𢚸君子多恾","quocngu":"Đã lòng quân tử đa mang,"},{"nom":"󰜋𠳒󰂅鑿𥒥鐄始終","quocngu":"Một lời vâng tạc đá vàng thủy chung.\\""},{"nom":"特𠳒如𢶒𡬷𢚸","quocngu":"Được lời như cởi tấc lòng,"},{"nom":"𢷣金釵貝巾紅𢭂𢬣","quocngu":"Giở kim thoa với khăn hồng trao tay."},{"nom":"浪𤾓𢆥拱自低","quocngu":"Rằng: \\"Trăm năm cũng từ đây,"},{"nom":"𧵑信噲󰜋𡭧尼爫𥱬","quocngu":"Của tin gọi một chút này làm ghi\\""},{"nom":"産𢬣把𦑗花葵","quocngu":"Sẵn tay bả quạt hoa quỳ,"},{"nom":"貝梗釵意卽𪰛𢷮𢭂","quocngu":"Với cành thoa ấy tức thì đổi trao."},{"nom":"󰜋𠳒𣃣󰂴膝膠","quocngu":"Một lời vừa gắn tất giao,"},{"nom":"𠃅𡢐󰟯固𠮿嗃㗂𠊚","quocngu":"Mái sau dường có xôn xao tiếng người."},{"nom":"𢠩恾蘿用花逨","quocngu":"MƠ màng lá rụng hoa rơi,"},{"nom":"払衛書院妾移樓粧","quocngu":"Chàng về thư viện, thiếp dời lầu trang."},{"nom":"自番𥒥别歲鐄","quocngu":"Từ phen đá biết tuổi vàng,"},{"nom":"情強滲𤀏𢚸彊菫魚","quocngu":"Tình càng thấm thía, lòng càng ngẩn ngơ."},{"nom":"瀧湘󰜋解農𣻄","quocngu":"Sông Tương một dải nông sờ,"},{"nom":"邊𬂙頭怒邊除𡳳箕","quocngu":"Bên trông đầu nọ, bên chờ cuối kia."},{"nom":"󰜋墙雪迍霜𩂏","quocngu":"Một tường tuyết đón sương che."},{"nom":"信春兜易𠫾衛朱能","quocngu":"Tin xuân đâu dễ đi về cho năng."},{"nom":"吝吝𣈜𩙍𣈘𦝄","quocngu":"Lần lần ngày gió đêm trăng,"},{"nom":"疎紅葚綠㐌澄春戈","quocngu":"Thưa hồng rậm lục đã chừng xuân qua."},{"nom":"𣃣𣈜生日外家","quocngu":"Vừa ngày sinh nhật ngoại gia,"},{"nom":"𨕭𠄩堂󰡎女羅𠄩㛪","quocngu":"Trên hai đường dưới nữa là hai em."},{"nom":"熷𤇊懺所襖襜","quocngu":"Tưng bừng sắm sửa áo xiêm,"},{"nom":"芹𤼸󰜋禮賒𢲠𡬷誠","quocngu":"Cần dâng một lễ xa đem tấc thành."},{"nom":"茹蘭清永󰜋命","quocngu":"Nhà lan thanh vắng một mình,"},{"nom":"𡄎機會遇㐌停𣋚󰅒","quocngu":"Gẫm cơ hội ngộ đã dành hôm nay."},{"nom":"餚珍式式産排","quocngu":"Hào trân thức thức sẵn bày,"},{"nom":"𨃴蓮脱脱𬧖𣦍𠃅墙","quocngu":"Gót sen thoăn thoắt dạo ngay mé tường."},{"nom":"隔花仕𠱆㗂鐄","quocngu":"Cách hoa sẽ dặng tiếng vàng,"},{"nom":"󰡎花𧡊㐌固払𨅸𬂙","quocngu":"Dưới hoa thấy đã có chàng đứng trông."},{"nom":"責𢚸哬𠾿󰋇𢚸","quocngu":"Trách lòng hờ hững mấy lòng,"},{"nom":"󰌕香祝底冷𬚼閉𥹰","quocngu":"Lửa hương chốc để lạnh lùng bấy lâu."},{"nom":"仍羅撘𢖵𢷮愁","quocngu":"Những là đắp nhớ đổi sầu,"},{"nom":"雪霜染姅𠃅頭花𦼚","quocngu":"Tuyết sương nhuốm nửa mái đầu hoa râm."},{"nom":"娘浪𩙍󰈫𩅹扲","quocngu":"Nàng rằng: \\"Gió bắt mưa cầm,"},{"nom":"㐌甘弊貝知音閉遲","quocngu":"Đã cam tệ với tri âm bấy chầy."},{"nom":"永茹特𣇜𣋚󰅒","quocngu":"Vắng nhà được buổi hôm nay,"},{"nom":"𥙩𢚸噲𡭧𠚢低謝𢚸","quocngu":"Lấy lòng gọi chút ra đây tạ lòng.\\""},{"nom":"𨁮蹺𡶀假𠫾𥿺","quocngu":"Lần theo núi giả đi vòng,"},{"nom":"𡳳墻󰟯固裊通買樔","quocngu":"Cuối tường dường có nẻo thông mới rào."},{"nom":"趂𢬣𨷑鎖洞桃","quocngu":"Xắn tay mở khóa động đào,"},{"nom":"𢩵𩄲𬂙𤑟𡓃𠓨天台","quocngu":"Rẽ mây trông rõ lối vào Thiên Thai."},{"nom":"󰘚𥆾󰘚強添鮮","quocngu":"Mặt nhìn mặt càng thêm tươi,"},{"nom":"邊𠳒萬福邊𠳒寒暄","quocngu":"Bên lời vạn phúc, bên lời hàn huyên."},{"nom":"󰡾𦠘衛准書軒","quocngu":"Sánh vai về chốn thư hiên,"},{"nom":"󰃉𠳒風月󰠱願𡽫滝","quocngu":"Góp lời phong nguyệt, nặng nguyền non sông."},{"nom":"𨕭案筆架書筒","quocngu":"Trên yên bút giá thư đồng,"},{"nom":"淡青固幅幀松撩𨖲","quocngu":"Đạm thanh có bức tranh tùng treo lên."},{"nom":"風霜特𨤔天然","quocngu":"Phong sương được vẻ thiên nhiên,"},{"nom":"𥉬𠸦󰞺筆強𥆾強鮮","quocngu":"Liếc khen nét bút càng nhìn càng tươi."},{"nom":"生浪樸畵𣃣耒","quocngu":"Sinh rằng: \\"Phác họa vừa rồi,"},{"nom":"品題嗔󰜋𠄽𠳒添花","quocngu":"Phẩm đề xin một vài lời thêm hoạ\\""},{"nom":"𢬣僊𩙍匝𩅹沙","quocngu":"Tay tiên gió táp mưa sa,"},{"nom":"壙𨕭停筆草𢽼𦊚勾","quocngu":"Khoảng trên dừng bút thảo và bốn câu."},{"nom":"𠸦才吔玉噴珠","quocngu":"Khen tài nhả ngọc, phun châu:"},{"nom":"娘班妸謝拱兜世尼","quocngu":"\\"Nàng Ban ả Tạ cũng đâu thế này!"},{"nom":"刼修𠸗󰂇渚𠫆","quocngu":"Kiếp tu xưa ví chưa dày,"},{"nom":"福󰅹𢩮特價尼朱昂","quocngu":"Phúc nào nhắc được giá này cho ngang!\\""},{"nom":"娘浪濫𥉬容光","quocngu":"Nàng rằng: \\"Trộm liếc dung quang,"},{"nom":"拯𡑝玉佩拱坊金門","quocngu":"Chẳng sân ngọc bội cũng phường kim môn."},{"nom":"擬命分𤘁𦑃𧋃","quocngu":"Nghĩ mình phận mỏng cánh chuồn,"},{"nom":"囷撑別固󰉓𧷺麻𫨩","quocngu":"Khuôn xanh biết có vuông tròn mà hay?"},{"nom":"𢖵自𢆥唉䜹癡","quocngu":"Nhớ từ năm hãy thơ ngây,"},{"nom":"據𥪝相法𪥀柴吱排","quocngu":"Cứ trong tướng pháp lắm thầy chê bai:"},{"nom":"英花𤼵洩𠚢外","quocngu":"\\"Anh hoa phát tiết ra ngoài,"},{"nom":"𠦳秋薄命󰜋𠁀才󰡛","quocngu":"Nghìn thu bạc mệnh một đời tài hoa."},{"nom":"𬂙𠊚吏𥋴典些","quocngu":"Trông người lại ngắm đến ta,"},{"nom":"󰜋𠫆󰜋𤘁別羅固𢧚","quocngu":"Một dày, một mỏng biết là có nên?\\""},{"nom":"生浪邂逅羅緣","quocngu":"Sinh rằng: \\"Giải cấu là duyên,"},{"nom":"𠸗󰅒人定勝天拱𡗉","quocngu":"Xưa nay nhân định thắng thiên cũng nhiều."},{"nom":"油兜解結典調","quocngu":"DÙ đâu giải kết đến điều,"},{"nom":"願󰝂鐄𥒥麻料貝身","quocngu":"Nguyện đem vàng đá mà liều với thân.\\""},{"nom":"𨇜調衷曲慇懃","quocngu":"Đủ điều trung khúc ân cần,"},{"nom":"𢚸春派派󱋓春藏藏","quocngu":"Lòng xuân phơi phới, chén xuân tàng tàng."},{"nom":"𣈜𢝙𥐆拯󰡿𡬼","quocngu":"Ngày vui ngắn chẳng đầy gang,"},{"nom":"𬂙𠚢鵶㐌吟𦎛𡽫兑","quocngu":"Trông ra ác đã ngậm gương non đoài."},{"nom":"永茹拯便𡎢佳","quocngu":"Vắng nhà chẳng tiện ngồi dai,"},{"nom":"啫払娘買急移蔥紗","quocngu":"Giã chàng, nàng mới kíp dời song sa."},{"nom":"典茹𣃣𧡊信茹","quocngu":"Đến nhà vừa thấy tin nhà,"},{"nom":"𠄩親群𢷣席花渚衛","quocngu":"Hai thân còn dở tiệc hoa chưa về."},{"nom":"𨷯外倍𢷀簾𦂛","quocngu":"Cửa ngoài vội rủ rèm the,"},{"nom":"駸駸氷𡓃園𣌉󰜋命","quocngu":"Xăm xăm băng lối vườn khuya một mình."},{"nom":"抇疎𦎛𢶒頭梗","quocngu":"Nhặt thưa gương rọi đầu cành,"},{"nom":"𦰟畑𬂙𢫫帳螢吃󰢀","quocngu":"Ngọn đèn trông lọt trướng huỳnh hắt hiu."},{"nom":"生群𢭸案燒燒","quocngu":"Sinh còn tựa án thiu thiu,"},{"nom":"𢷣朝如醒𢷣朝如迷","quocngu":"Dở chiều như tỉnh, dở chiều như mê."},{"nom":"㗂𨖲仕動職槐","quocngu":"Tiếng sen sẽ động giấc hòe,"},{"nom":"䏾𦝄㐌熾花棃吏𧵆","quocngu":"Bóng trăng đã xế, hoa lê lại gần."},{"nom":"氷傾嵿峽𡽫神","quocngu":"Bâng khuâng đỉnh giáp non Thần,"},{"nom":"群疑職夢𣈘春𢠩恾","quocngu":"Còn ngờ giấc mộng đêm xuân mơ màng."},{"nom":"娘浪曠永𣎀長","quocngu":"Nàng rằng: \\"Khoảng vắng đêm trường,"},{"nom":"爲花朱沛𠴗塘尋花","quocngu":"Vì hoa cho phải đổ đường tìm hoa."},{"nom":"悲𣇞𤑟󰘚堆些","quocngu":"Bây giờ rõ mặt đôi ta,"},{"nom":"別兜耒女拯羅占包","quocngu":"Biết đâu rồi nữa chẳng là chiêm bao\\""},{"nom":"倍𢜠爫禮連𠓨","quocngu":"Vội mừng làm lễ rước vào,"},{"nom":"臺蓮𦀼蠟窻桃添香","quocngu":"Đài sen nối sáp, song đào thêm hương."},{"nom":"箋誓共草󰜋章","quocngu":"Tiên thề cùng thảo một chương,"},{"nom":"𩯀𩄲󰜋䋦刀鐄𢺹𠄩","quocngu":"Tóc mây một mối, dao vàng chia hai."},{"nom":"彙𦝄域域𡧲𡗶","quocngu":"Vầng trăng vằng vặc giữa trời,"},{"nom":"丁寧𠄩󰘚󰜋𠳒雙雙","quocngu":"Đinh ninh hai mặt một lời song song."},{"nom":"𩯀絲根紊𡬷𢚸","quocngu":"Tóc tơ căn vặn tấc lòng,"},{"nom":"𤾓𢆥鑿󰜋𫳘同典昌","quocngu":"Trăm năm tạc một chữ đồng đến xương."},{"nom":"𡃹霞聘喠瓊漿","quocngu":"Chén hà sánh giọng quỳnh tương,"},{"nom":"𦄂羅香論屏𦎛䏾籠","quocngu":"Giải là hương lộn, bình gương bóng lồng."},{"nom":"生浪𩙍沫𦝄𤄯","quocngu":"Sinh rằng: \\"Gió mát trăng trong,"},{"nom":"閉𥹰󰅒󰜋𡭧𢚸渚甘","quocngu":"Bấy lâu nay một chút lòng chưa cam."},{"nom":"𨃉霜渚𪤍橋藍","quocngu":"Chày sương chưa nện cầu Lam,"},{"nom":"𢜝吝巾過𠚢󰕔所庒","quocngu":"Sợ lần khân quá ra sàm sỡ chăng?\\""},{"nom":"娘浪紅葉赤繩","quocngu":"Nàng rằng: \\"Hồng diệp xích thằng,"},{"nom":"󰜋𠳒拱㐌㗂浪相知","quocngu":"Một lời cũng đã tiếng rằng tương tri."},{"nom":"他調月怒花箕","quocngu":"Tha điều nguyệt nọ hoa kia,"},{"nom":"群𠚢埃吏惜之貝埃","quocngu":"Còn ra ai lại tiếc gì với ai\\"."},{"nom":"浪𦖑浽㗂琴臺","quocngu":"Rằng: \\"Nghe nổi tiếng cầm đài,"},{"nom":"渃𡽫𨻫仍𠻴𦖻鐘期","quocngu":"Nước non luống những lắng tai Chung Kỳ.\\""},{"nom":"𠽔浪賤技詫之","quocngu":"Thưa rằng: \\"Tiện kỹ sá chi,"},{"nom":"㐌𢚸𠰺典敬爲沛󰂅","quocngu":"Đã lòng dạy đến, kính vì phải vâng.\\""},{"nom":"軒𡢐撩産琴𦝄","quocngu":"Hiên sau treo sẵn cầm trăng,"},{"nom":"倍鐄生㐌𢬣㨢昂眉","quocngu":"Vội vàng sinh đã tay nâng ngang mày."},{"nom":"娘浪藝𨳒𥢆𢬣","quocngu":"Nàng rằng: \\"Nghề mọn riêng tay,"},{"nom":"爫之朱𥘀𢚸尼凜申","quocngu":"Làm chi cho nặng lòng này lắm thân.\\""},{"nom":"攄寅𦀊武𦀊文","quocngu":"So dần dây vũ dây văn,"},{"nom":"𦊚𦀊蘇𡮈蹺韻宫商","quocngu":"Bốn dây to nhỏ theo vần cung thương."},{"nom":"曲兜漢楚戰場","quocngu":"Khúc đâu Hán Sở chiến trường,"},{"nom":"𦖑𠚢㗂鉄㗂鐄扦饒","quocngu":"Nghe ra tiếng sắt, tiếng vàng chen nhau."},{"nom":"曲兜司馬鳯求","quocngu":"Khúc đâu Tư mã Phượng cầu,"},{"nom":"𦖑𠚢如怨如愁沛庒","quocngu":"Nghe ra như oán như sầu phải chăng!"},{"nom":"稽康尼曲廣陵","quocngu":"Kê Khang này khúc Quảng lăng."},{"nom":"󰜋浪流水󰜋浪行雲","quocngu":"Một rằng lưu thuỷ, một rằng hành vân."},{"nom":"過關尼曲昭君","quocngu":"Quá quan này khúc Chiêu Quân,"},{"nom":"姅分戀主姅分思家","quocngu":"Nửa phần luyến chúa, nửa phần tư gia."},{"nom":"𤄯如㗂䳽𠖤戈","quocngu":"Trong như tiếng hạc bay qua,"},{"nom":"濁如㗂𤂬買沙姅潙","quocngu":"Đục như tiếng suối mới sa nửa vời."},{"nom":"㗂寬如𩙍倘外","quocngu":"Tiếng khoan như gió thoảng ngoài,"},{"nom":"㗂㕰立立如𡗶覩𩅹","quocngu":"Tiếng mau sầm sập như trời đổ mưa."},{"nom":"𦰟畑欺𤏣欺𥊚","quocngu":"Ngọn đèn khi tỏ khi mờ,"},{"nom":"遣𠊚𡎢妬麻魚菫愁","quocngu":"Khiến người ngồi đó mà ngơ ngẩn sầu."},{"nom":"欺𢭸𫋻欺儈頭","quocngu":"Khi tựa gối, khi cúi đầu,"},{"nom":"欺紆𠃩曲欺珠堆眉","quocngu":"Khi vò chín khúc, khi chau đôi mày."},{"nom":"浪𫨩𪰛寔羅𫨩","quocngu":"Rằng: \\"Hay thì thực là hay,"},{"nom":"𦖑𠚢吟䔲𠽆𠹽世󰅹","quocngu":"Nghe ra ngậm đắng nuốt cay thế nào!"},{"nom":"攄之仍堛蕭騷","quocngu":"So chi những bậc tiêu tao,"},{"nom":"𢝀𢚸命共󰅉󰅉𢚸𠊚","quocngu":"Dột lòng mình cũng nao nao lòng người.\\""},{"nom":"浪悁秩󰞺𠫾耒","quocngu":"Rằng: \\"Quen mất nết đi rồi,"},{"nom":"󰢁𢝙催共性𡗶别牢","quocngu":"Tẻ vui thôi cũng tính trời biết sao!"},{"nom":"𠳒鐄󰂅領意高","quocngu":"Lời vàng vâng lĩnh ý cao,"},{"nom":"祸寅寅󰈫𡭧󰅹特空","quocngu":"Họa dần dần bớt chút nào được không?\\""},{"nom":"𦰟蘭強𤍊式紅","quocngu":"Ngọn lan càng tỏ thức hồng,"},{"nom":"頭眉𡳳󰘚強濃𬌓夭","quocngu":"Đầu mày cuối mặt càng nồng tấm yêu."},{"nom":"㳥情󰟯㐌漂漂","quocngu":"Sóng tình dường đã xiêu xiêu,"},{"nom":"䀡𥪝歐厭固調𢙲𢜞","quocngu":"Xem trong âu yếm có điều lả lơi."},{"nom":"𠽔浪停𥙩爫制","quocngu":"Thưa rằng: \\"Đừng lấy làm chơi,"},{"nom":"𠯇朱𠽔歇󰜋𠳒㐌󰅉","quocngu":"Dẽ cho thưa hết một lời đã nao!"},{"nom":"𨤔之󰜋朶桃夭","quocngu":"Vẻ chi một đoá đào yêu,"},{"nom":"園紅之監垠樔𪀄撑","quocngu":"Vườn hồng chi dám ngăn rào chim xanh."},{"nom":"㐌朱𠓨幅布荆","quocngu":"Đã cho vào bậc bố kinh,"},{"nom":"道從夫𥙩𡦂貞爫頭","quocngu":"Đạo tòng phu lấy chữ trinh làm đầu."},{"nom":"𠚢從𨕭濮𥪝𣘛","quocngu":"Ra tuồng trên Bộc trong dâu,"},{"nom":"仍𡥵𠊚意埃求爫之","quocngu":"Những con người ấy ai cầu làm chi."},{"nom":"沛調咹󰟉於𪰛","quocngu":"Phải điều ăn xổi ở thì."},{"nom":"節𤾓𢆥女補𠫾󰜋𣈜","quocngu":"Tiết trăm năm nỡ bỏ đi một ngày!"},{"nom":"𡄎綠奇遇𠸗𫢩","quocngu":"Gẫm duyên kỳ ngộ xưa nay,"},{"nom":"侶堆埃吏𫅠齊崔張","quocngu":"Lứa đôi ai dễ đẹp tày Thôi Trương."},{"nom":"𩄲𩅹打覩𥒥鐄","quocngu":"Mây mưa đánh đổ đá vàng,"},{"nom":"過朝𠓀㐌󱋓𠴔燕󰢒","quocngu":"Quá chiều trước đã chán chường yến anh."},{"nom":"𥪝欺𢭸𦑃連梗","quocngu":"Trong khi tựa cánh liền cành,"},{"nom":"麻𢚸𥜤󰠹㐌呈󰜋邊","quocngu":"Mà lòng rẻ rúng đã trình một bên."},{"nom":"𠃅西底冷香願","quocngu":"Mái tây để lạnh hương nguyền,"},{"nom":"吹綠潭𧺀𠚢緣㤳旁","quocngu":"Xui duyên đằm thắm ra duyên bẽ bàng."},{"nom":"招梭𠓀拯𪧚床","quocngu":"Gieo thoi trước chẳng giữ giàng,"},{"nom":"底𡢐𢧚𢢆共払𪽝埃","quocngu":"Để sau nên thẹn cùng chàng bởi ai"},{"nom":"倍之柳押花奈","quocngu":"Vội chi liễu ép hoa nài,"},{"nom":"群身群󰜋填培固欺","quocngu":"Còn thân còn một đền bồi có khi.\\""},{"nom":"𧡊𠳒端正易𦖑","quocngu":"Thấy lời đoan chính dễ nghe,"},{"nom":"払強添𢘝添爲𨑮分","quocngu":"Chàng càng thêm nể thêm vì mười phân."},{"nom":"䏾艚𣃣𤁕𨤔銀","quocngu":"Bóng tàu vừa lạt vẻ ngân."},{"nom":"信兜㐌󰣅󰘇垠噲𠓨","quocngu":"Tin đâu đã kết cửa ngăn gọi vào."},{"nom":"娘連倍跙𢩣絩","quocngu":"Nàng liền vội trở buồng thêu,"},{"nom":"生連𨄹𨀈𡑝桃倍𠚢","quocngu":"Sinh liền dạo bước sân đào vội ra."},{"nom":"𨷑䀡手筆嚴堂","quocngu":"Mở xem thủ bút nghiêm đường,"},{"nom":"𠴍浪叔父賖塘命終","quocngu":"Nhắn rằng: \\"Thúc phụ xa đường mệnh chung."},{"nom":"唉群寄塟遼東","quocngu":"Hãy còn kí táng liêu đông,"},{"nom":"故鄕𣾺演𠦳重山溪","quocngu":"Có hương khơi diễn ngàn trùng sơn khê."},{"nom":"𣈙迻靈襯衛圭","quocngu":"Rày đưa linh thấn về quê,"},{"nom":"世󰅹𡥵拱沛衛護䘮","quocngu":"Thế nào con cũng phải về hộ tang.\\""},{"nom":"𠻵信掣浽驚惶","quocngu":"Mảng tin xiết nỗi kinh hoàng,"},{"nom":"氷命𨇍𠓀臺粧叙情","quocngu":"Băng mình lẻn trước đài trang tự tình."},{"nom":"𨃴頭每浽丁寧","quocngu":"Gót đầu mọi nỗi đinh ninh,"},{"nom":"浽茹䘮𩯀浽命賒吹","quocngu":"Nỗi nhà tang tóc, nỗi mình xa xôi:"},{"nom":"事兜渚趿堆回","quocngu":"\\"Sự đâu chưa kịp đôi hồi,"},{"nom":"綠兜渚趿󰜋𠳒𢭂絲","quocngu":"Duyên đâu chưa kịp một lời trao tơ,"},{"nom":"𦝄誓群妬猪猪","quocngu":"Trăng thề còn đó trơ trơ,"},{"nom":"監賒吹󰘚麻䜹撻𢚸","quocngu":"Dám xa xôi mặt mà thưa thớt lòng."},{"nom":"外𠦳𨤵隔𠀧冬","quocngu":"Ngoài nghìn dặm, cách ba đông,"},{"nom":"䋦愁欺攑朱衝群迡","quocngu":"Mối sầu khi gỡ cho xong còn chầy."},{"nom":"󱓀鐄𫳘玉朱𫨩","quocngu":"Gìn vàng giữ ngọc cho hay,"},{"nom":"朱停𢚸几蹎𩄲𡳳𡗶","quocngu":"Cho đành lòng kẻ chân mây cuối trời.\\""},{"nom":"𦖻𦖑𫆧浽排排","quocngu":"Tai nghe ruột nổi bời bời,"},{"nom":"汲凝娘買𤋵𠳒𠓀𡢐","quocngu":"Ngập ngừng nàng mới giãi lời trước sau."},{"nom":"翁絲𢴿掛之饒","quocngu":"Ông tơ chèo quải chi nhau,"},{"nom":"渚𢝙森合㐌愁坡𢴾","quocngu":"Chưa vui sum họp đã sầu pha phôi."},{"nom":"共饒卒㐌𥘀𠳒","quocngu":"Cùng nhau trót đã nặng lời,"},{"nom":"酉台𠃅𩯀鍳移𢚸絲","quocngu":"Dẫu thay mái tóc dám dời lòng tơ."},{"nom":"管包𣎃待𢆥徐","quocngu":"Quản bao tháng đợi năm chờ."},{"nom":"擬𠊚咹𩙍𦣰𩅹㤕忱","quocngu":"Nghĩ người ăn gió nằm mưa xót thầm."},{"nom":"㐌願𠄩𡦂同心","quocngu":"Đã nguyền hai chữ đồng tâm"},{"nom":"𤾓𢆥誓拯揞琴船埃","quocngu":"Trăm năm thề chẳng ôm cầm thuyền ai."},{"nom":"群𡽫群渃群𨱽","quocngu":"Còn non, còn nước, còn dài,"},{"nom":"群衛群𢖵典𠊚𣋚𫢩","quocngu":"Còn về còn nhớ đến người hôm nay!"},{"nom":"拥𥿱渚女𢯦𢬣","quocngu":"Dùng dằng chưa nỡ rời tay,"},{"nom":"彙東𬂙㐌𨅸𣦍󰣓茹","quocngu":"Vầng đông trông đã đứng ngay nóc nhà."},{"nom":"礙𥔘󰜋𨀈󰜋賒","quocngu":"Ngại ngùng một bước một xa,"},{"nom":"󰜋𠳒珍重珠沙󰋇行","quocngu":"Một lời trân trọng châu sa mấy hàng."},{"nom":"纀鞍𢮿梗倍鐄","quocngu":"Buộc yên quảy gánh vội vàng,"},{"nom":"䋦愁𢫟姅𨀈塘𢺹𠄩","quocngu":"Mối sầu sẻ nửa, bước đàng chia hai."},{"nom":"𢞂𬂙風景圭𠊚","quocngu":"Buồn trông phong cảnh quê người,"},{"nom":"頭梗鵑日𡳳𡗶鴈疎","quocngu":"Đầu cành quyên nhặt, cuối trời nhạn thưa."},{"nom":"󰞽𠊚𬂍𩙍旬𩅹","quocngu":"Não người cữ gió tuần mưa,"},{"nom":"󰜋𣈜𥘀梗相思󰜋𣈜","quocngu":"Một ngày nặng gánh tương tư một ngày."},{"nom":"娘群𨅸癒軒西","quocngu":"Nàng còn đứng rũ hiên tây,"},{"nom":"𠃩囬問曰如圍䋦絲","quocngu":"Chín hồi vấn vít như vầy mối tơ."},{"nom":"𬂙澄𤌋𡴯窻疎","quocngu":"Trông chừng khói ngất song thưa,"},{"nom":"花㵢倬𧺀柳梌壳鐄","quocngu":"Hoa trôi trác thắm, liễu xơ xác vàng."},{"nom":"秦銀𨄹𨃴樓粧","quocngu":"Tần ngần dạo gót lầu trang,"},{"nom":"󰜋團𢜠壽外鄕買衛","quocngu":"Một đoàn mừng thọ ngoại hương mới về."},{"nom":"寒暄渚趿啫㖷","quocngu":"Hàn huyên chưa kịp dã dề,"},{"nom":"差衙俸𧡊𦊚皮哰嗃","quocngu":"Sai nha bỗng thấy bốn bề lao xao."},{"nom":"𠊚腋𡱩几𢬣刀","quocngu":"Người nách thước, kẻ tay đao,"},{"nom":"頭𬌥󰘚馭泑泑如㵢","quocngu":"Đầu trâu mặt ngựa ào ào như sôi."},{"nom":"拁扛󰜋老󰜋𤳇","quocngu":"Già giang một lão một trai,"},{"nom":"󰜋𦀊無類纀𠄩深情","quocngu":"Một dây vô loại buộc hai thâm tình."},{"nom":"菭茹㘇㗂𧋆撑","quocngu":"Đầy nhà vang tiếng ruồi xanh,"},{"nom":"扡徠椌𦄅散情󰢃𦁼","quocngu":"RÃ rời khung dệt, tan tành gói may."},{"nom":"圖細軟𧵑𥢆西","quocngu":"Đổ tế nhuyễn, của riêng tây,"},{"nom":"瀝𥑥生撅朱菭襊貪","quocngu":"Sạch sành sanh quét cho đầy túi tham."},{"nom":"調兜𠖤纀埃爫","quocngu":"Điều đâu bay buộc ai làm,"},{"nom":"尼埃單𫃡秩緘俸仍","quocngu":"Này ai đan rập giật giàm bỗng dưng."},{"nom":"𠳨𠚢𡢐買别浪","quocngu":"Hỏi ra sau mới biết rằng:"},{"nom":"沛𠸜稱出在绳半絲","quocngu":"Phải tên xưng xuất tại thằng bán tơ."},{"nom":"󰜋茹恍惚菫魚","quocngu":"Một nhà hoảng hốt ngẩn ngơ,"},{"nom":"㗂寃𠰺坦案疑𤍶𩄲","quocngu":"Tiếng oan dậy đất, án ngờ loà mây."},{"nom":"下辭𠹚拜卒𣈜","quocngu":"Hạ từ van vái suốt ngày,"},{"nom":"的𦖻憐恤負𢬣摧殘","quocngu":"Điếc tai lân tuất, phũ tay tồi tàn."},{"nom":"樑高𢫫虐𦀊冤","quocngu":"Rường cao rút ngược dây oan,"},{"nom":"酉𠊚𥒥拱󰞺肝路𠊚","quocngu":"Dẫu người đá cũng nát gan lọ người."},{"nom":"󰘚𬂙𤴬疸󰠹𢯦","quocngu":"Mặt trông đau đớn rụng rời,"},{"nom":"冤尼群󰜋呌𡗶仍賒","quocngu":"Oan này còn một kêu trời, nhưng xa."},{"nom":"󰜋𣈜邏𫗁差衙","quocngu":"Một ngày lạ thói sai nha,"},{"nom":"爫朱酷害拯戈爲錢","quocngu":"Làm cho khốc hại chẳng qua vì tiền."},{"nom":"牢朱骨肉院全","quocngu":"Sao cho cốt nhục vẹn tuyền,"},{"nom":"𥪝欺遇變從權别牢","quocngu":"Trong khi ngộ biến tòng quyền biết sao"},{"nom":"綠會遇德劬勞","quocngu":"Duyên hội ngộ, đức cù lao."},{"nom":"𡦂情𡦂孝邊󰅹𥘀欣","quocngu":"Chữ tình chữ hiếu, bên nào nặng hơn?"},{"nom":"底𠳒誓海盟山","quocngu":"Để lời thệ hải minh sơn,"},{"nom":"爫𡥵𠓀沛填恩生成","quocngu":"Làm con trước phải đền ơn sinh thành."},{"nom":"決情娘買下情","quocngu":"Quyết tình nàng mới hạ tình:"},{"nom":"𠯇朱底妾半命贖吒","quocngu":"DẼ cho để thiếp bán mình chuộc cha!"},{"nom":"户終固几吏𫅷","quocngu":"Họ Chung có kẻ lại già,"},{"nom":"拱𥪝衙役吏羅慈心","quocngu":"Cũng trong nha dịch lại là từ tâm."},{"nom":"𧡊娘孝重情深","quocngu":"Thấy nàng hiếu trọng tình thâm,"},{"nom":"爲娘擬拱傷忱㤕𢠿","quocngu":"Vì nàng nghĩ cũng thương thầm xót vay."},{"nom":"併排律妬𠍓低","quocngu":"Tính bài lót đó luồn đây,"},{"nom":"固𠀧𤾓两役尼買吹","quocngu":"Có ba trăm lạng việc này mới xuôi."},{"nom":"唉衛暫付檻外","quocngu":"Hãy về tạm phó giam ngoài,"},{"nom":"𠸕娘規料𥪝堆𠀧𣈜","quocngu":"Dặn nàng quy liệu trong đôi ba ngày"},{"nom":"傷情昆𥘷疎癡","quocngu":"Thương tình con trẻ thơ ngây,"},{"nom":"﨤干禍𩙍灾𠖤不期","quocngu":"Gặp cơn vạ gió tai bay bất kỳ!"},{"nom":"𤴬𢚸死别生離","quocngu":"Đau lòng tử biệt sinh ly,"},{"nom":"身群拯惜惜之典綠","quocngu":"Thân còn chẳng tiếc, tiếc gì đến duyên!"},{"nom":"曷𩅹詫擬分𢤞","quocngu":"Hạt mưa sá nghĩ phận hèn,"},{"nom":"料耽𡬷𦹵決𡊰𠀧春","quocngu":"Liệu đem tấc cỏ quyết đền ba xuân."},{"nom":"事𢚸吘貝水人","quocngu":"Sự lòng ngỏ với băng nhân,"},{"nom":"信霜吨󰢄賒𧵆㖔嗃","quocngu":"Tin sương đồn đại xa gần xôn xao."},{"nom":"𧵆沔固󰜋媒󰅹","quocngu":"Gần miền có một mụ nào,"},{"nom":"迻𠊚遠客尋𠓨問名","quocngu":"Đưa người viễn khách tìm vào vấn danh."},{"nom":"𠳨𠸜浪馬監生","quocngu":"Hỏi tên, rằng: \\"Mã Giám sinh,"},{"nom":"𠳨圭浪縣臨清拱𧵆","quocngu":"Hỏi quê, rằng: \\"Huyện Lâm Thanh cũng gần.\\""},{"nom":"過年擢外𦊚旬","quocngu":"Quá niên trạc ngoại bốn tuần,"},{"nom":"𪵟𫙂忍隊襖裙丙包","quocngu":"Mày râu nhẵn nhụi, áo quần bảnh bao."},{"nom":"𠓀柴𡢐伵哰嗃","quocngu":"Trước thầy sau tớ lao xao,"},{"nom":"茹氷迻䋦逴𠓨樓粧","quocngu":"Nhà băng đưa mối rước vào lầu trang."},{"nom":"㨳𨕭𡎢卒産床","quocngu":"Ghế trên ngồi tót sẵn sàng,"},{"nom":"𢩣𥪝䋦㐌𠽖娘急𠚢","quocngu":"Buồng trong mối đã giục nàng kíp ra."},{"nom":"浽命添息浽茹","quocngu":"Nỗi mình thêm tức nỗi nhà,"},{"nom":"㙴春󰜋𨀈淚花󰋇行","quocngu":"Thềm xuân một bước, lệ hoa mấy hàng."},{"nom":"礙𥔘憚𩙍𠲖霜","quocngu":"Ngại ngùng dạn gió e sương,"},{"nom":"䀡花䏾𢢆𬂙𦎛󰘚𠫆","quocngu":"Xem hoa bóng thẹn, trông gương mặt dày."},{"nom":"䋦強𢵼𩅘󰈫𢬣","quocngu":"Mối càng vén tóc bắt tay,"},{"nom":"󰞺𢞂如菊調𤷍如梅","quocngu":"Nét buồn như cúc, điệu gầy như mai."},{"nom":"旦都斤色斤才","quocngu":"Đắn đo cân sắc cân tài,"},{"nom":"押宮琹月此排𦑗疎","quocngu":"Ép cung cầm nguyệt, thử bài quạt thơ."},{"nom":"𪉽濃󰜋𨤔󰜋於","quocngu":"Mặn nồng một vẻ một ưa,"},{"nom":"平𢚸客買隨機迭迢","quocngu":"Bằng lòng khách mới tuỳ cơ dặt dìu."},{"nom":"浪󰢅玉典藍橋","quocngu":"Rằng: \\"Mua ngọc đến Lam Kiều,"},{"nom":"聘儀󰂅𠰺包饒朱詳","quocngu":"Sính nghi vâng dạy bao nhiêu cho tường?\\""},{"nom":"䋦浪價當𠦳鐄","quocngu":"Mối rằng: \\"Giá đáng nghìn vàng,"},{"nom":"汲茹洳量𠊚傷𪾋㖠","quocngu":"Gấp nhà nhờ lượng người thương dám nài.\\""},{"nom":"𪂲𤷍󰈫󰜋添𠄩","quocngu":"Cò kè bớt một thêm hai,"},{"nom":"徐𥹰我價𠹾外𦊚𤾓","quocngu":"Giờ lâu ngã giá chịu ngoài bốn trăm."},{"nom":"󰜋𠳒船㐌淹潭","quocngu":"Một lời thuyền đã êm giầm,"},{"nom":"唉迻𦑃帖𠓀擒爫𥱬","quocngu":"Hãy đưa cánh thiếp trước cầm làm ghi."},{"nom":"定𣈜納釆于歸","quocngu":"Định ngày nạp thái vu quy,"},{"nom":"錢𨉞㐌固役之拯衝","quocngu":"Tiền lưng đã có việc gì chẳng xong!"},{"nom":"󰜋𠳒𢭄貝終公","quocngu":"Một lời cậy với Chung công,"},{"nom":"乞詞暫領王翁衛茹","quocngu":"Khất từ tạm lĩnh Vương ông về nhà."},{"nom":"傷情昆𥘷吒𫅷","quocngu":"Thương tình con trẻ cha già,"},{"nom":"𥆾娘翁仍𧖱沙𫆧油","quocngu":"Nhìn nàng ông những máu sa ruột rầu."},{"nom":"餒昆仍約衛𡢐","quocngu":"Nuôi con những ước về sau,"},{"nom":"𢭂絲沛侶招球當尼","quocngu":"Trao tơ phải lứa, gieo cầu đáng nơi."},{"nom":"𡗶爫之極閉𡗶","quocngu":"Trời làm chi cực bấy trời,"},{"nom":"尼埃誣托朱𠊚合散","quocngu":"Này ai vu thác cho người hợp tan!"},{"nom":"斧刀包管身殘","quocngu":"Búa dao bao quản thân tàn,"},{"nom":"女菭墮𥘷強冤酷𫅷","quocngu":"Nỡ đày đoạ trẻ, càng oan khốc già."},{"nom":"󰜋吝𡢐𠓀拱羅","quocngu":"Một lần sau trước cũng là,"},{"nom":"催他󰘚屈拯他𢚸𤴬","quocngu":"Thôi thà mặt khuất chẳng thà lòng đau!\\""},{"nom":"蹺𠳒如沚𣳔珠","quocngu":"Theo lời như chảy dòng châu,"},{"nom":"料命翁㐌招頭墙𪿙","quocngu":"Liều mình ông đã gieo đầu tường vôi."},{"nom":"倍鐄几𪧚𠊚𥋳","quocngu":"Vội vàng kẻ giữ người coi,"},{"nom":"𡮈蘇娘吏尋𠳒𡅳干","quocngu":"Nhỏ to nàng lại tìm lời khuyên can:"},{"nom":"𨤔之󰜋朶紅顔","quocngu":"\\"Vẻ chi một đoá hồng nhan,"},{"nom":"𩅘絲𡭧渚填恩生成","quocngu":"Tóc tơ chút chửa đền ơn sinh thành."},{"nom":"𤼸書㐌𢢆娘鶯","quocngu":"Dâng thư đã thẹn nàng Oanh,"},{"nom":"吏輸妸李半命𫨩牢","quocngu":"Lại thua ả Lý bán mình hay sao"},{"nom":"𦾣椿歲鶴強高","quocngu":"Thôi xuân tuổi hạc càng cao,"},{"nom":"󰜋𣘃梗搏别包饒梗","quocngu":"Một cây gánh vác biết bao nhiêu cành."},{"nom":"量𨕭油拯决情","quocngu":"Lượng trên dù chẳng quyết tình,"},{"nom":"𩙍𩅹歐罕散情渃𡽫","quocngu":"Gió mây âu hẳn tan tành nước non."},{"nom":"他浪料󰜋身昆","quocngu":"Thà rằng liều một thân con,"},{"nom":"花油扡𦑃羅群撑𣘃","quocngu":"Hoa dù rã cánh, là còn xanh cây."},{"nom":"分牢停丕拱噅","quocngu":"Phận sao đành vậy cũng vầy,"},{"nom":"擒如拯杜仍𣈜群撑","quocngu":"Cầm như chẳng đỗ những ngày còn xanh."},{"nom":"拱停併窘算觥","quocngu":"Cũng đừng tính quẩn toan quanh,"},{"nom":"散茹羅󰜋舌命羅𠄩","quocngu":"Tan nhà là một, thiệt mình là hai\\""},{"nom":"沛𠳒翁拱淹𦖻","quocngu":"Phải lời ông cũng êm tai,"},{"nom":"𥆾饒湥𥐆湥𨱽滚昂","quocngu":"Nhìn nhau giọt ngắn giọt dài ngổn ngang."},{"nom":"𠃅𡢐户馬𣃣𨖅","quocngu":"Mái sau họ Mã vừa sang,"},{"nom":"詞花㐌記斤鐄買𢭂","quocngu":"Tờ hoa đã ký, cân vàng mới trao."},{"nom":"𦝄𫅷毒地爫牢","quocngu":"Trăng già độc địa làm sao"},{"nom":"擒𦀊𫽄捛纀𠓨自然","quocngu":"Cầm dây chẳng lựa buộc vào tự nhiên."},{"nom":"𥪝𢬣㐌産銅錢","quocngu":"Trong tay đã sẵn đồng tiền,"},{"nom":"油𢚸𢷮𤽸台顛𧁷之","quocngu":"Dầu lòng đổi trắng thay đen khó gì."},{"nom":"户終𠚢飭執爲","quocngu":"Họ Chung ra sức giúp vì,"},{"nom":"禮心㐌達訟期拱衝","quocngu":"Lễ tâm đã đặt, tụng kỳ cũng xong."},{"nom":"役茹買暫從容","quocngu":"Việc nhà mới tạm thong dong,"},{"nom":"星期𠽖吔㐌蒙度衛","quocngu":"Tinh kỳ giục giã đã mong độ về."},{"nom":"󰜋命𢭗𦰟畑𣌉","quocngu":"Một mình nương ngọn đèn khuya,"},{"nom":"𬡢滛湥𢣃𩯀車𠃅愁","quocngu":"Áo dầm giọt tủi, tóc se mái sầu."},{"nom":"分油油丕拱油","quocngu":"Phận dầu, dầu vậy cũng dầu,"},{"nom":"𡭧𢚸刀等閉𥹰󰜋𠳒","quocngu":"Chút lòng đeo đẳng bấy lâu một lời."},{"nom":"功程計别󰋇𨑮","quocngu":"Công trình kể biết mấy mươi."},{"nom":"爲些𠻞喫朱𠊚𢷣揚","quocngu":"Vì ta khăng khít cho người dở dang."},{"nom":"誓花渚燥𡃹鐄","quocngu":"Thề hoa chưa ráo chén vàng,"},{"nom":"磊誓催㐌負徬貝花","quocngu":"Lỗi thề thôi đã phũ phàng với hoa."},{"nom":"𡗶遼𡽫渃包賒","quocngu":"Trời Liêu non nước bao xa,"},{"nom":"擬兜𢩵󰘇𢺺茹自碎","quocngu":"Nghĩ đâu rẽ cửa chia nhà tự tôi!"},{"nom":"别包綠女誓培","quocngu":"Biết bao duyên nợ thề bồi,"},{"nom":"劫尼催世羅催群之","quocngu":"Kiếp này thôi thế là thôi còn gì?"},{"nom":"再生渚𢴑香誓","quocngu":"Tái sinh chưa dứt hương thề,"},{"nom":"爫身𬌥馭填誼竹梅","quocngu":"Làm thân trâu ngựa đền nghì trúc mai"},{"nom":"𡢻情渚假朱埃","quocngu":"Nợ tình chưa trả cho ai,"},{"nom":"塊情芒𫴋泉臺渚散","quocngu":"Khối tình mang xuống tuyền đài chưa tan!\\""},{"nom":"浽𥢆𥢆仍盘桓","quocngu":"Nỗi riêng, riêng những bàn hoàn,"},{"nom":"油炵𤽸𥒦湥瀾渗巾","quocngu":"Dầu chong trắng đĩa, lệ tràn thấm khăn."},{"nom":"翠雲秩醒職春","quocngu":"Thuý Vân chợt tỉnh giấc xuân,"},{"nom":"󰡎畑𨄾典殷勤𠳨𠻃","quocngu":"Dưới đèn ghé đến ân cần hỏi han."},{"nom":"機𡗶橷𣷭多端","quocngu":"Cơ trời dâu bể đa đoan,"},{"nom":"󰜋茹底姉𥢆寃󰜋命","quocngu":"Một nhà để chị riêng oan một mình."},{"nom":"據之𡎢忍殘更","quocngu":"Cớ chi ngồi nhẫn tàn canh,"},{"nom":"浽𥢆群王䋦情之低","quocngu":"Nỗi riêng còn vướng mối tình chi đây?"},{"nom":"浪𢚸當忖恜菭","quocngu":"Rằng: \\"Lòng đương thổn thức đầy,"},{"nom":"絲綠群王䋦尼渚衝","quocngu":"Tơ duyên còn vướng mối này chưa xong."},{"nom":"𠼯𠶣𠚢拱𢢆𢝣","quocngu":"Hở môi ra cũng thẹn thùng,"},{"nom":"底𢚸乙負𬌓𢚸貝埃","quocngu":"Để lòng ắt phụ tấm lòng với ai!"},{"nom":"𢭄㛪㛪拱𠹾𠳒","quocngu":"Cậy em, em cũng chịu lời,"},{"nom":"𡎥蓮朱姉𥛉耒仕疎","quocngu":"Ngồi lên cho chị lạy rồi sẽ thưa."},{"nom":"𡧲塘縆梗相思","quocngu":"Giữa đường đứt gánh tương tư,"},{"nom":"膠鸞執䋦絲乘默㛪","quocngu":"Keo loan chắp mối duyên thừa mặc em."},{"nom":"計自欺﨤払金","quocngu":"Kể từ khi gặp chàng Kim,"},{"nom":"欺𣈜𦑗約欺𣎀𡃹誓","quocngu":"Khi ngày quạt ước, khi đêm chén thề."},{"nom":"事兜㳥𩙍不期","quocngu":"Sự đâu sóng gió bất kỳ,"},{"nom":"孝情坤𨤰𠄩皮院𠄩","quocngu":"Hiếu tình khôn lẽ hai bề vẹn hai."},{"nom":"𣈜春㛪唉群𨱽","quocngu":"Ngày xuân em hãy còn dài,"},{"nom":"㤕情𧖱󰔨台𠳒渃𡽫","quocngu":"Xót tình máu mủ, thay lời nước non."},{"nom":"姉油䏦󰞺󰢇𤷱","quocngu":"Chị dù thịt nát xương mòn,"},{"nom":"唅唭𠃩𤂬唉群𦹳徠","quocngu":"Ngậm cười chín suối hãy còn thơm lây."},{"nom":"隻鑅貝幅詞𩄲","quocngu":"Chiếc vành với bức tờ mây,"},{"nom":"綠尼沛𪧚物尼𧵑終","quocngu":"Duyên này phải giữ, vật này của chung."},{"nom":"油㛪𢧚𡞕𢧚𫯳","quocngu":"Dầu em nên vợ nên chồng,"},{"nom":"擬𠊚命薄乙𢚸拯𫡻","quocngu":"Nghĩ người mệnh bạc ắt lòng chẳng quên."},{"nom":"秩𠊚群𡭧𧵑信","quocngu":"Mất người còn chút của tin,"},{"nom":"泛彈貝𬌓香願𣈜𠸗","quocngu":"Phím đàn với tấm hương nguyền ngày xưa."},{"nom":"枚𡢐油典包徐","quocngu":"Mai sau dù đến bao giờ,"},{"nom":"焠爐香意搊絲泛尼","quocngu":"Đốt lò hương ấy, so tơ phím này."},{"nom":"𬂙𠚢𦰟𦹵蘿𣘃","quocngu":"Trông ra ngọn cỏ lá cây,"},{"nom":"𧡊囂囂𩙍浪𫨩姉衛","quocngu":"Thấy hiu hiu gió rằng hay chị về."},{"nom":"𩲉群恾󰠱𠳒誓","quocngu":"Hồn còn mang nặng lời thề,"},{"nom":"󰞺身蒲柳㨋誼竹梅","quocngu":"Nát thân bồ liễu, trả nghì trúc mai."},{"nom":"夜臺隔󰘚屈𠳒","quocngu":"Dạ đài cách mặt khuất lời,"},{"nom":"洒填湥渃朱𠊚托寃","quocngu":"Rảy xin giọt nước cho người thác oan."},{"nom":"悲徐簪技𦎛散","quocngu":"Bây giờ trâm gãy gương tan,"},{"nom":"計爫牢掣𨷈萬愛恩","quocngu":"Kể làm sao xiết muôn vàn ái ân."},{"nom":"𤾓𠦳𠳚𥛉情君","quocngu":"Trăm nghìn gửi lại tình quân,"},{"nom":"絲縁𥐆𨤔固銀意傕","quocngu":"TƠ duyên vắn vủi có ngần ấy thôi."},{"nom":"分牢分泊如𪿙","quocngu":"Phận sao phận bạc như vôi,"},{"nom":"㐌停渃沚花㵢呂󰆌","quocngu":"Đã đành nước chảy hoa trôi lỡ làng."},{"nom":"喂金郎唉金郎","quocngu":"Ôi Kim lang! Hỡi Kim lang!"},{"nom":"催催妾㐌負払自低","quocngu":"Thôi thôi thiếp đã phụ chàng từ đây!\\""},{"nom":"𣴓𠳒魂𢴑𧖱醝","quocngu":"Cạn lời hồn dứt máu say,"},{"nom":"󰜋唏𠻴𡴯堆𢬣冷銅","quocngu":"Một hơi lặng ngắt, đôi tay lạnh đồng."},{"nom":"椿萱秩醒職燶","quocngu":"Xuân huyên chợt tỉnh giấc nồng,"},{"nom":"󰜋茹㧜笠几𥪝𠊚外","quocngu":"Một nhà tấp nập kẻ trong người ngoài."},{"nom":"几湯𠊚𫊚排排","quocngu":"Kẻ thang người thuốc bời bời,"},{"nom":"買油千彙渚派湥紅","quocngu":"Mới dầu cơn vựng, chưa phai giọt hồng."},{"nom":"𠳨牢𠚢事邏𨓡","quocngu":"Hỏi: \\"Sao ra sự lạ lùng?\\""},{"nom":"翹強𠽋𦬑𨷑空𠚢𠳒","quocngu":"Kiều càng nức nở mở không ra lời."},{"nom":"浽娘雲買󰁹𦖻","quocngu":"Nỗi nàng, Vân mới rỉ tai,"},{"nom":"隻釵尼貝詞培於低","quocngu":"Chiếc thoa này với tờ bồi ở đây!"},{"nom":"尼吒爫𦇒綠𡮠","quocngu":"Này cha làm lỗi duyên mày"},{"nom":"催催浽意𡢐尼㐌㛪","quocngu":"Thôi thôi nỗi ấy sau này đã em."},{"nom":"爲埃󰠹𦰦徠金","quocngu":"Vì ai rụng cải rơi kim,"},{"nom":"底昆䕯浽𩄲沉爲埃","quocngu":"Để con bèo nổi mây chìm vì ai"},{"nom":"𠳒昆𠸕吏󰜋𠄩","quocngu":"Lời con nhủ lại một hai,"},{"nom":"𠱋𤷱碑𥒥鉴差𡬷鐄","quocngu":"Dẫu mòn bia đá, dám sai tấc vàng!\\""},{"nom":"𥛉催娘吏練呈","quocngu":"Lạy thôi nàng lại rén chiềng:"},{"nom":"洳吒㨋特義払朱吹","quocngu":"\\"Nhờ cha trả được nghĩa chàng cho xuôi."},{"nom":"詫之身分碎隊","quocngu":"Sá chi thân phận tôi đòi,"},{"nom":"唒浪󰢇𤽸圭𠊚管包","quocngu":"Dẫu rằng xương trắng quê người quản bao!\\""},{"nom":"掣包計浽慘愁","quocngu":"Xiết bao kể nỗi thảm sầu,"},{"nom":"刻更㐌𠽖南樓󰋇回","quocngu":"Khắc canh đã giục nam lâu mấy hồi."},{"nom":"轎花兜㐌典外","quocngu":"Kiệu hoa đâu đã đến ngoài,"},{"nom":"管弦兜㐌𠽖𠊚生離","quocngu":"Quản huyền đâu đã giục người sinh ly."},{"nom":"𤴬𢚸几於𠊚𠫾","quocngu":"Đau lòng kẻ ở người đi,"},{"nom":"淚淶滲𥒥絲𢺺癒蠶","quocngu":"Lệ rơi thấm đá, tơ chia rũ tằm."},{"nom":"𡗶𣋚𩄲蹻最霪","quocngu":"Trời hôm mây kéo tối rầm,"},{"nom":"油油𦰟𦹵滛滛梗霜","quocngu":"Dàu dàu ngọn cỏ, đầm đầm cành sương."},{"nom":"逴妯衛典駐坊","quocngu":"Rước dâu về đến trú phường,"},{"nom":"𦊛皮春鎖󰜋娘於𥪝","quocngu":"Tư bề xuân tỏa một nàng ở trong."},{"nom":"汲凝𢢆錄𠲖紅","quocngu":"Ngập ngừng thẹn lục e hồng,"},{"nom":"擬𢚸吏㤕車𢚸隊番","quocngu":"Nghĩ lòng lại xót xa lòng đòi phen."},{"nom":"品𠎣淶典𢬣𢤞","quocngu":"Phẩm tiên rơi đến tay hèn,"},{"nom":"懷功𬋟𪧚𩅹󱓀貝埃","quocngu":"Hoài công nắng giữ mưa gìn với ai!"},{"nom":"别身典𨀈落𩔗","quocngu":"Biết thân đến bước lạc loài,"},{"nom":"蕊桃㐌𢯏朱𠊚情鍾","quocngu":"Nhị đào đã bẻ cho người tình chung."},{"nom":"爲些垠󰖮𩙍東","quocngu":"Vì ta ngăn đón gió đông,"},{"nom":"舌𢚸欺於𤴬𢚸欺𠫾","quocngu":"Thiệt lòng khi ở, đau lòng khi đi."},{"nom":"重逢油禍固欺","quocngu":"Trùng phùng dù họa có khi,"},{"nom":"身尼催固群之麻蒙","quocngu":"Thân này thôi có còn gì mà mong."},{"nom":"㐌生𠚢數龍冬","quocngu":"Đã sinh ra số long đong,"},{"nom":"群恾𥙩刼𦟐紅特牢","quocngu":"Còn mang lấy kiếp má hồng được sao\\""},{"nom":"𨕭案産固昆刀","quocngu":"Trên yên sẵn có con dao,"},{"nom":"𨁪𢶒娘㐌𢶒𠓨𧝨巾","quocngu":"Giấu cầm nàng đã gói vào chéo khăn:"},{"nom":"防欺渃㐌典蹎","quocngu":"Phòng khi nước đã đến chân,"},{"nom":"刀尼仕料貝身𡢐尼","quocngu":"Dao này sẽ liệu với thân sau này."},{"nom":"點愁󰜋刻󰜋遲","quocngu":"Điểm sầu một khắc một chầy,"},{"nom":"氷傾如醒如醝󰜋命","quocngu":"Bâng khuâng như tỉnh như say một mình."},{"nom":"拯疑󰢈馬監生","quocngu":"Chẳng ngờ gã Mã Giám sinh,"},{"nom":"刎羅󰜋𠀲風情㐌悁","quocngu":"Vẫn là một đứa phong tình đã quen."},{"nom":"戈𨔈吏﨤回顛","quocngu":"Qua chơi lại gặp hồi đen,"},{"nom":"悁塳吏劍咹沔月花","quocngu":"Quen vùng lại kiếm ăn miền nguyệt hoa."},{"nom":"楼撑固媒秀󰜏","quocngu":"Lầu xanh có mụ Tú bà,"},{"nom":"󰆌𨔈㐌跙衛𫅷歇綠","quocngu":"Làng chơi đã trở về già hết duyên."},{"nom":"情期拯限麻𢧚","quocngu":"Tình cờ chẳng hẹn mà nên,"},{"nom":"𡊉鋸𦲾䔲堆邊󰜋坊","quocngu":"Mạt cưa mướp đắng đôi bên một phường."},{"nom":"鍾𦝄𨷑󰜋𡾵行","quocngu":"Chung lưng mở một ngôi hàng,"},{"nom":"觥𢆥奔粉半香㐌例","quocngu":"Quanh năm buôn phấn bán hương đã lề."},{"nom":"𨄹尋泣𢄂吏圭","quocngu":"Dạo tìm khắp chợ lại quê,"},{"nom":"假名侯下𠰺藝咹𨔈","quocngu":"Giả danh hầu hạ, dạy nghề ăn chơi."},{"nom":"𢤡󰡊歐拱事𡗶","quocngu":"Rủi may âu cũng sự trời,"},{"nom":"斷膓吏論󰘚𠊚無綠","quocngu":"Đoạn trường lại chọn mặt người vô duyên."},{"nom":"㤕娘𡭧分婵娟","quocngu":"Xót nàng chút phận thuyền quyên,"},{"nom":"梗花󰝡半𠓨船俚倴","quocngu":"Cành hoa đem bán vào thuyền lái buôn."},{"nom":"卯驢㐌𢹇𠓨囷","quocngu":"Mẹo lừa đã mắc vào khuôn,"},{"nom":"聘儀𥜤價迎婚産𣈜","quocngu":"Sính nghi rẻ giá, nghinh hôn sẵn ngày."},{"nom":"𢜠󰠐旗㐌典𢬣","quocngu":"Mừng thầm: \\"Cờ đã đến tay,"},{"nom":"強𥆾𨤔玉強醝曲鐄","quocngu":"Càng nhìn vẻ ngọc, càng say khúc vàng."},{"nom":"㐌𢧚國色天香","quocngu":"Đã nên quốc sắc thiên hương,"},{"nom":"󰜋唭尼罕𠦳鐄拯訛","quocngu":"Một cười này hẳn nghìn vàng chẳng ngoa!"},{"nom":"衛低渃𠓀𢯏花","quocngu":"Về đây nước trước bẻ hoa,"},{"nom":"王孫貴客乙羅都饒","quocngu":"Vương tôn quý khách ắt là đua nhau."},{"nom":"罕𠀧𤾓两劍󰠳","quocngu":"Hẳn ba trăm lạng kém đâu,"},{"nom":"拱陀𣃣󰢉群𡢐羅󰢊","quocngu":"Cũng đà vừa vốn còn sau là lời."},{"nom":"𠰘唁掑典羡尼","quocngu":"Miếng ngon kề đến tận nơi,"},{"nom":"󰢉茹拱惜𧵑𡗶拱貪","quocngu":"Vốn nhà cũng tiếc, của trời cũng tham."},{"nom":"桃僊㐌𤊰𢬣凡","quocngu":"Đào tiên đã bén tay phàm,"},{"nom":"𪰛楥梗橘朱甘事𠁀","quocngu":"Thì vin cành quít cho cam sự đời."},{"nom":"󰡎塵󰋇󰘚廊𨔈","quocngu":"Dưới trần mấy mặt làng chơi,"},{"nom":"𨔈花㐌易󰋇𠊚别花","quocngu":"Chơi hoa đã dễ mấy người biết hoa!"},{"nom":"渃𤿭橊𧖱毷𬷤","quocngu":"Nước vỏ lựu, máu mào gà,"},{"nom":"摱牟招集吏羅群原","quocngu":"Mượn màu chiêu tập lại là còn nguyên."},{"nom":"矑𥊚打吝昆顛","quocngu":"LỜ mờ đánh lận con đen,"},{"nom":"包饒拱閉饒錢𠅎之","quocngu":"Bao nhiêu cũng bấy nhiêu tiền mất chỉ"},{"nom":"媒𫅷油固調之","quocngu":"Mụ già dầu có điều gì,"},{"nom":"料功𠅎󰜋𣇜跪麻催","quocngu":"Liều công mất một buổi quỳ mà thôi."},{"nom":"𡲤低塘詫賒吹","quocngu":"Vả đây đường sá xa xôi,"},{"nom":"麻些不動女𠊚生疑","quocngu":"Mà ta bất động nữa người sinh nghi\\""},{"nom":"惜台󰜋朶𨢕醿","quocngu":"Tiếc thay một đoá trà mi,"},{"nom":"昆蜂㐌𨷑塘𠫾𡓃衛","quocngu":"Con ong đã mở đường đi lối về."},{"nom":"󰜋干𩅹𩙍󰠱泥","quocngu":"Một cơn mưa gió nặng nề,"},{"nom":"傷洟典玉惜洟典香","quocngu":"Thương gì đến ngọc, tiếc gì đến hương."},{"nom":"席春󰜋職𢠩恾","quocngu":"Tiệc xuân một giấc mơ màng,"},{"nom":"𤒘花底妬默娘𡎢猪","quocngu":"Đuốc hoa để đó mặc nàng ngồi trơ."},{"nom":"淚𥢆潯瀉𣻆𩅹","quocngu":"Lệ riêng tầm tã tuôn mưa,"},{"nom":"分惍浽客分𦝔浽命","quocngu":"Phần căm nỗi khách, phần dơ nỗi mình."},{"nom":"從之羅󰣉脄腥","quocngu":"Tuồng chi là giống hôi tanh,"},{"nom":"身𠦳鐄底污名𦟐紅","quocngu":"Thân nghìn vàng để Ô danh má hồng."},{"nom":"催群之女麻蒙","quocngu":"Thôi còn chi nữa mà mong,"},{"nom":"𠁀𠊚催世羅衝󰜋𠁀","quocngu":"Đời người thôi thế là xong một đời\\""},{"nom":"恨綠𢣃分排排","quocngu":"Giận duyên tủi phận bời bời,"},{"nom":"擒刀娘㐌算排捐生","quocngu":"Cầm dao nàng đã toan bài quyên sinh."},{"nom":"擬𠫾擬吏󰜋命","quocngu":"Nghĩ đi nghĩ lại một mình,"},{"nom":"󰜋命𪰛𠤆𠄩情女牢","quocngu":"Một mình thì chớ, hai tình nữa sao"},{"nom":"𡢐油生事世󰅹","quocngu":"Sau dầu sinh sự thế nào,"},{"nom":"追原拯矯累𠓨雙親","quocngu":"Truy nguyên chẳng kẻo lụy vào song thân."},{"nom":"悴料歐沛𠡚寅","quocngu":"Trót liều âu phải gắng dần,"},{"nom":"急遲催拱󰜋吝麻催","quocngu":"Kíp chầy thôi cũng một lần mà thôi!\\""},{"nom":"仍羅𢵋旦虐吹","quocngu":"Những là đo đắn ngược xuôi,"},{"nom":"㗂𬷤𦖑㐌嘅傕𠃅墙","quocngu":"Tiếng gà nghe đã gáy thôi mé tường."},{"nom":"樓𣈕𣃣㗜𧥇霜","quocngu":"Lầu mai vừa rúc còi sương,"},{"nom":"馬生𠽖𠻛倍鐄𠚢𠫾","quocngu":"Mã sinh giục rạo vội vàng ra đi."},{"nom":"断膓台𣅶臨歧","quocngu":"Đoạn trường thay lúc lâm kỳ,"},{"nom":"𨀒駒泣警𨋣車岌𡹡","quocngu":"Vó câu khấp khểnh, bánh xe gập ghềnh."},{"nom":"𣃣外𨑮𨤵長亭","quocngu":"Bề ngoài mười dặm trường đình,"},{"nom":"王翁挭席餞行迻蹺","quocngu":"Vương ông gánh tiệc tiễn hành đưa theo."},{"nom":"外茹主客逸迢","quocngu":"Ngoài nhà chủ khách dập dìu,"},{"nom":"𥪝茹萱貝󰜋翹於𥪝","quocngu":"Trong nhà huyên với một Kiều ở trong."},{"nom":"強𥆾強滸湥紅","quocngu":"Càng nhìn càng ứa giọt hồng,"},{"nom":"󰁹𦖻娘買𤉒𢚸𥰊高","quocngu":"Rỉ tai nàng mới giải lòng thấp cao."},{"nom":"虎生𠚢分疎桃","quocngu":"Hổ sinh ra phận thơ đào,"},{"nom":"功吒義媄刼󰅹㨋衝","quocngu":"Công cha nghĩa mẹ kiếp nào trả xong?"},{"nom":"呂廊渃濁𣻃𤄯","quocngu":"Lỡ làng nước đục bụi trong,"},{"nom":"𤾓𢆥底󰜋𬌓𢚸自低","quocngu":"Trăm năm để một tấm lòng từ đây."},{"nom":"䀡𦎛𥪝閉饒𣈜","quocngu":"Xem gương trong bấy nhiêu ngày,"},{"nom":"身昆拯矯𢹇𢬣姂𫅷","quocngu":"Thân con chẳng kẻo mắc tay bợm già."},{"nom":"欺𠫾補永𥪝茹","quocngu":"Khi đi bỏ vắng trong nhà,"},{"nom":"欺𠓨𣼭孕欺𠚢倍鐄","quocngu":"Khi vào dồi dắng, khi ra vội vàng."},{"nom":"欺咹欺呐呂廊","quocngu":"Khi ăn, khi nói lỡ làng,"},{"nom":"欺柴欺伵䀡常䀡輕","quocngu":"Khi thầy, khi tớ xem thường xem khinh."},{"nom":"恪牟几貴𠊚清","quocngu":"Khác màu kẻ quý người thanh,"},{"nom":"𥋴𠚢朱技如形昆奔","quocngu":"Ngắm ra cho kỹ như hình con buôn"},{"nom":"傕昆群呐之昆","quocngu":"Thôi, con còn nói chi con,"},{"nom":"𤯩洳坦客托墫圭𠊚","quocngu":"Sống nhờ đất khách, thác chôn quê người\\""},{"nom":"王󰜏𦖑閉饒𠳒","quocngu":"Vương bà nghe bấy nhiêu lời,"},{"nom":"㗂冤㐌悶拍𡗶呌𨖲","quocngu":"Tiếng oan đã muốn vạch trời kêu lên."},{"nom":"𠄽旬渚𣴓𡃹𡅳","quocngu":"Vài tuần chưa cạn chén khuyên,"},{"nom":"𠃅外儗㐌𠽖連𨇒車","quocngu":"Mái ngoài nghỉ đã giục liền ruổi xe."},{"nom":"㤕昆𢚸󰠱遲遲","quocngu":"Xót con lòng nặng chề chề,"},{"nom":"𠓀鞍翁吏𡅧呢𥰊高","quocngu":"Trước yên ông lại nằn nì thấp cao."},{"nom":"㤕身要柳疎桃","quocngu":"\\"Xót thân yếu liễu thơ đào,"},{"nom":"極茄典浽𤄱𠓨碎𤽗","quocngu":"Cực nhà đến đỗi giấn vào tôi ngươi."},{"nom":"自低𧣳𣷭邊𡗶","quocngu":"Từ đây góc bể bên trời,"},{"nom":"𬋟𩅹退退圭𠊚󰜋身","quocngu":"Nắng mưa thui thủi quê người một thân."},{"nom":"𠦳尋洳䏾松筠","quocngu":"Nghìn tầm nhờ bóng tùng quân,"},{"nom":"雪霜𩂏𨔾朱身葛藤","quocngu":"Tuyết sương che chở cho thân cát đằng."},{"nom":"𣴓𠳒客買𠽔浪","quocngu":"Cạn lời khách mới thưa rằng:"},{"nom":"纀蹎傕拱赤绳冉𢭂","quocngu":"\\"Buộc chân thôi cũng xích thằng nhiệm trao."},{"nom":"𣈕𡢐油典世󰅹","quocngu":"Mai sau dầu dến thế nào,"},{"nom":"箕𦎛日月怒刀鬼神","quocngu":"Kìa gương nhật nguyệt, nọ dao quỷ thần.\\""},{"nom":"同同𩙍𠽖𩄲運","quocngu":"Đùng đùng gió giục mây vần,"},{"nom":"󰜋車𥪝𡎝紅塵如𠖤","quocngu":"Một xe trong cõi hồng trần như bay,"},{"nom":"𬂙潙拔淚𢺹𢬣","quocngu":"Trông vời gạt lệ chia tay,"},{"nom":"𧣳𡗶瀋瀋𣈜𣈜󰝡󰝡","quocngu":"Góc trời thăm thẳm, ngày ngày đăm đăm."},{"nom":"傷娘𨤵客賒駸","quocngu":"Thương nàng dặm khách xa xăm,"},{"nom":"泊抛橋這顛霪岸𩄲","quocngu":"Bạc phau cầu giá, đen rầm ngàn mây."},{"nom":"葦𦰤察察唏𩘄","quocngu":"Vi lau san sát hơi may,"},{"nom":"󰜋𡗶秋底𥢆癡󰜋𠊚","quocngu":"Một trời thu để riêng ngây một người."},{"nom":"𨤵𣌉𩁶凈𩂟𣾺","quocngu":"Dặm khuya ngất tạnh mù khơi,"},{"nom":"𧡊𦝄麻𢢆仍𠳒𡽫滝","quocngu":"Thấy trăng mà thẹn những lời non sông."},{"nom":"棱秋層碧杆紅","quocngu":"Rừng thu từng biếc chen hồng,"},{"nom":"𦖑𪀄如𠯅󰣔𢚸晨昏","quocngu":"Nghe chim như nhắc tấm lòng thần hôn."},{"nom":"仍羅邏渃邏𡽫","quocngu":"Những là lạ nước lạ non,"},{"nom":"臨緇𣃣󰜋𣎃𧷺典尼","quocngu":"Lâm Truy vừa một tháng tròn đến nơi."},{"nom":"車珠仃𨋣𨷶外","quocngu":"Xe châu dừng bánh cửa ngoài,"},{"nom":"簾𥪝㐌𧡊󰜋𠊚𨀈𠚢","quocngu":"Rèm trong đã thấy một người bước ra."},{"nom":"脱𬂙辣辣牟䏧","quocngu":"Thoắt trông nhờn nhợt màu da,"},{"nom":"咹之高𢀲悌它爫牢","quocngu":"Ăn gì cao lớn đẫy đà làm sao"},{"nom":"𠓀車雷󰌕𪡗嘲","quocngu":"Trước xe lơi lả han chào,"},{"nom":"󰂅𠳒娘買蹺𠓨羡尼","quocngu":"Vâng lời nàng mới theo vào tận nơi."},{"nom":"邊尼󰋇妸𪵟𧍋","quocngu":"Bên này mấy ả mày ngài,"},{"nom":"邊箕𡎢𦊚𢆥𠊚廊𨔈","quocngu":"Bên kia ngồi bốn năm người làng chơi."},{"nom":"𡧲排香篆罕灰","quocngu":"Giữa bày hương triện hẳn hoi,"},{"nom":"𨕭撩󰜋像𤽸堆󰋃𪵟","quocngu":"Trên treo một tượng trắng đôi lông mày."},{"nom":"樓撑悁𡓃𠸗󰅒","quocngu":"Lầu xanh quen lối xưa nay,"},{"nom":"藝尼沛𥙩翁尼先師","quocngu":"Nghề này phải lấy ông này tiên sư,"},{"nom":"香花𣋚𣌋奉蜍","quocngu":"Hương hoa hôm sớm phụng thờ,"},{"nom":"姑󰅹醜𩴬固疎䋦行","quocngu":"Cô nào xấu vía có thưa mối hàng,"},{"nom":"𢶒袩𢯰襖𢥇悜","quocngu":"Cổi xiêm lột áo chán chường,"},{"nom":"𠓀晨仕願𤗖香惏𠽍","quocngu":"Trước thần sẽ nguyện mảnh hương lầm rầm."},{"nom":"對花𢯰𫴋詔𦣰","quocngu":"Đổi hoa lót xuống chiếu nằm,"},{"nom":"𧊉蜂𠫾吏喑喑四圍","quocngu":"Bướm ong đi lại ầm ầm tứ vi."},{"nom":"娘群𠳝𡂂別之","quocngu":"Nàng còn bỡ ngỡ biết gì,"},{"nom":"據𠳒𥛉𫴋媒𪰛𡄩𣦍","quocngu":"Cứ lời lạy xuống mụ thì khấn ngay:"},{"nom":"𨷑行奔半朱埋","quocngu":"\\"Mở hàng buôn bán cho may,"},{"nom":"𣎀𣎀寒食𣈜𣈜元宵","quocngu":"Đêm đêm Hàn thực, ngày ngày Nguyên tiêu."},{"nom":"𨷈萬𠊚𧡊拱腰","quocngu":"Muôn vàn người thấy cũng yêu,"},{"nom":"𠮿嗃󰢒燕熠燿竹梅","quocngu":"Xôn xao anh yến, dập dìu trúc mai."},{"nom":"信鴈刎蘿詩排","quocngu":"Tin nhạn vẩn, lá thơ bài,"},{"nom":"迻𠊚𨷶𠓀逴𠊚𨷶𡢐","quocngu":"Đưa người cửa trước, rước người cửa sau!\\""},{"nom":"邏𦖻𦖑渚別󰠳","quocngu":"Lạ tai nghe chửa biết đâu,"},{"nom":"䀡情羅拱仍牟𢷣揚","quocngu":"Xem tình là cũng những màu dở dang."},{"nom":"禮衝香火家堂","quocngu":"Lễ xong hương hỏa gia đường,"},{"nom":"秀󰜏𢪱蓐𨖲床𡎢𣦍","quocngu":"Tú bà vắt nhục lên giường ngồi ngay."},{"nom":"𠰺浪昆𥛉媄低","quocngu":"Dạy rằng: \\"Con lạy mẹ đây,"},{"nom":"𥛉耒𨖅𥛉舅𡮠邊箕","quocngu":"Lạy rồi sang lạy cậu mày bên kia!\\""},{"nom":"娘浪沛𨀈流離","quocngu":"Nàng rằng: \\"Phải bước lưu ly,"},{"nom":"分𪬡󰂅㐌甘皮小星","quocngu":"Phận hèn vâng đã cam bề tiểu tinh."},{"nom":"調兜𥙩燕爫󰢒","quocngu":"Điều đâu lấy yến làm anh,"},{"nom":"癡疎渚別羅名分之","quocngu":"Ngây thơ chửa biết là danh phận gì?"},{"nom":"𨇜調納采于歸","quocngu":"Đủ điều nạp thái vu quy,"},{"nom":"㐌欺悰󰢍吏欺𨅸𡎢","quocngu":"Đã khi suồng sã, lại khi đứng ngồi."},{"nom":"除𠚢台堛𢷮𡾵","quocngu":"Giờ ra thay bậc đổi ngôi,"},{"nom":"鉴嗔𠳚吏󰜋𠳒朱明","quocngu":"Dám xin gửi lại một lời cho minh.\\""},{"nom":"媒𦖑娘呐𫨩情","quocngu":"Mụ nghe nàng nói hay tình,"},{"nom":"閉𣇞買浽三彭媒𨖲","quocngu":"Bấy giờ mới nổi tam bành mụ lên:"},{"nom":"尼尼事㐌果然","quocngu":"\\"Này này sự đã quả nhiên,"},{"nom":"催㐌刼𤯩𫯳綿𠫾耒","quocngu":"Thôi đà cướp sống chồng min đi rồi!\\""},{"nom":"保浪𠫾𨄹𥙩𠊚","quocngu":"Bảo rằng: \\"Đi dạo lấy người,"},{"nom":"󰝡衛逴客劍利麻咹","quocngu":"Đem về rước khách kiếm lời mà ăn."},{"nom":"徒無義於不仁","quocngu":"Đồ vô nghĩa, ở bất nhân,"},{"nom":"𢞂命𠓀㐌秦緡此𨔈","quocngu":"Buồn mình trước đã tần mần thử chơi."},{"nom":"牟糊㐌𠅎𠫾耒","quocngu":"Màu hồ đã mất đi rồi,"},{"nom":"催催󰢉󰢎𠫾𠁀茹魔","quocngu":"Thôi thôi vốn liếng đi đời nhà ma!\\""},{"nom":"昆箕㐌󰢏朱些","quocngu":"Con kia đã bán cho ta,"},{"nom":"𠓨茹沛據法茹蚤低","quocngu":"Vào nhà phải cứ phép nhà tao đây."},{"nom":"老箕固𢷣排碑","quocngu":"Lão kia có giở bài bây,"},{"nom":"拯𠻵𠓨󰘚麻𡮠吏𦖑","quocngu":"Chẳng mắng vào mặt mà mày lại nghe!"},{"nom":"據牢𠹾卒󰜋皮","quocngu":"Cớ sao chịu tốt một bề,"},{"nom":"𡛔絲麻㐌語藝𣋽牢","quocngu":"Gái tơ mà đã ngứa nghề sớm sao!"},{"nom":"沛爫朱別法蚤","quocngu":"Phải làm cho biết phép tao!\\""},{"nom":"𪮞皮鞭拉𪮭𠓨𠚢𢬣","quocngu":"Giật bì tiên rắp sấn vào ra tay."},{"nom":"娘浪𡗶瀋坦𠫆","quocngu":"Nàng rằng: \\"Trời thẳm đất dày,"},{"nom":"身尼㐌補仍𣈜𠚢𠫾","quocngu":"Thân này đã bỏ những ngày ra đi."},{"nom":"催催群固惜之","quocngu":"Thôi thôi còn có tiếc gì!\\""},{"nom":"産刀𢬣襖即𪰛𢷣𠚢","quocngu":"Sẵn dao tay áo tức thì giở ra."},{"nom":"𢜝肝󰞺玉料花","quocngu":"SỢ gan nát ngọc liều hoa,"},{"nom":"媒群𬂙󰘚娘它過𢬣","quocngu":"Mụ còn trông mặt, nàng đà quá tay."},{"nom":"傷喂才色墨尼","quocngu":"Thương ôi, tài sắc mực này,"},{"nom":"󰜋刀冤孽𢴑𦀊風塵","quocngu":"Một dao oan nghiệt dứt dây phong trần."},{"nom":"浽冤𫮒󰢐賒𧵆","quocngu":"Nỗi oan vỡ lở xa gần,"},{"nom":"𥪝茹𠊚躓󰜋吝如𢬧","quocngu":"Trong nhà người chật một lần như nêm."},{"nom":"娘𣃣弼弼職僊","quocngu":"Nàng vừa bằn bặt giấc tiên,"},{"nom":"媒𪰛岌岌󰘚𥆾魂𠖤","quocngu":"Mụ thì cầm cập mặt nhìn hồn bay."},{"nom":"域娘𠓨准軒西","quocngu":"Vực nàng vào chốn hiên tây,"},{"nom":"割𠊚䀡朔逴柴𫊚湯","quocngu":"Cắt người xem sóc, rước thầy thuốc thang."},{"nom":"󰅹𫨩渚歇塵緣","quocngu":"Nào hay chưa hết trần duyên,"},{"nom":"𥪝迷𬂙𧡊淡仙𤑟𤉜","quocngu":"Trong mê trông thấy đạm tiên rõ ràng."},{"nom":"󰁹浪因果𢷣揚","quocngu":"Rỉ rằng: \\"Nhân quả dở dang,"},{"nom":"㐌算遁𧴱断膓特牢","quocngu":"Đã toan trốn nợ đoạn tràng hay sao"},{"nom":"數群󰠱業𦟐桃","quocngu":"Số còn nặng nghiệp má đào,"},{"nom":"𠊚油悶決𡗶󰅹㐌朱","quocngu":"Người dù muốn quyết, trời nào đã cho!"},{"nom":"𠹾𠳒朱院刼修","quocngu":"Chịu lời cho vẹn kiếp tu,"},{"nom":"瀧錢塘仕限㗅衛𡢐","quocngu":"Sông Tiền Đường sẽ hẹn hò về saụ\\""},{"nom":"𬟥湯卒󰜋𣈜偷","quocngu":"Thuốc thang suốt một ngày thâu,"},{"nom":"職僊𦖑㐌油油𣃣散","quocngu":"Giấc tiên nghe đã dàu dàu vừa tan."},{"nom":"秀󰜏直産邊幔","quocngu":"Tú bà chực sẵn bên màn,"},{"nom":"劍𠳒𡅳解綿蛮𫽻寅","quocngu":"Kiếm lời khuyên giải mơn man gỡ dần."},{"nom":"󰜋𠊚易固󰋇身","quocngu":"Một người dễ có mấy thân."},{"nom":"花春當蕊𣈜春群𨱽","quocngu":"Hoa xuân đăng nhụy, ngày xuân còn dài."},{"nom":"拱羅𢙲󰜋惏𠄩","quocngu":"Cũng là lỡ một lầm hai,"},{"nom":"𥒥鐄牢女押奈𩅹𩄲","quocngu":"Đá vàng sao nỡ ép nài mưa mây."},{"nom":"𢙲󰖄㐌卒𠓨低","quocngu":"Lỡ chân đã trót vào đây,"},{"nom":"銙𢩣春底徐𣈜桃𡽫","quocngu":"Khóa buồng xuân để chờ ngày đào non."},{"nom":"𠊚群意𧵑拱群","quocngu":"Người còn ấy của cũng còn,"},{"nom":"尋尼稱當羅昆丐茹","quocngu":"Tìm nơi xứng đáng là con cái nhà."},{"nom":"爫之罪報冤家","quocngu":"Làm chi tội báo oan gia,"},{"nom":"舌命麻害典些益之","quocngu":"Thiệt mình mà hại đến ta ích gì?"},{"nom":"掑𦖻󰋇浽𡅧呢","quocngu":"Kề tai mấy mỗi nằn nì,"},{"nom":"娘𦖑󰟯拱是非攊𢬗","quocngu":"Nàng nghe dường cũng thị phi rạch ròi."},{"nom":"𡲤推神夢󰋇𠳒","quocngu":"Vả suy thần mộng mấy lời,"},{"nom":"夙因歐拱固𡗶於𥪝","quocngu":"Túc nhân âu cũng có trời ở trong."},{"nom":"刼尼𡢻㨋渚衝","quocngu":"Kiếp này nợ trả chưa xong,"},{"nom":"爫之吏拱󰜋𫯳刼𡢐","quocngu":"Làm chi lại chọn một chồng kiếp sau."},{"nom":"朗𦖑浸噤𡳳頭","quocngu":"Lặng nghe thấm [ngấm] gót đầu,"},{"nom":"𠽔浪埃固悶兜世尼","quocngu":"Thưa rằng: \\"Ai có muốn đâu thế này."},{"nom":"特如𠳒世羅埋","quocngu":"Được như lời thế là may,"},{"nom":"罕浪𣈕固如𠳒朱庒","quocngu":"Hẳn rằng mai có như rày cho chăng."},{"nom":"𠲖欺蜂𧊉待騰","quocngu":"E khi ong bướm đãi đằng,"},{"nom":"典調𤯩濁牢朋托𤄯","quocngu":"Đến điều sống đục sao bằng thác trong.\\""},{"nom":"媒浪昆唉從容","quocngu":"Mụ rằng: \\"Con hãy thong dong,"},{"nom":"沛調𢚸吏𢷮𢚸麻𨔈","quocngu":"Phải điều lòng lại đổi lòng mà chơi."},{"nom":"𣈕𡢐於拯如𠳒","quocngu":"Mai sau ở chẳng như lời,"},{"nom":"𨕭頭固䏾󰘚𡗶𤎜𤐝","quocngu":"Trên đầu có bóng mặt trời rạng soi\\""},{"nom":"𧡊𠳒决断罕脄","quocngu":"Thấy lời quyết đoán hẳn hoi,"},{"nom":"停𢚸娘拱仕𢢯𢢯寅","quocngu":"Đành lòng nàng cũng sẽ nguôi nguôi dần."},{"nom":"𠓀𡢐凝碧鎖春","quocngu":"Trước sau ngưng bích khóa xuân,"},{"nom":"𤵖𡽫賒󰌵𦝄𧵆於終","quocngu":"Vết non xa, tấm trăng gần ở chung."},{"nom":"𦊚皮八𠯪賒𬂙","quocngu":"Bốn bề bát ngát xa trông,"},{"nom":"吉鐄𡑱怒𡏧紅𨤵箕","quocngu":"Cát vàng cồn nọ, bụi hồng dặm kia."},{"nom":"彼傍𩄲𣋽畑𣌉","quocngu":"Bẽ bàng mây sớm đèn khuya,"},{"nom":"姅情姅景如𢺺󰌵𢚸","quocngu":"Nửa tình nửa cảnh như chia tấm lòng."},{"nom":"想𠊚󰡎月󱋓同","quocngu":"Tưởng người dưới nguyệt chén đồng,"},{"nom":"信霜𨻫唉𣈙𬂙𣈕徐","quocngu":"Tin sương luống hãy rày trông mai chờ."},{"nom":"邊𡗶𧣳𣷭巴爲","quocngu":"Bên trời góc bể bơ vơ,"},{"nom":"󰌵𣘈滑典包𣇞朱派","quocngu":"Tấm son gột đến bao giờ cho phai."},{"nom":"㤕𠊚𢭸𫔸𣋚𣈕","quocngu":"Xót người tựa cửa hôm mai,"},{"nom":"𦑗燶撘冷仍埃妬𣇞","quocngu":"Quạt nồng đắp lạnh những ai đó giờ?"},{"nom":"庭萊隔󰋇𬋟𩅹","quocngu":"Đình Lai cách mấy nắng mưa,"},{"nom":"固欺㭲梓㐌𣃣𠊚揞","quocngu":"Có khi gốc tử đã vừa người ôm."},{"nom":"𢞂𬂙𨷶𣷭𧵆𣋚","quocngu":"Buồn trông cửa bể gần hôm,"},{"nom":"船埃𥰊倘𦑃帆賒賒","quocngu":"Thuyền ai thấp thoáng cánh buồm xa xa?"},{"nom":"𢞂𬂙𦰟渃買沙","quocngu":"Buồn trông ngọn nước mới sa,"},{"nom":"花㵢蠻漠別羅衛󰠳","quocngu":"Hoa trôi man mác biết là về đâu"},{"nom":"𢞂𬂙𦰟𦹵油油","quocngu":"Buồn trông ngọn cỏ dàu dàu,"},{"nom":"󰖄𩄲󰘚坦󰜋牟撑撑","quocngu":"Chân mây mặt đất một màu xanh xanh."},{"nom":"𢞂𬂙𩙍捲󰘚溋","quocngu":"Buồn trông gió cuốn mặt duềnh,"},{"nom":"喑󰠐㗂㳥呌觥槣𡎢","quocngu":"ÂM thầm tiếng sóng kêu quanh ghế ngồi."},{"nom":"終觥仍渃𡽫𠊚","quocngu":"Chung quanh những nước non người,"},{"nom":"𤴬𢚸流落𢧚𠄽𦊚勾","quocngu":"Đau lòng lưu lạc nên vài bốn câu."},{"nom":"唅𠿯𢷀幅簾珠","quocngu":"Ngậm ngùi rủ bước rèm châu,"},{"nom":"隔楼𦖑固㗂兜和韻","quocngu":"Cách lầu nghe có tiếng đâu họa vần."},{"nom":"󰜋払𣃣擢青春","quocngu":"Một chàng vừa trạc thanh xuân,"},{"nom":"形殊沚淬襖巾衮強","quocngu":"Hình thù chải chuốt, áo khăn gọn gàng."},{"nom":"擬浪拱脉書香","quocngu":"Nghĩ rằng cũng mạch thư hương,"},{"nom":"𠳨𫥨買別浪払楚卿","quocngu":"Hỏi ra mới biết rằng chàng Sở khanh."},{"nom":"䏾娥濕倘󰡎萌","quocngu":"Bóng nga thấp thoáng dưới mành."},{"nom":"𬂙娘払拱𠚢情刀帶","quocngu":"Trông nàng, chàng cũng ra tình đeo đai."},{"nom":"嘆喂色渃香𡗶","quocngu":"Than ôi! Sắc nước hương trời,"},{"nom":"惜朱兜俸落類典低","quocngu":"Tiếc cho đâu bỗng lạc loài đến đây?"},{"nom":"價停𥪝月𨕭𩄲","quocngu":"Giá đành trong nguyệt trên mây"},{"nom":"花牢花窖也苔閉花","quocngu":"Hoa sao hoa khéo giã giày bấy hoa?"},{"nom":"浽肝𥢆恨𡗶𫅷","quocngu":"Nổi gan riêng giận trời già,"},{"nom":"𢚸尼埃𤏣朱些唉𢚸","quocngu":"Lòng này ai tỏ cho ai hỡi lòng!"},{"nom":"嬋娟󰂇別英雄","quocngu":"Thuyền quyên ví biết anh hùng,"},{"nom":"𠚢𢬣操櫃數籠如𨔈","quocngu":"Ra tay tháo cũi sổ lồng như chơi!\\""},{"nom":"窻秋㐌怯𦑃外","quocngu":"Song thu đã khép cánh ngoài,"},{"nom":"𦖻群同望󰋇𠳒𨫊釘","quocngu":"Tai còn đồng vọng mấy lời sắt đanh."},{"nom":"擬𠊚催吏擬命","quocngu":"Nghĩ người thôi lại nghĩ mình,"},{"nom":"感𢚸洙悴𤁕情諸撝","quocngu":"Cám lòng chua xót, lạt tình chơ vơ."},{"nom":"仍羅𨁮𢙲𪱆𩅹","quocngu":"Những là lần lữa nắng mưa,"},{"nom":"刼風塵別包𣇞羅催","quocngu":"Kiếp phong trần biết bao giờ là thôi"},{"nom":"打料𠴍󰜋𠄩𠳒","quocngu":"Đánh liều nhắn một hai lời,"},{"nom":"洳𢬣濟渡𢵼𠊚沉淪","quocngu":"Nhờ tay tế độ vớt người trầm luân."},{"nom":"𤗖牋計歇賒𧵆","quocngu":"Mảnh tiên kể hết xa gần,"},{"nom":"浽茹報答浽身落類","quocngu":"Nỗi nhà báo đáp, nỗi thân lạc loài."},{"nom":"散霜𣃣𠓇𣈜𣈕","quocngu":"Tan sương vừa rạng ngày mai,"},{"nom":"便鴻娘買𠴍𠳒𠳚𨖅","quocngu":"Tiện hồng nàng mới nhắn lời gửi sang."},{"nom":"𡗶西朗蕩䏾鐄","quocngu":"Trời tây lãng đãng bóng vàng,"},{"nom":"復書㐌𧡊信払典尼","quocngu":"Phục thư đã thấy tin chàng đến nơi."},{"nom":"𨷑䀡󰜋幅箋枚","quocngu":"Mở xem một bức tiên mai,"},{"nom":"伶伶昔越固𠄩𡦂題","quocngu":"Rành rành tích việt có hai chữ đề."},{"nom":"𥙩𥪝意思麻推","quocngu":"Lấy trong ý tứ mà suy:"},{"nom":"𣈜𠄩𨑮󰜋戌𪰛沛庒","quocngu":"\\"Ngày hai mươi mốt, tuất thì phải chăng?\\""},{"nom":"𪀄𣋚催脱衛棱","quocngu":"Chim hôm thoi thót về rừng,"},{"nom":"架𨢕醿㐌唅𦝄姅萌","quocngu":"Giá trà mi đã ngậm trăng nửa mành."},{"nom":"墻東𢯦動䏾梗","quocngu":"Tường đông lay động bóng cành,"},{"nom":"𢩵窻㐌𧡊楚卿𨀈𠓨","quocngu":"Đẩy song đã thấy Sở khanh bước vào."},{"nom":"𠶤崇打憚𠚢嘲","quocngu":"Sượng sùng đánh dạn ra chào,"},{"nom":"𥛉催娘買󰁹𢭂殷勤","quocngu":"Lạy thôi nàng mới rỉ trao ân cần."},{"nom":"浪碎䕯浡𡮍身","quocngu":"Rằng: \\"Tôi bèo bọt chút thân,"},{"nom":"落塘恾𥙩𡢻𫱞燕󰢒","quocngu":"Lạc đàng mang lấy nợ nần yến anh."},{"nom":"鉴洳骨肉死生","quocngu":"Dám nhờ cốt nhục tử sinh,"},{"nom":"群𡗉結𦹵唅鑅衛𡢐","quocngu":"Còn nhiều kết cỏ ngậm vành về saụ\\""},{"nom":"朗𡎢渗󰣇𡴯頭","quocngu":"Lặng ngồi thấm thía gật đầu:"},{"nom":"些低沛摱埃兜麻浪","quocngu":"\\"Ta đây phải mượn ai đâu mà rằng!"},{"nom":"娘陀別典些庒","quocngu":"Nàng đà biết đến ta chăng,"},{"nom":"𣷭沉淪垃朱平買催","quocngu":"Bể trầm luân lấp cho bằng mới thôi!\\""},{"nom":"娘浪𨷈事恩𠊚","quocngu":"Nàng rằng: \\"Muôn sự ơn người,"},{"nom":"世󰅹嗔决󰜋排朱衝","quocngu":"Thế nào xin quyết một bài cho xong.\\""},{"nom":"浪些固馭追風","quocngu":"Rằng: \\"Ta có ngựa truy phong,"},{"nom":"固𠸜󰡎帳本𣳔健兒","quocngu":"Có tên dưới trướng vốn dòng kiện nhi."},{"nom":"乘機𨇍𨀈𠚢𠫾","quocngu":"Thừa cơ lẻn bước ra đi,"},{"nom":"𠀧𨑮𦒹斫斫之吏欣","quocngu":"Ba mươi sáu chước, chước gì lại hơn."},{"nom":"油欺𩙍𬒱𩅹單","quocngu":"Dù khi gió kép mưa đơn,"},{"nom":"固些低拱拯干據之","quocngu":"Có ta đây cũng chẳng cơn cớ gì!\\""},{"nom":"𦖑𠳒娘㐌生疑","quocngu":"Nghe lời nàng đã sinh nghi,"},{"nom":"雙陀過坦管之特身","quocngu":"Song đà quá đất quản gì được thân."},{"nom":"拱料𥄮𬑉迻蹎","quocngu":"Cũng liều nhắm mắt đưa chân,"},{"nom":"麻䀡昆造磋運典󰠳","quocngu":"Mà xem con tạo xoay vần đến đâu!"},{"nom":"拱饒𨇍𨀈󰡎樓","quocngu":"Cùng nhau lẻn bước dưới lầu,"},{"nom":"雙雙馭𫏾馭𨍦󰜋團","quocngu":"Song song ngựa trước ngựa sau một đoàn."},{"nom":"𣎀秋刻漏更殘","quocngu":"Đêm thu khắc lậu canh tàn,"},{"nom":"𩙍𣘃律蘿𦝄岸唅𦎛","quocngu":"Gió cây trút lá, trăng ngàn ngậm gương."},{"nom":"𡓃𤷱洌𠖾唏霜","quocngu":"Lối mòn lướt mướt hơi sương,"},{"nom":"𢚸圭𠫾󰜋𨀈塘󰜋𤴬","quocngu":"Lòng quê đi một bước đường một đau."},{"nom":"㗂𬷤嗃𠳗嘅㕰","quocngu":"Tiếng gà xao xác gáy mau,"},{"nom":"㗂𠊚兜㐌𠃅𡢐𠰺揚","quocngu":"Tiếng người đâu đã mé sau dậy dàng."},{"nom":"娘強忖式肝鐄","quocngu":"Nàng càng thổn thức gan vàng,"},{"nom":"楚卿㐌𢶾𦀊綱𡓃󰅹","quocngu":"Sở Khanh đã rẽ dây cương lối nào!"},{"nom":"󰜋命坤別爫牢","quocngu":"Một mình khôn biết làm sao,"},{"nom":"𨤵棱𨀈𥰊𨀈高駭雄","quocngu":"Dặm rừng bước thấp bước cao hãi hùng."},{"nom":"化兒舌固女𢚸","quocngu":"hóa nhi thật có nỡ lòng,"},{"nom":"爫之𨃐紫紆紅𡗋󰅉","quocngu":"Làm chi dày tía vò hồng lắm nau!"},{"nom":"󰜋命𢵋捵𫏾𨍦","quocngu":"Một mình đo đắn trước sau,"},{"nom":"𤢇兜𫴋坦𦑃兜𨖲𡗶","quocngu":"Vuốt đâu xuống đất, cánh đâu lên trời."},{"nom":"秀󰜏速𥊣細尼","quocngu":"Tú bà tốc thẳng tới nơi,"},{"nom":"𢣇𢣇押調󰜋唏吏茹","quocngu":"Hằm hằm áp điệu một hơi lại nhà."},{"nom":"興行拯𠳨拯查","quocngu":"Hưng hành chẳng hỏi chẳng tra,"},{"nom":"當𢬣󰜗柳垃花𥯒排","quocngu":"Đang tay vùi liễu giập hoa tơi bời."},{"nom":"𬚸䏧埃拱羅𠊚","quocngu":"Thịt da ai cũng là người,"},{"nom":"𢚸󰅹紅󰠹𧺀𢯦拯𤴬","quocngu":"Lòng nào hồng rụng thắm rời chẳng đau!"},{"nom":"歇𠳒首服懇求","quocngu":"Hết lời thú phục khẩn cầu,"},{"nom":"捥𨉞𡶀覩拮頭𧖱沙","quocngu":"Uốn lưng núi đổ, cất đầu máu sa."},{"nom":"浪碎㤕分彈󰜏","quocngu":"Rằng: \\"Tôi chút phận đàn bà,\\""},{"nom":"渃𡽫離𨷶離茹典低","quocngu":"Nước non lìa cửa lìa nhà đến đây."},{"nom":"悲𣇞𤯩托於𢬣","quocngu":"Bây giờ sống thác ở tay,"},{"nom":"身尼㐌典世尼拱傕","quocngu":"Thân này đã đến thế này cũng thôi!"},{"nom":"仍碎固詫之碎","quocngu":"Nhưng tôi có sá chi tôi."},{"nom":"分碎停丕本𠊚低󰠳","quocngu":"Phận tôi đành vậy, vốn người để đâu"},{"nom":"身𧐖包管𡓔頭","quocngu":"Thân lươn bao quản lấm đầu,"},{"nom":"𡮍𢚸貞白自𡢐拱除","quocngu":"Chút lòng trinh bạch từ sau cũng chừa."},{"nom":"特𠳒媒買隨機","quocngu":"Được lời mụ mới tuỳ cơ,"},{"nom":"󰈫𠊚保領爫詞供招","quocngu":"Bắt người bảo lãnh, làm tờ cung chiêu."},{"nom":"排𦢳固妸馬嬌","quocngu":"Bày vai có ả Mã Kiều,"},{"nom":"悴娘𠚢買打料𠹾端","quocngu":"Xót nàng ra mới đánh liều chịu đoan."},{"nom":"媒強計日計寬","quocngu":"Mụ càng kể nhặt kể khoan,"},{"nom":"頓樔典墨燶󱋔買他","quocngu":"Đón rào đến mực nồng nàn mới tha,"},{"nom":"域娘𠓨擬𥪝茹","quocngu":"Vực nàng vào nghỉ trong nhà,"},{"nom":"馬嬌吏𠼯意𠚢吲𠳒","quocngu":"Mã Kiều lại hở ý ra dặn lời:"},{"nom":"催㐌默吝𪰛傕","quocngu":"Thôi đà mắc lận thì thôi!"},{"nom":"𠫾兜拯別昆𠊚楚卿","quocngu":"Đi đâu chẳng biết con người Sở Khanh?"},{"nom":"薄情浽㗂樓撑","quocngu":"Bạc tình nổi tiếng lầu xanh,"},{"nom":"󰜋𢬣墫別󰋇梗芙蓉","quocngu":"Một tay chôn biết mấy cành phù dung!"},{"nom":"拖刀立産斫用","quocngu":"Đà đao lập sẵn chước dùng,"},{"nom":"邏之󰜋骨󰜋童𠸗󰅒","quocngu":"Lạ gì một cốt một đồng xưa nay."},{"nom":"固𠀧𤾓两𢭂𢬣","quocngu":"Có ba trăm lạng trao tay,"},{"nom":"空仍之固𡀯尼𠻀箕","quocngu":"Không dưng chi có chuyện này trò kia!"},{"nom":"耒𠚢跙󰘚即𪰛","quocngu":"Rồi ra trở mặt tức thì,"},{"nom":"叭𠳒料渚顛癡舌𠁀","quocngu":"Bớt lời liệu chớ sân si thiệt đời!"},{"nom":"娘浪誓説󰠱𠳒","quocngu":"Nàng rằng: \\"Thề thốt nặng lời,"},{"nom":"固兜麻吏𠚢𠊚險溇","quocngu":"Có đâu mà lại ra người hiểm sâu!\\""},{"nom":"群當推𠓀擬𡢐","quocngu":"Còn đương suy trước nghĩ sau,"},{"nom":"󰘚󰣗㐌𧡊於兜引𠓨","quocngu":"Mặt mo đã thấy ở đâu dẫn vào."},{"nom":"楚卿𨖲㗂嘹哰","quocngu":"Sở Khanh lên tiếng rêu rao:"},{"nom":"怒𦖑娘固昆󰅹於低","quocngu":"\\"Nọ nghe rằng có con nào ở đây?"},{"nom":"抛朱眷𩙍𫫵𩄲","quocngu":"Phao cho quyến gió rủ mây,"},{"nom":"唉䀡朱別󰘚尼羅埃","quocngu":"Hãy xem cho biết mặt này là ai?\\""},{"nom":"娘浪催世𪰛傕","quocngu":"Nàng rằng: \\"Thôi thế thì thôi,"},{"nom":"浪空意拱󰂅𠳒浪空","quocngu":"Rằng không ấy cũng vâng lời rằng không!\\""},{"nom":"楚卿咶𠻵哃哃","quocngu":"Sở Khanh quát mắng đùng đùng,"},{"nom":"𨀈𠓨𣃣㕸恃雄𠚢𢬣","quocngu":"Bước vào vừa rắp thị hùng ra tay."},{"nom":"娘浪𡗶𨤰固咍","quocngu":"Nàng rằng: \\"Trời nhé có hay!"},{"nom":"眷󰢒𫫵燕事尼在埃","quocngu":"Quyến anh rủ yến sự này tại ai"},{"nom":"󰝡𠊚補𫴋汫台","quocngu":"Đem người bỏ xuống giếng thơi."},{"nom":"呐耒耒吏咹𠳒特𣦍","quocngu":"Nói rồi, rồi lại ăn lời được ngay!"},{"nom":"群牋昔越於𢬣","quocngu":"Còn tiên Tích Việt ở tay,"},{"nom":"𤑟𤉜󰘚意󰘚尼渚埃","quocngu":"Rõ ràng mặt ấy, mặt này chứ ai\\""},{"nom":"𠳒𣦍冬󰘚𥪝外","quocngu":"Lời nghe, đông mặt trong ngoài,"},{"nom":"埃埃拱𡃍󰘚𠊚無良","quocngu":"Ai ai cũng gớm mặt người vô lương."},{"nom":"負情案㐌𤑟𤉜","quocngu":"Phụ tình án đã rõ ràng,"},{"nom":"洳從儗買劍塘操𨆢","quocngu":"DƠ tuồng nghỉ mới kiếm đường tháo lui."},{"nom":"𢩣𥢆𥢆仍湥洡","quocngu":"Buồng riêng, riêng những sụt sùi,"},{"nom":"擬身麻吏吟𠿯朱身","quocngu":"Nghĩ thân mà lại ngậm ngùi cho thân."},{"nom":"惜台𥪝價𤽸銀","quocngu":"Tiếc thay trong giá trắng ngần,"},{"nom":"典風塵拱風塵如埃","quocngu":"Đến phong trần, cũng phong trần như ai!"},{"nom":"粃𢝙拱󰜋刼𠊚","quocngu":"Tẻ vui cũng một kiếp người,"},{"nom":"紅顔沛󰣉於𠁀買油","quocngu":"Hồng nhan phải giống ở đời mãi ru"},{"nom":"刼𠸗㐌𢜗塘修","quocngu":"Kiếp xưa đã vụng đường tu,"},{"nom":"刼尼拯矯填蒲買吹","quocngu":"Kiếp này chẳng kẻo đền bù mới xuôi."},{"nom":"油牢󰜍㐌𢙲淶","quocngu":"Dẫu sao bình đã lỡ rơi,"},{"nom":"𥙩身麻假𡢻𠁀朱衝","quocngu":"Lấy thân mà trả nợ đời cho xong.\\""},{"nom":"𣃣旬月𤎜𦎛𤄯","quocngu":"Vừa tuần nguyệt sáng gương trong,"},{"nom":"秀󰜏𨄾吏從容吲𠻀","quocngu":"Tú bà ghé lại thong dong dặn dò:"},{"nom":"藝制拱𡗋功夫","quocngu":"\\"Nghề chơi cũng lắm công phu,"},{"nom":"廊制些沛別朱𨇜調","quocngu":"Làng chơi ta phải biết cho đủ điềụ\\""},{"nom":"娘浪𩄲𩙍泣迢","quocngu":"Nàng rằng: \\"Mây gió dập dìu,"},{"nom":"料身意拱沛料世傕","quocngu":"Liều thân ấy cũng phải liều thế thôi!\\""},{"nom":"媒浪埃拱如埃","quocngu":"Mụ rằng: \\"Ai cũng như ai,"},{"nom":"空仍埃𠅒錢懷典低","quocngu":"Không dưng ai mất tiền hoài đến đây."},{"nom":"於𥪝拱𪥀調𫨩","quocngu":"Ở trong cũng lắm điều hay,"},{"nom":"餒𣎀怯𨷑餒𣈜𥢆終","quocngu":"Nỗi đêm khép mở, nỗi ngày riêng chung."},{"nom":"尼昆属𥙩爫𢚸","quocngu":"Này con thuộc lấy làm lòng,"},{"nom":"𨦩外𬙞𡦂𨦩𥪝糁藝","quocngu":"Vòng ngoài bảy chữ, vòng trong tám nghề."},{"nom":"制朱柳𢥇花吱","quocngu":"Chơi cho liễu chán hoa chê,"},{"nom":"𨁥調歷事買迷鄧𠊚","quocngu":"Đủ điều lịch sự mới mê đặng người."},{"nom":"欺鞋杏欺󰞺𧍋","quocngu":"Khi khoé hạnh, khi nét ngài,"},{"nom":"欺吟議月欺唭𠹳花","quocngu":"Khi ngâm ngợi nguyệt, khi cười cợt hoa."},{"nom":"調羅撘請藝茹","quocngu":"Đều là đáp thỉnh nghề nhà,"},{"nom":"𨁥銀意󰞺買羅𢬣𥪝","quocngu":"Đủ ngần ấy nết mới là tay trong.\\""},{"nom":"𨃴頭󰂅𠰺󰋇𠳒","quocngu":"Gót đầu vâng dạy mấy lời,"},{"nom":"󰟯珠󰞺月󰟯派𨤔紅","quocngu":"Dường chau nét nguyệt, dường phai vẻ hồng."},{"nom":"仍𦖑呐㐌𢢆𢝣","quocngu":"Những nghe nói đã thẹn thùng,"},{"nom":"渃𠁀𪥀浽邏𨓡汔溪","quocngu":"Nước đời lắm nỗi lạ lùng khắt khe!"},{"nom":"悴命𨷶閣𢩣圭","quocngu":"Xót mình cửa các buồng khuê,"},{"nom":"捛𢚸學𥙩仍藝業𫨩","quocngu":"Lựa lòng học lấy những nghề nghiệp hay!"},{"nom":"窖羅󰘚憚𪵟𠫆","quocngu":"Khéo là mặt dạn mày dày,"},{"nom":"刼尼㐌典世尼羅傕","quocngu":"Kiếp này đã đến thế này là thôi!"},{"nom":"傷台身分落類","quocngu":"Thương thay thân phận lạc loài,"},{"nom":"唒牢拱於𢬣𠊚別牢","quocngu":"Dẫu sao cũng ở tay người biết sao"},{"nom":"樓撑買𢷀帳桃","quocngu":"Lầu xanh mới rủ trướng đào,"},{"nom":"強撩價玉強高品𠊚","quocngu":"Càng treo giá ngọc, càng cao phẩm người."},{"nom":"別包𧊉󰌕蜂𢯦","quocngu":"Biết bao bướm lả ong lơi,"},{"nom":"局醝苔𣎃陣唭捽𣎀","quocngu":"Cuộc say đầy tháng, trận cười suốt đêm."},{"nom":"熠燿蘿󰢓梗𪀄","quocngu":"Dập dìu lá rủ cành chim,"},{"nom":"𣌋迻宋玉最尋楚卿","quocngu":"Sớm đưa Tống Ngọc, tối tìm sở Khanh."},{"nom":"欺醒𨢇𣅶殘更","quocngu":"Khi tỉnh rượu, lúc tàn canh,"},{"nom":"弋𨉟𨉟吏傷𨉟㤕車","quocngu":"Giật mình, mình lại thương mình xót xa."},{"nom":"欺牢封錦󰢓羅","quocngu":"Khi sao phong gấm rủ là,"},{"nom":"除牢散作如花𡨌塘","quocngu":"Giờ sao tan tác như hoa giữa đường?"},{"nom":"󰘚牢𠫅𩙍憚霜","quocngu":"Mặt sao dày gió dạn sương,"},{"nom":"身牢𧊉𡁚蜂𠴔閉身","quocngu":"Thân sao bướm thán ong chường bấy thân!"},{"nom":"默𠊚𩅹楚𩙍秦","quocngu":"Mặc người mưa Sở gió Tần,"},{"nom":"仍命󰅹別固春羅󰢔","quocngu":"Những mình nào biết có xuân là gì!"},{"nom":"隊番𩙍𢭸花掑","quocngu":"Đòi phen gió tựa hoa kề,"},{"nom":"姅簾雪冷𦊚務𦝄輸","quocngu":"Nửa rèm tuyết lạnh, bốn mùa trăng thâu."},{"nom":"景󰅹景拯𤴬愁","quocngu":"Cảnh nào cảnh chẳng đau sầu,"},{"nom":"𠊚𢞂景固𢝙兜包徐","quocngu":"Người buồn cảnh có vui đâu bao giờ."},{"nom":"隊番󰞺󰖽勾踈","quocngu":"Đòi phen nét vẽ câu thơ,"},{"nom":"宮琴𥪝月渃碁󰡎花","quocngu":"Cung cầm trong nguyệt, nước cờ dưới hoa."},{"nom":"𢝙羅𢝙強矯羅","quocngu":"Vui là vui gượng kẻo là,"},{"nom":"埃知音妬󰚷𢠩貝埃","quocngu":"Ai tri âm đó mặn mà với ai?"},{"nom":"蜍於𩙍竹𩅹梅","quocngu":"Thờ ơ gió trúc mưa mai,"},{"nom":"菫魚𤾓餒搥󰢕󰜋身","quocngu":"Ngẩn ngơ trăm nỗi, giùi mài một thân."},{"nom":"揞𢚸隊󰞃賒𧵆","quocngu":"Ôm lòng đòi đoạn xa gần,"},{"nom":"拯紆麻𦇒拯𬒞麻𤴬","quocngu":"Chẳng vò mà rối, chẳng dần mà đau!"},{"nom":"𢖵恩𠃩𡦂高溇","quocngu":"Nhớ ơn chín chữ cao sâu,"},{"nom":"󰜋𣈜󰜋我䏾橷斜斜","quocngu":"Một ngày một ngả bóng dâu tà tà."},{"nom":"𨤵𠦳渃瀋𡽫賒","quocngu":"Dặm ngàn nước thẳm non xa,"},{"nom":"擬兜身分昆𠚢世尼","quocngu":"Nghĩ đâu thân phận con ra thế này!"},{"nom":"隆冬茄泊㛪癡","quocngu":"Long đong nhà bạc em ngây,"},{"nom":"珍甘埃几柂台󰜋命","quocngu":"Trân cam ai kẻ đỡ thay việc mình?"},{"nom":"𢖵𠳒願約𠀧生","quocngu":"Nhớ lời nguyện ước ba sinh,"},{"nom":"賒吹埃固透情庒埃","quocngu":"Xa xôi ai có thấu tình chăng ai?"},{"nom":"欺衛𠳨柳章臺","quocngu":"Khi về hỏi liễu Chương Đài,"},{"nom":"梗春㐌𢯏朱𠊚專𢬣","quocngu":"Cành xuân đã bẻ cho người chuyên tay!"},{"nom":"情溇蒙假義𠫅","quocngu":"Tình sâu mong trả nghĩa dày,"},{"nom":"花箕㐌𦄌檜尼朱諸","quocngu":"Hoa kia đã chắp cội này cho chưa?"},{"nom":"䋦情隊󰞃紆絲","quocngu":"Mối tình đòi đoạn vò tơ,"},{"nom":"職鄕關隴𣍵𥊚更𨱽","quocngu":"Giấc hương quan luống lần mơ canh dài."},{"nom":"窻𦂛宇宇方𡗶","quocngu":"Song the vò võ phương trời,"},{"nom":"󰅒黄昏㐌吏𣈕昏黄","quocngu":"Nay hoàng hôn đã lại mai hôn hoàng."},{"nom":"吝吝兎泊鵶鐄","quocngu":"Lần lần thỏ bạc ác vàng,"},{"nom":"悴𠊚𥪝會断膓隊干","quocngu":"Xót người trong hội đoạn tràng đòi cơn!"},{"nom":"㐌朱𥙩𡦂紅顔","quocngu":"Đã cho lấy chữ hồng nhan,"},{"nom":"爫牢朱害朱殘朱斤","quocngu":"Làm sao cho hại, cho tàn, cho cân!"},{"nom":"㐌苔𠓨刼風塵","quocngu":"Đã đày vào kiếp phong trần,"},{"nom":"牢朱耻辱󰜋吝買傕","quocngu":"Sao cho sỉ nhục một lần mới thôi!"},{"nom":"客遊俸固󰜋𠊚","quocngu":"Khách du bỗng có một người,"},{"nom":"其心户束拱㐻書香","quocngu":"Kỳ Tâm họ Thúc, cũng nòi thư hương."},{"nom":"本𠊚縣錫州常","quocngu":"Vốn người huyện Tích châu Thường,"},{"nom":"蹺嚴堂󰘉𡾵行臨淄","quocngu":"Theo nghiêm đường mở ngôi hàng Lâm Truy."},{"nom":"花魁慕㗂翹兒","quocngu":"Hoa khôi mộ tiếng Kiều nhi,"},{"nom":"帖紅尋典香閨𠳚𠓨","quocngu":"Thiếp hồng tìm đến hương khuê gửi vào."},{"nom":"帳蘇夾󰘚花桃","quocngu":"Trướng tô giáp mặt hoa đào,"},{"nom":"𨤔󰅹𫽄𪉽󰞺󰅹拯於","quocngu":"Vẻ nào chẳng mặn, nét nào chẳng ưa?"},{"nom":"海棠蔓蔓梗絲","quocngu":"Hải đường mơn mởn cành tơ,"},{"nom":"朝春強𩙍強𩅹強燶","quocngu":"Chiều xuân càng gió, càng mưa, càng nồng."},{"nom":"月花花月󰞽燶","quocngu":"Nguyệt hoa, hoa nguyệt não nùng,"},{"nom":"𣎀春埃易扲𢚸特庒","quocngu":"Đêm xuân ai dễ cầm lòng được chăng?"},{"nom":"邏之聲氣𨤰恒","quocngu":"Lạ gì thanh khí lẽ hằng,"},{"nom":"󰜋𦀊㐌纀埃𢬥朱𠚢","quocngu":"Một dây đã buộc ai giằng cho ra?"},{"nom":"𣋽桃最槾隣羅","quocngu":"Sớm đào tối mận lân la,"},{"nom":"𠓀群𦝄𩙍𡢐𠚢𥒥鐄","quocngu":"Trước còn trăng gió, sau ra đá vàng."},{"nom":"𤗽兜埋慜邏󰟯","quocngu":"Dịp đâu may mắn lạ dường,"},{"nom":"吏𣃣﨤壙椿堂吏圭","quocngu":"Lại vừa gặp khoảng xuân đường lại quê."},{"nom":"生強󰜋醒𨑮迷","quocngu":"Sinh càng một tỉnh, mười mê,"},{"nom":"𣈜春𪥀𣅶𫡻衛貝春","quocngu":"Ngày xuân lắm lúc quên về với xuân."},{"nom":"欺𩙍閣欺𦝄𡑝","quocngu":"Khi gió gác, khi trăng sân,"},{"nom":"瓢僊󰈼𨢇勾神󰡸詩","quocngu":"Bầu tiên dốc rượu, câu thần nối thơ."},{"nom":"欺香𣌋欺茶𬁑","quocngu":"Khi hương sớm, khi trà trưa,"},{"nom":"盤棋點渃塘絲和彈","quocngu":"Bàn cờ điểm nước, đường tơ họa đàn."},{"nom":"󰎎埋𥪝局追歡","quocngu":"Miệt mài trong cuộc truy hoan,"},{"nom":"強悁属󰞺強攔𢬢情","quocngu":"Càng quen thuộc nết, càng dan díu tình."},{"nom":"邏朱丐㳥傾城","quocngu":"Lạ cho cái sóng khuynh thành,"},{"nom":"爫朱覩舘漂亭如𨔈","quocngu":"Làm cho đổ quán xiêu đình như chơi!"},{"nom":"束生悁󰞺卜徠","quocngu":"Thúc sinh quen nết bốc rời,"},{"nom":"𤾓𠦳覩󰜋陣唭如空","quocngu":"Trăm nghìn đổ một trận cười như không."},{"nom":"媒強蘇綠捽紅","quocngu":"Mụ càng tô lục chuốt hồng,"},{"nom":"𧖱貪係𧡊唏銅沛迷","quocngu":"Máu tham hễ thấy hơi đồng phải mê,"},{"nom":"󰡎𦝄鵑㐌噲夏","quocngu":"Dưới trăng quyên đã gọi hè,"},{"nom":"頭墻󰌕榴󰟧𤍶󰝂󱖮","quocngu":"Đầu tường lửa lựu lập loè đâm bông."},{"nom":"𢩣𦂛沛貝從容","quocngu":"Buồng the phải buổi thong dong,"},{"nom":"湯蘭𢷀幅帳紅浸花","quocngu":"Thang lan rủ bức trướng hồng tẩm hoa."},{"nom":"𤑟牟𤄯玉𤽸牙","quocngu":"Rõ màu trong ngọc trắng ngà,"},{"nom":"𠫅𠫅産𨯹󰜋座天然","quocngu":"Dày dày sẵn đúc một toà thiên nhiên."},{"nom":"生強𤏣󰞺強𠸦","quocngu":"Sinh càng tỏ nét càng khen,"},{"nom":"寓情𢬣草󰜋篇律唐","quocngu":"Ngụ tình tay thảo một thiên luật Đường."},{"nom":"娘浪󰂅別𢚸払","quocngu":"Nàng rằng: \\"Vâng biết lòng chàng,"},{"nom":"𠳒𠳒珠玉行行錦絩","quocngu":"Lời lời châu ngọc hàng hàng gấm thêu."},{"nom":"𫨩𪬡𨤰拱󰡸貂","quocngu":"Hay hèn, lẽ cũng nối điêu,"},{"nom":"餒圭𢷣󰜋𠄩調昂昂","quocngu":"Nỗi quê dở một hai điều ngang ngang."},{"nom":"𢚸群𠳚盎𩄲鐄","quocngu":"Lòng còn gửi áng mây vàng,"},{"nom":"和韻嗔唉𠹾払𣋚󰅒","quocngu":"Họa vần xin hãy chịu chàng hôm nay\\"."},{"nom":"浪牢固邏𨓡台","quocngu":"Rằng: \\"Sao có lạ lùng thay!"},{"nom":"梗箕拯沛檜尼麻𠚢","quocngu":"Cành kia chẳng phải cội này mà ra?"},{"nom":"娘強𣻆湥秋波","quocngu":"Nàng càng tuôn giọt thu ba,"},{"nom":"断膓綠意𢷣麻𢞂腥","quocngu":"Đoạn trường lúc ấy dở mà buồn tênh."},{"nom":"妾如花㐌離梗","quocngu":"Thiếp như hoa đã lìa cành,"},{"nom":"払如昆𧊉󰡃鑅𡮍𨔈","quocngu":"Chàng như con bướm liệng vành chút chơi."},{"nom":"主春停㐌固尼","quocngu":"Chúa xuân đành đã có nơi,"},{"nom":"𥐆𣈜傕渚𨱽唎爫之","quocngu":"Ngắn ngày thôi chớ dài lời làm chi!"},{"nom":"生浪自課相知","quocngu":"Sinh rằng: \\"Từ thuở tương tri,"},{"nom":"𬌓𥢆𥢆仍𨤼爲渃𡽫","quocngu":"Tấm riêng, riêng những nặng vì nước non."},{"nom":"𤾓𢆥併局𣃲𧷺","quocngu":"Trăm năm tính cuộc vuông tròn,"},{"nom":"沛𢲛朱典𦰟源瀝滝","quocngu":"Phải dò cho đến ngọn nguồn lạch sông.\\""},{"nom":"娘浪𨷈隊恩𢚸","quocngu":"Nàng rằng: \\"Muôn đội ơn lòng,"},{"nom":"𡮍𠲖邊娶邊從易兜","quocngu":"Chút e bên thú bên tòng dễ đâu."},{"nom":"平康赧那閉𥹰","quocngu":"Bình khang nấn ná bấy lâu,"},{"nom":"夭花夭特󰜋牟點粧","quocngu":"Yêu hoa, yêu được một màu điểm trang."},{"nom":"耒𠚢𣳮粉泒香","quocngu":"Rồi ra rã phấn phai hương,"},{"nom":"𢚸箕𪧚特常常世庒","quocngu":"Lòng kia giữ được thường thường thế chăng?"},{"nom":"𡲤𥪝㙴桂宫𦝄","quocngu":"Vả trong thềm quế, cung trăng,"},{"nom":"主張停㐌姉姮於𥪝","quocngu":"Chủ trương đành đã chị Hằng ở trong."},{"nom":"閉𥹰𠻞喫𡦂同","quocngu":"Bấy lâu khăng khít chữ đồng,"},{"nom":"添𠊚𢖮拱𢺺𢚸𥢆西","quocngu":"Thêm người, ắt cũng chia lòng riêng tây."},{"nom":"𨤔之𡭧分䕯𩄲","quocngu":"Vẻ chi chút phận bèo mây,"},{"nom":"爫朱𣷭爱欺菭欺潙","quocngu":"Làm cho bể ái khi đầy khi vơi."},{"nom":"𤾓調昂𠑕爲碎","quocngu":"Trăm điều ngang ngửa vì tôi,"},{"nom":"身𡢐埃𠹾罪𡗶意朱","quocngu":"Thân sau ai chịu tội trời ấy chỏ"},{"nom":"如払固凭𢬣𢮩","quocngu":"Như chàng có vững tay co,"},{"nom":"𨑮分拱撘店朱󰜋𢽼","quocngu":"Mười phần cũng đắp điếm cho một vài."},{"nom":"勢𥪝油𡘯欣外","quocngu":"Thế trong dù lớn hơn ngoài,"},{"nom":"𠓀唅獅子𢭮𠊚藤蘿","quocngu":"Trước hàm sư tử gửi người đằng la."},{"nom":"儈頭淪󰡎𠃅茹","quocngu":"Cúi đầu luồn dưới mái nhà,"},{"nom":"𨡉䣷吏罪平𠀧󰌕燶","quocngu":"Giấm chua lại tội bằng ba lửa nồng."},{"nom":"於𨕭群固茹椿","quocngu":"Ở trên còn có nhà thung,"},{"nom":"𢚸𨕭𬂙𫴋別𢚸固傷","quocngu":"Lòng trên trông xuống biết lòng có thương?"},{"nom":"詫之柳𢨵花墻","quocngu":"Sá chi liễu ngõ hoa tường,"},{"nom":"樓撑吏補𠚢坊樓撑","quocngu":"Lầu xanh lại bỏ ra phường lầu xanh!"},{"nom":"吏強淤󰟯𤵺形","quocngu":"Lại càng Ứ dáng dại hình,"},{"nom":"停身分妾擬名價払","quocngu":"Đành thân phận thiếp, nghĩ danh giá chàng."},{"nom":"傷牢朱院𪰛傷","quocngu":"Thương sao cho vẹn thì thương,"},{"nom":"併牢朱院每塘嗔󰂅","quocngu":"Tính sao cho vẹn mọi đường xin vâng.\\""},{"nom":"生浪𫨩呐提澄","quocngu":"Sinh rằng: \\"Hay nói đè chừng,"},{"nom":"𢚸低𢚸妬渚曾咍牢","quocngu":"Lòng đây, lòng đó chưa từng hay sao"},{"nom":"塘𨱽𠤆礙吳𣒲","quocngu":"Đường dài chớ ngại Ngô Lào,"},{"nom":"𤾓調唉據𬂙𠓨󰜋些","quocngu":"Trăm điều hãy cứ trông vào một ta."},{"nom":"㐌𧵆之固調賒","quocngu":"Đã gần chi có điều xa,"},{"nom":"𥒥鐄㐌决風波拱料","quocngu":"Đá vàng đã quyết, phong ba cũng liều!\\""},{"nom":"共饒根紊典調","quocngu":"Cùng nhau căn vặn đến điều,"},{"nom":"指𡽫誓𣷭󰠱招歇𠳒","quocngu":"Chỉ non thề bể nặng gieo hết lời."},{"nom":"𠰚𡄨𣎀𥐆情𨱽","quocngu":"Nỉ non đêm ngắn tình dài,"},{"nom":"外軒兎㐌𡽫兑唅𦎛","quocngu":"Ngoài hiên thỏ đã non đoài ngậm gương."},{"nom":"摱調竹院乘凉","quocngu":"Mượn điều trúc viện thừa lương."},{"nom":"逴衛唉暫𨁪娘󰜋尼","quocngu":"Rước về hãy tạm giấu nàng một nơi."},{"nom":"戰和拉産𠄩排","quocngu":"Chiến hòa sắp sẵn hai bài,"},{"nom":"𢭄𢬣柴署摱𠊚𠻀囉","quocngu":"Cậy tay thầy thợ, mượn người dò la."},{"nom":"𡭉信典󰘚秀󰜏","quocngu":"Bắn tin đến mặt Tú bà,"},{"nom":"輸機媒拱求和監牢","quocngu":"Thua cơ, mụ cũng cầu hoà, dám sao!"},{"nom":"𤑟𤉜𧵑引𢬣𢭂","quocngu":"Rõ ràng của dẫn tay trao,"},{"nom":"還良󰜋帖申𠓨𨷯公","quocngu":"Hoàn lương một thiếp thân vào cửa công."},{"nom":"公私𠄩𨤰調衝","quocngu":"Công tư hai lẽ đều xong,"},{"nom":"𨃴僊丿㐌脱𨦩塵埃","quocngu":"Gót tiên phút đã thoát vòng trần ai."},{"nom":"󰜋茹森合竹梅","quocngu":"Một nhà sum họp trúc mai,"},{"nom":"強溇義𣷭強𨱽情滝","quocngu":"Càng sâu nghĩa bể, càng dài tình sông."},{"nom":"香強𬊊󰌕強燶","quocngu":"Hương càng đượm, lửa càng nồng,"},{"nom":"強吹𨤔月強籠牟蓮","quocngu":"Càng sôi vẻ nguyệt, càng lồng màu sen."},{"nom":"姅𢆥唏㗂𣃣悁","quocngu":"Nửa năm hơi tiếng vừa quen,"},{"nom":"𡑝梧梗碧㐌氊蘿鐄","quocngu":"Sân ngô cành biếc đã chen lá vàng."},{"nom":"梗秋買扔𥱰霜","quocngu":"Cành thu mới nảy giò sương,"},{"nom":"襘鞍㐌𧡊椿堂典尼","quocngu":"Gối yên đã thấy xuân đường đến nơi."},{"nom":"風雷浽陣󰢗󰢗","quocngu":"Phong lôi nổi trận bời bời,"},{"nom":"󰠱𢚸𠲖唈併排分𢺺","quocngu":"Nặng lòng e ấp, tính bài phân chia."},{"nom":"决𬆄辛罕󰜋皮","quocngu":"Quyết nghe tăn hẳn một bề,"},{"nom":"𠰺浪𦟐粉吏衛樓撑","quocngu":"Dạy rằng má phấn lại về lầu xanh!"},{"nom":"𧡊𠳒嚴訓伶伶","quocngu":"Thấy lời nghiêm huấn rành rành,"},{"nom":"打料生買𥙩情奈呌","quocngu":"Đánh liều, Sinh mới lấy tình nài kêu."},{"nom":"浪昆別罪㐌𡗉","quocngu":"Rằng: \\"Con biết tội đã nhiều,"},{"nom":"唒羅𩆐𩄰鈽鉊拱甘","quocngu":"Dẫu là sấm sét búa rìu cũng cam."},{"nom":"捽爲𢬣㐌潀󰢘","quocngu":"Trót vì tay đã nhúng chàm,"},{"nom":"𤵺耒群別坤爫牢低","quocngu":"Dại rồi còn biết khôn làm sao đây!"},{"nom":"拱饒𡲤㗂󰜋𣈜","quocngu":"Cùng nhau vả tiếng một ngày,"},{"nom":"揞琴埃女𢴑𦀊朱停","quocngu":"Ôm cầm ai nỡ dứt dây cho đành."},{"nom":"量𨕭决拯傷情","quocngu":"Lượng trên quyết chẳng thương tình,"},{"nom":"負𢚸傕固惜命爫之","quocngu":"Phụ lòng thôi có tiếc mình làm chi!"},{"nom":"𧡊𠳒鐄𥒥知知","quocngu":"Thấy lời vàng đá tri tri,"},{"nom":"焠肝翁買申跪𨷶公","quocngu":"Sốt gan ông mới thân quỳ cửa công."},{"nom":"坦平浽㳥同同","quocngu":"Đất bằng nổi sóng đùng đùng,"},{"nom":"府堂差蘿票紅傕查","quocngu":"Phủ đường sai lá phiếu hồng thôi tra."},{"nom":"共饒蹺𨃴差衙","quocngu":"Cùng nhau theo gót sai nha."},{"nom":"雙雙𠓨𫏾𡑝花𥙙跪","quocngu":"Song song vào trước sân hoa díu quỳ."},{"nom":"𬂙𨕭󰘚𨫊顛茌","quocngu":"Trông lên mặt sắt đen sì,"},{"nom":"立嚴𠓀唉𠚢威󰠱唎","quocngu":"Lập nghiêm trước hãy ra uy nặng lời:"},{"nom":"󰢈箕𤵺󰞺𨔈排","quocngu":"\\"Gã kia dại nết chơi bời,"},{"nom":"麻昆𠊚意羅昆𨒟迻","quocngu":"Mà con người ấy là người đong đưa!"},{"nom":"從之花貸香乘","quocngu":"Tuồng chi hoa thải hương thừa,"},{"nom":"摱牟𣘈粉打󰢙昆顛","quocngu":"Mượn màu son phấn đánh lừa con đen!"},{"nom":"推𥪝情狀原單","quocngu":"Suy trong tình trạng nguyên đơn,"},{"nom":"皮󰅹𪰛拱渚衝皮󰅹","quocngu":"Bề nào, thì cũng chưa xong bề nào."},{"nom":"法公照案論𠓨","quocngu":"Phép công chiếu án luận vào,"},{"nom":"固𠄩塘妬悶牢默命","quocngu":"Có hai đường đó muốn sao mặc mình:"},{"nom":"󰜋羅據法加刑","quocngu":"\\"Một là cứ phép gia hình,"},{"nom":"𠄩羅吏據樓撑付衛","quocngu":"Hai là lại cứ lầu xanh phó về!\\""},{"nom":"娘浪㐌决󰜋皮","quocngu":"Nàng rằng: \\"Đã quyết một bề,"},{"nom":"󰔓尼王𥙩絲箕󰋇吝","quocngu":"Nhện này vương lấy tơ kia mấy lần!"},{"nom":"濁𤄯身拱羅身","quocngu":"Đục trong thân cũng là thân,"},{"nom":"要疎󰂅𠹾𫏾𡑝雷霆","quocngu":"Yếu thơ vâng chịu trước sân lôi đình.\\""},{"nom":"𠰺浪據法加刑","quocngu":"Dạy rằng: \\"Cứ phép gia hình!\\""},{"nom":"𠀧𣘃棟㩫󰜋梗牡丹","quocngu":"Ba cây đóng chặt một cành mẫu đơn."},{"nom":"分停之監呌冤","quocngu":"Phận đành chi dám kêu oan,"},{"nom":"桃疎壳𦟐柳散作𣮮","quocngu":"Đào xơ xác má, liễu tan tác mày."},{"nom":"󰜋𡑝淋吉㐌菭","quocngu":"Một sân lầm cát đã đầy,"},{"nom":"𦎛矑渃水梅𤷍󰢚霜","quocngu":"Gương lờ nước thuỷ, mai gầy vóc sương."},{"nom":"擬情払束麻傷","quocngu":"Nghĩ tình chàng Thúc mà thương,"},{"nom":"𡑩車𬂙𧡊𢚸強㤕𢚷","quocngu":"Nẻo xa trông thấy lòng càng xót xa."},{"nom":"哭浪冤酷爲些","quocngu":"Khóc rằng: \\"Oan khốc vì ta,"},{"nom":"沛𦖑𠳒𠓀易麻累𡢐","quocngu":"Phải nghe lời trước, dễ mà lụy sau."},{"nom":"𣴓𢚸拯別擬𡢐","quocngu":"Cạn lòng chẳng biết nghĩ sâu,"},{"nom":"底埃𦝄𢣃花愁爲埃","quocngu":"Để ai trăng tủi hoa sầu vì ai\\""},{"nom":"府堂𦖑𥊣𠓨𦖻","quocngu":"Phủ đường nghe thoảng vào tai,"},{"nom":"動𢚸吏𣴓典𠳒𥢆西","quocngu":"Động lòng lại gạn đến lời riêng tây."},{"nom":"湥洡払買𠽔𬆄","quocngu":"Sụt sùi, chàng mới thưa ngay,"},{"nom":"頭𡳪吏計事𣈜求親","quocngu":"Đầu đuôi lại kể sự ngày cầu thân."},{"nom":"娘它併歇賒𧵆","quocngu":"Nàng đà tính hết xa gần."},{"nom":"自𠸗娘㐌別身固𣈙","quocngu":"Từ xưa nàng đã biết thân có rày!"},{"nom":"在碎稱𥙩󰜋𢬣","quocngu":"Tại tôi xứng lấy một tay,"},{"nom":"底娘朱典餒尼爲碎","quocngu":"Để nàng cho đến nỗi này vì tôi\\""},{"nom":"𦖑𠳒呐拱傷𠳒","quocngu":"Nghe lời nói cũng thương lời,"},{"nom":"擛威買𠰺𨷑排觧圍","quocngu":"Dẹp uy mới dạy mở bài giải vi."},{"nom":"浪如罕固世尼","quocngu":"Rằng: \\"Như hẳn có thế ni,"},{"nom":"𦝄花雙拱是非別調","quocngu":"Trăng hoa, song cũng thị phi biết điều!\\""},{"nom":"生浪𡭧分渤䕯","quocngu":"Sinh rằng: \\"Chút phận bọt bèo,"},{"nom":"蹺𠾕𡲤共𠃣𡗉筆硯","quocngu":"Theo đòi vả cũng ít nhiều bút nghiên.\\""},{"nom":"唭浪㐌世𪰛𢧚","quocngu":"Cười rằng: \\"Đã thế thì nên!"},{"nom":"木枷唉此󰜋篇呈藝","quocngu":"Mộc già, hãy thử một thiên, trình nghề.\\""},{"nom":"娘󰂅拮筆𢬣題","quocngu":"Nàng vâng cất bút tay đề,"},{"nom":"箋花呈𠓀案批䀡詳","quocngu":"Tiên hoa trình trước án phê, xem tường."},{"nom":"𠸦浪價𤁕盛唐","quocngu":"Khen rằng: \\"Giá lợt Thịnh Đường,"},{"nom":"才尼色意𠦳鐄渚斤","quocngu":"Tài này sắc ấy nghìn vàng chưa cân!"},{"nom":"舌羅才子佳人","quocngu":"Thiệt là tài tử giai nhân,"},{"nom":"朱陳吏固朱陳󰅹欣","quocngu":"Châu Trần lại có Châu Trần nào hơn!"},{"nom":"催停逴𢷣鳩𪬡","quocngu":"Thôi đừng điệu dữ, cưu hờn,"},{"nom":"爫之呂𣜿朱彈昂宮","quocngu":"Làm chi lỡ nhịp cho đờn ngang cung."},{"nom":"㐌迻典𠓀𨷶公","quocngu":"Đã đưa đến trước cửa công,"},{"nom":"唒外羅法雙𥪝羅情","quocngu":"Dẫu ngoài là phép, song trong là tình."},{"nom":"妯昆𥪝道家庭","quocngu":"Dâu con trong đạo gia đình,"},{"nom":"催𪰛擛浽不平羅衝","quocngu":"Thôi thì dẹp nỗi bất bình là xong!\\""},{"nom":"急傳懺所禮公","quocngu":"Kíp truyền sắm sửa lễ công,"},{"nom":"轎花󰢛𩙍𤒘紅點𬁖","quocngu":"Kiệu hoa sánh gió, đuốc hồng điểm sao."},{"nom":"排行鼓樂𠮿𡁞","quocngu":"Bày hàng cổ nhạc xôn xao,"},{"nom":"雙雙迻細帳桃聘堆","quocngu":"Song song đưa tới trướng đào sánh đôi."},{"nom":"傷爲󰞺重爲才","quocngu":"Thương vì nết, trọng vì tài."},{"nom":"束翁傕拱擛𠳒風波","quocngu":"Thúc ông thôi cũng dẹp lời phong ba."},{"nom":"蕙香𠶗𠽋󰜋茹","quocngu":"Huệ hương sực nức một nhà,"},{"nom":"曾󰣙䔲吏󰚷麻欣𠸗","quocngu":"Từng cay đắng, lại mặn mà hơn xưa."},{"nom":"𠻵𢝙𨢇𣌋茶𬁑","quocngu":"Mảng vui rượu sớm trà trưa,"},{"nom":"桃它派𧺀蓮𣃤扔撑","quocngu":"Đào đà phai thắm, sen vừa nảy xanh."},{"nom":"帳糊永𨤔𣎀清","quocngu":"Trướng hồ vắng vẻ đêm thanh,"},{"nom":"𠲖情娘買排情𥢆終","quocngu":"E tình nàng mới bày tình riêng chung."},{"nom":"分蒲自院𡦂從","quocngu":"Phận bồ từ vẹn chữ tòng,"},{"nom":"󱔑台雁燕㐌紅𨃐年","quocngu":"Đổi thay nhạn én đã hòng đầy niên."},{"nom":"信茹𣈜󰜋永信","quocngu":"Tin nhà ngày một vắng tin,"},{"nom":"𪉽情葛藟𤁕情糟糠","quocngu":"Mặn tình cát luỹ, nhạt tình tao khang."},{"nom":"擬𠚢寔拱𢧚󰟯","quocngu":"Nghĩ ra thật cũng nên dường,"},{"nom":"吣唏埃易𪧚床朱些","quocngu":"Tăm hơi ai dễ giữ giàng cho ta?"},{"nom":"濫𦖑几𡘯𥪝茹","quocngu":"Trộm nghe kẻ lớn trong nhà,"},{"nom":"𠓨𥪝囷法呐𠚢䋦𦀚","quocngu":"Vào trong khuôn phép, nói ra mối giềng."},{"nom":"𠵱𠼷仍胣非常","quocngu":"E thay những dạ phi thường,"},{"nom":"易𢲛󰟱𣷭坤量底滝","quocngu":"Dễ dò rốn bể, khôn lường đáy sông."},{"nom":"麻些卒󰜋𢆥𣳔","quocngu":"Mà ta suốt một năm ròng,"},{"nom":"世󰅹拱拯𨁪衝特󰅹","quocngu":"Thế nào cũng chẳng dấu xong được nào."},{"nom":"閉遲渚𤏣消耗","quocngu":"Bấy chầy chưa tỏ tiêu hao,"},{"nom":"或羅𥪝固爫牢庒羅","quocngu":"Hoặc là trong có làm sao chăng là?"},{"nom":"嗔払料急吏茹","quocngu":"Xin chàng liệu kíp lại nhà,"},{"nom":"𠓀𠊚𢢲意𡢐些別情","quocngu":"Trước người đẹp ý, sau ta biết tình."},{"nom":"󰂇朋𪧚墨𨁪觥","quocngu":"VÍ bằng giữ mực dấu quanh,"},{"nom":"𣈙𨁮𪰹捛如形渚通","quocngu":"Rày lần mai lữa như hình chưa thông!\\""},{"nom":"𦖑𠳒𡅳啂從容","quocngu":"Nghe lời khuyên nhủ thong dong,"},{"nom":"停𢚸払買决𢚸回裝","quocngu":"Đành lòng chàng mới quyết lòng hồi trang."},{"nom":"󰢜𠚢典𠳚椿堂","quocngu":"Sáng ra đến gửi xuân đường,"},{"nom":"束翁拱倍𠽖払寧家","quocngu":"Thúc ông cũng vội giục chàng ninh gia."},{"nom":"餞迻󰜋𡃹關河","quocngu":"Tiễn đưa một chén quan hà,"},{"nom":"春亭脱㐌𢶿𠚢臯亭","quocngu":"Xuân đình thoắt đã dọn ra Cao đình."},{"nom":"秦淮󰜋帶𤄯撑","quocngu":"Tần Hoài một dải trong xanh,"},{"nom":"雷傕坡柳󰋇梗陽關","quocngu":"Loi thoi bờ liễu mấy cành Dương quan."},{"nom":"擒𢬣𨱽𥐆咀嘆","quocngu":"Cầm tay dài ngắn thở than,"},{"nom":"𢺺配凝󱋓合散喭唎","quocngu":"Chia phôi ngừng chén, hợp tan nghẹn lời."},{"nom":"娘浪𡽫渃賒𣾺","quocngu":"Nàng rằng: \\"Non nước xa khơi,"},{"nom":"牢朱𥪝蔭𪰛外買淹","quocngu":"Sao cho trong ấm thì ngoài mới êm."},{"nom":"易𤍶󰢝𧺀𢳳金","quocngu":"Dễ loà yếm thắm trôn kim,"},{"nom":"爫之𢫕𬑉󰈫𪀄苦𢚸","quocngu":"Làm chi bưng mắt bắt chim khó lòng."},{"nom":"堆些𡮍義󰢞𢸚","quocngu":"Đôi ta chút nghĩa đèo bòng,"},{"nom":"典茹𠓀料呐共朱明","quocngu":"Đến nhà trước liệu nói cùng cho minh."},{"nom":"油欺㳥𩙍不平","quocngu":"Dù khi sóng gió bất bình,"},{"nom":"𡘯羅威𡘯碎停分碎","quocngu":"Lớn ra uy lớn, tôi đành phận tôi."},{"nom":"欣調𨁪虐𨁪吹","quocngu":"Hơn điều giấu ngược giấu xuôi,"},{"nom":"吏恾仍㗂齊𡗶典𡢐","quocngu":"Lại mang những tiếng tày trời đến sau."},{"nom":"傷饒嗔𢖵𠳒饒","quocngu":"Thương nhau xin nhớ lời nhau,"},{"nom":"𢆥遲拱拯𠫾兜麻遲","quocngu":"Năm chầy cũng chẳng đi đâu mà chầy!"},{"nom":"𡃹迻𢖵𣇊𣋚󰅒","quocngu":"Chén đưa nhớ bữa hôm nay,"},{"nom":"󱋓𢜠嗔待𩛷尼𢆥𡢐","quocngu":"Chén mừng xin đợi bữa này năm sau!\\""},{"nom":"𠊚𨖲馭几𢺺袍","quocngu":"Người lên ngựa, kẻ chia bào,"},{"nom":"棱楓秋㐌染牟關山","quocngu":"Rừng phong thu đã nhuốm màu quan san."},{"nom":"𨤵紅𡏧捲征鞍","quocngu":"Dặm hồng bụi cuốn chinh an,"},{"nom":"𬂙𠊚㐌屈󰋇岸橷撑","quocngu":"Trông người đã khuất mấy ngàn dâu xanh."},{"nom":"𠊚衛隻䏾𢆥更","quocngu":"Người về chiếc bóng năm canh,"},{"nom":"几𠫾𨷈𨤵󰜋命賒吹","quocngu":"Kẻ đi muôn dặm một mình xa xôi."},{"nom":"暈𦝄埃仕爫堆","quocngu":"Vầng trăng ai xẻ làm đôi,"},{"nom":"姅印襘隻姅𤐝𨤵長","quocngu":"Nửa in gối chiếc, nửa soi dặm trường."},{"nom":"計之仍事育塘","quocngu":"Kể chi những sự dọc đường."},{"nom":"𢩣𥪝尼餒主張於茹","quocngu":"Buồng trong, này nỗi chủ trương ở nhà."},{"nom":"本𣳔户宦名家","quocngu":"Vốn dòng họ Hoạn danh gia,"},{"nom":"昆官吏部𠸜羅宦姐","quocngu":"Con quan Lại bộ, tên là Hoạn thư."},{"nom":"緣藤𣌋順𩙍迻","quocngu":"Duyên Đằng sớm thuận gió đưa,"},{"nom":"共払結𩯀車絲仍𣈜","quocngu":"Cùng chàng kết tóc xe tơ những ngày."},{"nom":"於咹𪰛󰞺拱𫨩","quocngu":"Ở ăn thì nết cũng hay,"},{"nom":"呐調𦇒纀羅𢬣拱𫅷","quocngu":"Nói điều trói buộc là tay cũng già."},{"nom":"自𦖑園買添花","quocngu":"Từ nghe vườn mới thêm hoa,"},{"nom":"𠰘𠊚㐌𪥀信茹𪰛空","quocngu":"Miệng người đã lắm, tin nhà thì không."},{"nom":"󰌕𢚸強拉強燶","quocngu":"Lửa lòng càng dập càng nồng,"},{"nom":"責𠊚顛泊𠚢𢚸𦝄花","quocngu":"Trách người đen bạc ra lòng trăng hoa:"},{"nom":"󰂇朋首寔拱些","quocngu":"\\"Ví bằng thú thật cùng ta,"},{"nom":"固容几󰡎買羅幅𨕭","quocngu":"Có dong kẻ dưới mới là bực trên."},{"nom":"𢚵之拯𪧚𥙩𪤍","quocngu":"Dại chi chẳng giữ lấy nền,"},{"nom":"卒之麻啅㗂慳𠓨命","quocngu":"Tốt chi mà rước tiếng ghen vào mình?"},{"nom":"吏群𢫕捌𨁪觥","quocngu":"Lại còn bưng bít giấu quanh,"},{"nom":"爫之仍𫗁𥘷𩲵𠽋唭","quocngu":"Làm chi những thói trẻ ranh nực cười!"},{"nom":"仍浪隔󰘚屈𠳒","quocngu":"Những rằng cách mặt khuất lời,"},{"nom":"𨁪些些拱料排𨁪朱","quocngu":"Giấu ta, ta cũng liệu bài giấu cho!"},{"nom":"𢥈之󰟳意麻𢥈","quocngu":"Lo gì việc ấy mà lo,"},{"nom":"蜆𥪝𠰘󱋓吏𨆶𠫾兜","quocngu":"Kiến trong miệng chén lại bò đi đâu"},{"nom":"爫朱𥆾拯特饒","quocngu":"Làm cho nhìn chẳng được nhau,"},{"nom":"爫朱苔墮拮頭拯𨖲","quocngu":"Làm cho đày đoạ cất đầu chẳng lên!"},{"nom":"爫朱𬂙𧡊眼前","quocngu":"Làm cho trông thấy nhãn tiền,"},{"nom":"朱𠊚貪板半船別𢬣","quocngu":"Cho người tham ván bán thuyền biết tay.\\""},{"nom":"浽𢚸謹𫽄埃𫨩","quocngu":"Nỗi lòng kín chẳng ai hay,"},{"nom":"外𦖻底默𩙍𠖤𠃅外","quocngu":"Ngoài tai để mặc gió bay mái ngoài."},{"nom":"旬𡢐俸固𠄩𠊚","quocngu":"Tuần sau bỗng có hai người,"},{"nom":"𫫗信㕸拱算排𤼸功","quocngu":"Mách tin rắp cũng toan bài dâng công."},{"nom":"小姐浽陣同同","quocngu":"Tiểu thư nổi giận đùng đùng,"},{"nom":"𡃍𢬣𬘏𦄅𠚢𢚸撩𤽗","quocngu":"Gớm tay thêu dệt ra lòng trêu ngươi!"},{"nom":"𫯳蚤󰅹沛如埃","quocngu":"Chồng tao nào phải như ai,"},{"nom":"調尼罕𠰘仍𠊚是非","quocngu":"Điều này hẳn miệng những người thị phi!\\""},{"nom":"徵凌爫𢷣𠚢威","quocngu":"Chưng lừng làm dữ ra uy,"},{"nom":"繩童抯𠰘昆婢𢯏𪘵","quocngu":"Thằng đồng vả miệng, con tì bẻ răng."},{"nom":"𥪝外謹櫗如𢬄","quocngu":"Trong ngoài kín mít như bưng,"},{"nom":"󰅹埃群鉴呐能󰜋𠳒","quocngu":"Nào ai còn dám nói năng một lời!"},{"nom":"𢩣絩𣌉𣌋清台","quocngu":"Buồng thêu khuya sớm thảnh thơi,"},{"nom":"𠚢𠓨󰜋墨呐唭如空","quocngu":"Ra vào một mực nói cười như không."},{"nom":"𣎀𣈜𢚸仍吲𢚸","quocngu":"Đêm ngày lòng những dặn lòng,"},{"nom":"生陀衛典樓紅𫴋鞍","quocngu":"Sinh đà về đến lầu hồng xuống yên."},{"nom":"𠳒散合浽寒暄","quocngu":"Lời tan hợp, nỗi hàn huyên,"},{"nom":"𡦂情強𪉽𡦂緣強燶","quocngu":"Chữ tình càng mặn, chữ duyên càng nồng."},{"nom":"洗塵𢝙󱋓從容","quocngu":"Tẩy trần vui chén thong dong,"},{"nom":"餒𢚸埃於𥪝𢚸麻𠚢","quocngu":"Nỗi lòng ai ở trong lòng mà ra?"},{"nom":"払衛䀡意思茹","quocngu":"Chàng về xem ý tứ nhà,"},{"nom":"事𢚸拱拉鄰羅𤉒排","quocngu":"Sự lòng cũng rắp lân la giải bày."},{"nom":"󰋇番唭醒呐醝","quocngu":"Mấy phen cười tỉnh nói say,"},{"nom":"𩯀絲拯動𡮨埋事情","quocngu":"Tóc tơ chẳng động mảy may sự tình."},{"nom":"擬它𢬄謹𠰘󰜍","quocngu":"Nghĩ đà bưng kín miệng bình,"},{"nom":"󰅹埃固拷麻命㐌稱","quocngu":"Nào ai có khảo mà mình đã xưng?"},{"nom":"仍羅𠲖唈用𢫡","quocngu":"Những là e ấp dùng dằng,"},{"nom":"捽𦀊𢜝女動棱吏傕","quocngu":"Rút dây sợ nữa động rừng, lại thôi."},{"nom":"固欺𢝙傳謨唭","quocngu":"Có khi vui chuyện mua cười,"},{"nom":"小姐吏𢷣仍唎兜兜","quocngu":"Tiểu thư lại giở những lời đâu đâu."},{"nom":"浪𥪝玉𥒥鐄鍮","quocngu":"Rằng: \\"Trong ngọc đá vàng thau,"},{"nom":"𨑮分些㐌信饒奇𨑮","quocngu":"Mười phần ta đã tin nhau cả mười."},{"nom":"𠸦朱仍𠰘容𨱽","quocngu":"Khen cho những miệng dông dài,"},{"nom":"𧊉蜂吏達仍𠳒怒箕","quocngu":"Bướm ong lại đặt những lời nọ kia."},{"nom":"妾油𢜗拯𫨩推","quocngu":"Thiếp dù vụng chẳng hay suy,"},{"nom":"㐌洳䏾擬吏碑𠰘唭","quocngu":"Đã dơ bụng nghĩ, lại bia miệng cười\\""},{"nom":"𧡊𠳒統請如𨔈","quocngu":"Thấy lời thủng thỉnh như chơi,"},{"nom":"順𠳒払拱呐吹扡扽","quocngu":"Thuận lời chàng cũng nói xuôi đỡ đòn."},{"nom":"仍羅唭粉𠹳𣘈","quocngu":"Những là cười phấn cợt son,"},{"nom":"畑𣌉終䏾𦝄𧷺聘𦠘","quocngu":"Đèn khuya chung bóng, trăng tròn sánh vai,"},{"nom":"𡽫圭蓴󰢟𤊰味","quocngu":"Non quê thuần hức bén mùi,"},{"nom":"汫鐄㐌拥󰜋𠄽蘿梧","quocngu":"Giếng vàng đã rụng một vài lá ngô."},{"nom":"鄭念𢖵景江湖","quocngu":"Chạnh niềm nhớ cảnh giang hồ,"},{"nom":"󰜋念關塞󰋇務𩙍𦝄","quocngu":"Một niềm quan tái, mấy mùa gió trăng."},{"nom":"情𥢆渚監󰁹𪘵","quocngu":"Tình riêng chưa dám rỉ răng,"},{"nom":"小姐𠓀㐌料澄啂戈","quocngu":"Tiểu thư trước đã liệu chừng nhủ qua:"},{"nom":"隔𫷜𩄲萡賒賒","quocngu":"\\"Cách năm mây bạc xa xa,"},{"nom":"臨淄拱沛併麻晨昏","quocngu":"Lâm Truy cũng phải tính mà thần hôn.\\""},{"nom":"特𠳒如𨷑𡬷𣘈","quocngu":"Được lời như mở tấc son,"},{"nom":"𨀒駒𣦎𨇒渃𡽫圭𠊚","quocngu":"Vó câu thẳng ruổi nước non quê người."},{"nom":"龍玲底渃印𡗶","quocngu":"Long lanh đáy nước in trời,"},{"nom":"城磋𤌋碧𡽫坡󰢺鐄","quocngu":"Thành xây khói biếc, non phơi bóng vàng."},{"nom":"榑駒𣃣𢶢𨤵長","quocngu":"Roi câu vừa gióng dặm trường,"},{"nom":"車香娘拱順塘歸寧","quocngu":"Xe hương nàng cũng thuận đường quy ninh,"},{"nom":"𠽔茹萱歇每情","quocngu":"Thưa nhà huyên hết mọi tình,"},{"nom":"浽払於萡浽命𠹾顛","quocngu":"Nỗi chàng ở bạc, nỗi mình chịu đen."},{"nom":"擬浪恨𤴪𢤞悭","quocngu":"Nghĩ rằng: \\"Giận ghẻ hờn ghen,"},{"nom":"醜払麻固埃𠸦之命","quocngu":"Xấu chàng mà có ai khen chi mình!"},{"nom":"丕𢧚撔󰘚爫清","quocngu":"Vậy nên ngảnh mặt làm thinh,"},{"nom":"謀高本㐌㕸𩲵仍𣈜","quocngu":"Mưu cao vốn đã rắp ranh những ngày,"},{"nom":"臨淄塘󰜋𣎃遲","quocngu":"Lâm Truy đường một tháng chầy,"},{"nom":"麻塘海道𨖅𬆄羅𧵆","quocngu":"Mà đường hải đạo sang ngay là gần."},{"nom":"𢶿船攎󰘚家人","quocngu":"Dọn thuyền lựa mặt gia nhân,"},{"nom":"唉󰝡𦀊𦀗纀蹎娘衛","quocngu":"Hãy đem dây xích buộc chân nàng về."},{"nom":"爫朱朱𤵺朱迷","quocngu":"Làm cho, cho dại, cho mê,"},{"nom":"爫朱𤴬疸𠲖㖷朱𥋳","quocngu":"Làm cho đau đớn, ê chề cho coi!"},{"nom":"𠓀朱補𢢂仍𠊚","quocngu":"Trước cho bõ ghét những người,"},{"nom":"𡢐朱底󰜋𠻀唭衛𡢐","quocngu":"Sau cho để một trò cười về sau!\\""},{"nom":"夫人𠸦斫窒牟","quocngu":"Phu nhân khen chước rất mầu,"},{"nom":"𢢅昆買𠰺默油𠚢𢬣","quocngu":"Chiều con, mới dạy mặc dầu ra tay."},{"nom":"𢯢𢲲帆𩙍繚𩄲","quocngu":"Sửa sang buồm gió lèo mây,"},{"nom":"犬鷹吏𪮙󰜋𠄽棍桄","quocngu":"Khuyển Ưng lại chọn một vài côn quang."},{"nom":"𠸕𠻀歇各𡑩塘","quocngu":"Dặn dò hết các nẻo đường,"},{"nom":"順風󰜋蘿𣾼𨖅𣷭齊","quocngu":"Thuận phong một lá vượt sang biển Tề."},{"nom":"娘自隻䏾窗𦂛","quocngu":"Nàng từ chiếc bóng song the,"},{"nom":"塘箕餒怒如𢺺䋦愁","quocngu":"Đường kia nỗi nọ như chia mối sầu."},{"nom":"䏾橷㐌熾昂頭","quocngu":"Bóng dâu đã xế ngang đầu,"},{"nom":"別兜蔭冷別兜𠮾裴","quocngu":"Biết đâu ấm lạnh, biết đâu ngọt bùi."},{"nom":"𩯀誓㐌枕昂𦠘","quocngu":"Tóc thề đã chấm ngang vai,"},{"nom":"󰅹𠳒𡽫渃󰅹𠳒鉄𣘈","quocngu":"Nào lời non nước, nào lời sắt son?"},{"nom":"𦼜𦹴𡭧分昆昆","quocngu":"Sắn bìm chút phận con con,"},{"nom":"因緣別固𣃲𧷺朱庒","quocngu":"Nhân duyên biết có vuông tròn cho chăng?"},{"nom":"身牢𡗉浽不平","quocngu":"Thân sao nhiều nỗi bất bằng,"},{"nom":"料如妸素宮𦝄擬󰅹","quocngu":"Liều như Ả tố cung trăng nghĩ nào!"},{"nom":"𣎀秋𩙍律窻桃","quocngu":"Đêm thu gió lọt song đào,"},{"nom":"姅𨦩𦝄缺𠀧𬁖𡧲𡗶","quocngu":"Nửa vành trăng khuyết, ba sao giữa trời."},{"nom":"󰠱香典𠓀𫢋臺","quocngu":"Nén hương đến trước phật đài,"},{"nom":"餒𢚸𡄩渚𣴓𠳒云云","quocngu":"Nỗi lòng khấn chửa cạn lời vân vân."},{"nom":"󰡎花㖂𫫵惡人","quocngu":"Dưới hoa dậy lũ ác nhân,"},{"nom":"喑喑哭鬼驚神𧿆𠚢","quocngu":"Ầm ầm khốc quỷ kinh thần nhảy ra!"},{"nom":"苔𡑝鎌捽𠓇𤍶","quocngu":"Đầy sân gươm tuốt sáng loà,"},{"nom":"失驚娘渚別羅爫牢","quocngu":"Thất kinh nàng chửa biết là làm sao."},{"nom":"𧆄迷兜㐌洒𠓨","quocngu":"Thuốc mê đâu đã tưới vào,"},{"nom":"𢠩恾如職占包別之","quocngu":"Mơ màng như giấc chiêm bao biết gì!"},{"nom":"𧿆𬆄𨖲馭卽期","quocngu":"Dảy ngay lên ngựa tức kỳ,"},{"nom":"房𬘏院册𦊚皮󰌕炵","quocngu":"Phòng thêu viện sách, bốn bề lửa dong."},{"nom":"産屍無主邊滝","quocngu":"Sẵn thây vô chủ bên sông"},{"nom":"󰝂𠓨底打吝崇埃咍","quocngu":"Đem vào để đánh lận sòng ai hay?"},{"nom":"碎隊魄落魂𠖤","quocngu":"Tôi đòi phách lạc hồn bay,"},{"nom":"蹤坡蓓𦹵㭲𣘃隐命","quocngu":"Tung pha bụi cỏ gốc cây ẩn mình."},{"nom":"束翁茹拱𧵆觥","quocngu":"Thúc ông nhà cũng gần quanh,"},{"nom":"秩𬂙𦰟󰌕失驚拥淶","quocngu":"Chợt trông ngọn lửa, thất kinh rụng rời."},{"nom":"伵柴𬦳𬆅典尼","quocngu":"Tớ thầy chạy thẳng đến nơi,"},{"nom":"𥯒排洒󰌕尋𠊚劳嗃","quocngu":"Tơi bời tưới lửa tìm người lao xao."},{"nom":"𩙍高𦰟󰌕強高","quocngu":"Gió cao ngọn lửa càng cao,"},{"nom":"碎隊尋𨁥娘󰅹𧡊兜","quocngu":"Tôi đòi tìm đủ, nàng nào thấy đâu!"},{"nom":"歇𪹣歇駭𥆾饒","quocngu":"Hớt hơ hớt hải nhìn nhau,"},{"nom":"汫溇蓓葚𠓀𡢐尋咣","quocngu":"Giếng sâu bụi rậm trước sau tìm quàng."},{"nom":"𧼋𠚢准𡳵房香","quocngu":"Chạy ra chốn cũ phòng hương,"},{"nom":"𥪝炭𧡊󰜋棟𩩫𤈜殘","quocngu":"Trong than thấy một đống xương cháy tàn."},{"nom":"𣦍情埃別謀奸","quocngu":"Ngay tình ai biết mưu gian,"},{"nom":"罕娘傕吏固盤浪埃","quocngu":"Hẳn nàng thôi lại có bàn rằng ai!"},{"nom":"束翁洡湥𥐆𨱽","quocngu":"Thúc ông sùi sụt ngắn dài,"},{"nom":"擬昆永𡲈傷𠊚󰞺那","quocngu":"Nghĩ con vắng vẻ thương người nết na."},{"nom":"遺骸抇󰢠衛茹","quocngu":"Di hài nhặt nhạnh về nhà,"},{"nom":"󰅹羅衾殮󰅹羅䘮齋","quocngu":"Nào là khâm liệm, nào là tang trai."},{"nom":"禮常㐌𨁥󰜋𠄩","quocngu":"Lễ thường đã đủ một hai,"},{"nom":"陸程払拱典尼閉除","quocngu":"Lục trình chàng cũng đến nơi bấy giờ."},{"nom":"𨀈𠓨准𡳵樓踈","quocngu":"Bước vào chốn cũ lầu thơ,"},{"nom":"󰢡炭󰜋棟𪱆湄𦊚墻","quocngu":"Tro than một đống, nắng mưa bốn tường."},{"nom":"𨖅茹吒細中堂","quocngu":"Sang nhà cha, tới trung đường,"},{"nom":"靈床牌位蜍娘於𨕭","quocngu":"Linh sàng bài vị thờ nàng ở trên."},{"nom":"唉喂呐歇事緣","quocngu":"Hỡi ôi! Nói hết sự duyên,"},{"nom":"絲情𠞹䏾󰌕煩𤈜肝","quocngu":"Tơ tình đứt bụng, lửa phiền cháy gan!"},{"nom":"招命勿抯哭嘆","quocngu":"Gieo mình vật vã khóc than:"},{"nom":"昆𠊚世意托冤世尼","quocngu":"Con người thế ấy, thác oan thế này!"},{"nom":"󰣐浪梅竹吏圍","quocngu":"Chắc rằng mai trúc lại vầy,"},{"nom":"埃𫨩永訣羅𣈜迻饒","quocngu":"Ai hay vĩnh quyết là ngày đưa nhau."},{"nom":"計包掣餒慘愁","quocngu":"Kể bao xiết nỗi thảm sầu,"},{"nom":"斷膓埃固戈橋買𫨩","quocngu":"Đoạn trường ai có qua cầu mới hay."},{"nom":"𧵆沔𦖑固没柴","quocngu":"Gần miền nghe có một thầy,"},{"nom":"飛符𦤶鬼高𢬣通玄","quocngu":"Phi phù trí quỷ, cao tay thông huyền."},{"nom":"𨕭三島󰡎九泉","quocngu":"Trên Tam đảo, dưới cửu tuyền,"},{"nom":"尋兜𪰛拱別信𤑟𤉜","quocngu":"Tìm đâu thì cũng biết tin rõ ràng."},{"nom":"攕生禮物逴𨖅","quocngu":"Sắm sanh lễ vật rước sang,"},{"nom":"嗔尋朱𧡊󰘚娘𠳨𠻃","quocngu":"Xin tìm cho thấy mặt nàng hỏi han."},{"nom":"道人伏𠓀凈壇","quocngu":"Đạo nhân phục trước tĩnh đàn."},{"nom":"出神𦀊丿渚殘𥘀香","quocngu":"Xuất thần giây phút chưa tàn nén hương."},{"nom":"跙𧗱明白呐詳","quocngu":"Trở về minh bạch nói tường:"},{"nom":"󰘚娘拯𧡊役娘㐌查","quocngu":"\\"Mặt nàng chẳng thấy, việc nàng đã tra."},{"nom":"𠊚尼󰠱刼寃家","quocngu":"Người này nặng kiếp oan gia,"},{"nom":"群𡗉𡢻𡗋牢它托朱","quocngu":"Còn nhiều nợ lắm sao đà thác cho!"},{"nom":"孛宮當默難蘇","quocngu":"Bột cung đang mắc nạn to,"},{"nom":"󰜋𢆥女買𠽄𠻀特信","quocngu":"Một năm nữa mới thăm dò được tin."},{"nom":"𠄩邊夾󰘚廛廛","quocngu":"Hai bên giáp mặt chiền chiền,"},{"nom":"悶𥆾𦓡拯鍳𥆾邏台","quocngu":"Muốn nhìn mà chẳng dám nhìn lạ thay!\\""},{"nom":"𦖑𠳒呐邏󰟯尼","quocngu":"Nghe lời nói lạ dường này,"},{"nom":"事娘羅世𠳒柴鍳信","quocngu":"Sự nàng là thế, lời thầy dám tin."},{"nom":"拯戈童骨󰣊仟","quocngu":"Chẳng qua đồng cốt xằng xiên,"},{"nom":"𠊚兜𦓡吏𧡊𨕭𡎝塵","quocngu":"Người đâu mà lại thấy trên cõi trần?"},{"nom":"惜花仍唅𢢯春","quocngu":"Tiếc hoa những ngậm ngùi xuân,"},{"nom":"身尼易別󰋇吝﨤僊","quocngu":"Thân này dễ biết mấy lần gặp tiên!"},{"nom":"停浪娘㐌九原","quocngu":"Đành rằng nước đã cửu nguyên."},{"nom":"𫨩兜地獄於沔人間","quocngu":"Hay đâu địa ngục ở miền nhân gian!"},{"nom":"犬鷹㐌担謀奸","quocngu":"Khuyển, Ưng đã đắt mưu gian,"},{"nom":"域娘迻𫴋底安󰡎船","quocngu":"Vực nàng đưa xuống để an dưới thuyền."},{"nom":"帆高撩𣦎𦑃耑","quocngu":"Buồm cao treo thẳng cánh xuyền,"},{"nom":"提澄無錫氷沔𣾼𨖅","quocngu":"Đè chừng vô Tích băng miền vượt sang."},{"nom":"㨋渡蓮𠓀廳堂","quocngu":"Giã đò, lên trước sảnh đường,"},{"nom":"犬鷹𠄩𠀲納娘𤼸功","quocngu":"Khuyển Ưng hai đứa nộp nàng dâng công."},{"nom":"域娘暫𫴋門房","quocngu":"Vực nàng tạm xuống môn phòng,"},{"nom":"唉群帖帖職燶渚派","quocngu":"Hãy còn thiêm thiếp giấc nồng chưa phai."},{"nom":"𤎎恾秩醒魂枚","quocngu":"MƠ màng chợt tỉnh hồn mai,"},{"nom":"𨷯茹兜𠅎樓臺󰅹低","quocngu":"Cửa nhà đâu mất, lâu đài nào đây?"},{"nom":"徬徨𢷣醒𢷣醝","quocngu":"Bàng hoàng dở tỉnh dở say,"},{"nom":"廳堂𠻵㗂隊𬆄𨖲侯","quocngu":"Sảnh đường mảng tiếng đòi ngay lên hầu."},{"nom":"阿鬟連𫴋𠽖𣭻","quocngu":"Ả hoàn liền xuống giục mau,"},{"nom":"駭雄娘買蹺𡢐每𠊚","quocngu":"Hãi hùng nàng mới theo sau mọi người."},{"nom":"𥋷𬂙座𢌌𢩵𨱽","quocngu":"Liếc trông toà rộng dãy dài."},{"nom":"天官冢宰固牌撩𨖲","quocngu":"Thiên quan trủng tể có bài treo lên."},{"nom":"班𣈜蠟𤏧𠄩邊","quocngu":"Ban ngày sáp thắp hai bên."},{"nom":"𨕭床七寶𡎢𨖲󰜋󰜏","quocngu":"Trên giường thất bảo, ngồi lên một bà."},{"nom":"𠲟𡃕𦰟𠳨梗查","quocngu":"Gạn gùng ngọn hỏi ngành tra,"},{"nom":"事命娘㐌據𦓡𠳚󰣚","quocngu":"Sự mình nàng đã cứ mà gửi thưa."},{"nom":"不情浽陣𩄲𩅹","quocngu":"Bất tình nổi trận mây mưa."},{"nom":"𠻵娘󰣉󱋙巴蜍悁身","quocngu":"Mắng rằng: \\"Giống khéo bơ thờ quen thân."},{"nom":"昆尼拯沛善人","quocngu":"Con này chẳng phải thiện nhân,"},{"nom":"拯牟遁主𪰛軍論𫯳","quocngu":"Chẳng màu trốn chúa thì quân lộn chồng."},{"nom":"𠚢從猫𡏢𧍆同","quocngu":"Ra tuồng mèo mả cua đồng,"},{"nom":"𠚢從隴縱拯衝皮󰅹","quocngu":"Ra tuồng lúng túng chẳng xong bề nào."},{"nom":"㐌󰝡命半𨷶蚤","quocngu":"Đã đem mình bán cửa tao,"},{"nom":"吏群𠺱𠾶爫高世尼","quocngu":"Lại còn khủng khỉnh làm cao thế này!"},{"nom":"渚󰅹榑𣕬眾𠎩","quocngu":"Chớ nào roi nọc chúng bay!"},{"nom":"唉朱𠀧𨔿別𢬣󰜋吝","quocngu":"Hãy cho ba chục biết tay một lần!\\""},{"nom":"阿鬟𨕭󰡎㖡噒","quocngu":"Ả hoàn trên dưới dạ rân,"},{"nom":"唒浪𤾓𠰘坤分𨤰󰅹","quocngu":"Dẫu rằng trăm miệng khôn phân lẽ nào!"},{"nom":"竹棍𠚢飭拉𠓨","quocngu":"Trúc côn ra sức đập vào,"},{"nom":"𦧘󰅹拯󰞺肝󰅹拯驚","quocngu":"Thịt nào chẳng nát, gan nào chẳng kinh!"},{"nom":"㤕台桃李󰜋梗","quocngu":"Xót thay đào lý một cành,"},{"nom":"󰜋畨𩅹𩙍散情󰜋畨","quocngu":"Một phen mưa gió, tan tành một phen!"},{"nom":"花奴傳𠰺𢷮𠸜","quocngu":"Hoa nô truyền dạy đổi tên,"},{"nom":"房絩𠰺押𠓨畨侍婢","quocngu":"Phòng thêu dạy ghép vào phiên thị tì."},{"nom":"𠚢𠓨蹺𠎪青衣","quocngu":"Ra vào theo lũ thanh y,"},{"nom":"𤋵油𩯀𦇒䏧𨨲管包","quocngu":"Dãi dầu tóc rối da chì quản bao!"},{"nom":"宦家固󰜋媒󰅹","quocngu":"Hoạn gia có một mụ nào,"},{"nom":"𧡊𠊚𧡊󰞺𠚢𠓨𦓡傷","quocngu":"Thấy người thấy nết, ra vào mà thương."},{"nom":"欺茶󱋓欺󰔃湯","quocngu":"Khi chè chén, khi thuốc thang,"},{"nom":"執𠳒方便𨷑塘好生","quocngu":"Giúp lời phương tiện, mở đường hiếu sinh."},{"nom":"吲浪埋𢤡㐌停","quocngu":"Dặn rằng: \\"May rủi đã đành,"},{"nom":"柳蒲命𫳘𥙩命朱𫨩","quocngu":"Liễu bồ mình giữ lấy mình cho hay."},{"nom":"拱羅寃業之低","quocngu":"Cũng là oan nghiệp chi đây,"},{"nom":"沙機買典勢尼󰝸仍","quocngu":"Sa cơ mới đến thế này, chẳng dưng."},{"nom":"於低腮壁脉棱","quocngu":"Ở đây tai vách mạch rừng."},{"nom":"𧡊埃悁屬拱仃𥆾之","quocngu":"Thấy ai quen thuộc cũng đừng nhìn chi."},{"nom":"矯欺𩆐𩂶不期","quocngu":"Kẻo khi sấm sét bất kỳ,"},{"nom":"昆蝼昆蜆呌洏特寃","quocngu":"Con sâu con kiến kêu gì được oan!\\""},{"nom":"娘強湥玉如滇","quocngu":"Nàng càng giọt ngọc như chan,"},{"nom":"餒𢚸隴仍盤桓念西","quocngu":"Nỗi lòng luống những bàn hoàn niềm tây."},{"nom":"風塵刼𠹾㐌菭","quocngu":"Phong trần kiếp chịu đã đầy,"},{"nom":"淋炭吏固次尼朋𠄩","quocngu":"Lầm than lại có thứ này bằng hai!"},{"nom":"分牢泊拯﨤催","quocngu":"Phận sao bạc chẳng vừa thôi,"},{"nom":"掯掯纀買𥙩𠊚紅顔","quocngu":"Khăng khăng buộc mãi lấy người hồng nhan!"},{"nom":"㐌停夙債前寃","quocngu":"Đã đành túc trái tiền oan,"},{"nom":"拱料玉󰞺花殘𦓡之","quocngu":"Cũng liều ngọc nát hoa tàn mà chi!"},{"nom":"仍羅𢭗耨戈期","quocngu":"Những là nương náu qua kỳ"},{"nom":"小姐沛𣇜𧗱茹寧家","quocngu":"Tiểu thư phải buổi về nhà ninh gia,"},{"nom":"媄𡥵路傳隣羅","quocngu":"Mẹ con trò chuyện lân la,"},{"nom":"夫人吏噲娘𠚢𠰺𠳒","quocngu":"Phu nhân lại gọi nàng ra dạy lời:"},{"nom":"小姐󰡎帳少𠊚","quocngu":"\\"Tiểu thư dưới trướng thiếu người,"},{"nom":"朱𧗱邊意蹺隊樓粧","quocngu":"Cho về bên ấy theo đòi lầu trang.\\""},{"nom":"領𠳒娘買蹺𨖅","quocngu":"Lĩnh lời nàng mới theo sang,"},{"nom":"別兜地獄天堂羅兜","quocngu":"Biết đâu địa ngục thiên đàng là đâu!"},{"nom":"𣌋𣌉巾󰘚畧頭","quocngu":"Sớm khuya khăn mặt, lược đầu,"},{"nom":"分昆侯下昆侯鍳差","quocngu":"Phận con hầu hạ, con hầu dám sai."},{"nom":"固欺淹妸朝𡗶","quocngu":"Có khi êm ả chiều trời,"},{"nom":"竹絲𠳨典藝制每𣈜","quocngu":"Trúc tơ hỏi đến nghề chơi mọi ngày."},{"nom":"領𠳒娘買攄𦀊","quocngu":"Lĩnh lời nàng mới lựa dây,"},{"nom":"𠰚𡽫𡃑𡁾易醝𢚸𠊚","quocngu":"Nỉ non thánh thót dễ say lòng người!"},{"nom":"小姐䀡拱傷才","quocngu":"Tiểu thư xem cũng thương tài,"},{"nom":"囷威󰟯拱󰈫𠄽𦊚分","quocngu":"Khuôn uy dường cũng bớt vài bốn phân."},{"nom":"𨷯𠊚苔墮𡮍身","quocngu":"Cửa người đày đoạ chút thân,"},{"nom":"𣌋𡅧𪡇䏾𣌉殷恨𢚸","quocngu":"Sớm năn nỉ bóng, khuya ân hận lòng."},{"nom":"臨淄𡮍分岧蓬","quocngu":"Lâm Truy chút phận đèo bòng,"},{"nom":"渃䕯抵𡦂相逢刼𡢐","quocngu":"Nước bèo để chữ tương phùng kiếp sau!"},{"nom":"𦊚方𩄲𤽸󰜋牟","quocngu":"Bốn phương mây trắng một màu,"},{"nom":"𬂙潙故郡別兜羅茹","quocngu":"Trông vời cố quận biết đâu là nhà."},{"nom":"吝吝𣎃論𣈜戈","quocngu":"Lần lần tháng trọn ngày qua,"},{"nom":"餒𧵆󰅹別塘賒世尼","quocngu":"Nỗi gần nào biết đường xa thế này?"},{"nom":"臨淄自課𪂦𠖤","quocngu":"Lâm Truy từ thuở uyên bay,"},{"nom":"𢩣空傷几𣎃𣈜隻身","quocngu":"Phòng không thương kẻ tháng ngày chiếc thân."},{"nom":"𪵟撑𦝄買印痕","quocngu":"Mày xanh trăng mới in ngần,"},{"nom":"粉乘香𬟗倍分㤕車","quocngu":"Phấn thừa hương cũ bội phần xót xa!"},{"nom":"蓮殘梅吏𦬑花","quocngu":"Sen tàn, mai lại nở hoa,"},{"nom":"愁𨱽𣈜𥐆冬它𨖅春","quocngu":"Sầu dài ngày ngắn đông đà sang xuân."},{"nom":"尋兜朱𧡊故人","quocngu":"Tìm đâu cho thấy cố nhân,"},{"nom":"𥙩勾運命𢣧寅𢖵傷","quocngu":"Lấy câu vận mệnh khuây dần nhớ thương."},{"nom":"鄭念𢖵景家鄕","quocngu":"Trạnh niềm nhớ cảnh gia hương,"},{"nom":"𢖵圭払吏尋塘𠽄圭","quocngu":"Nhớ quê, chàng lại tìm đường thăm quê."},{"nom":"小姐迍𨷶吔㖷","quocngu":"Tiểu thư đón cửa dã dề,"},{"nom":"寒暄𣃣𣴓每皮𧵆賒","quocngu":"Hàn huyên vừa cạn mọi bề gần xa."},{"nom":"茹香高捲幅纙","quocngu":"Nhà xuân cao cuốn bức là,"},{"nom":"𢩣𥪞傳噲娘𫥨𥛉𢜠","quocngu":"Buồng trong truyền gọi nàng ra lạy mừng."},{"nom":"𨀈𠚢󰜋𨀈󰜋𨀊","quocngu":"Bước ra một bước một dừng,"},{"nom":"𬂙賒娘㐌𤏣澄裊賒","quocngu":"Trông xa, nàng đã tỏ chừng nẻo xa:"},{"nom":"沛浪𪱆𤈛畑𤍶","quocngu":"\\"Phải rằng nắng quáng đèn loà,"},{"nom":"𤑟𤉜𡎢妬拯羅束生","quocngu":"Rõ ràng ngồi đó, chẳng là Thúc sinh?"},{"nom":"典悲𣇞買別情","quocngu":"Đến bây giờ mới biết tình,"},{"nom":"催催㐌默𠓨鑅拯差","quocngu":"Thôi thôi đã mắc vào vành chẳng sai!"},{"nom":"斫兜固斫邏𠁀","quocngu":"Chước đâu có chước lạ đời,"},{"nom":"𠊚兜麻吏固𠊚精魔","quocngu":"Người đâu mà lại có người tinh ma!"},{"nom":"𤑟𤉜舌侶堆些","quocngu":"Rõ ràng thiệt lứa đôi ta,"},{"nom":"爫𠚢昆於主茹𠄩尼","quocngu":"Làm ra con ở, chúa nhà hai nơi!"},{"nom":"皮外噠噠呐唭","quocngu":"Bề ngoài thơn thớt nói cười,"},{"nom":"𦓡𥪞巖險𣩂𠊚空刀","quocngu":"Mà trong nham hiểm giết người không dao."},{"nom":"碑𣇞坦濕𡗶高","quocngu":"Bây giờ đất thấp trời cao,"},{"nom":"咹爫牢呐爫牢碑𣇞","quocngu":"Ăn làm sao, nói làm sao bây giờ?\\""},{"nom":"強𬂙󰘚強菫魚","quocngu":"Càng trông mặt, càng ngẩn ngơ,"},{"nom":"𦛌𣎟隊段如絲𦇒俳","quocngu":"Ruột tằm đòi đoạn như tơ rối bời,"},{"nom":"𢜝威鍳拯󰂅𠳒","quocngu":"Sợ uy, dám chẳng vâng lời,"},{"nom":"儈頭納𫴋𡑝枚󰜋朝","quocngu":"Cúi đầu nép xuống sân mai một chiều."},{"nom":"生它魄落塊漂","quocngu":"Sinh đà phách lạc hồn xiêu:"},{"nom":"傷喂拯沛娘翹於低","quocngu":"\\"Thương ôi! chẳng phải nàng Kiều ở đây?"},{"nom":"因爫牢典世尼","quocngu":"Nhân làm sao đến thế này?"},{"nom":"崔崔些㐌默𢬣󰘚讎","quocngu":"Thôi thôi, ta đã mắc tay mặt thù!\\""},{"nom":"餒𢚸拯打𦓡𤴬","quocngu":"Nỗi lòng chẳng đánh mà đau"},{"nom":"當唭呐俸󰘚怞淚沙","quocngu":"Đang cười nói bỗng mặt rầu lệ sa."},{"nom":"小姐𬂙󰘚𠳨查","quocngu":"Tiểu thư trông mặt hỏi tra:"},{"nom":"買𧗱固󰟳之𦓡動容","quocngu":"\\"Mới về có việc chi mà động dong.\\""},{"nom":"生浪孝服𣃣衝","quocngu":"Sinh rằng: \\"Hiếu phục vừa xong,"},{"nom":"推𢚸陟𡵆𤴬𢚸終天","quocngu":"Suy lòng trắc khởi đau lòng chung thiên"},{"nom":"𠸦浪孝子㐌𢧚","quocngu":"Khen rằng: \\"Hiếu tử đã nên!"},{"nom":"洗塵慢󱋓觧煩𣈘秋","quocngu":"Tẩy trần mượn chén giải phiền đêm thu\\""},{"nom":"𡞕𫯳𡃹酢𡃹酬","quocngu":"Vợ chồng chén tạc chén thù,"},{"nom":"󰈫娘𨅸𨁷持壼𠄩尼","quocngu":"Bắt nàng đứng chực trì hồ hai nơi."},{"nom":"󰈫寬󰈫󰢣典𠳒","quocngu":"Bắt khoan bắt nhặt đến lời,"},{"nom":"󰈫跪盡󰘚󰈫𠶆盡𢬣","quocngu":"Bắt quỳ tận mặt, bắt mời tận tay."},{"nom":"生強如𤵺如癡","quocngu":"Sinh càng như dại như ngây,"},{"nom":"湥𨱽湥𥐆𡃹𣹓𡃹潙","quocngu":"Giọt dài giọt ngắn, chén đầy chén vơi."},{"nom":"𢘩𠫾秩呐秩唭","quocngu":"Dựng đi, chợt nói chợt cười,"},{"nom":"假醝倍㐌併排告戈","quocngu":"Giả say, vội đã tính bài cáo qua."},{"nom":"小姐倍𠯦昆花","quocngu":"Tiểu thư vội thét: \\"Con Hoa!"},{"nom":"𡅳払拯𣴓𪰛些打杶","quocngu":"Khuyên chàng chẳng cạn thì ta đánh đòn!\\""},{"nom":"生強󰞺𦛌散魂","quocngu":"Sinh càng nát ruột tan hồn."},{"nom":"󱋓𠶆沛吟蒲丸燥𬆄","quocngu":"Chén mời phải ngậm bồ hòn ráo ngay!"},{"nom":"小姐唭醒呐醝","quocngu":"Tiểu thư cười tỉnh nói say,"},{"nom":"渚衝局𨢇吏排路制","quocngu":"Chưa xong cuộc rượu lại bày trò chơi."},{"nom":"浪花奴𨁥每才","quocngu":"Rằng: \\"Hoa nô đủ mọi tài,"},{"nom":"板彈此𢳥󰜋排払𦖑","quocngu":"Bản đàn thử dạo một bài chàng nghe!\\""},{"nom":"娘它散渙痺迷","quocngu":"Nàng đà tán hoán tê mê,"},{"nom":"󰂅𠳒𠚢𠓀屏𦂛紊彈","quocngu":"Vâng lời ra trước bình the vặn đàn."},{"nom":"𦊚𦀊如哭如嘆","quocngu":"Bốn dây như khóc như than,"},{"nom":"遣𠊚𨕭席拱散󰞺𢚸","quocngu":"Khiến người trên tiệc cũng tan nát lòng!"},{"nom":"拱𥪞󰜋㗂絲桐","quocngu":"Cùng trong một tiếng tơ đồng,"},{"nom":"𠊚外唭𦵝𠊚𥪞哭󰠐","quocngu":"Người ngoài cười nụ, người trong khóc thầm!"},{"nom":"湥珠𣳮󰢤坤擒","quocngu":"Giọt châu lã chã khôn cầm,"},{"nom":"儈頭娘仍拔󰠐紇霜","quocngu":"Cúi đầu nàng những gạt thầm hạt sương."},{"nom":"小姐吏𠽇𥙩娘","quocngu":"Tiểu thư lại nẹt lấy nàng:"},{"nom":"局𢝙𢭮曲断膓意之","quocngu":"\\"Cuộc vui gảy khúc đoạn tràng ấy chỉ"},{"nom":"牢空別意思󰢔","quocngu":"Sao không biết ý tứ gì?"},{"nom":"朱払𢞂𠴙罪𪰛在𤽗","quocngu":"Cho chàng buồn bã, tội thì tại ngươi!\\""},{"nom":"生強惨切徘徊","quocngu":"Sinh càng thảm thiết bồi hồi,"},{"nom":"倍徬呐呐唭唭朱戈","quocngu":"Vội vàng nói nói, cười cười cho qua."},{"nom":"湥𧏵更㐌點𠀧","quocngu":"Giọt rồng canh đã điểm ba,"},{"nom":"小姐𥆾󰘚󰟯它甘心","quocngu":"Tiểu thư nhìn mặt dường đà can tâm."},{"nom":"𢚸𥢆泣啓𢜠󰠐","quocngu":"Lòng riêng khấp khởi mừng thầm:"},{"nom":"𣈘󰅒㐌補𤴬吟𡢐󰅒","quocngu":"Đêm nay đã bõ đau ngầm lâu nay!"},{"nom":"生強肝𤉗𦛌𣹓","quocngu":"Sinh càng gan héo ruột đầy,"},{"nom":"餒𢚸強擬強荄䔲𢚸","quocngu":"Nỗi lòng càng nghĩ càng cay đắng lòng."},{"nom":"𠊚𠓨鍾襘鸞房","quocngu":"Người vào chung gối loan phòng,"},{"nom":"娘𠚢𢭸䏾畑炵更𨱽","quocngu":"Nàng ra tựa bóng đèn chong canh dài."},{"nom":"悲𣇞買𤑟沁唏","quocngu":"Bây giờ mới rõ tăm hơi,"},{"nom":"𧖱慳兜固邏𠁀羅慳","quocngu":"Máu ghen đâu có lạ đời là ghen!"},{"nom":"斫兜𢪊翠𢺺鴛","quocngu":"Chước đâu rẽ thuý chia uyên."},{"nom":"埃𠚢塘乃埃𥆾特埃","quocngu":"Ai ra đường nấy, ai nhìn được ai"},{"nom":"悲𣇞󰜋域󰜋𡗶","quocngu":"Bây giờ một vực một trời,"},{"nom":"歇調輕重歇𠳒是非","quocngu":"Hết điều khinh trọng, hết lời thị phi!"},{"nom":"珥如苝󰠱如𨨲","quocngu":"Nhẹ như bấc, nặng như chì,"},{"nom":"攑𠚢朱塊群󰢔羅緣","quocngu":"Gỡ ra cho khỏi còn gì là duyên?"},{"nom":"呂廊𡭧分嬋娟","quocngu":"Lỡ làng chút phận thuyền quyên,"},{"nom":"𣷭溇㳥奇固全特爲","quocngu":"Bể sâu sóng cả có tuyền được vay?"},{"nom":"没命陰倚𣈘遲","quocngu":"Một mình âm ỉ đêm chầy,"},{"nom":"𥒦油潙渃𬑉菭𠄼更","quocngu":"Đĩa dầu vơi, nước mắt đầy năm canh."},{"nom":"𣌋𣌉侯下臺营","quocngu":"Sớm khuya hầu hạ đài doanh."},{"nom":"󰞺愁坤強湥情群渲","quocngu":"Nét sầu khôn cưỡng, giọt tình còn hoen."},{"nom":"小姐𬂙𥆁𠵩連","quocngu":"Tiểu thư trông liếc quở liền"},{"nom":"沙𡮠𥗾󰘚𤳷縁據之","quocngu":"Sa mày nặng mặt bởi duyên cớ gì?"},{"nom":"皮鞭交吏卽𪰛","quocngu":"Bì tiên giao lại tức thì,"},{"nom":"𢭄払𠳨伮浪爲爫牢","quocngu":"Cậy chàng hỏi nó: \\"Rằng vì làm sao!\\""},{"nom":"生它𦛌𤉗如炮","quocngu":"Sinh đà ruột héo như bào,"},{"nom":"呐𠚢拯便𬂙𠓨牢當","quocngu":"Nói ra chẳng tiện, trông vào sao đang!"},{"nom":"󰢥扃𧍆𢯰𨆶󰣛","quocngu":"Loanh quanh cua lọt bò sàng,"},{"nom":"𢜝低傷妬𠄩塘渚衝","quocngu":"Sợ đây thương đó hai đàng chưa xong."},{"nom":"𥙩𢚸假格𠳨查","quocngu":"Lấy lòng giả cách hỏi tra,"},{"nom":"申供娘㐌呈戈󰜋詞","quocngu":"Thân cung nàng đã trình qua một tờ."},{"nom":"䀡耒迻吏小姐","quocngu":"Xem rồi đưa lại tiểu thơ,"},{"nom":"脱𬂙󰟯拱艮魚㤕情","quocngu":"Thoắt trông dường cũng ngẩn ngơ chút tình."},{"nom":"連𢬣𢭂吏束生","quocngu":"Liền tay trao lại Thúc sinh,"},{"nom":"浪才𢧚重𦓡情𢧚傷","quocngu":"Rằng: \\"Tài nên trọng mà tình nên thương!"},{"nom":"󰂇𦓡固數𢀭𢀨","quocngu":"Ví mà có số giàu sang,"},{"nom":"價尼唒𨯹茹鐄拱𢧚","quocngu":"Giá này dẫu đúc nhà vàng cũng nên!"},{"nom":"𣷭塵沉浽嬋娟","quocngu":"Bể trần chìm nổi thuyền quyên,"},{"nom":"有情傷餒無緣邏𠁀","quocngu":"Hữu tình thương nỗi vô duyên lạ đời!\\""},{"nom":"生浪舌固如𠳒","quocngu":"Sinh rằng: \\"Thiệt có như lời,"},{"nom":"紅顔薄命没𠊚󰅹爲","quocngu":"Hồng nhan bạc mệnh một người nào vay!"},{"nom":"𠦳𠸗歐拱世尼","quocngu":"Nghìn xưa âu cũng thế này,"},{"nom":"悲𣇞歐料撥𢬣買𣃣","quocngu":"Bây giờ âu liệu bớt tay mới vừa\\"."},{"nom":"小姐浪意𥪝詞","quocngu":"Tiểu thư rằng: \\"Ý trong tờ,"},{"nom":"泣𢲠命薄嗔洳𨷯空","quocngu":"Rắp đem mệnh bạc xin nhờ cửa không."},{"nom":"崔崔崔拱朝𢚸","quocngu":"Thôi thôi thôi cũng chiều lòng,"},{"nom":"拱朱朱儗𥪝𨦩𨀈𠚢","quocngu":"Cũng cho cho nghỉ trong vòng bước ra."},{"nom":"産觀音閣園些","quocngu":"Sẵn Quan âm các vườn ta,"},{"nom":"固𣘃𤾓𡱩固花𦊚務","quocngu":"Có cây trăm thước, có hoa bốn mùa."},{"nom":"固古樹固山湖","quocngu":"Có cổ thụ, có sơn hồ,"},{"nom":"朱娘𠚢妬𪧚厨誦經","quocngu":"Cho nàng ra đó, giữ chùa tụng kinh.\\""},{"nom":"曾曾𡗶買平明","quocngu":"Tâng tâng trời mới bình minh,"},{"nom":"香花五供懺生禮常","quocngu":"Hương hoa ngũ cúng, sắm sanh lễ thường."},{"nom":"迻娘典𠓀𫢋堂","quocngu":"Đưa nàng đến trước Phật đường,"},{"nom":"三皈五戒朱娘出家","quocngu":"Tam quy ngũ giới, cho nàng xuất gia."},{"nom":"襖撑𢷮𥙩袈裟","quocngu":"Áo xanh đổi lấy cà sa,"},{"nom":"法名吏𢷮𠸜𠚢濯泉","quocngu":"Pháp danh lại đổi tên ra Trạc Tuyền."},{"nom":"𣌋𣌉併覩油畑","quocngu":"Sớm khuya tính đủ dầu đèn,"},{"nom":"春秋割産𠄩𠸜香茶","quocngu":"Xuân, Thu cắt sẵn hai tên hương trà."},{"nom":"娘自另𨁪園花","quocngu":"Nàng từ lánh dấu vườn hoa,"},{"nom":"󰟯𧵆棱紫󰟯賒𡏧紅","quocngu":"Dường gần rừng tía, dường xa bụi hồng."},{"nom":"姻緣兜鍳群懞","quocngu":"Nhân duyên đâu dám còn mong,"},{"nom":"塊調𢢆粉𢣃紅羅崔","quocngu":"Khỏi điều thẹn phấn tủi hồng là thôi."},{"nom":"𫢋前惨垃愁培","quocngu":"Phật tiền thảm lấp sầu vùi"},{"nom":"𣈜鋪手字𣈘㘨心香","quocngu":"Ngày pho thủ tự, đêm nồi tâm hương."},{"nom":"沫台湥渃梗楊","quocngu":"Cho hay giọt nước cành dương,"},{"nom":"𤏣𢚸洒𤎕每塘塵緣","quocngu":"Tỏ lòng tưới tắt mọi đường trần duyên."},{"nom":"𣘽𣙩自跙牟禪","quocngu":"Nâu sồng từ trở mầu thiền,"},{"nom":"𡑝秋𦝄㐌𠄩畨𨅸頭","quocngu":"Sân thu trăng đã hai phen đứng đầu."},{"nom":"𨷶房扦日䋥毛","quocngu":"Cửa phòng then nhặt lưới mau,"},{"nom":"𠺶𠳒𠓀󰘚淶珠永𠊚","quocngu":"Nói lời trước mặt, rơi châu vắng người."},{"nom":"閣經院册堆尼","quocngu":"Gác kinh viện sách đôi nơi,"},{"nom":"𥪝𡬼𡬷吏急𨑮關山","quocngu":"Trong gang tấc lại gấp mười quan san."},{"nom":"仍羅吟咀𠽆嘆","quocngu":"Những là ngậm thở nuốt than,"},{"nom":"小姐沛𣇜問安𧗱茹","quocngu":"Tiểu thư phải buổi vấn an về nhà."},{"nom":"乘機生買𨇍𠚢","quocngu":"Thừa cơ sinh mới lẻn ra,"},{"nom":"駸駸典𠃅圍花貝娘","quocngu":"Xăm xăm đến mé vườn hoa với nàng."},{"nom":"湥淶擬餒断膓","quocngu":"Sụt sùi nghĩ nỗi đoạn trường,"},{"nom":"湥珠尋謝𣿌長襖撑","quocngu":"Lệ châu tầm tã đượm tràng áo xanh."},{"nom":"㐌甘𠹾薄貝情","quocngu":"Đã cam chịu bạc với tình,"},{"nom":"主東底罪󰜋命朱花","quocngu":"Chúa đông để tội một mình cho hoa."},{"nom":"𥰊機輸智彈󰜏","quocngu":"Thấp cơ thua trí đàn bà,"},{"nom":"𬂙𠓨𤴬𦛌呐𠚢碍𠳒","quocngu":"Trông vào đau ruột, nói ra ngại lời."},{"nom":"爲些朱累典𠊚","quocngu":"Vì ta cho lụy đến người,"},{"nom":"葛淋玉𤽸舌摧春撑","quocngu":"Cát lầm ngọc trắng, thiệt thòi xuân xanh."},{"nom":"管之𨕭閣󰡎溋","quocngu":"Quản chi trên gác dưới duềnh"},{"nom":"拱算𤯩托貝情朱衝","quocngu":"Cũng toan sống thác với tình cho xong."},{"nom":"尊堂𡭧渚甘𢚸","quocngu":"Tông đường chút chửa cam lòng,"},{"nom":"哏𪘵𢯏󰜋𡦂同爫𠄩","quocngu":"Nghiến răng bẻ một chữ đồng làm hai."},{"nom":"𢢆命𥒥󰞺鐄派","quocngu":"Thẹn mình đá nát vàng phai,"},{"nom":"𤾓身易贖󰜋𠳒特牢","quocngu":"Trăm thân dễ chuộc một lời được sao\\""},{"nom":"娘浪隻栢㳥濤","quocngu":"Nàng rằng: \\"Chiếc bách sóng đào,"},{"nom":"浽沉拱默𣅶󰅹𢤡埋","quocngu":"Nổi chìm cũng mặc lúc nào rủi may."},{"nom":"𡭧身𠹴𠶔淎𤀛","quocngu":"Chút thân quằn quại vũng lầy,"},{"nom":"𤯩乘群想典𣈙女牢","quocngu":"Sống thừa còn tưởng đến rày nữa sao"},{"nom":"拱料󰜋湥𩅹𩆋","quocngu":"Cũng liều một giọt mưa rào,"},{"nom":"𦓡朱天下𬂙𠓨拱𫨩","quocngu":"Mà cho thiên hạ trông vào cũng hay."},{"nom":"㤕爲琴㐌𤓩𦀊","quocngu":"Xót vì cầm đã bén dây,"},{"nom":"拯𤾓𢆥拱󰜋𣈜緣些","quocngu":"Chẳng trăm năm cũng một ngày duyên ta."},{"nom":"料排𨷑𨷶朱𠚢","quocngu":"Liệu bài mở cửa cho ra,"},{"nom":"意羅義重意羅恩溇","quocngu":"Ấy là nghĩa trọng, ấy là ân sâu!\\""},{"nom":"生浪𥢆想閉𥹰","quocngu":"Sinh rằng: \\"Riêng tưởng bấy lâu,"},{"nom":"𢚸𠊚巖險別兜𦓡量","quocngu":"Lòng người nham hiểm biết đâu mà lường."},{"nom":"女欺𩘪𩘣負旁","quocngu":"Nữa khi giông tố phũ phàng,"},{"nom":"舌𥢆妬拱吏強極低","quocngu":"Thiệt riêng đó, cũng lại càng cực đây."},{"nom":"料𦓡賒𧼋高𠖤","quocngu":"Liệu mà xa chạy cao bay,"},{"nom":"爱恩些固銀尼𦓡催","quocngu":"Ái ân ta có ngần này mà thôi!"},{"nom":"碑𣇞几虐𠊚吹","quocngu":"Bây giờ kẻ ngược người xuôi,"},{"nom":"別包𣇞吏𦀼𠳒渃𡽫","quocngu":"Biết bao giờ lại nối lời nước non?"},{"nom":"唒浪滝𣴓𥒥𤷱","quocngu":"Dẫu rằng sông cạn đá mòn,"},{"nom":"昆蠶典𣩂拱群𢹣絲","quocngu":"Con tằm đến chết cũng còn kéo tơ.\\""},{"nom":"共饒𠸥𡅏𡢐𠸗","quocngu":"Cùng nhau kể lể sau xưa,"},{"nom":"呐耒吏呐𠳒渚歇𠳒","quocngu":"Nói rồi lại nói, lời chưa hết lời."},{"nom":"󰘚𬂙𢬣拯女𢯦","quocngu":"Mặt trông tay chẳng nỡ rời,"},{"nom":"花婢㐌動㗂𠊚𡑩賒","quocngu":"Hoa tì đã động tiếng người nẻo xa."},{"nom":"𥆾凝𡀬𨅸蹎𠚢","quocngu":"Nhìn ngừng tủi đứng chân ra,"},{"nom":"小姐兜㐌鞋花𨀈𠓨","quocngu":"Tiểu thư đâu đã hài hoa bước vào."},{"nom":"唭唭呐呐𠮾嗷","quocngu":"Cười cười nói nói ngọt ngào,"},{"nom":"𠳨払買於准󰅹吏制","quocngu":"Hỏi: \\"Chàng mới ở chốn nào lại chơi\\""},{"nom":"嚉觥生買料𠳒","quocngu":"Dối quanh sinh mới liệu lời:"},{"nom":"尋花過𨀈䀡𠊚曰經","quocngu":"Tìm hoa quá bước, xem người viết kinh."},{"nom":"𠸦浪筆法㐌精","quocngu":"Khen rằng: \\"Bút pháp đã tinh,"},{"nom":"搊𠓨貝帖蘭亭󰅹輸","quocngu":"So vào với thiếp Lan đình nào thua!"},{"nom":"惜台流落江湖","quocngu":"Tiếc thay lưu lạc giang hồ,"},{"nom":"𠦳鐄寔拱𢧚謨𥙩才","quocngu":"Nghìn vàng thực cũng nên mua lấy tài!\\""},{"nom":"船茶𣴓𡃹紅梅","quocngu":"Thuyền trà cạn chén hồng mai,"},{"nom":"從容𦀼𨃴書齋共𧗱","quocngu":"Thong dong nối gót thư trai cùng về."},{"nom":"娘強󰢧戾塢𠵱","quocngu":"Nàng càng e lệ ủ ê,"},{"nom":"󰁹𦖻𠳨吏花婢𠓀𡢐","quocngu":"Rỉ tai hỏi lại hoa tì trước sau."},{"nom":"花浪󰜏典㐌𥹰","quocngu":"Hoa rằng: \\"Bà đến đã lâu,"},{"nom":"𨂚蹎𨅸納度兜姅𣇞","quocngu":"Dón chân đứng núp độ đâu nữa giờ."},{"nom":"仃仃技𩯀蹎絲","quocngu":"Rành rành kẽ tóc chân tơ,"},{"nom":"󰋇𠳒𦖑歇㐌餘𤏣詳","quocngu":"Mấy lời nghe hết, đã dư tỏ tường."},{"nom":"包饒段苦情傷","quocngu":"Bao nhiêu đoạn khổ tình thương."},{"nom":"餒翁勿𡲤餒娘咀嘆","quocngu":"Nỗi ông vật vã, nỗi nàng thở than."},{"nom":"垠碎𨅸吏󰜋邊","quocngu":"Ngăn tôi đứng lại một bên,"},{"nom":"󰇏𦖻耒買𨀈𨖲𨕭樓","quocngu":"Chán tai rồi mới bước lên trên lầu\\""},{"nom":"𦖑崔驚駭掣兜","quocngu":"Nghe thôi, kinh hãi xiết đâu:"},{"nom":"彈󰜏󰟯意易侯固𠄩","quocngu":"\\"Đàn bà dường ấy, dễ hầu có hai."},{"nom":"意買肝意買才","quocngu":"Ấy mới gan, ấy mới tài,"},{"nom":"擬強添餒䔲荄用𢯦","quocngu":"Nghĩ càng thêm nỗi đắng cay rụng rời!"},{"nom":"𠊚兜溇色渃𠁀","quocngu":"Người đâu sâu sắc nước đời,"},{"nom":"𦓡払束沛𠚢𠊚抪𢬣","quocngu":"Mà chàng Thúc phải ra người bó tay!"},{"nom":"寔賍󰈫特󰟯尼","quocngu":"Thực tang, bắt được dường này,"},{"nom":"𧖱慳埃拱珠𪵟哏𪘵","quocngu":"Máu ghen ai cũng chau mày cắn răng."},{"nom":"世𦓡淹妸待滕","quocngu":"Thế mà êm ả đãi đằng,"},{"nom":"嘲𠶆𢝙𨤔呐能妙揚","quocngu":"Chào mời vui vẻ, nói năng dịu dàng!"},{"nom":"恨妯𠚢胣世常","quocngu":"Giận dầu ra dạ thế thường,"},{"nom":"唭妯買舌坤量險溇","quocngu":"Cười dầu mới thực khôn lường hiểm sâu!"},{"nom":"身些些沛𢥈歐","quocngu":"Thân ta, ta phải lo âu,"},{"nom":"𠰘𤞻𠷮𧋻於兜准尼","quocngu":"Miệng hùm, nọc rắn ở đâu chốn này!"},{"nom":"󰂇空𢴇𦑃高𠖤","quocngu":"Ví không chắp cánh cao bay,"},{"nom":"樔𣘃𥹰拱固𣈜𢯏花","quocngu":"Rào cây lâu cũng có ngày bẻ hoa!"},{"nom":"分䕯包管渃沙","quocngu":"Phận bèo bao quản nước sa,"},{"nom":"泠汀兜女拱羅泠汀","quocngu":"Lênh đênh đâu nữa cũng là lênh đênh."},{"nom":"㐱𠵱圭客󰜋命","quocngu":"Chỉn e quê khách một mình,"},{"nom":"𢬣空渚易尋鑅廕𩛂","quocngu":"Tay không chưa dễ tìm vành ấm no!\\""},{"nom":"擬𠫾擬吏觥孤","quocngu":"Nghĩ đi, nghĩ lại quanh co."},{"nom":"𫢋前産固每圖金銀","quocngu":"Phật tiền sẵn có mọi đồ kim ngân."},{"nom":"邊命㩫底護身","quocngu":"Bên mình dắt để hộ thân,"},{"nom":"吝𦖑更㐌󰜋分鞁𠀧","quocngu":"Lần nghe canh đã một phần trống ba."},{"nom":"拮命戈𦰟墻花","quocngu":"Cất mình qua ngọn tường hoa,"},{"nom":"吝塘蹺䏾𦝄斜𧗱西","quocngu":"Lần đường theo bóng trăng tà về tây."},{"nom":"𩆪𩂟𨤮吉頽𣘃","quocngu":"Mịt mù dặm cát đồi cây,"},{"nom":"㗂𬷤店𦹵𨁪𨃐梂霜","quocngu":"Tiếng gà điếm cỏ, dấu giày cầu sương."},{"nom":"更𣌉身𡛔𨤮長","quocngu":"Canh khuya thân gái dặm trường."},{"nom":"分𠵱塘詫分傷𤋵󰌑","quocngu":"Phần e đường sá, phần thương dãi dầu."},{"nom":"𡗶東𣃣𠓇𠦳橷","quocngu":"Trời đông vừa rạng ngàn dâu,"},{"nom":"𠇕爲󰅹㐌別兜羅茄","quocngu":"Bơ vơ nào đã biết đâu là nhà!"},{"nom":"厨兜𬂙𧡊𡑩賒","quocngu":"Chùa đâu trông thấy nẻo xa,"},{"nom":"伶伶招隐庵𠀧𡦂排","quocngu":"Rành rành chiêu ẩn am ba chữ bài."},{"nom":"侵侵𢱗𨷶捥𠳒","quocngu":"Xăm xăm gõ cửa ướm lời,"},{"nom":"住持𦖑㗂連𠶆𠓨𥪞","quocngu":"Trụ trì nghe tiếng liền mời vào trong."},{"nom":"𧡊歐咹默𣘽𣙩","quocngu":"Thấy âu ăn mặc nâu sồng,"},{"nom":"覺緣師長𫅜𢚸連傷","quocngu":"Giác Duyên sư trưởng lành lòng liền thương."},{"nom":"𠲟𡃕梗𦰟朱詳","quocngu":"Gạn gùng ngành ngọn cho tường,"},{"nom":"邏𨓡娘唉尋塘呐觥","quocngu":"Lạ lùng, nàng hãy tìm đường nói quanh:"},{"nom":"小嬋圭於北京","quocngu":"\\"Tiểu thiền quê ở Bắc kinh,"},{"nom":"皈師皈佛修行閉𥹰","quocngu":"quy sư, quy Phật tu hành bấy lâu."},{"nom":"本師耒拱典𡢐","quocngu":"Bản sư rồi cũng đến sau,"},{"nom":"𠰺迻法寶𨖅侯師兄","quocngu":"Dạy đưa pháp bảo sang hầu sư huynh.\\""},{"nom":"𣈙󰂅靣獻伶伶","quocngu":"Rày vâng diện hiến rành rành,"},{"nom":"鐘鐄磬泊邊命𢷣𠚢","quocngu":"Chuông vàng, khánh bạc bên mình giở ra."},{"nom":"䀡戈師買𠰺戈","quocngu":"Xem qua sư mới dạy qua:"},{"nom":"沛尼恒水羅些厚情","quocngu":"\\"Phải ni Hằng Thủy là ta hậu tình."},{"nom":"㐱𠲖塘詫󰜋命","quocngu":"Chỉn e đường sá một mình,"},{"nom":"於低除待師兄𠃣𣈜","quocngu":"Ở đây chờ đợi sư huynh ít ngày\\""},{"nom":"𢭮身特准庵𩄲","quocngu":"Gửi thân được trốn am mây,"},{"nom":"㙁𦯬㙮𢷮𣎃𣈜從容","quocngu":"Muối dưa đắp đổi tháng ngày thong dong,"},{"nom":"偈經勾󱀁屬𢚸","quocngu":"Kệ kinh câu cũ thuộc lòng,"},{"nom":"香畑事󱀁齋房悁𢬣","quocngu":"Hương đèn sự cũ, trai phòng quen tay."},{"nom":"𣌋𣌉蘿貝幡𩄲","quocngu":"Sớm khuya lá bối, phướn mây,"},{"nom":"𦰟畑挑月㗂𣖖󰠱霜","quocngu":"Ngọn đèn khêu nguyệt, tiếng chày nặng sương."},{"nom":"𧡊娘聰慧恪常","quocngu":"Thấy nàng thông tuệ khác thường,"},{"nom":"師強你󰘚娘強凭蹎","quocngu":"Sư càng nể mặt, nàng càng vững chân."},{"nom":"𨷶嬋𣃣𣇜𡳳春","quocngu":"Cửa thiền vừa buổi cuối xuân,"},{"nom":"䏾花菭坦𨤔銀昂𡗶","quocngu":"Bóng hoa đầy đất, vẻ ngân ngang trời."},{"nom":"𩙍光𩅹淨請台","quocngu":"Gió quang mưa tạnh thảnh thơi,"},{"nom":"固𠊚檀樾𨖲制𨷶伽","quocngu":"Có người đàn việt lên chơi cửa già."},{"nom":"𢷣圖鐘磬䀡戈","quocngu":"Giở đồ chuông khánh xem qua,"},{"nom":"𠸦浪窖󰣉𧵑茹宦娘","quocngu":"Khen rằng: \\"Khéo giống của nhà Hoạn nương!\\""},{"nom":"覺緣舌意𢥈量","quocngu":"Giác Duyên thiệt ý lo lường,"},{"nom":"𣈘清買𠳨吏娘𠓀𡢐","quocngu":"Đêm thanh mới hỏi lại nàng trước sau."},{"nom":"擬浪坤餒𨁪牟","quocngu":"Nghĩ rằng khôn nỗi giấu mầu,"},{"nom":"事命娘買𨃴頭排𬆄","quocngu":"Sự mình, nàng mới gót đầu bày ngay:"},{"nom":"悲𣇞事㐌󰟯尼","quocngu":"\\"Bây giờ, sự đã dường này,"},{"nom":"分𢤞油𢤡油埋在𠊚","quocngu":"Phận hèn, dù rủi dù may tại người\\""},{"nom":"覺緣𦖑呐用移","quocngu":"Giác Duyên nghe nói rụng rời."},{"nom":"姅傷姅𢜝徘徊拯衝","quocngu":"Nửa thương, nửa sợ bồi hồi chẳng xong."},{"nom":"󰁹𦖻買計事𢚸","quocngu":"Rỉ tai mới kể sự lòng:"},{"nom":"於低𨷶𫢋羅空狹之","quocngu":"Ở đây cửa Phật là không hẹp gì;"},{"nom":"𠵱庒仍事不期","quocngu":"E chăng những sự bất kỳ,"},{"nom":"底娘朱典餒󰢔拱傷","quocngu":"Để nàng cho đến nỗi gì cũng thương!"},{"nom":"另賒𠓀料尋塘","quocngu":"Lánh xa trước liệu tìm đường,"},{"nom":"𡎥徐渃典蹎床群圭","quocngu":"Ngồi chờ nước đến chân giường còn quê.\\""},{"nom":"固茹媒薄边箕","quocngu":"Có nhà mụ Bạc bên kia,"},{"nom":"庵𩄲悁𡓃𠫾𧗱󰌑香","quocngu":"Am mây quen lối đi về dầu hương,"},{"nom":"𠴍𨖅吲歇每塘","quocngu":"Nhắn sang dặn hết mọi đường,"},{"nom":"𢶿茹唉暫朱娘擬蹎","quocngu":"Dọn nhà hãy tạm cho nàng nghỉ chân,"},{"nom":"仍𢜠特准安身","quocngu":"Những mừng được chốn an thân,"},{"nom":"倍鐄󰅹及併𧵆併賒","quocngu":"Vội vàng nào kịp tính gần, tính xa."},{"nom":"󰅹疑仍祖姂𫅷","quocngu":"Nào ngờ những tổ bợm già,"},{"nom":"薄󰜏學貝秀󰜏同門","quocngu":"Bạc bà học với Tú bà đồng môn!"},{"nom":"𧡊娘𤁕粉讒𣘈","quocngu":"Thấy nàng lạt phấn sạm son,"},{"nom":"𢜠忱特󰢨半奔固利","quocngu":"Mừng thầm được dịp bán buôn có lời."},{"nom":"虚空達抵𢧚𠳒","quocngu":"Hư không đặt để nên lời,"},{"nom":"娘它𡘯落用移𡗋畨","quocngu":"Nàng đà nhớn nhác, rụng rời lắm phen."},{"nom":"媒強吹嚉朱連","quocngu":"Mụ càng xua đuổi cho liền,"},{"nom":"𥙩𠳒兇險押緣朱陳","quocngu":"Lấy lời hung hiểm, ép duyên Châu Trần."},{"nom":"娘浪𨷈𨤮󰜋身","quocngu":"Rằng: \\"Nàng muôn dặm một thân,"},{"nom":"吏芒𥙩㗂𫺙𧵆𫅜賒","quocngu":"Lại mang lấy tiếng dữ gần lành xa."},{"nom":"󰣉寃家𧵑破家","quocngu":"Giống oan gia, của phá gia,"},{"nom":"群埃鍳貯𠓨茹女低","quocngu":"Còn ai dám chứa vào nhà nữa đây!"},{"nom":"急算劍准車𦀊","quocngu":"Kíp toan kiếm chốn xe dây,"},{"nom":"空仍渚易𦓡𠖤塘𡗶","quocngu":"Không dưng chưa dễ mà bay đường trời!"},{"nom":"尼𧵆𪰛拯便尼","quocngu":"Nơi gần thì chẳng tiện nơi,"},{"nom":"尼賒拱𫽄固𠊚󰅹賒","quocngu":"Nơi xa cũng chẳng có người nào xa."},{"nom":"怩払薄幸𡥙茹","quocngu":"Này chàng Bạc Hạnh cháu nhà."},{"nom":"拱𥪞親戚𦛌𦚐拯埃","quocngu":"Cùng trong thân thích ruột rà chẳng ai."},{"nom":"𨷶行倴半州台","quocngu":"Cửa hàng buôn bán Châu Thai,"},{"nom":"舌他固󰜋单差𫽄兮","quocngu":"Thật thà có một, đơn sai chẳng hề."},{"nom":"世󰅹娘拱沛𦖑","quocngu":"Thế nào nàng cũng phải nghe."},{"nom":"成親耒仕料𧗱州台","quocngu":"Thành thân rồi sẽ liệu về Châu Thai."},{"nom":"閉𣇞埃吏別埃","quocngu":"Bấy giờ ai lại biết ai,"},{"nom":"油𢚸𣷭𢌌滝𨱽清清","quocngu":"Dầu lòng bể rộng sông dài thênh thênh,"},{"nom":"娘油拯决順情","quocngu":"Nàng dù chẳng quyết thuận tình."},{"nom":"債𠳒𡑩𠓀累命典𡢐","quocngu":"Trái lời nẻo trước, lụy mình đến sau.\\""},{"nom":"娘強󰘚󰢩𪵟珠","quocngu":"Nàng càng mặt ủ mày chau,"},{"nom":"強𦖑媒呐強𤴬如寅","quocngu":"Càng nghe mụ nói càng đau như dần."},{"nom":"擬命縱坦𨀳蹎","quocngu":"Nghĩ mình túng đất nhắc chân,"},{"nom":"世窮娘買賒𧵆咀嘆","quocngu":"Thế cùng, nàng mới xa gần thở than."},{"nom":"妾如昆燕落彈","quocngu":"Thiếp như con én lạc đàn,"},{"nom":"沛弓𣈙㐌𢜝㦦貝弓","quocngu":"Phải cung, rày đã sợ lờn với cung!"},{"nom":"窮塘油併𡦂從","quocngu":"Cùng đường dù tính chữ tòng,"},{"nom":"別𠊚別󰘚別𢚸爫牢","quocngu":"Biết người, biết mặt, biết lòng làm sao"},{"nom":"女欺𨷈󰜋世󰅹","quocngu":"Nữa khi muôn một thế nào,"},{"nom":"半𤞻倴鬼𢟘𠓨𨉞兜","quocngu":"Bán hùm buôn quỷ chắc vào lưng đâu?"},{"nom":"󰅹埃𢚸固所求","quocngu":"Nào ai lòng có sở cầu,"},{"nom":"心盟嗔决貝饒󰜋𠳒","quocngu":"Tâm minh, xin quyết với nhau một lời."},{"nom":"証明固坦固𡗶","quocngu":"Chứng minh có đất có trời,"},{"nom":"閉𣇞𣾼𣷭𠚢𣾺管之","quocngu":"Bấy giờ vượt bể ra khơi quản gì?\\""},{"nom":"特𠳒媒買𠚢𠫾","quocngu":"Được lời mụ mới ra đi,"},{"nom":"𫫗信户薄卽𪰛懺生","quocngu":"Mách tin họ Bạc tức thì sắm sanh."},{"nom":"󰜋茹𡀷𠿚伶停","quocngu":"Một nhà dọn dẹp linh đình,"},{"nom":"𢭯𡑝達桌𣳮𤭸𤏧香","quocngu":"Quét sân, đặt trác, rửa bình, thắp hương."},{"nom":"薄生跪𫴋倍鐄","quocngu":"Bạc sinh quỳ xuống vội vàng,"},{"nom":"過𠳒願歇城隍土公","quocngu":"Quá lời nguyện hết thành hoàng, thổ công."},{"nom":"𠓀𡑝𢚸㐌𤋵𢚸","quocngu":"Trước sân, lòng đã giãi lòng,"},{"nom":"𥪝幔爫禮絲紅結緣","quocngu":"Trong màn làm lễ tơ hồng kết duyên."},{"nom":"成親買逴𫴋船","quocngu":"Thành thân mới rước xuống thuyền,"},{"nom":"順󱏹󰜋蘿吹沔州台","quocngu":"Thuận buồm một lá, xuôi miền Châu Thai."},{"nom":"船皮杜𤅶請台","quocngu":"Thuyền vừa đỗ bến thảnh thơi,"},{"nom":"薄生𨖲𠓀尋尼每𣈜","quocngu":"Bạc sinh lên trước tìm nơi mọi ngày."},{"nom":"共茹行院𠸗󰅒","quocngu":"Cũng nhà hành viện xưa nay,"},{"nom":"共坊半𦧘共𢬣倴𠊚","quocngu":"Cũng phường bán thịt, cũng tay buôn người."},{"nom":"䀡𠊚定價𣃣耒","quocngu":"Xem người định giá vừa rồi,"},{"nom":"䋦行󰜋㐌𠚢𨑮沛󰇵","quocngu":"Mối hàng một, đã ra mười phải buông."},{"nom":"𠼦𠊚𠾔轎逴娘","quocngu":"Mướn người thuê kiệu rước nàng,"},{"nom":"泊󰝡󰘚泊劎塘朱賒","quocngu":"Bạc đem mặt Bạc kiếm đường cho xa!"},{"nom":"轎花達𠓀㙴花","quocngu":"Kiệu hoa đặt trước thềm hoa,"},{"nom":"邊𥪝𧡊󰜋媒𠚢倍鐄","quocngu":"Bên trong thấy một mụ ra vội vàng,"},{"nom":"迻娘𠓨𥛉家堂","quocngu":"Đưa nàng vào lạy gia đường,"},{"nom":"共神𪵟𤽸拱坊樓撑","quocngu":"Cũng thần mày trắng, cũng phường lầu xanh!"},{"nom":"脱𬂙娘㐌別情","quocngu":"Thoắt trông nàng đã biết tình,"},{"nom":"𪀄籠坤𨤰拮命𠖤高","quocngu":"Chim lồng khôn lẽ cất mình bay cao."},{"nom":"𡃍朱丐數花桃","quocngu":"Gớm cho cái số hoa đào,"},{"nom":"攑𠚢耒吏𥾾𠓨如制","quocngu":"Gỡ ra rồi lại buộc vào như chơi!"},{"nom":"擬𠁀𦓡喭朱𠁀","quocngu":"Nghĩ đời mà ngán cho đời,"},{"nom":"才情之𡗋朱𡗶坦慳","quocngu":"Tài tình chi lắm cho trời đất ghen!"},{"nom":"惜台渃㐌打矾","quocngu":"Tiếc thay nước đã đánh phèn,"},{"nom":"𦓡朱湓吏𪷦𨖲買吝","quocngu":"Mà cho bùn lại vẩn lên mấy lần."},{"nom":"紅鈞貝客紅裙","quocngu":"Hồng quân với khách hồng quần,"},{"nom":"㐌磋典世群運渚他","quocngu":"Đã xoay đến thế còn vần chưa tha."},{"nom":"呂自渃𨀈𨀈𠚢","quocngu":"Lỡ từ nước bước, bước ra,"},{"nom":"丐身料仍自茹料𠫾","quocngu":"Cái thân liệu những từ nhà liệu đi."},{"nom":"頭撑㐌罪情之","quocngu":"Đầu xanh đã tội tình gì?"},{"nom":"𦟐紅填過姅𪰛渚崔","quocngu":"Má hồng đền quá nửa thì chưa thôi."},{"nom":"別身𧼋拯塊𡗶","quocngu":"Biết thân chạy chẳng khỏi trời,"},{"nom":"拱料𦟐粉朱耒𣈜撑","quocngu":"Cũng liều má phấn, cho rồi ngày xanh."},{"nom":"吝𢥈𩙍沫𦝄清","quocngu":"Lần lừa gió mát trăng thanh,"},{"nom":"俸兜固客邊庭典制","quocngu":"Bỗng đâu có khách biên đình đến chơi."},{"nom":"󰙐𤞻頷燕𪵟𧍋","quocngu":"Râu hầm, hàm én, mày ngài,"},{"nom":"𦠘𠄼𡬷𢌌身𨑮𡱩高","quocngu":"Vai năm tấc rộng, thân mười thước cao."},{"nom":"堂堂󰜋𨅸英豪","quocngu":"Đường đường một đấng anh hào,"},{"nom":"棍拳欣飭略韜𫡂才","quocngu":"Côn quyền hơn sức, lược thao gồm tài."},{"nom":"隊𡗶踏坦於𠁀","quocngu":"Đội trời, đạp đất ở đời,"},{"nom":"户徐𠸜海本𠊚粤東","quocngu":"Họ Từ, tên Hải, vốn người Việt Đông."},{"nom":"江湖悁趣浘漨","quocngu":"Giang hồ quen thú vẫy vùng,"},{"nom":"鎌彈姅梗𡽫滝󰜋棹","quocngu":"Gươm đàn nửa gánh, non sông một chèo."},{"nom":"戈制𦖑㗂娘翹","quocngu":"Qua chơi nghe tiếng nàng Kiều,"},{"nom":"𬌓𢚸兒女拱漂英雄","quocngu":"Tấm lòng nhi nữ cũng xiêu anh hùng."},{"nom":"帖名迻典樓紅","quocngu":"Thiếp danh đưa đến lầu hồng,"},{"nom":"𠄩邊共𥆁𠄩𢚸拱𢛨","quocngu":"Hai bên cùng liếc, hai lòng cùng ưa."},{"nom":"徐浪心腑相期","quocngu":"Từ rằng: \\"Tâm phủ tương cờ,"},{"nom":"沛𠊚𦝄𩙍勿󰁍咍牢","quocngu":"Phải người trăng gió vật vờ hay sao"},{"nom":"閉𥹰𦖑㗂𦟐桃","quocngu":"Bấy lâu nghe tiếng má đào,"},{"nom":"𬑉撑拯底埃𠓨沛空","quocngu":"Mắt xanh chẳng để ai vào phải không?"},{"nom":"󰜋𠁀特󰋇英雄","quocngu":"Một đời được mấy anh hùng,"},{"nom":"補之𩵜𡊱𪀄籠𦓡制","quocngu":"Bõ chi cá chậu, chim lồng, mà chơi!\\""},{"nom":"娘浪𠊚𠰺過𠳒","quocngu":"Nàng rằng: \\"Người dạy quá lời,"},{"nom":"身尼群鍳䀡埃爫常","quocngu":"Thân này còn dám xem ai làm thường!"},{"nom":"𡭧𥢆𪮙𥒥此鐄","quocngu":"Chút riêng chọn đá thử vàng,"},{"nom":"別兜𦓡𠳚肝膓𠓨兜","quocngu":"Biết đâu mà gửi can tràng vào đâu"},{"nom":"群如𠓨𠓀𠚢𡢐","quocngu":"Còn như vào trước ra sau,"},{"nom":"埃朱挸𪮙鐄鍮在命","quocngu":"Ai cho kén chọn vàng thau tại mình?"},{"nom":"徐浪𠳒呐有情","quocngu":"Từ rằng: \\"Lời nói hữu tình,"},{"nom":"遣𠊚吏𢖵勾平原君","quocngu":"Khiến người lại nhớ câu Bình Nguyên Quân."},{"nom":"吏低䀡吏朱𧵆","quocngu":"Lại đây xem lại cho gần,"},{"nom":"倣信特󰜋𠄽分𫨩空","quocngu":"Phỏng tin được một vài phần hay không?"},{"nom":"󰣚浪量奇包容","quocngu":"Thưa rằng: \\"Lượng cả bao dong,"},{"nom":"晉陽特𧡊𠖤𧍰固畨","quocngu":"Tấn Dương được thấy bay rồng có phen."},{"nom":"𢌌傷𦹵内花𢤞","quocngu":"Rộng thương cỏ nội hoa hèn,"},{"nom":"𡭧身䕯浡鍳煩𣈕𡢐","quocngu":"Chút thân bèo bọt dám phiền mai sau!\\""},{"nom":"𦖑𠳒𣃣意拮頭","quocngu":"Nghe lời vừa ý, gật đầu,"},{"nom":"唭浪知己𠓀𡢐󰋇𠊚","quocngu":"Cười rằng: \\"Tri kỉ trước sau mấy người"},{"nom":"𠸦朱昆𬑉精𠁀","quocngu":"Khen cho con mắt tinh đời,"},{"nom":"英雄𨅸𡨌塵埃買𫅷","quocngu":"Anh hùng đứng giữa trần ai mới già!"},{"nom":"󰜋𠳒㐌別典些","quocngu":"Một lời đã biết đến ta,"},{"nom":"𨷈鍾𠦳駟拱羅固饒","quocngu":"Muôn chung nghìn tứ cũng là có nhau!\\""},{"nom":"𠄩邊意合心投","quocngu":"Hai bên ý hợp, tâm đầu,"},{"nom":"欺親拯路羅求買親","quocngu":"Khi thân, chẳng lọ là cầu mới thân!"},{"nom":"事𢚸吘貝氷人","quocngu":"Sự lòng ngỏ với băng nhân:"},{"nom":"𠄩𤾓吏據原銀照還","quocngu":"Hai trăm lại cứ nguyên ngân chiếu hoàn."},{"nom":"房𥢆𢯢准清閒","quocngu":"Phòng riêng sửa chốn thanh nhàn,"},{"nom":"達床七寶圍幔八僊","quocngu":"Đặt giường thất bảo, vây màn bát tiên."},{"nom":"𤳇英雄𡛔嬋娟","quocngu":"Trai anh hùng, gái thuyền quyên,"},{"nom":"匪願𠁔鳯𫅠緣騎𧏵","quocngu":"Phỉ nguyền sánh phượng, đẹp duyên cưỡi rồng."},{"nom":"𡛤𢆥香󰌕當燶","quocngu":"Nửa năm hương lửa đương nồng,"},{"nom":"丈夫脱㐌動𢚸𦊚方","quocngu":"Trượng phu thoắt đã động lòng bốn phương."},{"nom":"𬂙潙𡗶𣷭溟󰋑","quocngu":"Trông vời trời bể mênh mang,"},{"nom":"青鎌鞍馭𨖲塘𣦎𨀐","quocngu":"Thanh gươm, yên ngựa lên đàng thẳng giong."},{"nom":"娘浪分𡛔𡦂從","quocngu":"Nàng rằng: \\"Phận gái chữ tòng,"},{"nom":"払𠫾妾拱决𢚸嗔𠫾","quocngu":"Chàng đi thiếp cũng quyết lòng xin đi.\\""},{"nom":"徐浪心腹相知","quocngu":"Từ rằng: \\"Tâm phúc tương tri,"},{"nom":"牢渚脱塊女兒常情","quocngu":"Sao chưa thoát khỏi nữ nhi thường tình?"},{"nom":"包𣇞𨑮𨷈精兵","quocngu":"Bao giờ mười vạn tinh binh,"},{"nom":"㗂鼙𠰺坦䏾旌󰢫塘","quocngu":"Tiếng bề dậy đất, bóng tinh rợp đường."},{"nom":"爫朱𤑟󰘚非常","quocngu":"Làm cho tỏ mặt phi thường,"},{"nom":"閉𣇞些仕逴娘宜家","quocngu":"Bấy giờ ta sẽ rước nàng nghi gia."},{"nom":"朋󰅒𦊚𣷭空茹","quocngu":"Bằng nay bốn bể không nhà,"},{"nom":"蹺強添絆別羅𠫾兜","quocngu":"Theo càng thêm bận biết là đi đâu"},{"nom":"停𢚸除妬𠃣𥹰","quocngu":"Đành lòng chờ đó ít lâu,"},{"nom":"遲庒羅󰜋𢆥𡢐倍之","quocngu":"Chầy chăng là một năm sau vội gì?\\""},{"nom":"决𠳒𢴑襖𠚢𠫾","quocngu":"Quyết lời dứt áo ra đi,"},{"nom":"𩙍迻鵬翅㐌離𨤮𣾺","quocngu":"Gió đưa bằng xỉ đã lìa dặm khơi."},{"nom":"娘自隻䏾窻梅","quocngu":"Nàng từ chiếc bóng song mai,"},{"nom":"𣈘輸蕩蕩𣈜掑杄𩄲","quocngu":"Đêm thâu đằng đẵng ngày cài then mây."},{"nom":"𡑝𦼔拯𡳒𨁪𨃐","quocngu":"Sân rêu chẳng vẽ dấu giày,"},{"nom":"𦹵高欣𡱩柳𤷍𢽼分","quocngu":"Cỏ cao hơn thước, liễu gày vài phân."},{"nom":"兑𬂙𨷈𨤮梓枌","quocngu":"Đoái trông muôn dặm tử phần,"},{"nom":"魂圭蹺𦰟𩄲秦賒賒","quocngu":"Hồn quê theo ngọn mây Tần xa xa."},{"nom":"㤕台萱檜椿𫅷","quocngu":"Xót thay huyên cỗi xuân già,"},{"nom":"𬌓𢚸傷𢖵別羅固𢢯","quocngu":"Tấm lòng thương nhớ biết là có nguôi"},{"nom":"祝羅𨑮󰋇𢆥𡗶","quocngu":"Chốc là mười mấy năm trời,"},{"nom":"群𠚢欺㐌䏧瑁𩯀霜","quocngu":"Còn ra khi đã da mồi tóc sương."},{"nom":"惜台𡭧義𡳵強","quocngu":"Tiếc thay chút nghĩa cũ càng,"},{"nom":"唒離絲𦬶群王絲𢚸","quocngu":"Dầu lìa tơ ngó còn vương tơ lòng."},{"nom":"緣㛪油󰡸絲紅","quocngu":"Duyên em dù nối tơ hồng,"},{"nom":"埋𠚢欺㐌𢬣𢸚𢬣恾","quocngu":"May ra khi đã tay bồng tay mang."},{"nom":"𡬷𢚸故國他鄕","quocngu":"Tấc lòng cố quốc tha hương."},{"nom":"塘箕餒怒滚昂排排","quocngu":"Đường kia nỗi nọ ngổn ngang bời bời."},{"nom":"𦑃鴻𠖤俸絶潙","quocngu":"Cánh hồng bay bổng tuyệt vời,"},{"nom":"㐌𤷱昆𬑉方𡗶耽耽","quocngu":"Đã mòn con mắt phương trời đăm đăm."},{"nom":"𣈘𣈜𨻫仍陰󰠐","quocngu":"Đêm ngày luống những âm thầm,"},{"nom":"󰌕兵兜㐌喑喑𦊚方","quocngu":"Lửa binh đâu đã ầm ầm bốn phương."},{"nom":"𡴯𡗶殺氣𤎎恾","quocngu":"Ngất trời sát khí mơ màng,"},{"nom":"苔滝鯨鰐秩塘甲兵","quocngu":"Đầy sông kình ngạc, chật đường giáp binh."},{"nom":"𠊚悁屬几終觥","quocngu":"Người quen thuộc, kẻ chung quanh,"},{"nom":"啂娘唉暫另命󰜋尼","quocngu":"Nhủ nàng hãy tạm lánh mình một nơi."},{"nom":"娘浪𠓀㐌󰠱𠳒","quocngu":"Nàng rằng: \\"Trước đã nặng lời,"},{"nom":"唒𥪝危險鍳移約𠸗","quocngu":"Dẫu trong nguy hiểm dám rời ước xưa!\\""},{"nom":"群當用孕菫魚","quocngu":"Còn đang dùng dắng ngẩn ngơ,"},{"nom":"𠃅外㐌𧡊䏾旗㗂鑼","quocngu":"Mái ngoài đã thấy bóng cờ tiếng la."},{"nom":"甲兵蹻典觥茹","quocngu":"Giáp binh kéo đến quanh nhà,"},{"nom":"同聲拱𠳚󰅹羅夫人","quocngu":"Đồng thanh cùng gửi: \\"Nào là phu nhân?\\""},{"nom":"𠄩邊𨑮位將軍","quocngu":"Hai bên mười vị tướng quân,"},{"nom":"撻鎌𢶒甲𠓀𡑝叩頭","quocngu":"Đặt gươm cởi giáp trước sân khấu đầu."},{"nom":"宮娥彩女蹺𡢐","quocngu":"Cung nga thể nữ theo sau,"},{"nom":"浪󰂅令旨逴朝于歸","quocngu":"Rằng: \\"Vâng lệnh chỉ, rước chầu vu quy.\\""},{"nom":"産床鳯輦鸞󰀩","quocngu":"Sẵn sàng phượng liễn loan nghi,"},{"nom":"花冠𤎒𤈪霞衣󰌕𤉜","quocngu":"Hoa quan chấp chới, hà y rỡ ràng."},{"nom":"𥩯旗浽𤿰𨖲塘","quocngu":"Dựng cờ, nổi trống lên đàng,"},{"nom":"竹絲引𠓀桃鐄蹻𡢐","quocngu":"Trúc tơ dẫn trước, đào vàng kéo sau."},{"nom":"火牌前路𨇒毛","quocngu":"hỏa bài tiền lộ ruổi mau,"},{"nom":"南庭𦖑動𤿰朝大營","quocngu":"Nam đình nghe động trống chầu đại doanh."},{"nom":"撟旗壘發銃城","quocngu":"Kéo cờ luỹ, phát súng thành,"},{"nom":"徐公𠚢馭親迎𨷶外","quocngu":"Từ công ra ngựa thân nghênh cửa ngoài."},{"nom":"󰌕命邏𨤔巾帶","quocngu":"Rỡ mình lạ vẻ cân đai,"},{"nom":"群印樣客章臺如𠸗","quocngu":"Còn in dạng khách Chương Đài như xưa."},{"nom":"唭浪𩵜渃緣𢛨","quocngu":"Cười rằng: \\"Cá nước duyên ưa,"},{"nom":"𢖵𠳒呐仍包𣇞𫨩空","quocngu":"Nhớ lời nói những bao giờ hay không?"},{"nom":"英雄買別英雄","quocngu":"Anh hùng mới biết anh hùng,"},{"nom":"𣈙䀡倣㐌甘𢚸意諸","quocngu":"Rày xem phỏng đã cam lòng ấy chưa!\\""},{"nom":"娘浪𡭧分癡踈","quocngu":"Nàng rằng: \\"Chút phận ngây thơ,"},{"nom":"拱埋𦀊葛特洳䏾𣘃","quocngu":"Cũng may dây cát được nhờ bóng cây!"},{"nom":"典悲𣇞買𧡊低","quocngu":"Đến bây giờ mới thấy đây,"},{"nom":"𦓡𢚸㐌𠺵仍𣈜󰜋𠄩","quocngu":"Mà lòng đã chắc những ngày một hai\\""},{"nom":"共饒𬂙󰘚奇唭","quocngu":"Cùng nhau trông mặt cả cười,"},{"nom":"攔𢬣𧗱准帳梅敘情","quocngu":"Dan tay về chốn trướng mai tự tình."},{"nom":"席排賞將犒兵","quocngu":"Tiệc bày thưởng tướng khao binh,"},{"nom":"喑󰢬𤿰陣習情樂軍","quocngu":"Om thòm trống trận, rập rình nhạc quân."},{"nom":"榮花補課風塵","quocngu":"Vinh hoa bõ thuở phong trần,"},{"nom":"𡦂情𣈜吏添春󰜋𣈜","quocngu":"Chữ tình ngày lại thêm xuân một ngày."},{"nom":"𥪝軍固𣅶𢝙圍","quocngu":"Trong quân có lúc vui vầy,"},{"nom":"從容買計傳𣈜寒微","quocngu":"Thong dong mới kể chuyện ngày hàn vi:"},{"nom":"欺無錫欺臨淄","quocngu":"\\"Khi vô Tích, khi Lâm Truy,"},{"nom":"尼𪰛驢倒尼𪰛㤕傷","quocngu":"Nơi thì lừa đảo, nơi thì xót thương."},{"nom":"𬌓身𣈙㐌弭攘","quocngu":"Tấm thân rày đã nhẹ nhàng,"},{"nom":"𡭧群恩怨堆塘渚衝","quocngu":"Chút còn ân oán đôi đường chưa xong.\\""},{"nom":"徐公𦖑呐始終","quocngu":"Từ công nghe nói thủy chung,"},{"nom":"不平浽陣同同𩆐㘇","quocngu":"Bất bình nổi trận đùng đùng sấm vang."},{"nom":"嚴軍𪮙將産床","quocngu":"Nghiêm quân chọn tướng sẵn sàng,"},{"nom":"󰡎旗󰜋令倍鐄𥗐𬁖","quocngu":"Dưới cờ một lệnh vội vàng ruổi sao."},{"nom":"𠀧軍指𦰟旗桃","quocngu":"Ba quân chỉ ngọn cờ đào,"},{"nom":"道𨖅無錫道𠓨臨淄","quocngu":"Đạo sang Vô Tích, đạo vào Lâm Truy."},{"nom":"󰋇𠊚負薄𠸗𤞻","quocngu":"Mấy người phụ bạc xưa kia,"},{"nom":"照名追拿調𧗱𠳨查","quocngu":"Chiếu danh truy nã điệu về hỏi tra."},{"nom":"吏差令箭傳𠚢","quocngu":"Lại sai lệnh tiễn truyền ra,"},{"nom":"𪧚𦀾户束󰜋茹朱安","quocngu":"Giữ giàng họ Thúc một nhà cho yên."},{"nom":"媒宦姐娓覺緣","quocngu":"Mụ hoạn thư, vãi Giác Duyên,"},{"nom":"拱差令箭󰝂信逴𠶆","quocngu":"Cũng sai lệnh tiễn đem tin rước mời."},{"nom":"誓師計歇每𠳒","quocngu":"Thệ sư kể hết mọi lời,"},{"nom":"𢚸𢚸拱恨𠊚𠊚𢴇威","quocngu":"Lòng lòng cũng giận, người người chấp uy,"},{"nom":"道𡗶報復㐱稽","quocngu":"Đạo trời báo phục chỉn ghê,"},{"nom":"窖台󰜋𬒙󰑖𧗱苔尼","quocngu":"Khéo thay một mẻ tóm về đầy nơi."},{"nom":"軍中鎌𢀲槊𨱽","quocngu":"Quân trung gươm lớn giáo dài."},{"nom":"𧗱𥪝侍立奇外雙披","quocngu":"Vệ trong thị lập, cơ ngoài song phi,"},{"nom":"産床齊整威儀","quocngu":"Sẵn sàng tề chỉnh uy nghi,"},{"nom":"博銅秩坦旌旗𩄓𡑝","quocngu":"Bác đồng chật đất, tinh kỳ rợp sân."},{"nom":"帳𬮎𨷑𡨌中軍","quocngu":"Trướng hùm mở giữa trung quân,"},{"nom":"徐公𠁔貝夫人共𡎥","quocngu":"Từ công sánh với phu nhân cùng ngồi."},{"nom":"先嚴𤿰渚𢴑回","quocngu":"Tiên nghiêm trống chửa dứt hồi"},{"nom":"點名𠓀㐌直外𨷶轅","quocngu":"Điểm danh trước đã chực ngoài cửa viên."},{"nom":"徐浪恩怨𠄩邊","quocngu":"Từ rằng: \\"Ân oán hai bên,"},{"nom":"默娘䖏决報填朱明","quocngu":"Mặc nàng xử quyết báo đền cho minh.\\""},{"nom":"娘浪𨷈𢚁威靈","quocngu":"Nàng rằng: \\"Muôn cậy uy linh,"},{"nom":"唉嗔報答恩情朱孚","quocngu":"Hãy xin báo đáp ân tình cho phu."},{"nom":"報恩耒仕㨋讐","quocngu":"Báo ân rồi sẽ trả thù.\\""},{"nom":"徐浪役意底朱默娘","quocngu":"Từ rằng: \\"Việc ấy để cho mặc nàng.\\""},{"nom":"数名唱𠓀束郎","quocngu":"SỔ danh xướng trước Thúc lang,"},{"nom":"󰘚如藍覩命羕𧕬㬿","quocngu":"Mặt như chàm đổ, mình dường dế run."},{"nom":"娘浪義󰠱𠦳𡽫","quocngu":"Nàng rằng: \\"Nghĩa nặng nghìn non,"},{"nom":"臨淄𠊚󱀄払群𢖵空","quocngu":"Lâm Truy người cũ chàng còn nhớ không?"},{"nom":"参商拯院𡦂從","quocngu":"Sâm Thương chẳng vẹn chữ tòng,"},{"nom":"在埃𧯶鍳責𢚸故人","quocngu":"Tại ai, há dám trách lòng cố nhân?"},{"nom":"錦𤾓卷泊𠦳斤","quocngu":"Gấm trăm cuốn, bạc nghìn cân,"},{"nom":"謝𢚸易稱報恩噲羅","quocngu":"Tạ lòng dễ xứng báo ân gọi là."},{"nom":"㛪払鬼怪精魔","quocngu":"Vợ chàng quỷ quái tinh ma,"},{"nom":"畨尼几𠎨󰜏𫅷﨤饒","quocngu":"Phen này kẻ cắp bà già gặp nhau!"},{"nom":"蜆𨁏𠰘󱋓渚𥹰","quocngu":"Kiến bò miệng chén chưa lâu,"},{"nom":"謀溇拱㨋義溇拱𣃣","quocngu":"Mưu sâu cũng trả nghĩa sâu cũng vừa!\\""},{"nom":"束生𬂙󰘚閉𣇞","quocngu":"Thúc sinh trông mặt bấy giờ,"},{"nom":"蒲灰払㐌如𩅹𣿌滛","quocngu":"Mồ hôi chàng đã như mưa ướt dầm."},{"nom":"𢚸𥢆汲啟坤擒","quocngu":"Lòng riêng khấp khởi khôn cầm,"},{"nom":"𢜝台𦓡吏𢜠󰠐朱埃","quocngu":"Sợ thay mà lại mừng thầm cho ai!"},{"nom":"媒𫅷師長次𠄩","quocngu":"Mụ già, sư trưởng thứ hai,"},{"nom":"脱迻典𠓀倍𠶆逴𨖲","quocngu":"Thoắt đưa đến trước, vội mời rước trên."},{"nom":"𢩮𢬣𨷑󰘚朱𥆾","quocngu":"Dắt tay mở mặt cho nhìn:"},{"nom":"花奴箕貝濯泉拱碎","quocngu":"\\"Hoa nô kia với Trạc Tuyền cũng tôi!"},{"nom":"洳欺󰢮𨀈仕潙","quocngu":"Nhớ khi lỡ bước sẩy vời,"},{"nom":"𡽫鐄渚易填倍𬌓傷","quocngu":"Non vàng chưa dễ đền bồi tấm thương."},{"nom":"𠦳鐄噲𡭧禮常","quocngu":"Nghìn vàng gọi chút lễ thường."},{"nom":"𦓡𢚸漂母󰋇鐄朱斤","quocngu":"Mà lòng Phiếu mẫu mấy vàng cho cân!\\""},{"nom":"𠄩𠊚𬂙󰘚秦銀","quocngu":"Hai người trông mặt tần ngần,"},{"nom":"姅分怯𢜝姅分𢜠𢝙","quocngu":"Nửa phần khiếp sợ, nửa phần mừng vui."},{"nom":"娘浪嗔唉󰟱𡎥","quocngu":"Nàng rằng: \\"Xin hãy rốn ngồi,"},{"nom":"䀡朱𤑟󰘚別碎報讐","quocngu":"Xem cho rõ mặt, biết tôi báo thù!\\""},{"nom":"急傳諸將獻俘","quocngu":"Kíp truyền chư tướng hiến phù."},{"nom":"吏󰝡各跡犯囚侯查","quocngu":"Lại đem các tích phạm tù hậu tra."},{"nom":"󰡎旗鎌捽匣𠚢","quocngu":"Dưới cờ gươm tuốt nắp ra,"},{"nom":"正名首犯𠸜羅宦姐","quocngu":"Chính danh thủ phạm tên là Hoạn thư."},{"nom":"脱𬂙娘㐌嘲䜹","quocngu":"Thoắt trông nàng đã chào thưa:"},{"nom":"小姐拱固碑𣇞典低","quocngu":"\\"Tiểu thư cũng có bây giờ đến đây!\\""},{"nom":"彈󰜏易固󰋇𢬣","quocngu":"Đàn bà dễ có mấy tay,"},{"nom":"𠁀𠸗󰋇󰘚𠁀尼󰋇肝","quocngu":"Đời xưa mấy mặt, đời này mấy gan!"},{"nom":"易揚羅𫗁紅顔","quocngu":"Dễ dàng là thói hồng nhan,"},{"nom":"強荄󰠘𡗋強寃債𡗉","quocngu":"Càng cay nghiệt lắm, càng oan trái nhiều!\\""},{"nom":"宦姐魄落魂漂","quocngu":"Hoạn Thư phách lạc hồn xiêu,"},{"nom":"叩頭󰡎帳捛調呌󰞻","quocngu":"Khấu đầu dưới trướng lựa điều kêu ca."},{"nom":"浪碎𡭧胣彈󰜏","quocngu":"Rằng: \\"Tôi chút dạ đàn bà,"},{"nom":"悭相羅拱𠊚些常情","quocngu":"Ghen tuông là cũng người ta thường tình."},{"nom":"擬朱欺閣曰經","quocngu":"Nghĩ cho khi gác viết kinh,"},{"nom":"貝欺塊𨷶𠞹情𫽄蹺","quocngu":"Với khi khỏi cửa dứt tình chẳng theo."},{"nom":"𢚸𥢆𥢆仍敬腰","quocngu":"Lòng riêng, riêng những kính yêu,"},{"nom":"𫯳鍾渚易埃朝朱埃","quocngu":"Chồng chung chưa dễ ai chiều cho ai!"},{"nom":"捽它𨢟役蔠荄","quocngu":"Trót đà gây việc chông gai,"},{"nom":"群洳量奇傷排󰅹庒","quocngu":"Còn nhờ lượng cả thương bài nào chăng!\\""},{"nom":"𠸦朱窖㐌𢧚浪","quocngu":"Khen cho: \\"Khéo đã nên rằng,"},{"nom":"坤頑典墨呐能沛𠳒","quocngu":"Khôn ngoan đến mực, nói năng phải lời,"},{"nom":"他𠚢羅拱埋𠁀","quocngu":"Tha ra là cũng may đời,"},{"nom":"爫𠚢𪰛拱𠚢𠊚𡮈然","quocngu":"Làm ra thì cũng ra người nhỏ nhen."},{"nom":"㐌𢚸知過𪰛𢧚","quocngu":"Đã lòng tri quá thời nên!\\""},{"nom":"傳軍令𫴋帳前他𬆄","quocngu":"Truyền quân lệnh xuống trướng tiền tha ngay."},{"nom":"謝𢚸𥛉𠓀𡑝𩄲","quocngu":"Tạ lòng lạy trước sân mây,"},{"nom":"𨷶軒吏𢴑󰜋𦀊引𠓨","quocngu":"Cửa hiên lại dắt một dây dẫn vào."},{"nom":"娘浪弄弄𡗶高","quocngu":"Nàng rằng: \\"Lồng lộng trời cao."},{"nom":"害人人害事󰅹在些","quocngu":"Hại nhân, nhân hại, sự nào tại ta?"},{"nom":"𠓀羅薄幸薄󰜏","quocngu":"Trước là Bạc Hạnh, Bạc bà,"},{"nom":"邊羅鷹犬邊羅楚卿","quocngu":"Bên là Ưng, Khuyển, bên là Sở Khanh."},{"nom":"秀󰜏貝馬監生","quocngu":"Tú bà với Mã Giám sinh,"},{"nom":"正名罪㐌當情群牢","quocngu":"Chính danh tội đã đáng tình còn sao\\""},{"nom":"令軍傳𫴋開刀","quocngu":"Lệnh quân truyền xuống khai đao,"},{"nom":"誓牢𪰛吏據牢加刑","quocngu":"Thề sao thì lại cứ sao gia hình."},{"nom":"𧖱淶𦧘󰞺散情","quocngu":"Máu rơi thịt nát tan tành,"},{"nom":"埃埃𬂙𧡊魂驚魄移","quocngu":"Ai ai trông thấy hồn kinh phách rời."},{"nom":"朱𫨩𨷈事在𡗶","quocngu":"Cho hay muôn sự tại trời,"},{"nom":"負𠊚拯補欺𠊚負些","quocngu":"Phụ người chẳng bỏ khi người phụ ta!"},{"nom":"󰋇𠊚薄惡精魔","quocngu":"Mấy người bạc ác tinh ma,"},{"nom":"命爫命𠹾呌𦓡埃傷","quocngu":"Mình làm mình chịu kêu mà ai thương!"},{"nom":"𠀧軍東󰘚法塲","quocngu":"Ba quân đông mặt pháp trường."},{"nom":"青天白日𤑟𤉜朱𥋳","quocngu":"Thanh thiên bạch nhật rõ ràng cho coi."},{"nom":"役娘報復𣃣耒","quocngu":"Việc nàng báo phục vừa rồi,"},{"nom":"覺緣倍㐌𠳚𠳒辭歸","quocngu":"Giác Duyên vội đã gởi lời từ quy."},{"nom":"娘浪千載一期","quocngu":"Nàng rằng: \\"Thiên tải nhất kỳ,"},{"nom":"故人㐌易󰋇欺盤桓","quocngu":"Cố nhân đã dễ mấy khi bàn hoàn."},{"nom":"耒低䕯合𩄲散","quocngu":"Rồi đây bèo hợp mây tan,"},{"nom":"別兜䳽内𩄲岸羅兜","quocngu":"Biết đâu hạc nội mây ngàn là đâu\\""},{"nom":"師浪拱拯包𥹰","quocngu":"Sư rằng: \\"Cũng chẳng bao lâu,"},{"nom":"𥪝𠄼𢆥吏﨤饒妬𦓡","quocngu":"Trong năm năm lại gặp nhau đó mà."},{"nom":"𢖵𣈜行脚方賒","quocngu":"Nhớ ngày hành cước phương xa,"},{"nom":"﨤師三合本羅先知","quocngu":"Gặp sư Tam Hợp vốn là tiên tri."},{"nom":"保朱會遇之期","quocngu":"Bảo cho hội ngộ chi kỳ,"},{"nom":"𢆥󰅒羅󰜋女𪰛𠄼𢆥","quocngu":"Năm nay là một, nữa thì năm năm."},{"nom":"買𫨩前定拯惏","quocngu":"Mới hay tiền định chẳng lầm,"},{"nom":"㐌信調𠓀乙䏕役𡢐","quocngu":"Đã tin điều trước, ắt nhằm việc sau."},{"nom":"群𡗉恩義貝饒","quocngu":"Còn nhiều ân nghĩa với nhau,"},{"nom":"機緣󰅹㐌歇兜倍󰢔","quocngu":"Cơ duyên nào đã hết đâu, vội gì?\\""},{"nom":"娘浪前定先知","quocngu":"Nàng rằng: \\"Tiền định tiên tri,"},{"nom":"𠳒師㐌𠰺乙𪰛拯差","quocngu":"Lời sư đã dạy ắt thì chẳng sai."},{"nom":"禍包𣇞固﨤𠊚","quocngu":"Họa bao giờ có gặp người,"},{"nom":"爲碎𢚁𠳨󰜋𠳒終身","quocngu":"Vì tôi cậy hỏi một lời chung thân.\\""},{"nom":"覺緣󰂅吲殷勤","quocngu":"Giác Duyên vâng dặn ân cần,"},{"nom":"謝辭脱㐌移蹎𡎝外","quocngu":"Tạ từ thoắt đã dời chân cõi ngoài."},{"nom":"娘浪恩怨𫾐𢬗","quocngu":"Nàng rằng ân oán rạch ròi,"},{"nom":"𣷭冤󰟯㐌潙潙竟𢚸","quocngu":"Bể oan dường đã vơi vơi cạnh lòng."},{"nom":"謝恩𥛉𠓀徐公","quocngu":"Tạ ân lạy trước Từ công:"},{"nom":"㤕身蒲柳󰅹蒙固𣈙","quocngu":"Xót thân bồ liễu nào mong có rày!"},{"nom":"濫洳𩆐𩂶𠚢𢬣","quocngu":"Trộm nhờ sấm sét ra tay,"},{"nom":"𡬷𥢆如拮梗苔覩𠫾","quocngu":"Tấc riêng như cất gánh đầy đổ đi."},{"nom":"󰢯󰢇劄胣呐之","quocngu":"Khắc xương chép dạ nói chi,"},{"nom":"易󰝡肝𧎜填󰀩𡗶𩄲","quocngu":"Dễ đem gan Ốc đền nghì trời mây."},{"nom":"徐浪國士𠸗󰅒","quocngu":"Từ rằng: \\"Quốc sĩ xưa nay,"},{"nom":"𪮙𠊚知己󰜋𣈜特庒","quocngu":"Chọn người tri kỷ một ngày được chăng?"},{"nom":"英雄㗂㐌噲浪","quocngu":"Anh hùng tiếng đã gọi rằng,"},{"nom":"𡨌塘欺𧡊不平𦓡他","quocngu":"Giữa đường khi thấy bất bằng mà tha!"},{"nom":"况之役拱役茹","quocngu":"Huống chi việc cũng việc nhà,"},{"nom":"路羅深謝貝羅知恩","quocngu":"Lọ là thâm tạ mới là tri ân."},{"nom":"㤕娘群𪨀雙親","quocngu":"Xót nàng còn chút song thân,"},{"nom":"閉𥹰几越𠊚秦隔賒","quocngu":"Bấy lâu kẻ Việt, người Tần cách xa."},{"nom":"牢朱𨷈𨤮󰜋茹","quocngu":"Sao cho muôn dặm một nhà,"},{"nom":"朱𠊚𧡊󰘚羅些甘𢚸","quocngu":"Cho người thấy mặt là ta cam lòng.\\""},{"nom":"倍傳𢯢席軍中","quocngu":"Vội truyền sửa tiệc quân trung,"},{"nom":"𨷈兵𠦳將會同洗寃","quocngu":"Muôn binh nghìn tướng hội đồng tẩy oan."},{"nom":"乘機竹扯𤌋散","quocngu":"Thừa cơ trúc chẻ khói tan,"},{"nom":"兵威自意𩆐㘓𥪝外","quocngu":"Binh uy từ ấy sấm ran trong ngoài."},{"nom":"朝廷𥢆󰜋𧣳𡗶","quocngu":"Triều đình riêng một góc trời"},{"nom":"𠁟𠄩文武攊堆山河","quocngu":"Gồm hai văn võ, rạch đôi sơn hà."},{"nom":"隊干𩙍𪭱𩅹沙","quocngu":"Đòi cơn gió quét mưa sa,"},{"nom":"縣城踏覩𠄼座𡎝南","quocngu":"Huyện thành đạp đổ năm toà cõi Nam."},{"nom":"風塵𥕄󰜋𦧜鎌","quocngu":"Phong trần mài một lưỡi gươm,"},{"nom":"仍類架襖襊𩚵詫之","quocngu":"Những loài giá áo túi cơm sá gì!"},{"nom":"迎昂󰜋𡎝邊陲","quocngu":"Nghênh ngang một cõi biên thuỳ,"},{"nom":"少之孤寡少之伯王","quocngu":"Thiếu gì cô quả, thiếu gì bá vương!"},{"nom":"𠓀旗埃鍳爭強","quocngu":"Trước cờ ai dám tranh cường,"},{"nom":"𠄼𢆥雄據󰜋方海瀕","quocngu":"Năm năm hùng cứ một phương hải tần."},{"nom":"固官總督重臣","quocngu":"Có quan tổng đốc trọng thần,"},{"nom":"羅胡尊憲經綸𠁟才","quocngu":"Là Hồ Tôn Hiến, kinh luân gồm tài."},{"nom":"𢩽車󰂅旨特差","quocngu":"Dẩy xe vâng chỉ đặc sai,"},{"nom":"便宜撫勦役外董戎","quocngu":"Tiện nghi phủ tiễu, việc ngoài đổng nhung."},{"nom":"別徐羅𨅸英雄","quocngu":"Biết Từ là đấng anh hùng,"},{"nom":"別娘拱預軍中論盤","quocngu":"Biết nàng cũng dự quân trung luận bàn."},{"nom":"棟軍爫禮招安","quocngu":"Đóng quân làm lễ chiêu an,"},{"nom":"封書鎫禮差官説降","quocngu":"Phong thư mâm lễ sai quan thuyết hàng."},{"nom":"吏𥢆󰜋禮貝娘","quocngu":"Lại riêng một lễ với nàng,"},{"nom":"𠄩𠸜彩女玉鐄𠦳斤","quocngu":"Hai tên thể nữ, ngọc vàng nghìn cân."},{"nom":"信𠓨𠳚𠓀中軍","quocngu":"Tin vào gửi trước trung quân,"},{"nom":"徐公𥢆唉𨑮分糊塗","quocngu":"Từ công riêng hãy mười phân hồ đồ."},{"nom":"󰜋𢬣𨢟𥩯基圖","quocngu":"Một tay gây dựng cơ đồ,"},{"nom":"閉𥹰𣷭楚滝吳縱横","quocngu":"Bấy lâu bể Sở, sông Ngô tung hoành!"},{"nom":"𥿠身𧗱貝朝廷","quocngu":"Bó thân về với triều đình,"},{"nom":"降臣𪭃恅分命𠚢兜","quocngu":"Hàng thần lơ láo, phận mình ra đâu"},{"nom":"襖襜纀𦆹𥙩饒","quocngu":"Áo xiêm buộc trói lấy nhau,"},{"nom":"𠓨𠍓𠚢𨆝公侯𦓡之","quocngu":"Vào luồn ra cúi công hầu mà chi"},{"nom":"牢朋𥢆󰜋邊陲","quocngu":"Sao bằng riêng một biên thuỳ,"},{"nom":"飭尼㐌易爫之特饒","quocngu":"Sức này đã dễ làm gì được nhaủ"},{"nom":"擉𡗶恠渃默油","quocngu":"Chọc trời quấy nước mặc dầu,"},{"nom":"育昂󰅹別𨕭頭固埃","quocngu":"Dọc ngang nào biết trên đầu có ai"},{"nom":"娘它寔胣信𠊚","quocngu":"Nàng đà thực dạ tin người,"},{"nom":"禮𡗉呐𠮾𦖑𠳒易漂","quocngu":"Lễ nhiều, nói ngọt nghe lời dễ xiêu."},{"nom":"擬命󰘚渃𦑃䕯","quocngu":"Nghĩ mình mặt nước cánh bèo,"},{"nom":"㐌𡗉流落吏𡗉艱屯","quocngu":"Đã nhiều lưu lạc lại nhiều gian truân."},{"nom":"朋󰅒𠹾㗂王臣","quocngu":"Bằng nay chịu tiếng vương thần."},{"nom":"清清塘丐青雲狹󰢔","quocngu":"Thênh thênh đường cái thanh vân hẹp gì!"},{"nom":"公私院奇𠄩皮","quocngu":"Công tư vẹn cả hai bề,"},{"nom":"寅夜耒仕料衛故鄕","quocngu":"Dần dà rồi sẽ liệu về cố hương."},{"nom":"拱𡾵命婦堂堂","quocngu":"Cũng ngôi mệnh phụ đường đường,"},{"nom":"𦬑囊𪵟󰘚󰌕𤉜媄吒","quocngu":"Nở nang mày mặt, rỡ ràng mẹ cha."},{"nom":"𨕭爲渃󰡎爲茹","quocngu":"Trên vì nước, dưới vì nhà,"},{"nom":"󰜋羅得孝𠄩羅得忠","quocngu":"Một là đắc hiếu, hai là đắc trung."},{"nom":"拯欣隻栢𡨌𣳔","quocngu":"Chẳng hơn chiếc bách giữa dòng,"},{"nom":"𠲖𠽮㳥𩙍駭雄𦹵花","quocngu":"E dè sóng gió, hãi hùng cỏ hoa."},{"nom":"因欺盤薄𧵆賒","quocngu":"Nhân khi bàn bạc gần xa,"},{"nom":"乘機娘買盤𠚢呐𠓨","quocngu":"Thừa cơ, nàng mới bàn ra nói vào."},{"nom":"浪𥪝聖澤𣼭󰠢","quocngu":"Rằng: \\"Trong thánh trạch dồi dào,"},{"nom":"洒𠚢㐌泣渗𠓨㐌溇","quocngu":"Tưới ra đã khắp, thấm vào đã sâu."},{"nom":"平成功德閉𥹰","quocngu":"Bình thành công đức bấy lâu,"},{"nom":"埃埃拱隊𨕭頭掣包","quocngu":"Ai ai cũng đội trên đầu xiết bao."},{"nom":"𡄎自𧻭役兵刀","quocngu":"Ngẫm từ dấy việc binh đao,"},{"nom":"棟󰢇無定㐌高朋頭","quocngu":"Đống xương Vô Định đã cao bằng đầu."},{"nom":"爫之底㗂𧗱𡢐","quocngu":"Làm chi để tiếng về sau,"},{"nom":"𠦳𢆥埃㐌𠸦兜黄巢","quocngu":"Nghìn năm ai đã khen đâu Hoàng Sào!"},{"nom":"牢朋祿重權高","quocngu":"Sao bằng lộc trọng quyền cao,"},{"nom":"功名埃𢩮𨇒󰅹朱戈","quocngu":"Công danh ai dắt lối nào cho quả\\""},{"nom":"𦖑𠳒娘呐󰚷嘛","quocngu":"Nghe lời nàng nói mặn mà,"},{"nom":"勢攻徐買阻𠚢勢降","quocngu":"Thế công, Từ mới trở ra thế hàng."},{"nom":"整儀接使倍鐄","quocngu":"Chỉnh nghi tiếp sứ vội vàng,"},{"nom":"󱊲期束甲决塘解兵","quocngu":"Hẹn kỳ thúc giáp, quyết đường giải binh."},{"nom":"信𠳒城下要盟","quocngu":"Tin lời thành hạ yêu minh,"},{"nom":"𦰟旗魚󰢰𤿰更雉揚","quocngu":"Ngọn cờ ngơ ngác, trống canh trễ tràng."},{"nom":"役兵補拯𪧚𦀾","quocngu":"Việc binh bỏ chẳng giữ giàng,"},{"nom":"王師㐌𧡊𤏣詳寔虚","quocngu":"Vương sư đã thấy tỏ tường thực hư."},{"nom":"胡公决計乘機","quocngu":"Hồ công quyết kế thừa cơ,"},{"nom":"禮先兵後刻期襲攻","quocngu":"Lễ tiên, binh hậu khắc cờ tập công."},{"nom":"𢹣旗招撫先鋒","quocngu":"Kéo cờ chiêu phủ tiên phong,"},{"nom":"禮儀躝𠓀鎛銅伏𡢐","quocngu":"Lễ nghi dàn trước, bác đồng phục sau."},{"nom":"徐群哬𠾿別兜","quocngu":"Từ còn hờ hững biết đâu,"},{"nom":"大冠禮服𠚢投𨷶轅","quocngu":"Đại quan lễ phục ra đầu cửa viên."},{"nom":"胡公暗號密傳","quocngu":"Hồ công ám hiệu mật truyền,"},{"nom":"𠀧皮發銃𦊚邊𢹣旗","quocngu":"Ba bề phát súng, bốn bên kéo cờ."},{"nom":"當欺不意拯疑","quocngu":"Đang khi bất ý chẳng ngờ,"},{"nom":"𤞻󰡼欺㐌沙機拱𢤞","quocngu":"Hùm thiêng khi đã sa cơ cũng hèn!"},{"nom":"死生料𡧲陣前","quocngu":"Tử sinh liều giữa trận tiền,"},{"nom":"磾苔朱別肝連將軍","quocngu":"Dạn dày cho biết gan liền tướng quân!"},{"nom":"氣󰡼雖㐌𧗱神","quocngu":"Khí thiêng tuy đã về thần,"},{"nom":"然然群𨅸墫蹎𡧲𫒥","quocngu":"Nhơn nhơn còn đứng chôn chân giữa vòng!"},{"nom":"猪如𥒥凭如銅","quocngu":"Trơ như đá, vững như đồng,"},{"nom":"埃𢯦朱轉埃󰢱朱移","quocngu":"Ai lay cho chuyển, ai rung cho rời."},{"nom":"官軍追殺𨆷𨱽","quocngu":"Quan quân truy sát đuổi dài,"},{"nom":"㗀㗀殺氣𩁶𡗶埃當","quocngu":"Ù ù sát khí, ngất trời ai đang!"},{"nom":"𥪝濠外壘散荒","quocngu":"Trong hào, ngoài luỹ tan hoang,"},{"nom":"亂軍𣃣𢴑𢬣娘典尼","quocngu":"Loạn quân vừa dắt tay nàng đến nơi,"},{"nom":"𥪝𨦩𥏋𥒥俳俳","quocngu":"Trong vòng tên đá bời bời,"},{"nom":"𧡊徐群𨅸𡨌𡗶猪猪","quocngu":"Thấy Từ còn đứng giữa trời trơ trơ."},{"nom":"哭浪智勇固乘","quocngu":"Khóc rằng: \\"Trí dũng có thừa,"},{"nom":"𤳷𦖑𠳒妾典機會尼","quocngu":"Bởi nghe lời thiếp đến cơ hội này."},{"nom":"󰘚󰅹𬂙𧡊饒低","quocngu":"Mặt nào trông thấy nhau đây?"},{"nom":"拱料𤯩𣨰󰜋𣈜貝饒","quocngu":"Cũng liều sống thác một ngày với nhau!\\""},{"nom":"𣳔秋如沚干愁","quocngu":"Dòng thu như chảy cơn sầu,"},{"nom":"󰢲𠳒娘拱招頭󰜋邊","quocngu":"Dứt lời nàng cũng gieo đầu một bên."},{"nom":"邏台寃氣相廛","quocngu":"Lạ thay oan khí tương triền!"},{"nom":"娘𣃣伏𫴋徐連我𠚢","quocngu":"Nàng vừa phục xuống, Từ liền ngã ra."},{"nom":"官軍几吏𠊚戈","quocngu":"Quan quân kẻ lại người qua,"},{"nom":"㤕娘仕吏域𠚢寅寅","quocngu":"Xót nàng sẽ lại vực ra dần dần."},{"nom":"𫸬𠓨典𠓀中軍","quocngu":"Dẫn vào đến trước trung quân,"},{"nom":"胡公𧡊󰘚殷勤𠳨𠻃","quocngu":"Hồ công thấy mặt ân cần hỏi han."},{"nom":"浪娘㤕分紅顔","quocngu":"Rằng: \\"Nàng chút phận hồng nhan,"},{"nom":"﨤干兵革𫶺難拱傷","quocngu":"Gặp cơn binh cách nghèo nàn cũng thương!"},{"nom":"㐌𫨩成筭廟堂","quocngu":"Đã hay thành toán miếu đường,"},{"nom":"執功拱固𠳒娘買𢧚","quocngu":"Chấp công cũng có lời nàng mới nên."},{"nom":"碑𣇞事㐌萬全","quocngu":"Bây giờ sự đã vạn tuyền,"},{"nom":"默𢚸擬𥙩悶嗔皮󰅹","quocngu":"Mặc lòng nghĩ lấy, muốn xin bề nào\\""},{"nom":"娘強湥玉𣻆𩆋","quocngu":"Nàng càng giọt ngọc tuôn dào,"},{"nom":"吸凝買𠳚濕高事𢚸","quocngu":"Ngập ngừng mới gửi thấp cao sự lòng."},{"nom":"浪徐羅𨅸英雄","quocngu":"Rằng: \\"Từ là đấng anh hùng,"},{"nom":"育昂𡗶𢌌浘漨𣷭𣾺","quocngu":"Dọc ngang trời rộng, vẫy vùng bể khơi!"},{"nom":"信碎𢧚過𦖑𠳒","quocngu":"Tin tôi nên quá nghe lời,"},{"nom":"󰝡身百戰爫碎朝廷","quocngu":"Đem thân bách chiến làm tôi triều đình."},{"nom":"語羅夫貴婦榮","quocngu":"Ngỡ là phu quý, phụ vinh,"},{"nom":"埃疑󰜋丿散情𦧘󰢇","quocngu":"Ai ngờ một phút tan tành thịt xương!"},{"nom":"𠄼𫷜𡗶𣷭昂藏","quocngu":"Năm năm trời bể ngang tàng."},{"nom":"󰝡身𠫾補戰塲如空","quocngu":"Đem thân đi bỏ chiến trường như không."},{"nom":"害𫯳計𥙩爫功","quocngu":"Hại chồng kể lấy làm công,"},{"nom":"計包饒吏𤴬𢚸閉饒","quocngu":"Kể bao nhiêu lại đau lòng bấy nhiêu!"},{"nom":"察命功𠃣罪𡗉","quocngu":"Xét mình công ít, tội nhiều,"},{"nom":"𤯩乘碎㐌𢧚料命碎","quocngu":"Sống thừa, tôi đã nên liều mình tôi."},{"nom":"嗔朱淺土󰜋堆","quocngu":"Xin cho tiện thổ một doi,"},{"nom":"噲羅㙮店𥙩𠊚死生","quocngu":"Gọi là đắp điếm lấy người tử sinh!"},{"nom":"胡公𦖑呐傷情","quocngu":"Hồ công nghe nói thương tình,"},{"nom":"傳朱藁葬遺形邊滝","quocngu":"Truyền cho cảo táng di hình bên sông."},{"nom":"𥪝軍𨷑席賀功","quocngu":"Trong quân mở tiệc hạ công,"},{"nom":"㖔𡁞絲竹會同軍官","quocngu":"Xôn xao tơ trúc, hội đồng quân quan."},{"nom":"󰈫娘侍宴󰡎幔","quocngu":"Bắt nàng thị yến dưới màn,"},{"nom":"𢷣醝吏押紊彈日奏","quocngu":"Giở say lại ép vặn đàn nhặt tâu,"},{"nom":"没宮𩙍𢣃𩅹愁","quocngu":"Một cung gió tủi mưa sầu,"},{"nom":"𦊚𦀊㳶𧖱𠄼頭𪮀𢬣","quocngu":"Bốn dây nhỏ máu năm đầu ngón tay."},{"nom":"蟡吟猿唿󰅹齊","quocngu":"Ve ngâm vượn hót nào tày,"},{"nom":"律𦖻胡拱𤶑𪵟淶珠","quocngu":"Lọt tai, Hồ cũng nhăn mày rơi châu."},{"nom":"𠳨浪尼曲於兜","quocngu":"Hỏi rằng: \\"Này khúc ở đâu"},{"nom":"𦖑𠚢𨷈惨𠦳愁𡗋台","quocngu":"Nghe ra muôn thảm nghìn sầu lắm thay!\\""},{"nom":"𠽔浪薄命曲尼","quocngu":"Thưa rằng: \\"Bạc mệnh khúc này,"},{"nom":"譜𠓨彈意仍𣈜群踈","quocngu":"Phổ vào đàn ấy những ngày còn thơ."},{"nom":"宮琹捛仍𣈜𠸗","quocngu":"Cung cầm lựa những ngày xưa."},{"nom":"𦓡𦎛薄命悲𣇞羅低","quocngu":"Mà gương bạc mệnh bây giờ là đây!\\""},{"nom":"強𦖑強㴷強醝","quocngu":"Càng nghe Càng đắm càng say,"},{"nom":"邏朱󰘚𨫊拱癡爲情","quocngu":"Lạ cho mặt sắt cũng ngây vì tình!"},{"nom":"𠰺浪香󰌕𠀧生","quocngu":"Dạy rằng: \\"Hương lửa ba sinh,"},{"nom":"𦀊鸞嗔𦀼琴𫅜朱埃","quocngu":"Dây loan xin nối cầm lành cho ai\\""},{"nom":"𠽔浪㤕分落類","quocngu":"Thưa rằng: \\"Chút phận lạc loài."},{"nom":"𥪝命擬㐌固𠊚𣨰寃","quocngu":"Trong mình nghĩ đã có người thác oan."},{"nom":"群之羅梗花殘","quocngu":"Còn chi là cánh hoa tàn,"},{"nom":"絲𢚸㐌𢴑𦀊彈小憐","quocngu":"Tơ lòng đã dứt dây đàn Tiểu Lân."},{"nom":"𢌌傷群𤗖紅裙","quocngu":"Rộng thương còn mảnh hồng quần,"},{"nom":"唏殘特𧡊㭲枌羅埋","quocngu":"Hơi tàn được thấy gốc phần là may!\\""},{"nom":"賀功𡃹㐌過醝","quocngu":"Hạ công chén đã quá say,"},{"nom":"胡公典𣅶𤎜𣈜𢖵𠚢","quocngu":"Hồ công đến lúc rạng ngày nhớ ra."},{"nom":"擬命方靣國家","quocngu":"Nghĩ mình phương diện quốc gia,"},{"nom":"官𨕭𥄮𫴋𠊚些𬂙𠓨","quocngu":"Quan trên nhắm xuống, người ta trông vào."},{"nom":"沛從𦝄𩙍𫨩牢","quocngu":"Phải tuồng trăng gió hay sao?"},{"nom":"捛𠳒別併世󰅹羅𫨩","quocngu":"Lỡ lời biết tính thế nào là hay?"},{"nom":"公衙𣃣𣇜𠓇𣈜","quocngu":"Công nha vừa buổi rạng ngày,"},{"nom":"决情胡買斷𬆄󰜋排","quocngu":"Quyết tình hồ mới đoán ngay một bài."},{"nom":"令官埃敢𢭮𠳒","quocngu":"Lệnh quan ai dám cãi lời,"},{"nom":"押情買幹朱𠊚土官","quocngu":"Ép tình mới gán cho người thổ quan."},{"nom":"翁絲寔𠰚多端","quocngu":"Ông tơ thực nhé đa đoan!"},{"nom":"車絲牢窖撝乾撝扦","quocngu":"Xe dây sao khéo vơ càn vơ xiên."},{"nom":"轎花押𣦎𫴋船","quocngu":"Kiệu hoa áp thẳng xuống thuyền,"},{"nom":"蘿幔𢷀濕𦰟畑挑高","quocngu":"Lá màn rủ thấp, ngọn đèn khêu cao."},{"nom":"娘強󰢴柳派桃","quocngu":"Nàng càng ủ liễu phai đào,"},{"nom":"𤾓分󰅹固分󰅹分鮮","quocngu":"Trăm phần nào có phần nào phần tươi"},{"nom":"停身吉垃㳥󰜗","quocngu":"Đành thân cát lấp sóng vùi,"},{"nom":"刼功吒媄舌𠁀聰明","quocngu":"Cướp công cha mẹ thiệt đời thông minh."},{"nom":"蹎𡗶󰘚𣷭泠汀","quocngu":"Chân trời mặt bể lênh đênh,"},{"nom":"捻󰢇別𢭮死生准󰅹","quocngu":"Nắm xương biết gửi tử sinh chốn nào"},{"nom":"緣兜埃𢴑絲桃","quocngu":"Duyên đâu ai dứt tơ đào,"},{"nom":"女兜埃㐌㩫𠓨羡𢬣","quocngu":"Nợ đâu ai đã dắt vào tận tay!"},{"nom":"身牢身典世尼","quocngu":"Thân sao thân đến thế này,"},{"nom":"群𣈜󰅹拱餘𣈜意催","quocngu":"Còn ngày nào cũng dư ngày ấy thôi!"},{"nom":"㐌空別𤯩羅𢝙","quocngu":"Đã không biết sống là vui,"},{"nom":"𬌓身󰅹別舌󰣜羅傷","quocngu":"Tấm thân nào biết thiệt thòi là thương!"},{"nom":"󰜋命荄䔲𤾓塘","quocngu":"Một mình cay đắng trăm đường,"},{"nom":"催羅󰞺玉散鐄𪰛催","quocngu":"Thôi là nát ngọc tan vàng thì thôi!"},{"nom":"𤗖𦝄㐌擱𡽫兑","quocngu":"Mảnh trăng đã gác non đoài,"},{"nom":"󰜋命𨻫仍𨅸𡎥渚衝","quocngu":"Một mình luống những đứng ngồi chưa xong."},{"nom":"潮兜浽㗂同同","quocngu":"Triều đâu nổi tiếng đùng đùng,"},{"nom":"𠳨𠚢買別浪滝錢塘","quocngu":"Hỏi ra mới biết rằng sông Tiền Đường,"},{"nom":"𢖵𠳒神夢𤑟𤉜","quocngu":"Nhớ lời thần mộng rõ ràng,"},{"nom":"尼催歇刼斷膓自低","quocngu":"Này thôi hết kiếp đoạn tràng từ đây!"},{"nom":"淡僊娘𠰚固𫨩","quocngu":"Đạm Tiên nàng nhé có hay!"},{"nom":"限些𪰛待󰡎尼逴些","quocngu":"Hẹn ta thì đợi dưới này rước ta\\""},{"nom":"󰡎畑産幅箋花","quocngu":"Dưới đèn sẵn bức tiên hoa,"},{"nom":"󰜋篇絶命噲羅底𡢐","quocngu":"Một thiên tuyệt mệnh gọi là để sau."},{"nom":"𨷶󰟀倍𨷑簾珠","quocngu":"Cửa buồng vội mở rèm châu,"},{"nom":"𡗶高滝𢌌󰜋牟包羅","quocngu":"Trời cao sông rộng một màu bao la."},{"nom":"浪徐公厚待些","quocngu":"Rằng: \\"Từ công hậu đãi ta,"},{"nom":"㤕爲役渃𦓡𠚢負𢚸","quocngu":"Xót vì việc nước mà ra phụ lòng."},{"nom":"𣩂𫯳𦓡吏𥙩𫯳","quocngu":"Chết chồng mà lại lấy chồng,"},{"nom":"󰘚󰅹群吏𨅸𥪝𡎝𠁀","quocngu":"Mặt nào còn lại đứng trong cõi đời"},{"nom":"催𪰛󰜋𣨰朱耒","quocngu":"Thôi thì một thác cho rồi,"},{"nom":"𬌓𢚸付默𨕭𡗶󰡎滝","quocngu":"Tấm lòng phó mặc trên trời dưới sông!\\""},{"nom":"𬂙潙昆渃溟濛","quocngu":"Trông vời con nước mênh mông,"},{"nom":"󰝡身招𫴋𡧲𣳔長江","quocngu":"Đem thân gieo xuống giữa dòng trường giang."},{"nom":"土官蹺𣾼倍鐄","quocngu":"Thổ quan theo vớt vội vàng,"},{"nom":"娘它浸玉沉香㐌耒","quocngu":"Nàng đà đắm ngọc chìm hương đã rồi!"},{"nom":"傷台拱󰜋身𠊚","quocngu":"Thương thay cũng một thân người,"},{"nom":"窖台芒𥙩色才爫之","quocngu":"Khéo thay mang lấy sắc tài làm chi!"},{"nom":"仍羅寃苦流離","quocngu":"Những là oan khổ lưu ly,"},{"nom":"除朱歇刼群󰢔羅身","quocngu":"Chờ cho hết kiếp, còn gì là thân?"},{"nom":"𨑮󰢵𢆥閉饒吝","quocngu":"Mười lăm năm, bấy nhiêu lần,"},{"nom":"爫𦎛朱客紅裙此𤐝","quocngu":"Làm gương cho khách hồng quần thử soi!"},{"nom":"𠁀𠊚典世羅催","quocngu":"Đời người đến thế là thôi!"},{"nom":"𥪝機陰極陽回坤𫨩","quocngu":"Trong cơn âm cực dương hồi khôn hay."},{"nom":"󰋇𠊚孝義𠸗󰅒","quocngu":"Mấy người hiếu nghĩa xưa nay,"},{"nom":"𡗶爫朱典𥹰𣈜吏傷","quocngu":"Trời làm cho đến lâu ngày lại thương!"},{"nom":"覺緣自節啫娘","quocngu":"Giác Duyên từ tiết giã nàng,"},{"nom":"撩䕯掛攝𢌌塘雲遊","quocngu":"Đeo bầu quảy níp rộng đường vân du."},{"nom":"﨤󰜏三合道姑","quocngu":"Gặp bà Tam Hợp đạo cô,"},{"nom":"從容𠳨歇𡮈蘇事娘","quocngu":"Thong dong hỏi hết nhỏ to sự nàng:"},{"nom":"𠊚牢孝義𨇜塘","quocngu":"\\"Người sao hiếu nghĩa đủ đường,"},{"nom":"刼牢𫄓仍斷膓世崔","quocngu":"Kiếp sao mắc những đoạn trường thế thôi\\""},{"nom":"師浪禍福在𡗶","quocngu":"Sư rằng: \\"Họa phúc tại trời,"},{"nom":"檜源拱於𢚸𠊚𦓡𠚢","quocngu":"Cội nguồn cũng ở lòng người mà ra."},{"nom":"在𡗶𦓡拱在些","quocngu":"Tại trời mà cũng tại ta,"},{"nom":"修羅檜福情羅𦀊寃","quocngu":"Tu là cội phúc, tình là dây oan."},{"nom":"翠翹色稍坤頑","quocngu":"Thuý Kiều sắo sảo khôn ngoan,"},{"nom":"無緣羅分紅顔㐌停","quocngu":"Vô duyên là phận hồng nhan đã đành."},{"nom":"吏恾𥙩󰜋𡦂情","quocngu":"Lại mang lấy một chữ tình,"},{"nom":"󰢶󰢶命纀𥙩命𠓨𥪝","quocngu":"Khư khư mình buộc lấy mình vào trong."},{"nom":"丕𢧚仍准從容","quocngu":"Vậy nên những chốn thong dong,"},{"nom":"於空安稳𡎥空凭鐄","quocngu":"Ở không yên ổn, ngồi không vững vàng."},{"nom":"魔𫫗𡓃鬼󰝡塘","quocngu":"Ma mách lối, quỷ đem đường,"},{"nom":"吏尋仍准斷膓𦓡𠫾","quocngu":"Lại tìm những chốn đoạn trường mà đi."},{"nom":"歇難意典難箕","quocngu":"Hết hạn ấy đến nạn kia,"},{"nom":"青樓𠄩𦀎青衣𠄩吝","quocngu":"Thanh lâu hai lượt, thanh y hai lần."},{"nom":"𡧲𨦩槊𥩯鎌陳","quocngu":"Trong vòng giáo dựng gươm trần,"},{"nom":"掑𪘵𤞻𤢿𢭮身碎隊","quocngu":"Kề răng hùm sói, gửi thân tôi đòi."},{"nom":"𡧲𨦩渃𣲆㳥𣼭","quocngu":"Giữa vòng nước dẫy sóng dồi,"},{"nom":"𠓀唅𧏵𩵜招𠶣水星","quocngu":"Trước hàm rồng cá, gieo mồi thủy tinh."},{"nom":"寃箕蹺買貝情","quocngu":"Oan kia theo mãi với tình,"},{"nom":"󰜋命命𠹾󰜋命命𫨩","quocngu":"Một mình mình chịu, một mình mình hay."},{"nom":"爫朱𤯩墮𣨰苔","quocngu":"Làm cho sống đoạ thác đày,"},{"nom":"斷膓朱歇刼尼買催","quocngu":"Đoạn trường cho hết kiếp này mới thôi!\\""},{"nom":"覺緣𦖑呐拥移","quocngu":"Giác Duyên nghe nói rụng rời:"},{"nom":"󰜋𠁀娘𠰚傷喂群之","quocngu":"\\"Một đời nàng nhé thương ôi còn gì!"},{"nom":"師浪雙拯兮之","quocngu":"Sư rằng song chẳng hề chi,"},{"nom":"業緣斤吏𢩮𠫾群𡗉","quocngu":"Nghiệp duyên cân lại nhắc đi còn nhiều!"},{"nom":"察𥪝罪案翠翹","quocngu":"Xét trong tội án Thuý Kiều,"},{"nom":"𫄓調情爱塊調邪淫","quocngu":"Mắc điều tình ái, khỏi điều tà dâm."},{"nom":"𥙩情深者義深","quocngu":"Lấy tình thâm, trả nghĩa thâm,"},{"nom":"半命㐌動孝心典𡗶","quocngu":"Bán mình đã động hiếu tâm đến trời!"},{"nom":"害󰜋𠊛救𨷈𠊚","quocngu":"Hại một người, cứu muôn người,"},{"nom":"別塘輕重別𠳒沛庒","quocngu":"Biết đường khinh trọng, biết lời phải chăng."},{"nom":"󰀏功德意埃朋","quocngu":"Thửa công đức ấy ai bằng?"},{"nom":"夙愆㐌𣳮淩淩瀝耒","quocngu":"Túc khiên đã rửa lâng lâng sạch rồi!"},{"nom":"欺𢧚𡗶拱朝𠊛","quocngu":"Khi nên trời cũng chiều người,"},{"nom":"珥讓𡢻𠓀填培緣𡢐","quocngu":"Nhẹ nhàng nợ trước, đền bồi duyên sau."},{"nom":"覺緣油𢖵義饒","quocngu":"Giác Duyên dù nhớ nghĩa nhau,"},{"nom":"錢塘典󰜋𤿤𦰤逴𠊛","quocngu":"Tiền Đường đến một bè lau rước người."},{"nom":"𠓀𡢐朱院󰜋𠳒","quocngu":"Trước sau cho vẹn một lời,"},{"nom":"緣些𦓡拱福𡗶之空","quocngu":"Duyên ta mà cũng phúc trời chi không!\\""},{"nom":"覺緣𦖑呐𢜠𢚸","quocngu":"Giác Duyên nghe nói mừng lòng,"},{"nom":"隣羅尋趣邊滝錢塘","quocngu":"Lân la tìm thú bên sông Tiền Đường."},{"nom":"打筝笘𧂭草堂","quocngu":"Đánh tranh chụm nóc thảo đường."},{"nom":"󰜋間渃碧𩄲鐄𢺺堆","quocngu":"Một gian nước biếc mây vàng chia đôi."},{"nom":"𠾔𢆥魚父𠄩𠊚","quocngu":"Thuê năm ngư phủ hai người,"},{"nom":"棟船直𤅶結𥾒扛滝","quocngu":"Đóng thuyền chực bến kết chài giăng sông."},{"nom":"󰜋𢚸拯管󰋇功","quocngu":"Một lòng chẳng quản mấy công,"},{"nom":"窖台﨤攑拱𥪝轉運","quocngu":"Khéo thay gặp gỡ cũng trong chuyển vần."},{"nom":"翹自招𫴋溋銀","quocngu":"Kiều từ gieo xuống duềnh ngân,"},{"nom":"渃𣵶俸㐌㵢寅羡尼","quocngu":"Nước xuôi bỗng đã trôi dần tận nơi."},{"nom":"漁翁𢹣䋥𢵼𠊚","quocngu":"Ngư ông kéo lưới vớt người,"},{"nom":"𡄎𠳒三合𤑟𨑮拯訛","quocngu":"Ngẫm lời Tam Hợp rõ mười chẳng ngoa!"},{"nom":"𨕭枚洌𣹕襖纙","quocngu":"Trên mui lướt sướt áo là,"},{"nom":"雖󰢷唏渃渚𤍶䏾𦎛","quocngu":"Tuy dầm hơi nước chưa loà bóng gương."},{"nom":"覺緣認寔󰘚娘","quocngu":"Giác Duyên nhận thật mặt nàng,"},{"nom":"娘群帖帖職鐄渚派","quocngu":"Nàng còn thiêm thiếp giấc vàng chưa phai."},{"nom":"𦟟𦛿魄桂魂梅","quocngu":"Mơ màng phách quế hồn mai,"},{"nom":"淡僊脱㐌𧡊𠊚𣈜𠸗","quocngu":"Đạm Tiên, thoắt đã thấy người ngày xưa."},{"nom":"浪碎㐌固𢚸除","quocngu":"Rằng: \\"Tôi đã có lòng chờ,"},{"nom":"𠅎功𨑮󰋇𢆥乘於低","quocngu":"Mất công mười mấy năm thừa ở đây."},{"nom":"姉牢分蒙福𠫆","quocngu":"Chị sao phận mỏng phúc dày?"},{"nom":"刼尼㐌丕𢚸尼易埃","quocngu":"Kiếp này đã vậy, lòng này dễ ai!"},{"nom":"󰌵𢚸㐌透旦𡗶","quocngu":"Tấm lòng đã thấu đến trời,"},{"nom":"半命羅孝救𠊚羅仁","quocngu":"Bán mình là hiếu, cứu người là nhân"},{"nom":"󰜋念爲渃爲民","quocngu":"Một niềm vì nước vì dân."},{"nom":"陰功拮󰜋銅斤㐌𫅷","quocngu":"Âm công cất một đồng cân đã già!"},{"nom":"斷膓數捽𠸜𠚢","quocngu":"Đoạn trường sổ rút tên ra,"},{"nom":"斷膓詩沛迻𦓡者饒","quocngu":"Đoạn trường thơ phải đưa mà trả nhau."},{"nom":"群𡗉享受𧗱𡢐","quocngu":"Còn nhiều hưởng thụ về sau,"},{"nom":"緣𠸗𧷺陣福𥹰𣼭𩆋","quocngu":"Duyên xưa tròn trặn, phúc lâu dồi dào."},{"nom":"娘群魚菫別牢","quocngu":"Nàng còn ngơ ngẩn biết sao,"},{"nom":"濯泉𦖑㗂噲𠓨邊𦖻","quocngu":"Trạc Tuyền! nghe tiếng gọi vào bên tai."},{"nom":"秩命脱醒職枚","quocngu":"Giật mình thoắt tỉnh giấc mai,"},{"nom":"氷傾󰅹㐌別埃𦓡𥆾","quocngu":"Bâng khuâng nào đã biết ai mà nhìn."},{"nom":"𥪝船󰅹𧡊淡僊","quocngu":"Trong thuyền nào thấy Đạm Tiên?"},{"nom":"邊命只𧡊覺緣𡎥掑","quocngu":"Bên mình chỉ thấy Giác Duyên ngồi kề."},{"nom":"𧡊饒𢜠𢙲𤾓皮","quocngu":"Thấy nhau mừng rỡ trăm bề,"},{"nom":"󰢸船買逴娘𧗱草廬","quocngu":"Dọn thuyền mới rước nàng về thảo lư."},{"nom":"󰜋茹終乍𣌋𬁑","quocngu":"Một nhà chung chạ sớm trưa,"},{"nom":"𩙍𦝄𠖾󰘚㙁𦯬齋𢚸","quocngu":"Gió trăng mát mặt, muối dưa chay lòng."},{"nom":"𦊚皮叭𠯪溟濛","quocngu":"Bốn bề bát ngát mênh mông,"},{"nom":"潮𤼸𣋚𣌋𩄲籠𠓀𡢐","quocngu":"Triều dâng hôm sớm, mây lồng trước sau."},{"nom":"難𠸗捽瀝漏漏","quocngu":"Nạn xưa trút sạch làu làu,"},{"nom":"緣𠸗渚易別兜准尼","quocngu":"Duyên xưa chưa dễ biết đâu chốn này."},{"nom":"餒娘灾難㐌菭","quocngu":"Nỗi nàng tai nạn đã đầy,"},{"nom":"餒払金重閉遲買傷","quocngu":"Nỗi chàng Kim Trọng bấy chầy mới thương."},{"nom":"自𣈜𨷈𨤮扶䘮","quocngu":"Từ ngày muôn dặm phù tang,"},{"nom":"姅𢆥於坦遼陽吏茹","quocngu":"Nửa năm ở đất Liêu Dương lại nhà."},{"nom":"倍𨖅園翠𨃝羅","quocngu":"Vội sang vườn Thuý dò la,"},{"nom":"𥆾䀡風景󰅒㐌恪𠸗","quocngu":"Nhìn xem phong cảnh nay đà khác xưa."},{"nom":"苔園𦹵木盧踈","quocngu":"Đầy vườn cỏ mọc lưa thưa,"},{"nom":"窻𩄲𡕷𡎝壁𩅹也移","quocngu":"Song mây quạnh quẽ, vách mưa rã rời."},{"nom":"󱈘𡢐󰅹𧡊󰘚𠊚","quocngu":"Trước sau nào thấy mặt người,"},{"nom":"花桃𢆥外群唭𩙍東","quocngu":"Hoa đào năm ngoái còn cười gió đông."},{"nom":"立茌燕冷墙空","quocngu":"Xập xè én lạnh tường không,"},{"nom":"𦹵欄󰘚坦𦼔封𨁪𩌂","quocngu":"Cỏ lan mặt đất, rêu phong dấu giày."},{"nom":"𡳳墻𣘃㭲木菭","quocngu":"Cuối tường gai góc mọc đầy,"},{"nom":"𠫾𧗱尼仍𡓃尼𢆥𠸗","quocngu":"Đi về này những lối này năm xưa!"},{"nom":"終觥冷𡴯如詞","quocngu":"Chung quanh lạnh ngắt như tờ,"},{"nom":"餒念心事悲𣇞𠳨埃","quocngu":"Nỗi niềm tâm sự bây giờ hỏi ai"},{"nom":"𣼽埕固几𨖅制","quocngu":"Láng giềng có kẻ sang chơi,"},{"nom":"鄰羅仕𠳨󰜋𠄩事情","quocngu":"Lân la sẽ hỏi một hai sự tình."},{"nom":"𠳨翁翁𫄓訟庭","quocngu":"Hỏi ông, ông mắc tụng đình,"},{"nom":"𠳨娘娘㐌半命贖吒","quocngu":"Hỏi nàng, nàng đã bán mình chuộc cha."},{"nom":"𠳨茹茹㐌移賒","quocngu":"Hỏi nhà, nhà đã dời xa,"},{"nom":"𠳨王觀吏共羅翠雲","quocngu":"Hỏi vương quan lại cùng là Thuý Vân."},{"nom":"調羅沙埣𧁷巾","quocngu":"Đều là sa sút khó khăn,"},{"nom":"𦄆𠾔曰摱劍咹吝回","quocngu":"May thuê viết mướn kiếm ăn lần hồi."},{"nom":"調兜𩂶打𨉞𡗶","quocngu":"Điều đâu sét đánh lưng trời,"},{"nom":"脱𦖑払脱用移掣包","quocngu":"Thoắt nghe chàng thoắt rụng rời xiết bao!"},{"nom":"倍嘆移住尼󰅹","quocngu":"Vội han di trú nơi nao,"},{"nom":"打塘払買尋𠓨羡尼","quocngu":"Đánh đường, chàng mới tìm vào tận nơi."},{"nom":"茹棦壁坦左哉","quocngu":"Nhà tranh vách đất tả tơi."},{"nom":"𦰤撩簾濕竹棋𤗹踈","quocngu":"Lau treo rèm nát, trúc cài phên thưa."},{"nom":"󰜋𡑝坦𦹵𩆍𩅹","quocngu":"Một sân đất cỏ dầm mưa,"},{"nom":"強嗷喭餒強魚菫󰟯","quocngu":"Càng ngao ngán nỗi, càng ngơ ngẩn dường!"},{"nom":"打料𨖲㗂外墻","quocngu":"Đánh liều lên tiếng ngoài tường."},{"nom":"払王𦖑㗂倍鐄𧼋𠚢","quocngu":"Chàng Vương nghe tiếng vội vàng chạy ra."},{"nom":"𢴑𢬣倍逴𠓨茹","quocngu":"Dắt tay vội rước vào nhà,"},{"nom":"𠃅𡢐員外翁妑𠚢𦖑","quocngu":"Mé sau Viên ngoại ông bà ra ngay."},{"nom":"哭嘆計歇念西","quocngu":"Khóc than kể hết niềm tây:"},{"nom":"払喂別餒渃尼朱諸","quocngu":"\\"Chàng ôi! Biết nỗi nước này cho chưa?"},{"nom":"翹兒分𤘁如詞","quocngu":"Kiều nhi phận mỏng như tờ,"},{"nom":"󰜋𠳒㐌𢤡𩅘絲貝払","quocngu":"Một lời đã lỗi tóc tơ với chàng!"},{"nom":"﨤干家變邏󰟯","quocngu":"Gặp cơn gia biến lạ dường,"},{"nom":"半命怒沛尋塘救吒","quocngu":"Bán mình nó phải tìm đường cứu cha."},{"nom":"用孕欺𨀈蹎𠚢","quocngu":"Dùng dằng khi bước chân ra,"},{"nom":"極𤾓𠦳餒吲𠀧𦊚吝","quocngu":"Cực trăm nghìn nỗi, dặn ba bốn lần."},{"nom":"律𠳒󰠱貝郎君","quocngu":"Trót lời nặng với lang quân,"},{"nom":"摱昆㛪怒翠雲台𠳒","quocngu":"Mượn con em nó Thuý Vân thay lời."},{"nom":"噲羅者㤕義𠊚","quocngu":"Gọi là trả chút nghĩa người,"},{"nom":"愁尼弋弋𨷈𠁀渚𫡻","quocngu":"Sầu này dằng dặc muôn đời chưa quên!"},{"nom":"刼尼緣㐌負緣","quocngu":"Kiếp này duyên đã phụ duyên,"},{"nom":"夜臺群別仕填來生","quocngu":"Dạ đài còn biết sẽ đền lai sinh."},{"nom":"󰋇𠳒記註丁寧","quocngu":"Mấy lời ký chú đinh ninh,"},{"nom":"𥱬𢚸底吏拮命𠚢𠫾","quocngu":"Ghi lòng để lại cất mình ra đi."},{"nom":"分牢薄󰋇翹兒","quocngu":"Phận sao bạc mấy Kiều nhi,"},{"nom":"払金𧗱妬昆𪰛𠫾兜","quocngu":"Chàng Kim về đó, con thì đi đâu\\""},{"nom":"翁妑強呐強𤴬","quocngu":"Ông bà càng nói càng đau,"},{"nom":"払強𦖑呐強油如𦯬","quocngu":"Chàng càng nghe nói, càng dàu như dưa."},{"nom":"物命咆𩙍𣻆𩅹","quocngu":"Vật mình gào gió tuôn mưa,"},{"nom":"滛𣾸湥玉矧蜍魂梅","quocngu":"Dầm dề giọt ngọc, thẫn thờ hồn mai!"},{"nom":"𤴬隊斷𤴪隊傕","quocngu":"Đau đòi đoạn, ghẻ đòi thôi,"},{"nom":"醒𠚢吏哭哭耒吏迷","quocngu":"Tỉnh ra lại khóc, khóc rồi lại mê."},{"nom":"𧡊払𤴬餒别離","quocngu":"Thấy chàng đau nỗi biệt ly,"},{"nom":"忍凝翁買撫𧗱奈𡅳","quocngu":"Nhận ngừng ông mới vỗ về nài khuyên:"},{"nom":"悲𣇞板㐌棟船","quocngu":"\\"Bây giờ ván đã đóng thuyền,"},{"nom":"㐌停分薄坤填情鍾","quocngu":"Đã đành phận bạc, khôn đền tình chung."},{"nom":"過傷𪨀義岧蓬","quocngu":"Quá thương chút nghĩa đèo bòng."},{"nom":"𠦳鐄身意催紅補牢","quocngu":"Nghìn vàng thân ấy thôi hòng bỏ sao\\""},{"nom":"󰠱𢚸傷分踈桃","quocngu":"Nặng lòng thương phận thơ đào,"},{"nom":"𢫟𢚸兑𪨀歲高身殘","quocngu":"Sẻ lòng, đoài chút tuổi cao thân tàn."},{"nom":"誓𠸗𢷣典金環","quocngu":"Thề xưa giở đến kim hoàn,"},{"nom":"𧵑𠸗吏𢷣典彈典香","quocngu":"Của xưa lại giở đến đàn đến hương."},{"nom":"生強𬂙𧡊強傷","quocngu":"Sinh càng trông thấy càng thương,"},{"nom":"肝強息最𫆧強㤕車","quocngu":"Gan càng tức tối, ruột càng xót xa."},{"nom":"浪碎捽過蹎𠚢","quocngu":"Rằng: \\"Tôi trót quá chân ra,"},{"nom":"底朱典餒㵢花戞䕯","quocngu":"Để cho đến nỗi trôi hoa dạt bèo."},{"nom":"共饒誓説㐌𡗉","quocngu":"Cùng nhau thề thốt đã nhiều"},{"nom":"仍調鐄𥒥沛調呐空","quocngu":"Những điều vàng đá phải điều nói không!"},{"nom":"渚𧜖襘拱𡞕𫯳","quocngu":"Chưa chăn gối, cũng vợ chồng."},{"nom":"𢚸󰅹𦓡女𢴑𢚸朱當","quocngu":"Lòng nào mà nỡ dứt lòng cho đang?"},{"nom":"包饒𧵑󰋇𣈜塘","quocngu":"Bao nhiêu của, mấy ngày đàng,"},{"nom":"群碎碎󰜋﨤娘買傕","quocngu":"Còn tôi, tôi một gặp nàng mới thôi!\\""},{"nom":"餒傷呐拯歇𠳒","quocngu":"Nỗi thương nói chẳng hết lời,"},{"nom":"謝辭生買湥洡阻𠚢","quocngu":"Tạ từ, sinh mới sụt sùi trở ra."},{"nom":"倍𧗱𢯢准園花","quocngu":"Vội về sửa chốn vườn hoa,"},{"nom":"逴𠶆員外翁妑拱𨖅","quocngu":"Rước mời viên ngoại ông bà cùng sang."},{"nom":"晨昏針𪨀禮常","quocngu":"Thần hôn chăm chút lễ thường,"},{"nom":"養親𠳙𬌓𢚸娘𣈗𠸗","quocngu":"Dưỡng thân thay tấm lòng nàng ngày xưa."},{"nom":"丁寧𥕄淚劄踈","quocngu":"Đinh ninh mài lệ chép thơ,"},{"nom":"割𠊚尋󰢹迻詞𠴍㖇","quocngu":"Cắt người tìm tõi, đưa tờ nhắn nhe."},{"nom":"別包功摱𧵑𠾔","quocngu":"Biết bao công mướn của thuê,"},{"nom":"臨淄󰋇度𠫾𧗱𨤮𣾺","quocngu":"Lâm Truy mấy độ đi về dặm khơi."},{"nom":"𠊛󰜋尼𠳨󰜋尼","quocngu":"Người một nơi, hỏi một nơi."},{"nom":"溟濛󰅹別𣷭𡗶尼󰅉","quocngu":"Mênh mông nào biết bể trời nơi nao"},{"nom":"生強惨切渴滈","quocngu":"Sinh càng thảm thiết khát khao,"},{"nom":"如燶肝𨫊如炮𢚸𣘈","quocngu":"Như nung gan sắt, như bào lòng son."},{"nom":"𦛌蠶𣈗󰜋𤉗𤶐","quocngu":"Ruột tằm ngày một héo don,"},{"nom":"雪霜𣈗󰜋耗𤷱命蟡","quocngu":"Tuyết sương ngày một hao mòn mình ve."},{"nom":"矧踈𣅶醒𣅶迷","quocngu":"Thẩn thờ lúc tỉnh lúc mê."},{"nom":"𧖱蹺渃𬑉魂離占包","quocngu":"Máu theo nước mắt, hồn lìa chiêm bao!"},{"nom":"樁萱𢥈𢜝掣包","quocngu":"Thung huyên lo sợ xiết bao."},{"nom":"過𠚢欺典世󰅹𦓡𫨩","quocngu":"Quá ra khi đến thế nào mà hay!"},{"nom":"倍鐄攕禮𪮙𣈜","quocngu":"Vội vàng sắm lễ chọn ngày."},{"nom":"緣雲𣌋㐌車𦀊朱払","quocngu":"Duyên Vân sớm đã se dây cho chàng."},{"nom":"𠊛窕窈几文章","quocngu":"Người yểu điệu, kẻ văn chương,"},{"nom":"𤳇才𡛔色春當皮期","quocngu":"Trai tài, gái sắc xuân đương kịp kỳ."},{"nom":"雖浪𢝙𡦂于歸","quocngu":"Tuy rằng vui chữ vu quy,"},{"nom":"𢝙尼㐌拮愁箕特󰅹","quocngu":"Vui này đã cất sầu kia được nào!"},{"nom":"欺咹於𣅶𠚢𠓨","quocngu":"Khi ăn ở, lúc ra vào,"},{"nom":"強歐緣買強𩆋情𠸗","quocngu":"Càng âu duyên mới, càng dào tình xưa."},{"nom":"餒娘𢖵典包𣇞","quocngu":"Nỗi nàng nhớ đến bao giờ,"},{"nom":"𣻆珠隊陣紆絲𤾓𨦩","quocngu":"Tuôn châu đòi trận, vò tơ trăm vòng."},{"nom":"固欺永𨤔書房","quocngu":"Có khi vắng vẻ thư phòng,"},{"nom":"炪爐香𢷣泛銅𣈗𠸗","quocngu":"Đốt lò hương, giở phím đồng ngày xưa."},{"nom":"𢯏𢴾𢷀󰁹㗂絲","quocngu":"Bẻ bai, rủ rỉ tiếng tơ,"},{"nom":"沉𠖤𤁕𤌋𩙍迻𢯦簾","quocngu":"Trầm bay nhạt khói, gió đưa lay rèm"},{"nom":"󰟯如邊屋邊㙴","quocngu":"Dường như bên ốc bên thềm,"},{"nom":"㗂嬌同望󰢺襜𢠩恾","quocngu":"Tiếng Kiều đồng vọng, bóng xiêm mơ màng."},{"nom":"𤳷𢚸鑿𥒥𥱬鐄","quocngu":"Bởi lòng tạc đá ghi vàng,"},{"nom":"想娘𢧚吏𧡊娘𧗱低","quocngu":"Tưởng nàng nên lại thấy nàng về đây."},{"nom":"仍羅煩悶𣈘𣈜","quocngu":"Những là phiền muộn đêm ngày,"},{"nom":"春秋別㐌𢷮𠳙󰋇吝","quocngu":"Xuân thu biết đã đổi thay mấy lần?"},{"nom":"制科﨤會場文","quocngu":"Chế khoa gặp hội tràng văn."},{"nom":"王金拱占榜春󰜋𣈜","quocngu":"Vương, Kim cùng chiếm bảng xuân một ngày."},{"nom":"󰘇𡗶𢌌𨷑塘𩄲","quocngu":"Cửa trời rộng mở đường mây,"},{"nom":"花嘲𨳰杏香𠖤𨤮枌","quocngu":"Hoa chào ngõ hạnh, hương bay dặm phần."},{"nom":"払王𢖵典賒𧵆","quocngu":"Chàng Vương nhớ đến xa gần,"},{"nom":"𨖅茹終老謝恩周全","quocngu":"Sang nhà Chung lão tạ ân chu tuyền."},{"nom":"情𠸗恩者義填","quocngu":"Tình xưa ân trả nghĩa đền,"},{"nom":"加親卞買結緣朱陳","quocngu":"Gia thân bèn mới kết duyên Châu Trần."},{"nom":"金自珥𨀈青雲","quocngu":"Kim từ nhẹ bước thanh vân,"},{"nom":"餒娘強擬賒𧵆強傷","quocngu":"Nỗi nàng càng nghĩ xa gần càng thương."},{"nom":"意埃吲玉誓鐄","quocngu":"Ấy ai dặn ngọc thề vàng,"},{"nom":"悲𣇞金馬玉堂貝埃","quocngu":"Bây giờ kim mã ngọc đường với ai."},{"nom":"󰓿䕯蹎㳥落類","quocngu":"Rễ bèo chân sóng lạc loài,"},{"nom":"擬命榮顯傷𠊛流離","quocngu":"Nghĩ mình vinh hiển, thương người lưu ly."},{"nom":"󰂅𠚢外宰臨淄","quocngu":"Vâng ra ngoại tể Lâm Truy,"},{"nom":"關山𠦳𨤮妻兒󰜋󰟞","quocngu":"Quan sơn nghìn dặm, thê nhi một đoàn."},{"nom":"琹堂𣈗𣎃清閒","quocngu":"Cầm đường ngày tháng thanh nhàn,"},{"nom":"𣌋𣌉㗂䳽㗂彈逍遙","quocngu":"Sớm khuya tiếng hạc, tiếng đàn tiêu dao."},{"nom":"房春帳𢷀花桃","quocngu":"Phòng xuân trướng rủ hoa đào,"},{"nom":"娘雲𦣰俸占包𧡊娘","quocngu":"Nàng Vân nằm bỗng chiêm bao thấy nàng."},{"nom":"醒𠚢買󰁹共払","quocngu":"Tỉnh ra mới rỉ cùng chàng,"},{"nom":"𦖑𠳒払拱𠄩塘信疑","quocngu":"Nghe lời chàng cũng hai đường tin nghi."},{"nom":"怒臨清貝臨淄","quocngu":"Nọ Lâm Thanh với Lâm Truy,"},{"nom":"恪饒󰜋𡦂或欺固惏","quocngu":"Khác nhau một chữ, hoặc khi có lầm."},{"nom":"𥪝機聲氣相尋","quocngu":"Trong cơ thanh khí tương tầm,"},{"nom":"於低禍固佳音庒羅","quocngu":"Ở đây họa có giai âm chăng là?"},{"nom":"升堂払買𠳨查","quocngu":"Thăng đường chàng mới hỏi tra,"},{"nom":"户都固几吏𫅷𠽔𨖲","quocngu":"Họ Đô có kẻ lại già thưa lên:"},{"nom":"事尼㐌外𨑮年","quocngu":"\\"Sự này đã ngoại mười niên,"},{"nom":"碎它別󰘚別𠸜伶伶","quocngu":"Tôi đà biết mặt biết tên rành rành."},{"nom":"秀󰜏共馬監生","quocngu":"Tú bà cùng Mã Giám sinh,"},{"nom":"固謨𠊛於北京迻𧗱","quocngu":"Có mua người ở Bắc Kinh đưa về."},{"nom":"翠翹才色埃皮","quocngu":"Thuý Kiều tài sắc ai bì,"},{"nom":"㐌藝弹吏𨁥藝文詩","quocngu":"Đã nghề đàn lại đủ nghề văn thơ."},{"nom":"堅貞拯沛肝𣃣","quocngu":"Kiên trinh chẳng phải gan vừa,"},{"nom":"料命世意沛驢世箕","quocngu":"Liều mình thế ấy, phải lừa thế kia."},{"nom":"風塵𠹾㐌󰠱󰢻","quocngu":"Phong trần chịu đã nặng nề,"},{"nom":"絲緣𡢐吏車𧗱束郎","quocngu":"TƠ duyên sau lại xe về Thúc lang."},{"nom":"沛𢬣𡞕奇負徬","quocngu":"Phải tay vợ cả phũ phàng,"},{"nom":"󰈫𧗱無錫筭塘𢯏花","quocngu":"Bắt về Vô Tích toan đường bẻ hoa."},{"nom":"愊命娘沛遁𠚢","quocngu":"Bực mình nàng phải trốn ra,"},{"nom":"󰝸埋吏﨤󰜋茹薄箕","quocngu":"Chẳng may lại gặp một nhà Bạc kia."},{"nom":"脱倴𧗱脱半𠫾","quocngu":"Thoắt buôn về, thoắt bán đi,"},{"nom":"𩄲㵢䕯浽少󰢔羅尼","quocngu":"Mây trôi bèo nổi thiếu gì là nơi!"},{"nom":"俸兜吏﨤󰜋𠊛","quocngu":"Bỗng đâu lại gặp một người,"},{"nom":"欣𠁀智勇迎𡗶威靈","quocngu":"Hơn đời trí dũng, nghiêng trời uy linh."},{"nom":"𥪝𢬣𨑮萬精兵","quocngu":"Trong tay mười vạn tinh binh,"},{"nom":"𢹣𧗱棟秩󰜋城臨淄","quocngu":"Kéo về đóng chật một thành Lâm Truy."},{"nom":"𩯀絲各跡每欺","quocngu":"Tóc tơ các tích mọi khi,"},{"nom":"怨𪰛者怨恩𪰛者恩","quocngu":"Oán thì trả oán, ân thì trả ân."},{"nom":"㐌𢧚固義固仁","quocngu":"Đã nên có nghĩa có nhân,"},{"nom":"𠓀𡢐論院賒𧵆𬢱𠸦","quocngu":"Trước sau trọn vẹn, xa gần ngợi khen."},{"nom":"渚詳特户特𠸜","quocngu":"Chưa tường được họ được tên,"},{"nom":"事尼𠳨束生員買詳","quocngu":"Sự này, hỏi Thúc sinh viên mới tường.\\""},{"nom":"𦖑𠳒都呐𤑟𤉜","quocngu":"Nghe lời Đô nói rõ ràng,"},{"nom":"連差迻帖𠶆払束生","quocngu":"Liền sai đưa thiếp mời chàng Thúc sinh."},{"nom":"餒娘𠳨歇分明","quocngu":"Nỗi nàng hỏi hết phân minh,"},{"nom":"𫯳昆兜些姓名羅󰢔","quocngu":"Chồng con đâu tá, tính danh là gì?"},{"nom":"生浪﨤𣅶亂離","quocngu":"Sinh rằng: \\"Gặp lúc loạn ly,"},{"nom":"𥪝軍碎𠳨少之𩯀絲","quocngu":"Trong quân tôi hỏi thiếu gì tóc tơ."},{"nom":"大王𠸜海户徐","quocngu":"Đại vương tên Hải, họ Từ,"},{"nom":"打悁𤾓陣飭餘𨷈𠊛","quocngu":"Đánh quen trăm trận, sức dư muôn người."},{"nom":"﨤娘時於州台","quocngu":"Gặp nàng ngày ở Thai Châu,"},{"nom":"邏之國色天才沛緣","quocngu":"Lạ gì quốc sắc thiên tài phải duyên."},{"nom":"浘漨𥪝閉饒年","quocngu":"Vẫy vùng trong bấy nhiêu niên,"},{"nom":"爫𢧚動地驚天同同","quocngu":"Làm nên động địa kinh thiên đùng đùng."},{"nom":"大屯軍㨂𡎝東","quocngu":"Đại đồn quân đóng cõi đông,"},{"nom":"衛𡢐拯別雲夢爫牢","quocngu":"Về sau chẳng biết vân mồng làm sao\\""},{"nom":"𦖑詳梗𦰟消耗","quocngu":"Nghe tường ngành ngọn tiêu hao,"},{"nom":"𢚸𥢆𨻫仍勞刀矧蜍","quocngu":"Lòng riêng, luống những lao đao thẫn thờ."},{"nom":"㤕台隻蘿𠀧潙","quocngu":"Xót thay chiếc lá bơ vơ,"},{"nom":"刼塵別𢷀包𣇞朱衝","quocngu":"Kiếp trần biết giũ bao giờ cho xong?"},{"nom":"花㵢渃沚𣵶𣳔","quocngu":"Hoa trôi nước chảy xuôi dòng,"},{"nom":"㤕身沉浽𤴬𢚸合散","quocngu":"Xót thân chìm nổi, đau lòng hợp tan."},{"nom":"𠳒𠸗㐌𢤡𨷈萬","quocngu":"Lời xưa đã lỗi muôn vàn,"},{"nom":"𤗖𦎛群妬泛彈群低","quocngu":"Mảnh gương còn đó, phím đàn còn đây."},{"nom":"彈琹窖菫魚𦀊","quocngu":"Đàn cầm khéo ngẩn ngơ dây,"},{"nom":"󰌕香別固刼尼女催","quocngu":"Lửa hương biết có kiếp này nữa thôi"},{"nom":"萍蓬群几賒吹","quocngu":"Bình bồng còn kẻ xa xôi,"},{"nom":"󰞈鍾牢女咹𡎥朱安","quocngu":"Đỉnh chung sao nỡ ăn ngồi cho an!"},{"nom":"泣蒙撩印辭官","quocngu":"Rắp mong treo ấn từ quan,"},{"nom":"󰋇滝拱𤂬󰋇岸拱過","quocngu":"Mấy sông cũng lội, mấy ngàn cũng qua."},{"nom":"鎮命𥪝盎干戈","quocngu":"Giấn mình trong áng can qua,"},{"nom":"𠓨生𠚢死禍羅𧡊饒","quocngu":"Vào sinh ra tử họa là thấy nhau."},{"nom":"擬調𡗶瀋域溇","quocngu":"Nghĩ điều trời thẳm vực sâu,"},{"nom":"䏾𪀄沁𩵜別兜𦓡𥆾","quocngu":"Bóng chim tăm cá biết đâu mà nhìn."},{"nom":"仍羅赧那待信","quocngu":"Những là nấn ná đợi tin,"},{"nom":"𬋟𩅹別㐌󰋇畨嚉移","quocngu":"Nắng mưa biết đã mấy phen đổi dời"},{"nom":"𠄼𩄲俸𧡊詔𡗶","quocngu":"Năm mây bỗng thấy chiếu trời,"},{"nom":"欽頒敕旨典尼伶伶","quocngu":"Khâm ban sắc chỉ đến nơi rành rành."},{"nom":"金󰅒改調南平","quocngu":"Kim nay cải điệu nam Bình,"},{"nom":"払王拱改調城淮陽","quocngu":"Chàng Vương cũng cải điệu thành Hoài Dương."},{"nom":"攕生車馬倍鐄","quocngu":"Sắm xanh xa mã vội vàng,"},{"nom":"𠄩茹拱順󰜋塘赴官","quocngu":"Hai nhà cũng thuận một đàng phó quan."},{"nom":"侈𦖑賊勢㐌散","quocngu":"Xảy nghe thế giặc đã tan,"},{"nom":"㳥淹福建󰌕殘淅江","quocngu":"Sóng êm Phúc Kiến, lửa tàn Chiết Giang."},{"nom":"特信金買𫫵王","quocngu":"Được tin, Kim mới rủ Vương."},{"nom":"便塘拱吏尋娘𡢐𠸗","quocngu":"Tiện đường cùng lại tìm nàng sau xưa"},{"nom":"杭州典妬悲𣇞","quocngu":"Hàng Châu đến đó bấy giờ,"},{"nom":"舌信𠳨特𩯀絲伶伶","quocngu":"Thật tin hỏi được tóc tơ rành rành."},{"nom":"浪𪰛𣌋怒交兵","quocngu":"Rằng: thì sớm nọ giao binh,"},{"nom":"失機徐㐌收靈陣前","quocngu":"Thất cơ Từ đã thu linh trận tiền."},{"nom":"娘翹功奇拯填","quocngu":"Nàng Kiều công cả chẳng đền,"},{"nom":"令軍吏押𠓨緣土酋","quocngu":"Lệnh quân lại ép vào duyên thổ tù."},{"nom":"娘它招玉沉珠","quocngu":"Nàng đà gieo ngọc trầm châu,"},{"nom":"滝錢塘妬意𫮲紅顔","quocngu":"Sông Tiền Đường đó ấy mồ hồng nhan!\\""},{"nom":"傷喂空合𦓡散","quocngu":"Thương ôi! Không hợp mà tan,"},{"nom":"󰜋茹榮顯𥢆寃󰜋娘","quocngu":"Một nhà vinh hiển riêng oan một nàng."},{"nom":"招魂設位禮常","quocngu":"Chiêu hồn thiết vị lễ thường,"},{"nom":"解寃立󰜋壇塲邊滝","quocngu":"Giải oan lập một đàn tràng bên sông."},{"nom":"𦰟潮𡽫泊重重","quocngu":"Ngọn triều non bạc trùng trùng,"},{"nom":"𢢯𬂙群想𦑃鴻𣅶招","quocngu":"Ngùi trông còn tưởng cánh hồng lúc gieo."},{"nom":"情深𤅶惨邏調","quocngu":"Tình thâm biển thảm lạ điều,"},{"nom":"󰅹魂精衛別蹺准󰅹","quocngu":"Nào hồn tinh vệ biết theo chốn nào"},{"nom":"機緣兜俸邏牢","quocngu":"Cơ duyên đâu bỗng lạ sao!"},{"nom":"覺緣兜俸尋𠓨典尼","quocngu":"Giác Duyên đâu bỗng tìm vào đến nơi."},{"nom":"𬂙𨖲靈座𡦂排","quocngu":"Trông lên linh vị chữ bài,"},{"nom":"秩驚買𠳨仍𠊛兜些","quocngu":"Thất kinh mới hỏi: \\"Những người đâu ta\\""},{"nom":"貝娘親戚𧵆賒","quocngu":"Với nàng thân thích gần xa,"},{"nom":"𠊛群牢俸爫魔哭𠊛","quocngu":"Người còn sao bỗng làm ma khóc người\\""},{"nom":"𦖑信󰢼𥋷用移","quocngu":"Nghe tin nhớn nhác rụng rời,"},{"nom":"𨅾觥計𡅏𡀷𠳒𠳨查","quocngu":"Xúm quanh kể lể, rộn lời hỏi tra."},{"nom":"尼𫯳尼媄尼吒","quocngu":"Này chồng, này mẹ, này cha,"},{"nom":"尼羅㛪𦛌尼羅㛪妯","quocngu":"Này là em ruột, này là em dâu."},{"nom":"舌信𦖑㐌閉𥹰","quocngu":"Thật tin nghe đã bấy lâu,"},{"nom":"法師𠰺世事兜邏󰟯","quocngu":"Pháp sư dạy thế, sự đâu lạ dường!\\""},{"nom":"師浪因果貝娘","quocngu":"Sư rằng: \\"Nhân quả với nàng,"},{"nom":"臨淄𣅶𠓀錢塘𣇜𡢐","quocngu":"Lâm Truy lúc trước, Tiền Đường buổi sau."},{"nom":"欺娘招玉沉珠","quocngu":"Khi nàng gieo ngọc trầm châu,"},{"nom":"迍饒碎㐌﨤饒逴𧗱","quocngu":"Đón nhau, tôi đã gặp nhau rước về."},{"nom":"共饒𢭗𨷶菩提","quocngu":"Cùng nhau nương cửa bồ đề,"},{"nom":"草庵妬拱𧵆掑拯賒","quocngu":"Thảo am đó, cũng gần kề chẳng xa."},{"nom":"𫢋前𣈗薄鄰羅","quocngu":"Phật tiền ngày bạc lân la,"},{"nom":"耽耽娘拱𢖵茹坤𢣧","quocngu":"Đăm đăm nàng cũng nhớ nhà khôn khuâỵ\\""},{"nom":"𦖑信𦬑󰘚𨷑𪵟","quocngu":"Nghe tin nở mặt mở mày,"},{"nom":"𢜠󰅹吏過𢜠尼女庒","quocngu":"Mừng nào lại quá mừng này nữa chăng?"},{"nom":"自畨隻蘿離棱","quocngu":"Từ phen chiếc lá lìa rừng,"},{"nom":"𠽄尋𨻫仍料澄渃𩄲","quocngu":"Thăm tìm luống những liệu chừng nước mây."},{"nom":"𤑟𤉜花拥香𠖤","quocngu":"Rõ ràng hoa rụng hương bay."},{"nom":"刼𡢐和𧡊刼尼罕催","quocngu":"Kiếp sau họa thấy, kiếp này hẳn thôi."},{"nom":"冥陽堆我軄耒","quocngu":"Minh dương đôi ngả chắc rồi."},{"nom":"𡎝塵𦓡吏𧡊𠊚九原","quocngu":"Cõi trần mà lại thấy người cửu nguyên!"},{"nom":"𢮿饒𥛉謝覺緣","quocngu":"Xếp nhau lạy tạ Giác Duyên,"},{"nom":"步行󰜋𠎪蹺連󰜋欺","quocngu":"Bộ hành một lũ theo liền một khi."},{"nom":"𢯏𦰤拍𦹵尋𠫾","quocngu":"Bẻ lau vạch cỏ tìm đi,"},{"nom":"情深𨻫唉狐疑姅分","quocngu":"Tình thâm luống hãy hồ nghi nửa phần."},{"nom":"觥孤蹺𦄂江津","quocngu":"Quanh co theo dải giang tân,"},{"nom":"塊棱𦰤㐌細𡑝𫢋堂","quocngu":"Khỏi rừng lau đã tới sân Phật đường."},{"nom":"覺緣𨖲㗂噲娘","quocngu":"Giác Duyên lên tiếng gọi nàng,"},{"nom":"𢩣𥪝倍𨄹蓮鐄𨀈𠚢","quocngu":"Buồng trong vội dạo sen vàng bước ra."},{"nom":"𥆾䀡𨁥󰘚󰜋茹","quocngu":"Nhìn xem đủ mặt một nhà,"},{"nom":"椿𫅷群跬萱𫅷群鮮","quocngu":"Xuân già còn khoẻ, huyên già còn tươi."},{"nom":"𠄩㛪方長和𠄩","quocngu":"Hai em phương trưởng hòa hai,"},{"nom":"怒払金妬羅𠊛𣈗𠸗","quocngu":"Nọ chàng Kim đó là người ngày xưa!"},{"nom":"想碑𣇞羅包𣇞","quocngu":"Tưởng bây giờ là bao giờ,"},{"nom":"𤑟𤉜𨷑𬑉群疑占包","quocngu":"Rõ ràng mở mắt còn ngờ chiêm bao!"},{"nom":"湥珠請説卷袍","quocngu":"Giọt châu thánh thót quẹn bào,"},{"nom":"𢜠𢜠𢣃𢣃掣包羅情","quocngu":"Mừng mừng tủi tủi xiết bao là tình."},{"nom":"招命󰡎𨆝萱庭","quocngu":"Gieo mình dưới gối huyên đình,"},{"nom":"哭嘆命計事情頭𡳪","quocngu":"Khóc than mình kể sự tình đầu đuôi:"},{"nom":"自昆流落圭𠊚","quocngu":"\\"Từ con lưu lạc quê người,"},{"nom":"䕯㵢㳥撫祝𨑮𠄼𢆥","quocngu":"Bèo trôi sóng vỗ, chốc mười lăm năm!"},{"nom":"併浪滝渃吉淋","quocngu":"Tính rằng sông nước cát lầm,"},{"nom":"刼尼埃吏群扲﨤低","quocngu":"Kiếp này ai lại còn cầm gặp đây!\\""},{"nom":"翁妑𬂙󰘚󰈫𢬣","quocngu":"Ông bà trông mặt bắt tay,"},{"nom":"容光拯恪之𣈜𨀈𠚢","quocngu":"Dung quang chẳng khác chi ngày bước ra."},{"nom":"閉遲𤋵月油花","quocngu":"Bấy chầy dãi nguyệt dầu hoa,"},{"nom":"𨑮分春固𤷍𠀧𦊚分","quocngu":"Mười phần xuân có gầy ba bốn phần."},{"nom":"餒𢜠別𥙩之斤","quocngu":"Nỗi mừng biết lấy gì cân,"},{"nom":"𠳒散合傳賒𧵆少兜","quocngu":"Lời tan hợp, chuyện xa gần thiếu đâu"},{"nom":"𠄩㛪𠳨𠓀𠻃𡢐","quocngu":"Hai em hỏi trước han sau,"},{"nom":"𨅸𬂙娘㐌阻愁爫鮮","quocngu":"Đứng trông, nàng đã trở sầu làm tươi."},{"nom":"𢮿饒𥛉𠓀𫢋臺","quocngu":"Quây nhau lạy trước Phật đài,"},{"nom":"再生陳謝𢚸𠊛慈悲","quocngu":"Tái sinh trần tạ lòng người từ bi."},{"nom":"轎花𠽖逴卽𪰛","quocngu":"Kiệu hoa giục rước tức thì,"},{"nom":"王翁𠰺逴共𧗱󰜋尼","quocngu":"Vương ông dạy rước cùng về một nơi."},{"nom":"娘浪𪨀分花徠","quocngu":"Nàng rằng: \\"Chút phận hoa rơi,"},{"nom":"姅𠁀唸𣦰每味䔲荄","quocngu":"Nửa đời nếm trải mọi mùi đắng cay."},{"nom":"併浪󰘚渃蹎𩄲","quocngu":"Tính rằng mặt nước chân mây,"},{"nom":"𢚸󰅹群想固𣈙女空","quocngu":"Lòng nào còn tưởng có rày nữa không?"},{"nom":"特𣈙再世相逢","quocngu":"Được rày tái thế tương phùng,"},{"nom":"渴滈㐌妥𬌓𢚸𥹰󰅒","quocngu":"Khát khao đã thỏa tấm lòng lâu nay!"},{"nom":"㐌󰝡命補庵𩄲","quocngu":"Đã đem mình bỏ am mây,"},{"nom":"歲尼𢭮貝𦹵𣘃拱𣃣","quocngu":"Tuổi này gửi với cỏ cây cũng vừa."},{"nom":"味禪㐌𤓩㙁𦯬","quocngu":"Mùi thiền đã bén muối dưa,"},{"nom":"牟禪咹默㐌𢛨𣘽𣙩","quocngu":"Màu thiền ăn mặc đã ưa nâu sồng."},{"nom":"事𠁀㐌𤎕爐𢚸","quocngu":"Sự đời đã tắt lò lòng,"},{"nom":"群氊𠓨准𡏧紅爫之","quocngu":"Còn chen vào chốn bụi hồng làm chi!"},{"nom":"𢷣揚󰅹固𫨩󰢔","quocngu":"Dở dang nào có hay gì,"},{"nom":"㐌修修捽戈𪰛𪰛催","quocngu":"Đã tu, tu trót, qua thì, thì thôi!"},{"nom":"重生恩󰠱𣷭𡗶","quocngu":"Trùng sinh ân nặng bể trời,"},{"nom":"𢚸󰅹女𢴑義𠊛𠚢𠫾","quocngu":"Lòng nào nỡ dứt nghĩa người ra đỉ\\""},{"nom":"翁浪彼此一𪰛","quocngu":"Ông rằng: \\"Bỉ thử nhất thì,"},{"nom":"修行𪰛拱沛欺從權","quocngu":"Tu hành thì cũng phải khi tòng quyền."},{"nom":"沛調求𫢋求僊","quocngu":"Phải điều cầu Phật cầu tiên,"},{"nom":"情箕孝怒埃填朱低","quocngu":"Tình kia, hiếu nọ ai đền cho đây?"},{"nom":"度生洳德高𠫆","quocngu":"Độ sinh nhờ đức cao dày,"},{"nom":"立庵耒仕逴柴於終","quocngu":"Lập am rồi sẽ rước thầy ở chung.\\""},{"nom":"𦖑𠳒娘沛朝𢚸","quocngu":"Nghe lời, nàng phải chiều lòng,"},{"nom":"啫師啫景調拱𨀈𠚢","quocngu":"Giã sư, giã cảnh đều cùng bước ra."},{"nom":"󰜋團𧗱典縣衙","quocngu":"Một đoàn về đến huyên nha,"},{"nom":"團圓倍𨷑席花𢝙圍","quocngu":"Đoàn viên vội mở tiệc hoa vui vầy."},{"nom":"藏藏󱋓菊𢷣醝","quocngu":"Tàng tàng chén cúc dở say,"},{"nom":"𨅸𨖲雲買𤋵排󰜋𠄩","quocngu":"Đứng lên Vân mới giãi bày một hai."},{"nom":"浪𥪝作合機𡗶","quocngu":"Rằng: \\"Trong tác hợp cơ trời,"},{"nom":"𠄩邊﨤攑󰜋𠳒結交","quocngu":"Hai bên gặp gỡ một lời kết giao."},{"nom":"﨤干平地風濤","quocngu":"Gặp cơn bình địa phong đào,"},{"nom":"丕󰝡緣姉車𠓨朱㛪","quocngu":"Vậy đem duyên chị xe vào cho em."},{"nom":"拱羅分𦀻緣金","quocngu":"Cũng là phận cải duyên kim,"},{"nom":"拱羅𧖱沚𦛌𦡙渚牢","quocngu":"Cũng là máu chảy ruột mềm chớ sao"},{"nom":"仍羅𣈙約𣈕泑","quocngu":"Những là rày ước mai ao,"},{"nom":"𨑮𠄻𢆥意別包饒情","quocngu":"Mười lăm năm ấy, biết bao nhiêu tình!"},{"nom":"悲𣇞𦎛󰡋吏𫅜","quocngu":"Bây giờ gương vỡ lại lành,"},{"nom":"囷󰡼攎𤀓㐌仃固尼","quocngu":"Khuôn thiêng lừa lọc đã đành có nơi."},{"nom":"群緣埋吏群𠊛","quocngu":"Còn duyên may lại còn người,"},{"nom":"群暈𦝄𡳵群𠳒願𠸗","quocngu":"Còn vầng trăng cũ, còn lời nguyền xưa."},{"nom":"菓梅𠀧𠤩拱𣃣","quocngu":"Quả mai ba bảy cũng vừa,"},{"nom":"桃𡽫𣌋料車絲及𪰛","quocngu":"Đào non sớm liệu xe tơ kịp thì!\\""},{"nom":"𢴑𠳒娘倍拔𠫾","quocngu":"Dứt lời, nàng vội gạt đi:"},{"nom":"事𨷈𢆥𡳵計之悲𣇞","quocngu":"\\"Sự muôn năm cũ, kể chi bây giờ?"},{"nom":"󰜋𠳒雖固約𠸗","quocngu":"Một lời tuy có ước xưa,"},{"nom":"察命𤋵𩙍油𩅹㐌𡗉","quocngu":"Xét mình dãi gió dầu mưa đã nhiều."},{"nom":"呐強虎𢢆𤾓朝","quocngu":"Nói càng hổ thẹn trăm chiều,"},{"nom":"𪰛朱𦰟渃水潮沚𣵶","quocngu":"Thì cho ngọn nước thủy triều chảy xuôi!\\""},{"nom":"払浪呐拱邏𠁀","quocngu":"Chàng rằng: \\"Nói cũng lạ đời,"},{"nom":"唒𢚸箕丕群𠳒意牢","quocngu":"Dẫu lòng kia vậy, còn lời ấy sao"},{"nom":"󰜋𠳒㐌捽深交","quocngu":"Một lời đã trót thâm giao,"},{"nom":"󰡎𠫆固坦𨕭高固𡗶","quocngu":"Dưới dày có đất, trên cao có trời!"},{"nom":"唒浪物𢷮𬁖移","quocngu":"Dẫu rằng vật đổi sao dời,"},{"nom":"死生拱𪧚𥙩𠳒死生","quocngu":"Tử sinh cũng giữ lấy lời tử sinh."},{"nom":"緣箕固負之命","quocngu":"Duyên kia có phụ chi mình,"},{"nom":"𦓡筭技梗鍾情爫𠄩","quocngu":"Mà toan chia gánh chung tình làm hai?\\""},{"nom":"娘浪家室緣諧","quocngu":"Nàng rằng: \\"Gia thất duyên hài."},{"nom":"㤕𢚸恩愛埃埃拱𢚸","quocngu":"Xót lòng ân ái, ai ai cũng lòng."},{"nom":"擬浪𥪝道𡞕𫯳","quocngu":"Nghĩ rằng trong đạo vợ chồng,"},{"nom":"花𦹳封蕋𦝄𨦩𧷺𦎛","quocngu":"Hoa thơm phong nhị, trăng vòng tròn gương."},{"nom":"𡦂貞當價𠦳鐄","quocngu":"Chữ Trinh đáng giá nghìn vàng,"},{"nom":"𤒘花拯𢢆貝払𣈕𠸗","quocngu":"Đuốc hoa chẳng thẹn với chàng mai xưa."},{"nom":"妾自遇變典𣇞","quocngu":"Thiếp từ ngộ biến đến giờ,"},{"nom":"蜂戈𧊉吏㐌乘醜車","quocngu":"Ong qua bướm lại đã thừa xấu xa."},{"nom":"閉遲𩙍匝𩅹沙","quocngu":"Bấy chầy gió táp mưa sa,"},{"nom":"󰋇𦝄拱缺󰋇花拱殘","quocngu":"Mấy trăng cũng khuyết, mấy hoa cũng tàn."},{"nom":"群之羅丐紅顔","quocngu":"Còn chi là cái hồng nhan,"},{"nom":"㐌衝身世群算餒󰅹","quocngu":"Đã xong thân thế, còn toan nỗi nào"},{"nom":"擬命𫽄虎命牢","quocngu":"Nghĩ mình, chẳng hổ mình sao"},{"nom":"鍳󰝡塵垢預𠓨布荆","quocngu":"Dám đem trần cấu dự vào bố kinh!"},{"nom":"㐌𫨩払󰠱爲情","quocngu":"Đã hay chàng nặng vì tình,"},{"nom":"𬂙花畑拯𢢆命𡗋油","quocngu":"Trông hoa đèn, chẳng thẹn mình lắm ru!"},{"nom":"自𣈙𢯖𨷶𢩣秋","quocngu":"Từ rày khép cửa phòng thu,"},{"nom":"拯修催拱羅修買羅","quocngu":"Chẳng tu thôi cũng là tu mới là!"},{"nom":"払油擬典𧵆賒","quocngu":"Chàng dù nghĩ đến gần xa,"},{"nom":"󰝡情琴瑟𢷮𠚢琴棋","quocngu":"Đem tình cầm sắt đổi ra cầm cờ."},{"nom":"呐󰢔結𩯀車絲","quocngu":"Nói chi kết tóc xe tơ,"},{"nom":"㐌𢞂奇𦛌吏洳奇𠁀","quocngu":"Đã buồn cả ruột lại dơ cả đời!\\""},{"nom":"払浪窖呐𢧚𠳒","quocngu":"Chàng rằng: \\"Khéo nói nên lời,"},{"nom":"𦓡𥪝𨤰沛固𠊛固些","quocngu":"Mà trong lẽ phải có người có ta!"},{"nom":"𠸗󰅒𥪝道彈妑","quocngu":"Xưa nay trong đạo đàn bà,"},{"nom":"𡦂貞箕拱固𠀧𠤩󰟯","quocngu":"Chữ trinh kia cũng có ba bảy đường."},{"nom":"固欺變固欺常","quocngu":"Có khi biến, có khi thường,"},{"nom":"固權󰅹沛󰜋塘執經","quocngu":"Có quyền nào phải một đường chấp kinh?"},{"nom":"如娘𥙩孝爫貞","quocngu":"Như nàng lấy hiếu làm trinh,"},{"nom":"𡏧󰅹朱濁特命意潙","quocngu":"Bụi nào cho đục được mình ấy vay?"},{"nom":"𡗶群底固𣋚󰅒","quocngu":"Trời còn để có hôm nay,"},{"nom":"散霜頭𡉦援𩄲𡧲𡗶","quocngu":"Tan sương đầu ngõ, vén mây giữa trời."},{"nom":"花殘𦓡吏添鮮","quocngu":"Hoa tàn mà lại thêm tươi,"},{"nom":"𦝄殘𦓡吏欣𨑮𠄻𠸗","quocngu":"Trăng tàn mà lại hơn mười rằm xưa."},{"nom":"固調之女𦓡疑","quocngu":"Có điều chi nữa mà ngờ,"},{"nom":"客戈塘底𠾿哬払蕭","quocngu":"Khách qua đường để hững hờ chàng Tiêu!\\""},{"nom":"𦖑払呐㐌歇調","quocngu":"Nghe chàng nói đã hết điều,"},{"nom":"𠄩親𪰛拱决蹺󰜋排","quocngu":"Hai thân thì cũng quyết theo một bài."},{"nom":"歇𠳒坤𨤰󰢽𠳒","quocngu":"Hết lời khôn lẽ chối lời,"},{"nom":"𨆝頭娘仍𥐆𨱽咀嘆","quocngu":"Gót đầu, nàng những vắn dài thở than."},{"nom":"茹蘭𨷑席圓團","quocngu":"Nhà lan mở tiệc viên đoàn,"},{"nom":"花𤐝𦰟𤒘紅氊幅纙","quocngu":"Hoa soi ngọn đuốc, hồng chen bức là."},{"nom":"共饒交拜󰜋茹","quocngu":"Cùng nhau giao bái một nhà,"},{"nom":"禮它𨁥禮堆它稱堆","quocngu":"Lễ đà đủ lễ, đôi đà xứng đôi."},{"nom":"洞房迢迭󱋓瑁","quocngu":"Động phòng dìu dặt chén mồi,"},{"nom":"氷傾緣買吟𢢯情𠸗","quocngu":"Bâng khuâng duyên mới, ngậm ngùi tình xưa."},{"nom":"仍自蓮𦬶桃絲","quocngu":"Những từ sen ngó đào tơ,"},{"nom":"𨑮𠄻𢆥意悲𣇞羅低","quocngu":"Mười lăm năm ấy bây giờ là đây!"},{"nom":"情緣意合散尼","quocngu":"Tình duyên ấy, hợp tan này,"},{"nom":"悲歡󰋇餒𣈘𨱽𦝄高","quocngu":"Bi hoan mấy nỗi đêm dài trăng cao."},{"nom":"更𣌉幅錦𢷀繰","quocngu":"Canh khuya bức gấm rủ thao,"},{"nom":"󰡎畑𤏣󰟯𦟐桃添春","quocngu":"Dưới đèn tỏ dạng, má đào thêm xuân."},{"nom":"情人吏﨤情人","quocngu":"Tình nhân lại gặp tình nhân,"},{"nom":"花初蝶𡳵𨑮分鍾情","quocngu":"Hoa xưa bướm cũ, mười phân chung tình!"},{"nom":"娘浪分妾㐌停","quocngu":"Nàng rằng: \\"Phận thiếp đã đành,"},{"nom":"固爫之女丐命補𠫾","quocngu":"Có làm chi nữa cái mình bỏ đi!"},{"nom":"擬払義𡳵情𥱬","quocngu":"Nghĩ chàng nghĩa cũ tình ghi,"},{"nom":"朝𢚸噲固倡隨𡮨埋","quocngu":"Chiều lòng gọi có xướng tuỳ mảy may."},{"nom":"𥢆𢚸㐌𢢆𡗋台","quocngu":"Riêng lòng đã thẹn lắm thay,"},{"nom":"共它󰘚憚𪵟𠫅苦𥋳","quocngu":"Cũng mang mặt dạn mày dày khó coi!"},{"nom":"仍如歐厭鑅外","quocngu":"Những như âu yếm vành ngoài,"},{"nom":"群筭𨷑󰘚貝𠊛朱戈","quocngu":"Còn toan mở mặt với người cho qua."},{"nom":"吏如仍𫗁𠊛些","quocngu":"Lại như những thói người ta,"},{"nom":"𢵼香󰡎坦𢯏花𡳜務","quocngu":"Vớt hương dưới đất, bẻ hoa cuối mùa."},{"nom":"窖羅𢷣辱排路","quocngu":"Khéo là giở nhuốc bày trò,"},{"nom":"群情兜女𦓡讐妬催","quocngu":"Còn tình đâu nữa mà thù đó thôi!"},{"nom":"𠊛腰些醜貝𠊛","quocngu":"Người yêu ta xấu với người,"},{"nom":"腰饒𪰛吏朋𨑮負饒","quocngu":"Yêu nhau thì lại bằng mười phụ nhau!"},{"nom":"𨷶茹油併衛𡢐","quocngu":"Cửa nhà dù tính về sau,"},{"nom":"𪰛群㛪妬路求姉低","quocngu":"Thì còn em đó, lọ cầu chị đây"},{"nom":"𡦂貞群󰜋𡭧尼","quocngu":"Chữ trinh còn một chút này,"},{"nom":"拯扲木凭束𨃐朱散","quocngu":"Chẳng cầm cho vững lại giày cho tan!"},{"nom":"群𡗉恩爱滇滇","quocngu":"Còn nhiều ân ái chan chan,"},{"nom":"𫨩之𢯏丐花殘𦓡制","quocngu":"Hay gì bẻ cái hoa tàn mà chơi\\""},{"nom":"払浪哏咘󰜋𠳒","quocngu":"Chàng rằng: \\"Gắn bó một lời,"},{"nom":"俸空𩵜渃𪀄𡗶侶饒","quocngu":"Bỗng không cá nước chim trời lỡ nhau."},{"nom":"㤕𠊛流落閉𥹰","quocngu":"Xót người lưu lạc bấy lâu,"},{"nom":"想誓説𥘀仍𤴬疸𡗉","quocngu":"Tưởng thề thốt nặng những đau đớn nhiều!"},{"nom":"共饒生死㐌料","quocngu":"Cùng nhau sinh tử đã liều,"},{"nom":"﨤饒群𡭧閉饒羅情","quocngu":"Gặp nhau còn chút bấy nhiêu là tình."},{"nom":"澄春絲柳群撑","quocngu":"Chừng xuân tơ liễu còn xanh,"},{"nom":"擬浪渚脱塊鑅爱恩","quocngu":"Nghĩ rằng chưa thoát khỏi vành ái ân."},{"nom":"𦎛𤄯拯𡭧𡏧塵","quocngu":"Gương trong chẳng chút bụi trần,"},{"nom":"没𠳒决罕𨷈分敬添","quocngu":"Một lời quyết hẳn muôn phần kính thêm!"},{"nom":"閉𥹰󰢾𣷭摸金","quocngu":"Bấy lâu đáy bể mò kim,"},{"nom":"羅𡗉鐄𥒥沛尋𦝄花","quocngu":"Là nhiều vàng đá phải tìm trăng hoa."},{"nom":"埃疑吏合没茹","quocngu":"Ai ngờ lại họp một nhà,"},{"nom":"路羅𧜖襘買𠚢瑟琴","quocngu":"Lọ là chăn gối mới ra sắt cầm!\\""},{"nom":"𦖑𠳒𢯢襖掑簪","quocngu":"Nghe lời sửa áo cài trâm,"},{"nom":"叩頭𥛉謝高深𠦳重","quocngu":"Khấu đầu lạy tạ cao thâm nghìn trùng."},{"nom":"身殘渃濁烣𤄯","quocngu":"Thân tàn nước đục tro trong,"},{"nom":"羅洳君子恪𢚸𠊛些","quocngu":"Là nhờ quân tử khác lòng người ta."},{"nom":"󰋇𠳒心腹𦛌𦚐","quocngu":"Mấy lời tâm phúc ruột rà."},{"nom":"相知󰟯意買羅相知","quocngu":"Tương tri dường ấy mới là tương tri!"},{"nom":"𨔾𩂏𦅰𫃚少之","quocngu":"Chở che đùm bọc thiếu gì,"},{"nom":"𤾓𢆥名節拱爲𣈘󰅒","quocngu":"Trăm năm danh tiết cũng vì đêm nay!\\""},{"nom":"脱催𢬣吏扲𢬣","quocngu":"Thoắt thôi tay lại cầm tay,"},{"nom":"強腰爲󰞺強醝爲情","quocngu":"Càng yêu vì nết, càng say vì tình."},{"nom":"添畑架浽香𤭸","quocngu":"Thêm đèn giá, nối hương bình,"},{"nom":"共饒吏祝󱋓瓊交歡","quocngu":"Cùng nhau lại chuốc chén quỳnh giao hoan."},{"nom":"情𠸗來𣼽坤寒","quocngu":"Tình xưa lai láng khôn hàn."},{"nom":"從容吏𠳨𦰟弹𣈗𠸗","quocngu":"Thong dong lại hỏi ngón đàn ngày xưa."},{"nom":"娘浪爲󰋇塘絲","quocngu":"Nàng rằng: \\"Vì mấy đường tơ,"},{"nom":"惏𠊛朱典悲𣇞買催","quocngu":"Lầm người cho đến bây giờ mới thôi!"},{"nom":"咹𡅧𪰛事㐌耒","quocngu":"Ăn năn thì sự đã rồi,"},{"nom":"𢘝𢚸𠊛𡳵󰂅𠳒󰜋畨","quocngu":"Nể lòng người cũ vâng lời một phen.\\""},{"nom":"泛彈迢迭𢬣僊","quocngu":"Phím đàn dìu dặt tay tiên,"},{"nom":"𤌋沉高濕㗂絃𧵆賒","quocngu":"Khói trầm cao thấp, tiếng huyền gần xa."},{"nom":"曲兜潭廕陽和","quocngu":"Khúc đâu đầm ấm dương hoà."},{"nom":"意羅蝴蝶𫨩羅莊生","quocngu":"Ấy là hồ điệp, hay là Trang sinh."},{"nom":"曲兜淹爱春情","quocngu":"Khúc đâu êm ái xuân tình,"},{"nom":"意魂蜀帝𫨩命杜鵑","quocngu":"Ấy hồn Thục đế hay mình đỗ quyên?"},{"nom":"𤄯牢珠㳶溋涓","quocngu":"Trong sao châu nhỏ duềnh quyên!"},{"nom":"廕牢曷玉籃田買冬","quocngu":"Ấm sao hạt ngọc Lam Điền mới đông!"},{"nom":"律𦖻𦖑𨔊𠄼宫","quocngu":"Lọt tai nghe suốt năm cung,"},{"nom":"㗂󰅹羅拯󰞽濃𠮿嗃","quocngu":"Tiếng nào là chẳng não nùng xôn xao."},{"nom":"払浪譜意𢬣󰅹","quocngu":"Chàng rằng: \\"Phổ ấy tay nào,"},{"nom":"𠸗牢愁惨󰅒牢𢝙圍","quocngu":"Xưa sao sầu thảm, nay sao vui vầy"},{"nom":"傷𢝙𤳷在𢚸尼","quocngu":"Thương vui bởi tại lòng này,"},{"nom":"𫨩羅苦盡典𣈜甘來","quocngu":"Hay là khổ tận đến ngày cam lai?\\""},{"nom":"娘浪爲𡭧藝制","quocngu":"Nàng rằng: \\"Vì chút nghề chơi,"},{"nom":"斷膓㗂意害𠊛閉𥹰","quocngu":"Đoạn trường tiếng ấy hại người bấy lâu!"},{"nom":"没畨知己𢜠饒","quocngu":"Một phen tri kỷ mừng nhau,"},{"nom":"捲𦀊自意𧗱𡢐拱悇","quocngu":"Cuốn dây từ ấy về sau cũng chừa.\\""},{"nom":"傳路渚𣴓𩯀絲","quocngu":"Chuyện trò chưa cạn tóc tơ,"},{"nom":"𪃿它嘅創𡗶𣃣𠓇東","quocngu":"Gà đà gáy sáng, trời vừa rạng đông."},{"nom":"情𥢆払吏呐𡃕","quocngu":"Tình riêng, chàng lại nói cùng,"},{"nom":"󰜋茹埃共邏𨓡𠸦嘮","quocngu":"Một nhà ai cũng lạ lùng khen lao."},{"nom":"朱𫨩淑女志高","quocngu":"Cho hay thục nữ chí cao,"},{"nom":"沛𠊛𣌋槾最桃如埃","quocngu":"Phải người sớm mận tối đào như ai?"},{"nom":"𠄩情院奇和𠄩","quocngu":"Hai tình vẹn cả hòa hai,"},{"nom":"拯𥪝𧜖襘拱外琹詩","quocngu":"Chẳng trong chăn gối, cũng ngoài cầm thơ."},{"nom":"欺󱋓𨢇𣅶局碁","quocngu":"Khi chén rượu, lúc cuộc cờ,"},{"nom":"欺䀡花𦬑欺除𦝄𨖲","quocngu":"Khi xem hoa nở, khi chờ trăng lên."},{"nom":"𠀧生㐌匪𨑮願","quocngu":"Ba sinh đã phỉ mười nguyền,"},{"nom":"緣堆侶拱羅緣伴𤿤","quocngu":"Duyên đôi lứa cũng là duyên bạn bè."},{"nom":"𢖵𠳒立没庵𩄲","quocngu":"Nhớ lời, lập một am mây,"},{"nom":"差𠊛親信逴柴覺緣","quocngu":"Sai người thân tín, rước thầy Giác Duyên."},{"nom":"典𪰛棟𨷶掑扦","quocngu":"Đến thì đóng cửa cài then,"},{"nom":"𦼔𠆳󰢿額𦹵𨖲𠃅茹","quocngu":"Rêu trùm kẻ ngạch, cỏ lên mái nhà."},{"nom":"師它𢲨𬟥方賒","quocngu":"Sư đà hái thuốc phương xa,"},{"nom":"𩄲𠖤䳽另別羅尋兜","quocngu":"Mây bay hạc lánh biết là tìm đâu?"},{"nom":"󰠱爲𡭧義𠸗𡢐","quocngu":"Nặng vì chút nghĩa xưa sau,"},{"nom":"𨕭庵據𪧚香油𣋚𪰹","quocngu":"Trên am cứ giữ hương dầu hôm mai."},{"nom":"没茹福祿𠁟𠄩","quocngu":"Một nhà phúc lộc gồm hai,"},{"nom":"千年弋弋官階吝吝","quocngu":"Thiên niên dằng dặc quan giai lần lần."},{"nom":"丞家拯歇娘雲","quocngu":"Thừa gia chẳng hết nàng Vân,"},{"nom":"没𣘃樛木没𡑝桂槐","quocngu":"Một cây cù mộc, một sân quế hòe."},{"nom":"風流富貴埃皮","quocngu":"Phong lưu phú quý ai bì,"},{"nom":"圍春󰜋𨷶底碑𨷈𠁀","quocngu":"Vườn xuân một cửa để bia muôn đời."},{"nom":"𡄎𫨩𨷈事在𡗶","quocngu":"Ngẫm hay muôn sự tại trời,"},{"nom":"𡗶箕㐌󰈫爫𠊛固身","quocngu":"Trời kia đã bắt làm người có thân."},{"nom":"󰈫風塵沛風塵","quocngu":"Bắt phong trần, phải phong trần,"},{"nom":"朱清高買特分清高","quocngu":"Cho thanh cao mới được phần thanh cao."},{"nom":"固兜偏爲𠊛󰅹","quocngu":"Có đâu thiên vị người nào,"},{"nom":"𡦂才𡦂命𣼭󰠢奇𠄩","quocngu":"Chữ tài chữ mệnh dồi dào cả hai."},{"nom":"固才𦓡𢚁之才","quocngu":"Có tài mà cậy chi tài,"},{"nom":"𡦂才連貝𡦂災󰜋韻","quocngu":"Chữ Tài liền với chữ Tai một vần."},{"nom":"㐌恾業意𠓨身","quocngu":"Đã mang nghiệp ấy vào thân,"},{"nom":"拱停責吝𡗶𧵆𡗶賒","quocngu":"Cũng đừng trách lẫn trời gần trời xa."},{"nom":"善根於在𢚸些","quocngu":"Thiện căn ở tại lòng ta,"},{"nom":"𡦂心箕貴朋𠀧𡦂才","quocngu":"Chữ Tâm kia quý bằng ba chữ tài."},{"nom":"𠳒圭𠽃𠴒容𨱽","quocngu":"Lời quê chắp nhạnh dông dài,"},{"nom":"謨𢝙拱特󰜋𠄽𤿰更","quocngu":"Mua vui cũng được một vài trống canh."},{"nom":"󰘇外𣃣𪭟杄花","quocngu":"Cửa ngoài vừa ngỏ then hoa,","line":529},{"nom":"家童𠓨𠳚書茹買𨖅","quocngu":"Gia đồng vào gửi thư nhà mới sang.","line":530},{"nom":"傷喂𤗖鉄𠓨爐","quocngu":"Thương ôi! mảnh sắt vào lò,","line":1825},{"nom":"閉𥹰󰅒別󰢢紆典兜","quocngu":"Bấy lâu nay biết giày vò đến đâu.","line":1826},{"nom":"󰡎㙴𨕭槣拱𬂙","quocngu":"Dưới thềm, trên ghế cùng trông,","line":1895},{"nom":"󰜋𠳒渚𨷑𠄩𣳔㐌沙","quocngu":"Một lời chưa mở hai dòng đã sa.","line":1896}]');
+const truyen_kieu_1870_namespaceObject = /*#__PURE__*/JSON.parse('[{"nom":"𤾓𢆥𥪝𡎝𠊚些","quocngu":"Trăm năm trong cõi người ta,"},{"nom":"𡦂才𡦂命窖羅恄饒","quocngu":"Chữ tài chữ mệnh khéo là ghét nhau."},{"nom":"𣦰戈󰜋局𣷭橷","quocngu":"Trải qua một cuộc bể dâu,"},{"nom":"仍調𬂙𧡊麻𤴬疸𢚸","quocngu":"Những điều trông thấy mà đau đớn lòng."},{"nom":"邏之彼嗇斯豐","quocngu":"Lạ gì bỉ sắc tư phong,"},{"nom":"𡗶撑悁貝𦟐紅打慳","quocngu":"Trời xanh quen với má hồng đánh ghen."},{"nom":"藁𦹳吝𢷣𠓀畑","quocngu":"Cảo thơm lần giở trước đèn,"},{"nom":"風情古錄群傳史撑","quocngu":"Phong tình cổ lục còn truyền sử xanh."},{"nom":"浪𢆥嘉靖朝明","quocngu":"Rằng: Năm Gia Tĩnh triều Minh,"},{"nom":"𦊚方滂𣼽𠄩京凭鐄","quocngu":"Bốn phương phẳng lặng, hai kinh vững vàng."},{"nom":"固茹員外户王","quocngu":"Có nhà Viên ngoại họ Vương,"},{"nom":"家資擬拱常常堛中","quocngu":"Gia tư nghĩ cũng thường thường bậc trung."},{"nom":"󰜋𤳇𡥵次卒𢚸","quocngu":"Một trai con thứ rốt lòng,"},{"nom":"王觀羅𡦂󰡸𣳔儒家","quocngu":"Vương Quan là chữ nối dòng nho gia."},{"nom":"頭𢚸𠄩妸素娥","quocngu":"Đầu lòng hai ả tố nga,"},{"nom":"翠翹羅姉㛪羅翠雲","quocngu":"Thuý Kiều là chị, em là Thuý Vân."},{"nom":"梅骨格雪精神","quocngu":"Mai cốt cách, tuyết tinh thần,"},{"nom":"󰜋𠊚󰜋𨤔𨑮分院𨑮","quocngu":"Một người một vẻ mười phân vẹn mười."},{"nom":"雲䀡莊重恪潙","quocngu":"Vân xem trang trọng khác vời,"},{"nom":"囷𦝄苔󰡹󰞺𠊚𦬑囊","quocngu":"Khuôn lưng đầy đặn, nét người nở nang."},{"nom":"花唭玉呐端莊","quocngu":"Hoa cười ngọc nói đoan trang,"},{"nom":"𩄲輸渃𩯀雪讓牟䏢","quocngu":"Mây thua nước tóc, tuyết nhường màu da."},{"nom":"翹強色稍漫麻","quocngu":"Kiều càng sắc sảo mặn mà,"},{"nom":"搊皮才色吏羅分欣","quocngu":"So bề tài sắc lại là phần hơn."},{"nom":"𪤍秋水濕春山","quocngu":"Nền thu thuỷ, thấp xuân sơn,"},{"nom":"花慳輸𧺀柳𢤞劍撑","quocngu":"Hoa ghen thua thắm, liễu hờn kém xanh."},{"nom":"󰜋𠄩迎渃迎城","quocngu":"Một hai nghiêng nước nghiêng thành,"},{"nom":"色停固󰜋才停和𠄩","quocngu":"Sắc đành có một, tài đành hoạ hai."},{"nom":"聰明本産性𡗶","quocngu":"Thông minh vốn sẵn tính trời,"},{"nom":"坡藝詩畵𨇜味歌吟","quocngu":"Pha nghề thi hoạ, đủ mùi ca ngâm."},{"nom":"宮商漏堛五音","quocngu":"Cung thương làu bậc ngũ âm,"},{"nom":"藝𥢆咹縆胡琹𠬠張","quocngu":"Nghề riêng ăn đứt Hồ cầm một trương."},{"nom":"曲茄𢬣捛𢧚章","quocngu":"Khúc nhà tay lựa nên chương,"},{"nom":"󰜋宮薄命吏強󰞽人","quocngu":"Một cung Bạc mệnh lại càng não nhân."},{"nom":"風流窒默紅裙","quocngu":"Phong lưu rất mực hồng quần,"},{"nom":"春撑執齒細旬及筓","quocngu":"Xuân xanh xấp xỉ tới tuần cập kê."},{"nom":"俺腍帳𢷀幔𩂏","quocngu":"Êm niềm trướng rủ màn che,"},{"nom":"墻東螉𧊉𠫾𧗱默埃","quocngu":"Tường đông ong bướm đi về mặc ai."},{"nom":"𣈜春昆燕迻梭","quocngu":"Ngày xuân con én đưa thoi,"},{"nom":"韶光𠃩𨔿㐌外𦒹𨑮","quocngu":"Thiều quang chín chục đã ngoài sáu mươi."},{"nom":"𦹵𡽫撑羡蹎𡗶","quocngu":"Cỏ non xanh tận chân trời,"},{"nom":"梗梨𤽸點󰜋𢽼󱖮花","quocngu":"Cành lê trắng điểm một vài bông hoa."},{"nom":"清明𥪝節𣎃𠀧","quocngu":"Thanh minh trong tiết tháng ba,"},{"nom":"禮羅掃墓會羅踏青","quocngu":"Lễ là tảo mộ, hội là đạp thanh."},{"nom":"𧵆賒奴󱋨燕󰢒","quocngu":"Gần xa nô nức yến anh,"},{"nom":"姉㛪懺所步行制春","quocngu":"Chị em sắm sửa bộ hành chơi xuân."},{"nom":"習燿才子佳人","quocngu":"Dập dìu tài tử giai nhân,"},{"nom":"馭車如渃襖裙如𢬧","quocngu":"Ngựa xe như nước, áo quần như nêm."},{"nom":"衮昂塸埬𢹣𨖲","quocngu":"Ngổn ngang gò đống kéo lên,"},{"nom":"梭鐄鈽𫽘烣錢紙𠖤","quocngu":"Thoi vàng vó rắc, tro tiền giấy bay."},{"nom":"斜斜䏾我𧗱西","quocngu":"Tà tà bóng ngả về tây,"},{"nom":"姉㛪他矧扛𢬣𠚢𧗱","quocngu":"Chị em thơ thẩn dan tay ra về."},{"nom":"𨀈寅蹺𦰟小溪","quocngu":"Bước dần theo ngọn tiểu khê,"},{"nom":"𨁮䀡風景固皮清清","quocngu":"Lần xem phong cảnh có bề thanh thanh."},{"nom":"󰅉󰅉𣳔渃捥觥","quocngu":"Nao nao dòng nước uốn quanh,"},{"nom":"𡑢橋儒𡮈𡳳𡌿北昂","quocngu":"Nhịp cầu nho nhỏ cuối ghềnh bắc ngang."},{"nom":"茌茌捻坦邊塘","quocngu":"Sè sè nắm đất bên đàng,"},{"nom":"油油𦰟𦹵姅鐄姅撑","quocngu":"Dàu dàu ngọn cỏ nửa vàng nửa xanh."},{"nom":"浪牢𥪝節清明","quocngu":"Rằng: \\"Sao trong tiết Thanh minh,"},{"nom":"麻低香𤌋永醒世麻","quocngu":"Mà đây hương khói vắng tanh thế mà?\\""},{"nom":"王觀由引𧵆賒","quocngu":"Vương Quan do dẫn gần xa:"},{"nom":"淡仙娘意𠸗羅歌兒","quocngu":"\\"Đạm Tiên nàng ấy xưa là ca nhi."},{"nom":"浽名才色𠬠期","quocngu":"Nổi danh tài sắc một kì,"},{"nom":"吨嗃外𬮷險之燕󰢒","quocngu":"Xôn xao ngoài cửa hiếm gì yến anh."},{"nom":"刼紅顔固蒙萌","quocngu":"Kiếp hồng nhan có mong manh,"},{"nom":"姅澄春脱技梗天香","quocngu":"Nửa chừng xuân thoắt gãy cành thiên hương."},{"nom":"固𠊚客於遠方","quocngu":"Có người khách ở viễn phương,"},{"nom":"賒𦖑拱󱋨㗂娘尋制","quocngu":"Xa nghe cũng nức tiếng nàng tìm chơi."},{"nom":"船情𣃣𨄾旦尼","quocngu":"Thuyền tình vừa ghé đến nơi,"},{"nom":"𪰛它簪技𤭸淶包𣇞","quocngu":"Thì đà trâm gãy bình rơi bao giờ."},{"nom":"𢩣空冷𡴯如詞","quocngu":"Buồng không lạnh ngất như tờ,"},{"nom":"𨁪車馭㐌𦼔矑𥊚撑","quocngu":"Dấu xe ngựa đã rêu lờ mờ xanh."},{"nom":"哭嘆坤掣事情","quocngu":"Khóc than khôn xiết sự tình,"},{"nom":"窖無緣閉羅命貝些","quocngu":"Khéo vô duyên bấy là mình với ta."},{"nom":"㐌空縁𠓀庒麻","quocngu":"Đã không duyên trước chăng mà,"},{"nom":"他之㤕的噲羅縁𡢐","quocngu":"Thà chi chút đích gọi là duyên sau."},{"nom":"懺生攝梓車珠","quocngu":"Sắm sanh nếp tử xe châu,"},{"nom":"𡏧燶󰜋捻默油𦹵花","quocngu":"Vùi nông một nấm/nắm mặc dầu cỏ hoa."},{"nom":"𣦰包兎𣵰鵶斜","quocngu":"Trải bao thỏ lặn ác tà,"},{"nom":"意墓無主埃麻咏𠽄","quocngu":"Ấy mồ vô chủ ai mà viếng thăm.\\""},{"nom":"𢚸兜産䋦傷心","quocngu":"Lòng đâu sẵn mối thương tâm,"},{"nom":"脱𦖑翹㐌潭潭珠沙","quocngu":"Thoắt nghe Kiều đã đầm đầm châu sa."},{"nom":"𤴬疸台分彈󰜏","quocngu":"Đau đớn thay phận đàn bà,"},{"nom":"𠳒浪薄命拱羅𠳒終","quocngu":"Lời rằng bạc mệnh cũng là lời chung."},{"nom":"負旁之閉化工","quocngu":"Phũ phàng chi bấy hoá công,"},{"nom":"𣈜撑𤷱痗𦟐紅配坡","quocngu":"Ngày xanh mòn mỏi má hồng phôi pha."},{"nom":"𤯩爫𡞕泣𠊚些","quocngu":"Sống làm vợ khắp người ta,"},{"nom":"窖台𦣰𫴋羅魔空𫯳","quocngu":"Khéo thay nằm xuống là ma không chồng!"},{"nom":"󰅹𠊚鳯怎鸞終","quocngu":"Nào người phượng chạ loan chung,"},{"nom":"󰅹𠊚惜録貪紅羅埃","quocngu":"Nào người tiếc lục tham hồng là ai?"},{"nom":"㐌空几兑𠊚懷","quocngu":"Đã không kẻ đoái người hoài,"},{"nom":"産低些劎󰜋𢽼󰠱香","quocngu":"Sẵn đây ta kiếm một vài nén hương."},{"nom":"噲羅﨤攑𡧲塘","quocngu":"Gọi là gặp gỡ giữa đường,"},{"nom":"禍羅𠊚󰡎𤂬鐄别朱","quocngu":"Hoạ là người dưới suối vàng biết cho.\\""},{"nom":"啉𠽍哏拜𡮈𫰅","quocngu":"Lầm rầm khấn vái nhỏ to,"},{"nom":"垃𡎥𬏓拮𠓀墓𨀈𠚢","quocngu":"Sụp ngồi và gật trước mồ bước ra."},{"nom":"󰜋漨𦹵曖䏾斜","quocngu":"Một vùng cỏ áy bóng tà,"},{"nom":"𩙍囂囂𠺙󰜋𬏓𦰟𦰤","quocngu":"Gió hiu hiu thổi một và ngọn lau."},{"nom":"隻簪産㩫𠃅頭","quocngu":"Chiếc trâm sẵn giắt mái đầu,"},{"nom":"拍䏧𣘃咏𦊚勾𠀧韻","quocngu":"Vạch da cây vịnh bốn câu ba vần."},{"nom":"吏強迷敏心神","quocngu":"Lại càng mê mẩn tâm thần,"},{"nom":"吏強𨅸𨁂秦銀拯𠚢","quocngu":"Lại càng đứng [sững] tần ngần chẳng ra."},{"nom":"吏強塢湥󰞺花","quocngu":"Lại càng ủ dột nét hoa,"},{"nom":"愁𣻆󰑒綏珠沙𥐆𨱽","quocngu":"Sầu tuôn đứt nối, châu sa vắn dài."},{"nom":"雲浪姉拱󱋨唭","quocngu":"Vân rằng: \\"Chị cũng nực cười,"},{"nom":"窖餘渃𬑉哭𠊚𠁀𠸗","quocngu":"Khéo dư nước mắt khóc người đời xưa.\\""},{"nom":"浪紅顔自𠦳𠸗","quocngu":"Rằng: \\"Hồng nhan tự nghìn xưa,"},{"nom":"丐調薄命固除埃兜","quocngu":"Cái điều bạc mệnh có chừa ai đâu."},{"nom":"浽念想典𦓡𤴬","quocngu":"Nỗi niềm tưởng đến mà đau,"},{"nom":"𧡊𠊚𦣰帶别𡢐世󰅹","quocngu":"Thấy người nằm đấy biết sau thế nào?\\""},{"nom":"觀浪姉呐咍牢","quocngu":"Quan rằng: \\"Chị nói hay sao,"},{"nom":"󰜋調羅󰜋刎𠓨苦𦖑","quocngu":"Một điều là một vận vào khó nghe."},{"nom":"於低陰氣𥘀泥","quocngu":"Ở đây âm khí nặng nề,"},{"nom":"䏾朝㐌我𨤮𧗱群賒","quocngu":"Bóng chiều đã ngả, dặm về còn xa.\\""},{"nom":"翹浪仍等才花","quocngu":"Kiều rằng: \\"Những đấng tài hoa,"},{"nom":"托羅體魄群羅精英","quocngu":"Thác là thể phách, còn là tinh anh."},{"nom":"易台情吏﨤情","quocngu":"Dễ thay tình lại gặp tình,"},{"nom":"徐䀡乙𧡊顯靈碑𣇞","quocngu":"Chờ xem ắt thấy hiển linh bây giờ.\\""},{"nom":"󰜋𠳒呐渚趿䜹","quocngu":"Một lời nói chửa kịp thưa,"},{"nom":"丿兜陣𩙍捲旗旦𬆄","quocngu":"Phút đâu trận gió cuốn cờ đến ngay."},{"nom":"呦呦覩祿𢫝𣘃","quocngu":"Ào ào đổ lộc rung cây,"},{"nom":"於𥪝󰟯固香𠖤𠃣𡗉","quocngu":"Ở trong dường có hương bay ít nhiều."},{"nom":"提澄𦰟𩙍𨁮蹺","quocngu":"Đè chừng ngọn gió lần theo,"},{"nom":"𨁪鞋曾𨀈印𦼔伶伶","quocngu":"Dấu hài từng bước in rêu rành rành."},{"nom":"𩈘𥆾埃乃調驚","quocngu":"Mặt nhìn ai nấy đều kinh,"},{"nom":"娘浪尼寔精誠拯賒","quocngu":"Nàng rằng: \\"Này thực tinh thành chẳng xa."},{"nom":"有情些吏別些","quocngu":"Hữu tình ta lại biết ta,"},{"nom":"𫽄尼幽顯買羅姉㛪","quocngu":"Chẳng nề u hiển mới là chị em.\\""},{"nom":"㐌𢚸顯現朱䀡","quocngu":"Đã lòng hiển hiện cho xem,"},{"nom":"謝𢚸娘吏󰡸添𣀟𠳒","quocngu":"Tạ lòng nàng lại nối thêm vài lời."},{"nom":"𢚸疎來𣼽徘徊","quocngu":"Lòng thơ lai láng bồi hồi,"},{"nom":"㭲𣘃吏拍󰜋排古詩","quocngu":"Gốc cây lại vạch một bài cổ thi."},{"nom":"用𨀊𢷣於𢷣衛","quocngu":"Dùng dằng dở ở dở về,"},{"nom":"樂鐄兜俸㗂𦖑𧵆𧵆","quocngu":"Nhạc vàng đâu bỗng tiếng nghe gần gần."},{"nom":"𬂙澄𧡊󰜋文人","quocngu":"Trông chừng thấy một văn nhân,"},{"nom":"挵𢭾𢬣扣𨀈𨁮𨤮󰕸","quocngu":"Lỏng buông tay khấu bước lần dặm băng."},{"nom":"提𢹂𠦻襊𩙋𦝄","quocngu":"Đề huề lưng túi gió trăng,"},{"nom":"𡢐蹎蹺󰜋𠄽繩𡥵𡥵","quocngu":"Sau chân theo một vài thằng con con."},{"nom":"雪印色馭󰙃𤶐","quocngu":"Tuyết in sắc ngựa câu giòn,"},{"nom":"𦹵坡味襖染𡽫䏧𡗶","quocngu":"Cỏ pha mùi áo nhuộm non da trời."},{"nom":"裊賒買𤑟󰘚𠊚","quocngu":"Nẻo xa mới tỏ mặt người,"},{"nom":"客它𫴋馭細尼敘情","quocngu":"Khách đà xuống ngựa tới nơi tự tình."},{"nom":"鞋文𨁮𨀈𨤮撑","quocngu":"Hài văn lần bước dặm xanh,"},{"nom":"󰜋漨如𧡊𣘃瓊梗瑤","quocngu":"Một vùng như thấy cây quỳnh cành dao."},{"nom":"払王悁󰘚𠚢嘲","quocngu":"Chàng Vương quen mặt ra chào,"},{"nom":"𠄩翹依󰘚納𠓨󰡎花","quocngu":"Hai Kiều e mặt nép vào dưới hoa."},{"nom":"原𠊚觥橘兜賒","quocngu":"Nguyên người quanh quất đâu xa,"},{"nom":"户金𠸜重本茹簪纓","quocngu":"Họ Kim tên Trọng vốn nhà trâm anh."},{"nom":"𪤍富貴堛才名","quocngu":"Nền phú quý, bậc tài danh,"},{"nom":"文章󰞺坦聰明性𡗶","quocngu":"Văn chương nết đất, thông minh tính trời."},{"nom":"丰姿才貌捽潙","quocngu":"Phong tư tài mạo tót vời,"},{"nom":"𠓨𥪝風雅𠚢外豪花","quocngu":"Vào trong phong nhã, ra ngoài hào hoa."},{"nom":"終觥刎坦渃茹","quocngu":"Chung quanh vẫn đất nước nhà,"},{"nom":"貝王翁𠓀刎羅相親","quocngu":"Với Vương ông trước vẫn là tương thân."},{"nom":"刎𦖑𦹳󱋨鄕鄰","quocngu":"Vẫn nghe thơm nức hương lân,"},{"nom":"󰜋𪤍銅雀鎖春𠄩嬌","quocngu":"Một nền Đồng Tước khoá xuân hai Kiều."},{"nom":"渃𡽫隔󰋇源桃","quocngu":"Nước non cách mấy nguồn đào,"},{"nom":"仍羅濫唒忱夭祝蒙","quocngu":"Những là trộm dấu thầm yêu chốc mòng."},{"nom":"枚台邂逅相逢","quocngu":"May thay giải cấu tương phùng,"},{"nom":"趿旬妬蘿妥𢚸尋花","quocngu":"Gặp tuần đố lá, thoả lòng tìm hoa."},{"nom":"䏾紅𥋷𧡊裊賒","quocngu":"Bóng hồng nhác thấy nẻo xa,"},{"nom":"春蘭秋菊漫麻奇𠄩","quocngu":"Xuân lan thu cúc mặn mà cả hai."},{"nom":"𠊚國色几天才","quocngu":"Người quốc sắc, kẻ thiên tài,"},{"nom":"情𥪝如㐌󰘚外群𠲖","quocngu":"Tình trong như đã, mặt ngoài còn e."},{"nom":"執廛干省干迷","quocngu":"Chập chờn cơn tỉnh cơn mê"},{"nom":"󰟱𡎥拯便攝衛㐱坤","quocngu":"Rốn ngồi chẳng tiện, dứt về chỉn khôn."},{"nom":"䏾斜如逐干盆","quocngu":"Bóng tà như giục cơn buồn,"},{"nom":"客它𨖲馭𠊚群𥊘蹺","quocngu":"Khách đà lên ngựa, người còn ghé theo."},{"nom":"󰡎𣳔渃沚沖󰡺","quocngu":"Dưới dòng nước chảy trong veo,"},{"nom":"邊梂絲柳䏾朝羅他","quocngu":"Bên cầu tơ liễu bóng chiều la tha."},{"nom":"翹自跙𨃴帳花","quocngu":"Kiều từ trở gót trướng hoa,"},{"nom":"󰘚𡗶旦坦鉦㐌搜空","quocngu":"Mặt trời đến đất, chiêng đà sưu không."},{"nom":"𤗖𦝄隻隻𥉰窻","quocngu":"Mảnh trăng chênh chếch dòm song."},{"nom":"鐄招痕渃𣘃籠䏾𡑝","quocngu":"Vàng gieo ngấn nước, cây lồng bóng sân."},{"nom":"海棠拖𦰟東鄰","quocngu":"Hải đường lả ngọn đông lân,"},{"nom":"湥霜撩𥘀梗春羅陀","quocngu":"Giọt sương treo nặng, cành xuân la đà."},{"nom":"󰜋𨉟𤎜𥋴󰞵娥","quocngu":"Một mình rạng ngắm bóng nga,"},{"nom":"遁塘𧵆貝𡑩賒排排","quocngu":"Rộn đường gần với nẻo xa bời bời."},{"nom":"𠊚麻旦世羅催","quocngu":"Người mà đến thế là thôi,"},{"nom":"𠁀繁花拱羅𠁀補𠫾","quocngu":"Đời phồn hoa cũng là đời bỏ đi."},{"nom":"𠊚兜﨤𫽻爫之","quocngu":"Người đâu gặp gỡ làm chi,"},{"nom":"𤾓𢆥別固緣之咍空","quocngu":"Trăm năm biết có duyên gì hay không?"},{"nom":"滚昂𤾓䋦邊𢚸","quocngu":"Ngổn ngang trăm mối bên lòng,"},{"nom":"𢧚勾絶句寓𥪝性情","quocngu":"Nên câu tuyệt cú ngụ trong tính tình."},{"nom":"征征䏾月熾甍","quocngu":"Chênh chênh bóng nguyệt xế mành,"},{"nom":"𢭸𡎢边篆󰜋𨉟燒燒","quocngu":"Tựa ngồi bên triện một mình thiu thiu."},{"nom":"脱兜𧡊󰜋小嬌","quocngu":"Thoắt đâu thấy một tiểu kiều,"},{"nom":"固朝風韻固朝清新","quocngu":"Có chiều phong vận, có chiều thanh tân."},{"nom":"霜印󰘚雪坡身","quocngu":"Sương in mặt, tuyết pha thân,"},{"nom":"蓮鐄朗蕩如𧵆如賒","quocngu":"Sen vàng lãng đãng như gần như xa."},{"nom":"逴𢜠噋𠳨𠻀羅","quocngu":"Rước mừng đón hỏi dò la:"},{"nom":"源桃落𡓃兜麻旦低","quocngu":"\\"Nguồn đào lạc lối đâu mà đến đây?\\""},{"nom":"䜹浪聲氣𠸗󰅒","quocngu":"Thưa rằng: \\"Thanh khí xưa nay,"},{"nom":"買拱饒𣅶班𣈜㐌悁","quocngu":"Mới cùng nhau lúc ban ngày đã quên."},{"nom":"寒家於𠃅西軒","quocngu":"Hàn gia ở mé tây hiên,"},{"nom":"󰡎𣳔渃沚邊𨕭固橋","quocngu":"Dưới dòng nước chảy bên trên có cầu."},{"nom":"󰋇𢚸下顧旦饒","quocngu":"Mấy lòng hạ cố đến nhau,"},{"nom":"󰋇𠳒下賜捻珠招鐄","quocngu":"Mấy lời hạ tứ ném châu gieo vàng."},{"nom":"󰂅呈會主䀡詳","quocngu":"Vâng trình hội chủ xem tường,"},{"nom":"麻牢𥪝數斷膓固𠸜","quocngu":"Mà sao trong sổ đoạn trường có tên."},{"nom":"歐停果刼因綠","quocngu":"Âu đành quả kiếp nhân duyên,"},{"nom":"拱𠊚󰜋會󰜋船兜賒","quocngu":"Cùng người một hội một thuyền đâu xa."},{"nom":"尼𨑮排買買𠚢","quocngu":"Này mười bài mới mới ra,"},{"nom":"勾神吏摱筆花𦘧潙","quocngu":"Câu thần lại mượn bút hoa vẽ vời.\\""},{"nom":"翹󰂅領意題排","quocngu":"Kiều vâng lĩnh ý đề bài,"},{"nom":"𢬣僊󰜋捤𨇜𨑮曲吟","quocngu":"Tay tiên một vẫy đủ mười khúc ngâm."},{"nom":"䀡詩𠽋󰟄𠸦忱","quocngu":"Xem thơ nức nở khen thầm:"},{"nom":"價停繡口錦心恪常","quocngu":"\\"Giá đành tú khẩu cẩm tâm khác thường."},{"nom":"󰂇󰝂𠓨集斷膓","quocngu":"Ví đem vào tập đoạn trường."},{"nom":"𪰛撩解一之讓朱埃","quocngu":"Thì treo giải nhất chi nhường cho ai?\\""},{"nom":"㙴花客㐌跙鞋","quocngu":"Thềm hoa khách đã trở hài,"},{"nom":"娘群扲吏󰜋𠄩叙情","quocngu":"Nàng còn cầm lại một hai tự tình."},{"nom":"𩙍兜擲幅萌萌","quocngu":"Gió đâu sịch bức mành mành,"},{"nom":"醒𠚢買別浪命占包","quocngu":"Tỉnh ra mới biết là mình chiêm bao."},{"nom":"𬂙蹺󰅹𧡊兜󰅹","quocngu":"Trông theo nào thấy đâu nào,"},{"nom":"香乘󰟯唉𠚢𠓨兜低","quocngu":"Hương thừa dường hãy ra vào đâu đây."},{"nom":"󰜋命量慮更迡","quocngu":"Một mình lưỡng lự canh chầy,"},{"nom":"塘賒擬浽𡢐尼麻驚","quocngu":"Đường xa nghĩ nỗi sau này mà kinh."},{"nom":"花㵢䕯𣼸㐌停","quocngu":"Hoa trôi bèo dạt đã đành,"},{"nom":"别綠命别分命世催","quocngu":"Biết duyên mình, biết phận mình thế thôi!"},{"nom":"浽𥢆笠笠㳥𣼭","quocngu":"Nỗi riêng lớp lớp sóng dồi,"},{"nom":"擬源干吏湥洡𠾕干","quocngu":"Nghĩ nguồn cơn lại sụt sùi đòi cơn."},{"nom":"喠翹𡃚󰁹帳鵉","quocngu":"Giọng Kiều rền rĩ trướng loan,"},{"nom":"茹萱秩醒𠳨干據之","quocngu":"Nhà huyên chợt tỉnh hỏi cơn cớ gì?"},{"nom":"據牢陳濁更𣌉","quocngu":"\\"Cớ sao trằn trọc canh khuya,"},{"nom":"牟花梨唉滛湜湥𩅹","quocngu":"Màu hoa lê hãy dầm dề giọt mưa?\\""},{"nom":"疎浪𡭧分癡疎","quocngu":"Thưa rằng: \\"Chút phận ngây thơ,"},{"nom":"養生堆侶𩯀絲渚填","quocngu":"Dưỡng sinh đôi lứa tóc tơ chưa đền."},{"nom":"𣇜𣈜制𡏢淡僊","quocngu":"Buổi ngày chơi mả Đạm Tiên,"},{"nom":"𥃱𠫾脱𧡊應連占包","quocngu":"Nhắp đi thoắt thấy ứng liền chiêm bao."},{"nom":"斷膓羅𢼂世󰅹","quocngu":"Đoạn trường là số thế nào,"},{"nom":"排𠚢世意詠𠓨世箕","quocngu":"Bài ra thế ấy, vịnh vào thế kia."},{"nom":"據𥪝夢兆麻推","quocngu":"Cứ trong mộng triệu mà suy,"},{"nom":"身𡥵催固𠚢之𣈕𡢐","quocngu":"Thân con thôi có ra gì mai sau!\\""},{"nom":"𠰺浪夢幻據兜","quocngu":"Dạy rằng: \\"Mộng ảo cứ đâu,"},{"nom":"俸空謨󰞽卓愁擬󰅹","quocngu":"Bỗng không mua não chác sầu nghĩ nao!\\""},{"nom":"󰂅𠳒勸解濕高","quocngu":"Vâng lời khuyên giải thấp cao,"},{"nom":"渚衝調擬㐌𩆍脉霜","quocngu":"Chưa xong điều nghĩ, đã dào mạch sương."},{"nom":"外窻𠴡𠱈鶯鐄","quocngu":"Ngoài song thỏ thẻ oanh vàng,"},{"nom":"腋墻󱖮柳𠖤昂𫏾萌","quocngu":"Nách tường bông liễu bay ngang trước mành."},{"nom":"軒斜擱䏾迎迎","quocngu":"Hiên tà gác bóng nghiêng nghiêng"},{"nom":"浽𥢆𥢆鄭𡬷𥢆󰜋命","quocngu":"Nỗi riêng, riêng trạnh tấc riêng một mình."},{"nom":"朱咍羅󰣉有情","quocngu":"Cho hay là giống hữu tình,"},{"nom":"妬埃𫽻䋦絲萌朱衝","quocngu":"Đố ai gỡ mối tơ mành cho xong."},{"nom":"払金自吏書窻","quocngu":"Chàng Kim từ lại thư song,"},{"nom":"浽娘更更邊𢚸𠴠𢣧","quocngu":"Nỗi nàng canh cánh bên lòng biếng khuây."},{"nom":"愁𢫝強𫽻強𣹓","quocngu":"Sầu đong càng giở càng đầy,"},{"nom":"𠀧秋扽吏󰜋𣈜𨱽稽","quocngu":"Ba thu dồn lại một ngày dài ghê."},{"nom":"𩄲秦鎖謹窻𦂛","quocngu":"Mây Tần khoá kín song the,"},{"nom":"𡏧紅料裊𠫾衛占包","quocngu":"Bụi hồng liệu nẻo đi về chiêm bao."},{"nom":"旬𦝄缺𥒦油耗","quocngu":"Tuần trăng khuyết, đĩa dầu hao,"},{"nom":"󰘚𢠩想󰘚𢚸嗷喭𢚸","quocngu":"Mặt mơ tưởng mặt, lòng ngao ngán lòng."},{"nom":"𢩣文唏𬰊如銅","quocngu":"Buồng văn hơi giá như đồng,"},{"nom":"竹痴󰇽兎絲𦙸𪣇鸞","quocngu":"Trúc se ngón thỏ, tơ chùng phím loan."},{"nom":"萌湘拂拂𩙍彈","quocngu":"Mành Tương phất phất gió đàn,"},{"nom":"香𡀲味𢖵茶乾𠰩情","quocngu":"Hương gây mùi nhớ, trà khan giọng tình."},{"nom":"󰂇庒綠女𠀧生","quocngu":"Ví chăng duyên nợ ba sinh,"},{"nom":"爫之󰝂󰣉傾城撩𤽗","quocngu":"Làm chi đem giống khuynh thành trêu ngươi."},{"nom":"氷傾𢖵景𢖵𠊚","quocngu":"Bâng khuâng nhớ cảnh nhớ người,"},{"nom":"𢖵尼奇遇倍移蹎𠫾","quocngu":"Nhớ nơi kỳ ngộ vội dời chân đi."},{"nom":"󰜋瀾𦹵木撑荑","quocngu":"Một làn cỏ mọc xanh rì,"},{"nom":"渃吟𤄯沕𧡊之汝兜","quocngu":"Nước ngâm trong vắt thấy gì nữa đâu!"},{"nom":"𩙍朝如𢭮干愁","quocngu":"Gió chiều như khẩy cơn sầu,"},{"nom":"葦𦰤囂𫤾如牟改撩","quocngu":"Vi lau hiu hắt như màu gởi trêu."},{"nom":"鄭𥢆想𠃣𢖵𡗉","quocngu":"Trạnh riêng tưởng ít nhớ nhiều,"},{"nom":"侵侵提裊藍橋𨁮𨖅","quocngu":"Xăm xăm đè nẻo Lam Kiều lần sang."},{"nom":"審嚴謹槓高墙","quocngu":"Thâm nghiêm kín cổng cao tường,"},{"nom":"𣴓𣳔蘿𧺀𢴑塘𫚳撑","quocngu":"Cạn dòng lá thắm dứt đường chim xanh."},{"nom":"盧疎絲柳󰇵萌","quocngu":"Lơ thơ tơ liễu buông mành,"},{"nom":"昆鶯學呐𨕭梗𠸍枚","quocngu":"Con oanh học nói trên cành mỉa mai."},{"nom":"󰋇吝󰘇㨂杄掑","quocngu":"Mấy lần cửa đóng then cài,"},{"nom":"𣲆㙴花用别𠊚於兜","quocngu":"Dãy thềm hoa rụng biết người ở đâu?"},{"nom":"秦銀𨅸椊𣇞𥹰","quocngu":"Tần ngần đứng suốt giờ lâu,"},{"nom":"𬧖觥秩𧡊𠃅𡢐固茹","quocngu":"Dạo quanh chợt thấy mé sau có nhà."},{"nom":"羅茹吳越商家","quocngu":"Là nhà Ngô Việt thương gia,"},{"nom":"𢩣空底妬𠊚賒渚衛","quocngu":"Buồng không để đó người xa chưa về."},{"nom":"𥙩調遊學𠳨𠾔","quocngu":"Lấy điều du học hỏi thuê,"},{"nom":"襊彈笈册提𢹂󰢸𨖅","quocngu":"Túi đàn cặp sách đề huề dọn sang."},{"nom":"固𣘃固𥒥産床","quocngu":"Có cây, có đá sẵn sàng,"},{"nom":"固軒攬翠󰞺鐄渚派","quocngu":"Có hiên Lãm Thuý nét vàng chưa phai."},{"nom":"忱𢜠准意𫳘排","quocngu":"Thầm mừng chốn ấy chữ bài,"},{"nom":"𠀧生歐罕綠𡗶之低","quocngu":"Ba sinh âu hẳn duyên trời chi đây."},{"nom":"窻糊姅怯𦑃𩄲","quocngu":"Song hồ nửa khép cánh mây,"},{"nom":"墻東𥊘眜𣈜𣈜恒𬂙","quocngu":"Tường đông ghé mắt ngày ngày hằng trông."},{"nom":"𡬷𡱸洞鎖原封","quocngu":"Tấc gang động toả nguyên phong,"},{"nom":"絶𩂟󰅹𧡊䏾紅𠓨𠚢","quocngu":"Tuyệt mù nào thấy bóng hồng vào ra."},{"nom":"忍自舘客鄰羅","quocngu":"Nhẫn từ quán khách lân la,"},{"nom":"旬𦝄瀋脱𫢩它菭𠄩","quocngu":"Tuần trăng thấm thoắt nay đà đầy hai."},{"nom":"隔墻沛𣇜淹𡗶","quocngu":"Cách tường phải buổi êm trời,"},{"nom":"󰡎桃󰟯固䏾𠊚切他","quocngu":"Dưới đào dường có bóng người thướt tha."},{"nom":"𢭾琹󰡻襖倍𠚢","quocngu":"Buông cầm xốc áo vội ra,"},{"nom":"香群𦹳𠽋𠊚它永醒","quocngu":"Hương còn thơm nức, người đà vắng tanh."},{"nom":"𨁮蹺墻錦𨄹觥","quocngu":"Lần theo tường gấm dạo quanh,"},{"nom":"𨕭桃𥋷𧡊󰜋梗金釵","quocngu":"Trên đào nhác thấy một cành kim thoa."},{"nom":"拁𢬣𢭲𥙩衛茹","quocngu":"Giơ tay với lấy về nhà:"},{"nom":"尼𥪝閨閣兜麻典低","quocngu":"\\"Này trong khuê các, đâu mà đến đây?"},{"nom":"𡄎歐𠊚意寶尼","quocngu":"Ngẫm âu người ấy báu này,"},{"nom":"拯緣渚易𠓨𢬣埃扲","quocngu":"Chẳng duyên chưa dễ vào tay ai cầm!\\""},{"nom":"連𢬣𥋴𥊘𠴠𦣰","quocngu":"Liền tay ngắm nghía biếng nằm,"},{"nom":"唉群倘倘香沉渚派","quocngu":"Hãy còn thoang thoảng hương trầm chưa phai."},{"nom":"散霜㐌𧡊䏾𠊚","quocngu":"Tan sương đã thấy bóng người"},{"nom":"觥墻𠚢意尋頺菫魚","quocngu":"Quanh tường ra ý tìm tòi ngẩn ngơ."},{"nom":"生它固意待徐","quocngu":"Sinh đà có ý đợi chờ,"},{"nom":"隔墻𨖲㗂賒迻厭𢚸","quocngu":"Cách tường lên tiếng xa đưa ướm lòng."},{"nom":"釵尼󰈫特虚空","quocngu":"Thoa này bắt được hư không,"},{"nom":"別兜合浦麻蒙珠衛","quocngu":"Biết đâu Hợp Phố mà mong châu về?\\""},{"nom":"㗂翹𦖑律邊箕","quocngu":"Tiếng Kiều nghe lọt bên kia:"},{"nom":"恩𠊚君子詫之𧵑逨","quocngu":"\\"Ơn người quân tử sá gì của rơi."},{"nom":"隻釵󰅹𧵑󰋇𨑮","quocngu":"Chiếc thoa nào của mấy mươi,"},{"nom":"麻𢚸重義輕財掣包","quocngu":"Mà lòng trọng nghĩa khinh tài xiết bao!\\""},{"nom":"生浪鄰里𠚢𠓨","quocngu":"Sinh rằng: \\"Lân lý ra vào,"},{"nom":"𧵆低󰅹沛𠊚󰅹賒吹","quocngu":"Gần đây nào phải người nào xa xôi."},{"nom":"特𣈙如𡭧𦹳逨","quocngu":"Được rày như chút thơm rơi,"},{"nom":"計它少󰞽𢚸𠊚閉󰅒","quocngu":"Kể đà thiểu não lòng người bấy nay!"},{"nom":"󰋇婁買特󰜋𣈜","quocngu":"Mấy lâu mới được một ngày,"},{"nom":"停󰖄𣵲𡭧念西噲羅","quocngu":"Dừng chân gạn chút niềm tây gọi là.\\""},{"nom":"倍衛添𥙩𧵑茹","quocngu":"Vội về thêm lấy của nhà,"},{"nom":"釧鐄堆隻巾纙󰜋󰉓","quocngu":"Xuyến vàng đôi chiếc, khăn là một vuông."},{"nom":"堛𩄲𨂚𨀈𦰟墻","quocngu":"Bậc mây rón bước ngọn tường,"},{"nom":"沛𠊚𣋚怒𤑟𤉜󰝸㖇","quocngu":"Phải người hôm nọ rõ ràng chẳng nhe?"},{"nom":"𠶤𠼾𢷣意揬提","quocngu":"Sượng sùng giữ ý rụt rè,"},{"nom":"几𥆾羡󰘚𠊚𠲖儈頭","quocngu":"Kẻ nhìn tận mặt, người e cúi đầu."},{"nom":"浪自偶爾﨤饒","quocngu":"Rằng: \\"Từ ngẫu nhĩ gặp nhau,"},{"nom":"󰠐𬂙濫𢖵閉𥹰㐌𤶐","quocngu":"Thầm trông trộm nhớ bấy lâu đã chồn."},{"nom":"󰢇梅併㐌𢷀𤷱","quocngu":"Xương mai tính đã rũ mòn,"},{"nom":"𨁮驢埃別唉群𣋚󰅒","quocngu":"Lần lừa ai biết hãy còn hôm nay!"},{"nom":"𣎃𧷺如𠳚宫𩄲","quocngu":"Tháng tròn như gửi cung mây,"},{"nom":"陳陳󰜋分挹𣘃㐌料","quocngu":"Trần trần một phận ấp cây đã liều."},{"nom":"便低嗔󰜋𠄩調","quocngu":"Tiện đây xin một hai điều,"},{"nom":"臺𦎛𤐝典𨁪䕯朱庒","quocngu":"Đài gương soi đến dấu bèo cho chăng?\\""},{"nom":"菫魚娘買䜹浪","quocngu":"Ngần ngừ nàng mới thưa rằng:"},{"nom":"𫗁茹氷雪質恒菲葑","quocngu":"\\"Thói nhà băng tuyết, chất hằng phỉ phong."},{"nom":"油欺蘿𧺀𥿗紅","quocngu":"Dù khi lá thắm chỉ hồng,"},{"nom":"𢧚庒𪰛拱在𢚸媄吒","quocngu":"Nên chăng thì cũng tại lòng mẹ cha."},{"nom":"𥘀𢚸㤕柳爲花","quocngu":"Nặng lòng xót liễu vì hoa,"},{"nom":"𥘷䜹㐌別兜麻监𠽔","quocngu":"Trẻ thơ đã biết đâu mà dám thưa!\\""},{"nom":"生浪𣈙𩙍𣈕𩅹","quocngu":"Sinh rằng: \\"Rày gió mai mưa,"},{"nom":"𣈜春㐌易情期󰋇欺","quocngu":"Ngày xuân đã dễ tình cờ mấy khi."},{"nom":"油庒𥌀𬌓情癡","quocngu":"Dù chăng xét tấm tình si,"},{"nom":"舌低麻固益之典埃","quocngu":"Thiệt đây mà có ích gì đến ai?"},{"nom":"𡭧之哏咘󰜋𠄩","quocngu":"Chút chi gắn bó một hai,"},{"nom":"朱停来仕料排䋦萌","quocngu":"Cho đành rồi sẽ liệu bài mối manh."},{"nom":"囷󰡼油負𡬷誠","quocngu":"Khuôn thiêng dầu phụ tấc thành,"},{"nom":"拱料補過春撑󰜋𠁀","quocngu":"Cũng liều bỏ quá xuân xanh một đời."},{"nom":"量春油決挾徊","quocngu":"Lượng xuân dù quyết hẹp hòi,"},{"nom":"功㧅等拯舌催𡗋由","quocngu":"Công đeo đẳng chẳng thiệt thòi lắm ru.\\""},{"nom":"朗𦖑𠳒呐如󰡽","quocngu":"Lặng nghe lời nói như ru,"},{"nom":"朝春易遣󰞺秋礙顒","quocngu":"Chiều xuân dễ khiến nét thu ngại ngùng."},{"nom":"浪𥪝𣇜買邏𨓡","quocngu":"Rằng: \\"Trong buổi mới lạ lùng,"},{"nom":"𠰚𢚸固𨤰扲𢚸朱當","quocngu":"Nể lòng có lẽ cầm lòng cho đang!"},{"nom":"㐌𢚸君子多恾","quocngu":"Đã lòng quân tử đa mang,"},{"nom":"󰜋𠳒󰂅鑿𥒥鐄始終","quocngu":"Một lời vâng tạc đá vàng thủy chung.\\""},{"nom":"特𠳒如𢶒𡬷𢚸","quocngu":"Được lời như cởi tấc lòng,"},{"nom":"𢷣金釵貝巾紅𢭂𢬣","quocngu":"Giở kim thoa với khăn hồng trao tay."},{"nom":"浪𤾓𢆥拱自低","quocngu":"Rằng: \\"Trăm năm cũng từ đây,"},{"nom":"𧵑信噲󰜋𡭧尼爫𥱬","quocngu":"Của tin gọi một chút này làm ghi.\\""},{"nom":"産𢬣把𦑗花葵","quocngu":"Sẵn tay bả quạt hoa quỳ,"},{"nom":"貝梗釵意卽𪰛𢷮𢭂","quocngu":"Với cành thoa ấy tức thì đổi trao."},{"nom":"󰜋𠳒𣃣哏膝膠","quocngu":"Một lời vừa gắn tất giao,"},{"nom":"𠃅𡢐󰟯固𠮿嗃㗂𠊚","quocngu":"Mái sau dường có xôn xao tiếng người."},{"nom":"𢠩恾蘿用花逨","quocngu":"Mơ màng lá rụng hoa rơi,"},{"nom":"払衛書院妾移樓粧","quocngu":"Chàng về thư viện, thiếp dời lầu trang."},{"nom":"自番𥒥别歲鐄","quocngu":"Từ phen đá biết tuổi vàng,"},{"nom":"情強滲𤀏𢚸彊菫魚","quocngu":"Tình càng thấm thía, lòng càng ngẩn ngơ."},{"nom":"瀧湘󰜋解農𣻄","quocngu":"Sông Tương một dải nông sờ,"},{"nom":"邊𬂙頭怒邊除𡳳箕","quocngu":"Bên trông đầu nọ, bên chờ cuối kia."},{"nom":"󰜋墙雪迍霜𩂏","quocngu":"Một tường tuyết đón sương che,"},{"nom":"信春兜易𠫾衛朱能","quocngu":"Tin xuân đâu dễ đi về cho năng."},{"nom":"吝吝𣈜𩙍𣈘𦝄","quocngu":"Lần lần ngày gió đêm trăng,"},{"nom":"疎紅葚綠㐌澄春戈","quocngu":"Thưa hồng rậm lục đã chừng xuân qua."},{"nom":"𣃣𣈜生日外家","quocngu":"Vừa ngày sinh nhật ngoại gia,"},{"nom":"𨕭𠄩堂󰡎女羅𠄩㛪","quocngu":"Trên hai đường dưới nữa là hai em."},{"nom":"熷𤇊懺所襖襜","quocngu":"Tưng bừng sắm sửa áo xiêm,"},{"nom":"芹𤼸󰜋禮賒𢲠𡬷誠","quocngu":"Cần dâng một lễ xa đem tấc thành."},{"nom":"茹蘭清永󰜋命","quocngu":"Nhà lan thanh vắng một mình,"},{"nom":"𡄎機會遇㐌停𣋚󰅒","quocngu":"Gẫm cơ hội ngộ đã dành hôm nay."},{"nom":"餚珍式式産排","quocngu":"Hào trân thức thức sẵn bày,"},{"nom":"𨃴蓮脱脱𬧖𣦍𠃅墙","quocngu":"Gót sen thoăn thoắt dạo ngay mé tường."},{"nom":"隔花仕𠱆㗂鐄","quocngu":"Cách hoa sẽ dặng tiếng vàng,"},{"nom":"󰡎花𧡊㐌固払𨅸𬂙","quocngu":"Dưới hoa thấy đã có chàng đứng trông."},{"nom":"責𢚸哬𠾿󰋇𢚸","quocngu":"Trách lòng hờ hững mấy lòng,"},{"nom":"󰌕香祝底冷𬚼閉𥹰","quocngu":"Lửa hương chốc để lạnh lùng bấy lâu."},{"nom":"仍羅撘𢖵𢷮愁","quocngu":"Những là đắp nhớ đổi sầu,"},{"nom":"雪霜染姅𠃅頭花𦼚","quocngu":"Tuyết sương nhuốm nửa mái đầu hoa râm."},{"nom":"娘浪𩙍󰈫𩅹扲","quocngu":"Nàng rằng: \\"Gió bắt mưa cầm,"},{"nom":"㐌甘弊貝知音閉遲","quocngu":"Đã cam tệ với tri âm bấy chầy."},{"nom":"永茹特𣇜𣋚󰅒","quocngu":"Vắng nhà được buổi hôm nay,"},{"nom":"𥙩𢚸噲𡭧𠚢低謝𢚸","quocngu":"Lấy lòng gọi chút ra đây tạ lòng.\\""},{"nom":"𨁮蹺𡶀假𠫾𥿺","quocngu":"Lần theo núi giả đi vòng,"},{"nom":"𡳳墻󰟯固裊通買樔","quocngu":"Cuối tường dường có nẻo thông mới rào."},{"nom":"趂𢬣𨷑鎖洞桃","quocngu":"Sấn tay mở khoá động đào,"},{"nom":"𢩵𩄲𬂙𤑟𡓃𠓨天台","quocngu":"Rẽ mây trông rõ lối vào Thiên Thai."},{"nom":"󰘚𥆾󰘚強添鮮","quocngu":"Mặt nhìn mặt càng thêm tươi,"},{"nom":"邊𠳒萬福邊𠳒寒暄","quocngu":"Bên lời vạn phúc, bên lời hàn huyên."},{"nom":"󰡾𦠘衛准書軒","quocngu":"Sánh vai về chốn thư hiên,"},{"nom":"󰃉𠳒風月󰠱願𡽫滝","quocngu":"Góp lời phong nguyệt, nặng nguyền non sông."},{"nom":"𨕭案筆架書筒","quocngu":"Trên yên bút giá thư đồng,"},{"nom":"淡青固幅幀松撩𨖲","quocngu":"Đạm thanh có bức tranh tùng treo lên."},{"nom":"風霜特𨤔天然","quocngu":"Phong sương được vẻ thiên nhiên,"},{"nom":"𥉬𠸦󰞺筆強𥆾強鮮","quocngu":"Liếc khen nét bút càng nhìn càng tươi."},{"nom":"生浪樸畵𣃣耒","quocngu":"Sinh rằng: \\"Phác hoạ vừa rồi,"},{"nom":"品題嗔󰜋𠄽𠳒添花","quocngu":"Phẩm đề xin một vài lời thêm hoa.\\""},{"nom":"𢬣僊𩙍匝𩅹沙","quocngu":"Tay tiên gió táp mưa sa,"},{"nom":"壙𨕭停筆草𢽼𦊚勾","quocngu":"Khoảng trên dừng bút thảo và bốn câu."},{"nom":"𠸦才吔玉噴珠","quocngu":"Khen tài nhả ngọc, phun châu:"},{"nom":"娘班妸謝拱兜世尼","quocngu":"\\"Nàng Ban ả Tạ cũng đâu thế này!"},{"nom":"刼修𠸗󰂇渚𠫆","quocngu":"Kiếp tu xưa ví chưa dày,"},{"nom":"福󰅹𢩮特價尼朱昂","quocngu":"Phúc nào nhắc được giá này cho ngang!\\""},{"nom":"娘浪濫𥉬容光","quocngu":"Nàng rằng: \\"Trộm liếc dung quang,"},{"nom":"拯𡑝玉佩拱坊金門","quocngu":"Chẳng sân ngọc bội cũng phường kim môn."},{"nom":"擬命分𤘁𦑃𧋃","quocngu":"Nghĩ mình phận mỏng cánh chuồn,"},{"nom":"囷撑別固󰉓𧷺麻𫨩","quocngu":"Khuôn xanh biết có vuông tròn mà hay?"},{"nom":"𢖵自𢆥唉䜹癡","quocngu":"Nhớ từ năm hãy thơ ngây,"},{"nom":"據𥪝相法𪥀柴吱排","quocngu":"Cứ trong tướng pháp lắm thầy chê bai:"},{"nom":"英花𤼵洩𠚢外","quocngu":"Anh hoa phát tiết ra ngoài,"},{"nom":"𠦳秋薄命󰜋𠁀才󰡛","quocngu":"Nghìn thu bạc mệnh một đời tài hoa."},{"nom":"𬂙𠊚吏𥋴典些","quocngu":"Trông người lại ngắm đến ta,"},{"nom":"󰜋𠫆󰜋𤘁別羅固𢧚","quocngu":"Một dày, một mỏng biết là có nên?\\""},{"nom":"生浪邂逅羅緣","quocngu":"Sinh rằng: \\"Giải cấu là duyên,"},{"nom":"𠸗󰅒人定勝天拱𡗉","quocngu":"Xưa nay nhân định thắng thiên cũng nhiều."},{"nom":"油兜解結典調","quocngu":"Dù đâu giải kết đến điều,"},{"nom":"願󰝂鐄𥒥麻料貝身","quocngu":"Nguyện đem vàng đá mà liều với thân!\\""},{"nom":"𨇜調衷曲慇懃","quocngu":"Đủ điều trung khúc ân cần,"},{"nom":"𢚸春派派󱋓春藏藏","quocngu":"Lòng xuân phơi phới, chén xuân tàng tàng."},{"nom":"𣈜𢝙𥐆拯󰡿𡬼","quocngu":"Ngày vui ngắn chẳng đầy gang,"},{"nom":"𬂙𠚢鵶㐌吟𦎛𡽫兑","quocngu":"Trông ra ác đã ngậm gương non đoài."},{"nom":"永茹拯便𡎢佳","quocngu":"Vắng nhà chẳng tiện ngồi dai,"},{"nom":"啫払娘買急移蔥紗","quocngu":"Giã chàng, nàng mới kíp dời song sa."},{"nom":"典茹𣃣𧡊信茹","quocngu":"Đến nhà vừa thấy tin nhà,"},{"nom":"𠄩親群𢷣席花渚衛","quocngu":"Hai thân còn dở tiệc hoa chưa về."},{"nom":"𨷯外倍𢷀簾𦂛","quocngu":"Cửa ngoài vội rủ rèm the,"},{"nom":"駸駸氷𡓃園𣌉󰜋命","quocngu":"Xăm xăm băng lối vườn khuya một mình."},{"nom":"抇疎𦎛𢶒頭梗","quocngu":"Nhặt thưa gương giọi đầu cành,"},{"nom":"𦰟畑𬂙𢫫帳螢吃󰢀","quocngu":"Ngọn đèn trông lọt trướng huỳnh hắt hiu."},{"nom":"生群𢭸案燒燒","quocngu":"Sinh còn tựa án thiu thiu,"},{"nom":"𢷣朝如醒𢷣朝如迷","quocngu":"Dở chiều như tỉnh, dở chiều như mê."},{"nom":"㗂𨖲仕動職槐","quocngu":"Tiếng lên sẽ động giấc hoè,"},{"nom":"䏾𦝄㐌熾花棃吏𧵆","quocngu":"Bóng trăng đã xế, hoa lê lại gần."},{"nom":"氷傾嵿峽𡽫神","quocngu":"Bâng khuâng đỉnh giáp non Thần,"},{"nom":"群疑職夢𣈘春𢠩恾","quocngu":"Còn ngờ giấc mộng đêm xuân mơ màng."},{"nom":"娘浪曠永𣎀長","quocngu":"Nàng rằng: \\"Khoảng vắng đêm trường,"},{"nom":"爲花朱沛𠴗塘尋花","quocngu":"Vì hoa cho phải đổ đường tìm hoa."},{"nom":"悲𣇞𤑟󰘚堆些","quocngu":"Bây giờ rõ mặt đôi ta,"},{"nom":"別兜耒女拯羅占包","quocngu":"Biết đâu rồi nữa chẳng là chiêm bao.\\""},{"nom":"倍𢜠爫禮連𠓨","quocngu":"Vội mừng làm lễ rước vào,"},{"nom":"臺蓮𦀼蠟窻桃添香","quocngu":"Đài sen nối sáp, song đào thêm hương."},{"nom":"箋誓共草󰜋章","quocngu":"Tiên thề cùng thảo một chương,"},{"nom":"𩯀𩄲󰜋䋦刀鐄𢺹𠄩","quocngu":"Tóc mây một mối, dao vàng chia hai."},{"nom":"彙𦝄域域𡧲𡗶","quocngu":"Vầng trăng vằng vặc giữa trời,"},{"nom":"丁寧𠄩󰘚󰜋𠳒雙雙","quocngu":"Đinh ninh hai mặt một lời song song."},{"nom":"𩯀絲根紊𡬷𢚸","quocngu":"Tóc tơ căn vặn tấc lòng,"},{"nom":"𤾓𢆥鑿󰜋𫳘同典昌","quocngu":"Trăm năm tạc một chữ đồng đến xương."},{"nom":"𡃹霞聘喠瓊漿","quocngu":"Chén hà sánh giọng quỳnh tương,"},{"nom":"𦄂羅香論屏𦎛䏾籠","quocngu":"Giải là hương lộn, bình gương bóng lồng."},{"nom":"生浪𩙍沫𦝄𤄯","quocngu":"Sinh rằng: \\"Gió mát trăng trong,"},{"nom":"閉𥹰󰅒󰜋𡭧𢚸渚甘","quocngu":"Bấy lâu nay một chút lòng chưa cam."},{"nom":"𨃉霜渚𪤍橋藍","quocngu":"Chày sương chưa nện cầu Lam,"},{"nom":"𢜝吝巾過𠚢󰕔所庒","quocngu":"Sợ lần khân quá ra sàm sỡ chăng?\\""},{"nom":"娘浪紅葉赤繩","quocngu":"Nàng rằng: \\"Hồng diệp xích thằng,"},{"nom":"󰜋𠳒拱㐌㗂浪相知","quocngu":"Một lời cũng đã tiếng rằng tương tri."},{"nom":"他調月怒花箕","quocngu":"Tha điều nguyệt nọ hoa kia,"},{"nom":"群𠚢埃吏惜之貝埃","quocngu":"Còn ra ai lại tiếc gì với ai.\\""},{"nom":"浪𦖑浽㗂琴臺","quocngu":"Rằng: \\"Nghe nổi tiếng cầm đài,"},{"nom":"渃𡽫𨻫仍𠻴𦖻鐘期","quocngu":"Nước non luống những lắng tai Chung Kỳ.\\""},{"nom":"𠽔浪賤技詫之","quocngu":"Thưa rằng: \\"Tiện kỹ sá chi,"},{"nom":"㐌𢚸𠰺典敬爲沛󰂅","quocngu":"Đã lòng dạy đến, kính vì phải vâng.\\""},{"nom":"軒𡢐撩産琴𦝄","quocngu":"Hiên sau treo sẵn cầm trăng,"},{"nom":"倍鐄生㐌𢬣㨢昂眉","quocngu":"Vội vàng Sinh đã tay nâng ngang mày."},{"nom":"娘浪藝𨳒𥢆𢬣","quocngu":"Nàng rằng: \\"Nghề mọn riêng tay,"},{"nom":"爫之朱𥘀𢚸尼凜申","quocngu":"Làm chi cho nặng lòng này lắm thân.\\""},{"nom":"攄寅𦀊武𦀊文","quocngu":"So dần dây vũ dây văn,"},{"nom":"𦊚𦀊蘇𡮈蹺韻宫商","quocngu":"Bốn dây to nhỏ theo vần cung thương."},{"nom":"曲兜漢楚戰場","quocngu":"Khúc đâu Hán Sở chiến trường,"},{"nom":"𦖑𠚢㗂鉄㗂鐄扦饒","quocngu":"Nghe ra tiếng sắt, tiếng vàng chen nhau."},{"nom":"曲兜司馬鳯求","quocngu":"Khúc đâu Tư mã Phượng cầu,"},{"nom":"𦖑𠚢如怨如愁沛庒","quocngu":"Nghe ra như oán như sầu phải chăng!"},{"nom":"稽康尼曲廣陵","quocngu":"Kê Khang này khúc Quảng lăng."},{"nom":"󰜋浪流水󰜋浪行雲","quocngu":"Một rằng Lưu thuỷ, một rằng Hành vân."},{"nom":"過關尼曲昭君","quocngu":"Quá quan này khúc Chiêu Quân,"},{"nom":"姅分戀主姅分思家","quocngu":"Nửa phần luyến chúa, nửa phần tư gia."},{"nom":"𤄯如㗂䳽𠖤戈","quocngu":"Trong như tiếng hạc bay qua,"},{"nom":"濁如㗂𤂬買沙姅潙","quocngu":"Đục như tiếng suối mới sa nửa vời."},{"nom":"㗂寬如𩙍倘外","quocngu":"Tiếng khoan như gió thoảng ngoài,"},{"nom":"㗂㕰立立如𡗶覩𩅹","quocngu":"Tiếng mau sầm sập như trời đổ mưa."},{"nom":"𦰟畑欺𤏣欺𥊚","quocngu":"Ngọn đèn khi tỏ khi mờ,"},{"nom":"遣𠊚𡎢妬麻魚菫愁","quocngu":"Khiến người ngồi đó mà ngơ ngẩn sầu."},{"nom":"欺𢭸𫋻欺儈頭","quocngu":"Khi tựa gối, khi cúi đầu,"},{"nom":"欺紆𠃩曲欺珠堆眉","quocngu":"Khi vò chín khúc, khi chau đôi mày."},{"nom":"浪𫨩𪰛寔羅𫨩","quocngu":"Rằng: \\"Hay thì thực là hay,"},{"nom":"𦖑𠚢吟䔲𠽆𠹽世󰅹","quocngu":"Nghe ra ngậm đắng nuốt cay thế nào!"},{"nom":"攄之仍堛蕭騷","quocngu":"So chi những bậc tiêu tao,"},{"nom":"𢝀𢚸命共󰅉󰅉𢚸𠊚","quocngu":"Dột lòng mình cũng nao nao lòng người.\\""},{"nom":"浪悁秩󰞺𠫾耒","quocngu":"Rằng: \\"Quen mất nết đi rồi,"},{"nom":"󰢁𢝙催共性𡗶别牢","quocngu":"Tẻ vui thôi cũng tính trời biết sao!"},{"nom":"𠳒鐄󰂅領意高","quocngu":"Lời vàng vâng lĩnh ý cao,"},{"nom":"祸寅寅󰈫𡭧󰅹特空","quocngu":"Hoạ dần dần bớt chút nào được không?\\""},{"nom":"𦰟蘭強𤍊式紅","quocngu":"Ngọn lan càng tỏ thức hồng,"},{"nom":"頭眉𡳳󰘚強濃𬌓夭","quocngu":"Đầu mày cuối mặt càng nồng tấm yêu."},{"nom":"㳥情󰟯㐌漂漂","quocngu":"Sóng tình dường đã xiêu xiêu,"},{"nom":"䀡𥪝歐厭固調𢙲𢜞","quocngu":"Xem trong âu yếm có điều lả lơi."},{"nom":"𠽔浪停𥙩爫制","quocngu":"Thưa rằng: \\"Đừng lấy làm chơi,"},{"nom":"𠯇朱𠽔歇󰜋𠳒㐌󰅉","quocngu":"Dẽ cho thưa hết một lời đã nao!"},{"nom":"𨤔之󰜋朶桃夭","quocngu":"Vẻ chi một đoá đào yêu,"},{"nom":"園紅之監垠樔𪀄撑","quocngu":"Vườn hồng chi dám ngăn rào chim xanh."},{"nom":"㐌朱𠓨幅布荆","quocngu":"Đã cho vào bậc bố kinh,"},{"nom":"道從夫𥙩𡦂貞爫頭","quocngu":"Đạo tòng phu lấy chữ trinh làm đầu."},{"nom":"𠚢從𨕭濮𥪝𣘛","quocngu":"Ra tuồng trên Bộc trong dâu,"},{"nom":"仍𡥵𠊚意埃求爫之","quocngu":"Những con người ấy ai cầu làm chi."},{"nom":"沛調咹󰟉於𪰛","quocngu":"Phải điều ăn xổi ở thì."},{"nom":"節𤾓𢆥女補𠫾󰜋𣈜","quocngu":"Tiết trăm năm nỡ bỏ đi một ngày!"},{"nom":"𡄎綠奇遇𠸗𫢩","quocngu":"Gẫm duyên kỳ ngộ xưa nay,"},{"nom":"侶堆埃吏𫅠齊崔張","quocngu":"Lứa đôi ai lại đẹp tày Thôi Trương."},{"nom":"𩄲𩅹打覩𥒥鐄","quocngu":"Mây mưa đánh đổ đá vàng,"},{"nom":"過朝𠓀㐌󱋓𠴔燕󰢒","quocngu":"Quá chiều trước đã chán chường yến anh."},{"nom":"𥪝欺𢭸𦑃連梗","quocngu":"Trong khi tựa cánh liền cành,"},{"nom":"麻𢚸𥜤󰠹㐌呈󰜋邊","quocngu":"Mà lòng rẻ rúng đã trình một bên."},{"nom":"𠃅西底冷香願","quocngu":"Mái tây để lạnh hương nguyền,"},{"nom":"吹綠潭𧺀𠚢緣㤳旁","quocngu":"Xui duyên đằm thắm ra duyên bẽ bàng."},{"nom":"招梭𠓀拯𪧚床","quocngu":"Gieo thoi trước chẳng giữ giàng,"},{"nom":"底𡢐𢧚𢢆共払𪽝埃","quocngu":"Để sau nên thẹn cùng chàng bởi ai?"},{"nom":"倍之柳押花奈","quocngu":"Vội chi liễu ép hoa nài,"},{"nom":"群身群󰜋填培固欺","quocngu":"Còn thân còn một đền bồi có khi.\\""},{"nom":"𧡊𠳒端正易𦖑","quocngu":"Thấy lời đoan chính dễ nghe,"},{"nom":"払強添𢘝添爲𨑮分","quocngu":"Chàng càng thêm nể thêm vì mười phân."},{"nom":"䏾艚𣃣𤁕𨤔銀","quocngu":"Bóng tàu vừa lạt vẻ ngân."},{"nom":"信兜㐌󰣅󰘇垠噲𠓨","quocngu":"Tin đâu đã kết cửa ngăn gọi vào."},{"nom":"娘連倍跙𢩣絩","quocngu":"Nàng liền vội trở buồng thêu,"},{"nom":"生連𨄹𨀈𡑝桃倍𠚢","quocngu":"Sinh liền dạo bước sân đào vội ra."},{"nom":"𨷑䀡手筆嚴堂","quocngu":"Mở xem thủ bút nghiêm đường,"},{"nom":"𠴍浪叔父賖塘命終","quocngu":"Nhắn rằng: \\"Thúc phụ xa đường mệnh chung."},{"nom":"唉群寄塟遼東","quocngu":"Hãy còn kí táng liêu đông,"},{"nom":"故鄕𣾺演𠦳重山溪","quocngu":"Có hương khơi diễn ngàn trùng sơn khê."},{"nom":"𣈙迻靈襯衛圭","quocngu":"Rày đưa linh thấn về quê,"},{"nom":"世󰅹𡥵拱沛衛護䘮","quocngu":"Thế nào con cũng phải về hộ tang.\\""},{"nom":"𠻵信掣浽驚惶","quocngu":"Mảng tin xiết nỗi kinh hoàng,"},{"nom":"氷命𨇍𠓀臺粧叙情","quocngu":"Băng mình lẻn trước đài trang tự tình."},{"nom":"𨃴頭每浽丁寧","quocngu":"Gót đầu mọi nỗi đinh ninh,"},{"nom":"浽茹䘮𩯀浽命賒吹","quocngu":"Nỗi nhà tang tóc, nỗi mình xa xôi:"},{"nom":"事兜渚趿堆回","quocngu":"\\"Sự đâu chưa kịp đôi hồi,"},{"nom":"綠兜渚趿󰜋𠳒𢭂絲","quocngu":"Duyên đâu chưa kịp một lời trao tơ,"},{"nom":"𦝄誓群妬猪猪","quocngu":"Trăng thề còn đó trơ trơ,"},{"nom":"監賒吹󰘚麻䜹撻𢚸","quocngu":"Dám xa xôi mặt mà thưa thớt lòng."},{"nom":"外𠦳𨤵隔𠀧冬","quocngu":"Ngoài nghìn dặm, cách ba đông,"},{"nom":"䋦愁欺攑朱衝群迡","quocngu":"Mối sầu khi gỡ cho xong còn chầy."},{"nom":"󱓀鐄𫳘玉朱𫨩","quocngu":"Gìn vàng giữ ngọc cho hay,"},{"nom":"朱停𢚸几蹎𩄲𡳳𡗶","quocngu":"Cho đành lòng kẻ chân mây cuối trời.\\""},{"nom":"𦖻𦖑𫆧浽排排","quocngu":"Tai nghe ruột nổi bời bời,"},{"nom":"汲凝娘買𤋵𠳒𠓀𡢐","quocngu":"Ngập ngừng nàng mới giãi lời trước sau:"},{"nom":"翁絲𢴿掛之饒","quocngu":"\\"Ông tơ chèo quải chi nhau,"},{"nom":"渚𢝙森合㐌愁坡𢴾","quocngu":"Chưa vui sum họp đã sầu pha phôi."},{"nom":"共饒卒㐌𥘀𠳒","quocngu":"Cùng nhau trót đã nặng lời,"},{"nom":"酉台𠃅𩯀鍳移𢚸絲","quocngu":"Dẫu thay mái tóc dám dời lòng tơ."},{"nom":"管包𣎃待𢆥徐","quocngu":"Quản bao tháng đợi năm chờ,"},{"nom":"擬𠊚咹𩙍𦣰𩅹㤕忱","quocngu":"Nghĩ người ăn gió nằm mưa xót thầm."},{"nom":"㐌願𠄩𡦂同心","quocngu":"Đã nguyền hai chữ đồng tâm"},{"nom":"𤾓𢆥誓拯揞琴船埃","quocngu":"Trăm năm thề chẳng ôm cầm thuyền ai."},{"nom":"群𡽫群渃群𨱽","quocngu":"Còn non, còn nước, còn dài,"},{"nom":"群衛群𢖵典𠊚𣋚𫢩","quocngu":"Còn về còn nhớ đến người hôm nay!\\""},{"nom":"拥𥿱渚女𢯦𢬣","quocngu":"Dùng dằng chưa nỡ rời tay,"},{"nom":"彙東𬂙㐌𨅸𣦍󰣓茹","quocngu":"Vầng đông trông đã đứng ngay nóc nhà."},{"nom":"礙𥔘󰜋𨀈󰜋賒","quocngu":"Ngại ngùng một bước một xa,"},{"nom":"󰜋𠳒珍重珠沙󰋇行","quocngu":"Một lời trân trọng châu sa mấy hàng."},{"nom":"纀鞍𢮿梗倍鐄","quocngu":"Buộc yên quảy gánh vội vàng,"},{"nom":"䋦愁𢫟姅𨀈塘𢺹𠄩","quocngu":"Mối sầu sẻ nửa, bước đàng chia hai."},{"nom":"𢞂𬂙風景圭𠊚","quocngu":"Buồn trông phong cảnh quê người,"},{"nom":"頭梗鵑日𡳳𡗶鴈疎","quocngu":"Đầu cành quyên nhặt, cuối trời nhạn thưa."},{"nom":"󰞽𠊚𬂍𩙍旬𩅹","quocngu":"Não người cữ gió tuần mưa,"},{"nom":"󰜋𣈜𥘀梗相思󰜋𣈜","quocngu":"Một ngày nặng gánh tương tư một ngày."},{"nom":"娘群𨅸癒軒西","quocngu":"Nàng còn đứng dú hiên tây,"},{"nom":"𠃩囬問曰如圍䋦絲","quocngu":"Chín hồi vấn vít như vầy mối tơ."},{"nom":"𬂙澄𤌋𡴯窻疎","quocngu":"Trông chừng khói ngất song thưa,"},{"nom":"花㵢倬𧺀柳梌壳鐄","quocngu":"Hoa trôi trác thắm, liễu xơ xác vàng."},{"nom":"秦銀𨄹𨃴樓粧","quocngu":"Tần ngần dạo gót lầu trang,"},{"nom":"󰜋團𢜠壽外鄕買衛","quocngu":"Một đoàn mừng thọ ngoại hương mới về."},{"nom":"寒暄渚趿啫㖷","quocngu":"Hàn huyên chưa kịp dã dề,"},{"nom":"差衙俸𧡊𦊚皮哰嗃","quocngu":"Sai nha bỗng thấy bốn bề lao xao."},{"nom":"𠊚腋𡱩几𢬣刀","quocngu":"Người nách thước, kẻ tay đao,"},{"nom":"頭𬌥󰘚馭泑泑如㵢","quocngu":"Đầu trâu mặt ngựa ào ào như sôi."},{"nom":"拁扛󰜋老󰜋𤳇","quocngu":"Già giang một lão một trai,"},{"nom":"󰜋𦀊無類纀𠄩深情","quocngu":"Một dây vô loại buộc hai thâm tình."},{"nom":"菭茹㘇㗂𧋆撑","quocngu":"Đầy nhà vang tiếng ruồi xanh,"},{"nom":"扡徠椌𦄅散情󰢃𦁼","quocngu":"Rã rời khung dệt, tan tành gói may."},{"nom":"圖細軟𧵑𥢆西","quocngu":"Đồ tế nhuyễn, của riêng tây,"},{"nom":"瀝𥑥生撅朱菭襊貪","quocngu":"Sạch sành sanh quét cho đầy túi tham."},{"nom":"調兜𠖤纀埃爫","quocngu":"Điều đâu bay buộc ai làm,"},{"nom":"尼埃單𫃡秩緘俸仍","quocngu":"Này ai đan rập giật giàm bỗng dưng."},{"nom":"𠳨𠚢𡢐買别浪","quocngu":"Hỏi ra sau mới biết rằng:"},{"nom":"沛𠸜稱出在绳半絲","quocngu":"Phải tên xưng xuất tại thằng bán tơ."},{"nom":"󰜋茹恍惚菫魚","quocngu":"Một nhà hoảng hốt ngẩn ngơ,"},{"nom":"㗂寃𠰺坦案疑𤍶𩄲","quocngu":"Tiếng oan dậy đất, án ngờ loà mây."},{"nom":"下辭𠹚拜卒𣈜","quocngu":"Hạ từ van vái trót ngày,"},{"nom":"的𦖻憐恤負𢬣摧殘","quocngu":"Điếc tai lân tuất, phũ tay tồi tàn."},{"nom":"樑高𢫫虐𦀊冤","quocngu":"Rường cao rút ngược dây oan,"},{"nom":"酉𠊚𥒥拱󰞺肝路𠊚","quocngu":"Dẫu người đá cũng nát gan lọ người."},{"nom":"󰘚𬂙𤴬疸󰠹𢯦","quocngu":"Mặt trông đau đớn rụng rời,"},{"nom":"冤尼群󰜋呌𡗶仍賒","quocngu":"Oan này còn một kêu trời, nhưng xa."},{"nom":"󰜋𣈜邏𫗁差衙","quocngu":"Một ngày lạ thói sai nha,"},{"nom":"爫朱酷害拯戈爲錢","quocngu":"Làm cho khốc hại chẳng qua vì tiền."},{"nom":"牢朱骨肉院全","quocngu":"Sao cho cốt nhục vẹn tuyền,"},{"nom":"𥪝欺遇變從權别牢","quocngu":"Trong khi ngộ biến tòng quyền biết sao"},{"nom":"綠會遇德劬勞","quocngu":"Duyên hội ngộ, đức cù lao,"},{"nom":"𡦂情𡦂孝邊󰅹𥘀欣","quocngu":"Chữ tình chữ hiếu, bên nào nặng hơn?"},{"nom":"底𠳒誓海盟山","quocngu":"Để lời thệ hải minh sơn,"},{"nom":"爫𡥵𠓀沛填恩生成","quocngu":"Làm con trước phải đền ơn sinh thành."},{"nom":"決情娘買下情","quocngu":"Quyết tình nàng mới hạ tình:"},{"nom":"𠯇朱底妾半命贖吒","quocngu":"Dẽ cho để thiếp bán mình chuộc cha!"},{"nom":"户終固几吏𫅷","quocngu":"Họ Chung có kẻ lại già,"},{"nom":"拱𥪝衙役吏羅慈心","quocngu":"Cũng trong nha dịch lại là từ tâm."},{"nom":"𧡊娘孝重情深","quocngu":"Thấy nàng hiếu trọng tình thâm,"},{"nom":"爲娘擬拱傷忱㤕𢠿","quocngu":"Vì nàng nghĩ cũng thương thầm xót vay."},{"nom":"併排律妬𠍓低","quocngu":"Tính bài lót đó luồn đây,"},{"nom":"固𠀧𤾓两役尼買吹","quocngu":"Có ba trăm lạng việc này mới xuôi."},{"nom":"唉衛暫付檻外","quocngu":"Hãy về tạm phó giam ngoài,"},{"nom":"𠸕娘規料𥪝堆𠀧𣈜","quocngu":"Dặn nàng quy liệu trong đôi ba ngày."},{"nom":"傷情昆𥘷疎癡","quocngu":"Thương tình con trẻ thơ ngây,"},{"nom":"﨤干禍𩙍灾𠖤不期","quocngu":"Gặp cơn vạ gió tai bay bất kỳ!"},{"nom":"𤴬𢚸死别生離","quocngu":"Đau lòng tử biệt sinh ly,"},{"nom":"身群拯惜惜之典綠","quocngu":"Thân còn chẳng tiếc, tiếc gì đến duyên!"},{"nom":"曷𩅹詫擬分𢤞","quocngu":"Hạt mưa sá nghĩ phận hèn,"},{"nom":"料耽𡬷𦹵決𡊰𠀧春","quocngu":"Liệu đem tấc cỏ quyết đền ba xuân."},{"nom":"事𢚸吘貝水人","quocngu":"Sự lòng ngỏ với băng nhân,"},{"nom":"信霜吨󰢄賒𧵆㖔嗃","quocngu":"Tin sương đồn đại xa gần xôn xao."},{"nom":"𧵆沔固󰜋媒󰅹","quocngu":"Gần miền có một mụ nào,"},{"nom":"迻𠊚遠客尋𠓨問名","quocngu":"Đưa người viễn khách tìm vào vấn danh."},{"nom":"𠳨𠸜浪馬監生","quocngu":"Hỏi tên, rằng: \\"Mã Giám sinh\\","},{"nom":"𠳨圭浪縣臨清拱𧵆","quocngu":"Hỏi quê, rằng: \\"Huyện Lâm Thanh cũng gần.\\""},{"nom":"過年擢外𦊚旬","quocngu":"Quá niên trạc ngoại bốn tuần,"},{"nom":"𪵟𫙂忍隊襖裙丙包","quocngu":"Mày râu nhẵn nhụi, áo quần bảnh bao."},{"nom":"𠓀柴𡢐伵哰嗃","quocngu":"Trước thầy sau tớ lao xao,"},{"nom":"茹氷迻䋦逴𠓨樓粧","quocngu":"Nhà băng đưa mối rước vào lầu trang."},{"nom":"㨳𨕭𡎢卒産床","quocngu":"Ghế trên ngồi tót sẵn sàng,"},{"nom":"𢩣𥪝䋦㐌𠽖娘急𠚢","quocngu":"Buồng trong mối đã giục nàng kíp ra."},{"nom":"浽命添息浽茹","quocngu":"Nỗi mình thêm tức nỗi nhà,"},{"nom":"㙴春󰜋𨀈淚花󰋇行","quocngu":"Thềm xuân một bước, lệ hoa mấy hàng."},{"nom":"礙𥔘憚𩙍𠲖霜","quocngu":"Ngại ngùng dạn gió e sương,"},{"nom":"䀡花䏾𢢆𬂙𦎛󰘚𠫆","quocngu":"Xem hoa bóng thẹn, trông gương mặt dày."},{"nom":"䋦強𢵼𩅘󰈫𢬣","quocngu":"Mối càng vén tóc bắt tay,"},{"nom":"󰞺𢞂如菊調𤷍如梅","quocngu":"Nét buồn như cúc, điệu gầy như mai."},{"nom":"旦都斤色斤才","quocngu":"Đắn đo cân sắc cân tài,"},{"nom":"押宮琹月此排𦑗疎","quocngu":"Ép cung cầm nguyệt, thử bài quạt thơ."},{"nom":"𪉽濃󰜋𨤔󰜋於","quocngu":"Mặn nồng một vẻ một ưa,"},{"nom":"平𢚸客買隨機迭迢","quocngu":"Bằng lòng khách mới tuỳ cơ dặt dìu."},{"nom":"浪󰢅玉典藍橋","quocngu":"Rằng: \\"Mua ngọc đến Lam Kiều,"},{"nom":"聘儀󰂅𠰺包饒朱詳","quocngu":"Sính nghi vâng dạy bao nhiêu cho tường?\\""},{"nom":"䋦浪價當𠦳鐄","quocngu":"Mối rằng: \\"Giá đáng nghìn vàng,"},{"nom":"汲茹洳量𠊚傷𪾋㖠","quocngu":"Gấp nhà nhờ lượng người thương dám nài.\\""},{"nom":"𪂲𤷍󰈫󰜋添𠄩","quocngu":"Cò kè bớt một thêm hai,"},{"nom":"徐𥹰我價𠹾外𦊚𤾓","quocngu":"Giờ lâu ngã giá chịu ngoài bốn trăm."},{"nom":"󰜋𠳒船㐌淹潭","quocngu":"Một lời thuyền đã êm giầm,"},{"nom":"唉迻𦑃帖𠓀擒爫𥱬","quocngu":"Hãy đưa cánh thiếp trước cầm làm ghi."},{"nom":"定𣈜納釆于歸","quocngu":"Định ngày nạp thái vu quy,"},{"nom":"錢𨉞㐌固役之拯衝","quocngu":"Tiền lưng đã có việc gì chẳng xong!"},{"nom":"󰜋𠳒𢭄貝終公","quocngu":"Một lời cậy với Chung công,"},{"nom":"乞詞暫領王翁衛茹","quocngu":"Khất từ tạm lĩnh Vương ông về nhà."},{"nom":"傷情昆𥘷吒𫅷","quocngu":"Thương tình con trẻ cha già,"},{"nom":"𥆾娘翁仍𧖱沙𫆧油","quocngu":"Nhìn nàng ông những máu sa ruột rầu."},{"nom":"餒昆仍約衛𡢐","quocngu":"Nuôi con những ước về sau,"},{"nom":"𢭂絲沛侶招球當尼","quocngu":"Trao tơ phải lứa, gieo cầu đáng nơi."},{"nom":"𡗶爫之極閉𡗶","quocngu":"Trời làm chi cực bấy trời,"},{"nom":"尼埃誣托朱𠊚合散","quocngu":"Này ai vu thác cho người hợp tan!"},{"nom":"斧刀包管身殘","quocngu":"\\"Búa dao bao quản thân tàn,"},{"nom":"女菭墮𥘷強冤酷𫅷","quocngu":"Nỡ đày đoạ trẻ, càng oan khốc già."},{"nom":"󰜋吝𡢐𠓀拱羅","quocngu":"Một lần sau trước cũng là,"},{"nom":"催他󰘚屈拯他𢚸𤴬","quocngu":"Thôi thà mặt khuất chẳng thà lòng đau!\\""},{"nom":"蹺𠳒如沚𣳔珠","quocngu":"Theo lời như chảy dòng châu,"},{"nom":"料命翁㐌招頭墙𪿙","quocngu":"Liều mình ông đã gieo đầu tường vôi."},{"nom":"倍鐄几𪧚𠊚𥋳","quocngu":"Vội vàng kẻ giữ người coi,"},{"nom":"𡮈蘇娘吏尋𠳒𡅳干","quocngu":"Nhỏ to nàng lại tìm lời khuyên can:"},{"nom":"𨤔之󰜋朶紅顔","quocngu":"\\"Vẻ chi một đoá hồng nhan,"},{"nom":"𩅘絲𡭧渚填恩生成","quocngu":"Tóc tơ chút chửa đền ơn sinh thành."},{"nom":"𤼸書㐌𢢆娘鶯","quocngu":"Dâng thư đã thẹn nàng Oanh,"},{"nom":"吏輸妸李半命𫨩牢","quocngu":"Lại thua ả Lý bán mình hay sao?"},{"nom":"𦾣椿歲鶴強高","quocngu":"Thôi xuân tuổi hạc càng cao,"},{"nom":"󰜋𣘃梗搏别包饒梗","quocngu":"Một cây gánh vác biết bao nhiêu cành."},{"nom":"量𨕭油拯决情","quocngu":"Lượng trên dù chẳng quyết tình,"},{"nom":"𩙍𩅹歐罕散情渃𡽫","quocngu":"Gió mây âu hẳn tan tành nước non."},{"nom":"他浪料󰜋身昆","quocngu":"Thà rằng liều một thân con,"},{"nom":"花油扡𦑃羅群撑𣘃","quocngu":"Hoa dù rã cánh, là còn xanh cây."},{"nom":"分牢停丕拱噅","quocngu":"Phận sao đành vậy cũng vầy,"},{"nom":"擒如拯杜仍𣈜群撑","quocngu":"Cầm như chẳng đỗ những ngày còn xanh."},{"nom":"拱停併窘算觥","quocngu":"Cũng đừng tính quẩn toan quanh,"},{"nom":"散茹羅󰜋舌命羅𠄩","quocngu":"Tan nhà là một, thiệt mình là hai.\\""},{"nom":"沛𠳒翁拱淹𦖻","quocngu":"Phải lời ông cũng êm tai,"},{"nom":"𥆾饒湥𥐆湥𨱽滚昂","quocngu":"Nhìn nhau giọt ngắn giọt dài ngổn ngang."},{"nom":"𠃅𡢐户馬𣃣𨖅","quocngu":"Mái sau họ Mã vừa sang,"},{"nom":"詞花㐌記斤鐄買𢭂","quocngu":"Tờ hoa đã ký, cân vàng mới trao."},{"nom":"𦝄𫅷毒地爫牢","quocngu":"Trăng già độc địa làm sao?"},{"nom":"擒𦀊𫽄捛纀𠓨自然","quocngu":"Cầm dây chẳng lựa buộc vào tự nhiên."},{"nom":"𥪝𢬣㐌産銅錢","quocngu":"Trong tay đã sẵn đồng tiền,"},{"nom":"油𢚸𢷮𤽸台顛𧁷之","quocngu":"Dầu lòng đổi trắng thay đen khó gì."},{"nom":"户終𠚢飭執爲","quocngu":"Họ Chung ra sức giúp vì,"},{"nom":"禮心㐌達訟期拱衝","quocngu":"Lễ tâm đã đặt, tụng kỳ cũng xong."},{"nom":"役茹買暫從容","quocngu":"Việc nhà mới tạm thong dong,"},{"nom":"星期𠽖吔㐌蒙度衛","quocngu":"Tinh kỳ giục giã đã mong độ về."},{"nom":"󰜋命𢭗𦰟畑𣌉","quocngu":"Một mình nương ngọn đèn khuya,"},{"nom":"𬡢滛湥𢣃𩯀車𠃅愁","quocngu":"Áo dầm giọt tủi, tóc se mái sầu."},{"nom":"分油油丕拱油","quocngu":"Phận dầu, dầu vậy cũng dầu,"},{"nom":"𡭧𢚸刀等閉𥹰󰜋𠳒","quocngu":"Chút lòng đeo đẳng bấy lâu một lời."},{"nom":"功程計别󰋇𨑮","quocngu":"Công trình kể biết mấy mươi."},{"nom":"爲些𠻞喫朱𠊚𢷣揚","quocngu":"Vì ta khăng khít cho người dở dang."},{"nom":"誓花渚燥𡃹鐄","quocngu":"Thề hoa chưa ráo chén vàng,"},{"nom":"磊誓催㐌負徬貝花","quocngu":"Lỗi thề thôi đã phũ phàng với hoa."},{"nom":"𡗶遼𡽫渃包賒","quocngu":"Trời Liêu non nước bao xa,"},{"nom":"擬兜𢩵󰘇𢺺茹自碎","quocngu":"Nghĩ đâu rẽ cửa chia nhà tự tôi!"},{"nom":"别包綠女誓培","quocngu":"Biết bao duyên nợ thề bồi,"},{"nom":"劫尼催世羅催群之","quocngu":"Kiếp này thôi thế là thôi còn gì?"},{"nom":"再生渚𢴑香誓","quocngu":"Tái sinh chưa dứt hương thề,"},{"nom":"爫身𬌥馭填誼竹梅","quocngu":"Làm thân trâu ngựa đền nghì trúc mai"},{"nom":"𡢻情渚假朱埃","quocngu":"Nợ tình chưa trả cho ai,"},{"nom":"塊情芒𫴋泉臺渚散","quocngu":"Khối tình mang xuống tuyền đài chưa tan!\\""},{"nom":"浽𥢆𥢆仍盘桓","quocngu":"Nỗi riêng, riêng những bàn hoàn,"},{"nom":"油炵𤽸𥒦湥瀾渗巾","quocngu":"Dầu chong trắng đĩa, lệ tràn thấm khăn."},{"nom":"翠雲秩醒職春","quocngu":"Thuý Vân chợt tỉnh giấc xuân,"},{"nom":"󰡎畑𨄾典殷勤𠳨𠻃","quocngu":"Dưới đèn ghé đến ân cần hỏi han."},{"nom":"機𡗶橷𣷭多端","quocngu":"Cơ trời dâu bể đa đoan,"},{"nom":"󰜋茹底姉𥢆寃󰜋命","quocngu":"Một nhà để chị riêng oan một mình."},{"nom":"據之𡎢忍殘更","quocngu":"Cớ chi ngồi nhẫn tàn canh,"},{"nom":"浽𥢆群王䋦情之低","quocngu":"Nỗi riêng còn vướng mối tình chi đây?"},{"nom":"浪𢚸當忖恜菭","quocngu":"Rằng: \\"Lòng đương thổn thức đầy,"},{"nom":"絲綠群王䋦尼渚衝","quocngu":"Tơ duyên còn vướng mối này chưa xong."},{"nom":"𠼯𠶣𠚢拱𢢆𢝣","quocngu":"Hở môi ra cũng thẹn thùng,"},{"nom":"底𢚸乙負𬌓𢚸貝埃","quocngu":"Để lòng ắt phụ tấm lòng với ai!"},{"nom":"𢭄㛪㛪拱𠹾𠳒","quocngu":"Cậy em, em cũng chịu lời,"},{"nom":"𡎥蓮朱姉𥛉耒仕疎","quocngu":"Ngồi lên cho chị lạy rồi sẽ thưa."},{"nom":"𡧲塘縆梗相思","quocngu":"Giữa đường đứt gánh tương tư,"},{"nom":"膠鸞執䋦絲乘默㛪","quocngu":"Keo loan chắp mối tơ thừa mặc em."},{"nom":"計自欺﨤払金","quocngu":"Kể từ khi gặp chàng Kim,"},{"nom":"欺𣈜𦑗約欺𣎀𡃹誓","quocngu":"Khi ngày quạt ước, khi đêm chén thề."},{"nom":"事兜㳥𩙍不期","quocngu":"Sự đâu sóng gió bất kỳ,"},{"nom":"孝情坤𨤰𠄩皮院𠄩","quocngu":"Hiếu tình khôn lẽ hai bề vẹn hai."},{"nom":"𣈜春㛪唉群𨱽","quocngu":"Ngày xuân em hãy còn dài,"},{"nom":"㤕情𧖱󰔨台𠳒渃𡽫","quocngu":"Xót tình máu mủ, thay lời nước non."},{"nom":"姉油䏦󰞺󰢇𤷱","quocngu":"Chị dù thịt nát xương mòn,"},{"nom":"唅唭𠃩𤂬唉群𦹳徠","quocngu":"Ngậm cười chín suối hãy còn thơm lây."},{"nom":"隻鑅貝幅詞𩄲","quocngu":"Chiếc vành với bức tờ mây,"},{"nom":"綠尼沛𪧚物尼𧵑終","quocngu":"Duyên này phải giữ, vật này của chung."},{"nom":"油㛪𢧚𡞕𢧚𫯳","quocngu":"Dầu em nên vợ nên chồng,"},{"nom":"擬𠊚命薄乙𢚸拯𫡻","quocngu":"Nghĩ người mệnh bạc ắt lòng chẳng quên."},{"nom":"秩𠊚群𡭧𧵑信","quocngu":"Mất người còn chút của tin,"},{"nom":"泛彈貝𬌓香願𣈜𠸗","quocngu":"Phím đàn với tấm hương nguyền ngày xưa."},{"nom":"枚𡢐油典包徐","quocngu":"Mai sau dù đến bao giờ,"},{"nom":"焠爐香意搊絲泛尼","quocngu":"Đốt lò hương ấy, so tơ phím này."},{"nom":"𬂙𠚢𦰟𦹵蘿𣘃","quocngu":"Trông ra ngọn cỏ lá cây,"},{"nom":"𧡊囂囂𩙍浪𫨩姉衛","quocngu":"Thấy hiu hiu gió rằng hay chị về."},{"nom":"𩲉群恾󰠱𠳒誓","quocngu":"Hồn còn mang nặng lời thề,"},{"nom":"󰞺身蒲柳㨋誼竹梅","quocngu":"Nát thân bồ liễu, trả nghì trúc mai."},{"nom":"夜臺隔󰘚屈𠳒","quocngu":"Dạ đài cách mặt khuất lời,"},{"nom":"洒填湥渃朱𠊚托寃","quocngu":"Rảy xin giọt nước cho người thác oan."},{"nom":"悲徐簪技𦎛散","quocngu":"Bây giờ trâm gãy gương tan,"},{"nom":"計爫牢掣𨷈萬愛恩","quocngu":"Kể làm sao xiết muôn vàn ái ân."},{"nom":"𤾓𠦳𠳚𥛉情君","quocngu":"Trăm nghìn gửi lại tình quân,"},{"nom":"絲縁𥐆𨤔固銀意傕","quocngu":"Tơ duyên vắn vủi có ngần ấy thôi."},{"nom":"分牢分泊如𪿙","quocngu":"Phận sao phận bạc như vôi,"},{"nom":"㐌停渃沚花㵢呂廊","quocngu":"Đã đành nước chảy hoa trôi lỡ làng."},{"nom":"喂金郎唉金郎","quocngu":"Ôi Kim lang! Hỡi Kim lang!"},{"nom":"催催妾㐌負払自低","quocngu":"Thôi thôi thiếp đã phụ chàng từ đây!\\""},{"nom":"𣴓𠳒魂𢴑𧖱醝","quocngu":"Cạn lời hồn dứt máu say,"},{"nom":"󰜋唏𠻴𡴯堆𢬣冷銅","quocngu":"Một hơi lặng ngắt, đôi tay lạnh đồng."},{"nom":"椿萱秩醒職燶","quocngu":"Xuân huyên chợt tỉnh giấc nồng,"},{"nom":"󰜋茹㧜笠几𥪝𠊚外","quocngu":"Một nhà tấp nập kẻ trong người ngoài."},{"nom":"几湯𠊚𫊚排排","quocngu":"Kẻ thang người thuốc bời bời,"},{"nom":"買油千彙渚派湥紅","quocngu":"Mới dầu thiên vựng, chưa phai giọt hồng."},{"nom":"𠳨牢𠚢事邏𨓡","quocngu":"Hỏi: \\"Sao ra sự lạ lùng?\\""},{"nom":"翹強𠽋𦬑𨷑空𠚢𠳒","quocngu":"Kiều càng nức nở mở không ra lời."},{"nom":"浽娘雲買󰁹𦖻","quocngu":"Nỗi nàng, Vân mới rỉ tai,"},{"nom":"隻釵尼貝詞培於低","quocngu":"Chiếc thoa này với tờ bồi ở đây!"},{"nom":"尼吒爫𦇒綠𡮠","quocngu":"Này cha làm lỗi duyên mày"},{"nom":"催催浽意𡢐尼㐌㛪","quocngu":"Thôi thôi nỗi ấy sau này đã em."},{"nom":"爲埃󰠹𦰦徠金","quocngu":"Vì ai rụng cải rơi kim,"},{"nom":"底昆䕯浽𩄲沉爲埃","quocngu":"Để con bèo nổi mây chìm vì ai?"},{"nom":"𠳒昆𠸕吏󰜋𠄩","quocngu":"Lời con dặn lại một hai,"},{"nom":"𠱋𤷱碑𥒥鉴差𡬷鐄","quocngu":"Dẫu mòn bia đá, dám sai tấc vàng!\\""},{"nom":"𥛉催娘吏練呈","quocngu":"Lạy thôi nàng lại rén chiềng:"},{"nom":"洳吒㨋特義払朱吹","quocngu":"\\"Nhờ cha trả được nghĩa chàng cho xuôi."},{"nom":"詫之身分碎隊","quocngu":"Sá chi thân phận tôi đòi,"},{"nom":"唒浪󰢇𤽸圭𠊚管包","quocngu":"Dẫu rằng xương trắng quê người quản bao!\\""},{"nom":"掣包計浽慘愁","quocngu":"Xiết bao kể nỗi thảm sầu,"},{"nom":"刻更㐌𠽖南樓󰋇回","quocngu":"Khắc canh đã giục nam lâu mấy hồi."},{"nom":"轎花兜㐌典外","quocngu":"Kiệu hoa đâu đã đến ngoài,"},{"nom":"管弦兜㐌𠽖𠊚生離","quocngu":"Quản huyền đâu đã giục người sinh ly."},{"nom":"𤴬𢚸几於𠊚𠫾","quocngu":"Đau lòng kẻ ở người đi,"},{"nom":"淚淶滲𥒥絲𢺺癒蠶","quocngu":"Lệ rơi thấm đá, tơ chia rũ tằm."},{"nom":"𡗶𣋚𩄲蹻最霪","quocngu":"Trời hôm mây kéo tối rầm,"},{"nom":"油油𦰟𦹵滛滛梗霜","quocngu":"Dàu dàu ngọn cỏ, đầm đầm cành sương."},{"nom":"逴妯衛典駐坊","quocngu":"Rước dâu về đến trú phường,"},{"nom":"𦊛皮春鎖󰜋娘於𥪝","quocngu":"Tư bề xuân toả một nàng ở trong."},{"nom":"汲凝𢢆錄𠲖紅","quocngu":"Ngập ngừng thẹn lục e hồng,"},{"nom":"擬𢚸吏㤕車𢚸隊番","quocngu":"Nghĩ lòng lại xót xa lòng đòi phen."},{"nom":"品𠎣淶典𢬣𢤞","quocngu":"Phẩm tiên rơi đến tay hèn,"},{"nom":"懷功𬋟𪧚𩅹󱓀貝埃","quocngu":"Hoài công nắng giữ mưa gìn với ai!"},{"nom":"别身典𨀈落𩔗","quocngu":"Biết thân đến bước lạc loài,"},{"nom":"蕊桃㐌𢯏朱𠊚情鍾","quocngu":"Nhị đào đã bẻ cho người tình chung."},{"nom":"爲些垠󰖮𩙍東","quocngu":"Vì ta ngăn đón gió đông,"},{"nom":"舌𢚸欺於𤴬𢚸欺𠫾","quocngu":"Thiệt lòng khi ở, đau lòng khi đi."},{"nom":"重逢油禍固欺","quocngu":"Trùng phùng dù hoạ có khi,"},{"nom":"身尼催固群之麻蒙","quocngu":"Thân này thôi có còn gì mà mong."},{"nom":"㐌生𠚢數龍冬","quocngu":"Đã sinh ra số long đong,"},{"nom":"群恾𥙩刼𦟐紅特牢","quocngu":"Còn mang lấy kiếp má hồng được sao?\\""},{"nom":"𨕭案産固昆刀","quocngu":"Trên yên sẵn có con dao,"},{"nom":"𨁪𢶒娘㐌𢶒𠓨𧝨巾","quocngu":"Giấu gói nàng đã gói vào chéo khăn."},{"nom":"防欺渃㐌典蹎","quocngu":"Phòng khi nước đã đến chân,"},{"nom":"刀尼仕料貝身𡢐尼","quocngu":"Dao này sẽ liệu với thân sau này."},{"nom":"點愁󰜋刻󰜋遲","quocngu":"Điểm sầu một khắc một chầy,"},{"nom":"氷傾如醒如醝󰜋命","quocngu":"Bâng khuâng như tỉnh như say một mình."},{"nom":"拯疑妸馬監生","quocngu":"Chẳng ngờ gã Mã Giám Sinh,"},{"nom":"刎羅󰜋𠀲風情㐌悁","quocngu":"Vẫn là một đứa phong tình đã quen."},{"nom":"戈𨔈吏﨤回顛","quocngu":"Qua chơi lại gặp hồi đen,"},{"nom":"悁塳吏劍咹沔月花","quocngu":"Quen vùng lại kiếm ăn miền nguyệt hoa."},{"nom":"楼撑固媒秀󰜏","quocngu":"Lầu xanh có mụ Tú bà,"},{"nom":"廊𨔈㐌跙衛𫅷歇綠","quocngu":"Làng chơi đã trở về già hết duyên."},{"nom":"情期拯限麻𢧚","quocngu":"Tình cờ chẳng hẹn mà nên,"},{"nom":"𡊉鋸𦲾䔲堆邊󰜋坊","quocngu":"Mạt cưa mướp đắng đôi bên một phường."},{"nom":"鍾𦝄𨷑󰜋𡾵行","quocngu":"Chung lưng mở một ngôi hàng,"},{"nom":"觥𢆥奔粉半香㐌例","quocngu":"Quanh năm buôn phấn bán hương đã lề."},{"nom":"𨄹尋泣𢄂吏圭","quocngu":"Dạo tìm khắp chợ lại quê,"},{"nom":"假名侯下𠰺藝咹𨔈","quocngu":"Giả danh hầu hạ, dạy nghề ăn chơi."},{"nom":"𢤡󰡊歐拱事𡗶","quocngu":"Rủi may âu cũng sự trời,"},{"nom":"斷膓吏論󰘚𠊚無綠","quocngu":"Đoạn trường lại chọn mặt người vô duyên."},{"nom":"㤕娘𡭧分婵娟","quocngu":"Xót nàng chút phận thuyền quyên,"},{"nom":"梗花󰝡半𠓨船俚倴","quocngu":"Cành hoa đem bán vào thuyền lái buôn."},{"nom":"卯驢㐌𢹇𠓨囷","quocngu":"Mẹo lừa đã mắc vào khuôn,"},{"nom":"聘儀𥜤價迎婚産𣈜","quocngu":"Sính nghi rẻ giá, nghinh hôn sẵn ngày."},{"nom":"𢜠󰠐旗㐌典𢬣","quocngu":"Mừng thầm: \\"Cờ đã đến tay,"},{"nom":"強𥆾𨤔玉強醝曲鐄","quocngu":"Càng nhìn vẻ ngọc, càng say khúc vàng."},{"nom":"㐌𢧚國色天香","quocngu":"Đã nên quốc sắc thiên hương,"},{"nom":"󰜋唭尼罕𠦳鐄拯訛","quocngu":"Một cười này hẳn nghìn vàng chẳng ngoa!"},{"nom":"衛低渃𠓀𢯏花","quocngu":"Về đây nước trước bẻ hoa,"},{"nom":"王孫貴客乙羅都饒","quocngu":"Vương tôn quý khách ắt là đua nhau."},{"nom":"罕𠀧𤾓两劍󰠳","quocngu":"Hẳn ba trăm lạng kém đâu,"},{"nom":"拱陀𣃣󰢉群𡢐羅󰢊","quocngu":"Cũng đà vừa vốn còn sau là lời."},{"nom":"𠰘唁掑典羡尼","quocngu":"Miếng ngon kề đến tận nơi,"},{"nom":"󰢉茹拱惜𧵑𡗶拱貪","quocngu":"Vốn nhà cũng tiếc, của trời cũng tham."},{"nom":"桃僊㐌𤊰𢬣凡","quocngu":"Đào tiên đã bén tay phàm,"},{"nom":"𪰛楥梗橘朱甘事𠁀","quocngu":"Thì vin cành quít cho cam sự đời."},{"nom":"󰡎塵󰋇󰘚廊𨔈","quocngu":"Dưới trần mấy mặt làng chơi,"},{"nom":"𨔈花㐌易󰋇𠊚别花","quocngu":"Chơi hoa đã dễ mấy người biết hoa!"},{"nom":"渃𤿭橊𧖱毷𬷤","quocngu":"Nước vỏ lựu, máu mào gà,"},{"nom":"摱牟招集吏羅群原","quocngu":"Mượn màu chiêu tập lại là còn nguyên."},{"nom":"矑𥊚打吝昆顛","quocngu":"Lờ mờ đánh lận con đen,"},{"nom":"包饒拱閉饒錢𠅎之","quocngu":"Bao nhiêu cũng bấy nhiêu tiền mất chi?"},{"nom":"媒𫅷油固調之","quocngu":"Mụ già dầu có điều gì,"},{"nom":"料功𠅎󰜋𣇜跪麻催","quocngu":"Liều công mất một buổi quỳ mà thôi."},{"nom":"𡲤低塘詫賒吹","quocngu":"Vả đây đường sá xa xôi,"},{"nom":"麻些不動女𠊚生疑","quocngu":"Mà ta bất động nữa người sinh nghi.\\""},{"nom":"惜台󰜋朶𨢕醿","quocngu":"Tiếc thay một đoá trà mi,"},{"nom":"昆蜂㐌𨷑塘𠫾𡓃衛","quocngu":"Con ong đã mở đường đi lối về."},{"nom":"󰜋干𩅹𩙍󰠱泥","quocngu":"Một cơn mưa gió nặng nề,"},{"nom":"傷洟典玉惜洟典香","quocngu":"Thương gì đến ngọc, tiếc gì đến hương."},{"nom":"席春󰜋職𢠩恾","quocngu":"Tiệc xuân một giấc mơ màng,"},{"nom":"𤒘花底妬默娘𡎢猪","quocngu":"Đuốc hoa để đó mặc nàng ngồi trơ."},{"nom":"淚𥢆潯瀉𣻆𩅹","quocngu":"Lệ riêng tầm tã tuôn mưa,"},{"nom":"分惍浽客分𦝔浽命","quocngu":"Phần căm nỗi khách, phần dơ nỗi mình."},{"nom":"從之羅󰣉脄腥","quocngu":"Tuồng chi là giống hôi tanh,"},{"nom":"身𠦳鐄底污名𦟐紅","quocngu":"Thân nghìn vàng để ô danh má hồng."},{"nom":"催群之女麻蒙","quocngu":"Thôi còn chi nữa mà mong,"},{"nom":"𠁀𠊚催世羅衝󰜋𠁀","quocngu":"Đời người thôi thế là xong một đời.\\""},{"nom":"恨綠𢣃分排排","quocngu":"Giận duyên tủi phận bời bời,"},{"nom":"擒刀娘㐌算排捐生","quocngu":"Cầm dao nàng đã toan bài quyên sinh."},{"nom":"擬𠫾擬吏󰜋命","quocngu":"Nghĩ đi nghĩ lại một mình,"},{"nom":"󰜋命𪰛𠤆𠄩情女牢","quocngu":"Một mình thì chớ, hai tình nữa sao?"},{"nom":"𡢐油生事世󰅹","quocngu":"Sau dầu sinh sự thế nào,"},{"nom":"追原拯矯累𠓨雙親","quocngu":"Truy nguyên chẳng kẻo lụy vào song thân."},{"nom":"悴料歐沛𠡚寅","quocngu":"Trót liều âu phải gắng dần,"},{"nom":"急遲催拱󰜋吝麻催","quocngu":"Kíp chầy thôi cũng một lần mà thôi!\\""},{"nom":"仍羅𢵋旦虐吹","quocngu":"Những là đo đắn ngược xuôi,"},{"nom":"㗂𬷤𦖑㐌嘅傕𠃅墙","quocngu":"Tiếng gà nghe đã gáy thôi mé tường."},{"nom":"樓𣈕𣃣㗜𧥇霜","quocngu":"Lầu mai vừa rúc còi sương,"},{"nom":"馬生𠽖𠻛倍鐄𠚢𠫾","quocngu":"Mã Sinh giục rạo vội vàng ra đi."},{"nom":"断膓台𣅶臨歧","quocngu":"Đoạn trường thay lúc lâm kỳ,"},{"nom":"𨀒駒泣警𨋣車岌𡹡","quocngu":"Vó câu khấp khểnh, bánh xe gập ghềnh."},{"nom":"𣃣外𨑮𨤵長亭","quocngu":"Bề ngoài mười dặm trường đình,"},{"nom":"王翁挭席餞行迻蹺","quocngu":"Vương Ông gánh tiệc tiễn hành đưa theo."},{"nom":"外茹主客逸迢","quocngu":"Ngoài nhà chủ khách dập dìu,"},{"nom":"𥪝茹萱貝󰜋翹於𥪝","quocngu":"Trong nhà huyên với một Kiều ở trong."},{"nom":"強𥆾強滸湥紅","quocngu":"Càng nhìn càng ứa giọt hồng,"},{"nom":"󰁹𦖻娘買𤉒𢚸𥰊高","quocngu":"Rỉ tai nàng mới giải lòng thấp cao."},{"nom":"虎生𠚢分疎桃","quocngu":"Hổ sinh ra phận thơ đào,"},{"nom":"功吒義媄刼󰅹㨋衝","quocngu":"Công cha nghĩa mẹ kiếp nào trả xong?"},{"nom":"呂廊渃濁𣻃𤄯","quocngu":"Lỡ làng nước đục bụi trong,"},{"nom":"𤾓𢆥底󰜋𬌓𢚸自低","quocngu":"Trăm năm để một tấm lòng từ đây."},{"nom":"䀡𦎛𥪝閉饒𣈜","quocngu":"Xem gương trong bấy nhiêu ngày,"},{"nom":"身昆拯矯𢹇𢬣姂𫅷","quocngu":"Thân con chẳng kẻo mắc tay bợm già."},{"nom":"欺𠫾補永𥪝茹","quocngu":"Khi đi bỏ vắng trong nhà,"},{"nom":"欺𠓨𣼭孕欺𠚢倍鐄","quocngu":"Khi vào dồi dắng, khi ra vội vàng."},{"nom":"欺咹欺呐呂廊","quocngu":"Khi ăn, khi nói lỡ làng,"},{"nom":"欺柴欺伵䀡常䀡輕","quocngu":"Khi thầy, khi tớ xem thường xem khinh."},{"nom":"恪牟几貴𠊚清","quocngu":"Khác màu kẻ quý người thanh,"},{"nom":"𥋴𠚢朱技如形昆奔","quocngu":"Ngắm ra cho kỹ như hình con buôn."},{"nom":"傕昆群呐之昆","quocngu":"Thôi, con còn nói chi con,"},{"nom":"𤯩洳坦客托墫圭𠊚","quocngu":"Sống nhờ đất khách, thác chôn quê người.\\""},{"nom":"王󰜏𦖑閉饒𠳒","quocngu":"Vương bà nghe bấy nhiêu lời,"},{"nom":"㗂冤㐌悶拍𡗶呌𨖲","quocngu":"Tiếng oan đã muốn vạch trời kêu lên."},{"nom":"𠄽旬渚𣴓𡃹𡅳","quocngu":"Vài tuần chưa cạn chén khuyên,"},{"nom":"𠃅外儗㐌𠽖連𨇒車","quocngu":"Mái ngoài nghỉ đã giục liền ruổi xe."},{"nom":"㤕昆𢚸󰠱遲遲","quocngu":"Xót con lòng nặng chề chề,"},{"nom":"𠓀鞍翁吏𡅧呢𥰊高","quocngu":"Trước yên ông lại nằn nì thấp cao:"},{"nom":"㤕身要柳疎桃","quocngu":"\\"Xót thân yếu liễu thơ đào,"},{"nom":"極茄典浽𤄱𠓨碎𤽗","quocngu":"Cực nhà đến đỗi dấn vào tôi ngươi."},{"nom":"自低𧣳𣷭邊𡗶","quocngu":"Từ đây góc bể bên trời,"},{"nom":"𬋟𩅹退退圭𠊚󰜋身","quocngu":"Nắng mưa thui thủi quê người một thân."},{"nom":"𠦳尋洳䏾松筠","quocngu":"Nghìn tầm nhờ bóng tùng quân,"},{"nom":"雪霜𩂏𨔾朱身葛藤","quocngu":"Tuyết sương che chở cho thân cát đằng.\\""},{"nom":"𣴓𠳒客買𠽔浪","quocngu":"Cạn lời khách mới thưa rằng:"},{"nom":"纀蹎傕拱赤绳冉𢭂","quocngu":"\\"Buộc chân thôi cũng xích thằng nhiệm trao."},{"nom":"𣈕𡢐油典世󰅹","quocngu":"Mai sau dầu dến thế nào,"},{"nom":"箕𦎛日月怒刀鬼神","quocngu":"Kìa gương nhật nguyệt, nọ dao quỷ thần.\\""},{"nom":"同同𩙍𠽖𩄲運","quocngu":"Đùng đùng gió giục mây vần,"},{"nom":"󰜋車𥪝𡎝紅塵如𠖤","quocngu":"Một xe trong cõi hồng trần như bay,"},{"nom":"𬂙潙拔淚𢺹𢬣","quocngu":"Trông vời gạt lệ chia tay,"},{"nom":"𧣳𡗶瀋瀋𣈜𣈜󰝡󰝡","quocngu":"Góc trời thăm thẳm, ngày ngày đăm đăm."},{"nom":"傷娘𨤵客賒駸","quocngu":"Thương nàng dặm khách xa xăm,"},{"nom":"泊抛橋這顛霪岸𩄲","quocngu":"Bạc phau cầu giá, đen rầm ngàn mây."},{"nom":"葦𦰤察察唏𩘄","quocngu":"Vi lau san sát hơi may,"},{"nom":"󰜋𡗶秋底𥢆癡󰜋𠊚","quocngu":"Một trời thu để riêng ngây một người."},{"nom":"𨤵𣌉𩁶凈𩂟𣾺","quocngu":"Dặm khuya ngất tạnh mù khơi,"},{"nom":"𧡊𦝄麻𢢆仍𠳒𡽫滝","quocngu":"Thấy trăng mà thẹn những lời non sông."},{"nom":"棱秋層碧杆紅","quocngu":"Rừng thu từng biếc chen hồng,"},{"nom":"𦖑𪀄如𠯅󰣔𢚸晨昏","quocngu":"Nghe chim như nhắc tấm lòng thần hôn."},{"nom":"仍羅邏渃邏𡽫","quocngu":"Những là lạ nước lạ non,"},{"nom":"臨緇𣃣󰜋𣎃𧷺典尼","quocngu":"Lâm Truy vừa một tháng tròn đến nơi."},{"nom":"車珠仃𨋣𨷶外","quocngu":"Xe châu dừng bánh cửa ngoài,"},{"nom":"簾𥪝㐌𧡊󰜋𠊚𨀈𠚢","quocngu":"Rèm trong đã thấy một người bước ra."},{"nom":"脱𬂙辣辣牟䏧","quocngu":"Thoắt trông nhờn nhợt màu da,"},{"nom":"咹之高𢀲悌它爫牢","quocngu":"Ăn gì cao lớn đẫy đà làm sao?"},{"nom":"𠓀車雷󰌕𪡗嘲","quocngu":"Trước xe lôi lả han chào,"},{"nom":"󰂅𠳒娘買蹺𠓨羡尼","quocngu":"Vâng lời nàng mới theo vào tận nơi."},{"nom":"邊尼󰋇妸𪵟𧍋","quocngu":"Bên này mấy ả mày ngài,"},{"nom":"邊箕𡎢𦊚𢆥𠊚廊𨔈","quocngu":"Bên kia ngồi bốn năm người làng chơi."},{"nom":"𡧲排香篆罕灰","quocngu":"Giữa bày hương triện hẳn hoi,"},{"nom":"𨕭撩󰜋像𤽸堆󰋃𪵟","quocngu":"Trên treo một tượng trắng đôi lông mày."},{"nom":"樓撑悁𡓃𠸗󰅒","quocngu":"Lầu xanh quen lối xưa nay,"},{"nom":"藝尼沛𥙩翁尼先師","quocngu":"Nghề này phải lấy ông này tiên sư,"},{"nom":"香花𣋚𣌋奉蜍","quocngu":"Hương hoa hôm sớm phụng thờ,"},{"nom":"姑󰅹醜𩴬固疎䋦行","quocngu":"Cô nào xấu vía có thưa mối hàng,"},{"nom":"𢶒袩𢯰襖𢥇悜","quocngu":"Cởi xiêm lột áo chán chường,"},{"nom":"𠓀晨仕願𤗖香惏𠽍","quocngu":"Trước thần sẽ nguyện mảnh hương lầm rầm."},{"nom":"對花𢯰𫴋詔𦣰","quocngu":"Đổi hoa lót xuống chiếu nằm,"},{"nom":"𧊉蜂𠫾吏喑喑四圍","quocngu":"Bướm ong đi lại ầm ầm tứ vi."},{"nom":"娘群𠳝𡂂別之","quocngu":"Nàng còn bỡ ngỡ biết gì,"},{"nom":"據𠳒𥛉𫴋媒𪰛𡄩𣦍","quocngu":"Cứ lời lạy xuống mụ thì khấn ngay:"},{"nom":"𨷑行奔半朱埋","quocngu":"\\"Mở hàng buôn bán cho may,"},{"nom":"𣎀𣎀寒食𣈜𣈜元宵","quocngu":"Đêm đêm Hàn thực, ngày ngày Nguyên tiêu."},{"nom":"𨷈萬𠊚𧡊拱腰","quocngu":"Muôn vàn người thấy cũng yêu,"},{"nom":"𠮿嗃󰢒燕熠燿竹梅","quocngu":"Xôn xao anh yến, dập dìu trúc mai."},{"nom":"信鴈刎蘿詩排","quocngu":"Tin nhạn vẩn, lá thơ bài,"},{"nom":"迻𠊚𨷶𠓀逴𠊚𨷶𡢐","quocngu":"Đưa người cửa trước, rước người cửa sau!\\""},{"nom":"邏𦖻𦖑渚別󰠳","quocngu":"Lạ tai nghe chửa biết đâu,"},{"nom":"䀡情羅拱仍牟𢷣揚","quocngu":"Xem tình là cũng những màu dở dang."},{"nom":"禮衝香火家堂","quocngu":"Lễ xong hương hoả gia đường,"},{"nom":"秀󰜏𢪱蓐𨖲床𡎢𣦍","quocngu":"Tú bà vắt nhục lên giường ngồi ngay."},{"nom":"𠰺浪昆𥛉媄低","quocngu":"Dạy rằng: \\"Con lạy mẹ đây,"},{"nom":"𥛉耒𨖅𥛉舅𡮠邊箕","quocngu":"Lạy rồi sang lạy cậu mày bên kia!\\""},{"nom":"娘浪沛𨀈流離","quocngu":"Nàng rằng: \\"Phải bước lưu ly,"},{"nom":"分𪬡󰂅㐌甘皮小星","quocngu":"Phận hèn vâng đã cam bề tiểu tinh."},{"nom":"調兜𥙩燕爫󰢒","quocngu":"Điều đâu lấy yến làm anh,"},{"nom":"癡疎渚別羅名分之","quocngu":"Ngây thơ chửa biết là danh phận gì?"},{"nom":"𨇜調納采于歸","quocngu":"Đủ điều nạp thái vu quy,"},{"nom":"㐌欺悰󰢍吏欺𨅸𡎢","quocngu":"Đã khi suồng sã, lại khi đứng ngồi."},{"nom":"除𠚢台堛𢷮𡾵","quocngu":"Giờ ra thay bậc đổi ngôi,"},{"nom":"鉴嗔𠳚吏󰜋𠳒朱明","quocngu":"Dám xin gửi lại một lời cho minh.\\""},{"nom":"媒𦖑娘呐𫨩情","quocngu":"Mụ nghe nàng nói hay tình,"},{"nom":"閉𣇞買浽三彭媒𨖲","quocngu":"Bấy giờ mới nổi tam bành mụ lên:"},{"nom":"尼尼事㐌果然","quocngu":"\\"Này này sự đã quả nhiên,"},{"nom":"催㐌刼𤯩𫯳綿𠫾耒","quocngu":"Thôi đà cướp sống chồng min đi rồi!\\""},{"nom":"保浪𠫾𨄹𥙩𠊚","quocngu":"Bảo rằng: \\"Đi dạo lấy người,"},{"nom":"󰝡衛逴客劍利麻咹","quocngu":"Đem về rước khách kiếm lời mà ăn."},{"nom":"徒無義於不仁","quocngu":"Đồ vô nghĩa, ở bất nhân,"},{"nom":"𢞂命𠓀㐌秦緡此𨔈","quocngu":"Buồn mình trước đã tần mần thử chơi."},{"nom":"牟糊㐌𠅎𠫾耒","quocngu":"Màu hồ đã mất đi rồi,"},{"nom":"催催󰢉󰢎𠫾𠁀茹魔","quocngu":"Thôi thôi vốn liếng đi đời nhà ma!\\""},{"nom":"昆箕㐌󰢏朱些","quocngu":"Con kia đã bán cho ta,"},{"nom":"𠓨茹沛據法茹蚤低","quocngu":"Vào nhà phải cứ phép nhà tao đây."},{"nom":"老箕固𢷣排碑","quocngu":"Lão kia có giở bài bây,"},{"nom":"拯𠻵𠓨󰘚麻𡮠吏𦖑","quocngu":"Chẳng mắng vào mặt mà mày lại nghe!"},{"nom":"據牢𠹾卒󰜋皮","quocngu":"Cớ sao chịu tốt một bề,"},{"nom":"𡛔絲麻㐌語藝𣋽牢","quocngu":"Gái tơ mà đã ngứa nghề sớm sao!"},{"nom":"沛爫朱別法蚤","quocngu":"Phải làm cho biết phép tao!\\""},{"nom":"𪮞皮鞭拉𪮭𠓨𠚢𢬣","quocngu":"Giật bì tiên rắp sấn vào ra tay."},{"nom":"娘浪𡗶瀋坦𠫆","quocngu":"Nàng rằng: \\"Trời thẳm đất dày,"},{"nom":"身尼㐌補仍𣈜𠚢𠫾","quocngu":"Thân này đã bỏ những ngày ra đi."},{"nom":"催催群固惜之","quocngu":"Thôi thôi còn có tiếc gì!\\""},{"nom":"産刀𢬣襖即𪰛𢷣𠚢","quocngu":"Sẵn dao tay áo tức thì giở ra."},{"nom":"𢜝肝󰞺玉料花","quocngu":"Sợ gan nát ngọc liều hoa,"},{"nom":"媒群𬂙󰘚娘它過𢬣","quocngu":"Mụ còn trông mặt, nàng đà quá tay."},{"nom":"傷喂才色墨尼","quocngu":"Thương ôi, tài sắc mực này,"},{"nom":"󰜋刀冤孽𢴑𦀊風塵","quocngu":"Một dao oan nghiệt dứt dây phong trần."},{"nom":"浽冤𫮒󰢐賒𧵆","quocngu":"Nỗi oan vỡ lở xa gần,"},{"nom":"𥪝茹𠊚躓󰜋吝如𢬧","quocngu":"Trong nhà người chật một lần như nêm."},{"nom":"娘𣃣弼弼職僊","quocngu":"Nàng vừa bằn bặt giấc tiên,"},{"nom":"媒𪰛岌岌󰘚𥆾魂𠖤","quocngu":"Mụ thì cầm cập mặt nhìn hồn bay."},{"nom":"域娘𠓨准軒西","quocngu":"Vực nàng vào chốn hiên tây,"},{"nom":"割𠊚䀡朔逴柴𫊚湯","quocngu":"Cắt người xem sóc, rước thầy thuốc thang."},{"nom":"󰅹𫨩渚歇塵緣","quocngu":"Nào hay chưa hết trần duyên,"},{"nom":"𥪝迷𬂙𧡊淡仙𤑟𤉜","quocngu":"Trong mê trông thấy Đạm Tiên rõ ràng."},{"nom":"󰁹浪因果𢷣揚","quocngu":"Rỉ rằng: \\"Nhân quả dở dang,"},{"nom":"㐌算遁𧴱断膓特牢","quocngu":"Đã toan trốn nợ đoạn tràng hay sao?"},{"nom":"數群󰠱業𦟐桃","quocngu":"Số còn nặng nghiệp má đào,"},{"nom":"𠊚油悶決𡗶󰅹㐌朱","quocngu":"Người dù muốn quyết, trời nào đã cho!"},{"nom":"𠹾𠳒朱院刼修","quocngu":"Chịu lời cho vẹn kiếp tu,"},{"nom":"瀧錢塘仕限㗅衛𡢐","quocngu":"Sông Tiền Đường sẽ hẹn hò về sau.\\""},{"nom":"𬟥湯卒󰜋𣈜偷","quocngu":"Thuốc thang suốt một ngày thâu,"},{"nom":"職僊𦖑㐌油油𣃣散","quocngu":"Giấc tiên nghe đã dàu dàu vừa tan."},{"nom":"秀󰜏直産邊幔","quocngu":"Tú bà chực sẵn bên màn,"},{"nom":"劍𠳒𡅳解綿蛮𫽻寅","quocngu":"Kiếm lời khuyên giải miên man gỡ dần."},{"nom":"󰜋𠊚易固󰋇身","quocngu":"\\"Một người dễ có mấy thân."},{"nom":"花春當蕊𣈜春群𨱽","quocngu":"Hoa xuân đăng nhụy, ngày xuân còn dài."},{"nom":"拱羅𢙲󰜋惏𠄩","quocngu":"Cũng là lỡ một lầm hai,"},{"nom":"𥒥鐄牢女押奈𩅹𩄲","quocngu":"Đá vàng sao nỡ ép nài mưa mây."},{"nom":"𢙲󰖄㐌卒𠓨低","quocngu":"Lỡ chân đã trót vào đây,"},{"nom":"銙𢩣春底徐𣈜桃𡽫","quocngu":"Khoá buồng xuân để chờ ngày đào non."},{"nom":"𠊚群意𧵑拱群","quocngu":"Người còn ấy của cũng còn,"},{"nom":"尋尼稱當羅昆丐茹","quocngu":"Tìm nơi xứng đáng là con cái nhà."},{"nom":"爫之罪報冤家","quocngu":"Làm chi tội báo oan gia,"},{"nom":"舌命麻害典些益之","quocngu":"Thiệt mình mà hại đến ta ích gì?\\""},{"nom":"掑𦖻󰋇浽𡅧呢","quocngu":"Kề tai mấy nỗi nằn nì,"},{"nom":"娘𦖑󰟯拱是非攊𢬗","quocngu":"Nàng nghe dường cũng thị phi rạch ròi."},{"nom":"𡲤推神夢󰋇𠳒","quocngu":"Vả suy thần mộng mấy lời,"},{"nom":"夙因歐拱固𡗶於𥪝","quocngu":"Túc nhân âu cũng có trời ở trong."},{"nom":"刼尼𡢻㨋渚衝","quocngu":"Kiếp này nợ trả chưa xong,"},{"nom":"爫之吏拱󰜋𫯳刼𡢐","quocngu":"Làm chi lại cũng một chồng kiếp sau."},{"nom":"朗𦖑浸噤𡳳頭","quocngu":"Lặng nghe thấm gẫm gót đầu,"},{"nom":"𠽔浪埃固悶兜世尼","quocngu":"Thưa rằng: \\"Ai có muốn đâu thế này."},{"nom":"特如𠳒世羅埋","quocngu":"Được như lời thế là may,"},{"nom":"罕浪𣈕固如𠳒朱庒","quocngu":"Hẳn rằng mai có như rày cho chăng."},{"nom":"𠲖欺蜂𧊉待騰","quocngu":"E khi ong bướm đãi đằng,"},{"nom":"典調𤯩濁牢朋托𤄯","quocngu":"Đến điều sống đục sao bằng thác trong.\\""},{"nom":"媒浪昆唉從容","quocngu":"Mụ rằng: \\"Con hãy thong dong,"},{"nom":"沛調𢚸吏𢷮𢚸麻𨔈","quocngu":"Phải điều lòng lại đổi lòng mà chơi!"},{"nom":"𣈕𡢐於拯如𠳒","quocngu":"Mai sau ở chẳng như lời,"},{"nom":"𨕭頭固䏾󰘚𡗶𤎜𤐝","quocngu":"Trên đầu có bóng mặt trời rạng soi.\\""},{"nom":"𧡊𠳒决断罕脄","quocngu":"Thấy lời quyết đoán hẳn hoi,"},{"nom":"停𢚸娘拱仕𢢯𢢯寅","quocngu":"Đành lòng nàng cũng sẽ nguôi nguôi dần."},{"nom":"𠓀𡢐凝碧鎖春","quocngu":"Trước sau Ngưng Bích khoá xuân,"},{"nom":"𤵖𡽫賒󰌵𦝄𧵆於終","quocngu":"Vết non xa, tấm trăng gần ở chung."},{"nom":"𦊚皮八𠯪賒𬂙","quocngu":"Bốn bề bát ngát xa trông,"},{"nom":"吉鐄𡑱怒𡏧紅𨤵箕","quocngu":"Cát vàng cồn nọ, bụi hồng dặm kia."},{"nom":"彼傍𩄲𣋽畑𣌉","quocngu":"Bẽ bàng mây sớm đèn khuya,"},{"nom":"姅情姅景如𢺺󰌵𢚸","quocngu":"Nửa tình nửa cảnh như chia tấm lòng."},{"nom":"想𠊚󰡎月󱋓同","quocngu":"Tưởng người dưới nguyệt chén đồng,"},{"nom":"信霜𨻫唉𣈙𬂙𣈕徐","quocngu":"Tin sương luống hãy rày trông mai chờ."},{"nom":"邊𡗶𧣳𣷭巴爲","quocngu":"Bên trời góc bể bơ vơ,"},{"nom":"󰌵𣘈滑典包𣇞朱派","quocngu":"Tấm son gột đến bao giờ cho phai."},{"nom":"㤕𠊚𢭸𫔸𣋚𣈕","quocngu":"Xót người tựa cửa hôm mai,"},{"nom":"𦑗燶撘冷仍埃妬𣇞","quocngu":"Quạt nồng đắp lạnh những ai đó giờ?"},{"nom":"庭萊隔󰋇𬋟𩅹","quocngu":"Đình Lai cách mấy nắng mưa,"},{"nom":"固欺㭲梓㐌𣃣𠊚揞","quocngu":"Có khi gốc tử đã vừa người ôm."},{"nom":"𢞂𬂙𨷶𣷭𧵆𣋚","quocngu":"Buồn trông cửa bể gần hôm,"},{"nom":"船埃𥰊倘𦑃帆賒賒","quocngu":"Thuyền ai thấp thoáng cánh buồm xa xa?"},{"nom":"𢞂𬂙𦰟渃買沙","quocngu":"Buồn trông ngọn nước mới sa,"},{"nom":"花㵢蠻漠別羅衛󰠳","quocngu":"Hoa trôi man mác biết là về đâu?"},{"nom":"𢞂𬂙𦰟𦹵油油","quocngu":"Buồn trông ngọn cỏ dàu dàu,"},{"nom":"󰖄𩄲󰘚坦󰜋牟撑撑","quocngu":"Chân mây mặt đất một màu xanh xanh."},{"nom":"𢞂𬂙𩙍捲󰘚溋","quocngu":"Buồn trông gió cuốn mặt duềnh,"},{"nom":"喑󰠐㗂㳥呌觥槣𡎢","quocngu":"Âm thầm tiếng sóng kêu quanh ghế ngồi."},{"nom":"終觥仍渃𡽫𠊚","quocngu":"Chung quanh những nước non người,"},{"nom":"𤴬𢚸流落𢧚𠄽𦊚勾","quocngu":"Đau lòng lưu lạc nên vài bốn câu."},{"nom":"唅𠿯𢷀幅簾珠","quocngu":"Ngậm ngùi rủ bức rèm châu,"},{"nom":"隔楼𦖑固㗂兜和韻","quocngu":"Cách lầu nghe có tiếng đâu hoạ vần."},{"nom":"󰜋払𣃣擢青春","quocngu":"Một chàng vừa trạc thanh xuân,"},{"nom":"形殊沚淬襖巾衮強","quocngu":"Hình thù chải chuốt, áo khăn gọn gàng."},{"nom":"擬浪拱脉書香","quocngu":"Nghĩ rằng cũng mạch thư hương,"},{"nom":"𠳨𫥨買別浪払楚卿","quocngu":"Hỏi ra mới biết rằng chàng Sở khanh."},{"nom":"䏾娥濕倘󰡎萌","quocngu":"Bóng nga thấp thoáng dưới mành,"},{"nom":"𬂙娘払拱𠚢情刀帶","quocngu":"Trông nàng, chàng cũng ra tình đeo đai."},{"nom":"嘆喂色渃香𡗶","quocngu":"Than ôi! Sắc nước hương trời,"},{"nom":"惜朱兜俸落類典低","quocngu":"Tiếc cho đâu bỗng lạc loài đến đây?"},{"nom":"價停𥪝月𨕭𩄲","quocngu":"Giá đành trong nguyệt trên mây,"},{"nom":"花牢花窖也苔閉花","quocngu":"Hoa sao hoa khéo giã giày bấy hoa?"},{"nom":"浽肝𥢆恨𡗶𫅷","quocngu":"Nổi gan riêng giận trời già,"},{"nom":"𢚸尼埃𤏣朱些唉𢚸","quocngu":"Lòng này ai tỏ cho ai hỡi lòng!"},{"nom":"嬋娟󰂇別英雄","quocngu":"Thuyền quyên ví biết anh hùng,"},{"nom":"𠚢𢬣操櫃數籠如𨔈","quocngu":"Ra tay tháo cũi sổ lồng như chơi!\\""},{"nom":"窻秋㐌怯𦑃外","quocngu":"Song thu đã khép cánh ngoài,"},{"nom":"𦖻群同望󰋇𠳒𨫊釘","quocngu":"Tai còn đồng vọng mấy lời sắt đanh."},{"nom":"擬𠊚催吏擬命","quocngu":"Nghĩ người thôi lại nghĩ mình,"},{"nom":"感𢚸洙悴𤁕情諸撝","quocngu":"Cám lòng chua xót, lạt tình chơ vơ."},{"nom":"仍羅𨁮𢙲𪱆𩅹","quocngu":"Những là lần lữa nắng mưa,"},{"nom":"刼風塵別包𣇞羅催","quocngu":"Kiếp phong trần biết bao giờ là thôi?"},{"nom":"打料𠴍󰜋𠄩𠳒","quocngu":"Đánh liều nhắn một hai lời,"},{"nom":"洳𢬣濟渡𢵼𠊚沉淪","quocngu":"Nhờ tay tế độ vớt người trầm luân."},{"nom":"𤗖牋計歇賒𧵆","quocngu":"Mảnh tiên kể hết xa gần,"},{"nom":"浽茹報答浽身落類","quocngu":"Nỗi nhà báo đáp, nỗi thân lạc loài."},{"nom":"散霜𣃣𠓇𣈜𣈕","quocngu":"Tan sương vừa rạng ngày mai,"},{"nom":"便鴻娘買𠴍𠳒𠳚𨖅","quocngu":"Tiện hồng nàng mới nhắn lời gửi sang."},{"nom":"𡗶西朗蕩䏾鐄","quocngu":"Trời tây lãng đãng bóng vàng,"},{"nom":"復書㐌𧡊信払典尼","quocngu":"Phục thư đã thấy tin chàng đến nơi."},{"nom":"𨷑䀡󰜋幅箋枚","quocngu":"Mở xem một bức tiên mai,"},{"nom":"伶伶昔越固𠄩𡦂題","quocngu":"Rành rành tích việt có hai chữ đề."},{"nom":"𥙩𥪝意思麻推","quocngu":"Lấy trong ý tứ mà suy:"},{"nom":"𣈜𠄩𨑮󰜋戌𪰛沛庒","quocngu":"\\"Ngày hai mươi mốt, tuất thì phải chăng?\\""},{"nom":"𪀄𣋚催脱衛棱","quocngu":"Chim hôm thoi thót về rừng,"},{"nom":"架𨢕醿㐌唅𦝄姅萌","quocngu":"Giá trà mi đã ngậm trăng nửa mành."},{"nom":"墻東𢯦動䏾梗","quocngu":"Tường đông lay động bóng cành,"},{"nom":"𢩵窻㐌𧡊楚卿𨀈𠓨","quocngu":"Đẩy song đã thấy Sở khanh bước vào."},{"nom":"𠶤崇打憚𠚢嘲","quocngu":"Sượng sùng đánh dạn ra chào,"},{"nom":"𥛉催娘買󰁹𢭂殷勤","quocngu":"Lạy thôi nàng mới rỉ trao ân cần."},{"nom":"浪碎䕯浡𡮍身","quocngu":"Rằng: \\"Tôi bèo bọt chút thân,"},{"nom":"落塘恾𥙩𡢻𫱞燕󰢒","quocngu":"Lạc đàng mang lấy nợ nần yến anh."},{"nom":"鉴洳骨肉死生","quocngu":"Dám nhờ cốt nhục tử sinh,"},{"nom":"群𡗉結𦹵唅鑅衛𡢐","quocngu":"Còn nhiều kết cỏ ngậm vành về sau.\\""},{"nom":"朗𡎢渗󰣇𡴯頭","quocngu":"Lặng ngồi thấm thía gật đầu:"},{"nom":"些低沛摱埃兜麻浪","quocngu":"\\"Ta đây phải mượn ai đâu mà rằng!"},{"nom":"娘陀別典些庒","quocngu":"Nàng đà biết đến ta chăng,"},{"nom":"𣷭沉淪垃朱平買催","quocngu":"Bể trầm luân lấp cho bằng mới thôi!\\""},{"nom":"娘浪𨷈事恩𠊚","quocngu":"Nàng rằng: \\"Muôn sự ơn người,"},{"nom":"世󰅹嗔决󰜋排朱衝","quocngu":"Thế nào xin quyết một bài cho xong.\\""},{"nom":"浪些固馭追風","quocngu":"Rằng: \\"Ta có ngựa truy phong,"},{"nom":"固𠸜󰡎帳本𣳔健兒","quocngu":"Có tên dưới trướng vốn dòng kiện nhi."},{"nom":"乘機𨇍𨀈𠚢𠫾","quocngu":"Thừa cơ lẻn bước ra đi,"},{"nom":"𠀧𨑮𦒹斫斫之吏欣","quocngu":"Ba mươi sáu chước, chước gì lại hơn."},{"nom":"油欺𩙍𬒱𩅹單","quocngu":"Dù khi gió kép mưa đơn,"},{"nom":"固些低拱拯干據之","quocngu":"Có ta đây cũng chẳng cơn cớ gì!\\""},{"nom":"𦖑𠳒娘㐌生疑","quocngu":"Nghe lời nàng đã sinh nghi,"},{"nom":"雙陀過坦管之特身","quocngu":"Song đà quá đất quản gì được thân."},{"nom":"拱料𥄮𬑉迻蹎","quocngu":"Cũng liều nhắm mắt đưa chân,"},{"nom":"麻䀡昆造磋運典󰠳","quocngu":"Mà xem con tạo xoay vần đến đâu!"},{"nom":"拱饒𨇍𨀈󰡎樓","quocngu":"Cùng nhau lẻn bước dưới lầu,"},{"nom":"雙雙馭𫏾馭𨍦󰜋團","quocngu":"Song song ngựa trước ngựa sau một đoàn."},{"nom":"𣎀秋刻漏更殘","quocngu":"Đêm thu khắc lậu canh tàn,"},{"nom":"𩙍𣘃律蘿𦝄岸唅𦎛","quocngu":"Gió cây trút lá, trăng ngàn ngậm gương."},{"nom":"𡓃𤷱洌𠖾唏霜","quocngu":"Lối mòn lướt mướt hơi sương,"},{"nom":"𢚸圭𠫾󰜋𨀈塘󰜋𤴬","quocngu":"Lòng quê đi một bước đường một đau."},{"nom":"㗂𬷤嗃𠳗嘅㕰","quocngu":"Tiếng gà xao xác gáy mau,"},{"nom":"㗂𠊚兜㐌𠃅𡢐𠰺揚","quocngu":"Tiếng người đâu đã mé sau dậy dàng."},{"nom":"娘強忖式肝鐄","quocngu":"Nàng càng thổn thức gan vàng,"},{"nom":"楚卿㐌𢶾𦀊綱𡓃󰅹","quocngu":"Sở Khanh đã rẽ dây cương lối nào!"},{"nom":"󰜋命坤別爫牢","quocngu":"Một mình khôn biết làm sao,"},{"nom":"𨤵棱𨀈𥰊𨀈高駭雄","quocngu":"Dặm rừng bước thấp bước cao hãi hùng."},{"nom":"化兒舌固女𢚸","quocngu":"Hoá nhi thật có nỡ lòng,"},{"nom":"爫之𨃐紫紆紅𡗋󰅉","quocngu":"Làm chi dày tía vò hồng lắm nau!"},{"nom":"󰜋命𢵋捵𫏾𨍦","quocngu":"Một mình đo đắn trước sau,"},{"nom":"𤢇兜𫴋坦𦑃兜𨖲𡗶","quocngu":"Vuốt đâu xuống đất, cánh đâu lên trời."},{"nom":"秀󰜏速𥊣細尼","quocngu":"Tú bà tốc thẳng tới nơi,"},{"nom":"𢣇𢣇押調󰜋唏吏茹","quocngu":"Hằm hằm áp điệu một hơi lại nhà."},{"nom":"興行拯𠳨拯查","quocngu":"Hưng hành chẳng hỏi chẳng tra,"},{"nom":"當𢬣󰜗柳垃花𥯒排","quocngu":"Đang tay vùi liễu giập hoa tơi bời."},{"nom":"𬚸䏧埃拱羅𠊚","quocngu":"Thịt da ai cũng là người,"},{"nom":"𢚸󰅹紅󰠹𧺀𢯦拯𤴬","quocngu":"Lòng nào hồng rụng thắm rời chẳng đau!"},{"nom":"歇𠳒首服懇求","quocngu":"Hết lời thú phục khẩn cầu,"},{"nom":"捥𨉞𡶀覩拮頭𧖱沙","quocngu":"Uốn lưng núi đổ, cất đầu máu sa."},{"nom":"浪碎㤕分彈󰜏","quocngu":"Rằng: \\"Tôi chút phận đàn bà,"},{"nom":"渃𡽫離𨷶離茹典低","quocngu":"Nước non lìa cửa lìa nhà đến đây."},{"nom":"悲𣇞𤯩托於𢬣","quocngu":"Bây giờ sống thác ở tay,"},{"nom":"身尼㐌典世尼拱傕","quocngu":"Thân này đã đến thế này cũng thôi!"},{"nom":"仍碎固詫之碎","quocngu":"Nhưng tôi có sá chi tôi."},{"nom":"分碎停丕本𠊚低󰠳","quocngu":"Phận tôi đành vậy, vốn người để đâu?"},{"nom":"身𧐖包管𡓔頭","quocngu":"Thân lươn bao quản lấm đầu,"},{"nom":"𡮍𢚸貞白自𡢐拱除","quocngu":"Chút lòng trinh bạch từ sau cũng chừa.\\""},{"nom":"特𠳒媒買隨機","quocngu":"Được lời mụ mới tuỳ cơ,"},{"nom":"󰈫𠊚保領爫詞供招","quocngu":"Bắt người bảo lãnh, làm tờ cung chiêu."},{"nom":"排𦢳固妸馬嬌","quocngu":"Bày vai có ả Mã Kiều,"},{"nom":"悴娘𠚢買打料𠹾端","quocngu":"Xót nàng ra mới đánh liều chịu đoan."},{"nom":"媒強計日計寬","quocngu":"Mụ càng kể nhặt kể khoan,"},{"nom":"頓樔典墨燶󱋔買他","quocngu":"Đón rào đến mực nồng nàn mới tha,"},{"nom":"域娘𠓨擬𥪝茹","quocngu":"Vực nàng vào nghỉ trong nhà,"},{"nom":"馬嬌吏𠼯意𠚢吲𠳒","quocngu":"Mã Kiều lại hở ý ra dặn lời:"},{"nom":"催㐌默吝𪰛傕","quocngu":"\\"Thôi đà mắc lận thì thôi!"},{"nom":"𠫾兜拯別昆𠊚楚卿","quocngu":"Đi đâu chẳng biết con người Sở Khanh?"},{"nom":"薄情浽㗂樓撑","quocngu":"Bạc tình nổi tiếng lầu xanh,"},{"nom":"󰜋𢬣墫別󰋇梗芙蓉","quocngu":"Một tay chôn biết mấy cành phù dung!"},{"nom":"拖刀立産斫用","quocngu":"Đà đao lập sẵn chước dùng,"},{"nom":"邏之󰜋骨󰜋童𠸗󰅒","quocngu":"Lạ gì một cốt một đồng xưa nay."},{"nom":"固𠀧𤾓两𢭂𢬣","quocngu":"Có ba trăm lạng trao tay,"},{"nom":"空仍之固𡀯尼𠻀箕","quocngu":"Không dưng chi có chuyện này trò kia!"},{"nom":"耒𠚢跙󰘚即𪰛","quocngu":"Rồi ra trở mặt tức thì,"},{"nom":"叭𠳒料渚顛癡舌𠁀","quocngu":"Bớt lời liệu chớ sân si thiệt đời!\\""},{"nom":"娘浪誓説󰠱𠳒","quocngu":"Nàng rằng: \\"Thề thốt nặng lời,"},{"nom":"固兜麻吏𠚢𠊚險溇","quocngu":"Có đâu mà lại ra người hiểm sâu!\\""},{"nom":"群當推𠓀擬𡢐","quocngu":"Còn đương suy trước nghĩ sau,"},{"nom":"󰘚󰣗㐌𧡊於兜引𠓨","quocngu":"Mặt mo đã thấy ở đâu dẫn vào."},{"nom":"楚卿𨖲㗂嘹哰","quocngu":"Sở Khanh lên tiếng rêu rao:"},{"nom":"怒𦖑娘固昆󰅹於低","quocngu":"\\"Nọ nghe nàng có con nào ở đây?"},{"nom":"抛朱眷𩙍𫫵𩄲","quocngu":"Phao cho quyến gió rủ mây,"},{"nom":"唉䀡朱別󰘚尼羅埃","quocngu":"Hãy xem cho biết mặt này là ai?\\""},{"nom":"娘浪催世𪰛傕","quocngu":"Nàng rằng: \\"Thôi thế thì thôi,"},{"nom":"浪空意拱󰂅𠳒浪空","quocngu":"Rằng không ấy cũng vâng lời rằng không!\\""},{"nom":"楚卿咶𠻵哃哃","quocngu":"Sở Khanh quát mắng đùng đùng,"},{"nom":"𨀈𠓨𣃣㕸恃雄𠚢𢬣","quocngu":"Bước vào vừa rắp thị hùng ra tay."},{"nom":"娘浪𡗶𨤰固咍","quocngu":"Nàng rằng: \\"Trời nhé có hay!"},{"nom":"眷󰢒𫫵燕事尼在埃","quocngu":"Quyến anh rủ yến sự này tại ai?"},{"nom":"󰝡𠊚補𫴋汫台","quocngu":"Đem người bỏ xuống giếng thơi."},{"nom":"呐耒耒吏咹𠳒特𣦍","quocngu":"Nói rồi, rồi lại ăn lời được ngay!"},{"nom":"群牋昔越於𢬣","quocngu":"Còn tiên Tích Việt ở tay,"},{"nom":"𤑟𤉜󰘚意󰘚尼渚埃","quocngu":"Rõ ràng mặt ấy, mặt này chứ ai?\\""},{"nom":"𠳒𣦍冬󰘚𥪝外","quocngu":"Lời nghe, đông mặt trong ngoài,"},{"nom":"埃埃拱𡃍󰘚𠊚無良","quocngu":"Ai ai cũng gớm mặt người vô lương."},{"nom":"負情案㐌𤑟𤉜","quocngu":"Phụ tình án đã rõ ràng,"},{"nom":"洳從儗買劍塘操𨆢","quocngu":"Dơ tuồng nghỉ mới kiếm đường tháo lui."},{"nom":"𢩣𥢆𥢆仍湥洡","quocngu":"Buồng riêng, riêng những sụt sùi,"},{"nom":"擬身麻吏吟𠿯朱身","quocngu":"Nghĩ thân mà lại ngậm ngùi cho thân."},{"nom":"惜台𥪝價𤽸銀","quocngu":"Tiếc thay trong giá trắng ngần,"},{"nom":"典風塵拱風塵如埃","quocngu":"Đến phong trần, cũng phong trần như ai!"},{"nom":"粃𢝙拱󰜋刼𠊚","quocngu":"Tẻ vui cũng một kiếp người,"},{"nom":"紅顔沛󰣉於𠁀買油","quocngu":"Hồng nhan phải giống ở đời mãi ru?"},{"nom":"刼𠸗㐌𢜗塘修","quocngu":"Kiếp xưa đã vụng đường tu,"},{"nom":"刼尼拯矯填蒲買吹","quocngu":"Kiếp này chẳng kẻo đền bù mới xuôi."},{"nom":"油牢󰜍㐌𢙲淶","quocngu":"Dẫu sao bình đã lỡ rơi,"},{"nom":"𥙩身麻假𡢻𠁀朱衝","quocngu":"Lấy thân mà trả nợ đời cho xong!\\""},{"nom":"𣃣旬月𤎜𦎛𤄯","quocngu":"Vừa tuần nguyệt rạng gương trong,"},{"nom":"秀󰜏𨄾吏從容吲𠻀","quocngu":"Tú bà ghé lại thong dong dặn dò:"},{"nom":"藝制拱𡗋功夫","quocngu":"\\"Nghề chơi cũng lắm công phu,"},{"nom":"廊制些沛別朱𨇜調","quocngu":"Làng chơi ta phải biết cho đủ điều.\\""},{"nom":"娘浪𩄲𩙍泣迢","quocngu":"Nàng rằng: \\"Mây gió dập dìu,"},{"nom":"料身意拱沛料世傕","quocngu":"Liều thân ấy cũng phải liều thế thôi!\\""},{"nom":"媒浪埃拱如埃","quocngu":"Mụ rằng: \\"Ai cũng như ai,"},{"nom":"空仍埃𠅒錢懷典低","quocngu":"Không dưng ai mất tiền hoài đến đây?"},{"nom":"於𥪝拱𪥀調𫨩","quocngu":"Ở trong cũng lắm điều hay,"},{"nom":"餒𣎀怯𨷑餒𣈜𥢆終","quocngu":"Nỗi đêm khép mở, nỗi ngày riêng chung."},{"nom":"尼昆属𥙩爫𢚸","quocngu":"Này con thuộc lấy làm lòng,"},{"nom":"𨦩外𬙞𡦂𨦩𥪝糁藝","quocngu":"Vòng ngoài bảy chữ, vòng trong tám nghề."},{"nom":"制朱柳𢥇花吱","quocngu":"Chơi cho liễu chán hoa chê,"},{"nom":"𨁥調歷事買迷鄧𠊚","quocngu":"Đủ điều lịch sự mới mê đặng người."},{"nom":"欺鞋杏欺󰞺𧍋","quocngu":"Khi khoé hạnh, khi nét ngài,"},{"nom":"欺吟議月欺唭𠹳花","quocngu":"Khi ngâm ngợi nguyệt, khi cười cợt hoa."},{"nom":"調羅撘請藝茹","quocngu":"Đều là đáp thỉnh nghề nhà,"},{"nom":"𨁥銀意󰞺買羅𢬣𥪝","quocngu":"Đủ ngần ấy nết mới là tay trong.\\""},{"nom":"𨃴頭󰂅𠰺󰋇𠳒","quocngu":"Gót đầu vâng dạy mấy lời,","line":1216},{"nom":"󰟯珠󰞺月󰟯派𨤔紅","quocngu":"Dường chau nét nguyệt, dường phai vẻ hồng.","line":1217},{"nom":"仍𦖑呐㐌𢢆𢝣","quocngu":"Những nghe nói, đã thẹn thùng,"},{"nom":"渃𠁀𪥀浽邏𨓡汔溪","quocngu":"Nước đời lắm nỗi lạ lùng khắt khe!"},{"nom":"悴命𨷶閣𢩣圭","quocngu":"Xót mình cửa các buồng khuê,"},{"nom":"捛𢚸學𥙩仍藝業𫨩","quocngu":"Lựa lòng học lấy những nghề nghiệp hay!"},{"nom":"窖羅󰘚憚𪵟𠫆","quocngu":"Khéo là mặt dạn mày dày,"},{"nom":"刼尼㐌典世尼羅傕","quocngu":"Kiếp này đã đến thế này là thôi!"},{"nom":"傷台身分落類","quocngu":"Thương thay thân phận lạc loài,"},{"nom":"唒牢拱於𢬣𠊚別牢","quocngu":"Dẫu sao cũng ở tay người biết sao?"},{"nom":"樓撑買𢷀帳桃","quocngu":"Lầu xanh mới rủ trướng đào,"},{"nom":"強撩價玉強高品𠊚","quocngu":"Càng treo giá ngọc, càng cao phẩm người."},{"nom":"別包𧊉󰌕蜂𢯦","quocngu":"Biết bao bướm lả/lửa ong lơi,"},{"nom":"局醝苔𣎃陣唭捽𣎀","quocngu":"Cuộc say đầy tháng, trận cười suốt đêm."},{"nom":"熠燿蘿󰢓梗𪀄","quocngu":"Dập dìu lá gió cành chim,"},{"nom":"𣌋迻宋玉最尋楚卿","quocngu":"Sớm đưa Tống Ngọc, tối tìm Sở Khanh."},{"nom":"欺醒𨢇𣅶殘更","quocngu":"Khi tỉnh rượu, lúc tàn canh,"},{"nom":"弋𨉟𨉟吏傷𨉟㤕車","quocngu":"Giật mình, mình lại thương mình xót xa."},{"nom":"欺牢封錦󰢓羅","quocngu":"Khi sao phong gấm rủ là,"},{"nom":"除牢散作如花𡨌塘","quocngu":"Giờ sao tan tác như hoa giữa đường?"},{"nom":"󰘚牢𠫅𩙍憚霜","quocngu":"Mặt sao dày gió dạn sương,"},{"nom":"身牢𧊉𡁚蜂𠴔閉身","quocngu":"Thân sao bướm thán ong chiềng bấy thân!"},{"nom":"默𠊚𩅹楚𩙍秦","quocngu":"Mặc người mưa Sở gió Tần,"},{"nom":"仍命󰅹別固春羅󰢔","quocngu":"Những mình nào biết có xuân là gì!"},{"nom":"隊番𩙍𢭸花掑","quocngu":"Đòi phen gió tựa hoa kề,"},{"nom":"姅簾雪冷𦊚務𦝄輸","quocngu":"Nửa rèm tuyết lạnh, bốn mùa trăng thâu."},{"nom":"景󰅹景拯𤴬愁","quocngu":"Cảnh nào cảnh chẳng đau sầu,"},{"nom":"𠊚𢞂景固𢝙兜包徐","quocngu":"Người buồn cảnh có vui đâu bao giờ."},{"nom":"隊番󰞺󰖽勾踈","quocngu":"Đòi phen nét vẽ câu thơ,"},{"nom":"宮琴𥪝月渃碁󰡎花","quocngu":"Cung cầm trong nguyệt, nước cờ dưới hoa."},{"nom":"𢝙羅𢝙強矯羅","quocngu":"Vui là vui gượng kẻo là,"},{"nom":"埃知音妬󰚷𢠩貝埃","quocngu":"Ai tri âm đó mặn mà với ai?"},{"nom":"蜍於𩙍竹𩅹梅","quocngu":"Thờ ơ gió trúc mưa mai,"},{"nom":"菫魚𤾓餒搥󰢕󰜋身","quocngu":"Ngẩn ngơ trăm nỗi, giùi mài một thân."},{"nom":"揞𢚸隊󰞃賒𧵆","quocngu":"Ôm lòng đòi đoạn xa gần,"},{"nom":"拯紆麻𦇒拯𬒞麻𤴬","quocngu":"Chẳng vò mà rối, chẳng dần mà đau!"},{"nom":"𢖵恩𠃩𡦂高溇","quocngu":"Nhớ ơn chín chữ cao sâu,"},{"nom":"󰜋𣈜󰜋我䏾橷斜斜","quocngu":"Một ngày một ngả bóng dâu tà tà."},{"nom":"𨤵𠦳渃瀋𡽫賒","quocngu":"Dặm ngàn nước thẳm non xa,"},{"nom":"擬兜身分昆𠚢世尼","quocngu":"Nghĩ đâu thân phận con ra thế này!"},{"nom":"隆冬茄泊㛪癡","quocngu":"Long đong nhà bạc em ngây,"},{"nom":"珍甘埃几柂台󰜋命","quocngu":"Trân cam ai kẻ đỡ thay một mình?"},{"nom":"𢖵𠳒願約𠀧生","quocngu":"Nhớ lời nguyện ước ba sinh,"},{"nom":"賒吹埃固透情庒埃","quocngu":"Xa xôi ai có thấu tình chăng ai?"},{"nom":"欺衛𠳨柳章臺","quocngu":"Khi về hỏi liễu Chương Đài,"},{"nom":"梗春㐌𢯏朱𠊚專𢬣","quocngu":"Cành xuân đã bẻ cho người chuyên tay!"},{"nom":"情溇蒙假義𠫅","quocngu":"Tình sâu mong trả nghĩa dày,"},{"nom":"花箕㐌𦄌檜尼朱諸","quocngu":"Hoa kia đã chắp cội này cho chưa?"},{"nom":"䋦情隊󰞃紆絲","quocngu":"Mối tình đòi đoạn vò tơ,"},{"nom":"職鄕關隴𣍵𥊚更𨱽","quocngu":"Giấc hương quan luống lần mơ canh dài."},{"nom":"窻𦂛宇宇方𡗶","quocngu":"Song the vò võ phương trời,"},{"nom":"󰅒黄昏㐌吏𣈕昏黄","quocngu":"Nay hoàng hôn đã lại mai hôn hoàng."},{"nom":"吝吝兎泊鵶鐄","quocngu":"Lần lần thỏ bạc ác vàng,"},{"nom":"悴𠊚𥪝會断膓隊干","quocngu":"Xót người trong hội đoạn tràng đòi cơn!"},{"nom":"㐌朱𥙩𡦂紅顔","quocngu":"Đã cho lấy chữ hồng nhan,"},{"nom":"爫牢朱害朱殘朱斤","quocngu":"Làm sao cho hại, cho tàn, cho cân!"},{"nom":"㐌苔𠓨刼風塵","quocngu":"Đã đày vào kiếp phong trần,"},{"nom":"牢朱耻辱󰜋吝買傕","quocngu":"Sao cho sỉ nhục một lần mới thôi!"},{"nom":"客遊俸固󰜋𠊚","quocngu":"Khách du bỗng có một người,"},{"nom":"其心户束拱㐻書香","quocngu":"Kỳ Tâm họ Thúc, cũng nòi thư hương."},{"nom":"本𠊚縣錫州常","quocngu":"Vốn người huyện Tích châu Thường,"},{"nom":"蹺嚴堂󰘉𡾵行臨淄","quocngu":"Theo nghiêm đường mở ngôi hàng Lâm Truy."},{"nom":"花魁慕㗂翹兒","quocngu":"Hoa khôi mộ tiếng Kiều nhi,"},{"nom":"帖紅尋典香閨𠳚𠓨","quocngu":"Thiếp hồng tìm đến hương khuê gửi vào."},{"nom":"帳蘇夾󰘚花桃","quocngu":"Trướng tô giáp mặt hoa đào,"},{"nom":"𨤔󰅹𫽄𪉽󰞺󰅹拯於","quocngu":"Vẻ nào chẳng mặn, nét nào chẳng ưa?"},{"nom":"海棠蔓蔓梗絲","quocngu":"Hải đường mơn mởn cành tơ,"},{"nom":"朝春強𩙍強𩅹強燶","quocngu":"Chiều xuân càng gió, càng mưa, càng nồng."},{"nom":"月花花月󰞽燶","quocngu":"Nguyệt hoa, hoa nguyệt não nùng,"},{"nom":"𣎀春埃易扲𢚸特庒","quocngu":"Đêm xuân ai dễ cầm lòng được chăng?"},{"nom":"邏之聲氣𨤰恒","quocngu":"Lạ gì thanh khí lẽ hằng,"},{"nom":"󰜋𦀊㐌纀埃𢬥朱𠚢","quocngu":"Một dây đã buộc ai giằng cho ra?"},{"nom":"𣋽桃最槾隣羅","quocngu":"Sớm đào tối mận lân la,"},{"nom":"𠓀群𦝄𩙍𡢐𠚢𥒥鐄","quocngu":"Trước còn trăng gió, sau ra đá vàng."},{"nom":"𤗽兜埋慜邏󰟯","quocngu":"Dịp đâu may mắn lạ dường,"},{"nom":"吏𣃣﨤壙椿堂吏圭","quocngu":"Lại vừa gặp khoảng xuân đường lại quê."},{"nom":"生強󰜋醒𨑮迷","quocngu":"Sinh càng một tỉnh, mười mê,"},{"nom":"𣈜春𪥀𣅶𫡻衛貝春","quocngu":"Ngày xuân lắm lúc quên về với xuân."},{"nom":"欺𩙍閣欺𦝄𡑝","quocngu":"Khi gió gác, khi trăng sân,"},{"nom":"瓢僊嘞𨢇勾神󰡸詩","quocngu":"Bầu tiên dốc rượu, câu thần nối thơ."},{"nom":"欺香𣌋欺茶𬁑","quocngu":"Khi hương sớm, khi trà trưa,"},{"nom":"盤棋點渃塘絲和彈","quocngu":"Bàn cờ điểm nước, đường tơ hoạ đàn."},{"nom":"󰎎埋𥪝局追歡","quocngu":"Miệt mài trong cuộc truy hoan,"},{"nom":"強悁属󰞺強攔𢬢情","quocngu":"Càng quen thuộc nết, càng dan díu tình."},{"nom":"邏朱丐㳥傾城","quocngu":"Lạ cho cái sóng khuynh thành,"},{"nom":"爫朱覩舘漂亭如𨔈","quocngu":"Làm cho đổ quán xiêu đình như chơi!"},{"nom":"束生悁󰞺卜徠","quocngu":"Thúc Sinh quen nết bốc rời,"},{"nom":"𤾓𠦳覩󰜋陣唭如空","quocngu":"Trăm nghìn đổ một trận cười như không."},{"nom":"媒強蘇綠捽紅","quocngu":"Mụ càng tô lục chuốt hồng,"},{"nom":"𧖱貪係𧡊唏銅沛迷","quocngu":"Máu tham hễ thấy hơi đồng phải mê,"},{"nom":"󰡎𦝄鵑㐌噲夏","quocngu":"Dưới trăng quyên đã gọi hè,"},{"nom":"頭墻󰌕榴󰟧𤍶󰝂󱖮","quocngu":"Đầu tường lửa lựu lập loè đâm bông."},{"nom":"𢩣𦂛沛貝從容","quocngu":"Buồng the phải buổi thong dong,"},{"nom":"湯蘭𢷀幅帳紅浸花","quocngu":"Thang lan rủ bức trướng hồng tẩm hoa."},{"nom":"𤑟牟𤄯玉𤽸牙","quocngu":"Rõ màu trong ngọc trắng ngà,"},{"nom":"𠫅𠫅産𨯹󰜋座天然","quocngu":"Dày dày sẵn đúc một toà thiên nhiên."},{"nom":"生強𤏣󰞺強𠸦","quocngu":"Sinh càng tỏ nét càng khen,"},{"nom":"寓情𢬣草󰜋篇律唐","quocngu":"Ngụ tình tay thảo một thiên luật Đường."},{"nom":"娘浪󰂅別𢚸払","quocngu":"Nàng rằng: \\"Vâng biết lòng chàng,"},{"nom":"𠳒𠳒珠玉行行錦絩","quocngu":"Lời lời châu ngọc hàng hàng gấm thêu."},{"nom":"𫨩𪬡𨤰拱󰡸貂","quocngu":"Hay hèn, lẽ cũng nối điêu,"},{"nom":"餒圭𢷣󰜋𠄩調昂昂","quocngu":"Nỗi quê dở một hai điều ngang ngang."},{"nom":"𢚸群𠳚盎𩄲鐄","quocngu":"Lòng còn gửi áng mây vàng,"},{"nom":"和韻嗔唉𠹾払𣋚󰅒","quocngu":"Hoạ vần xin hãy chịu chàng hôm nay.\\""},{"nom":"浪牢固邏𨓡台","quocngu":"Rằng: \\"Sao có lạ lùng thay!"},{"nom":"梗箕拯沛檜尼麻𠚢","quocngu":"Cành kia chẳng phải cội này mà ra?\\""},{"nom":"娘強𣻆湥秋波","quocngu":"Nàng càng tuôn giọt thu ba,"},{"nom":"断膓綠意𢷣麻𢞂腥","quocngu":"Đoạn trường lúc ấy dở mà buồn tênh."},{"nom":"妾如花㐌離梗","quocngu":"\\"Thiếp như hoa đã lìa cành,"},{"nom":"払如昆𧊉󰡃鑅𡮍𨔈","quocngu":"Chàng như con bướm liệng vành chút chơi."},{"nom":"主春停㐌固尼","quocngu":"Chúa xuân đành đã có nơi,"},{"nom":"𥐆𣈜傕渚𨱽唎爫之","quocngu":"Ngắn ngày thôi chớ dài lời làm chi!\\""},{"nom":"生浪自課相知","quocngu":"Sinh rằng: \\"Từ thuở tương tri,"},{"nom":"𬌓𥢆𥢆仍𨤼爲渃𡽫","quocngu":"Tấm riêng, riêng những nặng vì nước non."},{"nom":"𤾓𢆥併局𣃲𧷺","quocngu":"Trăm năm tính cuộc vuông tròn,"},{"nom":"沛𢲛朱典𦰟源瀝滝","quocngu":"Phải dò cho đến ngọn nguồn lạch sông.\\""},{"nom":"娘浪𨷈隊恩𢚸","quocngu":"Nàng rằng: \\"Muôn đội ơn lòng,"},{"nom":"𡮍𠲖邊娶邊從易兜","quocngu":"Chút e bên thú bên tòng dễ đâu."},{"nom":"平康赧那閉𥹰","quocngu":"Bình khang nấn ná bấy lâu,"},{"nom":"夭花夭特󰜋牟點粧","quocngu":"Yêu hoa, yêu được một màu điểm trang."},{"nom":"耒𠚢𣳮粉泒香","quocngu":"Rồi ra rã phấn phai hương,"},{"nom":"𢚸箕𪧚特常常世庒","quocngu":"Lòng kia giữ được thường thường thế chăng?"},{"nom":"𡲤𥪝㙴桂宫𦝄","quocngu":"Vả trong thềm quế, cung trăng,"},{"nom":"主張停㐌姉姮於𥪝","quocngu":"Chủ trương đành đã chị Hằng ở trong."},{"nom":"閉𥹰𠻞喫𡦂同","quocngu":"Bấy lâu khăng khít chữ đồng,"},{"nom":"添𠊚𢖮拱𢺺𢚸𥢆西","quocngu":"Thêm người, ắt cũng chia lòng riêng tây."},{"nom":"𨤔之𡭧分䕯𩄲","quocngu":"Vẻ chi chút phận bèo mây,"},{"nom":"爫朱𣷭爱欺菭欺潙","quocngu":"Làm cho bể ái khi đầy khi vơi."},{"nom":"𤾓調昂𠑕爲碎","quocngu":"Trăm điều ngang ngửa vì tôi,"},{"nom":"身𡢐埃𠹾罪𡗶意朱","quocngu":"Thân sau ai chịu tội trời ấy cho?"},{"nom":"如払固凭𢬣𢮩","quocngu":"Như chàng có vững tay co,"},{"nom":"𨑮分拱撘店朱󰜋𢽼","quocngu":"Mười phần cũng đắp điếm cho một vài."},{"nom":"勢𥪝油𡘯欣外","quocngu":"Thế trong dù lớn hơn ngoài,"},{"nom":"𠓀唅獅子𢭮𠊚藤蘿","quocngu":"Trước hàm sư tử gửi người đằng la."},{"nom":"儈頭淪󰡎𠃅茹","quocngu":"Cúi đầu luồn dưới mái nhà,"},{"nom":"𨡉䣷吏罪平𠀧󰌕燶","quocngu":"Giấm chua lại tội bằng ba lửa nồng!"},{"nom":"於𨕭群固茹椿","quocngu":"Ở trên còn có nhà thung,"},{"nom":"𢚸𨕭𬂙𫴋別𢚸固傷","quocngu":"Lòng trên trông xuống biết lòng có thương?"},{"nom":"詫之柳𢨵花墻","quocngu":"Sá chi liễu ngõ hoa tường,"},{"nom":"樓撑吏補𠚢坊樓撑","quocngu":"Lầu xanh lại bỏ ra phường lầu xanh!"},{"nom":"吏強淤󰟯𤵺形","quocngu":"Lại càng ứ dáng dại hình,"},{"nom":"停身分妾擬名價払","quocngu":"Đành thân phận thiếp, nghĩ danh giá chàng."},{"nom":"傷牢朱院𪰛傷","quocngu":"Thương sao cho vẹn thì thương,"},{"nom":"併牢朱院每塘嗔󰂅","quocngu":"Tính sao cho vẹn mọi đường xin vâng.\\""},{"nom":"生浪𫨩呐提澄","quocngu":"Sinh rằng: \\"Hay nói đè chừng,"},{"nom":"𢚸低𢚸妬渚曾咍牢","quocngu":"Lòng đây, lòng đó chưa từng hay sao?"},{"nom":"塘𨱽𠤆礙吳𣒲","quocngu":"Đường dài chớ ngại Ngô Lào,"},{"nom":"𤾓調唉據𬂙𠓨󰜋些","quocngu":"Trăm điều hãy cứ trông vào một ta."},{"nom":"㐌𧵆之固調賒","quocngu":"Đã gần chi có điều xa,"},{"nom":"𥒥鐄㐌决風波拱料","quocngu":"Đá vàng đã quyết, phong ba cũng liều!\\""},{"nom":"共饒根紊典調","quocngu":"Cùng nhau căn vặn đến điều,"},{"nom":"指𡽫誓𣷭󰠱招歇𠳒","quocngu":"Chỉ non thề bể nặng gieo hết lời."},{"nom":"𠰚𡄨𣎀𥐆情𨱽","quocngu":"Nỉ non đêm ngắn tình dài,"},{"nom":"外軒兎㐌𡽫兑唅𦎛","quocngu":"Ngoài hiên thỏ đã non đoài ngậm gương."},{"nom":"摱調竹院乘凉","quocngu":"Mượn điều trúc viện thừa lương,"},{"nom":"逴衛唉暫𨁪娘󰜋尼","quocngu":"Rước về hãy tạm giấu nàng một nơi."},{"nom":"戰和拉産𠄩排","quocngu":"Chiến hoà sắp sẵn hai bài,"},{"nom":"𢭄𢬣柴署摱𠊚𠻀囉","quocngu":"Cậy tay thầy thợ, mượn người dò la."},{"nom":"𡭉信典󰘚秀󰜏","quocngu":"Bắn tin đến mặt Tú bà,"},{"nom":"輸機媒拱求和監牢","quocngu":"Thua cơ, mụ cũng cầu hoà, dám sao!"},{"nom":"𤑟𤉜𧵑引𢬣𢭂","quocngu":"Rõ ràng của dẫn tay trao,"},{"nom":"還良󰜋帖申𠓨𨷯公","quocngu":"Hoàn lương một thiếp thân vào cửa công."},{"nom":"公私𠄩𨤰調衝","quocngu":"Công tư hai lẽ đều xong,"},{"nom":"𨃴僊丿㐌脱𨦩塵埃","quocngu":"Gót tiên phút đã thoát vòng trần ai."},{"nom":"󰜋茹森合竹梅","quocngu":"Một nhà sum họp trúc mai,"},{"nom":"強溇義𣷭強𨱽情滝","quocngu":"Càng sâu nghĩa bể, càng dài tình sông."},{"nom":"香強𬊊󰌕強燶","quocngu":"Hương càng đượm, lửa càng nồng,"},{"nom":"強吹𨤔月強籠牟蓮","quocngu":"Càng sôi vẻ nguyệt, càng lồng màu sen."},{"nom":"姅𢆥唏㗂𣃣悁","quocngu":"Nửa năm hơi tiếng vừa quen,"},{"nom":"𡑝梧梗碧㐌氊蘿鐄","quocngu":"Sân ngô cành biếc đã chen lá vàng."},{"nom":"梗秋買扔𥱰霜","quocngu":"Cành thu mới nảy giò sương,"},{"nom":"襘鞍㐌𧡊椿堂典尼","quocngu":"Gối yên đã thấy xuân đường đến nơi."},{"nom":"風雷浽陣󰢗󰢗","quocngu":"Phong lôi nổi trận bời bời,"},{"nom":"󰠱𢚸𠲖唈併排分𢺺","quocngu":"Nặng lòng e ấp, tính bài phân chia."},{"nom":"决𬆄辛罕󰜋皮","quocngu":"Quyết nghe tăn hẳn một bề,"},{"nom":"𠰺浪𦟐粉吏衛樓撑","quocngu":"Dạy rằng má phấn lại về lầu xanh!"},{"nom":"𧡊𠳒嚴訓伶伶","quocngu":"Thấy lời nghiêm huấn rành rành,"},{"nom":"打料生買𥙩情奈呌","quocngu":"Đánh liều, Sinh mới lấy tình nài kêu."},{"nom":"浪昆別罪㐌𡗉","quocngu":"Rằng: \\"Con biết tội đã nhiều,"},{"nom":"唒羅𩆐𩄰鈽鉊拱甘","quocngu":"Dẫu là sấm sét búa rìu cũng cam."},{"nom":"捽爲𢬣㐌潀󰢘","quocngu":"Trót vì tay đã nhúng chàm,"},{"nom":"𤵺耒群別坤爫牢低","quocngu":"Dại rồi còn biết khôn làm sao đây!"},{"nom":"拱饒𡲤㗂󰜋𣈜","quocngu":"Cùng nhau vả tiếng một ngày,"},{"nom":"揞琴埃女𢴑𦀊朱停","quocngu":"Ôm cầm ai nỡ dứt dây cho đành."},{"nom":"量𨕭决拯傷情","quocngu":"Lượng trên quyết chẳng thương tình,"},{"nom":"負𢚸傕固惜命爫之","quocngu":"Phụ lòng thôi có tiếc mình làm chi!\\""},{"nom":"𧡊𠳒鐄𥒥知知","quocngu":"Thấy lời vàng đá tri tri,"},{"nom":"焠肝翁買申跪𨷶公","quocngu":"Sốt gan ông mới thân quỳ cửa công."},{"nom":"坦平浽㳥同同","quocngu":"Đất bằng nổi sóng đùng đùng,"},{"nom":"府堂差蘿票紅傕查","quocngu":"Phủ đường sai lá phiếu hồng thôi tra."},{"nom":"共饒蹺𨃴差衙","quocngu":"Cùng nhau theo gót sai nha,"},{"nom":"雙雙𠓨𫏾𡑝花𥙙跪","quocngu":"Song song vào trước sân hoa díu quỳ."},{"nom":"𬂙𨕭󰘚𨫊顛茌","quocngu":"Trông lên mặt sắt đen sì,"},{"nom":"立嚴𠓀唉𠚢威󰠱唎","quocngu":"Lập nghiêm trước hãy ra uy nặng lời:"},{"nom":"󰢈箕𤵺󰞺𨔈排","quocngu":"\\"Gã kia dại nết chơi bời,"},{"nom":"麻昆𠊚意羅昆𨒟迻","quocngu":"Mà con người ấy là người đong đưa!"},{"nom":"從之花貸香乘","quocngu":"Tuồng chi hoa thải hương thừa,"},{"nom":"摱牟𣘈粉打󰢙昆顛","quocngu":"Mượn màu son phấn đánh lừa con đen!"},{"nom":"推𥪝情狀原單","quocngu":"Suy trong tình trạng nguyên đơn,"},{"nom":"皮󰅹𪰛拱渚衝皮󰅹","quocngu":"Bề nào, thì cũng chưa xong bề nào."},{"nom":"法公照案論𠓨","quocngu":"Phép công chiếu án luận vào,"},{"nom":"固𠄩塘妬悶牢默命","quocngu":"Có hai đường đó muốn sao mặc mình:"},{"nom":"󰜋羅據法加刑","quocngu":"\\"Một là cứ phép gia hình,"},{"nom":"𠄩羅吏據樓撑付衛","quocngu":"Hai là lại cứ lầu xanh phó về!\\""},{"nom":"娘浪㐌决󰜋皮","quocngu":"Nàng rằng: \\"Đã quyết một bề,"},{"nom":"󰔓尼王𥙩絲箕󰋇吝","quocngu":"Nhện này vương lấy tơ kia mấy lần!"},{"nom":"濁𤄯身拱羅身","quocngu":"Đục trong thân cũng là thân,"},{"nom":"要疎󰂅𠹾𫏾𡑝雷霆","quocngu":"Yếu thơ vâng chịu trước sân lôi đình.\\""},{"nom":"𠰺浪據法加刑","quocngu":"Dạy rằng: \\"Cứ phép gia hình!\\""},{"nom":"𠀧𣘃棟㩫󰜋梗牡丹","quocngu":"Ba cây đóng chặt một cành mẫu đơn."},{"nom":"分停之監呌冤","quocngu":"Phận đành chi dám kêu oan,"},{"nom":"桃疎壳𦟐柳散作𣮮","quocngu":"Đào xơ xác má, liễu tan tác mày."},{"nom":"󰜋𡑝淋吉㐌菭","quocngu":"Một sân lầm cát đã đầy,"},{"nom":"𦎛矑渃水梅𤷍󰢚霜","quocngu":"Gương lờ nước thuỷ, mai gầy vóc sương."},{"nom":"擬情払束麻傷","quocngu":"Nghĩ tình chàng Thúc mà thương,"},{"nom":"𡑩車𬂙𧡊𢚸強㤕𢚷","quocngu":"Nẻo xa trông thấy lòng càng xót xa."},{"nom":"哭浪冤酷爲些","quocngu":"Khóc rằng: \\"Oan khốc vì ta,"},{"nom":"沛𦖑𠳒𠓀易麻累𡢐","quocngu":"Phải nghe lời trước, dễ mà lụy sau."},{"nom":"𣴓𢚸拯別擬𡢐","quocngu":"Cạn lòng chẳng biết nghĩ sâu,"},{"nom":"底埃𦝄𢣃花愁爲埃","quocngu":"Để ai trăng tủi hoa sầu vì ai?\\""},{"nom":"府堂𦖑𥊣𠓨𦖻","quocngu":"Phủ đường nghe thoảng vào tai,"},{"nom":"動𢚸吏𣴓典𠳒𥢆西","quocngu":"Động lòng lại gạn đến lời riêng tây."},{"nom":"湥洡払買𠽔𬆄","quocngu":"Sụt sùi, chàng mới thưa ngay,"},{"nom":"頭𡳪吏計事𣈜求親","quocngu":"Đầu đuôi lại kể sự ngày cầu thân."},{"nom":"娘它併歇賒𧵆","quocngu":"Nàng đà tính hết xa gần."},{"nom":"自𠸗娘㐌別身固𣈙","quocngu":"Từ xưa nàng đã biết thân có rày!"},{"nom":"在碎稱𥙩󰜋𢬣","quocngu":"Tại tôi xứng lấy một tay,"},{"nom":"底娘朱典餒尼爲碎","quocngu":"Để nàng cho đến nỗi này vì tôi.\\""},{"nom":"𦖑𠳒呐拱傷𠳒","quocngu":"Nghe lời nói cũng thương lời,"},{"nom":"擛威買𠰺𨷑排觧圍","quocngu":"Dẹp uy mới dạy mở bài giải vi."},{"nom":"浪如罕固世尼","quocngu":"Rằng: \\"Như hẳn có thế ni,"},{"nom":"𦝄花雙拱是非別調","quocngu":"Trăng hoa, song cũng thị phi biết điều!\\""},{"nom":"生浪𡭧分渤䕯","quocngu":"Sinh rằng: \\"Chút phận bọt bèo,"},{"nom":"蹺𠾕𡲤共𠃣𡗉筆硯","quocngu":"Theo đòi vả cũng ít nhiều bút nghiên.\\""},{"nom":"唭浪㐌世𪰛𢧚","quocngu":"Cười rằng: \\"Đã thế thì nên!"},{"nom":"木枷唉此󰜋篇呈藝","quocngu":"Mộc già, hãy thử một thiên, trình nghề.\\""},{"nom":"娘󰂅拮筆𢬣題","quocngu":"Nàng vâng cất bút tay đề,"},{"nom":"箋花呈𠓀案批䀡詳","quocngu":"Tiên hoa trình trước án phê, xem tường."},{"nom":"𠸦浪價𤁕盛唐","quocngu":"Khen rằng: \\"Giá lợt Thịnh Đường,"},{"nom":"才尼色意𠦳鐄渚斤","quocngu":"Tài này sắc ấy nghìn vàng chưa cân!"},{"nom":"舌羅才子佳人","quocngu":"Thiệt là tài tử giai nhân,"},{"nom":"朱陳吏固朱陳󰅹欣","quocngu":"Châu Trần lại có Châu Trần nào hơn!"},{"nom":"催停逴𢷣鳩𪬡","quocngu":"Thôi đừng rước dữ, cưu hờn,"},{"nom":"爫之呂𣜿朱彈昂宮","quocngu":"Làm chi lỡ nhịp cho đờn ngang cung."},{"nom":"㐌迻典𠓀𨷶公","quocngu":"Đã đưa đến trước cửa công,"},{"nom":"唒外羅法雙𥪝羅情","quocngu":"Dẫu ngoài là phép, song trong là tình."},{"nom":"妯昆𥪝道家庭","quocngu":"Dâu con trong đạo gia đình,"},{"nom":"催𪰛擛浽不平羅衝","quocngu":"Thôi thì dẹp nỗi bất bình là xong!\\""},{"nom":"急傳懺所禮公","quocngu":"Kíp truyền sắm sửa lễ công,"},{"nom":"轎花󰢛𩙍𤒘紅點𬁖","quocngu":"Kiệu hoa sánh gió, đuốc hồng điểm sao."},{"nom":"排行鼓樂𠮿𡁞","quocngu":"Bày hàng cổ nhạc xôn xao,"},{"nom":"雙雙迻細帳桃聘堆","quocngu":"Song song đưa tới trướng đào sánh đôi."},{"nom":"傷爲󰞺重爲才","quocngu":"Thương vì nết, trọng vì tài."},{"nom":"束翁傕拱擛𠳒風波","quocngu":"Thúc ông thôi cũng dẹp lời phong ba."},{"nom":"蕙香𠶗𠽋󰜋茹","quocngu":"Huệ hương sực nức một nhà,"},{"nom":"曾󰣙䔲吏󰚷麻欣𠸗","quocngu":"Từng cay đắng, lại mặn mà hơn xưa."},{"nom":"𠻵𢝙𨢇𣌋茶𬁑","quocngu":"Mảng vui rượu sớm trà trưa,"},{"nom":"桃它派𧺀蓮𣃤扔撑","quocngu":"Đào đà phai thắm, sen vừa nảy xanh."},{"nom":"帳糊永𨤔𣎀清","quocngu":"Trướng hồ vắng vẻ đêm thanh,"},{"nom":"𠲖情娘買排情𥢆終","quocngu":"E tình nàng mới bày tình riêng chung."},{"nom":"分蒲自院𡦂從","quocngu":"Phận bồ từ vẹn chữ tòng,"},{"nom":"󱔑台雁燕㐌紅𨃐年","quocngu":"Đổi thay nhạn én đã hòng đầy niên."},{"nom":"信茹𣈜󰜋永信","quocngu":"Tin nhà ngày một vắng tin,"},{"nom":"𪉽情葛藟𤁕情糟糠","quocngu":"Mặn tình cát luỹ, nhạt tình tao khang."},{"nom":"擬𠚢寔拱𢧚󰟯","quocngu":"Nghĩ ra thật cũng nên dường,"},{"nom":"吣唏埃易𪧚床朱些","quocngu":"Tăm hơi ai dễ giữ giàng cho ta?"},{"nom":"濫𦖑几𡘯𥪝茹","quocngu":"Trộm nghe kẻ lớn trong nhà,"},{"nom":"𠓨𥪝囷法呐𠚢䋦𦀚","quocngu":"Vào trong khuôn phép, nói ra mối giềng."},{"nom":"𠵱𠼷仍胣非常","quocngu":"E thay những dạ phi thường,"},{"nom":"易𢲛󰟱𣷭坤量底滝","quocngu":"Dễ dò rốn bể, khôn lường đáy sông."},{"nom":"麻些卒󰜋𢆥𣳔","quocngu":"Mà ta suốt một năm ròng,"},{"nom":"世󰅹拱拯𨁪衝特󰅹","quocngu":"Thế nào cũng chẳng dấu xong được nào."},{"nom":"閉遲渚𤏣消耗","quocngu":"Bấy chầy chưa tỏ tiêu hao,"},{"nom":"或羅𥪝固爫牢庒羅","quocngu":"Hoặc là trong có làm sao chăng là?"},{"nom":"嗔払料急吏茹","quocngu":"Xin chàng liệu kíp lại nhà,"},{"nom":"𠓀𠊚𢢲意𡢐些別情","quocngu":"Trước người đẹp ý, sau ta biết tình."},{"nom":"󰂇朋𪧚墨𨁪觥","quocngu":"Ví bằng giữ mực dấu quanh,"},{"nom":"𣈙𨁮𪰹捛如形渚通","quocngu":"Rày lần mai lữa như hình chưa thông!\\""},{"nom":"𦖑𠳒𡅳啂從容","quocngu":"Nghe lời khuyên nhủ thong dong,"},{"nom":"停𢚸払買决𢚸回裝","quocngu":"Đành lòng chàng mới quyết lòng hồi trang."},{"nom":"󰢜𠚢典𠳚椿堂","quocngu":"Sáng ra đến gửi xuân đường,"},{"nom":"束翁拱倍𠽖払寧家","quocngu":"Thúc ông cũng vội giục chàng ninh gia."},{"nom":"餞迻󰜋𡃹關河","quocngu":"Tiễn đưa một chén quan hà,"},{"nom":"春亭脱㐌𢶿𠚢臯亭","quocngu":"Xuân đình thoắt đã dọn ra Cao đình."},{"nom":"秦淮󰜋帶𤄯撑","quocngu":"Tần Hoài một dải trong xanh,"},{"nom":"雷傕坡柳󰋇梗陽關","quocngu":"Loi thoi bờ liễu mấy cành Dương quan."},{"nom":"擒𢬣𨱽𥐆咀嘆","quocngu":"Cầm tay dài ngắn thở than,"},{"nom":"𢺺配凝󱋓合散喭唎","quocngu":"Chia phôi ngừng chén, hợp tan nghẹn lời."},{"nom":"娘浪𡽫渃賒𣾺","quocngu":"Nàng rằng: \\"Non nước xa khơi,"},{"nom":"牢朱𥪝蔭𪰛外買淹","quocngu":"Sao cho trong ấm thì ngoài mới êm."},{"nom":"易𤍶󰢝𧺀𢳳金","quocngu":"Dễ loà yếm thắm trôn kim,"},{"nom":"爫之𢫕𬑉󰈫𪀄苦𢚸","quocngu":"Làm chi bưng mắt bắt chim khó lòng."},{"nom":"堆些𡮍義󰢞𢸚","quocngu":"Đôi ta chút nghĩa đèo bòng,"},{"nom":"典茹𠓀料呐共朱明","quocngu":"Đến nhà trước liệu nói cùng cho minh."},{"nom":"油欺㳥𩙍不平","quocngu":"Dù khi sóng gió bất bình,"},{"nom":"𡘯羅威𡘯碎停分碎","quocngu":"Lớn ra uy lớn, tôi đành phận tôi."},{"nom":"欣調𨁪虐𨁪吹","quocngu":"Hơn điều giấu ngược giấu xuôi,"},{"nom":"吏恾仍㗂齊𡗶典𡢐","quocngu":"Lại mang những tiếng tày trời đến sau."},{"nom":"傷饒嗔𢖵𠳒饒","quocngu":"Thương nhau xin nhớ lời nhau,"},{"nom":"𢆥遲拱拯𠫾兜麻遲","quocngu":"Năm chầy cũng chẳng đi đâu mà chầy!"},{"nom":"𡃹迻𢖵𣇊𣋚󰅒","quocngu":"Chén đưa nhớ bữa hôm nay,"},{"nom":"󱋓𢜠嗔待𩛷尼𢆥𡢐","quocngu":"Chén mừng xin đợi bữa này năm sau!\\""},{"nom":"𠊚𨖲馭几𢺺袍","quocngu":"Người lên ngựa, kẻ chia bào,"},{"nom":"棱楓秋㐌染牟關山","quocngu":"Rừng phong thu đã nhuốm màu quan san."},{"nom":"𨤵紅𡏧捲征鞍","quocngu":"Dặm hồng bụi cuốn chinh an,"},{"nom":"𬂙𠊚㐌屈󰋇岸橷撑","quocngu":"Trông người đã khuất mấy ngàn dâu xanh."},{"nom":"𠊚衛隻䏾𢆥更","quocngu":"Người về chiếc bóng năm canh,"},{"nom":"几𠫾𨷈𨤵󰜋命賒吹","quocngu":"Kẻ đi muôn dặm một mình xa xôi."},{"nom":"暈𦝄埃仕爫堆","quocngu":"Vầng trăng ai xẻ làm đôi,"},{"nom":"姅印襘隻姅𤐝𨤵長","quocngu":"Nửa in gối chiếc, nửa soi dặm trường."},{"nom":"計之仍事育塘","quocngu":"Kể chi những sự dọc đường."},{"nom":"𢩣𥪝尼餒主張於茹","quocngu":"Buồng trong, này nỗi chủ trương ở nhà."},{"nom":"本𣳔户宦名家","quocngu":"Vốn dòng họ Hoạn danh gia,"},{"nom":"昆官吏部𠸜羅宦姐","quocngu":"Con quan Lại bộ, tên là Hoạn Thư."},{"nom":"緣藤𣌋順𩙍迻","quocngu":"Duyên Đằng sớm thuận gió đưa,"},{"nom":"共払結𩯀車絲仍𣈜","quocngu":"Cùng chàng kết tóc xe tơ những ngày."},{"nom":"於咹𪰛󰞺拱𫨩","quocngu":"Ở ăn thì nết cũng hay,"},{"nom":"呐調𦇒纀羅𢬣拱𫅷","quocngu":"Nói điều trói buộc là tay cũng già."},{"nom":"自𦖑園買添花","quocngu":"Từ nghe vườn mới thêm hoa,"},{"nom":"𠰘𠊚㐌𪥀信茹𪰛空","quocngu":"Miệng người đã lắm, tin nhà thì không."},{"nom":"󰌕𢚸強拉強燶","quocngu":"Lửa lòng càng dập càng nồng,"},{"nom":"責𠊚顛泊𠚢𢚸𦝄花","quocngu":"Trách người đen bạc ra lòng trăng hoa:"},{"nom":"󰂇朋首寔拱些","quocngu":"\\"Ví bằng thú thật cùng ta,"},{"nom":"固容几󰡎買羅幅𨕭","quocngu":"Có dong kẻ dưới mới là bậc trên."},{"nom":"𢚵之拯𪧚𥙩𪤍","quocngu":"Dại chi chẳng giữ lấy nền,"},{"nom":"卒之麻啅㗂慳𠓨命","quocngu":"Tốt chi mà rước tiếng ghen vào mình?"},{"nom":"吏群𢫕捌𨁪觥","quocngu":"Lại còn bưng bít giấu quanh,"},{"nom":"爫之仍𫗁𥘷𩲵𠽋唭","quocngu":"Làm chi những thói trẻ ranh nực cười!"},{"nom":"仍浪隔󰘚屈𠳒","quocngu":"Những rằng cách mặt khuất lời,"},{"nom":"𨁪些些拱料排𨁪朱","quocngu":"Giấu ta, ta cũng liệu bài giấu cho!"},{"nom":"𢥈之󰟳意麻𢥈","quocngu":"Lo gì việc ấy mà lo,"},{"nom":"蜆𥪝𠰘󱋓吏𨆶𠫾兜","quocngu":"Kiến trong miệng chén lại bò đi đâu?"},{"nom":"爫朱𥆾拯特饒","quocngu":"Làm cho nhìn chẳng được nhau,"},{"nom":"爫朱苔墮拮頭拯𨖲","quocngu":"Làm cho đày đoạ cất đầu chẳng lên!"},{"nom":"爫朱𬂙𧡊眼前","quocngu":"Làm cho trông thấy nhãn tiền,"},{"nom":"朱𠊚貪板半船別𢬣","quocngu":"Cho người tham ván bán thuyền biết tay.\\""},{"nom":"浽𢚸謹𫽄埃𫨩","quocngu":"Nỗi lòng kín chẳng ai hay,"},{"nom":"外𦖻底默𩙍𠖤𠃅外","quocngu":"Ngoài tai để mặc gió bay mái ngoài."},{"nom":"旬𡢐俸固𠄩𠊚","quocngu":"Tuần sau bỗng có hai người,"},{"nom":"𫫗信㕸拱算排𤼸功","quocngu":"Mách tin rắp cũng toan bài dâng công."},{"nom":"小姐浽陣同同","quocngu":"Tiểu thư nổi giận đùng đùng:"},{"nom":"𡃍𢬣𬘏𦄅𠚢𢚸撩𤽗","quocngu":"\\"Gớm tay thêu dệt ra lòng trêu ngươi!"},{"nom":"𫯳蚤󰅹沛如埃","quocngu":"Chồng tao nào phải như ai,"},{"nom":"調尼罕𠰘仍𠊚是非","quocngu":"Điều này hẳn miệng những người thị phi!\\""},{"nom":"徵凌爫𢷣𠚢威","quocngu":"Chưng lừng làm dữ ra uy,"},{"nom":"繩童抯𠰘昆婢𢯏𪘵","quocngu":"Thằng đồng vả miệng, con tì bẻ răng."},{"nom":"𥪝外謹櫗如𢬄","quocngu":"Trong ngoài kín mít như bưng,"},{"nom":"󰅹埃群鉴呐能󰜋𠳒","quocngu":"Nào ai còn dám nói năng một lời!"},{"nom":"𢩣絩𣌉𣌋清台","quocngu":"Buồng thêu khuya sớm thảnh thơi,"},{"nom":"𠚢𠓨󰜋墨呐唭如空","quocngu":"Ra vào một mực nói cười như không."},{"nom":"𣎀𣈜𢚸仍吲𢚸","quocngu":"Đêm ngày lòng những dặn lòng,"},{"nom":"生陀衛典樓紅𫴋鞍","quocngu":"Sinh đà về đến lầu hồng xuống yên."},{"nom":"𠳒散合浽寒暄","quocngu":"Lời tan hợp, nỗi hàn huyên,"},{"nom":"𡦂情強𪉽𡦂緣強燶","quocngu":"Chữ tình càng mặn, chữ duyên càng nồng."},{"nom":"洗塵𢝙󱋓從容","quocngu":"Tẩy trần vui chén thong dong,"},{"nom":"餒𢚸埃於𥪝𢚸麻𠚢","quocngu":"Nỗi lòng ai ở trong lòng mà ra?"},{"nom":"払衛䀡意思茹","quocngu":"Chàng về xem ý tứ nhà,"},{"nom":"事𢚸拱拉鄰羅𤉒排","quocngu":"Sự lòng cũng rắp lân la giải bày."},{"nom":"󰋇番唭醒呐醝","quocngu":"Mấy phen cười tỉnh nói say,"},{"nom":"𩯀絲拯動𡮨埋事情","quocngu":"Tóc tơ chẳng động mảy may sự tình."},{"nom":"擬它𢬄謹𠰘󰜍","quocngu":"Nghĩ đà bưng kín miệng bình,"},{"nom":"󰅹埃固拷麻命㐌稱","quocngu":"Nào ai có khảo mà mình đã xưng?"},{"nom":"仍羅𠲖唈用𢫡","quocngu":"Những là e ấp dùng dằng,"},{"nom":"捽𦀊𢜝女動棱吏傕","quocngu":"Rút dây sợ nữa động rừng, lại thôi."},{"nom":"固欺𢝙傳謨唭","quocngu":"Có khi vui chuyện mua cười,"},{"nom":"小姐吏𢷣仍唎兜兜","quocngu":"Tiểu thư lại giở những lời đâu đâu."},{"nom":"浪𥪝玉𥒥鐄鍮","quocngu":"Rằng: \\"Trong ngọc đá vàng thau,"},{"nom":"𨑮分些㐌信饒奇𨑮","quocngu":"Mười phần ta đã tin nhau cả mười."},{"nom":"𠸦朱仍𠰘容𨱽","quocngu":"Khen cho những miệng dông dài,"},{"nom":"𧊉蜂吏達仍𠳒怒箕","quocngu":"Bướm ong lại đặt những lời nọ kia."},{"nom":"妾油𢜗拯𫨩推","quocngu":"Thiếp dù vụng chẳng hay suy,"},{"nom":"㐌洳䏾擬吏碑𠰘唭","quocngu":"Đã dơ bụng nghĩ, lại bia miệng cười.\\""},{"nom":"𧡊𠳒統請如𨔈","quocngu":"Thấy lời thủng thỉnh như chơi,"},{"nom":"順𠳒払拱呐吹扡扽","quocngu":"Thuận lời chàng cũng nói xuôi đỡ đòn."},{"nom":"仍羅唭粉𠹳𣘈","quocngu":"Những là cười phấn, cợt son,"},{"nom":"畑𣌉終䏾𦝄𧷺聘𦠘","quocngu":"Đèn khuya chung bóng, trăng tròn sánh vai,"},{"nom":"𡽫圭蓴󰢟𤊰味","quocngu":"Non quê thuần hức bén mùi,"},{"nom":"汫鐄㐌拥󰜋𠄽蘿梧","quocngu":"Giếng vàng đã rụng một vài lá ngô."},{"nom":"鄭念𢖵景江湖","quocngu":"Chạnh niềm nhớ cảnh giang hồ,"},{"nom":"󰜋念關塞󰋇務𩙍𦝄","quocngu":"Một niềm quan tái, mấy mùa gió trăng."},{"nom":"情𥢆渚監󰁹𪘵","quocngu":"Tình riêng chưa dám rỉ răng,"},{"nom":"小姐𠓀㐌料澄啂戈","quocngu":"Tiểu thư trước đã liệu chừng nhủ qua:"},{"nom":"隔𫷜𩄲萡賒賒","quocngu":"\\"Cách năm mây bạc xa xa,"},{"nom":"臨淄拱沛併麻晨昏","quocngu":"Lâm Truy cũng phải tính mà thần hôn.\\""},{"nom":"特𠳒如𨷑𡬷𣘈","quocngu":"Được lời như mở tấc son,"},{"nom":"𨀒駒𣦎𨇒渃𡽫圭𠊚","quocngu":"Vó câu thẳng ruổi nước non quê người."},{"nom":"龍玲底渃印𡗶","quocngu":"Long lanh đáy nước in trời,"},{"nom":"城磋𤌋碧𡽫坡󰢺鐄","quocngu":"Thành xây khói biếc, non phơi bóng vàng."},{"nom":"榑駒𣃣𢶢𨤵長","quocngu":"Roi câu vừa gióng dặm trường,"},{"nom":"車香娘拱順塘歸寧","quocngu":"Xe hương nàng cũng thuận đường quy ninh,"},{"nom":"𠽔茹萱歇每情","quocngu":"Thưa nhà huyên hết mọi tình,"},{"nom":"浽払於萡浽命𠹾顛","quocngu":"Nỗi chàng ở bạc, nỗi mình chịu đen."},{"nom":"擬浪恨𤴪𢤞悭","quocngu":"Nghĩ rằng: \\"Giận ghẻ hờn ghen,"},{"nom":"醜払麻固埃𠸦之命","quocngu":"Xấu chàng mà có ai khen chi mình!"},{"nom":"丕𢧚撔󰘚爫清","quocngu":"Vậy nên ngảnh mặt làm thinh,"},{"nom":"謀高本㐌㕸𩲵仍𣈜","quocngu":"Mưu cao vốn đã rắp ranh những ngày,"},{"nom":"臨淄塘󰜋𣎃遲","quocngu":"Lâm Truy đường một tháng chầy,"},{"nom":"麻塘海道𨖅𬆄羅𧵆","quocngu":"Mà đường hải đạo sang ngay là gần."},{"nom":"𢶿船攎󰘚家人","quocngu":"Dọn thuyền lựa mặt gia nhân,"},{"nom":"唉󰝡𦀊𦀗纀蹎娘衛","quocngu":"Hãy đem dây xích buộc chân nàng về."},{"nom":"爫朱朱𤵺朱迷","quocngu":"Làm cho, cho dại, cho mê,"},{"nom":"爫朱𤴬疸𠲖㖷朱𥋳","quocngu":"Làm cho đau đớn, ê chề cho coi!"},{"nom":"𠓀朱補𢢂仍𠊚","quocngu":"Trước cho bõ ghét những người,"},{"nom":"𡢐朱底󰜋𠻀唭衛𡢐","quocngu":"Sau cho để một trò cười về sau!\\""},{"nom":"夫人𠸦斫窒牟","quocngu":"Phu nhân khen chước rất mầu,"},{"nom":"𢢅昆買𠰺默油𠚢𢬣","quocngu":"Chiều con, mới dạy mặc dầu ra tay."},{"nom":"𢯢𢲲帆𩙍繚𩄲","quocngu":"Sửa sang buồm gió lèo mây,"},{"nom":"犬鷹吏𪮙󰜋𠄽棍桄","quocngu":"Khuyển Ưng lại chọn một vài côn quang."},{"nom":"𠸕𠻀歇各𡑩塘","quocngu":"Dặn dò hết các nẻo đường,"},{"nom":"順風󰜋蘿𣾼𨖅𣷭齊","quocngu":"Thuận phong một lá vượt sang biển Tề."},{"nom":"娘自隻䏾窗𦂛","quocngu":"Nàng từ chiếc bóng song the,"},{"nom":"塘箕餒怒如𢺺䋦愁","quocngu":"Đường kia nỗi nọ như chia mối sầu."},{"nom":"䏾橷㐌熾昂頭","quocngu":"Bóng dâu đã xế ngang đầu,"},{"nom":"別兜蔭冷別兜𠮾裴","quocngu":"Biết đâu ấm lạnh, biết đâu ngọt bùi."},{"nom":"𩯀誓㐌枕昂𦠘","quocngu":"Tóc thề đã chấm ngang vai,"},{"nom":"󰅹𠳒𡽫渃󰅹𠳒鉄𣘈","quocngu":"Nào lời non nước, nào lời sắt son?"},{"nom":"𦼜𦹴𡭧分昆昆","quocngu":"Sắn bìm chút phận con con,"},{"nom":"因緣別固𣃲𧷺朱庒","quocngu":"Nhân duyên biết có vuông tròn cho chăng?"},{"nom":"身牢𡗉浽不平","quocngu":"Thân sao nhiều nỗi bất bằng?"},{"nom":"料如妸素宮𦝄擬󰅹","quocngu":"Liều như Ả tố cung trăng nghĩ nào!"},{"nom":"𣎀秋𩙍律窻桃","quocngu":"Đêm thu gió lọt song đào,"},{"nom":"姅𨦩𦝄缺𠀧𬁖𡧲𡗶","quocngu":"Nửa vành trăng khuyết, ba sao giữa trời."},{"nom":"󰠱香典𠓀𫢋臺","quocngu":"Nén hương đến trước Phật đài,"},{"nom":"餒𢚸𡄩渚𣴓𠳒云云","quocngu":"Nỗi lòng khấn chửa cạn lời vân vân."},{"nom":"󰡎花㖂𫫵惡人","quocngu":"Dưới hoa dậy lũ ác nhân,"},{"nom":"喑喑哭鬼驚神𧿆𠚢","quocngu":"Ầm ầm khốc quỷ kinh thần nhảy ra!"},{"nom":"苔𡑝鎌捽𠓇𤍶","quocngu":"Đầy sân gươm tuốt sáng loà,"},{"nom":"失驚娘渚別羅爫牢","quocngu":"Thất kinh nàng chửa biết là làm sao."},{"nom":"𧆄迷兜㐌洒𠓨","quocngu":"Thuốc mê đâu đã tưới vào,"},{"nom":"𢠩恾如職占包別之","quocngu":"Mơ màng như giấc chiêm bao biết gì!"},{"nom":"𧿆𬆄𨖲馭卽期","quocngu":"Dảy ngay lên ngựa tức kỳ,"},{"nom":"房𬘏院册𦊚皮󰌕炵","quocngu":"Phòng thêu viện sách, bốn bề lửa dong."},{"nom":"産屍無主邊滝","quocngu":"Sẵn thây vô chủ bên sông"},{"nom":"󰝂𠓨底打吝崇埃咍","quocngu":"Đem vào để đánh lận sòng ai hay?"},{"nom":"碎隊魄落魂𠖤","quocngu":"Tôi đòi phách lạc, hồn bay,"},{"nom":"蹤坡蓓𦹵㭲𣘃隐命","quocngu":"Tung pha bụi cỏ gốc cây ẩn mình."},{"nom":"束翁茹拱𧵆觥","quocngu":"Thúc ông nhà cũng gần quanh,"},{"nom":"秩𬂙𦰟󰌕失驚拥淶","quocngu":"Chợt trông ngọn lửa, thất kinh rụng rời."},{"nom":"伵柴𬦳𬆅典尼","quocngu":"Tớ thầy chạy thẳng đến nơi,"},{"nom":"𥯒排洒󰌕尋𠊚劳嗃","quocngu":"Tơi bời tưới lửa tìm người lao xao."},{"nom":"𩙍高𦰟󰌕強高","quocngu":"Gió cao ngọn lửa càng cao,"},{"nom":"碎隊尋𨁥娘󰅹𧡊兜","quocngu":"Tôi đòi tìm đủ, nàng nào thấy đâu!"},{"nom":"歇𪹣歇駭𥆾饒","quocngu":"Hớt hơ hớt hải nhìn nhau,"},{"nom":"汫溇蓓葚𠓀𡢐尋咣","quocngu":"Giếng sâu, bụi rậm trước sau tìm quàng."},{"nom":"𧼋𠚢准𡳵房香","quocngu":"Chạy ra chốn cũ phòng hương,"},{"nom":"𥪝炭𧡊󰜋棟𩩫𤈜殘","quocngu":"Trong than thấy một đống xương cháy tàn."},{"nom":"𣦍情埃別謀奸","quocngu":"Ngay tình ai biết mưu gian,"},{"nom":"罕娘傕吏固盤浪埃","quocngu":"Hẳn nàng thôi lại có bàn rằng ai!"},{"nom":"束翁洡湥𥐆𨱽","quocngu":"Thúc ông sùi sụt ngắn dài,"},{"nom":"擬昆永𡲈傷𠊚󰞺那","quocngu":"Nghĩ con vắng vẻ thương người nết na."},{"nom":"遺骸抇󰢠衛茹","quocngu":"Di hài nhặt nhạnh về nhà,"},{"nom":"󰅹羅衾殮󰅹羅䘮齋","quocngu":"Nào là khâm liệm, nào là tang trai."},{"nom":"禮常㐌𨁥󰜋𠄩","quocngu":"Lễ thường đã đủ một hai,"},{"nom":"陸程払拱典尼閉除","quocngu":"Lục trình chàng cũng đến nơi bấy giờ."},{"nom":"𨀈𠓨准𡳵樓踈","quocngu":"Bước vào chốn cũ lầu thơ,"},{"nom":"󰢡炭󰜋棟𪱆湄𦊚墻","quocngu":"Tro than một đống, nắng mưa bốn tường."},{"nom":"𨖅茹吒細中堂","quocngu":"Sang nhà cha, tới trung đường,"},{"nom":"靈床牌位蜍娘於𨕭","quocngu":"Linh sàng bài vị thờ nàng ở trên."},{"nom":"唉喂呐歇事緣","quocngu":"Hỡi ôi! Nói hết sự duyên,"},{"nom":"絲情𠞹䏾󰌕煩𤈜肝","quocngu":"Tơ tình đứt bụng, lửa phiền cháy gan!"},{"nom":"招命勿抯哭嘆","quocngu":"Gieo mình vật vã khóc than:"},{"nom":"昆𠊚世意托冤世尼","quocngu":"Con người thế ấy, thác oan thế này!"},{"nom":"󰣐浪梅竹吏圍","quocngu":"Chắc rằng mai trúc lại vầy,"},{"nom":"埃𫨩永訣羅𣈜迻饒","quocngu":"Ai hay vĩnh quyết là ngày đưa nhau."},{"nom":"計包掣餒慘愁","quocngu":"Kể bao xiết nỗi thảm sầu,"},{"nom":"斷膓埃固戈橋買𫨩","quocngu":"Đoạn trường ai có qua cầu mới hay."},{"nom":"𧵆沔𦖑固没柴","quocngu":"Gần miền nghe có một thầy,"},{"nom":"飛符𦤶鬼高𢬣通玄","quocngu":"Phi phù trí quỷ, cao tay thông huyền."},{"nom":"𨕭三島󰡎九泉","quocngu":"Trên Tam đảo, dưới cửu tuyền,"},{"nom":"尋兜𪰛拱別信𤑟𤉜","quocngu":"Tìm đâu thì cũng biết tin rõ ràng."},{"nom":"攕生禮物逴𨖅","quocngu":"Sắm sanh lễ vật rước sang,"},{"nom":"嗔尋朱𧡊󰘚娘𠳨𠻃","quocngu":"Xin tìm cho thấy mặt nàng hỏi han."},{"nom":"道人伏𠓀凈壇","quocngu":"Đạo nhân phục trước tĩnh đàn."},{"nom":"出神𦀊丿渚殘𥘀香","quocngu":"Xuất thần giây phút chưa tàn nén hương."},{"nom":"跙𧗱明白呐詳","quocngu":"Trở về minh bạch nói tường:"},{"nom":"󰘚娘拯𧡊役娘㐌查","quocngu":"\\"Mặt nàng chẳng thấy, việc nàng đã tra."},{"nom":"𠊚尼󰠱刼寃家","quocngu":"Người này nặng kiếp oan gia,"},{"nom":"群𡗉𡢻𡗋牢它托朱","quocngu":"Còn nhiều nợ lắm sao đà thác cho!"},{"nom":"孛宮當默難蘇","quocngu":"Bột cung đang mắc nạn to,"},{"nom":"󰜋𢆥女買𠽄𠻀特信","quocngu":"Một năm nữa mới thăm dò được tin."},{"nom":"𠄩邊夾󰘚廛廛","quocngu":"Hai bên giáp mặt chiền chiền,"},{"nom":"悶𥆾𦓡拯鍳𥆾邏台","quocngu":"Muốn nhìn mà chẳng dám nhìn lạ thay!\\""},{"nom":"𦖑𠳒呐邏󰟯尼","quocngu":"Nghe lời nói lạ dường này,"},{"nom":"事娘羅世𠳒柴鍳信","quocngu":"Sự nàng là thế, lời thầy dám tin."},{"nom":"拯戈童骨󰣊仟","quocngu":"Chẳng qua đồng cốt xằng xiên,"},{"nom":"𠊚兜𦓡吏𧡊𨕭𡎝塵","quocngu":"Người đâu mà lại thấy trên cõi trần?"},{"nom":"惜花仍唅𢢯春","quocngu":"Tiếc hoa những ngậm ngùi xuân,"},{"nom":"身尼易別󰋇吝﨤僊","quocngu":"Thân này dễ biết mấy lần gặp tiên!"},{"nom":"停浪娘㐌九原","quocngu":"Đành rằng nước đã cửu nguyên."},{"nom":"𫨩兜地獄於沔人間","quocngu":"Hay đâu địa ngục ở miền nhân gian!"},{"nom":"犬鷹㐌担謀奸","quocngu":"Khuyển, Ưng đã đắt mưu gian,"},{"nom":"域娘迻𫴋底安󰡎船","quocngu":"Vực nàng đưa xuống để an dưới thuyền."},{"nom":"帆高撩𣦎𦑃耑","quocngu":"Buồm cao treo thẳng cánh xuyền,"},{"nom":"提澄無錫氷沔𣾼𨖅","quocngu":"Đè chừng vô Tích băng miền vượt sang."},{"nom":"㨋渡蓮𠓀廳堂","quocngu":"Giã đò, lên trước sảnh đường,"},{"nom":"犬鷹𠄩𠀲納娘𤼸功","quocngu":"Khuyển Ưng hai đứa nộp nàng dâng công."},{"nom":"域娘暫𫴋門房","quocngu":"Vực nàng tạm xuống môn phòng,"},{"nom":"唉群帖帖職燶渚派","quocngu":"Hãy còn thiêm thiếp giấc nồng chưa phai."},{"nom":"𤎎恾秩醒魂枚","quocngu":"Mơ màng chợt tỉnh hồn mai,"},{"nom":"𨷯茹兜𠅎樓臺󰅹低","quocngu":"Cửa nhà đâu mất, lâu đài nào đây?"},{"nom":"徬徨𢷣醒𢷣醝","quocngu":"Bàng hoàng dở tỉnh dở say,"},{"nom":"廳堂𠻵㗂隊𬆄𨖲侯","quocngu":"Sảnh đường mảng tiếng đòi ngay lên hầu."},{"nom":"阿鬟連𫴋𠽖𣭻","quocngu":"Ả hoàn liền xuống giục mau,"},{"nom":"駭雄娘買蹺𡢐每𠊚","quocngu":"Hãi hùng nàng mới theo sau mọi người."},{"nom":"𥋷𬂙座𢌌𢩵𨱽","quocngu":"Liếc trông toà rộng dãy dài."},{"nom":"天官冢宰固牌撩𨖲","quocngu":"Thiên quan trủng tể có bài treo lên."},{"nom":"班𣈜蠟𤏧𠄩邊","quocngu":"Ban ngày sáp thắp hai bên."},{"nom":"𨕭床七寶𡎢𨖲󰜋󰜏","quocngu":"Trên giường thất bảo, ngồi lên một bà."},{"nom":"𠲟𡃕𦰟𠳨梗查","quocngu":"Gạn gùng ngọn hỏi ngành tra,"},{"nom":"事命娘㐌據𦓡𠳚󰣚","quocngu":"Sự mình nàng đã cứ mà gửi thưa."},{"nom":"不情浽陣𩄲𩅹","quocngu":"Bất tình nổi trận mây mưa."},{"nom":"𠻵娘󰣉󱋙巴蜍悁身","quocngu":"Mắng rằng: \\"Giống khéo bơ thờ quen thân."},{"nom":"昆尼拯沛善人","quocngu":"Con này chẳng phải thiện nhân,"},{"nom":"拯牟遁主𪰛軍論𫯳","quocngu":"Chẳng màu trốn chúa thì quân lộn chồng."},{"nom":"𠚢從猫𡏢𧍆同","quocngu":"Ra tuồng mèo mả cua đồng,"},{"nom":"𠚢從隴縱拯衝皮󰅹","quocngu":"Ra tuồng lúng túng chẳng xong bề nào."},{"nom":"㐌󰝡命半𨷶蚤","quocngu":"Đã đem mình bán cửa tao,"},{"nom":"吏群𠺱𠾶爫高世尼","quocngu":"Lại còn khủng khỉnh làm cao thế này!"},{"nom":"渚󰅹榑𣕬眾𠎩","quocngu":"Chớ nào roi nọc chúng bay!"},{"nom":"唉朱𠀧𨔿別𢬣󰜋吝","quocngu":"Hãy cho ba chục biết tay một lần!\\""},{"nom":"阿鬟𨕭󰡎㖡噒","quocngu":"Ả hoàn trên dưới dạ rân,"},{"nom":"唒浪𤾓𠰘坤分𨤰󰅹","quocngu":"Dẫu rằng trăm miệng khôn phân lẽ nào!"},{"nom":"竹棍𠚢飭拉𠓨","quocngu":"Trúc côn ra sức đập vào,"},{"nom":"𦧘󰅹拯󰞺肝󰅹拯驚","quocngu":"Thịt nào chẳng nát, gan nào chẳng kinh!"},{"nom":"㤕台桃李󰜋梗","quocngu":"Xót thay đào lý một cành,"},{"nom":"󰜋畨𩅹𩙍散情󰜋畨","quocngu":"Một phen mưa gió, tan tành một phen!"},{"nom":"花奴傳𠰺𢷮𠸜","quocngu":"Hoa nô truyền dạy đổi tên,"},{"nom":"房絩𠰺押𠓨畨侍婢","quocngu":"Phòng thêu dạy ghép vào phiên thị tì."},{"nom":"𠚢𠓨蹺𠎪青衣","quocngu":"Ra vào theo lũ thanh y,"},{"nom":"𤋵油𩯀𦇒䏧𨨲管包","quocngu":"Dãi dầu tóc rối da chì quản bao!"},{"nom":"宦家固󰜋媒󰅹","quocngu":"Hoạn gia có một mụ nào,"},{"nom":"𧡊𠊚𧡊󰞺𠚢𠓨𦓡傷","quocngu":"Thấy người thấy nết, ra vào mà thương."},{"nom":"欺茶󱋓欺󰔃湯","quocngu":"Khi chè chén, khi thuốc thang,"},{"nom":"執𠳒方便𨷑塘好生","quocngu":"Giúp lời phương tiện, mở đường hiếu sinh."},{"nom":"吲浪埋𢤡㐌停","quocngu":"Dặn rằng: \\"May rủi đã đành,"},{"nom":"柳蒲命𫳘𥙩命朱𫨩","quocngu":"Liễu bồ mình giữ lấy mình cho hay."},{"nom":"拱羅寃業之低","quocngu":"Cũng là oan nghiệp chi đây,"},{"nom":"沙機買典勢尼󰝸仍","quocngu":"Sa cơ mới đến thế này, chẳng dưng."},{"nom":"於低腮壁脉棱","quocngu":"Ở đây tai vách mạch dừng."},{"nom":"𧡊埃悁屬拱仃𥆾之","quocngu":"Thấy ai quen thuộc cũng đừng nhìn chi."},{"nom":"矯欺𩆐𩂶不期","quocngu":"Kẻo khi sấm sét bất kỳ,"},{"nom":"昆蝼昆蜆呌洏特寃","quocngu":"Con sâu con kiến kêu gì được oan!\\""},{"nom":"娘強湥玉如滇","quocngu":"Nàng càng giọt ngọc như chan,"},{"nom":"餒𢚸隴仍盤桓念西","quocngu":"Nỗi lòng luống những bàn hoàn niềm tây."},{"nom":"風塵刼𠹾㐌菭","quocngu":"Phong trần kiếp chịu đã đầy,"},{"nom":"淋炭吏固次尼朋𠄩","quocngu":"Lầm than lại có thứ này bằng hai!"},{"nom":"分牢泊拯﨤催","quocngu":"Phận sao bạc chẳng vừa thôi,"},{"nom":"掯掯纀買𥙩𠊚紅顔","quocngu":"Khăng khăng buộc mãi lấy người hồng nhan!"},{"nom":"㐌停夙債前寃","quocngu":"Đã đành túc trái tiền oan,"},{"nom":"拱料玉󰞺花殘𦓡之","quocngu":"Cũng liều ngọc nát, hoa tàn mà chi!"},{"nom":"仍羅𢭗耨戈期","quocngu":"Những là nương náu qua kỳ"},{"nom":"小姐沛𣇜𧗱茹寧家","quocngu":"Tiểu thư phải buổi về nhà ninh gia."},{"nom":"媄𡥵路傳隣羅","quocngu":"Mẹ con trò chuyện lân la,"},{"nom":"夫人吏噲娘𠚢𠰺𠳒","quocngu":"Phu nhân lại gọi nàng ra dạy lời:"},{"nom":"小姐󰡎帳少𠊚","quocngu":"\\"Tiểu thư dưới trướng thiếu người,"},{"nom":"朱𧗱邊意蹺隊樓粧","quocngu":"Cho về bên ấy theo đòi lầu trang.\\""},{"nom":"領𠳒娘買蹺𨖅","quocngu":"Lĩnh lời nàng mới theo sang,"},{"nom":"別兜地獄天堂羅兜","quocngu":"Biết đâu địa ngục thiên đàng là đâu!"},{"nom":"𣌋𣌉巾󰘚畧頭","quocngu":"Sớm khuya khăn mặt, lược đầu,"},{"nom":"分昆侯下昆侯鍳差","quocngu":"Phận con hầu hạ, con hầu dám sai."},{"nom":"固欺淹妸朝𡗶","quocngu":"Có khi êm ả chiều trời,"},{"nom":"竹絲𠳨典藝制每𣈜","quocngu":"Trúc tơ hỏi đến nghề chơi mọi ngày."},{"nom":"領𠳒娘買攄𦀊","quocngu":"Lĩnh lời nàng mới lựa dây,"},{"nom":"𠰚𡽫𡃑𡁾易醝𢚸𠊚","quocngu":"Nỉ non thánh thót dễ say lòng người!"},{"nom":"小姐䀡拱傷才","quocngu":"Tiểu thư xem cũng thương tài,"},{"nom":"囷威󰟯拱󰈫𠄽𦊚分","quocngu":"Khuôn uy dường cũng bớt vài bốn phân."},{"nom":"𨷯𠊚苔墮𡮍身","quocngu":"Cửa người đày đoạ chút thân,"},{"nom":"𣌋𡅧𪡇䏾𣌉殷恨𢚸","quocngu":"Sớm năn nỉ bóng, khuya ân hận lòng."},{"nom":"臨淄𡮍分岧蓬","quocngu":"Lâm Truy chút phận đèo bòng,"},{"nom":"渃䕯抵𡦂相逢刼𡢐","quocngu":"Nước bèo để chữ \\"tương phùng\\" kiếp sau!"},{"nom":"𦊚方𩄲𤽸󰜋牟","quocngu":"Bốn phương mây trắng một màu,"},{"nom":"𬂙潙故郡別兜羅茹","quocngu":"Trông vời cố quận biết đâu là nhà?"},{"nom":"吝吝𣎃論𣈜戈","quocngu":"Lần lần tháng trọn ngày qua,"},{"nom":"餒𧵆󰅹別塘賒世尼","quocngu":"Nỗi gần nào biết đường xa thế này?"},{"nom":"臨淄自課𪂦𠖤","quocngu":"Lâm Truy từ thuở uyên bay,"},{"nom":"𢩣空傷几𣎃𣈜隻身","quocngu":"Phòng không thương kẻ tháng ngày chiếc thân."},{"nom":"𪵟撑𦝄買印痕","quocngu":"Mày xanh trăng mới in ngần,"},{"nom":"粉乘香𬟗倍分㤕車","quocngu":"Phấn thừa hương cũ bội phần xót xa!"},{"nom":"蓮殘梅吏𦬑花","quocngu":"Sen tàn, mai lại nở hoa,"},{"nom":"愁𨱽𣈜𥐆冬它𨖅春","quocngu":"Sầu dài ngày ngắn đông đà sang xuân."},{"nom":"尋兜朱𧡊故人","quocngu":"Tìm đâu cho thấy cố nhân?"},{"nom":"𥙩勾運命𢣧寅𢖵傷","quocngu":"Lấy câu vận mệnh khuây dần nhớ thương."},{"nom":"鄭念𢖵景家鄕","quocngu":"Trạnh niềm nhớ cảnh gia hương,"},{"nom":"𢖵圭払吏尋塘𠽄圭","quocngu":"Nhớ quê, chàng lại tìm đường thăm quê."},{"nom":"小姐迍𨷶吔㖷","quocngu":"Tiểu thư đón cửa dã dề,"},{"nom":"寒暄𣃣𣴓每皮𧵆賒","quocngu":"Hàn huyên vừa cạn mọi bề gần xa."},{"nom":"茹香高捲幅纙","quocngu":"Nhà hương cao cuốn bức là,"},{"nom":"𢩣𥪞傳噲娘𫥨𥛉𢜠","quocngu":"Buồng trong truyền gọi nàng ra lạy mừng."},{"nom":"𨀈𠚢󰜋𨀈󰜋𨀊","quocngu":"Bước ra một bước một dừng,"},{"nom":"𬂙賒娘㐌𤏣澄裊賒","quocngu":"Trông xa, nàng đã tỏ chừng nẻo xa:"},{"nom":"沛浪𪱆𤈛畑𤍶","quocngu":"\\"Phải rằng nắng quáng đèn loà,"},{"nom":"𤑟𤉜𡎢妬拯羅束生","quocngu":"Rõ ràng ngồi đó, chẳng là Thúc Sinh?"},{"nom":"典悲𣇞買別情","quocngu":"Đến bây giờ mới biết tình,"},{"nom":"催催㐌默𠓨鑅拯差","quocngu":"Thôi thôi đã mắc vào vành chẳng sai!"},{"nom":"斫兜固斫邏𠁀","quocngu":"Chước đâu có chước lạ đời,"},{"nom":"𠊚兜麻吏固𠊚精魔","quocngu":"Người đâu mà lại có người tinh ma!"},{"nom":"𤑟𤉜舌侶堆些","quocngu":"Rõ ràng thiệt lứa đôi ta,"},{"nom":"爫𠚢昆於主茹𠄩尼","quocngu":"Làm ra con ở, chúa nhà hai nơi!"},{"nom":"皮外噠噠呐唭","quocngu":"Bề ngoài thơn thớt nói cười,"},{"nom":"𦓡𥪞巖險𣩂𠊚空刀","quocngu":"Mà trong nham hiểm giết người không dao."},{"nom":"碑𣇞坦濕𡗶高","quocngu":"Bây giờ đất thấp trời cao,"},{"nom":"咹爫牢呐爫牢碑𣇞","quocngu":"Ăn làm sao, nói làm sao bây giờ?\\""},{"nom":"強𬂙󰘚強菫魚","quocngu":"Càng trông mặt, càng ngẩn ngơ,"},{"nom":"𦛌𣎟隊段如絲𦇒俳","quocngu":"Ruột tằm đòi đoạn như tơ rối bời,"},{"nom":"𢜝威鍳拯󰂅𠳒","quocngu":"Sợ uy, dám chẳng vâng lời,"},{"nom":"儈頭納𫴋𡑝枚󰜋朝","quocngu":"Cúi đầu nép xuống sân mai một chiều."},{"nom":"生它魄落塊漂","quocngu":"Sinh đà phách lạc hồn xiêu:"},{"nom":"傷喂拯沛娘翹於低","quocngu":"\\"Thương ôi! Chẳng phải nàng Kiều ở đây?"},{"nom":"因爫牢典世尼","quocngu":"Nhân làm sao đến thế này?"},{"nom":"崔崔些㐌默𢬣󰘚讎","quocngu":"Thôi thôi, ta đã mắc tay mặt thù!\\""},{"nom":"餒𢚸拯打𦓡𤴬","quocngu":"Nỗi lòng chẳng đánh mà đau,"},{"nom":"當唭呐俸󰘚怞淚沙","quocngu":"Đang cười nói bỗng mặt rầu lệ sa."},{"nom":"小姐𬂙󰘚𠳨查","quocngu":"Tiểu thư trông mặt hỏi tra:"},{"nom":"買𧗱固󰟳之𦓡動容","quocngu":"\\"Mới về có việc chi mà động dong?\\""},{"nom":"生浪孝服𣃣衝","quocngu":"Sinh rằng: \\"Hiếu phục vừa xong,"},{"nom":"推𢚸陟𡵆𤴬𢚸終天","quocngu":"Suy lòng trắc khởi đau lòng chung thiên."},{"nom":"𠸦浪孝子㐌𢧚","quocngu":"Khen rằng: \\"Hiếu tử đã nên!"},{"nom":"洗塵慢󱋓觧煩𣈘秋","quocngu":"Tẩy trần mượn chén giải phiền đêm thu.\\""},{"nom":"𡞕𫯳𡃹酢𡃹酬","quocngu":"Vợ chồng chén tạc chén thù,"},{"nom":"󰈫娘𨅸𨁷持壼𠄩尼","quocngu":"Bắt nàng đứng chực trì hồ hai nơi."},{"nom":"󰈫寬󰈫󰢣典𠳒","quocngu":"Bắt khoan bắt nhặt đến lời,"},{"nom":"󰈫跪盡󰘚󰈫𠶆盡𢬣","quocngu":"Bắt quỳ tận mặt, bắt mời tận tay."},{"nom":"生強如𤵺如癡","quocngu":"Sinh càng như dại như ngây,"},{"nom":"湥𨱽湥𥐆𡃹𣹓𡃹潙","quocngu":"Giọt dài giọt ngắn, chén đầy chén vơi."},{"nom":"𢘩𠫾秩呐秩唭","quocngu":"Dằng đi, chợt nói chợt cười,"},{"nom":"假醝倍㐌併排告戈","quocngu":"Giả say, vội đã tính bài cáo qua."},{"nom":"小姐倍𠯦昆花","quocngu":"Tiểu thư vội thét: \\"Con Hoa!"},{"nom":"𡅳払拯𣴓𪰛些打杶","quocngu":"Khuyên chàng chẳng cạn thì ta đánh đòn!\\""},{"nom":"生強󰞺𦛌散魂","quocngu":"Sinh càng nát ruột tan hồn."},{"nom":"󱋓𠶆沛吟蒲丸燥𬆄","quocngu":"Chén mời phải ngậm bồ hòn ráo ngay!"},{"nom":"小姐唭醒呐醝","quocngu":"Tiểu thư cười tỉnh nói say,"},{"nom":"渚衝局𨢇吏排路制","quocngu":"Chưa xong cuộc rượu lại bày trò chơi."},{"nom":"浪花奴𨁥每才","quocngu":"Rằng: \\"Hoa nô đủ mọi tài,"},{"nom":"板彈此𢳥󰜋排払𦖑","quocngu":"Bản đàn thử dạo một bài chàng nghe!\\""},{"nom":"娘它散渙痺迷","quocngu":"Nàng đà tán hoán tê mê,"},{"nom":"󰂅𠳒𠚢𠓀屏𦂛紊彈","quocngu":"Vâng lời ra trước bình the vặn đàn."},{"nom":"𦊚𦀊如哭如嘆","quocngu":"Bốn dây như khóc như than,"},{"nom":"遣𠊚𨕭席拱散󰞺𢚸","quocngu":"Khiến người trên tiệc cũng tan nát lòng!"},{"nom":"拱𥪞󰜋㗂絲桐","quocngu":"Cùng trong một tiếng tơ đồng,"},{"nom":"𠊚外唭𦵝𠊚𥪞哭󰠐","quocngu":"Người ngoài cười nụ, người trong khóc thầm!"},{"nom":"湥珠𣳮󰢤坤擒","quocngu":"Giọt châu lã chã khôn cầm,"},{"nom":"儈頭娘仍拔󰠐紇霜","quocngu":"Cúi đầu nàng những gạt thầm hạt sương."},{"nom":"小姐吏𠽇𥙩娘","quocngu":"Tiểu thư lại nẹt lấy nàng:"},{"nom":"局𢝙𢭮曲断膓意之","quocngu":"\\"Cuộc vui gảy khúc đoạn tràng ấy chi?"},{"nom":"牢空別意思󰢔","quocngu":"Sao không biết ý tứ gì?"},{"nom":"朱払𢞂𠴙罪𪰛在𤽗","quocngu":"Cho chàng buồn bã, tội thì tại ngươi!\\""},{"nom":"生強惨切徘徊","quocngu":"Sinh càng thảm thiết bồi hồi,"},{"nom":"倍徬呐呐唭唭朱戈","quocngu":"Vội vàng nói nói, cười cười cho qua."},{"nom":"湥𧏵更㐌點𠀧","quocngu":"Giọt rồng canh đã điểm ba,"},{"nom":"小姐𥆾󰘚󰟯它甘心","quocngu":"Tiểu thư nhìn mặt dường đà cam tâm."},{"nom":"𢚸𥢆泣啓𢜠󰠐","quocngu":"Lòng riêng khấp khởi mừng thầm:"},{"nom":"𣈘󰅒㐌補𤴬吟𡢐󰅒","quocngu":"Đêm nay đã bõ đau ngầm lâu nay!"},{"nom":"生強肝𤉗𦛌𣹓","quocngu":"Sinh càng gan héo ruột đầy,"},{"nom":"餒𢚸強擬強荄䔲𢚸","quocngu":"Nỗi lòng càng nghĩ càng cay đắng lòng."},{"nom":"𠊚𠓨鍾襘鸞房","quocngu":"Người vào chung gối loan phòng,"},{"nom":"娘𠚢𢭸䏾畑炵更𨱽","quocngu":"Nàng ra tựa bóng đèn chong canh dài."},{"nom":"悲𣇞買𤑟沁唏","quocngu":"Bây giờ mới rõ tăm hơi,"},{"nom":"𧖱慳兜固邏𠁀羅慳","quocngu":"Máu ghen đâu có lạ đời là ghen!"},{"nom":"斫兜𢪊翠𢺺鴛","quocngu":"Chước đâu rẽ thuý chia uyên."},{"nom":"埃𠚢塘乃埃𥆾特埃","quocngu":"Ai ra đường nấy, ai nhìn được ai!"},{"nom":"悲𣇞󰜋域󰜋𡗶","quocngu":"Bây giờ một vực một trời,"},{"nom":"歇調輕重歇𠳒是非","quocngu":"Hết điều khinh trọng, hết lời thị phi!"},{"nom":"珥如苝󰠱如𨨲","quocngu":"Nhẹ như bấc, nặng như chì,"},{"nom":"攑𠚢朱塊群󰢔羅緣","quocngu":"Gỡ ra cho khỏi còn gì là duyên?"},{"nom":"呂廊𡭧分嬋娟","quocngu":"Lỡ làng chút phận thuyền quyên,"},{"nom":"𣷭溇㳥奇固全特爲","quocngu":"Bể sâu sóng cả có tuyền được vay?"},{"nom":"没命陰倚𣈘遲","quocngu":"Một mình âm ỉ đêm chầy,"},{"nom":"𥒦油潙渃𬑉菭𠄼更","quocngu":"Đĩa dầu vơi, nước mắt đầy năm canh."},{"nom":"𣌋𣌉侯下臺营","quocngu":"Sớm khuya hầu hạ đài doanh,"},{"nom":"󰞺愁坤強湥情群渲","quocngu":"Nét sầu khôn cưỡng, giọt tình còn hoen."},{"nom":"小姐𬂙𥆁𠵩連","quocngu":"Tiểu thư trông liếc quở liền,"},{"nom":"沙𡮠𥗾󰘚𤳷縁據之","quocngu":"Sa mày nặng mặt bởi duyên cớ gì?"},{"nom":"皮鞭交吏卽𪰛","quocngu":"Bì tiên giao lại tức thì,"},{"nom":"𢭄払𠳨伮浪爲爫牢","quocngu":"Cậy chàng hỏi nó: \\"Rằng vì làm sao?\\""},{"nom":"生它𦛌𤉗如炮","quocngu":"Sinh đà ruột héo như bào,"},{"nom":"呐𠚢拯便𬂙𠓨牢當","quocngu":"Nói ra chẳng tiện, trông vào sao đang!"},{"nom":"󰢥扃𧍆𢯰𨆶󰣛","quocngu":"Loanh quanh cua lọt bò sàng,"},{"nom":"𢜝低傷妬𠄩塘渚衝","quocngu":"Sợ đây thương đó hai đàng chưa xong."},{"nom":"𥙩𢚸假格𠳨查","quocngu":"Lấy lòng giả cách hỏi tra,"},{"nom":"申供娘㐌呈戈󰜋詞","quocngu":"Thân cung nàng đã trình qua một tờ."},{"nom":"䀡耒迻吏小姐","quocngu":"Xem rồi đưa lại tiểu thư,"},{"nom":"脱𬂙󰟯拱艮魚㤕情","quocngu":"Thoắt trông dường cũng ngẩn ngơ chút tình."},{"nom":"連𢬣𢭂吏束生","quocngu":"Liền tay trao lại Thúc sinh,"},{"nom":"浪才𢧚重𦓡情𢧚傷","quocngu":"Rằng: \\"Tài nên trọng, mà tình nên thương!"},{"nom":"󰂇𦓡固數𢀭𢀨","quocngu":"Ví mà có số giàu sang,"},{"nom":"價尼唒𨯹茹鐄拱𢧚","quocngu":"Giá này dẫu đúc nhà vàng cũng nên!"},{"nom":"𣷭塵沉浽嬋娟","quocngu":"Bể trần chìm nổi thuyền quyên,"},{"nom":"有情傷餒無緣邏𠁀","quocngu":"Hữu tình thương nỗi vô duyên lạ đời!\\""},{"nom":"生浪舌固如𠳒","quocngu":"Sinh rằng: \\"Thiệt có như lời,"},{"nom":"紅顔薄命没𠊚󰅹爲","quocngu":"Hồng nhan bạc mệnh một người nào vay!"},{"nom":"𠦳𠸗歐拱世尼","quocngu":"Nghìn xưa âu cũng thế này,"},{"nom":"悲𣇞歐料撥𢬣買𣃣","quocngu":"Bây giờ âu liệu bớt tay mới vừa.\\""},{"nom":"小姐浪意𥪝詞","quocngu":"Tiểu thư rằng: \\"Ý trong tờ,"},{"nom":"泣𢲠命薄嗔洳𨷯空","quocngu":"Rắp đem mệnh bạc xin nhờ cửa không."},{"nom":"崔崔崔拱朝𢚸","quocngu":"Thôi thôi thôi cũng chiều lòng,"},{"nom":"拱朱朱儗𥪝𨦩𨀈𠚢","quocngu":"Cũng cho cho nghỉ trong vòng bước ra."},{"nom":"産觀音閣園些","quocngu":"Sẵn Quan Âm các vườn ta,"},{"nom":"固𣘃𤾓𡱩固花𦊚務","quocngu":"Có cây trăm thước, có hoa bốn mùa."},{"nom":"固古樹固山湖","quocngu":"Có cổ thụ, có sơn hồ,"},{"nom":"朱娘𠚢妬𪧚厨誦經","quocngu":"Cho nàng ra đó, giữ chùa tụng kinh.\\""},{"nom":"曾曾𡗶買平明","quocngu":"Tâng tâng trời mới bình minh,"},{"nom":"香花五供懺生禮常","quocngu":"Hương hoa ngũ cúng, sắm sanh lễ thường."},{"nom":"迻娘典𠓀𫢋堂","quocngu":"Đưa nàng đến trước Phật đường,"},{"nom":"三皈五戒朱娘出家","quocngu":"Tam quy ngũ giới, cho nàng xuất gia."},{"nom":"襖撑𢷮𥙩袈裟","quocngu":"Áo xanh đổi lấy cà sa,"},{"nom":"法名吏𢷮𠸜𠚢濯泉","quocngu":"Pháp danh lại đổi tên ra Trạc Tuyền."},{"nom":"𣌋𣌉併覩油畑","quocngu":"Sớm khuya tính đủ dầu đèn,"},{"nom":"春秋割産𠄩𠸜香茶","quocngu":"Xuân, Thu cắt sẵn hai tên hương trà."},{"nom":"娘自另𨁪園花","quocngu":"Nàng từ lánh dấu vườn hoa,"},{"nom":"󰟯𧵆棱紫󰟯賒𡏧紅","quocngu":"Dường gần rừng tía, dường xa bụi hồng."},{"nom":"姻緣兜鍳群懞","quocngu":"Nhân duyên đâu dám còn mong,"},{"nom":"塊調𢢆粉𢣃紅羅崔","quocngu":"Khỏi điều thẹn phấn tủi hồng là thôi."},{"nom":"𫢋前惨垃愁培","quocngu":"Phật tiền thảm lấp sầu vùi,"},{"nom":"𣈜鋪手字𣈘㘨心香","quocngu":"Ngày pho thủ tự, đêm nồi tâm hương."},{"nom":"沫台湥渃梗楊","quocngu":"Cho hay giọt nước cành dương,"},{"nom":"𤏣𢚸洒𤎕每塘塵緣","quocngu":"Tỏ lòng tưới tắt mọi đường trần duyên."},{"nom":"𣘽𣙩自跙牟禪","quocngu":"Nâu sồng từ trở mầu thiền,"},{"nom":"𡑝秋𦝄㐌𠄩畨𨅸頭","quocngu":"Sân thu trăng đã hai phen đứng đầu."},{"nom":"𨷶房扦日䋥毛","quocngu":"Cửa phòng then nhặt lưới mau,"},{"nom":"𠺶𠳒𠓀󰘚淶珠永𠊚","quocngu":"Nói lời trước mặt, rơi châu vắng người."},{"nom":"閣經院册堆尼","quocngu":"Gác kinh viện sách đôi nơi,"},{"nom":"𥪝𡬼𡬷吏急𨑮關山","quocngu":"Trong gang tấc lại gấp mười quan san."},{"nom":"仍羅吟咀𠽆嘆","quocngu":"Những là ngậm thở nuốt than,"},{"nom":"小姐沛𣇜問安𧗱茹","quocngu":"Tiểu thư phải buổi vấn an về nhà."},{"nom":"乘機生買𨇍𠚢","quocngu":"Thừa cơ Sinh mới lẻn ra,"},{"nom":"駸駸典𠃅圍花貝娘","quocngu":"Xăm xăm đến mé vây hoa với nàng."},{"nom":"湥淶擬餒断膓","quocngu":"Sụt sùi nghĩ nỗi đoạn trường,"},{"nom":"湥珠尋謝𣿌長襖撑","quocngu":"Giọt châu tầm tã đượm tràng áo xanh."},{"nom":"㐌甘𠹾薄貝情","quocngu":"Đã cam chịu bạc với tình,"},{"nom":"主東底罪󰜋命朱花","quocngu":"Chúa đông để tội một mình cho hoa."},{"nom":"𥰊機輸智彈󰜏","quocngu":"Thấp cơ thua trí đàn bà,"},{"nom":"𬂙𠓨𤴬𦛌呐𠚢碍𠳒","quocngu":"Trông vào đau ruột, nói ra ngại lời."},{"nom":"爲些朱累典𠊚","quocngu":"Vì ta cho lụy đến người,"},{"nom":"葛淋玉𤽸舌摧春撑","quocngu":"Cát lầm ngọc trắng, thiệt thòi xuân xanh."},{"nom":"管之𨕭閣󰡎溋","quocngu":"Quản chi trên gác dưới duềnh,"},{"nom":"拱算𤯩托貝情朱衝","quocngu":"Cũng toan sống thác với tình cho xong."},{"nom":"尊堂𡭧渚甘𢚸","quocngu":"Tông đường chút chửa cam lòng,"},{"nom":"哏𪘵𢯏󰜋𡦂同爫𠄩","quocngu":"Nghiến răng bẻ một chữ đồng làm hai."},{"nom":"𢢆命𥒥󰞺鐄派","quocngu":"Thẹn mình đá nát vàng phai,"},{"nom":"𤾓身易贖󰜋𠳒特牢","quocngu":"Trăm thân dễ chuộc một lời được sao?\\""},{"nom":"娘浪隻栢㳥濤","quocngu":"Nàng rằng: \\"Chiếc bách sóng đào,"},{"nom":"浽沉拱默𣅶󰅹𢤡埋","quocngu":"Nổi chìm cũng mặc lúc nào rủi may."},{"nom":"𡭧身𠹴𠶔淎𤀛","quocngu":"Chút thân quằn quại vũng lầy,"},{"nom":"𤯩乘群想典𣈙女牢","quocngu":"Sống thừa còn tưởng đến rày nữa sao?"},{"nom":"拱料󰜋湥𩅹𩆋","quocngu":"Cũng liều một giọt mưa rào,"},{"nom":"𦓡朱天下𬂙𠓨拱𫨩","quocngu":"Mà cho thiên hạ trông vào cũng hay."},{"nom":"㤕爲琴㐌𤓩𦀊","quocngu":"Xót vì cầm đã bén dây,"},{"nom":"拯𤾓𢆥拱󰜋𣈜緣些","quocngu":"Chẳng trăm năm cũng một ngày duyên ta."},{"nom":"料排𨷑𨷶朱𠚢","quocngu":"Liệu bài mở cửa cho ra,"},{"nom":"意羅義重意羅恩溇","quocngu":"Ấy là nghĩa trọng, ấy là ân sâu!\\""},{"nom":"生浪𥢆想閉𥹰","quocngu":"Sinh rằng: \\"Riêng tưởng bấy lâu,"},{"nom":"𢚸𠊚巖險別兜𦓡量","quocngu":"Lòng người nham hiểm biết đâu mà lường."},{"nom":"女欺𩘪𩘣負旁","quocngu":"Nữa khi giông tố phũ phàng,"},{"nom":"舌𥢆妬拱吏強極低","quocngu":"Thiệt riêng đó, cũng lại càng cực đây."},{"nom":"料𦓡賒𧼋高𠖤","quocngu":"Liệu mà xa chạy cao bay,"},{"nom":"爱恩些固銀尼𦓡催","quocngu":"Ái ân ta có ngần này mà thôi!"},{"nom":"碑𣇞几虐𠊚吹","quocngu":"Bây giờ kẻ ngược người xuôi,"},{"nom":"別包𣇞吏𦀼𠳒渃𡽫","quocngu":"Biết bao giờ lại nối lời nước non?"},{"nom":"唒浪滝𣴓𥒥𤷱","quocngu":"Dẫu rằng sông cạn đá mòn,"},{"nom":"昆蠶典𣩂拱群𢹣絲","quocngu":"Con tằm đến chết cũng còn kéo tơ.\\""},{"nom":"共饒𠸥𡅏𡢐𠸗","quocngu":"Cùng nhau kể lể sau xưa,"},{"nom":"呐耒吏呐𠳒渚歇𠳒","quocngu":"Nói rồi lại nói, lời chưa hết lời."},{"nom":"󰘚𬂙𢬣拯女𢯦","quocngu":"Mặt trông tay chẳng nỡ rời,"},{"nom":"花婢㐌動㗂𠊚𡑩賒","quocngu":"Hoa tì đã động tiếng người nẻo xa."},{"nom":"𥆾凝𡀬𨅸蹎𠚢","quocngu":"Nhìn ngừng tủi đứng chân ra,"},{"nom":"小姐兜㐌鞋花𨀈𠓨","quocngu":"Tiểu thư đâu đã hài hoa bước vào."},{"nom":"唭唭呐呐𠮾嗷","quocngu":"Cười cười nói nói ngọt ngào,"},{"nom":"𠳨払買於准󰅹吏制","quocngu":"Hỏi: \\"Chàng mới ở chốn nào lại chơi?\\""},{"nom":"嚉觥生買料𠳒","quocngu":"Dối quanh Sinh mới liệu lời:"},{"nom":"尋花過𨀈䀡𠊚曰經","quocngu":"Tìm hoa quá bước, xem người viết kinh."},{"nom":"𠸦浪筆法㐌精","quocngu":"Khen rằng: \\"Bút pháp đã tinh,"},{"nom":"搊𠓨貝帖蘭亭󰅹輸","quocngu":"So vào với thiếp Lan đình nào thua!"},{"nom":"惜台流落江湖","quocngu":"Tiếc thay lưu lạc giang hồ,"},{"nom":"𠦳鐄寔拱𢧚謨𥙩才","quocngu":"Nghìn vàng thực cũng nên mua lấy tài!\\""},{"nom":"船茶𣴓𡃹紅梅","quocngu":"Thuyền trà cạn chén hồng mai,"},{"nom":"從容𦀼𨃴書齋共𧗱","quocngu":"Thong dong nối gót thư trai cùng về."},{"nom":"娘強󰢧戾塢𠵱","quocngu":"Nàng càng e lệ ủ ê,"},{"nom":"󰁹𦖻𠳨吏花婢𠓀𡢐","quocngu":"Rỉ tai hỏi lại hoa tì trước sau."},{"nom":"花浪󰜏典㐌𥹰","quocngu":"Hoa rằng: \\"Bà đến đã lâu,"},{"nom":"𨂚蹎𨅸納度兜姅𣇞","quocngu":"Dón chân đứng núp độ đâu nữa giờ."},{"nom":"仃仃技𩯀蹎絲","quocngu":"Rành rành kẽ tóc chân tơ,"},{"nom":"󰋇𠳒𦖑歇㐌餘𤏣詳","quocngu":"Mấy lời nghe hết, đã dư tỏ tường."},{"nom":"包饒段苦情傷","quocngu":"Bao nhiêu đoạn khổ tình thương."},{"nom":"餒翁勿𡲤餒娘咀嘆","quocngu":"Nỗi ông vật vã, nỗi nàng thở than."},{"nom":"垠碎𨅸吏󰜋邊","quocngu":"Ngăn tôi đứng lại một bên,"},{"nom":"󰇏𦖻耒買𨀈𨖲𨕭樓","quocngu":"Chán tai rồi mới bước lên trên lầu.\\""},{"nom":"𦖑崔驚駭掣兜","quocngu":"Nghe thôi, kinh hãi xiết đâu:"},{"nom":"彈󰜏󰟯意易侯固𠄩","quocngu":"\\"Đàn bà dường ấy, dễ hầu có hai."},{"nom":"意買肝意買才","quocngu":"Ấy mới gan, ấy mới tài!"},{"nom":"擬強添餒䔲荄用𢯦","quocngu":"Nghĩ càng thêm nỗi đắng cay rụng rời!"},{"nom":"𠊚兜溇色渃𠁀","quocngu":"Người đâu sâu sắc nước đời,"},{"nom":"𦓡払束沛𠚢𠊚抪𢬣","quocngu":"Mà chàng Thúc phải ra người bó tay!"},{"nom":"寔賍󰈫特󰟯尼","quocngu":"Thực tang, bắt được dường này,"},{"nom":"𧖱慳埃拱珠𪵟哏𪘵","quocngu":"Máu ghen ai cũng chau mày cắn răng."},{"nom":"世𦓡淹妸待滕","quocngu":"Thế mà êm ả đãi đằng,"},{"nom":"嘲𠶆𢝙𨤔呐能妙揚","quocngu":"Chào mời vui vẻ, nói năng dịu dàng!"},{"nom":"恨妯𠚢胣世常","quocngu":"Giận dầu ra dạ thế thường,"},{"nom":"唭妯買舌坤量險溇","quocngu":"Cười dầu mới thực khôn lường hiểm sâu!"},{"nom":"身些些沛𢥈歐","quocngu":"Thân ta, ta phải lo âu,"},{"nom":"𠰘𤞻𠷮𧋻於兜准尼","quocngu":"Miệng hùm, nọc rắn ở đâu chốn này!"},{"nom":"󰂇空𢴇𦑃高𠖤","quocngu":"Ví không chắp cánh cao bay,"},{"nom":"樔𣘃𥹰拱固𣈜𢯏花","quocngu":"Rào cây lâu cũng có ngày bẻ hoa!"},{"nom":"分䕯包管渃沙","quocngu":"Phận bèo bao quản nước sa,"},{"nom":"泠汀兜女拱羅泠汀","quocngu":"Lênh đênh đâu nữa cũng là lênh đênh."},{"nom":"㐱𠵱圭客󰜋命","quocngu":"Chỉn e quê khách một mình,"},{"nom":"𢬣空渚易尋鑅廕𩛂","quocngu":"Tay không chưa dễ tìm vành ấm no!\\""},{"nom":"擬𠫾擬吏觥孤","quocngu":"Nghĩ đi, nghĩ lại quanh co."},{"nom":"𫢋前産固每圖金銀","quocngu":"Phật tiền sẵn có mọi đồ kim ngân."},{"nom":"邊命㩫底護身","quocngu":"Bên mình dắt để hộ thân,"},{"nom":"吝𦖑更㐌󰜋分鞁𠀧","quocngu":"Lần nghe canh đã một phần trống ba."},{"nom":"拮命戈𦰟墻花","quocngu":"Cất mình qua ngọn tường hoa,"},{"nom":"吝塘蹺䏾𦝄斜𧗱西","quocngu":"Lần đường theo bóng trăng tà về tây."},{"nom":"𩆪𩂟𨤮吉頽𣘃","quocngu":"Mịt mù dặm cát đồi cây,"},{"nom":"㗂𬷤店𦹵𨁪𨃐梂霜","quocngu":"Tiếng gà điếm cỏ, dấu giày cầu sương."},{"nom":"更𣌉身𡛔𨤮長","quocngu":"Canh khuya thân gái dặm trường."},{"nom":"分𠵱塘詫分傷𤋵󰌑","quocngu":"Phần e đường sá, phần thương dãi dầu."},{"nom":"𡗶東𣃣𠓇𠦳橷","quocngu":"Trời đông vừa rạng ngàn dâu,"},{"nom":"𠇕爲󰅹㐌別兜羅茄","quocngu":"Bơ vơ nào đã biết đâu là nhà!"},{"nom":"厨兜𬂙𧡊𡑩賒","quocngu":"Chùa đâu trông thấy nẻo xa,"},{"nom":"伶伶招隐庵𠀧𡦂排","quocngu":"Rành rành chiêu ẩn am ba chữ bài."},{"nom":"侵侵𢱗𨷶捥𠳒","quocngu":"Xăm xăm gõ cửa ướm lời,"},{"nom":"住持𦖑㗂連𠶆𠓨𥪞","quocngu":"Trụ trì nghe tiếng liền mời vào trong."},{"nom":"𧡊歐咹默𣘽𣙩","quocngu":"Thấy âu ăn mặc nâu sồng,"},{"nom":"覺緣師長𫅜𢚸連傷","quocngu":"Giác Duyên sư trưởng lành lòng liền thương."},{"nom":"𠲟𡃕梗𦰟朱詳","quocngu":"Gạn gùng ngành ngọn cho tường,"},{"nom":"邏𨓡娘唉尋塘呐觥","quocngu":"Lạ lùng, nàng hãy tìm đường nói quanh:"},{"nom":"小嬋圭於北京","quocngu":"\\"Tiểu thiền quê ở Bắc Kinh,"},{"nom":"皈師皈佛修行閉𥹰","quocngu":"Quy sư, quy Phật tu hành bấy lâu."},{"nom":"本師耒拱典𡢐","quocngu":"Bản sư rồi cũng đến sau,"},{"nom":"𠰺迻法寶𨖅侯師兄","quocngu":"Dạy đưa pháp bảo sang hầu sư huynh.\\""},{"nom":"𣈙󰂅靣獻伶伶","quocngu":"Rày vâng diện hiến rành rành,"},{"nom":"鐘鐄磬泊邊命𢷣𠚢","quocngu":"Chuông vàng, khánh bạc bên mình giở ra."},{"nom":"䀡戈師買𠰺戈","quocngu":"Xem qua sư mới dạy qua:"},{"nom":"沛尼恒水羅些厚情","quocngu":"\\"Phải ni Hằng Thủy là ta hậu tình."},{"nom":"㐱𠲖塘詫󰜋命","quocngu":"Chỉn e đường sá một mình,"},{"nom":"於低除待師兄𠃣𣈜","quocngu":"Ở đây chờ đợi sư huynh ít ngày.\\""},{"nom":"𢭮身特准庵𩄲","quocngu":"Gửi thân được trốn am mây,"},{"nom":"㙁𦯬㙮𢷮𣎃𣈜從容","quocngu":"Muối dưa đắp đổi tháng ngày thong dong,"},{"nom":"偈經勾𬞺屬𢚸","quocngu":"Kệ kinh câu cũ thuộc lòng,"},{"nom":"香畑事𬞺齋房悁𢬣","quocngu":"Hương đèn sự cũ, trai phòng quen tay."},{"nom":"𣌋𣌉蘿貝幡𩄲","quocngu":"Sớm khuya lá bối, phướn mây,"},{"nom":"𦰟畑挑月㗂𣖖󰠱霜","quocngu":"Ngọn đèn khêu nguyệt, tiếng chày nặng sương."},{"nom":"𧡊娘聰慧恪常","quocngu":"Thấy nàng thông tuệ khác thường,"},{"nom":"師強你󰘚娘強凭蹎","quocngu":"Sư càng nể mặt, nàng càng vững chân."},{"nom":"𨷶嬋𣃣𣇜𡳳春","quocngu":"Cửa thiền vừa buổi cuối xuân,"},{"nom":"䏾花菭坦𨤔銀昂𡗶","quocngu":"Bóng hoa đầy đất, vẻ ngân ngang trời."},{"nom":"𩙍光𩅹淨請台","quocngu":"Gió quang mưa tạnh thảnh thơi,"},{"nom":"固𠊚檀樾𨖲制𨷶伽","quocngu":"Có người đàn việt lên chơi cửa già."},{"nom":"𢷣圖鐘磬䀡戈","quocngu":"Giở đồ chuông khánh xem qua,"},{"nom":"𠸦浪窖󰣉𧵑茹宦娘","quocngu":"Khen rằng: \\"Khéo giống của nhà Hoạn nương!\\""},{"nom":"覺緣舌意𢥈量","quocngu":"Giác Duyên thiệt ý lo lường,"},{"nom":"𣈘清買𠳨吏娘𠓀𡢐","quocngu":"Đêm thanh mới hỏi lại nàng trước sau."},{"nom":"擬浪坤餒𨁪牟","quocngu":"Nghĩ rằng khôn nỗi giấu mầu,"},{"nom":"事命娘買𨃴頭排𬆄","quocngu":"Sự mình, nàng mới gót đầu bày ngay:"},{"nom":"悲𣇞事㐌󰟯尼","quocngu":"\\"Bây giờ, sự đã dường này,"},{"nom":"分𢤞油𢤡油埋在𠊚","quocngu":"Phận hèn, dù rủi dù may tại người.\\""},{"nom":"覺緣𦖑呐用移","quocngu":"Giác Duyên nghe nói rụng rời."},{"nom":"姅傷姅𢜝徘徊拯衝","quocngu":"Nửa thương, nửa sợ bồi hồi chẳng xong."},{"nom":"󰁹𦖻買計事𢚸","quocngu":"Rỉ tai mới kể sự lòng:"},{"nom":"於低𨷶𫢋羅空狹之","quocngu":"Ở đây cửa Phật là không hẹp gì;"},{"nom":"𠵱庒仍事不期","quocngu":"E chăng những sự bất kỳ,"},{"nom":"底娘朱典餒󰢔拱傷","quocngu":"Để nàng cho đến nỗi gì cũng thương!"},{"nom":"另賒𠓀料尋塘","quocngu":"Lánh xa trước liệu tìm đường,"},{"nom":"𡎥徐渃典蹎床群圭","quocngu":"Ngồi chờ nước đến chân giường còn quê.\\""},{"nom":"固茹媒薄边箕","quocngu":"Có nhà mụ Bạc bên kia,"},{"nom":"庵𩄲悁𡓃𠫾𧗱󰌑香","quocngu":"Am mây quen lối đi về dầu hương."},{"nom":"𠴍𨖅吲歇每塘","quocngu":"Nhắn sang dặn hết mọi đường,"},{"nom":"𢶿茹唉暫朱娘擬蹎","quocngu":"Dọn nhà hãy tạm cho nàng nghỉ chân,"},{"nom":"仍𢜠特准安身","quocngu":"Những mừng được chốn an thân,"},{"nom":"倍鐄󰅹及併𧵆併賒","quocngu":"Vội vàng nào kịp tính gần, tính xa."},{"nom":"󰅹疑仍祖姂𫅷","quocngu":"Nào ngờ những tổ bợm già,"},{"nom":"薄󰜏學貝秀󰜏同門","quocngu":"Bạc bà học với Tú bà đồng môn!"},{"nom":"𧡊娘𤁕粉讒𣘈","quocngu":"Thấy nàng lạt phấn sàm son,"},{"nom":"𢜠忱特󰢨半奔固利","quocngu":"Mừng thầm được dịp bán buôn có lời."},{"nom":"虚空達抵𢧚𠳒","quocngu":"Hư không đặt để nên lời,"},{"nom":"娘它𡘯落用移𡗋畨","quocngu":"Nàng đà nhớn nhác, rụng rời lắm phen."},{"nom":"媒強吹嚉朱連","quocngu":"Mụ càng xua đuổi cho liền,"},{"nom":"𥙩𠳒兇險押緣朱陳","quocngu":"Lấy lời hung hiểm, ép duyên Châu Trần."},{"nom":"娘浪𨷈𨤮󰜋身","quocngu":"Rằng: \\"Nàng muôn dặm một thân,"},{"nom":"吏芒𥙩㗂𫺙𧵆𫅜賒","quocngu":"Lại mang lấy tiếng dữ gần, lành xa."},{"nom":"󰣉寃家𧵑破家","quocngu":"Giống oan gia, của phá gia,"},{"nom":"群埃鍳貯𠓨茹女低","quocngu":"Còn ai dám chứa vào nhà nữa đây!"},{"nom":"急算劍准車𦀊","quocngu":"Kíp toan kiếm chốn xe dây,"},{"nom":"空仍渚易𦓡𠖤塘𡗶","quocngu":"Không dưng chưa dễ mà bay đường trời!"},{"nom":"尼𧵆𪰛拯便尼","quocngu":"Nơi gần thì chẳng tiện nơi,"},{"nom":"尼賒拱𫽄固𠊚󰅹賒","quocngu":"Nơi xa cũng chẳng có người nào xa."},{"nom":"怩払薄幸𡥙茹","quocngu":"Này chàng Bạc Hạnh cháu nhà,"},{"nom":"拱𥪞親戚𦛌𦚐拯埃","quocngu":"Cùng trong thân thích ruột rà chẳng ai."},{"nom":"𨷶行倴半州台","quocngu":"Cửa hàng buôn bán Châu Thai,"},{"nom":"舌他固󰜋单差𫽄兮","quocngu":"Thật thà có một, đơn sai chẳng hề."},{"nom":"世󰅹娘拱沛𦖑","quocngu":"Thế nào nàng cũng phải nghe."},{"nom":"成親耒仕料𧗱州台","quocngu":"Thành thân rồi sẽ liệu về Châu Thai."},{"nom":"閉𣇞埃吏別埃","quocngu":"Bấy giờ ai lại biết ai,"},{"nom":"油𢚸𣷭𢌌滝𨱽清清","quocngu":"Dầu lòng bể rộng, sông dài thênh thênh."},{"nom":"娘油拯决順情","quocngu":"Nàng dù chẳng quyết thuận tình."},{"nom":"債𠳒𡑩𠓀累命典𡢐","quocngu":"Trái lời nẻo trước, lụy mình đến sau.\\""},{"nom":"娘強󰘚󰢩𪵟珠","quocngu":"Nàng càng mặt ủ mày chau,"},{"nom":"強𦖑媒呐強𤴬如寅","quocngu":"Càng nghe mụ nói càng đau như dần."},{"nom":"擬命縱坦𨀳蹎","quocngu":"Nghĩ mình túng đất nhắc chân,"},{"nom":"世窮娘買賒𧵆咀嘆","quocngu":"Thế cùng, nàng mới xa gần thở than:"},{"nom":"妾如昆燕落彈","quocngu":"\\"Thiếp như con én lạc đàn,"},{"nom":"沛弓𣈙㐌𢜝㦦貝弓","quocngu":"Phải cung, rày đã sợ lờn với cung!"},{"nom":"窮塘油併𡦂從","quocngu":"Cùng đường dù tính chữ tòng,"},{"nom":"別𠊚別󰘚別𢚸爫牢","quocngu":"Biết người, biết mặt, biết lòng làm sao?"},{"nom":"女欺𨷈󰜋世󰅹","quocngu":"Nữa khi muôn một thế nào,"},{"nom":"半𤞻倴鬼𢟘𠓨𨉞兜","quocngu":"Bán hùm buôn quỷ chắc vào lưng đâu?"},{"nom":"󰅹埃𢚸固所求","quocngu":"Nào ai lòng có sở cầu,"},{"nom":"心盟嗔决貝饒󰜋𠳒","quocngu":"Tâm minh, xin quyết với nhau một lời."},{"nom":"証明固坦固𡗶","quocngu":"Chứng minh có đất có trời,"},{"nom":"閉𣇞𣾼𣷭𠚢𣾺管之","quocngu":"Bấy giờ vượt bể ra khơi quản gì?\\""},{"nom":"特𠳒媒買𠚢𠫾","quocngu":"Được lời mụ mới ra đi,"},{"nom":"𫫗信户薄卽𪰛懺生","quocngu":"Mách tin họ Bạc tức thì sắm sanh."},{"nom":"󰜋茹𡀷𠿚伶停","quocngu":"Một nhà dọn dẹp linh đình,"},{"nom":"𢭯𡑝達桌𣳮𤭸𤏧香","quocngu":"Quét sân, đặt trác, rửa bình, thắp hương."},{"nom":"薄生跪𫴋倍鐄","quocngu":"Bạc sinh quỳ xuống vội vàng,"},{"nom":"過𠳒願歇城隍土公","quocngu":"Quá lời nguyện hết thành hoàng, thổ công."},{"nom":"𠓀𡑝𢚸㐌𤋵𢚸","quocngu":"Trước sân, lòng đã giãi lòng,"},{"nom":"𥪝幔爫禮絲紅結緣","quocngu":"Trong màn làm lễ tơ hồng kết duyên."},{"nom":"成親買逴𫴋船","quocngu":"Thành thân mới rước xuống thuyền,"},{"nom":"順󱏹󰜋蘿吹沔州台","quocngu":"Thuận buồm một lá, xuôi miền Châu Thai."},{"nom":"船皮杜𤅶請台","quocngu":"Thuyền vừa đỗ bến thảnh thơi,"},{"nom":"薄生𨖲𠓀尋尼每𣈜","quocngu":"Bạc sinh lên trước tìm nơi mọi ngày."},{"nom":"共茹行院𠸗󰅒","quocngu":"Cũng nhà hành viện xưa nay,"},{"nom":"共坊半𦧘共𢬣倴𠊚","quocngu":"Cũng phường bán thịt, cũng tay buôn người."},{"nom":"䀡𠊚定價𣃣耒","quocngu":"Xem người định giá vừa rồi,"},{"nom":"䋦行󰜋㐌𠚢𨑮沛󰇵","quocngu":"Mối hàng một, đã ra mười phải buông."},{"nom":"𠼦𠊚𠾔轎逴娘","quocngu":"Mướn người thuê kiệu rước nàng,"},{"nom":"泊󰝡󰘚泊劎塘朱賒","quocngu":"Bạc đem mặt Bạc kiếm đường cho xa!"},{"nom":"轎花達𠓀㙴花","quocngu":"Kiệu hoa đặt trước thềm hoa,"},{"nom":"邊𥪝𧡊󰜋媒𠚢倍鐄","quocngu":"Bên trong thấy một mụ ra vội vàng."},{"nom":"迻娘𠓨𥛉家堂","quocngu":"Đưa nàng vào lạy gia đường,"},{"nom":"共神𪵟𤽸拱坊樓撑","quocngu":"Cũng thần mày trắng, cũng phường lầu xanh!"},{"nom":"脱𬂙娘㐌別情","quocngu":"Thoắt trông nàng đã biết tình,"},{"nom":"𪀄籠坤𨤰拮命𠖤高","quocngu":"Chim lồng khôn lẽ cất mình bay cao."},{"nom":"𡃍朱丐數花桃","quocngu":"Gớm cho cái số hoa đào,"},{"nom":"攑𠚢耒吏𥾾𠓨如制","quocngu":"Gỡ ra rồi lại buộc vào như chơi!"},{"nom":"擬𠁀𦓡喭朱𠁀","quocngu":"Nghĩ đời mà ngán cho đời,"},{"nom":"才情之𡗋朱𡗶坦慳","quocngu":"Tài tình chi lắm cho trời đất ghen!"},{"nom":"惜台渃㐌打矾","quocngu":"Tiếc thay nước đã đánh phèn,"},{"nom":"𦓡朱湓吏𪷦𨖲買吝","quocngu":"Mà cho bùn lại vận lên mấy lần."},{"nom":"紅鈞貝客紅裙","quocngu":"Hồng quân với khách hồng quần,"},{"nom":"㐌磋典世群運渚他","quocngu":"Đã xoay đến thế còn vần chưa tha."},{"nom":"呂自渃𨀈𨀈𠚢","quocngu":"Lỡ từ nước bước, bước ra,"},{"nom":"丐身料仍自茹料𠫾","quocngu":"Cái thân liệu những từ nhà liệu đi."},{"nom":"頭撑㐌罪情之","quocngu":"Đầu xanh đã tội tình gì?"},{"nom":"𦟐紅填過姅𪰛渚崔","quocngu":"Má hồng đền quá nửa thì, chưa thôi!"},{"nom":"別身𧼋拯塊𡗶","quocngu":"Biết thân chạy chẳng khỏi trời,"},{"nom":"拱料𦟐粉朱耒𣈜撑","quocngu":"Cũng liều má phấn, cho rồi ngày xanh."},{"nom":"吝𢥈𩙍沫𦝄清","quocngu":"Lần lừa gió mát trăng thanh,"},{"nom":"俸兜固客邊庭典制","quocngu":"Bỗng đâu có khách biên đình đến chơi."},{"nom":"󰙐𤞻頷燕𪵟𧍋","quocngu":"Râu hầm, hàm én, mày ngài,"},{"nom":"𦠘𠄼𡬷𢌌身𨑮𡱩高","quocngu":"Vai năm tấc rộng, thân mười thước cao."},{"nom":"堂堂󰜋𨅸英豪","quocngu":"Đường đường một đấng anh hào,"},{"nom":"棍拳欣飭略韜𫡂才","quocngu":"Côn quyền hơn sức, lược thao gồm tài."},{"nom":"隊𡗶踏坦於𠁀","quocngu":"Đội trời, đạp đất ở đời,"},{"nom":"户徐𠸜海本𠊚粤東","quocngu":"Họ Từ, tên Hải, vốn người Việt Đông."},{"nom":"江湖悁趣浘漨","quocngu":"Giang hồ quen thú vẫy vùng,"},{"nom":"鎌彈姅梗𡽫滝󰜋棹","quocngu":"Gươm đàn nửa gánh, non sông một chèo."},{"nom":"戈制𦖑㗂娘翹","quocngu":"Qua chơi nghe tiếng nàng Kiều,"},{"nom":"𬌓𢚸兒女拱漂英雄","quocngu":"Tấm lòng nhi nữ cũng xiêu anh hùng."},{"nom":"帖名迻典樓紅","quocngu":"Thiếp danh đưa đến lầu hồng,"},{"nom":"𠄩邊共𥆁𠄩𢚸拱𢛨","quocngu":"Hai bên cùng liếc, hai lòng cùng ưa."},{"nom":"徐浪心腑相期","quocngu":"Từ rằng: \\"Tâm phủ tương cờ,"},{"nom":"沛𠊚𦝄𩙍勿󰁍咍牢","quocngu":"Phải người trăng gió vật vờ hay sao?"},{"nom":"閉𥹰𦖑㗂𦟐桃","quocngu":"Bấy lâu nghe tiếng má đào,"},{"nom":"𬑉撑拯底埃𠓨沛空","quocngu":"Mắt xanh chẳng để ai vào phải không?"},{"nom":"󰜋𠁀特󰋇英雄","quocngu":"Một đời được mấy anh hùng,"},{"nom":"補之𩵜𡊱𪀄籠𦓡制","quocngu":"Bõ chi cá chậu, chim lồng, mà chơi!\\""},{"nom":"娘浪𠊚𠰺過𠳒","quocngu":"Nàng rằng: \\"Người dạy quá lời,"},{"nom":"身尼群鍳䀡埃爫常","quocngu":"Thân này còn dám xem ai làm thường!"},{"nom":"𡭧𥢆𪮙𥒥此鐄","quocngu":"Chút riêng chọn đá thử vàng,"},{"nom":"別兜𦓡𠳚肝膓𠓨兜","quocngu":"Biết đâu mà gửi can tràng vào đâu?"},{"nom":"群如𠓨𠓀𠚢𡢐","quocngu":"Còn như vào trước ra sau,"},{"nom":"埃朱挸𪮙鐄鍮在命","quocngu":"Ai cho kén chọn vàng thau tại mình?\\""},{"nom":"徐浪𠳒呐有情","quocngu":"Từ rằng: \\"Lời nói hữu tình,"},{"nom":"遣𠊚吏𢖵勾平原君","quocngu":"Khiến người lại nhớ câu Bình Nguyên Quân."},{"nom":"吏低䀡吏朱𧵆","quocngu":"Lại đây xem lại cho gần,"},{"nom":"倣信特󰜋𠄽分𫨩空","quocngu":"Phỏng tin được một vài phần hay không?\\""},{"nom":"󰣚浪量奇包容","quocngu":"Thưa rằng: \\"Lượng cả bao dong,"},{"nom":"晉陽特𧡊𠖤𧍰固畨","quocngu":"Tấn Dương được thấy bay rồng có phen."},{"nom":"𢌌傷𦹵内花𢤞","quocngu":"Rộng thương cỏ nội hoa hèn,"},{"nom":"𡭧身䕯浡鍳煩𣈕𡢐","quocngu":"Chút thân bèo bọt dám phiền mai sau!\\""},{"nom":"𦖑𠳒𣃣意拮頭","quocngu":"Nghe lời vừa ý, gật đầu,"},{"nom":"唭浪知己𠓀𡢐󰋇𠊚","quocngu":"Cười rằng: \\"Tri kỉ trước sau mấy người?"},{"nom":"𠸦朱昆𬑉精𠁀","quocngu":"Khen cho con mắt tinh đời,"},{"nom":"英雄𨅸𡨌塵埃買𫅷","quocngu":"Anh hùng đứng giữa trần ai mới già!"},{"nom":"󰜋𠳒㐌別典些","quocngu":"Một lời đã biết đến ta,"},{"nom":"𨷈鍾𠦳駟拱羅固饒","quocngu":"Muôn chung nghìn tứ cũng là có nhau!\\""},{"nom":"𠄩邊意合心投","quocngu":"Hai bên ý hợp, tâm đầu,"},{"nom":"欺親拯路羅求買親","quocngu":"Khi thân, chẳng lọ là cầu mới thân!"},{"nom":"事𢚸吘貝氷人","quocngu":"Sự lòng ngỏ với băng nhân:"},{"nom":"𠄩𤾓吏據原銀照還","quocngu":"Hai trăm lại cứ nguyên ngân chiếu hoàn."},{"nom":"房𥢆𢯢准清閒","quocngu":"Phòng riêng sửa chốn thanh nhàn,"},{"nom":"達床七寶圍幔八僊","quocngu":"Đặt giường thất bảo, vây màn bát tiên."},{"nom":"𤳇英雄𡛔嬋娟","quocngu":"Trai anh hùng, gái thuyền quyên,"},{"nom":"匪願𠁔鳯𫅠緣騎𧏵","quocngu":"Phỉ nguyền sánh phượng, đẹp duyên cưỡi rồng."},{"nom":"𡛤𢆥香󰌕當燶","quocngu":"Nửa năm hương lửa đương nồng,"},{"nom":"丈夫脱㐌動𢚸𦊚方","quocngu":"Trượng phu thoắt đã động lòng bốn phương."},{"nom":"𬂙潙𡗶𣷭溟󰋑","quocngu":"Trông vời trời bể mênh mang,"},{"nom":"青鎌鞍馭𨖲塘𣦎𨀐","quocngu":"Thanh gươm, yên ngựa lên đàng thẳng giong."},{"nom":"娘浪分𡛔𡦂從","quocngu":"Nàng rằng: \\"Phận gái chữ tòng,"},{"nom":"払𠫾妾拱决𢚸嗔𠫾","quocngu":"Chàng đi thiếp cũng quyết lòng xin đi.\\""},{"nom":"徐浪心腹相知","quocngu":"Từ rằng: \\"Tâm phúc tương tri,"},{"nom":"牢渚脱塊女兒常情","quocngu":"Sao chưa thoát khỏi nữ nhi thường tình?"},{"nom":"包𣇞𨑮𨷈精兵","quocngu":"Bao giờ mười vạn tinh binh,"},{"nom":"㗂鼙𠰺坦䏾旌󰢫塘","quocngu":"Tiếng bề dậy đất, bóng tinh rợp đường."},{"nom":"爫朱𤑟󰘚非常","quocngu":"Làm cho tỏ mặt phi thường,"},{"nom":"閉𣇞些仕逴娘宜家","quocngu":"Bấy giờ ta sẽ rước nàng nghi gia."},{"nom":"朋󰅒𦊚𣷭空茹","quocngu":"Bằng nay bốn bể không nhà,"},{"nom":"蹺強添絆別羅𠫾兜","quocngu":"Theo càng thêm bận biết là đi đâu?"},{"nom":"停𢚸除妬𠃣𥹰","quocngu":"Đành lòng chờ đó ít lâu,"},{"nom":"遲庒羅󰜋𢆥𡢐倍之","quocngu":"Chầy chăng là một năm sau, vội gì?\\""},{"nom":"决𠳒𢴑襖𠚢𠫾","quocngu":"Quyết lời dứt áo ra đi,"},{"nom":"𩙍迻鵬翅㐌離𨤮𣾺","quocngu":"Gió đưa bằng xỉ đã lìa dặm khơi."},{"nom":"娘自隻䏾窻梅","quocngu":"Nàng từ chiếc bóng song mai,"},{"nom":"𣈘輸蕩蕩𣈜掑杄𩄲","quocngu":"Đêm thâu đằng đẵng ngày cài then mây."},{"nom":"𡑝𦼔拯𡳒𨁪𨃐","quocngu":"Sân rêu chẳng vẽ dấu giày,"},{"nom":"𦹵高欣𡱩柳𤷍𢽼分","quocngu":"Cỏ cao hơn thước, liễu gầy vài phân."},{"nom":"兑𬂙𨷈𨤮梓枌","quocngu":"Đoái trông muôn dặm tử phần,"},{"nom":"魂圭蹺𦰟𩄲秦賒賒","quocngu":"Hồn quê theo ngọn mây Tần xa xa."},{"nom":"㤕台萱檜椿𫅷","quocngu":"Xót thay huyên cỗi xuân già,"},{"nom":"𬌓𢚸傷𢖵別羅固𢢯","quocngu":"Tấm lòng thương nhớ biết là có nguôi?"},{"nom":"祝羅𨑮󰋇𢆥𡗶","quocngu":"Chốc là mười mấy năm trời,"},{"nom":"群𠚢欺㐌䏧瑁𩯀霜","quocngu":"Còn ra khi đã da mồi tóc sương."},{"nom":"惜台𡭧義𡳵強","quocngu":"Tiếc thay chút nghĩa cũ càng,"},{"nom":"唒離絲𦬶群王絲𢚸","quocngu":"Dầu lìa tơ ngó còn vương tơ lòng."},{"nom":"緣㛪油󰡸絲紅","quocngu":"Duyên em dù nối tơ hồng,"},{"nom":"埋𠚢欺㐌𢬣𢸚𢬣恾","quocngu":"May ra khi đã tay bồng tay mang."},{"nom":"𡬷𢚸故國他鄕","quocngu":"Tấc lòng cố quốc tha hương."},{"nom":"塘箕餒怒滚昂排排","quocngu":"Đường kia nỗi nọ ngổn ngang bời bời."},{"nom":"𦑃鴻𠖤俸絶潙","quocngu":"Cánh hồng bay bổng tuyệt vời,"},{"nom":"㐌𤷱昆𬑉方𡗶耽耽","quocngu":"Đã mòn con mắt phương trời đăm đăm."},{"nom":"𣈘𣈜𨻫仍陰󰠐","quocngu":"Đêm ngày luống những âm thầm,"},{"nom":"󰌕兵兜㐌喑喑𦊚方","quocngu":"Lửa binh đâu đã ầm ầm bốn phương."},{"nom":"𡴯𡗶殺氣𤎎恾","quocngu":"Ngất trời sát khí mơ màng,"},{"nom":"苔滝鯨鰐秩塘甲兵","quocngu":"Đầy sông kình ngạc, chật đường giáp binh."},{"nom":"𠊚悁屬几終觥","quocngu":"Người quen thuộc, kẻ chung quanh,"},{"nom":"啂娘唉暫另命󰜋尼","quocngu":"Nhủ nàng hãy tạm lánh mình một nơi."},{"nom":"娘浪𠓀㐌󰠱𠳒","quocngu":"Nàng rằng: \\"Trước đã nặng lời,"},{"nom":"唒𥪝危險鍳移約𠸗","quocngu":"Dẫu trong nguy hiểm dám rời ước xưa!\\""},{"nom":"群當用孕菫魚","quocngu":"Còn đang dùng dắng ngẩn ngơ,"},{"nom":"𠃅外㐌𧡊䏾旗㗂鑼","quocngu":"Mái ngoài đã thấy bóng cờ tiếng la."},{"nom":"甲兵蹻典觥茹","quocngu":"Giáp binh kéo đến quanh nhà,"},{"nom":"同聲拱𠳚󰅹羅夫人","quocngu":"Đồng thanh cùng gửi: \\"Nào là phu nhân?\\""},{"nom":"𠄩邊𨑮位將軍","quocngu":"Hai bên mười vị tướng quân,"},{"nom":"撻鎌𢶒甲𠓀𡑝叩頭","quocngu":"Đặt gươm, cởi giáp, trước sân khấu đầu."},{"nom":"宮娥彩女蹺𡢐","quocngu":"Cung nga, thể nữ theo sau,"},{"nom":"浪󰂅令旨逴朝于歸","quocngu":"Rằng: \\"Vâng lệnh chỉ, rước chầu vu quy.\\""},{"nom":"産床鳯輦鸞󰀩","quocngu":"Sẵn sàng phượng liễn loan nghi,"},{"nom":"花冠𤎒𤈪霞衣󰌕𤉜","quocngu":"Hoa quan chấp chới, hà y rỡ ràng."},{"nom":"𥩯旗浽𤿰𨖲塘","quocngu":"Dựng cờ, nổi trống lên đàng,"},{"nom":"竹絲引𠓀桃鐄蹻𡢐","quocngu":"Trúc tơ dẫn trước, đào vàng kéo sau."},{"nom":"火牌前路𨇒毛","quocngu":"Hoả bài tiền lộ ruổi mau,"},{"nom":"南庭𦖑動𤿰朝大營","quocngu":"Nam đình nghe động trống chầu đại doanh."},{"nom":"撟旗壘發銃城","quocngu":"Kéo cờ luỹ, phát súng thành,"},{"nom":"徐公𠚢馭親迎𨷶外","quocngu":"Từ công ra ngựa thân nghênh cửa ngoài."},{"nom":"󰌕命邏𨤔巾帶","quocngu":"Rỡ mình lạ vẻ cân đai,"},{"nom":"群印樣客章臺如𠸗","quocngu":"Còn in dạng khách Chương Đài như xưa."},{"nom":"唭浪𩵜渃緣𢛨","quocngu":"Cười rằng: \\"Cá nước duyên ưa,"},{"nom":"𢖵𠳒呐仍包𣇞𫨩空","quocngu":"Nhớ lời nói những bao giờ hay không?"},{"nom":"英雄買別英雄","quocngu":"Anh hùng mới biết anh hùng,"},{"nom":"𣈙䀡倣㐌甘𢚸意諸","quocngu":"Rày xem phỏng đã cam lòng ấy chưa!\\""},{"nom":"娘浪𡭧分癡踈","quocngu":"Nàng rằng: \\"Chút phận ngây thơ,"},{"nom":"拱埋𦀊葛特洳䏾𣘃","quocngu":"Cũng may dây cát được nhờ bóng cây!"},{"nom":"典悲𣇞買𧡊低","quocngu":"Đến bây giờ mới thấy đây,"},{"nom":"𦓡𢚸㐌𠺵仍𣈜󰜋𠄩","quocngu":"Mà lòng đã chắc những ngày một hai!\\""},{"nom":"共饒𬂙󰘚奇唭","quocngu":"Cùng nhau trông mặt cả cười,"},{"nom":"攔𢬣𧗱准帳梅敘情","quocngu":"Dan tay về chốn trướng mai tự tình."},{"nom":"席排賞將犒兵","quocngu":"Tiệc bày thưởng tướng khao binh,"},{"nom":"喑󰢬𤿰陣習情樂軍","quocngu":"Om thòm trống trận, rập rình nhạc quân."},{"nom":"榮花補課風塵","quocngu":"Vinh hoa bõ thuở phong trần,"},{"nom":"𡦂情𣈜吏添春󰜋𣈜","quocngu":"Chữ tình ngày lại thêm xuân một ngày."},{"nom":"𥪝軍固𣅶𢝙圍","quocngu":"Trong quân có lúc vui vầy,"},{"nom":"從容買計傳𣈜寒微","quocngu":"Thong dong mới kể chuyện ngày hàn vi:"},{"nom":"欺無錫欺臨淄","quocngu":"\\"Khi Vô Tích, khi Lâm Truy,"},{"nom":"尼𪰛驢倒尼𪰛㤕傷","quocngu":"Nơi thì lừa đảo, nơi thì xót thương."},{"nom":"𬌓身𣈙㐌弭攘","quocngu":"Tấm thân rày đã nhẹ nhàng,"},{"nom":"𡭧群恩怨堆塘渚衝","quocngu":"Chút còn ân oán đôi đường chưa xong.\\""},{"nom":"徐公𦖑呐始終","quocngu":"Từ công nghe nói thủy chung,"},{"nom":"不平浽陣同同𩆐㘇","quocngu":"Bất bình nổi trận đùng đùng sấm vang."},{"nom":"嚴軍𪮙將産床","quocngu":"Nghiêm quân chọn tướng sẵn sàng,"},{"nom":"󰡎旗󰜋令倍鐄𥗐𬁖","quocngu":"Dưới cờ một lệnh vội vàng ruổi sao."},{"nom":"𠀧軍指𦰟旗桃","quocngu":"Ba quân chỉ ngọn cờ đào,"},{"nom":"道𨖅無錫道𠓨臨淄","quocngu":"Đạo sang Vô Tích, đạo vào Lâm Truy."},{"nom":"󰋇𠊚負薄𠸗𤞻","quocngu":"Mấy người phụ bạc xưa kia,"},{"nom":"照名追拿調𧗱𠳨查","quocngu":"Chiếu danh truy nã điệu về hỏi tra."},{"nom":"吏差令箭傳𠚢","quocngu":"Lại sai lệnh tiễn truyền ra,"},{"nom":"𪧚𦀾户束󰜋茹朱安","quocngu":"Giữ giàng họ Thúc một nhà cho yên."},{"nom":"媒宦姐娓覺緣","quocngu":"Mụ Hoạn Thư, vãi Giác Duyên,"},{"nom":"拱差令箭󰝂信逴𠶆","quocngu":"Cũng sai lệnh tiễn đem tin rước mời."},{"nom":"誓師計歇每𠳒","quocngu":"Thệ sư kể hết mọi lời,"},{"nom":"𢚸𢚸拱恨𠊚𠊚𢴇威","quocngu":"Lòng lòng cũng giận, người người chấp uy."},{"nom":"道𡗶報復㐱稽","quocngu":"Đạo trời báo phục chỉn ghê,"},{"nom":"窖台󰜋𬒙󰑖𧗱苔尼","quocngu":"Khéo thay một mẻ tóm về đầy nơi."},{"nom":"軍中鎌𢀲槊𨱽","quocngu":"Quân trung gươm lớn giáo dài."},{"nom":"𧗱𥪝侍立奇外雙披","quocngu":"Vệ trong thị lập, cơ ngoài song phi,"},{"nom":"産床齊整威儀","quocngu":"Sẵn sàng tề chỉnh uy nghi,"},{"nom":"博銅秩坦旌旗𩄓𡑝","quocngu":"Bác đồng chật đất, tinh kỳ rợp sân."},{"nom":"帳𬮎𨷑𡨌中軍","quocngu":"Trướng hùm mở giữa trung quân,"},{"nom":"徐公𠁔貝夫人共𡎥","quocngu":"Từ công sánh với phu nhân cùng ngồi."},{"nom":"先嚴𤿰渚𢴑回","quocngu":"Tiên nghiêm trống chửa dứt hồi"},{"nom":"點名𠓀㐌直外𨷶轅","quocngu":"Điểm danh trước đã chực ngoài cửa viên."},{"nom":"徐浪恩怨𠄩邊","quocngu":"Từ rằng: \\"Ân oán hai bên,"},{"nom":"默娘䖏决報填朱明","quocngu":"Mặc nàng xử quyết báo đền cho minh.\\""},{"nom":"娘浪𨷈𢚁威靈","quocngu":"Nàng rằng: \\"Muôn cậy uy linh,"},{"nom":"唉嗔報答恩情朱孚","quocngu":"Hãy xin báo đáp ân tình cho phu."},{"nom":"報恩耒仕㨋讐","quocngu":"Báo ân rồi sẽ trả thù.\\""},{"nom":"徐浪役意底朱默娘","quocngu":"Từ rằng: \\"Việc ấy để cho mặc nàng.\\""},{"nom":"数名唱𠓀束郎","quocngu":"Sổ danh xướng trước Thúc lang,"},{"nom":"󰘚如藍覩命羕𧕬㬿","quocngu":"Mặt như chàm đổ, mình dường dế run/trôn."},{"nom":"娘浪義󰠱𠦳𡽫","quocngu":"Nàng rằng: \\"Nghĩa nặng nghìn non,"},{"nom":"臨淄𠊚󱀄払群𢖵空","quocngu":"Lâm Truy người cũ chàng còn nhớ không?"},{"nom":"参商拯院𡦂從","quocngu":"Sâm Thương chẳng vẹn chữ tòng,"},{"nom":"在埃𧯶鍳責𢚸故人","quocngu":"Tại ai, há dám trách lòng cố nhân?"},{"nom":"錦𤾓卷泊𠦳斤","quocngu":"Gấm trăm cuốn, bạc nghìn cân,"},{"nom":"謝𢚸易稱報恩噲羅","quocngu":"Tạ lòng dễ xứng báo ân gọi là."},{"nom":"㛪払鬼怪精魔","quocngu":"Vợ chàng quỷ quái tinh ma,"},{"nom":"畨尼几𠎨󰜏𫅷﨤饒","quocngu":"Phen này kẻ cắp bà già gặp nhau!"},{"nom":"蜆𨁏𠰘󱋓渚𥹰","quocngu":"Kiến bò miệng chén chưa lâu,"},{"nom":"謀溇拱㨋義溇拱𣃣","quocngu":"Mưu sâu cũng trả nghĩa sâu cũng vừa!\\""},{"nom":"束生𬂙󰘚閉𣇞","quocngu":"Thúc sinh trông mặt bấy giờ,"},{"nom":"蒲灰払㐌如𩅹𣿌滛","quocngu":"Mồ hôi chàng đã như mưa ướt dầm."},{"nom":"𢚸𥢆汲啟坤擒","quocngu":"Lòng riêng khấp khởi khôn cầm,"},{"nom":"𢜝台𦓡吏𢜠󰠐朱埃","quocngu":"Sợ thay mà lại mừng thầm cho ai!"},{"nom":"媒𫅷師長次𠄩","quocngu":"Mụ già, sư trưởng thứ hai,"},{"nom":"脱迻典𠓀倍𠶆逴𨖲","quocngu":"Thoắt đưa đến trước, vội mời rước trên."},{"nom":"𢩮𢬣𨷑󰘚朱𥆾","quocngu":"Dắt tay mở mặt cho nhìn:"},{"nom":"花奴箕貝濯泉拱碎","quocngu":"\\"Hoa nô kia với Trạc Tuyền cũng tôi!"},{"nom":"洳欺󰢮𨀈仕潙","quocngu":"Nhớ khi lỡ bước sẩy vời,"},{"nom":"𡽫鐄渚易填倍𬌓傷","quocngu":"Non vàng chưa dễ đền bồi tấm thương."},{"nom":"𠦳鐄噲𡭧禮常","quocngu":"Nghìn vàng gọi chút lễ thường."},{"nom":"𦓡𢚸漂母󰋇鐄朱斤","quocngu":"Mà lòng Phiếu mẫu mấy vàng cho cân!\\""},{"nom":"𠄩𠊚𬂙󰘚秦銀","quocngu":"Hai người trông mặt tần ngần,"},{"nom":"姅分怯𢜝姅分𢜠𢝙","quocngu":"Nửa phần khiếp sợ, nửa phần mừng vui."},{"nom":"娘浪嗔唉󰟱𡎥","quocngu":"Nàng rằng: \\"Xin hãy rốn ngồi,"},{"nom":"䀡朱𤑟󰘚別碎報讐","quocngu":"Xem cho rõ mặt, biết tôi báo thù!\\""},{"nom":"急傳諸將獻俘","quocngu":"Kíp truyền chư tướng hiến phù."},{"nom":"吏󰝡各跡犯囚侯查","quocngu":"Lại đem các tích phạm tù hậu tra."},{"nom":"󰡎旗鎌捽匣𠚢","quocngu":"Dưới cờ gươm tuốt nắp ra,"},{"nom":"正名首犯𠸜羅宦姐","quocngu":"Chính danh thủ phạm tên là Hoạn Thư!"},{"nom":"脱𬂙娘㐌嘲䜹","quocngu":"Thoắt trông nàng đã chào thưa:"},{"nom":"小姐拱固碑𣇞典低","quocngu":"\\"Tiểu thư cũng có bây giờ đến đây!\\""},{"nom":"彈󰜏易固󰋇𢬣","quocngu":"Đàn bà dễ có mấy tay,"},{"nom":"𠁀𠸗󰋇󰘚𠁀尼󰋇肝","quocngu":"Đời xưa mấy mặt, đời này mấy gan!"},{"nom":"易揚羅𫗁紅顔","quocngu":"Dễ dàng là thói hồng nhan,"},{"nom":"強荄󰠘𡗋強寃債𡗉","quocngu":"Càng cay nghiệt lắm, càng oan trái nhiều!\\""},{"nom":"宦姐魄落魂漂","quocngu":"Hoạn Thư phách lạc hồn xiêu,"},{"nom":"叩頭󰡎帳捛調呌歌","quocngu":"Khấu đầu dưới trướng lựa điều kêu ca."},{"nom":"浪碎𡭧胣彈󰜏","quocngu":"Rằng: \\"Tôi chút dạ đàn bà,"},{"nom":"悭相羅拱𠊚些常情","quocngu":"Ghen tuông là cũng người ta thường tình."},{"nom":"擬朱欺閣曰經","quocngu":"Nghĩ cho khi gác viết kinh,"},{"nom":"貝欺塊𨷶𠞹情𫽄蹺","quocngu":"Với khi khỏi cửa dứt tình chẳng theo."},{"nom":"𢚸𥢆𥢆仍敬腰","quocngu":"Lòng riêng, riêng những kính yêu,"},{"nom":"𫯳鍾渚易埃朝朱埃","quocngu":"Chồng chung chưa dễ ai chiều cho ai!"},{"nom":"捽它𨢟役蔠荄","quocngu":"Trót đà gây việc chông gai,"},{"nom":"群洳量奇傷排󰅹庒","quocngu":"Còn nhờ lượng cả thương bài nào chăng!\\""},{"nom":"𠸦朱窖㐌𢧚浪","quocngu":"Khen cho: \\"Khéo đã nên rằng,"},{"nom":"坤頑典墨呐能沛𠳒","quocngu":"Khôn ngoan đến mực, nói năng phải lời,"},{"nom":"他𠚢羅拱埋𠁀","quocngu":"Tha ra là cũng may đời,"},{"nom":"爫𠚢𪰛拱𠚢𠊚𡮈然","quocngu":"Làm ra thì cũng ra người nhỏ nhen."},{"nom":"㐌𢚸知過𪰛𢧚","quocngu":"Đã lòng tri quá thời nên!\\""},{"nom":"傳軍令𫴋帳前他𬆄","quocngu":"Truyền quân lệnh xuống trướng tiền tha ngay."},{"nom":"謝𢚸𥛉𠓀𡑝𩄲","quocngu":"Tạ lòng lạy trước sân mây,"},{"nom":"𨷶軒吏𢴑󰜋𦀊引𠓨","quocngu":"Cửa hiên lại dắt một dây dẫn vào."},{"nom":"娘浪弄弄𡗶高","quocngu":"Nàng rằng: \\"Lồng lộng trời cao,"},{"nom":"害人人害事󰅹在些","quocngu":"Hại nhân, nhân hại, sự nào tại ta?"},{"nom":"𠓀羅薄幸薄󰜏","quocngu":"Trước là Bạc Hạnh, Bạc bà,"},{"nom":"邊羅鷹犬邊羅楚卿","quocngu":"Bên là Ưng, Khuyển, bên là Sở Khanh."},{"nom":"秀󰜏貝馬監生","quocngu":"Tú bà với Mã Giám Sinh,"},{"nom":"正名罪㐌當情群牢","quocngu":"Chính danh tội đã đáng tình còn sao?\\""},{"nom":"令軍傳𫴋開刀","quocngu":"Lệnh quân truyền xuống khai đao,"},{"nom":"誓牢𪰛吏據牢加刑","quocngu":"Thề sao thì lại cứ sao gia hình."},{"nom":"𧖱淶𦧘󰞺散情","quocngu":"Máu rơi thịt nát tan tành,"},{"nom":"埃埃𬂙𧡊魂驚魄移","quocngu":"Ai ai trông thấy hồn kinh phách rời."},{"nom":"朱𫨩𨷈事在𡗶","quocngu":"Cho hay muôn sự tại trời,"},{"nom":"負𠊚拯補欺𠊚負些","quocngu":"Phụ người chẳng bỏ khi người phụ ta!"},{"nom":"󰋇𠊚薄惡精魔","quocngu":"Mấy người bạc ác tinh ma,"},{"nom":"命爫命𠹾呌𦓡埃傷","quocngu":"Mình làm mình chịu kêu mà ai thương!"},{"nom":"𠀧軍東󰘚法塲","quocngu":"Ba quân đông mặt pháp trường."},{"nom":"青天白日𤑟𤉜朱𥋳","quocngu":"Thanh thiên bạch nhật rõ ràng cho coi."},{"nom":"役娘報復𣃣耒","quocngu":"Việc nàng báo phục vừa rồi,"},{"nom":"覺緣倍㐌𠳚𠳒辭歸","quocngu":"Giác Duyên vội đã gởi lời từ quy."},{"nom":"娘浪千載一期","quocngu":"Nàng rằng: \\"Thiên tải nhất kỳ,"},{"nom":"故人㐌易󰋇欺盤桓","quocngu":"Cố nhân đã dễ mấy khi bàn hoàn."},{"nom":"耒低䕯合𩄲散","quocngu":"Rồi đây bèo hợp mây tan,"},{"nom":"別兜䳽内𩄲岸羅兜","quocngu":"Biết đâu hạc nội, mây ngàn là đâu?\\""},{"nom":"師浪拱拯包𥹰","quocngu":"Sư rằng: \\"Cũng chẳng bao lâu,"},{"nom":"𥪝𠄼𢆥吏﨤饒妬𦓡","quocngu":"Trong năm năm lại gặp nhau đó mà."},{"nom":"𢖵𣈜行脚方賒","quocngu":"Nhớ ngày hành cước phương xa,"},{"nom":"﨤師三合本羅先知","quocngu":"Gặp sư Tam Hợp vốn là tiên tri."},{"nom":"保朱會遇之期","quocngu":"Bảo cho hội ngộ chi kỳ,"},{"nom":"𢆥󰅒羅󰜋女𪰛𠄼𢆥","quocngu":"Năm nay là một, nữa thì năm năm."},{"nom":"買𫨩前定拯惏","quocngu":"Mới hay tiền định chẳng lầm,"},{"nom":"㐌信調𠓀乙䏕役𡢐","quocngu":"Đã tin điều trước, ắt nhằm việc sau."},{"nom":"群𡗉恩義貝饒","quocngu":"Còn nhiều ân nghĩa với nhau,"},{"nom":"機緣󰅹㐌歇兜倍󰢔","quocngu":"Cơ duyên nào đã hết đâu, vội gì?\\""},{"nom":"娘浪前定先知","quocngu":"Nàng rằng: \\"Tiền định tiên tri,"},{"nom":"𠳒師㐌𠰺乙𪰛拯差","quocngu":"Lời sư đã dạy ắt thì chẳng sai."},{"nom":"禍包𣇞固﨤𠊚","quocngu":"Hoạ bao giờ có gặp người,"},{"nom":"爲碎𢚁𠳨󰜋𠳒終身","quocngu":"Vì tôi cậy hỏi một lời chung thân.\\""},{"nom":"覺緣󰂅吲殷勤","quocngu":"Giác Duyên vâng dặn ân cần,"},{"nom":"謝辭脱㐌移蹎𡎝外","quocngu":"Tạ từ thoắt đã dời chân cõi ngoài."},{"nom":"娘浪恩怨𫾐𢬗","quocngu":"Nàng rằng ân oán rạch ròi,"},{"nom":"𣷭冤󰟯㐌潙潙竟𢚸","quocngu":"Bể oan dường đã vơi vơi cạnh lòng."},{"nom":"謝恩𥛉𠓀徐公","quocngu":"Tạ ân lạy trước Từ công:"},{"nom":"㤕身蒲柳󰅹蒙固𣈙","quocngu":"\\"Xót thân bồ liễu nào mong có rày!"},{"nom":"濫洳𩆐𩂶𠚢𢬣","quocngu":"Trộm nhờ sấm sét ra tay,"},{"nom":"𡬷𥢆如拮梗苔覩𠫾","quocngu":"Tấc riêng như cất gánh đầy đổ đi."},{"nom":"󰢯󰢇劄胣呐之","quocngu":"Khắc xương chép dạ nói chi,"},{"nom":"易󰝡肝𧎜填󰀩𡗶𩄲","quocngu":"Dễ đem gan ốc đền nghì trời mây.\\""},{"nom":"徐浪國士𠸗󰅒","quocngu":"Từ rằng: \\"Quốc sĩ xưa nay,"},{"nom":"𪮙𠊚知己󰜋𣈜特庒","quocngu":"Chọn người tri kỷ một ngày được chăng?"},{"nom":"英雄㗂㐌噲浪","quocngu":"Anh hùng tiếng đã gọi rằng,"},{"nom":"𡨌塘欺𧡊不平𦓡他","quocngu":"Giữa đường khi thấy bất bằng mà tha!"},{"nom":"况之役拱役茹","quocngu":"Huống chi việc cũng việc nhà,"},{"nom":"路羅深謝貝羅知恩","quocngu":"Lọ là thâm tạ mới là tri ân."},{"nom":"㤕娘群𪨀雙親","quocngu":"Xót nàng còn chút song thân,"},{"nom":"閉𥹰几越𠊚秦隔賒","quocngu":"Bấy lâu kẻ Việt, người Tần cách xa."},{"nom":"牢朱𨷈𨤮󰜋茹","quocngu":"Sao cho muôn dặm một nhà,"},{"nom":"朱𠊚𧡊󰘚羅些甘𢚸","quocngu":"Cho người thấy mặt là ta cam lòng.\\""},{"nom":"倍傳𢯢席軍中","quocngu":"Vội truyền sửa tiệc quân trung,"},{"nom":"𨷈兵𠦳將會同洗寃","quocngu":"Muôn binh nghìn tướng hội đồng tẩy oan."},{"nom":"乘機竹扯𤌋散","quocngu":"Thừa cơ trúc chẻ khói tan,"},{"nom":"兵威自意𩆐㘓𥪝外","quocngu":"Binh uy từ ấy sấm ran trong ngoài."},{"nom":"朝廷𥢆󰜋𧣳𡗶","quocngu":"Triều đình riêng một góc trời"},{"nom":"𠁟𠄩文武攊堆山河","quocngu":"Gồm hai văn võ, rạch đôi sơn hà."},{"nom":"隊干𩙍𪭱𩅹沙","quocngu":"Đòi cơn gió quét mưa sa,"},{"nom":"縣城踏覩𠄼座𡎝南","quocngu":"Huyện thành đạp đổ năm toà cõi Nam."},{"nom":"風塵𥕄󰜋𦧜鎌","quocngu":"Phong trần mài một lưỡi gươm,"},{"nom":"仍類架襖襊𩚵詫之","quocngu":"Những loài giá áo túi cơm sá gì!"},{"nom":"迎昂󰜋𡎝邊陲","quocngu":"Nghênh ngang một cõi biên thuỳ,"},{"nom":"少之孤寡少之伯王","quocngu":"Thiếu gì cô quả, thiếu gì bá vương!"},{"nom":"𠓀旗埃鍳爭強","quocngu":"Trước cờ ai dám tranh cường,"},{"nom":"𠄼𢆥雄據󰜋方海瀕","quocngu":"Năm năm hùng cứ một phương hải tần."},{"nom":"固官總督重臣","quocngu":"Có quan tổng đốc trọng thần,"},{"nom":"羅胡尊憲經綸𠁟才","quocngu":"Là Hồ Tôn Hiến, kinh luân gồm tài."},{"nom":"𢩽車󰂅旨特差","quocngu":"Dẩy xe vâng chỉ đặc sai,"},{"nom":"便宜撫勦役外董戎","quocngu":"Tiện nghi phủ tiễu, việc ngoài đổng nhung."},{"nom":"別徐羅𨅸英雄","quocngu":"Biết Từ là đấng anh hùng,"},{"nom":"別娘拱預軍中論盤","quocngu":"Biết nàng cũng dự quân trung luận bàn."},{"nom":"棟軍爫禮招安","quocngu":"Đóng quân, làm lễ chiêu an,"},{"nom":"封書鎫禮差官説降","quocngu":"Phong thư mâm lễ sai quan thuyết hàng."},{"nom":"吏𥢆󰜋禮貝娘","quocngu":"Lại riêng một lễ với nàng,"},{"nom":"𠄩𠸜彩女玉鐄𠦳斤","quocngu":"Hai tên thể nữ, ngọc vàng nghìn cân."},{"nom":"信𠓨𠳚𠓀中軍","quocngu":"Tin vào gửi trước trung quân,"},{"nom":"徐公𥢆唉𨑮分糊塗","quocngu":"Từ công riêng hãy mười phân hồ đồ."},{"nom":"󰜋𢬣𨢟𥩯基圖","quocngu":"Một tay gây dựng cơ đồ,"},{"nom":"閉𥹰𣷭楚滝吳縱横","quocngu":"Bấy lâu bể Sở, sông Ngô tung hoành!"},{"nom":"𥿠身𧗱貝朝廷","quocngu":"Bó thân về với triều đình,"},{"nom":"降臣𪭃恅分命𠚢兜","quocngu":"Hàng thần lơ láo, phận mình ra đâu?"},{"nom":"襖襜纀𦆹𥙩饒","quocngu":"Áo xiêm buộc trói lấy nhau,"},{"nom":"𠓨𠍓𠚢𨆝公侯𦓡之","quocngu":"Vào luồn ra cúi công hầu mà chi?"},{"nom":"牢朋𥢆󰜋邊陲","quocngu":"Sao bằng riêng một biên thuỳ,"},{"nom":"飭尼㐌易爫之特饒","quocngu":"Sức này đã dễ làm gì được nhau?"},{"nom":"擉𡗶恠渃默油","quocngu":"Chọc trời quấy nước mặc dầu,"},{"nom":"育昂󰅹別𨕭頭固埃","quocngu":"Dọc ngang nào biết trên đầu có ai?"},{"nom":"娘它寔胣信𠊚","quocngu":"Nàng đà thực dạ tin người,"},{"nom":"禮𡗉呐𠮾𦖑𠳒易漂","quocngu":"Lễ nhiều, nói ngọt nghe lời dễ xiêu."},{"nom":"擬命󰘚渃𦑃䕯","quocngu":"Nghĩ mình mặt nước cánh bèo,"},{"nom":"㐌𡗉流落吏𡗉艱屯","quocngu":"Đã nhiều lưu lạc lại nhiều gian truân."},{"nom":"朋󰅒𠹾㗂王臣","quocngu":"Bằng nay chịu tiếng vương thần."},{"nom":"清清塘丐青雲狹󰢔","quocngu":"Thênh thênh đường cái thanh vân hẹp gì!"},{"nom":"公私院奇𠄩皮","quocngu":"Công tư vẹn cả hai bề,"},{"nom":"寅夜耒仕料衛故鄕","quocngu":"Dần dà rồi sẽ liệu về cố hương."},{"nom":"拱𡾵命婦堂堂","quocngu":"Cũng ngôi mệnh phụ đường đường,"},{"nom":"𦬑囊𪵟󰘚󰌕𤉜媄吒","quocngu":"Nở nang mày mặt, rỡ ràng mẹ cha."},{"nom":"𨕭爲渃󰡎爲茹","quocngu":"Trên vì nước, dưới vì nhà,"},{"nom":"󰜋羅得孝𠄩羅得忠","quocngu":"Một là đắc hiếu, hai là đắc trung."},{"nom":"拯欣隻栢𡨌𣳔","quocngu":"Chẳng hơn chiếc bách giữa dòng,"},{"nom":"𠲖𠽮㳥𩙍駭雄𦹵花","quocngu":"E dè sóng gió, hãi hùng cỏ hoa."},{"nom":"因欺盤薄𧵆賒","quocngu":"Nhân khi bàn bạc gần xa,"},{"nom":"乘機娘買盤𠚢呐𠓨","quocngu":"Thừa cơ, nàng mới bàn ra nói vào."},{"nom":"浪𥪝聖澤𣼭󰠢","quocngu":"Rằng: \\"Trong Thánh trạch dồi dào,"},{"nom":"洒𠚢㐌泣渗𠓨㐌溇","quocngu":"Tưới ra đã khắp, thấm vào đã sâu."},{"nom":"平成功德閉𥹰","quocngu":"Bình thành công đức bấy lâu,"},{"nom":"埃埃拱隊𨕭頭掣包","quocngu":"Ai ai cũng đội trên đầu xiết bao."},{"nom":"𡄎自𧻭役兵刀","quocngu":"Ngẫm từ dấy việc binh đao,"},{"nom":"棟󰢇無定㐌高朋頭","quocngu":"Đống xương Vô Định đã cao bằng đầu."},{"nom":"爫之底㗂𧗱𡢐","quocngu":"Làm chi để tiếng về sau,"},{"nom":"𠦳𢆥埃㐌𠸦兜黄巢","quocngu":"Nghìn năm ai đã khen đâu Hoàng Sào!"},{"nom":"牢朋祿重權高","quocngu":"Sao bằng lộc trọng quyền cao,"},{"nom":"功名埃𢩮𨇒󰅹朱戈","quocngu":"Công danh ai dắt lối nào cho qua?\\""},{"nom":"𦖑𠳒娘呐󰚷嘛","quocngu":"Nghe lời nàng nói mặn mà,"},{"nom":"勢攻徐買阻𠚢勢降","quocngu":"Thế công, Từ mới trở ra thế hàng."},{"nom":"整儀接使倍鐄","quocngu":"Chỉnh nghi tiếp sứ vội vàng,"},{"nom":"限期束甲决塘解兵","quocngu":"Hẹn kỳ thúc giáp, quyết đường giải binh."},{"nom":"信𠳒城下要盟","quocngu":"Tin lời thành hạ yêu minh,"},{"nom":"𦰟旗魚󰢰𤿰更雉揚","quocngu":"Ngọn cờ ngơ ngác, trống canh trễ tràng."},{"nom":"役兵補拯𪧚𦀾","quocngu":"Việc binh bỏ chẳng giữ giàng,"},{"nom":"王師㐌𧡊𤏣詳寔虚","quocngu":"Vương sư đã thấy tỏ tường thực hư."},{"nom":"胡公决計乘機","quocngu":"Hồ công quyết kế thừa cơ,"},{"nom":"禮先兵後刻期襲攻","quocngu":"Lễ tiên, binh hậu, khắc cờ tập công."},{"nom":"𢹣旗招撫先鋒","quocngu":"Kéo cờ chiêu phủ tiên phong,"},{"nom":"禮儀躝𠓀鎛銅伏𡢐","quocngu":"Lễ nghi dàn trước, bác đồng phục sau."},{"nom":"徐群哬𠾿別兜","quocngu":"Từ còn hờ hững biết đâu?"},{"nom":"大冠禮服𠚢投𨷶轅","quocngu":"Đại quan lễ phục ra đầu cửa viên."},{"nom":"胡公暗號密傳","quocngu":"Hồ công ám hiệu mật truyền,"},{"nom":"𠀧皮發銃𦊚邊𢹣旗","quocngu":"Ba bề phát súng, bốn bên kéo cờ."},{"nom":"當欺不意拯疑","quocngu":"Đang khi bất ý chẳng ngờ,"},{"nom":"𤞻󰡼欺㐌沙機拱𢤞","quocngu":"Hùm thiêng khi đã sa cơ cũng hèn!"},{"nom":"死生料𡧲陣前","quocngu":"Tử sinh liều giữa trận tiền,"},{"nom":"磾苔朱別肝連將軍","quocngu":"Dạn dày cho biết gan liền tướng quân!"},{"nom":"氣󰡼雖㐌𧗱神","quocngu":"Khí thiêng tuy đã về thần,"},{"nom":"然然群𨅸墫蹎𡧲𫒥","quocngu":"Nhơn nhơn còn đứng chôn chân giữa vòng!"},{"nom":"猪如𥒥凭如銅","quocngu":"Trơ như đá, vững như đồng,"},{"nom":"埃𢯦朱轉埃󰢱朱移","quocngu":"Ai lay cho chuyển, ai rung cho rời."},{"nom":"官軍追殺𨆷𨱽","quocngu":"Quan quân truy sát đuổi dài,"},{"nom":"㗀㗀殺氣𩁶𡗶埃當","quocngu":"Ù ù sát khí, ngất trời ai đang!"},{"nom":"𥪝濠外壘散荒","quocngu":"Trong hào, ngoài luỹ tan hoang,"},{"nom":"亂軍𣃣𢴑𢬣娘典尼","quocngu":"Loạn quân vừa dắt tay nàng đến nơi."},{"nom":"𥪝𨦩𥏋𥒥俳俳","quocngu":"Trong vòng tên đá bời bời,"},{"nom":"𧡊徐群𨅸𡨌𡗶猪猪","quocngu":"Thấy Từ còn đứng giữa trời trơ trơ."},{"nom":"哭浪智勇固乘","quocngu":"Khóc rằng: \\"Trí dũng có thừa,"},{"nom":"𤳷𦖑𠳒妾典機會尼","quocngu":"Bởi nghe lời thiếp đến cơ hội này."},{"nom":"󰘚󰅹𬂙𧡊饒低","quocngu":"Mặt nào trông thấy nhau đây?"},{"nom":"拱料𤯩𣨰󰜋𣈜貝饒","quocngu":"Cũng liều sống thác một ngày với nhau!\\""},{"nom":"𣳔秋如沚干愁","quocngu":"Dòng thu như chảy cơn sầu,"},{"nom":"󰢲𠳒娘拱招頭󰜋邊","quocngu":"Dứt lời nàng cũng gieo đầu một bên."},{"nom":"邏台寃氣相廛","quocngu":"Lạ thay oan khí tương triền!"},{"nom":"娘𣃣伏𫴋徐連我𠚢","quocngu":"Nàng vừa phục xuống, Từ liền ngã ra."},{"nom":"官軍几吏𠊚戈","quocngu":"Quan quân kẻ lại người qua,"},{"nom":"㤕娘仕吏域𠚢寅寅","quocngu":"Xót nàng sẽ lại vực ra dần dần."},{"nom":"𫸬𠓨典𠓀中軍","quocngu":"Dẫn vào đến trước trung quân,"},{"nom":"胡公𧡊󰘚殷勤𠳨𠻃","quocngu":"Hồ công thấy mặt ân cần hỏi han."},{"nom":"浪娘㤕分紅顔","quocngu":"Rằng: \\"Nàng chút phận hồng nhan,"},{"nom":"﨤干兵革𫶺難拱傷","quocngu":"Gặp cơn binh cách nghèo nàn cũng thương!"},{"nom":"㐌𫨩成筭廟堂","quocngu":"Đã hay thành toán miếu đường,"},{"nom":"執功拱固𠳒娘買𢧚","quocngu":"Chấp công cũng có lời nàng mới nên."},{"nom":"碑𣇞事㐌萬全","quocngu":"Bây giờ sự đã vạn tuyền,"},{"nom":"默𢚸擬𥙩悶嗔皮󰅹","quocngu":"Mặc lòng nghĩ lấy, muốn xin bề nào?\\""},{"nom":"娘強湥玉𣻆𩆋","quocngu":"Nàng càng giọt ngọc tuôn dào,"},{"nom":"吸凝買𠳚濕高事𢚸","quocngu":"Ngập ngừng mới gửi thấp cao sự lòng."},{"nom":"浪徐羅𨅸英雄","quocngu":"Rằng: \\"Từ là đấng anh hùng,"},{"nom":"育昂𡗶𢌌浘漨𣷭𣾺","quocngu":"Dọc ngang trời rộng, vẫy vùng bể khơi!"},{"nom":"信碎𢧚過𦖑𠳒","quocngu":"Tin tôi nên quá nghe lời,"},{"nom":"󰝡身百戰爫碎朝廷","quocngu":"Đem thân bách chiến làm tôi triều đình."},{"nom":"語羅夫貴婦榮","quocngu":"Ngỡ là phu quý, phụ vinh,"},{"nom":"埃疑󰜋丿散情𦧘󰢇","quocngu":"Ai ngờ một phút tan tành thịt xương!"},{"nom":"𠄼𫷜𡗶𣷭昂藏","quocngu":"Năm năm trời bể ngang tàng."},{"nom":"󰝡身𠫾補戰塲如空","quocngu":"Đem thân đi bỏ chiến trường như không."},{"nom":"害𫯳計𥙩爫功","quocngu":"Hại chồng kể lấy làm công,"},{"nom":"計包饒吏𤴬𢚸閉饒","quocngu":"Kể bao nhiêu lại đau lòng bấy nhiêu!"},{"nom":"察命功𠃣罪𡗉","quocngu":"Xét mình công ít, tội nhiều,"},{"nom":"𤯩乘碎㐌𢧚料命碎","quocngu":"Sống thừa, tôi đã nên liều mình tôi."},{"nom":"嗔朱淺土󰜋堆","quocngu":"Xin cho tiện thổ một doi,"},{"nom":"噲羅㙮店𥙩𠊚死生","quocngu":"Gọi là đắp điếm lấy người tử sinh!\\""},{"nom":"胡公𦖑呐傷情","quocngu":"Hồ công nghe nói thương tình,"},{"nom":"傳朱藁葬遺形邊滝","quocngu":"Truyền cho cảo táng di hình bên sông."},{"nom":"𥪝軍𨷑席賀功","quocngu":"Trong quân mở tiệc hạ công,"},{"nom":"㖔𡁞絲竹會同軍官","quocngu":"Xôn xao tơ trúc, hội đồng quân quan."},{"nom":"󰈫娘侍宴󰡎幔","quocngu":"Bắt nàng thị yến dưới màn,"},{"nom":"𢷣醝吏押紊彈日奏","quocngu":"Giở say lại ép vặn đàn nhặt tâu."},{"nom":"没宮𩙍𢣃𩅹愁","quocngu":"Một cung gió tủi mưa sầu,"},{"nom":"𦊚𦀊㳶𧖱𠄼頭𪮀𢬣","quocngu":"Bốn dây nhỏ máu năm đầu ngón tay."},{"nom":"蟡吟猿唿󰅹齊","quocngu":"Ve ngâm vượn hót nào tày,"},{"nom":"律𦖻胡拱𤶑𪵟淶珠","quocngu":"Lọt tai, Hồ cũng nhăn mày rơi châu."},{"nom":"𠳨浪尼曲於兜","quocngu":"Hỏi rằng: \\"Này khúc ở đâu?"},{"nom":"𦖑𠚢𨷈惨𠦳愁𡗋台","quocngu":"Nghe ra muôn thảm nghìn sầu lắm thay!\\""},{"nom":"𠽔浪薄命曲尼","quocngu":"Thưa rằng: \\"Bạc mệnh khúc này,"},{"nom":"譜𠓨彈意仍𣈜群踈","quocngu":"Phổ vào đàn ấy những ngày còn thơ."},{"nom":"宮琹捛仍𣈜𠸗","quocngu":"Cung cầm lựa những ngày xưa."},{"nom":"𦓡𦎛薄命悲𣇞羅低","quocngu":"Mà gương bạc mệnh bây giờ là đây!\\""},{"nom":"強𦖑強㴷強醝","quocngu":"Càng nghe càng đắm càng say,"},{"nom":"邏朱󰘚𨫊拱癡爲情","quocngu":"Lạ cho mặt sắt cũng ngây vì tình!"},{"nom":"𠰺浪香󰌕𠀧生","quocngu":"Dạy rằng: \\"Hương lửa ba sinh,"},{"nom":"𦀊鸞嗔𦀼琴𫅜朱埃","quocngu":"Dây loan xin nối cầm lành cho ai?\\""},{"nom":"𠽔浪㤕分落類","quocngu":"Thưa rằng: \\"Chút phận lạc loài."},{"nom":"𥪝命擬㐌固𠊚𣨰寃","quocngu":"Trong mình nghĩ đã có người thác oan."},{"nom":"群之羅梗花殘","quocngu":"Còn chi là cánh hoa tàn,"},{"nom":"絲𢚸㐌𢴑𦀊彈小憐","quocngu":"Tơ lòng đã dứt dây đàn Tiểu Lân."},{"nom":"𢌌傷群𤗖紅裙","quocngu":"Rộng thương còn mảnh hồng quần,"},{"nom":"唏殘特𧡊㭲枌羅埋","quocngu":"Hơi tàn được thấy gốc phần là may!\\""},{"nom":"賀功𡃹㐌過醝","quocngu":"Hạ công chén đã quá say,"},{"nom":"胡公典𣅶𤎜𣈜𢖵𠚢","quocngu":"Hồ công đến lúc rạng ngày nhớ ra."},{"nom":"擬命方靣國家","quocngu":"Nghĩ mình phương diện quốc gia,"},{"nom":"官𨕭𥄮𫴋𠊚些𬂙𠓨","quocngu":"Quan trên nhắm xuống, người ta trông vào."},{"nom":"沛從𦝄𩙍𫨩牢","quocngu":"Phải tuồng trăng gió hay sao?"},{"nom":"捛𠳒別併世󰅹羅𫨩","quocngu":"Lỡ lời biết tính thế nào là hay?"},{"nom":"公衙𣃣𣇜𠓇𣈜","quocngu":"Công nha vừa buổi rạng ngày,"},{"nom":"决情胡買斷𬆄󰜋排","quocngu":"Quyết tình Hồ mới đoán ngay một bài."},{"nom":"令官埃敢𢭮𠳒","quocngu":"Lệnh quan ai dám cãi lời,"},{"nom":"押情買幹朱𠊚土官","quocngu":"Ép tình mới gán cho người thổ quan."},{"nom":"翁絲寔𠰚多端","quocngu":"Ông tơ thực nhé đa đoan!"},{"nom":"車絲牢窖撝乾撝扦","quocngu":"Xe tơ sao khéo vơ càn vơ xiên."},{"nom":"轎花押𣦎𫴋船","quocngu":"Kiệu hoa áp thẳng xuống thuyền,"},{"nom":"蘿幔𢷀濕𦰟畑挑高","quocngu":"Lá màn rủ thấp, ngọn đèn khêu cao."},{"nom":"娘強󰢴柳派桃","quocngu":"Nàng càng ủ liễu phai đào,"},{"nom":"𤾓分󰅹固分󰅹分鮮","quocngu":"Trăm phần nào có phần nào phần tươi?"},{"nom":"停身吉垃㳥󰜗","quocngu":"Đành thân cát lấp sóng vùi,"},{"nom":"刼功吒媄舌𠁀聰明","quocngu":"Cướp công cha mẹ thiệt đời thông minh."},{"nom":"蹎𡗶󰘚𣷭泠汀","quocngu":"Chân trời mặt biển lênh đênh,"},{"nom":"捻󰢇別𢭮死生准󰅹","quocngu":"Nắm xương biết gửi tử sinh chốn nào?"},{"nom":"緣兜埃𢴑絲桃","quocngu":"Duyên đâu ai dứt tơ đào,"},{"nom":"女兜埃㐌㩫𠓨羡𢬣","quocngu":"Nợ đâu ai đã dắt vào tận tay!"},{"nom":"身牢身典世尼","quocngu":"Thân sao thân đến thế này,"},{"nom":"群𣈜󰅹拱餘𣈜意催","quocngu":"Còn ngày nào cũng dư ngày ấy thôi!"},{"nom":"㐌空別𤯩羅𢝙","quocngu":"Đã không biết sống là vui,"},{"nom":"𬌓身󰅹別舌󰣜羅傷","quocngu":"Tấm thân nào biết thiệt thòi là thương!"},{"nom":"󰜋命荄䔲𤾓塘","quocngu":"Một mình cay đắng trăm đường,"},{"nom":"催羅󰞺玉散鐄𪰛催","quocngu":"Thôi là nát ngọc tan vàng thì thôi!"},{"nom":"𤗖𦝄㐌擱𡽫兑","quocngu":"Mảnh trăng đã gác non đoài,"},{"nom":"󰜋命𨻫仍𨅸𡎥渚衝","quocngu":"Một mình luống những đứng ngồi chưa xong."},{"nom":"潮兜浽㗂同同","quocngu":"Triều đâu nổi tiếng đùng đùng,"},{"nom":"𠳨𠚢買別浪滝錢塘","quocngu":"Hỏi ra mới biết rằng sông Tiền Đường,"},{"nom":"𢖵𠳒神夢𤑟𤉜","quocngu":"Nhớ lời thần mộng rõ ràng,"},{"nom":"尼催歇刼斷膓自低","quocngu":"Này thôi hết kiếp đoạn tràng từ đây!"},{"nom":"淡僊娘𠰚固𫨩","quocngu":"Đạm Tiên nàng nhé có hay!"},{"nom":"限些𪰛待󰡎尼逴些","quocngu":"Hẹn ta thì đợi dưới này rước ta.\\""},{"nom":"󰡎畑産幅箋花","quocngu":"Dưới đèn sẵn bức tiên hoa,"},{"nom":"󰜋篇絶命噲羅底𡢐","quocngu":"Một thiên tuyệt mệnh gọi là để sau."},{"nom":"𨷶󰟀倍𨷑簾珠","quocngu":"Cửa buồng vội mở rèm châu,"},{"nom":"𡗶高滝𢌌󰜋牟包羅","quocngu":"Trời cao sông rộng một màu bao la."},{"nom":"浪徐公厚待些","quocngu":"Rằng: \\"Từ công hậu đãi ta,"},{"nom":"㤕爲役渃𦓡𠚢負𢚸","quocngu":"Xót vì việc nước mà ra phụ lòng."},{"nom":"𣩂𫯳𦓡吏𥙩𫯳","quocngu":"Chết chồng mà lại lấy chồng,"},{"nom":"󰘚󰅹群吏𨅸𥪝𡎝𠁀","quocngu":"Mặt nào còn lại đứng trong cõi đời?"},{"nom":"催𪰛󰜋𣨰朱耒","quocngu":"Thôi thì một thác cho rồi,"},{"nom":"𬌓𢚸付默𨕭𡗶󰡎滝","quocngu":"Tấm lòng phó mặc trên trời dưới sông!\\""},{"nom":"𬂙潙昆渃溟濛","quocngu":"Trông vời con nước mênh mông,"},{"nom":"󰝡身招𫴋𡧲𣳔長江","quocngu":"Đem thân gieo xuống giữa dòng trường giang."},{"nom":"土官蹺𣾼倍鐄","quocngu":"Thổ quan theo vớt vội vàng,"},{"nom":"娘它浸玉沉香㐌耒","quocngu":"Nàng đà đắm ngọc chìm hương đã rồi!"},{"nom":"傷台拱󰜋身𠊚","quocngu":"Thương thay cũng một thân người,"},{"nom":"窖台芒𥙩色才爫之","quocngu":"Khéo thay mang lấy sắc tài làm chi!"},{"nom":"仍羅寃苦流離","quocngu":"Những là oan khổ lưu ly,"},{"nom":"除朱歇刼群󰢔羅身","quocngu":"Chờ cho hết kiếp, còn gì là thân?"},{"nom":"𨑮󰢵𢆥閉饒吝","quocngu":"Mười lăm năm, bấy nhiêu lần,"},{"nom":"爫𦎛朱客紅裙此𤐝","quocngu":"Làm gương cho khách hồng quần thử soi!"},{"nom":"𠁀𠊚典世羅催","quocngu":"Đời người đến thế là thôi!"},{"nom":"𥪝機陰極陽回坤𫨩","quocngu":"Trong cơn âm cực dương hồi khôn hay."},{"nom":"󰋇𠊚孝義𠸗󰅒","quocngu":"Mấy người hiếu nghĩa xưa nay,"},{"nom":"𡗶爫朱典𥹰𣈜吏傷","quocngu":"Trời làm cho đến lâu ngày lại thương!"},{"nom":"覺緣自節啫娘","quocngu":"Giác Duyên từ tiết giã nàng,"},{"nom":"撩䕯掛攝𢌌塘雲遊","quocngu":"Đeo bầu quảy níp, rộng đường vân du."},{"nom":"﨤󰜏三合道姑","quocngu":"Gặp bà Tam Hợp đạo cô,"},{"nom":"從容𠳨歇𡮈蘇事娘","quocngu":"Thong dong hỏi hết nhỏ to sự nàng:"},{"nom":"𠊚牢孝義𨇜塘","quocngu":"\\"Người sao hiếu nghĩa đủ đường?"},{"nom":"刼牢𫄓仍斷膓世崔","quocngu":"Kiếp sao mắc những đoạn trường thế thôi?\\""},{"nom":"師浪禍福在𡗶","quocngu":"Sư rằng: \\"Hoạ phúc tại trời,"},{"nom":"檜源拱於𢚸𠊚𦓡𠚢","quocngu":"Cội nguồn cũng ở lòng người mà ra."},{"nom":"在𡗶𦓡拱在些","quocngu":"Tại trời mà cũng tại ta,"},{"nom":"修羅檜福情羅𦀊寃","quocngu":"Tu là cội phúc, tình là dây oan."},{"nom":"翠翹色稍坤頑","quocngu":"Thuý Kiều sắc sảo khôn ngoan,"},{"nom":"無緣羅分紅顔㐌停","quocngu":"Vô duyên là phận hồng nhan đã đành."},{"nom":"吏恾𥙩󰜋𡦂情","quocngu":"Lại mang lấy một chữ Tình,"},{"nom":"󰢶󰢶命纀𥙩命𠓨𥪝","quocngu":"Khư khư mình buộc lấy mình vào trong."},{"nom":"丕𢧚仍准從容","quocngu":"Vậy nên những chốn thong dong,"},{"nom":"於空安稳𡎥空凭鐄","quocngu":"Ở không yên ổn, ngồi không vững vàng."},{"nom":"魔𫫗𡓃鬼󰝡塘","quocngu":"Ma mách lối, quỷ đem đường,"},{"nom":"吏尋仍准斷膓𦓡𠫾","quocngu":"Lại tìm những chốn đoạn trường mà đi."},{"nom":"歇難意典難箕","quocngu":"Hết nạn ấy đến nạn kia,"},{"nom":"青樓𠄩𦀎青衣𠄩吝","quocngu":"Thanh lâu hai lượt, thanh y hai lần."},{"nom":"𡧲𨦩槊𥩯鎌陳","quocngu":"Trong vòng giáo dựng gươm trần,"},{"nom":"掑𪘵𤞻𤢿𢭮身碎隊","quocngu":"Kề răng hùm sói, gửi thân tôi đòi."},{"nom":"𡧲𨦩渃𣲆㳥𣼭","quocngu":"Giữa vòng nước dẫy sóng dồi,"},{"nom":"𠓀唅𧏵𩵜招𠶣水星","quocngu":"Trước hàm rồng cá, gieo mồi thủy tinh."},{"nom":"寃箕蹺買貝情","quocngu":"Oan kia theo mãi với tình,"},{"nom":"󰜋命命𠹾󰜋命命𫨩","quocngu":"Một mình mình chịu, một mình mình hay."},{"nom":"爫朱𤯩墮𣨰苔","quocngu":"Làm cho sống đoạ thác đày,"},{"nom":"斷膓朱歇刼尼買催","quocngu":"Đoạn trường cho hết kiếp này mới thôi!\\""},{"nom":"覺緣𦖑呐拥移","quocngu":"Giác Duyên nghe nói rụng rời:"},{"nom":"󰜋𠁀娘𠰚傷喂群之","quocngu":"\\"Một đời nàng nhé thương ôi còn gì!"},{"nom":"師浪雙拯兮之","quocngu":"Sư rằng song chẳng hề chi,"},{"nom":"業緣斤吏𢩮𠫾群𡗉","quocngu":"Nghiệp duyên cân lại nhắc đi còn nhiều!"},{"nom":"察𥪝罪案翠翹","quocngu":"Xét trong tội án Thuý Kiều,"},{"nom":"𫄓調情爱塊調邪淫","quocngu":"Mắc điều tình ái, khỏi điều tà dâm."},{"nom":"𥙩情深者義深","quocngu":"Lấy tình thâm, trả nghĩa thâm,"},{"nom":"半命㐌動孝心典𡗶","quocngu":"Bán mình đã động hiếu tâm đến trời!"},{"nom":"害󰜋𠊛救𨷈𠊚","quocngu":"Hại một người, cứu muôn người,"},{"nom":"別塘輕重別𠳒沛庒","quocngu":"Biết đường khinh trọng, biết lời phải chăng."},{"nom":"󰀏功德意埃朋","quocngu":"Thửa công đức ấy ai bằng?"},{"nom":"夙愆㐌𣳮淩淩瀝耒","quocngu":"Túc khiên đã rửa lâng lâng sạch rồi!"},{"nom":"欺𢧚𡗶拱朝𠊛","quocngu":"Khi nên trời cũng chiều người,"},{"nom":"珥讓𡢻𠓀填培緣𡢐","quocngu":"Nhẹ nhàng nợ trước, đền bồi duyên sau."},{"nom":"覺緣油𢖵義饒","quocngu":"Giác Duyên dù nhớ nghĩa nhau,"},{"nom":"錢塘典󰜋𤿤𦰤逴𠊛","quocngu":"Tiền Đường đến một bè lau rước người."},{"nom":"𠓀𡢐朱院󰜋𠳒","quocngu":"Trước sau cho vẹn một lời,"},{"nom":"緣些𦓡拱福𡗶之空","quocngu":"Duyên ta mà cũng phúc trời chi không!\\""},{"nom":"覺緣𦖑呐𢜠𢚸","quocngu":"Giác Duyên nghe nói mừng lòng,"},{"nom":"隣羅尋趣邊滝錢塘","quocngu":"Lân la tìm thú bên sông Tiền Đường."},{"nom":"打筝笘𧂭草堂","quocngu":"Đánh tranh chụm nóc thảo đường,"},{"nom":"󰜋間渃碧𩄲鐄𢺺堆","quocngu":"Một gian nước biếc mây vàng chia đôi."},{"nom":"𠾔𢆥魚父𠄩𠊚","quocngu":"Thuê năm ngư phủ hai người,"},{"nom":"棟船直𤅶結𥾒扛滝","quocngu":"Đóng thuyền chực bến kết chài giăng sông."},{"nom":"󰜋𢚸拯管󰋇功","quocngu":"Một lòng chẳng quản mấy công,"},{"nom":"窖台﨤攑拱𥪝轉運","quocngu":"Khéo thay gặp gỡ cũng trong chuyển vần."},{"nom":"翹自招𫴋溋銀","quocngu":"Kiều từ gieo xuống duềnh ngân,"},{"nom":"渃𣵶俸㐌㵢寅羡尼","quocngu":"Nước xuôi bỗng đã trôi dần tận nơi."},{"nom":"漁翁𢹣䋥𢵼𠊚","quocngu":"Ngư ông kéo lưới vớt người,"},{"nom":"𡄎𠳒三合𤑟𨑮拯訛","quocngu":"Ngẫm lời Tam Hợp rõ mười chẳng ngoa!"},{"nom":"𨕭枚洌𣹕襖纙","quocngu":"Trên mui lướt lút/thướt áo là,"},{"nom":"雖󰢷唏渃渚𤍶䏾𦎛","quocngu":"Tuy dầm hơi nước chưa loà bóng gương."},{"nom":"覺緣認寔󰘚娘","quocngu":"Giác Duyên nhận thật mặt nàng,"},{"nom":"娘群帖帖職鐄渚派","quocngu":"Nàng còn thiêm thiếp giấc vàng chưa phai."},{"nom":"𦟟𦛿魄桂魂梅","quocngu":"Mơ màng phách quế hồn mai,"},{"nom":"淡僊脱㐌𧡊𠊚𣈜𠸗","quocngu":"Đạm Tiên, thoắt đã thấy người ngày xưa."},{"nom":"浪碎㐌固𢚸除","quocngu":"Rằng: \\"Tôi đã có lòng chờ,"},{"nom":"𠅎功𨑮󰋇𢆥乘於低","quocngu":"Mất công mười mấy năm thừa ở đây."},{"nom":"姉牢分蒙福𠫆","quocngu":"Chị sao phận mỏng phúc dày?"},{"nom":"刼尼㐌丕𢚸尼易埃","quocngu":"Kiếp này đã vậy, lòng này dễ ai!"},{"nom":"󰌵𢚸㐌透旦𡗶","quocngu":"Tấm lòng đã thấu đến trời,"},{"nom":"半命羅孝救𠊚羅仁","quocngu":"Bán mình là hiếu, cứu người là nhân"},{"nom":"󰜋念爲渃爲民","quocngu":"Một niềm vì nước vì dân,"},{"nom":"陰功拮󰜋銅斤㐌𫅷","quocngu":"Âm công cất một đồng cân đã già!"},{"nom":"斷膓數捽𠸜𠚢","quocngu":"Đoạn trường sổ rút tên ra,"},{"nom":"斷膓詩沛迻𦓡者饒","quocngu":"Đoạn trường thơ phải đưa mà trả nhau."},{"nom":"群𡗉享受𧗱𡢐","quocngu":"Còn nhiều hưởng thụ về sau,"},{"nom":"緣𠸗𧷺陣福𥹰𣼭𩆋","quocngu":"Duyên xưa tròn trặn, phúc lâu dồi dào.\\""},{"nom":"娘群魚菫別牢","quocngu":"Nàng còn ngơ ngẩn biết sao,"},{"nom":"濯泉𦖑㗂噲𠓨邊𦖻","quocngu":"Trạc Tuyền! Nghe tiếng gọi vào bên tai."},{"nom":"秩命脱醒職枚","quocngu":"Giật mình thoắt tỉnh giấc mai,"},{"nom":"氷傾󰅹㐌別埃𦓡𥆾","quocngu":"Bâng khuâng nào đã biết ai mà nhìn."},{"nom":"𥪝船󰅹𧡊淡僊","quocngu":"Trong thuyền nào thấy Đạm Tiên?"},{"nom":"邊命只𧡊覺緣𡎥掑","quocngu":"Bên mình chỉ thấy Giác Duyên ngồi kề."},{"nom":"𧡊饒𢜠𢙲𤾓皮","quocngu":"Thấy nhau mừng rỡ trăm bề,"},{"nom":"󰢸船買逴娘𧗱草廬","quocngu":"Dọn thuyền mới rước nàng về thảo lư."},{"nom":"󰜋茹終乍𣌋𬁑","quocngu":"Một nhà chung chạ sớm trưa,"},{"nom":"𩙍𦝄𠖾󰘚㙁𦯬齋𢚸","quocngu":"Gió trăng mát mặt, muối dưa chay lòng."},{"nom":"𦊚皮叭𠯪溟濛","quocngu":"Bốn bề bát ngát mênh mông,"},{"nom":"潮𤼸𣋚𣌋𩄲籠𠓀𡢐","quocngu":"Triều dâng hôm sớm, mây lồng trước sau."},{"nom":"難𠸗捽瀝漏漏","quocngu":"Nạn xưa trút sạch làu làu,"},{"nom":"緣𠸗渚易別兜准尼","quocngu":"Duyên xưa chưa dễ biết đâu chốn này."},{"nom":"餒娘灾難㐌菭","quocngu":"Nỗi nàng tai nạn đã đầy,"},{"nom":"餒払金重閉遲買傷","quocngu":"Nỗi chàng Kim Trọng bấy chầy mới thương."},{"nom":"自𣈜𨷈𨤮扶䘮","quocngu":"Từ ngày muôn dặm Phù Tang,"},{"nom":"姅𢆥於坦遼陽吏茹","quocngu":"Nửa năm ở đất Liêu Dương lại nhà."},{"nom":"倍𨖅園翠𨃝羅","quocngu":"Vội sang vườn Thuý dò la,"},{"nom":"𥆾䀡風景󰅒㐌恪𠸗","quocngu":"Nhìn xem phong cảnh nay đà khác xưa."},{"nom":"苔園𦹵木盧踈","quocngu":"Đầy vườn cỏ mọc lưa thưa,"},{"nom":"窻𩄲𡕷𡎝壁𩅹也移","quocngu":"Song mây quạnh quẽ, vách mưa rã rời."},{"nom":"󱈘𡢐󰅹𧡊󰘚𠊚","quocngu":"Trước sau nào thấy mặt người,"},{"nom":"花桃𢆥外群唭𩙍東","quocngu":"Hoa đào năm ngoái còn cười gió đông."},{"nom":"立茌燕冷墙空","quocngu":"Xập xè én lạnh tường không,"},{"nom":"𦹵欄󰘚坦𦼔封𨁪𩌂","quocngu":"Cỏ lan mặt đất, rêu phong dấu giày."},{"nom":"𡳳墻𣘃㭲木菭","quocngu":"Cuối tường gai góc mọc đầy,"},{"nom":"𠫾𧗱尼仍𡓃尼𢆥𠸗","quocngu":"Đi về này những lối này năm xưa!"},{"nom":"終觥冷𡴯如詞","quocngu":"Chung quanh lạnh ngắt như tờ,"},{"nom":"餒念心事悲𣇞𠳨埃","quocngu":"Nỗi niềm tâm sự bây giờ hỏi ai?"},{"nom":"𣼽埕固几𨖅制","quocngu":"Láng giềng có kẻ sang chơi,"},{"nom":"鄰羅仕𠳨󰜋𠄩事情","quocngu":"Lân la sẽ hỏi một hai sự tình."},{"nom":"𠳨翁翁𫄓訟庭","quocngu":"Hỏi ông, ông mắc tụng đình,"},{"nom":"𠳨娘娘㐌半命贖吒","quocngu":"Hỏi nàng, nàng đã bán mình chuộc cha."},{"nom":"𠳨茹茹㐌移賒","quocngu":"Hỏi nhà, nhà đã dời xa,"},{"nom":"𠳨王觀吏共羅翠雲","quocngu":"Hỏi Vương quan lại cùng là Thuý Vân."},{"nom":"調羅沙埣𧁷巾","quocngu":"Đều là sa sút khó khăn,"},{"nom":"𦄆𠾔曰摱劍咹吝回","quocngu":"May thuê viết mướn kiếm ăn lần hồi."},{"nom":"調兜𩂶打𨉞𡗶","quocngu":"Điều đâu sét đánh lưng trời,"},{"nom":"脱𦖑払脱用移掣包","quocngu":"Thoắt nghe chàng thoắt rụng rời xiết bao!"},{"nom":"倍嘆移住尼󰅹","quocngu":"Vội han di trú nơi nao?"},{"nom":"打塘払買尋𠓨羡尼","quocngu":"Đánh đường, chàng mới tìm vào tận nơi."},{"nom":"茹棦壁坦左哉","quocngu":"Nhà tranh vách đất tả tơi,"},{"nom":"𦰤撩簾濕竹棋𤗹踈","quocngu":"Lau treo rèm nát, trúc cài phên thưa."},{"nom":"󰜋𡑝坦𦹵𩆍𩅹","quocngu":"Một sân đất cỏ dầm mưa,"},{"nom":"強嗷喭餒強魚菫󰟯","quocngu":"Càng ngao ngán nỗi, càng ngơ ngẩn dường!"},{"nom":"打料𨖲㗂外墻","quocngu":"Đánh liều lên tiếng ngoài tường."},{"nom":"払王𦖑㗂倍鐄𧼋𠚢","quocngu":"Chàng Vương nghe tiếng vội vàng chạy ra."},{"nom":"𢴑𢬣倍逴𠓨茹","quocngu":"Dắt tay vội rước vào nhà,"},{"nom":"𠃅𡢐員外翁妑𠚢𦖑","quocngu":"Mé sau Viên ngoại ông bà ra ngay."},{"nom":"哭嘆計歇念西","quocngu":"Khóc than kể hết niềm tây:"},{"nom":"払喂別餒渃尼朱諸","quocngu":"\\"Chàng ôi! Biết nỗi nước này cho chưa?"},{"nom":"翹兒分𤘁如詞","quocngu":"Kiều nhi phận mỏng như tờ,"},{"nom":"󰜋𠳒㐌𢤡𩅘絲貝払","quocngu":"Một lời đã lỗi tóc tơ với chàng!"},{"nom":"﨤干家變邏󰟯","quocngu":"Gặp cơn gia biến lạ dường,"},{"nom":"半命怒沛尋塘救吒","quocngu":"Bán mình nó phải tìm đường cứu cha."},{"nom":"用孕欺𨀈蹎𠚢","quocngu":"Dùng dằng khi bước chân ra,"},{"nom":"極𤾓𠦳餒吲𠀧𦊚吝","quocngu":"Cực trăm nghìn nỗi, dặn ba bốn lần."},{"nom":"律𠳒󰠱貝郎君","quocngu":"Trót lời nặng với lang quân,"},{"nom":"摱昆㛪怒翠雲台𠳒","quocngu":"Mượn con em nó Thuý Vân thay lời."},{"nom":"噲羅者㤕義𠊚","quocngu":"Gọi là trả chút nghĩa người,"},{"nom":"愁尼弋弋𨷈𠁀渚𫡻","quocngu":"Sầu này dằng dặc muôn đời chưa quên!"},{"nom":"刼尼緣㐌負緣","quocngu":"Kiếp này duyên đã phụ duyên,"},{"nom":"夜臺群別仕填來生","quocngu":"Dạ đài còn biết sẽ đền lai sinh."},{"nom":"󰋇𠳒記註丁寧","quocngu":"Mấy lời ký chú đinh ninh,"},{"nom":"𥱬𢚸底吏拮命𠚢𠫾","quocngu":"Ghi lòng để lại cất mình ra đi."},{"nom":"分牢薄󰋇翹兒","quocngu":"Phận sao bạc mấy Kiều nhi,"},{"nom":"払金𧗱妬昆𪰛𠫾兜","quocngu":"Chàng Kim về đó, con thì đi đâu?\\""},{"nom":"翁妑強呐強𤴬","quocngu":"Ông bà càng nói, càng đau,"},{"nom":"払強𦖑呐強油如𦯬","quocngu":"Chàng càng nghe nói, càng dàu như dưa."},{"nom":"物命咆𩙍𣻆𩅹","quocngu":"Vật mình bào gió tuôn mưa,"},{"nom":"滛𣾸湥玉矧蜍魂梅","quocngu":"Dầm dề giọt ngọc, thẫn thờ hồn mai!"},{"nom":"𤴬隊斷𤴪隊傕","quocngu":"Đau đòi đoạn, ghẻ đòi thôi,"},{"nom":"醒𠚢吏哭哭耒吏迷","quocngu":"Tỉnh ra lại khóc, khóc rồi lại mê."},{"nom":"𧡊払𤴬餒别離","quocngu":"Thấy chàng đau nỗi biệt ly,"},{"nom":"忍凝翁買撫𧗱奈𡅳","quocngu":"Nhận ngừng ông mới vỗ về nài khuyên:"},{"nom":"悲𣇞板㐌棟船","quocngu":"\\"Bây giờ ván đã đóng thuyền,"},{"nom":"㐌停分薄坤填情鍾","quocngu":"Đã đành phận bạc, khôn đền tình chung!"},{"nom":"過傷𪨀義岧蓬","quocngu":"Quá thương chút nghĩa đèo bòng."},{"nom":"𠦳鐄身意催紅補牢","quocngu":"Nghìn vàng thân ấy thôi hòng bỏ sao?\\""},{"nom":"󰠱𢚸傷分踈桃","quocngu":"Nặng lòng thương phận thơ đào,"},{"nom":"𢫟𢚸兑𪨀歲高身殘","quocngu":"Sẻ lòng, đoài chút tuổi cao thân tàn."},{"nom":"誓𠸗𢷣典金環","quocngu":"Thề xưa giở đến kim hoàn,"},{"nom":"𧵑𠸗吏𢷣典彈典香","quocngu":"Của xưa lại giở đến đàn đến hương."},{"nom":"生強𬂙𧡊強傷","quocngu":"Sinh càng trông thấy càng thương,"},{"nom":"肝強息最𫆧強㤕車","quocngu":"Gan càng tức tối, ruột càng xót xa."},{"nom":"浪碎捽過蹎𠚢","quocngu":"Rằng: \\"Tôi trót quá chân ra,"},{"nom":"底朱典餒㵢花戞䕯","quocngu":"Để cho đến nỗi trôi hoa dạt bèo."},{"nom":"共饒誓説㐌𡗉","quocngu":"Cùng nhau thề thốt đã nhiều"},{"nom":"仍調鐄𥒥沛調呐空","quocngu":"Những điều vàng đá phải điều nói không!"},{"nom":"渚𧜖襘拱𡞕𫯳","quocngu":"Chưa chăn gối, cũng vợ chồng."},{"nom":"𢚸󰅹𦓡女𢴑𢚸朱當","quocngu":"Lòng nào mà nỡ dứt lòng cho đang?"},{"nom":"包饒𧵑󰋇𣈜塘","quocngu":"Bao nhiêu của, mấy ngày đàng,"},{"nom":"群碎碎󰜋﨤娘買傕","quocngu":"Còn tôi, tôi một gặp nàng mới thôi!\\""},{"nom":"餒傷呐拯歇𠳒","quocngu":"Nỗi thương nói chẳng hết lời,"},{"nom":"謝辭生買湥洡阻𠚢","quocngu":"Tạ từ, Sinh mới sụt sùi trở ra."},{"nom":"倍𧗱𢯢准園花","quocngu":"Vội về sửa chốn vườn hoa,"},{"nom":"逴𠶆員外翁妑拱𨖅","quocngu":"Rước mời viên ngoại ông bà cùng sang."},{"nom":"晨昏針𪨀禮常","quocngu":"Thần hôn chăm chút lễ thường,"},{"nom":"養親𠳙𬌓𢚸娘𣈗𠸗","quocngu":"Dưỡng thân thay tấm lòng nàng ngày xưa."},{"nom":"丁寧𥕄淚劄踈","quocngu":"Đinh ninh mài lệ chép thơ,"},{"nom":"割𠊚尋󰢹迻詞𠴍㖇","quocngu":"Cắt người tìm tõi, đưa tờ nhắn nhe."},{"nom":"別包功摱𧵑𠾔","quocngu":"Biết bao công mướn của thuê,"},{"nom":"臨淄󰋇度𠫾𧗱𨤮𣾺","quocngu":"Lâm Truy mấy độ đi về dặm khơi."},{"nom":"𠊛󰜋尼𠳨󰜋尼","quocngu":"Người một nơi, hỏi một nơi,"},{"nom":"溟濛󰅹別𣷭𡗶尼󰅉","quocngu":"Mênh mông nào biết bể trời nơi nao?"},{"nom":"生強惨切渴滈","quocngu":"Sinh càng thảm thiết, khát khao,"},{"nom":"如燶肝𨫊如炮𢚸𣘈","quocngu":"Như nung gan sắt, như bào lòng son."},{"nom":"𦛌蠶𣈗󰜋𤉗𤶐","quocngu":"Ruột tằm ngày một héo don,"},{"nom":"雪霜𣈗󰜋耗𤷱命蟡","quocngu":"Tuyết sương ngày một hao mòn mình ve."},{"nom":"矧踈𣅶醒𣅶迷","quocngu":"Thẩn thờ lúc tỉnh lúc mê,"},{"nom":"𧖱蹺渃𬑉魂離占包","quocngu":"Máu theo nước mắt, hồn lìa chiêm bao!"},{"nom":"樁萱𢥈𢜝掣包","quocngu":"Thông huyên lo sợ xiết bao,"},{"nom":"過𠚢欺典世󰅹𦓡𫨩","quocngu":"Quá ra khi đến thế nào mà hay!"},{"nom":"倍鐄攕禮𪮙𣈜","quocngu":"Vội vàng sắm lễ chọn ngày,"},{"nom":"緣雲𣌋㐌車𦀊朱払","quocngu":"Duyên Vân sớm đã se dây cho chàng."},{"nom":"𠊛窕窈几文章","quocngu":"Người yểu điệu, kẻ văn chương,"},{"nom":"𤳇才𡛔色春當皮期","quocngu":"Trai tài, gái sắc xuân đương vừa kỳ."},{"nom":"雖浪𢝙𡦂于歸","quocngu":"Tuy rằng vui chữ vu quy,"},{"nom":"𢝙尼㐌拮愁箕特󰅹","quocngu":"Vui này đã cất sầu kia được nào!"},{"nom":"欺咹於𣅶𠚢𠓨","quocngu":"Khi ăn ở, lúc ra vào,"},{"nom":"強歐緣買強𩆋情𠸗","quocngu":"Càng âu duyên mới, càng dào tình xưa."},{"nom":"餒娘𢖵典包𣇞","quocngu":"Nỗi nàng nhớ đến bao giờ,"},{"nom":"𣻆珠隊陣紆絲𤾓𨦩","quocngu":"Tuôn châu đòi trận, vò tơ trăm vòng."},{"nom":"固欺永𨤔書房","quocngu":"Có khi vắng vẻ thư phòng,"},{"nom":"炪爐香𢷣泛銅𣈗𠸗","quocngu":"Đốt lò hương, giở phím đồng ngày xưa."},{"nom":"𢯏𢴾𢷀󰁹㗂絲","quocngu":"Bẻ bai, rủ rỉ tiếng tơ,"},{"nom":"沉𠖤𤁕𤌋𩙍迻𢯦簾","quocngu":"Trầm bay nhạt khói, gió đưa lay rèm."},{"nom":"󰟯如邊屋邊㙴","quocngu":"Dường như bên ốc bên thềm,"},{"nom":"㗂嬌同望󰢺襜𢠩恾","quocngu":"Tiếng Kiều đồng vọng, bóng xiêm mơ màng."},{"nom":"𤳷𢚸鑿𥒥𥱬鐄","quocngu":"Bởi lòng tạc đá ghi vàng,"},{"nom":"想娘𢧚吏𧡊娘𧗱低","quocngu":"Tưởng nàng nên lại thấy nàng về đây."},{"nom":"仍羅煩悶𣈘𣈜","quocngu":"Những là phiền muộn đêm ngày,"},{"nom":"春秋別㐌𢷮𠳙󰋇吝","quocngu":"Xuân thu biết đã đổi thay mấy lần?"},{"nom":"制科﨤會場文","quocngu":"Chế khoa gặp hội tràng văn,"},{"nom":"王金拱占榜春󰜋𣈜","quocngu":"Vương, Kim cùng chiếm bảng xuân một ngày."},{"nom":"󰘇𡗶𢌌𨷑塘𩄲","quocngu":"Cửa trời rộng mở đường mây,"},{"nom":"花嘲𨳰杏香𠖤𨤮枌","quocngu":"Hoa chào ngõ hạnh, hương bay dặm phần."},{"nom":"払王𢖵典賒𧵆","quocngu":"Chàng Vương nhớ đến xa gần,"},{"nom":"𨖅茹終老謝恩周全","quocngu":"Sang nhà Chung lão tạ ân chu tuyền."},{"nom":"情𠸗恩者義填","quocngu":"Tình xưa ân trả nghĩa đền,"},{"nom":"加親卞買結緣朱陳","quocngu":"Gia thân bèn mới kết duyên Châu Trần."},{"nom":"金自珥𨀈青雲","quocngu":"Kim từ nhẹ bước thanh vân,"},{"nom":"餒娘強擬賒𧵆強傷","quocngu":"Nỗi nàng càng nghĩ xa gần càng thương."},{"nom":"意埃吲玉誓鐄","quocngu":"Ấy ai dặn ngọc thề vàng,"},{"nom":"悲𣇞金馬玉堂貝埃","quocngu":"Bây giờ Kim mã, ngọc đường với ai."},{"nom":"󰓿䕯蹎㳥落類","quocngu":"Rễ bèo chân sóng lạc loài,"},{"nom":"擬命榮顯傷𠊛流離","quocngu":"Nghĩ mình vinh hiển, thương người lưu ly."},{"nom":"󰂅𠚢外宰臨淄","quocngu":"Vâng ra ngoại tể Lâm Truy,"},{"nom":"關山𠦳𨤮妻兒󰜋󰟞","quocngu":"Quan sơn nghìn dặm, thê nhi một đoàn."},{"nom":"琹堂𣈗𣎃清閒","quocngu":"Cầm đường ngày tháng thanh nhàn,"},{"nom":"𣌋𣌉㗂䳽㗂彈逍遙","quocngu":"Sớm khuya tiếng hạc, tiếng đàn tiêu dao."},{"nom":"房春帳𢷀花桃","quocngu":"Phòng xuân trướng rủ hoa đào,"},{"nom":"娘雲𦣰俸占包𧡊娘","quocngu":"Nàng Vân nằm bỗng chiêm bao thấy nàng."},{"nom":"醒𠚢買󰁹共払","quocngu":"Tỉnh ra mới rỉ cùng chàng,"},{"nom":"𦖑𠳒払拱𠄩塘信疑","quocngu":"Nghe lời chàng cũng hai đường tin nghi."},{"nom":"怒臨清貝臨淄","quocngu":"Nọ Lâm Thanh với Lâm Truy,"},{"nom":"恪饒󰜋𡦂或欺固惏","quocngu":"Khác nhau một chữ, hoặc khi có lầm."},{"nom":"𥪝機聲氣相尋","quocngu":"Trong cơ thanh khí tương tầm,"},{"nom":"於低禍固佳音庒羅","quocngu":"Ở đây hoạ có giai âm chăng là?"},{"nom":"升堂払買𠳨查","quocngu":"Thăng đường chàng mới hỏi tra,"},{"nom":"户都固几吏𫅷𠽔𨖲","quocngu":"Họ Đô có kẻ lại già thưa lên:"},{"nom":"事尼㐌外𨑮年","quocngu":"\\"Sự này đã ngoại mười niên,"},{"nom":"碎它別󰘚別𠸜伶伶","quocngu":"Tôi đà biết mặt biết tên rành rành."},{"nom":"秀󰜏共馬監生","quocngu":"Tú bà cùng Mã Giám Sinh,"},{"nom":"固謨𠊛於北京迻𧗱","quocngu":"Có mua người ở Bắc Kinh đưa về."},{"nom":"翠翹才色埃皮","quocngu":"Thuý Kiều tài sắc ai bì,"},{"nom":"㐌藝弹吏𨁥藝文詩","quocngu":"Đã nghề đàn lại đủ nghề văn thơ."},{"nom":"堅貞拯沛肝𣃣","quocngu":"Kiên trinh chẳng phải gan vừa,"},{"nom":"料命世意沛驢世箕","quocngu":"Liều mình thế ấy, phải lừa thế kia."},{"nom":"風塵𠹾㐌󰠱󰢻","quocngu":"Phong trần chịu đã nặng nề,"},{"nom":"絲緣𡢐吏車𧗱束郎","quocngu":"Tơ duyên sau lại xe về Thúc lang."},{"nom":"沛𢬣𡞕奇負徬","quocngu":"Phải tay vợ cả phũ phàng,"},{"nom":"󰈫𧗱無錫筭塘𢯏花","quocngu":"Bắt về Vô Tích toan đường bẻ hoa."},{"nom":"愊命娘沛遁𠚢","quocngu":"Bực mình nàng phải trốn ra,"},{"nom":"󰝸埋吏﨤󰜋茹薄箕","quocngu":"Chẳng may lại gặp một nhà Bạc kia."},{"nom":"脱倴𧗱脱半𠫾","quocngu":"Thoắt buôn về, thoắt bán đi,"},{"nom":"𩄲㵢䕯浽少󰢔羅尼","quocngu":"Mây trôi bèo nổi thiếu gì là nơi!"},{"nom":"俸兜吏﨤󰜋𠊛","quocngu":"Bỗng đâu lại gặp một người,"},{"nom":"欣𠁀智勇迎𡗶威靈","quocngu":"Hơn đời trí dũng, nghiêng trời uy linh."},{"nom":"𥪝𢬣𨑮萬精兵","quocngu":"Trong tay mười vạn tinh binh,"},{"nom":"𢹣𧗱棟秩󰜋城臨淄","quocngu":"Kéo về đóng chật một thành Lâm Truy."},{"nom":"𩯀絲各跡每欺","quocngu":"Tóc tơ các tích mọi khi,"},{"nom":"怨𪰛者怨恩𪰛者恩","quocngu":"Oán thì trả oán, ân thì trả ân."},{"nom":"㐌𢧚固義固仁","quocngu":"Đã nên có nghĩa, có nhân,"},{"nom":"𠓀𡢐論院賒𧵆𬢱𠸦","quocngu":"Trước sau trọn vẹn, xa gần ngợi khen."},{"nom":"渚詳特户特𠸜","quocngu":"Chưa tường được họ được tên,"},{"nom":"事尼𠳨束生員買詳","quocngu":"Sự này, hỏi Thúc Sinh viên mới tường.\\""},{"nom":"𦖑𠳒都呐𤑟𤉜","quocngu":"Nghe lời Đô nói rõ ràng,"},{"nom":"連差迻帖𠶆払束生","quocngu":"Liền sai đưa thiếp mời chàng Thúc Sinh."},{"nom":"餒娘𠳨歇分明","quocngu":"Nỗi nàng hỏi hết phân minh,"},{"nom":"𫯳昆兜些姓名羅󰢔","quocngu":"Chồng con đâu tá, tính danh là gì?"},{"nom":"生浪﨤𣅶亂離","quocngu":"Sinh rằng: \\"Gặp lúc loạn ly,"},{"nom":"𥪝軍碎𠳨少之𩯀絲","quocngu":"Trong quân tôi hỏi thiếu gì tóc tơ."},{"nom":"大王𠸜海户徐","quocngu":"Đại vương tên Hải, họ Từ,"},{"nom":"打悁𤾓陣飭餘𨷈𠊛","quocngu":"Đánh quen trăm trận, sức dư muôn người."},{"nom":"﨤娘時於州台","quocngu":"Gặp nàng thì ở Châu Thai,"},{"nom":"邏之國色天才沛緣","quocngu":"Lạ gì quốc sắc thiên tài phải duyên."},{"nom":"浘漨𥪝閉饒年","quocngu":"Vẫy vùng trong bấy nhiêu niên,"},{"nom":"爫𢧚動地驚天同同","quocngu":"Làm nên động địa kinh thiên đùng đùng."},{"nom":"大屯軍㨂𡎝東","quocngu":"Đại đồn quân đóng cõi đông,"},{"nom":"衛𡢐拯別雲夢爫牢","quocngu":"Về sau chẳng biết vân mồng làm sao.\\""},{"nom":"𦖑詳梗𦰟消耗","quocngu":"Nghe tường ngành ngọn tiêu hao,"},{"nom":"𢚸𥢆𨻫仍勞刀矧蜍","quocngu":"Lòng riêng, luống những lao đao thẫn thờ:"},{"nom":"㤕台隻蘿𠀧潙","quocngu":"\\"Xót thay chiếc lá bơ vơ!"},{"nom":"刼塵別𢷀包𣇞朱衝","quocngu":"Kiếp trần biết giũ bao giờ cho xong?"},{"nom":"花㵢渃沚𣵶𣳔","quocngu":"Hoa trôi nước chảy xuôi dòng,"},{"nom":"㤕身沉浽𤴬𢚸合散","quocngu":"Xót thân chìm nổi, đau lòng hợp tan."},{"nom":"𠳒𠸗㐌𢤡𨷈萬","quocngu":"Lời xưa đã lỗi muôn vàn,"},{"nom":"𤗖𦎛群妬泛彈群低","quocngu":"Mảnh gương còn đó, phím đàn còn đây."},{"nom":"彈琹窖菫魚𦀊","quocngu":"Đàn cầm khéo ngẩn ngơ dây,"},{"nom":"󰌕香別固刼尼女催","quocngu":"Lửa hương biết có kiếp này nữa thôi?"},{"nom":"萍蓬群几賒吹","quocngu":"Bình bồng còn kẻ xa xôi,"},{"nom":"󰞈鍾牢女咹𡎥朱安","quocngu":"Đỉnh chung sao nỡ ăn ngồi cho an!\\""},{"nom":"泣蒙撩印辭官","quocngu":"Rắp mong treo ấn từ quan,"},{"nom":"󰋇滝拱𤂬󰋇岸拱過","quocngu":"Mấy sông cũng lội, mấy ngàn cũng qua."},{"nom":"鎮命𥪝盎干戈","quocngu":"Giấn mình trong áng can qua,"},{"nom":"𠓨生𠚢死禍羅𧡊饒","quocngu":"Vào sinh ra tử hoạ là thấy nhau."},{"nom":"擬調𡗶瀋域溇","quocngu":"Nghĩ điều trời thẳm vực sâu,"},{"nom":"䏾𪀄沁𩵜別兜𦓡𥆾","quocngu":"Bóng chim tăm cá biết đâu mà nhìn."},{"nom":"仍羅赧那待信","quocngu":"Những là nấn ná đợi tin,"},{"nom":"𬋟𩅹別㐌󰋇畨嚉移","quocngu":"Nắng mưa biết đã mấy phen đổi dời?"},{"nom":"𠄼𩄲俸𧡊詔𡗶","quocngu":"Năm mây bỗng thấy chiếu trời,"},{"nom":"欽頒敕旨典尼伶伶","quocngu":"Khâm ban sắc chỉ đến nơi rành rành."},{"nom":"金󰅒改調南平","quocngu":"Kim nay cải điệu nam Bình,"},{"nom":"払王拱改調城淮陽","quocngu":"Chàng Vương cũng cải điệu thành Hoài Dương."},{"nom":"攕生車馬倍鐄","quocngu":"Sắm xanh xa mã vội vàng,"},{"nom":"𠄩茹拱順󰜋塘赴官","quocngu":"Hai nhà cũng thuận một đàng phó quan."},{"nom":"侈𦖑賊勢㐌散","quocngu":"Xảy nghe thế giặc đã tan,"},{"nom":"㳥淹福建󰌕殘淅江","quocngu":"Sóng êm Phúc Kiến, lửa tàn Chiết Giang."},{"nom":"特信金買𫫵王","quocngu":"Được tin, Kim mới rủ Vương,"},{"nom":"便塘拱吏尋娘𡢐𠸗","quocngu":"Tiện đường cùng lại tìm nàng sau xưa."},{"nom":"杭州典妬悲𣇞","quocngu":"Hàng Châu đến đó bấy giờ,"},{"nom":"舌信𠳨特𩯀絲伶伶","quocngu":"Thật tin hỏi được tóc tơ rành rành."},{"nom":"浪𪰛𣌋怒交兵","quocngu":"Rằng: \\"Thì sớm nọ giao binh,"},{"nom":"失機徐㐌收靈陣前","quocngu":"Thất cơ Từ đã thu linh trận tiền."},{"nom":"娘翹功奇拯填","quocngu":"Nàng Kiều công cả chẳng đền,"},{"nom":"令軍吏押𠓨緣土酋","quocngu":"Lệnh quân lại ép vào duyên thổ tù."},{"nom":"娘它招玉沉珠","quocngu":"Nàng đà gieo ngọc trầm châu,"},{"nom":"滝錢塘妬意𫮲紅顔","quocngu":"Sông Tiền Đường đó, ấy mồ hồng nhan!\\""},{"nom":"傷喂空合𦓡散","quocngu":"Thương ôi! Không hợp mà tan,"},{"nom":"󰜋茹榮顯𥢆寃󰜋娘","quocngu":"Một nhà vinh hiển riêng oan một nàng."},{"nom":"招魂設位禮常","quocngu":"Chiêu hồn thiết vị lễ thường,"},{"nom":"解寃立󰜋壇塲邊滝","quocngu":"Giải oan lập một đàn tràng bên sông."},{"nom":"𦰟潮𡽫泊重重","quocngu":"Ngọn triều non bạc trùng trùng,"},{"nom":"𢢯𬂙群想𦑃鴻𣅶招","quocngu":"Ngùi trông còn tưởng cánh hồng lúc gieo."},{"nom":"情深𤅶惨邏調","quocngu":"Tình thâm biển thảm lạ điều,"},{"nom":"󰅹魂精衛別蹺准󰅹","quocngu":"Nào hồn tinh vệ biết theo chốn nào?"},{"nom":"機緣兜俸邏牢","quocngu":"Cơ duyên đâu bỗng lạ sao!"},{"nom":"覺緣兜俸尋𠓨典尼","quocngu":"Giác Duyên đâu bỗng tìm vào đến nơi."},{"nom":"𬂙𨖲靈座𡦂排","quocngu":"Trông lên linh vị chữ bài,"},{"nom":"秩驚買𠳨仍𠊛兜些","quocngu":"Thất kinh mới hỏi: \\"Những người đâu ta?"},{"nom":"貝娘親戚𧵆賒","quocngu":"Với nàng thân thích gần xa,"},{"nom":"𠊛群牢俸爫魔哭𠊛","quocngu":"Người còn sao bỗng làm ma khóc người?\\""},{"nom":"𦖑信󰢼𥋷用移","quocngu":"Nghe tin nhớn nhác rụng rời,"},{"nom":"𨅾觥計𡅏𡀷𠳒𠳨查","quocngu":"Xúm quanh kể lể, rộn lời hỏi tra."},{"nom":"尼𫯳尼媄尼吒","quocngu":"Này chồng, này mẹ, này cha,"},{"nom":"尼羅㛪𦛌尼羅㛪妯","quocngu":"Này là em ruột, này là em dâu."},{"nom":"舌信𦖑㐌閉𥹰","quocngu":"Thật tin nghe đã bấy lâu,"},{"nom":"法師𠰺世事兜邏󰟯","quocngu":"Pháp sư dạy thế, sự đâu lạ dường!\\""},{"nom":"師浪因果貝娘","quocngu":"Sư rằng: \\"Nhân quả với nàng,"},{"nom":"臨淄𣅶𠓀錢塘𣇜𡢐","quocngu":"Lâm Truy lúc trước, Tiền Đường buổi sau."},{"nom":"欺娘招玉沉珠","quocngu":"Khi nàng gieo ngọc trầm châu,"},{"nom":"迍饒碎㐌﨤饒逴𧗱","quocngu":"Đón nhau, tôi đã gặp nhau rước về."},{"nom":"共饒𢭗𨷶菩提","quocngu":"Cùng nhau nương cửa Bồ đề,"},{"nom":"草庵妬拱𧵆掑拯賒","quocngu":"Thảo am đó, cũng gần kề chẳng xa."},{"nom":"𫢋前𣈗薄鄰羅","quocngu":"Phật tiền ngày bạc lân la,"},{"nom":"耽耽娘拱𢖵茹坤𢣧","quocngu":"Đăm đăm nàng cũng nhớ nhà khôn khuây.\\""},{"nom":"𦖑信𦬑󰘚𨷑𪵟","quocngu":"Nghe tin nở mặt mở mày,"},{"nom":"𢜠󰅹吏過𢜠尼女庒","quocngu":"Mừng nào lại quá mừng này nữa chăng?"},{"nom":"自畨隻蘿離棱","quocngu":"Từ phen chiếc lá lìa rừng,"},{"nom":"𠽄尋𨻫仍料澄渃𩄲","quocngu":"Thăm tìm luống những liệu chừng nước mây."},{"nom":"𤑟𤉜花拥香𠖤","quocngu":"Rõ ràng hoa rụng hương bay."},{"nom":"刼𡢐和𧡊刼尼罕催","quocngu":"Kiếp sau hoạ thấy, kiếp này hẳn thôi."},{"nom":"冥陽堆我軄耒","quocngu":"Minh dương đôi ngả chắc rồi."},{"nom":"𡎝塵𦓡吏𧡊𠊚九原","quocngu":"Cõi trần mà lại thấy người cửu nguyên!"},{"nom":"𢮿饒𥛉謝覺緣","quocngu":"Quây nhau lạy tạ Giác Duyên,"},{"nom":"步行󰜋𠎪蹺連󰜋欺","quocngu":"Bộ hành một lũ theo liền một khi."},{"nom":"𢯏𦰤拍𦹵尋𠫾","quocngu":"Bẻ lau vạch cỏ tìm đi,"},{"nom":"情深𨻫唉狐疑姅分","quocngu":"Tình thâm luống hãy hồ nghi nửa phần."},{"nom":"觥孤蹺𦄂江津","quocngu":"Quanh co theo dải giang tân,"},{"nom":"塊棱𦰤㐌細𡑝𫢋堂","quocngu":"Khỏi rừng lau đã tới sân Phật đường."},{"nom":"覺緣𨖲㗂噲娘","quocngu":"Giác Duyên lên tiếng gọi nàng,"},{"nom":"𢩣𥪝倍𨄹蓮鐄𨀈𠚢","quocngu":"Buồng trong vội dạo sen vàng bước ra."},{"nom":"𥆾䀡𨁥󰘚󰜋茹","quocngu":"Nhìn xem đủ mặt một nhà,"},{"nom":"椿𫅷群跬萱𫅷群鮮","quocngu":"Xuân già còn khoẻ, huyên già còn tươi."},{"nom":"𠄩㛪方長和𠄩","quocngu":"Hai em phương trưởng hoà hai,"},{"nom":"怒払金妬羅𠊛𣈗𠸗","quocngu":"Nọ chàng Kim đó là người ngày xưa!"},{"nom":"想碑𣇞羅包𣇞","quocngu":"Tưởng bây giờ là bao giờ,"},{"nom":"𤑟𤉜𨷑𬑉群疑占包","quocngu":"Rõ ràng mở mắt còn ngờ chiêm bao!"},{"nom":"湥珠請説卷袍","quocngu":"Giọt châu thánh thót quẹn bào,"},{"nom":"𢜠𢜠𢣃𢣃掣包羅情","quocngu":"Mừng mừng tủi tủi xiết bao là tình!"},{"nom":"招命󰡎𨆝萱庭","quocngu":"Gieo mình dưới gối huyên đình,"},{"nom":"哭嘆命計事情頭𡳪","quocngu":"Khóc than mình kể sự tình đầu đuôi:"},{"nom":"自昆流落圭𠊚","quocngu":"\\"Từ con lưu lạc quê người,"},{"nom":"䕯㵢㳥撫祝𨑮𠄼𢆥","quocngu":"Bèo trôi sóng vỗ, chốc mười lăm năm!"},{"nom":"併浪滝渃吉淋","quocngu":"Tính rằng sông nước cát lầm,"},{"nom":"刼尼埃吏群扲﨤低","quocngu":"Kiếp này ai lại còn cầm gặp đây!\\""},{"nom":"翁妑𬂙󰘚󰈫𢬣","quocngu":"Ông bà trông mặt bắt tay,"},{"nom":"容光拯恪之𣈜𨀈𠚢","quocngu":"Dung quang chẳng khác chi ngày bước ra."},{"nom":"閉遲𤋵月油花","quocngu":"Bấy chầy dãi nguyệt dầu hoa,"},{"nom":"𨑮分春固𤷍𠀧𦊚分","quocngu":"Mười phần xuân có gầy ba bốn phần."},{"nom":"餒𢜠別𥙩之斤","quocngu":"Nỗi mừng biết lấy gì cân,"},{"nom":"𠳒散合傳賒𧵆少兜","quocngu":"Lời tan hợp, chuyện xa gần thiếu đâu!"},{"nom":"𠄩㛪𠳨𠓀𠻃𡢐","quocngu":"Hai em hỏi trước han sau,"},{"nom":"𨅸𬂙娘㐌阻愁爫鮮","quocngu":"Đứng trông, nàng đã trở sầu làm tươi."},{"nom":"𢮿饒𥛉𠓀𫢋臺","quocngu":"Quây nhau lạy trước Phật đài,"},{"nom":"再生陳謝𢚸𠊛慈悲","quocngu":"Tái sinh trần tạ lòng người từ bi."},{"nom":"轎花𠽖逴卽𪰛","quocngu":"Kiệu hoa giục rước tức thì,"},{"nom":"王翁𠰺逴共𧗱󰜋尼","quocngu":"Vương ông dạy rước cùng về một nơi."},{"nom":"娘浪𪨀分花徠","quocngu":"Nàng rằng: \\"Chút phận hoa rơi,"},{"nom":"姅𠁀唸𣦰每味䔲荄","quocngu":"Nửa đời nếm trải mọi mùi đắng cay."},{"nom":"併浪󰘚渃蹎𩄲","quocngu":"Tính rằng mặt nước chân mây,"},{"nom":"𢚸󰅹群想固𣈙女空","quocngu":"Lòng nào còn tưởng có rày nữa không?"},{"nom":"特𣈙再世相逢","quocngu":"Được rày tái thế tương phùng,"},{"nom":"渴滈㐌妥𬌓𢚸𥹰󰅒","quocngu":"Khát khao đã thoả tấm lòng lâu nay!"},{"nom":"㐌󰝡命補庵𩄲","quocngu":"Đã đem mình bỏ am mây,"},{"nom":"歲尼𢭮貝𦹵𣘃拱𣃣","quocngu":"Tuổi này gửi với cỏ cây cũng vừa."},{"nom":"味禪㐌𤓩㙁𦯬","quocngu":"Mùi thiền đã bén muối dưa,"},{"nom":"牟禪咹默㐌𢛨𣘽𣙩","quocngu":"Màu thiền ăn mặc đã ưa nâu sồng."},{"nom":"事𠁀㐌𤎕爐𢚸","quocngu":"Sự đời đã tắt lò lòng,"},{"nom":"群氊𠓨准𡏧紅爫之","quocngu":"Còn chen vào chốn bụi hồng làm chi!"},{"nom":"𢷣揚󰅹固𫨩󰢔","quocngu":"Dở dang nào có hay gì,"},{"nom":"㐌修修捽戈𪰛𪰛催","quocngu":"Đã tu, tu trót, qua thì, thì thôi!"},{"nom":"重生恩󰠱𣷭𡗶","quocngu":"Trùng sinh ân nặng bể trời,"},{"nom":"𢚸󰅹女𢴑義𠊛𠚢𠫾","quocngu":"Lòng nào nỡ dứt nghĩa người ra đi?\\""},{"nom":"翁浪彼此一𪰛","quocngu":"Ông rằng: \\"Bỉ thử nhất thì,"},{"nom":"修行𪰛拱沛欺從權","quocngu":"Tu hành thì cũng phải khi tòng quyền."},{"nom":"沛調求𫢋求僊","quocngu":"Phải điều cầu Phật cầu tiên,"},{"nom":"情箕孝怒埃填朱低","quocngu":"Tình kia, Hiếu nọ ai đền cho đây?"},{"nom":"度生洳德高𠫆","quocngu":"Độ sinh nhờ đức cao dày,"},{"nom":"立庵耒仕逴柴於終","quocngu":"Lập am rồi sẽ rước thầy ở chung.\\""},{"nom":"𦖑𠳒娘沛朝𢚸","quocngu":"Nghe lời, nàng phải chiều lòng,"},{"nom":"啫師啫景調拱𨀈𠚢","quocngu":"Giã sư, giã cảnh đều cùng bước ra."},{"nom":"󰜋團𧗱典縣衙","quocngu":"Một đoàn về đến huyên nha,"},{"nom":"團圓倍𨷑席花𢝙圍","quocngu":"Đoàn viên vội mở tiệc hoa vui vầy."},{"nom":"藏藏󱋓菊𢷣醝","quocngu":"Tàng tàng chén cúc dở say,"},{"nom":"𨅸𨖲雲買𤋵排󰜋𠄩","quocngu":"Đứng lên Vân mới giãi bày một hai."},{"nom":"浪𥪝作合機𡗶","quocngu":"Rằng: \\"Trong tác hợp cơ trời,"},{"nom":"𠄩邊﨤攑󰜋𠳒結交","quocngu":"Hai bên gặp gỡ một lời kết giao."},{"nom":"﨤干平地風濤","quocngu":"Gặp cơn bình địa phong đào,"},{"nom":"丕󰝡緣姉車𠓨朱㛪","quocngu":"Vậy đem duyên chị xe vào cho em."},{"nom":"拱羅分𦀻緣金","quocngu":"Cũng là phận cải duyên kim,"},{"nom":"拱羅𧖱沚𦛌𦡙渚牢","quocngu":"Cũng là máu chảy ruột mềm chớ sao?"},{"nom":"仍羅𣈙約𣈕泑","quocngu":"Những là rày ước mai ao,"},{"nom":"𨑮𠄻𢆥意別包饒情","quocngu":"Mười lăm năm ấy, biết bao nhiêu tình!"},{"nom":"悲𣇞𦎛󰡋吏𫅜","quocngu":"Bây giờ gương vỡ lại lành,"},{"nom":"囷󰡼攎𤀓㐌仃固尼","quocngu":"Khuôn thiêng lừa lọc đã đành có nơi."},{"nom":"群緣埋吏群𠊛","quocngu":"Còn duyên may lại còn người,"},{"nom":"群暈𦝄𡳵群𠳒願𠸗","quocngu":"Còn vầng trăng cũ, còn lời nguyền xưa."},{"nom":"菓梅𠀧𠤩拱𣃣","quocngu":"Quả mai ba bảy cũng vừa,"},{"nom":"桃𡽫𣌋料車絲及𪰛","quocngu":"Đào non sớm liệu xe tơ kịp thì!\\""},{"nom":"𢴑𠳒娘倍拔𠫾","quocngu":"Dứt lời, nàng vội gạt đi:"},{"nom":"事𨷈𢆥𡳵計之悲𣇞","quocngu":"\\"Sự muôn năm cũ, kể chi bây giờ?"},{"nom":"󰜋𠳒雖固約𠸗","quocngu":"Một lời tuy có ước xưa,"},{"nom":"察命𤋵𩙍油𩅹㐌𡗉","quocngu":"Xét mình dãi gió dầu mưa đã nhiều."},{"nom":"呐強虎𢢆𤾓朝","quocngu":"Nói càng hổ thẹn trăm chiều,"},{"nom":"𪰛朱𦰟渃水潮沚𣵶","quocngu":"Thì cho ngọn nước thủy triều chảy xuôi!\\""},{"nom":"払浪呐拱邏𠁀","quocngu":"Chàng rằng: \\"Nói cũng lạ đời,"},{"nom":"唒𢚸箕丕群𠳒意牢","quocngu":"Dẫu lòng kia vậy, còn lời ấy sao?"},{"nom":"󰜋𠳒㐌捽深交","quocngu":"Một lời đã trót thâm giao,"},{"nom":"󰡎𠫆固坦𨕭高固𡗶","quocngu":"Dưới dày có đất, trên cao có trời!"},{"nom":"唒浪物𢷮𬁖移","quocngu":"Dẫu rằng vật đổi sao dời,"},{"nom":"死生拱𪧚𥙩𠳒死生","quocngu":"Tử sinh cũng giữ lấy lời tử sinh."},{"nom":"緣箕固負之命","quocngu":"Duyên kia có phụ chi mình,"},{"nom":"𦓡筭技梗鍾情爫𠄩","quocngu":"Mà toan chia gánh chung tình làm hai?\\""},{"nom":"娘浪家室緣諧","quocngu":"Nàng rằng: \\"Gia thất duyên hài."},{"nom":"㤕𢚸恩愛埃埃拱𢚸","quocngu":"Xót lòng ân ái, ai ai cũng lòng."},{"nom":"擬浪𥪝道𡞕𫯳","quocngu":"Nghĩ rằng trong đạo vợ chồng,"},{"nom":"花𦹳封蕋𦝄𨦩𧷺𦎛","quocngu":"Hoa thơm phong nhị, trăng vòng tròn gương."},{"nom":"𡦂貞當價𠦳鐄","quocngu":"Chữ Trinh đáng giá nghìn vàng,"},{"nom":"𤒘花拯𢢆貝払𣈕𠸗","quocngu":"Đuốc hoa chẳng thẹn với chàng mai xưa."},{"nom":"妾自遇變典𣇞","quocngu":"Thiếp từ ngộ biến đến giờ,"},{"nom":"蜂戈𧊉吏㐌乘醜車","quocngu":"Ong qua bướm lại đã thừa xấu xa."},{"nom":"閉遲𩙍匝𩅹沙","quocngu":"Bấy chầy gió táp mưa sa,"},{"nom":"󰋇𦝄拱缺󰋇花拱殘","quocngu":"Mấy trăng cũng khuyết, mấy hoa cũng tàn."},{"nom":"群之羅丐紅顔","quocngu":"Còn chi là cái hồng nhan,"},{"nom":"㐌衝身世群算餒󰅹","quocngu":"Đã xong thân thế, còn toan nỗi nào?"},{"nom":"擬命𫽄虎命牢","quocngu":"Nghĩ mình, chẳng hổ mình sao?"},{"nom":"鍳󰝡塵垢預𠓨布荆","quocngu":"Dám đem trần cấu dự vào bố kinh!"},{"nom":"㐌𫨩払󰠱爲情","quocngu":"Đã hay chàng nặng vì tình,"},{"nom":"𬂙花畑拯𢢆命𡗋油","quocngu":"Trông hoa đèn, chẳng thẹn mình lắm ru!"},{"nom":"自𣈙𢯖𨷶𢩣秋","quocngu":"Từ rày khép cửa phòng thu,"},{"nom":"拯修催拱羅修買羅","quocngu":"Chẳng tu thôi cũng là tu mới là!"},{"nom":"払油擬典𧵆賒","quocngu":"Chàng dù nghĩ đến gần xa,"},{"nom":"󰝡情琴瑟𢷮𠚢琴棋","quocngu":"Đem tình cầm sắt đổi ra cầm cờ."},{"nom":"呐󰢔結𩯀車絲","quocngu":"Nói chi kết tóc xe tơ,"},{"nom":"㐌𢞂奇𦛌吏洳奇𠁀","quocngu":"Đã buồn cả ruột lại dơ cả đời!\\""},{"nom":"払浪窖呐𢧚𠳒","quocngu":"Chàng rằng: \\"Khéo nói nên lời,"},{"nom":"𦓡𥪝𨤰沛固𠊛固些","quocngu":"Mà trong lẽ phải có người có ta!"},{"nom":"𠸗󰅒𥪝道彈妑","quocngu":"Xưa nay trong đạo đàn bà,"},{"nom":"𡦂貞箕拱固𠀧𠤩󰟯","quocngu":"Chữ Trinh kia cũng có ba bảy đường."},{"nom":"固欺變固欺常","quocngu":"Có khi biến, có khi thường,"},{"nom":"固權󰅹沛󰜋塘執經","quocngu":"Có quyền nào phải một đường chấp kinh?"},{"nom":"如娘𥙩孝爫貞","quocngu":"Như nàng lấy Hiếu làm Trinh,"},{"nom":"𡏧󰅹朱濁特命意潙","quocngu":"Bụi nào cho đục được mình ấy vay?"},{"nom":"𡗶群底固𣋚󰅒","quocngu":"Trời còn để có hôm nay,"},{"nom":"散霜頭𡉦援𩄲𡧲𡗶","quocngu":"Tan sương đầu ngõ, vén mây giữa trời."},{"nom":"花殘𦓡吏添鮮","quocngu":"Hoa tàn mà lại thêm tươi,"},{"nom":"𦝄殘𦓡吏欣𨑮𠄻𠸗","quocngu":"Trăng tàn mà lại hơn mười rằm xưa."},{"nom":"固調之女𦓡疑","quocngu":"Có điều chi nữa mà ngờ,"},{"nom":"客戈塘底𠾿哬払蕭","quocngu":"Khách qua đường để hững hờ chàng Tiêu!\\""},{"nom":"𦖑払呐㐌歇調","quocngu":"Nghe chàng nói đã hết điều,"},{"nom":"𠄩親𪰛拱决蹺󰜋排","quocngu":"Hai thân thì cũng quyết theo một bài."},{"nom":"歇𠳒坤𨤰󰢽𠳒","quocngu":"Hết lời khôn lẽ chối lời,"},{"nom":"𨆝頭娘仍𥐆𨱽咀嘆","quocngu":"Gót đầu, nàng những vắn dài thở than."},{"nom":"茹蘭𨷑席圓團","quocngu":"Nhà lan mở tiệc viên đoàn,"},{"nom":"花𤐝𦰟𤒘紅氊幅纙","quocngu":"Hoa soi ngọn đuốc, hồng chen bức là."},{"nom":"共饒交拜󰜋茹","quocngu":"Cùng nhau giao bái một nhà,"},{"nom":"禮它𨁥禮堆它稱堆","quocngu":"Lễ đà đủ lễ, đôi đà xứng đôi."},{"nom":"洞房迢迭󱋓瑁","quocngu":"Động phòng dìu dặt chén mồi,"},{"nom":"氷傾緣買吟𢢯情𠸗","quocngu":"Bâng khuâng duyên mới, ngậm ngùi tình xưa."},{"nom":"仍自蓮𦬶桃絲","quocngu":"Những từ sen ngó đào tơ,"},{"nom":"𨑮𠄻𢆥意悲𣇞羅低","quocngu":"Mười lăm năm ấy bây giờ là đây!"},{"nom":"情緣意合散尼","quocngu":"Tình duyên ấy, hợp tan này,"},{"nom":"悲歡󰋇餒𣈘𨱽𦝄高","quocngu":"Bi hoan mấy nỗi, đêm dài, trăng cao."},{"nom":"更𣌉幅錦𢷀繰","quocngu":"Canh khuya bức gấm rủ thao,"},{"nom":"󰡎畑𤏣󰟯𦟐桃添春","quocngu":"Dưới đèn tỏ dạng, má đào thêm xuân."},{"nom":"情人吏﨤情人","quocngu":"Tình nhân lại gặp tình nhân,"},{"nom":"花初蝶𡳵𨑮分鍾情","quocngu":"Hoa xưa bướm cũ, mười phân chung tình!"},{"nom":"娘浪分妾㐌停","quocngu":"Nàng rằng: \\"Phận thiếp đã đành,"},{"nom":"固爫之女丐命補𠫾","quocngu":"Có làm chi nữa cái mình bỏ đi!"},{"nom":"擬払義𡳵情𥱬","quocngu":"Nghĩ chàng nghĩa cũ tình ghi,"},{"nom":"朝𢚸噲固倡隨𡮨埋","quocngu":"Chiều lòng gọi có xướng tuỳ mảy may."},{"nom":"𥢆𢚸㐌𢢆𡗋台","quocngu":"Riêng lòng đã thẹn lắm thay,"},{"nom":"共它󰘚憚𪵟𠫅苦𥋳","quocngu":"Cũng đà mặt dạn mày dày khó coi!"},{"nom":"仍如歐厭鑅外","quocngu":"Những như âu yếm vành ngoài,"},{"nom":"群筭𨷑󰘚貝𠊛朱戈","quocngu":"Còn toan mở mặt với người cho qua."},{"nom":"吏如仍𫗁𠊛些","quocngu":"Lại như những thói người ta,"},{"nom":"𢵼香󰡎坦𢯏花𡳜務","quocngu":"Vớt hương dưới đất, bẻ hoa cuối mùa."},{"nom":"窖羅𢷣辱排路","quocngu":"Khéo là giở nhuốc bày trò,"},{"nom":"群情兜女𦓡讐妬催","quocngu":"Còn tình đâu nữa mà thù đó thôi!"},{"nom":"𠊛腰些醜貝𠊛","quocngu":"Người yêu ta xấu với người,"},{"nom":"腰饒𪰛吏朋𨑮負饒","quocngu":"Yêu nhau thì lại bằng mười phụ nhau!"},{"nom":"𨷶茹油併衛𡢐","quocngu":"Cửa nhà dù tính về sau,"},{"nom":"𪰛群㛪妬路求姉低","quocngu":"Thì còn em đó, lọ cầu chị đây?"},{"nom":"𡦂貞群󰜋𡭧尼","quocngu":"Chữ trinh còn một chút này,"},{"nom":"拯扲木凭束𨃐朱散","quocngu":"Chẳng cầm mộc vững thúc giày cho tan!"},{"nom":"群𡗉恩爱滇滇","quocngu":"Còn nhiều ân ái chan chan,"},{"nom":"𫨩之𢯏丐花殘𦓡制","quocngu":"Hay gì bẻ cái hoa tàn mà chơi?\\""},{"nom":"払浪哏咘󰜋𠳒","quocngu":"Chàng rằng: \\"Gắn bó một lời,"},{"nom":"俸空𩵜渃𪀄𡗶侶饒","quocngu":"Bỗng không cá nước chim trời lỡ nhau."},{"nom":"㤕𠊛流落閉𥹰","quocngu":"Xót người lưu lạc bấy lâu,"},{"nom":"想誓説𥘀仍𤴬疸𡗉","quocngu":"Tưởng thề thốt nặng những đau đớn nhiều!"},{"nom":"共饒生死㐌料","quocngu":"Cùng nhau sinh tử đã liều,"},{"nom":"﨤饒群𡭧閉饒羅情","quocngu":"Gặp nhau còn chút bấy nhiêu là tình."},{"nom":"澄春絲柳群撑","quocngu":"Chừng xuân tơ liễu còn xanh,"},{"nom":"擬浪渚脱塊鑅爱恩","quocngu":"Nghĩ rằng chưa thoát khỏi vành ái ân."},{"nom":"𦎛𤄯拯𡭧𡏧塵","quocngu":"Gương trong chẳng chút bụi trần,"},{"nom":"没𠳒决罕𨷈分敬添","quocngu":"Một lời quyết hẳn muôn phần kính thêm!"},{"nom":"閉𥹰󰢾𣷭摸金","quocngu":"Bấy lâu đáy bể mò kim,"},{"nom":"羅𡗉鐄𥒥沛尋𦝄花","quocngu":"Là nhiều vàng đá phải tìm trăng hoa."},{"nom":"埃疑吏合没茹","quocngu":"Ai ngờ lại họp một nhà,"},{"nom":"路羅𧜖襘買𠚢瑟琴","quocngu":"Lọ là chăn gối mới ra sắt cầm!\\""},{"nom":"𦖑𠳒𢯢襖掑簪","quocngu":"Nghe lời sửa áo cài trâm,"},{"nom":"叩頭𥛉謝高深𠦳重","quocngu":"Khấu đầu lạy tạ cao thâm nghìn trùng."},{"nom":"身殘渃濁烣𤄯","quocngu":"\\"Thân tàn nước đục tro trong,"},{"nom":"羅洳君子恪𢚸𠊛些","quocngu":"Là nhờ quân tử khác lòng người ta."},{"nom":"󰋇𠳒心腹𦛌𦚐","quocngu":"Mấy lời tâm phúc ruột rà."},{"nom":"相知󰟯意買羅相知","quocngu":"Tương tri dường ấy mới là tương tri!"},{"nom":"𨔾𩂏𦅰𫃚少之","quocngu":"Chở che đùm bọc thiếu gì,"},{"nom":"𤾓𢆥名節拱爲𣈘󰅒","quocngu":"Trăm năm danh tiết cũng vì đêm nay!\\""},{"nom":"脱催𢬣吏扲𢬣","quocngu":"Thoắt thôi tay lại cầm tay,"},{"nom":"強腰爲󰞺強醝爲情","quocngu":"Càng yêu vì nết, càng say vì tình."},{"nom":"添畑架浽香𤭸","quocngu":"Thêm đèn giá, nổi hương bình,"},{"nom":"共饒吏祝󱋓瓊交歡","quocngu":"Cùng nhau lại chuốc chén quỳnh giao hoan."},{"nom":"情𠸗來𣼽坤寒","quocngu":"Tình xưa lai láng khôn hàn,"},{"nom":"從容吏𠳨𦰟弹𣈗𠸗","quocngu":"Thong dong lại hỏi ngón đàn ngày xưa."},{"nom":"娘浪爲󰋇塘絲","quocngu":"Nàng rằng: \\"Vì mấy đường tơ,"},{"nom":"惏𠊛朱典悲𣇞買催","quocngu":"Lầm người cho đến bây giờ mới thôi!"},{"nom":"咹𡅧𪰛事㐌耒","quocngu":"Ăn năn thì sự đã rồi,"},{"nom":"𢘝𢚸𠊛𡳵󰂅𠳒󰜋畨","quocngu":"Nể lòng người cũ vâng lời một phen.\\""},{"nom":"泛彈迢迭𢬣僊","quocngu":"Phím đàn dìu dặt tay tiên,"},{"nom":"𤌋沉高濕㗂絃𧵆賒","quocngu":"Khói trầm cao thấp, tiếng huyền gần xa."},{"nom":"曲兜潭廕陽和","quocngu":"Khúc đâu đầm ấm dương hoà,"},{"nom":"意羅蝴蝶𫨩羅莊生","quocngu":"Ấy là hồ điệp, hay là Trang sinh."},{"nom":"曲兜淹爱春情","quocngu":"Khúc đâu êm ái xuân tình,"},{"nom":"意魂蜀帝𫨩命杜鵑","quocngu":"Ấy hồn Thục đế hay mình đỗ quyên?"},{"nom":"𤄯牢珠㳶溋涓","quocngu":"Trong sao châu nhỏ duềnh quyên!"},{"nom":"廕牢曷玉籃田買冬","quocngu":"Ấm sao hạt ngọc Lam Điền mới đông!"},{"nom":"律𦖻𦖑𨔊𠄼宫","quocngu":"Lọt tai nghe suốt năm cung,"},{"nom":"㗂󰅹羅拯󰞽濃𠮿嗃","quocngu":"Tiếng nào là chẳng não nùng xôn xao."},{"nom":"払浪譜意𢬣󰅹","quocngu":"Chàng rằng: \\"Phổ ấy tay nào,"},{"nom":"𠸗牢愁惨󰅒牢𢝙圍","quocngu":"Xưa sao sầu thảm, nay sao vui vầy?"},{"nom":"傷𢝙𤳷在𢚸尼","quocngu":"Thương vui bởi tại lòng này,"},{"nom":"𫨩羅苦盡典𣈜甘來","quocngu":"Hay là khổ tận đến ngày cam lai?\\""},{"nom":"娘浪爲𡭧藝制","quocngu":"Nàng rằng: \\"Vì chút nghề chơi,"},{"nom":"斷膓㗂意害𠊛閉𥹰","quocngu":"Đoạn trường tiếng ấy hại người bấy lâu!"},{"nom":"没畨知己𢜠饒","quocngu":"Một phen tri kỷ mừng nhau,"},{"nom":"捲𦀊自意𧗱𡢐拱悇","quocngu":"Cuốn dây từ ấy về sau cũng chừa.\\""},{"nom":"傳路渚𣴓𩯀絲","quocngu":"Chuyện trò chưa cạn tóc tơ,"},{"nom":"𪃿它嘅創𡗶𣃣𠓇東","quocngu":"Gà đà gáy sáng, trời vừa rạng đông."},{"nom":"情𥢆払吏呐𡃕","quocngu":"Tình riêng, chàng lại nói cùng,"},{"nom":"󰜋茹埃共邏𨓡𠸦嘮","quocngu":"Một nhà ai cũng lạ lùng khen lao."},{"nom":"朱𫨩淑女志高","quocngu":"Cho hay thục nữ chí cao,"},{"nom":"沛𠊛𣌋槾最桃如埃","quocngu":"Phải người sớm mận tối đào như ai?"},{"nom":"𠄩情院奇和𠄩","quocngu":"Hai tình vẹn cả hoà hai,"},{"nom":"拯𥪝𧜖襘拱外琹詩","quocngu":"Chẳng trong chăn gối, cũng ngoài cầm thơ."},{"nom":"欺󱋓𨢇𣅶局碁","quocngu":"Khi chén rượu, lúc cuộc cờ,"},{"nom":"欺䀡花𦬑欺除𦝄𨖲","quocngu":"Khi xem hoa nở, khi chờ trăng lên."},{"nom":"𠀧生㐌匪𨑮願","quocngu":"Ba sinh đã phỉ mười nguyền,"},{"nom":"緣堆侶拱羅緣伴𤿤","quocngu":"Duyên đôi lứa cũng là duyên bạn bè."},{"nom":"𢖵𠳒立没庵𩄲","quocngu":"Nhớ lời, lập một am mây,"},{"nom":"差𠊛親信逴柴覺緣","quocngu":"Sai người thân tín, rước thầy Giác Duyên."},{"nom":"典𪰛棟𨷶掑扦","quocngu":"Đến thì đóng cửa cài then,"},{"nom":"𦼔𠆳󰢿額𦹵𨖲𠃅茹","quocngu":"Rêu trùm kẽ ngạch, cỏ lên mái nhà."},{"nom":"師它𢲨𬟥方賒","quocngu":"Sư đà hái thuốc phương xa,"},{"nom":"𩄲𠖤䳽另別羅尋兜","quocngu":"Mây bay hạc lánh biết là tìm đâu?"},{"nom":"󰠱爲𡭧義𠸗𡢐","quocngu":"Nặng vì chút nghĩa xưa sau,"},{"nom":"𨕭庵據𪧚香油𣋚𪰹","quocngu":"Trên am cứ giữ hương dầu hôm mai."},{"nom":"没茹福祿𠁟𠄩","quocngu":"Một nhà phúc lộc gồm hai,"},{"nom":"千年弋弋官階吝吝","quocngu":"Thiên niên dằng dặc quan giai lần lần."},{"nom":"丞家拯歇娘雲","quocngu":"Thừa gia chẳng hết nàng Vân,"},{"nom":"没𣘃樛木没𡑝桂槐","quocngu":"Một cây cù mộc, một sân quế hoè."},{"nom":"風流富貴埃皮","quocngu":"Phong lưu phú quý ai bì,"},{"nom":"圍春󰜋𨷶底碑𨷈𠁀","quocngu":"Vầy xuân một cửa để bia muôn đời."},{"nom":"𡄎𫨩𨷈事在𡗶","quocngu":"Ngẫm hay muôn sự tại trời,"},{"nom":"𡗶箕㐌󰈫爫𠊛固身","quocngu":"Trời kia đã bắt làm người có thân."},{"nom":"󰈫風塵沛風塵","quocngu":"Bắt phong trần, phải phong trần,"},{"nom":"朱清高買特分清高","quocngu":"Cho thanh cao mới được phần thanh cao."},{"nom":"固兜偏爲𠊛󰅹","quocngu":"Có đâu thiên vị người nào,"},{"nom":"𡦂才𡦂命𣼭󰠢奇𠄩","quocngu":"Chữ tài chữ mệnh dồi dào cả hai."},{"nom":"固才𦓡𢚁之才","quocngu":"Có tài mà cậy chi tài,"},{"nom":"𡦂才連貝𡦂災󰜋韻","quocngu":"Chữ Tài liền với chữ Tai một vần."},{"nom":"㐌恾業意𠓨身","quocngu":"Đã mang nghiệp ấy vào thân,"},{"nom":"拱停責吝𡗶𧵆𡗶賒","quocngu":"Cũng đừng trách lẫn trời gần trời xa."},{"nom":"善根於在𢚸些","quocngu":"Thiện căn ở tại lòng ta,"},{"nom":"𡦂心箕貴朋𠀧𡦂才","quocngu":"Chữ Tâm kia quý bằng ba chữ tài."},{"nom":"𠳒圭𠽃𠴒容𨱽","quocngu":"Lời quê chắp nhạnh dông dài,"},{"nom":"謨𢝙拱特󰜋𠄽𤿰更","quocngu":"Mua vui cũng được một vài trống canh."},{"nom":"󰘇外𣃣𪭟杄花","quocngu":"Cửa ngoài vừa ngỏ then hoa,","line":529},{"nom":"家童𠓨𠳚書茹買𨖅","quocngu":"Gia đồng vào gửi thư nhà mới sang.","line":530},{"nom":"傷喂𤗖鉄𠓨爐","quocngu":"Thương ôi! mảnh sắt vào lò,","line":1825},{"nom":"閉𥹰󰅒別󰢢紆典兜","quocngu":"Bấy lâu nay biết giày vò đến đâu.","line":1826},{"nom":"󰡎㙴𨕭槣拱𬂙","quocngu":"Dưới thềm, trên ghế cùng trông,","line":1895},{"nom":"󰜋𠳒渚𨷑𠄩𣳔㐌沙","quocngu":"Một lời chưa mở hai dòng đã sa.","line":1896}]');
 ;// CONCATENATED MODULE: ./src/randomKieu.ts
 
 
@@ -27455,7 +28164,7 @@ async function randomKieu() {
 }
 
 // EXTERNAL MODULE: ./node_modules/cowsay/index.js
-var cowsay = __nccwpck_require__(9087);
+var cowsay = __nccwpck_require__(9562);
 ;// CONCATENATED MODULE: ./src/randomQuotes.ts
 
 
@@ -27489,15 +28198,20 @@ async function randomQuotes_updateFile(fileName, result) {
 async function randomQuotes() {
     core.info('Updating with random quotes... 📁');
     try {
-        // Get random quotes from https://github.com/lukePeavey/quotable
-        const response = await fetch('https://api.quotable.io/quotes/random');
+        // Get random quotes from https://github.com/hiteshchoudhary/apihub
+        const response = await fetch('https://api.freeapi.app/api/v1/public/quotes/quote/random', {
+            method: 'GET',
+            headers: {
+                accept: 'application/json',
+            },
+        });
         const quotes = await response.json();
         const quote = quotes[0];
         // Wrap the content with length=42
         const wrap = quote.content.replace(/(?![^\n]{1,42}$)([^\n]{1,42})\s/g, '$1\n');
         const text = `“${wrap}”\n\n -- ${quote.author}`;
         // Display the quote with cowsay ASCII art
-        const ascii = cowsay/* say */.T({ text, r: true });
+        const ascii = cowsay/* say */.cv({ text, r: true });
         const result = String.raw `${'\n```rust\n'}${ascii}${'\n```\n'}`;
         await randomQuotes_updateFile('./README.md', result);
     }
