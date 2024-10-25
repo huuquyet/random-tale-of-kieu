@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦖑詳梗𦰟消耗</p>
-      <p class="nom">𢚸𥢆𨻫仍勞刀矧蜍”</p>
-      <p class="quocngu">Nghe tường ngành ngọn tiêu hao,</p>
-      <p class="quocngu">Lòng riêng, luống những lao đao thẫn thờ.</p>
-      <p class="author"><i>(Dòng 2927-2928) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢴑𢬣倍逴𠓨茹</p>
+      <p class="nom">𠃅𡢐員外翁妑𠚢𦖑”</p>
+      <p class="quocngu">Dắt tay vội rước vào nhà,</p>
+      <p class="quocngu">Mé sau Viên ngoại ông bà ra ngay.</p>
+      <p class="author"><i>(Dòng 2773-2774) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
