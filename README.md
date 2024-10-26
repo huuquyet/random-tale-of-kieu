@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“雲䀡莊重恪潙</p>
-      <p class="nom">囷𦝄苔󰡹󰞺𠊚𦬑囊”</p>
-      <p class="quocngu">Vân xem trang trọng khác vời,</p>
-      <p class="quocngu">Khuôn lưng đầy đặn, nét người nở nang.</p>
-      <p class="author"><i>(Dòng 19-20) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">\u201C不情浽陣𩄲𩅹</p>
+      <p class="nom">𠻵娘󰣉󱋙巴蜍悁身\u201D</p>
+      <p class="quocngu">Bất tình nổi trận mây mưa.</p>
+      <p class="quocngu">Mắng rằng: "Giống khéo bơ thờ quen thân.</p>
+      <p class="author"><i>(D\u00F2ng 1727-1728) Truy\u1EC7n Ki\u1EC1u</i> -- Nguy\u1EC5n Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “All our knowledge has its origins in our \
-| perceptions.”                             |
-|                                           |
-\  -- Leonardo da Vinci                     /
- -------------------------------------------
-   \
-    \
-      .-+$H###MM@MMMMM##@$+-,. ....
--@$+%$+%HX+--..  .  . .,:X$/+/++$#:
--#MXH$=                      $HXH#:
- .--,:#+   ,+$HMX =@@X%, . .X#:,,,
-     =#@$H :####H =####;,M%$#X
-     X###$ $####X =####H %###X
-    ;###X /###@$: ,+HM##H.+###;
-   :###;,X##%=;%H@H$;-;M#@-;###/
-  ,M##;.@##;-H#######M=.M##-:###-
-  ;##M ;##X @###H-=@###.;##X H##;
-  ;##M./##X.@###H:/M###-=##X X##;
-  -###;,M##:,@########+-H##; @##-
-   %##M==@##%==%HMH%::/M##+.X##+
-    %###/./###X+: -+$M##M=,X##+
-     X###X X####H +#####% @##H
-     :###H %####H +#####; X##;
-     /#$.  -HM##H /###@+.  +#$. .
-/HX%$X:      .,-, .-,.      =XX$H@-
-/#H+/+%+/+;=.          .=/%;;/;;+#+
- ..  .,-:XM#MM@@@@@@H@@M#@+=,.   ,,
+ _____________________________________________
+/ “Aim for the moon. If you miss, you may hit \
+| a star.”                                    |
+|                                             |
+\  -- W. Clement Stone                        /
+ ---------------------------------------------
+  \                         ________
+   \                    _.-Y  |  |  Y-.,_
+    \                .-"   |  |  |  ||   "~-.      
+          _____     |""[]"|" !""! "|"=="" "I      
+       .-"{-. "I----]_   :|------..| []  __L      
+      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
+      ^-=\[_c=-'  ~j______[________]_L______L]    
+                    [_L--.\_==I|I==/.--.j_I_/     
+                      j)==(["-----`])==((_]       
+                       I--I"~~"""~~"I--I          
+                       |[]|         |[]|          
+                       j__l         j__l          
+                       |!!|         |!!|          
+                       |..|         |..|         
+                       )[](         )[](          
+                       ]--[         ]--[          
+                       [L_]         [L_]          
+                      /|..|\       /|..|\         
+                     '={--}=`     '={--}=`        
+                    .-^-r--^-.   .-^-r--^-.       
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Modified ATAT from Row  (the Ascii-Wizard of Oz)
 ```
 <!-- END_QUOTE -->
 

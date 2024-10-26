@@ -40,8 +40,8 @@ export async function randomQuotes() {
         accept: 'application/json',
       },
     })
-    const quotes = await response.json()
-    const quote = quotes[0]
+    const resp = await response.json()
+    const quote = resp.data
 
     // Wrap the content with length=42
     const wrap = quote.content.replace(/(?![^\n]{1,42}$)([^\n]{1,42})\s/g, '$1\n')

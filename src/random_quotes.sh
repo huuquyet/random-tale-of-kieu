@@ -14,7 +14,7 @@ END="<!-- END_QUOTE -->"
 # sed -n '/START_QUOTE/,/END_QUOTE/{//!p}' README.md
 
 # Get random quotes from https://github.com/hiteshchoudhary/apihub
-QUOTABLE=$( curl -s -X GET -H "Content-Type: application/json" https://api.freeapi.app/api/v1/public/quotes/quote/random | jq -r '.[0]' )
+QUOTABLE=$( curl -s -X GET -H "Content-Type: application/json" https://api.freeapi.app/api/v1/public/quotes/quote/random | jq -r '.data' )
 CONTENT=$( echo $QUOTABLE | jq -r '.content' )  
 AUTHOR=$( echo $QUOTABLE | jq -r '.author' ) 
 DISPLAY=' \
@@ -44,4 +44,4 @@ fi
 
 # Generate ASCII art from https://docs.zenquotes.io/how-to-build-a-zenquotes-api-powered-ascii-art-generator-using-terminal-commands/
 echo $'```\n'"$(echo $QUOTABLE | jq -r '" " as $space | .content + "\n\n\($space * ((.content |length)-(.author |length) - 2))--" + .author' | 
-      cowsay -nsf $(cowsay -l | tail -n +2 | tr ' ' '\n' | shuf -n1))"$'\n```' > ../assets/cowsay_quotes.md
+      cowsay -nsf $(cowsay -l | tail -n +2 | tr ' ' '\n' | shuf -n1))"$'\n```' >> ../assets/cowsay_quotes.md
