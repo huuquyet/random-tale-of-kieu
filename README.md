@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">\u201C不情浽陣𩄲𩅹</p>
-      <p class="nom">𠻵娘󰣉󱋙巴蜍悁身\u201D</p>
-      <p class="quocngu">Bất tình nổi trận mây mưa.</p>
-      <p class="quocngu">Mắng rằng: "Giống khéo bơ thờ quen thân.</p>
-      <p class="author"><i>(D\u00F2ng 1727-1728) Truy\u1EC7n Ki\u1EC1u</i> -- Nguy\u1EC5n Du</p>
+      <p class="nom">“他𠚢羅拱埋𠁀</p>
+      <p class="nom">爫𠚢𪰛拱𠚢𠊚𡮈然”</p>
+      <p class="quocngu">Tha ra là cũng may đời,</p>
+      <p class="quocngu">Làm ra thì cũng ra người nhỏ nhen.</p>
+      <p class="author"><i>(Dòng 2375-2376) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,14 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Aim for the moon. If you miss, you may hit \
-| a star.”                                    |
-|                                             |
-\  -- W. Clement Stone                        /
- ---------------------------------------------
-  \                         ________
-   \                    _.-Y  |  |  Y-.,_
-    \                .-"   |  |  |  ||   "~-.      
-          _____     |""[]"|" !""! "|"=="" "I      
-       .-"{-. "I----]_   :|------..| []  __L      
-      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
-      ^-=\[_c=-'  ~j______[________]_L______L]    
-                    [_L--.\_==I|I==/.--.j_I_/     
-                      j)==(["-----`])==((_]       
-                       I--I"~~"""~~"I--I          
-                       |[]|         |[]|          
-                       j__l         j__l          
-                       |!!|         |!!|          
-                       |..|         |..|         
-                       )[](         )[](          
-                       ]--[         ]--[          
-                       [L_]         [L_]          
-                      /|..|\       /|..|\         
-                     '={--}=`     '={--}=`        
-                    .-^-r--^-.   .-^-r--^-.       
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Modified ATAT from Row  (the Ascii-Wizard of Oz)
+ ____________________________________________
+/ “The biggest room in the world is room for \
+| improvement.”                              |
+|                                            |
+\  -- Helmut Schmidt                         /
+ --------------------------------------------
+  \
+¯\_(ツ)_/¯
 ```
 <!-- END_QUOTE -->
 
