@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“他𠚢羅拱埋𠁀</p>
-      <p class="nom">爫𠚢𪰛拱𠚢𠊚𡮈然”</p>
-      <p class="quocngu">Tha ra là cũng may đời,</p>
-      <p class="quocngu">Làm ra thì cũng ra người nhỏ nhen.</p>
-      <p class="author"><i>(Dòng 2375-2376) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“生浪邂逅羅緣</p>
+      <p class="nom">𠸗󰅒人定勝天拱𡗉”</p>
+      <p class="quocngu">Sinh rằng: "Giải cấu là duyên,</p>
+      <p class="quocngu">Xưa nay nhân định thắng thiên cũng nhiều.</p>
+      <p class="author"><i>(Dòng 419-420) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,13 +26,22 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “The biggest room in the world is room for \
-| improvement.”                              |
+/ “If a man going down into a river, swollen \
+| and swiftly flowing, is carried away by    |
+| the current — how can he help others       |
+| across? – The Buddha”                      |
 |                                            |
-\  -- Helmut Schmidt                         /
+\  -- The Buddha                             /
  --------------------------------------------
-  \
-¯\_(ツ)_/¯
+   \
+    \              ....       
+           ........    .      
+          .            .      
+         .             .      
+.........              .......
+..............................
+
+Elephant inside ASCII snake
 ```
 <!-- END_QUOTE -->
 
