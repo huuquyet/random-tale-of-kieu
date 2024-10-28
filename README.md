@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“生浪邂逅羅緣</p>
-      <p class="nom">𠸗󰅒人定勝天拱𡗉”</p>
-      <p class="quocngu">Sinh rằng: "Giải cấu là duyên,</p>
-      <p class="quocngu">Xưa nay nhân định thắng thiên cũng nhiều.</p>
-      <p class="author"><i>(Dòng 419-420) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨇜調納采于歸</p>
+      <p class="nom">㐌欺悰󰢍吏欺𨅸𡎢”</p>
+      <p class="quocngu">Đủ điều nạp thái vu quy,</p>
+      <p class="quocngu">Đã khi suồng sã, lại khi đứng ngồi.</p>
+      <p class="author"><i>(Dòng 957-958) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “If a man going down into a river, swollen \
-| and swiftly flowing, is carried away by    |
-| the current — how can he help others       |
-| across? – The Buddha”                      |
-|                                            |
-\  -- The Buddha                             /
- --------------------------------------------
-   \
-    \              ....       
-           ........    .      
-          .            .      
-         .             .      
-.........              .......
-..............................
+ _____________________________________________
+/ “If you're trying to create a company, it's \
+| like baking a cake. You have to have all    |
+| the ingredients in the right proportion.”   |
+|                                             |
+\  -- Elon Musk                               /
+ ---------------------------------------------
+       \
+        \
+                  =/;;/-
+                 +:    //
+                /;      /;
+               -X        H.
+ .//;;;:;;-,   X=        :+   .-;:=;:;%;.
+ M-       ,=;;;#:,      ,:#;;:=,       ,@
+ :%           :%.=/++++/=.$=           %=
+  ,%;         %/:+/;,,/++:+/         ;+.
+    ,+/.    ,;@+,        ,%H;,    ,/+,
+       ;+;;/= @.  .H##X   -X :///+;
+       ;+=;;;.@,  .XM@$.  =X.//;=%/.
+    ,;:      :@%=        =$H:     .+%-
+  ,%=         %;-///==///-//         =%,
+ ;+           :%-;;;:;;;;-X-           +:
+ @-      .-;;;;M-        =M/;;;-.      -X
+  :;;::;;-.    %-        :+    ,-;;-;:==
+               ,X        H.
+                ;/      %=
+                 //    +;
+                  ,////,
 
-Elephant inside ASCII snake
 ```
 <!-- END_QUOTE -->
 
