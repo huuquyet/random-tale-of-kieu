@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨇜調納采于歸</p>
-      <p class="nom">㐌欺悰󰢍吏欺𨅸𡎢”</p>
-      <p class="quocngu">Đủ điều nạp thái vu quy,</p>
-      <p class="quocngu">Đã khi suồng sã, lại khi đứng ngồi.</p>
-      <p class="author"><i>(Dòng 957-958) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“信茹𣈜󰜋永信</p>
+      <p class="nom">𪉽情葛藟𤁕情糟糠”</p>
+      <p class="quocngu">Tin nhà ngày một vắng tin,</p>
+      <p class="quocngu">Mặn tình cát luỹ, nhạt tình tao khang.</p>
+      <p class="author"><i>(Dòng 1479-1480) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,48 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “If you're trying to create a company, it's \
-| like baking a cake. You have to have all    |
-| the ingredients in the right proportion.”   |
-|                                             |
-\  -- Elon Musk                               /
- ---------------------------------------------
-       \
-        \
-                  =/;;/-
-                 +:    //
-                /;      /;
-               -X        H.
- .//;;;:;;-,   X=        :+   .-;:=;:;%;.
- M-       ,=;;;#:,      ,:#;;:=,       ,@
- :%           :%.=/++++/=.$=           %=
-  ,%;         %/:+/;,,/++:+/         ;+.
-    ,+/.    ,;@+,        ,%H;,    ,/+,
-       ;+;;/= @.  .H##X   -X :///+;
-       ;+=;;;.@,  .XM@$.  =X.//;=%/.
-    ,;:      :@%=        =$H:     .+%-
-  ,%=         %;-///==///-//         =%,
- ;+           :%-;;;:;;;;-X-           +:
- @-      .-;;;;M-        =M/;;;-.      -X
-  :;;::;;-.    %-        :+    ,-;;-;:==
-               ,X        H.
-                ;/      %=
-                 //    +;
-                  ,////,
-
+ ____________________________________________
+/ “The ideals which have lighted my way, and \
+| time after time have given me new courage  |
+| to face life cheerfully, have been         |
+| Kindness, Beauty, and Truth. The trite     |
+| subjects of human efforts, possessions,    |
+| outward success, luxury have always seemed |
+| to me contemptible.”                       |
+|                                            |
+\  -- Albert Einstein                        /
+ --------------------------------------------
+    \
+     \                                                           ＿＿＿ノ^l
+      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
+                                                 く                       /
+                                                  `ヽ,   __､-'           /
+                                                    __＞‐´               |
+                                           ._,;‐''``              ,     /
+                                         _;"                     /     /
+                                       ／                       /     く
+                                     ／                        /       |
+                                   ／                        ／       ｌ
+                                 ノ                        ／￣ヽ     /
+                                /                        ／     ） _ノ
+                            ,r'″ヽ、                   ／        ￣
+                           /      ヽ                 ／
+                        ＿ﾉ        `r            _､‐'
+                      ／          _l,_       _､‐'
+                 __,r'          ／r;;,ヽ   ／
+               ,/              ｜.;●,;;|  ノ
+              ノ ／  ／／       ヽ､!!!ﾞﾉ "
+            ／ ／／／  ／／___,r''"￣
+           / ／ / / /／ / /
+      ___／／/／／／ ／／/
+  ／￣＿_／／／/ / ／／／
+ l ／´___／／／／／／ /
+ しレ"／／/ /  ／／//／
+      / ,/ / ／／／ /
+      ﾚ'   ﾚ'／／ ／
+           ／l｜l/
+          ｜|ﾚ'lノ
+           レ'
 ```
 <!-- END_QUOTE -->
 
