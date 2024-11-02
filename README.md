@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦊚皮叭𠯪溟濛</p>
-      <p class="nom">潮𤼸𣋚𣌋𩄲籠𠓀𡢐”</p>
-      <p class="quocngu">Bốn bề bát ngát mênh mông,</p>
-      <p class="quocngu">Triều dâng hôm sớm, mây lồng trước sau.</p>
-      <p class="author"><i>(Dòng 2735-2736) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢠩恾蘿用花逨</p>
+      <p class="nom">払衛書院妾移樓粧”</p>
+      <p class="quocngu">Mơ màng lá rụng hoa rơi,</p>
+      <p class="quocngu">Chàng về thư viện, thiếp dời lầu trang.</p>
+      <p class="author"><i>(Dòng 361-362) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “God made me fast. And when I run, I feel \
-| His pleasure.”                            |
-|                                           |
-\  -- Eric Liddell                          /
- -------------------------------------------
- \     /\  ___  /\
-  \   // \/   \/ \\
-     ((    o o    ))
-      \\ /     \ //
-       \/  | |  \/ 
-        |  | |  |  
-        |  | |  |  
-        |   o   |  
-        | |   | |  
-        |m|   |m|  
+ _________________________________________
+/ “Some people thrive on huge, dramatic   \
+| change. Some people prefer the slow and |
+| steady route. Do what's right for you.” |
+|                                         |
+\  -- Julie Morgenstern                   /
+ -----------------------------------------
+ \
+  \
+    .::.
+    _::_
+  _/____\_
+  \      /
+   \____/
+   (____)
+    |  |
+    |__|
+   /    \
+  (______)
+ (________)
+ /________\
 ```
 <!-- END_QUOTE -->
 
