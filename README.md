@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢠩恾蘿用花逨</p>
-      <p class="nom">払衛書院妾移樓粧”</p>
-      <p class="quocngu">Mơ màng lá rụng hoa rơi,</p>
-      <p class="quocngu">Chàng về thư viện, thiếp dời lầu trang.</p>
-      <p class="author"><i>(Dòng 361-362) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𩙍光𩅹淨請台</p>
+      <p class="nom">固𠊚檀樾𨖲制𨷶伽”</p>
+      <p class="quocngu">Gió quang mưa tạnh thảnh thơi,</p>
+      <p class="quocngu">Có người đàn việt lên chơi cửa già.</p>
+      <p class="author"><i>(Dòng 2063-2064) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “Some people thrive on huge, dramatic   \
-| change. Some people prefer the slow and |
-| steady route. Do what's right for you.” |
-|                                         |
-\  -- Julie Morgenstern                   /
- -----------------------------------------
- \
-  \
-    .::.
-    _::_
-  _/____\_
-  \      /
-   \____/
-   (____)
-    |  |
-    |__|
-   /    \
-  (______)
- (________)
- /________\
+ ____________________________________________
+/ “The entrepreneur always searches for      \
+| change, responds to it, and exploits it as |
+| an opportunity.”                           |
+|                                            |
+\  -- Peter Drucker                          /
+ --------------------------------------------
+   \
+    \
+
+     |\_/|
+     |o o|__
+     --*--__\
+     C_C_(___)
 ```
 <!-- END_QUOTE -->
 
