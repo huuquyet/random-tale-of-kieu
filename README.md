@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𩙍光𩅹淨請台</p>
-      <p class="nom">固𠊚檀樾𨖲制𨷶伽”</p>
-      <p class="quocngu">Gió quang mưa tạnh thảnh thơi,</p>
-      <p class="quocngu">Có người đàn việt lên chơi cửa già.</p>
-      <p class="author"><i>(Dòng 2063-2064) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“默𠊚𩅹楚𩙍秦</p>
+      <p class="nom">仍命󰅹別固春羅󰢔”</p>
+      <p class="quocngu">Mặc người mưa Sở gió Tần,</p>
+      <p class="quocngu">Những mình nào biết có xuân là gì!</p>
+      <p class="author"><i>(Dòng 1239-1240) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The entrepreneur always searches for      \
-| change, responds to it, and exploits it as |
-| an opportunity.”                           |
-|                                            |
-\  -- Peter Drucker                          /
- --------------------------------------------
-   \
-    \
-
-     |\_/|
-     |o o|__
-     --*--__\
-     C_C_(___)
+ ___________________________________________
+/ “Every day I remind myself that my inner  \
+| and outer life are based on the labors of |
+| other men, living and dead, and that I    |
+| must exert myself in order to give in the |
+| same measure as I have received and am    |
+| still receiving.”                         |
+|                                           |
+\  -- Albert Einstein                       /
+ -------------------------------------------
+          \
+           \
+            \          __---__
+                    _-       /--______
+               __--( /     \ )XXXXXXXXXXX\v.
+             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
+            /XXX(       U     )        XXXXXXX\
+          /XXXXX(              )--_  XXXXXXXXXXX\
+         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
+         XXXXX/   /            XXXXXX   \__ \XXXXX
+         XXXXXX__/          XXXXXX         \__---->
+ ---___  XXX__/          XXXXXX      \__         /
+   \-  --__/   ___/\  XXXXXX            /  ___--/=
+    \-\    ___/    XXXXXX              '--- XXXXXX
+       \-\/XXX\ XXXXXX                      /XXXXX
+         \XXXXXXXXX   \                    /XXXXX/
+          \XXXXXX      >                 _/XXXXX/
+            \XXXXX--__/              __-- XXXX/
+             -XXXXXXXX---------------  XXXXXX-
+                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
+                  ""VXXXXXXXXXXXXXXXXXXV""
 ```
 <!-- END_QUOTE -->
 
