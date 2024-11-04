@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“默𠊚𩅹楚𩙍秦</p>
-      <p class="nom">仍命󰅹別固春羅󰢔”</p>
-      <p class="quocngu">Mặc người mưa Sở gió Tần,</p>
-      <p class="quocngu">Những mình nào biết có xuân là gì!</p>
-      <p class="author"><i>(Dòng 1239-1240) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“惜花仍唅𢢯春</p>
+      <p class="nom">身尼易別󰋇吝﨤僊”</p>
+      <p class="quocngu">Tiếc hoa những ngậm ngùi xuân,</p>
+      <p class="quocngu">Thân này dễ biết mấy lần gặp tiên!</p>
+      <p class="author"><i>(Dòng 1703-1704) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Every day I remind myself that my inner  \
-| and outer life are based on the labors of |
-| other men, living and dead, and that I    |
-| must exert myself in order to give in the |
-| same measure as I have received and am    |
-| still receiving.”                         |
-|                                           |
-\  -- Albert Einstein                       /
- -------------------------------------------
-          \
-           \
-            \          __---__
-                    _-       /--______
-               __--( /     \ )XXXXXXXXXXX\v.
-             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
-            /XXX(       U     )        XXXXXXX\
-          /XXXXX(              )--_  XXXXXXXXXXX\
-         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
-         XXXXX/   /            XXXXXX   \__ \XXXXX
-         XXXXXX__/          XXXXXX         \__---->
- ---___  XXX__/          XXXXXX      \__         /
-   \-  --__/   ___/\  XXXXXX            /  ___--/=
-    \-\    ___/    XXXXXX              '--- XXXXXX
-       \-\/XXX\ XXXXXX                      /XXXXX
-         \XXXXXXXXX   \                    /XXXXX/
-          \XXXXXX      >                 _/XXXXX/
-            \XXXXX--__/              __-- XXXX/
-             -XXXXXXXX---------------  XXXXXX-
-                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
-                  ""VXXXXXXXXXXXXXXXXXXV""
+ ____________________________________
+/ “May all beings have happy minds.” \
+|                                    |
+\  -- The Buddha                     /
+ ------------------------------------
+     \               _
+      \            ´   ＼   __
+       \        ／ ／⌒\ | ／   ＼
+   f|{r、       | /     '|/ ／⌒＼＼
+   ||J |        \/＞--＜\/ /--    |
+(＼|`` し]ﾄ----／          ⌒` ＼| /
+ ＼      ﾉ\   /                ＼|/\   --、___
+  ゛    /  ＼/      /     |         \/_       ﾉ
+   \、/\_／/ｲ    ,/'|    /\ 、        Ⅵ   __／
+    [\/   \/_|   /\|/|   |-]  、     く-く
+    |      \/|  |/___ﾉ\  /\___ \     /   ＼
+    {/      <|小| _ﾒﾘ  \/  _ﾒﾘ` \   ｜|   |
+     \        ｜| \/ｿ      \/ｿ  ﾉ / /\|＼_/
+      \       ｜|              /_ｲ\/
+       \      ｜|     /ヽ      / /ﾉ
+        \     ｜/\   └-     ,/ /'
+         \    ｜ |／>> r -=≦{{/ /ﾆ=_
+          \   人 | ／ｨ|     /ﾚ/__   ﾉﾆ-、
+           ＼   \|/  Xﾉ    / /   入//⌒Yﾊ
+             \  /し ｜`---' //  /  \ﾆﾆﾆﾉ|
+              ＼/  / \  --ｱ ｜  |   | _]|
+               ｜ /   \/\/  ｜  |   |___|
+               r勺    ｜_｜ ｜  |   |  ||
+               |`7    ｜ ｜ ｜  |   |   |
 ```
 <!-- END_QUOTE -->
 
