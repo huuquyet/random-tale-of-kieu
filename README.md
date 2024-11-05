@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“惜花仍唅𢢯春</p>
-      <p class="nom">身尼易別󰋇吝﨤僊”</p>
-      <p class="quocngu">Tiếc hoa những ngậm ngùi xuân,</p>
-      <p class="quocngu">Thân này dễ biết mấy lần gặp tiên!</p>
-      <p class="author"><i>(Dòng 1703-1704) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𬂙𨕭󰘚𨫊顛茌</p>
+      <p class="nom">立嚴𠓀唉𠚢威󰠱唎”</p>
+      <p class="quocngu">Trông lên mặt sắt đen sì,</p>
+      <p class="quocngu">Lập nghiêm trước hãy ra uy nặng lời:</p>
+      <p class="author"><i>(Dòng 1409-1410) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________
-/ “May all beings have happy minds.” \
-|                                    |
-\  -- The Buddha                     /
- ------------------------------------
-     \               _
-      \            ´   ＼   __
-       \        ／ ／⌒\ | ／   ＼
-   f|{r、       | /     '|/ ／⌒＼＼
-   ||J |        \/＞--＜\/ /--    |
-(＼|`` し]ﾄ----／          ⌒` ＼| /
- ＼      ﾉ\   /                ＼|/\   --、___
-  ゛    /  ＼/      /     |         \/_       ﾉ
-   \、/\_／/ｲ    ,/'|    /\ 、        Ⅵ   __／
-    [\/   \/_|   /\|/|   |-]  、     く-く
-    |      \/|  |/___ﾉ\  /\___ \     /   ＼
-    {/      <|小| _ﾒﾘ  \/  _ﾒﾘ` \   ｜|   |
-     \        ｜| \/ｿ      \/ｿ  ﾉ / /\|＼_/
-      \       ｜|              /_ｲ\/
-       \      ｜|     /ヽ      / /ﾉ
-        \     ｜/\   └-     ,/ /'
-         \    ｜ |／>> r -=≦{{/ /ﾆ=_
-          \   人 | ／ｨ|     /ﾚ/__   ﾉﾆ-、
-           ＼   \|/  Xﾉ    / /   入//⌒Yﾊ
-             \  /し ｜`---' //  /  \ﾆﾆﾆﾉ|
-              ＼/  / \  --ｱ ｜  |   | _]|
-               ｜ /   \/\/  ｜  |   |___|
-               r勺    ｜_｜ ｜  |   |  ||
-               |`7    ｜ ｜ ｜  |   |   |
+ __________________________________________
+/ “It is the supreme art of the teacher to \
+| awaken joy in creative expression and    |
+| knowledge.”                              |
+|                                          |
+\  -- Albert Einstein                      /
+ ------------------------------------------
+ \
+  \
+  ,-''''-.
+ (.  ,.   L        ___...__
+ /o} ,-`  `'-==''``        ''._
+//{                           '`.
+\_,X ,                         : )
+    7                          ;`
+    :                  ,       /
+     \_,                \     ;
+       Y   L_    __..--':`.    L
+       |  /| ````       ;  y  J
+       [ j J            / / L ;
+       | |Y \          /_J  | |
+       L_J/_)         /_)   L_J
+      /_)               sk /_)
 ```
 <!-- END_QUOTE -->
 
