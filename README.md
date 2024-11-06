@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𬂙𨕭󰘚𨫊顛茌</p>
-      <p class="nom">立嚴𠓀唉𠚢威󰠱唎”</p>
-      <p class="quocngu">Trông lên mặt sắt đen sì,</p>
-      <p class="quocngu">Lập nghiêm trước hãy ra uy nặng lời:</p>
-      <p class="author"><i>(Dòng 1409-1410) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“梅骨格雪精神</p>
+      <p class="nom">󰜋𠊚󰜋𨤔𨑮分院𨑮”</p>
+      <p class="quocngu">Mai cốt cách, tuyết tinh thần,</p>
+      <p class="quocngu">Một người một vẻ mười phân vẹn mười.</p>
+      <p class="author"><i>(Dòng 17-18) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “It is the supreme art of the teacher to \
-| awaken joy in creative expression and    |
-| knowledge.”                              |
-|                                          |
-\  -- Albert Einstein                      /
- ------------------------------------------
- \
-  \
-  ,-''''-.
- (.  ,.   L        ___...__
- /o} ,-`  `'-==''``        ''._
-//{                           '`.
-\_,X ,                         : )
-    7                          ;`
-    :                  ,       /
-     \_,                \     ;
-       Y   L_    __..--':`.    L
-       |  /| ````       ;  y  J
-       [ j J            / / L ;
-       | |Y \          /_J  | |
-       L_J/_)         /_)   L_J
-      /_)               sk /_)
+ ____________________________________________
+/ “A wise person should be urgently moved on \
+| occasions that make for urgency.”          |
+|                                            |
+\  -- The Buddha                             /
+ --------------------------------------------
+         \
+          \
+            ^__^ 
+    _______/(oo)
+/\/(       /(__)
+   | W----|| |~|
+   ||     || |~|  ~~
+             |~|  ~
+             |_| o
+             |#|/
+            _+#+_
 ```
 <!-- END_QUOTE -->
 
