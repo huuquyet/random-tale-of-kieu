@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“梅骨格雪精神</p>
-      <p class="nom">󰜋𠊚󰜋𨤔𨑮分院𨑮”</p>
-      <p class="quocngu">Mai cốt cách, tuyết tinh thần,</p>
-      <p class="quocngu">Một người một vẻ mười phân vẹn mười.</p>
-      <p class="author"><i>(Dòng 17-18) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“群𡽫群渃群𨱽</p>
+      <p class="nom">群衛群𢖵典𠊚𣋚𫢩”</p>
+      <p class="quocngu">Còn non, còn nước, còn dài,</p>
+      <p class="quocngu">Còn về còn nhớ đến người hôm nay!"</p>
+      <p class="author"><i>(Dòng 557-558) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “A wise person should be urgently moved on \
-| occasions that make for urgency.”          |
-|                                            |
-\  -- The Buddha                             /
- --------------------------------------------
-         \
-          \
-            ^__^ 
-    _______/(oo)
-/\/(       /(__)
-   | W----|| |~|
-   ||     || |~|  ~~
-             |~|  ~
-             |_| o
-             |#|/
-            _+#+_
+ _________________________________________
+/ “All experiences are preceded by mind,  \
+| having mind as their master, created by |
+| mind.”                                  |
+|                                         |
+\  -- The Buddha                          /
+ -----------------------------------------
+    \
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,      WE      -%HX$%%%+;
+ =-./@M@M$         DO       .;@MMMM@MM:
+ X@/ -$MM/        WHAT        .+MM@@@M$
+,@M@H: :@:         WE         . =X#@@@@-
+,@@@MMX, .        MUST        /H- ;@M@M=
+.H@@@@M@+,      BECAUSE       %MM+..%#$.
+ /MMMM@MMH/.       WE         XM@MH; =;
+  /%+%$XHH@$=     CAN      , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
