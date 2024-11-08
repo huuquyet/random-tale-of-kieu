@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“群𡽫群渃群𨱽</p>
-      <p class="nom">群衛群𢖵典𠊚𣋚𫢩”</p>
-      <p class="quocngu">Còn non, còn nước, còn dài,</p>
-      <p class="quocngu">Còn về còn nhớ đến người hôm nay!"</p>
-      <p class="author"><i>(Dòng 557-558) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“礙𥔘憚𩙍𠲖霜</p>
+      <p class="nom">䀡花䏾𢢆𬂙𦎛󰘚𠫆”</p>
+      <p class="quocngu">Ngại ngùng dạn gió e sương,</p>
+      <p class="quocngu">Xem hoa bóng thẹn, trông gương mặt dày.</p>
+      <p class="author"><i>(Dòng 635-636) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “All experiences are preceded by mind,  \
-| having mind as their master, created by |
-| mind.”                                  |
-|                                         |
-\  -- The Buddha                          /
- -----------------------------------------
+ ___________________________________________
+/ “Speak only endearing speech, speech that \
+| is welcomed. Speech, when it brings no    |
+| evil to others, is a pleasant thing.”     |
+|                                           |
+\  -- The Buddha                            /
+ -------------------------------------------
     \
      \
-              .,-:;//;:=,
-          . :H@@@MM@M#H/.,+%;,
-       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
-  =@#@@@MX .,      WE      -%HX$%%%+;
- =-./@M@M$         DO       .;@MMMM@MM:
- X@/ -$MM/        WHAT        .+MM@@@M$
-,@M@H: :@:         WE         . =X#@@@@-
-,@@@MMX, .        MUST        /H- ;@M@M=
-.H@@@@M@+,      BECAUSE       %MM+..%#$.
- /MMMM@MMH/.       WE         XM@MH; =;
-  /%+%$XHH@$=     CAN      , .H@@@@MX,
-   .=--------.           -%H.,@@@@@MX,
-   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
-     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
-       =%@M@M#@$-.=$@MM@@@M; %M%=
-         ,:+$+-,/H#MMMMMMM@= =,
-               =++%%%%+/:-.
+            ,:/+/-
+            /M/              .,-=;//;-
+       .:/= ;MH/,    ,=/+%$XH@MM#@:
+      -$##@+$###@H@MMM#######H:.    -/H#
+ .,H@H@ X######@ -H#####@+-     -+H###@X
+  .,@##H;      +XM##M/,     =%@###@X;-
+X%-  :M##########$.    .:%M###@%:
+M##H,   +H@@@$/-.  ,;$M###@%,          -
+M####M=,,---,.-%%H####M$:          ,+@##
+@##################@/.         :%H##@$-
+M###############H,         ;HM##M$=
+\#################.    .=$M##M$=
+\#################H..;XM##M$=          .:+
+M###################@%=           =+@MH%
+@################M/.          =+H#X%=
+=+M##############M,       -/X#X+;.
+  .;XM##########H=    ,/X#H+:,
+     .=+HM######M+/+HM@+=.
+         ,:/%XM####H/.
+              ,.:=-.
 ```
 <!-- END_QUOTE -->
 
