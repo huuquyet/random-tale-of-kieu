@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥪝𨦩𥏋𥒥俳俳</p>
-      <p class="nom">𧡊徐群𨅸𡨌𡗶猪猪”</p>
-      <p class="quocngu">Trong vòng tên đá bời bời,</p>
-      <p class="quocngu">Thấy Từ còn đứng giữa trời trơ trơ.</p>
-      <p class="author"><i>(Dòng 2527-2528) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡄎自𧻭役兵刀</p>
+      <p class="nom">棟󰢇無定㐌高朋頭”</p>
+      <p class="quocngu">Ngẫm từ dấy việc binh đao,</p>
+      <p class="quocngu">Đống xương Vô Định đã cao bằng đầu.</p>
+      <p class="author"><i>(Dòng 2493-2494) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,40 +26,34 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Speak only endearing speech, speech that \
-| is welcomed. Speech, when it brings no    |
-| evil to others, is a pleasant thing.”     |
+/ “Train up a fig tree in the way it should \
+| go, and when you are old sit under the    |
+| shade of it.”                             |
 |                                           |
-\  -- The Buddha                            /
+\  -- Charles Dickens                       /
  -------------------------------------------
-    \
-     \
-      \
-       \
-        \
-         \
-    \     \                     /
-     \     \                   /
-      \     \                 /
-       ]     \               [    ,'|
-       ]      \              [   /  |
-       ]___               ___[ ,'   |
-       ]  ]\             /[  [ |:   |
-       ]  ] \           / [  [ |:   |
-       ]  ]  ]         [  [  [ |:   |
-       ]  ]  ]__     __[  [  [ |:   |
-       ]  ]  ] ]\ _ /[ [  [  [ |:   |
-       ]  ]  ] ] (#) [ [  [  [ :===='
-       ]  ]  ]_].nHn.[_[  [  [
-       ]  ]  ]  HHHHH. [  [  [
-       ]  ] /   `HH("N  \ [  [
-       ]__]/     HHH  "  \[__[
-       ]         NNN         [
-       ]         N/"         [
-       ]         N H         [
-      /          N            \
-     /           q,            \
-    /                           \
+                                    \
+                                     \
+                                                         ____                   
+                                               [(=]|[==/   @  \     
+                                                      |--------|                
+     *                                     *  .       ==========                
+.  / *    .                         *   .* . * /.     ==========                
+ / /  .                      *   .    *  \. * /      ||||||||||||               
+ =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
+  \  \ .                             *  (===========[  /=========]              
+.  \   *  *                          .    /  * \   |==============]             
+         *                        *      *         C @ @ @ @ @ @ |D             
+        *  *                          .           /              |              
+                                         .       C  @ @ @  @ @  @ |D            
+          *                          *          /                 |             
+                                               C  @  @  @  @  @  @ |D           
+                                              /                    |            
+                                             C  @   @   @   @  @  @ |D          
+                                            /                       |           
+                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
+                                            -------------------------           
+Modified from howard1@vax.oxford.ac.uk
 ```
 <!-- END_QUOTE -->
 
