@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰎎埋𥪝局追歡</p>
-      <p class="nom">強悁属󰞺強攔𢬢情”</p>
-      <p class="quocngu">Miệt mài trong cuộc truy hoan,</p>
-      <p class="quocngu">Càng quen thuộc nết, càng dan díu tình.</p>
-      <p class="author"><i>(Dòng 1299-1300) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“沛浪𪱆𤈛畑𤍶</p>
+      <p class="nom">𤑟𤉜𡎢妬拯羅束生”</p>
+      <p class="quocngu">"Phải rằng nắng quáng đèn loà,</p>
+      <p class="quocngu">Rõ ràng ngồi đó, chẳng là Thúc Sinh?</p>
+      <p class="author"><i>(Dòng 1807-1808) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The truth is incontrovertible. Malice may \
-| attack it, ignorance may deride it, but in |
-| the end, there it is.”                     |
-|                                            |
-\  -- Winston Churchill                      /
- --------------------------------------------
+ ___________________________________________
+/ “Don't worry about people stealing your   \
+| ideas. If your ideas are any good, you'll |
+| have to ram them down people's throats.”  |
+|                                           |
+\  -- Howard H. Aiken                       /
+ -------------------------------------------
      \
       \
-                   [\
-              .----' `-----.
-             //^^^^;;^^^^^^`\
-     _______//_____||_____()_\________
-    /826    :      : ___              `\
-   |>   ____;      ;  |/\><|   ____   _<)
-  {____/    \_________________/    \____}
-       \ '' /                 \ '' /
- jgs    '--'                   '--'
+     _              __
+    / `\  (~._    ./  )
+    \__/ __`-_\__/ ./
+   _ \ \/  \   \ |_   __
+ (   )  \__/ -^    \ /  \
+  \_/ "  \  | o  o  |.. /  __
+       \. --' ====  /  || /  \
+         \   .  .  |---__.\__/
+         /  :     /   |   |
+         /   :   /     \_/
+      --/ ::    (
+     (  |     (  (____
+   .--  .. ----**.____)
+   \___/
 ```
 <!-- END_QUOTE -->
 
