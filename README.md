@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“沛浪𪱆𤈛畑𤍶</p>
-      <p class="nom">𤑟𤉜𡎢妬拯羅束生”</p>
-      <p class="quocngu">"Phải rằng nắng quáng đèn loà,</p>
-      <p class="quocngu">Rõ ràng ngồi đó, chẳng là Thúc Sinh?</p>
-      <p class="author"><i>(Dòng 1807-1808) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“餞迻󰜋𡃹關河</p>
+      <p class="nom">春亭脱㐌𢶿𠚢臯亭”</p>
+      <p class="quocngu">Tiễn đưa một chén quan hà,</p>
+      <p class="quocngu">Xuân đình thoắt đã dọn ra Cao đình.</p>
+      <p class="author"><i>(Dòng 1499-1500) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,11 +26,9 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Don't worry about people stealing your   \
-| ideas. If your ideas are any good, you'll |
-| have to ram them down people's throats.”  |
+/ “The ballot is stronger than the bullet.” \
 |                                           |
-\  -- Howard H. Aiken                       /
+\  -- Abraham Lincoln                       /
  -------------------------------------------
      \
       \
