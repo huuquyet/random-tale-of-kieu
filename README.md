@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“餞迻󰜋𡃹關河</p>
-      <p class="nom">春亭脱㐌𢶿𠚢臯亭”</p>
-      <p class="quocngu">Tiễn đưa một chén quan hà,</p>
-      <p class="quocngu">Xuân đình thoắt đã dọn ra Cao đình.</p>
-      <p class="author"><i>(Dòng 1499-1500) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“據牢陳濁更𣌉</p>
+      <p class="nom">牟花梨唉滛湜湥𩅹”</p>
+      <p class="quocngu">"Cớ sao trằn trọc canh khuya,</p>
+      <p class="quocngu">Màu hoa lê hãy dầm dề giọt mưa?"</p>
+      <p class="author"><i>(Dòng 225-226) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,26 +26,21 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “The ballot is stronger than the bullet.” \
+/ “You just can't beat the person who never \
+| gives up.”                                |
 |                                           |
-\  -- Abraham Lincoln                       /
+\  -- Babe Ruth                             /
  -------------------------------------------
-     \
-      \
-     _              __
-    / `\  (~._    ./  )
-    \__/ __`-_\__/ ./
-   _ \ \/  \   \ |_   __
- (   )  \__/ -^    \ /  \
-  \_/ "  \  | o  o  |.. /  __
-       \. --' ====  /  || /  \
-         \   .  .  |---__.\__/
-         /  :     /   |   |
-         /   :   /     \_/
-      --/ ::    (
-     (  |     (  (____
-   .--  .. ----**.____)
-   \___/
+   \
+    \
+  
+             _ - ￣ - _
+           _-_＿＿＿＿_- _
+         ￣ｌ  ●   ●  l￣
+            ヽ､_ ⌒ _ノ
+         _ -‐ニ ￣ ニ‐- _
+  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
+ ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
 ```
 <!-- END_QUOTE -->
 
