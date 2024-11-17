@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“據牢陳濁更𣌉</p>
-      <p class="nom">牟花梨唉滛湜湥𩅹”</p>
-      <p class="quocngu">"Cớ sao trằn trọc canh khuya,</p>
-      <p class="quocngu">Màu hoa lê hãy dầm dề giọt mưa?"</p>
-      <p class="author"><i>(Dòng 225-226) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“閉𥹰𠻞喫𡦂同</p>
+      <p class="nom">添𠊚𢖮拱𢺺𢚸𥢆西”</p>
+      <p class="quocngu">Bấy lâu khăng khít chữ đồng,</p>
+      <p class="quocngu">Thêm người, ắt cũng chia lòng riêng tây.</p>
+      <p class="author"><i>(Dòng 1341-1342) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “You just can't beat the person who never \
-| gives up.”                                |
-|                                           |
-\  -- Babe Ruth                             /
- -------------------------------------------
-   \
-    \
-  
-             _ - ￣ - _
-           _-_＿＿＿＿_- _
-         ￣ｌ  ●   ●  l￣
-            ヽ､_ ⌒ _ノ
-         _ -‐ニ ￣ ニ‐- _
-  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
- ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
+ ____________________________________________
+/ “The one thing that you have that nobody   \
+| else has is you. Your voice, your mind,    |
+| your story, your vision. So write and draw |
+| and build and play and dance and live as   |
+| only you can.”                             |
+|                                            |
+\  -- Neil Gaiman                            /
+ --------------------------------------------
+\
+ \
+   /\   /\   Todd Vargo
+  //\\_//\\     ____
+  \_     _/    /   /
+   / * * \    /^^^]
+   \_\O/_/    [   ]
+    /   \_    [   /
+    \     \_  /  /
+     [ [ /  \/ _/
+    _[ [ \  /_/
 ```
 <!-- END_QUOTE -->
 
