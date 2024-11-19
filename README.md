@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“功程計别󰋇𨑮</p>
-      <p class="nom">爲些𠻞喫朱𠊚𢷣揚”</p>
-      <p class="quocngu">Công trình kể biết mấy mươi.</p>
-      <p class="quocngu">Vì ta khăng khít cho người dở dang.</p>
-      <p class="author"><i>(Dòng 699-700) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦖑払呐㐌歇調</p>
+      <p class="nom">𠄩親𪰛拱决蹺󰜋排”</p>
+      <p class="quocngu">Nghe chàng nói đã hết điều,</p>
+      <p class="quocngu">Hai thân thì cũng quyết theo một bài.</p>
+      <p class="author"><i>(Dòng 3127-3128) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “You just can't beat the person who never \
-| gives up.”                                |
-|                                           |
-\  -- Babe Ruth                             /
- -------------------------------------------
+ ____________________________________________
+/ “Friendship increases in visiting friends, \
+| but in visiting them seldom.”              |
+|                                            |
+\  -- Francis Bacon                          /
+ --------------------------------------------
    \
     \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
 
-     |\_/|
-     |o o|__
-     --*--__\
-     C_C_(___)
 ```
 <!-- END_QUOTE -->
 
