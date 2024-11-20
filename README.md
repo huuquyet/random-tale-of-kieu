@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦖑払呐㐌歇調</p>
-      <p class="nom">𠄩親𪰛拱决蹺󰜋排”</p>
-      <p class="quocngu">Nghe chàng nói đã hết điều,</p>
-      <p class="quocngu">Hai thân thì cũng quyết theo một bài.</p>
-      <p class="author"><i>(Dòng 3127-3128) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠳨翁翁𫄓訟庭</p>
+      <p class="nom">𠳨娘娘㐌半命贖吒”</p>
+      <p class="quocngu">Hỏi ông, ông mắc tụng đình,</p>
+      <p class="quocngu">Hỏi nàng, nàng đã bán mình chuộc cha.</p>
+      <p class="author"><i>(Dòng 2757-2758) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Friendship increases in visiting friends, \
-| but in visiting them seldom.”              |
-|                                            |
-\  -- Francis Bacon                          /
- --------------------------------------------
+ _________________________________________
+/ “The fewer rules a coach has, the fewer \
+| rules there are for players to break.”  |
+|                                         |
+\  -- John Madden                         /
+ -----------------------------------------
    \
     \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
-
+          _,--',   _._.--._____
+   .--.--';_'-.', ";_      _.,-'
+  .'--'.  _.'    {`'-;_ .-.>.'
+        '-:_      )  / `' '=.
+          ) >     {_/,     /~)
+  snd     |/               `^ .'
 ```
 <!-- END_QUOTE -->
 
