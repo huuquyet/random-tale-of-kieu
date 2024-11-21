@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠳨翁翁𫄓訟庭</p>
-      <p class="nom">𠳨娘娘㐌半命贖吒”</p>
-      <p class="quocngu">Hỏi ông, ông mắc tụng đình,</p>
-      <p class="quocngu">Hỏi nàng, nàng đã bán mình chuộc cha.</p>
-      <p class="author"><i>(Dòng 2757-2758) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“尋兜朱𧡊故人</p>
+      <p class="nom">𥙩勾運命𢣧寅𢖵傷”</p>
+      <p class="quocngu">Tìm đâu cho thấy cố nhân?</p>
+      <p class="quocngu">Lấy câu vận mệnh khuây dần nhớ thương.</p>
+      <p class="author"><i>(Dòng 1797-1798) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The fewer rules a coach has, the fewer \
-| rules there are for players to break.”  |
-|                                         |
-\  -- John Madden                         /
- -----------------------------------------
-   \
-    \
-          _,--',   _._.--._____
-   .--.--';_'-.', ";_      _.,-'
-  .'--'.  _.'    {`'-;_ .-.>.'
-        '-:_      )  / `' '=.
-          ) >     {_/,     /~)
-  snd     |/               `^ .'
+ ____________________________________________
+/ “There is no expedient to which a man will \
+| not go to avoid the labor of thinking.”    |
+|                                            |
+\  -- Thomas Edison                          /
+ --------------------------------------------
+  \     .    _  .    
+   \    |\_|/__/|    
+       / / \/ \  \  
+      /__|o||o|__ \ 
+     |/_ \_/\_/ _\ |  
+     | | (____) | ||  
+     \/\___/\__/  // 
+     (_/         ||
+      |          ||
+      |          ||\   
+       \        //_/  
+        \______//
+       __ || __||
+      (____(____)
 ```
 <!-- END_QUOTE -->
 
