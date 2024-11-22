@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“尋兜朱𧡊故人</p>
-      <p class="nom">𥙩勾運命𢣧寅𢖵傷”</p>
-      <p class="quocngu">Tìm đâu cho thấy cố nhân?</p>
-      <p class="quocngu">Lấy câu vận mệnh khuây dần nhớ thương.</p>
-      <p class="author"><i>(Dòng 1797-1798) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋𢬣𨢟𥩯基圖</p>
+      <p class="nom">閉𥹰𣷭楚滝吳縱横”</p>
+      <p class="quocngu">Một tay gây dựng cơ đồ,</p>
+      <p class="quocngu">Bấy lâu bể Sở, sông Ngô tung hoành!</p>
+      <p class="author"><i>(Dòng 2463-2464) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “There is no expedient to which a man will \
-| not go to avoid the labor of thinking.”    |
-|                                            |
-\  -- Thomas Edison                          /
- --------------------------------------------
-  \     .    _  .    
-   \    |\_|/__/|    
-       / / \/ \  \  
-      /__|o||o|__ \ 
-     |/_ \_/\_/ _\ |  
-     | | (____) | ||  
-     \/\___/\__/  // 
-     (_/         ||
-      |          ||
-      |          ||\   
-       \        //_/  
-        \______//
-       __ || __||
-      (____(____)
+ _________________________________________
+/ “Some people thrive on huge, dramatic   \
+| change. Some people prefer the slow and |
+| steady route. Do what's right for you.” |
+|                                         |
+\  -- Julie Morgenstern                   /
+ -----------------------------------------
+  \
+   \
+        ____________
+       /\  ________ \
+      /  \ \______/\ \
+     / /\ \ \  / /\ \ \
+    / / /\ \ \/ / /\ \ \
+   / / /__\ \ \/_/__\_\ \__________
+  / /_/____\ \__________  ________ \
+  \ \ \____/ / ________/\ \______/\ \
+   \ \ \  / / /\ \  / /\ \ \  / /\ \ \
+    \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
+     \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
+      \  /_/______\/_/____\ \___________\
+      /  \ \______/\ \____/ / ________  /
+     / /\ \ \  / /\ \ \  / / /\ \  / / /
+    / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
+   / / /__\ \ \/_/__\_\/ / /__\_\/ / /
+  / /_/____\ \_________\/ /______\/ /
+  \ \ \____/ / ________  __________/
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
