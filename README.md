@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋𢬣𨢟𥩯基圖</p>
-      <p class="nom">閉𥹰𣷭楚滝吳縱横”</p>
-      <p class="quocngu">Một tay gây dựng cơ đồ,</p>
-      <p class="quocngu">Bấy lâu bể Sở, sông Ngô tung hoành!</p>
-      <p class="author"><i>(Dòng 2463-2464) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“媒浪昆唉從容</p>
+      <p class="nom">沛調𢚸吏𢷮𢚸麻𨔈”</p>
+      <p class="quocngu">Mụ rằng: "Con hãy thong dong,</p>
+      <p class="quocngu">Phải điều lòng lại đổi lòng mà chơi!</p>
+      <p class="author"><i>(Dòng 1027-1028) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “Some people thrive on huge, dramatic   \
-| change. Some people prefer the slow and |
-| steady route. Do what's right for you.” |
-|                                         |
-\  -- Julie Morgenstern                   /
- -----------------------------------------
-  \
-   \
-        ____________
-       /\  ________ \
-      /  \ \______/\ \
-     / /\ \ \  / /\ \ \
-    / / /\ \ \/ / /\ \ \
-   / / /__\ \ \/_/__\_\ \__________
-  / /_/____\ \__________  ________ \
-  \ \ \____/ / ________/\ \______/\ \
-   \ \ \  / / /\ \  / /\ \ \  / /\ \ \
-    \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
-     \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
-      \  /_/______\/_/____\ \___________\
-      /  \ \______/\ \____/ / ________  /
-     / /\ \ \  / /\ \ \  / / /\ \  / / /
-    / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
-   / / /__\ \ \/_/__\_\/ / /__\_\/ / /
-  / /_/____\ \_________\/ /______\/ /
-  \ \ \____/ / ________  __________/
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+ __________________________________________
+/ “We cannot be more sensitive to pleasure \
+| without being more sensitive to pain.”   |
+|                                          |
+\  -- Alan Watts                           /
+ ------------------------------------------
+     \
+      \
+       \
+             , -――- 、
+          ／          ヽ、
+        /爻ﾉﾘﾉﾊﾉﾘlﾉ ゝ  l
+     ＜ﾉﾘﾉ‐'    ｰ  ﾘ ＞ }
+        l ﾉ ┃    ┃ l ﾉ  ﾉ
+        l人   r‐┐   !ﾉ＾)
+           ゝ ` ´ ‐＜´
 ```
 <!-- END_QUOTE -->
 
