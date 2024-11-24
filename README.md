@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“媒浪昆唉從容</p>
-      <p class="nom">沛調𢚸吏𢷮𢚸麻𨔈”</p>
-      <p class="quocngu">Mụ rằng: "Con hãy thong dong,</p>
-      <p class="quocngu">Phải điều lòng lại đổi lòng mà chơi!</p>
-      <p class="author"><i>(Dòng 1027-1028) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠄩邊意合心投</p>
+      <p class="nom">欺親拯路羅求買親”</p>
+      <p class="quocngu">Hai bên ý hợp, tâm đầu,</p>
+      <p class="quocngu">Khi thân, chẳng lọ là cầu mới thân!</p>
+      <p class="author"><i>(Dòng 2205-2206) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,21 +26,17 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  __________________________________________
-/ “We cannot be more sensitive to pleasure \
-| without being more sensitive to pain.”   |
+/ “The superior man understands what is    \
+| right; the inferior man understands what |
+| will sell.”                              |
 |                                          |
-\  -- Alan Watts                           /
+\  -- Confucius                            /
  ------------------------------------------
-     \
-      \
-       \
-             , -――- 、
-          ／          ヽ、
-        /爻ﾉﾘﾉﾊﾉﾘlﾉ ゝ  l
-     ＜ﾉﾘﾉ‐'    ｰ  ﾘ ＞ }
-        l ﾉ ┃    ┃ l ﾉ  ﾉ
-        l人   r‐┐   !ﾉ＾)
-           ゝ ` ´ ‐＜´
+  \
+   \   \
+        \ /\
+        ( )
+      .( o ).
 ```
 <!-- END_QUOTE -->
 
