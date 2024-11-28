@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“推𥪝情狀原單</p>
-      <p class="nom">皮󰅹𪰛拱渚衝皮󰅹”</p>
-      <p class="quocngu">Suy trong tình trạng nguyên đơn,</p>
-      <p class="quocngu">Bề nào, thì cũng chưa xong bề nào.</p>
-      <p class="author"><i>(Dòng 1415-1416) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠾔𢆥魚父𠄩𠊚</p>
+      <p class="nom">棟船直𤅶結𥾒扛滝”</p>
+      <p class="quocngu">Thuê năm ngư phủ hai người,</p>
+      <p class="quocngu">Đóng thuyền chực bến kết chài giăng sông.</p>
+      <p class="author"><i>(Dòng 2699-2700) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,16 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “An organization's ability to learn, and \
-| translate that learning into action      |
-| rapidly, is the ultimate competitive     |
-| advantage.”                              |
-|                                          |
-\  -- Jack Welch                           /
- ------------------------------------------
-  \
-(╯°□°）╯︵ ┻━┻
+ ____________________________________________
+/ “A creative man is motivated by the desire \
+| to achieve, not by the desire to beat      |
+| others.”                                   |
+|                                            |
+\  -- Ayn Rand                               /
+ --------------------------------------------
+   \
+    \
+     \
+               ＿＿＿＿＿
+           .:´.: .: . : :. `  、
+     ..: ／.: .: .: . : .: .:   ＼
+    .::／:::       ﾉ   /､         ＼
+   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
+ .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
+ .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
+..:::|.:::ノ::{{:::}       {:::}}{: |＼|
+..:::::::_::|::うﾆソ       う:ソＶ: |
+.::: /.:/ |:|:ヽヽ       ｀      }: |
+.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
+ ..::|.ゝ,ヽ|:   /      /     ／:::八
+ .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
+  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
+   ..::::／⌒: :|:ＶＶ{ヽ:＼
+      .:/.: :|::l::ﾍ}/\|:}:.＼
+    ..::｢.: :|::＞:Ｖ//|〈:.}.}
+  ...::/.:: :|::＼: Ｖ/| / :}:.┐
+ ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
+..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
 ```
 <!-- END_QUOTE -->
 
