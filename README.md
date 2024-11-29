@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠾔𢆥魚父𠄩𠊚</p>
-      <p class="nom">棟船直𤅶結𥾒扛滝”</p>
-      <p class="quocngu">Thuê năm ngư phủ hai người,</p>
-      <p class="quocngu">Đóng thuyền chực bến kết chài giăng sông.</p>
-      <p class="author"><i>(Dòng 2699-2700) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣌋𣌉蘿貝幡𩄲</p>
+      <p class="nom">𦰟畑挑月㗂𣖖󰠱霜”</p>
+      <p class="quocngu">Sớm khuya lá bối, phướn mây,</p>
+      <p class="quocngu">Ngọn đèn khêu nguyệt, tiếng chày nặng sương.</p>
+      <p class="author"><i>(Dòng 2057-2058) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,35 +26,19 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “A creative man is motivated by the desire \
-| to achieve, not by the desire to beat      |
-| others.”                                   |
+/ “An appeaser is one who feeds a crocodile, \
+| hoping it will eat him last.”              |
 |                                            |
-\  -- Ayn Rand                               /
+\  -- Winston Churchill                      /
  --------------------------------------------
-   \
-    \
-     \
-               ＿＿＿＿＿
-           .:´.: .: . : :. `  、
-     ..: ／.: .: .: . : .: .:   ＼
-    .::／:::       ﾉ   /､         ＼
-   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
- .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
- .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
-..:::|.:::ノ::{{:::}       {:::}}{: |＼|
-..:::::::_::|::うﾆソ       う:ソＶ: |
-.::: /.:/ |:|:ヽヽ       ｀      }: |
-.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
- ..::|.ゝ,ヽ|:   /      /     ／:::八
- .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
-  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
-   ..::::／⌒: :|:ＶＶ{ヽ:＼
-      .:/.: :|::l::ﾍ}/\|:}:.＼
-    ..::｢.: :|::＞:Ｖ//|〈:.}.}
-  ...::/.:: :|::＼: Ｖ/| / :}:.┐
- ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
-..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
+       \
+        \
+         \  _))
+           > o\     _~
+           `;'\\__-' \_
+              | )  _ \ \
+             / / ``   w w
+            w w
 ```
 <!-- END_QUOTE -->
 
