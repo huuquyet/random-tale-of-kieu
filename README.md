@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣌋𣌉蘿貝幡𩄲</p>
-      <p class="nom">𦰟畑挑月㗂𣖖󰠱霜”</p>
-      <p class="quocngu">Sớm khuya lá bối, phướn mây,</p>
-      <p class="quocngu">Ngọn đèn khêu nguyệt, tiếng chày nặng sương.</p>
-      <p class="author"><i>(Dòng 2057-2058) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“群當用孕菫魚</p>
+      <p class="nom">𠃅外㐌𧡊䏾旗㗂鑼”</p>
+      <p class="quocngu">Còn đang dùng dắng ngẩn ngơ,</p>
+      <p class="quocngu">Mái ngoài đã thấy bóng cờ tiếng la.</p>
+      <p class="author"><i>(Dòng 2257-2258) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “An appeaser is one who feeds a crocodile, \
-| hoping it will eat him last.”              |
-|                                            |
-\  -- Winston Churchill                      /
- --------------------------------------------
-       \
-        \
-         \  _))
-           > o\     _~
-           `;'\\__-' \_
-              | )  _ \ \
-             / / ``   w w
-            w w
+ __________________________________________
+/ “Do not worry about your difficulties in \
+| Mathematics. I can assure you mine are   |
+| still greater.”                          |
+|                                          |
+\  -- Albert Einstein                      /
+ ------------------------------------------
+   \      {
+    \  }   }   {
+      {   {  }  }
+       }   }{  {
+      {  }{  }  }
+     ( }{ }{  { )
+    .-{   }   }-.
+   ( ( } { } { } )
+   |`-.._____..-'|
+   |             ;--.
+   |   (__)     (__  \
+   |   (oo)      | )  )
+   |    \/       |/  /
+   |             /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
 ```
 <!-- END_QUOTE -->
 
