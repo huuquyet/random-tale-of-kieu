@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“群當用孕菫魚</p>
-      <p class="nom">𠃅外㐌𧡊䏾旗㗂鑼”</p>
-      <p class="quocngu">Còn đang dùng dắng ngẩn ngơ,</p>
-      <p class="quocngu">Mái ngoài đã thấy bóng cờ tiếng la.</p>
-      <p class="author"><i>(Dòng 2257-2258) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“調兜𥙩燕爫󰢒</p>
+      <p class="nom">癡疎渚別羅名分之”</p>
+      <p class="quocngu">Điều đâu lấy yến làm anh,</p>
+      <p class="quocngu">Ngây thơ chửa biết là danh phận gì?</p>
+      <p class="author"><i>(Dòng 955-956) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,49 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Do not worry about your difficulties in \
-| Mathematics. I can assure you mine are   |
-| still greater.”                          |
-|                                          |
-\  -- Albert Einstein                      /
- ------------------------------------------
-   \      {
-    \  }   }   {
-      {   {  }  }
-       }   }{  {
-      {  }{  }  }
-     ( }{ }{  { )
-    .-{   }   }-.
-   ( ( } { } { } )
-   |`-.._____..-'|
-   |             ;--.
-   |   (__)     (__  \
-   |   (oo)      | )  )
-   |    \/       |/  /
-   |             /  /
-   |            (  /
-   \             y'
-    `-.._____..-'
+ ___________________________________________
+/ “Courage is rightly esteemed the first of \
+| human qualities... because it is the      |
+| quality which guarantees all others.”     |
+|                                           |
+\  -- Winston Churchill                     /
+ -------------------------------------------
+      \
+       \
+        \                                     ,
+                                            ,o
+                                            :o
+                   _....._                  `:o
+                 .\'       ``-.                \o
+                /  _      _   \                \o
+               :  /*\    /*\   )                ;o
+               |  \_/    \_/   /                ;o
+               (       U      /                 ;o
+                \  (\_____/) /                  /o
+                 \   \_m_/  (                  /o
+                  \         (                ,o:
+                  )          \,           .o;o\'           ,o\'o\'o.
+                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
+ .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
+ o           ./o./ /       .o \.              __,-o o,o\'
+ \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
+ `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
+ .,  ``o-o\'  ,.oo/   \'o /\.o`.
+ `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
+   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
+                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
+                  \ o\              ``-o-o\'\'\'\'
+   ,-o;o           \o \
+  /o/               )o )  Carl Pilcher
+ (o(               /o /                |
+  \o\.       ...-o\'o /              \   |
+    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ```o--\'\'\'                       \| /
+                                       |/
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                       |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ```
 <!-- END_QUOTE -->
 
