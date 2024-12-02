@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“調兜𥙩燕爫󰢒</p>
-      <p class="nom">癡疎渚別羅名分之”</p>
-      <p class="quocngu">Điều đâu lấy yến làm anh,</p>
-      <p class="quocngu">Ngây thơ chửa biết là danh phận gì?</p>
-      <p class="author"><i>(Dòng 955-956) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“猪如𥒥凭如銅</p>
+      <p class="nom">埃𢯦朱轉埃󰢱朱移”</p>
+      <p class="quocngu">Trơ như đá, vững như đồng,</p>
+      <p class="quocngu">Ai lay cho chuyển, ai rung cho rời.</p>
+      <p class="author"><i>(Dòng 2521-2522) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,49 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Courage is rightly esteemed the first of \
-| human qualities... because it is the      |
-| quality which guarantees all others.”     |
-|                                           |
-\  -- Winston Churchill                     /
- -------------------------------------------
-      \
-       \
-        \                                     ,
-                                            ,o
-                                            :o
-                   _....._                  `:o
-                 .\'       ``-.                \o
-                /  _      _   \                \o
-               :  /*\    /*\   )                ;o
-               |  \_/    \_/   /                ;o
-               (       U      /                 ;o
-                \  (\_____/) /                  /o
-                 \   \_m_/  (                  /o
-                  \         (                ,o:
-                  )          \,           .o;o\'           ,o\'o\'o.
-                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
- .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
- o           ./o./ /       .o \.              __,-o o,o\'
- \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
- `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
- .,  ``o-o\'  ,.oo/   \'o /\.o`.
- `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
-   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
-                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
-                  \ o\              ``-o-o\'\'\'\'
-   ,-o;o           \o \
-  /o/               )o )  Carl Pilcher
- (o(               /o /                |
-  \o\.       ...-o\'o /              \   |
-    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      ```o--\'\'\'                       \| /
-                                       |/
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                                       |
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+ ____________________________________________
+/ “You spend a good piece of your life       \
+| gripping a baseball and in the end it      |
+| turns out that it was the other way around |
+| all the time.”                             |
+|                                            |
+\  -- Jim Bouton                             /
+ --------------------------------------------
+                 \
+                  \  _,._
+                 __.'   _)
+                <_,)'.-"o\
+                  /' (    \
+      _.-----..,-'   (`"--^
+     //              |     
+    (|   `;      ,   |  
+      \   ;.----/  ,/ 
+       ) // /   | |\ \
+       \ \\`\   | |/ /
+        \ \\ \  | |\/
 ```
 <!-- END_QUOTE -->
 
