@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“猪如𥒥凭如銅</p>
-      <p class="nom">埃𢯦朱轉埃󰢱朱移”</p>
-      <p class="quocngu">Trơ như đá, vững như đồng,</p>
-      <p class="quocngu">Ai lay cho chuyển, ai rung cho rời.</p>
-      <p class="author"><i>(Dòng 2521-2522) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“束生悁󰞺卜徠</p>
+      <p class="nom">𤾓𠦳覩󰜋陣唭如空”</p>
+      <p class="quocngu">Thúc Sinh quen nết bốc rời,</p>
+      <p class="quocngu">Trăm nghìn đổ một trận cười như không.</p>
+      <p class="author"><i>(Dòng 1303-1304) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “You spend a good piece of your life       \
-| gripping a baseball and in the end it      |
-| turns out that it was the other way around |
-| all the time.”                             |
-|                                            |
-\  -- Jim Bouton                             /
- --------------------------------------------
-                 \
-                  \  _,._
-                 __.'   _)
-                <_,)'.-"o\
-                  /' (    \
-      _.-----..,-'   (`"--^
-     //              |     
-    (|   `;      ,   |  
-      \   ;.----/  ,/ 
-       ) // /   | |\ \
-       \ \\`\   | |/ /
-        \ \\ \  | |\/
+ _________________________________________
+/ “The only time to buy these is on a day \
+| with no 'y' in it.”                     |
+|                                         |
+\  -- Warren Buffett                      /
+ -----------------------------------------
+#
+# International Business Machines
+#
+
+$the_cow = << EOC;
+  \
+   \
+
+■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
+■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
+ ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
+ ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
+ ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
+ ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
+■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
+■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
+EOC
+
 ```
 <!-- END_QUOTE -->
 
