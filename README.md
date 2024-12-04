@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“束生悁󰞺卜徠</p>
-      <p class="nom">𤾓𠦳覩󰜋陣唭如空”</p>
-      <p class="quocngu">Thúc Sinh quen nết bốc rời,</p>
-      <p class="quocngu">Trăm nghìn đổ một trận cười như không.</p>
-      <p class="author"><i>(Dòng 1303-1304) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“窖羅𢷣辱排路</p>
+      <p class="nom">群情兜女𦓡讐妬催”</p>
+      <p class="quocngu">Khéo là giở nhuốc bày trò,</p>
+      <p class="quocngu">Còn tình đâu nữa mà thù đó thôi!</p>
+      <p class="author"><i>(Dòng 3155-3156) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The only time to buy these is on a day \
-| with no 'y' in it.”                     |
-|                                         |
-\  -- Warren Buffett                      /
- -----------------------------------------
-#
-# International Business Machines
-#
-
-$the_cow = << EOC;
-  \
-   \
-
-■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
-■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
- ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
- ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
- ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
- ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
-■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
-■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
-EOC
-
+ ___________________________________________
+/ “I'm tired of hearing about money, money, \
+| money, money, money. I just want to play  |
+| the game, drink Pepsi, and wear Reebok.”  |
+|                                           |
+\  -- Shaquille O'Neal                      /
+ -------------------------------------------
+     \
+      \
+       ("`-'  '-/") .___..--' ' "`-._
+         ` o_ o  )    `-.   (      ) .`-.__. `)
+         (_Y_.) ' ._   )   `._` ;  `` -. .-'
+      _.. `--'_..-_/   /--' _ .' ,4
+   ( i l ),-''  ( l i),'  ( ( ! .-'    
 ```
 <!-- END_QUOTE -->
 
