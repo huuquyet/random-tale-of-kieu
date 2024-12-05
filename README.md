@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“窖羅𢷣辱排路</p>
-      <p class="nom">群情兜女𦓡讐妬催”</p>
-      <p class="quocngu">Khéo là giở nhuốc bày trò,</p>
-      <p class="quocngu">Còn tình đâu nữa mà thù đó thôi!</p>
-      <p class="author"><i>(Dòng 3155-3156) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢖵自𢆥唉䜹癡</p>
+      <p class="nom">據𥪝相法𪥀柴吱排”</p>
+      <p class="quocngu">Nhớ từ năm hãy thơ ngây,</p>
+      <p class="quocngu">Cứ trong tướng pháp lắm thầy chê bai:</p>
+      <p class="author"><i>(Dòng 413-414) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I'm tired of hearing about money, money, \
-| money, money, money. I just want to play  |
-| the game, drink Pepsi, and wear Reebok.”  |
-|                                           |
-\  -- Shaquille O'Neal                      /
- -------------------------------------------
+ _____________________________________________
+/ “If a man watches three football games in a \
+| row, he should be declared legally dead.”   |
+|                                             |
+\  -- Erma Bombeck                            /
+ ---------------------------------------------
      \
       \
-       ("`-'  '-/") .___..--' ' "`-._
-         ` o_ o  )    `-.   (      ) .`-.__. `)
-         (_Y_.) ' ._   )   `._` ;  `` -. .-'
-      _.. `--'_..-_/   /--' _ .' ,4
-   ( i l ),-''  ( l i),'  ( ( ! .-'    
+         __________________
+        /\  ______________ \
+       /::\ \ZZZZZZZZZZZZ/\ \
+      /:/\.\ \        /:/\:\ \
+     /:/Z/\:\ \      /:/Z/\:\ \
+    /:/Z/__\:\ \____/:/Z/  \:\ \
+   /:/Z/____\:\ \___\/Z/    \:\ \
+   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
+    \:\ \     \:\ \ \:\ \     \:\ \
+     \:\ \     \:\ \_\;\_\_____\;\ \
+      \:\ \     \:\_________________\
+       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
+        \:\ \  /:/Z/    \:\ \  /:/Z/
+         \:\ \/:/Z/      \:\ \/:/Z/
+          \:\/:/Z/________\;\/:/Z/
+           \::/Z/_______itz__\/Z/
+            \/ZZZZZZZZZZZZZZZZZ/
 ```
 <!-- END_QUOTE -->
 
