@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“他𠚢羅拱埋𠁀</p>
-      <p class="nom">爫𠚢𪰛拱𠚢𠊚𡮈然”</p>
-      <p class="quocngu">Tha ra là cũng may đời,</p>
-      <p class="quocngu">Làm ra thì cũng ra người nhỏ nhen.</p>
-      <p class="author"><i>(Dòng 2375-2376) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“刼尼𡢻㨋渚衝</p>
+      <p class="nom">爫之吏拱󰜋𫯳刼𡢐”</p>
+      <p class="quocngu">Kiếp này nợ trả chưa xong,</p>
+      <p class="quocngu">Làm chi lại cũng một chồng kiếp sau.</p>
+      <p class="author"><i>(Dòng 1019-1020) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Things do not happen. Things are made to \
-| happen.”                                  |
-|                                           |
-\  -- John F. Kennedy                       /
- -------------------------------------------
-   \
-    \
- ROFL:ROFL:ROFL:ROFL
-         _^___
- L    __/   oo \    
-LOL===__        \ 
- L      \________]
-         I   I    
-        --------/
+ _____________________________________________
+/ “Ideas pull the trigger, but instinct loads \
+| the gun.”                                   |
+|                                             |
+\  -- Don Marquis                             /
+ ---------------------------------------------
+ \
+  \
+   \     O_      __)(
+       ,'  `.   (_".`.
+      :      :    /|`
+      |      |   ((|_  ,-.
+      ; -   /:  ,'  `:(( -\
+     /    -'  `: ____ \\\-:
+    _\__   ____|___  \____|_
+   ;    | |        '-`      :
+  :_____|:|__________________:
+  ;     |:|                  :
+ :      |:|                   :
+ ;_______`'___________________:
+:                              :
+|______________________________|
+ `---.--------------------.---'
+     |____________________|
+     |                    |
+     |____________________|
+     |                    |
+   _\|_\|_\/(__\__)\__\//_|(_
 ```
 <!-- END_QUOTE -->
 
