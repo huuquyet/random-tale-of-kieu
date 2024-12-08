@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“刼尼𡢻㨋渚衝</p>
-      <p class="nom">爫之吏拱󰜋𫯳刼𡢐”</p>
-      <p class="quocngu">Kiếp này nợ trả chưa xong,</p>
-      <p class="quocngu">Làm chi lại cũng một chồng kiếp sau.</p>
-      <p class="author"><i>(Dòng 1019-1020) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“倍衛添𥙩𧵑茹</p>
+      <p class="nom">釧鐄堆隻巾纙󰜋󰉓”</p>
+      <p class="quocngu">Vội về thêm lấy của nhà,</p>
+      <p class="quocngu">Xuyến vàng đôi chiếc, khăn là một vuông.</p>
+      <p class="author"><i>(Dòng 317-318) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Ideas pull the trigger, but instinct loads \
-| the gun.”                                   |
-|                                             |
-\  -- Don Marquis                             /
- ---------------------------------------------
- \
-  \
-   \     O_      __)(
-       ,'  `.   (_".`.
-      :      :    /|`
-      |      |   ((|_  ,-.
-      ; -   /:  ,'  `:(( -\
-     /    -'  `: ____ \\\-:
-    _\__   ____|___  \____|_
-   ;    | |        '-`      :
-  :_____|:|__________________:
-  ;     |:|                  :
- :      |:|                   :
- ;_______`'___________________:
-:                              :
-|______________________________|
- `---.--------------------.---'
-     |____________________|
-     |                    |
-     |____________________|
-     |                    |
-   _\|_\|_\/(__\__)\__\//_|(_
+ ___________________________________________
+/ “Things do not happen. Things are made to \
+| happen.”                                  |
+|                                           |
+\  -- John F. Kennedy                       /
+ -------------------------------------------
+   \
+    \
+     \
+        __ \ / __
+       /  \ | /  \
+           \|/
+       _.---v---.,_
+      /            \  /\__/\
+     /              \ \_  _/
+     |__ @           |_/ /
+      _/                / 
+      \       \__,     /  
+   ~~~~\~~~~~~~~~~~~~~`~~~
+
 ```
 <!-- END_QUOTE -->
 
