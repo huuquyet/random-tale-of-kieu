@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“倍衛添𥙩𧵑茹</p>
-      <p class="nom">釧鐄堆隻巾纙󰜋󰉓”</p>
-      <p class="quocngu">Vội về thêm lấy của nhà,</p>
-      <p class="quocngu">Xuyến vàng đôi chiếc, khăn là một vuông.</p>
-      <p class="author"><i>(Dòng 317-318) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“小姐浪意𥪝詞</p>
+      <p class="nom">泣𢲠命薄嗔洳𨷯空”</p>
+      <p class="quocngu">Tiểu thư rằng: "Ý trong tờ,</p>
+      <p class="quocngu">Rắp đem mệnh bạc xin nhờ cửa không.</p>
+      <p class="author"><i>(Dòng 1909-1910) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,25 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Things do not happen. Things are made to \
-| happen.”                                  |
+/ “Should someone do good, let them do it   \
+| again and again. They should develop this |
+| habit, for the accumulation of goodness   |
+| brings joy.”                              |
 |                                           |
-\  -- John F. Kennedy                       /
+\  -- The Buddha                            /
  -------------------------------------------
-   \
-    \
-     \
-        __ \ / __
-       /  \ | /  \
-           \|/
-       _.---v---.,_
-      /            \  /\__/\
-     /              \ \_  _/
-     |__ @           |_/ /
-      _/                / 
-      \       \__,     /  
-   ~~~~\~~~~~~~~~~~~~~`~~~
-
+      \                            |     |
+       \                        ,--|     |-.
+                         __,----|  |     | |
+                       ,;::     |  `_____' |
+                       `._______|    i^i   |
+                                `----| |---'| .
+                           ,-------._| |== ||//
+                           |       |_|P`.  /'/
+                           `-------' 'Y Y/'/'
+                                     .==\ /_\
+   ^__^                             /   /'|  `i
+   (oo)\_______                   /'   /  |   |
+   (__)\       )\/\             /'    /   |   `i
+       ||----w |           ___,;`----'.___L_,-'`\__
+       ||     ||          i_____;----\.____i""\____\
 ```
 <!-- END_QUOTE -->
 
