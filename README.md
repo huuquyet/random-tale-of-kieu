@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“小姐浪意𥪝詞</p>
-      <p class="nom">泣𢲠命薄嗔洳𨷯空”</p>
-      <p class="quocngu">Tiểu thư rằng: "Ý trong tờ,</p>
-      <p class="quocngu">Rắp đem mệnh bạc xin nhờ cửa không.</p>
-      <p class="author"><i>(Dòng 1909-1910) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“擉𡗶恠渃默油</p>
+      <p class="nom">育昂󰅹別𨕭頭固埃”</p>
+      <p class="quocngu">Chọc trời quấy nước mặc dầu,</p>
+      <p class="quocngu">Dọc ngang nào biết trên đầu có ai?</p>
+      <p class="author"><i>(Dòng 2471-2472) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
