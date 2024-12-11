@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“擉𡗶恠渃默油</p>
-      <p class="nom">育昂󰅹別𨕭頭固埃”</p>
-      <p class="quocngu">Chọc trời quấy nước mặc dầu,</p>
-      <p class="quocngu">Dọc ngang nào biết trên đầu có ai?</p>
-      <p class="author"><i>(Dòng 2471-2472) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“師它𢲨𬟥方賒</p>
+      <p class="nom">𩄲𠖤䳽另別羅尋兜”</p>
+      <p class="quocngu">Sư đà hái thuốc phương xa,</p>
+      <p class="quocngu">Mây bay hạc lánh biết là tìm đâu?</p>
+      <p class="author"><i>(Dòng 3231-3232) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
