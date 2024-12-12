@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“師它𢲨𬟥方賒</p>
-      <p class="nom">𩄲𠖤䳽另別羅尋兜”</p>
-      <p class="quocngu">Sư đà hái thuốc phương xa,</p>
-      <p class="quocngu">Mây bay hạc lánh biết là tìm đâu?</p>
-      <p class="author"><i>(Dòng 3231-3232) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦛌蠶𣈗󰜋𤉗𤶐</p>
+      <p class="nom">雪霜𣈗󰜋耗𤷱命蟡”</p>
+      <p class="quocngu">Ruột tằm ngày một héo don,</p>
+      <p class="quocngu">Tuyết sương ngày một hao mòn mình ve.</p>
+      <p class="author"><i>(Dòng 2833-2834) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
