@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">\u201C𦖑𠳒娘㐌生疑</p>
-      <p class="nom">雙陀過坦管之特身\u201D</p>
-      <p class="quocngu">Nghe lời nàng đã sinh nghi,</p>
-      <p class="quocngu">Song đà quá đất quản gì được thân.</p>
-      <p class="author"><i>(D\u00F2ng 1113-1114) Truy\u1EC7n Ki\u1EC1u</i> -- Nguy\u1EC5n Du</p>
+      <p class="nom">“脱𬂙娘㐌別情</p>
+      <p class="nom">𪀄籠坤𨤰拮命𠖤高”</p>
+      <p class="quocngu">Thoắt trông nàng đã biết tình,</p>
+      <p class="quocngu">Chim lồng khôn lẽ cất mình bay cao.</p>
+      <p class="author"><i>(Dòng 2149-2150) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,39 +26,31 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “I wish I’d known those words on the day I \
-| watched those German troops land,          |
-| plane-load after plane-load of them—and    |
-| come off ships down in the harbor! All I   |
-| could think of was damn them, damn them,   |
-| over and over. If I could have thought the |
-| words "the bright day is done and we are   |
-| for the dark," I’d have been consoled      |
-| somehow and ready to go out and contend    |
-| with circumstance—instead of my heart      |
-| sinking to my shoes.”                      |
+/ “Perhaps we are both doing what we think   \
+| right. But what we think right is so       |
+| damned different that there can be nothing |
+| between us in the way of concession. There |
+| is nothing possible between us but honor   |
+| and death.”                                |
 |                                            |
-\  -- Mary Ann Shaffer                       /
+\  -- G.K. Chesterton                        /
  --------------------------------------------
-          \           \  / 
-           \           \/  
-               (__)    /\         
-               (oo)   O  O        
-               _\/_   //         
-         *    (    ) //       
-          \  (\\    //       
-           \(  \\    )                              
-            (   \\   )   /\                          
-  ___[\______/^^^^^^^\__/) o-)__                     
- |\__[=======______//________)__\                    
- \|_______________//____________|                    
-     |||      || //||     |||
-     |||      || @.||     |||                        
-      ||      \/  .\/      ||                        
-                 . .                                 
-                '.'.`                                
-
-            COW-OPERATION                           
+                       \                    ^    /^
+                        \                  / \  // \
+                         \   |\___/|      /   \//  .\
+                          \  /O  O  \__  /    //  | \ \           *----*
+                            /     /  \/_/    //   |  \  \          \   |
+                            @___@`    \/_   //    |   \   \         \/\ \
+                           0/0/|       \/_ //     |    \    \         \  \
+                       0/0/0/0/|        \///      |     \     \       |  |
+                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
+                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
+                             ,-}        _      *-.|.-~-.           .~    ~
+            \     \__/        `/\      /                 ~-. _ .-~      /
+             \____(oo)           *.   }            {                   /
+             (    (--)          .----~-.\        \-`                 .~
+             //__\  \__ Ack!   ///.----..<        \             _ -~
+            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
 ```
 <!-- END_QUOTE -->
 
