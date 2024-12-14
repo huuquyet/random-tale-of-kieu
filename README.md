@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“惜台𡭧義𡳵強</p>
-      <p class="nom">唒離絲𦬶群王絲𢚸”</p>
-      <p class="quocngu">Tiếc thay chút nghĩa cũ càng,</p>
-      <p class="quocngu">Dầu lìa tơ ngó còn vương tơ lòng.</p>
-      <p class="author"><i>(Dòng 2241-2242) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤳷𢚸鑿𥒥𥱬鐄</p>
+      <p class="nom">想娘𢧚吏𧡊娘𧗱低”</p>
+      <p class="quocngu">Bởi lòng tạc đá ghi vàng,</p>
+      <p class="quocngu">Tưởng nàng nên lại thấy nàng về đây.</p>
+      <p class="author"><i>(Dòng 2855-2856) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
