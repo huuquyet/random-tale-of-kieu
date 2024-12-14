@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤳷𢚸鑿𥒥𥱬鐄</p>
-      <p class="nom">想娘𢧚吏𧡊娘𧗱低”</p>
-      <p class="quocngu">Bởi lòng tạc đá ghi vàng,</p>
-      <p class="quocngu">Tưởng nàng nên lại thấy nàng về đây.</p>
-      <p class="author"><i>(Dòng 2855-2856) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">\u201C𦖑𠳒娘㐌生疑</p>
+      <p class="nom">雙陀過坦管之特身\u201D</p>
+      <p class="quocngu">Nghe lời nàng đã sinh nghi,</p>
+      <p class="quocngu">Song đà quá đất quản gì được thân.</p>
+      <p class="author"><i>(D\u00F2ng 1113-1114) Truy\u1EC7n Ki\u1EC1u</i> -- Nguy\u1EC5n Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Should someone do good, let them do it   \
-| again and again. They should develop this |
-| habit, for the accumulation of goodness   |
-| brings joy.”                              |
-|                                           |
-\  -- The Buddha                            /
- -------------------------------------------
-      \                            |     |
-       \                        ,--|     |-.
-                         __,----|  |     | |
-                       ,;::     |  `_____' |
-                       `._______|    i^i   |
-                                `----| |---'| .
-                           ,-------._| |== ||//
-                           |       |_|P`.  /'/
-                           `-------' 'Y Y/'/'
-                                     .==\ /_\
-   ^__^                             /   /'|  `i
-   (oo)\_______                   /'   /  |   |
-   (__)\       )\/\             /'    /   |   `i
-       ||----w |           ___,;`----'.___L_,-'`\__
-       ||     ||          i_____;----\.____i""\____\
+ ____________________________________________
+/ “I wish I’d known those words on the day I \
+| watched those German troops land,          |
+| plane-load after plane-load of them—and    |
+| come off ships down in the harbor! All I   |
+| could think of was damn them, damn them,   |
+| over and over. If I could have thought the |
+| words "the bright day is done and we are   |
+| for the dark," I’d have been consoled      |
+| somehow and ready to go out and contend    |
+| with circumstance—instead of my heart      |
+| sinking to my shoes.”                      |
+|                                            |
+\  -- Mary Ann Shaffer                       /
+ --------------------------------------------
+          \           \  / 
+           \           \/  
+               (__)    /\         
+               (oo)   O  O        
+               _\/_   //         
+         *    (    ) //       
+          \  (\\    //       
+           \(  \\    )                              
+            (   \\   )   /\                          
+  ___[\______/^^^^^^^\__/) o-)__                     
+ |\__[=======______//________)__\                    
+ \|_______________//____________|                    
+     |||      || //||     |||
+     |||      || @.||     |||                        
+      ||      \/  .\/      ||                        
+                 . .                                 
+                '.'.`                                
+
+            COW-OPERATION                           
 ```
 <!-- END_QUOTE -->
 

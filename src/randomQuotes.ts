@@ -34,17 +34,18 @@ export async function randomQuotes() {
   core.info('Updating with random quotes... 📁')
   try {
     // Get random quotes from https://github.com/hiteshchoudhary/apihub
-    const response = await fetch('https://api.freeapi.app/api/v1/public/quotes/quote/random', {
+    // const url = 'https://api.freeapi.app/api/v1/public/quotes/quote/random'
+    const url = 'https://florinbobis-quotes-net.hf.space/quotes/random?dataset=all'
+    const response = await fetch(url, {
       method: 'GET',
       headers: {
         accept: 'application/json',
       },
     })
-    const resp = await response.json()
-    const quote = resp.data
+    const quote = await response.json()
 
     // Wrap the content with length=42
-    const wrap = quote.content.replace(/(?![^\n]{1,42}$)([^\n]{1,42})\s/g, '$1\n')
+    const wrap = quote.quoteText.replace(/(?![^\n]{1,42}$)([^\n]{1,42})\s/g, '$1\n')
     const text = `“${wrap}”\n\n -- ${quote.author}`
     // Display the quote with cowsay ASCII art
     const ascii = cowsay.say({ text, r: true })
