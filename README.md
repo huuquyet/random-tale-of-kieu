@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“脱𬂙娘㐌別情</p>
-      <p class="nom">𪀄籠坤𨤰拮命𠖤高”</p>
-      <p class="quocngu">Thoắt trông nàng đã biết tình,</p>
-      <p class="quocngu">Chim lồng khôn lẽ cất mình bay cao.</p>
-      <p class="author"><i>(Dòng 2149-2150) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“倍鐄几𪧚𠊚𥋳</p>
+      <p class="nom">𡮈蘇娘吏尋𠳒𡅳干”</p>
+      <p class="quocngu">Vội vàng kẻ giữ người coi,</p>
+      <p class="quocngu">Nhỏ to nàng lại tìm lời khuyên can:</p>
+      <p class="author"><i>(Dòng 667-668) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Perhaps we are both doing what we think   \
-| right. But what we think right is so       |
-| damned different that there can be nothing |
-| between us in the way of concession. There |
-| is nothing possible between us but honor   |
-| and death.”                                |
-|                                            |
-\  -- G.K. Chesterton                        /
- --------------------------------------------
-                       \                    ^    /^
-                        \                  / \  // \
-                         \   |\___/|      /   \//  .\
-                          \  /O  O  \__  /    //  | \ \           *----*
-                            /     /  \/_/    //   |  \  \          \   |
-                            @___@`    \/_   //    |   \   \         \/\ \
-                           0/0/|       \/_ //     |    \    \         \  \
-                       0/0/0/0/|        \///      |     \     \       |  |
-                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
-                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
-                             ,-}        _      *-.|.-~-.           .~    ~
-            \     \__/        `/\      /                 ~-. _ .-~      /
-             \____(oo)           *.   }            {                   /
-             (    (--)          .----~-.\        \-`                 .~
-             //__\  \__ Ack!   ///.----..<        \             _ -~
-            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
+ ________________________________________
+/ “Must we make battlegrounds out of our \
+| children?”                             |
+|                                        |
+\  -- Sarah Perry                        /
+ ----------------------------------------
+           \     (      )
+            \    ~(^^^^)~
+             \    ) oo \~_          |\
+              \  /     | \        \~ /
+                ( 0  0  ) \        | |
+                 ---___/~  \       | |
+                  /'__/ |   ~-_____/ |
+   o          _   ~----~      ___---~
+     O       //     |         |
+            ((~\  _|         -|
+      o  O //-_ \/ |        ~  |
+           ^   \_ /         ~  |
+                  |          ~ |
+                  |     /     ~ |
+                  |     (       |
+                   \     \      /\
+                  / -_____-\   \ ~~-*
+                  |  /       \  \       .==.
+                  / /         / /       |  |
+                /~  |      //~  |       |__|         W<
+                ~~~~        ~~~~
 ```
 <!-- END_QUOTE -->
 
