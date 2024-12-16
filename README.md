@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“倍鐄几𪧚𠊚𥋳</p>
-      <p class="nom">𡮈蘇娘吏尋𠳒𡅳干”</p>
-      <p class="quocngu">Vội vàng kẻ giữ người coi,</p>
-      <p class="quocngu">Nhỏ to nàng lại tìm lời khuyên can:</p>
-      <p class="author"><i>(Dòng 667-668) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“茌茌捻坦邊塘</p>
+      <p class="nom">油油𦰟𦹵姅鐄姅撑”</p>
+      <p class="quocngu">Sè sè nắm đất bên đàng,</p>
+      <p class="quocngu">Dàu dàu ngọn cỏ nửa vàng nửa xanh.</p>
+      <p class="author"><i>(Dòng 57-58) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Must we make battlegrounds out of our \
-| children?”                             |
-|                                        |
-\  -- Sarah Perry                        /
- ----------------------------------------
-           \     (      )
-            \    ~(^^^^)~
-             \    ) oo \~_          |\
-              \  /     | \        \~ /
-                ( 0  0  ) \        | |
-                 ---___/~  \       | |
-                  /'__/ |   ~-_____/ |
-   o          _   ~----~      ___---~
-     O       //     |         |
-            ((~\  _|         -|
-      o  O //-_ \/ |        ~  |
-           ^   \_ /         ~  |
-                  |          ~ |
-                  |     /     ~ |
-                  |     (       |
-                   \     \      /\
-                  / -_____-\   \ ~~-*
-                  |  /       \  \       .==.
-                  / /         / /       |  |
-                /~  |      //~  |       |__|         W<
-                ~~~~        ~~~~
+ __________________________________________
+/ “When you discard arrogance, complexity, \
+| and a few other things that get in the   |
+| way, sooner or later you will discover   |
+| that simple, childlike, and mysterious   |
+| secret known to those of the uncared     |
+| block: life is fun.”                     |
+|                                          |
+\  -- Benjamin Hoff                        /
+ ------------------------------------------
+  \
+   \                       _
+                          / )      
+                         / /       
+      //|                \ \       
+   .-`^ \   .-`````-.     \ \      
+ o` {|}  \_/         \    / /      
+ '--,  _ //   .---.   \  / /       
+   ^^^` )/  ,/     \   \/ /        
+        (  /)      /\/   /         
+        / / (     / (   /          
+    ___/ /) (  __/ __\ (           
+   (((__)((__)((__(((___)          
 ```
 <!-- END_QUOTE -->
 
