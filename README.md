@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“茌茌捻坦邊塘</p>
-      <p class="nom">油油𦰟𦹵姅鐄姅撑”</p>
-      <p class="quocngu">Sè sè nắm đất bên đàng,</p>
-      <p class="quocngu">Dàu dàu ngọn cỏ nửa vàng nửa xanh.</p>
-      <p class="author"><i>(Dòng 57-58) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋𠳒㐌捽深交</p>
+      <p class="nom">󰡎𠫆固坦𨕭高固𡗶”</p>
+      <p class="quocngu">Một lời đã trót thâm giao,</p>
+      <p class="quocngu">Dưới dày có đất, trên cao có trời!</p>
+      <p class="author"><i>(Dòng 3085-3086) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,41 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “When you discard arrogance, complexity, \
-| and a few other things that get in the   |
-| way, sooner or later you will discover   |
-| that simple, childlike, and mysterious   |
-| secret known to those of the uncared     |
-| block: life is fun.”                     |
-|                                          |
-\  -- Benjamin Hoff                        /
- ------------------------------------------
-  \
-   \                       _
-                          / )      
-                         / /       
-      //|                \ \       
-   .-`^ \   .-`````-.     \ \      
- o` {|}  \_/         \    / /      
- '--,  _ //   .---.   \  / /       
-   ^^^` )/  ,/     \   \/ /        
-        (  /)      /\/   /         
-        / / (     / (   /          
-    ___/ /) (  __/ __\ (           
-   (((__)((__)((__(((___)          
+ ____________________________________________
+/ “I thought of myself mixing the fragrance  \
+| of a certain day – the heavy musk of the   |
+| hillside after the rain with the lightness |
+| of fresh blossoms doused in the downpour.  |
+| I thought of each little bottle as the     |
+| essence of a happy day or a sad one. I     |
+| mixed the scent of a lonely moment –       |
+| sandalwood and bergamot lingering over a   |
+| rich, peppery base.”                       |
+|                                            |
+\  -- Sara Sheridan                          /
+ --------------------------------------------
+   \
+    \
+      .-+$H###MM@MMMMM##@$+-,. ....
+-@$+%$+%HX+--..  .  . .,:X$/+/++$#:
+-#MXH$=                      $HXH#:
+ .--,:#+   ,+$HMX =@@X%, . .X#:,,,
+     =#@$H :####H =####;,M%$#X
+     X###$ $####X =####H %###X
+    ;###X /###@$: ,+HM##H.+###;
+   :###;,X##%=;%H@H$;-;M#@-;###/
+  ,M##;.@##;-H#######M=.M##-:###-
+  ;##M ;##X @###H-=@###.;##X H##;
+  ;##M./##X.@###H:/M###-=##X X##;
+  -###;,M##:,@########+-H##; @##-
+   %##M==@##%==%HMH%::/M##+.X##+
+    %###/./###X+: -+$M##M=,X##+
+     X###X X####H +#####% @##H
+     :###H %####H +#####; X##;
+     /#$.  -HM##H /###@+.  +#$. .
+/HX%$X:      .,-, .-,.      =XX$H@-
+/#H+/+%+/+;=.          .=/%;;/;;+#+
+ ..  .,-:XM#MM@@@@@@H@@M#@+=,.   ,,
 ```
 <!-- END_QUOTE -->
 
