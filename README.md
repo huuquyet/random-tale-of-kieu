@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋𠳒㐌捽深交</p>
-      <p class="nom">󰡎𠫆固坦𨕭高固𡗶”</p>
-      <p class="quocngu">Một lời đã trót thâm giao,</p>
-      <p class="quocngu">Dưới dày có đất, trên cao có trời!</p>
-      <p class="author"><i>(Dòng 3085-3086) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“特如𠳒世羅埋</p>
+      <p class="nom">罕浪𣈕固如𠳒朱庒”</p>
+      <p class="quocngu">Được như lời thế là may,</p>
+      <p class="quocngu">Hẳn rằng mai có như rày cho chăng.</p>
+      <p class="author"><i>(Dòng 1023-1024) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,40 +26,30 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “I thought of myself mixing the fragrance  \
-| of a certain day – the heavy musk of the   |
-| hillside after the rain with the lightness |
-| of fresh blossoms doused in the downpour.  |
-| I thought of each little bottle as the     |
-| essence of a happy day or a sad one. I     |
-| mixed the scent of a lonely moment –       |
-| sandalwood and bergamot lingering over a   |
-| rich, peppery base.”                       |
+/ “It's a tricky, complex, indifferent       \
+| society, Puss. It's a loophole world. And  |
+| there are a lot of clever animals who know |
+| how to reach through the loopholes and     |
+| pick the pockets of the unsuspecting.”     |
 |                                            |
-\  -- Sara Sheridan                          /
+\  -- John D. MacDonald                      /
  --------------------------------------------
-   \
-    \
-      .-+$H###MM@MMMMM##@$+-,. ....
--@$+%$+%HX+--..  .  . .,:X$/+/++$#:
--#MXH$=                      $HXH#:
- .--,:#+   ,+$HMX =@@X%, . .X#:,,,
-     =#@$H :####H =####;,M%$#X
-     X###$ $####X =####H %###X
-    ;###X /###@$: ,+HM##H.+###;
-   :###;,X##%=;%H@H$;-;M#@-;###/
-  ,M##;.@##;-H#######M=.M##-:###-
-  ;##M ;##X @###H-=@###.;##X H##;
-  ;##M./##X.@###H:/M###-=##X X##;
-  -###;,M##:,@########+-H##; @##-
-   %##M==@##%==%HMH%::/M##+.X##+
-    %###/./###X+: -+$M##M=,X##+
-     X###X X####H +#####% @##H
-     :###H %####H +#####; X##;
-     /#$.  -HM##H /###@+.  +#$. .
-/HX%$X:      .,-, .-,.      =XX$H@-
-/#H+/+%+/+;=.          .=/%;;/;;+#+
- ..  .,-:XM#MM@@@@@@H@@M#@+=,.   ,,
+                       \                    ^    /^
+                        \                  / \  // \
+                         \   |\___/|      /   \//  .\
+                          \  /O  O  \__  /    //  | \ \           *----*
+                            /     /  \/_/    //   |  \  \          \   |
+                            @___@`    \/_   //    |   \   \         \/\ \
+                           0/0/|       \/_ //     |    \    \         \  \
+                       0/0/0/0/|        \///      |     \     \       |  |
+                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
+                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
+                             ,-}        _      *-.|.-~-.           .~    ~
+            \     \__/        `/\      /                 ~-. _ .-~      /
+             \____(oo)           *.   }            {                   /
+             (    (--)          .----~-.\        \-`                 .~
+             //__\  \__ Ack!   ///.----..<        \             _ -~
+            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
 ```
 <!-- END_QUOTE -->
 
