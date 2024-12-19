@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“特如𠳒世羅埋</p>
-      <p class="nom">罕浪𣈕固如𠳒朱庒”</p>
-      <p class="quocngu">Được như lời thế là may,</p>
-      <p class="quocngu">Hẳn rằng mai có như rày cho chăng.</p>
-      <p class="author"><i>(Dòng 1023-1024) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“固𣘃固𥒥産床</p>
+      <p class="nom">固軒攬翠󰞺鐄渚派”</p>
+      <p class="quocngu">Có cây, có đá sẵn sàng,</p>
+      <p class="quocngu">Có hiên Lãm Thuý nét vàng chưa phai.</p>
+      <p class="author"><i>(Dòng 279-280) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It's a tricky, complex, indifferent       \
-| society, Puss. It's a loophole world. And  |
-| there are a lot of clever animals who know |
-| how to reach through the loopholes and     |
-| pick the pockets of the unsuspecting.”     |
-|                                            |
-\  -- John D. MacDonald                      /
- --------------------------------------------
-                       \                    ^    /^
-                        \                  / \  // \
-                         \   |\___/|      /   \//  .\
-                          \  /O  O  \__  /    //  | \ \           *----*
-                            /     /  \/_/    //   |  \  \          \   |
-                            @___@`    \/_   //    |   \   \         \/\ \
-                           0/0/|       \/_ //     |    \    \         \  \
-                       0/0/0/0/|        \///      |     \     \       |  |
-                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
-                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
-                             ,-}        _      *-.|.-~-.           .~    ~
-            \     \__/        `/\      /                 ~-. _ .-~      /
-             \____(oo)           *.   }            {                   /
-             (    (--)          .----~-.\        \-`                 .~
-             //__\  \__ Ack!   ///.----..<        \             _ -~
-            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
+ _____________________________________________
+/ “You should not honor men more than truth.” \
+|                                             |
+\  -- Plato                                   /
+ ---------------------------------------------
+     \
+      \  (__)  
+         (\/)  
+  /-------\/    
+ / | 666 ||    
+*  ||----||      
+   ~~    ~~      
 ```
 <!-- END_QUOTE -->
 
