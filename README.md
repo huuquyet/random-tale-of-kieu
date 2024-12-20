@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“固𣘃固𥒥産床</p>
-      <p class="nom">固軒攬翠󰞺鐄渚派”</p>
-      <p class="quocngu">Có cây, có đá sẵn sàng,</p>
-      <p class="quocngu">Có hiên Lãm Thuý nét vàng chưa phai.</p>
-      <p class="author"><i>(Dòng 279-280) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𬂙𨖲靈座𡦂排</p>
+      <p class="nom">秩驚買𠳨仍𠊛兜些”</p>
+      <p class="quocngu">Trông lên linh vị chữ bài,</p>
+      <p class="quocngu">Thất kinh mới hỏi: "Những người đâu ta?</p>
+      <p class="author"><i>(Dòng 2975-2976) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “You should not honor men more than truth.” \
-|                                             |
-\  -- Plato                                   /
- ---------------------------------------------
-     \
-      \  (__)  
-         (\/)  
-  /-------\/    
- / | 666 ||    
-*  ||----||      
-   ~~    ~~      
+ ____________________________________________
+/ “More importantly, our software worked. I  \
+| don't just mean that it didn't bump, or    |
+| that it performed according to the written |
+| specifications, or that it was efficient   |
+| in producing reports. It really worked”    |
+|                                            |
+\  -- Eliyahu M. Goldratt                    /
+ --------------------------------------------
+   \
+    \
+        /\O
+         /\/
+        /\
+       /  \
+      LOL LOL
+:-D LOLLERSKATES :-D
 ```
 <!-- END_QUOTE -->
 
