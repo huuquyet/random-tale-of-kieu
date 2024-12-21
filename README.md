@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𬂙𨖲靈座𡦂排</p>
-      <p class="nom">秩驚買𠳨仍𠊛兜些”</p>
-      <p class="quocngu">Trông lên linh vị chữ bài,</p>
-      <p class="quocngu">Thất kinh mới hỏi: "Những người đâu ta?</p>
-      <p class="author"><i>(Dòng 2975-2976) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“逴𢜠噋𠳨𠻀羅</p>
+      <p class="nom">源桃落𡓃兜麻旦低”</p>
+      <p class="quocngu">Rước mừng đón hỏi dò la:</p>
+      <p class="quocngu">"Nguồn đào lạc lối đâu mà đến đây?"</p>
+      <p class="author"><i>(Dòng 191-192) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,42 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “More importantly, our software worked. I  \
-| don't just mean that it didn't bump, or    |
-| that it performed according to the written |
-| specifications, or that it was efficient   |
-| in producing reports. It really worked”    |
-|                                            |
-\  -- Eliyahu M. Goldratt                    /
- --------------------------------------------
-   \
+ ________________________________________
+/ “Multitudes speak of their first love” \
+|                                        |
+\  -- seldom about their last hate.      /
+ ----------------------------------------
     \
-        /\O
-         /\/
-        /\
-       /  \
-      LOL LOL
-:-D LOLLERSKATES :-D
+     \
+              /\
+             <  \
+             |\  \
+             | \  \
+             | .\  >
+             |  .\/|
+             |   .||
+             |    ||
+            / \   ||
+           /,-.\: ||
+          /,,  `\ ||
+         /,  ', `\||
+        /, *   ''/ |
+       /,    *,'/  |
+      /,     , /   |
+     / :    , /   .|
+    /\ :   , /   /||
+   |\ \ .., /   / ||
+   |.\ \ . /   /  ||
+   |  \ \ /   /   ||
+   |   \ /   /    |'
+   |\o '|o  /
+   ||\o |  /
+   || \ | /
+   ||  \|/
+   |'   ||
+        ||
+        ||
+        |'
 ```
 <!-- END_QUOTE -->
 
