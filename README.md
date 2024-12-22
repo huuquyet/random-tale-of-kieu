@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“逴𢜠噋𠳨𠻀羅</p>
-      <p class="nom">源桃落𡓃兜麻旦低”</p>
-      <p class="quocngu">Rước mừng đón hỏi dò la:</p>
-      <p class="quocngu">"Nguồn đào lạc lối đâu mà đến đây?"</p>
-      <p class="author"><i>(Dòng 191-192) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“覺緣油𢖵義饒</p>
+      <p class="nom">錢塘典󰜋𤿤𦰤逴𠊛”</p>
+      <p class="quocngu">Giác Duyên dù nhớ nghĩa nhau,</p>
+      <p class="quocngu">Tiền Đường đến một bè lau rước người.</p>
+      <p class="author"><i>(Dòng 2691-2692) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,42 +25,58 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Multitudes speak of their first love” \
-|                                        |
-\  -- seldom about their last hate.      /
- ----------------------------------------
-    \
-     \
-              /\
-             <  \
-             |\  \
-             | \  \
-             | .\  >
-             |  .\/|
-             |   .||
-             |    ||
-            / \   ||
-           /,-.\: ||
-          /,,  `\ ||
-         /,  ', `\||
-        /, *   ''/ |
-       /,    *,'/  |
-      /,     , /   |
-     / :    , /   .|
-    /\ :   , /   /||
-   |\ \ .., /   / ||
-   |.\ \ . /   /  ||
-   |  \ \ /   /   ||
-   |   \ /   /    |'
-   |\o '|o  /
-   ||\o |  /
-   || \ | /
-   ||  \|/
-   |'   ||
-        ||
-        ||
-        |'
+ ____________________________________________
+/ “In my experience nursing is waiting. The  \
+| mother becomes the background against      |
+| which the baby lives, becomes time. I used |
+| to exist against the continuity of time.   |
+| Then I became the baby's continuity, a     |
+| background of ongoing time for him to live |
+| against. I was the warmth and milk that    |
+| was always there for him, the agent of     |
+| comfort that was always there for him. My  |
+| body, my life, became the landscape of my  |
+| son's life. I am no longer merely a thing  |
+| living in the world; I am a world.”        |
+|                                            |
+\  -- Sarah Manguso                          /
+ --------------------------------------------
+      \
+       \
+        \                                     ,
+                                            ,o
+                                            :o
+                   _....._                  `:o
+                 .\'       ``-.                \o
+                /  _      _   \                \o
+               :  /*\    /*\   )                ;o
+               |  \_/    \_/   /                ;o
+               (       U      /                 ;o
+                \  (\_____/) /                  /o
+                 \   \_m_/  (                  /o
+                  \         (                ,o:
+                  )          \,           .o;o\'           ,o\'o\'o.
+                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
+ .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
+ o           ./o./ /       .o \.              __,-o o,o\'
+ \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
+ `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
+ .,  ``o-o\'  ,.oo/   \'o /\.o`.
+ `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
+   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
+                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
+                  \ o\              ``-o-o\'\'\'\'
+   ,-o;o           \o \
+  /o/               )o )  Carl Pilcher
+ (o(               /o /                |
+  \o\.       ...-o\'o /              \   |
+    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ```o--\'\'\'                       \| /
+                                       |/
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                       |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ```
 <!-- END_QUOTE -->
 
