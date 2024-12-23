@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“覺緣油𢖵義饒</p>
-      <p class="nom">錢塘典󰜋𤿤𦰤逴𠊛”</p>
-      <p class="quocngu">Giác Duyên dù nhớ nghĩa nhau,</p>
-      <p class="quocngu">Tiền Đường đến một bè lau rước người.</p>
-      <p class="author"><i>(Dòng 2691-2692) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“隔𫷜𩄲萡賒賒</p>
+      <p class="nom">臨淄拱沛併麻晨昏”</p>
+      <p class="quocngu">"Cách năm mây bạc xa xa,</p>
+      <p class="quocngu">Lâm Truy cũng phải tính mà thần hôn."</p>
+      <p class="author"><i>(Dòng 1599-1600) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,58 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “In my experience nursing is waiting. The  \
-| mother becomes the background against      |
-| which the baby lives, becomes time. I used |
-| to exist against the continuity of time.   |
-| Then I became the baby's continuity, a     |
-| background of ongoing time for him to live |
-| against. I was the warmth and milk that    |
-| was always there for him, the agent of     |
-| comfort that was always there for him. My  |
-| body, my life, became the landscape of my  |
-| son's life. I am no longer merely a thing  |
-| living in the world; I am a world.”        |
-|                                            |
-\  -- Sarah Manguso                          /
- --------------------------------------------
-      \
-       \
-        \                                     ,
-                                            ,o
-                                            :o
-                   _....._                  `:o
-                 .\'       ``-.                \o
-                /  _      _   \                \o
-               :  /*\    /*\   )                ;o
-               |  \_/    \_/   /                ;o
-               (       U      /                 ;o
-                \  (\_____/) /                  /o
-                 \   \_m_/  (                  /o
-                  \         (                ,o:
-                  )          \,           .o;o\'           ,o\'o\'o.
-                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
- .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
- o           ./o./ /       .o \.              __,-o o,o\'
- \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
- `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
- .,  ``o-o\'  ,.oo/   \'o /\.o`.
- `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
-   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
-                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
-                  \ o\              ``-o-o\'\'\'\'
-   ,-o;o           \o \
-  /o/               )o )  Carl Pilcher
- (o(               /o /                |
-  \o\.       ...-o\'o /              \   |
-    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      ```o--\'\'\'                       \| /
-                                       |/
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                                       |
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+ _____________________________________
+/ “When the unexpected meets with the \
+| unprepared, over there we find the  |
+| greatest astonishments!”            |
+|                                     |
+\  -- Mehmet Murat ildan              /
+ -------------------------------------
+ \       \      \      
+  \        ^__^  \        
+    ^__^   (oo)   ^__^  
+    (oo)   (__)   (oo)   
+    (__)          (__)   
+oyo/:                :/oy+
+/mmmmm+   syyyyo  `ommmmm/
+ smmmmms. -ymmy. .smmmmmo 
+ `+dmmmmd+``::``+dmmmmd+  
+   -ymmmmmh/``+hmmmmmy-   
+    `/hmmmmmhhmmmmmh/`    
+      `/hmmmmmmmmh/`      
+        `/hmmmmmd/        
+      `oo.`/dmmmmdo`      
+     `ymmd+``ommmmmy`     
+     smmmmd-  /mmmmms     
+    -mmmmm+    ommmmm-    
+    -ooooo`    .ooooo.     
 ```
 <!-- END_QUOTE -->
 
