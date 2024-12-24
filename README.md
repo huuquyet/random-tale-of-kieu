@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“隔𫷜𩄲萡賒賒</p>
-      <p class="nom">臨淄拱沛併麻晨昏”</p>
-      <p class="quocngu">"Cách năm mây bạc xa xa,</p>
-      <p class="quocngu">Lâm Truy cũng phải tính mà thần hôn."</p>
-      <p class="author"><i>(Dòng 1599-1600) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“固調之女𦓡疑</p>
+      <p class="nom">客戈塘底𠾿哬払蕭”</p>
+      <p class="quocngu">Có điều chi nữa mà ngờ,</p>
+      <p class="quocngu">Khách qua đường để hững hờ chàng Tiêu!"</p>
+      <p class="author"><i>(Dòng 3125-3126) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________
-/ “When the unexpected meets with the \
-| unprepared, over there we find the  |
-| greatest astonishments!”            |
-|                                     |
-\  -- Mehmet Murat ildan              /
- -------------------------------------
- \       \      \      
-  \        ^__^  \        
-    ^__^   (oo)   ^__^  
-    (oo)   (__)   (oo)   
-    (__)          (__)   
-oyo/:                :/oy+
-/mmmmm+   syyyyo  `ommmmm/
- smmmmms. -ymmy. .smmmmmo 
- `+dmmmmd+``::``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+``ommmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.     
+ __________________________________________
+/ “One day in the woods he met an Indian.  \
+| They stood in the wet, cold woods and    |
+| looked at each other, and they could not |
+| talk because they did not know each      |
+| other's words.”                          |
+|                                          |
+\  -- Laura Ingalls Wilder                 /
+ ------------------------------------------
+  \
+   \          .
+       ___   //
+     {~o_o~}// 
+      ( Y )K/  
+     ()~*~()   
+     (_)-(_)   
+     Luke    
+     Skywalker
+     koala   
 ```
 <!-- END_QUOTE -->
 
