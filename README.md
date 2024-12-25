@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“固調之女𦓡疑</p>
-      <p class="nom">客戈塘底𠾿哬払蕭”</p>
-      <p class="quocngu">Có điều chi nữa mà ngờ,</p>
-      <p class="quocngu">Khách qua đường để hững hờ chàng Tiêu!"</p>
-      <p class="author"><i>(Dòng 3125-3126) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“堆些𡮍義󰢞𢸚</p>
+      <p class="nom">典茹𠓀料呐共朱明”</p>
+      <p class="quocngu">Đôi ta chút nghĩa đèo bòng,</p>
+      <p class="quocngu">Đến nhà trước liệu nói cùng cho minh.</p>
+      <p class="author"><i>(Dòng 1509-1510) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “One day in the woods he met an Indian.  \
-| They stood in the wet, cold woods and    |
-| looked at each other, and they could not |
-| talk because they did not know each      |
-| other's words.”                          |
-|                                          |
-\  -- Laura Ingalls Wilder                 /
- ------------------------------------------
-  \
-   \          .
-       ___   //
-     {~o_o~}// 
-      ( Y )K/  
-     ()~*~()   
-     (_)-(_)   
-     Luke    
-     Skywalker
-     koala   
+ ____________________________________________
+/ “It's not so much that the old friend is a \
+| better friend. It's just that you know the |
+| person better, and you know they don't     |
+| really care if you're acting like a poor,  |
+| grovelling idiot. They know you would do   |
+| the same for them.”                        |
+|                                            |
+\  -- Markus Zusak                           /
+ --------------------------------------------
+       \     *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+        \        MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+         \       MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+          \        'MMM8&&&'      *
+          |\___/|
+         =) oYo (=            .              '
+          \  ^  /
+           )=*=(       *
+          /     \
+          |     |
+         /| | | |\
+         \| | |_|/\
+  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
 ```
 <!-- END_QUOTE -->
 
