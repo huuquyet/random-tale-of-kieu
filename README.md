@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“堆些𡮍義󰢞𢸚</p>
-      <p class="nom">典茹𠓀料呐共朱明”</p>
-      <p class="quocngu">Đôi ta chút nghĩa đèo bòng,</p>
-      <p class="quocngu">Đến nhà trước liệu nói cùng cho minh.</p>
-      <p class="author"><i>(Dòng 1509-1510) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“世󰅹娘拱沛𦖑</p>
+      <p class="nom">成親耒仕料𧗱州台”</p>
+      <p class="quocngu">Thế nào nàng cũng phải nghe.</p>
+      <p class="quocngu">Thành thân rồi sẽ liệu về Châu Thai.</p>
+      <p class="author"><i>(Dòng 2107-2108) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It's not so much that the old friend is a \
-| better friend. It's just that you know the |
-| person better, and you know they don't     |
-| really care if you're acting like a poor,  |
-| grovelling idiot. They know you would do   |
-| the same for them.”                        |
-|                                            |
-\  -- Markus Zusak                           /
- --------------------------------------------
-       \     *     ,MMM8&&&.            *
-                  MMMM88&&&&&    .
-        \        MMMM88&&&&&&&
-     *           MMM88&&&&&&&&
-         \       MMM88&&&&&&&&
-                 'MMM88&&&&&&'
-          \        'MMM8&&&'      *
-          |\___/|
-         =) oYo (=            .              '
-          \  ^  /
-           )=*=(       *
-          /     \
-          |     |
-         /| | | |\
-         \| | |_|/\
-  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
-  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+ _____________________________________________
+/ “I gravitate towards roles where women find \
+| strength in very difficult, uncompromising  |
+| situations but maintain clarity in mind,    |
+| discipline at heart, and a certain          |
+| strength in spirit.”                        |
+|                                             |
+\  -- Michelle Yeoh                           /
+ ---------------------------------------------
+       \
+        \
+                  =/;;/-
+                 +:    //
+                /;      /;
+               -X        H.
+ .//;;;:;;-,   X=        :+   .-;:=;:;%;.
+ M-       ,=;;;#:,      ,:#;;:=,       ,@
+ :%           :%.=/++++/=.$=           %=
+  ,%;         %/:+/;,,/++:+/         ;+.
+    ,+/.    ,;@+,        ,%H;,    ,/+,
+       ;+;;/= @.  .H##X   -X :///+;
+       ;+=;;;.@,  .XM@$.  =X.//;=%/.
+    ,;:      :@%=        =$H:     .+%-
+  ,%=         %;-///==///-//         =%,
+ ;+           :%-;;;:;;;;-X-           +:
+ @-      .-;;;;M-        =M/;;;-.      -X
+  :;;::;;-.    %-        :+    ,-;;-;:==
+               ,X        H.
+                ;/      %=
+                 //    +;
+                  ,////,
 
 ```
 <!-- END_QUOTE -->
