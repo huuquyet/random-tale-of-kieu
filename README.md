@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“世󰅹娘拱沛𦖑</p>
-      <p class="nom">成親耒仕料𧗱州台”</p>
-      <p class="quocngu">Thế nào nàng cũng phải nghe.</p>
-      <p class="quocngu">Thành thân rồi sẽ liệu về Châu Thai.</p>
-      <p class="author"><i>(Dòng 2107-2108) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“隊番𩙍𢭸花掑</p>
+      <p class="nom">姅簾雪冷𦊚務𦝄輸”</p>
+      <p class="quocngu">Đòi phen gió tựa hoa kề,</p>
+      <p class="quocngu">Nửa rèm tuyết lạnh, bốn mùa trăng thâu.</p>
+      <p class="author"><i>(Dòng 1241-1242) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I gravitate towards roles where women find \
-| strength in very difficult, uncompromising  |
-| situations but maintain clarity in mind,    |
-| discipline at heart, and a certain          |
-| strength in spirit.”                        |
-|                                             |
-\  -- Michelle Yeoh                           /
- ---------------------------------------------
-       \
-        \
-                  =/;;/-
-                 +:    //
-                /;      /;
-               -X        H.
- .//;;;:;;-,   X=        :+   .-;:=;:;%;.
- M-       ,=;;;#:,      ,:#;;:=,       ,@
- :%           :%.=/++++/=.$=           %=
-  ,%;         %/:+/;,,/++:+/         ;+.
-    ,+/.    ,;@+,        ,%H;,    ,/+,
-       ;+;;/= @.  .H##X   -X :///+;
-       ;+=;;;.@,  .XM@$.  =X.//;=%/.
-    ,;:      :@%=        =$H:     .+%-
-  ,%=         %;-///==///-//         =%,
- ;+           :%-;;;:;;;;-X-           +:
- @-      .-;;;;M-        =M/;;;-.      -X
-  :;;::;;-.    %-        :+    ,-;;-;:==
-               ,X        H.
-                ;/      %=
-                 //    +;
-                  ,////,
-
+ __________________________________________
+/ “'The Third Man,' directed by Carol Reed \
+| and written by Graham Greene, is, quite  |
+| simply, one of the finest movies ever    |
+| made.”                                   |
+|                                          |
+\  -- Elvis Mitchell                       /
+ ------------------------------------------
+  \
+   \
+        ____________
+       /\  ________ \
+      /  \ \______/\ \
+     / /\ \ \  / /\ \ \
+    / / /\ \ \/ / /\ \ \
+   / / /__\ \ \/_/__\_\ \__________
+  / /_/____\ \__________  ________ \
+  \ \ \____/ / ________/\ \______/\ \
+   \ \ \  / / /\ \  / /\ \ \  / /\ \ \
+    \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
+     \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
+      \  /_/______\/_/____\ \___________\
+      /  \ \______/\ \____/ / ________  /
+     / /\ \ \  / /\ \ \  / / /\ \  / / /
+    / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
+   / / /__\ \ \/_/__\_\/ / /__\_\/ / /
+  / /_/____\ \_________\/ /______\/ /
+  \ \ \____/ / ________  __________/
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
