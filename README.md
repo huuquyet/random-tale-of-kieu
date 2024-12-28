@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“隊番𩙍𢭸花掑</p>
-      <p class="nom">姅簾雪冷𦊚務𦝄輸”</p>
-      <p class="quocngu">Đòi phen gió tựa hoa kề,</p>
-      <p class="quocngu">Nửa rèm tuyết lạnh, bốn mùa trăng thâu.</p>
-      <p class="author"><i>(Dòng 1241-1242) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨷶房扦日䋥毛</p>
+      <p class="nom">𠺶𠳒𠓀󰘚淶珠永𠊚”</p>
+      <p class="quocngu">Cửa phòng then nhặt lưới mau,</p>
+      <p class="quocngu">Nói lời trước mặt, rơi châu vắng người.</p>
+      <p class="author"><i>(Dòng 1935-1936) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “'The Third Man,' directed by Carol Reed \
-| and written by Graham Greene, is, quite  |
-| simply, one of the finest movies ever    |
-| made.”                                   |
-|                                          |
-\  -- Elvis Mitchell                       /
- ------------------------------------------
-  \
-   \
-        ____________
-       /\  ________ \
-      /  \ \______/\ \
-     / /\ \ \  / /\ \ \
-    / / /\ \ \/ / /\ \ \
-   / / /__\ \ \/_/__\_\ \__________
-  / /_/____\ \__________  ________ \
-  \ \ \____/ / ________/\ \______/\ \
-   \ \ \  / / /\ \  / /\ \ \  / /\ \ \
-    \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
-     \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
-      \  /_/______\/_/____\ \___________\
-      /  \ \______/\ \____/ / ________  /
-     / /\ \ \  / /\ \ \  / / /\ \  / / /
-    / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
-   / / /__\ \ \/_/__\_\/ / /__\_\/ / /
-  / /_/____\ \_________\/ /______\/ /
-  \ \ \____/ / ________  __________/
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+ ____________________________________________
+/ “The wonderful thing about 48 fps is the   \
+| integration of live action and CG          |
+| elements; that is something I learned from |
+| 'The Hobbit.' We are so used to 24 fps and |
+| the romance of celluloid... but at 48 fps, |
+| you cannot deny the existence of these CG  |
+| creations in the same time frame and space |
+| and environment as the live action.”       |
+|                                            |
+\  -- Andy Serkis                            /
+ --------------------------------------------
+    \
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,      WE      -%HX$%%%+;
+ =-./@M@M$         DO       .;@MMMM@MM:
+ X@/ -$MM/        WHAT        .+MM@@@M$
+,@M@H: :@:         WE         . =X#@@@@-
+,@@@MMX, .        MUST        /H- ;@M@M=
+.H@@@@M@+,      BECAUSE       %MM+..%#$.
+ /MMMM@MMH/.       WE         XM@MH; =;
+  /%+%$XHH@$=     CAN      , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
