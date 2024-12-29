@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨷶房扦日䋥毛</p>
-      <p class="nom">𠺶𠳒𠓀󰘚淶珠永𠊚”</p>
-      <p class="quocngu">Cửa phòng then nhặt lưới mau,</p>
-      <p class="quocngu">Nói lời trước mặt, rơi châu vắng người.</p>
-      <p class="author"><i>(Dòng 1935-1936) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠚢從𨕭濮𥪝𣘛</p>
+      <p class="nom">仍𡥵𠊚意埃求爫之”</p>
+      <p class="quocngu">Ra tuồng trên Bộc trong dâu,</p>
+      <p class="quocngu">Những con người ấy ai cầu làm chi.</p>
+      <p class="author"><i>(Dòng 507-508) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The wonderful thing about 48 fps is the   \
-| integration of live action and CG          |
-| elements; that is something I learned from |
-| 'The Hobbit.' We are so used to 24 fps and |
-| the romance of celluloid... but at 48 fps, |
-| you cannot deny the existence of these CG  |
-| creations in the same time frame and space |
-| and environment as the live action.”       |
-|                                            |
-\  -- Andy Serkis                            /
- --------------------------------------------
-    \
-     \
-              .,-:;//;:=,
-          . :H@@@MM@M#H/.,+%;,
-       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
-  =@#@@@MX .,      WE      -%HX$%%%+;
- =-./@M@M$         DO       .;@MMMM@MM:
- X@/ -$MM/        WHAT        .+MM@@@M$
-,@M@H: :@:         WE         . =X#@@@@-
-,@@@MMX, .        MUST        /H- ;@M@M=
-.H@@@@M@+,      BECAUSE       %MM+..%#$.
- /MMMM@MMH/.       WE         XM@MH; =;
-  /%+%$XHH@$=     CAN      , .H@@@@MX,
-   .=--------.           -%H.,@@@@@MX,
-   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
-     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
-       =%@M@M#@$-.=$@MM@@@M; %M%=
-         ,:+$+-,/H#MMMMMMM@= =,
-               =++%%%%+/:-.
+ _________________________________________
+/ “I wouldn't burden any decent system of \
+| faith by participating in it... I'm not |
+| agnostic. Just nonpartisan. Theological |
+| Switzerland, that's me.”                |
+|                                         |
+\  -- Jim Butcher                         /
+ -----------------------------------------
+ \
+  \
+     __
+    (  )
+     ||
+    /__\
+   (____)
 ```
 <!-- END_QUOTE -->
 
