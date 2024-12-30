@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠚢從𨕭濮𥪝𣘛</p>
-      <p class="nom">仍𡥵𠊚意埃求爫之”</p>
-      <p class="quocngu">Ra tuồng trên Bộc trong dâu,</p>
-      <p class="quocngu">Những con người ấy ai cầu làm chi.</p>
-      <p class="author"><i>(Dòng 507-508) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“泛彈迢迭𢬣僊</p>
+      <p class="nom">𤌋沉高濕㗂絃𧵆賒”</p>
+      <p class="quocngu">Phím đàn dìu dặt tay tiên,</p>
+      <p class="quocngu">Khói trầm cao thấp, tiếng huyền gần xa.</p>
+      <p class="author"><i>(Dòng 3197-3198) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “I wouldn't burden any decent system of \
-| faith by participating in it... I'm not |
-| agnostic. Just nonpartisan. Theological |
-| Switzerland, that's me.”                |
-|                                         |
-\  -- Jim Butcher                         /
- -----------------------------------------
- \
-  \
-     __
-    (  )
-     ||
-    /__\
-   (____)
+ ____________________________________________
+/ “You are accepted!" ... accepted by that   \
+| which is greater than you and the name of  |
+| which you do not know. Do not ask the name |
+| now perhaps you will know it later. Do not |
+| try to do anything perhaps later you will  |
+| do much. Do not seek for anything do not   |
+| perform anything do not intend anything.   |
+| Simply accept the fact that you are        |
+| accepted.”                                 |
+|                                            |
+\  -- Paul Tillich                           /
+ --------------------------------------------
+   \
+    \
+
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
