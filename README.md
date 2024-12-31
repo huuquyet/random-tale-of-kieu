@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“泛彈迢迭𢬣僊</p>
-      <p class="nom">𤌋沉高濕㗂絃𧵆賒”</p>
-      <p class="quocngu">Phím đàn dìu dặt tay tiên,</p>
-      <p class="quocngu">Khói trầm cao thấp, tiếng huyền gần xa.</p>
-      <p class="author"><i>(Dòng 3197-3198) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“報恩耒仕㨋讐</p>
+      <p class="nom">徐浪役意底朱默娘”</p>
+      <p class="quocngu">Báo ân rồi sẽ trả thù."</p>
+      <p class="quocngu">Từ rằng: "Việc ấy để cho mặc nàng."</p>
+      <p class="author"><i>(Dòng 2323-2324) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “You are accepted!" ... accepted by that   \
-| which is greater than you and the name of  |
-| which you do not know. Do not ask the name |
-| now perhaps you will know it later. Do not |
-| try to do anything perhaps later you will  |
-| do much. Do not seek for anything do not   |
-| perform anything do not intend anything.   |
-| Simply accept the fact that you are        |
-| accepted.”                                 |
-|                                            |
-\  -- Paul Tillich                           /
- --------------------------------------------
-   \
-    \
-
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+ __________________________________________
+/ “Whatever our souls are made of, his and \
+| mine are the same.”                      |
+|                                          |
+\  -- Emily Bronte                         /
+ ------------------------------------------
+ \
+  \
+     __ 
+    /  \  
+    |  |
+    @  @
+    |  |
+    || |/ 
+    || || 
+    |\_/|
+    \___/
 ```
 <!-- END_QUOTE -->
 
