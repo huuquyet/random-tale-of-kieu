@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“報恩耒仕㨋讐</p>
-      <p class="nom">徐浪役意底朱默娘”</p>
-      <p class="quocngu">Báo ân rồi sẽ trả thù."</p>
-      <p class="quocngu">Từ rằng: "Việc ấy để cho mặc nàng."</p>
-      <p class="author"><i>(Dòng 2323-2324) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“自𣈜𨷈𨤮扶䘮</p>
+      <p class="nom">姅𢆥於坦遼陽吏茹”</p>
+      <p class="quocngu">Từ ngày muôn dặm Phù Tang,</p>
+      <p class="quocngu">Nửa năm ở đất Liêu Dương lại nhà.</p>
+      <p class="author"><i>(Dòng 2741-2742) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Whatever our souls are made of, his and \
-| mine are the same.”                      |
-|                                          |
-\  -- Emily Bronte                         /
- ------------------------------------------
+ ____________________________________________
+/ “It looks like it’s wasting time, but      \
+| literature is actually the ultimate        |
+| time-saver – because it gives us access to |
+| a range of emotions and events that it     |
+| would take you years, decades, millennia   |
+| to try to experience directly. Literature  |
+| is the greatest reality simulator — a      |
+| machine that puts you through infinitely   |
+| more situations than you can ever directly |
+| witness.”                                  |
+|                                            |
+\  -- Mary Ruefle                            /
+ --------------------------------------------
  \
   \
-     __ 
-    /  \  
-    |  |
-    @  @
-    |  |
-    || |/ 
-    || || 
-    |\_/|
-    \___/
+ _   /|
+ \'o.O'
+ =(___)=
+    U
 ```
 <!-- END_QUOTE -->
 
