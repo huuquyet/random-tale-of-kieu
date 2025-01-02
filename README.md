@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“自𣈜𨷈𨤮扶䘮</p>
-      <p class="nom">姅𢆥於坦遼陽吏茹”</p>
-      <p class="quocngu">Từ ngày muôn dặm Phù Tang,</p>
-      <p class="quocngu">Nửa năm ở đất Liêu Dương lại nhà.</p>
-      <p class="author"><i>(Dòng 2741-2742) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“吏差令箭傳𠚢</p>
+      <p class="nom">𪧚𦀾户束󰜋茹朱安”</p>
+      <p class="quocngu">Lại sai lệnh tiễn truyền ra,</p>
+      <p class="quocngu">Giữ giàng họ Thúc một nhà cho yên.</p>
+      <p class="author"><i>(Dòng 2303-2304) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It looks like it’s wasting time, but      \
-| literature is actually the ultimate        |
-| time-saver – because it gives us access to |
-| a range of emotions and events that it     |
-| would take you years, decades, millennia   |
-| to try to experience directly. Literature  |
-| is the greatest reality simulator — a      |
-| machine that puts you through infinitely   |
-| more situations than you can ever directly |
-| witness.”                                  |
-|                                            |
-\  -- Mary Ruefle                            /
- --------------------------------------------
- \
+ __________________________________________________________________
+/ “Happiness is”                                                   \
+|                                                                  |
+\  -- knowing that Goodreads isn't blocked from my work IT system. /
+ ------------------------------------------------------------------
   \
- _   /|
- \'o.O'
- =(___)=
-    U
+   \
+      ,.,,､,..,､､.,､,､､.,_          ／i
+    ;'`;、､:、..:、:,:,.::｀'::ﾞ":,'´ --i
+    '､;:..: ,:.､.:',.:.::_.;..;:.‐'ﾞ
+
 ```
 <!-- END_QUOTE -->
 
