@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“吏差令箭傳𠚢</p>
-      <p class="nom">𪧚𦀾户束󰜋茹朱安”</p>
-      <p class="quocngu">Lại sai lệnh tiễn truyền ra,</p>
-      <p class="quocngu">Giữ giàng họ Thúc một nhà cho yên.</p>
-      <p class="author"><i>(Dòng 2303-2304) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“氣󰡼雖㐌𧗱神</p>
+      <p class="nom">然然群𨅸墫蹎𡧲𫒥”</p>
+      <p class="quocngu">Khí thiêng tuy đã về thần,</p>
+      <p class="quocngu">Nhơn nhơn còn đứng chôn chân giữa vòng!</p>
+      <p class="author"><i>(Dòng 2519-2520) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,17 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________________________________
-/ “Happiness is”                                                   \
-|                                                                  |
-\  -- knowing that Goodreads isn't blocked from my work IT system. /
- ------------------------------------------------------------------
-  \
-   \
-      ,.,,､,..,､､.,､,､､.,_          ／i
-    ;'`;、､:、..:、:,:,.::｀'::ﾞ":,'´ --i
-    '､;:..: ,:.､.:',.:.::_.;..;:.‐'ﾞ
-
+ ____________________________________________
+/ “From: Anastasia SteeleSubject:            \
+| MoaningDate: May 31 2011 19:39 ESTTo:      |
+| Christian GreyGotta go.Laters,             |
+| baby......From: Christian GreySubject:     |
+| PlagiarismDate: May 31 2011 16:41To:       |
+| Anastasia SteeleYou stole my line.And left |
+| me hanging.Enjoy your dinner.Christian     |
+| GreyCEO, Grey Enterprises Holdings Inc.”   |
+|                                            |
+\  -- E.L. James                             /
+ --------------------------------------------
+       \   \_______
+ v__v   \  \   O   )
+ (oo)      ||----w |
+ (__)      ||     ||  \/\
+    
 ```
 <!-- END_QUOTE -->
 
