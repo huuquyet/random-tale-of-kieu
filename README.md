@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“氣󰡼雖㐌𧗱神</p>
-      <p class="nom">然然群𨅸墫蹎𡧲𫒥”</p>
-      <p class="quocngu">Khí thiêng tuy đã về thần,</p>
-      <p class="quocngu">Nhơn nhơn còn đứng chôn chân giữa vòng!</p>
-      <p class="author"><i>(Dòng 2519-2520) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“怒臨清貝臨淄</p>
+      <p class="nom">恪饒󰜋𡦂或欺固惏”</p>
+      <p class="quocngu">Nọ Lâm Thanh với Lâm Truy,</p>
+      <p class="quocngu">Khác nhau một chữ, hoặc khi có lầm.</p>
+      <p class="author"><i>(Dòng 2881-2882) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,42 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “From: Anastasia SteeleSubject:            \
-| MoaningDate: May 31 2011 19:39 ESTTo:      |
-| Christian GreyGotta go.Laters,             |
-| baby......From: Christian GreySubject:     |
-| PlagiarismDate: May 31 2011 16:41To:       |
-| Anastasia SteeleYou stole my line.And left |
-| me hanging.Enjoy your dinner.Christian     |
-| GreyCEO, Grey Enterprises Holdings Inc.”   |
+/ “I’ve seen a lot of stuff… maybe I’ve seen \
+| too much. I see most humans in a bad light |
+| because I’ve seen what they can do, how    |
+| evil they can be… I’ve seen the Holocaust  |
+| and I’ve seen Jonestown, I’ve seen the     |
+| Vietnam War and I’ve seen Hiroshima… I’ve  |
+| seen the Chernobyl disaster… I’ve seen the |
+| World Trade Center attack… I’ve been alive |
+| too long, over a hundred years is a long   |
+| time to be alive,” Alecto sighed, staring  |
+| at the cigarette he was holding.”          |
 |                                            |
-\  -- E.L. James                             /
+\  -- Rebecca McNutt                         /
  --------------------------------------------
-       \   \_______
- v__v   \  \   O   )
- (oo)      ||----w |
- (__)      ||     ||  \/\
-    
+    \
+     \
+           .-;+$XHHHHHHX$+;-.
+        ,;X@@X%/;=----=:/%X@@X/,
+      =$@@%=.              .=+H@X:
+    -XMX:                      =XMX=
+   /@@:                          =H@+
+  %@X,                            .$@$
+ +@X.                               $@%
+-@@,                                .@@=
+%@%                                  +@$
+H@:                                  :@H
+H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
+%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
+=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
+ +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
+  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
+   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
+    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
+      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
+        ,;$@@@@@@@@@@@@@@@@@@X/-
+           .-;+$XXHHHHHX$+;-.
 ```
 <!-- END_QUOTE -->
 
