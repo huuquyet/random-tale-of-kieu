@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“怒臨清貝臨淄</p>
-      <p class="nom">恪饒󰜋𡦂或欺固惏”</p>
-      <p class="quocngu">Nọ Lâm Thanh với Lâm Truy,</p>
-      <p class="quocngu">Khác nhau một chữ, hoặc khi có lầm.</p>
-      <p class="author"><i>(Dòng 2881-2882) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰘚󰅹𬂙𧡊饒低</p>
+      <p class="nom">拱料𤯩𣨰󰜋𣈜貝饒”</p>
+      <p class="quocngu">Mặt nào trông thấy nhau đây?</p>
+      <p class="quocngu">Cũng liều sống thác một ngày với nhau!"</p>
+      <p class="author"><i>(Dòng 2531-2532) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,42 +26,32 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “I’ve seen a lot of stuff… maybe I’ve seen \
-| too much. I see most humans in a bad light |
-| because I’ve seen what they can do, how    |
-| evil they can be… I’ve seen the Holocaust  |
-| and I’ve seen Jonestown, I’ve seen the     |
-| Vietnam War and I’ve seen Hiroshima… I’ve  |
-| seen the Chernobyl disaster… I’ve seen the |
-| World Trade Center attack… I’ve been alive |
-| too long, over a hundred years is a long   |
-| time to be alive,” Alecto sighed, staring  |
-| at the cigarette he was holding.”          |
+/ “We race toward the future at the velocity \
+| of the present.”                           |
 |                                            |
-\  -- Rebecca McNutt                         /
+\  -- D.A. Blankinship                       /
  --------------------------------------------
-    \
-     \
-           .-;+$XHHHHHHX$+;-.
-        ,;X@@X%/;=----=:/%X@@X/,
-      =$@@%=.              .=+H@X:
-    -XMX:                      =XMX=
-   /@@:                          =H@+
-  %@X,                            .$@$
- +@X.                               $@%
--@@,                                .@@=
-%@%                                  +@$
-H@:                                  :@H
-H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
-%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
-=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
- +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
-  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
-   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
-    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
-      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
-        ,;$@@@@@@@@@@@@@@@@@@X/-
-           .-;+$XXHHHHHX$+;-.
+           \     (      )
+            \    ~(^^^^)~
+             \    ) oo \~_          |\
+              \  /     | \        \~ /
+                ( 0  0  ) \        | |
+                 ---___/~  \       | |
+                  /'__/ |   ~-_____/ |
+   o          _   ~----~      ___---~
+     O       //     |         |
+            ((~\  _|         -|
+      o  O //-_ \/ |        ~  |
+           ^   \_ /         ~  |
+                  |          ~ |
+                  |     /     ~ |
+                  |     (       |
+                   \     \      /\
+                  / -_____-\   \ ~~-*
+                  |  /       \  \       .==.
+                  / /         / /       |  |
+                /~  |      //~  |       |__|         W<
+                ~~~~        ~~~~
 ```
 <!-- END_QUOTE -->
 
