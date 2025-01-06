@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰘚󰅹𬂙𧡊饒低</p>
-      <p class="nom">拱料𤯩𣨰󰜋𣈜貝饒”</p>
-      <p class="quocngu">Mặt nào trông thấy nhau đây?</p>
-      <p class="quocngu">Cũng liều sống thác một ngày với nhau!"</p>
-      <p class="author"><i>(Dòng 2531-2532) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“因爫牢典世尼</p>
+      <p class="nom">崔崔些㐌默𢬣󰘚讎”</p>
+      <p class="quocngu">Nhân làm sao đến thế này?</p>
+      <p class="quocngu">Thôi thôi, ta đã mắc tay mặt thù!"</p>
+      <p class="author"><i>(Dòng 1825-1826) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “We race toward the future at the velocity \
-| of the present.”                           |
-|                                            |
-\  -- D.A. Blankinship                       /
- --------------------------------------------
-           \     (      )
-            \    ~(^^^^)~
-             \    ) oo \~_          |\
-              \  /     | \        \~ /
-                ( 0  0  ) \        | |
-                 ---___/~  \       | |
-                  /'__/ |   ~-_____/ |
-   o          _   ~----~      ___---~
-     O       //     |         |
-            ((~\  _|         -|
-      o  O //-_ \/ |        ~  |
-           ^   \_ /         ~  |
-                  |          ~ |
-                  |     /     ~ |
-                  |     (       |
-                   \     \      /\
-                  / -_____-\   \ ~~-*
-                  |  /       \  \       .==.
-                  / /         / /       |  |
-                /~  |      //~  |       |__|         W<
-                ~~~~        ~~~~
+ ___________________________________________
+/ “Hearing a story awakens the mythic story \
+| living in each of us. It places us in a   |
+| “mythic condition” that reconnects us to  |
+| the core imagination and living story at  |
+| the center of our soul. Being touched by  |
+| myth carries us to the center where the   |
+| world is always ending and always         |
+| beginning again.”                         |
+|                                           |
+\  -- Michael Meade                         /
+ -------------------------------------------
+     \
+      \
+               ,
+             __)\_  
+       (\_.-'    a`-.
+  jgs  (/~~````(/~^^` 
+
 ```
 <!-- END_QUOTE -->
 
