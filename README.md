@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“夜臺隔󰘚屈𠳒</p>
-      <p class="nom">洒填湥渃朱𠊚托寃”</p>
-      <p class="quocngu">Dạ đài cách mặt khuất lời,</p>
-      <p class="quocngu">Rảy xin giọt nước cho người thác oan.</p>
-      <p class="author"><i>(Dòng 747-748) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“惜台渃㐌打矾</p>
+      <p class="nom">𦓡朱湓吏𪷦𨖲買吝”</p>
+      <p class="quocngu">Tiếc thay nước đã đánh phèn,</p>
+      <p class="quocngu">Mà cho bùn lại vận lên mấy lần.</p>
+      <p class="author"><i>(Dòng 2155-2156) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Of all the things in the world, I'm       \
-| particularly amazed at, is the conviction  |
-| with which the MIND, endorses an Idea,     |
-| which is phenomenal, as it differentiates  |
-| the Genius from Mediocre, or not to forget |
-| the human stupidity in particular!”        |
-|                                            |
-\  -- Ramana Pemmaraju                       /
- --------------------------------------------
-  \
-   \
-      ,.,,､,..,､､.,､,､､.,_          ／i
-    ;'`;、､:、..:、:,:,.::｀'::ﾞ":,'´ --i
-    '､;:..: ,:.､.:',.:.::_.;..;:.‐'ﾞ
+ _______________________________________
+/ “Anger was a weapon to be honed and   \
+| treasured and used only at the moment |
+| yielding most premium.”               |
+|                                       |
+\  -- Terry Pratchett                   /
+ ---------------------------------------
+       \
+        \
 
+     ".           ,#  
+     \ `-._____,-'=/
+  ____`._ ----- _,'_____PhS
+         `-----'
 ```
 <!-- END_QUOTE -->
 
