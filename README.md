@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“惜台渃㐌打矾</p>
-      <p class="nom">𦓡朱湓吏𪷦𨖲買吝”</p>
-      <p class="quocngu">Tiếc thay nước đã đánh phèn,</p>
-      <p class="quocngu">Mà cho bùn lại vận lên mấy lần.</p>
-      <p class="author"><i>(Dòng 2155-2156) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“別包𧊉󰌕蜂𢯦</p>
+      <p class="nom">局醝苔𣎃陣唭捽𣎀”</p>
+      <p class="quocngu">Biết bao bướm lả/lửa ong lơi,</p>
+      <p class="quocngu">Cuộc say đầy tháng, trận cười suốt đêm.</p>
+      <p class="author"><i>(Dòng 1229-1230) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “Anger was a weapon to be honed and   \
-| treasured and used only at the moment |
-| yielding most premium.”               |
-|                                       |
-\  -- Terry Pratchett                   /
- ---------------------------------------
-       \
-        \
-
-     ".           ,#  
-     \ `-._____,-'=/
-  ____`._ ----- _,'_____PhS
-         `-----'
+ ____________________________________________
+/ “We all encounter things that we can't     \
+| perhaps change and that's OK because       |
+| surely there are many other things that we |
+| can.”                                      |
+|                                            |
+\  -- Akiroq Brost                           /
+ --------------------------------------------
+     \
+      \  (__)  
+         (\/)  
+  /-------\/    
+ / | 666 ||    
+*  ||----||      
+   ~~    ~~      
 ```
 <!-- END_QUOTE -->
 
