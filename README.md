@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“朗𡎢渗󰣇𡴯頭</p>
-      <p class="nom">些低沛摱埃兜麻浪”</p>
-      <p class="quocngu">Lặng ngồi thấm thía gật đầu:</p>
-      <p class="quocngu">"Ta đây phải mượn ai đâu mà rằng!</p>
-      <p class="author"><i>(Dòng 1101-1102) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡃍朱丐數花桃</p>
+      <p class="nom">攑𠚢耒吏𥾾𠓨如制”</p>
+      <p class="quocngu">Gớm cho cái số hoa đào,</p>
+      <p class="quocngu">Gỡ ra rồi lại buộc vào như chơi!</p>
+      <p class="author"><i>(Dòng 2151-2152) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,35 +26,29 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “You can’t say you love man as an          \
-| individual if you have not dealt with the  |
-| person’s complex personality, his or her   |
-| unfamiliar habits, disturbing impulses and |
-| biological makeup.”                        |
+/ “In the best, the friendliest and simplest \
+| relations flattery or praise is necessary, |
+| just as grease is necessary to keep wheels |
+| turning.”                                  |
 |                                            |
-\  -- Janvier Chouteu-Chando                 /
+\  -- Leo Tolstoy                            /
  --------------------------------------------
-          \
-           \
-            \          __---__
-                    _-       /--______
-               __--( /     \ )XXXXXXXXXXX\v.
-             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
-            /XXX(       U     )        XXXXXXX\
-          /XXXXX(              )--_  XXXXXXXXXXX\
-         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
-         XXXXX/   /            XXXXXX   \__ \XXXXX
-         XXXXXX__/          XXXXXX         \__---->
- ---___  XXX__/          XXXXXX      \__         /
-   \-  --__/   ___/\  XXXXXX            /  ___--/=
-    \-\    ___/    XXXXXX              '--- XXXXXX
-       \-\/XXX\ XXXXXX                      /XXXXX
-         \XXXXXXXXX   \                    /XXXXX/
-          \XXXXXX      >                 _/XXXXX/
-            \XXXXX--__/              __-- XXXX/
-             -XXXXXXXX---------------  XXXXXX-
-                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
-                  ""VXXXXXXXXXXXXXXXXXXV""
+                       \                    ^    /^
+                        \                  / \  // \
+                         \   |\___/|      /   \//  .\
+                          \  /O  O  \__  /    //  | \ \           *----*
+                            /     /  \/_/    //   |  \  \          \   |
+                            @___@`    \/_   //    |   \   \         \/\ \
+                           0/0/|       \/_ //     |    \    \         \  \
+                       0/0/0/0/|        \///      |     \     \       |  |
+                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
+                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
+                             ,-}        _      *-.|.-~-.           .~    ~
+            \     \__/        `/\      /                 ~-. _ .-~      /
+             \____(oo)           *.   }            {                   /
+             (    (--)          .----~-.\        \-`                 .~
+             //__\  \__ Ack!   ///.----..<        \             _ -~
+            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
 ```
 <!-- END_QUOTE -->
 
