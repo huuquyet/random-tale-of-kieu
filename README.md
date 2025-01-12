@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡃍朱丐數花桃</p>
-      <p class="nom">攑𠚢耒吏𥾾𠓨如制”</p>
-      <p class="quocngu">Gớm cho cái số hoa đào,</p>
-      <p class="quocngu">Gỡ ra rồi lại buộc vào như chơi!</p>
-      <p class="author"><i>(Dòng 2151-2152) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“蹎𡗶󰘚𣷭泠汀</p>
+      <p class="nom">捻󰢇別𢭮死生准󰅹”</p>
+      <p class="quocngu">Chân trời mặt biển lênh đênh,</p>
+      <p class="quocngu">Nắm xương biết gửi tử sinh chốn nào?</p>
+      <p class="author"><i>(Dòng 2607-2608) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “In the best, the friendliest and simplest \
-| relations flattery or praise is necessary, |
-| just as grease is necessary to keep wheels |
-| turning.”                                  |
-|                                            |
-\  -- Leo Tolstoy                            /
- --------------------------------------------
-                       \                    ^    /^
-                        \                  / \  // \
-                         \   |\___/|      /   \//  .\
-                          \  /O  O  \__  /    //  | \ \           *----*
-                            /     /  \/_/    //   |  \  \          \   |
-                            @___@`    \/_   //    |   \   \         \/\ \
-                           0/0/|       \/_ //     |    \    \         \  \
-                       0/0/0/0/|        \///      |     \     \       |  |
-                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
-                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
-                             ,-}        _      *-.|.-~-.           .~    ~
-            \     \__/        `/\      /                 ~-. _ .-~      /
-             \____(oo)           *.   }            {                   /
-             (    (--)          .----~-.\        \-`                 .~
-             //__\  \__ Ack!   ///.----..<        \             _ -~
-            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
+ ___________________________________________
+/ “Some flowers bloom beneath the biggest   \
+| blue,while others prefer the shade;As is  |
+| Human Nature.....Some turn their faces to |
+| the sunwhile others seek solitude.But no  |
+| matter where you wish to stand;Stand      |
+| Straight and Stand tall.”                 |
+|                                           |
+\  -- Michelle Geaney                       /
+ -------------------------------------------
+   \
+    \
+
+      (\(\/
+  .-._)oo  '_
+  \'---.     .\'\
+       )    \.-\'\
+      /__ ;     (
+      |__ : /'._/
+       \_  (
+       .,)  )
+       \'-.-\'
+
 ```
 <!-- END_QUOTE -->
 
