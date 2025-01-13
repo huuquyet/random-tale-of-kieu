@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“蹎𡗶󰘚𣷭泠汀</p>
-      <p class="nom">捻󰢇別𢭮死生准󰅹”</p>
-      <p class="quocngu">Chân trời mặt biển lênh đênh,</p>
-      <p class="quocngu">Nắm xương biết gửi tử sinh chốn nào?</p>
-      <p class="author"><i>(Dòng 2607-2608) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𩙍光𩅹淨請台</p>
+      <p class="nom">固𠊚檀樾𨖲制𨷶伽”</p>
+      <p class="quocngu">Gió quang mưa tạnh thảnh thơi,</p>
+      <p class="quocngu">Có người đàn việt lên chơi cửa già.</p>
+      <p class="author"><i>(Dòng 2063-2064) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Some flowers bloom beneath the biggest   \
-| blue,while others prefer the shade;As is  |
-| Human Nature.....Some turn their faces to |
-| the sunwhile others seek solitude.But no  |
-| matter where you wish to stand;Stand      |
-| Straight and Stand tall.”                 |
-|                                           |
-\  -- Michelle Geaney                       /
- -------------------------------------------
-   \
-    \
-
-      (\(\/
-  .-._)oo  '_
-  \'---.     .\'\
-       )    \.-\'\
-      /__ ;     (
-      |__ : /'._/
-       \_  (
-       .,)  )
-       \'-.-\'
-
+ ________________________
+/ “Bury me where I die.” \
+|                        |
+\  -- Jane Bulos         /
+ ------------------------
+      \
+       \
+                     -$-
+                    .H##H,
+                   +######+
+                .+#########H.
+              -$############@.
+            =H###############@  -X:
+          .$##################:  @#@-
+     ,;  .M###################;  H###;
+   ;@#:  @###################@  ,#####:
+ -M###.  M#################@.  ;######H
+ M####-  +###############$   =@#######X
+ H####$   -M###########+   :#########M,
+  /####X-   =########%   :M########@/.
+    ,;%H@X;   .$###X   :##MM@%+;:-
+                 ..
+  -/;:-,.              ,,-==+M########H
+ -##################@HX%%+%%$%%%+:,,
+    .-/H%%%+%%$H@###############M@+=:/+:
+/XHX%:#####MH%=    ,---:;;;;/%%XHM,:###$
+$@#MX %+;-                           .
 ```
 <!-- END_QUOTE -->
 
