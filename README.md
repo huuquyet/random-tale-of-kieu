@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𩙍光𩅹淨請台</p>
-      <p class="nom">固𠊚檀樾𨖲制𨷶伽”</p>
-      <p class="quocngu">Gió quang mưa tạnh thảnh thơi,</p>
-      <p class="quocngu">Có người đàn việt lên chơi cửa già.</p>
-      <p class="author"><i>(Dòng 2063-2064) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𧡊𠳒統請如𨔈</p>
+      <p class="nom">順𠳒払拱呐吹扡扽”</p>
+      <p class="quocngu">Thấy lời thủng thỉnh như chơi,</p>
+      <p class="quocngu">Thuận lời chàng cũng nói xuôi đỡ đòn.</p>
+      <p class="author"><i>(Dòng 1589-1590) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________
-/ “Bury me where I die.” \
-|                        |
-\  -- Jane Bulos         /
- ------------------------
-      \
-       \
-                     -$-
-                    .H##H,
-                   +######+
-                .+#########H.
-              -$############@.
-            =H###############@  -X:
-          .$##################:  @#@-
-     ,;  .M###################;  H###;
-   ;@#:  @###################@  ,#####:
- -M###.  M#################@.  ;######H
- M####-  +###############$   =@#######X
- H####$   -M###########+   :#########M,
-  /####X-   =########%   :M########@/.
-    ,;%H@X;   .$###X   :##MM@%+;:-
-                 ..
-  -/;:-,.              ,,-==+M########H
- -##################@HX%%+%%$%%%+:,,
-    .-/H%%%+%%$H@###############M@+=:/+:
-/XHX%:#####MH%=    ,---:;;;;/%%XHM,:###$
-$@#MX %+;-                           .
+ ____________________________________________
+/ “Let my worship be within the heart that   \
+| rejoices, for behold, all acts of love and |
+| pleasure are my rituals. Therefore, let    |
+| there be beauty and strength, power and    |
+| compassion, honor and humility, mirth and  |
+| reverence within you.”                     |
+|                                            |
+\  -- Doreen Valiente                        /
+ --------------------------------------------
+   \
+    \
+      .-+$H###MM@MMMMM##@$+-,. ....
+-@$+%$+%HX+--..  .  . .,:X$/+/++$#:
+-#MXH$=                      $HXH#:
+ .--,:#+   ,+$HMX =@@X%, . .X#:,,,
+     =#@$H :####H =####;,M%$#X
+     X###$ $####X =####H %###X
+    ;###X /###@$: ,+HM##H.+###;
+   :###;,X##%=;%H@H$;-;M#@-;###/
+  ,M##;.@##;-H#######M=.M##-:###-
+  ;##M ;##X @###H-=@###.;##X H##;
+  ;##M./##X.@###H:/M###-=##X X##;
+  -###;,M##:,@########+-H##; @##-
+   %##M==@##%==%HMH%::/M##+.X##+
+    %###/./###X+: -+$M##M=,X##+
+     X###X X####H +#####% @##H
+     :###H %####H +#####; X##;
+     /#$.  -HM##H /###@+.  +#$. .
+/HX%$X:      .,-, .-,.      =XX$H@-
+/#H+/+%+/+;=.          .=/%;;/;;+#+
+ ..  .,-:XM#MM@@@@@@H@@M#@+=,.   ,,
 ```
 <!-- END_QUOTE -->
 
