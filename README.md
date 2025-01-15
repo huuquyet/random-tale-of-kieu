@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𧡊𠳒統請如𨔈</p>
-      <p class="nom">順𠳒払拱呐吹扡扽”</p>
-      <p class="quocngu">Thấy lời thủng thỉnh như chơi,</p>
-      <p class="quocngu">Thuận lời chàng cũng nói xuôi đỡ đòn.</p>
-      <p class="author"><i>(Dòng 1589-1590) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“薄生跪𫴋倍鐄</p>
+      <p class="nom">過𠳒願歇城隍土公”</p>
+      <p class="quocngu">Bạc sinh quỳ xuống vội vàng,</p>
+      <p class="quocngu">Quá lời nguyện hết thành hoàng, thổ công.</p>
+      <p class="author"><i>(Dòng 2131-2132) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,37 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Let my worship be within the heart that   \
-| rejoices, for behold, all acts of love and |
-| pleasure are my rituals. Therefore, let    |
-| there be beauty and strength, power and    |
-| compassion, honor and humility, mirth and  |
-| reverence within you.”                     |
+/ “He said I wanted revenge, but if I wanted \
+| revenge I would’ve just broken his heart.” |
 |                                            |
-\  -- Doreen Valiente                        /
+\  -- Dominic Riccitello                     /
  --------------------------------------------
-   \
-    \
-      .-+$H###MM@MMMMM##@$+-,. ....
--@$+%$+%HX+--..  .  . .,:X$/+/++$#:
--#MXH$=                      $HXH#:
- .--,:#+   ,+$HMX =@@X%, . .X#:,,,
-     =#@$H :####H =####;,M%$#X
-     X###$ $####X =####H %###X
-    ;###X /###@$: ,+HM##H.+###;
-   :###;,X##%=;%H@H$;-;M#@-;###/
-  ,M##;.@##;-H#######M=.M##-:###-
-  ;##M ;##X @###H-=@###.;##X H##;
-  ;##M./##X.@###H:/M###-=##X X##;
-  -###;,M##:,@########+-H##; @##-
-   %##M==@##%==%HMH%::/M##+.X##+
-    %###/./###X+: -+$M##M=,X##+
-     X###X X####H +#####% @##H
-     :###H %####H +#####; X##;
-     /#$.  -HM##H /###@+.  +#$. .
-/HX%$X:      .,-, .-,.      =XX$H@-
-/#H+/+%+/+;=.          .=/%;;/;;+#+
- ..  .,-:XM#MM@@@@@@H@@M#@+=,.   ,,
+          \     (
+           \     )
+            \   (
+         /\  .-""""-.  /\
+        //\\/  ,,,,  \//\\
+        |/\| ,;;;;;;, |/\|
+        //\\\;-""""-;///\\
+       //  \/   ..   \/  \\
+      (| ,-_| \ || / |_-, |)
+        //`__(\(__)/)__`\\
+       // /.-\`(oo)'/-.\ \\
+      (\ |)   ')  ('   (| /)
+       ` (|   (o  o)   |) `
+         \)    `--'    (/
+                  
 ```
 <!-- END_QUOTE -->
 
