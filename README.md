@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“薄生跪𫴋倍鐄</p>
-      <p class="nom">過𠳒願歇城隍土公”</p>
-      <p class="quocngu">Bạc sinh quỳ xuống vội vàng,</p>
-      <p class="quocngu">Quá lời nguyện hết thành hoàng, thổ công.</p>
-      <p class="author"><i>(Dòng 2131-2132) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤯩爫𡞕泣𠊚些</p>
+      <p class="nom">窖台𦣰𫴋羅魔空𫯳”</p>
+      <p class="quocngu">Sống làm vợ khắp người ta,</p>
+      <p class="quocngu">Khéo thay nằm xuống là ma không chồng!</p>
+      <p class="author"><i>(Dòng 87-88) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “He said I wanted revenge, but if I wanted \
-| revenge I would’ve just broken his heart.” |
-|                                            |
-\  -- Dominic Riccitello                     /
- --------------------------------------------
-          \     (
-           \     )
-            \   (
-         /\  .-""""-.  /\
-        //\\/  ,,,,  \//\\
-        |/\| ,;;;;;;, |/\|
-        //\\\;-""""-;///\\
-       //  \/   ..   \/  \\
-      (| ,-_| \ || / |_-, |)
-        //`__(\(__)/)__`\\
-       // /.-\`(oo)'/-.\ \\
-      (\ |)   ')  ('   (| /)
-       ` (|   (o  o)   |) `
-         \)    `--'    (/
-                  
+ _____________________________________________
+/ “[T]he unsympathetic assessments we make of \
+| others are usually the result of nothing    |
+| more sinister than our habit of looking at  |
+| them in the wrong way, through lenses       |
+| clouded by distraction, exhaustion and      |
+| fear, which blind us to the fact that they  |
+| are really, despite a thousand              |
+| differences, just altered versions of       |
+| ourselves: fellow fragile, uncertain,       |
+| flawed beings likewise craving love and in  |
+| urgent need of forgiveness.”                |
+|                                             |
+\  -- Alain de Botton                         /
+ ---------------------------------------------
+       \
+        \
+
++      o     +              o   
+    +             o     +       +
+o          +
+    o  +           +        +
++        o     o       +        o
+-_-_-_-_-_-_-_,------,      o 
+_-_-_-_-_-_-_-|   /\_/\  
+-_-_-_-_-_-_-~|__( ^ .^)  +     +  
+_-_-_-_-_-_-_-''  ''      
++      o         o   +       o
+    +         +
+o        o         o      o     +
+    o           +
++      +     o        o      +    
 ```
 <!-- END_QUOTE -->
 
