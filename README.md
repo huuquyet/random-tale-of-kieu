@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤯩爫𡞕泣𠊚些</p>
-      <p class="nom">窖台𦣰𫴋羅魔空𫯳”</p>
-      <p class="quocngu">Sống làm vợ khắp người ta,</p>
-      <p class="quocngu">Khéo thay nằm xuống là ma không chồng!</p>
-      <p class="author"><i>(Dòng 87-88) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰈫寬󰈫󰢣典𠳒</p>
+      <p class="nom">󰈫跪盡󰘚󰈫𠶆盡𢬣”</p>
+      <p class="quocngu">Bắt khoan bắt nhặt đến lời,</p>
+      <p class="quocngu">Bắt quỳ tận mặt, bắt mời tận tay.</p>
+      <p class="author"><i>(Dòng 1837-1838) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “[T]he unsympathetic assessments we make of \
-| others are usually the result of nothing    |
-| more sinister than our habit of looking at  |
-| them in the wrong way, through lenses       |
-| clouded by distraction, exhaustion and      |
-| fear, which blind us to the fact that they  |
-| are really, despite a thousand              |
-| differences, just altered versions of       |
-| ourselves: fellow fragile, uncertain,       |
-| flawed beings likewise craving love and in  |
-| urgent need of forgiveness.”                |
-|                                             |
-\  -- Alain de Botton                         /
- ---------------------------------------------
+ ____________________________________________
+/ “Shadow crawled across the floor to the    \
+| yellow foam-rubber pad and climbed onto    |
+| it, pulling the thin blanket over himself, |
+| and closed his eyes, and he held onto      |
+| nothing, and he held onto dreams.”         |
+|                                            |
+\  -- Neil Gaiman                            /
+ --------------------------------------------
        \
         \
-
-+      o     +              o   
-    +             o     +       +
-o          +
-    o  +           +        +
-+        o     o       +        o
--_-_-_-_-_-_-_,------,      o 
-_-_-_-_-_-_-_-|   /\_/\  
--_-_-_-_-_-_-~|__( ^ .^)  +     +  
-_-_-_-_-_-_-_-''  ''      
-+      o         o   +       o
-    +         +
-o        o         o      o     +
-    o           +
-+      +     o        o      +    
+                           __ 
+                  l^ヽ    /  }    _
+                  |  |   /  /   ／  )
+                  |  |  /  /  ／  ／ _
+                  j. し'  / ／  ／ ／  )
+                 /  .＿__ ´  ／ ／  ／
+                /   {  /:｀ヽ ｀¨ ／
+               /     ∨::::::ﾊ   ／
+              |廴     ＼:::ノ}  /
+    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
+    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
+        ／       ＼ 辷_´￣
+      ／           ﾍ￣
+    ／             ,ﾍ
+                  /、ﾍ
+                 /＼__ﾉ
 ```
 <!-- END_QUOTE -->
 
