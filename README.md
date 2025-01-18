@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰈫寬󰈫󰢣典𠳒</p>
-      <p class="nom">󰈫跪盡󰘚󰈫𠶆盡𢬣”</p>
-      <p class="quocngu">Bắt khoan bắt nhặt đến lời,</p>
-      <p class="quocngu">Bắt quỳ tận mặt, bắt mời tận tay.</p>
-      <p class="author"><i>(Dòng 1837-1838) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“鄭𥢆想𠃣𢖵𡗉</p>
+      <p class="nom">侵侵提裊藍橋𨁮𨖅”</p>
+      <p class="quocngu">Trạnh riêng tưởng ít nhớ nhiều,</p>
+      <p class="quocngu">Xăm xăm đè nẻo Lam Kiều lần sang.</p>
+      <p class="author"><i>(Dòng 265-266) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,32 +26,50 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Shadow crawled across the floor to the    \
-| yellow foam-rubber pad and climbed onto    |
-| it, pulling the thin blanket over himself, |
-| and closed his eyes, and he held onto      |
-| nothing, and he held onto dreams.”         |
+/ “Maybe each human being lives in a unique  \
+| world, a private world different from      |
+| those inhabited and experienced by all     |
+| other humans. . . If reality differs from  |
+| person to person, can we speak of reality  |
+| singular, or shouldn't we really be        |
+| talking about plural realities? And if     |
+| there are plural realities, are some more  |
+| true (more real) than others? What about   |
+| the world of a schizophrenic? Maybe it's   |
+| as real as our world. Maybe we cannot say  |
+| that we are in touch with reality and he   |
+| is not, but should instead say, His        |
+| reality is so different from ours that he  |
+| can't explain his to us, and we can't      |
+| explain ours to him. The problem, then, is |
+| that if subjective worlds are experienced  |
+| too differently, there occurs a breakdown  |
+| in communication ... and there is the real |
+| illness.”                                  |
 |                                            |
-\  -- Neil Gaiman                            /
+\  -- Philip K. Dick                         /
  --------------------------------------------
        \
         \
-                           __ 
-                  l^ヽ    /  }    _
-                  |  |   /  /   ／  )
-                  |  |  /  /  ／  ／ _
-                  j. し'  / ／  ／ ／  )
-                 /  .＿__ ´  ／ ／  ／
-                /   {  /:｀ヽ ｀¨ ／
-               /     ∨::::::ﾊ   ／
-              |廴     ＼:::ノ}  /
-    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
-    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
-        ／       ＼ 辷_´￣
-      ／           ﾍ￣
-    ／             ,ﾍ
-                  /、ﾍ
-                 /＼__ﾉ
+                   ,―ヾヽヽ/ｖへ／⌒ー
+                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
+              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
+            ／  ／            `ヾ  ー   ミヽ
+          ,/   /                   ヾ ＼  ヽﾐ
+         /    /                      ゞ      ヽ
+         i   /                       /      ＼
+        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
+        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
+        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
+        } ;  |    人､,;-,'^            /    くヾ  ）
+        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
+       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
+      ,i          -ー‐ `ゞ           ヽ   ヽ
+      彡彡                        ミ       ヽ
+''""￣彡      /   /   /   /            ミ   ﾂ＼
+      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
+        '―彡                         ｒー'"
+            ヾノ人,,.r--､ノノノノノり'"
 ```
 <!-- END_QUOTE -->
 
