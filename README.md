@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“鄭𥢆想𠃣𢖵𡗉</p>
-      <p class="nom">侵侵提裊藍橋𨁮𨖅”</p>
-      <p class="quocngu">Trạnh riêng tưởng ít nhớ nhiều,</p>
-      <p class="quocngu">Xăm xăm đè nẻo Lam Kiều lần sang.</p>
-      <p class="author"><i>(Dòng 265-266) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“師浪拱拯包𥹰</p>
+      <p class="nom">𥪝𠄼𢆥吏﨤饒妬𦓡”</p>
+      <p class="quocngu">Sư rằng: "Cũng chẳng bao lâu,</p>
+      <p class="quocngu">Trong năm năm lại gặp nhau đó mà.</p>
+      <p class="author"><i>(Dòng 2403-2404) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,50 +26,18 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Maybe each human being lives in a unique  \
-| world, a private world different from      |
-| those inhabited and experienced by all     |
-| other humans. . . If reality differs from  |
-| person to person, can we speak of reality  |
-| singular, or shouldn't we really be        |
-| talking about plural realities? And if     |
-| there are plural realities, are some more  |
-| true (more real) than others? What about   |
-| the world of a schizophrenic? Maybe it's   |
-| as real as our world. Maybe we cannot say  |
-| that we are in touch with reality and he   |
-| is not, but should instead say, His        |
-| reality is so different from ours that he  |
-| can't explain his to us, and we can't      |
-| explain ours to him. The problem, then, is |
-| that if subjective worlds are experienced  |
-| too differently, there occurs a breakdown  |
-| in communication ... and there is the real |
-| illness.”                                  |
+/ “When one is in love, one always begins by \
+| deceiving one's self, and one always ends  |
+| by deceiving others. That is what the      |
+| world calls a romance.”                    |
 |                                            |
-\  -- Philip K. Dick                         /
+\  -- Oscar Wilde                            /
  --------------------------------------------
-       \
-        \
-                   ,―ヾヽヽ/ｖへ／⌒ー
-                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
-              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
-            ／  ／            `ヾ  ー   ミヽ
-          ,/   /                   ヾ ＼  ヽﾐ
-         /    /                      ゞ      ヽ
-         i   /                       /      ＼
-        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
-        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
-        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
-        } ;  |    人､,;-,'^            /    くヾ  ）
-        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
-       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
-      ,i          -ー‐ `ゞ           ヽ   ヽ
-      彡彡                        ミ       ヽ
-''""￣彡      /   /   /   /            ミ   ﾂ＼
-      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
-        '―彡                         ｒー'"
-            ヾノ人,,.r--､ノノノノノり'"
+  \   ^__^
+   \  (oo)\_______        ________
+      (__)\       )\/\    |Super |
+          ||----W |       |Milker|
+          ||    UDDDDDDDDD|______|
 ```
 <!-- END_QUOTE -->
 
