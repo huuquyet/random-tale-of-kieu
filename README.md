@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“唭浪𩵜渃緣𢛨</p>
-      <p class="nom">𢖵𠳒呐仍包𣇞𫨩空”</p>
-      <p class="quocngu">Cười rằng: "Cá nước duyên ưa,</p>
-      <p class="quocngu">Nhớ lời nói những bao giờ hay không?</p>
-      <p class="author"><i>(Dòng 2275-2276) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浽𥢆笠笠㳥𣼭</p>
+      <p class="nom">擬源干吏湥洡𠾕干”</p>
+      <p class="quocngu">Nỗi riêng lớp lớp sóng dồi,</p>
+      <p class="quocngu">Nghĩ nguồn cơn lại sụt sùi đòi cơn.</p>
+      <p class="author"><i>(Dòng 221-222) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “When you don’t come closer to the goal and \
-| don’t make everyday steps for achieving     |
-| it, we will not get the results we          |
-| inwardly set out to attain”                 |
-|                                             |
-\  -- Sunday Adelaja                          /
- ---------------------------------------------
-   \
-    \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
-
+ ___________________________________________
+/ “Don’t ever rule out the option of U-turn \
+| in your life, because one day you will    |
+| need it! The moment you realize that you  |
+| are going to the wrong direction, turn to |
+| the right direction instantly, with a     |
+| beautiful U-turn!”                        |
+|                                           |
+\  -- Mehmet Murat ildan                    /
+ -------------------------------------------
+       \
+        \
+         \
+             ＿＿＿＿
+           ／＿＿＿＿＼
+         ／／ (⌒ ⌒ ヽ＼＼
+        ｜｜  ﾉz(⌒ )| ｜｜
+        ｜｜ <   (_ノ ｜｜
+        ｜｜  L_／ )  ｜｜
+         ＼＼ /＿／  ／／
+           ＼⌒ )  (⌒ ／
+           ／／    ＼＼
+           ＼＼_  _／／
+             ﾍ＿)(＿/
+             ｜＝＝｜
+              ＼三／
+                ∧
+              ／  ＼
+              ＼  ／
+                Ｖ
 ```
 <!-- END_QUOTE -->
 
