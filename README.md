@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浽𥢆笠笠㳥𣼭</p>
-      <p class="nom">擬源干吏湥洡𠾕干”</p>
-      <p class="quocngu">Nỗi riêng lớp lớp sóng dồi,</p>
-      <p class="quocngu">Nghĩ nguồn cơn lại sụt sùi đòi cơn.</p>
-      <p class="author"><i>(Dòng 221-222) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠊚群意𧵑拱群</p>
+      <p class="nom">尋尼稱當羅昆丐茹”</p>
+      <p class="quocngu">Người còn ấy của cũng còn,</p>
+      <p class="quocngu">Tìm nơi xứng đáng là con cái nhà.</p>
+      <p class="author"><i>(Dòng 1011-1012) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Don’t ever rule out the option of U-turn \
-| in your life, because one day you will    |
-| need it! The moment you realize that you  |
-| are going to the wrong direction, turn to |
-| the right direction instantly, with a     |
-| beautiful U-turn!”                        |
-|                                           |
-\  -- Mehmet Murat ildan                    /
- -------------------------------------------
-       \
-        \
-         \
-             ＿＿＿＿
-           ／＿＿＿＿＼
-         ／／ (⌒ ⌒ ヽ＼＼
-        ｜｜  ﾉz(⌒ )| ｜｜
-        ｜｜ <   (_ノ ｜｜
-        ｜｜  L_／ )  ｜｜
-         ＼＼ /＿／  ／／
-           ＼⌒ )  (⌒ ／
-           ／／    ＼＼
-           ＼＼_  _／／
-             ﾍ＿)(＿/
-             ｜＝＝｜
-              ＼三／
-                ∧
-              ／  ＼
-              ＼  ／
-                Ｖ
+ _____________________________________________
+/ “I compete every moment, and my competition \
+| is only with myself.”                       |
+|                                             |
+\  -- Debasish Mridha                         /
+ ---------------------------------------------
+     \     .-.
+      \  .'   `.
+       \ :g g   :
+        \: o    `.
+        :         ``.
+       :             `.
+      :  :         .   `.
+      :   :          ` . `.
+       `.. :            `. ``;
+          `:;             `:'
+             :              `.
+              `.              `.     .
+                `'`'`'`---..,___`;.-'
 ```
 <!-- END_QUOTE -->
 
