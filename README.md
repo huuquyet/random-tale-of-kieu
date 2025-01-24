@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠊚群意𧵑拱群</p>
-      <p class="nom">尋尼稱當羅昆丐茹”</p>
-      <p class="quocngu">Người còn ấy của cũng còn,</p>
-      <p class="quocngu">Tìm nơi xứng đáng là con cái nhà.</p>
-      <p class="author"><i>(Dòng 1011-1012) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰅹𫨩渚歇塵緣</p>
+      <p class="nom">𥪝迷𬂙𧡊淡仙𤑟𤉜”</p>
+      <p class="quocngu">Nào hay chưa hết trần duyên,</p>
+      <p class="quocngu">Trong mê trông thấy Đạm Tiên rõ ràng.</p>
+      <p class="author"><i>(Dòng 993-994) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I compete every moment, and my competition \
-| is only with myself.”                       |
-|                                             |
-\  -- Debasish Mridha                         /
- ---------------------------------------------
-     \     .-.
-      \  .'   `.
-       \ :g g   :
-        \: o    `.
-        :         ``.
-       :             `.
-      :  :         .   `.
-      :   :          ` . `.
-       `.. :            `. ``;
-          `:;             `:'
-             :              `.
-              `.              `.     .
-                `'`'`'`---..,___`;.-'
+ _____________________________________
+/ “Writers will happen in the best of \
+| families.”                          |
+|                                     |
+\  -- Rita Mae Brown                  /
+ -------------------------------------
+        \               ___
+         \           .-'   `'.
+                    /         \
+                    |         ;
+                    |         |           ___.--,
+           _.._     |0) ~ (0) |    _.---'`__.-( (_.
+    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+        | |  .' _.-' |  |  \  \  '.               `~---`
+         \ \/ .'     \  \   '. '-._)
+          \/ /        \  \    `=.__`~-.
+     jgs  / /\         `) )    / / `"".`\
+    , _.-'.'\ \        / /    ( (     / /
+     `--~`   ) )    .-'.'      '.'.  | (
+            (/`    ( (`          ) )  '-;
+             `      '-;         (-'
 ```
 <!-- END_QUOTE -->
 
