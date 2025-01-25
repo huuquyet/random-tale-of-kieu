@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰅹𫨩渚歇塵緣</p>
-      <p class="nom">𥪝迷𬂙𧡊淡仙𤑟𤉜”</p>
-      <p class="quocngu">Nào hay chưa hết trần duyên,</p>
-      <p class="quocngu">Trong mê trông thấy Đạm Tiên rõ ràng.</p>
-      <p class="author"><i>(Dòng 993-994) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌𫨩払󰠱爲情</p>
+      <p class="nom">𬂙花畑拯𢢆命𡗋油”</p>
+      <p class="quocngu">Đã hay chàng nặng vì tình,</p>
+      <p class="quocngu">Trông hoa đèn, chẳng thẹn mình lắm ru!</p>
+      <p class="author"><i>(Dòng 3105-3106) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________
-/ “Writers will happen in the best of \
-| families.”                          |
-|                                     |
-\  -- Rita Mae Brown                  /
- -------------------------------------
-        \               ___
-         \           .-'   `'.
-                    /         \
-                    |         ;
-                    |         |           ___.--,
-           _.._     |0) ~ (0) |    _.---'`__.-( (_.
-    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
-   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
-   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
-  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
-        | |  .' _.-' |  |  \  \  '.               `~---`
-         \ \/ .'     \  \   '. '-._)
-          \/ /        \  \    `=.__`~-.
-     jgs  / /\         `) )    / / `"".`\
-    , _.-'.'\ \        / /    ( (     / /
-     `--~`   ) )    .-'.'      '.'.  | (
-            (/`    ( (`          ) )  '-;
-             `      '-;         (-'
+ _________________________________________
+/ “The loneliness comes to me in certain  \
+| hours everyday, like a visitor. Like a  |
+| friend you never expected, a friend you |
+| never really want to be with, but he    |
+| always visit you and love you somehow,” |
+|                                         |
+\  -- Xiaolu Guo                          /
+ -----------------------------------------
+   \
+    \
+         _____
+       .\'/L|__`.
+      / =[_]O|` \
+      |\"+_____\":|
+    __:='|____`-:__
+   ||[] ||====| []||
+   ||[] | |=| | []||
+   |:||_|=|U| |_||:|
+   |:|||]_=_ =[_||:| LS
+   | |||] [_][]C|| |
+   | ||-\'\"\"\"\"\"`-|| |
+   /|\\_\_|_|_/_//|\
+  |___|   /|\   |___|
+  `---\'  |___|  `---\'
+         `---'
 ```
 <!-- END_QUOTE -->
 
