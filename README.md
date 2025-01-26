@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌𫨩払󰠱爲情</p>
-      <p class="nom">𬂙花畑拯𢢆命𡗋油”</p>
-      <p class="quocngu">Đã hay chàng nặng vì tình,</p>
-      <p class="quocngu">Trông hoa đèn, chẳng thẹn mình lắm ru!</p>
-      <p class="author"><i>(Dòng 3105-3106) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“䏾娥濕倘󰡎萌</p>
+      <p class="nom">𬂙娘払拱𠚢情刀帶”</p>
+      <p class="quocngu">Bóng nga thấp thoáng dưới mành,</p>
+      <p class="quocngu">Trông nàng, chàng cũng ra tình đeo đai.</p>
+      <p class="author"><i>(Dòng 1063-1064) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The loneliness comes to me in certain  \
-| hours everyday, like a visitor. Like a  |
-| friend you never expected, a friend you |
-| never really want to be with, but he    |
-| always visit you and love you somehow,” |
-|                                         |
-\  -- Xiaolu Guo                          /
- -----------------------------------------
+ _____________________________________________
+/ “Third Reich was a term that was never used \
+| by Adolf Hitler. The term 'Third Reich' is  |
+| used by so-called scholars and news         |
+| journalists (and Wikipedia posters) to      |
+| hide the fact that Hitler called his        |
+| regime 'Socialism.' Scholars, journalists   |
+| (and wakipedia) cite no example of Hitler   |
+| ever using the term 'Third Reich.' Other    |
+| writers use the terms 'Nazi' and 'Fascist'  |
+| and 'Third Reich' as if Hitler tossed them  |
+| around all the time. Those terms were not   |
+| used as self-identifiers by the             |
+| self-avowed socialist Hitler.”              |
+|                                             |
+\  -- Rex Curry                               /
+ ---------------------------------------------
+  \
    \
-    \
-         _____
-       .\'/L|__`.
-      / =[_]O|` \
-      |\"+_____\":|
-    __:='|____`-:__
-   ||[] ||====| []||
-   ||[] | |=| | []||
-   |:||_|=|U| |_||:|
-   |:|||]_=_ =[_||:| LS
-   | |||] [_][]C|| |
-   | ||-\'\"\"\"\"\"`-|| |
-   /|\\_\_|_|_/_//|\
-  |___|   /|\   |___|
-  `---\'  |___|  `---\'
-         `---'
+
+:. :.孑|:/仔:./  ＼:.| V｜:. ﾄ:. :.
+:. :/  |/  |:/     ヽ|   \/:!\/:.:
+:. / ,ィf芋ミ     ィf芋｀:V  .\/.
+:./ ,' :'::::ﾊ      ,':::::ﾊ ヽ /:.
+:t  { {k)::::!     !k)::::!  },'.:
+:ﾊ    弋 一ソ      弋 一 ｿ ,: ::
+:.{      ￣    ,       ￣  ; :./
+:.| ''                  '' |:./
+:.ﾄ､      ` ､      ノ     ﾉ!:/ノ
+ﾄ､!:＞ ､.     一  '   .,＜:|/::.
+:: :: :: ::>z-一-z<:: :: :: :: :.
+V|＼:/}ﾍ/  `ー又ー' \/}ノ{／|:／
+  ,z'￣ ﾍ   /{ .ﾄ､  /￣  ヽ
+／      /\./x 一 ﾐ./       ＼ 
 ```
 <!-- END_QUOTE -->
 
