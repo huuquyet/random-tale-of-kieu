@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“䏾娥濕倘󰡎萌</p>
-      <p class="nom">𬂙娘払拱𠚢情刀帶”</p>
-      <p class="quocngu">Bóng nga thấp thoáng dưới mành,</p>
-      <p class="quocngu">Trông nàng, chàng cũng ra tình đeo đai.</p>
-      <p class="author"><i>(Dòng 1063-1064) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣌋𣌉蘿貝幡𩄲</p>
+      <p class="nom">𦰟畑挑月㗂𣖖󰠱霜”</p>
+      <p class="quocngu">Sớm khuya lá bối, phướn mây,</p>
+      <p class="quocngu">Ngọn đèn khêu nguyệt, tiếng chày nặng sương.</p>
+      <p class="author"><i>(Dòng 2057-2058) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,39 +26,22 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Third Reich was a term that was never used \
-| by Adolf Hitler. The term 'Third Reich' is  |
-| used by so-called scholars and news         |
-| journalists (and Wikipedia posters) to      |
-| hide the fact that Hitler called his        |
-| regime 'Socialism.' Scholars, journalists   |
-| (and wakipedia) cite no example of Hitler   |
-| ever using the term 'Third Reich.' Other    |
-| writers use the terms 'Nazi' and 'Fascist'  |
-| and 'Third Reich' as if Hitler tossed them  |
-| around all the time. Those terms were not   |
-| used as self-identifiers by the             |
-| self-avowed socialist Hitler.”              |
+/ “When a human being is born the first thing \
+| he does is crying.. The rest of his life    |
+| he'll spend discovering why...”             |
 |                                             |
-\  -- Rex Curry                               /
+\  -- Erik Tanghe                             /
  ---------------------------------------------
-  \
    \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
 
-:. :.孑|:/仔:./  ＼:.| V｜:. ﾄ:. :.
-:. :/  |/  |:/     ヽ|   \/:!\/:.:
-:. / ,ィf芋ミ     ィf芋｀:V  .\/.
-:./ ,' :'::::ﾊ      ,':::::ﾊ ヽ /:.
-:t  { {k)::::!     !k)::::!  },'.:
-:ﾊ    弋 一ソ      弋 一 ｿ ,: ::
-:.{      ￣    ,       ￣  ; :./
-:.| ''                  '' |:./
-:.ﾄ､      ` ､      ノ     ﾉ!:/ノ
-ﾄ､!:＞ ､.     一  '   .,＜:|/::.
-:: :: :: ::>z-一-z<:: :: :: :: :.
-V|＼:/}ﾍ/  `ー又ー' \/}ノ{／|:／
-  ,z'￣ ﾍ   /{ .ﾄ､  /￣  ヽ
-／      /\./x 一 ﾐ./       ＼ 
 ```
 <!-- END_QUOTE -->
 
