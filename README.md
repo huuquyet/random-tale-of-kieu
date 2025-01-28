@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣌋𣌉蘿貝幡𩄲</p>
-      <p class="nom">𦰟畑挑月㗂𣖖󰠱霜”</p>
-      <p class="quocngu">Sớm khuya lá bối, phướn mây,</p>
-      <p class="quocngu">Ngọn đèn khêu nguyệt, tiếng chày nặng sương.</p>
-      <p class="author"><i>(Dòng 2057-2058) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𩙍兜擲幅萌萌</p>
+      <p class="nom">醒𠚢買別浪命占包”</p>
+      <p class="quocngu">Gió đâu sịch bức mành mành,</p>
+      <p class="quocngu">Tỉnh ra mới biết là mình chiêm bao.</p>
+      <p class="author"><i>(Dòng 213-214) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,36 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “When a human being is born the first thing \
-| he does is crying.. The rest of his life    |
-| he'll spend discovering why...”             |
+/ “In almost every technology area that we're \
+| ahead in, we're ahead in because the        |
+| United States leads the world in            |
+| computers.”                                 |
 |                                             |
-\  -- Erik Tanghe                             /
+\  -- W. Daniel Hillis                        /
  ---------------------------------------------
-   \
-    \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
-
+ \
+  \          , ----.
+   \        -  -     `
+      ,__.,'           \
+    .'                 *`
+   /       o   o     / **\
+  .                 / ****.
+  |    mm           | ****|
+   \                | ****|
+    ` ._______      \ ****/
+              \      /`---'
+               \___(
+               /~~~~\
+              /      \
+             /      | \
+            |       |  \
+  , ~~ .    |, ~~ . |  |\
+ ( |||| )   ( |||| )(,,,)`
+( |||||| )-( |||||| )    | ^
+( |||||| ) ( |||||| )    |'/
+( |||||| )-( |||||| )___,'-
+ ( |||| )   ( |||| )
+  ` ~~ '     ` ~~ '
 ```
 <!-- END_QUOTE -->
 
