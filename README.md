@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𩙍兜擲幅萌萌</p>
-      <p class="nom">醒𠚢買別浪命占包”</p>
-      <p class="quocngu">Gió đâu sịch bức mành mành,</p>
-      <p class="quocngu">Tỉnh ra mới biết là mình chiêm bao.</p>
-      <p class="author"><i>(Dòng 213-214) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡲤低塘詫賒吹</p>
+      <p class="nom">麻些不動女𠊚生疑”</p>
+      <p class="quocngu">Vả đây đường sá xa xôi,</p>
+      <p class="quocngu">Mà ta bất động nữa người sinh nghi."</p>
+      <p class="author"><i>(Dòng 843-844) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “In almost every technology area that we're \
-| ahead in, we're ahead in because the        |
-| United States leads the world in            |
-| computers.”                                 |
-|                                             |
-\  -- W. Daniel Hillis                        /
- ---------------------------------------------
- \
-  \          , ----.
-   \        -  -     `
-      ,__.,'           \
-    .'                 *`
-   /       o   o     / **\
-  .                 / ****.
-  |    mm           | ****|
-   \                | ****|
-    ` ._______      \ ****/
-              \      /`---'
-               \___(
-               /~~~~\
-              /      \
-             /      | \
-            |       |  \
-  , ~~ .    |, ~~ . |  |\
- ( |||| )   ( |||| )(,,,)`
-( |||||| )-( |||||| )    | ^
-( |||||| ) ( |||||| )    |'/
-( |||||| )-( |||||| )___,'-
- ( |||| )   ( |||| )
-  ` ~~ '     ` ~~ '
+ ____________________________________________
+/ “If we want to increase our own happiness, \
+| we need to invest in growing the community |
+| happiness and also take care of the whole, |
+| of Mother Earth.”                          |
+|                                            |
+\  -- Guilherme Leal                         /
+ --------------------------------------------
+     \ 
+      \
+           ,,,
+          (0 0)
+   +---ooO-(_)-Ooo---+
+   |                 |
 ```
 <!-- END_QUOTE -->
 
