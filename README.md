@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡲤低塘詫賒吹</p>
-      <p class="nom">麻些不動女𠊚生疑”</p>
-      <p class="quocngu">Vả đây đường sá xa xôi,</p>
-      <p class="quocngu">Mà ta bất động nữa người sinh nghi."</p>
-      <p class="author"><i>(Dòng 843-844) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“脱𬂙娘㐌別情</p>
+      <p class="nom">𪀄籠坤𨤰拮命𠖤高”</p>
+      <p class="quocngu">Thoắt trông nàng đã biết tình,</p>
+      <p class="quocngu">Chim lồng khôn lẽ cất mình bay cao.</p>
+      <p class="author"><i>(Dòng 2149-2150) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “If we want to increase our own happiness, \
-| we need to invest in growing the community |
-| happiness and also take care of the whole, |
-| of Mother Earth.”                          |
-|                                            |
-\  -- Guilherme Leal                         /
- --------------------------------------------
-     \ 
-      \
-           ,,,
-          (0 0)
-   +---ooO-(_)-Ooo---+
-   |                 |
+ ____________________________________
+/ “Where does one run to escape from \
+| feelings?”                         |
+|                                    |
+\  -- B.J. Neblett                   /
+ ------------------------------------
+  \
+   \
+                     _____
+                   .\'* *.\'
+               ___/_*_(_
+              / _______ \
+             _\_)/___\(_/_
+            / _((\- -/))_ \
+            \ \())(-)(()/ /
+             ' \(((()))/ \'
+            / \' \)).))\ \' \
+           / _ \ - | - /_  \
+          (   ( .;\'\'\';. .\'  )
+          _\\"__ /    )\ __\"/_
+            \/  \   \' /  \/
+             .\'  \'...\' \'  )
+              / /  |   \  \
+             / .   .    .  \
+            /   .      .    \
+           /   /   |    \    \
+         .\'   /    b     \'.   \'.
+     _.-\'    /     Bb      \'-.  \'-_
+ _.-\'       |      BBb        \'-.  \'-.
+(________mrf\____.dBBBb._________)____)
 ```
 <!-- END_QUOTE -->
 
