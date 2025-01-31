@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“脱𬂙娘㐌別情</p>
-      <p class="nom">𪀄籠坤𨤰拮命𠖤高”</p>
-      <p class="quocngu">Thoắt trông nàng đã biết tình,</p>
-      <p class="quocngu">Chim lồng khôn lẽ cất mình bay cao.</p>
-      <p class="author"><i>(Dòng 2149-2150) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“度生洳德高𠫆</p>
+      <p class="nom">立庵耒仕逴柴於終”</p>
+      <p class="quocngu">Độ sinh nhờ đức cao dày,</p>
+      <p class="quocngu">Lập am rồi sẽ rước thầy ở chung."</p>
+      <p class="author"><i>(Dòng 3055-3056) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________
-/ “Where does one run to escape from \
-| feelings?”                         |
-|                                    |
-\  -- B.J. Neblett                   /
- ------------------------------------
+ ____________________________________________
+/ “Love is my strength, power, and shelter.” \
+|                                            |
+\  -- Debasish Mridha                        /
+ --------------------------------------------
+ \
   \
-   \
-                     _____
-                   .\'* *.\'
-               ___/_*_(_
-              / _______ \
-             _\_)/___\(_/_
-            / _((\- -/))_ \
-            \ \())(-)(()/ /
-             ' \(((()))/ \'
-            / \' \)).))\ \' \
-           / _ \ - | - /_  \
-          (   ( .;\'\'\';. .\'  )
-          _\\"__ /    )\ __\"/_
-            \/  \   \' /  \/
-             .\'  \'...\' \'  )
-              / /  |   \  \
-             / .   .    .  \
-            /   .      .    \
-           /   /   |    \    \
-         .\'   /    b     \'.   \'.
-     _.-\'    /     Bb      \'-.  \'-_
- _.-\'       |      BBb        \'-.  \'-.
-(________mrf\____.dBBBb._________)____)
+  __/"""\
+ ]___ 0  }
+     /   }
+   /~    }
+   \____/
+   /____\
+  (______)
 ```
 <!-- END_QUOTE -->
 
