@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“度生洳德高𠫆</p>
-      <p class="nom">立庵耒仕逴柴於終”</p>
-      <p class="quocngu">Độ sinh nhờ đức cao dày,</p>
-      <p class="quocngu">Lập am rồi sẽ rước thầy ở chung."</p>
-      <p class="author"><i>(Dòng 3055-3056) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“火牌前路𨇒毛</p>
+      <p class="nom">南庭𦖑動𤿰朝大營”</p>
+      <p class="quocngu">Hoả bài tiền lộ ruổi mau,</p>
+      <p class="quocngu">Nam đình nghe động trống chầu đại doanh.</p>
+      <p class="author"><i>(Dòng 2269-2270) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,19 +26,35 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Love is my strength, power, and shelter.” \
+/ “The dodo itself stands as the best emblem \
+| of this general truth - that insular       |
+| evolution often involves transforming an   |
+| adventurous, high-flying ancestor species  |
+| into a grounded descendant, no longer      |
+| capable of going anywhere but extinct.     |
+| It's our reminder that insular evolution,  |
+| for all its wondrousness, tends to be a    |
+| one-way tunnel toward doom.”               |
 |                                            |
-\  -- Debasish Mridha                        /
+\  -- Quammen                                /
  --------------------------------------------
- \
-  \
-  __/"""\
- ]___ 0  }
-     /   }
-   /~    }
-   \____/
-   /____\
-  (______)
+       \
+        \
+
++      o     +              o   
+    +             o     +       +
+o          +
+    o  +           +        +
++        o     o       +        o
+-_-_-_-_-_-_-_,------,      o 
+_-_-_-_-_-_-_-|   /\_/\  
+-_-_-_-_-_-_-~|__( ^ .^)  +     +  
+_-_-_-_-_-_-_-''  ''      
++      o         o   +       o
+    +         +
+o        o         o      o     +
+    o           +
++      +     o        o      +    
 ```
 <!-- END_QUOTE -->
 
