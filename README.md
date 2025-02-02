@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“火牌前路𨇒毛</p>
-      <p class="nom">南庭𦖑動𤿰朝大營”</p>
-      <p class="quocngu">Hoả bài tiền lộ ruổi mau,</p>
-      <p class="quocngu">Nam đình nghe động trống chầu đại doanh.</p>
-      <p class="author"><i>(Dòng 2269-2270) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“有情些吏別些</p>
+      <p class="nom">𫽄尼幽顯買羅姉㛪”</p>
+      <p class="quocngu">Hữu tình ta lại biết ta,</p>
+      <p class="quocngu">Chẳng nề u hiển mới là chị em."</p>
+      <p class="author"><i>(Dòng 127-128) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,35 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “The dodo itself stands as the best emblem \
-| of this general truth - that insular       |
-| evolution often involves transforming an   |
-| adventurous, high-flying ancestor species  |
-| into a grounded descendant, no longer      |
-| capable of going anywhere but extinct.     |
-| It's our reminder that insular evolution,  |
-| for all its wondrousness, tends to be a    |
-| one-way tunnel toward doom.”               |
+/ “The corner of his mouth pulled up into a  \
+| crooked, boyish grin that melted the heart |
+| I was so desperate to protect. “You don’t  |
+| have a monopoly on fear. Until we kick     |
+| Nero’s asses out of Reno—and trust me, I   |
+| have every intention of doing that—you’re  |
+| a target. If anything happened to you…” He |
+| shook his head, breaking eye contact.      |
+| “Can’t even think about it.”               |
 |                                            |
-\  -- Quammen                                /
+\  -- Lisa Kessler                           /
  --------------------------------------------
-       \
         \
+         \
+          )__(
+         '|oo|'________/
+          |__|         |
+             ||"""""""||
+             ||       ||
 
-+      o     +              o   
-    +             o     +       +
-o          +
-    o  +           +        +
-+        o     o       +        o
--_-_-_-_-_-_-_,------,      o 
-_-_-_-_-_-_-_-|   /\_/\  
--_-_-_-_-_-_-~|__( ^ .^)  +     +  
-_-_-_-_-_-_-_-''  ''      
-+      o         o   +       o
-    +         +
-o        o         o      o     +
-    o           +
-+      +     o        o      +    
 ```
 <!-- END_QUOTE -->
 
