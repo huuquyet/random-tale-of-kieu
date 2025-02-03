@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“有情些吏別些</p>
-      <p class="nom">𫽄尼幽顯買羅姉㛪”</p>
-      <p class="quocngu">Hữu tình ta lại biết ta,</p>
-      <p class="quocngu">Chẳng nề u hiển mới là chị em."</p>
-      <p class="author"><i>(Dòng 127-128) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“品𠎣淶典𢬣𢤞</p>
+      <p class="nom">懷功𬋟𪧚𩅹󱓀貝埃”</p>
+      <p class="quocngu">Phẩm tiên rơi đến tay hèn,</p>
+      <p class="quocngu">Hoài công nắng giữ mưa gìn với ai!</p>
+      <p class="author"><i>(Dòng 789-790) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The corner of his mouth pulled up into a  \
-| crooked, boyish grin that melted the heart |
-| I was so desperate to protect. “You don’t  |
-| have a monopoly on fear. Until we kick     |
-| Nero’s asses out of Reno—and trust me, I   |
-| have every intention of doing that—you’re  |
-| a target. If anything happened to you…” He |
-| shook his head, breaking eye contact.      |
-| “Can’t even think about it.”               |
-|                                            |
-\  -- Lisa Kessler                           /
- --------------------------------------------
-        \
-         \
-          )__(
-         '|oo|'________/
-          |__|         |
-             ||"""""""||
-             ||       ||
-
+ ____________________________
+/ “I am remembering it now.” \
+|                            |
+\  -- Liz Rosenberg          /
+ ----------------------------
+  \     .    _  .    
+   \    |\_|/__/|    
+       / / \/ \  \  
+      /__|o||o|__ \ 
+     |/_ \_/\_/ _\ |  
+     | | (____) | ||  
+     \/\___/\__/  // 
+     (_/         ||
+      |          ||
+      |          ||\   
+       \        //_/  
+        \______//
+       __ || __||
+      (____(____)
 ```
 <!-- END_QUOTE -->
 
