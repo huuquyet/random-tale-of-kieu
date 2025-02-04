@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“品𠎣淶典𢬣𢤞</p>
-      <p class="nom">懷功𬋟𪧚𩅹󱓀貝埃”</p>
-      <p class="quocngu">Phẩm tiên rơi đến tay hèn,</p>
-      <p class="quocngu">Hoài công nắng giữ mưa gìn với ai!</p>
-      <p class="author"><i>(Dòng 789-790) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𥰊機輸智彈󰜏</p>
+      <p class="nom">𬂙𠓨𤴬𦛌呐𠚢碍𠳒”</p>
+      <p class="quocngu">Thấp cơ thua trí đàn bà,</p>
+      <p class="quocngu">Trông vào đau ruột, nói ra ngại lời.</p>
+      <p class="author"><i>(Dòng 1947-1948) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________
-/ “I am remembering it now.” \
-|                            |
-\  -- Liz Rosenberg          /
- ----------------------------
-  \     .    _  .    
-   \    |\_|/__/|    
-       / / \/ \  \  
-      /__|o||o|__ \ 
-     |/_ \_/\_/ _\ |  
-     | | (____) | ||  
-     \/\___/\__/  // 
-     (_/         ||
-      |          ||
-      |          ||\   
-       \        //_/  
-        \______//
-       __ || __||
-      (____(____)
+ ___________________________________________
+/ “The Spirit is Love expressed towards man \
+| as redeeming love, and the Spirit is      |
+| truth, and the Spirit is the Holy Spirit. |
+| Redemption is inconceivable without truth |
+| and holiness.”                            |
+|                                           |
+\  -- Roland Allen                          /
+ -------------------------------------------
+       \
+        \
+                   ,―ヾヽヽ/ｖへ／⌒ー
+                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
+              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
+            ／  ／            `ヾ  ー   ミヽ
+          ,/   /                   ヾ ＼  ヽﾐ
+         /    /                      ゞ      ヽ
+         i   /                       /      ＼
+        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
+        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
+        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
+        } ;  |    人､,;-,'^            /    くヾ  ）
+        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
+       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
+      ,i          -ー‐ `ゞ           ヽ   ヽ
+      彡彡                        ミ       ヽ
+''""￣彡      /   /   /   /            ミ   ﾂ＼
+      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
+        '―彡                         ｒー'"
+            ヾノ人,,.r--､ノノノノノり'"
 ```
 <!-- END_QUOTE -->
 
