@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥰊機輸智彈󰜏</p>
-      <p class="nom">𬂙𠓨𤴬𦛌呐𠚢碍𠳒”</p>
-      <p class="quocngu">Thấp cơ thua trí đàn bà,</p>
-      <p class="quocngu">Trông vào đau ruột, nói ra ngại lời.</p>
-      <p class="author"><i>(Dòng 1947-1948) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“稽康尼曲廣陵</p>
+      <p class="nom">󰜋浪流水󰜋浪行雲”</p>
+      <p class="quocngu">Kê Khang này khúc Quảng lăng.</p>
+      <p class="quocngu">Một rằng Lưu thuỷ, một rằng Hành vân.</p>
+      <p class="author"><i>(Dòng 477-478) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “The Spirit is Love expressed towards man \
-| as redeeming love, and the Spirit is      |
-| truth, and the Spirit is the Holy Spirit. |
-| Redemption is inconceivable without truth |
-| and holiness.”                            |
-|                                           |
-\  -- Roland Allen                          /
- -------------------------------------------
-       \
-        \
-                   ,―ヾヽヽ/ｖへ／⌒ー
-                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
-              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
-            ／  ／            `ヾ  ー   ミヽ
-          ,/   /                   ヾ ＼  ヽﾐ
-         /    /                      ゞ      ヽ
-         i   /                       /      ＼
-        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
-        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
-        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
-        } ;  |    人､,;-,'^            /    くヾ  ）
-        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
-       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
-      ,i          -ー‐ `ゞ           ヽ   ヽ
-      彡彡                        ミ       ヽ
-''""￣彡      /   /   /   /            ミ   ﾂ＼
-      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
-        '―彡                         ｒー'"
-            ヾノ人,,.r--､ノノノノノり'"
+ ____________________________________________
+/ “Music opens the window of the soul to let \
+| the nectar of life come in.”               |
+|                                            |
+\  -- Debasish Mridha                        /
+ --------------------------------------------
+   \
+    \
+     \
+               ＿＿＿＿＿
+           .:´.: .: . : :. `  、
+     ..: ／.: .: .: . : .: .:   ＼
+    .::／:::       ﾉ   /､         ＼
+   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
+ .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
+ .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
+..:::|.:::ノ::{{:::}       {:::}}{: |＼|
+..:::::::_::|::うﾆソ       う:ソＶ: |
+.::: /.:/ |:|:ヽヽ       ｀      }: |
+.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
+ ..::|.ゝ,ヽ|:   /      /     ／:::八
+ .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
+  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
+   ..::::／⌒: :|:ＶＶ{ヽ:＼
+      .:/.: :|::l::ﾍ}/\|:}:.＼
+    ..::｢.: :|::＞:Ｖ//|〈:.}.}
+  ...::/.:: :|::＼: Ｖ/| / :}:.┐
+ ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
+..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
 ```
 <!-- END_QUOTE -->
 
