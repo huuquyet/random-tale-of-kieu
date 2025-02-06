@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“稽康尼曲廣陵</p>
-      <p class="nom">󰜋浪流水󰜋浪行雲”</p>
-      <p class="quocngu">Kê Khang này khúc Quảng lăng.</p>
-      <p class="quocngu">Một rằng Lưu thuỷ, một rằng Hành vân.</p>
-      <p class="author"><i>(Dòng 477-478) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“香強𬊊󰌕強燶</p>
+      <p class="nom">強吹𨤔月強籠牟蓮”</p>
+      <p class="quocngu">Hương càng đượm, lửa càng nồng,</p>
+      <p class="quocngu">Càng sôi vẻ nguyệt, càng lồng màu sen.</p>
+      <p class="author"><i>(Dòng 1383-1384) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,34 +26,20 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Music opens the window of the soul to let \
-| the nectar of life come in.”               |
+/ “At a deep psychological level, convincing \
+| young people that they will get the        |
+| respect, admiration, love that they are    |
+| looking for through consumerism is a       |
+| manipulation of a deep human instinct to   |
+| want to belong.”                           |
 |                                            |
-\  -- Debasish Mridha                        /
+\  -- Helena Norberg-Hodge                   /
  --------------------------------------------
-   \
-    \
-     \
-               ＿＿＿＿＿
-           .:´.: .: . : :. `  、
-     ..: ／.: .: .: . : .: .:   ＼
-    .::／:::       ﾉ   /､         ＼
-   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
- .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
- .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
-..:::|.:::ノ::{{:::}       {:::}}{: |＼|
-..:::::::_::|::うﾆソ       う:ソＶ: |
-.::: /.:/ |:|:ヽヽ       ｀      }: |
-.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
- ..::|.ゝ,ヽ|:   /      /     ／:::八
- .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
-  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
-   ..::::／⌒: :|:ＶＶ{ヽ:＼
-      .:/.: :|::l::ﾍ}/\|:}:.＼
-    ..::｢.: :|::＞:Ｖ//|〈:.}.}
-  ...::/.:: :|::＼: Ｖ/| / :}:.┐
- ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
-..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
+  \
+   \   \
+        \ /\
+        ( )
+      .( o ).
 ```
 <!-- END_QUOTE -->
 
