@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“香強𬊊󰌕強燶</p>
-      <p class="nom">強吹𨤔月強籠牟蓮”</p>
-      <p class="quocngu">Hương càng đượm, lửa càng nồng,</p>
-      <p class="quocngu">Càng sôi vẻ nguyệt, càng lồng màu sen.</p>
-      <p class="author"><i>(Dòng 1383-1384) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨄹尋泣𢄂吏圭</p>
+      <p class="nom">假名侯下𠰺藝咹𨔈”</p>
+      <p class="quocngu">Dạo tìm khắp chợ lại quê,</p>
+      <p class="quocngu">Giả danh hầu hạ, dạy nghề ăn chơi.</p>
+      <p class="author"><i>(Dòng 815-816) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,20 +26,39 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “At a deep psychological level, convincing \
-| young people that they will get the        |
-| respect, admiration, love that they are    |
-| looking for through consumerism is a       |
-| manipulation of a deep human instinct to   |
-| want to belong.”                           |
+/ “I'm sick of following my dreams. I'm just \
+| going to ask them where they're goin', and |
+| hook up with them later.”                  |
 |                                            |
-\  -- Helena Norberg-Hodge                   /
+\  -- Mitch Hedberg                          /
  --------------------------------------------
-  \
-   \   \
-        \ /\
-        ( )
-      .( o ).
+    \
+     \
+                  \#[/[#:xxxxxx:#[/[\x
+             [/\ &3N            W3& \/[x
+          [[x@W                      W@x[[\
+        /#&N                             N_#
+      /#@                                  @#/x
+    [/ NH_  ^@W               Nd_  ^@p      N /#
+   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
+  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
+ [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
+ /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
+[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
+//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
+/[                                                //
+//N   p333333333333333333333333333333333p        W//
+[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
+ /:     \#                              [x       :/
+ [/@    d/x                             \#:      &/#
+  [[H    ^[x                            [      H[[
+   [[d    _[x            &Hppp3d_      \#\N    @[[
+    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
+      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
+       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
+          [[x&W  p& xx ^^^^ x:x @W   W&x/[
+             [/# &HW   WWWWN    WH& \#/[
+                 [/[#\xxxxxx\#[/[\x^@
 ```
 <!-- END_QUOTE -->
 
