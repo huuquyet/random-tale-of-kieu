@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨄹尋泣𢄂吏圭</p>
-      <p class="nom">假名侯下𠰺藝咹𨔈”</p>
-      <p class="quocngu">Dạo tìm khắp chợ lại quê,</p>
-      <p class="quocngu">Giả danh hầu hạ, dạy nghề ăn chơi.</p>
-      <p class="author"><i>(Dòng 815-816) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“攄之仍堛蕭騷</p>
+      <p class="nom">𢝀𢚸命共󰅉󰅉𢚸𠊚”</p>
+      <p class="quocngu">So chi những bậc tiêu tao,</p>
+      <p class="quocngu">Dột lòng mình cũng nao nao lòng người."</p>
+      <p class="author"><i>(Dòng 491-492) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I'm sick of following my dreams. I'm just \
-| going to ask them where they're goin', and |
-| hook up with them later.”                  |
-|                                            |
-\  -- Mitch Hedberg                          /
- --------------------------------------------
-    \
-     \
-                  \#[/[#:xxxxxx:#[/[\x
-             [/\ &3N            W3& \/[x
-          [[x@W                      W@x[[\
-        /#&N                             N_#
-      /#@                                  @#/x
-    [/ NH_  ^@W               Nd_  ^@p      N /#
-   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
-  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
- [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
- /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
-[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
-//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
-/[                                                //
-//N   p333333333333333333333333333333333p        W//
-[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
- /:     \#                              [x       :/
- [/@    d/x                             \#:      &/#
-  [[H    ^[x                            [      H[[
-   [[d    _[x            &Hppp3d_      \#\N    @[[
-    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
-      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
-       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
-          [[x&W  p& xx ^^^^ x:x @W   W&x/[
-             [/# &HW   WWWWN    WH& \#/[
-                 [/[#\xxxxxx\#[/[\x^@
+ ___________________________________________
+/ “Such bliss is not meant to last. In my   \
+| husband's house, my children were my real |
+| gifts.”                                   |
+|                                           |
+\  -- Ru Freeman                            /
+ -------------------------------------------
+     \     .-.
+      \  .'   `.
+       \ :g g   :
+        \: o    `.
+        :         ``.
+       :             `.
+      :  :         .   `.
+      :   :          ` . `.
+       `.. :            `. ``;
+          `:;             `:'
+             :              `.
+              `.              `.     .
+                `'`'`'`---..,___`;.-'
 ```
 <!-- END_QUOTE -->
 
