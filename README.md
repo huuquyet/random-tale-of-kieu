@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“攄之仍堛蕭騷</p>
-      <p class="nom">𢝀𢚸命共󰅉󰅉𢚸𠊚”</p>
-      <p class="quocngu">So chi những bậc tiêu tao,</p>
-      <p class="quocngu">Dột lòng mình cũng nao nao lòng người."</p>
-      <p class="author"><i>(Dòng 491-492) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“油牢󰜍㐌𢙲淶</p>
+      <p class="nom">𥙩身麻假𡢻𠁀朱衝”</p>
+      <p class="quocngu">Dẫu sao bình đã lỡ rơi,</p>
+      <p class="quocngu">Lấy thân mà trả nợ đời cho xong!"</p>
+      <p class="author"><i>(Dòng 1197-1198) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Such bliss is not meant to last. In my   \
-| husband's house, my children were my real |
-| gifts.”                                   |
-|                                           |
-\  -- Ru Freeman                            /
- -------------------------------------------
-     \     .-.
-      \  .'   `.
-       \ :g g   :
-        \: o    `.
-        :         ``.
-       :             `.
-      :  :         .   `.
-      :   :          ` . `.
-       `.. :            `. ``;
-          `:;             `:'
-             :              `.
-              `.              `.     .
-                `'`'`'`---..,___`;.-'
+ _______________________________________
+/ “If you would devote your time to an  \
+| activity even if you didn’t receive   |
+| payment, you have found a key to your |
+| destiny”                              |
+|                                       |
+\  -- Sunday Adelaja                    /
+ ---------------------------------------
+    \
+     \ 
+      \
+       \
+                                           .::.                      
+                                           _::_                      
+                                 ()      _/____\_                    
+                               <~~~~>    \      /                    
+                       <>_      \__/      \____/      <>_            
+           __/"""\   (\)  )    (____)     (____)    (\)  )   __/"""\ 
+  WWWWWW  ]___ 0  }   \__/      |  |       |  |      \__/   ]___ 0  }  WWWWWW
+   |  |       /   }  (____)     |  |       |__|     (____)      /   }   |  |
+   |  |     /~    }   |  |      |__|      /    \     |  |     /~    }   |  |
+   |__|     \____/    |__|     /____\    (______)    |__|     \____/    |__|
+  /____\    /____\   /____\   (______)  (________)  /____\    /____\   /____\
+ (______)  (______) (______) (________) /________\ (______)  (______) (______)
+
+    __        __       __        __         __        __        __       __
+   (  )      (  )     (  )      (  )       (  )      (  )      (  )     (  )
+    ||        ||       ||        ||         ||        ||        ||       ||
+   /__\      /__\     /__\      /__\       /__\      /__\      /__\     /__\
+  (____)    (____)   (____)    (____)     (____)    (____)    (____)   (____)
 ```
 <!-- END_QUOTE -->
 
