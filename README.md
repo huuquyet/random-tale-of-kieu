@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“油牢󰜍㐌𢙲淶</p>
-      <p class="nom">𥙩身麻假𡢻𠁀朱衝”</p>
-      <p class="quocngu">Dẫu sao bình đã lỡ rơi,</p>
-      <p class="quocngu">Lấy thân mà trả nợ đời cho xong!"</p>
-      <p class="author"><i>(Dòng 1197-1198) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡄎自𧻭役兵刀</p>
+      <p class="nom">棟󰢇無定㐌高朋頭”</p>
+      <p class="quocngu">Ngẫm từ dấy việc binh đao,</p>
+      <p class="quocngu">Đống xương Vô Định đã cao bằng đầu.</p>
+      <p class="author"><i>(Dòng 2493-2494) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,45 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “If you would devote your time to an  \
-| activity even if you didn’t receive   |
-| payment, you have found a key to your |
-| destiny”                              |
-|                                       |
-\  -- Sunday Adelaja                    /
- ---------------------------------------
-    \
-     \ 
-      \
-       \
-                                           .::.                      
-                                           _::_                      
-                                 ()      _/____\_                    
-                               <~~~~>    \      /                    
-                       <>_      \__/      \____/      <>_            
-           __/"""\   (\)  )    (____)     (____)    (\)  )   __/"""\ 
-  WWWWWW  ]___ 0  }   \__/      |  |       |  |      \__/   ]___ 0  }  WWWWWW
-   |  |       /   }  (____)     |  |       |__|     (____)      /   }   |  |
-   |  |     /~    }   |  |      |__|      /    \     |  |     /~    }   |  |
-   |__|     \____/    |__|     /____\    (______)    |__|     \____/    |__|
-  /____\    /____\   /____\   (______)  (________)  /____\    /____\   /____\
- (______)  (______) (______) (________) /________\ (______)  (______) (______)
-
-    __        __       __        __         __        __        __       __
-   (  )      (  )     (  )      (  )       (  )      (  )      (  )     (  )
-    ||        ||       ||        ||         ||        ||        ||       ||
-   /__\      /__\     /__\      /__\       /__\      /__\      /__\     /__\
-  (____)    (____)   (____)    (____)     (____)    (____)    (____)   (____)
+ ____________________________________________
+/ “They say we live in hard times. They say  \
+| the world is full of suffering and pain    |
+| and ignorance and violence. But is that    |
+| not better than helpless, grinned and      |
+| beared mediocrity? Is this not the time of |
+| opportunity? When will we learn the        |
+| importance of peace, if not in war? When   |
+| will we learn the importance of loving     |
+| ourselves except through self-hatred? How  |
+| else will we come together except to       |
+| realize how we hurt when we are apart? The |
+| world is not full of horror. It is full of |
+| opportunity. It is not lacking in love. It |
+| is hungry for it. So eat. So feed.”        |
+|                                            |
+\  -- Vironika Tugaleva                      /
+ --------------------------------------------
+  \                                  ,+*^^*+___+++_
+   \                           ,*^^^^              )
+    \                       _+*                     ^**+_
+     \                    +^       _ _++*+_+++_,         )
+              _+^^*+_    (     ,+*^ ^          \+_        )
+             {       )  (    ,(    ,_+--+--,      ^)      ^\
+            { (@)    } f   ,(  ,+-^ __*_*_  ^^\_   ^\       )
+           {:;-/    (_+*-+^^^^^+*+*<_ _++_)_    )    )      /
+          ( /  (    (        ,___    ^*+_+* )   <    <      \
+           U _/     )    *--<  ) ^\-----++__)   )    )       )
+            (      )  _(^)^^))  )  )\^^^^^))^*+/    /       /
+          (      /  (_))_^)) )  )  ))^^^^^))^^^)__/     +^^
+         (     ,/    (^))^))  )  ) ))^^^^^^^))^^)       _)
+          *+__+*       (_))^)  ) ) ))^^^^^^))^^^^^)____*^
+          \             \_)^)_)) ))^^^^^^^^^^))^^^^)
+           (_             ^\__^^^^^^^^^^^^))^^^^^^^)
+             ^\___            ^\__^^^^^^))^^^^^^^^)\\
+                  ^^^^^\uuu/^^\uuu/^^^^\^\^\^\^\^\^\^\
+                     ___) >____) >___   ^\_\_\_\_\_\_\)
+                    ^^^//\\_^^//\\_^       ^(\_\_\_\)
+                      ^^^ ^^ ^^^ ^
 ```
 <!-- END_QUOTE -->
 
