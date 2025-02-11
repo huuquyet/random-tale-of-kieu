@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡄎自𧻭役兵刀</p>
-      <p class="nom">棟󰢇無定㐌高朋頭”</p>
-      <p class="quocngu">Ngẫm từ dấy việc binh đao,</p>
-      <p class="quocngu">Đống xương Vô Định đã cao bằng đầu.</p>
-      <p class="author"><i>(Dòng 2493-2494) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“鎮命𥪝盎干戈</p>
+      <p class="nom">𠓨生𠚢死禍羅𧡊饒”</p>
+      <p class="quocngu">Giấn mình trong áng can qua,</p>
+      <p class="quocngu">Vào sinh ra tử hoạ là thấy nhau.</p>
+      <p class="author"><i>(Dòng 2941-2942) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,44 +26,29 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “They say we live in hard times. They say  \
-| the world is full of suffering and pain    |
-| and ignorance and violence. But is that    |
-| not better than helpless, grinned and      |
-| beared mediocrity? Is this not the time of |
-| opportunity? When will we learn the        |
-| importance of peace, if not in war? When   |
-| will we learn the importance of loving     |
-| ourselves except through self-hatred? How  |
-| else will we come together except to       |
-| realize how we hurt when we are apart? The |
-| world is not full of horror. It is full of |
-| opportunity. It is not lacking in love. It |
-| is hungry for it. So eat. So feed.”        |
+/ “Hillary has the brains of someone who was \
+| born yesterday and the body of someone who |
+| died last week.”                           |
 |                                            |
-\  -- Vironika Tugaleva                      /
+\  -- Donald Trump's Hair                    /
  --------------------------------------------
-  \                                  ,+*^^*+___+++_
-   \                           ,*^^^^              )
-    \                       _+*                     ^**+_
-     \                    +^       _ _++*+_+++_,         )
-              _+^^*+_    (     ,+*^ ^          \+_        )
-             {       )  (    ,(    ,_+--+--,      ^)      ^\
-            { (@)    } f   ,(  ,+-^ __*_*_  ^^\_   ^\       )
-           {:;-/    (_+*-+^^^^^+*+*<_ _++_)_    )    )      /
-          ( /  (    (        ,___    ^*+_+* )   <    <      \
-           U _/     )    *--<  ) ^\-----++__)   )    )       )
-            (      )  _(^)^^))  )  )\^^^^^))^*+/    /       /
-          (      /  (_))_^)) )  )  ))^^^^^))^^^)__/     +^^
-         (     ,/    (^))^))  )  ) ))^^^^^^^))^^)       _)
-          *+__+*       (_))^)  ) ) ))^^^^^^))^^^^^)____*^
-          \             \_)^)_)) ))^^^^^^^^^^))^^^^)
-           (_             ^\__^^^^^^^^^^^^))^^^^^^^)
-             ^\___            ^\__^^^^^^))^^^^^^^^)\\
-                  ^^^^^\uuu/^^\uuu/^^^^\^\^\^\^\^\^\^\
-                     ___) >____) >___   ^\_\_\_\_\_\_\)
-                    ^^^//\\_^^//\\_^       ^(\_\_\_\)
-                      ^^^ ^^ ^^^ ^
+       \
+        \
+
++      o     +              o   
+    +             o     +       +
+o          +
+    o  +           +        +
++        o     o       +        o
+-_-_-_-_-_-_-_,------,      o 
+_-_-_-_-_-_-_-|   /\_/\  
+-_-_-_-_-_-_-~|__( ^ .^)  +     +  
+_-_-_-_-_-_-_-''  ''      
++      o         o   +       o
+    +         +
+o        o         o      o     +
+    o           +
++      +     o        o      +    
 ```
 <!-- END_QUOTE -->
 
