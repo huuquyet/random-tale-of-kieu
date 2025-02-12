@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“鎮命𥪝盎干戈</p>
-      <p class="nom">𠓨生𠚢死禍羅𧡊饒”</p>
-      <p class="quocngu">Giấn mình trong áng can qua,</p>
-      <p class="quocngu">Vào sinh ra tử hoạ là thấy nhau.</p>
-      <p class="author"><i>(Dòng 2941-2942) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“胡公𦖑呐傷情</p>
+      <p class="nom">傳朱藁葬遺形邊滝”</p>
+      <p class="quocngu">Hồ công nghe nói thương tình,</p>
+      <p class="quocngu">Truyền cho cảo táng di hình bên sông.</p>
+      <p class="author"><i>(Dòng 2563-2564) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,42 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Hillary has the brains of someone who was \
-| born yesterday and the body of someone who |
-| died last week.”                           |
-|                                            |
-\  -- Donald Trump's Hair                    /
- --------------------------------------------
-       \
-        \
+ ___________________________________________
+/ “Peter Fleming was a famous English       \
+| traveler, explorer and adventurer, whose  |
+| non-fiction books were hugely successful. |
+| My father owned signed copies of all of   |
+| them - he and Peter Fleming had become    |
+| acquainted over some detail of set design |
+| at the Korda film studio in Shepperton -  |
+| and I had read each of them with          |
+| breathless adolescent excitement.”        |
+|                                           |
+\  -- Michael Korda                         /
+ -------------------------------------------
+     \
+      \
+              =+$HM####@H%;,
+           /H###############M$,
+           ,@################+
+            .H##############+
+              X############/
+               $##########/
+                %########/
+                 /X/;;+X/
+ 
+                  -XHHX-
+                 ,######,
+ \#############X  .M####M.  X#############
+ \##############-   -//-   -##############
+ X##############%,      ,+##############X
+ -##############X        X##############-
+  %############%          %############%
+   %##########;            ;##########%
+    ;#######M=              =M#######;
+     .+M###@,                ,@###M+.
+        :XH.                  .HX:
 
-+      o     +              o   
-    +             o     +       +
-o          +
-    o  +           +        +
-+        o     o       +        o
--_-_-_-_-_-_-_,------,      o 
-_-_-_-_-_-_-_-|   /\_/\  
--_-_-_-_-_-_-~|__( ^ .^)  +     +  
-_-_-_-_-_-_-_-''  ''      
-+      o         o   +       o
-    +         +
-o        o         o      o     +
-    o           +
-+      +     o        o      +    
 ```
 <!-- END_QUOTE -->
 
