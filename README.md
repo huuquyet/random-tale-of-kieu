@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“胡公𦖑呐傷情</p>
-      <p class="nom">傳朱藁葬遺形邊滝”</p>
-      <p class="quocngu">Hồ công nghe nói thương tình,</p>
-      <p class="quocngu">Truyền cho cảo táng di hình bên sông.</p>
-      <p class="author"><i>(Dòng 2563-2564) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“觥孤蹺𦄂江津</p>
+      <p class="nom">塊棱𦰤㐌細𡑝𫢋堂”</p>
+      <p class="quocngu">Quanh co theo dải giang tân,</p>
+      <p class="quocngu">Khỏi rừng lau đã tới sân Phật đường.</p>
+      <p class="author"><i>(Dòng 3005-3006) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,42 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Peter Fleming was a famous English       \
-| traveler, explorer and adventurer, whose  |
-| non-fiction books were hugely successful. |
-| My father owned signed copies of all of   |
-| them - he and Peter Fleming had become    |
-| acquainted over some detail of set design |
-| at the Korda film studio in Shepperton -  |
-| and I had read each of them with          |
-| breathless adolescent excitement.”        |
-|                                           |
-\  -- Michael Korda                         /
- -------------------------------------------
-     \
-      \
-              =+$HM####@H%;,
-           /H###############M$,
-           ,@################+
-            .H##############+
-              X############/
-               $##########/
-                %########/
-                 /X/;;+X/
- 
-                  -XHHX-
-                 ,######,
- \#############X  .M####M.  X#############
- \##############-   -//-   -##############
- X##############%,      ,+##############X
- -##############X        X##############-
-  %############%          %############%
-   %##########;            ;##########%
-    ;#######M=              =M#######;
-     .+M###@,                ,@###M+.
-        :XH.                  .HX:
+ _________________________________________
+/ “Hope is not some thin thing that is    \
+| subject to the winds of fate, but it is |
+| crafted hard by the hands of God.”      |
+|                                         |
+\  -- Craig D. Lounsbrough                /
+ -----------------------------------------
+   \
+    \
 
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
