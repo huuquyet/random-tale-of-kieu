@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“觥孤蹺𦄂江津</p>
-      <p class="nom">塊棱𦰤㐌細𡑝𫢋堂”</p>
-      <p class="quocngu">Quanh co theo dải giang tân,</p>
-      <p class="quocngu">Khỏi rừng lau đã tới sân Phật đường.</p>
-      <p class="author"><i>(Dòng 3005-3006) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“払衛䀡意思茹</p>
+      <p class="nom">事𢚸拱拉鄰羅𤉒排”</p>
+      <p class="quocngu">Chàng về xem ý tứ nhà,</p>
+      <p class="quocngu">Sự lòng cũng rắp lân la giải bày.</p>
+      <p class="author"><i>(Dòng 1573-1574) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “Hope is not some thin thing that is    \
-| subject to the winds of fate, but it is |
-| crafted hard by the hands of God.”      |
-|                                         |
-\  -- Craig D. Lounsbrough                /
- -----------------------------------------
+ ___________________________________________
+/ “In my society, even the right things are \
+| wrong.”                                   |
+|                                           |
+\  -- M.F. Moonzajer                        /
+ -------------------------------------------
    \
     \
-
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+       /~\
+      |oo )
+      _\=/_
+     /     \
+    //|/.\|\\
+   ||  \_/  ||
+   || |\ /| ||
+    \# \_ _/  \#
+      | | |
+      | | |
+      []|[]
+      | | |
+     /_]_[_\
 ```
 <!-- END_QUOTE -->
 
