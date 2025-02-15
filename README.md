@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“払衛䀡意思茹</p>
-      <p class="nom">事𢚸拱拉鄰羅𤉒排”</p>
-      <p class="quocngu">Chàng về xem ý tứ nhà,</p>
-      <p class="quocngu">Sự lòng cũng rắp lân la giải bày.</p>
-      <p class="author"><i>(Dòng 1573-1574) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“樓撑買𢷀帳桃</p>
+      <p class="nom">強撩價玉強高品𠊚”</p>
+      <p class="quocngu">Lầu xanh mới rủ trướng đào,</p>
+      <p class="quocngu">Càng treo giá ngọc, càng cao phẩm người.</p>
+      <p class="author"><i>(Dòng 1227-1228) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “In my society, even the right things are \
-| wrong.”                                   |
-|                                           |
-\  -- M.F. Moonzajer                        /
- -------------------------------------------
-   \
-    \
-       /~\
-      |oo )
-      _\=/_
-     /     \
-    //|/.\|\\
-   ||  \_/  ||
-   || |\ /| ||
-    \# \_ _/  \#
-      | | |
-      | | |
-      []|[]
-      | | |
-     /_]_[_\
+ __________________________________________
+/ “In America religion is the road to      \
+| knowledge, and the observance of the     |
+| divine laws leads man to civil freedom.” |
+|                                          |
+\  -- Alexis de Tocqueville                /
+ ------------------------------------------
+          \           \  / 
+           \           \/  
+               (__)    /\         
+               (oo)   O  O        
+               _\/_   //         
+         *    (    ) //       
+          \  (\\    //       
+           \(  \\    )                              
+            (   \\   )   /\                          
+  ___[\______/^^^^^^^\__/) o-)__                     
+ |\__[=======______//________)__\                    
+ \|_______________//____________|                    
+     |||      || //||     |||
+     |||      || @.||     |||                        
+      ||      \/  .\/      ||                        
+                 . .                                 
+                '.'.`                                
+
+            COW-OPERATION                           
 ```
 <!-- END_QUOTE -->
 
