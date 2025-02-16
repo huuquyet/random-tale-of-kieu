@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“樓撑買𢷀帳桃</p>
-      <p class="nom">強撩價玉強高品𠊚”</p>
-      <p class="quocngu">Lầu xanh mới rủ trướng đào,</p>
-      <p class="quocngu">Càng treo giá ngọc, càng cao phẩm người.</p>
-      <p class="author"><i>(Dòng 1227-1228) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󱈘𡢐󰅹𧡊󰘚𠊚</p>
+      <p class="nom">花桃𢆥外群唭𩙍東”</p>
+      <p class="quocngu">Trước sau nào thấy mặt người,</p>
+      <p class="quocngu">Hoa đào năm ngoái còn cười gió đông.</p>
+      <p class="author"><i>(Dòng 2747-2748) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “In America religion is the road to      \
-| knowledge, and the observance of the     |
-| divine laws leads man to civil freedom.” |
-|                                          |
-\  -- Alexis de Tocqueville                /
- ------------------------------------------
-          \           \  / 
-           \           \/  
-               (__)    /\         
-               (oo)   O  O        
-               _\/_   //         
-         *    (    ) //       
-          \  (\\    //       
-           \(  \\    )                              
-            (   \\   )   /\                          
-  ___[\______/^^^^^^^\__/) o-)__                     
- |\__[=======______//________)__\                    
- \|_______________//____________|                    
-     |||      || //||     |||
-     |||      || @.||     |||                        
-      ||      \/  .\/      ||                        
-                 . .                                 
-                '.'.`                                
-
-            COW-OPERATION                           
+ ___________________________________
+/ “You live but once”               \
+|                                   |
+\  -- you might as well be amusing. /
+ -----------------------------------
+      \                _
+       \              (_)   <-- TeleBEARS
+        \   ^__^       / \
+         \  (oo)\_____/_\ \
+            (__)\  you  ) /
+                ||----w ((
+                ||     ||>> 
 ```
 <!-- END_QUOTE -->
 
