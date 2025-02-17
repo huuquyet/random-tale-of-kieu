@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󱈘𡢐󰅹𧡊󰘚𠊚</p>
-      <p class="nom">花桃𢆥外群唭𩙍東”</p>
-      <p class="quocngu">Trước sau nào thấy mặt người,</p>
-      <p class="quocngu">Hoa đào năm ngoái còn cười gió đông.</p>
-      <p class="author"><i>(Dòng 2747-2748) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“生強肝𤉗𦛌𣹓</p>
+      <p class="nom">餒𢚸強擬強荄䔲𢚸”</p>
+      <p class="quocngu">Sinh càng gan héo ruột đầy,</p>
+      <p class="quocngu">Nỗi lòng càng nghĩ càng cay đắng lòng.</p>
+      <p class="author"><i>(Dòng 1869-1870) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,49 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________
-/ “You live but once”               \
-|                                   |
-\  -- you might as well be amusing. /
- -----------------------------------
-      \                _
-       \              (_)   <-- TeleBEARS
-        \   ^__^       / \
-         \  (oo)\_____/_\ \
-            (__)\  you  ) /
-                ||----w ((
-                ||     ||>> 
+ ____________________________________________
+/ “It is perhaps because of the Iranian      \
+| concept of the home and garden (and not    |
+| the city or town it is in) as the defining |
+| center of life that Iranians find living   |
+| in a society with such stringent rules of  |
+| public behavior somewhat tolerable.        |
+| Iranian society by and large cares very    |
+| little about what goes on in the homes and |
+| gardens of private citizens, but the       |
+| Islamic government cares very much how its |
+| citizens behave once they venture outside  |
+| their walls.”                              |
+|                                            |
+\  -- Hooman Majd                            /
+ --------------------------------------------
+    \
+     \
+                  \#[/[#:xxxxxx:#[/[\x
+             [/\ &3N            W3& \/[x
+          [[x@W                      W@x[[\
+        /#&N                             N_#
+      /#@                                  @#/x
+    [/ NH_  ^@W               Nd_  ^@p      N /#
+   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
+  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
+ [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
+ /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
+[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
+//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
+/[                                                //
+//N   p333333333333333333333333333333333p        W//
+[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
+ /:     \#                              [x       :/
+ [/@    d/x                             \#:      &/#
+  [[H    ^[x                            [      H[[
+   [[d    _[x            &Hppp3d_      \#\N    @[[
+    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
+      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
+       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
+          [[x&W  p& xx ^^^^ x:x @W   W&x/[
+             [/# &HW   WWWWN    WH& \#/[
+                 [/[#\xxxxxx\#[/[\x^@
 ```
 <!-- END_QUOTE -->
 
