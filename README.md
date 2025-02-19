@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠄩㛪方長和𠄩</p>
-      <p class="nom">怒払金妬羅𠊛𣈗𠸗”</p>
-      <p class="quocngu">Hai em phương trưởng hoà hai,</p>
-      <p class="quocngu">Nọ chàng Kim đó là người ngày xưa!</p>
-      <p class="author"><i>(Dòng 3011-3012) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“唉群寄塟遼東</p>
+      <p class="nom">故鄕𣾺演𠦳重山溪”</p>
+      <p class="quocngu">Hãy còn kí táng liêu đông,</p>
+      <p class="quocngu">Có hương khơi diễn ngàn trùng sơn khê.</p>
+      <p class="author"><i>(Dòng 531-532) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,38 +26,35 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “And that’s how it is in this world, boy.  \
-| Start a tale, just a little tale that      |
-| should fade and die—take your eye off it   |
-| for just a moment and when you turn back   |
-| it’s grown big enough to grab you up in    |
-| its teeth and shake you. That’s how it is. |
-| All our lives are tales. Some spread, and  |
-| grow in the telling. Others are just told  |
-| between us and the gods, muttered back and |
-| forth behind our days, but those tales     |
-| grow too and shake us just as fierce.”     |
+/ “My grandpa, unlike Jarod Kintz, was an    \
+| Elder. Now that he's dead and gone, he's a |
+| ghost French wizard. And no one knows what |
+| French wizards are good at…”               |
 |                                            |
-\  -- Mark Lawrence                          /
+\  -- Will Advise                            /
  --------------------------------------------
-        \               ___
-         \           .-'   `'.
-                    /         \
-                    |         ;
-                    |         |           ___.--,
-           _.._     |0) ~ (0) |    _.---'`__.-( (_.
-    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
-   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
-   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
-  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
-        | |  .' _.-' |  |  \  \  '.               `~---`
-         \ \/ .'     \  \   '. '-._)
-          \/ /        \  \    `=.__`~-.
-     jgs  / /\         `) )    / / `"".`\
-    , _.-'.'\ \        / /    ( (     / /
-     `--~`   ) )    .-'.'      '.'.  | (
-            (/`    ( (`          ) )  '-;
-             `      '-;         (-'
+   \
+    \
+  
+            . .: ───:. .
+         .／.: .: .: .: .: ヽ
+        .:   .:l.:   .: .: .:.
+        |.l:..ﾊ.ハ..|ヽ.ﾄ､:: |
+        |:l.:/ヽ､_ヽ|_ノV:.:.|
+        |:lﾊ.  {j    {j  |:ヽl
+        ﾉ:l} ''        ''|:ノヽ／ )
+        ヽﾍ:ヽ.､ r---､  ｨﾉ ┬' `／
+     γ::ヽ  ｀^Y`TﾇΤ` {__├'`'
+     ｀‐< ＼_ ハ |:|  Y
+          ヽ_>､|  |:|／|
+               /   V   l
+             〈        〉
+           〈:｀-:';`-´:〉
+            .>-:ｧ─--‐r-:ｨ
+            /  /     |  |
+           /  /      |  |
+          /-,/       |--|
+         に7         |二|
 ```
 <!-- END_QUOTE -->
 
