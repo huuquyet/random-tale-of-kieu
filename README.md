@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“唉群寄塟遼東</p>
-      <p class="nom">故鄕𣾺演𠦳重山溪”</p>
-      <p class="quocngu">Hãy còn kí táng liêu đông,</p>
-      <p class="quocngu">Có hương khơi diễn ngàn trùng sơn khê.</p>
-      <p class="author"><i>(Dòng 531-532) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢌌傷𦹵内花𢤞</p>
+      <p class="nom">𡭧身䕯浡鍳煩𣈕𡢐”</p>
+      <p class="quocngu">Rộng thương cỏ nội hoa hèn,</p>
+      <p class="quocngu">Chút thân bèo bọt dám phiền mai sau!"</p>
+      <p class="author"><i>(Dòng 2197-2198) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “My grandpa, unlike Jarod Kintz, was an    \
-| Elder. Now that he's dead and gone, he's a |
-| ghost French wizard. And no one knows what |
-| French wizards are good at…”               |
-|                                            |
-\  -- Will Advise                            /
- --------------------------------------------
-   \
-    \
-  
-            . .: ───:. .
-         .／.: .: .: .: .: ヽ
-        .:   .:l.:   .: .: .:.
-        |.l:..ﾊ.ハ..|ヽ.ﾄ､:: |
-        |:l.:/ヽ､_ヽ|_ノV:.:.|
-        |:lﾊ.  {j    {j  |:ヽl
-        ﾉ:l} ''        ''|:ノヽ／ )
-        ヽﾍ:ヽ.､ r---､  ｨﾉ ┬' `／
-     γ::ヽ  ｀^Y`TﾇΤ` {__├'`'
-     ｀‐< ＼_ ハ |:|  Y
-          ヽ_>､|  |:|／|
-               /   V   l
-             〈        〉
-           〈:｀-:';`-´:〉
-            .>-:ｧ─--‐r-:ｨ
-            /  /     |  |
-           /  /      |  |
-          /-,/       |--|
-         に7         |二|
+ _____________________________________________
+/ “Is it not possible — I often wonder — that \
+| things we have felt with great intensity    |
+| have an experience independent of our       |
+| minds; are in fact still in existence? And  |
+| if so, will it not be possible,in time,     |
+| that some device will be invented by which  |
+| we can tap them? …Instead of remembering    |
+| here a scene and there a sound, I shall     |
+| fit a plug into the wall; and listen in to  |
+| the past”                                   |
+|                                             |
+\  -- Virginia Woolf                          /
+ ---------------------------------------------
+        \    ,-^-.
+         \   !oYo!
+          \ /./=\.\______
+               ##        )\/\
+                ||-----w||
+                ||      ||
+
+               Cowth Vader
 ```
 <!-- END_QUOTE -->
 
