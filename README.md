@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢌌傷𦹵内花𢤞</p>
-      <p class="nom">𡭧身䕯浡鍳煩𣈕𡢐”</p>
-      <p class="quocngu">Rộng thương cỏ nội hoa hèn,</p>
-      <p class="quocngu">Chút thân bèo bọt dám phiền mai sau!"</p>
-      <p class="author"><i>(Dòng 2197-2198) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪𨷈𨤮󰜋身</p>
+      <p class="nom">吏芒𥙩㗂𫺙𧵆𫅜賒”</p>
+      <p class="quocngu">Rằng: "Nàng muôn dặm một thân,</p>
+      <p class="quocngu">Lại mang lấy tiếng dữ gần, lành xa.</p>
+      <p class="author"><i>(Dòng 2095-2096) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,30 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Is it not possible — I often wonder — that \
-| things we have felt with great intensity    |
-| have an experience independent of our       |
-| minds; are in fact still in existence? And  |
-| if so, will it not be possible,in time,     |
-| that some device will be invented by which  |
-| we can tap them? …Instead of remembering    |
-| here a scene and there a sound, I shall     |
-| fit a plug into the wall; and listen in to  |
-| the past”                                   |
+/ “Problems don’t get fixed by ignoring them. \
+| Putting them off ultimately does more harm  |
+| than good – all it does is waste time and   |
+| burden us with stress.”                     |
 |                                             |
-\  -- Virginia Woolf                          /
+\  -- Jacquelle Crowe                         /
  ---------------------------------------------
-        \    ,-^-.
-         \   !oYo!
-          \ /./=\.\______
-               ##        )\/\
-                ||-----w||
-                ||      ||
-
-               Cowth Vader
+   \
+    \
+    ____  
+   /# /_\_
+  |  |/oo\
+  |  \\_/_/
+ / |_   |  
+|  ||\_ ~| 
+|  ||| \/  
+|  |||_    
+ \//  |    
+  ||  |    
+  ||_  \   
+  \_|  o|  
+  /\___/   
+ /  ||||__ 
+    (___)_)
 ```
 <!-- END_QUOTE -->
 
