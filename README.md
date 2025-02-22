@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘浪𨷈𨤮󰜋身</p>
-      <p class="nom">吏芒𥙩㗂𫺙𧵆𫅜賒”</p>
-      <p class="quocngu">Rằng: "Nàng muôn dặm một thân,</p>
-      <p class="quocngu">Lại mang lấy tiếng dữ gần, lành xa.</p>
-      <p class="author"><i>(Dòng 2095-2096) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“他浪料󰜋身昆</p>
+      <p class="nom">花油扡𦑃羅群撑𣘃”</p>
+      <p class="quocngu">Thà rằng liều một thân con,</p>
+      <p class="quocngu">Hoa dù rã cánh, là còn xanh cây.</p>
+      <p class="author"><i>(Dòng 677-678) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Problems don’t get fixed by ignoring them. \
-| Putting them off ultimately does more harm  |
-| than good – all it does is waste time and   |
-| burden us with stress.”                     |
-|                                             |
-\  -- Jacquelle Crowe                         /
- ---------------------------------------------
-   \
-    \
-    ____  
-   /# /_\_
-  |  |/oo\
-  |  \\_/_/
- / |_   |  
-|  ||\_ ~| 
-|  ||| \/  
-|  |||_    
- \//  |    
-  ||  |    
-  ||_  \   
-  \_|  o|  
-  /\___/   
- /  ||||__ 
-    (___)_)
+ __________________________________________
+/ “Just deleting vandalism on the Chuck    \
+| Norris page," Radar said. "For instance, |
+| while I do think that Chuck Norris       |
+| specializes in the roundhouse kick, I    |
+| don't think it's accurate to say, 'Chuck |
+| Norris's tears can cure cancer, but      |
+| unfortunately he has never cried.”       |
+|                                          |
+\  -- John Green                           /
+ ------------------------------------------
+     \
+      \
+              =+$HM####@H%;,
+           /H###############M$,
+           ,@################+
+            .H##############+
+              X############/
+               $##########/
+                %########/
+                 /X/;;+X/
+ 
+                  -XHHX-
+                 ,######,
+ \#############X  .M####M.  X#############
+ \##############-   -//-   -##############
+ X##############%,      ,+##############X
+ -##############X        X##############-
+  %############%          %############%
+   %##########;            ;##########%
+    ;#######M=              =M#######;
+     .+M###@,                ,@###M+.
+        :XH.                  .HX:
+
 ```
 <!-- END_QUOTE -->
 
