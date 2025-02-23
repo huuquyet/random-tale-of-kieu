@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“他浪料󰜋身昆</p>
-      <p class="nom">花油扡𦑃羅群撑𣘃”</p>
-      <p class="quocngu">Thà rằng liều một thân con,</p>
-      <p class="quocngu">Hoa dù rã cánh, là còn xanh cây.</p>
-      <p class="author"><i>(Dòng 677-678) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㛪払鬼怪精魔</p>
+      <p class="nom">畨尼几𠎨󰜏𫅷﨤饒”</p>
+      <p class="quocngu">Vợ chàng quỷ quái tinh ma,</p>
+      <p class="quocngu">Phen này kẻ cắp bà già gặp nhau!</p>
+      <p class="author"><i>(Dòng 2333-2334) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Just deleting vandalism on the Chuck    \
-| Norris page," Radar said. "For instance, |
-| while I do think that Chuck Norris       |
-| specializes in the roundhouse kick, I    |
-| don't think it's accurate to say, 'Chuck |
-| Norris's tears can cure cancer, but      |
-| unfortunately he has never cried.”       |
-|                                          |
-\  -- John Green                           /
- ------------------------------------------
-     \
-      \
-              =+$HM####@H%;,
-           /H###############M$,
-           ,@################+
-            .H##############+
-              X############/
-               $##########/
-                %########/
-                 /X/;;+X/
- 
-                  -XHHX-
-                 ,######,
- \#############X  .M####M.  X#############
- \##############-   -//-   -##############
- X##############%,      ,+##############X
- -##############X        X##############-
-  %############%          %############%
-   %##########;            ;##########%
-    ;#######M=              =M#######;
-     .+M###@,                ,@###M+.
-        :XH.                  .HX:
-
+ ____________________________________________
+/ “At first glance, the ball seemed to be an \
+| elegant success. However, re-evaluation    |
+| would allow an observer to see more than a |
+| graceful party. Many well-thought plans    |
+| highlighted what this really was: a        |
+| marriage market.”                          |
+|                                            |
+\  -- Jettie Necole                          /
+ --------------------------------------------
+\
+ \
+   1A   2A                                         3A  4A  5A  6A  7A  8A
+  -----                                                               -----
+1 | H |                                                               |He |
+  |---+----                                       --------------------+---|
+2 |Li |Be |                                       | B | C | N | O | F |Ne |
+  |---+---|                                       |---+---+---+---+---+---|
+3 |Na |Mg |3B  4B  5B  6B  7B |    8B     |1B  2B |Al |Si | P | S |Cl |Ar |
+  |---+---+---------------------------------------+---+---+---+---+---+---|
+4 | K |Ca |Sc |Ti | V |Cr |Mn |Fe |Co |Ni |Cu |Zn |Ga |Ge |As |Se |Br |Kr |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+5 |Rb |Sr | Y |Zr |Nb |Mo |Tc |Ru |Rh |Pd |Ag |Cd |In |Sn |Sb |Te | I |Xe |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+6 |Cs |Ba |Lu |Hf |Ta | W |Re |Os |Ir |Pt |Au |Hg |Tl |Pb |Bi |Po |At |Rn |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+7 |Fr |Ra |Lr |Rf |Db |Sg |Bh |Hs |Mt |Ds |Rg |Cn |Nh |Fl |Mc |Lv |Ts |Og |
+  -------------------------------------------------------------------------
+              -------------------------------------------------------------
+   Lanthanide |La |Ce |Pr |Nd |Pm |Sm |Eu |Gd |Tb |Dy |Ho |Er |Tm |Yb |Lu |
+              |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+   Actinide   |Ac |Th |Pa | U |Np |Pu |Am |Cm |Bk |Cf |Es |Fm |Md |No |Lr |
+              -------------------------------------------------------------
 ```
 <!-- END_QUOTE -->
 
