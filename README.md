@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㛪払鬼怪精魔</p>
-      <p class="nom">畨尼几𠎨󰜏𫅷﨤饒”</p>
-      <p class="quocngu">Vợ chàng quỷ quái tinh ma,</p>
-      <p class="quocngu">Phen này kẻ cắp bà già gặp nhau!</p>
-      <p class="author"><i>(Dòng 2333-2334) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“媄𡥵路傳隣羅</p>
+      <p class="nom">夫人吏噲娘𠚢𠰺𠳒”</p>
+      <p class="quocngu">Mẹ con trò chuyện lân la,</p>
+      <p class="quocngu">Phu nhân lại gọi nàng ra dạy lời:</p>
+      <p class="author"><i>(Dòng 1769-1770) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “At first glance, the ball seemed to be an \
-| elegant success. However, re-evaluation    |
-| would allow an observer to see more than a |
-| graceful party. Many well-thought plans    |
-| highlighted what this really was: a        |
-| marriage market.”                          |
-|                                            |
-\  -- Jettie Necole                          /
- --------------------------------------------
-\
- \
-   1A   2A                                         3A  4A  5A  6A  7A  8A
-  -----                                                               -----
-1 | H |                                                               |He |
-  |---+----                                       --------------------+---|
-2 |Li |Be |                                       | B | C | N | O | F |Ne |
-  |---+---|                                       |---+---+---+---+---+---|
-3 |Na |Mg |3B  4B  5B  6B  7B |    8B     |1B  2B |Al |Si | P | S |Cl |Ar |
-  |---+---+---------------------------------------+---+---+---+---+---+---|
-4 | K |Ca |Sc |Ti | V |Cr |Mn |Fe |Co |Ni |Cu |Zn |Ga |Ge |As |Se |Br |Kr |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-5 |Rb |Sr | Y |Zr |Nb |Mo |Tc |Ru |Rh |Pd |Ag |Cd |In |Sn |Sb |Te | I |Xe |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-6 |Cs |Ba |Lu |Hf |Ta | W |Re |Os |Ir |Pt |Au |Hg |Tl |Pb |Bi |Po |At |Rn |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-7 |Fr |Ra |Lr |Rf |Db |Sg |Bh |Hs |Mt |Ds |Rg |Cn |Nh |Fl |Mc |Lv |Ts |Og |
-  -------------------------------------------------------------------------
-              -------------------------------------------------------------
-   Lanthanide |La |Ce |Pr |Nd |Pm |Sm |Eu |Gd |Tb |Dy |Ho |Er |Tm |Yb |Lu |
-              |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-   Actinide   |Ac |Th |Pa | U |Np |Pu |Am |Cm |Bk |Cf |Es |Fm |Md |No |Lr |
-              -------------------------------------------------------------
+ _______________________________________
+/ “Make improvements, not excuses. Seek \
+| respect, not attention.”              |
+|                                       |
+\  -- Roy T. Bennett                    /
+ ---------------------------------------
+    \
+     \
+                  \#[/[#:xxxxxx:#[/[\x
+             [/\ &3N            W3& \/[x
+          [[x@W                      W@x[[\
+        /#&N                             N_#
+      /#@                                  @#/x
+    [/ NH_  ^@W               Nd_  ^@p      N /#
+   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
+  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
+ [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
+ /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
+[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
+//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
+/[                                                //
+//N   p333333333333333333333333333333333p        W//
+[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
+ /:     \#                              [x       :/
+ [/@    d/x                             \#:      &/#
+  [[H    ^[x                            [      H[[
+   [[d    _[x            &Hppp3d_      \#\N    @[[
+    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
+      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
+       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
+          [[x&W  p& xx ^^^^ x:x @W   W&x/[
+             [/# &HW   WWWWN    WH& \#/[
+                 [/[#\xxxxxx\#[/[\x^@
 ```
 <!-- END_QUOTE -->
 
