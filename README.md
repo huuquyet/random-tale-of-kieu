@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“媄𡥵路傳隣羅</p>
-      <p class="nom">夫人吏噲娘𠚢𠰺𠳒”</p>
-      <p class="quocngu">Mẹ con trò chuyện lân la,</p>
-      <p class="quocngu">Phu nhân lại gọi nàng ra dạy lời:</p>
-      <p class="author"><i>(Dòng 1769-1770) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㗂翹𦖑律邊箕</p>
+      <p class="nom">恩𠊚君子詫之𧵑逨”</p>
+      <p class="quocngu">Tiếng Kiều nghe lọt bên kia:</p>
+      <p class="quocngu">"Ơn người quân tử sá gì của rơi.</p>
+      <p class="author"><i>(Dòng 307-308) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “Make improvements, not excuses. Seek \
-| respect, not attention.”              |
-|                                       |
-\  -- Roy T. Bennett                    /
- ---------------------------------------
+ ____________________________________________
+/ “The mathematical probability of a common  \
+| cat doing exactly as it pleases is the one |
+| scientific absolute in the world.”         |
+|                                            |
+\  -- Lynn M. Osband                         /
+ --------------------------------------------
+   \
     \
-     \
-                  \#[/[#:xxxxxx:#[/[\x
-             [/\ &3N            W3& \/[x
-          [[x@W                      W@x[[\
-        /#&N                             N_#
-      /#@                                  @#/x
-    [/ NH_  ^@W               Nd_  ^@p      N /#
-   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
-  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
- [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
- /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
-[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
-//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
-/[                                                //
-//N   p333333333333333333333333333333333p        W//
-[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
- /:     \#                              [x       :/
- [/@    d/x                             \#:      &/#
-  [[H    ^[x                            [      H[[
-   [[d    _[x            &Hppp3d_      \#\N    @[[
-    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
-      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
-       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
-          [[x&W  p& xx ^^^^ x:x @W   W&x/[
-             [/# &HW   WWWWN    WH& \#/[
-                 [/[#\xxxxxx\#[/[\x^@
+ ROFL:ROFL:ROFL:ROFL
+         _^___
+ L    __/   oo \    
+LOL===__        \ 
+ L      \________]
+         I   I    
+        --------/
 ```
 <!-- END_QUOTE -->
 
