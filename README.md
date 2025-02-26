@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㗂翹𦖑律邊箕</p>
-      <p class="nom">恩𠊚君子詫之𧵑逨”</p>
-      <p class="quocngu">Tiếng Kiều nghe lọt bên kia:</p>
-      <p class="quocngu">"Ơn người quân tử sá gì của rơi.</p>
-      <p class="author"><i>(Dòng 307-308) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“忱𢜠准意𫳘排</p>
+      <p class="nom">𠀧生歐罕綠𡗶之低”</p>
+      <p class="quocngu">Thầm mừng chốn ấy chữ bài,</p>
+      <p class="quocngu">Ba sinh âu hẳn duyên trời chi đây.</p>
+      <p class="author"><i>(Dòng 281-282) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The mathematical probability of a common  \
-| cat doing exactly as it pleases is the one |
-| scientific absolute in the world.”         |
-|                                            |
-\  -- Lynn M. Osband                         /
- --------------------------------------------
-   \
-    \
- ROFL:ROFL:ROFL:ROFL
-         _^___
- L    __/   oo \    
-LOL===__        \ 
- L      \________]
-         I   I    
-        --------/
+ ________________________________________
+/ “It is better to sow good deeds; love, \
+| goodness and kindness.”                |
+|                                        |
+\  -- Lailah Gifty Akita                 /
+ ----------------------------------------
+     \
+      \
+
+         .-;\':\':\'-.
+        {\'.\'.\'.\'.\'.}
+         )        \'`.
+        \'-. ._ ,_.-=\'
+          `). ( `);(
+          (\'. .)(,\'.)
+           ) ( ,\').(
+          ( .\').\'(\').
+          .) (\' ).(\'
+           '  ) (  ).
+            .\'( .)\'
+              .).\'
+jgs
+
 ```
 <!-- END_QUOTE -->
 
