@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“忱𢜠准意𫳘排</p>
-      <p class="nom">𠀧生歐罕綠𡗶之低”</p>
-      <p class="quocngu">Thầm mừng chốn ấy chữ bài,</p>
-      <p class="quocngu">Ba sinh âu hẳn duyên trời chi đây.</p>
-      <p class="author"><i>(Dòng 281-282) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𫢋前惨垃愁培</p>
+      <p class="nom">𣈜鋪手字𣈘㘨心香”</p>
+      <p class="quocngu">Phật tiền thảm lấp sầu vùi,</p>
+      <p class="quocngu">Ngày pho thủ tự, đêm nồi tâm hương.</p>
+      <p class="author"><i>(Dòng 1929-1930) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “It is better to sow good deeds; love, \
-| goodness and kindness.”                |
-|                                        |
-\  -- Lailah Gifty Akita                 /
- ----------------------------------------
-     \
-      \
-
-         .-;\':\':\'-.
-        {\'.\'.\'.\'.\'.}
-         )        \'`.
-        \'-. ._ ,_.-=\'
-          `). ( `);(
-          (\'. .)(,\'.)
-           ) ( ,\').(
-          ( .\').\'(\').
-          .) (\' ).(\'
-           '  ) (  ).
-            .\'( .)\'
-              .).\'
-jgs
-
+ _____________________________________________
+/ “An author, whether good or bad, or between \
+| both, is an animal whom every body is       |
+| privileged to attack: for though all are    |
+| not able to write books, all conceive       |
+| themselves able to judge them.”             |
+|                                             |
+\  -- Matthew Lewis                           /
+ ---------------------------------------------
+   \
+    \
+                -一     一-
+        ／                       ＼
+       /             ________
+      /     -~                     ミ､
+      レ'     _  一ｧiァ ￢}￣Tii一- _  ＼
+    ／    --::|::::/斗士  /   |[_Vい＿＞」
+  ／ イ「::::|:::Y/  ｲ::ハ      ｨ-ﾐヽい
+  ＜___｜:::へ|::|{ 乂-夕     {::ｄﾘ|い
+        ＼八 |::｜             `''   ﾊ|
+    ＿ --＼ヽ|::|                  .ｲ ﾘ
+  ／------.ゝ|:ﾄ|        -       ィ:|
+  ＼        ＞ミ|`ヽ!ﾆ  T  ﾌ￣.≧｜:/
+     ∨         |::\/ }-/く＼   /｜/ 
 ```
 <!-- END_QUOTE -->
 
