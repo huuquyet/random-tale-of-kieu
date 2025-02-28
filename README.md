@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𫢋前惨垃愁培</p>
-      <p class="nom">𣈜鋪手字𣈘㘨心香”</p>
-      <p class="quocngu">Phật tiền thảm lấp sầu vùi,</p>
-      <p class="quocngu">Ngày pho thủ tự, đêm nồi tâm hương.</p>
-      <p class="author"><i>(Dòng 1929-1930) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“信𠓨𠳚𠓀中軍</p>
+      <p class="nom">徐公𥢆唉𨑮分糊塗”</p>
+      <p class="quocngu">Tin vào gửi trước trung quân,</p>
+      <p class="quocngu">Từ công riêng hãy mười phân hồ đồ.</p>
+      <p class="author"><i>(Dòng 2461-2462) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “An author, whether good or bad, or between \
-| both, is an animal whom every body is       |
-| privileged to attack: for though all are    |
-| not able to write books, all conceive       |
-| themselves able to judge them.”             |
-|                                             |
-\  -- Matthew Lewis                           /
- ---------------------------------------------
-   \
-    \
-                -一     一-
-        ／                       ＼
-       /             ________
-      /     -~                     ミ､
-      レ'     _  一ｧiァ ￢}￣Tii一- _  ＼
-    ／    --::|::::/斗士  /   |[_Vい＿＞」
-  ／ イ「::::|:::Y/  ｲ::ハ      ｨ-ﾐヽい
-  ＜___｜:::へ|::|{ 乂-夕     {::ｄﾘ|い
-        ＼八 |::｜             `''   ﾊ|
-    ＿ --＼ヽ|::|                  .ｲ ﾘ
-  ／------.ゝ|:ﾄ|        -       ィ:|
-  ＼        ＞ミ|`ヽ!ﾆ  T  ﾌ￣.≧｜:/
-     ∨         |::\/ }-/く＼   /｜/ 
+ _______________________________________
+/ “Anything the Austrians could do, the \
+| Prussians could do better.”           |
+|                                       |
+\  -- Timothy C.W. Blanning             /
+ ---------------------------------------
+     \
+      \
+     _              __
+    / `\  (~._    ./  )
+    \__/ __`-_\__/ ./
+   _ \ \/  \   \ |_   __
+ (   )  \__/ -^    \ /  \
+  \_/ "  \  | o  o  |.. /  __
+       \. --' ====  /  || /  \
+         \   .  .  |---__.\__/
+         /  :     /   |   |
+         /   :   /     \_/
+      --/ ::    (
+     (  |     (  (____
+   .--  .. ----**.____)
+   \___/
 ```
 <!-- END_QUOTE -->
 
