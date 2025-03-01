@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“信𠓨𠳚𠓀中軍</p>
-      <p class="nom">徐公𥢆唉𨑮分糊塗”</p>
-      <p class="quocngu">Tin vào gửi trước trung quân,</p>
-      <p class="quocngu">Từ công riêng hãy mười phân hồ đồ.</p>
-      <p class="author"><i>(Dòng 2461-2462) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“固欺𢝙傳謨唭</p>
+      <p class="nom">小姐吏𢷣仍唎兜兜”</p>
+      <p class="quocngu">Có khi vui chuyện mua cười,</p>
+      <p class="quocngu">Tiểu thư lại giở những lời đâu đâu.</p>
+      <p class="author"><i>(Dòng 1581-1582) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “Anything the Austrians could do, the \
-| Prussians could do better.”           |
-|                                       |
-\  -- Timothy C.W. Blanning             /
- ---------------------------------------
-     \
-      \
-     _              __
-    / `\  (~._    ./  )
-    \__/ __`-_\__/ ./
-   _ \ \/  \   \ |_   __
- (   )  \__/ -^    \ /  \
-  \_/ "  \  | o  o  |.. /  __
-       \. --' ====  /  || /  \
-         \   .  .  |---__.\__/
-         /  :     /   |   |
-         /   :   /     \_/
-      --/ ::    (
-     (  |     (  (____
-   .--  .. ----**.____)
-   \___/
+ ___________________________________________________________________
+/ “The victorious army is victorious first                          \
+| and seeks battle later”                                           |
+|                                                                   |
+\  -- the defeated army seeks battle first and seeks victory later. /
+ -------------------------------------------------------------------
+  \
+   \
+       \#+ @      \# \#              M#@
+ .    .X  X.%##@;# \#   +@#######X. @#%
+   ,==.   ,######M+  -#####%M####M-    \#
+  :H##M%:=##+ .M##M,;#####/+#######% ,M#
+ .M########=  =@#@.=#####M=M#######=  X#
+ :@@MMM##M.  -##M.,#######M#######. =  M
+             @##..###:.    .H####. @@ X,
+   \############: \###,/####;  /##= @#. M
+           ,M## ;##,@#M;/M#M  @# X#% X#
+.%=   \######M## \##.M#:   ./#M ,M \#M ,#$
+\##/         $## \#+;#: \#### ;#/ M M- @# :
+\#+ \#M@MM###M-;M \#:$#-##$H# .#X @ + $#. \#
+      \######/.: \#%=# M#:MM./#.-#  @#: H#
++,.=   @###: /@ %#,@  \##@X \#,-#@.##% .@#
+\#####+;/##/ @##  @#,+       /#M    . X,
+   ;###M#@ M###H .#M-     ,##M  ;@@; \###
+   .M#M##H ;####X ,@#######M/ -M###$  -H
+    .M###%  X####H  .@@MM@;  ;@#M@
+      H#M    /@####/      ,++.  / ==-,
+               ,=/:, .+X@MMH@#H  \#####$=
 ```
 <!-- END_QUOTE -->
 
