@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“雖浪𢝙𡦂于歸</p>
-      <p class="nom">𢝙尼㐌拮愁箕特󰅹”</p>
-      <p class="quocngu">Tuy rằng vui chữ vu quy,</p>
-      <p class="quocngu">Vui này đã cất sầu kia được nào!</p>
-      <p class="author"><i>(Dòng 2843-2844) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠳒圭𠽃𠴒容𨱽</p>
+      <p class="nom">謨𢝙拱特󰜋𠄽𤿰更”</p>
+      <p class="quocngu">Lời quê chắp nhạnh dông dài,</p>
+      <p class="quocngu">Mua vui cũng được một vài trống canh.</p>
+      <p class="author"><i>(Dòng 3253-3254) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,42 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Motherhood is hard enough without       \
-| judgement from others who don't know the |
-| whole story.”                            |
-|                                          |
-\  -- Sarah Addison Allen                  /
- ------------------------------------------
-           \
-            \
-                           _.. .:-―-:. .._
-                      .: .: .: .: .: .: .: .: .: 
-                   ／ .: .: .: .: .: .: .: .: .: .＼
-                 ,'         ,!    ∧           : .: ヽ
-                /, .:: :｜./ |.:./ヽ.:iﾍ.: .: .: .: ::.
-               ,''|.:: .人/--|':/  ヽ:| ､＿.: : .: .::|
-                  |.:: ｲ  ,,=､ﾚ        ゞ=ﾐ､.:|..: .: :|
-                  |.:: ｜{{    }}     {{    }}八.: .: :|
-                 /.: : /  ゛= "        ゛= "    ;.:r ､:|
-                /,.ｲ.:〈                     ,, //' ｝:|
-               '  ヽ:: ゝ、        ｰ--┐       //  ノ::.
-                    ヾ::.､＞ .    ヽ _ﾉ    ..  ＜¨ｨ.:}~＼
-                      `゜ヾ/｀>了、.    v 〔:／|:/  レ'
-                        _ . -/: ,K:::>､/: :ﾄ._
-                       |: :く_.:|/:〈 /: :}: /~ヽ
-              r「「「ｈ,>:|: <: |'::ｿ::<¨.:n｢「「!､
-              ゝ＿_ﾉ /: : |::ヽ |::/: ／: :.ﾍ＿_ノ｝
-               | ￣ |,': :/: : ヽ:' ／ : :.:| ￣ |:}
+ ____________________________________________
+/ “In the eleven months preceding the        \
+| outbreak of World War II, 211 treaties of  |
+| peace were signed. Were these treaties of  |
+| peace written on paper, or were they       |
+| written on the hearts of men? And we must  |
+| ask ourselves as we hear of treaties being |
+| written today, whether the treaties of the |
+| UN are written with the full cognizance of |
+| the fact that those who sign them are      |
+| responsible before God?”                   |
+|                                            |
+\  -- Fulton J. Sheen                        /
+ --------------------------------------------
+    \
+     \
+           .-;+$XHHHHHHX$+;-.
+        ,;X@@X%/;=----=:/%X@@X/,
+      =$@@%=.              .=+H@X:
+    -XMX:                      =XMX=
+   /@@:                          =H@+
+  %@X,                            .$@$
+ +@X.                               $@%
+-@@,                                .@@=
+%@%                                  +@$
+H@:                                  :@H
+H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
+%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
+=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
+ +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
+  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
+   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
+    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
+      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
+        ,;$@@@@@@@@@@@@@@@@@@X/-
+           .-;+$XXHHHHHX$+;-.
 ```
 <!-- END_QUOTE -->
 
