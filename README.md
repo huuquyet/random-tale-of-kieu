@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠳒圭𠽃𠴒容𨱽</p>
-      <p class="nom">謨𢝙拱特󰜋𠄽𤿰更”</p>
-      <p class="quocngu">Lời quê chắp nhạnh dông dài,</p>
-      <p class="quocngu">Mua vui cũng được một vài trống canh.</p>
-      <p class="author"><i>(Dòng 3253-3254) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“庭萊隔󰋇𬋟𩅹</p>
+      <p class="nom">固欺㭲梓㐌𣃣𠊚揞”</p>
+      <p class="quocngu">Đình Lai cách mấy nắng mưa,</p>
+      <p class="quocngu">Có khi gốc tử đã vừa người ôm.</p>
+      <p class="author"><i>(Dòng 1045-1046) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,42 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “In the eleven months preceding the        \
-| outbreak of World War II, 211 treaties of  |
-| peace were signed. Were these treaties of  |
-| peace written on paper, or were they       |
-| written on the hearts of men? And we must  |
-| ask ourselves as we hear of treaties being |
-| written today, whether the treaties of the |
-| UN are written with the full cognizance of |
-| the fact that those who sign them are      |
-| responsible before God?”                   |
-|                                            |
-\  -- Fulton J. Sheen                        /
- --------------------------------------------
+ __________________________________________
+/ “I get a kick out of people saying I was \
+| funny.”                                  |
+|                                          |
+\  -- Dick Cavett                          /
+ ------------------------------------------
     \
      \
-           .-;+$XHHHHHHX$+;-.
-        ,;X@@X%/;=----=:/%X@@X/,
-      =$@@%=.              .=+H@X:
-    -XMX:                      =XMX=
-   /@@:                          =H@+
-  %@X,                            .$@$
- +@X.                               $@%
--@@,                                .@@=
-%@%                                  +@$
-H@:                                  :@H
-H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
-%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
-=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
- +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
-  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
-   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
-    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
-      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
-        ,;$@@@@@@@@@@@@@@@@@@X/-
-           .-;+$XXHHHHHX$+;-.
+            .+
+             /M;
+              H#@:              ;,
+              -###H-          -@/
+               %####$.  -;  .%#X
+                M#####+;#H :M#M.
+..          .+/;%#########X###-
+ -/%H%+;-,    +##############/
+    .:$M###MH$%+############X  ,--=;-
+        -/H#####################H+=.
+           .+#################X.
+         =%M####################H;.
+            /@###############+;;/%%;,
+         -%###################$.
+       ;H######################M=
+    ,%#####MH$%;+#####M###-/@####%
+  :$H%+;=-      -####X.,H#   -+M##@-
+ .              ,###;    ;      =$##+
+                .#H,               :XH,
+                 +                   .;-
 ```
 <!-- END_QUOTE -->
 
