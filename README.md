@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰈫娘侍宴󰡎幔</p>
-      <p class="nom">𢷣醝吏押紊彈日奏”</p>
-      <p class="quocngu">Bắt nàng thị yến dưới màn,</p>
-      <p class="quocngu">Giở say lại ép vặn đàn nhặt tâu.</p>
-      <p class="author"><i>(Dòng 2567-2568) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦼜𦹴𡭧分昆昆</p>
+      <p class="nom">因緣別固𣃲𧷺朱庒”</p>
+      <p class="quocngu">Sắn bìm chút phận con con,</p>
+      <p class="quocngu">Nhân duyên biết có vuông tròn cho chăng?</p>
+      <p class="author"><i>(Dòng 1633-1634) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The pen is mightier than the sword unless \
-| it's a real sword in which case the guy    |
-| with the pen should run away fast.”        |
-|                                            |
-\  -- Roger Eschbacher                       /
- --------------------------------------------
-   \
-    \
-     \
-               ＿＿＿＿＿
-           .:´.: .: . : :. `  、
-     ..: ／.: .: .: . : .: .:   ＼
-    .::／:::       ﾉ   /､         ＼
-   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
- .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
- .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
-..:::|.:::ノ::{{:::}       {:::}}{: |＼|
-..:::::::_::|::うﾆソ       う:ソＶ: |
-.::: /.:/ |:|:ヽヽ       ｀      }: |
-.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
- ..::|.ゝ,ヽ|:   /      /     ／:::八
- .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
-  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
-   ..::::／⌒: :|:ＶＶ{ヽ:＼
-      .:/.: :|::l::ﾍ}/\|:}:.＼
-    ..::｢.: :|::＞:Ｖ//|〈:.}.}
-  ...::/.:: :|::＼: Ｖ/| / :}:.┐
- ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
-..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
+ ___________________________________________
+/ “How vain it is to sit down to write when \
+| you have not stood up to live.”           |
+|                                           |
+\  -- Henry David Thoreau                   /
+ -------------------------------------------
+   \         __------~~-,
+    \      ,'            ,
+          /               \
+         /                :
+        |                  '
+        |                  |
+        |                  |
+         |   _--           |
+         _| =-.     .-.   ||
+         o|/o/       _.   |
+         /  ~          \ |
+       (____@)  ___~    |
+          |_===~~~.`    |
+       _______.--~     |
+       \________       |
+                \      |
+              __/-___-- -__
+             /            _ \
 ```
 <!-- END_QUOTE -->
 
