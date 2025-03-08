@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦼜𦹴𡭧分昆昆</p>
-      <p class="nom">因緣別固𣃲𧷺朱庒”</p>
-      <p class="quocngu">Sắn bìm chút phận con con,</p>
-      <p class="quocngu">Nhân duyên biết có vuông tròn cho chăng?</p>
-      <p class="author"><i>(Dòng 1633-1634) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“覺緣󰂅吲殷勤</p>
+      <p class="nom">謝辭脱㐌移蹎𡎝外”</p>
+      <p class="quocngu">Giác Duyên vâng dặn ân cần,</p>
+      <p class="quocngu">Tạ từ thoắt đã dời chân cõi ngoài.</p>
+      <p class="author"><i>(Dòng 2417-2418) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “How vain it is to sit down to write when \
-| you have not stood up to live.”           |
-|                                           |
-\  -- Henry David Thoreau                   /
- -------------------------------------------
-   \         __------~~-,
-    \      ,'            ,
-          /               \
-         /                :
-        |                  '
-        |                  |
-        |                  |
-         |   _--           |
-         _| =-.     .-.   ||
-         o|/o/       _.   |
-         /  ~          \ |
-       (____@)  ___~    |
-          |_===~~~.`    |
-       _______.--~     |
-       \________       |
-                \      |
-              __/-___-- -__
-             /            _ \
+ ____________________________________________
+/ “I should have learned mindfulness, and    \
+| it’s too late now because it’s no good     |
+| learning it when you’re already in crisis: |
+| you have to start when things are good.    |
+| But only the very, very oddest would       |
+| think, Hey, my life is perfect. I know!    |
+| I’ll sit and waste twenty minutes          |
+| Observing My Thoughts without Judgement.”  |
+|                                            |
+\  -- Marian Keyes                           /
+ --------------------------------------------
+   \
+    \
+
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
