@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“覺緣󰂅吲殷勤</p>
-      <p class="nom">謝辭脱㐌移蹎𡎝外”</p>
-      <p class="quocngu">Giác Duyên vâng dặn ân cần,</p>
-      <p class="quocngu">Tạ từ thoắt đã dời chân cõi ngoài.</p>
-      <p class="author"><i>(Dòng 2417-2418) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“吲浪埋𢤡㐌停</p>
+      <p class="nom">柳蒲命𫳘𥙩命朱𫨩”</p>
+      <p class="quocngu">Dặn rằng: "May rủi đã đành,</p>
+      <p class="quocngu">Liễu bồ mình giữ lấy mình cho hay.</p>
+      <p class="author"><i>(Dòng 1751-1752) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I should have learned mindfulness, and    \
-| it’s too late now because it’s no good     |
-| learning it when you’re already in crisis: |
-| you have to start when things are good.    |
-| But only the very, very oddest would       |
-| think, Hey, my life is perfect. I know!    |
-| I’ll sit and waste twenty minutes          |
-| Observing My Thoughts without Judgement.”  |
-|                                            |
-\  -- Marian Keyes                           /
- --------------------------------------------
+ __________________________________________
+/ “Freedom from worries and surcease from  \
+| strain are illusions that always inhabit |
+| the distance.”                           |
+|                                          |
+\  -- Edwin Way Teale                      /
+ ------------------------------------------
+  \
    \
-    \
-
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+                     _____
+                   .\'* *.\'
+               ___/_*_(_
+              / _______ \
+             _\_)/___\(_/_
+            / _((\- -/))_ \
+            \ \())(-)(()/ /
+             ' \(((()))/ \'
+            / \' \)).))\ \' \
+           / _ \ - | - /_  \
+          (   ( .;\'\'\';. .\'  )
+          _\\"__ /    )\ __\"/_
+            \/  \   \' /  \/
+             .\'  \'...\' \'  )
+              / /  |   \  \
+             / .   .    .  \
+            /   .      .    \
+           /   /   |    \    \
+         .\'   /    b     \'.   \'.
+     _.-\'    /     Bb      \'-.  \'-_
+ _.-\'       |      BBb        \'-.  \'-.
+(________mrf\____.dBBBb._________)____)
 ```
 <!-- END_QUOTE -->
 
