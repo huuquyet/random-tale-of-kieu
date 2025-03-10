@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“吲浪埋𢤡㐌停</p>
-      <p class="nom">柳蒲命𫳘𥙩命朱𫨩”</p>
-      <p class="quocngu">Dặn rằng: "May rủi đã đành,</p>
-      <p class="quocngu">Liễu bồ mình giữ lấy mình cho hay.</p>
-      <p class="author"><i>(Dòng 1751-1752) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“域娘𠓨擬𥪝茹</p>
+      <p class="nom">馬嬌吏𠼯意𠚢吲𠳒”</p>
+      <p class="quocngu">Vực nàng vào nghỉ trong nhà,</p>
+      <p class="quocngu">Mã Kiều lại hở ý ra dặn lời:</p>
+      <p class="author"><i>(Dòng 1155-1156) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,43 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Freedom from worries and surcease from  \
-| strain are illusions that always inhabit |
-| the distance.”                           |
-|                                          |
-\  -- Edwin Way Teale                      /
- ------------------------------------------
-  \
-   \
-                     _____
-                   .\'* *.\'
-               ___/_*_(_
-              / _______ \
-             _\_)/___\(_/_
-            / _((\- -/))_ \
-            \ \())(-)(()/ /
-             ' \(((()))/ \'
-            / \' \)).))\ \' \
-           / _ \ - | - /_  \
-          (   ( .;\'\'\';. .\'  )
-          _\\"__ /    )\ __\"/_
-            \/  \   \' /  \/
-             .\'  \'...\' \'  )
-              / /  |   \  \
-             / .   .    .  \
-            /   .      .    \
-           /   /   |    \    \
-         .\'   /    b     \'.   \'.
-     _.-\'    /     Bb      \'-.  \'-_
- _.-\'       |      BBb        \'-.  \'-.
-(________mrf\____.dBBBb._________)____)
+ _____________________________________________
+/ “Power without [the people's] confidence is \
+| nothing.”                                   |
+|                                             |
+\  -- Catherine the Great                     /
+ ---------------------------------------------
+    \
+     \                                                           ＿＿＿ノ^l
+      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
+                                                 く                       /
+                                                  `ヽ,   __､-'           /
+                                                    __＞‐´               |
+                                           ._,;‐''``              ,     /
+                                         _;"                     /     /
+                                       ／                       /     く
+                                     ／                        /       |
+                                   ／                        ／       ｌ
+                                 ノ                        ／￣ヽ     /
+                                /                        ／     ） _ノ
+                            ,r'″ヽ、                   ／        ￣
+                           /      ヽ                 ／
+                        ＿ﾉ        `r            _､‐'
+                      ／          _l,_       _､‐'
+                 __,r'          ／r;;,ヽ   ／
+               ,/              ｜.;●,;;|  ノ
+              ノ ／  ／／       ヽ､!!!ﾞﾉ "
+            ／ ／／／  ／／___,r''"￣
+           / ／ / / /／ / /
+      ___／／/／／／ ／／/
+  ／￣＿_／／／/ / ／／／
+ l ／´___／／／／／／ /
+ しレ"／／/ /  ／／//／
+      / ,/ / ／／／ /
+      ﾚ'   ﾚ'／／ ／
+           ／l｜l/
+          ｜|ﾚ'lノ
+           レ'
 ```
 <!-- END_QUOTE -->
 
