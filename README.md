@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“域娘𠓨擬𥪝茹</p>
-      <p class="nom">馬嬌吏𠼯意𠚢吲𠳒”</p>
-      <p class="quocngu">Vực nàng vào nghỉ trong nhà,</p>
-      <p class="quocngu">Mã Kiều lại hở ý ra dặn lời:</p>
-      <p class="author"><i>(Dòng 1155-1156) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“裊賒買𤑟󰘚𠊚</p>
+      <p class="nom">客它𫴋馭細尼敘情”</p>
+      <p class="quocngu">Nẻo xa mới tỏ mặt người,</p>
+      <p class="quocngu">Khách đà xuống ngựa tới nơi tự tình.</p>
+      <p class="author"><i>(Dòng 141-142) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,43 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Power without [the people's] confidence is \
-| nothing.”                                   |
-|                                             |
-\  -- Catherine the Great                     /
- ---------------------------------------------
-    \
-     \                                                           ＿＿＿ノ^l
-      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
-                                                 く                       /
-                                                  `ヽ,   __､-'           /
-                                                    __＞‐´               |
-                                           ._,;‐''``              ,     /
-                                         _;"                     /     /
-                                       ／                       /     く
-                                     ／                        /       |
-                                   ／                        ／       ｌ
-                                 ノ                        ／￣ヽ     /
-                                /                        ／     ） _ノ
-                            ,r'″ヽ、                   ／        ￣
-                           /      ヽ                 ／
-                        ＿ﾉ        `r            _､‐'
-                      ／          _l,_       _､‐'
-                 __,r'          ／r;;,ヽ   ／
-               ,/              ｜.;●,;;|  ノ
-              ノ ／  ／／       ヽ､!!!ﾞﾉ "
-            ／ ／／／  ／／___,r''"￣
-           / ／ / / /／ / /
-      ___／／/／／／ ／／/
-  ／￣＿_／／／/ / ／／／
- l ／´___／／／／／／ /
- しレ"／／/ /  ／／//／
-      / ,/ / ／／／ /
-      ﾚ'   ﾚ'／／ ／
-           ／l｜l/
-          ｜|ﾚ'lノ
-           レ'
+ __________________________________________
+/ “Everything from the humble woodlouse to \
+| specks of dust moving through a ray of   |
+| sunlight. Each tells a story.”           |
+|                                          |
+\  -- Fennel Hudson                        /
+ ------------------------------------------
+       \
+        \
+         \        .:  ￣￣￣￣:.丶､
+               ／.: .: .: .: .: .: ＼
+              /    ／|    /\.:| .: :.
+             / .:|乂 |/{:/ _乂/\ .:.:|
+           ノ.:\/ｨ庁ﾐ` \/ｨ庁ﾐx  \/:.:|
+             |:}{弋.ﾉ    弋ノ } /.:.:|
+             ﾚ:ﾘ''          '' ｜:ハ:＼
+             {人       ,、    ,｜/ノ:厂 
 ```
 <!-- END_QUOTE -->
 
