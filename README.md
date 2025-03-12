@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“裊賒買𤑟󰘚𠊚</p>
-      <p class="nom">客它𫴋馭細尼敘情”</p>
-      <p class="quocngu">Nẻo xa mới tỏ mặt người,</p>
-      <p class="quocngu">Khách đà xuống ngựa tới nơi tự tình.</p>
-      <p class="author"><i>(Dòng 141-142) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦖑信𦬑󰘚𨷑𪵟</p>
+      <p class="nom">𢜠󰅹吏過𢜠尼女庒”</p>
+      <p class="quocngu">Nghe tin nở mặt mở mày,</p>
+      <p class="quocngu">Mừng nào lại quá mừng này nữa chăng?</p>
+      <p class="author"><i>(Dòng 2993-2994) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Everything from the humble woodlouse to \
-| specks of dust moving through a ray of   |
-| sunlight. Each tells a story.”           |
-|                                          |
-\  -- Fennel Hudson                        /
- ------------------------------------------
-       \
-        \
-         \        .:  ￣￣￣￣:.丶､
-               ／.: .: .: .: .: .: ＼
-              /    ／|    /\.:| .: :.
-             / .:|乂 |/{:/ _乂/\ .:.:|
-           ノ.:\/ｨ庁ﾐ` \/ｨ庁ﾐx  \/:.:|
-             |:}{弋.ﾉ    弋ノ } /.:.:|
-             ﾚ:ﾘ''          '' ｜:ハ:＼
-             {人       ,、    ,｜/ノ:厂 
+ ____________________________________________
+/ “Four years after my father's death, when  \
+| the subject of parents came up in          |
+| conversation i would relate the            |
+| information in a flat, matter-of-fact tone |
+| eager to detect in my listener the flinch  |
+| of grief that eluded me.”                  |
+|                                            |
+\  -- Alison Bechdel                         /
+ --------------------------------------------
+ \     ____________ 
+  \    |__________|
+      /           /\
+     /           /  \
+    /___________/___/|
+    |          |     |
+    |  ==\ /== |     |
+    |   o   o  | \ \ |
+    |     <    |  \ \|
+   /|          |   \ \
+  / |  \_____/ |   / /
+ / /|          |  / /|
+/||\|          | /||\/
+    -------------|   
+        | |    | | 
+       <__/    \__>
 ```
 <!-- END_QUOTE -->
 
