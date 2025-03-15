@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠃅西底冷香願</p>
-      <p class="nom">吹綠潭𧺀𠚢緣㤳旁”</p>
-      <p class="quocngu">Mái tây để lạnh hương nguyền,</p>
-      <p class="quocngu">Xui duyên đằm thắm ra duyên bẽ bàng.</p>
-      <p class="author"><i>(Dòng 517-518) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“曲兜司馬鳯求</p>
+      <p class="nom">𦖑𠚢如怨如愁沛庒”</p>
+      <p class="quocngu">Khúc đâu Tư mã Phượng cầu,</p>
+      <p class="quocngu">Nghe ra như oán như sầu phải chăng!</p>
+      <p class="author"><i>(Dòng 475-476) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “When I design a building, I'm making sure \
-| you and I can get to the front door,       |
-| there's enough of a threshold for entry,   |
-| and that the rooms are in a logical        |
-| sequence.”                                 |
-|                                            |
-\  -- Michael Graves                         /
- --------------------------------------------
-     \
-      \
-              =+$HM####@H%;,
-           /H###############M$,
-           ,@################+
-            .H##############+
-              X############/
-               $##########/
-                %########/
-                 /X/;;+X/
- 
-                  -XHHX-
-                 ,######,
- \#############X  .M####M.  X#############
- \##############-   -//-   -##############
- X##############%,      ,+##############X
- -##############X        X##############-
-  %############%          %############%
-   %##########;            ;##########%
-    ;#######M=              =M#######;
-     .+M###@,                ,@###M+.
-        :XH.                  .HX:
-
+ ___________________________________________
+/ “Live free, dream loud, be inspired, find \
+| your power.”                              |
+|                                           |
+\  -- Ben Herr                              /
+ -------------------------------------------
+  \
+   \ ..:::::::::.
+    ::::::::::::::
+   /. `::::::::::::
+  O__,_:::::::::::'
 ```
 <!-- END_QUOTE -->
 
