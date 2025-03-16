@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“曲兜司馬鳯求</p>
-      <p class="nom">𦖑𠚢如怨如愁沛庒”</p>
-      <p class="quocngu">Khúc đâu Tư mã Phượng cầu,</p>
-      <p class="quocngu">Nghe ra như oán như sầu phải chăng!</p>
-      <p class="author"><i>(Dòng 475-476) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋墙雪迍霜𩂏</p>
+      <p class="nom">信春兜易𠫾衛朱能”</p>
+      <p class="quocngu">Một tường tuyết đón sương che,</p>
+      <p class="quocngu">Tin xuân đâu dễ đi về cho năng.</p>
+      <p class="author"><i>(Dòng 367-368) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,17 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Live free, dream loud, be inspired, find \
-| your power.”                              |
-|                                           |
-\  -- Ben Herr                              /
- -------------------------------------------
+ ____________________________________________
+/ “Adoptee rights are everyone's rights, and \
+| they deserve to be protected.”             |
+|                                            |
+\  -- DaShanne Stokes                        /
+ --------------------------------------------
   \
-   \ ..:::::::::.
-    ::::::::::::::
-   /. `::::::::::::
-  O__,_:::::::::::'
+   \
+       __     
+      UooU\.'@@@@@@`.
+      \__/(@@@@@@@@@@)
+           (@@@@@@@@)
+           `YY~~~~YY'
+            ||    ||
 ```
 <!-- END_QUOTE -->
 
