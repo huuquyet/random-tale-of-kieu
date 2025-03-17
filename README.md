@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋墙雪迍霜𩂏</p>
-      <p class="nom">信春兜易𠫾衛朱能”</p>
-      <p class="quocngu">Một tường tuyết đón sương che,</p>
-      <p class="quocngu">Tin xuân đâu dễ đi về cho năng.</p>
-      <p class="author"><i>(Dòng 367-368) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“於𥪝拱𪥀調𫨩</p>
+      <p class="nom">餒𣎀怯𨷑餒𣈜𥢆終”</p>
+      <p class="quocngu">Ở trong cũng lắm điều hay,</p>
+      <p class="quocngu">Nỗi đêm khép mở, nỗi ngày riêng chung.</p>
+      <p class="author"><i>(Dòng 1207-1208) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Adoptee rights are everyone's rights, and \
-| they deserve to be protected.”             |
-|                                            |
-\  -- DaShanne Stokes                        /
- --------------------------------------------
-  \
-   \
-       __     
-      UooU\.'@@@@@@`.
-      \__/(@@@@@@@@@@)
-           (@@@@@@@@)
-           `YY~~~~YY'
-            ||    ||
+ ___________________________________________
+/ “Before you assume, learn. Before you     \
+| judge, understand. Before you hurt, feel. |
+| Before you say, think.”                   |
+|                                           |
+\  -- Unknown                               /
+ -------------------------------------------
+     \
+      \
+              =+$HM####@H%;,
+           /H###############M$,
+           ,@################+
+            .H##############+
+              X############/
+               $##########/
+                %########/
+                 /X/;;+X/
+ 
+                  -XHHX-
+                 ,######,
+ \#############X  .M####M.  X#############
+ \##############-   -//-   -##############
+ X##############%,      ,+##############X
+ -##############X        X##############-
+  %############%          %############%
+   %##########;            ;##########%
+    ;#######M=              =M#######;
+     .+M###@,                ,@###M+.
+        :XH.                  .HX:
+
 ```
 <!-- END_QUOTE -->
 
