@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“於𥪝拱𪥀調𫨩</p>
-      <p class="nom">餒𣎀怯𨷑餒𣈜𥢆終”</p>
-      <p class="quocngu">Ở trong cũng lắm điều hay,</p>
-      <p class="quocngu">Nỗi đêm khép mở, nỗi ngày riêng chung.</p>
-      <p class="author"><i>(Dòng 1207-1208) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠽔浪停𥙩爫制</p>
+      <p class="nom">𠯇朱𠽔歇󰜋𠳒㐌󰅉”</p>
+      <p class="quocngu">Thưa rằng: "Đừng lấy làm chơi,</p>
+      <p class="quocngu">Dẽ cho thưa hết một lời đã nao!</p>
+      <p class="author"><i>(Dòng 501-502) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,35 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Before you assume, learn. Before you     \
-| judge, understand. Before you hurt, feel. |
-| Before you say, think.”                   |
+/ “Kindred spirits alone do not change with \
+| the changing years.”                      |
 |                                           |
-\  -- Unknown                               /
+\  -- L.M. Montgomery                       /
  -------------------------------------------
-     \
-      \
-              =+$HM####@H%;,
-           /H###############M$,
-           ,@################+
-            .H##############+
-              X############/
-               $##########/
-                %########/
-                 /X/;;+X/
- 
-                  -XHHX-
-                 ,######,
- \#############X  .M####M.  X#############
- \##############-   -//-   -##############
- X##############%,      ,+##############X
- -##############X        X##############-
-  %############%          %############%
-   %##########;            ;##########%
-    ;#######M=              =M#######;
-     .+M###@,                ,@###M+.
-        :XH.                  .HX:
-
+   \
+    \
+       /~\
+      |oo )
+      _\=/_
+     /     \
+    //|/.\|\\
+   ||  \_/  ||
+   || |\ /| ||
+    \# \_ _/  \#
+      | | |
+      | | |
+      []|[]
+      | | |
+     /_]_[_\
 ```
 <!-- END_QUOTE -->
 
