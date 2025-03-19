@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠽔浪停𥙩爫制</p>
-      <p class="nom">𠯇朱𠽔歇󰜋𠳒㐌󰅉”</p>
-      <p class="quocngu">Thưa rằng: "Đừng lấy làm chơi,</p>
-      <p class="quocngu">Dẽ cho thưa hết một lời đã nao!</p>
-      <p class="author"><i>(Dòng 501-502) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦖑信𦬑󰘚𨷑𪵟</p>
+      <p class="nom">𢜠󰅹吏過𢜠尼女庒”</p>
+      <p class="quocngu">Nghe tin nở mặt mở mày,</p>
+      <p class="quocngu">Mừng nào lại quá mừng này nữa chăng?</p>
+      <p class="author"><i>(Dòng 2993-2994) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,26 +26,22 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Kindred spirits alone do not change with \
-| the changing years.”                      |
+/ “I wouldn't yell 'fire' at that slimeball \
+| if his ass was in flames.”                |
 |                                           |
-\  -- L.M. Montgomery                       /
+\  -- Victoria Dahl                         /
  -------------------------------------------
+  \
    \
     \
-       /~\
-      |oo )
-      _\=/_
-     /     \
-    //|/.\|\\
-   ||  \_/  ||
-   || |\ /| ||
-    \# \_ _/  \#
-      | | |
-      | | |
-      []|[]
-      | | |
-     /_]_[_\
+
+     iﾆﾆi
+    /   /ヽ
+   ｜農｜｜
+   ｜協｜｜
+   ｜牛｜｜＿
+ ／｜乳｜｜／
+ ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->
 
