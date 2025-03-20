@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦖑信𦬑󰘚𨷑𪵟</p>
-      <p class="nom">𢜠󰅹吏過𢜠尼女庒”</p>
-      <p class="quocngu">Nghe tin nở mặt mở mày,</p>
-      <p class="quocngu">Mừng nào lại quá mừng này nữa chăng?</p>
-      <p class="author"><i>(Dòng 2993-2994) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠳒𣦍冬󰘚𥪝外</p>
+      <p class="nom">埃埃拱𡃍󰘚𠊚無良”</p>
+      <p class="quocngu">Lời nghe, đông mặt trong ngoài,</p>
+      <p class="quocngu">Ai ai cũng gớm mặt người vô lương.</p>
+      <p class="author"><i>(Dòng 1185-1186) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I wouldn't yell 'fire' at that slimeball \
-| if his ass was in flames.”                |
-|                                           |
-\  -- Victoria Dahl                         /
- -------------------------------------------
+ __________________________________________
+/ “Wisdom is the God-given ability to see  \
+| life with rare objectivity and to handle |
+| life with rare stability.”               |
+|                                          |
+\  -- Elizabeth George                     /
+ ------------------------------------------
   \
    \
-    \
 
-     iﾆﾆi
-    /   /ヽ
-   ｜農｜｜
-   ｜協｜｜
-   ｜牛｜｜＿
- ／｜乳｜｜／
- ￣￣￣￣￣
+      ^(;,;)^
+
 ```
 <!-- END_QUOTE -->
 
