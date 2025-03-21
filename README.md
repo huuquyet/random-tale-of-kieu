@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠳒𣦍冬󰘚𥪝外</p>
-      <p class="nom">埃埃拱𡃍󰘚𠊚無良”</p>
-      <p class="quocngu">Lời nghe, đông mặt trong ngoài,</p>
-      <p class="quocngu">Ai ai cũng gớm mặt người vô lương.</p>
-      <p class="author"><i>(Dòng 1185-1186) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡃍朱丐數花桃</p>
+      <p class="nom">攑𠚢耒吏𥾾𠓨如制”</p>
+      <p class="quocngu">Gớm cho cái số hoa đào,</p>
+      <p class="quocngu">Gỡ ra rồi lại buộc vào như chơi!</p>
+      <p class="author"><i>(Dòng 2151-2152) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Wisdom is the God-given ability to see  \
-| life with rare objectivity and to handle |
-| life with rare stability.”               |
-|                                          |
-\  -- Elizabeth George                     /
- ------------------------------------------
-  \
-   \
-
-      ^(;,;)^
-
+ ____________________________________________
+/ “The truth is that circumstances had done  \
+| much to cultivate in Mrs. Tristram a       |
+| marked tendency to irony. Her taste on     |
+| many points differed from that of her      |
+| husband, and though she made frequent      |
+| concessions it must be confessed that her  |
+| concessions were not always graceful. They |
+| were founded upon a vague project she had  |
+| of some day doing something very positive, |
+| something a trifle passionate. What she    |
+| meant to do she could by no means have     |
+| told you; but meanwhile, nevertheless, she |
+| was buying a good conscience, by           |
+| installments.”                             |
+|                                            |
+\  -- Henry James                            /
+ --------------------------------------------
+     \
+      \  (__)  
+         (\/)  
+  /-------\/    
+ / | 666 ||    
+*  ||----||      
+   ~~    ~~      
 ```
 <!-- END_QUOTE -->
 
