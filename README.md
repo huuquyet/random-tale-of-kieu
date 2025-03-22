@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡃍朱丐數花桃</p>
-      <p class="nom">攑𠚢耒吏𥾾𠓨如制”</p>
-      <p class="quocngu">Gớm cho cái số hoa đào,</p>
-      <p class="quocngu">Gỡ ra rồi lại buộc vào như chơi!</p>
-      <p class="author"><i>(Dòng 2151-2152) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠰘唁掑典羡尼</p>
+      <p class="nom">󰢉茹拱惜𧵑𡗶拱貪”</p>
+      <p class="quocngu">Miếng ngon kề đến tận nơi,</p>
+      <p class="quocngu">Vốn nhà cũng tiếc, của trời cũng tham.</p>
+      <p class="author"><i>(Dòng 831-832) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,30 +26,30 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “The truth is that circumstances had done  \
-| much to cultivate in Mrs. Tristram a       |
-| marked tendency to irony. Her taste on     |
-| many points differed from that of her      |
-| husband, and though she made frequent      |
-| concessions it must be confessed that her  |
-| concessions were not always graceful. They |
-| were founded upon a vague project she had  |
-| of some day doing something very positive, |
-| something a trifle passionate. What she    |
-| meant to do she could by no means have     |
-| told you; but meanwhile, nevertheless, she |
-| was buying a good conscience, by           |
-| installments.”                             |
+/ “To her, it was like asking a butterfly    \
+| what it remembered about being a           |
+| caterpillar. She could fly now and nothing |
+| could touch her when she left the cocoon   |
+| of her body behind at night.”              |
 |                                            |
-\  -- Henry James                            /
+\  -- Thomm Quackenbush                      /
  --------------------------------------------
-     \
-      \  (__)  
-         (\/)  
-  /-------\/    
- / | 666 ||    
-*  ||----||      
-   ~~    ~~      
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /o  o  \__  /    //  | \ \    
+           /     /  \/_/    //   |  \  \  
+           @_^_@'/   \/_   //    |   \   \ 
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
 ```
 <!-- END_QUOTE -->
 
