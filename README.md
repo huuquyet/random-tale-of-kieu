@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠰘唁掑典羡尼</p>
-      <p class="nom">󰢉茹拱惜𧵑𡗶拱貪”</p>
-      <p class="quocngu">Miếng ngon kề đến tận nơi,</p>
-      <p class="quocngu">Vốn nhà cũng tiếc, của trời cũng tham.</p>
-      <p class="author"><i>(Dòng 831-832) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪爲󰋇塘絲</p>
+      <p class="nom">惏𠊛朱典悲𣇞買催”</p>
+      <p class="quocngu">Nàng rằng: "Vì mấy đường tơ,</p>
+      <p class="quocngu">Lầm người cho đến bây giờ mới thôi!</p>
+      <p class="author"><i>(Dòng 3193-3194) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,30 +26,37 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “To her, it was like asking a butterfly    \
-| what it remembered about being a           |
-| caterpillar. She could fly now and nothing |
-| could touch her when she left the cocoon   |
-| of her body behind at night.”              |
+/ “One writer may speak of something more    \
+| lasting than Horace Greeley when he writes |
+| of that editor that his secular            |
+| philanthropy drifted into autocratic       |
+| ambition.”                                 |
 |                                            |
-\  -- Thomm Quackenbush                      /
+\  -- Harold Holzer                          /
  --------------------------------------------
-      \                    / \  //\
-       \    |\___/|      /   \//  \\
-            /o  o  \__  /    //  | \ \    
-           /     /  \/_/    //   |  \  \  
-           @_^_@'/   \/_   //    |   \   \ 
-           //_^_/     \/_ //     |    \    \
-        ( //) |        \///      |     \     \
-      ( / /) _|_ /   )  //       |      \     _\
-    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
-  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
- (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
- (( /// ))      `.   {            }                   /      \  \
-  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
-             ///.----..>        \             _ -~             `.  ^-`  ^-_
-               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
-                                                                  /.-~
+   \
+    \
+     \
+               ＿＿＿＿＿
+           .:´.: .: . : :. `  、
+     ..: ／.: .: .: . : .: .:   ＼
+    .::／:::       ﾉ   /､         ＼
+   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
+ .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
+ .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
+..:::|.:::ノ::{{:::}       {:::}}{: |＼|
+..:::::::_::|::うﾆソ       う:ソＶ: |
+.::: /.:/ |:|:ヽヽ       ｀      }: |
+.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
+ ..::|.ゝ,ヽ|:   /      /     ／:::八
+ .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
+  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
+   ..::::／⌒: :|:ＶＶ{ヽ:＼
+      .:/.: :|::l::ﾍ}/\|:}:.＼
+    ..::｢.: :|::＞:Ｖ//|〈:.}.}
+  ...::/.:: :|::＼: Ｖ/| / :}:.┐
+ ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
+..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
 ```
 <!-- END_QUOTE -->
 
