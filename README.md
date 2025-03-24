@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘浪爲󰋇塘絲</p>
-      <p class="nom">惏𠊛朱典悲𣇞買催”</p>
-      <p class="quocngu">Nàng rằng: "Vì mấy đường tơ,</p>
-      <p class="quocngu">Lầm người cho đến bây giờ mới thôi!</p>
-      <p class="author"><i>(Dòng 3193-3194) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“典悲𣇞買𧡊低</p>
+      <p class="nom">𦓡𢚸㐌𠺵仍𣈜󰜋𠄩”</p>
+      <p class="quocngu">Đến bây giờ mới thấy đây,</p>
+      <p class="quocngu">Mà lòng đã chắc những ngày một hai!"</p>
+      <p class="author"><i>(Dòng 2281-2282) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “One writer may speak of something more    \
-| lasting than Horace Greeley when he writes |
-| of that editor that his secular            |
-| philanthropy drifted into autocratic       |
-| ambition.”                                 |
-|                                            |
-\  -- Harold Holzer                          /
- --------------------------------------------
+ __________________________________________
+/ “Wisdom and goodness are twin-born, one  \
+| heart must hold both sisters, never seen |
+| apart.”                                  |
+|                                          |
+\  -- William Dean Howells                 /
+ ------------------------------------------
    \
     \
-     \
-               ＿＿＿＿＿
-           .:´.: .: . : :. `  、
-     ..: ／.: .: .: . : .: .:   ＼
-    .::／:::       ﾉ   /､         ＼
-   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
- .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
- .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
-..:::|.:::ノ::{{:::}       {:::}}{: |＼|
-..:::::::_::|::うﾆソ       う:ソＶ: |
-.::: /.:/ |:|:ヽヽ       ｀      }: |
-.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
- ..::|.ゝ,ヽ|:   /      /     ／:::八
- .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
-  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
-   ..::::／⌒: :|:ＶＶ{ヽ:＼
-      .:/.: :|::l::ﾍ}/\|:}:.＼
-    ..::｢.: :|::＞:Ｖ//|〈:.}.}
-  ...::/.:: :|::＼: Ｖ/| / :}:.┐
- ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
-..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
+
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
