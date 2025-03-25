@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“典悲𣇞買𧡊低</p>
-      <p class="nom">𦓡𢚸㐌𠺵仍𣈜󰜋𠄩”</p>
-      <p class="quocngu">Đến bây giờ mới thấy đây,</p>
-      <p class="quocngu">Mà lòng đã chắc những ngày một hai!"</p>
-      <p class="author"><i>(Dòng 2281-2282) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“房𥢆𢯢准清閒</p>
+      <p class="nom">達床七寶圍幔八僊”</p>
+      <p class="quocngu">Phòng riêng sửa chốn thanh nhàn,</p>
+      <p class="quocngu">Đặt giường thất bảo, vây màn bát tiên.</p>
+      <p class="author"><i>(Dòng 2209-2210) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Wisdom and goodness are twin-born, one  \
-| heart must hold both sisters, never seen |
-| apart.”                                  |
-|                                          |
-\  -- William Dean Howells                 /
- ------------------------------------------
-   \
-    \
+ _____________________________________________
+/ “Happiness and confidence are the prettiest \
+| things you can wear”                        |
+|                                             |
+\  -- Taylor Swift                            /
+ ---------------------------------------------
+#
+# International Business Machines
+#
 
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+$the_cow = << EOC;
+  \
+   \
+
+■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
+■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
+ ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
+ ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
+ ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
+ ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
+■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
+■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
+EOC
+
 ```
 <!-- END_QUOTE -->
 
