@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“房𥢆𢯢准清閒</p>
-      <p class="nom">達床七寶圍幔八僊”</p>
-      <p class="quocngu">Phòng riêng sửa chốn thanh nhàn,</p>
-      <p class="quocngu">Đặt giường thất bảo, vây màn bát tiên.</p>
-      <p class="author"><i>(Dòng 2209-2210) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨷶茹油併衛𡢐</p>
+      <p class="nom">𪰛群㛪妬路求姉低”</p>
+      <p class="quocngu">Cửa nhà dù tính về sau,</p>
+      <p class="quocngu">Thì còn em đó, lọ cầu chị đây?</p>
+      <p class="author"><i>(Dòng 3159-3160) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Happiness and confidence are the prettiest \
-| things you can wear”                        |
-|                                             |
-\  -- Taylor Swift                            /
- ---------------------------------------------
-#
-# International Business Machines
-#
-
-$the_cow = << EOC;
-  \
-   \
-
-■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
-■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
- ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
- ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
- ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
- ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
-■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
-■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
-EOC
-
+ ____________________________________________
+/ “When I was younger, one of my favorite    \
+| activities was imagining                   |
+| alternative-universe versions of myself.   |
+| Sometimes I was a rosy-cheeked outdoorsy   |
+| girl who ate flowers and hiked alone,      |
+| uphill, for miles. Or I was a skydiving,   |
+| drag-racing, adrenaline-fueled daredevil.  |
+| Or a chain mail-wearing, sword swinging    |
+| dragon slayer. It was fun to imagine those |
+| things because I already knew who I was.   |
+| Now I don't know anything. I don't know    |
+| who I'm supposed to be in my new world.”   |
+|                                            |
+\  -- Nicola Yoon                            /
+ --------------------------------------------
+       \   \_______
+ v__v   \  \   O   )
+ (oo)      ||----w |
+ (__)      ||     ||  \/\
+    
 ```
 <!-- END_QUOTE -->
 
