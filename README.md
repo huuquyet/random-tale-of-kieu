@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨷶茹油併衛𡢐</p>
-      <p class="nom">𪰛群㛪妬路求姉低”</p>
-      <p class="quocngu">Cửa nhà dù tính về sau,</p>
-      <p class="quocngu">Thì còn em đó, lọ cầu chị đây?</p>
-      <p class="author"><i>(Dòng 3159-3160) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“舌羅才子佳人</p>
+      <p class="nom">朱陳吏固朱陳󰅹欣”</p>
+      <p class="quocngu">Thiệt là tài tử giai nhân,</p>
+      <p class="quocngu">Châu Trần lại có Châu Trần nào hơn!</p>
+      <p class="author"><i>(Dòng 1457-1458) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “When I was younger, one of my favorite    \
-| activities was imagining                   |
-| alternative-universe versions of myself.   |
-| Sometimes I was a rosy-cheeked outdoorsy   |
-| girl who ate flowers and hiked alone,      |
-| uphill, for miles. Or I was a skydiving,   |
-| drag-racing, adrenaline-fueled daredevil.  |
-| Or a chain mail-wearing, sword swinging    |
-| dragon slayer. It was fun to imagine those |
-| things because I already knew who I was.   |
-| Now I don't know anything. I don't know    |
-| who I'm supposed to be in my new world.”   |
-|                                            |
-\  -- Nicola Yoon                            /
- --------------------------------------------
-       \   \_______
- v__v   \  \   O   )
- (oo)      ||----w |
- (__)      ||     ||  \/\
-    
+ __________________________________________
+/ “Your thoughts, beliefs, and imagination \
+| create you.”                             |
+|                                          |
+\  -- Debasish Mridha                      /
+ ------------------------------------------
+ \
+  \
+    .::.
+    _::_
+  _/____\_
+  \      /
+   \____/
+   (____)
+    |  |
+    |__|
+   /    \
+  (______)
+ (________)
+ /________\
 ```
 <!-- END_QUOTE -->
 
