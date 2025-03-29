@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“擬它𢬄謹𠰘󰜍</p>
-      <p class="nom">󰅹埃固拷麻命㐌稱”</p>
-      <p class="quocngu">Nghĩ đà bưng kín miệng bình,</p>
-      <p class="quocngu">Nào ai có khảo mà mình đã xưng?</p>
-      <p class="author"><i>(Dòng 1577-1578) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“偈經勾𬞺屬𢚸</p>
+      <p class="nom">香畑事𬞺齋房悁𢬣”</p>
+      <p class="quocngu">Kệ kinh câu cũ thuộc lòng,</p>
+      <p class="quocngu">Hương đèn sự cũ, trai phòng quen tay.</p>
+      <p class="author"><i>(Dòng 2055-2056) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “One of the great problems of philosophy,  \
-| is the relationship between the realm of   |
-| knowledge and the realm of values.         |
-| Knowledge is what is; values are what      |
-| ought to be. I would say that all          |
-| traditional philosophies up to and         |
-| including Marxism have tried to derive the |
-| 'ought' from the 'is.' My point of view is |
-| that this is impossible, this is a farce.” |
-|                                            |
-\  -- Jacques Monod                          /
- --------------------------------------------
-     \
-      \
-             ,;;;;;;;,
-            ;;;;;;;;;;;,
-           ;;;;;'_____;'
-           ;;;(/))))|((\
-           _;;((((((|))))
-          / |_\\\\\\\\\\\\
-     .--~(  \ ~))))))))))))
-    /     \  `\-(((((((((((\\
-    |    | `\   ) |\       /|)
-     |    |  `. _/  \_____/ |
-      |    , `\~            /
-       |    \  \           /
-      | `.   `\|          /
-      |   ~-   `\        /
-       \____~._/~ -_,   (\
-        |-----|\   \    ';;
-       |      | :;;;'     \
-      |  /    |            |
-      |       |            |
+ _____________________________________________
+/ “We have conversations with each other most \
+| nights - Sylvia Plath and me!”              |
+|                                             |
+\  -- Avijeet Das                             /
+ ---------------------------------------------
+  \
+   \
+
+     [-]
+     (+)=C
+     | |
+     OOO
 ```
 <!-- END_QUOTE -->
 
