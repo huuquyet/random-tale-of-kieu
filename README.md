@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“拱饒𨇍𨀈󰡎樓</p>
-      <p class="nom">雙雙馭𫏾馭𨍦󰜋團”</p>
-      <p class="quocngu">Cùng nhau lẻn bước dưới lầu,</p>
-      <p class="quocngu">Song song ngựa trước ngựa sau một đoàn.</p>
-      <p class="author"><i>(Dòng 1117-1118) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪如罕固世尼</p>
+      <p class="nom">𦝄花雙拱是非別調”</p>
+      <p class="quocngu">Rằng: "Như hẳn có thế ni,</p>
+      <p class="quocngu">Trăng hoa, song cũng thị phi biết điều!"</p>
+      <p class="author"><i>(Dòng 1447-1448) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________________
-/ “An insecure woman chases love”                  \
-|                                                  |
-\  -- a confident woman invites a man to find her. /
- --------------------------------------------------
+ _____________________________________________
+/ “If our 14 billion year cosmic history were \
+| scaled to 1 year, then 100,000 years of     |
+| human history would be 4 minutes, and a     |
+| 100 year life would be 0.2 seconds.”        |
+|                                             |
+\  -- Max Tegmark                             /
+ ---------------------------------------------
    \
     \
- ROFL:ROFL:ROFL:ROFL
-         _^___
- L    __/   oo \    
-LOL===__        \ 
- L      \________]
-         I   I    
-        --------/
+          _,--',   _._.--._____
+   .--.--';_'-.', ";_      _.,-'
+  .'--'.  _.'    {`'-;_ .-.>.'
+        '-:_      )  / `' '=.
+          ) >     {_/,     /~)
+  snd     |/               `^ .'
 ```
 <!-- END_QUOTE -->
 
