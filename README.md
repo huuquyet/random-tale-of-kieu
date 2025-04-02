@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浪如罕固世尼</p>
-      <p class="nom">𦝄花雙拱是非別調”</p>
-      <p class="quocngu">Rằng: "Như hẳn có thế ni,</p>
-      <p class="quocngu">Trăng hoa, song cũng thị phi biết điều!"</p>
-      <p class="author"><i>(Dòng 1447-1448) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“散霜𣃣𠓇𣈜𣈕</p>
+      <p class="nom">便鴻娘買𠴍𠳒𠳚𨖅”</p>
+      <p class="quocngu">Tan sương vừa rạng ngày mai,</p>
+      <p class="quocngu">Tiện hồng nàng mới nhắn lời gửi sang.</p>
+      <p class="author"><i>(Dòng 1083-1084) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “If our 14 billion year cosmic history were \
-| scaled to 1 year, then 100,000 years of     |
-| human history would be 4 minutes, and a     |
-| 100 year life would be 0.2 seconds.”        |
-|                                             |
-\  -- Max Tegmark                             /
- ---------------------------------------------
-   \
-    \
-          _,--',   _._.--._____
-   .--.--';_'-.', ";_      _.,-'
-  .'--'.  _.'    {`'-;_ .-.>.'
-        '-:_      )  / `' '=.
-          ) >     {_/,     /~)
-  snd     |/               `^ .'
+ ____________________________________________
+/ “I didn't want to go to hell, but even the \
+| idea of reclaining my halo scared me       |
+| because it would mean leaving Aly.”        |
+|                                            |
+\  -- Terri Clark                            /
+ --------------------------------------------
+       \
+        \
+
++      o     +              o   
+    +             o     +       +
+o          +
+    o  +           +        +
++        o     o       +        o
+-_-_-_-_-_-_-_,------,      o 
+_-_-_-_-_-_-_-|   /\_/\  
+-_-_-_-_-_-_-~|__( ^ .^)  +     +  
+_-_-_-_-_-_-_-''  ''      
++      o         o   +       o
+    +         +
+o        o         o      o     +
+    o           +
++      +     o        o      +    
 ```
 <!-- END_QUOTE -->
 
