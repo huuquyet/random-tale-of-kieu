@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㨳𨕭𡎢卒産床</p>
-      <p class="nom">𢩣𥪝䋦㐌𠽖娘急𠚢”</p>
-      <p class="quocngu">Ghế trên ngồi tót sẵn sàng,</p>
-      <p class="quocngu">Buồng trong mối đã giục nàng kíp ra.</p>
-      <p class="author"><i>(Dòng 631-632) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠸦浪筆法㐌精</p>
+      <p class="nom">搊𠓨貝帖蘭亭󰅹輸”</p>
+      <p class="quocngu">Khen rằng: "Bút pháp đã tinh,</p>
+      <p class="quocngu">So vào với thiếp Lan đình nào thua!</p>
+      <p class="author"><i>(Dòng 1987-1988) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,51 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Me dad planted that tree,’ she said       \
-| absently, pointing out through the old     |
-| cracked window.The great beech filled at   |
-| least half the sky and shook shadows all   |
-| over the house.Its roots clutched the      |
-| slope like a giant hand, holding the hill  |
-| in place. Its trunk writhed with power,    |
-| threw off veils of green dust, rose        |
-| towering into the air, branched into a     |
-| thousand shaded alleys, became a city for  |
-| owls and squirrels. I had thought such     |
-| trees to be as old as the earth, I never   |
-| dreamed that a man could make them. Yet it |
-| was Granny Trill’s dad who had planted     |
-| this tree, had thrust in the seed with his |
-| finger. How old must he have been to leave |
-| such a mark? Think of Granny’s age, and    |
-| add his on top, and you were back at the   |
-| beginning of the world.”                   |
-|                                            |
-\  -- Laurie Lee                             /
- --------------------------------------------
-  \                         ________
-   \                    _.-Y  |  |  Y-.,_
-    \                .-"   |  |  |  ||   "~-.      
-          _____     |""[]"|" !""! "|"=="" "I      
-       .-"{-. "I----]_   :|------..| []  __L      
-      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
-      ^-=\[_c=-'  ~j______[________]_L______L]    
-                    [_L--.\_==I|I==/.--.j_I_/     
-                      j)==(["-----`])==((_]       
-                       I--I"~~"""~~"I--I          
-                       |[]|         |[]|          
-                       j__l         j__l          
-                       |!!|         |!!|          
-                       |..|         |..|         
-                       )[](         )[](          
-                       ]--[         ]--[          
-                       [L_]         [L_]          
-                      /|..|\       /|..|\         
-                     '={--}=`     '={--}=`        
-                    .-^-r--^-.   .-^-r--^-.       
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Modified ATAT from Row  (the Ascii-Wizard of Oz)
+ _____________________________________________
+/ “How could Mark be halfway across the world \
+| when she would have sworn he'd been in      |
+| this room with her only seconds ago?”       |
+|                                             |
+\  -- Teresa Medeiros                         /
+ ---------------------------------------------
+   \
+    \
+        /\O
+         /\/
+        /\
+       /  \
+      LOL LOL
+:-D LOLLERSKATES :-D
 ```
 <!-- END_QUOTE -->
 
