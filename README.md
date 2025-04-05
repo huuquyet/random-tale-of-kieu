@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠸦浪筆法㐌精</p>
-      <p class="nom">搊𠓨貝帖蘭亭󰅹輸”</p>
-      <p class="quocngu">Khen rằng: "Bút pháp đã tinh,</p>
-      <p class="quocngu">So vào với thiếp Lan đình nào thua!</p>
-      <p class="author"><i>(Dòng 1987-1988) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨁮蹺𡶀假𠫾𥿺</p>
+      <p class="nom">𡳳墻󰟯固裊通買樔”</p>
+      <p class="quocngu">Lần theo núi giả đi vòng,</p>
+      <p class="quocngu">Cuối tường dường có nẻo thông mới rào.</p>
+      <p class="author"><i>(Dòng 389-390) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “How could Mark be halfway across the world \
-| when she would have sworn he'd been in      |
-| this room with her only seconds ago?”       |
-|                                             |
-\  -- Teresa Medeiros                         /
- ---------------------------------------------
-   \
-    \
-        /\O
-         /\/
-        /\
-       /  \
-      LOL LOL
-:-D LOLLERSKATES :-D
+ _____________________________________
+/ “The possibility of the dream gives \
+| strength.”                          |
+|                                     |
+\  -- Lailah Gifty Akita              /
+ -------------------------------------
+                                    \
+                                     \
+                                                         ____                   
+                                               [(=]|[==/   @  \     
+                                                      |--------|                
+     *                                     *  .       ==========                
+.  / *    .                         *   .* . * /.     ==========                
+ / /  .                      *   .    *  \. * /      ||||||||||||               
+ =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
+  \  \ .                             *  (===========[  /=========]              
+.  \   *  *                          .    /  * \   |==============]             
+         *                        *      *         C @ @ @ @ @ @ |D             
+        *  *                          .           /              |              
+                                         .       C  @ @ @  @ @  @ |D            
+          *                          *          /                 |             
+                                               C  @  @  @  @  @  @ |D           
+                                              /                    |            
+                                             C  @   @   @   @  @  @ |D          
+                                            /                       |           
+                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
+                                            -------------------------           
+Modified from howard1@vax.oxford.ac.uk
 ```
 <!-- END_QUOTE -->
 
