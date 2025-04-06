@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨁮蹺𡶀假𠫾𥿺</p>
-      <p class="nom">𡳳墻󰟯固裊通買樔”</p>
-      <p class="quocngu">Lần theo núi giả đi vòng,</p>
-      <p class="quocngu">Cuối tường dường có nẻo thông mới rào.</p>
-      <p class="author"><i>(Dòng 389-390) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“公私𠄩𨤰調衝</p>
+      <p class="nom">𨃴僊丿㐌脱𨦩塵埃”</p>
+      <p class="quocngu">Công tư hai lẽ đều xong,</p>
+      <p class="quocngu">Gót tiên phút đã thoát vòng trần ai.</p>
+      <p class="author"><i>(Dòng 1379-1380) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________
-/ “The possibility of the dream gives \
-| strength.”                          |
-|                                     |
-\  -- Lailah Gifty Akita              /
- -------------------------------------
-                                    \
-                                     \
-                                                         ____                   
-                                               [(=]|[==/   @  \     
-                                                      |--------|                
-     *                                     *  .       ==========                
-.  / *    .                         *   .* . * /.     ==========                
- / /  .                      *   .    *  \. * /      ||||||||||||               
- =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
-  \  \ .                             *  (===========[  /=========]              
-.  \   *  *                          .    /  * \   |==============]             
-         *                        *      *         C @ @ @ @ @ @ |D             
-        *  *                          .           /              |              
-                                         .       C  @ @ @  @ @  @ |D            
-          *                          *          /                 |             
-                                               C  @  @  @  @  @  @ |D           
-                                              /                    |            
-                                             C  @   @   @   @  @  @ |D          
-                                            /                       |           
-                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
-                                            -------------------------           
-Modified from howard1@vax.oxford.ac.uk
+ ___________________________________________
+/ “We are consciousness playing a game with \
+| itself to see how it feels.”              |
+|                                           |
+\  -- Jay Woodman                           /
+ -------------------------------------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
 ```
 <!-- END_QUOTE -->
 
