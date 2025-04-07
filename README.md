@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“公私𠄩𨤰調衝</p>
-      <p class="nom">𨃴僊丿㐌脱𨦩塵埃”</p>
-      <p class="quocngu">Công tư hai lẽ đều xong,</p>
-      <p class="quocngu">Gót tiên phút đã thoát vòng trần ai.</p>
-      <p class="author"><i>(Dòng 1379-1380) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“油欺蘿𧺀𥿗紅</p>
+      <p class="nom">𢧚庒𪰛拱在𢚸媄吒”</p>
+      <p class="quocngu">Dù khi lá thắm chỉ hồng,</p>
+      <p class="quocngu">Nên chăng thì cũng tại lòng mẹ cha.</p>
+      <p class="author"><i>(Dòng 333-334) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,59 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “We are consciousness playing a game with \
-| itself to see how it feels.”              |
-|                                           |
-\  -- Jay Woodman                           /
- -------------------------------------------
+ ____________________________________________
+/ “They had been talking about astrology, a  \
+| forbidden science that was not pursued in  |
+| the cloister. Narcissus had said that      |
+| astrology was an attempt to arrange and    |
+| order the many different types of human    |
+| beings according to their natures and      |
+| destinies. At this point Goldmund had      |
+| objected: "You're forever talking of       |
+| differences - I've finally recognised a    |
+| pet theory of yours. When you speak of the |
+| great difference that is supposed to exist |
+| between you and me, for instance, it seems |
+| to me that this difference is nothing but  |
+| your strange determination to establish    |
+| differences."Narcissus: "Yes. You've hit   |
+| the nail on the head. That's it: to you,   |
+| differences are quite unimportant; to me,  |
+| they are what matters most. I am a scholar |
+| by nature; science is my vocation. And     |
+| science is, to quote your words, nothing   |
+| but the 'determination to establish        |
+| differences.' Its essence couldn't be      |
+| defined more accurately. For us, the men   |
+| of science, nothing is as important as the |
+| establishment of differences; science is   |
+| the art of differentiation. Discovering in |
+| every man that which distinguishes him     |
+| from others is to know him.”               |
+|                                            |
+\  -- Hermann Hesse                          /
+ --------------------------------------------
    \
     \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
 
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
