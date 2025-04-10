@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠵱庒仍事不期</p>
-      <p class="nom">底娘朱典餒󰢔拱傷”</p>
-      <p class="quocngu">E chăng những sự bất kỳ,</p>
-      <p class="quocngu">Để nàng cho đến nỗi gì cũng thương!</p>
-      <p class="author"><i>(Dòng 2077-2078) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰡎𣳔渃沚沖󰡺</p>
+      <p class="nom">邊梂絲柳䏾朝羅他”</p>
+      <p class="quocngu">Dưới dòng nước chảy trong veo,</p>
+      <p class="quocngu">Bên cầu tơ liễu bóng chiều la tha.</p>
+      <p class="author"><i>(Dòng 169-170) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Every day my conscience makes confession \
-| relying on the hope of Your mercy as more |
-| to be trusted than its own innocence.”    |
-|                                           |
-\  -- Augustine of Hippo                    /
- -------------------------------------------
- \
-  \
-    <>_
-  (\)  )
-   \__/
-  (____)
-   |  |
-   |__|
-  /____\
- (______)
+ ____________________________________________
+/ “In all my life, I have never been free. I \
+| have never been able to do anything with   |
+| freedom, except in the field of my         |
+| writing.”                                  |
+|                                            |
+\  -- Langston Hughes                        /
+ --------------------------------------------
+     \ 
+      \
+           ,,,
+          (0 0)
+   +---ooO-(_)-Ooo---+
+   |                 |
 ```
 <!-- END_QUOTE -->
 
