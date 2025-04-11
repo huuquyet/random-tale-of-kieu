@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰡎𣳔渃沚沖󰡺</p>
-      <p class="nom">邊梂絲柳䏾朝羅他”</p>
-      <p class="quocngu">Dưới dòng nước chảy trong veo,</p>
-      <p class="quocngu">Bên cầu tơ liễu bóng chiều la tha.</p>
-      <p class="author"><i>(Dòng 169-170) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“纀鞍𢮿梗倍鐄</p>
+      <p class="nom">䋦愁𢫟姅𨀈塘𢺹𠄩”</p>
+      <p class="quocngu">Buộc yên quảy gánh vội vàng,</p>
+      <p class="quocngu">Mối sầu sẻ nửa, bước đàng chia hai.</p>
+      <p class="author"><i>(Dòng 563-564) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “In all my life, I have never been free. I \
-| have never been able to do anything with   |
-| freedom, except in the field of my         |
-| writing.”                                  |
-|                                            |
-\  -- Langston Hughes                        /
- --------------------------------------------
-     \ 
-      \
-           ,,,
-          (0 0)
-   +---ooO-(_)-Ooo---+
-   |                 |
+ _____________________________________________
+/ “I have pursued the comfort of things, when \
+| all along Comfort is a Person.”             |
+|                                             |
+\  -- Erin M. Straza                          /
+ ---------------------------------------------
+  \
+   \
+    \
+
+     iﾆﾆi
+    /   /ヽ
+   ｜農｜｜
+   ｜協｜｜
+   ｜牛｜｜＿
+ ／｜乳｜｜／
+ ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->
 
