@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“纀鞍𢮿梗倍鐄</p>
-      <p class="nom">䋦愁𢫟姅𨀈塘𢺹𠄩”</p>
-      <p class="quocngu">Buộc yên quảy gánh vội vàng,</p>
-      <p class="quocngu">Mối sầu sẻ nửa, bước đàng chia hai.</p>
-      <p class="author"><i>(Dòng 563-564) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠚢𠓨蹺𠎪青衣</p>
+      <p class="nom">𤋵油𩯀𦇒䏧𨨲管包”</p>
+      <p class="quocngu">Ra vào theo lũ thanh y,</p>
+      <p class="quocngu">Dãi dầu tóc rối da chì quản bao!</p>
+      <p class="author"><i>(Dòng 1745-1746) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I have pursued the comfort of things, when \
-| all along Comfort is a Person.”             |
-|                                             |
-\  -- Erin M. Straza                          /
- ---------------------------------------------
-  \
-   \
-    \
-
-     iﾆﾆi
-    /   /ヽ
-   ｜農｜｜
-   ｜協｜｜
-   ｜牛｜｜＿
- ／｜乳｜｜／
- ￣￣￣￣￣
+ ____________________________________________
+/ “Change the value system of the people you \
+| are ministering to”                        |
+|                                            |
+\  -- Sunday Adelaja                         /
+ --------------------------------------------
+     \
+      \
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+             ,--==-:$;
+         ,/$@#######@X+-
+      ./@###############X=
+     /M#####X+/;;;;+H#####$.
+    %####M/;+H@XX@@%;;@####@,
+   +####H=+##$,--,=M#X-%####@.
+  -####X,X@HHXH##MXHXXH-+####$
+  X###@.X/$M$:####$=@X/X,X####-
+ .####:+$:##@:####$:##H/X=####%
+ -%%$%,+==%$+-$+:$;-$%-+,/$%%+
+ -/+%%X$XX$$$$%$$%$X$X$%+/-
 ```
 <!-- END_QUOTE -->
 
