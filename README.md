@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠚢𠓨蹺𠎪青衣</p>
-      <p class="nom">𤋵油𩯀𦇒䏧𨨲管包”</p>
-      <p class="quocngu">Ra vào theo lũ thanh y,</p>
-      <p class="quocngu">Dãi dầu tóc rối da chì quản bao!</p>
-      <p class="author"><i>(Dòng 1745-1746) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浽念想典𦓡𤴬</p>
+      <p class="nom">𧡊𠊚𦣰帶别𡢐世󰅹”</p>
+      <p class="quocngu">Nỗi niềm tưởng đến mà đau,</p>
+      <p class="quocngu">Thấy người nằm đấy biết sau thế nào?"</p>
+      <p class="author"><i>(Dòng 109-110) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Change the value system of the people you \
-| are ministering to”                        |
-|                                            |
-\  -- Sunday Adelaja                         /
- --------------------------------------------
-     \
-      \
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-             ,--==-:$;
-         ,/$@#######@X+-
-      ./@###############X=
-     /M#####X+/;;;;+H#####$.
-    %####M/;+H@XX@@%;;@####@,
-   +####H=+##$,--,=M#X-%####@.
-  -####X,X@HHXH##MXHXXH-+####$
-  X###@.X/$M$:####$=@X/X,X####-
- .####:+$:##@:####$:##H/X=####%
- -%%$%,+==%$+-$+:$;-$%-+,/$%%+
- -/+%%X$XX$$$$%$$%$X$X$%+/-
+ __________________________________________
+/ “The love of God is not conditional, it  \
+| does not depend on anything and it never |
+| ends.”                                   |
+|                                          |
+\  -- Sunday Adelaja                       /
+ ------------------------------------------
+   \
+    \
+              ___
+      D>=G==='   '.
+            |======|
+            |======|
+        )--/]IIIIII]
+           |_______|
+           C O O O D
+          C O  O  O D
+         C  O  O  O  D
+         C__O__O__O__D
+snd     [_____________]
 ```
 <!-- END_QUOTE -->
 
