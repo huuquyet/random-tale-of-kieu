@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浽念想典𦓡𤴬</p>
-      <p class="nom">𧡊𠊚𦣰帶别𡢐世󰅹”</p>
-      <p class="quocngu">Nỗi niềm tưởng đến mà đau,</p>
-      <p class="quocngu">Thấy người nằm đấy biết sau thế nào?"</p>
-      <p class="author"><i>(Dòng 109-110) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“泣蒙撩印辭官</p>
+      <p class="nom">󰋇滝拱𤂬󰋇岸拱過”</p>
+      <p class="quocngu">Rắp mong treo ấn từ quan,</p>
+      <p class="quocngu">Mấy sông cũng lội, mấy ngàn cũng qua.</p>
+      <p class="author"><i>(Dòng 2939-2940) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “The love of God is not conditional, it  \
-| does not depend on anything and it never |
-| ends.”                                   |
-|                                          |
-\  -- Sunday Adelaja                       /
- ------------------------------------------
+ ____________________________________________
+/ “I had to learn how to trust my gut. Trust \
+| what I know to be right... not right, but  |
+| not waver on who I am. Know who I am, know |
+| what I want, and know it. Not waver on it  |
+| and be secure in that. And I still         |
+| struggle with it. But I really... I can't  |
+| be moved. You can't move me, and that all  |
+| comes with loving myself, and I'm like my  |
+| best buddy.”                               |
+|                                            |
+\  -- Mary J. Blige                          /
+ --------------------------------------------
    \
     \
-              ___
-      D>=G==='   '.
-            |======|
-            |======|
-        )--/]IIIIII]
-           |_______|
-           C O O O D
-          C O  O  O D
-         C  O  O  O  D
-         C__O__O__O__D
-snd     [_____________]
+    ____  
+   /# /_\_
+  |  |/oo\
+  |  \\_/_/
+ / |_   |  
+|  ||\_ ~| 
+|  ||| \/  
+|  |||_    
+ \//  |    
+  ||  |    
+  ||_  \   
+  \_|  o|  
+  /\___/   
+ /  ||||__ 
+    (___)_)
 ```
 <!-- END_QUOTE -->
 
