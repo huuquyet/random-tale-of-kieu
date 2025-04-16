@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰘚𥆾󰘚強添鮮</p>
-      <p class="nom">邊𠳒萬福邊𠳒寒暄”</p>
-      <p class="quocngu">Mặt nhìn mặt càng thêm tươi,</p>
-      <p class="quocngu">Bên lời vạn phúc, bên lời hàn huyên.</p>
-      <p class="author"><i>(Dòng 393-394) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“翠翹才色埃皮</p>
+      <p class="nom">㐌藝弹吏𨁥藝文詩”</p>
+      <p class="quocngu">Thuý Kiều tài sắc ai bì,</p>
+      <p class="quocngu">Đã nghề đàn lại đủ nghề văn thơ.</p>
+      <p class="author"><i>(Dòng 2891-2892) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I have my Poetry 180 project, which I've \
-| made my main project. We encourage high   |
-| schools, because that's really where, for |
-| most people, poetry dies off and gets     |
-| buried under other adolescent pursuits.”  |
-|                                           |
-\  -- Billy Collins                         /
- -------------------------------------------
-     \
-      \
-       ("`-'  '-/") .___..--' ' "`-._
-         ` o_ o  )    `-.   (      ) .`-.__. `)
-         (_Y_.) ' ._   )   `._` ;  `` -. .-'
-      _.. `--'_..-_/   /--' _ .' ,4
-   ( i l ),-''  ( l i),'  ( ( ! .-'    
+ __________________________________________
+/ “Alice, I am the game, and trust me: you \
+| don’t want to play me.”                  |
+|                                          |
+\  -- Elle Lothlorien                      /
+ ------------------------------------------
+            \
+             \                __ 
+                   _ ,___,-'",-=-. 
+       __,-- _ _,-'_)_  (""`'-._\ `. 
+    _,'  __ |,' ,-' __)  ,-     /. | 
+  ,'_,--'   |     -'  _)/         `\ 
+,','      ,'       ,-'_,`           : 
+,'     ,-'       ,(,-(              : 
+     ,'       ,-' ,    _            ; 
+    /        ,-._/`---'            / 
+   /        (____)(----. )       ,' 
+  /         (      `.__,     /\ /, 
+ :           ;-.___         /__\/| 
+ |         ,'      `--.      -,\ | 
+ :        /            \    .__/ 
+  \      (__            \    |_ 
+   \       ,`-, *       /   _|,\ 
+    \    ,'   `-.     ,'_,-'    \ 
+   (_\,-'    ,'\")--,'-'       __\ 
+    \       /  // ,'|      ,--'  `-. 
+     `-.    `-/ \'  |   _,'         `. 
+        `-._ /      `--'/             \ 
+-hrr-      ,'           |              \ 
+          /             |               \ 
+       ,-'              |               / 
+      /                 |             -'
 ```
 <!-- END_QUOTE -->
 
