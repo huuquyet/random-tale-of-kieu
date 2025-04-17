@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“翠翹才色埃皮</p>
-      <p class="nom">㐌藝弹吏𨁥藝文詩”</p>
-      <p class="quocngu">Thuý Kiều tài sắc ai bì,</p>
-      <p class="quocngu">Đã nghề đàn lại đủ nghề văn thơ.</p>
-      <p class="author"><i>(Dòng 2891-2892) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“典𪰛棟𨷶掑扦</p>
+      <p class="nom">𦼔𠆳󰢿額𦹵𨖲𠃅茹”</p>
+      <p class="quocngu">Đến thì đóng cửa cài then,</p>
+      <p class="quocngu">Rêu trùm kẽ ngạch, cỏ lên mái nhà.</p>
+      <p class="author"><i>(Dòng 3229-3230) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Alice, I am the game, and trust me: you \
-| don’t want to play me.”                  |
-|                                          |
-\  -- Elle Lothlorien                      /
- ------------------------------------------
-            \
-             \                __ 
-                   _ ,___,-'",-=-. 
-       __,-- _ _,-'_)_  (""`'-._\ `. 
-    _,'  __ |,' ,-' __)  ,-     /. | 
-  ,'_,--'   |     -'  _)/         `\ 
-,','      ,'       ,-'_,`           : 
-,'     ,-'       ,(,-(              : 
-     ,'       ,-' ,    _            ; 
-    /        ,-._/`---'            / 
-   /        (____)(----. )       ,' 
-  /         (      `.__,     /\ /, 
- :           ;-.___         /__\/| 
- |         ,'      `--.      -,\ | 
- :        /            \    .__/ 
-  \      (__            \    |_ 
-   \       ,`-, *       /   _|,\ 
-    \    ,'   `-.     ,'_,-'    \ 
-   (_\,-'    ,'\")--,'-'       __\ 
-    \       /  // ,'|      ,--'  `-. 
-     `-.    `-/ \'  |   _,'         `. 
-        `-._ /      `--'/             \ 
--hrr-      ,'           |              \ 
-          /             |               \ 
-       ,-'              |               / 
-      /                 |             -'
+ ___________________________________________
+/ “For how long will insult hurt a person?  \
+| For as long as he covets self-importance. |
+| For as long as one covets temporary [non  |
+| eternal] things.”                         |
+|                                           |
+\  -- Dada Bhagwan                          /
+ -------------------------------------------
+   \
+    \
+      _____   _________
+     /     \_/         |
+    |                 ||
+    |                 ||
+   |    ###\  /###   | |
+   |     o  \/  o    | |
+  /|                 | |
+ / |        <        |\ \
+| /|                 | | |
+| |     \_______/   |  | |
+| |                 | / /
+/||                 /|||
+   ----------------|
+        | |    | |
+        ***    ***
+       /___\  /___\
 ```
 <!-- END_QUOTE -->
 
