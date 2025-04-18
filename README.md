@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“典𪰛棟𨷶掑扦</p>
-      <p class="nom">𦼔𠆳󰢿額𦹵𨖲𠃅茹”</p>
-      <p class="quocngu">Đến thì đóng cửa cài then,</p>
-      <p class="quocngu">Rêu trùm kẽ ngạch, cỏ lên mái nhà.</p>
-      <p class="author"><i>(Dòng 3229-3230) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“藁𦹳吝𢷣𠓀畑</p>
+      <p class="nom">風情古錄群傳史撑”</p>
+      <p class="quocngu">Cảo thơm lần giở trước đèn,</p>
+      <p class="quocngu">Phong tình cổ lục còn truyền sử xanh.</p>
+      <p class="author"><i>(Dòng 7-8) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “For how long will insult hurt a person?  \
-| For as long as he covets self-importance. |
-| For as long as one covets temporary [non  |
-| eternal] things.”                         |
-|                                           |
-\  -- Dada Bhagwan                          /
- -------------------------------------------
-   \
-    \
-      _____   _________
-     /     \_/         |
-    |                 ||
-    |                 ||
-   |    ###\  /###   | |
-   |     o  \/  o    | |
-  /|                 | |
- / |        <        |\ \
-| /|                 | | |
-| |     \_______/   |  | |
-| |                 | / /
-/||                 /|||
-   ----------------|
-        | |    | |
-        ***    ***
-       /___\  /___\
+ ____________________________________________
+/ “American culture has regressed because of \
+| contemporary society’s glorification of    |
+| making a good living and spending free     |
+| time in media activities rather than       |
+| constantly devoting themselves to a        |
+| learning and self-improvement. The         |
+| combination of grooming youngsters to fit  |
+| into a commercial workplace and Americans  |
+| willingness to submit themselves to        |
+| endless hours of watching television shows |
+| filled with murders, violence, sex, and    |
+| replete with advertisements that promote   |
+| the goods of commercial giants has eroded  |
+| the American spirit and contributed to     |
+| lack of an intellectually sophisticated    |
+| populous.”                                 |
+|                                            |
+\  -- Kilroy J. Oldster                      /
+ --------------------------------------------
+\
+ \
+    ______
+   / ___M ]__
+C{ ( o o )}
+    {     ••
+      \___
+      ----´
 ```
 <!-- END_QUOTE -->
 
