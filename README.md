@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“藁𦹳吝𢷣𠓀畑</p>
-      <p class="nom">風情古錄群傳史撑”</p>
-      <p class="quocngu">Cảo thơm lần giở trước đèn,</p>
-      <p class="quocngu">Phong tình cổ lục còn truyền sử xanh.</p>
-      <p class="author"><i>(Dòng 7-8) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𥪝濠外壘散荒</p>
+      <p class="nom">亂軍𣃣𢴑𢬣娘典尼”</p>
+      <p class="quocngu">Trong hào, ngoài luỹ tan hoang,</p>
+      <p class="quocngu">Loạn quân vừa dắt tay nàng đến nơi.</p>
+      <p class="author"><i>(Dòng 2525-2526) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “American culture has regressed because of \
-| contemporary society’s glorification of    |
-| making a good living and spending free     |
-| time in media activities rather than       |
-| constantly devoting themselves to a        |
-| learning and self-improvement. The         |
-| combination of grooming youngsters to fit  |
-| into a commercial workplace and Americans  |
-| willingness to submit themselves to        |
-| endless hours of watching television shows |
-| filled with murders, violence, sex, and    |
-| replete with advertisements that promote   |
-| the goods of commercial giants has eroded  |
-| the American spirit and contributed to     |
-| lack of an intellectually sophisticated    |
-| populous.”                                 |
-|                                            |
-\  -- Kilroy J. Oldster                      /
- --------------------------------------------
-\
- \
-    ______
-   / ___M ]__
-C{ ( o o )}
-    {     ••
-      \___
-      ----´
+ ___________________________________________
+/ “To laugh often and much; to win the      \
+| respect of intelligent people and the     |
+| affection of children; to earn the        |
+| appreciation of honest critics and endure |
+| the betrayal of false friends; to         |
+| appreciate beauty, to find the best in    |
+| others; to leave the world a little       |
+| better; whether be a healthy child, a     |
+| garden patch or a redeemed social         |
+| condition; to know even one life has      |
+| breathed easier because you have lived.   |
+| This is the meaning of success.”          |
+|                                           |
+\  -- Ralph Waldo Emerson                   /
+ -------------------------------------------
+   \
+    \
+ ROFL:ROFL:ROFL:ROFL
+         _^___
+ L    __/   oo \    
+LOL===__        \ 
+ L      \________]
+         I   I    
+        --------/
 ```
 <!-- END_QUOTE -->
 
