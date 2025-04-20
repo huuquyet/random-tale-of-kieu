@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥪝濠外壘散荒</p>
-      <p class="nom">亂軍𣃣𢴑𢬣娘典尼”</p>
-      <p class="quocngu">Trong hào, ngoài luỹ tan hoang,</p>
-      <p class="quocngu">Loạn quân vừa dắt tay nàng đến nơi.</p>
-      <p class="author"><i>(Dòng 2525-2526) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“翹浪仍等才花</p>
+      <p class="nom">托羅體魄群羅精英”</p>
+      <p class="quocngu">Kiều rằng: "Những đấng tài hoa,</p>
+      <p class="quocngu">Thác là thể phách, còn là tinh anh.</p>
+      <p class="author"><i>(Dòng 115-116) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “To laugh often and much; to win the      \
-| respect of intelligent people and the     |
-| affection of children; to earn the        |
-| appreciation of honest critics and endure |
-| the betrayal of false friends; to         |
-| appreciate beauty, to find the best in    |
-| others; to leave the world a little       |
-| better; whether be a healthy child, a     |
-| garden patch or a redeemed social         |
-| condition; to know even one life has      |
-| breathed easier because you have lived.   |
-| This is the meaning of success.”          |
-|                                           |
-\  -- Ralph Waldo Emerson                   /
- -------------------------------------------
-   \
+ _____________________________________________
+/ “Rights mean you have a right to your life. \
+| You have a right to your liberty, and you   |
+| should have a right to keep the fruits of   |
+| your labor....I, in a way, don’t like to    |
+| use those terms: gay rights, women’s        |
+| rights, minority rights, religious rights.  |
+| There’s only one type of right. It’s the    |
+| right to your liberty.”                     |
+|                                             |
+\  -- Ron Paul                                /
+ ---------------------------------------------
     \
- ROFL:ROFL:ROFL:ROFL
-         _^___
- L    __/   oo \    
-LOL===__        \ 
- L      \________]
-         I   I    
-        --------/
+     \
+            ,:/+/-
+            /M/              .,-=;//;-
+       .:/= ;MH/,    ,=/+%$XH@MM#@:
+      -$##@+$###@H@MMM#######H:.    -/H#
+ .,H@H@ X######@ -H#####@+-     -+H###@X
+  .,@##H;      +XM##M/,     =%@###@X;-
+X%-  :M##########$.    .:%M###@%:
+M##H,   +H@@@$/-.  ,;$M###@%,          -
+M####M=,,---,.-%%H####M$:          ,+@##
+@##################@/.         :%H##@$-
+M###############H,         ;HM##M$=
+\#################.    .=$M##M$=
+\#################H..;XM##M$=          .:+
+M###################@%=           =+@MH%
+@################M/.          =+H#X%=
+=+M##############M,       -/X#X+;.
+  .;XM##########H=    ,/X#H+:,
+     .=+HM######M+/+HM@+=.
+         ,:/%XM####H/.
+              ,.:=-.
 ```
 <!-- END_QUOTE -->
 
