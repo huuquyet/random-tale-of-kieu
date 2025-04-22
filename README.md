@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“排𦢳固妸馬嬌</p>
-      <p class="nom">悴娘𠚢買打料𠹾端”</p>
-      <p class="quocngu">Bày vai có ả Mã Kiều,</p>
-      <p class="quocngu">Xót nàng ra mới đánh liều chịu đoan.</p>
-      <p class="author"><i>(Dòng 1151-1152) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“沛從𦝄𩙍𫨩牢</p>
+      <p class="nom">捛𠳒別併世󰅹羅𫨩”</p>
+      <p class="quocngu">Phải tuồng trăng gió hay sao?</p>
+      <p class="quocngu">Lỡ lời biết tính thế nào là hay?</p>
+      <p class="author"><i>(Dòng 2593-2594) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,44 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Celia, wait,” Marco says, standing but not \
-| moving closer to her. “You are breaking my  |
-| heart. You told me once that I reminded     |
-| you of your father. That you never wanted   |
-| to suffer the way your mother did for him,  |
-| but you are doing exactly that to me. You   |
-| keep leaving me. You leave me longing for   |
-| you again and again when I would give       |
-| anything for you to stay, and it is         |
-| killing me.” “It has to kill one of us,”    |
-| Celia says quietly.”                        |
-|                                             |
-\  -- Erin Morgenstern                        /
- ---------------------------------------------
-     \
-      \ 
-  /\          /\                               
- ( \\        // )                              
-  \ \\      // /                               
-   \_\\||||//_/                                
-     / _  _ \/                                 
-                                               
-     |(o)(o)|\/                                
-     |      | \/                               
-     \      /  \/_____________________         
-      |____|     \\                  \\        
-     /      \     ||                  \\       
-     \ 0  0 /     |/                  |\\      
-      \____/ \    V           (       / \\     
-       / \    \     )          \     /   \\    
-      / | \    \_|  |___________\   /     "" 
-                  ||  |     \   /\  \          
-                  ||  /      \  \ \  \         
-                  || |        | |  | |         
-                  || |        | |  | |         
-                  ||_|        |_|  |_|         
-                 //_/        /_/  /_/          
+ ________________________________________
+/ “Most people, faced with two difficult \
+| choices, prefer not to choose at all.” |
+|                                        |
+\  -- Kenneth Eade                       /
+ ----------------------------------------
+        \    ,-^-.
+         \   !oYo!
+          \ /./=\.\______
+               ##        )\/\
+                ||-----w||
+                ||      ||
+
+               Cowth Vader
 ```
 <!-- END_QUOTE -->
 
