@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“沛從𦝄𩙍𫨩牢</p>
-      <p class="nom">捛𠳒別併世󰅹羅𫨩”</p>
-      <p class="quocngu">Phải tuồng trăng gió hay sao?</p>
-      <p class="quocngu">Lỡ lời biết tính thế nào là hay?</p>
-      <p class="author"><i>(Dòng 2593-2594) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋𨉟𤎜𥋴󰞵娥</p>
+      <p class="nom">遁塘𧵆貝𡑩賒排排”</p>
+      <p class="quocngu">Một mình rạng ngắm bóng nga,</p>
+      <p class="quocngu">Rộn đường gần với nẻo xa bời bời.</p>
+      <p class="author"><i>(Dòng 177-178) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Most people, faced with two difficult \
-| choices, prefer not to choose at all.” |
-|                                        |
-\  -- Kenneth Eade                       /
- ----------------------------------------
-        \    ,-^-.
-         \   !oYo!
-          \ /./=\.\______
-               ##        )\/\
-                ||-----w||
-                ||      ||
-
-               Cowth Vader
+ ___________________________________________
+/ “Live as if today is the last day of your \
+| life. Love and be kind as if this is the  |
+| last chance to express it.”               |
+|                                           |
+\  -- Debasish Mridha                       /
+ -------------------------------------------
+    \
+     \
+      \
+  ___       _____     ___
+ /   \     /    /|   /   \
+|     |   /    / |  |     |
+|     |  /____/  |  |     |     
+|     |  |    |  |  |     |
+|     |  | {} | /   |     |
+|     |  |____|/    |     |
+|     |    |==|     |     |
+|      \___________/      |
+|                         |
+|                         |
 ```
 <!-- END_QUOTE -->
 
