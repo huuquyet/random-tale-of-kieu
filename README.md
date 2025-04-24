@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋𨉟𤎜𥋴󰞵娥</p>
-      <p class="nom">遁塘𧵆貝𡑩賒排排”</p>
-      <p class="quocngu">Một mình rạng ngắm bóng nga,</p>
-      <p class="quocngu">Rộn đường gần với nẻo xa bời bời.</p>
-      <p class="author"><i>(Dòng 177-178) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨄹尋泣𢄂吏圭</p>
+      <p class="nom">假名侯下𠰺藝咹𨔈”</p>
+      <p class="quocngu">Dạo tìm khắp chợ lại quê,</p>
+      <p class="quocngu">Giả danh hầu hạ, dạy nghề ăn chơi.</p>
+      <p class="author"><i>(Dòng 815-816) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Live as if today is the last day of your \
-| life. Love and be kind as if this is the  |
-| last chance to express it.”               |
-|                                           |
-\  -- Debasish Mridha                       /
- -------------------------------------------
-    \
-     \
-      \
-  ___       _____     ___
- /   \     /    /|   /   \
-|     |   /    / |  |     |
-|     |  /____/  |  |     |     
-|     |  |    |  |  |     |
-|     |  | {} | /   |     |
-|     |  |____|/    |     |
-|     |    |==|     |     |
-|      \___________/      |
-|                         |
-|                         |
+ ___________________________________
+/ “Fear of Death Stops You to Live” \
+|                                   |
+\  -- Tushar Saxena                 /
+ -----------------------------------
+ \
+  \
+     .--.              .--.
+    : (\ ". _......_ ." /) :
+     '.    `        `    .'
+      /'   _        _   `\
+     /     o}      {o     \
+    |       /      \       |
+    |     /'        `\     |
+     \   | .  .==.  . |   /
+      '._ \.' \__/ './ _.'
+      /  ``'._-''-_.'``  \
 ```
 <!-- END_QUOTE -->
 
