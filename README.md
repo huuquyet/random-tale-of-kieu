@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨄹尋泣𢄂吏圭</p>
-      <p class="nom">假名侯下𠰺藝咹𨔈”</p>
-      <p class="quocngu">Dạo tìm khắp chợ lại quê,</p>
-      <p class="quocngu">Giả danh hầu hạ, dạy nghề ăn chơi.</p>
-      <p class="author"><i>(Dòng 815-816) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𧡊饒𢜠𢙲𤾓皮</p>
+      <p class="nom">󰢸船買逴娘𧗱草廬”</p>
+      <p class="quocngu">Thấy nhau mừng rỡ trăm bề,</p>
+      <p class="quocngu">Dọn thuyền mới rước nàng về thảo lư.</p>
+      <p class="author"><i>(Dòng 2731-2732) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________
-/ “Fear of Death Stops You to Live” \
-|                                   |
-\  -- Tushar Saxena                 /
- -----------------------------------
- \
-  \
-     .--.              .--.
-    : (\ ". _......_ ." /) :
-     '.    `        `    .'
-      /'   _        _   `\
-     /     o}      {o     \
-    |       /      \       |
-    |     /'        `\     |
-     \   | .  .==.  . |   /
-      '._ \.' \__/ './ _.'
-      /  ``'._-''-_.'``  \
+ ____________________________________________
+/ “It was like watching a movie being played \
+| on the blank screen of his mind; the only  |
+| difference was that he did not get bored,  |
+| no matter how many times he watched it.”   |
+|                                            |
+\  -- Faraaz Kazi                            /
+ --------------------------------------------
+     \
+      \
+
+         .-;\':\':\'-.
+        {\'.\'.\'.\'.\'.}
+         )        \'`.
+        \'-. ._ ,_.-=\'
+          `). ( `);(
+          (\'. .)(,\'.)
+           ) ( ,\').(
+          ( .\').\'(\').
+          .) (\' ).(\'
+           '  ) (  ).
+            .\'( .)\'
+              .).\'
+jgs
+
 ```
 <!-- END_QUOTE -->
 
