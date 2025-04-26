@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𧡊饒𢜠𢙲𤾓皮</p>
-      <p class="nom">󰢸船買逴娘𧗱草廬”</p>
-      <p class="quocngu">Thấy nhau mừng rỡ trăm bề,</p>
-      <p class="quocngu">Dọn thuyền mới rước nàng về thảo lư.</p>
-      <p class="author"><i>(Dòng 2731-2732) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“身牢𡗉浽不平</p>
+      <p class="nom">料如妸素宮𦝄擬󰅹”</p>
+      <p class="quocngu">Thân sao nhiều nỗi bất bằng?</p>
+      <p class="quocngu">Liều như Ả tố cung trăng nghĩ nào!</p>
+      <p class="author"><i>(Dòng 1635-1636) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It was like watching a movie being played \
-| on the blank screen of his mind; the only  |
-| difference was that he did not get bored,  |
-| no matter how many times he watched it.”   |
-|                                            |
-\  -- Faraaz Kazi                            /
- --------------------------------------------
-     \
-      \
-
-         .-;\':\':\'-.
-        {\'.\'.\'.\'.\'.}
-         )        \'`.
-        \'-. ._ ,_.-=\'
-          `). ( `);(
-          (\'. .)(,\'.)
-           ) ( ,\').(
-          ( .\').\'(\').
-          .) (\' ).(\'
-           '  ) (  ).
-            .\'( .)\'
-              .).\'
-jgs
-
+ ______________________________________________
+/ “I find the medicine worse than the malady.” \
+|                                              |
+\  -- Beaumont and Fletcher                    /
+ ----------------------------------------------
+  \
+   \          .
+       ___   //
+     {~o_o~}// 
+      ( Y )K/  
+     ()~*~()   
+     (_)-(_)   
+     Luke    
+     Skywalker
+     koala   
 ```
 <!-- END_QUOTE -->
 
