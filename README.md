@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“身牢𡗉浽不平</p>
-      <p class="nom">料如妸素宮𦝄擬󰅹”</p>
-      <p class="quocngu">Thân sao nhiều nỗi bất bằng?</p>
-      <p class="quocngu">Liều như Ả tố cung trăng nghĩ nào!</p>
-      <p class="author"><i>(Dòng 1635-1636) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“沛𠳒翁拱淹𦖻</p>
+      <p class="nom">𥆾饒湥𥐆湥𨱽滚昂”</p>
+      <p class="quocngu">Phải lời ông cũng êm tai,</p>
+      <p class="quocngu">Nhìn nhau giọt ngắn giọt dài ngổn ngang.</p>
+      <p class="author"><i>(Dòng 683-684) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________________
-/ “I find the medicine worse than the malady.” \
-|                                              |
-\  -- Beaumont and Fletcher                    /
- ----------------------------------------------
-  \
-   \          .
-       ___   //
-     {~o_o~}// 
-      ( Y )K/  
-     ()~*~()   
-     (_)-(_)   
-     Luke    
-     Skywalker
-     koala   
+ ____________________________________________
+/ “I was afraid of the internet... because I \
+| couldn't type.”                            |
+|                                            |
+\  -- Jack Welch                             /
+ --------------------------------------------
+   \
+    \              ....       
+           ........    .      
+          .            .      
+         .             .      
+.........              .......
+..............................
+
+Elephant inside ASCII snake
 ```
 <!-- END_QUOTE -->
 
