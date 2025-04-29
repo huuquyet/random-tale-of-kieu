@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“茌茌捻坦邊塘</p>
-      <p class="nom">油油𦰟𦹵姅鐄姅撑”</p>
-      <p class="quocngu">Sè sè nắm đất bên đàng,</p>
-      <p class="quocngu">Dàu dàu ngọn cỏ nửa vàng nửa xanh.</p>
-      <p class="author"><i>(Dòng 57-58) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“呂廊渃濁𣻃𤄯</p>
+      <p class="nom">𤾓𢆥底󰜋𬌓𢚸自低”</p>
+      <p class="quocngu">Lỡ làng nước đục bụi trong,</p>
+      <p class="quocngu">Trăm năm để một tấm lòng từ đây.</p>
+      <p class="author"><i>(Dòng 879-880) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Life is a whim of several billion cells to \
-| be you for a while”                         |
-|                                             |
-\  -- Groucho Marx                            /
- ---------------------------------------------
-                          \
-                           \         __.----.___
-           ||            ||  (\(__)/)-'||      ;--` ||
-          _||____________||___`(oo)'___||______;____||_
-          -||------------||----)  (----||-----------||-
-          _||____________||___(o  o)___||______;____||_
-          -||------------||----`--'----||-----------||-
-           ||            ||        `|| ||| || ||     ||jgs
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ________________________________
+/ “First love is Best Love!! <3” \
+|                                |
+\  -- Mahender Katkuri           /
+ --------------------------------
+       \
+        \
+         \  _))
+           > o\     _~
+           `;'\\__-' \_
+              | )  _ \ \
+             / / ``   w w
+            w w
 ```
 <!-- END_QUOTE -->
 
