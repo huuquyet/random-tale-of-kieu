@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“呂廊渃濁𣻃𤄯</p>
-      <p class="nom">𤾓𢆥底󰜋𬌓𢚸自低”</p>
-      <p class="quocngu">Lỡ làng nước đục bụi trong,</p>
-      <p class="quocngu">Trăm năm để một tấm lòng từ đây.</p>
-      <p class="author"><i>(Dòng 879-880) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰅹𫨩渚歇塵緣</p>
+      <p class="nom">𥪝迷𬂙𧡊淡仙𤑟𤉜”</p>
+      <p class="quocngu">Nào hay chưa hết trần duyên,</p>
+      <p class="quocngu">Trong mê trông thấy Đạm Tiên rõ ràng.</p>
+      <p class="author"><i>(Dòng 993-994) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________
-/ “First love is Best Love!! <3” \
-|                                |
-\  -- Mahender Katkuri           /
- --------------------------------
-       \
-        \
-         \  _))
-           > o\     _~
-           `;'\\__-' \_
-              | )  _ \ \
-             / / ``   w w
-            w w
+ _____________________________________________
+/ “To a Christian, the dastardly liberals are \
+| not so much villains as victims. It's not   |
+| their fault they're possessed by demons.    |
+| But if I felt a slight diminishing of       |
+| hostility, I also saw any hope of mutual    |
+| accommodation go up in a blast of           |
+| sulfurous smoke...these days, much of what  |
+| liberals really anguish about behind        |
+| closed doors is how to find common ground   |
+| with people of faith. And now I realized    |
+| that for at least some people, common       |
+| ground will never be possible because they  |
+| don't object to specific ideas that can be  |
+| reframed or adjusted. They object to        |
+| Satan, whose bidding we are doing. They     |
+| may not hate us - they may believe they     |
+| love us - but they hate him, and they       |
+| won't negotiate with him either. We want    |
+| to persuade them, reason with them, listen  |
+| to them, and accommodate them. They want    |
+| to save us. It's not even the same playing  |
+| field.”                                     |
+|                                             |
+\  -- Daniel Radosh                           /
+ ---------------------------------------------
+  \
+   \
+      ,.,,､,..,､､.,､,､､.,_          ／i
+    ;'`;、､:、..:、:,:,.::｀'::ﾞ":,'´ --i
+    '､;:..: ,:.､.:',.:.::_.;..;:.‐'ﾞ
+
 ```
 <!-- END_QUOTE -->
 
