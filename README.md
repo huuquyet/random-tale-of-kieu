@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰅹𫨩渚歇塵緣</p>
-      <p class="nom">𥪝迷𬂙𧡊淡仙𤑟𤉜”</p>
-      <p class="quocngu">Nào hay chưa hết trần duyên,</p>
-      <p class="quocngu">Trong mê trông thấy Đạm Tiên rõ ràng.</p>
-      <p class="author"><i>(Dòng 993-994) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨕭爲渃󰡎爲茹</p>
+      <p class="nom">󰜋羅得孝𠄩羅得忠”</p>
+      <p class="quocngu">Trên vì nước, dưới vì nhà,</p>
+      <p class="quocngu">Một là đắc hiếu, hai là đắc trung.</p>
+      <p class="author"><i>(Dòng 2483-2484) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “To a Christian, the dastardly liberals are \
-| not so much villains as victims. It's not   |
-| their fault they're possessed by demons.    |
-| But if I felt a slight diminishing of       |
-| hostility, I also saw any hope of mutual    |
-| accommodation go up in a blast of           |
-| sulfurous smoke...these days, much of what  |
-| liberals really anguish about behind        |
-| closed doors is how to find common ground   |
-| with people of faith. And now I realized    |
-| that for at least some people, common       |
-| ground will never be possible because they  |
-| don't object to specific ideas that can be  |
-| reframed or adjusted. They object to        |
-| Satan, whose bidding we are doing. They     |
-| may not hate us - they may believe they     |
-| love us - but they hate him, and they       |
-| won't negotiate with him either. We want    |
-| to persuade them, reason with them, listen  |
-| to them, and accommodate them. They want    |
-| to save us. It's not even the same playing  |
-| field.”                                     |
-|                                             |
-\  -- Daniel Radosh                           /
- ---------------------------------------------
-  \
-   \
-      ,.,,､,..,､､.,､,､､.,_          ／i
-    ;'`;、､:、..:、:,:,.::｀'::ﾞ":,'´ --i
-    '､;:..: ,:.､.:',.:.::_.;..;:.‐'ﾞ
-
+ ____________________________________________
+/ “The truth is that killing innocent people \
+| is always wrong - and no argument or       |
+| excuse, no matter how deeply believed, can |
+| ever make it right. No religion on earth   |
+| condones the killing of innocent people;   |
+| no faith tradition tolerates the random    |
+| killing of our brothers and sisters on     |
+| this earth.”                               |
+|                                            |
+\  -- Feisal Abdul Rauf                      /
+ --------------------------------------------
+     \
+      \
+     _              __
+    / `\  (~._    ./  )
+    \__/ __`-_\__/ ./
+   _ \ \/  \   \ |_   __
+ (   )  \__/ -^    \ /  \
+  \_/ "  \  | o  o  |.. /  __
+       \. --' ====  /  || /  \
+         \   .  .  |---__.\__/
+         /  :     /   |   |
+         /   :   /     \_/
+      --/ ::    (
+     (  |     (  (____
+   .--  .. ----**.____)
+   \___/
 ```
 <!-- END_QUOTE -->
 
