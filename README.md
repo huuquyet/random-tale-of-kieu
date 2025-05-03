@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“旬𦝄缺𥒦油耗</p>
-      <p class="nom">󰘚𢠩想󰘚𢚸嗷喭𢚸”</p>
-      <p class="quocngu">Tuần trăng khuyết, đĩa dầu hao,</p>
-      <p class="quocngu">Mặt mơ tưởng mặt, lòng ngao ngán lòng.</p>
-      <p class="author"><i>(Dòng 251-252) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠦳尋洳䏾松筠</p>
+      <p class="nom">雪霜𩂏𨔾朱身葛藤”</p>
+      <p class="quocngu">Nghìn tầm nhờ bóng tùng quân,</p>
+      <p class="quocngu">Tuyết sương che chở cho thân cát đằng."</p>
+      <p class="author"><i>(Dòng 901-902) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,48 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “But it was women like Rudabeh who planted \
-| in my mind the idea of a different kind of |
-| woman whose courage is private and         |
-| personal. Without making any grand claims, |
-| without aiming to save humanity or defeat  |
-| the forces of Satan, these women were      |
-| engaged in a quiet rebellion, courageous   |
-| not because it would get them accolades,   |
-| but because they could not be otherwise.   |
-| If they were limited and vulnerable, it    |
-| was an audacious vulnerability,            |
-| transcending the misogyny of their creator |
-| and his times.”                            |
-|                                            |
-\  -- Azar Nafisi                            /
- --------------------------------------------
-  \
-   \
-        ____________
-       /\  ________ \
-      /  \ \______/\ \
-     / /\ \ \  / /\ \ \
-    / / /\ \ \/ / /\ \ \
-   / / /__\ \ \/_/__\_\ \__________
-  / /_/____\ \__________  ________ \
-  \ \ \____/ / ________/\ \______/\ \
-   \ \ \  / / /\ \  / /\ \ \  / /\ \ \
-    \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
-     \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
-      \  /_/______\/_/____\ \___________\
-      /  \ \______/\ \____/ / ________  /
-     / /\ \ \  / /\ \ \  / / /\ \  / / /
-    / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
-   / / /__\ \ \/_/__\_\/ / /__\_\/ / /
-  / /_/____\ \_________\/ /______\/ /
-  \ \ \____/ / ________  __________/
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+ ___________________________________________
+/ “Compliments and flattery oftenest excite \
+| my contempt by the pretension they imply  |
+| for who is he that assumes to flatter me? |
+| To compliment often implies an assumption |
+| of superiority in the complimenter. It is |
+| in fact a subtle detraction.”             |
+|                                           |
+\  -- Henry David Thoreau                   /
+ -------------------------------------------
+         \
+          \
+           ___
+          (o o)
+         (  V  )
+        /--m-m-
 ```
 <!-- END_QUOTE -->
 
