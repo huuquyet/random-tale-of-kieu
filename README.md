@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠦳尋洳䏾松筠</p>
-      <p class="nom">雪霜𩂏𨔾朱身葛藤”</p>
-      <p class="quocngu">Nghìn tầm nhờ bóng tùng quân,</p>
-      <p class="quocngu">Tuyết sương che chở cho thân cát đằng."</p>
-      <p class="author"><i>(Dòng 901-902) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“刼尼緣㐌負緣</p>
+      <p class="nom">夜臺群別仕填來生”</p>
+      <p class="quocngu">Kiếp này duyên đã phụ duyên,</p>
+      <p class="quocngu">Dạ đài còn biết sẽ đền lai sinh.</p>
+      <p class="author"><i>(Dòng 2787-2788) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,21 +26,34 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Compliments and flattery oftenest excite \
-| my contempt by the pretension they imply  |
-| for who is he that assumes to flatter me? |
-| To compliment often implies an assumption |
-| of superiority in the complimenter. It is |
-| in fact a subtle detraction.”             |
+/ “I understand the sacrifices American     \
+| servicemen and women have made to protect |
+| freedom and democracy in my country and   |
+| around the world.”                        |
 |                                           |
-\  -- Henry David Thoreau                   /
+\  -- Psy                                   /
  -------------------------------------------
-         \
-          \
-           ___
-          (o o)
-         (  V  )
-        /--m-m-
+   \
+    \
+
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
