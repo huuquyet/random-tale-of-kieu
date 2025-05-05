@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“刼尼緣㐌負緣</p>
-      <p class="nom">夜臺群別仕填來生”</p>
-      <p class="quocngu">Kiếp này duyên đã phụ duyên,</p>
-      <p class="quocngu">Dạ đài còn biết sẽ đền lai sinh.</p>
-      <p class="author"><i>(Dòng 2787-2788) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤄯牢珠㳶溋涓</p>
+      <p class="nom">廕牢曷玉籃田買冬”</p>
+      <p class="quocngu">Trong sao châu nhỏ duềnh quyên!</p>
+      <p class="quocngu">Ấm sao hạt ngọc Lam Điền mới đông!</p>
+      <p class="author"><i>(Dòng 3203-3204) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I understand the sacrifices American     \
-| servicemen and women have made to protect |
-| freedom and democracy in my country and   |
-| around the world.”                        |
-|                                           |
-\  -- Psy                                   /
- -------------------------------------------
-   \
-    \
-
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+ ____________________________________________
+/ “Nobody is bored when he is trying to make \
+| something that is beautiful, or to         |
+| discover something that is true.”          |
+|                                            |
+\  -- William Inge                           /
+ --------------------------------------------
+     \
+      \
+                   [\
+              .----' `-----.
+             //^^^^;;^^^^^^`\
+     _______//_____||_____()_\________
+    /826    :      : ___              `\
+   |>   ____;      ;  |/\><|   ____   _<)
+  {____/    \_________________/    \____}
+       \ '' /                 \ '' /
+ jgs    '--'                   '--'
 ```
 <!-- END_QUOTE -->
 
