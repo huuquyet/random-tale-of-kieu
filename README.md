@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤄯牢珠㳶溋涓</p>
-      <p class="nom">廕牢曷玉籃田買冬”</p>
-      <p class="quocngu">Trong sao châu nhỏ duềnh quyên!</p>
-      <p class="quocngu">Ấm sao hạt ngọc Lam Điền mới đông!</p>
-      <p class="author"><i>(Dòng 3203-3204) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“藝制拱𡗋功夫</p>
+      <p class="nom">廊制些沛別朱𨇜調”</p>
+      <p class="quocngu">"Nghề chơi cũng lắm công phu,</p>
+      <p class="quocngu">Làng chơi ta phải biết cho đủ điều."</p>
+      <p class="author"><i>(Dòng 1201-1202) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,23 +26,38 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Nobody is bored when he is trying to make \
-| something that is beautiful, or to         |
-| discover something that is true.”          |
+/ “Laughter comes from living." I shrug, try \
+| to sound indifferent. "I've never really   |
+| been alive before.”                        |
 |                                            |
-\  -- William Inge                           /
+\  -- Tahereh Mafi                           /
  --------------------------------------------
+    \
      \
       \
-                   [\
-              .----' `-----.
-             //^^^^;;^^^^^^`\
-     _______//_____||_____()_\________
-    /826    :      : ___              `\
-   |>   ____;      ;  |/\><|   ____   _<)
-  {____/    \_________________/    \____}
-       \ '' /                 \ '' /
- jgs    '--'                   '--'
+                    ___
+                _.-'   ```'--.._    
+              .'                `-._ 
+             /                      `.     
+            /                         `.  
+           /                            `.  
+          :       (                       \   
+          |    (   \_                  )   `.  
+          |     \__/ '.               /  )  ;  
+          |   (___:    \            _/__/   ;  
+          :       | _  ;          .'   |__) :  
+           :      |` \ |         /     /   /  
+            \     |_  ;|        /`\   /   / 
+             \    ; ) :|       ;_  ; /   /  
+              \_  .-''-.       | ) :/   /  
+             .-         `      .--.'   /  
+            :         _.----._     `  < 
+            :       -'........'-       `.
+             `.        `''''`           ;
+               `'-.__                  ,'
+                     ``--.   :'-------'
+                         :   :
+                        .'   '.
 ```
 <!-- END_QUOTE -->
 
