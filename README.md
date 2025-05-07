@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“藝制拱𡗋功夫</p>
-      <p class="nom">廊制些沛別朱𨇜調”</p>
-      <p class="quocngu">"Nghề chơi cũng lắm công phu,</p>
-      <p class="quocngu">Làng chơi ta phải biết cho đủ điều."</p>
-      <p class="author"><i>(Dòng 1201-1202) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪𨷈𢚁威靈</p>
+      <p class="nom">唉嗔報答恩情朱孚”</p>
+      <p class="quocngu">Nàng rằng: "Muôn cậy uy linh,</p>
+      <p class="quocngu">Hãy xin báo đáp ân tình cho phu.</p>
+      <p class="author"><i>(Dòng 2321-2322) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Laughter comes from living." I shrug, try \
-| to sound indifferent. "I've never really   |
-| been alive before.”                        |
-|                                            |
-\  -- Tahereh Mafi                           /
- --------------------------------------------
-    \
-     \
-      \
-                    ___
-                _.-'   ```'--.._    
-              .'                `-._ 
-             /                      `.     
-            /                         `.  
-           /                            `.  
-          :       (                       \   
-          |    (   \_                  )   `.  
-          |     \__/ '.               /  )  ;  
-          |   (___:    \            _/__/   ;  
-          :       | _  ;          .'   |__) :  
-           :      |` \ |         /     /   /  
-            \     |_  ;|        /`\   /   / 
-             \    ; ) :|       ;_  ; /   /  
-              \_  .-''-.       | ) :/   /  
-             .-         `      .--.'   /  
-            :         _.----._     `  < 
-            :       -'........'-       `.
-             `.        `''''`           ;
-               `'-.__                  ,'
-                     ``--.   :'-------'
-                         :   :
-                        .'   '.
+ _____________________________________________
+/ “Faith is born and sustained by the Word of \
+| God, and out of faith grows the flower of   |
+| joy.”                                       |
+|                                             |
+\  -- John Piper                              /
+ ---------------------------------------------
+   \      {
+    \  }   }   {
+      {   {  }  }
+       }   }{  {
+      {  }{  }  }
+     ( }{ }{  { )
+    .-{   }   }-.
+   ( ( } { } { } )
+   |`-.._____..-'|
+   |             ;--.
+   |   (__)     (__  \
+   |   (oo)      | )  )
+   |    \/       |/  /
+   |             /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
 ```
 <!-- END_QUOTE -->
 
