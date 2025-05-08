@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘浪𨷈𢚁威靈</p>
-      <p class="nom">唉嗔報答恩情朱孚”</p>
-      <p class="quocngu">Nàng rằng: "Muôn cậy uy linh,</p>
-      <p class="quocngu">Hãy xin báo đáp ân tình cho phu.</p>
-      <p class="author"><i>(Dòng 2321-2322) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“機𡗶橷𣷭多端</p>
+      <p class="nom">󰜋茹底姉𥢆寃󰜋命”</p>
+      <p class="quocngu">Cơ trời dâu bể đa đoan,</p>
+      <p class="quocngu">Một nhà để chị riêng oan một mình.</p>
+      <p class="author"><i>(Dòng 715-716) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,45 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Faith is born and sustained by the Word of \
-| God, and out of faith grows the flower of   |
-| joy.”                                       |
-|                                             |
-\  -- John Piper                              /
- ---------------------------------------------
-   \      {
-    \  }   }   {
-      {   {  }  }
-       }   }{  {
-      {  }{  }  }
-     ( }{ }{  { )
-    .-{   }   }-.
-   ( ( } { } { } )
-   |`-.._____..-'|
-   |             ;--.
-   |   (__)     (__  \
-   |   (oo)      | )  )
-   |    \/       |/  /
-   |             /  /
-   |            (  /
-   \             y'
-    `-.._____..-'
+ ___________________________________________
+/ “Utopias bore me. I'm interested in       \
+| constructing messy, complicated societies |
+| that are full of flaws and then saying,   |
+| ooh, this is interesting, let's see what  |
+| happens if I poke it here. And            |
+| concurrently with this and the previous   |
+| point, I'm interested in making up        |
+| cultures that are different”              |
+|                                           |
+\  -- Marie Brennan                         /
+ -------------------------------------------
+       \
+        \          .88888888:.
+         \        88888888.88888.
+               .8888888888888888.
+               888888888888888888
+               88' _`88'_  `88888
+               88 88 88 88  88888
+               88_88_::_88_:88888
+               88:::,::,:::::8888
+               88`:::::::::'`8888
+              .88  `::::'    8:88.
+             8888            `8:888.
+           .8888'             `888888.
+          .8888:..  .::.  ...:'8888888:.
+         .8888.'     :'     `'::`88:88888
+        .8888        '         `.888:8888.
+       888:8         .           888:88888
+     .888:88        .:           888:88888:   
+     8888888.       ::           88:888888
+     `.::.888.      ::          .88888888
+    .::::::.888.    ::         :::`8888'.:.
+   ::::::::::.888   '         .::::::::::::
+   ::::::::::::.8    '      .:8::::::::::::.
+  .::::::::::::::.        .:888:::::::::::::
+  :::::::::::::::88:.__..:88888:::::::::::'
+   `'.:::::::::::88888888888.88:::::::::'
+         `':::_:' -- '' -'-' `':_::::'`
 ```
 <!-- END_QUOTE -->
 
