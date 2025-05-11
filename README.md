@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浪碎捽過蹎𠚢</p>
-      <p class="nom">底朱典餒㵢花戞䕯”</p>
-      <p class="quocngu">Rằng: "Tôi trót quá chân ra,</p>
-      <p class="quocngu">Để cho đến nỗi trôi hoa dạt bèo.</p>
-      <p class="author"><i>(Dòng 2811-2812) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪牢𥪝節清明</p>
+      <p class="nom">麻低香𤌋永醒世麻”</p>
+      <p class="quocngu">Rằng: "Sao trong tiết Thanh minh,</p>
+      <p class="quocngu">Mà đây hương khói vắng tanh thế mà?"</p>
+      <p class="author"><i>(Dòng 59-60) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,51 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Ginny Cupper took me in her car out to the \
-| spread fields of Indiana. Parking near the  |
-| edge of woods and walking out into the      |
-| sunny rows of corn, waving seeds to a       |
-| yellow horizon. She wore a white blouse     |
-| and a gray patch of sweat under her arms    |
-| and the shadow of her nipples was gray. We  |
-| were rich. So rich we could never die.      |
-| Ginny laughed and laughed, white saliva on  |
-| her teeth lighting up the deep red of her   |
-| mouth, fed the finest food in the world.    |
-| Ginny was afraid of nothing. She was young  |
-| and old. Her brown arms and legs swinging   |
-| in wild optimism, beautiful in all their    |
-| parts. She danced on the long hood of her   |
-| crimson Cadillac, and watching her, I       |
-| thought that God must be female. She        |
-| leaped into my arms and knocked me to the   |
-| ground and screamed into my mouth.”         |
-|                                             |
-\  -- J.P. Donleavy                           /
- ---------------------------------------------
+ ____________________________________________
+/ “As we search for a less extractive and    \
+| polluting economic order, so that we may   |
+| fit agriculture into the economy of a      |
+| sustainable culture, community becomes the |
+| locus and metaphor for both agriculture    |
+| and culture.”                              |
+|                                            |
+\  -- Wes Jackson                            /
+ --------------------------------------------
+   \
     \
-     \
-           .-;+$XHHHHHHX$+;-.
-        ,;X@@X%/;=----=:/%X@@X/,
-      =$@@%=.              .=+H@X:
-    -XMX:                      =XMX=
-   /@@:                          =H@+
-  %@X,                            .$@$
- +@X.                               $@%
--@@,                                .@@=
-%@%                                  +@$
-H@:                                  :@H
-H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
-%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
-=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
- +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
-  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
-   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
-    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
-      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
-        ,;$@@@@@@@@@@@@@@@@@@X/-
-           .-;+$XXHHHHHX$+;-.
+                      ,:二二二二:. .,
+                   ／.／＿＿＿_  ＼.:＼
+                  /. /／.: .: .:＼  : .:＼
+                 /.: .: .:/｜:/\ .:＼}.: .:.
+                .: |.:/一/ |:/ 一.:}: .: .:｜
+                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
+                |.: ｜= ＝    ＝＝= \/}: .:|
+                |:: ﾘ''           '' /:/､.:|
+               ノ:|:人    一一 ､    /:/ ﾉ.:|
+                , ┴＜＼  {     ｝ ,{:/イ::八
+               /_..   ＼` ー┬一r＜:八八／
+               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
+              /___ |  >､    ｀''＼   ｜
+             /ﾆ}::\/／  ＼       ｜  ｜
+          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
+           /__   V    ｝|  》=《      |
+           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
+             ￣        ｢   ゞ= '      }
+                      ﾉ               〉 
 ```
 <!-- END_QUOTE -->
 
