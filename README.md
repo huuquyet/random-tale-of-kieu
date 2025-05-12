@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浪牢𥪝節清明</p>
-      <p class="nom">麻低香𤌋永醒世麻”</p>
-      <p class="quocngu">Rằng: "Sao trong tiết Thanh minh,</p>
-      <p class="quocngu">Mà đây hương khói vắng tanh thế mà?"</p>
-      <p class="author"><i>(Dòng 59-60) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“役娘報復𣃣耒</p>
+      <p class="nom">覺緣倍㐌𠳚𠳒辭歸”</p>
+      <p class="quocngu">Việc nàng báo phục vừa rồi,</p>
+      <p class="quocngu">Giác Duyên vội đã gởi lời từ quy.</p>
+      <p class="author"><i>(Dòng 2397-2398) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “As we search for a less extractive and    \
-| polluting economic order, so that we may   |
-| fit agriculture into the economy of a      |
-| sustainable culture, community becomes the |
-| locus and metaphor for both agriculture    |
-| and culture.”                              |
-|                                            |
-\  -- Wes Jackson                            /
- --------------------------------------------
-   \
-    \
-                      ,:二二二二:. .,
-                   ／.／＿＿＿_  ＼.:＼
-                  /. /／.: .: .:＼  : .:＼
-                 /.: .: .:/｜:/\ .:＼}.: .:.
-                .: |.:/一/ |:/ 一.:}: .: .:｜
-                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
-                |.: ｜= ＝    ＝＝= \/}: .:|
-                |:: ﾘ''           '' /:/､.:|
-               ノ:|:人    一一 ､    /:/ ﾉ.:|
-                , ┴＜＼  {     ｝ ,{:/イ::八
-               /_..   ＼` ー┬一r＜:八八／
-               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
-              /___ |  >､    ｀''＼   ｜
-             /ﾆ}::\/／  ＼       ｜  ｜
-          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
-           /__   V    ｝|  》=《      |
-           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
-             ￣        ｢   ゞ= '      }
-                      ﾉ               〉 
+ _____________________________________________
+/ “A double sided sword is crafted under heat \
+| and pressure and comes out ever more        |
+| beautiful because of it.”                   |
+|                                             |
+\  -- James Jean-Pierre                       /
+ ---------------------------------------------
+        \               ___
+         \           .-'   `'.
+                    /         \
+                    |         ;
+                    |         |           ___.--,
+           _.._     |0) ~ (0) |    _.---'`__.-( (_.
+    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+        | |  .' _.-' |  |  \  \  '.               `~---`
+         \ \/ .'     \  \   '. '-._)
+          \/ /        \  \    `=.__`~-.
+     jgs  / /\         `) )    / / `"".`\
+    , _.-'.'\ \        / /    ( (     / /
+     `--~`   ) )    .-'.'      '.'.  | (
+            (/`    ( (`          ) )  '-;
+             `      '-;         (-'
 ```
 <!-- END_QUOTE -->
 
