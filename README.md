@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋墙雪迍霜𩂏</p>
-      <p class="nom">信春兜易𠫾衛朱能”</p>
-      <p class="quocngu">Một tường tuyết đón sương che,</p>
-      <p class="quocngu">Tin xuân đâu dễ đi về cho năng.</p>
-      <p class="author"><i>(Dòng 367-368) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤴬疸台分彈󰜏</p>
+      <p class="nom">𠳒浪薄命拱羅𠳒終”</p>
+      <p class="quocngu">Đau đớn thay phận đàn bà,</p>
+      <p class="quocngu">Lời rằng bạc mệnh cũng là lời chung.</p>
+      <p class="author"><i>(Dòng 83-84) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,77 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “I don’t just want you to come. I want you \
-| to come undone”                            |
+/ “On the Ning Nang NongWhere the Cows go    \
+| Bong!And the Monkeys all say Boo!Theres a  |
+| Nang Nong NingWhere the trees go Ping!And  |
+| the tea pots Jibber Jabber JooOn the Nong  |
+| Ning NangAll the Mice go Clang!And you     |
+| just cant catch em when they do!So its     |
+| Ning Nang Nong!Cows go Bong!Nong Nang      |
+| Ning!Trees go Ping!Nong Ning Nang!The mice |
+| go Clang!What a noisy place to belong,Is   |
+| the Ning Nang Ning Nang Nong!”             |
 |                                            |
-\  -- Kelly Moran                            /
+\  -- Spike Milligan                         /
  --------------------------------------------
-    \
      \
       \
-                                                                                 -/- 
-                                                                              -/ --/    
-                                                                            /- -  /     
-                                                                         //      /      
-                                                                        /       /       
-                                                                      //       /        
-                                                                    //        /         
-                                                                  //          /         
-                                                                ///           /         
-                                                               //            /          
-                                                              //            /           
-                                                             //          . ./           
-                                                             //       .    /            
-                                                             //    .      /             
-                                                             //  .       /              
-                                                            // .         /              
-                                                          (=>            /              
-                                                         (==>            /              
-                                                          (=>            /              
-             -_                                           //.           /               
-             \\-_                                        //   .         /               
-              \ \_-_                                     //     .       /               
-               \_ \_--_                                 //        . . . /               
-                 \_ \_ -_                              //              /                
-                   \_ \_ (O)-___                      //               /                
-                     \ _\   __  --__                  /                /                
-                     _/    \  ----__--____          //                 /                
-                   _/  _/   \       -------       //                  /                 
-                 _/ __/ \\   \\                  /                   /                  
-               _/ _/      \\   \\              //                   /                   
-              -__/          \\   \\\          //                   /                    
-                              \\    \\\\\\\\\//   -                /                    
-                                \\         _/         -            /                    
-                                  \\                      -        \                    
-                                    \\\                       -     \                   
-                                        \\                       -   \                  
-                                          \\\                         \--__             
-                                           | \\                            \__________  
-                                            |  \\\\                ___      _________-\\
-                                            |    \\\\\                \--__/____        
-                                            |        \\\\________---\-    ______-----   
-                                             |                   /    \--  \_______     
-                                             |                   /       \-_________\   
-                                             \                   /                  \\  
-                                             \                 ./                       
-                                             \            .     /                       
-                                              \        .       /                        
-                                              \    .           //                       
-                                              \                /                        
-                                              |__              /                        
-                                              \==              /                        
-                                               \\              \                        
-                                                \\  .          \                        
-                                                  \\    .  .   \                        
-                                                   \           .\                       
-                                                   \\            \                      
-                                                     \           \                      
-                                                      \\          \                     
-                                                        \\         \                    
-                                                          \         \--                 
-                                                           \\          \                
-                                                             \\         \\\\            
-                                                               \\\\_________\\\         
+               ,
+             __)\_  
+       (\_.-'    a`-.
+  jgs  (/~~````(/~^^` 
+
 ```
 <!-- END_QUOTE -->
 
