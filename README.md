@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤴬疸台分彈󰜏</p>
-      <p class="nom">𠳒浪薄命拱羅𠳒終”</p>
-      <p class="quocngu">Đau đớn thay phận đàn bà,</p>
-      <p class="quocngu">Lời rằng bạc mệnh cũng là lời chung.</p>
-      <p class="author"><i>(Dòng 83-84) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“翁妑𬂙󰘚󰈫𢬣</p>
+      <p class="nom">容光拯恪之𣈜𨀈𠚢”</p>
+      <p class="quocngu">Ông bà trông mặt bắt tay,</p>
+      <p class="quocngu">Dung quang chẳng khác chi ngày bước ra.</p>
+      <p class="author"><i>(Dòng 3023-3024) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “On the Ning Nang NongWhere the Cows go    \
-| Bong!And the Monkeys all say Boo!Theres a  |
-| Nang Nong NingWhere the trees go Ping!And  |
-| the tea pots Jibber Jabber JooOn the Nong  |
-| Ning NangAll the Mice go Clang!And you     |
-| just cant catch em when they do!So its     |
-| Ning Nang Nong!Cows go Bong!Nong Nang      |
-| Ning!Trees go Ping!Nong Ning Nang!The mice |
-| go Clang!What a noisy place to belong,Is   |
-| the Ning Nang Ning Nang Nong!”             |
-|                                            |
-\  -- Spike Milligan                         /
- --------------------------------------------
+ ___________________________________________
+/ “The hardworking men and women of this    \
+| country identify with my father. He is    |
+| tough, and he is persevering. He is       |
+| honest, and he is real. He's an optimist, |
+| and he's a relentless believer in America |
+| and all of her potential. He loves his    |
+| family, and he loves his country with his |
+| heart and his soul.”                      |
+|                                           |
+\  -- Ivanka Trump                          /
+ -------------------------------------------
+   \
+    \
      \
-      \
-               ,
-             __)\_  
-       (\_.-'    a`-.
-  jgs  (/~~````(/~^^` 
+                '-.
+      .---._     \ \.--'
+    /       `-..__)  ,-'
+   |    0           /
+    \--.__,   .__.,`
+     `-.___'._\_.'
 
 ```
 <!-- END_QUOTE -->
