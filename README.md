@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“翁妑𬂙󰘚󰈫𢬣</p>
-      <p class="nom">容光拯恪之𣈜𨀈𠚢”</p>
-      <p class="quocngu">Ông bà trông mặt bắt tay,</p>
-      <p class="quocngu">Dung quang chẳng khác chi ngày bước ra.</p>
-      <p class="author"><i>(Dòng 3023-3024) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“曾曾𡗶買平明</p>
+      <p class="nom">香花五供懺生禮常”</p>
+      <p class="quocngu">Tâng tâng trời mới bình minh,</p>
+      <p class="quocngu">Hương hoa ngũ cúng, sắm sanh lễ thường.</p>
+      <p class="author"><i>(Dòng 1917-1918) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,31 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “The hardworking men and women of this    \
-| country identify with my father. He is    |
-| tough, and he is persevering. He is       |
-| honest, and he is real. He's an optimist, |
-| and he's a relentless believer in America |
-| and all of her potential. He loves his    |
-| family, and he loves his country with his |
-| heart and his soul.”                      |
+/ “It's wrong for libraries to have limited \
+| budgets.”                                 |
 |                                           |
-\  -- Ivanka Trump                          /
+\  -- Jo Walton                             /
  -------------------------------------------
    \
     \
-     \
-                '-.
-      .---._     \ \.--'
-    /       `-..__)  ,-'
-   |    0           /
-    \--.__,   .__.,`
-     `-.___'._\_.'
-
+ 
+              ,.:￣￣￣￣:.､
+            ／ .: .: .: .: .:＼
+          ／   __ l  __    .: .ヽ
+        ／:  ./ＶＶＶ＼:ﾄ､`.: .:.
+   (＼  ￣/.:ｲ.ｨ=ﾐ` ´ｨ=ﾐ､ヽ,: .:|
+   {ﾐと^ヘl.:ﾉ{ぅｿ,  ぅｿ}|:|^ヽ:|
+    ヽ〃: ﾚ｛    __ -､ " |:| ﾉ::|
+      ＼: :ﾊ＼  {    }  ,ﾚイ:::八
+        ＼ :V.:>:ニニﾆ:＜ＶＶＶ
+          ＼ :v:〈|父 /:|:ﾊ┐
+            ヾ{:｢|/:|/ <:/:ﾉ＼
+              {:\|::/:／:{: :ヽ
+              {: : : :`: /> : :>
+             / : ﾟ : : ﾟ : Y: :/
+            /: : : : : : : |ヽ/
+           〈: :ﾟ: ﾊ : :ﾟ: ∟ｺ
+           /::---':::------く 
 ```
 <!-- END_QUOTE -->
 
