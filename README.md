@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“曾曾𡗶買平明</p>
-      <p class="nom">香花五供懺生禮常”</p>
-      <p class="quocngu">Tâng tâng trời mới bình minh,</p>
-      <p class="quocngu">Hương hoa ngũ cúng, sắm sanh lễ thường.</p>
-      <p class="author"><i>(Dòng 1917-1918) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“崔崔崔拱朝𢚸</p>
+      <p class="nom">拱朱朱儗𥪝𨦩𨀈𠚢”</p>
+      <p class="quocngu">Thôi thôi thôi cũng chiều lòng,</p>
+      <p class="quocngu">Cũng cho cho nghỉ trong vòng bước ra.</p>
+      <p class="author"><i>(Dòng 1911-1912) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “It's wrong for libraries to have limited \
-| budgets.”                                 |
-|                                           |
-\  -- Jo Walton                             /
- -------------------------------------------
-   \
-    \
- 
-              ,.:￣￣￣￣:.､
-            ／ .: .: .: .: .:＼
-          ／   __ l  __    .: .ヽ
-        ／:  ./ＶＶＶ＼:ﾄ､`.: .:.
-   (＼  ￣/.:ｲ.ｨ=ﾐ` ´ｨ=ﾐ､ヽ,: .:|
-   {ﾐと^ヘl.:ﾉ{ぅｿ,  ぅｿ}|:|^ヽ:|
-    ヽ〃: ﾚ｛    __ -､ " |:| ﾉ::|
-      ＼: :ﾊ＼  {    }  ,ﾚイ:::八
-        ＼ :V.:>:ニニﾆ:＜ＶＶＶ
-          ＼ :v:〈|父 /:|:ﾊ┐
-            ヾ{:｢|/:|/ <:/:ﾉ＼
-              {:\|::/:／:{: :ヽ
-              {: : : :`: /> : :>
-             / : ﾟ : : ﾟ : Y: :/
-            /: : : : : : : |ヽ/
-           〈: :ﾟ: ﾊ : :ﾟ: ∟ｺ
-           /::---':::------く 
+ _____________________________________________
+/ “The soul yearns for the infinite. Infinite \
+| is… create.”                                |
+|                                             |
+\  -- Manuela Nicolini                        /
+ ---------------------------------------------
+     \
+      \ 
+  /\          /\                               
+ ( \\        // )                              
+  \ \\      // /                               
+   \_\\||||//_/                                
+     / _  _ \/                                 
+                                               
+     |(o)(o)|\/                                
+     |      | \/                               
+     \      /  \/_____________________         
+      |____|     \\                  \\        
+     /      \     ||                  \\       
+     \ 0  0 /     |/                  |\\      
+      \____/ \    V           (       / \\     
+       / \    \     )          \     /   \\    
+      / | \    \_|  |___________\   /     "" 
+                  ||  |     \   /\  \          
+                  ||  /      \  \ \  \         
+                  || |        | |  | |         
+                  || |        | |  | |         
+                  ||_|        |_|  |_|         
+                 //_/        /_/  /_/          
 ```
 <!-- END_QUOTE -->
 
