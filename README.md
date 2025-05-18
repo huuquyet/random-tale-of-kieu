@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“崔崔崔拱朝𢚸</p>
-      <p class="nom">拱朱朱儗𥪝𨦩𨀈𠚢”</p>
-      <p class="quocngu">Thôi thôi thôi cũng chiều lòng,</p>
-      <p class="quocngu">Cũng cho cho nghỉ trong vòng bước ra.</p>
-      <p class="author"><i>(Dòng 1911-1912) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“擉𡗶恠渃默油</p>
+      <p class="nom">育昂󰅹別𨕭頭固埃”</p>
+      <p class="quocngu">Chọc trời quấy nước mặc dầu,</p>
+      <p class="quocngu">Dọc ngang nào biết trên đầu có ai?</p>
+      <p class="author"><i>(Dòng 2471-2472) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,34 +26,35 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “The soul yearns for the infinite. Infinite \
-| is… create.”                                |
+/ “Bill Gates is a very rich man today... and \
+| do you want to know why? The answer is one  |
+| word: versions.”                            |
 |                                             |
-\  -- Manuela Nicolini                        /
+\  -- Dave Barry                              /
  ---------------------------------------------
-     \
-      \ 
-  /\          /\                               
- ( \\        // )                              
-  \ \\      // /                               
-   \_\\||||//_/                                
-     / _  _ \/                                 
-                                               
-     |(o)(o)|\/                                
-     |      | \/                               
-     \      /  \/_____________________         
-      |____|     \\                  \\        
-     /      \     ||                  \\       
-     \ 0  0 /     |/                  |\\      
-      \____/ \    V           (       / \\     
-       / \    \     )          \     /   \\    
-      / | \    \_|  |___________\   /     "" 
-                  ||  |     \   /\  \          
-                  ||  /      \  \ \  \         
-                  || |        | |  | |         
-                  || |        | |  | |         
-                  ||_|        |_|  |_|         
-                 //_/        /_/  /_/          
+\
+ \
+   1A   2A                                         3A  4A  5A  6A  7A  8A
+  -----                                                               -----
+1 | H |                                                               |He |
+  |---+----                                       --------------------+---|
+2 |Li |Be |                                       | B | C | N | O | F |Ne |
+  |---+---|                                       |---+---+---+---+---+---|
+3 |Na |Mg |3B  4B  5B  6B  7B |    8B     |1B  2B |Al |Si | P | S |Cl |Ar |
+  |---+---+---------------------------------------+---+---+---+---+---+---|
+4 | K |Ca |Sc |Ti | V |Cr |Mn |Fe |Co |Ni |Cu |Zn |Ga |Ge |As |Se |Br |Kr |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+5 |Rb |Sr | Y |Zr |Nb |Mo |Tc |Ru |Rh |Pd |Ag |Cd |In |Sn |Sb |Te | I |Xe |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+6 |Cs |Ba |Lu |Hf |Ta | W |Re |Os |Ir |Pt |Au |Hg |Tl |Pb |Bi |Po |At |Rn |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+7 |Fr |Ra |Lr |Rf |Db |Sg |Bh |Hs |Mt |Ds |Rg |Cn |Nh |Fl |Mc |Lv |Ts |Og |
+  -------------------------------------------------------------------------
+              -------------------------------------------------------------
+   Lanthanide |La |Ce |Pr |Nd |Pm |Sm |Eu |Gd |Tb |Dy |Ho |Er |Tm |Yb |Lu |
+              |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+   Actinide   |Ac |Th |Pa | U |Np |Pu |Am |Cm |Bk |Cf |Es |Fm |Md |No |Lr |
+              -------------------------------------------------------------
 ```
 <!-- END_QUOTE -->
 
