@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“風霜特𨤔天然</p>
-      <p class="nom">𥉬𠸦󰞺筆強𥆾強鮮”</p>
-      <p class="quocngu">Phong sương được vẻ thiên nhiên,</p>
-      <p class="quocngu">Liếc khen nét bút càng nhìn càng tươi.</p>
-      <p class="author"><i>(Dòng 399-400) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“襖撑𢷮𥙩袈裟</p>
+      <p class="nom">法名吏𢷮𠸜𠚢濯泉”</p>
+      <p class="quocngu">Áo xanh đổi lấy cà sa,</p>
+      <p class="quocngu">Pháp danh lại đổi tên ra Trạc Tuyền.</p>
+      <p class="author"><i>(Dòng 1921-1922) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,45 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I would respect feminist who said "Single \
-| moms, are you kidding me? Stop taking      |
-| government benefits because, the           |
-| government is the patriarchy. So, you are  |
-| taking things from the patriarchy so you   |
-| dont have to be responsible. Any woman who |
-| takes money from the government using cops |
-| who usually extract it from men by force   |
-| is not a feminist. Is a exceedingly bad    |
-| bride of the state." I would admire that   |
-| but, of course feminism doesn't have       |
-| anything to do with any of that            |
-| stuff.Look, it's fine. Have your fun. Make |
-| fun of men. Go for it. Yea, we're all      |
-| idiots, we're all selfish, greedy          |
-| bastards. Ok, it's fine because the        |
-| government is going to run out of money    |
-| soon and then all these woman are going to |
-| try to find some guy to latch onto when    |
-| the benefits stop flowing and I mean, you  |
-| saw this happening with the soviet union.  |
-| "Now we need you! You guys are great! We   |
-| missed you so much! Give me some           |
-| money!"It's just a bunch of noise from a   |
-| bunch of people who are stealing from the  |
-| productive.”                               |
-|                                            |
-\  -- Stefan Molyneux                        /
- --------------------------------------------
-         \
-          \
-               ,.-----__
-            ,:::://///,:::-.
-           /:''/////// ``:::`;/|/
-          /'   ||||||     :://'`\
-        .' ,   ||||||     `/(  e \
-  -===~__-'\__X_`````\_____/~`-._ `.
-              ~~        ~~       `~-'
+ _____________________________________________
+/ “There is neither a Heaven nor a Hell. Life \
+| after Death is an oxymoron. Life is just    |
+| another word for existence, and Death is    |
+| just another word for non-existence.”       |
+|                                             |
+\  -- Oliver Markus Malloy                    /
+ ---------------------------------------------
+           \
+            \
+                           _.. .:-―-:. .._
+                      .: .: .: .: .: .: .: .: .: 
+                   ／ .: .: .: .: .: .: .: .: .: .＼
+                 ,'         ,!    ∧           : .: ヽ
+                /, .:: :｜./ |.:./ヽ.:iﾍ.: .: .: .: ::.
+               ,''|.:: .人/--|':/  ヽ:| ､＿.: : .: .::|
+                  |.:: ｲ  ,,=､ﾚ        ゞ=ﾐ､.:|..: .: :|
+                  |.:: ｜{{    }}     {{    }}八.: .: :|
+                 /.: : /  ゛= "        ゛= "    ;.:r ､:|
+                /,.ｲ.:〈                     ,, //' ｝:|
+               '  ヽ:: ゝ、        ｰ--┐       //  ノ::.
+                    ヾ::.､＞ .    ヽ _ﾉ    ..  ＜¨ｨ.:}~＼
+                      `゜ヾ/｀>了、.    v 〔:／|:/  レ'
+                        _ . -/: ,K:::>､/: :ﾄ._
+                       |: :く_.:|/:〈 /: :}: /~ヽ
+              r「「「ｈ,>:|: <: |'::ｿ::<¨.:n｢「「!､
+              ゝ＿_ﾉ /: : |::ヽ |::/: ／: :.ﾍ＿_ノ｝
+               | ￣ |,': :/: : ヽ:' ／ : :.:| ￣ |:}
 ```
 <!-- END_QUOTE -->
 
