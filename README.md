@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“襖撑𢷮𥙩袈裟</p>
-      <p class="nom">法名吏𢷮𠸜𠚢濯泉”</p>
-      <p class="quocngu">Áo xanh đổi lấy cà sa,</p>
-      <p class="quocngu">Pháp danh lại đổi tên ra Trạc Tuyền.</p>
-      <p class="author"><i>(Dòng 1921-1922) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浘漨𥪝閉饒年</p>
+      <p class="nom">爫𢧚動地驚天同同”</p>
+      <p class="quocngu">Vẫy vùng trong bấy nhiêu niên,</p>
+      <p class="quocngu">Làm nên động địa kinh thiên đùng đùng.</p>
+      <p class="author"><i>(Dòng 2923-2924) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “There is neither a Heaven nor a Hell. Life \
-| after Death is an oxymoron. Life is just    |
-| another word for existence, and Death is    |
-| just another word for non-existence.”       |
-|                                             |
-\  -- Oliver Markus Malloy                    /
- ---------------------------------------------
-           \
-            \
-                           _.. .:-―-:. .._
-                      .: .: .: .: .: .: .: .: .: 
-                   ／ .: .: .: .: .: .: .: .: .: .＼
-                 ,'         ,!    ∧           : .: ヽ
-                /, .:: :｜./ |.:./ヽ.:iﾍ.: .: .: .: ::.
-               ,''|.:: .人/--|':/  ヽ:| ､＿.: : .: .::|
-                  |.:: ｲ  ,,=､ﾚ        ゞ=ﾐ､.:|..: .: :|
-                  |.:: ｜{{    }}     {{    }}八.: .: :|
-                 /.: : /  ゛= "        ゛= "    ;.:r ､:|
-                /,.ｲ.:〈                     ,, //' ｝:|
-               '  ヽ:: ゝ、        ｰ--┐       //  ノ::.
-                    ヾ::.､＞ .    ヽ _ﾉ    ..  ＜¨ｨ.:}~＼
-                      `゜ヾ/｀>了、.    v 〔:／|:/  レ'
-                        _ . -/: ,K:::>､/: :ﾄ._
-                       |: :く_.:|/:〈 /: :}: /~ヽ
-              r「「「ｈ,>:|: <: |'::ｿ::<¨.:n｢「「!､
-              ゝ＿_ﾉ /: : |::ヽ |::/: ／: :.ﾍ＿_ノ｝
-               | ￣ |,': :/: : ヽ:' ／ : :.:| ￣ |:}
+ ____________________________________________
+/ “The true marriage movie involving in-laws \
+| and children is a story about how marriage |
+| is directly affected by external           |
+| characters who impact the central          |
+| relationship in various ways.”             |
+|                                            |
+\  -- Jeanine Basinger                       /
+ --------------------------------------------
+   \
+    \
+       ____________
+      /\  ________ \
+     / /\ \______/\ \
+    / / /\ \  / /\ \ \
+   / / /__\ \/ / /\ \ \
+  / /_/____\ \/_/__\_\ \
+  \ \ \____/ / ________ \
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
