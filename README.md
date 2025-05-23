@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浘漨𥪝閉饒年</p>
-      <p class="nom">爫𢧚動地驚天同同”</p>
-      <p class="quocngu">Vẫy vùng trong bấy nhiêu niên,</p>
-      <p class="quocngu">Làm nên động địa kinh thiên đùng đùng.</p>
-      <p class="author"><i>(Dòng 2923-2924) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“因欺盤薄𧵆賒</p>
+      <p class="nom">乘機娘買盤𠚢呐𠓨”</p>
+      <p class="quocngu">Nhân khi bàn bạc gần xa,</p>
+      <p class="quocngu">Thừa cơ, nàng mới bàn ra nói vào.</p>
+      <p class="author"><i>(Dòng 2487-2488) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,28 +26,29 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “The true marriage movie involving in-laws \
-| and children is a story about how marriage |
-| is directly affected by external           |
-| characters who impact the central          |
-| relationship in various ways.”             |
+/ “Many people who try to do big bold things \
+| in the world find out it's not about the   |
+| money or the technology: It's about the    |
+| regulatory hurdles that will try and stop  |
+| you.”                                      |
 |                                            |
-\  -- Jeanine Basinger                       /
+\  -- Peter Diamandis                        /
  --------------------------------------------
-   \
-    \
-       ____________
-      /\  ________ \
-     / /\ \______/\ \
-    / / /\ \  / /\ \ \
-   / / /__\ \/ / /\ \ \
-  / /_/____\ \/_/__\_\ \
-  \ \ \____/ / ________ \
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+      \                            |     |
+       \                        ,--|     |-.
+                         __,----|  |     | |
+                       ,;::     |  `_____' |
+                       `._______|    i^i   |
+                                `----| |---'| .
+                           ,-------._| |== ||//
+                           |       |_|P`.  /'/
+                           `-------' 'Y Y/'/'
+                                     .==\ /_\
+   ^__^                             /   /'|  `i
+   (oo)\_______                   /'   /  |   |
+   (__)\       )\/\             /'    /   |   `i
+       ||----w |           ___,;`----'.___L_,-'`\__
+       ||     ||          i_____;----\.____i""\____\
 ```
 <!-- END_QUOTE -->
 
