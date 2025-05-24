@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“因欺盤薄𧵆賒</p>
-      <p class="nom">乘機娘買盤𠚢呐𠓨”</p>
-      <p class="quocngu">Nhân khi bàn bạc gần xa,</p>
-      <p class="quocngu">Thừa cơ, nàng mới bàn ra nói vào.</p>
-      <p class="author"><i>(Dòng 2487-2488) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“有情些吏別些</p>
+      <p class="nom">𫽄尼幽顯買羅姉㛪”</p>
+      <p class="quocngu">Hữu tình ta lại biết ta,</p>
+      <p class="quocngu">Chẳng nề u hiển mới là chị em."</p>
+      <p class="author"><i>(Dòng 127-128) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,29 +26,19 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Many people who try to do big bold things \
-| in the world find out it's not about the   |
-| money or the technology: It's about the    |
-| regulatory hurdles that will try and stop  |
-| you.”                                      |
+/ “To be scorned in the public because of    \
+| your race is to let you know the degree of |
+| darkness in that particular society”       |
 |                                            |
-\  -- Peter Diamandis                        /
+\  -- Sunday Adelaja                         /
  --------------------------------------------
-      \                            |     |
-       \                        ,--|     |-.
-                         __,----|  |     | |
-                       ,;::     |  `_____' |
-                       `._______|    i^i   |
-                                `----| |---'| .
-                           ,-------._| |== ||//
-                           |       |_|P`.  /'/
-                           `-------' 'Y Y/'/'
-                                     .==\ /_\
-   ^__^                             /   /'|  `i
-   (oo)\_______                   /'   /  |   |
-   (__)\       )\/\             /'    /   |   `i
-       ||----w |           ___,;`----'.___L_,-'`\__
-       ||     ||          i_____;----\.____i""\____\
+  \
+   \
+      /\_)o<
+     |      \
+     | o . o|
+      \_____/
+           
 ```
 <!-- END_QUOTE -->
 
