@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“有情些吏別些</p>
-      <p class="nom">𫽄尼幽顯買羅姉㛪”</p>
-      <p class="quocngu">Hữu tình ta lại biết ta,</p>
-      <p class="quocngu">Chẳng nề u hiển mới là chị em."</p>
-      <p class="author"><i>(Dòng 127-128) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“事尼㐌外𨑮年</p>
+      <p class="nom">碎它別󰘚別𠸜伶伶”</p>
+      <p class="quocngu">"Sự này đã ngoại mười niên,</p>
+      <p class="quocngu">Tôi đà biết mặt biết tên rành rành.</p>
+      <p class="author"><i>(Dòng 2887-2888) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “To be scorned in the public because of    \
-| your race is to let you know the degree of |
-| darkness in that particular society”       |
-|                                            |
-\  -- Sunday Adelaja                         /
- --------------------------------------------
-  \
-   \
-      /\_)o<
-     |      \
-     | o . o|
-      \_____/
-           
+ ___________________________________________
+/ “If fate doesn't make you laugh, you just \
+| don't get the joke.”                      |
+|                                           |
+\  -- Gregory David Roberts                 /
+ -------------------------------------------
+     \
+      \
+              =+$HM####@H%;,
+           /H###############M$,
+           ,@################+
+            .H##############+
+              X############/
+               $##########/
+                %########/
+                 /X/;;+X/
+ 
+                  -XHHX-
+                 ,######,
+ \#############X  .M####M.  X#############
+ \##############-   -//-   -##############
+ X##############%,      ,+##############X
+ -##############X        X##############-
+  %############%          %############%
+   %##########;            ;##########%
+    ;#######M=              =M#######;
+     .+M###@,                ,@###M+.
+        :XH.                  .HX:
+
 ```
 <!-- END_QUOTE -->
 
