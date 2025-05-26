@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“事尼㐌外𨑮年</p>
-      <p class="nom">碎它別󰘚別𠸜伶伶”</p>
-      <p class="quocngu">"Sự này đã ngoại mười niên,</p>
-      <p class="quocngu">Tôi đà biết mặt biết tên rành rành.</p>
-      <p class="author"><i>(Dòng 2887-2888) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“群緣埋吏群𠊛</p>
+      <p class="nom">群暈𦝄𡳵群𠳒願𠸗”</p>
+      <p class="quocngu">Còn duyên may lại còn người,</p>
+      <p class="quocngu">Còn vầng trăng cũ, còn lời nguyền xưa.</p>
+      <p class="author"><i>(Dòng 3073-3074) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “If fate doesn't make you laugh, you just \
-| don't get the joke.”                      |
-|                                           |
-\  -- Gregory David Roberts                 /
- -------------------------------------------
-     \
-      \
-              =+$HM####@H%;,
-           /H###############M$,
-           ,@################+
-            .H##############+
-              X############/
-               $##########/
-                %########/
-                 /X/;;+X/
- 
-                  -XHHX-
-                 ,######,
- \#############X  .M####M.  X#############
- \##############-   -//-   -##############
- X##############%,      ,+##############X
- -##############X        X##############-
-  %############%          %############%
-   %##########;            ;##########%
-    ;#######M=              =M#######;
-     .+M###@,                ,@###M+.
-        :XH.                  .HX:
-
+ _________________________________________
+/ “Nature fits all her children with      \
+| something to do, he who would write and |
+| can't write, can surely review.”        |
+|                                         |
+\  -- James Russell Lowell                /
+ -----------------------------------------
+        \               ___
+         \           .-'   `'.
+                    /         \
+                    |         ;
+                    |         |           ___.--,
+           _.._     |0) ~ (0) |    _.---'`__.-( (_.
+    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+        | |  .' _.-' |  |  \  \  '.               `~---`
+         \ \/ .'     \  \   '. '-._)
+          \/ /        \  \    `=.__`~-.
+     jgs  / /\         `) )    / / `"".`\
+    , _.-'.'\ \        / /    ( (     / /
+     `--~`   ) )    .-'.'      '.'.  | (
+            (/`    ( (`          ) )  '-;
+             `      '-;         (-'
 ```
 <!-- END_QUOTE -->
 
