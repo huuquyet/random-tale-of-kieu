@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“群緣埋吏群𠊛</p>
-      <p class="nom">群暈𦝄𡳵群𠳒願𠸗”</p>
-      <p class="quocngu">Còn duyên may lại còn người,</p>
-      <p class="quocngu">Còn vầng trăng cũ, còn lời nguyền xưa.</p>
-      <p class="author"><i>(Dòng 3073-3074) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠾔𢆥魚父𠄩𠊚</p>
+      <p class="nom">棟船直𤅶結𥾒扛滝”</p>
+      <p class="quocngu">Thuê năm ngư phủ hai người,</p>
+      <p class="quocngu">Đóng thuyền chực bến kết chài giăng sông.</p>
+      <p class="author"><i>(Dòng 2699-2700) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,15 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “Nature fits all her children with      \
-| something to do, he who would write and |
-| can't write, can surely review.”        |
-|                                         |
-\  -- James Russell Lowell                /
- -----------------------------------------
-        \               ___
-         \           .-'   `'.
-                    /         \
-                    |         ;
-                    |         |           ___.--,
-           _.._     |0) ~ (0) |    _.---'`__.-( (_.
-    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
-   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
-   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
-  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
-        | |  .' _.-' |  |  \  \  '.               `~---`
-         \ \/ .'     \  \   '. '-._)
-          \/ /        \  \    `=.__`~-.
-     jgs  / /\         `) )    / / `"".`\
-    , _.-'.'\ \        / /    ( (     / /
-     `--~`   ) )    .-'.'      '.'.  | (
-            (/`    ( (`          ) )  '-;
-             `      '-;         (-'
+ ____________________________________________
+/ “The trouble with having a fertile mind is \
+| that the weeds grow as prolific as the     |
+| pastures.”                                 |
+|                                            |
+\  -- P.K. Shaw                              /
+ --------------------------------------------
+\
+ \
 ```
 <!-- END_QUOTE -->
 
