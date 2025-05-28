@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠾔𢆥魚父𠄩𠊚</p>
-      <p class="nom">棟船直𤅶結𥾒扛滝”</p>
-      <p class="quocngu">Thuê năm ngư phủ hai người,</p>
-      <p class="quocngu">Đóng thuyền chực bến kết chài giăng sông.</p>
-      <p class="author"><i>(Dòng 2699-2700) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠶤崇打憚𠚢嘲</p>
+      <p class="nom">𥛉催娘買󰁹𢭂殷勤”</p>
+      <p class="quocngu">Sượng sùng đánh dạn ra chào,</p>
+      <p class="quocngu">Lạy thôi nàng mới rỉ trao ân cần.</p>
+      <p class="author"><i>(Dòng 1095-1096) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,15 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The trouble with having a fertile mind is \
-| that the weeds grow as prolific as the     |
-| pastures.”                                 |
-|                                            |
-\  -- P.K. Shaw                              /
- --------------------------------------------
-\
- \
+ _____________________________________________
+/ “He did not wholly understand the intricate \
+| play of ideas and the complex phrases, but  |
+| as he read he sensed a strong, who purpose  |
+| behind the words and he felt that he        |
+| almost understood.”                         |
+|                                             |
+\  -- Carson McCullers                        /
+ ---------------------------------------------
+     \
+      \  (__)  
+         (\/)  
+  /-------\/    
+ / | 666 ||    
+*  ||----||      
+   ~~    ~~      
 ```
 <!-- END_QUOTE -->
 
