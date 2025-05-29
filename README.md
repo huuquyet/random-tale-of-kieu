@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠶤崇打憚𠚢嘲</p>
-      <p class="nom">𥛉催娘買󰁹𢭂殷勤”</p>
-      <p class="quocngu">Sượng sùng đánh dạn ra chào,</p>
-      <p class="quocngu">Lạy thôi nàng mới rỉ trao ân cần.</p>
-      <p class="author"><i>(Dòng 1095-1096) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“臨淄𡮍分岧蓬</p>
+      <p class="nom">渃䕯抵𡦂相逢刼𡢐”</p>
+      <p class="quocngu">Lâm Truy chút phận đèo bòng,</p>
+      <p class="quocngu">Nước bèo để chữ "tương phùng" kiếp sau!</p>
+      <p class="author"><i>(Dòng 1785-1786) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “He did not wholly understand the intricate \
-| play of ideas and the complex phrases, but  |
-| as he read he sensed a strong, who purpose  |
-| behind the words and he felt that he        |
-| almost understood.”                         |
-|                                             |
-\  -- Carson McCullers                        /
- ---------------------------------------------
-     \
-      \  (__)  
-         (\/)  
-  /-------\/    
- / | 666 ||    
-*  ||----||      
-   ~~    ~~      
+ ____________________________________________
+/ “Anxiety has a purpose. Originally the     \
+| purpose was to protect the existence of    |
+| the caveman from wild beasts and savage    |
+| neighbors. Nowadays the ocassions for      |
+| anxiety are very different - we are afraid |
+| of losing out in the competition, feeling  |
+| unwanted, isolated, and ostracized. But    |
+| the purpose of anxiety is still to protect |
+| us from dangers that threaten the same     |
+| things: our existence or values that we    |
+| identify with our existence. This normal   |
+| anxiety of life cannot be avoided except   |
+| at the price of apathy or the numbing of   |
+| one's sensibilities and imagination.”      |
+|                                            |
+\  -- Rollo May                              /
+ --------------------------------------------
+        \    ,-^-.
+         \   !oYo!
+          \ /./=\.\______
+               ##        )\/\
+                ||-----w||
+                ||      ||
+
+               Cowth Vader
 ```
 <!-- END_QUOTE -->
 
