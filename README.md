@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“用𨀊𢷣於𢷣衛</p>
-      <p class="nom">樂鐄兜俸㗂𦖑𧵆𧵆”</p>
-      <p class="quocngu">Dùng dằng dở ở dở về,</p>
-      <p class="quocngu">Nhạc vàng đâu bỗng tiếng nghe gần gần.</p>
-      <p class="author"><i>(Dòng 133-134) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“共饒生死㐌料</p>
+      <p class="nom">﨤饒群𡭧閉饒羅情”</p>
+      <p class="quocngu">Cùng nhau sinh tử đã liều,</p>
+      <p class="quocngu">Gặp nhau còn chút bấy nhiêu là tình.</p>
+      <p class="author"><i>(Dòng 3169-3170) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The healthy man is the thin man. But you  \
-| don’t need to go hungry for it: Remove the |
-| flours, starches and sugars; that’s all.”  |
-|                                            |
-\  -- Samael Aun Weor                        /
- --------------------------------------------
-  \                         ________
-   \                    _.-Y  |  |  Y-.,_
-    \                .-"   |  |  |  ||   "~-.      
-          _____     |""[]"|" !""! "|"=="" "I      
-       .-"{-. "I----]_   :|------..| []  __L      
-      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
-      ^-=\[_c=-'  ~j______[________]_L______L]    
-                    [_L--.\_==I|I==/.--.j_I_/     
-                      j)==(["-----`])==((_]       
-                       I--I"~~"""~~"I--I          
-                       |[]|         |[]|          
-                       j__l         j__l          
-                       |!!|         |!!|          
-                       |..|         |..|         
-                       )[](         )[](          
-                       ]--[         ]--[          
-                       [L_]         [L_]          
-                      /|..|\       /|..|\         
-                     '={--}=`     '={--}=`        
-                    .-^-r--^-.   .-^-r--^-.       
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Modified ATAT from Row  (the Ascii-Wizard of Oz)
+ _____________________________________________
+/ “Success is not a summit to climb, It is an \
+| equilibrium where work and life are         |
+| balanced”                                   |
+|                                             |
+\  -- Kandarp Gandhi                          /
+ ---------------------------------------------
+     \
+      \
+                          .,---.
+                        ,/XM#MMMX;,
+                      -%##########M%,
+                     -@######%  $###@=
+      .,--,         -H#######$   $###M:
+   ,;$M###MMX;     .;##########$;HM###X=
+ ,/@##########H=      ;################+
+-+#############M/,      %##############+
+%M###############=      /##############:
+H################      .M#############;.
+@###############M      ,@###########M:.
+X################,      -$=X#######@:
+/@##################%-     +######$-
+.;##################X     .X#####+,
+ .;H################/     -X####+.
+   ,;X##############,       .MM/
+      ,:+$H@M#######M#$-    .$=
+           .,-=;+$@###X:    ;/=.
+                  .,/X$;   .::,
+                      .,    ..
 ```
 <!-- END_QUOTE -->
 
