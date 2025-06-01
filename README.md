@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“共饒生死㐌料</p>
-      <p class="nom">﨤饒群𡭧閉饒羅情”</p>
-      <p class="quocngu">Cùng nhau sinh tử đã liều,</p>
-      <p class="quocngu">Gặp nhau còn chút bấy nhiêu là tình.</p>
-      <p class="author"><i>(Dòng 3169-3170) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“呐強虎𢢆𤾓朝</p>
+      <p class="nom">𪰛朱𦰟渃水潮沚𣵶”</p>
+      <p class="quocngu">Nói càng hổ thẹn trăm chiều,</p>
+      <p class="quocngu">Thì cho ngọn nước thủy triều chảy xuôi!"</p>
+      <p class="author"><i>(Dòng 3081-3082) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Success is not a summit to climb, It is an \
-| equilibrium where work and life are         |
-| balanced”                                   |
-|                                             |
-\  -- Kandarp Gandhi                          /
- ---------------------------------------------
-     \
-      \
-                          .,---.
-                        ,/XM#MMMX;,
-                      -%##########M%,
-                     -@######%  $###@=
-      .,--,         -H#######$   $###M:
-   ,;$M###MMX;     .;##########$;HM###X=
- ,/@##########H=      ;################+
--+#############M/,      %##############+
-%M###############=      /##############:
-H################      .M#############;.
-@###############M      ,@###########M:.
-X################,      -$=X#######@:
-/@##################%-     +######$-
-.;##################X     .X#####+,
- .;H################/     -X####+.
-   ,;X##############,       .MM/
-      ,:+$H@M#######M#$-    .$=
-           .,-=;+$@###X:    ;/=.
-                  .,/X$;   .::,
-                      .,    ..
+ _________________________________________
+/ “The trouble was that he was talking in \
+| philosophy but they were listening in   |
+| gibberish.”                             |
+|                                         |
+\  -- Terry Pratchett                     /
+ -----------------------------------------
+          \
+           \
+            \          __---__
+                    _-       /--______
+               __--( /     \ )XXXXXXXXXXX\v.
+             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
+            /XXX(       U     )        XXXXXXX\
+          /XXXXX(              )--_  XXXXXXXXXXX\
+         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
+         XXXXX/   /            XXXXXX   \__ \XXXXX
+         XXXXXX__/          XXXXXX         \__---->
+ ---___  XXX__/          XXXXXX      \__         /
+   \-  --__/   ___/\  XXXXXX            /  ___--/=
+    \-\    ___/    XXXXXX              '--- XXXXXX
+       \-\/XXX\ XXXXXX                      /XXXXX
+         \XXXXXXXXX   \                    /XXXXX/
+          \XXXXXX      >                 _/XXXXX/
+            \XXXXX--__/              __-- XXXX/
+             -XXXXXXXX---------------  XXXXXX-
+                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
+                  ""VXXXXXXXXXXXXXXXXXXV""
 ```
 <!-- END_QUOTE -->
 
