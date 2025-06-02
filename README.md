@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“呐強虎𢢆𤾓朝</p>
-      <p class="nom">𪰛朱𦰟渃水潮沚𣵶”</p>
-      <p class="quocngu">Nói càng hổ thẹn trăm chiều,</p>
-      <p class="quocngu">Thì cho ngọn nước thủy triều chảy xuôi!"</p>
-      <p class="author"><i>(Dòng 3081-3082) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“拱料𥄮𬑉迻蹎</p>
+      <p class="nom">麻䀡昆造磋運典󰠳”</p>
+      <p class="quocngu">Cũng liều nhắm mắt đưa chân,</p>
+      <p class="quocngu">Mà xem con tạo xoay vần đến đâu!</p>
+      <p class="author"><i>(Dòng 1115-1116) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The trouble was that he was talking in \
-| philosophy but they were listening in   |
-| gibberish.”                             |
-|                                         |
-\  -- Terry Pratchett                     /
- -----------------------------------------
-          \
-           \
-            \          __---__
-                    _-       /--______
-               __--( /     \ )XXXXXXXXXXX\v.
-             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
-            /XXX(       U     )        XXXXXXX\
-          /XXXXX(              )--_  XXXXXXXXXXX\
-         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
-         XXXXX/   /            XXXXXX   \__ \XXXXX
-         XXXXXX__/          XXXXXX         \__---->
- ---___  XXX__/          XXXXXX      \__         /
-   \-  --__/   ___/\  XXXXXX            /  ___--/=
-    \-\    ___/    XXXXXX              '--- XXXXXX
-       \-\/XXX\ XXXXXX                      /XXXXX
-         \XXXXXXXXX   \                    /XXXXX/
-          \XXXXXX      >                 _/XXXXX/
-            \XXXXX--__/              __-- XXXX/
-             -XXXXXXXX---------------  XXXXXX-
-                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
-                  ""VXXXXXXXXXXXXXXXXXXV""
+ ________________________________________
+/ “I've always been well liked. I was so \
+| popular in school everybody hated me.” |
+|                                        |
+\  -- Anonymous                          /
+ ----------------------------------------
+  \
+   \          . .: -ーー― :._
+    \       ／.: .: .: .:     ＞  r⌒ヽ
+           / .:         ｜.､.:＼  ﾉ ノ
+          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
+          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
+          |: .:/ c─-        Ｙ:| /
+          |:ﾊ:{``   ,  --┐  人V /
+          ﾉ:L＼>   く_,￣┘／  ＼
+   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
+   L_,vー─-|    ､ }  ＶYﾊ   Y
+             ￣￣Ｖ  ｜/∧   ﾍ
+                  {   |//∧  ﾍ
+                  {    ＼//   ﾍ
+                  {            ＼
+                  ｝             >
 ```
 <!-- END_QUOTE -->
 
