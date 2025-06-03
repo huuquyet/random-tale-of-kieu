@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“拱料𥄮𬑉迻蹎</p>
-      <p class="nom">麻䀡昆造磋運典󰠳”</p>
-      <p class="quocngu">Cũng liều nhắm mắt đưa chân,</p>
-      <p class="quocngu">Mà xem con tạo xoay vần đến đâu!</p>
-      <p class="author"><i>(Dòng 1115-1116) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠀧生㐌匪𨑮願</p>
+      <p class="nom">緣堆侶拱羅緣伴𤿤”</p>
+      <p class="quocngu">Ba sinh đã phỉ mười nguyền,</p>
+      <p class="quocngu">Duyên đôi lứa cũng là duyên bạn bè.</p>
+      <p class="author"><i>(Dòng 3225-3226) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “I've always been well liked. I was so \
-| popular in school everybody hated me.” |
-|                                        |
-\  -- Anonymous                          /
- ----------------------------------------
-  \
-   \          . .: -ーー― :._
-    \       ／.: .: .: .:     ＞  r⌒ヽ
-           / .:         ｜.､.:＼  ﾉ ノ
-          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
-          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
-          |: .:/ c─-        Ｙ:| /
-          |:ﾊ:{``   ,  --┐  人V /
-          ﾉ:L＼>   く_,￣┘／  ＼
-   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
-   L_,vー─-|    ､ }  ＶYﾊ   Y
-             ￣￣Ｖ  ｜/∧   ﾍ
-                  {   |//∧  ﾍ
-                  {    ＼//   ﾍ
-                  {            ＼
-                  ｝             >
+ ____________________________________________
+/ “We ordinary people might lack your great  \
+| speed or your X-Ray vision, Superman, but  |
+| never underestimate the power of the human |
+| mind. We carry the most dangerous weapon   |
+| on Earth inside these thick skulls of      |
+| ours.”                                     |
+|                                            |
+\  -- Mark Millar                            /
+ --------------------------------------------
+       \     *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+        \        MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+         \       MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+          \        'MMM8&&&'      *
+          |\___/|
+         =) oYo (=            .              '
+          \  ^  /
+           )=*=(       *
+          /     \
+          |     |
+         /| | | |\
+         \| | |_|/\
+  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
 ```
 <!-- END_QUOTE -->
 
