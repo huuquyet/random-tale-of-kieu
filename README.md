@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠀧生㐌匪𨑮願</p>
-      <p class="nom">緣堆侶拱羅緣伴𤿤”</p>
-      <p class="quocngu">Ba sinh đã phỉ mười nguyền,</p>
-      <p class="quocngu">Duyên đôi lứa cũng là duyên bạn bè.</p>
-      <p class="author"><i>(Dòng 3225-3226) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“群𡗉恩義貝饒</p>
+      <p class="nom">機緣󰅹㐌歇兜倍󰢔”</p>
+      <p class="quocngu">Còn nhiều ân nghĩa với nhau,</p>
+      <p class="quocngu">Cơ duyên nào đã hết đâu, vội gì?"</p>
+      <p class="author"><i>(Dòng 2411-2412) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,37 +26,38 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “We ordinary people might lack your great  \
-| speed or your X-Ray vision, Superman, but  |
-| never underestimate the power of the human |
-| mind. We carry the most dangerous weapon   |
-| on Earth inside these thick skulls of      |
-| ours.”                                     |
+/ “When you watch Olympic athletes in        \
+| competition, does your self-esteem         |
+| plummet? Of course not. On the contrary,   |
+| you feel wonder and admiration; you're     |
+| inspired that such exceptional individuals |
+| exist. So why can't we feels the same way  |
+| about beauty?”                             |
 |                                            |
-\  -- Mark Millar                            /
+\  -- Ted Chiang                             /
  --------------------------------------------
-       \     *     ,MMM8&&&.            *
-                  MMMM88&&&&&    .
-        \        MMMM88&&&&&&&
-     *           MMM88&&&&&&&&
-         \       MMM88&&&&&&&&
-                 'MMM88&&&&&&'
-          \        'MMM8&&&'      *
-          |\___/|
-         =) oYo (=            .              '
-          \  ^  /
-           )=*=(       *
-          /     \
-          |     |
-         /| | | |\
-         \| | |_|/\
-  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
-  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-
+\
+ \
+         ,=;%$%%$X%%%%;/%%%%;=,
+     ,/$+:-                -:+$/,
+   :X$=                          =$X:
+ ;M%.                              .%M;
++#/                                  /#+
+\##                                    M#
+H#,                     =;+/;,       ,#X
+.HM-       :@X+%H:   .%M%- .M#.     -M@.
+  /#%.     @#-  ,H@--MH, .;@$-    .%#+
+   .$M;    .+@X;, MM#@:/$X;.     ;M$,
+     =@H,     ,:+%H#M%;-       ,H@=
+      .$#;        -#H         =#$
+        %#;        \#M        ;#%
+         H#-       \##       -#H
+         ;#+       \##       +#;
+          ;H+;;;;;;HH;;;;;;+H/
+           =H#@HHHHHHHHHH@#H=
+           =@#H%%%%%%%$HH@#@=
+           =@#X%%%%%%%$M###@=
+               =+%XHHX%+=
 ```
 <!-- END_QUOTE -->
 
