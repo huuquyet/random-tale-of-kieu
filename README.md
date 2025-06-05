@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“群𡗉恩義貝饒</p>
-      <p class="nom">機緣󰅹㐌歇兜倍󰢔”</p>
-      <p class="quocngu">Còn nhiều ân nghĩa với nhau,</p>
-      <p class="quocngu">Cơ duyên nào đã hết đâu, vội gì?"</p>
-      <p class="author"><i>(Dòng 2411-2412) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰠱香典𠓀𫢋臺</p>
+      <p class="nom">餒𢚸𡄩渚𣴓𠳒云云”</p>
+      <p class="quocngu">Nén hương đến trước Phật đài,</p>
+      <p class="quocngu">Nỗi lòng khấn chửa cạn lời vân vân.</p>
+      <p class="author"><i>(Dòng 1639-1640) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “When you watch Olympic athletes in        \
-| competition, does your self-esteem         |
-| plummet? Of course not. On the contrary,   |
-| you feel wonder and admiration; you're     |
-| inspired that such exceptional individuals |
-| exist. So why can't we feels the same way  |
-| about beauty?”                             |
-|                                            |
-\  -- Ted Chiang                             /
- --------------------------------------------
-\
- \
-         ,=;%$%%$X%%%%;/%%%%;=,
-     ,/$+:-                -:+$/,
-   :X$=                          =$X:
- ;M%.                              .%M;
-+#/                                  /#+
-\##                                    M#
-H#,                     =;+/;,       ,#X
-.HM-       :@X+%H:   .%M%- .M#.     -M@.
-  /#%.     @#-  ,H@--MH, .;@$-    .%#+
-   .$M;    .+@X;, MM#@:/$X;.     ;M$,
-     =@H,     ,:+%H#M%;-       ,H@=
-      .$#;        -#H         =#$
-        %#;        \#M        ;#%
-         H#-       \##       -#H
-         ;#+       \##       +#;
-          ;H+;;;;;;HH;;;;;;+H/
-           =H#@HHHHHHHHHH@#H=
-           =@#H%%%%%%%$HH@#@=
-           =@#X%%%%%%%$M###@=
-               =+%XHHX%+=
+ _________________________________________
+/ “A human in dark, is one without soul.” \
+|                                         |
+\  -- Vinod Varghese Antony               /
+ -----------------------------------------
+   \
+    \
+                      ,:二二二二:. .,
+                   ／.／＿＿＿_  ＼.:＼
+                  /. /／.: .: .:＼  : .:＼
+                 /.: .: .:/｜:/\ .:＼}.: .:.
+                .: |.:/一/ |:/ 一.:}: .: .:｜
+                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
+                |.: ｜= ＝    ＝＝= \/}: .:|
+                |:: ﾘ''           '' /:/､.:|
+               ノ:|:人    一一 ､    /:/ ﾉ.:|
+                , ┴＜＼  {     ｝ ,{:/イ::八
+               /_..   ＼` ー┬一r＜:八八／
+               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
+              /___ |  >､    ｀''＼   ｜
+             /ﾆ}::\/／  ＼       ｜  ｜
+          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
+           /__   V    ｝|  》=《      |
+           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
+             ￣        ｢   ゞ= '      }
+                      ﾉ               〉 
 ```
 <!-- END_QUOTE -->
 
