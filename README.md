@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰠱香典𠓀𫢋臺</p>
-      <p class="nom">餒𢚸𡄩渚𣴓𠳒云云”</p>
-      <p class="quocngu">Nén hương đến trước Phật đài,</p>
-      <p class="quocngu">Nỗi lòng khấn chửa cạn lời vân vân.</p>
-      <p class="author"><i>(Dòng 1639-1640) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“小姐吏𠽇𥙩娘</p>
+      <p class="nom">局𢝙𢭮曲断膓意之”</p>
+      <p class="quocngu">Tiểu thư lại nẹt lấy nàng:</p>
+      <p class="quocngu">"Cuộc vui gảy khúc đoạn tràng ấy chi?</p>
+      <p class="author"><i>(Dòng 1859-1860) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “A human in dark, is one without soul.” \
-|                                         |
-\  -- Vinod Varghese Antony               /
- -----------------------------------------
+ ___________________________________________
+/ “Being this close to him was like sitting \
+| under a hotness heat lamp. In the desert. |
+| At high noon.”                            |
+|                                           |
+\  -- Avery Flynn                           /
+ -------------------------------------------
+  \
    \
-    \
-                      ,:二二二二:. .,
-                   ／.／＿＿＿_  ＼.:＼
-                  /. /／.: .: .:＼  : .:＼
-                 /.: .: .:/｜:/\ .:＼}.: .:.
-                .: |.:/一/ |:/ 一.:}: .: .:｜
-                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
-                |.: ｜= ＝    ＝＝= \/}: .:|
-                |:: ﾘ''           '' /:/､.:|
-               ノ:|:人    一一 ､    /:/ ﾉ.:|
-                , ┴＜＼  {     ｝ ,{:/イ::八
-               /_..   ＼` ー┬一r＜:八八／
-               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
-              /___ |  >､    ｀''＼   ｜
-             /ﾆ}::\/／  ＼       ｜  ｜
-          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
-           /__   V    ｝|  》=《      |
-           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
-             ￣        ｢   ゞ= '      }
-                      ﾉ               〉 
+       X MM X
+       X MM X
+       X MM X
+       X MM X
+       + HX +
+     ,=$XX%/-
+   =X#########@%-
+  ;##############=
+ -###############M,
+ ;##@@@######M@###=
+ .+:;+:=H##$=:/:;H.
+ - +###- \## :###,,;
+ +@:/%;-H##H==/::H;
+  /#@/-=+$%::+H#$
+  $#%-,      ,.:##-
+ -@/            =X%.
+ %H=             -$;
+  =HH,         .%M;
+   /MM/       :@M/.
+    .:XX,   -$H:.
 ```
 <!-- END_QUOTE -->
 
