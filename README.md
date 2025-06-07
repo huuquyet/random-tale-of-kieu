@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“小姐吏𠽇𥙩娘</p>
-      <p class="nom">局𢝙𢭮曲断膓意之”</p>
-      <p class="quocngu">Tiểu thư lại nẹt lấy nàng:</p>
-      <p class="quocngu">"Cuộc vui gảy khúc đoạn tràng ấy chi?</p>
-      <p class="author"><i>(Dòng 1859-1860) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“在碎稱𥙩󰜋𢬣</p>
+      <p class="nom">底娘朱典餒尼爲碎”</p>
+      <p class="quocngu">Tại tôi xứng lấy một tay,</p>
+      <p class="quocngu">Để nàng cho đến nỗi này vì tôi."</p>
+      <p class="author"><i>(Dòng 1443-1444) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Being this close to him was like sitting \
-| under a hotness heat lamp. In the desert. |
-| At high noon.”                            |
-|                                           |
-\  -- Avery Flynn                           /
- -------------------------------------------
-  \
-   \
-       X MM X
-       X MM X
-       X MM X
-       X MM X
-       + HX +
-     ,=$XX%/-
-   =X#########@%-
-  ;##############=
- -###############M,
- ;##@@@######M@###=
- .+:;+:=H##$=:/:;H.
- - +###- \## :###,,;
- +@:/%;-H##H==/::H;
-  /#@/-=+$%::+H#$
-  $#%-,      ,.:##-
- -@/            =X%.
- %H=             -$;
-  =HH,         .%M;
-   /MM/       :@M/.
-    .:XX,   -$H:.
+ _____________________________________________
+/ “He says that it’s okay to be fearful. That \
+| some of God’s strongest warriors were       |
+| frightened. The difference between a        |
+| believer and the rest of the world is that  |
+| we press on. We can be shaking in our       |
+| boots, but we don’t turn back.”             |
+|                                             |
+\  -- Jenny B. Jones                          /
+ ---------------------------------------------
+    \                                  ___-------___
+     \                             _-~~             ~~-_
+      \                         _-~                    /~-_
+             /^\__/^\         /~  \                   /    \
+           /|  o|| o|        /      \_______________/        \
+          | |___||__|      /       /                \          \
+          |          \    /      /                    \          \
+          |   (_______) /______/                        \_________ \
+          |         / /         \                      /            \
+           \         \^\\         \                  /               \     /
+             \         ||           \______________/      _-_       //\__//
+               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
+                 ~-----||====/~     |==================|       |/~~~~~
+                  (_(__/  ./     /                    \_\      \.
+                         (_(___/                         \_____)_)
 ```
 <!-- END_QUOTE -->
 
