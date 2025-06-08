@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“在碎稱𥙩󰜋𢬣</p>
-      <p class="nom">底娘朱典餒尼爲碎”</p>
-      <p class="quocngu">Tại tôi xứng lấy một tay,</p>
-      <p class="quocngu">Để nàng cho đến nỗi này vì tôi."</p>
-      <p class="author"><i>(Dòng 1443-1444) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“身些些沛𢥈歐</p>
+      <p class="nom">𠰘𤞻𠷮𧋻於兜准尼”</p>
+      <p class="quocngu">Thân ta, ta phải lo âu,</p>
+      <p class="quocngu">Miệng hùm, nọc rắn ở đâu chốn này!</p>
+      <p class="author"><i>(Dòng 2015-2016) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,30 +26,35 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “He says that it’s okay to be fearful. That \
-| some of God’s strongest warriors were       |
-| frightened. The difference between a        |
-| believer and the rest of the world is that  |
-| we press on. We can be shaking in our       |
-| boots, but we don’t turn back.”             |
+/ “The only geniuses produced by the chaos of \
+| society are those who do something about    |
+| it. Chaos breeds geniuses. It offers a man  |
+| something to be a genius about.”            |
 |                                             |
-\  -- Jenny B. Jones                          /
+\  -- B.F. Skinner                            /
  ---------------------------------------------
-    \                                  ___-------___
-     \                             _-~~             ~~-_
-      \                         _-~                    /~-_
-             /^\__/^\         /~  \                   /    \
-           /|  o|| o|        /      \_______________/        \
-          | |___||__|      /       /                \          \
-          |          \    /      /                    \          \
-          |   (_______) /______/                        \_________ \
-          |         / /         \                      /            \
-           \         \^\\         \                  /               \     /
-             \         ||           \______________/      _-_       //\__//
-               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
-                 ~-----||====/~     |==================|       |/~~~~~
-                  (_(__/  ./     /                    \_\      \.
-                         (_(___/                         \_____)_)
+    \
+     \ 
+      \
+       \
+                                           .::.                      
+                                           _::_                      
+                                 ()      _/____\_                    
+                               <~~~~>    \      /                    
+                       <>_      \__/      \____/      <>_            
+           __/"""\   (\)  )    (____)     (____)    (\)  )   __/"""\ 
+  WWWWWW  ]___ 0  }   \__/      |  |       |  |      \__/   ]___ 0  }  WWWWWW
+   |  |       /   }  (____)     |  |       |__|     (____)      /   }   |  |
+   |  |     /~    }   |  |      |__|      /    \     |  |     /~    }   |  |
+   |__|     \____/    |__|     /____\    (______)    |__|     \____/    |__|
+  /____\    /____\   /____\   (______)  (________)  /____\    /____\   /____\
+ (______)  (______) (______) (________) /________\ (______)  (______) (______)
+
+    __        __       __        __         __        __        __       __
+   (  )      (  )     (  )      (  )       (  )      (  )      (  )     (  )
+    ||        ||       ||        ||         ||        ||        ||       ||
+   /__\      /__\     /__\      /__\       /__\      /__\      /__\     /__\
+  (____)    (____)   (____)    (____)     (____)    (____)    (____)   (____)
 ```
 <!-- END_QUOTE -->
 
