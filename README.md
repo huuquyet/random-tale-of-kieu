@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“身些些沛𢥈歐</p>
-      <p class="nom">𠰘𤞻𠷮𧋻於兜准尼”</p>
-      <p class="quocngu">Thân ta, ta phải lo âu,</p>
-      <p class="quocngu">Miệng hùm, nọc rắn ở đâu chốn này!</p>
-      <p class="author"><i>(Dòng 2015-2016) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“小姐䀡拱傷才</p>
+      <p class="nom">囷威󰟯拱󰈫𠄽𦊚分”</p>
+      <p class="quocngu">Tiểu thư xem cũng thương tài,</p>
+      <p class="quocngu">Khuôn uy dường cũng bớt vài bốn phân.</p>
+      <p class="author"><i>(Dòng 1781-1782) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The only geniuses produced by the chaos of \
-| society are those who do something about    |
-| it. Chaos breeds geniuses. It offers a man  |
-| something to be a genius about.”            |
-|                                             |
-\  -- B.F. Skinner                            /
- ---------------------------------------------
-    \
-     \ 
-      \
-       \
-                                           .::.                      
-                                           _::_                      
-                                 ()      _/____\_                    
-                               <~~~~>    \      /                    
-                       <>_      \__/      \____/      <>_            
-           __/"""\   (\)  )    (____)     (____)    (\)  )   __/"""\ 
-  WWWWWW  ]___ 0  }   \__/      |  |       |  |      \__/   ]___ 0  }  WWWWWW
-   |  |       /   }  (____)     |  |       |__|     (____)      /   }   |  |
-   |  |     /~    }   |  |      |__|      /    \     |  |     /~    }   |  |
-   |__|     \____/    |__|     /____\    (______)    |__|     \____/    |__|
-  /____\    /____\   /____\   (______)  (________)  /____\    /____\   /____\
- (______)  (______) (______) (________) /________\ (______)  (______) (______)
-
-    __        __       __        __         __        __        __       __
-   (  )      (  )     (  )      (  )       (  )      (  )      (  )     (  )
-    ||        ||       ||        ||         ||        ||        ||       ||
-   /__\      /__\     /__\      /__\       /__\      /__\      /__\     /__\
-  (____)    (____)   (____)    (____)     (____)    (____)    (____)   (____)
+ ___________________________________________
+/ “If we think about each other’s feelings, \
+| then we’re never alone.”                  |
+|                                           |
+\  -- Ron Baratono                          /
+ -------------------------------------------
+                       \                    ^    /^
+                        \                  / \  // \
+                         \   |\___/|      /   \//  .\
+                          \  /O  O  \__  /    //  | \ \           *----*
+                            /     /  \/_/    //   |  \  \          \   |
+                            @___@`    \/_   //    |   \   \         \/\ \
+                           0/0/|       \/_ //     |    \    \         \  \
+                       0/0/0/0/|        \///      |     \     \       |  |
+                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
+                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
+                             ,-}        _      *-.|.-~-.           .~    ~
+            \     \__/        `/\      /                 ~-. _ .-~      /
+             \____(oo)           *.   }            {                   /
+             (    (--)          .----~-.\        \-`                 .~
+             //__\  \__ Ack!   ///.----..<        \             _ -~
+            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
 ```
 <!-- END_QUOTE -->
 
