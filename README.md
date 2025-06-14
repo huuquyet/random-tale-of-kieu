@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“群當用孕菫魚</p>
-      <p class="nom">𠃅外㐌𧡊䏾旗㗂鑼”</p>
-      <p class="quocngu">Còn đang dùng dắng ngẩn ngơ,</p>
-      <p class="quocngu">Mái ngoài đã thấy bóng cờ tiếng la.</p>
-      <p class="author"><i>(Dòng 2257-2258) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“吏強塢湥󰞺花</p>
+      <p class="nom">愁𣻆󰑒綏珠沙𥐆𨱽”</p>
+      <p class="quocngu">Lại càng ủ dột nét hoa,</p>
+      <p class="quocngu">Sầu tuôn đứt nối, châu sa vắn dài.</p>
+      <p class="author"><i>(Dòng 103-104) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “What does Mrs Preston want to go abroad  \
-| for?' asked Mr Leslie.'I think her doctor |
-| wanted her to, Father,' said              |
-| Agnes.'Doctors!' said Mr Leslie, wiping   |
-| the whole of the Royal College of         |
-| Physicians off the face of the world with |
-| this withering remark.”                   |
-|                                           |
-\  -- Angela Thirkell                       /
- -------------------------------------------
-           \
-            \
-        "-.. __      __.='>
-         `.     """""   ,'
-           "-..__   _.-"
-   ~ ~~ ~ ~  ~   """  ~~  ~
+ _____________________________________________
+/ “Sometimes standing up for what you believe \
+| means standing down and allowing the        |
+| universe to do its work.”                   |
+|                                             |
+\  -- Gregor Collins                          /
+ ---------------------------------------------
+\                             .       .
+ \                           / `.   .' " 
+  \                  .---.  <    > <    >  .---.
+   \                 |    \  \ - ~ ~ - /  /    |
+         _____          ..-~             ~-..-~
+        |     |   \~~~\.'                    `./~~~/
+       ---------   \__/                        \__/
+      .'  o    \     /               /       \  " 
+     (_____,    `._.'               |         }  \/~~~/
+      `----.          /       }     |        /    \__/
+            `-.      |       /      |       /      `. ,~~|
+                ~-.__|      /_ - ~ ^|      /- _      `..-‘ / \  /\
+                     |     /        |     /     ~-.     `-/ _ \/__\
+                     |_____|        |_____|         ~ - . _ _ _ _ _>
 ```
 <!-- END_QUOTE -->
 
