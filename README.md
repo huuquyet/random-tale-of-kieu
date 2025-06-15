@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“吏強塢湥󰞺花</p>
-      <p class="nom">愁𣻆󰑒綏珠沙𥐆𨱽”</p>
-      <p class="quocngu">Lại càng ủ dột nét hoa,</p>
-      <p class="quocngu">Sầu tuôn đứt nối, châu sa vắn dài.</p>
-      <p class="author"><i>(Dòng 103-104) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“擬浪坤餒𨁪牟</p>
+      <p class="nom">事命娘買𨃴頭排𬆄”</p>
+      <p class="quocngu">Nghĩ rằng khôn nỗi giấu mầu,</p>
+      <p class="quocngu">Sự mình, nàng mới gót đầu bày ngay:</p>
+      <p class="author"><i>(Dòng 2069-2070) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Sometimes standing up for what you believe \
-| means standing down and allowing the        |
-| universe to do its work.”                   |
-|                                             |
-\  -- Gregor Collins                          /
- ---------------------------------------------
-\                             .       .
- \                           / `.   .' " 
-  \                  .---.  <    > <    >  .---.
-   \                 |    \  \ - ~ ~ - /  /    |
-         _____          ..-~             ~-..-~
-        |     |   \~~~\.'                    `./~~~/
-       ---------   \__/                        \__/
-      .'  o    \     /               /       \  " 
-     (_____,    `._.'               |         }  \/~~~/
-      `----.          /       }     |        /    \__/
-            `-.      |       /      |       /      `. ,~~|
-                ~-.__|      /_ - ~ ^|      /- _      `..-‘ / \  /\
-                     |     /        |     /     ~-.     `-/ _ \/__\
-                     |_____|        |_____|         ~ - . _ _ _ _ _>
+ ____________________________________________
+/ “Most people lose the only thing they      \
+| possess—Life—while acquiring the many      |
+| things that will finally never be theirs.” |
+|                                            |
+\  -- RVM                                    /
+ --------------------------------------------
+  \   ^__^
+   \  (oo)\_______        ________
+      (__)\       )\/\    |Super |
+          ||----W |       |Milker|
+          ||    UDDDDDDDDD|______|
 ```
 <!-- END_QUOTE -->
 
