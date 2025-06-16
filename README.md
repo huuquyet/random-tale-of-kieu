@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“擬浪坤餒𨁪牟</p>
-      <p class="nom">事命娘買𨃴頭排𬆄”</p>
-      <p class="quocngu">Nghĩ rằng khôn nỗi giấu mầu,</p>
-      <p class="quocngu">Sự mình, nàng mới gót đầu bày ngay:</p>
-      <p class="author"><i>(Dòng 2069-2070) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰀏功德意埃朋</p>
+      <p class="nom">夙愆㐌𣳮淩淩瀝耒”</p>
+      <p class="quocngu">Thửa công đức ấy ai bằng?</p>
+      <p class="quocngu">Túc khiên đã rửa lâng lâng sạch rồi!</p>
+      <p class="author"><i>(Dòng 2687-2688) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Most people lose the only thing they      \
-| possess—Life—while acquiring the many      |
-| things that will finally never be theirs.” |
-|                                            |
-\  -- RVM                                    /
- --------------------------------------------
-  \   ^__^
-   \  (oo)\_______        ________
-      (__)\       )\/\    |Super |
-          ||----W |       |Milker|
-          ||    UDDDDDDDDD|______|
+ ___________________________________________
+/ “Not one person can afford your dream”    \
+|                                           |
+\  -- the execution of it is too expensive. /
+ -------------------------------------------
+   \
+    \
+       /~\
+      |oo )
+      _\=/_
+     /     \
+    //|/.\|\\
+   ||  \_/  ||
+   || |\ /| ||
+    \# \_ _/  \#
+      | | |
+      | | |
+      []|[]
+      | | |
+     /_]_[_\
 ```
 <!-- END_QUOTE -->
 
