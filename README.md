@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰀏功德意埃朋</p>
-      <p class="nom">夙愆㐌𣳮淩淩瀝耒”</p>
-      <p class="quocngu">Thửa công đức ấy ai bằng?</p>
-      <p class="quocngu">Túc khiên đã rửa lâng lâng sạch rồi!</p>
-      <p class="author"><i>(Dòng 2687-2688) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“據之𡎢忍殘更</p>
+      <p class="nom">浽𥢆群王䋦情之低”</p>
+      <p class="quocngu">Cớ chi ngồi nhẫn tàn canh,</p>
+      <p class="quocngu">Nỗi riêng còn vướng mối tình chi đây?</p>
+      <p class="author"><i>(Dòng 717-718) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,42 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Not one person can afford your dream”    \
-|                                           |
-\  -- the execution of it is too expensive. /
- -------------------------------------------
-   \
-    \
-       /~\
-      |oo )
-      _\=/_
-     /     \
-    //|/.\|\\
-   ||  \_/  ||
-   || |\ /| ||
-    \# \_ _/  \#
-      | | |
-      | | |
-      []|[]
-      | | |
-     /_]_[_\
+ _____________________________________________
+/ “At that moment I knew without a doubt that \
+| God himself was speaking to me. He cared.   |
+| He was there. He came to help even when I   |
+| could not call out loud or explain my fear  |
+| in words.”                                  |
+|                                             |
+\  -- Catherine Lawton                        /
+ ---------------------------------------------
+       \
+        \          .88888888:.
+         \        88888888.88888.
+               .8888888888888888.
+               888888888888888888
+               88' _`88'_  `88888
+               88 88 88 88  88888
+               88_88_::_88_:88888
+               88:::,::,:::::8888
+               88`:::::::::'`8888
+              .88  `::::'    8:88.
+             8888            `8:888.
+           .8888'             `888888.
+          .8888:..  .::.  ...:'8888888:.
+         .8888.'     :'     `'::`88:88888
+        .8888        '         `.888:8888.
+       888:8         .           888:88888
+     .888:88        .:           888:88888:   
+     8888888.       ::           88:888888
+     `.::.888.      ::          .88888888
+    .::::::.888.    ::         :::`8888'.:.
+   ::::::::::.888   '         .::::::::::::
+   ::::::::::::.8    '      .:8::::::::::::.
+  .::::::::::::::.        .:888:::::::::::::
+  :::::::::::::::88:.__..:88888:::::::::::'
+   `'.:::::::::::88888888888.88:::::::::'
+         `':::_:' -- '' -'-' `':_::::'`
 ```
 <!-- END_QUOTE -->
 
