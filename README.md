@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“據之𡎢忍殘更</p>
-      <p class="nom">浽𥢆群王䋦情之低”</p>
-      <p class="quocngu">Cớ chi ngồi nhẫn tàn canh,</p>
-      <p class="quocngu">Nỗi riêng còn vướng mối tình chi đây?</p>
-      <p class="author"><i>(Dòng 717-718) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𧵆沔固󰜋媒󰅹</p>
+      <p class="nom">迻𠊚遠客尋𠓨問名”</p>
+      <p class="quocngu">Gần miền có một mụ nào,</p>
+      <p class="quocngu">Đưa người viễn khách tìm vào vấn danh.</p>
+      <p class="author"><i>(Dòng 623-624) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,42 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “At that moment I knew without a doubt that \
-| God himself was speaking to me. He cared.   |
-| He was there. He came to help even when I   |
-| could not call out loud or explain my fear  |
-| in words.”                                  |
-|                                             |
-\  -- Catherine Lawton                        /
- ---------------------------------------------
-       \
-        \          .88888888:.
-         \        88888888.88888.
-               .8888888888888888.
-               888888888888888888
-               88' _`88'_  `88888
-               88 88 88 88  88888
-               88_88_::_88_:88888
-               88:::,::,:::::8888
-               88`:::::::::'`8888
-              .88  `::::'    8:88.
-             8888            `8:888.
-           .8888'             `888888.
-          .8888:..  .::.  ...:'8888888:.
-         .8888.'     :'     `'::`88:88888
-        .8888        '         `.888:8888.
-       888:8         .           888:88888
-     .888:88        .:           888:88888:   
-     8888888.       ::           88:888888
-     `.::.888.      ::          .88888888
-    .::::::.888.    ::         :::`8888'.:.
-   ::::::::::.888   '         .::::::::::::
-   ::::::::::::.8    '      .:8::::::::::::.
-  .::::::::::::::.        .:888:::::::::::::
-  :::::::::::::::88:.__..:88888:::::::::::'
-   `'.:::::::::::88888888888.88:::::::::'
-         `':::_:' -- '' -'-' `':_::::'`
+ ____________________________________________
+/ “The vanity of intelligence is that the    \
+| intelligent man is often more committed to |
+| 'one-upping' his opponent than being       |
+| truthful. When the idea of intelligence,   |
+| rather than intelligence itself, becomes a |
+| staple, there is no wisdom in it.”         |
+|                                            |
+\  -- Criss Jami                             /
+ --------------------------------------------
+         \
+          \
+               ,.-----__
+            ,:::://///,:::-.
+           /:''/////// ``:::`;/|/
+          /'   ||||||     :://'`\
+        .' ,   ||||||     `/(  e \
+  -===~__-'\__X_`````\_____/~`-._ `.
+              ~~        ~~       `~-'
 ```
 <!-- END_QUOTE -->
 
