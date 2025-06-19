@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𧵆沔固󰜋媒󰅹</p>
-      <p class="nom">迻𠊚遠客尋𠓨問名”</p>
-      <p class="quocngu">Gần miền có một mụ nào,</p>
-      <p class="quocngu">Đưa người viễn khách tìm vào vấn danh.</p>
-      <p class="author"><i>(Dòng 623-624) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“拥𥿱渚女𢯦𢬣</p>
+      <p class="nom">彙東𬂙㐌𨅸𣦍󰣓茹”</p>
+      <p class="quocngu">Dùng dằng chưa nỡ rời tay,</p>
+      <p class="quocngu">Vầng đông trông đã đứng ngay nóc nhà.</p>
+      <p class="author"><i>(Dòng 559-560) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The vanity of intelligence is that the    \
-| intelligent man is often more committed to |
-| 'one-upping' his opponent than being       |
-| truthful. When the idea of intelligence,   |
-| rather than intelligence itself, becomes a |
-| staple, there is no wisdom in it.”         |
-|                                            |
-\  -- Criss Jami                             /
- --------------------------------------------
-         \
-          \
-               ,.-----__
-            ,:::://///,:::-.
-           /:''/////// ``:::`;/|/
-          /'   ||||||     :://'`\
-        .' ,   ||||||     `/(  e \
-  -===~__-'\__X_`````\_____/~`-._ `.
-              ~~        ~~       `~-'
+ ___________________________________________
+/ “Nothing is more difficult than competing \
+| with myth”                                |
+|                                           |
+\  -- Françoise Giroud                      /
+ -------------------------------------------
+  \
+   \          . .: -ーー― :._
+    \       ／.: .: .: .:     ＞  r⌒ヽ
+           / .:         ｜.､.:＼  ﾉ ノ
+          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
+          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
+          |: .:/ c─-        Ｙ:| /
+          |:ﾊ:{``   ,  --┐  人V /
+          ﾉ:L＼>   く_,￣┘／  ＼
+   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
+   L_,vー─-|    ､ }  ＶYﾊ   Y
+             ￣￣Ｖ  ｜/∧   ﾍ
+                  {   |//∧  ﾍ
+                  {    ＼//   ﾍ
+                  {            ＼
+                  ｝             >
 ```
 <!-- END_QUOTE -->
 
