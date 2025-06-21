@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋茹𡀷𠿚伶停</p>
-      <p class="nom">𢭯𡑝達桌𣳮𤭸𤏧香”</p>
-      <p class="quocngu">Một nhà dọn dẹp linh đình,</p>
-      <p class="quocngu">Quét sân, đặt trác, rửa bình, thắp hương.</p>
-      <p class="author"><i>(Dòng 2129-2130) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣈜春㛪唉群𨱽</p>
+      <p class="nom">㤕情𧖱󰔨台𠳒渃𡽫”</p>
+      <p class="quocngu">Ngày xuân em hãy còn dài,</p>
+      <p class="quocngu">Xót tình máu mủ, thay lời nước non.</p>
+      <p class="author"><i>(Dòng 731-732) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Tarot Card are the best friend you can    \
-| ever have. They are always there for you.” |
-|                                            |
-\  -- Nikita Dudani                          /
- --------------------------------------------
-    \
-     \ 
-      \
-       \
-                                           .::.                      
-                                           _::_                      
-                                 ()      _/____\_                    
-                               <~~~~>    \      /                    
-                       <>_      \__/      \____/      <>_            
-           __/"""\   (\)  )    (____)     (____)    (\)  )   __/"""\ 
-  WWWWWW  ]___ 0  }   \__/      |  |       |  |      \__/   ]___ 0  }  WWWWWW
-   |  |       /   }  (____)     |  |       |__|     (____)      /   }   |  |
-   |  |     /~    }   |  |      |__|      /    \     |  |     /~    }   |  |
-   |__|     \____/    |__|     /____\    (______)    |__|     \____/    |__|
-  /____\    /____\   /____\   (______)  (________)  /____\    /____\   /____\
- (______)  (______) (______) (________) /________\ (______)  (______) (______)
-
-    __        __       __        __         __        __        __       __
-   (  )      (  )     (  )      (  )       (  )      (  )      (  )     (  )
-    ||        ||       ||        ||         ||        ||        ||       ||
-   /__\      /__\     /__\      /__\       /__\      /__\      /__\     /__\
-  (____)    (____)   (____)    (____)     (____)    (____)    (____)   (____)
+ ___________________________________________
+/ “Our children and grand-children will not \
+| make us people, their availability does   |
+| not make us different from animal”        |
+|                                           |
+\  -- Sunday Adelaja                        /
+ -------------------------------------------
+  \
+   \ ..:::::::::.
+    ::::::::::::::
+   /. `::::::::::::
+  O__,_:::::::::::'
 ```
 <!-- END_QUOTE -->
 
