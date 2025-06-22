@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣈜春㛪唉群𨱽</p>
-      <p class="nom">㤕情𧖱󰔨台𠳒渃𡽫”</p>
-      <p class="quocngu">Ngày xuân em hãy còn dài,</p>
-      <p class="quocngu">Xót tình máu mủ, thay lời nước non.</p>
-      <p class="author"><i>(Dòng 731-732) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌𢧚固義固仁</p>
+      <p class="nom">𠓀𡢐論院賒𧵆𬢱𠸦”</p>
+      <p class="quocngu">Đã nên có nghĩa, có nhân,</p>
+      <p class="quocngu">Trước sau trọn vẹn, xa gần ngợi khen.</p>
+      <p class="author"><i>(Dòng 2909-2910) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Our children and grand-children will not \
-| make us people, their availability does   |
-| not make us different from animal”        |
-|                                           |
-\  -- Sunday Adelaja                        /
- -------------------------------------------
-  \
-   \ ..:::::::::.
-    ::::::::::::::
-   /. `::::::::::::
-  O__,_:::::::::::'
+ __________________________________________
+/ “How can two people hate so much without \
+| knowing each other?”                     |
+|                                          |
+\  -- Alan Moore                           /
+ ------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||--WWW |
+                ||     ||
 ```
 <!-- END_QUOTE -->
 
