@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌𢧚固義固仁</p>
-      <p class="nom">𠓀𡢐論院賒𧵆𬢱𠸦”</p>
-      <p class="quocngu">Đã nên có nghĩa, có nhân,</p>
-      <p class="quocngu">Trước sau trọn vẹn, xa gần ngợi khen.</p>
-      <p class="author"><i>(Dòng 2909-2910) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪濫𥉬容光</p>
+      <p class="nom">拯𡑝玉佩拱坊金門”</p>
+      <p class="quocngu">Nàng rằng: "Trộm liếc dung quang,</p>
+      <p class="quocngu">Chẳng sân ngọc bội cũng phường kim môn.</p>
+      <p class="author"><i>(Dòng 409-410) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,17 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “How can two people hate so much without \
-| knowing each other?”                     |
-|                                          |
-\  -- Alan Moore                           /
- ------------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||--WWW |
-                ||     ||
+ ___________________________________________
+/ “If you accept life as a competition you  \
+| will never be completely happy but if you |
+| accept life as a journey you will always  |
+| be happy”                                 |
+|                                           |
+\  -- MY SELF                               /
+ -------------------------------------------
+ \      .------------------------.
+  \     |       PSYCHIATRIC      |
+   \    |         HELP  5¢       |
+    \   |________________________|
+     \  ||     .-"""--.         ||
+      \ ||    /        \.-.     ||
+        ||   |     ._,     \    ||
+        ||   \_/`-'   '-.,_/    ||
+        ||   (_   (' _)') \     ||
+        ||   /|           |\    ||
+        ||  | \     __   / |    ||
+        ||   \_).,_____,/}/     ||
+      __||____;_--'___'/ (      ||
+     |\ ||   (__,\\    \_/------||
+     ||\||______________________||
+     ||||                        |
+     ||||       THE DOCTOR       |
+     \|||         IS [IN]   _____|
+      \||                  (______)
+ jgs   `|___________________//||\\
+                           //=||=\\
+                           `  ``  `
 ```
 <!-- END_QUOTE -->
 
