@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“他浪料󰜋身昆</p>
-      <p class="nom">花油扡𦑃羅群撑𣘃”</p>
-      <p class="quocngu">Thà rằng liều một thân con,</p>
-      <p class="quocngu">Hoa dù rã cánh, là còn xanh cây.</p>
-      <p class="author"><i>(Dòng 677-678) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“苔𡑝鎌捽𠓇𤍶</p>
+      <p class="nom">失驚娘渚別羅爫牢”</p>
+      <p class="quocngu">Đầy sân gươm tuốt sáng loà,</p>
+      <p class="quocngu">Thất kinh nàng chửa biết là làm sao.</p>
+      <p class="author"><i>(Dòng 1643-1644) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “It is the beauty of life that makes our \
-| lives worth living.”                     |
-|                                          |
-\  -- Debasish Mridha                      /
- ------------------------------------------
-        \               ___
-         \           .-'   `'.
-                    /         \
-                    |         ;
-                    |         |           ___.--,
-           _.._     |0) ~ (0) |    _.---'`__.-( (_.
-    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
-   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
-   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
-  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
-        | |  .' _.-' |  |  \  \  '.               `~---`
-         \ \/ .'     \  \   '. '-._)
-          \/ /        \  \    `=.__`~-.
-     jgs  / /\         `) )    / / `"".`\
-    , _.-'.'\ \        / /    ( (     / /
-     `--~`   ) )    .-'.'      '.'.  | (
-            (/`    ( (`          ) )  '-;
-             `      '-;         (-'
+ ____________________________________________________________
+/ “Inner slavery is even worse than outward                  \
+| slavery”                                                   |
+|                                                            |
+\  -- and inner freedom is even better than outward freedom. /
+ ------------------------------------------------------------
+  \
+   \
+
+      ^(;,;)^
+
 ```
 <!-- END_QUOTE -->
 
