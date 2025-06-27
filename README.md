@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“擬情払束麻傷</p>
-      <p class="nom">𡑩車𬂙𧡊𢚸強㤕𢚷”</p>
-      <p class="quocngu">Nghĩ tình chàng Thúc mà thương,</p>
-      <p class="quocngu">Nẻo xa trông thấy lòng càng xót xa.</p>
-      <p class="author"><i>(Dòng 1431-1432) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌𢚸君子多恾</p>
+      <p class="nom">󰜋𠳒󰂅鑿𥒥鐄始終”</p>
+      <p class="quocngu">Đã lòng quân tử đa mang,</p>
+      <p class="quocngu">Một lời vâng tạc đá vàng thủy chung."</p>
+      <p class="author"><i>(Dòng 351-352) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The grace of living life is to give glory \
-| to God.”                                   |
-|                                            |
-\  -- Lailah Gifty Akita                     /
- --------------------------------------------
-   \
-    \
-         ..: ￣￣￣￣: :.
-       ／::  /｜.:/ |.: .:＼
-      ,  /｜/  |./  |.ﾊ.: .:ヽ
-    ./.:ｲ__ノ   ヽ､___∨.: .:.
-   ./: .:≡≡     ≡≡.|.: .:｜
-   /ノ|/} }.      } } |:ﾊ:.:｜
-     .ヽ{,{ -~~~- {,{｜:/ﾉ:从
-      ∨v､＞z-r-x-:r＜/ﾚﾚへ 
+ __________________________________________
+/ “I live in a house over there on the     \
+| Island, and in that house there is a man |
+| waiting for me. When he drove up at the  |
+| door I drove out of the dock because he  |
+| says I’m his ideal.”                     |
+|                                          |
+\  -- F. Scott Fitzgerald                  /
+ ------------------------------------------
+  \
+   \                       _
+                          / )      
+                         / /       
+      //|                \ \       
+   .-`^ \   .-`````-.     \ \      
+ o` {|}  \_/         \    / /      
+ '--,  _ //   .---.   \  / /       
+   ^^^` )/  ,/     \   \/ /        
+        (  /)      /\/   /         
+        / / (     / (   /          
+    ___/ /) (  __/ __\ (           
+   (((__)((__)((__(((___)          
 ```
 <!-- END_QUOTE -->
 
