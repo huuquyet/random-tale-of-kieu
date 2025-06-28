@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌𢚸君子多恾</p>
-      <p class="nom">󰜋𠳒󰂅鑿𥒥鐄始終”</p>
-      <p class="quocngu">Đã lòng quân tử đa mang,</p>
-      <p class="quocngu">Một lời vâng tạc đá vàng thủy chung."</p>
-      <p class="author"><i>(Dòng 351-352) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“翁絲𢴿掛之饒</p>
+      <p class="nom">渚𢝙森合㐌愁坡𢴾”</p>
+      <p class="quocngu">"Ông tơ chèo quải chi nhau,</p>
+      <p class="quocngu">Chưa vui sum họp đã sầu pha phôi.</p>
+      <p class="author"><i>(Dòng 549-550) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “I live in a house over there on the     \
-| Island, and in that house there is a man |
-| waiting for me. When he drove up at the  |
-| door I drove out of the dock because he  |
-| says I’m his ideal.”                     |
-|                                          |
-\  -- F. Scott Fitzgerald                  /
- ------------------------------------------
+ ____________________________________________
+/ “I'd got to that age when I was out on a   \
+| date with a guy and I would be thinking:   |
+| Don't mention your age, don't mention that |
+| you want a child - because they would just |
+| run out the door.”                         |
+|                                            |
+\  -- Denise Van Outen                       /
+ --------------------------------------------
+ \
   \
-   \                       _
-                          / )      
-                         / /       
-      //|                \ \       
-   .-`^ \   .-`````-.     \ \      
- o` {|}  \_/         \    / /      
- '--,  _ //   .---.   \  / /       
-   ^^^` )/  ,/     \   \/ /        
-        (  /)      /\/   /         
-        / / (     / (   /          
-    ___/ /) (  __/ __\ (           
-   (((__)((__)((__(((___)          
+     .--.              .--.
+    : (\ ". _......_ ." /) :
+     '.    `        `    .'
+      /'   _        _   `\
+     /     o}      {o     \
+    |       /      \       |
+    |     /'        `\     |
+     \   | .  .==.  . |   /
+      '._ \.' \__/ './ _.'
+      /  ``'._-''-_.'``  \
 ```
 <!-- END_QUOTE -->
 
