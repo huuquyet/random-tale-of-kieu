@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“擬命分𤘁𦑃𧋃</p>
-      <p class="nom">囷撑別固󰉓𧷺麻𫨩”</p>
-      <p class="quocngu">Nghĩ mình phận mỏng cánh chuồn,</p>
-      <p class="quocngu">Khuôn xanh biết có vuông tròn mà hay?</p>
-      <p class="author"><i>(Dòng 411-412) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦎛𤄯拯𡭧𡏧塵</p>
+      <p class="nom">没𠳒决罕𨷈分敬添”</p>
+      <p class="quocngu">Gương trong chẳng chút bụi trần,</p>
+      <p class="quocngu">Một lời quyết hẳn muôn phần kính thêm!</p>
+      <p class="author"><i>(Dòng 3173-3174) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,56 +26,41 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “They rode up a trail until the trees      \
-| parted and they got their first good view  |
-| of Lone Peak across the valley and river.  |
-| This late morning it was breathtaking. The |
-| stark peak gleamed against the deep blue   |
-| of the big sky. No wonder this area had    |
-| been named Big Sky.”                       |
+/ “When a person sets out upon a journey -   \
+| whether to hunt for food or knowledge, to  |
+| make war, or even to visit the Otherworld  |
+| - they are never the same when they        |
+| return. Traveling changes us. Journeys     |
+| shapes our memories and expand our         |
+| experiences. Those things we bring back    |
+| from the hunt - either food or knowledge - |
+| sustain us and keep us curious about the   |
+| world. Think of your own travels and       |
+| adventures out upon the land or in foreign |
+| countries: What wonderful stories do you   |
+| have to tell? What experiences have you    |
+| "hunted" or sought on your travels? What   |
+| have you learned from the land? The        |
+| stories told about journeys are as         |
+| important (perhaps more important) than    |
+| the destination. The journey lasts for     |
+| only a fixed time, but the stories told of |
+| it, the wisdom brought back, can keep      |
+| traveling forever, keep living, even after |
+| the tellers have traveled on.”             |
 |                                            |
-\  -- B.J. Daniels                           /
+\  -- Ari Berk & Carolyn Dunn                /
  --------------------------------------------
-         \
-          \
-                      ?IIIIIII7II?????+
-                   ~III777II777I?+==++==+:
-                  ???I7I???I7II++=====++===
-                 ??+??????????+===~~=+++??==+
-                ??+??II??????+==~=~~=+++++==++
-               I+?????????+?+====~=~==+==++?==?
-              ?????II?????+++++=======?===~~~~==
-            ,?????II????????++++====~===::~~~~:~
-            I?I??II?+++??+?+++==~~~~:~:~:,:,,:::~
-           I??????+==+???++++=~~:~:~:,:::,:,,,,,::
-          +I?++++=+=+????+++=~~:~~:::,,,,::,,,:,:
-          I??+?+====+???+++===~~::::,::,:,,,,,,::
-         I????=~===++?+=+=~==~:~~:,,,,,,,.,,,,,:~
-        =??+?=~~~~??+?+===~~==,==~~~~,,,,..,,,.:=
-        II++==~~=++++++=~~=~,~+=?+?=I?++=..,.,,:
-     IIII?+?=====+~+++~=~~~:::=~+~===:,,,,,.,.::
-    I?=?I+??+=~=~?I?=+=~~~::,~~=~::~=::,,,,,,::
-    ?+I??++=++~,::+++~~~:::,,=~~=,~,..,::.:
-    ++=+?++~=:~::I+,~=:~,:,,,,:~~......::~,,,
-     ~=~=:.++~:,.,~=::::.,,:,.:~,:=...==~,::
-     =~?++??+=~~,.:?~.:,:,,,.,::,,~:=~=::,~
-     ++~~:~===~:~,.~::,~=~.:,..,:,,:==:.,:7
-     ~~,::...:=:,::+:~:.,~,...,.,,,,::~,,::~=
-      =~===+=~~,.::,,,:::,..,,,,,,,,,,,:,..,=+?
-      ~=~=~::~~~::,.,,,~:.+,..,,,,..,,,,...,+I?
-      ~==~:~~:~~,~=~~:,:~,:,,,,,,....,,,..+?I?I
-      ~=~=+,:~:=,:~~~~~~::::,.,,.,,.,,,..~+????I
-      ~=~==~=:~~:,~~~~~:::,::,.,,,..,,,I77I?+??II
-      +I7:::~~=~:,::~~~~.=.,~,,,,...,~7III?+??II7
-     777?+~:=~=~~:,::~~:::.,,,,,,,,,777II??I777777
-     777I==:=~::~~~~::~:::,:,:~:::,777I???777777777
-    7777+,~===~:~:~~~~:::,.~:=,,:777II???77777777777=?
-    777I~,~~~=~::~:,:,,,:=~~,,:7777I???I7777777777+=++
-  I7777I,,:,.==::::,:,,,,::::7777I+??I77777777777??I7I7,
- ,77777I::,..~~:,,,,,,.,:~I7777I+??I777777777777?I7777777,
- 77777777,...~~:,,,,,.,77777I7???II777777777777+?7777777777
-77777777777:,~~~,,=7777777I???II777777777777777+77777777777
-77777777777777777777777I+7?7II77777777777777777+777777777777
+ \     /\  ___  /\
+  \   // \/   \/ \\
+     ((    o o    ))
+      \\ /     \ //
+       \/  | |  \/ 
+        |  | |  |  
+        |  | |  |  
+        |   o   |  
+        | |   | |  
+        |m|   |m|  
 ```
 <!-- END_QUOTE -->
 
