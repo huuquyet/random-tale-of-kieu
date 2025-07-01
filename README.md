@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦎛𤄯拯𡭧𡏧塵</p>
-      <p class="nom">没𠳒决罕𨷈分敬添”</p>
-      <p class="quocngu">Gương trong chẳng chút bụi trần,</p>
-      <p class="quocngu">Một lời quyết hẳn muôn phần kính thêm!</p>
-      <p class="author"><i>(Dòng 3173-3174) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“楼撑固媒秀󰜏</p>
+      <p class="nom">廊𨔈㐌跙衛𫅷歇綠”</p>
+      <p class="quocngu">Lầu xanh có mụ Tú bà,</p>
+      <p class="quocngu">Làng chơi đã trở về già hết duyên.</p>
+      <p class="author"><i>(Dòng 809-810) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,41 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “When a person sets out upon a journey -   \
-| whether to hunt for food or knowledge, to  |
-| make war, or even to visit the Otherworld  |
-| - they are never the same when they        |
-| return. Traveling changes us. Journeys     |
-| shapes our memories and expand our         |
-| experiences. Those things we bring back    |
-| from the hunt - either food or knowledge - |
-| sustain us and keep us curious about the   |
-| world. Think of your own travels and       |
-| adventures out upon the land or in foreign |
-| countries: What wonderful stories do you   |
-| have to tell? What experiences have you    |
-| "hunted" or sought on your travels? What   |
-| have you learned from the land? The        |
-| stories told about journeys are as         |
-| important (perhaps more important) than    |
-| the destination. The journey lasts for     |
-| only a fixed time, but the stories told of |
-| it, the wisdom brought back, can keep      |
-| traveling forever, keep living, even after |
-| the tellers have traveled on.”             |
+/ “Review and question what you already know \
+| or have. In most ball sports and games,    |
+| you confirm whether you have scored by     |
+| checking whether the ball has gone into    |
+| the goal or hit its target. So evaluation  |
+| of results means that you must look at     |
+| your goal to see if the ball has hit its   |
+| target. Look at your educational           |
+| aspirations or dreams and say “am I on     |
+| track to meet my 2020 PhD target?”         |
 |                                            |
-\  -- Ari Berk & Carolyn Dunn                /
+\  -- Archibald Marwizi                      /
  --------------------------------------------
- \     /\  ___  /\
-  \   // \/   \/ \\
-     ((    o o    ))
-      \\ /     \ //
-       \/  | |  \/ 
-        |  | |  |  
-        |  | |  |  
-        |   o   |  
-        | |   | |  
-        |m|   |m|  
+         \
+          \
+               ,.-----__
+            ,:::://///,:::-.
+           /:''/////// ``:::`;/|/
+          /'   ||||||     :://'`\
+        .' ,   ||||||     `/(  e \
+  -===~__-'\__X_`````\_____/~`-._ `.
+              ~~        ~~       `~-'
 ```
 <!-- END_QUOTE -->
 
