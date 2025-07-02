@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“楼撑固媒秀󰜏</p>
-      <p class="nom">廊𨔈㐌跙衛𫅷歇綠”</p>
-      <p class="quocngu">Lầu xanh có mụ Tú bà,</p>
-      <p class="quocngu">Làng chơi đã trở về già hết duyên.</p>
-      <p class="author"><i>(Dòng 809-810) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“拱料𥄮𬑉迻蹎</p>
+      <p class="nom">麻䀡昆造磋運典󰠳”</p>
+      <p class="quocngu">Cũng liều nhắm mắt đưa chân,</p>
+      <p class="quocngu">Mà xem con tạo xoay vần đến đâu!</p>
+      <p class="author"><i>(Dòng 1115-1116) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,28 +26,35 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Review and question what you already know \
-| or have. In most ball sports and games,    |
-| you confirm whether you have scored by     |
-| checking whether the ball has gone into    |
-| the goal or hit its target. So evaluation  |
-| of results means that you must look at     |
-| your goal to see if the ball has hit its   |
-| target. Look at your educational           |
-| aspirations or dreams and say “am I on     |
-| track to meet my 2020 PhD target?”         |
+/ “All the world is a stage, And all the men \
+| and women merely players. They have their  |
+| exits and entrances; Each man in his time  |
+| plays many parts.”                         |
 |                                            |
-\  -- Archibald Marwizi                      /
+\  -- William Shakespeare                    /
  --------------------------------------------
-         \
-          \
-               ,.-----__
-            ,:::://///,:::-.
-           /:''/////// ``:::`;/|/
-          /'   ||||||     :://'`\
-        .' ,   ||||||     `/(  e \
-  -===~__-'\__X_`````\_____/~`-._ `.
-              ~~        ~~       `~-'
+    \
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,              -%HX$%%%+;
+ =-./@M@M$                  .;@MMMM@MM:
+ X@/ -$MM/                    .+MM@@@M$
+,@M@H: :@:                    . =X#@@@@-
+,@@@MMX, .                    /H- ;@M@M=
+.H@@@@M@+,                    %MM+..%#$.
+ /MMMM@MMH/.                  XM@MH; =;
+  /%+%$XHH@$=              , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
