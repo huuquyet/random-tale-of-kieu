@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“拱料𥄮𬑉迻蹎</p>
-      <p class="nom">麻䀡昆造磋運典󰠳”</p>
-      <p class="quocngu">Cũng liều nhắm mắt đưa chân,</p>
-      <p class="quocngu">Mà xem con tạo xoay vần đến đâu!</p>
-      <p class="author"><i>(Dòng 1115-1116) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“外茹主客逸迢</p>
+      <p class="nom">𥪝茹萱貝󰜋翹於𥪝”</p>
+      <p class="quocngu">Ngoài nhà chủ khách dập dìu,</p>
+      <p class="quocngu">Trong nhà huyên với một Kiều ở trong.</p>
+      <p class="author"><i>(Dòng 873-874) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “All the world is a stage, And all the men \
-| and women merely players. They have their  |
-| exits and entrances; Each man in his time  |
-| plays many parts.”                         |
-|                                            |
-\  -- William Shakespeare                    /
- --------------------------------------------
-    \
-     \
-              .,-:;//;:=,
-          . :H@@@MM@M#H/.,+%;,
-       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
-  =@#@@@MX .,              -%HX$%%%+;
- =-./@M@M$                  .;@MMMM@MM:
- X@/ -$MM/                    .+MM@@@M$
-,@M@H: :@:                    . =X#@@@@-
-,@@@MMX, .                    /H- ;@M@M=
-.H@@@@M@+,                    %MM+..%#$.
- /MMMM@MMH/.                  XM@MH; =;
-  /%+%$XHH@$=              , .H@@@@MX,
-   .=--------.           -%H.,@@@@@MX,
-   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
-     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
-       =%@M@M#@$-.=$@MM@@@M; %M%=
-         ,:+$+-,/H#MMMMMMM@= =,
-               =++%%%%+/:-.
+ ___________________________________________
+/ “Show me a writer that doesn't use their  \
+| craft as a coping mechanism and I'll show |
+| you my unicorn.”                          |
+|                                           |
+\  -- Angelina Assanti                      /
+ -------------------------------------------
+   \
+    \              ....       
+           ........    .      
+          .            .      
+         .             .      
+.........              .......
+..............................
+
+Elephant inside ASCII snake
 ```
 <!-- END_QUOTE -->
 
