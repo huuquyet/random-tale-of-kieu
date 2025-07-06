@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥪝欺𢭸𦑃連梗</p>
-      <p class="nom">麻𢚸𥜤󰠹㐌呈󰜋邊”</p>
-      <p class="quocngu">Trong khi tựa cánh liền cành,</p>
-      <p class="quocngu">Mà lòng rẻ rúng đã trình một bên.</p>
-      <p class="author"><i>(Dòng 515-516) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㙴花客㐌跙鞋</p>
+      <p class="nom">娘群扲吏󰜋𠄩叙情”</p>
+      <p class="quocngu">Thềm hoa khách đã trở hài,</p>
+      <p class="quocngu">Nàng còn cầm lại một hai tự tình.</p>
+      <p class="author"><i>(Dòng 211-212) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “An intelligent person positively accepts  \
-| criticism, repeatedly thinks before giving |
-| any statement, and is capable of           |
-| motivating himself/herself to be           |
-| successful in the terrible situations in   |
-| the way of life journey.”                  |
-|                                            |
-\  -- Md. Mujib Ullah                        /
- --------------------------------------------
+ _______________________________________
+/ “When faced with people who have very \
+| limited conversational skills and no  |
+| apparent desire to cultivate any it's |
+| always easier to simply go along.”    |
+|                                       |
+\  -- Jeff Lindsay                      /
+ ---------------------------------------
    \
     \
- 
-              ,.:￣￣￣￣:.､
-            ／ .: .: .: .: .:＼
-          ／   __ l  __    .: .ヽ
-        ／:  ./ＶＶＶ＼:ﾄ､`.: .:.
-   (＼  ￣/.:ｲ.ｨ=ﾐ` ´ｨ=ﾐ､ヽ,: .:|
-   {ﾐと^ヘl.:ﾉ{ぅｿ,  ぅｿ}|:|^ヽ:|
-    ヽ〃: ﾚ｛    __ -､ " |:| ﾉ::|
-      ＼: :ﾊ＼  {    }  ,ﾚイ:::八
-        ＼ :V.:>:ニニﾆ:＜ＶＶＶ
-          ＼ :v:〈|父 /:|:ﾊ┐
-            ヾ{:｢|/:|/ <:/:ﾉ＼
-              {:\|::/:／:{: :ヽ
-              {: : : :`: /> : :>
-             / : ﾟ : : ﾟ : Y: :/
-            /: : : : : : : |ヽ/
-           〈: :ﾟ: ﾊ : :ﾟ: ∟ｺ
-           /::---':::------く 
+  
+            . .: ───:. .
+         .／.: .: .: .: .: ヽ
+        .:   .:l.:   .: .: .:.
+        |.l:..ﾊ.ハ..|ヽ.ﾄ､:: |
+        |:l.:/ヽ､_ヽ|_ノV:.:.|
+        |:lﾊ.  {j    {j  |:ヽl
+        ﾉ:l} ''        ''|:ノヽ／ )
+        ヽﾍ:ヽ.､ r---､  ｨﾉ ┬' `／
+     γ::ヽ  ｀^Y`TﾇΤ` {__├'`'
+     ｀‐< ＼_ ハ |:|  Y
+          ヽ_>､|  |:|／|
+               /   V   l
+             〈        〉
+           〈:｀-:';`-´:〉
+            .>-:ｧ─--‐r-:ｨ
+            /  /     |  |
+           /  /      |  |
+          /-,/       |--|
+         に7         |二|
 ```
 <!-- END_QUOTE -->
 
