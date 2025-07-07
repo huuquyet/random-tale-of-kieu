@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㙴花客㐌跙鞋</p>
-      <p class="nom">娘群扲吏󰜋𠄩叙情”</p>
-      <p class="quocngu">Thềm hoa khách đã trở hài,</p>
-      <p class="quocngu">Nàng còn cầm lại một hai tự tình.</p>
-      <p class="author"><i>(Dòng 211-212) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪牢𥪝節清明</p>
+      <p class="nom">麻低香𤌋永醒世麻”</p>
+      <p class="quocngu">Rằng: "Sao trong tiết Thanh minh,</p>
+      <p class="quocngu">Mà đây hương khói vắng tanh thế mà?"</p>
+      <p class="author"><i>(Dòng 59-60) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “When faced with people who have very \
-| limited conversational skills and no  |
-| apparent desire to cultivate any it's |
-| always easier to simply go along.”    |
-|                                       |
-\  -- Jeff Lindsay                      /
- ---------------------------------------
+ ___________________________________________
+/ “Why would anyone walk through life       \
+| satisfied with the light from the candle  |
+| of their own understanding when, by       |
+| reaching out to our Heavenly Father, they |
+| could experience the bright sun of        |
+| spiritual knowledge that would expand     |
+| their minds with wisdom and fill their    |
+| souls with joy?”                          |
+|                                           |
+\  -- Dieter F. Uchtdorf                    /
+ -------------------------------------------
+  \
    \
-    \
-  
-            . .: ───:. .
-         .／.: .: .: .: .: ヽ
-        .:   .:l.:   .: .: .:.
-        |.l:..ﾊ.ハ..|ヽ.ﾄ､:: |
-        |:l.:/ヽ､_ヽ|_ノV:.:.|
-        |:lﾊ.  {j    {j  |:ヽl
-        ﾉ:l} ''        ''|:ノヽ／ )
-        ヽﾍ:ヽ.､ r---､  ｨﾉ ┬' `／
-     γ::ヽ  ｀^Y`TﾇΤ` {__├'`'
-     ｀‐< ＼_ ハ |:|  Y
-          ヽ_>､|  |:|／|
-               /   V   l
-             〈        〉
-           〈:｀-:';`-´:〉
-            .>-:ｧ─--‐r-:ｨ
-            /  /     |  |
-           /  /      |  |
-          /-,/       |--|
-         に7         |二|
+
+     Lｰ'{r ｧjｰノ
+      _`)-ﾑ{
+    /´::( ･)ヽ-- ､
+   {::::::::::::::}
+   ゝ:::::.ノー-
+     しｿ¨UU
 ```
 <!-- END_QUOTE -->
 
