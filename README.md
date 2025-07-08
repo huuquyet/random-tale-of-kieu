@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浪牢𥪝節清明</p>
-      <p class="nom">麻低香𤌋永醒世麻”</p>
-      <p class="quocngu">Rằng: "Sao trong tiết Thanh minh,</p>
-      <p class="quocngu">Mà đây hương khói vắng tanh thế mà?"</p>
-      <p class="author"><i>(Dòng 59-60) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣘽𣙩自跙牟禪</p>
+      <p class="nom">𡑝秋𦝄㐌𠄩畨𨅸頭”</p>
+      <p class="quocngu">Nâu sồng từ trở mầu thiền,</p>
+      <p class="quocngu">Sân thu trăng đã hai phen đứng đầu.</p>
+      <p class="author"><i>(Dòng 1933-1934) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Why would anyone walk through life       \
-| satisfied with the light from the candle  |
-| of their own understanding when, by       |
-| reaching out to our Heavenly Father, they |
-| could experience the bright sun of        |
-| spiritual knowledge that would expand     |
-| their minds with wisdom and fill their    |
-| souls with joy?”                          |
-|                                           |
-\  -- Dieter F. Uchtdorf                    /
- -------------------------------------------
-  \
+ ____________________________________________
+/ “I've never heard my dad say a bad word    \
+| about anybody. He always keeps his         |
+| emotions in check and is a true gentleman. |
+| I was taught that losing it was indulgent, |
+| a selfish act.”                            |
+|                                            |
+\  -- Hugh Jackman                           /
+ --------------------------------------------
    \
-
-     Lｰ'{r ｧjｰノ
-      _`)-ﾑ{
-    /´::( ･)ヽ-- ､
-   {::::::::::::::}
-   ゝ:::::.ノー-
-     しｿ¨UU
+    \
+         _____
+       .\'/L|__`.
+      / =[_]O|` \
+      |\"+_____\":|
+    __:='|____`-:__
+   ||[] ||====| []||
+   ||[] | |=| | []||
+   |:||_|=|U| |_||:|
+   |:|||]_=_ =[_||:| LS
+   | |||] [_][]C|| |
+   | ||-\'\"\"\"\"\"`-|| |
+   /|\\_\_|_|_/_//|\
+  |___|   /|\   |___|
+  `---\'  |___|  `---\'
+         `---'
 ```
 <!-- END_QUOTE -->
 
