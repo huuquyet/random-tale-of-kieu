@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣘽𣙩自跙牟禪</p>
-      <p class="nom">𡑝秋𦝄㐌𠄩畨𨅸頭”</p>
-      <p class="quocngu">Nâu sồng từ trở mầu thiền,</p>
-      <p class="quocngu">Sân thu trăng đã hai phen đứng đầu.</p>
-      <p class="author"><i>(Dòng 1933-1934) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘強󰢧戾塢𠵱</p>
+      <p class="nom">󰁹𦖻𠳨吏花婢𠓀𡢐”</p>
+      <p class="quocngu">Nàng càng e lệ ủ ê,</p>
+      <p class="quocngu">Rỉ tai hỏi lại hoa tì trước sau.</p>
+      <p class="author"><i>(Dòng 1993-1994) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I've never heard my dad say a bad word    \
-| about anybody. He always keeps his         |
-| emotions in check and is a true gentleman. |
-| I was taught that losing it was indulgent, |
-| a selfish act.”                            |
-|                                            |
-\  -- Hugh Jackman                           /
- --------------------------------------------
-   \
-    \
-         _____
-       .\'/L|__`.
-      / =[_]O|` \
-      |\"+_____\":|
-    __:='|____`-:__
-   ||[] ||====| []||
-   ||[] | |=| | []||
-   |:||_|=|U| |_||:|
-   |:|||]_=_ =[_||:| LS
-   | |||] [_][]C|| |
-   | ||-\'\"\"\"\"\"`-|| |
-   /|\\_\_|_|_/_//|\
-  |___|   /|\   |___|
-  `---\'  |___|  `---\'
-         `---'
+ ___________________________________________
+/ “My heart is filled with endless praise.” \
+|                                           |
+\  -- Lailah Gifty Akita                    /
+ -------------------------------------------
+ \     ____________ 
+  \    |__________|
+      /           /\
+     /           /  \
+    /___________/___/|
+    |          |     |
+    |  ==\ /== |     |
+    |   o   o  | \ \ |
+    |     <    |  \ \|
+   /|          |   \ \
+  / |  \_____/ |   / /
+ / /|          |  / /|
+/||\|          | /||\/
+    -------------|   
+        | |    | | 
+       <__/    \__>
 ```
 <!-- END_QUOTE -->
 
