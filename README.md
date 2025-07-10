@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘強󰢧戾塢𠵱</p>
-      <p class="nom">󰁹𦖻𠳨吏花婢𠓀𡢐”</p>
-      <p class="quocngu">Nàng càng e lệ ủ ê,</p>
-      <p class="quocngu">Rỉ tai hỏi lại hoa tì trước sau.</p>
-      <p class="author"><i>(Dòng 1993-1994) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“妾油𢜗拯𫨩推</p>
+      <p class="nom">㐌洳䏾擬吏碑𠰘唭”</p>
+      <p class="quocngu">Thiếp dù vụng chẳng hay suy,</p>
+      <p class="quocngu">Đã dơ bụng nghĩ, lại bia miệng cười."</p>
+      <p class="author"><i>(Dòng 1587-1588) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “My heart is filled with endless praise.” \
-|                                           |
-\  -- Lailah Gifty Akita                    /
- -------------------------------------------
- \     ____________ 
-  \    |__________|
-      /           /\
-     /           /  \
-    /___________/___/|
-    |          |     |
-    |  ==\ /== |     |
-    |   o   o  | \ \ |
-    |     <    |  \ \|
-   /|          |   \ \
-  / |  \_____/ |   / /
- / /|          |  / /|
-/||\|          | /||\/
-    -------------|   
-        | |    | | 
-       <__/    \__>
+ ____________________________________________
+/ “Obedience leads to a powerful, confident  \
+| life. When you are obedient, and when you  |
+| allow yourself to be led by God through    |
+| the unexpected, then you have a confidence |
+| based on the fact that you know exactly    |
+| where God wants you to be.”                |
+|                                            |
+\  -- Jim George                             /
+ --------------------------------------------
+ \
+  \
+ _   /|
+ \'o.O'
+ =(___)=
+    U
 ```
 <!-- END_QUOTE -->
 
