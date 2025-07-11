@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“妾油𢜗拯𫨩推</p>
-      <p class="nom">㐌洳䏾擬吏碑𠰘唭”</p>
-      <p class="quocngu">Thiếp dù vụng chẳng hay suy,</p>
-      <p class="quocngu">Đã dơ bụng nghĩ, lại bia miệng cười."</p>
-      <p class="author"><i>(Dòng 1587-1588) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“唅𠿯𢷀幅簾珠</p>
+      <p class="nom">隔楼𦖑固㗂兜和韻”</p>
+      <p class="quocngu">Ngậm ngùi rủ bức rèm châu,</p>
+      <p class="quocngu">Cách lầu nghe có tiếng đâu hoạ vần.</p>
+      <p class="author"><i>(Dòng 1057-1058) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Obedience leads to a powerful, confident  \
-| life. When you are obedient, and when you  |
-| allow yourself to be led by God through    |
-| the unexpected, then you have a confidence |
-| based on the fact that you know exactly    |
-| where God wants you to be.”                |
-|                                            |
-\  -- Jim George                             /
- --------------------------------------------
- \
-  \
- _   /|
- \'o.O'
- =(___)=
-    U
+ ___________________________________________
+/ “I can’t do this anymore if it’s not with \
+| you. Fuck me straight to hell." ~Eve to   |
+| Beckett”                                  |
+|                                           |
+\  -- Debra Anastasia                       /
+ -------------------------------------------
+  \     .    _  .    
+   \    |\_|/__/|    
+       / / \/ \  \  
+      /__|o||o|__ \ 
+     |/_ \_/\_/ _\ |  
+     | | (____) | ||  
+     \/\___/\__/  // 
+     (_/         ||
+      |          ||
+      |          ||\   
+       \        //_/  
+        \______//
+       __ || __||
+      (____(____)
 ```
 <!-- END_QUOTE -->
 
