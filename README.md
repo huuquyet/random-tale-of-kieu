@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“唅𠿯𢷀幅簾珠</p>
-      <p class="nom">隔楼𦖑固㗂兜和韻”</p>
-      <p class="quocngu">Ngậm ngùi rủ bức rèm châu,</p>
-      <p class="quocngu">Cách lầu nghe có tiếng đâu hoạ vần.</p>
-      <p class="author"><i>(Dòng 1057-1058) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“仍羅吟咀𠽆嘆</p>
+      <p class="nom">小姐沛𣇜問安𧗱茹”</p>
+      <p class="quocngu">Những là ngậm thở nuốt than,</p>
+      <p class="quocngu">Tiểu thư phải buổi vấn an về nhà.</p>
+      <p class="author"><i>(Dòng 1939-1940) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,26 +26,13 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “I can’t do this anymore if it’s not with \
-| you. Fuck me straight to hell." ~Eve to   |
-| Beckett”                                  |
+/ “Jesus Christ Hiaku Jesus Christget a job \
+| already.You're killing your mother!”      |
 |                                           |
-\  -- Debra Anastasia                       /
+\  -- Beryl Dov                             /
  -------------------------------------------
-  \     .    _  .    
-   \    |\_|/__/|    
-       / / \/ \  \  
-      /__|o||o|__ \ 
-     |/_ \_/\_/ _\ |  
-     | | (____) | ||  
-     \/\___/\__/  // 
-     (_/         ||
-      |          ||
-      |          ||\   
-       \        //_/  
-        \______//
-       __ || __||
-      (____(____)
+\
+ \
 ```
 <!-- END_QUOTE -->
 
