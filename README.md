@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“仍羅吟咀𠽆嘆</p>
-      <p class="nom">小姐沛𣇜問安𧗱茹”</p>
-      <p class="quocngu">Những là ngậm thở nuốt than,</p>
-      <p class="quocngu">Tiểu thư phải buổi vấn an về nhà.</p>
-      <p class="author"><i>(Dòng 1939-1940) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“邏朱丐㳥傾城</p>
+      <p class="nom">爫朱覩舘漂亭如𨔈”</p>
+      <p class="quocngu">Lạ cho cái sóng khuynh thành,</p>
+      <p class="quocngu">Làm cho đổ quán xiêu đình như chơi!</p>
+      <p class="author"><i>(Dòng 1301-1302) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,13 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Jesus Christ Hiaku Jesus Christget a job \
-| already.You're killing your mother!”      |
+/ “Our religion was the religion of a Book. \
+| Man must be educated on Earth for Heaven. |
+| John Quincy Adams”                        |
 |                                           |
-\  -- Beryl Dov                             /
+\  -- Paul C. Nagel                         /
  -------------------------------------------
-\
- \
+     \
+      \
+     _              __
+    / `\  (~._    ./  )
+    \__/ __`-_\__/ ./
+   _ \ \/  \   \ |_   __
+ (   )  \__/ -^    \ /  \
+  \_/ "  \  | o  o  |.. /  __
+       \. --' ====  /  || /  \
+         \   .  .  |---__.\__/
+         /  :     /   |   |
+         /   :   /     \_/
+      --/ ::    (
+     (  |     (  (____
+   .--  .. ----**.____)
+   \___/
 ```
 <!-- END_QUOTE -->
 
