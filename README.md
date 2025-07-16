@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“萌湘拂拂𩙍彈</p>
-      <p class="nom">香𡀲味𢖵茶乾𠰩情”</p>
-      <p class="quocngu">Mành Tương phất phất gió đàn,</p>
-      <p class="quocngu">Hương gây mùi nhớ, trà khan giọng tình.</p>
-      <p class="author"><i>(Dòng 255-256) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“沫台湥渃梗楊</p>
+      <p class="nom">𤏣𢚸洒𤎕每塘塵緣”</p>
+      <p class="quocngu">Cho hay giọt nước cành dương,</p>
+      <p class="quocngu">Tỏ lòng tưới tắt mọi đường trần duyên.</p>
+      <p class="author"><i>(Dòng 1931-1932) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “The best decision you could make in an  \
-| event of failure, is to still believe in |
-| yourself.”                               |
-|                                          |
-\  --                                      /
- ------------------------------------------
-   \
-    \
-    ____  
-   /# /_\_
-  |  |/oo\
-  |  \\_/_/
- / |_   |  
-|  ||\_ ~| 
-|  ||| \/  
-|  |||_    
- \//  |    
-  ||  |    
-  ||_  \   
-  \_|  o|  
-  /\___/   
- /  ||||__ 
-    (___)_)
+ _____________________________________________
+/ “When a woman miscarries, the experience of \
+| the father is often forgotten. But men      |
+| grieve pregnancy loss too...”               |
+|                                             |
+\  -- Various                                 /
+ ---------------------------------------------
+     \
+      \
+         __________________
+        /\  ______________ \
+       /::\ \ZZZZZZZZZZZZ/\ \
+      /:/\.\ \        /:/\:\ \
+     /:/Z/\:\ \      /:/Z/\:\ \
+    /:/Z/__\:\ \____/:/Z/  \:\ \
+   /:/Z/____\:\ \___\/Z/    \:\ \
+   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
+    \:\ \     \:\ \ \:\ \     \:\ \
+     \:\ \     \:\ \_\;\_\_____\;\ \
+      \:\ \     \:\_________________\
+       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
+        \:\ \  /:/Z/    \:\ \  /:/Z/
+         \:\ \/:/Z/      \:\ \/:/Z/
+          \:\/:/Z/________\;\/:/Z/
+           \::/Z/_______itz__\/Z/
+            \/ZZZZZZZZZZZZZZZZZ/
 ```
 <!-- END_QUOTE -->
 
