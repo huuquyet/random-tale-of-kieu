@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“沫台湥渃梗楊</p>
-      <p class="nom">𤏣𢚸洒𤎕每塘塵緣”</p>
-      <p class="quocngu">Cho hay giọt nước cành dương,</p>
-      <p class="quocngu">Tỏ lòng tưới tắt mọi đường trần duyên.</p>
-      <p class="author"><i>(Dòng 1931-1932) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨷶茹油併衛𡢐</p>
+      <p class="nom">𪰛群㛪妬路求姉低”</p>
+      <p class="quocngu">Cửa nhà dù tính về sau,</p>
+      <p class="quocngu">Thì còn em đó, lọ cầu chị đây?</p>
+      <p class="author"><i>(Dòng 3159-3160) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “When a woman miscarries, the experience of \
-| the father is often forgotten. But men      |
-| grieve pregnancy loss too...”               |
-|                                             |
-\  -- Various                                 /
- ---------------------------------------------
-     \
-      \
-         __________________
-        /\  ______________ \
-       /::\ \ZZZZZZZZZZZZ/\ \
-      /:/\.\ \        /:/\:\ \
-     /:/Z/\:\ \      /:/Z/\:\ \
-    /:/Z/__\:\ \____/:/Z/  \:\ \
-   /:/Z/____\:\ \___\/Z/    \:\ \
-   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
-    \:\ \     \:\ \ \:\ \     \:\ \
-     \:\ \     \:\ \_\;\_\_____\;\ \
-      \:\ \     \:\_________________\
-       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
-        \:\ \  /:/Z/    \:\ \  /:/Z/
-         \:\ \/:/Z/      \:\ \/:/Z/
-          \:\/:/Z/________\;\/:/Z/
-           \::/Z/_______itz__\/Z/
-            \/ZZZZZZZZZZZZZZZZZ/
+ ____________________________________________
+/ “Compassion may be defined as the capacity \
+| to be attentive to the experience of       |
+| others, to wish the best for others, and   |
+| to sense what will truly serve others.”    |
+|                                            |
+\  -- Joan Halifax                           /
+ --------------------------------------------
+  \
+   \ ..:::::::::.
+    ::::::::::::::
+   /. `::::::::::::
+  O__,_:::::::::::'
 ```
 <!-- END_QUOTE -->
 
