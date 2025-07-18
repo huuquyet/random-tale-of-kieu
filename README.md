@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨷶茹油併衛𡢐</p>
-      <p class="nom">𪰛群㛪妬路求姉低”</p>
-      <p class="quocngu">Cửa nhà dù tính về sau,</p>
-      <p class="quocngu">Thì còn em đó, lọ cầu chị đây?</p>
-      <p class="author"><i>(Dòng 3159-3160) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“欺無錫欺臨淄</p>
+      <p class="nom">尼𪰛驢倒尼𪰛㤕傷”</p>
+      <p class="quocngu">"Khi Vô Tích, khi Lâm Truy,</p>
+      <p class="quocngu">Nơi thì lừa đảo, nơi thì xót thương.</p>
+      <p class="author"><i>(Dòng 2291-2292) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,18 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Compassion may be defined as the capacity \
-| to be attentive to the experience of       |
-| others, to wish the best for others, and   |
-| to sense what will truly serve others.”    |
+/ “You are the vessels of endless love. Your \
+| little, soft and melting heart is always   |
+| carrying it for you and all, endlessly.”   |
 |                                            |
-\  -- Joan Halifax                           /
+\  -- Debasish Mridha                        /
  --------------------------------------------
+ \
   \
-   \ ..:::::::::.
-    ::::::::::::::
-   /. `::::::::::::
-  O__,_:::::::::::'
+    .::.
+    _::_
+  _/____\_
+  \      /
+   \____/
+   (____)
+    |  |
+    |__|
+   /    \
+  (______)
+ (________)
+ /________\
 ```
 <!-- END_QUOTE -->
 
