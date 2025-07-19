@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“欺無錫欺臨淄</p>
-      <p class="nom">尼𪰛驢倒尼𪰛㤕傷”</p>
-      <p class="quocngu">"Khi Vô Tích, khi Lâm Truy,</p>
-      <p class="quocngu">Nơi thì lừa đảo, nơi thì xót thương.</p>
-      <p class="author"><i>(Dòng 2291-2292) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘自隻䏾窻梅</p>
+      <p class="nom">𣈘輸蕩蕩𣈜掑杄𩄲”</p>
+      <p class="quocngu">Nàng từ chiếc bóng song mai,</p>
+      <p class="quocngu">Đêm thâu đằng đẵng ngày cài then mây.</p>
+      <p class="author"><i>(Dòng 2231-2232) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,26 +26,37 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “You are the vessels of endless love. Your \
-| little, soft and melting heart is always   |
-| carrying it for you and all, endlessly.”   |
+/ “There was this movie that I would watch   \
+| with her all the time, some stupid chick   |
+| flick, and it had this opening line that   |
+| would always make her catch her breath. 'I |
+| remember it hurt. Looking at her hurt',    |
+| and I now realize that it was true. Every  |
+| day I looked at her, it hurt. Hurt so      |
+| much, because she was dying, and I         |
+| couldn't help her.”                        |
 |                                            |
-\  -- Debasish Mridha                        /
+\  -- Runaway Bunny                          /
  --------------------------------------------
- \
-  \
-    .::.
-    _::_
-  _/____\_
-  \      /
-   \____/
-   (____)
-    |  |
-    |__|
-   /    \
-  (______)
- (________)
- /________\
+     \
+      \
+         __________________
+        /\  ______________ \
+       /::\ \ZZZZZZZZZZZZ/\ \
+      /:/\.\ \        /:/\:\ \
+     /:/Z/\:\ \      /:/Z/\:\ \
+    /:/Z/__\:\ \____/:/Z/  \:\ \
+   /:/Z/____\:\ \___\/Z/    \:\ \
+   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
+    \:\ \     \:\ \ \:\ \     \:\ \
+     \:\ \     \:\ \_\;\_\_____\;\ \
+      \:\ \     \:\_________________\
+       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
+        \:\ \  /:/Z/    \:\ \  /:/Z/
+         \:\ \/:/Z/      \:\ \/:/Z/
+          \:\/:/Z/________\;\/:/Z/
+           \::/Z/_______itz__\/Z/
+            \/ZZZZZZZZZZZZZZZZZ/
 ```
 <!-- END_QUOTE -->
 
