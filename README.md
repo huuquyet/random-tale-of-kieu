@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘自隻䏾窻梅</p>
-      <p class="nom">𣈘輸蕩蕩𣈜掑杄𩄲”</p>
-      <p class="quocngu">Nàng từ chiếc bóng song mai,</p>
-      <p class="quocngu">Đêm thâu đằng đẵng ngày cài then mây.</p>
-      <p class="author"><i>(Dòng 2231-2232) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“特信金買𫫵王</p>
+      <p class="nom">便塘拱吏尋娘𡢐𠸗”</p>
+      <p class="quocngu">Được tin, Kim mới rủ Vương,</p>
+      <p class="quocngu">Tiện đường cùng lại tìm nàng sau xưa.</p>
+      <p class="author"><i>(Dòng 2955-2956) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “There was this movie that I would watch   \
-| with her all the time, some stupid chick   |
-| flick, and it had this opening line that   |
-| would always make her catch her breath. 'I |
-| remember it hurt. Looking at her hurt',    |
-| and I now realize that it was true. Every  |
-| day I looked at her, it hurt. Hurt so      |
-| much, because she was dying, and I         |
-| couldn't help her.”                        |
-|                                            |
-\  -- Runaway Bunny                          /
- --------------------------------------------
+ ___________________________________________
+/ “Focusing on effective leadership without \
+| focusing on a willingness to follow is    |
+| like studying clapping by studying only   |
+| the left hand.”                           |
+|                                           |
+\  -- Jonathan Haidt                        /
+ -------------------------------------------
      \
       \
-         __________________
-        /\  ______________ \
-       /::\ \ZZZZZZZZZZZZ/\ \
-      /:/\.\ \        /:/\:\ \
-     /:/Z/\:\ \      /:/Z/\:\ \
-    /:/Z/__\:\ \____/:/Z/  \:\ \
-   /:/Z/____\:\ \___\/Z/    \:\ \
-   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
-    \:\ \     \:\ \ \:\ \     \:\ \
-     \:\ \     \:\ \_\;\_\_____\;\ \
-      \:\ \     \:\_________________\
-       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
-        \:\ \  /:/Z/    \:\ \  /:/Z/
-         \:\ \/:/Z/      \:\ \/:/Z/
-          \:\/:/Z/________\;\/:/Z/
-           \::/Z/_______itz__\/Z/
-            \/ZZZZZZZZZZZZZZZZZ/
+                          .,---.
+                        ,/XM#MMMX;,
+                      -%##########M%,
+                     -@######%  $###@=
+      .,--,         -H#######$   $###M:
+   ,;$M###MMX;     .;##########$;HM###X=
+ ,/@##########H=      ;################+
+-+#############M/,      %##############+
+%M###############=      /##############:
+H################      .M#############;.
+@###############M      ,@###########M:.
+X################,      -$=X#######@:
+/@##################%-     +######$-
+.;##################X     .X#####+,
+ .;H################/     -X####+.
+   ,;X##############,       .MM/
+      ,:+$H@M#######M#$-    .$=
+           .,-=;+$@###X:    ;/=.
+                  .,/X$;   .::,
+                      .,    ..
 ```
 <!-- END_QUOTE -->
 
