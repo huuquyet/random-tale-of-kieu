@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“特信金買𫫵王</p>
-      <p class="nom">便塘拱吏尋娘𡢐𠸗”</p>
-      <p class="quocngu">Được tin, Kim mới rủ Vương,</p>
-      <p class="quocngu">Tiện đường cùng lại tìm nàng sau xưa.</p>
-      <p class="author"><i>(Dòng 2955-2956) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“悲𣇞𤯩托於𢬣</p>
+      <p class="nom">身尼㐌典世尼拱傕”</p>
+      <p class="quocngu">Bây giờ sống thác ở tay,</p>
+      <p class="quocngu">Thân này đã đến thế này cũng thôi!</p>
+      <p class="author"><i>(Dòng 1143-1144) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Focusing on effective leadership without \
-| focusing on a willingness to follow is    |
-| like studying clapping by studying only   |
-| the left hand.”                           |
-|                                           |
-\  -- Jonathan Haidt                        /
- -------------------------------------------
-     \
-      \
-                          .,---.
-                        ,/XM#MMMX;,
-                      -%##########M%,
-                     -@######%  $###@=
-      .,--,         -H#######$   $###M:
-   ,;$M###MMX;     .;##########$;HM###X=
- ,/@##########H=      ;################+
--+#############M/,      %##############+
-%M###############=      /##############:
-H################      .M#############;.
-@###############M      ,@###########M:.
-X################,      -$=X#######@:
-/@##################%-     +######$-
-.;##################X     .X#####+,
- .;H################/     -X####+.
-   ,;X##############,       .MM/
-      ,:+$H@M#######M#$-    .$=
-           .,-=;+$@###X:    ;/=.
-                  .,/X$;   .::,
-                      .,    ..
+ _____________________________________________
+/ “The Augusteum warns me not to get attached \
+| to any obsolete ideas about who I am, what  |
+| I represent, whom I belong to, or what      |
+| function I may once have intended to        |
+| serve.”                                     |
+|                                             |
+\  -- Elizabeth Gilbert                       /
+ ---------------------------------------------
+        \         ____________________
+         \       |                    |
+          \      |     PSYCHIATRIC    |
+           \     |        HELP        |
+            \    |____________________|
+             \   ||  ,-..'``.        ||
+              \  || (,-..'`. )       ||
+                 ||   )-c - `)\      ||
+   ,.,._.-.,_,.,-||,.(`.--  ,`',.-,_,||.-.,.,-,._.
+              ___||____,`,'--._______||
+             |`._||______`'__________||
+             |   ||     __           ||
+             |   ||    |.-' ,|-      ||
+   _,_,,..-,_|   ||    ._)) `|-      ||,.,_,_.-.,_
+            . `._||__________________||   ____    .
+     .              .           .     . <.____`>
+   .SSt  .      .     .      .    .   _.()`'()`'  .
 ```
 <!-- END_QUOTE -->
 
