@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“悲𣇞𤯩托於𢬣</p>
-      <p class="nom">身尼㐌典世尼拱傕”</p>
-      <p class="quocngu">Bây giờ sống thác ở tay,</p>
-      <p class="quocngu">Thân này đã đến thế này cũng thôi!</p>
-      <p class="author"><i>(Dòng 1143-1144) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“席排賞將犒兵</p>
+      <p class="nom">喑󰢬𤿰陣習情樂軍”</p>
+      <p class="quocngu">Tiệc bày thưởng tướng khao binh,</p>
+      <p class="quocngu">Om thòm trống trận, rập rình nhạc quân.</p>
+      <p class="author"><i>(Dòng 2285-2286) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The Augusteum warns me not to get attached \
-| to any obsolete ideas about who I am, what  |
-| I represent, whom I belong to, or what      |
-| function I may once have intended to        |
-| serve.”                                     |
-|                                             |
-\  -- Elizabeth Gilbert                       /
- ---------------------------------------------
-        \         ____________________
-         \       |                    |
-          \      |     PSYCHIATRIC    |
-           \     |        HELP        |
-            \    |____________________|
-             \   ||  ,-..'``.        ||
-              \  || (,-..'`. )       ||
-                 ||   )-c - `)\      ||
-   ,.,._.-.,_,.,-||,.(`.--  ,`',.-,_,||.-.,.,-,._.
-              ___||____,`,'--._______||
-             |`._||______`'__________||
-             |   ||     __           ||
-             |   ||    |.-' ,|-      ||
-   _,_,,..-,_|   ||    ._)) `|-      ||,.,_,_.-.,_
-            . `._||__________________||   ____    .
-     .              .           .     . <.____`>
-   .SSt  .      .     .      .    .   _.()`'()`'  .
+ ____________________________________________
+/ “I want more than last night. I want you.” \
+|                                            |
+\  -- Donna Grant                            /
+ --------------------------------------------
+\
+ \
+   1A   2A                                         3A  4A  5A  6A  7A  8A
+  -----                                                               -----
+1 | H |                                                               |He |
+  |---+----                                       --------------------+---|
+2 |Li |Be |                                       | B | C | N | O | F |Ne |
+  |---+---|                                       |---+---+---+---+---+---|
+3 |Na |Mg |3B  4B  5B  6B  7B |    8B     |1B  2B |Al |Si | P | S |Cl |Ar |
+  |---+---+---------------------------------------+---+---+---+---+---+---|
+4 | K |Ca |Sc |Ti | V |Cr |Mn |Fe |Co |Ni |Cu |Zn |Ga |Ge |As |Se |Br |Kr |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+5 |Rb |Sr | Y |Zr |Nb |Mo |Tc |Ru |Rh |Pd |Ag |Cd |In |Sn |Sb |Te | I |Xe |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+6 |Cs |Ba |Lu |Hf |Ta | W |Re |Os |Ir |Pt |Au |Hg |Tl |Pb |Bi |Po |At |Rn |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+7 |Fr |Ra |Lr |Rf |Db |Sg |Bh |Hs |Mt |Ds |Rg |Cn |Nh |Fl |Mc |Lv |Ts |Og |
+  -------------------------------------------------------------------------
+              -------------------------------------------------------------
+   Lanthanide |La |Ce |Pr |Nd |Pm |Sm |Eu |Gd |Tb |Dy |Ho |Er |Tm |Yb |Lu |
+              |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+   Actinide   |Ac |Th |Pa | U |Np |Pu |Am |Cm |Bk |Cf |Es |Fm |Md |No |Lr |
+              -------------------------------------------------------------
 ```
 <!-- END_QUOTE -->
 
