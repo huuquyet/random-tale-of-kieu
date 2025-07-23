@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“席排賞將犒兵</p>
-      <p class="nom">喑󰢬𤿰陣習情樂軍”</p>
-      <p class="quocngu">Tiệc bày thưởng tướng khao binh,</p>
-      <p class="quocngu">Om thòm trống trận, rập rình nhạc quân.</p>
-      <p class="author"><i>(Dòng 2285-2286) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“傷牢朱院𪰛傷</p>
+      <p class="nom">併牢朱院每塘嗔󰂅”</p>
+      <p class="quocngu">Thương sao cho vẹn thì thương,</p>
+      <p class="quocngu">Tính sao cho vẹn mọi đường xin vâng."</p>
+      <p class="author"><i>(Dòng 1359-1360) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I want more than last night. I want you.” \
-|                                            |
-\  -- Donna Grant                            /
- --------------------------------------------
-\
- \
-   1A   2A                                         3A  4A  5A  6A  7A  8A
-  -----                                                               -----
-1 | H |                                                               |He |
-  |---+----                                       --------------------+---|
-2 |Li |Be |                                       | B | C | N | O | F |Ne |
-  |---+---|                                       |---+---+---+---+---+---|
-3 |Na |Mg |3B  4B  5B  6B  7B |    8B     |1B  2B |Al |Si | P | S |Cl |Ar |
-  |---+---+---------------------------------------+---+---+---+---+---+---|
-4 | K |Ca |Sc |Ti | V |Cr |Mn |Fe |Co |Ni |Cu |Zn |Ga |Ge |As |Se |Br |Kr |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-5 |Rb |Sr | Y |Zr |Nb |Mo |Tc |Ru |Rh |Pd |Ag |Cd |In |Sn |Sb |Te | I |Xe |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-6 |Cs |Ba |Lu |Hf |Ta | W |Re |Os |Ir |Pt |Au |Hg |Tl |Pb |Bi |Po |At |Rn |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-7 |Fr |Ra |Lr |Rf |Db |Sg |Bh |Hs |Mt |Ds |Rg |Cn |Nh |Fl |Mc |Lv |Ts |Og |
-  -------------------------------------------------------------------------
-              -------------------------------------------------------------
-   Lanthanide |La |Ce |Pr |Nd |Pm |Sm |Eu |Gd |Tb |Dy |Ho |Er |Tm |Yb |Lu |
-              |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-   Actinide   |Ac |Th |Pa | U |Np |Pu |Am |Cm |Bk |Cf |Es |Fm |Md |No |Lr |
-              -------------------------------------------------------------
+ ___________________________________________
+/ “I feel as though I’m in a dream, where   \
+| strange things are happening but they     |
+| don’t feel strange. Everything is         |
+| cloudy—everything is wrapped in a fog—and |
+| I’m filled from head to toe with the      |
+| single, burning desire to get closer to   |
+| the music, to hear the music better, for  |
+| the music to go on and on and on.”        |
+|                                           |
+\  -- Lauren Oliver                         /
+ -------------------------------------------
+   \
+    \
+         _____
+       .\'/L|__`.
+      / =[_]O|` \
+      |\"+_____\":|
+    __:='|____`-:__
+   ||[] ||====| []||
+   ||[] | |=| | []||
+   |:||_|=|U| |_||:|
+   |:|||]_=_ =[_||:| LS
+   | |||] [_][]C|| |
+   | ||-\'\"\"\"\"\"`-|| |
+   /|\\_\_|_|_/_//|\
+  |___|   /|\   |___|
+  `---\'  |___|  `---\'
+         `---'
 ```
 <!-- END_QUOTE -->
 
