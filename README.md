@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“用孕欺𨀈蹎𠚢</p>
-      <p class="nom">極𤾓𠦳餒吲𠀧𦊚吝”</p>
-      <p class="quocngu">Dùng dằng khi bước chân ra,</p>
-      <p class="quocngu">Cực trăm nghìn nỗi, dặn ba bốn lần.</p>
-      <p class="author"><i>(Dòng 2781-2782) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“共饒蹺𨃴差衙</p>
+      <p class="nom">雙雙𠓨𫏾𡑝花𥙙跪”</p>
+      <p class="quocngu">Cùng nhau theo gót sai nha,</p>
+      <p class="quocngu">Song song vào trước sân hoa díu quỳ.</p>
+      <p class="author"><i>(Dòng 1407-1408) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,59 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The aggregate appearance is of dignity and \
-| dissoluteness. The aggregate voice is a     |
-| defiant prayer. But the spirit of the       |
-| whole is processional. The power, that has  |
-| said to all these things that they are      |
-| damned, is dogmatic science. But they'll    |
-| march! The little harlots will caper and    |
-| the freaks will distract the attention and  |
-| the clowns will break the rhythm of the     |
-| whole with their buffooneries. But the      |
-| solidity of the procession as a whole, the  |
-| solidity of things which pass and pass and  |
-| pass, and keep on and keep on coming, the   |
-| irresistibleness of things that neither     |
-| threaten, nor jeer, nor defy, but arrange   |
-| themselves in mass formations that pass     |
-| and pass and keep on passing. So, by the    |
-| damned, I mean the excluded.”               |
-|                                             |
-\  -- Charles Fort                            /
- ---------------------------------------------
+ ____________________________________________
+/ “The travel book is a convenient metaphor  \
+| for life, with its optimistic beginning or |
+| departure, its determined striving, and    |
+| its reflective conclusion. Journeys change |
+| travellers just as a good travel book can  |
+| change readers.”                           |
+|                                            |
+\  -- Rory MacLean                           /
+ --------------------------------------------
     \
-     \
-              /\
-             <  \
-             |\  \
-             | \  \
-             | .\  >
-             |  .\/|
-             |   .||
-             |    ||
-            / \   ||
-           /,-.\: ||
-          /,,  `\ ||
-         /,  ', `\||
-        /, *   ''/ |
-       /,    *,'/  |
-      /,     , /   |
-     / :    , /   .|
-    /\ :   , /   /||
-   |\ \ .., /   / ||
-   |.\ \ . /   /  ||
-   |  \ \ /   /   ||
-   |   \ /   /    |'
-   |\o '|o  /
-   ||\o |  /
-   || \ | /
-   ||  \|/
-   |'   ||
-        ||
-        ||
-        |'
+     \ 
+      \
+       \
+                                           .::.                      
+                                           _::_                      
+                                 ()      _/____\_                    
+                               <~~~~>    \      /                    
+                       <>_      \__/      \____/      <>_            
+           __/"""\   (\)  )    (____)     (____)    (\)  )   __/"""\ 
+  WWWWWW  ]___ 0  }   \__/      |  |       |  |      \__/   ]___ 0  }  WWWWWW
+   |  |       /   }  (____)     |  |       |__|     (____)      /   }   |  |
+   |  |     /~    }   |  |      |__|      /    \     |  |     /~    }   |  |
+   |__|     \____/    |__|     /____\    (______)    |__|     \____/    |__|
+  /____\    /____\   /____\   (______)  (________)  /____\    /____\   /____\
+ (______)  (______) (______) (________) /________\ (______)  (______) (______)
+
+    __        __       __        __         __        __        __       __
+   (  )      (  )     (  )      (  )       (  )      (  )      (  )     (  )
+    ||        ||       ||        ||         ||        ||        ||       ||
+   /__\      /__\     /__\      /__\       /__\      /__\      /__\     /__\
+  (____)    (____)   (____)    (____)     (____)    (____)    (____)   (____)
 ```
 <!-- END_QUOTE -->
 
