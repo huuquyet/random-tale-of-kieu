@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“共饒蹺𨃴差衙</p>
-      <p class="nom">雙雙𠓨𫏾𡑝花𥙙跪”</p>
-      <p class="quocngu">Cùng nhau theo gót sai nha,</p>
-      <p class="quocngu">Song song vào trước sân hoa díu quỳ.</p>
-      <p class="author"><i>(Dòng 1407-1408) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“土官蹺𣾼倍鐄</p>
+      <p class="nom">娘它浸玉沉香㐌耒”</p>
+      <p class="quocngu">Thổ quan theo vớt vội vàng,</p>
+      <p class="quocngu">Nàng đà đắm ngọc chìm hương đã rồi!</p>
+      <p class="author"><i>(Dòng 2637-2638) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The travel book is a convenient metaphor  \
-| for life, with its optimistic beginning or |
-| departure, its determined striving, and    |
-| its reflective conclusion. Journeys change |
-| travellers just as a good travel book can  |
-| change readers.”                           |
-|                                            |
-\  -- Rory MacLean                           /
- --------------------------------------------
-    \
-     \ 
+ _____________________________________________
+/ “A faith that cannot survive collision with \
+| the truth is not worth many regrets.”       |
+|                                             |
+\  -- Arthur C. Clarke                        /
+ ---------------------------------------------
+     \
       \
-       \
-                                           .::.                      
-                                           _::_                      
-                                 ()      _/____\_                    
-                               <~~~~>    \      /                    
-                       <>_      \__/      \____/      <>_            
-           __/"""\   (\)  )    (____)     (____)    (\)  )   __/"""\ 
-  WWWWWW  ]___ 0  }   \__/      |  |       |  |      \__/   ]___ 0  }  WWWWWW
-   |  |       /   }  (____)     |  |       |__|     (____)      /   }   |  |
-   |  |     /~    }   |  |      |__|      /    \     |  |     /~    }   |  |
-   |__|     \____/    |__|     /____\    (______)    |__|     \____/    |__|
-  /____\    /____\   /____\   (______)  (________)  /____\    /____\   /____\
- (______)  (______) (______) (________) /________\ (______)  (______) (______)
-
-    __        __       __        __         __        __        __       __
-   (  )      (  )     (  )      (  )       (  )      (  )      (  )     (  )
-    ||        ||       ||        ||         ||        ||        ||       ||
-   /__\      /__\     /__\      /__\       /__\      /__\      /__\     /__\
-  (____)    (____)   (____)    (____)     (____)    (____)    (____)   (____)
+                          .,---.
+                        ,/XM#MMMX;,
+                      -%##########M%,
+                     -@######%  $###@=
+      .,--,         -H#######$   $###M:
+   ,;$M###MMX;     .;##########$;HM###X=
+ ,/@##########H=      ;################+
+-+#############M/,      %##############+
+%M###############=      /##############:
+H################      .M#############;.
+@###############M      ,@###########M:.
+X################,      -$=X#######@:
+/@##################%-     +######$-
+.;##################X     .X#####+,
+ .;H################/     -X####+.
+   ,;X##############,       .MM/
+      ,:+$H@M#######M#$-    .$=
+           .,-=;+$@###X:    ;/=.
+                  .,/X$;   .::,
+                      .,    ..
 ```
 <!-- END_QUOTE -->
 
