@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“法公照案論𠓨</p>
-      <p class="nom">固𠄩塘妬悶牢默命”</p>
-      <p class="quocngu">Phép công chiếu án luận vào,</p>
-      <p class="quocngu">Có hai đường đó muốn sao mặc mình:</p>
-      <p class="author"><i>(Dòng 1417-1418) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪𩄲𩙍泣迢</p>
+      <p class="nom">料身意拱沛料世傕”</p>
+      <p class="quocngu">Nàng rằng: "Mây gió dập dìu,</p>
+      <p class="quocngu">Liều thân ấy cũng phải liều thế thôi!"</p>
+      <p class="author"><i>(Dòng 1203-1204) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “who are you to teach me about life " she  \
-| said"I'm yourself in just another body "   |
-| he said nd smiled "but i dont know all     |
-| this" she wondered "we know everything but |
-| we have forgotten our real self nd replace |
-| it with false identity, whatever you see   |
-| is the extension of your self nd i hope    |
-| one day you will able to relize that " he  |
-| said without expression”                   |
-|                                            |
-\  -- jagvir ji                              /
- --------------------------------------------
-          \
-           \
-
-
-      ^^      .-=-=-=-.  ^^
-  ^^        (`-=-=-=-=-`)         ^^
-          (`-=-=-=-=-=-=-`)  ^^         ^^
-    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
-        ( `-=-=-=-(@)-=-=-` )      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-        (`-=-=-=-=-=-=-=-=-`)              ^^
-        (`-=-=-=-=-=-=-=-=-`)                      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-         (`-=-=-=-=-=-=-=-`)          ^^
-          (`-=-=-=-=-=-=-`)  ^^                 ^^
-      jgs   (`-=-=-=-=-`)
-             `-=-=-=-=-`
+ _____________________________________________
+/ “You are capable of fulfilling your dream.” \
+|                                             |
+\  -- Lailah Gifty Akita                      /
+ ---------------------------------------------
+       \
+        \
+         \
+             ＿＿＿＿
+           ／＿＿＿＿＼
+         ／／ (⌒ ⌒ ヽ＼＼
+        ｜｜  ﾉz(⌒ )| ｜｜
+        ｜｜ <   (_ノ ｜｜
+        ｜｜  L_／ )  ｜｜
+         ＼＼ /＿／  ／／
+           ＼⌒ )  (⌒ ／
+           ／／    ＼＼
+           ＼＼_  _／／
+             ﾍ＿)(＿/
+             ｜＝＝｜
+              ＼三／
+                ∧
+              ／  ＼
+              ＼  ／
+                Ｖ
 ```
 <!-- END_QUOTE -->
 
