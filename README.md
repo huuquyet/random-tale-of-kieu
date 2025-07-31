@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘浪𩄲𩙍泣迢</p>
-      <p class="nom">料身意拱沛料世傕”</p>
-      <p class="quocngu">Nàng rằng: "Mây gió dập dìu,</p>
-      <p class="quocngu">Liều thân ấy cũng phải liều thế thôi!"</p>
-      <p class="author"><i>(Dòng 1203-1204) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡧲𨦩槊𥩯鎌陳</p>
+      <p class="nom">掑𪘵𤞻𤢿𢭮身碎隊”</p>
+      <p class="quocngu">Trong vòng giáo dựng gươm trần,</p>
+      <p class="quocngu">Kề răng hùm sói, gửi thân tôi đòi.</p>
+      <p class="author"><i>(Dòng 2669-2670) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “You are capable of fulfilling your dream.” \
-|                                             |
-\  -- Lailah Gifty Akita                      /
- ---------------------------------------------
-       \
-        \
-         \
-             ＿＿＿＿
-           ／＿＿＿＿＼
-         ／／ (⌒ ⌒ ヽ＼＼
-        ｜｜  ﾉz(⌒ )| ｜｜
-        ｜｜ <   (_ノ ｜｜
-        ｜｜  L_／ )  ｜｜
-         ＼＼ /＿／  ／／
-           ＼⌒ )  (⌒ ／
-           ／／    ＼＼
-           ＼＼_  _／／
-             ﾍ＿)(＿/
-             ｜＝＝｜
-              ＼三／
-                ∧
-              ／  ＼
-              ＼  ／
-                Ｖ
+ ____________________________________________
+/ “Wait!" said Erbrechen, suddenly feeling   \
+| jovial. "I change my mind. Never shite     |
+| again. Ever. Anywhere."It was a small      |
+| thing, but of such small things were       |
+| life's joys truly made. The thought, he    |
+| knew, would keep him smiling for days."The |
+| world is a comedy, intoned Erbrechen,      |
+| tittering, "and each must play his fart.”  |
+|                                            |
+\  -- Michael R. Fletcher                    /
+ --------------------------------------------
+ \
+  \
+   \     O_      __)(
+       ,'  `.   (_".`.
+      :      :    /|`
+      |      |   ((|_  ,-.
+      ; -   /:  ,'  `:(( -\
+     /    -'  `: ____ \\\-:
+    _\__   ____|___  \____|_
+   ;    | |        '-`      :
+  :_____|:|__________________:
+  ;     |:|                  :
+ :      |:|                   :
+ ;_______`'___________________:
+:                              :
+|______________________________|
+ `---.--------------------.---'
+     |____________________|
+     |                    |
+     |____________________|
+     |                    |
+   _\|_\|_\/(__\__)\__\//_|(_
 ```
 <!-- END_QUOTE -->
 
