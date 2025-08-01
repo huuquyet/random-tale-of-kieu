@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡧲𨦩槊𥩯鎌陳</p>
-      <p class="nom">掑𪘵𤞻𤢿𢭮身碎隊”</p>
-      <p class="quocngu">Trong vòng giáo dựng gươm trần,</p>
-      <p class="quocngu">Kề răng hùm sói, gửi thân tôi đòi.</p>
-      <p class="author"><i>(Dòng 2669-2670) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“報恩耒仕㨋讐</p>
+      <p class="nom">徐浪役意底朱默娘”</p>
+      <p class="quocngu">Báo ân rồi sẽ trả thù."</p>
+      <p class="quocngu">Từ rằng: "Việc ấy để cho mặc nàng."</p>
+      <p class="author"><i>(Dòng 2323-2324) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Wait!" said Erbrechen, suddenly feeling   \
-| jovial. "I change my mind. Never shite     |
-| again. Ever. Anywhere."It was a small      |
-| thing, but of such small things were       |
-| life's joys truly made. The thought, he    |
-| knew, would keep him smiling for days."The |
-| world is a comedy, intoned Erbrechen,      |
-| tittering, "and each must play his fart.”  |
-|                                            |
-\  -- Michael R. Fletcher                    /
- --------------------------------------------
- \
+ _____________________________________________
+/ “Eins var algengt hjá okkur ef spurt var um \
+| líðan einhvers manns: iss hann er feitur;   |
+| en það þýddi að honum liði vel, eða einsog  |
+| sagt mundi vera í Danmörku, að hann væri    |
+| hamingjusamur. Ef einhverjum leið illa, þá  |
+| var sagt sem svo: æ það hálfsér á honum;    |
+| og væri sá nær dauða en lífi sem um var     |
+| rætt, þá var sagt: æ það er í er í honum    |
+| einhver lurða. Ef einhver var um það bil    |
+| að verða ellidauður, þá var sagt: æjá hann  |
+| er hættur að bleyta smjörið. Um þann sem    |
+| lá banaleguna var sagt: já hann er nú að    |
+| berja nestið auminginn. Um dauðvona         |
+| ungling var sagt að það liti ekki út fyrir  |
+| að hann ætti að kemba hærurnar.”            |
+|                                             |
+\  -- Halldór Laxness                         /
+ ---------------------------------------------
   \
-   \     O_      __)(
-       ,'  `.   (_".`.
-      :      :    /|`
-      |      |   ((|_  ,-.
-      ; -   /:  ,'  `:(( -\
-     /    -'  `: ____ \\\-:
-    _\__   ____|___  \____|_
-   ;    | |        '-`      :
-  :_____|:|__________________:
-  ;     |:|                  :
- :      |:|                   :
- ;_______`'___________________:
-:                              :
-|______________________________|
- `---.--------------------.---'
-     |____________________|
-     |                    |
-     |____________________|
-     |                    |
-   _\|_\|_\/(__\__)\__\//_|(_
+   \
+       ___  
+     {~o_o~}
+      ( Y )
+     ()~*~()   
+     (_)-(_)   
 ```
 <!-- END_QUOTE -->
 
