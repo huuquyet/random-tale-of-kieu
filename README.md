@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“役娘報復𣃣耒</p>
-      <p class="nom">覺緣倍㐌𠳚𠳒辭歸”</p>
-      <p class="quocngu">Việc nàng báo phục vừa rồi,</p>
-      <p class="quocngu">Giác Duyên vội đã gởi lời từ quy.</p>
-      <p class="author"><i>(Dòng 2397-2398) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤳷𢚸鑿𥒥𥱬鐄</p>
+      <p class="nom">想娘𢧚吏𧡊娘𧗱低”</p>
+      <p class="quocngu">Bởi lòng tạc đá ghi vàng,</p>
+      <p class="quocngu">Tưởng nàng nên lại thấy nàng về đây.</p>
+      <p class="author"><i>(Dòng 2855-2856) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Writing is like scrambling up a hill on    \
-| all fours; you arrive halfway up, and you   |
-| are committed - you want to reach the       |
-| summit, yet you must stop, to gather your   |
-| strength and will. When you have climbed    |
-| to the summit, you stop, catch your         |
-| breath, and take in the vista. You wonder   |
-| how you made it. Then, you make your        |
-| decent, somewhat subdued, all the while     |
-| planning your next ascent, your next        |
-| attempt to touch the sky. The memory of     |
-| your climb leaves you with one impression   |
-| - the idea that it gets easier, over time.” |
-|                                             |
-\  -- Suzy Davies                             /
- ---------------------------------------------
+ ____________________________________________
+/ “It seems like such an amazing predicament \
+| to me, how one does not become a better    |
+| person by seeking out in the world those   |
+| who are lesser than himself and then       |
+| saying, "I will be better than you because |
+| you're not as good as me." You don't       |
+| become better by looking at others and     |
+| trying to be better than them. You become  |
+| a better person by looking at yourself in  |
+| the mirror, and, seeking to overcome and   |
+| to overthrow all the flaws within          |
+| yourself, you overcome the weaker you, the |
+| lesser you; you become the better You, the |
+| stronger You, the higher You. That's how   |
+| it goes.”                                  |
+|                                            |
+\  -- C. JoyBell C.                          /
+ --------------------------------------------
+  \
      \
-      \
-       ("`-'  '-/") .___..--' ' "`-._
-         ` o_ o  )    `-.   (      ) .`-.__. `)
-         (_Y_.) ' ._   )   `._` ;  `` -. .-'
-      _.. `--'_..-_/   /--' _ .' ,4
-   ( i l ),-''  ( l i),'  ( ( ! .-'    
+                  _ _
+       | \__/|  .~    ~.
+       /oo `./      .'
+      {o__,   \    {
+        / .  . )    \
+        `-` '-' \    }
+       .(   _(   )_.'
+      '---.~_ _ _|
+                                                     
 ```
 <!-- END_QUOTE -->
 
