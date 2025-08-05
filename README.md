@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤳷𢚸鑿𥒥𥱬鐄</p>
-      <p class="nom">想娘𢧚吏𧡊娘𧗱低”</p>
-      <p class="quocngu">Bởi lòng tạc đá ghi vàng,</p>
-      <p class="quocngu">Tưởng nàng nên lại thấy nàng về đây.</p>
-      <p class="author"><i>(Dòng 2855-2856) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢯏𦰤拍𦹵尋𠫾</p>
+      <p class="nom">情深𨻫唉狐疑姅分”</p>
+      <p class="quocngu">Bẻ lau vạch cỏ tìm đi,</p>
+      <p class="quocngu">Tình thâm luống hãy hồ nghi nửa phần.</p>
+      <p class="author"><i>(Dòng 3003-3004) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It seems like such an amazing predicament \
-| to me, how one does not become a better    |
-| person by seeking out in the world those   |
-| who are lesser than himself and then       |
-| saying, "I will be better than you because |
-| you're not as good as me." You don't       |
-| become better by looking at others and     |
-| trying to be better than them. You become  |
-| a better person by looking at yourself in  |
-| the mirror, and, seeking to overcome and   |
-| to overthrow all the flaws within          |
-| yourself, you overcome the weaker you, the |
-| lesser you; you become the better You, the |
-| stronger You, the higher You. That's how   |
-| it goes.”                                  |
-|                                            |
-\  -- C. JoyBell C.                          /
- --------------------------------------------
+ __________________________________________
+/ “Effective meditation must lead the      \
+| meditator to the heights of the infinite |
+| sky of superconsciousness and facilitate |
+| the plunge into the deepest ocean of     |
+| subconsciousness, and emerge the wiser.  |
+| This way our consciousness evolves.”     |
+|                                          |
+\  -- Daaji                                /
+ ------------------------------------------
   \
-     \
-                  _ _
-       | \__/|  .~    ~.
-       /oo `./      .'
-      {o__,   \    {
-        / .  . )    \
-        `-` '-' \    }
-       .(   _(   )_.'
-      '---.~_ _ _|
-                                                     
+   \          .
+       ___   //
+     {~o_o~}// 
+      ( Y )K/  
+     ()~*~()   
+     (_)-(_)   
+     Luke    
+     Skywalker
+     koala   
 ```
 <!-- END_QUOTE -->
 
