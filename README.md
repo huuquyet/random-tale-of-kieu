@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢯏𦰤拍𦹵尋𠫾</p>
-      <p class="nom">情深𨻫唉狐疑姅分”</p>
-      <p class="quocngu">Bẻ lau vạch cỏ tìm đi,</p>
-      <p class="quocngu">Tình thâm luống hãy hồ nghi nửa phần.</p>
-      <p class="author"><i>(Dòng 3003-3004) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢷣圖鐘磬䀡戈</p>
+      <p class="nom">𠸦浪窖󰣉𧵑茹宦娘”</p>
+      <p class="quocngu">Giở đồ chuông khánh xem qua,</p>
+      <p class="quocngu">Khen rằng: "Khéo giống của nhà Hoạn nương!"</p>
+      <p class="author"><i>(Dòng 2065-2066) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Effective meditation must lead the      \
-| meditator to the heights of the infinite |
-| sky of superconsciousness and facilitate |
-| the plunge into the deepest ocean of     |
-| subconsciousness, and emerge the wiser.  |
-| This way our consciousness evolves.”     |
-|                                          |
-\  -- Daaji                                /
- ------------------------------------------
-  \
-   \          .
-       ___   //
-     {~o_o~}// 
-      ( Y )K/  
-     ()~*~()   
-     (_)-(_)   
-     Luke    
-     Skywalker
-     koala   
+ __________________________
+/ “Life is a great grace.” \
+|                          |
+\  -- Lailah Gifty Akita   /
+ --------------------------
+      \                _
+       \              (_)   <-- TeleBEARS
+        \   ^__^       / \
+         \  (oo)\_____/_\ \
+            (__)\  you  ) /
+                ||----w ((
+                ||     ||>> 
 ```
 <!-- END_QUOTE -->
 
