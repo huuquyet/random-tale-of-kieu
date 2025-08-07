@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢷣圖鐘磬䀡戈</p>
-      <p class="nom">𠸦浪窖󰣉𧵑茹宦娘”</p>
-      <p class="quocngu">Giở đồ chuông khánh xem qua,</p>
-      <p class="quocngu">Khen rằng: "Khéo giống của nhà Hoạn nương!"</p>
-      <p class="author"><i>(Dòng 2065-2066) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠊚尼󰠱刼寃家</p>
+      <p class="nom">群𡗉𡢻𡗋牢它托朱”</p>
+      <p class="quocngu">Người này nặng kiếp oan gia,</p>
+      <p class="quocngu">Còn nhiều nợ lắm sao đà thác cho!</p>
+      <p class="author"><i>(Dòng 1693-1694) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________
-/ “Life is a great grace.” \
-|                          |
-\  -- Lailah Gifty Akita   /
- --------------------------
-      \                _
-       \              (_)   <-- TeleBEARS
-        \   ^__^       / \
-         \  (oo)\_____/_\ \
-            (__)\  you  ) /
-                ||----w ((
-                ||     ||>> 
+ _____________________________________________
+/ “Remember: It costs nothing to encourage an \
+| artist, and the potential benefits are      |
+| staggering. A pat on the back to an artist  |
+| now could one day result in your favorite   |
+| film, or the cartoon you love to get        |
+| stoned watching, or the song that saves     |
+| your life. Discourage an artist, you get    |
+| absolutely nothing in return, ever.”        |
+|                                             |
+\  -- Kevin Smith                             /
+ ---------------------------------------------
+         \
+          \
+                    ##        .
+              ## ## ##       ==
+           ## ## ## ##      ===
+       /""""""""""""""""\___/ ===
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+       \______ o          __/
+         \    \        __/
+          \____\______/
+
 ```
 <!-- END_QUOTE -->
 
