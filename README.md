@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠊚尼󰠱刼寃家</p>
-      <p class="nom">群𡗉𡢻𡗋牢它托朱”</p>
-      <p class="quocngu">Người này nặng kiếp oan gia,</p>
-      <p class="quocngu">Còn nhiều nợ lắm sao đà thác cho!</p>
-      <p class="author"><i>(Dòng 1693-1694) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“固調之女𦓡疑</p>
+      <p class="nom">客戈塘底𠾿哬払蕭”</p>
+      <p class="quocngu">Có điều chi nữa mà ngờ,</p>
+      <p class="quocngu">Khách qua đường để hững hờ chàng Tiêu!"</p>
+      <p class="author"><i>(Dòng 3125-3126) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Remember: It costs nothing to encourage an \
-| artist, and the potential benefits are      |
-| staggering. A pat on the back to an artist  |
-| now could one day result in your favorite   |
-| film, or the cartoon you love to get        |
-| stoned watching, or the song that saves     |
-| your life. Discourage an artist, you get    |
-| absolutely nothing in return, ever.”        |
-|                                             |
-\  -- Kevin Smith                             /
- ---------------------------------------------
-         \
-          \
-                    ##        .
-              ## ## ##       ==
-           ## ## ## ##      ===
-       /""""""""""""""""\___/ ===
-  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
-       \______ o          __/
-         \    \        __/
-          \____\______/
-
+ ___________________________________________
+/ “Thou art weighed in the balances and art \
+| found wanting.”                           |
+|                                           |
+\  -- Anonymous                             /
+ -------------------------------------------
+        \         ____________________
+         \       |                    |
+          \      |     PSYCHIATRIC    |
+           \     |        HELP        |
+            \    |____________________|
+             \   ||  ,-..'``.        ||
+              \  || (,-..'`. )       ||
+                 ||   )-c - `)\      ||
+   ,.,._.-.,_,.,-||,.(`.--  ,`',.-,_,||.-.,.,-,._.
+              ___||____,`,'--._______||
+             |`._||______`'__________||
+             |   ||     __           ||
+             |   ||    |.-' ,|-      ||
+   _,_,,..-,_|   ||    ._)) `|-      ||,.,_,_.-.,_
+            . `._||__________________||   ____    .
+     .              .           .     . <.____`>
+   .SSt  .      .     .      .    .   _.()`'()`'  .
 ```
 <!-- END_QUOTE -->
 
