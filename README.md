@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“固調之女𦓡疑</p>
-      <p class="nom">客戈塘底𠾿哬払蕭”</p>
-      <p class="quocngu">Có điều chi nữa mà ngờ,</p>
-      <p class="quocngu">Khách qua đường để hững hờ chàng Tiêu!"</p>
-      <p class="author"><i>(Dòng 3125-3126) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“倍衛添𥙩𧵑茹</p>
+      <p class="nom">釧鐄堆隻巾纙󰜋󰉓”</p>
+      <p class="quocngu">Vội về thêm lấy của nhà,</p>
+      <p class="quocngu">Xuyến vàng đôi chiếc, khăn là một vuông.</p>
+      <p class="author"><i>(Dòng 317-318) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Thou art weighed in the balances and art \
-| found wanting.”                           |
-|                                           |
-\  -- Anonymous                             /
- -------------------------------------------
-        \         ____________________
-         \       |                    |
-          \      |     PSYCHIATRIC    |
-           \     |        HELP        |
-            \    |____________________|
-             \   ||  ,-..'``.        ||
-              \  || (,-..'`. )       ||
-                 ||   )-c - `)\      ||
-   ,.,._.-.,_,.,-||,.(`.--  ,`',.-,_,||.-.,.,-,._.
-              ___||____,`,'--._______||
-             |`._||______`'__________||
-             |   ||     __           ||
-             |   ||    |.-' ,|-      ||
-   _,_,,..-,_|   ||    ._)) `|-      ||,.,_,_.-.,_
-            . `._||__________________||   ____    .
-     .              .           .     . <.____`>
-   .SSt  .      .     .      .    .   _.()`'()`'  .
+ ____________________________________________
+/ “But now science is the belief system that \
+| is hundreds of years old. And, like the    |
+| medieval system before it, science is      |
+| starting not to fit the world any more.    |
+| Science has attained so much power that    |
+| its practical limits begin to be apparent. |
+| Largely through science, billions of us    |
+| live in one small world, densely packed    |
+| and intercommunicating. But science cannot |
+| help us decide what to do with that world, |
+| or how to live. Science can make a nuclear |
+| reactor, but it cannot tell us not to      |
+| build it. Science can make pesticide, but  |
+| cannot tell us not to use it. And our      |
+| world starts to seem polluted in           |
+| fundamental ways---air, and water, and     |
+| land---because of ungovernable science.”   |
+|                                            |
+\  -- Michael Crichton                       /
+ --------------------------------------------
+  \   ^__^
+   \  (oo)\_______        ________
+      (__)\       )\/\    |Super |
+          ||----W |       |Milker|
+          ||    UDDDDDDDDD|______|
 ```
 <!-- END_QUOTE -->
 
