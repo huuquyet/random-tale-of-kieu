@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“倍衛添𥙩𧵑茹</p>
-      <p class="nom">釧鐄堆隻巾纙󰜋󰉓”</p>
-      <p class="quocngu">Vội về thêm lấy của nhà,</p>
-      <p class="quocngu">Xuyến vàng đôi chiếc, khăn là một vuông.</p>
-      <p class="author"><i>(Dòng 317-318) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣴓𠳒客買𠽔浪</p>
+      <p class="nom">纀蹎傕拱赤绳冉𢭂”</p>
+      <p class="quocngu">Cạn lời khách mới thưa rằng:</p>
+      <p class="quocngu">"Buộc chân thôi cũng xích thằng nhiệm trao.</p>
+      <p class="author"><i>(Dòng 903-904) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “But now science is the belief system that \
-| is hundreds of years old. And, like the    |
-| medieval system before it, science is      |
-| starting not to fit the world any more.    |
-| Science has attained so much power that    |
-| its practical limits begin to be apparent. |
-| Largely through science, billions of us    |
-| live in one small world, densely packed    |
-| and intercommunicating. But science cannot |
-| help us decide what to do with that world, |
-| or how to live. Science can make a nuclear |
-| reactor, but it cannot tell us not to      |
-| build it. Science can make pesticide, but  |
-| cannot tell us not to use it. And our      |
-| world starts to seem polluted in           |
-| fundamental ways---air, and water, and     |
-| land---because of ungovernable science.”   |
-|                                            |
-\  -- Michael Crichton                       /
- --------------------------------------------
-  \   ^__^
-   \  (oo)\_______        ________
-      (__)\       )\/\    |Super |
-          ||----W |       |Milker|
-          ||    UDDDDDDDDD|______|
+ _____________________________________________
+/ “I beg your pardon?” Catherine interrupted. \
+| “Are you implying that women have poor      |
+| judgment?”“In these matters, yes.” Leo      |
+| gestured to Christopher. “Just look at the  |
+| fellow, standing there like a bloody Greek  |
+| god. Do you think she chose him because of  |
+| his intellect?”“I graduated from            |
+| Cambridge,” Christopher said acidly.        |
+| “Should I have brought my diploma?”“In      |
+| this family,” Cam interrupted, “there is    |
+| no requirement of a university degree to    |
+| prove one’s intelligence. Lord Ramsay is a  |
+| perfect example of how one has nothing to   |
+| do with the other.”                         |
+|                                             |
+\  -- Lisa Kleypas                            /
+ ---------------------------------------------
+    \
+     \
+                                   .::!!!!!!!:.
+  .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
+      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
+      $$$##WX!:      .<!!!!UW$$"  $$$$# 
+      $$$  $$UX   :!!UW$$$$$   4$$$* 
+      ^$$B  $$\     $$$$$$   d$R" 
+        "*$bd$$      '*$$$$$$o+#" 
+             """"          """"""" 
 ```
 <!-- END_QUOTE -->
 
