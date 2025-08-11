@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣴓𠳒客買𠽔浪</p>
-      <p class="nom">纀蹎傕拱赤绳冉𢭂”</p>
-      <p class="quocngu">Cạn lời khách mới thưa rằng:</p>
-      <p class="quocngu">"Buộc chân thôi cũng xích thằng nhiệm trao.</p>
-      <p class="author"><i>(Dòng 903-904) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“倍鐄几𪧚𠊚𥋳</p>
+      <p class="nom">𡮈蘇娘吏尋𠳒𡅳干”</p>
+      <p class="quocngu">Vội vàng kẻ giữ người coi,</p>
+      <p class="quocngu">Nhỏ to nàng lại tìm lời khuyên can:</p>
+      <p class="author"><i>(Dòng 667-668) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I beg your pardon?” Catherine interrupted. \
-| “Are you implying that women have poor      |
-| judgment?”“In these matters, yes.” Leo      |
-| gestured to Christopher. “Just look at the  |
-| fellow, standing there like a bloody Greek  |
-| god. Do you think she chose him because of  |
-| his intellect?”“I graduated from            |
-| Cambridge,” Christopher said acidly.        |
-| “Should I have brought my diploma?”“In      |
-| this family,” Cam interrupted, “there is    |
-| no requirement of a university degree to    |
-| prove one’s intelligence. Lord Ramsay is a  |
-| perfect example of how one has nothing to   |
-| do with the other.”                         |
-|                                             |
-\  -- Lisa Kleypas                            /
- ---------------------------------------------
-    \
-     \
-                                   .::!!!!!!!:.
-  .!!!!!:.                        .:!!!!!!!!!!!!
-  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
-      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
-      $$$##WX!:      .<!!!!UW$$"  $$$$# 
-      $$$  $$UX   :!!UW$$$$$   4$$$* 
-      ^$$B  $$\     $$$$$$   d$R" 
-        "*$bd$$      '*$$$$$$o+#" 
-             """"          """"""" 
+ __________________________________________
+/ “Hate destroys EVERYTHING except itself. \
+| Everything. Including you.”              |
+|                                          |
+\  -- Tanya Masse                          /
+ ------------------------------------------
+                                    \
+                                     \
+                                                         ____                   
+                                               [(=]|[==/   @  \     
+                                                      |--------|                
+     *                                     *  .       ==========                
+.  / *    .                         *   .* . * /.     ==========                
+ / /  .                      *   .    *  \. * /      ||||||||||||               
+ =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
+  \  \ .                             *  (===========[  /=========]              
+.  \   *  *                          .    /  * \   |==============]             
+         *                        *      *         C @ @ @ @ @ @ |D             
+        *  *                          .           /              |              
+                                         .       C  @ @ @  @ @  @ |D            
+          *                          *          /                 |             
+                                               C  @  @  @  @  @  @ |D           
+                                              /                    |            
+                                             C  @   @   @   @  @  @ |D          
+                                            /                       |           
+                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
+                                            -------------------------           
+Modified from howard1@vax.oxford.ac.uk
 ```
 <!-- END_QUOTE -->
 
