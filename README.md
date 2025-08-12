@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“倍鐄几𪧚𠊚𥋳</p>
-      <p class="nom">𡮈蘇娘吏尋𠳒𡅳干”</p>
-      <p class="quocngu">Vội vàng kẻ giữ người coi,</p>
-      <p class="quocngu">Nhỏ to nàng lại tìm lời khuyên can:</p>
-      <p class="author"><i>(Dòng 667-668) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤼸書㐌𢢆娘鶯</p>
+      <p class="nom">吏輸妸李半命𫨩牢”</p>
+      <p class="quocngu">Dâng thư đã thẹn nàng Oanh,</p>
+      <p class="quocngu">Lại thua ả Lý bán mình hay sao?</p>
+      <p class="author"><i>(Dòng 671-672) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,33 +26,33 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  __________________________________________
-/ “Hate destroys EVERYTHING except itself. \
-| Everything. Including you.”              |
+/ “To give aid to every poor man is far    \
+| beyond the reach and power of every man. |
+| Care of the poor is incumbent on society |
+| as a whole.”                             |
 |                                          |
-\  -- Tanya Masse                          /
+\  -- Baruch Spinoza                       /
  ------------------------------------------
-                                    \
-                                     \
-                                                         ____                   
-                                               [(=]|[==/   @  \     
-                                                      |--------|                
-     *                                     *  .       ==========                
-.  / *    .                         *   .* . * /.     ==========                
- / /  .                      *   .    *  \. * /      ||||||||||||               
- =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
-  \  \ .                             *  (===========[  /=========]              
-.  \   *  *                          .    /  * \   |==============]             
-         *                        *      *         C @ @ @ @ @ @ |D             
-        *  *                          .           /              |              
-                                         .       C  @ @ @  @ @  @ |D            
-          *                          *          /                 |             
-                                               C  @  @  @  @  @  @ |D           
-                                              /                    |            
-                                             C  @   @   @   @  @  @ |D          
-                                            /                       |           
-                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
-                                            -------------------------           
-Modified from howard1@vax.oxford.ac.uk
+            \
+             \
+              \
+                    .  .:----.:  .      
+                  ／    .: .: .: .:＼
+                 .          .. .: .: ヽ
+                /.: :/|:/.:ﾊ::ﾊ : .: .:.  
+              ノ.: ./-|/ |/ V- V､.: .:.:|            
+               ｜:ノ   _     _   V: .:,:|
+                |:}  =＝     ＝= |:l､:.:|
+                |:ﾉ''    ＿_   ''|:| }::|
+               八:ヽ.   V_ 丿   .|ﾉｲ: :八
+                 ヽ/≧=-z:-:r:=≦l:ﾉ|:／
+                    ／/ ﾚﾇﾘ: 〉 ＼
+                   / :〉|/l/:< : ハ  
+                  /:}:{:|:/:/ : : :.     
+                 /: { : ': /: : {: :|            
+                 {: : :ヽ:/: : : : :}          
+                /} :}:o : : o: {: : ﾊ                
+                {: :ﾘ: : : : : |: : }  
 ```
 <!-- END_QUOTE -->
 
