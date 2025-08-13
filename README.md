@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤼸書㐌𢢆娘鶯</p>
-      <p class="nom">吏輸妸李半命𫨩牢”</p>
-      <p class="quocngu">Dâng thư đã thẹn nàng Oanh,</p>
-      <p class="quocngu">Lại thua ả Lý bán mình hay sao?</p>
-      <p class="author"><i>(Dòng 671-672) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰋇𢚸下顧旦饒</p>
+      <p class="nom">󰋇𠳒下賜捻珠招鐄”</p>
+      <p class="quocngu">Mấy lòng hạ cố đến nhau,</p>
+      <p class="quocngu">Mấy lời hạ tứ ném châu gieo vàng.</p>
+      <p class="author"><i>(Dòng 197-198) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “To give aid to every poor man is far    \
-| beyond the reach and power of every man. |
-| Care of the poor is incumbent on society |
-| as a whole.”                             |
-|                                          |
-\  -- Baruch Spinoza                       /
- ------------------------------------------
-            \
-             \
-              \
-                    .  .:----.:  .      
-                  ／    .: .: .: .:＼
-                 .          .. .: .: ヽ
-                /.: :/|:/.:ﾊ::ﾊ : .: .:.  
-              ノ.: ./-|/ |/ V- V､.: .:.:|            
-               ｜:ノ   _     _   V: .:,:|
-                |:}  =＝     ＝= |:l､:.:|
-                |:ﾉ''    ＿_   ''|:| }::|
-               八:ヽ.   V_ 丿   .|ﾉｲ: :八
-                 ヽ/≧=-z:-:r:=≦l:ﾉ|:／
-                    ／/ ﾚﾇﾘ: 〉 ＼
-                   / :〉|/l/:< : ハ  
-                  /:}:{:|:/:/ : : :.     
-                 /: { : ': /: : {: :|            
-                 {: : :ヽ:/: : : : :}          
-                /} :}:o : : o: {: : ﾊ                
-                {: :ﾘ: : : : : |: : }  
+ ___________________________________________
+/ “Even the richest of brands are robbed by \
+| poor character.”                          |
+|                                           |
+\  -- Criss Jami                            /
+ -------------------------------------------
+   \
+    \
+       /~\
+      |oo )
+      _\=/_
+     /     \
+    //|/.\|\\
+   ||  \_/  ||
+   || |\ /| ||
+    \# \_ _/  \#
+      | | |
+      | | |
+      []|[]
+      | | |
+     /_]_[_\
 ```
 <!-- END_QUOTE -->
 
