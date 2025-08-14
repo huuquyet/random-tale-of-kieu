@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰋇𢚸下顧旦饒</p>
-      <p class="nom">󰋇𠳒下賜捻珠招鐄”</p>
-      <p class="quocngu">Mấy lòng hạ cố đến nhau,</p>
-      <p class="quocngu">Mấy lời hạ tứ ném châu gieo vàng.</p>
-      <p class="author"><i>(Dòng 197-198) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“兑𬂙𨷈𨤮梓枌</p>
+      <p class="nom">魂圭蹺𦰟𩄲秦賒賒”</p>
+      <p class="quocngu">Đoái trông muôn dặm tử phần,</p>
+      <p class="quocngu">Hồn quê theo ngọn mây Tần xa xa.</p>
+      <p class="author"><i>(Dòng 2235-2236) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,26 +26,27 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Even the richest of brands are robbed by \
-| poor character.”                          |
+/ “It is not easy being different, you just \
+| have to accept it and say sod YOU!!!”     |
 |                                           |
-\  -- Criss Jami                            /
+\  -- Kristina Howells                      /
  -------------------------------------------
-   \
-    \
-       /~\
-      |oo )
-      _\=/_
-     /     \
-    //|/.\|\\
-   ||  \_/  ||
-   || |\ /| ||
-    \# \_ _/  \#
-      | | |
-      | | |
-      []|[]
-      | | |
-     /_]_[_\
+                       \                    ^    /^
+                        \                  / \  // \
+                         \   |\___/|      /   \//  .\
+                          \  /O  O  \__  /    //  | \ \           *----*
+                            /     /  \/_/    //   |  \  \          \   |
+                            @___@`    \/_   //    |   \   \         \/\ \
+                           0/0/|       \/_ //     |    \    \         \  \
+                       0/0/0/0/|        \///      |     \     \       |  |
+                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
+                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
+                             ,-}        _      *-.|.-~-.           .~    ~
+            \     \__/        `/\      /                 ~-. _ .-~      /
+             \____(oo)           *.   }            {                   /
+             (    (--)          .----~-.\        \-`                 .~
+             //__\  \__ Ack!   ///.----..<        \             _ -~
+            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
 ```
 <!-- END_QUOTE -->
 
