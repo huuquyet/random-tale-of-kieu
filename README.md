@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“兑𬂙𨷈𨤮梓枌</p>
-      <p class="nom">魂圭蹺𦰟𩄲秦賒賒”</p>
-      <p class="quocngu">Đoái trông muôn dặm tử phần,</p>
-      <p class="quocngu">Hồn quê theo ngọn mây Tần xa xa.</p>
-      <p class="author"><i>(Dòng 2235-2236) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠄩㛪𠳨𠓀𠻃𡢐</p>
+      <p class="nom">𨅸𬂙娘㐌阻愁爫鮮”</p>
+      <p class="quocngu">Hai em hỏi trước han sau,</p>
+      <p class="quocngu">Đứng trông, nàng đã trở sầu làm tươi.</p>
+      <p class="author"><i>(Dòng 3029-3030) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,47 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “It is not easy being different, you just \
-| have to accept it and say sod YOU!!!”     |
-|                                           |
-\  -- Kristina Howells                      /
- -------------------------------------------
-                       \                    ^    /^
-                        \                  / \  // \
-                         \   |\___/|      /   \//  .\
-                          \  /O  O  \__  /    //  | \ \           *----*
-                            /     /  \/_/    //   |  \  \          \   |
-                            @___@`    \/_   //    |   \   \         \/\ \
-                           0/0/|       \/_ //     |    \    \         \  \
-                       0/0/0/0/|        \///      |     \     \       |  |
-                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
-                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
-                             ,-}        _      *-.|.-~-.           .~    ~
-            \     \__/        `/\      /                 ~-. _ .-~      /
-             \____(oo)           *.   }            {                   /
-             (    (--)          .----~-.\        \-`                 .~
-             //__\  \__ Ack!   ///.----..<        \             _ -~
-            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
+ ____________________________________________
+/ “You know, Tsitsi, you are so quick to     \
+| point out that you are not a prostitute. I |
+| just want to laugh because you are just    |
+| falling into rank. You all should spare us |
+| your ‘morality’ that lauds ‘women’ over    |
+| the supposedly lesser ‘whores’ and         |
+| ‘girls’. That’s how society sees us.       |
+| That’s how you see us. You want it to be   |
+| that we are like coal, only to be loved in |
+| the dark and tossed like ashes come        |
+| morning.”                                  |
+|                                            |
+\  -- Panashe Chigumadzi                     /
+ --------------------------------------------
+            \
+             \                __ 
+                   _ ,___,-'",-=-. 
+       __,-- _ _,-'_)_  (""`'-._\ `. 
+    _,'  __ |,' ,-' __)  ,-     /. | 
+  ,'_,--'   |     -'  _)/         `\ 
+,','      ,'       ,-'_,`           : 
+,'     ,-'       ,(,-(              : 
+     ,'       ,-' ,    _            ; 
+    /        ,-._/`---'            / 
+   /        (____)(----. )       ,' 
+  /         (      `.__,     /\ /, 
+ :           ;-.___         /__\/| 
+ |         ,'      `--.      -,\ | 
+ :        /            \    .__/ 
+  \      (__            \    |_ 
+   \       ,`-, *       /   _|,\ 
+    \    ,'   `-.     ,'_,-'    \ 
+   (_\,-'    ,'\")--,'-'       __\ 
+    \       /  // ,'|      ,--'  `-. 
+     `-.    `-/ \'  |   _,'         `. 
+        `-._ /      `--'/             \ 
+-hrr-      ,'           |              \ 
+          /             |               \ 
+       ,-'              |               / 
+      /                 |             -'
 ```
 <!-- END_QUOTE -->
 
