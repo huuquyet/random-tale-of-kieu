@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠄩㛪𠳨𠓀𠻃𡢐</p>
-      <p class="nom">𨅸𬂙娘㐌阻愁爫鮮”</p>
-      <p class="quocngu">Hai em hỏi trước han sau,</p>
-      <p class="quocngu">Đứng trông, nàng đã trở sầu làm tươi.</p>
-      <p class="author"><i>(Dòng 3029-3030) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢞂𬂙𩙍捲󰘚溋</p>
+      <p class="nom">喑󰠐㗂㳥呌觥槣𡎢”</p>
+      <p class="quocngu">Buồn trông gió cuốn mặt duềnh,</p>
+      <p class="quocngu">Âm thầm tiếng sóng kêu quanh ghế ngồi.</p>
+      <p class="author"><i>(Dòng 1053-1054) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,46 +26,27 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “You know, Tsitsi, you are so quick to     \
-| point out that you are not a prostitute. I |
-| just want to laugh because you are just    |
-| falling into rank. You all should spare us |
-| your ‘morality’ that lauds ‘women’ over    |
-| the supposedly lesser ‘whores’ and         |
-| ‘girls’. That’s how society sees us.       |
-| That’s how you see us. You want it to be   |
-| that we are like coal, only to be loved in |
-| the dark and tossed like ashes come        |
-| morning.”                                  |
+/ “The right to search for the truth implies \
+| also a duty; one must not conceal any part |
+| of what one has recognized to be the       |
+| truth.”                                    |
 |                                            |
-\  -- Panashe Chigumadzi                     /
+\  -- Albert Einstein                        /
  --------------------------------------------
-            \
-             \                __ 
-                   _ ,___,-'",-=-. 
-       __,-- _ _,-'_)_  (""`'-._\ `. 
-    _,'  __ |,' ,-' __)  ,-     /. | 
-  ,'_,--'   |     -'  _)/         `\ 
-,','      ,'       ,-'_,`           : 
-,'     ,-'       ,(,-(              : 
-     ,'       ,-' ,    _            ; 
-    /        ,-._/`---'            / 
-   /        (____)(----. )       ,' 
-  /         (      `.__,     /\ /, 
- :           ;-.___         /__\/| 
- |         ,'      `--.      -,\ | 
- :        /            \    .__/ 
-  \      (__            \    |_ 
-   \       ,`-, *       /   _|,\ 
-    \    ,'   `-.     ,'_,-'    \ 
-   (_\,-'    ,'\")--,'-'       __\ 
-    \       /  // ,'|      ,--'  `-. 
-     `-.    `-/ \'  |   _,'         `. 
-        `-._ /      `--'/             \ 
--hrr-      ,'           |              \ 
-          /             |               \ 
-       ,-'              |               / 
-      /                 |             -'
+    \
+     \
+      \
+  ___       _____     ___
+ /   \     /    /|   /   \
+|     |   /    / |  |     |
+|     |  /____/  |  |     |     
+|     |  |    |  |  |     |
+|     |  | {} | /   |     |
+|     |  |____|/    |     |
+|     |    |==|     |     |
+|      \___________/      |
+|                         |
+|                         |
 ```
 <!-- END_QUOTE -->
 
