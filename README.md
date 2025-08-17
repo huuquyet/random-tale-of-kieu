@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢞂𬂙𩙍捲󰘚溋</p>
-      <p class="nom">喑󰠐㗂㳥呌觥槣𡎢”</p>
-      <p class="quocngu">Buồn trông gió cuốn mặt duềnh,</p>
-      <p class="quocngu">Âm thầm tiếng sóng kêu quanh ghế ngồi.</p>
-      <p class="author"><i>(Dòng 1053-1054) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣩂𫯳𦓡吏𥙩𫯳</p>
+      <p class="nom">󰘚󰅹群吏𨅸𥪝𡎝𠁀”</p>
+      <p class="quocngu">Chết chồng mà lại lấy chồng,</p>
+      <p class="quocngu">Mặt nào còn lại đứng trong cõi đời?</p>
+      <p class="author"><i>(Dòng 2631-2632) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The right to search for the truth implies \
-| also a duty; one must not conceal any part |
-| of what one has recognized to be the       |
-| truth.”                                    |
-|                                            |
-\  -- Albert Einstein                        /
- --------------------------------------------
-    \
-     \
-      \
-  ___       _____     ___
- /   \     /    /|   /   \
-|     |   /    / |  |     |
-|     |  /____/  |  |     |     
-|     |  |    |  |  |     |
-|     |  | {} | /   |     |
-|     |  |____|/    |     |
-|     |    |==|     |     |
-|      \___________/      |
-|                         |
-|                         |
+ ______________________________
+/ “I don't do sports, really.” \
+|                              |
+\  -- Stellan Skarsgard        /
+ ------------------------------
+\                             .       .
+ \                           / `.   .' " 
+  \                  .---.  <    > <    >  .---.
+   \                 |    \  \ - ~ ~ - /  /    |
+         _____          ..-~             ~-..-~
+        |     |   \~~~\.'                    `./~~~/
+       ---------   \__/                        \__/
+      .'  o    \     /               /       \  " 
+     (_____,    `._.'               |         }  \/~~~/
+      `----.          /       }     |        /    \__/
+            `-.      |       /      |       /      `. ,~~|
+                ~-.__|      /_ - ~ ^|      /- _      `..-‘ / \  /\
+                     |     /        |     /     ~-.     `-/ _ \/__\
+                     |_____|        |_____|         ~ - . _ _ _ _ _>
 ```
 <!-- END_QUOTE -->
 
