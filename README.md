@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“舌信𦖑㐌閉𥹰</p>
-      <p class="nom">法師𠰺世事兜邏󰟯”</p>
-      <p class="quocngu">Thật tin nghe đã bấy lâu,</p>
-      <p class="quocngu">Pháp sư dạy thế, sự đâu lạ dường!"</p>
-      <p class="author"><i>(Dòng 2983-2984) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“猪如𥒥凭如銅</p>
+      <p class="nom">埃𢯦朱轉埃󰢱朱移”</p>
+      <p class="quocngu">Trơ như đá, vững như đồng,</p>
+      <p class="quocngu">Ai lay cho chuyển, ai rung cho rời.</p>
+      <p class="author"><i>(Dòng 2521-2522) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “For Jack Kennedy, who only made        \
-| campaigning LOOK easy, it was, in fact, |
-| anything but.”                          |
-|                                         |
-\  -- David Pietrusza                     /
- -----------------------------------------
+ _____________________________________________
+/ “Measure your life by the product and value \
+| you produce daily”                          |
+|                                             |
+\  -- Sunday Adelaja                          /
+ ---------------------------------------------
          \
           \
-               ,.-----__
-            ,:::://///,:::-.
-           /:''/////// ``:::`;/|/
-          /'   ||||||     :://'`\
-        .' ,   ||||||     `/(  e \
-  -===~__-'\__X_`````\_____/~`-._ `.
-              ~~        ~~       `~-'
+                    ##        .
+              ## ## ##       ==
+           ## ## ## ##      ===
+       /""""""""""""""""\___/ ===
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+       \______ o          __/
+         \    \        __/
+          \____\______/
+
 ```
 <!-- END_QUOTE -->
 
