@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“猪如𥒥凭如銅</p>
-      <p class="nom">埃𢯦朱轉埃󰢱朱移”</p>
-      <p class="quocngu">Trơ như đá, vững như đồng,</p>
-      <p class="quocngu">Ai lay cho chuyển, ai rung cho rời.</p>
-      <p class="author"><i>(Dòng 2521-2522) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“功程計别󰋇𨑮</p>
+      <p class="nom">爲些𠻞喫朱𠊚𢷣揚”</p>
+      <p class="quocngu">Công trình kể biết mấy mươi.</p>
+      <p class="quocngu">Vì ta khăng khít cho người dở dang.</p>
+      <p class="author"><i>(Dòng 699-700) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Measure your life by the product and value \
-| you produce daily”                          |
-|                                             |
-\  -- Sunday Adelaja                          /
- ---------------------------------------------
-         \
-          \
-                    ##        .
-              ## ## ##       ==
-           ## ## ## ##      ===
-       /""""""""""""""""\___/ ===
-  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
-       \______ o          __/
-         \    \        __/
-          \____\______/
-
+ ____________________________________________
+/ “To teach our kids what they need to know  \
+| online, we have to talk to them off line.” |
+|                                            |
+\  -- Galit Breen                            /
+ --------------------------------------------
+ \
+  \
+     __
+    (  )
+     ||
+    /__\
+   (____)
 ```
 <!-- END_QUOTE -->
 
