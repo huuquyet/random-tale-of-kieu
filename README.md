@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“功程計别󰋇𨑮</p>
-      <p class="nom">爲些𠻞喫朱𠊚𢷣揚”</p>
-      <p class="quocngu">Công trình kể biết mấy mươi.</p>
-      <p class="quocngu">Vì ta khăng khít cho người dở dang.</p>
-      <p class="author"><i>(Dòng 699-700) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡦂貞當價𠦳鐄</p>
+      <p class="nom">𤒘花拯𢢆貝払𣈕𠸗”</p>
+      <p class="quocngu">Chữ Trinh đáng giá nghìn vàng,</p>
+      <p class="quocngu">Đuốc hoa chẳng thẹn với chàng mai xưa.</p>
+      <p class="author"><i>(Dòng 3095-3096) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “To teach our kids what they need to know  \
-| online, we have to talk to them off line.” |
-|                                            |
-\  -- Galit Breen                            /
- --------------------------------------------
- \
-  \
-     __
-    (  )
-     ||
-    /__\
-   (____)
+ ___________________________________________
+/ “You begins with 'Y'-so ask, observe, and \
+| listen.”                                  |
+|                                           |
+\  -- Ken Poirot                            /
+ -------------------------------------------
+       \
+        \
+         \
+             ＿＿＿＿
+           ／＿＿＿＿＼
+         ／／ (⌒ ⌒ ヽ＼＼
+        ｜｜  ﾉz(⌒ )| ｜｜
+        ｜｜ <   (_ノ ｜｜
+        ｜｜  L_／ )  ｜｜
+         ＼＼ /＿／  ／／
+           ＼⌒ )  (⌒ ／
+           ／／    ＼＼
+           ＼＼_  _／／
+             ﾍ＿)(＿/
+             ｜＝＝｜
+              ＼三／
+                ∧
+              ／  ＼
+              ＼  ／
+                Ｖ
 ```
 <!-- END_QUOTE -->
 
