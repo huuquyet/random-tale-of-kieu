@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡦂貞當價𠦳鐄</p>
-      <p class="nom">𤒘花拯𢢆貝払𣈕𠸗”</p>
-      <p class="quocngu">Chữ Trinh đáng giá nghìn vàng,</p>
-      <p class="quocngu">Đuốc hoa chẳng thẹn với chàng mai xưa.</p>
-      <p class="author"><i>(Dòng 3095-3096) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨁮蹺墻錦𨄹觥</p>
+      <p class="nom">𨕭桃𥋷𧡊󰜋梗金釵”</p>
+      <p class="quocngu">Lần theo tường gấm dạo quanh,</p>
+      <p class="quocngu">Trên đào nhác thấy một cành kim thoa.</p>
+      <p class="author"><i>(Dòng 293-294) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “You begins with 'Y'-so ask, observe, and \
-| listen.”                                  |
-|                                           |
-\  -- Ken Poirot                            /
- -------------------------------------------
-       \
-        \
-         \
-             ＿＿＿＿
-           ／＿＿＿＿＼
-         ／／ (⌒ ⌒ ヽ＼＼
-        ｜｜  ﾉz(⌒ )| ｜｜
-        ｜｜ <   (_ノ ｜｜
-        ｜｜  L_／ )  ｜｜
-         ＼＼ /＿／  ／／
-           ＼⌒ )  (⌒ ／
-           ／／    ＼＼
-           ＼＼_  _／／
-             ﾍ＿)(＿/
-             ｜＝＝｜
-              ＼三／
-                ∧
-              ／  ＼
-              ＼  ／
-                Ｖ
+ _____________________________________________
+/ “We must be more and more to each other, my \
+| dear wife.' -Charles Darwin to wife Emma    |
+| upon loss of daughter Annie”                |
+|                                             |
+\  -- Deborah Heiligman                       /
+ ---------------------------------------------
+   \
+    \
+
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
