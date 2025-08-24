@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨁮蹺墻錦𨄹觥</p>
-      <p class="nom">𨕭桃𥋷𧡊󰜋梗金釵”</p>
-      <p class="quocngu">Lần theo tường gấm dạo quanh,</p>
-      <p class="quocngu">Trên đào nhác thấy một cành kim thoa.</p>
-      <p class="author"><i>(Dòng 293-294) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“終觥刎坦渃茹</p>
+      <p class="nom">貝王翁𠓀刎羅相親”</p>
+      <p class="quocngu">Chung quanh vẫn đất nước nhà,</p>
+      <p class="quocngu">Với Vương ông trước vẫn là tương thân.</p>
+      <p class="author"><i>(Dòng 153-154) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “We must be more and more to each other, my \
-| dear wife.' -Charles Darwin to wife Emma    |
-| upon loss of daughter Annie”                |
-|                                             |
-\  -- Deborah Heiligman                       /
- ---------------------------------------------
+ ____________________________________________
+/ “To be a dwarf in peace is more honourable \
+| than to be a giant in war!”                |
+|                                            |
+\  -- Mehmet Murat ildan                     /
+ --------------------------------------------
+  \
    \
-    \
-
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+       X MM X
+       X MM X
+       X MM X
+       X MM X
+       + HX +
+     ,=$XX%/-
+   =X#########@%-
+  ;##############=
+ -###############M,
+ ;##@@@######M@###=
+ .+:;+:=H##$=:/:;H.
+ - +###- \## :###,,;
+ +@:/%;-H##H==/::H;
+  /#@/-=+$%::+H#$
+  $#%-,      ,.:##-
+ -@/            =X%.
+ %H=             -$;
+  =HH,         .%M;
+   /MM/       :@M/.
+    .:XX,   -$H:.
 ```
 <!-- END_QUOTE -->
 
