@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“特𠳒媒買隨機</p>
-      <p class="nom">󰈫𠊚保領爫詞供招”</p>
-      <p class="quocngu">Được lời mụ mới tuỳ cơ,</p>
-      <p class="quocngu">Bắt người bảo lãnh, làm tờ cung chiêu.</p>
-      <p class="author"><i>(Dòng 1149-1150) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“誓花渚燥𡃹鐄</p>
+      <p class="nom">磊誓催㐌負徬貝花”</p>
+      <p class="quocngu">Thề hoa chưa ráo chén vàng,</p>
+      <p class="quocngu">Lỗi thề thôi đã phũ phàng với hoa.</p>
+      <p class="author"><i>(Dòng 701-702) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Every human walks around with a certain  \
-| kind of sadness. They may not wear it on  |
-| their sleeves, but it's there if you look |
-| deep.”                                    |
-|                                           |
-\  -- Taraji P. Henson                      /
- -------------------------------------------
-          \
-           \
-
-
-      ^^      .-=-=-=-.  ^^
-  ^^        (`-=-=-=-=-`)         ^^
-          (`-=-=-=-=-=-=-`)  ^^         ^^
-    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
-        ( `-=-=-=-(@)-=-=-` )      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-        (`-=-=-=-=-=-=-=-=-`)              ^^
-        (`-=-=-=-=-=-=-=-=-`)                      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-         (`-=-=-=-=-=-=-=-`)          ^^
-          (`-=-=-=-=-=-=-`)  ^^                 ^^
-      jgs   (`-=-=-=-=-`)
-             `-=-=-=-=-`
+ _____________________________________________
+/ “A benefit of friendship is knowing whom to \
+| tell secrets to.”                           |
+|                                             |
+\  -- Alessandro Manzoni                      /
+ ---------------------------------------------
+   \      {
+    \  }   }   {
+      {   {  }  }
+       }   }{  {
+      {  }{  }  }
+     ( }{ }{  { )
+    .-{   }   }-.
+   ( ( } { } { } )
+   |`-.._____..-'|
+   |             ;--.
+   |   (__)     (__  \
+   |   (oo)      | )  )
+   |    \/       |/  /
+   |             /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
 ```
 <!-- END_QUOTE -->
 
