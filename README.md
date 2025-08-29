@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“堆些𡮍義󰢞𢸚</p>
-      <p class="nom">典茹𠓀料呐共朱明”</p>
-      <p class="quocngu">Đôi ta chút nghĩa đèo bòng,</p>
-      <p class="quocngu">Đến nhà trước liệu nói cùng cho minh.</p>
-      <p class="author"><i>(Dòng 1509-1510) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“倍衛添𥙩𧵑茹</p>
+      <p class="nom">釧鐄堆隻巾纙󰜋󰉓”</p>
+      <p class="quocngu">Vội về thêm lấy của nhà,</p>
+      <p class="quocngu">Xuyến vàng đôi chiếc, khăn là một vuông.</p>
+      <p class="author"><i>(Dòng 317-318) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “We view men’s gifts as vital to the     \
-| church. In contrast, we caution women to |
-| exercise their gifts discreetly to avoid |
-| causing problems or trespassing some     |
-| invisible line — which changes location  |
-| from church to church, sometimes even    |
-| within the same denomination.”           |
-|                                          |
-\  -- Carolyn Custis James                 /
- ------------------------------------------
-       \
-        \
-         \  _))
-           > o\     _~
-           `;'\\__-' \_
-              | )  _ \ \
-             / / ``   w w
-            w w
+ ___________________________________________
+/ “Washingtonians love the "So-and-so is    \
+| spinning in his grave" cliché. Someone is |
+| always speculating about how some great   |
+| dead American would be scandalized over   |
+| some crime against How It Used to Be. The |
+| Founding Fathers are always spinning in   |
+| their graves over something, as is Ronald |
+| Reagan, or FDR. Edward R. Murrow is a     |
+| perennial grave spinner in the news       |
+| business (though in fact, Murrow was      |
+| cremated).”                               |
+|                                           |
+\  -- Mark Leibovich                        /
+ -------------------------------------------
+  \
+   \                                 
+      /  \~~~/  \         
+     (    ..     )----,      
+      \__     __/      \     
+        )|  /)         |\    
+         | /\  /___\   / ^   
+          "-|__|   |__|      
 ```
 <!-- END_QUOTE -->
 
