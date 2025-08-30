@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“倍衛添𥙩𧵑茹</p>
-      <p class="nom">釧鐄堆隻巾纙󰜋󰉓”</p>
-      <p class="quocngu">Vội về thêm lấy của nhà,</p>
-      <p class="quocngu">Xuyến vàng đôi chiếc, khăn là một vuông.</p>
-      <p class="author"><i>(Dòng 317-318) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“曷𩅹詫擬分𢤞</p>
+      <p class="nom">料耽𡬷𦹵決𡊰𠀧春”</p>
+      <p class="quocngu">Hạt mưa sá nghĩ phận hèn,</p>
+      <p class="quocngu">Liệu đem tấc cỏ quyết đền ba xuân.</p>
+      <p class="author"><i>(Dòng 619-620) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,48 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Washingtonians love the "So-and-so is    \
-| spinning in his grave" cliché. Someone is |
-| always speculating about how some great   |
-| dead American would be scandalized over   |
-| some crime against How It Used to Be. The |
-| Founding Fathers are always spinning in   |
-| their graves over something, as is Ronald |
-| Reagan, or FDR. Edward R. Murrow is a     |
-| perennial grave spinner in the news       |
-| business (though in fact, Murrow was      |
-| cremated).”                               |
-|                                           |
-\  -- Mark Leibovich                        /
- -------------------------------------------
-  \
-   \                                 
-      /  \~~~/  \         
-     (    ..     )----,      
-      \__     __/      \     
-        )|  /)         |\    
-         | /\  /___\   / ^   
-          "-|__|   |__|      
+ _____________________________________________
+/ “A positive attitude is most easily arrived \
+| at through a deliberate and rational        |
+| analysis of what’s required to manifest     |
+| unwavering positive thought patterns.       |
+| First, reflect on the actual, present       |
+| condition of your mind. In other words, is  |
+| the mind positive or not? We’ve all met     |
+| individuals who perceive themselves as      |
+| positive people but don’t appear as such.   |
+| Since the mind is both invisible and        |
+| intangible, it’s therefore easier to see    |
+| the accurate characteristics of the mind    |
+| through a person’s words, deeds, and        |
+| posture.For example, if we say, “It’s       |
+| absolutely freezing today! I’ll probably    |
+| catch a cold before the end of the day!”    |
+| then our words expose a negative attitude.  |
+| But if we say, “The temperature is very     |
+| cold” (a simple statement of fact), then    |
+| our expressions, and therefore attitude,    |
+| are not negative. Sustaining an alert       |
+| state in which self-awareness becomes       |
+| possible gives us a chance to discover the  |
+| origins of negativity. In doing so, we      |
+| also have an opportunity to arrive at a     |
+| state of positiveness, so that our words    |
+| and deeds are also positive, making others  |
+| feel comfortable, cheerful, and inspired.”  |
+|                                             |
+\  -- H.E. Davey                              /
+ ---------------------------------------------
+     \
+      \
+       \
+             , -――- 、
+          ／          ヽ、
+        /爻ﾉﾘﾉﾊﾉﾘlﾉ ゝ  l
+     ＜ﾉﾘﾉ‐'    ｰ  ﾘ ＞ }
+        l ﾉ ┃    ┃ l ﾉ  ﾉ
+        l人   r‐┐   !ﾉ＾)
+           ゝ ` ´ ‐＜´
 ```
 <!-- END_QUOTE -->
 
