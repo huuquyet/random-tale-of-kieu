@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“曷𩅹詫擬分𢤞</p>
-      <p class="nom">料耽𡬷𦹵決𡊰𠀧春”</p>
-      <p class="quocngu">Hạt mưa sá nghĩ phận hèn,</p>
-      <p class="quocngu">Liệu đem tấc cỏ quyết đền ba xuân.</p>
-      <p class="author"><i>(Dòng 619-620) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪碎㤕分彈󰜏</p>
+      <p class="nom">渃𡽫離𨷶離茹典低”</p>
+      <p class="quocngu">Rằng: "Tôi chút phận đàn bà,</p>
+      <p class="quocngu">Nước non lìa cửa lìa nhà đến đây.</p>
+      <p class="author"><i>(Dòng 1141-1142) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,48 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “A positive attitude is most easily arrived \
-| at through a deliberate and rational        |
-| analysis of what’s required to manifest     |
-| unwavering positive thought patterns.       |
-| First, reflect on the actual, present       |
-| condition of your mind. In other words, is  |
-| the mind positive or not? We’ve all met     |
-| individuals who perceive themselves as      |
-| positive people but don’t appear as such.   |
-| Since the mind is both invisible and        |
-| intangible, it’s therefore easier to see    |
-| the accurate characteristics of the mind    |
-| through a person’s words, deeds, and        |
-| posture.For example, if we say, “It’s       |
-| absolutely freezing today! I’ll probably    |
-| catch a cold before the end of the day!”    |
-| then our words expose a negative attitude.  |
-| But if we say, “The temperature is very     |
-| cold” (a simple statement of fact), then    |
-| our expressions, and therefore attitude,    |
-| are not negative. Sustaining an alert       |
-| state in which self-awareness becomes       |
-| possible gives us a chance to discover the  |
-| origins of negativity. In doing so, we      |
-| also have an opportunity to arrive at a     |
-| state of positiveness, so that our words    |
-| and deeds are also positive, making others  |
-| feel comfortable, cheerful, and inspired.”  |
-|                                             |
-\  -- H.E. Davey                              /
- ---------------------------------------------
-     \
-      \
+ _________________________________________
+/ “The is no such thing as a coincidence, \
+| only Godincidence”                      |
+|                                         |
+\  -- Tom Herstad                         /
+ -----------------------------------------
        \
-             , -――- 、
-          ／          ヽ、
-        /爻ﾉﾘﾉﾊﾉﾘlﾉ ゝ  l
-     ＜ﾉﾘﾉ‐'    ｰ  ﾘ ＞ }
-        l ﾉ ┃    ┃ l ﾉ  ﾉ
-        l人   r‐┐   !ﾉ＾)
-           ゝ ` ´ ‐＜´
+        \          .88888888:.
+         \        88888888.88888.
+               .8888888888888888.
+               888888888888888888
+               88' _`88'_  `88888
+               88 88 88 88  88888
+               88_88_::_88_:88888
+               88:::,::,:::::8888
+               88`:::::::::'`8888
+              .88  `::::'    8:88.
+             8888            `8:888.
+           .8888'             `888888.
+          .8888:..  .::.  ...:'8888888:.
+         .8888.'     :'     `'::`88:88888
+        .8888        '         `.888:8888.
+       888:8         .           888:88888
+     .888:88        .:           888:88888:   
+     8888888.       ::           88:888888
+     `.::.888.      ::          .88888888
+    .::::::.888.    ::         :::`8888'.:.
+   ::::::::::.888   '         .::::::::::::
+   ::::::::::::.8    '      .:8::::::::::::.
+  .::::::::::::::.        .:888:::::::::::::
+  :::::::::::::::88:.__..:88888:::::::::::'
+   `'.:::::::::::88888888888.88:::::::::'
+         `':::_:' -- '' -'-' `':_::::'`
 ```
 <!-- END_QUOTE -->
 
