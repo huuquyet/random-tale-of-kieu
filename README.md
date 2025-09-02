@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤳷𢚸鑿𥒥𥱬鐄</p>
-      <p class="nom">想娘𢧚吏𧡊娘𧗱低”</p>
-      <p class="quocngu">Bởi lòng tạc đá ghi vàng,</p>
-      <p class="quocngu">Tưởng nàng nên lại thấy nàng về đây.</p>
-      <p class="author"><i>(Dòng 2855-2856) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“曲茄𢬣捛𢧚章</p>
+      <p class="nom">󰜋宮薄命吏強󰞽人”</p>
+      <p class="quocngu">Khúc nhà tay lựa nên chương,</p>
+      <p class="quocngu">Một cung Bạc mệnh lại càng não nhân.</p>
+      <p class="author"><i>(Dòng 33-34) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,53 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “when someone dumps you, it's heartbreaking \
-| and insulting and horrible, sure, but       |
-| being the one who breaks up is almost as    |
-| bad.”                                       |
-|                                             |
-\  -- Keren David                             /
- ---------------------------------------------
-   \
-    \
-
-      (\(\/
-  .-._)oo  '_
-  \'---.     .\'\
-       )    \.-\'\
-      /__ ;     (
-      |__ : /'._/
-       \_  (
-       .,)  )
-       \'-.-\'
-
+ ____________________________________________
+/ “It's because I haven't courage,' said     \
+| Samuel. 'I could never quite take the      |
+| responsibility. When the Lord God did not  |
+| call my name, I might have called his name |
+| - but I did not. There you have the        |
+| difference between greatness and           |
+| mediocrity. It's not an uncommon disease.  |
+| But it's nice for a mediocre man to know   |
+| that greatness must be the loneliest state |
+| in the world.''I'd think there are degrees |
+| of greatness,' Adam said.'I don't think    |
+| so,' said Samuel. 'That would be like      |
+| saying there is a little bigness. No. I    |
+| believe when you come to that              |
+| responsibility the hugeness and you are    |
+| alone to make your choice. On one side you |
+| have warmth and companionship and sweet    |
+| understanding, and on the other - cold,    |
+| lonely greatness. There you make your      |
+| choice. I'm glad I chose mediocrity, but   |
+| how am I to say what reward might have     |
+| come with the other? None of my children   |
+| will be great either, except perhaps Tom.  |
+| He's suffering over the choosing right     |
+| now. It's a painful thing to watch. And    |
+| somewhere in me I want him to say yes.     |
+| Isn't that strange? A father to want his   |
+| son condemned to greatness! What           |
+| selfishness that must be.”                 |
+|                                            |
+\  -- John Steinbeck                         /
+ --------------------------------------------
+\                             .       .
+ \                           / `.   .' " 
+  \                  .---.  <    > <    >  .---.
+   \                 |    \  \ - ~ ~ - /  /    |
+         _____          ..-~             ~-..-~
+        |     |   \~~~\.'                    `./~~~/
+       ---------   \__/                        \__/
+      .'  o    \     /               /       \  " 
+     (_____,    `._.'               |         }  \/~~~/
+      `----.          /       }     |        /    \__/
+            `-.      |       /      |       /      `. ,~~|
+                ~-.__|      /_ - ~ ^|      /- _      `..-‘ / \  /\
+                     |     /        |     /     ~-.     `-/ _ \/__\
+                     |_____|        |_____|         ~ - . _ _ _ _ _>
 ```
 <!-- END_QUOTE -->
 
