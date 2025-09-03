@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“曲茄𢬣捛𢧚章</p>
-      <p class="nom">󰜋宮薄命吏強󰞽人”</p>
-      <p class="quocngu">Khúc nhà tay lựa nên chương,</p>
-      <p class="quocngu">Một cung Bạc mệnh lại càng não nhân.</p>
-      <p class="author"><i>(Dòng 33-34) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情期拯限麻𢧚</p>
+      <p class="nom">𡊉鋸𦲾䔲堆邊󰜋坊”</p>
+      <p class="quocngu">Tình cờ chẳng hẹn mà nên,</p>
+      <p class="quocngu">Mạt cưa mướp đắng đôi bên một phường.</p>
+      <p class="author"><i>(Dòng 811-812) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,52 +26,55 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “It's because I haven't courage,' said     \
-| Samuel. 'I could never quite take the      |
-| responsibility. When the Lord God did not  |
-| call my name, I might have called his name |
-| - but I did not. There you have the        |
-| difference between greatness and           |
-| mediocrity. It's not an uncommon disease.  |
-| But it's nice for a mediocre man to know   |
-| that greatness must be the loneliest state |
-| in the world.''I'd think there are degrees |
-| of greatness,' Adam said.'I don't think    |
-| so,' said Samuel. 'That would be like      |
-| saying there is a little bigness. No. I    |
-| believe when you come to that              |
-| responsibility the hugeness and you are    |
-| alone to make your choice. On one side you |
-| have warmth and companionship and sweet    |
-| understanding, and on the other - cold,    |
-| lonely greatness. There you make your      |
-| choice. I'm glad I chose mediocrity, but   |
-| how am I to say what reward might have     |
-| come with the other? None of my children   |
-| will be great either, except perhaps Tom.  |
-| He's suffering over the choosing right     |
-| now. It's a painful thing to watch. And    |
-| somewhere in me I want him to say yes.     |
-| Isn't that strange? A father to want his   |
-| son condemned to greatness! What           |
-| selfishness that must be.”                 |
+/ “I am certainly not an advocate for        \
+| frequent and untried changes in laws and   |
+| constitutions. I think moderate            |
+| imperfections had better be borne with;    |
+| because, when once known, we accommodate   |
+| ourselves to them, and find practical      |
+| means of correcting their ill effects. But |
+| I know also, that laws and institutions    |
+| must go hand in hand with the progress of  |
+| the human mind. As that becomes more       |
+| developed, more enlightened, as new        |
+| discoveries are made, new truths           |
+| disclosed, and manners and opinions change |
+| with the change of circumstances,          |
+| institutions must advance also, and keep   |
+| pace with the times. We might as well      |
+| require a man to wear still the coat which |
+| fitted him when a boy, as civilized        |
+| society to remain ever under the regimen   |
+| of their barbarous ancestors.”             |
 |                                            |
-\  -- John Steinbeck                         /
+\  -- Thomas Jefferson                       /
  --------------------------------------------
-\                             .       .
- \                           / `.   .' " 
-  \                  .---.  <    > <    >  .---.
-   \                 |    \  \ - ~ ~ - /  /    |
-         _____          ..-~             ~-..-~
-        |     |   \~~~\.'                    `./~~~/
-       ---------   \__/                        \__/
-      .'  o    \     /               /       \  " 
-     (_____,    `._.'               |         }  \/~~~/
-      `----.          /       }     |        /    \__/
-            `-.      |       /      |       /      `. ,~~|
-                ~-.__|      /_ - ~ ^|      /- _      `..-‘ / \  /\
-                     |     /        |     /     ~-.     `-/ _ \/__\
-                     |_____|        |_____|         ~ - . _ _ _ _ _>
+  \
+     ___        _--_
+    /    -    /     \
+   ( oo   \  (    oo )
+   |  oo _;\-/|  oo _|
+    \___/######\___/\
+      /##############\
+     /  ######   ##  #|
+    /  ##@##@##       |
+   /    ######     ##  \
+ <______-------___\  . //_
+    |       ____  | | //# \__~__
+     \            \  //###  \   \
+      |             /\'  ##  ##  ##\   __--~--_
+       \_________- /\ )    ^     ##|--########\
+  /--~-_\________/_  |          #@##|#######Y##|
+ | \ `  /|       /O/ ( ###  \')    ##/######/###/
+ \  \  | |       --  |  ###        /LLLLL--###/
+  \_ \/  |            \_   \    ) /####_____--
+ ___ /    \           /     |   _-####\
+(___/     -\_________/     / -- |#####@@@@@@\'_
+ (__\_      __,) (.___     ,/    /#####      `@@
+      | -\\-          //-//      @@  @@@@@.
+      | | \\_       _// //      @\'       \'@@.
+      (.)   \_)    / / //                   @@@
+                  (_) (_\'
 ```
 <!-- END_QUOTE -->
 
