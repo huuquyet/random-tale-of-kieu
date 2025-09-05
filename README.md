@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠄩㛪𠳨𠓀𠻃𡢐</p>
-      <p class="nom">𨅸𬂙娘㐌阻愁爫鮮”</p>
-      <p class="quocngu">Hai em hỏi trước han sau,</p>
-      <p class="quocngu">Đứng trông, nàng đã trở sầu làm tươi.</p>
-      <p class="author"><i>(Dòng 3029-3030) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠃅西底冷香願</p>
+      <p class="nom">吹綠潭𧺀𠚢緣㤳旁”</p>
+      <p class="quocngu">Mái tây để lạnh hương nguyền,</p>
+      <p class="quocngu">Xui duyên đằm thắm ra duyên bẽ bàng.</p>
+      <p class="author"><i>(Dòng 517-518) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,24 +26,17 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “God seemed to be having a hard time      \
-| killing him, and he'd be damned if he was |
-| going to make the job easy for mere       |
-| mortals”                                  |
+/ “I leave behind this hurricane of f***ing \
+| lies”                                     |
 |                                           |
-\  -- Mario Puzo                            /
+\  -- Green Day                             /
  -------------------------------------------
-    \
-     \
-                                   .::!!!!!!!:.
-  .!!!!!:.                        .:!!!!!!!!!!!!
-  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
-      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
-      $$$##WX!:      .<!!!!UW$$"  $$$$# 
-      $$$  $$UX   :!!UW$$$$$   4$$$* 
-      ^$$B  $$\     $$$$$$   d$R" 
-        "*$bd$$      '*$$$$$$o+#" 
-             """"          """"""" 
+ \
+  \
+ _   /|
+ \'o.O'
+ =(___)=
+    U
 ```
 <!-- END_QUOTE -->
 
