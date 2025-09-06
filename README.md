@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠃅西底冷香願</p>
-      <p class="nom">吹綠潭𧺀𠚢緣㤳旁”</p>
-      <p class="quocngu">Mái tây để lạnh hương nguyền,</p>
-      <p class="quocngu">Xui duyên đằm thắm ra duyên bẽ bàng.</p>
-      <p class="author"><i>(Dòng 517-518) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“払王悁󰘚𠚢嘲</p>
+      <p class="nom">𠄩翹依󰘚納𠓨󰡎花”</p>
+      <p class="quocngu">Chàng Vương quen mặt ra chào,</p>
+      <p class="quocngu">Hai Kiều e mặt nép vào dưới hoa.</p>
+      <p class="author"><i>(Dòng 145-146) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I leave behind this hurricane of f***ing \
-| lies”                                     |
-|                                           |
-\  -- Green Day                             /
- -------------------------------------------
- \
-  \
- _   /|
- \'o.O'
- =(___)=
-    U
+ ____________________________________________
+/ “The loudspeaker on the wall crackles,     \
+| hisses, and suddenly announces, in         |
+| astonishingly soothing tones, that a train |
+| is going to be delayed. An ocean swell of  |
+| sighs ripples through the waiting room.”   |
+|                                            |
+\  -- Andreï Makine                          /
+ --------------------------------------------
+          \     (
+           \     )
+            \   (
+         /\  .-""""-.  /\
+        //\\/  ,,,,  \//\\
+        |/\| ,;;;;;;, |/\|
+        //\\\;-""""-;///\\
+       //  \/   ..   \/  \\
+      (| ,-_| \ || / |_-, |)
+        //`__(\(__)/)__`\\
+       // /.-\`(oo)'/-.\ \\
+      (\ |)   ')  ('   (| /)
+       ` (|   (o  o)   |) `
+         \)    `--'    (/
+                  
 ```
 <!-- END_QUOTE -->
 
