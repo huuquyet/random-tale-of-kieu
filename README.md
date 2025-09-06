@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“脱𬂙娘㐌別情</p>
-      <p class="nom">𪀄籠坤𨤰拮命𠖤高”</p>
-      <p class="quocngu">Thoắt trông nàng đã biết tình,</p>
-      <p class="quocngu">Chim lồng khôn lẽ cất mình bay cao.</p>
-      <p class="author"><i>(Dòng 2149-2150) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“払王悁󰘚𠚢嘲</p>
+      <p class="nom">𠄩翹依󰘚納𠓨󰡎花”</p>
+      <p class="quocngu">Chàng Vương quen mặt ra chào,</p>
+      <p class="quocngu">Hai Kiều e mặt nép vào dưới hoa.</p>
+      <p class="author"><i>(Dòng 145-146) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,31 +26,29 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Perhaps we are both doing what we think   \
-| right. But what we think right is so       |
-| damned different that there can be nothing |
-| between us in the way of concession. There |
-| is nothing possible between us but honor   |
-| and death.”                                |
+/ “The loudspeaker on the wall crackles,     \
+| hisses, and suddenly announces, in         |
+| astonishingly soothing tones, that a train |
+| is going to be delayed. An ocean swell of  |
+| sighs ripples through the waiting room.”   |
 |                                            |
-\  -- G.K. Chesterton                        /
+\  -- Andreï Makine                          /
  --------------------------------------------
-                       \                    ^    /^
-                        \                  / \  // \
-                         \   |\___/|      /   \//  .\
-                          \  /O  O  \__  /    //  | \ \           *----*
-                            /     /  \/_/    //   |  \  \          \   |
-                            @___@`    \/_   //    |   \   \         \/\ \
-                           0/0/|       \/_ //     |    \    \         \  \
-                       0/0/0/0/|        \///      |     \     \       |  |
-                    0/0/0/0/0/_|_ /   (  //       |      \     _\     |  /
-                 0/0/0/0/0/0/`/,_ _ _/  ) ; -.    |    _ _\.-~       /   /
-                             ,-}        _      *-.|.-~-.           .~    ~
-            \     \__/        `/\      /                 ~-. _ .-~      /
-             \____(oo)           *.   }            {                   /
-             (    (--)          .----~-.\        \-`                 .~
-             //__\  \__ Ack!   ///.----..<        \             _ -~
-            //    \\               ///-._ _ _ _ _ _ _{^ - - - - ~
+          \     (
+           \     )
+            \   (
+         /\  .-""""-.  /\
+        //\\/  ,,,,  \//\\
+        |/\| ,;;;;;;, |/\|
+        //\\\;-""""-;///\\
+       //  \/   ..   \/  \\
+      (| ,-_| \ || / |_-, |)
+        //`__(\(__)/)__`\\
+       // /.-\`(oo)'/-.\ \\
+      (\ |)   ')  ('   (| /)
+       ` (|   (o  o)   |) `
+         \)    `--'    (/
+                  
 ```
 <!-- END_QUOTE -->
 
