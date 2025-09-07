@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠵱庒仍事不期</p>
-      <p class="nom">底娘朱典餒󰢔拱傷”</p>
-      <p class="quocngu">E chăng những sự bất kỳ,</p>
-      <p class="quocngu">Để nàng cho đến nỗi gì cũng thương!</p>
-      <p class="author"><i>(Dòng 2077-2078) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“䏾橷㐌熾昂頭</p>
+      <p class="nom">別兜蔭冷別兜𠮾裴”</p>
+      <p class="quocngu">Bóng dâu đã xế ngang đầu,</p>
+      <p class="quocngu">Biết đâu ấm lạnh, biết đâu ngọt bùi.</p>
+      <p class="author"><i>(Dòng 1629-1630) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “If you are going to share something with a \
-| person, first look on their social media    |
-| accounts and see how they have handled      |
-| other people trust. If someone has shared   |
-| the secrets of others, they will share      |
-| yours.”                                     |
-|                                             |
-\  -- John Patrick Hickey                     /
- ---------------------------------------------
+ _______________________________________
+/ “Autumn arrives in early morning, but \
+| spring at the close of a winter day.” |
+|                                       |
+\  -- Elizabeth Bowen                   /
+ ---------------------------------------
   \
-   \       ___
-      oo  // \\
-     (_,\/ \_/ \
-       \ \_/_\_/>
-       /_/   \_\
+   \
+      /\_)o<
+     |      \
+     | o . o|
+      \_____/
+           
 ```
 <!-- END_QUOTE -->
 
