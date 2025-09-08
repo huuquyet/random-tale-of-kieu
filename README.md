@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“䏾橷㐌熾昂頭</p>
-      <p class="nom">別兜蔭冷別兜𠮾裴”</p>
-      <p class="quocngu">Bóng dâu đã xế ngang đầu,</p>
-      <p class="quocngu">Biết đâu ấm lạnh, biết đâu ngọt bùi.</p>
-      <p class="author"><i>(Dòng 1629-1630) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“払王𢖵典賒𧵆</p>
+      <p class="nom">𨖅茹終老謝恩周全”</p>
+      <p class="quocngu">Chàng Vương nhớ đến xa gần,</p>
+      <p class="quocngu">Sang nhà Chung lão tạ ân chu tuyền.</p>
+      <p class="author"><i>(Dòng 2863-2864) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “Autumn arrives in early morning, but \
-| spring at the close of a winter day.” |
-|                                       |
-\  -- Elizabeth Bowen                   /
- ---------------------------------------
+ ___________________________________________
+/ “The average Bhutanese knows much more    \
+| about the world than the average          |
+| American...(for Americans)It is more      |
+| comfortable to watch fake news about      |
+| celebrities than to know what's happening |
+| in China or southern Sudan. But events    |
+| happening in China or Sudan affect us so  |
+| much more because they are real.”         |
+|                                           |
+\  -- Linda Leaming                         /
+ -------------------------------------------
   \
-   \
-      /\_)o<
-     |      \
-     | o . o|
-      \_____/
-           
+   \ ..:::::::::.
+    ::::::::::::::
+   /. `::::::::::::
+  O__,_:::::::::::'
 ```
 <!-- END_QUOTE -->
 
