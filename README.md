@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“払王𢖵典賒𧵆</p>
-      <p class="nom">𨖅茹終老謝恩周全”</p>
-      <p class="quocngu">Chàng Vương nhớ đến xa gần,</p>
-      <p class="quocngu">Sang nhà Chung lão tạ ân chu tuyền.</p>
-      <p class="author"><i>(Dòng 2863-2864) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“擬𠚢寔拱𢧚󰟯</p>
+      <p class="nom">吣唏埃易𪧚床朱些”</p>
+      <p class="quocngu">Nghĩ ra thật cũng nên dường,</p>
+      <p class="quocngu">Tăm hơi ai dễ giữ giàng cho ta?</p>
+      <p class="author"><i>(Dòng 1481-1482) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “The average Bhutanese knows much more    \
-| about the world than the average          |
-| American...(for Americans)It is more      |
-| comfortable to watch fake news about      |
-| celebrities than to know what's happening |
-| in China or southern Sudan. But events    |
-| happening in China or Sudan affect us so  |
-| much more because they are real.”         |
-|                                           |
-\  -- Linda Leaming                         /
- -------------------------------------------
-  \
-   \ ..:::::::::.
-    ::::::::::::::
-   /. `::::::::::::
-  O__,_:::::::::::'
+ _____________________________________________
+/ “When our faith becomes nothing more than a \
+| series of rules and regulations, joy flees  |
+| and our love for Christ grows cold.”        |
+|                                             |
+\  -- Billy Graham                            /
+ ---------------------------------------------
+     \
+      \
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+             ,--==-:$;
+         ,/$@#######@X+-
+      ./@###############X=
+     /M#####X+/;;;;+H#####$.
+    %####M/;+H@XX@@%;;@####@,
+   +####H=+##$,--,=M#X-%####@.
+  -####X,X@HHXH##MXHXXH-+####$
+  X###@.X/$M$:####$=@X/X,X####-
+ .####:+$:##@:####$:##H/X=####%
+ -%%$%,+==%$+-$+:$;-$%-+,/$%%+
+ -/+%%X$XX$$$$%$$%$X$X$%+/-
 ```
 <!-- END_QUOTE -->
 
