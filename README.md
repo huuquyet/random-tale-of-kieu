@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“擬𠚢寔拱𢧚󰟯</p>
-      <p class="nom">吣唏埃易𪧚床朱些”</p>
-      <p class="quocngu">Nghĩ ra thật cũng nên dường,</p>
-      <p class="quocngu">Tăm hơi ai dễ giữ giàng cho ta?</p>
-      <p class="author"><i>(Dòng 1481-1482) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“傷喂才色墨尼</p>
+      <p class="nom">󰜋刀冤孽𢴑𦀊風塵”</p>
+      <p class="quocngu">Thương ôi, tài sắc mực này,</p>
+      <p class="quocngu">Một dao oan nghiệt dứt dây phong trần.</p>
+      <p class="author"><i>(Dòng 985-986) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “When our faith becomes nothing more than a \
-| series of rules and regulations, joy flees  |
-| and our love for Christ grows cold.”        |
-|                                             |
-\  -- Billy Graham                            /
- ---------------------------------------------
+ ____________________________________________
+/ “Songs don't have to be about going out on \
+| Saturday night and having a good rink-up   |
+| and driving home and crashing cars. A lot  |
+| of what I've done is about alienation...   |
+| about where you fit in society.”           |
+|                                            |
+\  -- David Bowie                            /
+ --------------------------------------------
      \
-      \
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-             ,--==-:$;
-         ,/$@#######@X+-
-      ./@###############X=
-     /M#####X+/;;;;+H#####$.
-    %####M/;+H@XX@@%;;@####@,
-   +####H=+##$,--,=M#X-%####@.
-  -####X,X@HHXH##MXHXXH-+####$
-  X###@.X/$M$:####$=@X/X,X####-
- .####:+$:##@:####$:##H/X=####%
- -%%$%,+==%$+-$+:$;-$%-+,/$%%+
- -/+%%X$XX$$$$%$$%$X$X$%+/-
+      \  (__)  
+         (\/)  
+  /-------\/    
+ / | 666 ||    
+*  ||----||      
+   ~~    ~~      
 ```
 <!-- END_QUOTE -->
 
