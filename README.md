@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“傷喂才色墨尼</p>
-      <p class="nom">󰜋刀冤孽𢴑𦀊風塵”</p>
-      <p class="quocngu">Thương ôi, tài sắc mực này,</p>
-      <p class="quocngu">Một dao oan nghiệt dứt dây phong trần.</p>
-      <p class="author"><i>(Dòng 985-986) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𬂙潙𡗶𣷭溟󰋑</p>
+      <p class="nom">青鎌鞍馭𨖲塘𣦎𨀐”</p>
+      <p class="quocngu">Trông vời trời bể mênh mang,</p>
+      <p class="quocngu">Thanh gươm, yên ngựa lên đàng thẳng giong.</p>
+      <p class="author"><i>(Dòng 2215-2216) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Songs don't have to be about going out on \
-| Saturday night and having a good rink-up   |
-| and driving home and crashing cars. A lot  |
-| of what I've done is about alienation...   |
-| about where you fit in society.”           |
-|                                            |
-\  -- David Bowie                            /
- --------------------------------------------
-     \
-      \  (__)  
-         (\/)  
-  /-------\/    
- / | 666 ||    
-*  ||----||      
-   ~~    ~~      
+ _____________________________________________
+/ “Don't work for something in Exchange, Work \
+| on something for a Change.”                 |
+|                                             |
+\  -- Kevin Awad                              /
+ ---------------------------------------------
+  \
+   \
+
+     Lｰ'{r ｧjｰノ
+      _`)-ﾑ{
+    /´::( ･)ヽ-- ､
+   {::::::::::::::}
+   ゝ:::::.ノー-
+     しｿ¨UU
 ```
 <!-- END_QUOTE -->
 
