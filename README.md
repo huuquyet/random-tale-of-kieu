@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𬂙潙𡗶𣷭溟󰋑</p>
-      <p class="nom">青鎌鞍馭𨖲塘𣦎𨀐”</p>
-      <p class="quocngu">Trông vời trời bể mênh mang,</p>
-      <p class="quocngu">Thanh gươm, yên ngựa lên đàng thẳng giong.</p>
-      <p class="author"><i>(Dòng 2215-2216) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𩯀絲各跡每欺</p>
+      <p class="nom">怨𪰛者怨恩𪰛者恩”</p>
+      <p class="quocngu">Tóc tơ các tích mọi khi,</p>
+      <p class="quocngu">Oán thì trả oán, ân thì trả ân.</p>
+      <p class="author"><i>(Dòng 2907-2908) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Don't work for something in Exchange, Work \
-| on something for a Change.”                 |
-|                                             |
-\  -- Kevin Awad                              /
- ---------------------------------------------
-  \
+ __________________________________________
+/ “Freedom within is embodied in things as \
+| well as people. Like coins tossed into a |
+| wishing well, they contain our hopes and |
+| dreams.”                                 |
+|                                          |
+\  -- Fennel Hudson                        /
+ ------------------------------------------
    \
+    \              ....       
+           ........    .      
+          .            .      
+         .             .      
+.........              .......
+..............................
 
-     Lｰ'{r ｧjｰノ
-      _`)-ﾑ{
-    /´::( ･)ヽ-- ､
-   {::::::::::::::}
-   ゝ:::::.ノー-
-     しｿ¨UU
+Elephant inside ASCII snake
 ```
 <!-- END_QUOTE -->
 
