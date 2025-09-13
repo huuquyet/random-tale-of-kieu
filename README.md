@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𩯀絲各跡每欺</p>
-      <p class="nom">怨𪰛者怨恩𪰛者恩”</p>
-      <p class="quocngu">Tóc tơ các tích mọi khi,</p>
-      <p class="quocngu">Oán thì trả oán, ân thì trả ân.</p>
-      <p class="author"><i>(Dòng 2907-2908) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“老箕固𢷣排碑</p>
+      <p class="nom">拯𠻵𠓨󰘚麻𡮠吏𦖑”</p>
+      <p class="quocngu">Lão kia có giở bài bây,</p>
+      <p class="quocngu">Chẳng mắng vào mặt mà mày lại nghe!</p>
+      <p class="author"><i>(Dòng 973-974) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  __________________________________________
-/ “Freedom within is embodied in things as \
-| well as people. Like coins tossed into a |
-| wishing well, they contain our hopes and |
-| dreams.”                                 |
+/ “Your Heart Can't Be Depends On Some one \
+| else's heartbeat .”                      |
 |                                          |
-\  -- Fennel Hudson                        /
+\  -- Yaganesh Derasari                    /
  ------------------------------------------
-   \
-    \              ....       
-           ........    .      
-          .            .      
-         .             .      
-.........              .......
-..............................
-
-Elephant inside ASCII snake
+             \
+              \
+                             ,.---._
+                   ,,,,     /       `,
+                    \\\\   /    '\_  ;
+                     |||| /\/``-.__\;'
+                     ::::/\/_
+     {{`-.__.-'(`(^^(^^^(^ 9 `.========='
+    {{{{{{ { ( ( (  (   (-----:=
+     {{.-'~~'-.(,(,,(,,,(__6_.'=========.
+                     ::::\/\
+                     |||| \/\  ,-'/,
+                    ////   \ `` _/ ;
+                   ''''     \  `  .'
+                             `---'
 ```
 <!-- END_QUOTE -->
 
