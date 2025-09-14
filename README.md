@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“老箕固𢷣排碑</p>
-      <p class="nom">拯𠻵𠓨󰘚麻𡮠吏𦖑”</p>
-      <p class="quocngu">Lão kia có giở bài bây,</p>
-      <p class="quocngu">Chẳng mắng vào mặt mà mày lại nghe!</p>
-      <p class="author"><i>(Dòng 973-974) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“覺緣油𢖵義饒</p>
+      <p class="nom">錢塘典󰜋𤿤𦰤逴𠊛”</p>
+      <p class="quocngu">Giác Duyên dù nhớ nghĩa nhau,</p>
+      <p class="quocngu">Tiền Đường đến một bè lau rước người.</p>
+      <p class="author"><i>(Dòng 2691-2692) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,26 +26,29 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  __________________________________________
-/ “Your Heart Can't Be Depends On Some one \
-| else's heartbeat .”                      |
+/ “Before marriage man prays that god give \
+| him a wife, after marriage he prays that |
+| god save him from her.”                  |
 |                                          |
-\  -- Yaganesh Derasari                    /
+\  -- Bangambiki Habyarimana               /
  ------------------------------------------
-             \
-              \
-                             ,.---._
-                   ,,,,     /       `,
-                    \\\\   /    '\_  ;
-                     |||| /\/``-.__\;'
-                     ::::/\/_
-     {{`-.__.-'(`(^^(^^^(^ 9 `.========='
-    {{{{{{ { ( ( (  (   (-----:=
-     {{.-'~~'-.(,(,,(,,,(__6_.'=========.
-                     ::::\/\
-                     |||| \/\  ,-'/,
-                    ////   \ `` _/ ;
-                   ''''     \  `  .'
-                             `---'
+   \      {
+    \  }   }   {
+      {   {  }  }
+       }   }{  {
+      {  }{  }  }
+     ( }{ }{  { )
+    .-{   }   }-.
+   ( ( } { } { } )
+   |`-.._____..-'|
+   |             ;--.
+   |   (__)     (__  \
+   |   (oo)      | )  )
+   |    \/       |/  /
+   |             /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
 ```
 <!-- END_QUOTE -->
 
