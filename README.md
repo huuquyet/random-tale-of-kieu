@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“覺緣油𢖵義饒</p>
-      <p class="nom">錢塘典󰜋𤿤𦰤逴𠊛”</p>
-      <p class="quocngu">Giác Duyên dù nhớ nghĩa nhau,</p>
-      <p class="quocngu">Tiền Đường đến một bè lau rước người.</p>
-      <p class="author"><i>(Dòng 2691-2692) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“信𠳒城下要盟</p>
+      <p class="nom">𦰟旗魚󰢰𤿰更雉揚”</p>
+      <p class="quocngu">Tin lời thành hạ yêu minh,</p>
+      <p class="quocngu">Ngọn cờ ngơ ngác, trống canh trễ tràng.</p>
+      <p class="author"><i>(Dòng 2503-2504) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,41 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Before marriage man prays that god give \
-| him a wife, after marriage he prays that |
-| god save him from her.”                  |
-|                                          |
-\  -- Bangambiki Habyarimana               /
- ------------------------------------------
-   \      {
-    \  }   }   {
-      {   {  }  }
-       }   }{  {
-      {  }{  }  }
-     ( }{ }{  { )
-    .-{   }   }-.
-   ( ( } { } { } )
-   |`-.._____..-'|
-   |             ;--.
-   |   (__)     (__  \
-   |   (oo)      | )  )
-   |    \/       |/  /
-   |             /  /
-   |            (  /
-   \             y'
-    `-.._____..-'
+ _____________________________________________
+/ “We have some very suggestive evidence that \
+| the use of pesticides and herbicides        |
+| affects our mental function and brain       |
+| physiology, including increasing the        |
+| incidence of Parkinson’s disease up to      |
+| seven times in those most heavily exposed   |
+| to them. This is not exactly a surprise     |
+| when we realize that pesticides are         |
+| designed to be neurotoxic to the pests.”    |
+|                                             |
+\  -- Gabriel Cousens M.D.                    /
+ ---------------------------------------------
+    \
+     \
+           .-;+$XHHHHHHX$+;-.
+        ,;X@@X%/;=----=:/%X@@X/,
+      =$@@%=.              .=+H@X:
+    -XMX:                      =XMX=
+   /@@:                          =H@+
+  %@X,                            .$@$
+ +@X.                               $@%
+-@@,                                .@@=
+%@%                                  +@$
+H@:                                  :@H
+H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
+%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
+=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
+ +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
+  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
+   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
+    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
+      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
+        ,;$@@@@@@@@@@@@@@@@@@X/-
+           .-;+$XXHHHHHX$+;-.
 ```
 <!-- END_QUOTE -->
 
