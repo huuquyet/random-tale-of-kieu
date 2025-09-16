@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“信𠳒城下要盟</p>
-      <p class="nom">𦰟旗魚󰢰𤿰更雉揚”</p>
-      <p class="quocngu">Tin lời thành hạ yêu minh,</p>
-      <p class="quocngu">Ngọn cờ ngơ ngác, trống canh trễ tràng.</p>
-      <p class="author"><i>(Dòng 2503-2504) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“月花花月󰞽燶</p>
+      <p class="nom">𣎀春埃易扲𢚸特庒”</p>
+      <p class="quocngu">Nguyệt hoa, hoa nguyệt não nùng,</p>
+      <p class="quocngu">Đêm xuân ai dễ cầm lòng được chăng?</p>
+      <p class="author"><i>(Dòng 1285-1286) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,40 +26,27 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “We have some very suggestive evidence that \
-| the use of pesticides and herbicides        |
-| affects our mental function and brain       |
-| physiology, including increasing the        |
-| incidence of Parkinson’s disease up to      |
-| seven times in those most heavily exposed   |
-| to them. This is not exactly a surprise     |
-| when we realize that pesticides are         |
-| designed to be neurotoxic to the pests.”    |
+/ “Corporate America is drowning in meetings. \
+| To make one thing clear, I am not against   |
+| communication. Quick one-on-ones can be     |
+| extremely effective. I am talking about     |
+| those hour-long recurring meetings, devoid  |
+| of a clear agenda, and attended by many. I  |
+| dread them.”                                |
 |                                             |
-\  -- Gabriel Cousens M.D.                    /
+\  -- Sebastian Thrun                         /
  ---------------------------------------------
     \
      \
-           .-;+$XHHHHHHX$+;-.
-        ,;X@@X%/;=----=:/%X@@X/,
-      =$@@%=.              .=+H@X:
-    -XMX:                      =XMX=
-   /@@:                          =H@+
-  %@X,                            .$@$
- +@X.                               $@%
--@@,                                .@@=
-%@%                                  +@$
-H@:                                  :@H
-H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
-%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
-=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
- +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
-  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
-   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
-    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
-      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
-        ,;$@@@@@@@@@@@@@@@@@@X/-
-           .-;+$XXHHHHHX$+;-.
+                                   .::!!!!!!!:.
+  .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
+      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
+      $$$##WX!:      .<!!!!UW$$"  $$$$# 
+      $$$  $$UX   :!!UW$$$$$   4$$$* 
+      ^$$B  $$\     $$$$$$   d$R" 
+        "*$bd$$      '*$$$$$$o+#" 
+             """"          """"""" 
 ```
 <!-- END_QUOTE -->
 
