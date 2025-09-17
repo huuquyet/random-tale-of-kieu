@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“月花花月󰞽燶</p>
-      <p class="nom">𣎀春埃易扲𢚸特庒”</p>
-      <p class="quocngu">Nguyệt hoa, hoa nguyệt não nùng,</p>
-      <p class="quocngu">Đêm xuân ai dễ cầm lòng được chăng?</p>
-      <p class="author"><i>(Dòng 1285-1286) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪𥪝玉𥒥鐄鍮</p>
+      <p class="nom">𨑮分些㐌信饒奇𨑮”</p>
+      <p class="quocngu">Rằng: "Trong ngọc đá vàng thau,</p>
+      <p class="quocngu">Mười phần ta đã tin nhau cả mười.</p>
+      <p class="author"><i>(Dòng 1583-1584) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,19 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Corporate America is drowning in meetings. \
-| To make one thing clear, I am not against   |
-| communication. Quick one-on-ones can be     |
-| extremely effective. I am talking about     |
-| those hour-long recurring meetings, devoid  |
-| of a clear agenda, and attended by many. I  |
-| dread them.”                                |
+/ “once you stop communicating as much as you \
+| use to, your friendship would not last.     |
+| people change and people make new friends.” |
 |                                             |
-\  -- Sebastian Thrun                         /
+\  -- Karina Celestine                        /
  ---------------------------------------------
+   \
     \
-     \
-                                   .::!!!!!!!:.
-  .!!!!!:.                        .:!!!!!!!!!!!!
-  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
-      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
-      $$$##WX!:      .<!!!!UW$$"  $$$$# 
-      $$$  $$UX   :!!UW$$$$$   4$$$* 
-      ^$$B  $$\     $$$$$$   d$R" 
-        "*$bd$$      '*$$$$$$o+#" 
-             """"          """"""" 
+
+     |\_/|
+     |o o|__
+     --*--__\
+     C_C_(___)
 ```
 <!-- END_QUOTE -->
 
