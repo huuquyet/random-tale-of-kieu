@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浪𥪝玉𥒥鐄鍮</p>
-      <p class="nom">𨑮分些㐌信饒奇𨑮”</p>
-      <p class="quocngu">Rằng: "Trong ngọc đá vàng thau,</p>
-      <p class="quocngu">Mười phần ta đã tin nhau cả mười.</p>
-      <p class="author"><i>(Dòng 1583-1584) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰣚浪量奇包容</p>
+      <p class="nom">晉陽特𧡊𠖤𧍰固畨”</p>
+      <p class="quocngu">Thưa rằng: "Lượng cả bao dong,</p>
+      <p class="quocngu">Tấn Dương được thấy bay rồng có phen.</p>
+      <p class="author"><i>(Dòng 2195-2196) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “once you stop communicating as much as you \
-| use to, your friendship would not last.     |
-| people change and people make new friends.” |
-|                                             |
-\  -- Karina Celestine                        /
- ---------------------------------------------
-   \
-    \
+ ___________________________________________
+/ “Sometimes, my books start with a scene I \
+| see in my mind, such as a woman in a      |
+| wedding dress running away from her       |
+| wedding like in 'Embers of Love.'         |
+| Sometimes, a book can start with a        |
+| character.”                               |
+|                                           |
+\  -- Tracie Peterson                       /
+ -------------------------------------------
+     \
+      \
+        ,__, |    | 
+        (oo)\|    |___
+        (__)\|    |   )\_
+             |    |_w |  \
+             |    |  ||   *
 
-     |\_/|
-     |o o|__
-     --*--__\
-     C_C_(___)
+             Cower....
 ```
 <!-- END_QUOTE -->
 
