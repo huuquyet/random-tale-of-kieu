@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰣚浪量奇包容</p>
-      <p class="nom">晉陽特𧡊𠖤𧍰固畨”</p>
-      <p class="quocngu">Thưa rằng: "Lượng cả bao dong,</p>
-      <p class="quocngu">Tấn Dương được thấy bay rồng có phen.</p>
-      <p class="author"><i>(Dòng 2195-2196) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“蹎𡗶󰘚𣷭泠汀</p>
+      <p class="nom">捻󰢇別𢭮死生准󰅹”</p>
+      <p class="quocngu">Chân trời mặt biển lênh đênh,</p>
+      <p class="quocngu">Nắm xương biết gửi tử sinh chốn nào?</p>
+      <p class="author"><i>(Dòng 2607-2608) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Sometimes, my books start with a scene I \
-| see in my mind, such as a woman in a      |
-| wedding dress running away from her       |
-| wedding like in 'Embers of Love.'         |
-| Sometimes, a book can start with a        |
-| character.”                               |
-|                                           |
-\  -- Tracie Peterson                       /
- -------------------------------------------
-     \
-      \
-        ,__, |    | 
-        (oo)\|    |___
-        (__)\|    |   )\_
-             |    |_w |  \
-             |    |  ||   *
-
-             Cower....
+ _____________________________________________
+/ “We must keep our thought secret, and judge \
+| everything by it, while talking like the    |
+| people.”                                    |
+|                                             |
+\  -- Blaise Pascal                           /
+ ---------------------------------------------
+  \
+   \
+       \#+ @      \# \#              M#@
+ .    .X  X.%##@;# \#   +@#######X. @#%
+   ,==.   ,######M+  -#####%M####M-    \#
+  :H##M%:=##+ .M##M,;#####/+#######% ,M#
+ .M########=  =@#@.=#####M=M#######=  X#
+ :@@MMM##M.  -##M.,#######M#######. =  M
+             @##..###:.    .H####. @@ X,
+   \############: \###,/####;  /##= @#. M
+           ,M## ;##,@#M;/M#M  @# X#% X#
+.%=   \######M## \##.M#:   ./#M ,M \#M ,#$
+\##/         $## \#+;#: \#### ;#/ M M- @# :
+\#+ \#M@MM###M-;M \#:$#-##$H# .#X @ + $#. \#
+      \######/.: \#%=# M#:MM./#.-#  @#: H#
++,.=   @###: /@ %#,@  \##@X \#,-#@.##% .@#
+\#####+;/##/ @##  @#,+       /#M    . X,
+   ;###M#@ M###H .#M-     ,##M  ;@@; \###
+   .M#M##H ;####X ,@#######M/ -M###$  -H
+    .M###%  X####H  .@@MM@;  ;@#M@
+      H#M    /@####/      ,++.  / ==-,
+               ,=/:, .+X@MMH@#H  \#####$=
 ```
 <!-- END_QUOTE -->
 
