@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“蹎𡗶󰘚𣷭泠汀</p>
-      <p class="nom">捻󰢇別𢭮死生准󰅹”</p>
-      <p class="quocngu">Chân trời mặt biển lênh đênh,</p>
-      <p class="quocngu">Nắm xương biết gửi tử sinh chốn nào?</p>
-      <p class="author"><i>(Dòng 2607-2608) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“閉𥹰𠻞喫𡦂同</p>
+      <p class="nom">添𠊚𢖮拱𢺺𢚸𥢆西”</p>
+      <p class="quocngu">Bấy lâu khăng khít chữ đồng,</p>
+      <p class="quocngu">Thêm người, ắt cũng chia lòng riêng tây.</p>
+      <p class="author"><i>(Dòng 1341-1342) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “We must keep our thought secret, and judge \
-| everything by it, while talking like the    |
-| people.”                                    |
-|                                             |
-\  -- Blaise Pascal                           /
- ---------------------------------------------
-  \
+ ________________________________________
+/ “Feed your self-esteem; not your ego!” \
+|                                        |
+\  -- Deborah Brodie                     /
+ ----------------------------------------
    \
-       \#+ @      \# \#              M#@
- .    .X  X.%##@;# \#   +@#######X. @#%
-   ,==.   ,######M+  -#####%M####M-    \#
-  :H##M%:=##+ .M##M,;#####/+#######% ,M#
- .M########=  =@#@.=#####M=M#######=  X#
- :@@MMM##M.  -##M.,#######M#######. =  M
-             @##..###:.    .H####. @@ X,
-   \############: \###,/####;  /##= @#. M
-           ,M## ;##,@#M;/M#M  @# X#% X#
-.%=   \######M## \##.M#:   ./#M ,M \#M ,#$
-\##/         $## \#+;#: \#### ;#/ M M- @# :
-\#+ \#M@MM###M-;M \#:$#-##$H# .#X @ + $#. \#
-      \######/.: \#%=# M#:MM./#.-#  @#: H#
-+,.=   @###: /@ %#,@  \##@X \#,-#@.##% .@#
-\#####+;/##/ @##  @#,+       /#M    . X,
-   ;###M#@ M###H .#M-     ,##M  ;@@; \###
-   .M#M##H ;####X ,@#######M/ -M###$  -H
-    .M###%  X####H  .@@MM@;  ;@#M@
-      H#M    /@####/      ,++.  / ==-,
-               ,=/:, .+X@MMH@#H  \#####$=
+    \
+     \
+                '-.
+      .---._     \ \.--'
+    /       `-..__)  ,-'
+   |    0           /
+    \--.__,   .__.,`
+     `-.___'._\_.'
+
 ```
 <!-- END_QUOTE -->
 
