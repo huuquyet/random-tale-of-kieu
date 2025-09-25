@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“决𬆄辛罕󰜋皮</p>
-      <p class="nom">𠰺浪𦟐粉吏衛樓撑”</p>
-      <p class="quocngu">Quyết nghe tăn hẳn một bề,</p>
-      <p class="quocngu">Dạy rằng má phấn lại về lầu xanh!</p>
-      <p class="author"><i>(Dòng 1391-1392) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌朱𥙩𡦂紅顔</p>
+      <p class="nom">爫牢朱害朱殘朱斤”</p>
+      <p class="quocngu">Đã cho lấy chữ hồng nhan,</p>
+      <p class="quocngu">Làm sao cho hại, cho tàn, cho cân!</p>
+      <p class="author"><i>(Dòng 1271-1272) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “If I like myself at this weight, then this \
-| is what I'm going to be. I don't have an    |
-| eating disorder.”                           |
-|                                             |
-\  -- Courteney Cox                           /
- ---------------------------------------------
-     \
-      \
-          oO)-.                       .-(Oo
-         /__  _\                     /_  __\
-         \  \(  |     ()~()         |  )/  /
-          \__|\ |    (-___-)        | /|__/
-          '  '--'    ==`-'==        '--'  '
+ ____________________________________________
+/ “I still loved Marc desperately and        \
+| couldn’t imagine life without him. Jace    |
+| was…something else. Something I could feel |
+| but couldn’t articulate. Something I       |
+| wanted, and hadn’t been able to resist in  |
+| my grief-weakened state. He was something  |
+| that would have to wait.”                  |
+|                                            |
+\  -- Rachel Vincent                         /
+ --------------------------------------------
+   \
+    \
+                      ,:二二二二:. .,
+                   ／.／＿＿＿_  ＼.:＼
+                  /. /／.: .: .:＼  : .:＼
+                 /.: .: .:/｜:/\ .:＼}.: .:.
+                .: |.:/一/ |:/ 一.:}: .: .:｜
+                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
+                |.: ｜= ＝    ＝＝= \/}: .:|
+                |:: ﾘ''           '' /:/､.:|
+               ノ:|:人    一一 ､    /:/ ﾉ.:|
+                , ┴＜＼  {     ｝ ,{:/イ::八
+               /_..   ＼` ー┬一r＜:八八／
+               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
+              /___ |  >､    ｀''＼   ｜
+             /ﾆ}::\/／  ＼       ｜  ｜
+          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
+           /__   V    ｝|  》=《      |
+           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
+             ￣        ｢   ゞ= '      }
+                      ﾉ               〉 
 ```
 <!-- END_QUOTE -->
 
