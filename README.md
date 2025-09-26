@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌朱𥙩𡦂紅顔</p>
-      <p class="nom">爫牢朱害朱殘朱斤”</p>
-      <p class="quocngu">Đã cho lấy chữ hồng nhan,</p>
-      <p class="quocngu">Làm sao cho hại, cho tàn, cho cân!</p>
-      <p class="author"><i>(Dòng 1271-1272) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𫯳蚤󰅹沛如埃</p>
+      <p class="nom">調尼罕𠰘仍𠊚是非”</p>
+      <p class="quocngu">Chồng tao nào phải như ai,</p>
+      <p class="quocngu">Điều này hẳn miệng những người thị phi!"</p>
+      <p class="author"><i>(Dòng 1559-1560) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I still loved Marc desperately and        \
-| couldn’t imagine life without him. Jace    |
-| was…something else. Something I could feel |
-| but couldn’t articulate. Something I       |
-| wanted, and hadn’t been able to resist in  |
-| my grief-weakened state. He was something  |
-| that would have to wait.”                  |
-|                                            |
-\  -- Rachel Vincent                         /
- --------------------------------------------
-   \
-    \
-                      ,:二二二二:. .,
-                   ／.／＿＿＿_  ＼.:＼
-                  /. /／.: .: .:＼  : .:＼
-                 /.: .: .:/｜:/\ .:＼}.: .:.
-                .: |.:/一/ |:/ 一.:}: .: .:｜
-                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
-                |.: ｜= ＝    ＝＝= \/}: .:|
-                |:: ﾘ''           '' /:/､.:|
-               ノ:|:人    一一 ､    /:/ ﾉ.:|
-                , ┴＜＼  {     ｝ ,{:/イ::八
-               /_..   ＼` ー┬一r＜:八八／
-               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
-              /___ |  >､    ｀''＼   ｜
-             /ﾆ}::\/／  ＼       ｜  ｜
-          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
-           /__   V    ｝|  》=《      |
-           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
-             ￣        ｢   ゞ= '      }
-                      ﾉ               〉 
+ ___________________________________________
+/ “It is important for me to focus on       \
+| positive actions taken to heal instead of |
+| beating myself up over what I did wrong   |
+| each day. It shifts my perspective, thus  |
+| making my body and mind more hospitable   |
+| places for healing and positive energy.”  |
+|                                           |
+\  -- Sharon E. Rainey                      /
+ -------------------------------------------
+       \
+        \
+
++      o     +              o   
+    +             o     +       +
+o          +
+    o  +           +        +
++        o     o       +        o
+-_-_-_-_-_-_-_,------,      o 
+_-_-_-_-_-_-_-|   /\_/\  
+-_-_-_-_-_-_-~|__( ^ .^)  +     +  
+_-_-_-_-_-_-_-''  ''      
++      o         o   +       o
+    +         +
+o        o         o      o     +
+    o           +
++      +     o        o      +    
 ```
 <!-- END_QUOTE -->
 
