@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𫯳蚤󰅹沛如埃</p>
-      <p class="nom">調尼罕𠰘仍𠊚是非”</p>
-      <p class="quocngu">Chồng tao nào phải như ai,</p>
-      <p class="quocngu">Điều này hẳn miệng những người thị phi!"</p>
-      <p class="author"><i>(Dòng 1559-1560) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“群𡗉享受𧗱𡢐</p>
+      <p class="nom">緣𠸗𧷺陣福𥹰𣼭𩆋”</p>
+      <p class="quocngu">Còn nhiều hưởng thụ về sau,</p>
+      <p class="quocngu">Duyên xưa tròn trặn, phúc lâu dồi dào."</p>
+      <p class="author"><i>(Dòng 2723-2724) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “It is important for me to focus on       \
-| positive actions taken to heal instead of |
-| beating myself up over what I did wrong   |
-| each day. It shifts my perspective, thus  |
-| making my body and mind more hospitable   |
-| places for healing and positive energy.”  |
-|                                           |
-\  -- Sharon E. Rainey                      /
- -------------------------------------------
-       \
-        \
-
-+      o     +              o   
-    +             o     +       +
-o          +
-    o  +           +        +
-+        o     o       +        o
--_-_-_-_-_-_-_,------,      o 
-_-_-_-_-_-_-_-|   /\_/\  
--_-_-_-_-_-_-~|__( ^ .^)  +     +  
-_-_-_-_-_-_-_-''  ''      
-+      o         o   +       o
-    +         +
-o        o         o      o     +
-    o           +
-+      +     o        o      +    
+ ____________________________________________
+/ “Just as despair can come to one only from \
+| other human beings, hope, too, can be      |
+| given to one only by other human beings.”  |
+|                                            |
+\  -- Elie Wiesel                            /
+ --------------------------------------------
+  \                         ________
+   \                    _.-Y  |  |  Y-.,_
+    \                .-"   |  |  |  ||   "~-.      
+          _____     |""[]"|" !""! "|"=="" "I      
+       .-"{-. "I----]_   :|------..| []  __L      
+      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
+      ^-=\[_c=-'  ~j______[________]_L______L]    
+                    [_L--.\_==I|I==/.--.j_I_/     
+                      j)==(["-----`])==((_]       
+                       I--I"~~"""~~"I--I          
+                       |[]|         |[]|          
+                       j__l         j__l          
+                       |!!|         |!!|          
+                       |..|         |..|         
+                       )[](         )[](          
+                       ]--[         ]--[          
+                       [L_]         [L_]          
+                      /|..|\       /|..|\         
+                     '={--}=`     '={--}=`        
+                    .-^-r--^-.   .-^-r--^-.       
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Modified ATAT from Row  (the Ascii-Wizard of Oz)
 ```
 <!-- END_QUOTE -->
 
