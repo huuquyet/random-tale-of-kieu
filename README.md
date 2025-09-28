@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“群𡗉享受𧗱𡢐</p>
-      <p class="nom">緣𠸗𧷺陣福𥹰𣼭𩆋”</p>
-      <p class="quocngu">Còn nhiều hưởng thụ về sau,</p>
-      <p class="quocngu">Duyên xưa tròn trặn, phúc lâu dồi dào."</p>
-      <p class="author"><i>(Dòng 2723-2724) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“宦姐魄落魂漂</p>
+      <p class="nom">叩頭󰡎帳捛調呌歌”</p>
+      <p class="quocngu">Hoạn Thư phách lạc hồn xiêu,</p>
+      <p class="quocngu">Khấu đầu dưới trướng lựa điều kêu ca.</p>
+      <p class="author"><i>(Dòng 2363-2364) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Just as despair can come to one only from \
-| other human beings, hope, too, can be      |
-| given to one only by other human beings.”  |
-|                                            |
-\  -- Elie Wiesel                            /
- --------------------------------------------
-  \                         ________
-   \                    _.-Y  |  |  Y-.,_
-    \                .-"   |  |  |  ||   "~-.      
-          _____     |""[]"|" !""! "|"=="" "I      
-       .-"{-. "I----]_   :|------..| []  __L      
-      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
-      ^-=\[_c=-'  ~j______[________]_L______L]    
-                    [_L--.\_==I|I==/.--.j_I_/     
-                      j)==(["-----`])==((_]       
-                       I--I"~~"""~~"I--I          
-                       |[]|         |[]|          
-                       j__l         j__l          
-                       |!!|         |!!|          
-                       |..|         |..|         
-                       )[](         )[](          
-                       ]--[         ]--[          
-                       [L_]         [L_]          
-                      /|..|\       /|..|\         
-                     '={--}=`     '={--}=`        
-                    .-^-r--^-.   .-^-r--^-.       
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Modified ATAT from Row  (the Ascii-Wizard of Oz)
+ ___________________________________________
+/ “Man has lost the capacity to foresee and \
+| to forestall. He will end by destroying   |
+| the earth.”                               |
+|                                           |
+\  -- Albert Schweitzer                     /
+ -------------------------------------------
+  \
+   \   \_\_    _/_/
+    \      \__/
+           (oo)\_______
+           (__)\       )\/\
+               ||----- |
+               ||     ||
 ```
 <!-- END_QUOTE -->
 
