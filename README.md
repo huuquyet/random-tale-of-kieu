@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“宦姐魄落魂漂</p>
-      <p class="nom">叩頭󰡎帳捛調呌歌”</p>
-      <p class="quocngu">Hoạn Thư phách lạc hồn xiêu,</p>
-      <p class="quocngu">Khấu đầu dưới trướng lựa điều kêu ca.</p>
-      <p class="author"><i>(Dòng 2363-2364) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“祝羅𨑮󰋇𢆥𡗶</p>
+      <p class="nom">群𠚢欺㐌䏧瑁𩯀霜”</p>
+      <p class="quocngu">Chốc là mười mấy năm trời,</p>
+      <p class="quocngu">Còn ra khi đã da mồi tóc sương.</p>
+      <p class="author"><i>(Dòng 2239-2240) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,19 +26,23 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Man has lost the capacity to foresee and \
-| to forestall. He will end by destroying   |
-| the earth.”                               |
+/ “I am the thread of unification that goes \
+| through humans of all religions, cultures |
+| and ideologies while reinforcing their    |
+| innate sense of one humanity.”            |
 |                                           |
-\  -- Albert Schweitzer                     /
+\  -- Abhijit Naskar                        /
  -------------------------------------------
-  \
-   \   \_\_    _/_/
-    \      \__/
-           (oo)\_______
-           (__)\       )\/\
-               ||----- |
-               ||     ||
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
 ```
 <!-- END_QUOTE -->
 
