@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“祝羅𨑮󰋇𢆥𡗶</p>
-      <p class="nom">群𠚢欺㐌䏧瑁𩯀霜”</p>
-      <p class="quocngu">Chốc là mười mấy năm trời,</p>
-      <p class="quocngu">Còn ra khi đã da mồi tóc sương.</p>
-      <p class="author"><i>(Dòng 2239-2240) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“䏾紅𥋷𧡊裊賒</p>
+      <p class="nom">春蘭秋菊漫麻奇𠄩”</p>
+      <p class="quocngu">Bóng hồng nhác thấy nẻo xa,</p>
+      <p class="quocngu">Xuân lan thu cúc mặn mà cả hai.</p>
+      <p class="author"><i>(Dòng 161-162) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I am the thread of unification that goes \
-| through humans of all religions, cultures |
-| and ideologies while reinforcing their    |
-| innate sense of one humanity.”            |
-|                                           |
-\  -- Abhijit Naskar                        /
- -------------------------------------------
-   \
-    \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
-
+ _____________________________________________
+/ “If, one day, you find yourself involved in \
+| a dirty game, keep in mind that you end up  |
+| screwed unless you screw your opponent      |
+| over.”                                      |
+|                                             |
+\  -- Gina Wings                              /
+ ---------------------------------------------
+  \
+   \                       _
+                          / )      
+                         / /       
+      //|                \ \       
+   .-`^ \   .-`````-.     \ \      
+ o` {|}  \_/         \    / /      
+ '--,  _ //   .---.   \  / /       
+   ^^^` )/  ,/     \   \/ /        
+        (  /)      /\/   /         
+        / / (     / (   /          
+    ___/ /) (  __/ __\ (           
+   (((__)((__)((__(((___)          
 ```
 <!-- END_QUOTE -->
 
