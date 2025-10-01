@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“䏾紅𥋷𧡊裊賒</p>
-      <p class="nom">春蘭秋菊漫麻奇𠄩”</p>
-      <p class="quocngu">Bóng hồng nhác thấy nẻo xa,</p>
-      <p class="quocngu">Xuân lan thu cúc mặn mà cả hai.</p>
-      <p class="author"><i>(Dòng 161-162) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“䀡詩𠽋󰟄𠸦忱</p>
+      <p class="nom">價停繡口錦心恪常”</p>
+      <p class="quocngu">Xem thơ nức nở khen thầm:</p>
+      <p class="quocngu">"Giá đành tú khẩu cẩm tâm khác thường.</p>
+      <p class="author"><i>(Dòng 207-208) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,48 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “If, one day, you find yourself involved in \
-| a dirty game, keep in mind that you end up  |
-| screwed unless you screw your opponent      |
-| over.”                                      |
-|                                             |
-\  -- Gina Wings                              /
- ---------------------------------------------
-  \
-   \                       _
-                          / )      
-                         / /       
-      //|                \ \       
-   .-`^ \   .-`````-.     \ \      
- o` {|}  \_/         \    / /      
- '--,  _ //   .---.   \  / /       
-   ^^^` )/  ,/     \   \/ /        
-        (  /)      /\/   /         
-        / / (     / (   /          
-    ___/ /) (  __/ __\ (           
-   (((__)((__)((__(((___)          
+ ____________________________________________
+/ “Human nature is not a machine to be built \
+| after a model, and set to do exactly the   |
+| work prescribed for it, but a tree, which  |
+| requires to grow and develop itself on all |
+| sides, according to the tendency of the    |
+| inward forces which make it a living       |
+| thing.”                                    |
+|                                            |
+\  -- John Stuart Mill                       /
+ --------------------------------------------
+    \
+     \                                                           ＿＿＿ノ^l
+      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
+                                                 く                       /
+                                                  `ヽ,   __､-'           /
+                                                    __＞‐´               |
+                                           ._,;‐''``              ,     /
+                                         _;"                     /     /
+                                       ／                       /     く
+                                     ／                        /       |
+                                   ／                        ／       ｌ
+                                 ノ                        ／￣ヽ     /
+                                /                        ／     ） _ノ
+                            ,r'″ヽ、                   ／        ￣
+                           /      ヽ                 ／
+                        ＿ﾉ        `r            _､‐'
+                      ／          _l,_       _､‐'
+                 __,r'          ／r;;,ヽ   ／
+               ,/              ｜.;●,;;|  ノ
+              ノ ／  ／／       ヽ､!!!ﾞﾉ "
+            ／ ／／／  ／／___,r''"￣
+           / ／ / / /／ / /
+      ___／／/／／／ ／／/
+  ／￣＿_／／／/ / ／／／
+ l ／´___／／／／／／ /
+ しレ"／／/ /  ／／//／
+      / ,/ / ／／／ /
+      ﾚ'   ﾚ'／／ ／
+           ／l｜l/
+          ｜|ﾚ'lノ
+           レ'
 ```
 <!-- END_QUOTE -->
 
