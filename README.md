@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“䀡詩𠽋󰟄𠸦忱</p>
-      <p class="nom">價停繡口錦心恪常”</p>
-      <p class="quocngu">Xem thơ nức nở khen thầm:</p>
-      <p class="quocngu">"Giá đành tú khẩu cẩm tâm khác thường.</p>
-      <p class="author"><i>(Dòng 207-208) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“払浪呐拱邏𠁀</p>
+      <p class="nom">唒𢚸箕丕群𠳒意牢”</p>
+      <p class="quocngu">Chàng rằng: "Nói cũng lạ đời,</p>
+      <p class="quocngu">Dẫu lòng kia vậy, còn lời ấy sao?</p>
+      <p class="author"><i>(Dòng 3083-3084) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,47 +26,23 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Human nature is not a machine to be built \
-| after a model, and set to do exactly the   |
-| work prescribed for it, but a tree, which  |
-| requires to grow and develop itself on all |
-| sides, according to the tendency of the    |
-| inward forces which make it a living       |
-| thing.”                                    |
+/ “You stupid cow!” He laughed at her behind \
+| those icicle eyes. “You really think       |
+| anyone is better than you? Everyone’s a    |
+| thief, woman! Waiting for the next         |
+| terrible thing to do to get ahead of their |
+| neighbor. Forty of us around a table       |
+| weren’t enough to convince you of that?”   |
 |                                            |
-\  -- John Stuart Mill                       /
+\  -- Devon Trevarrow Flaherty               /
  --------------------------------------------
-    \
-     \                                                           ＿＿＿ノ^l
-      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
-                                                 く                       /
-                                                  `ヽ,   __､-'           /
-                                                    __＞‐´               |
-                                           ._,;‐''``              ,     /
-                                         _;"                     /     /
-                                       ／                       /     く
-                                     ／                        /       |
-                                   ／                        ／       ｌ
-                                 ノ                        ／￣ヽ     /
-                                /                        ／     ） _ノ
-                            ,r'″ヽ、                   ／        ￣
-                           /      ヽ                 ／
-                        ＿ﾉ        `r            _､‐'
-                      ／          _l,_       _､‐'
-                 __,r'          ／r;;,ヽ   ／
-               ,/              ｜.;●,;;|  ノ
-              ノ ／  ／／       ヽ､!!!ﾞﾉ "
-            ／ ／／／  ／／___,r''"￣
-           / ／ / / /／ / /
-      ___／／/／／／ ／／/
-  ／￣＿_／／／/ / ／／／
- l ／´___／／／／／／ /
- しレ"／／/ /  ／／//／
-      / ,/ / ／／／ /
-      ﾚ'   ﾚ'／／ ／
-           ／l｜l/
-          ｜|ﾚ'lノ
-           レ'
+  \
+   \
+       ___  
+     {~o_o~}
+      ( Y )
+     ()~*~()   
+     (_)-(_)   
 ```
 <!-- END_QUOTE -->
 
