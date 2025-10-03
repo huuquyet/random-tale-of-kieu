@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“払浪呐拱邏𠁀</p>
-      <p class="nom">唒𢚸箕丕群𠳒意牢”</p>
-      <p class="quocngu">Chàng rằng: "Nói cũng lạ đời,</p>
-      <p class="quocngu">Dẫu lòng kia vậy, còn lời ấy sao?</p>
-      <p class="author"><i>(Dòng 3083-3084) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“唉喂呐歇事緣</p>
+      <p class="nom">絲情𠞹䏾󰌕煩𤈜肝”</p>
+      <p class="quocngu">Hỡi ôi! Nói hết sự duyên,</p>
+      <p class="quocngu">Tơ tình đứt bụng, lửa phiền cháy gan!</p>
+      <p class="author"><i>(Dòng 1675-1676) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “You stupid cow!” He laughed at her behind \
-| those icicle eyes. “You really think       |
-| anyone is better than you? Everyone’s a    |
-| thief, woman! Waiting for the next         |
-| terrible thing to do to get ahead of their |
-| neighbor. Forty of us around a table       |
-| weren’t enough to convince you of that?”   |
-|                                            |
-\  -- Devon Trevarrow Flaherty               /
- --------------------------------------------
+ ___________________________________________
+/ “If you think back to the first sporting  \
+| event you went to, you don't remember the |
+| score, you don't remember a home run, you |
+| don't remember a dunk. You remember who   |
+| you were with. Were you with your mom,    |
+| your dad, your brother, on a date?”       |
+|                                           |
+\  -- Mark Cuban                            /
+ -------------------------------------------
   \
    \
-       ___  
-     {~o_o~}
-      ( Y )
-     ()~*~()   
-     (_)-(_)   
+
+:. :.孑|:/仔:./  ＼:.| V｜:. ﾄ:. :.
+:. :/  |/  |:/     ヽ|   \/:!\/:.:
+:. / ,ィf芋ミ     ィf芋｀:V  .\/.
+:./ ,' :'::::ﾊ      ,':::::ﾊ ヽ /:.
+:t  { {k)::::!     !k)::::!  },'.:
+:ﾊ    弋 一ソ      弋 一 ｿ ,: ::
+:.{      ￣    ,       ￣  ; :./
+:.| ''                  '' |:./
+:.ﾄ､      ` ､      ノ     ﾉ!:/ノ
+ﾄ､!:＞ ､.     一  '   .,＜:|/::.
+:: :: :: ::>z-一-z<:: :: :: :: :.
+V|＼:/}ﾍ/  `ー又ー' \/}ノ{／|:／
+  ,z'￣ ﾍ   /{ .ﾄ､  /￣  ヽ
+／      /\./x 一 ﾐ./       ＼ 
 ```
 <!-- END_QUOTE -->
 
