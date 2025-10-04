@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣦍情埃別謀奸</p>
-      <p class="nom">罕娘傕吏固盤浪埃”</p>
-      <p class="quocngu">Ngay tình ai biết mưu gian,</p>
-      <p class="quocngu">Hẳn nàng thôi lại có bàn rằng ai!</p>
-      <p class="author"><i>(Dòng 1663-1664) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“點愁󰜋刻󰜋遲</p>
+      <p class="nom">氷傾如醒如醝󰜋命”</p>
+      <p class="quocngu">Điểm sầu một khắc một chầy,</p>
+      <p class="quocngu">Bâng khuâng như tỉnh như say một mình.</p>
+      <p class="author"><i>(Dòng 803-804) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “She wanted to punch her father in his     \
-| snout, but she wouldn’t. He was her father |
-| after all. True, a father whose funeral    |
-| rite she planned to dance at and toast     |
-| with ale, but her father just the same.”   |
-|                                            |
-\  -- G.A. Aiken                             /
- --------------------------------------------
-  \
-   \                _, _ ,､
-    \          , - ´      `--、
-             ノ               丶
-           ／                  `､_
-         ,´                        、
-        ,'                          丶
-       ﾉ                             ヽ
-    ＿;＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿',＿
-    ヽ三三三三三三三三三三三三三三三三三ﾉ
-      ヽ                              /
-       ヽ三三三三三三三三三三三三三三/
-         ＼                        ／
-           ＼三三三三三三三三三三／
-             `＜              ＞´
-               ｀丁三三三三丁´
-     ＿          ｀ ｰ----‐ ´
-  ／::/＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿_
-（;;;ﾌ ｰ─----＝＝ === ニニニ 二二二三三三｣
-
-         ＿|＿ ＼  ＿ｌ＿＼  _＿|＿_ヽヽ
-          _|＿       ｜ヽ     __|
-        ／ |  ヽ     ﾉ  │   (__|
-        ＼ノ  ノ    ﾉ ヽﾉ     _ノ 
+ _____________________________________________
+/ “I go dreaming into the future, where I see \
+| nothing, nothing. I have no plans, no       |
+| idea, no project, and, what is worse, no    |
+| ambition. Something – the eternal ‘what’s   |
+| the use?’ – sets its bronze barrier across  |
+| every avenue that I open up in the realm    |
+| of hypothesis.”                             |
+|                                             |
+\  -- Gustave Flaubert                        /
+ ---------------------------------------------
+           \     (      )
+            \    ~(^^^^)~
+             \    ) oo \~_          |\
+              \  /     | \        \~ /
+                ( 0  0  ) \        | |
+                 ---___/~  \       | |
+                  /'__/ |   ~-_____/ |
+   o          _   ~----~      ___---~
+     O       //     |         |
+            ((~\  _|         -|
+      o  O //-_ \/ |        ~  |
+           ^   \_ /         ~  |
+                  |          ~ |
+                  |     /     ~ |
+                  |     (       |
+                   \     \      /\
+                  / -_____-\   \ ~~-*
+                  |  /       \  \       .==.
+                  / /         / /       |  |
+                /~  |      //~  |       |__|         W<
+                ~~~~        ~~~~
 ```
 <!-- END_QUOTE -->
 
