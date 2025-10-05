@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“點愁󰜋刻󰜋遲</p>
-      <p class="nom">氷傾如醒如醝󰜋命”</p>
-      <p class="quocngu">Điểm sầu một khắc một chầy,</p>
-      <p class="quocngu">Bâng khuâng như tỉnh như say một mình.</p>
-      <p class="author"><i>(Dòng 803-804) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“矯欺𩆐𩂶不期</p>
+      <p class="nom">昆蝼昆蜆呌洏特寃”</p>
+      <p class="quocngu">Kẻo khi sấm sét bất kỳ,</p>
+      <p class="quocngu">Con sâu con kiến kêu gì được oan!"</p>
+      <p class="author"><i>(Dòng 1757-1758) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I go dreaming into the future, where I see \
-| nothing, nothing. I have no plans, no       |
-| idea, no project, and, what is worse, no    |
-| ambition. Something – the eternal ‘what’s   |
-| the use?’ – sets its bronze barrier across  |
-| every avenue that I open up in the realm    |
-| of hypothesis.”                             |
-|                                             |
-\  -- Gustave Flaubert                        /
- ---------------------------------------------
-           \     (      )
-            \    ~(^^^^)~
-             \    ) oo \~_          |\
-              \  /     | \        \~ /
-                ( 0  0  ) \        | |
-                 ---___/~  \       | |
-                  /'__/ |   ~-_____/ |
-   o          _   ~----~      ___---~
-     O       //     |         |
-            ((~\  _|         -|
-      o  O //-_ \/ |        ~  |
-           ^   \_ /         ~  |
-                  |          ~ |
-                  |     /     ~ |
-                  |     (       |
-                   \     \      /\
-                  / -_____-\   \ ~~-*
-                  |  /       \  \       .==.
-                  / /         / /       |  |
-                /~  |      //~  |       |__|         W<
-                ~~~~        ~~~~
+ ____________________________________________
+/ “It is not one's negative situation that   \
+| causes stress in one's life; rather, it is |
+| one's frequent negative interpretation of  |
+| it that has the power to do so.”           |
+|                                            |
+\  --                                        /
+ --------------------------------------------
+  \
+   \
+    \
+             ＿＿＿＿
+       ＜ :: :: :: :: `丶､
+       ／   _, ｨ:ﾊ ､＿: ::＼
+     ∠:: :/ |/|/ \/  \/:: |
+rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
+ヽ／＼i:｜   ┌──┐   i::|／＼ノ
+  ＼::|(||   |:::::|    ||)|::／
+    ＼|人|.、|:::::| .ｨ|ﾉ:八／
+      ＼\/\/>|:::::|<\/\/／
+        ＼ :::>TﾇT<::: ／
+          Y : ＼W／ : Y 
 ```
 <!-- END_QUOTE -->
 
