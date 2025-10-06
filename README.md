@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“矯欺𩆐𩂶不期</p>
-      <p class="nom">昆蝼昆蜆呌洏特寃”</p>
-      <p class="quocngu">Kẻo khi sấm sét bất kỳ,</p>
-      <p class="quocngu">Con sâu con kiến kêu gì được oan!"</p>
-      <p class="author"><i>(Dòng 1757-1758) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“分油油丕拱油</p>
+      <p class="nom">𡭧𢚸刀等閉𥹰󰜋𠳒”</p>
+      <p class="quocngu">Phận dầu, dầu vậy cũng dầu,</p>
+      <p class="quocngu">Chút lòng đeo đẳng bấy lâu một lời.</p>
+      <p class="author"><i>(Dòng 697-698) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,34 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “It is not one's negative situation that   \
-| causes stress in one's life; rather, it is |
-| one's frequent negative interpretation of  |
-| it that has the power to do so.”           |
+/ “Real food, I've found, is actually better \
+| than dieting.”                             |
 |                                            |
-\  --                                        /
+\  -- Angelina Jolie                         /
  --------------------------------------------
-  \
    \
     \
-             ＿＿＿＿
-       ＜ :: :: :: :: `丶､
-       ／   _, ｨ:ﾊ ､＿: ::＼
-     ∠:: :/ |/|/ \/  \/:: |
-rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
-ヽ／＼i:｜   ┌──┐   i::|／＼ノ
-  ＼::|(||   |:::::|    ||)|::／
-    ＼|人|.、|:::::| .ｨ|ﾉ:八／
-      ＼\/\/>|:::::|<\/\/／
-        ＼ :::>TﾇT<::: ／
-          Y : ＼W／ : Y 
+     \
+               ＿＿＿＿＿
+           .:´.: .: . : :. `  、
+     ..: ／.: .: .: . : .: .:   ＼
+    .::／:::       ﾉ   /､         ＼
+   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
+ .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
+ .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
+..:::|.:::ノ::{{:::}       {:::}}{: |＼|
+..:::::::_::|::うﾆソ       う:ソＶ: |
+.::: /.:/ |:|:ヽヽ       ｀      }: |
+.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
+ ..::|.ゝ,ヽ|:   /      /     ／:::八
+ .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
+  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
+   ..::::／⌒: :|:ＶＶ{ヽ:＼
+      .:/.: :|::l::ﾍ}/\|:}:.＼
+    ..::｢.: :|::＞:Ｖ//|〈:.}.}
+  ...::/.:: :|::＼: Ｖ/| / :}:.┐
+ ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
+..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
 ```
 <!-- END_QUOTE -->
 
