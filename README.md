@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“翁妑強呐強𤴬</p>
-      <p class="nom">払強𦖑呐強油如𦯬”</p>
-      <p class="quocngu">Ông bà càng nói, càng đau,</p>
-      <p class="quocngu">Chàng càng nghe nói, càng dàu như dưa.</p>
-      <p class="author"><i>(Dòng 2793-2794) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡬷𢚸故國他鄕</p>
+      <p class="nom">塘箕餒怒滚昂排排”</p>
+      <p class="quocngu">Tấc lòng cố quốc tha hương.</p>
+      <p class="quocngu">Đường kia nỗi nọ ngổn ngang bời bời.</p>
+      <p class="author"><i>(Dòng 2245-2246) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “All I was aware of was this hole, this    \
-| gaping hole where my heart should have     |
-| been. I read somewhere once that your      |
-| heart is supposed to be the same size as   |
-| your clenched fist, but this hole felt far |
-| bigger. It seemed to expand over my whole  |
-| upper body and it felt cold, vacant - the  |
-| cooling wind seemed to cut right through   |
-| it. I felt frail and insubstantial, as if  |
-| the wind could have blown me away.”        |
-|                                            |
-\  -- Maggie O'Farrell                       /
- --------------------------------------------
-   \
-    \
-     \
-                '-.
-      .---._     \ \.--'
-    /       `-..__)  ,-'
-   |    0           /
-    \--.__,   .__.,`
-     `-.___'._\_.'
-
+ ___________________________________________
+/ “I was a teacher most of my life, which I \
+| loved. I had a very happy working life,   |
+| and when I retired, I thought I must do   |
+| something, and I've always read a lot of  |
+| fiction - you learn so much from fiction. |
+| My sentimental education came mostly from |
+| fiction, I should say, so I thought I'd   |
+| try.”                                     |
+|                                           |
+\  -- Anita Brookner                        /
+ -------------------------------------------
+\
+ \
+   /\   /\   Todd Vargo
+  //\\_//\\     ____
+  \_     _/    /   /
+   / * * \    /^^^]
+   \_\O/_/    [   ]
+    /   \_    [   /
+    \     \_  /  /
+     [ [ /  \/ _/
+    _[ [ \  /_/
 ```
 <!-- END_QUOTE -->
 
