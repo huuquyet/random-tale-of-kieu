@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡬷𢚸故國他鄕</p>
-      <p class="nom">塘箕餒怒滚昂排排”</p>
-      <p class="quocngu">Tấc lòng cố quốc tha hương.</p>
-      <p class="quocngu">Đường kia nỗi nọ ngổn ngang bời bời.</p>
-      <p class="author"><i>(Dòng 2245-2246) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“覺緣自節啫娘</p>
+      <p class="nom">撩䕯掛攝𢌌塘雲遊”</p>
+      <p class="quocngu">Giác Duyên từ tiết giã nàng,</p>
+      <p class="quocngu">Đeo bầu quảy níp, rộng đường vân du.</p>
+      <p class="author"><i>(Dòng 2649-2650) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I was a teacher most of my life, which I \
-| loved. I had a very happy working life,   |
-| and when I retired, I thought I must do   |
-| something, and I've always read a lot of  |
-| fiction - you learn so much from fiction. |
-| My sentimental education came mostly from |
-| fiction, I should say, so I thought I'd   |
-| try.”                                     |
-|                                           |
-\  -- Anita Brookner                        /
- -------------------------------------------
-\
- \
-   /\   /\   Todd Vargo
-  //\\_//\\     ____
-  \_     _/    /   /
-   / * * \    /^^^]
-   \_\O/_/    [   ]
-    /   \_    [   /
-    \     \_  /  /
-     [ [ /  \/ _/
-    _[ [ \  /_/
+ ____________________________________________
+/ “Let me keep my distance, always, from     \
+| those who think they have the answers.Let  |
+| me keep company always with those who say  |
+| "Look!" and laugh in astonishment, and bow |
+| their heads.”                              |
+|                                            |
+\  -- Mary Oliver                            /
+ --------------------------------------------
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /o  o  \__  /    //  | \ \    
+           /     /  \/_/    //   |  \  \  
+           @_^_@'/   \/_   //    |   \   \ 
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
 ```
 <!-- END_QUOTE -->
 
