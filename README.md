@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“覺緣自節啫娘</p>
-      <p class="nom">撩䕯掛攝𢌌塘雲遊”</p>
-      <p class="quocngu">Giác Duyên từ tiết giã nàng,</p>
-      <p class="quocngu">Đeo bầu quảy níp, rộng đường vân du.</p>
-      <p class="author"><i>(Dòng 2649-2650) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情𠸗來𣼽坤寒</p>
+      <p class="nom">從容吏𠳨𦰟弹𣈗𠸗”</p>
+      <p class="quocngu">Tình xưa lai láng khôn hàn,</p>
+      <p class="quocngu">Thong dong lại hỏi ngón đàn ngày xưa.</p>
+      <p class="author"><i>(Dòng 3191-3192) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Let me keep my distance, always, from     \
-| those who think they have the answers.Let  |
-| me keep company always with those who say  |
-| "Look!" and laugh in astonishment, and bow |
-| their heads.”                              |
-|                                            |
-\  -- Mary Oliver                            /
- --------------------------------------------
-      \                    / \  //\
-       \    |\___/|      /   \//  \\
-            /o  o  \__  /    //  | \ \    
-           /     /  \/_/    //   |  \  \  
-           @_^_@'/   \/_   //    |   \   \ 
-           //_^_/     \/_ //     |    \    \
-        ( //) |        \///      |     \     \
-      ( / /) _|_ /   )  //       |      \     _\
-    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
-  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
- (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
- (( /// ))      `.   {            }                   /      \  \
-  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
-             ///.----..>        \             _ -~             `.  ^-`  ^-_
-               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
-                                                                  /.-~
+ _____________________________________________
+/ “I’m floating. I’m flowing. I’m loving, but \
+| I’m going.”                                 |
+|                                             |
+\  -- Dominic Riccitello                      /
+ ---------------------------------------------
+          \
+           \
+
+
+      ^^      .-=-=-=-.  ^^
+  ^^        (`-=-=-=-=-`)         ^^
+          (`-=-=-=-=-=-=-`)  ^^         ^^
+    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
+        ( `-=-=-=-(@)-=-=-` )      ^^
+        (`-=-=-=-=-=-=-=-=-`)  ^^
+        (`-=-=-=-=-=-=-=-=-`)              ^^
+        (`-=-=-=-=-=-=-=-=-`)                      ^^
+        (`-=-=-=-=-=-=-=-=-`)  ^^
+         (`-=-=-=-=-=-=-=-`)          ^^
+          (`-=-=-=-=-=-=-`)  ^^                 ^^
+      jgs   (`-=-=-=-=-`)
+             `-=-=-=-=-`
 ```
 <!-- END_QUOTE -->
 
