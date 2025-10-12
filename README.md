@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情𠸗來𣼽坤寒</p>
-      <p class="nom">從容吏𠳨𦰟弹𣈗𠸗”</p>
-      <p class="quocngu">Tình xưa lai láng khôn hàn,</p>
-      <p class="quocngu">Thong dong lại hỏi ngón đàn ngày xưa.</p>
-      <p class="author"><i>(Dòng 3191-3192) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨀈寅蹺𦰟小溪</p>
+      <p class="nom">𨁮䀡風景固皮清清”</p>
+      <p class="quocngu">Bước dần theo ngọn tiểu khê,</p>
+      <p class="quocngu">Lần xem phong cảnh có bề thanh thanh.</p>
+      <p class="author"><i>(Dòng 53-54) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,48 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I’m floating. I’m flowing. I’m loving, but \
-| I’m going.”                                 |
-|                                             |
-\  -- Dominic Riccitello                      /
- ---------------------------------------------
-          \
-           \
-
-
-      ^^      .-=-=-=-.  ^^
-  ^^        (`-=-=-=-=-`)         ^^
-          (`-=-=-=-=-=-=-`)  ^^         ^^
-    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
-        ( `-=-=-=-(@)-=-=-` )      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-        (`-=-=-=-=-=-=-=-=-`)              ^^
-        (`-=-=-=-=-=-=-=-=-`)                      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-         (`-=-=-=-=-=-=-=-`)          ^^
-          (`-=-=-=-=-=-=-`)  ^^                 ^^
-      jgs   (`-=-=-=-=-`)
-             `-=-=-=-=-`
+ ____________________________________________
+/ “If you want to help someone move on, you  \
+| don’t label people as good, bad, worst or  |
+| best. This categorizes people, rather than |
+| experiences with that person. People are   |
+| not all evil or all good. You don’t teach  |
+| compassion by categorizing people. Empathy |
+| and honest open communication are the only |
+| way to live your life. If you’re blaming   |
+| someone then you haven’t let go of your    |
+| pain long enough to really try on theirs.  |
+| However, if you must believe that the only |
+| type of person that brings you difficult   |
+| lessons or experiences in life are those   |
+| that are bad or worse, then take the time  |
+| to read the bible a little closer. Christ, |
+| put a few people in their place, in order  |
+| to make point.”                            |
+|                                            |
+\  -- Shannon L. Alder                       /
+ --------------------------------------------
+     \
+      \
+             ,;;;;;;;,
+            ;;;;;;;;;;;,
+           ;;;;;'_____;'
+           ;;;(/))))|((\
+           _;;((((((|))))
+          / |_\\\\\\\\\\\\
+     .--~(  \ ~))))))))))))
+    /     \  `\-(((((((((((\\
+    |    | `\   ) |\       /|)
+     |    |  `. _/  \_____/ |
+      |    , `\~            /
+       |    \  \           /
+      | `.   `\|          /
+      |   ~-   `\        /
+       \____~._/~ -_,   (\
+        |-----|\   \    ';;
+       |      | :;;;'     \
+      |  /    |            |
+      |       |            |
 ```
 <!-- END_QUOTE -->
 
