@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“拱羅寃業之低</p>
-      <p class="nom">沙機買典勢尼󰝸仍”</p>
-      <p class="quocngu">Cũng là oan nghiệp chi đây,</p>
-      <p class="quocngu">Sa cơ mới đến thế này, chẳng dưng.</p>
-      <p class="author"><i>(Dòng 1753-1754) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“歇難意典難箕</p>
+      <p class="nom">青樓𠄩𦀎青衣𠄩吝”</p>
+      <p class="quocngu">Hết nạn ấy đến nạn kia,</p>
+      <p class="quocngu">Thanh lâu hai lượt, thanh y hai lần.</p>
+      <p class="author"><i>(Dòng 2667-2668) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I am a cynical optimist. Big opening     \
-| weekends are like cotton candy. The films |
-| you will remember over time are the films |
-| that stick in the consciousness of the    |
-| audience in a good way.”                  |
-|                                           |
-\  -- Robert Redford                        /
- -------------------------------------------
-  \
-   \
-       __     
-      UooU\.'@@@@@@`.
-      \__/(@@@@@@@@@@)
-           (@@@@@@@@)
-           `YY~~~~YY'
-            ||    ||
+ ____________________________________________
+/ “The fact that a seed is viable is not a   \
+| proof that it’s going to bear good fruits. |
+| Some good seeds are destroyed by bad       |
+| soils. So is leadership; everyone was born |
+| to lead, but not all become leaders!”      |
+|                                            |
+\  -- Israelmore Ayivor                      /
+ --------------------------------------------
+       \
+        \
+                           __ 
+                  l^ヽ    /  }    _
+                  |  |   /  /   ／  )
+                  |  |  /  /  ／  ／ _
+                  j. し'  / ／  ／ ／  )
+                 /  .＿__ ´  ／ ／  ／
+                /   {  /:｀ヽ ｀¨ ／
+               /     ∨::::::ﾊ   ／
+              |廴     ＼:::ノ}  /
+    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
+    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
+        ／       ＼ 辷_´￣
+      ／           ﾍ￣
+    ／             ,ﾍ
+                  /、ﾍ
+                 /＼__ﾉ
 ```
 <!-- END_QUOTE -->
 
