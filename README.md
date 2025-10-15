@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“歇難意典難箕</p>
-      <p class="nom">青樓𠄩𦀎青衣𠄩吝”</p>
-      <p class="quocngu">Hết nạn ấy đến nạn kia,</p>
-      <p class="quocngu">Thanh lâu hai lượt, thanh y hai lần.</p>
-      <p class="author"><i>(Dòng 2667-2668) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“彙𦝄域域𡧲𡗶</p>
+      <p class="nom">丁寧𠄩󰘚󰜋𠳒雙雙”</p>
+      <p class="quocngu">Vầng trăng vằng vặc giữa trời,</p>
+      <p class="quocngu">Đinh ninh hai mặt một lời song song.</p>
+      <p class="author"><i>(Dòng 449-450) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The fact that a seed is viable is not a   \
-| proof that it’s going to bear good fruits. |
-| Some good seeds are destroyed by bad       |
-| soils. So is leadership; everyone was born |
-| to lead, but not all become leaders!”      |
-|                                            |
-\  -- Israelmore Ayivor                      /
- --------------------------------------------
-       \
-        \
-                           __ 
-                  l^ヽ    /  }    _
-                  |  |   /  /   ／  )
-                  |  |  /  /  ／  ／ _
-                  j. し'  / ／  ／ ／  )
-                 /  .＿__ ´  ／ ／  ／
-                /   {  /:｀ヽ ｀¨ ／
-               /     ∨::::::ﾊ   ／
-              |廴     ＼:::ノ}  /
-    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
-    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
-        ／       ＼ 辷_´￣
-      ／           ﾍ￣
-    ／             ,ﾍ
-                  /、ﾍ
-                 /＼__ﾉ
+ _____________________________________________
+/ “I've been in love for five hundred million \
+| years…”                                     |
+|                                             |
+\  -- Italo Calvino                           /
+ ---------------------------------------------
+  \
+   \
+       __     
+      UooU\.'@@@@@@`.
+      \__/(@@@@@@@@@@)
+           (@@@@@@@@)
+           `YY~~~~YY'
+            ||    ||
 ```
 <!-- END_QUOTE -->
 
