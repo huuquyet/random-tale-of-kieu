@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“彙𦝄域域𡧲𡗶</p>
-      <p class="nom">丁寧𠄩󰘚󰜋𠳒雙雙”</p>
-      <p class="quocngu">Vầng trăng vằng vặc giữa trời,</p>
-      <p class="quocngu">Đinh ninh hai mặt một lời song song.</p>
-      <p class="author"><i>(Dòng 449-450) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“棟軍爫禮招安</p>
+      <p class="nom">封書鎫禮差官説降”</p>
+      <p class="quocngu">Đóng quân, làm lễ chiêu an,</p>
+      <p class="quocngu">Phong thư mâm lễ sai quan thuyết hàng.</p>
+      <p class="author"><i>(Dòng 2457-2458) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,19 +26,38 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “I've been in love for five hundred million \
-| years…”                                     |
+/ “The one who is worthy of worship by people \
+| has no desires. The one who is unworthy of  |
+| worship has desires.”                       |
 |                                             |
-\  -- Italo Calvino                           /
+\  -- Dada Bhagwan                            /
  ---------------------------------------------
-  \
-   \
-       __     
-      UooU\.'@@@@@@`.
-      \__/(@@@@@@@@@@)
-           (@@@@@@@@)
-           `YY~~~~YY'
-            ||    ||
+            \
+             \                __ 
+                   _ ,___,-'",-=-. 
+       __,-- _ _,-'_)_  (""`'-._\ `. 
+    _,'  __ |,' ,-' __)  ,-     /. | 
+  ,'_,--'   |     -'  _)/         `\ 
+,','      ,'       ,-'_,`           : 
+,'     ,-'       ,(,-(              : 
+     ,'       ,-' ,    _            ; 
+    /        ,-._/`---'            / 
+   /        (____)(----. )       ,' 
+  /         (      `.__,     /\ /, 
+ :           ;-.___         /__\/| 
+ |         ,'      `--.      -,\ | 
+ :        /            \    .__/ 
+  \      (__            \    |_ 
+   \       ,`-, *       /   _|,\ 
+    \    ,'   `-.     ,'_,-'    \ 
+   (_\,-'    ,'\")--,'-'       __\ 
+    \       /  // ,'|      ,--'  `-. 
+     `-.    `-/ \'  |   _,'         `. 
+        `-._ /      `--'/             \ 
+-hrr-      ,'           |              \ 
+          /             |               \ 
+       ,-'              |               / 
+      /                 |             -'
 ```
 <!-- END_QUOTE -->
 
