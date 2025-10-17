@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“棟軍爫禮招安</p>
-      <p class="nom">封書鎫禮差官説降”</p>
-      <p class="quocngu">Đóng quân, làm lễ chiêu an,</p>
-      <p class="quocngu">Phong thư mâm lễ sai quan thuyết hàng.</p>
-      <p class="author"><i>(Dòng 2457-2458) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“翁絲𢴿掛之饒</p>
+      <p class="nom">渚𢝙森合㐌愁坡𢴾”</p>
+      <p class="quocngu">"Ông tơ chèo quải chi nhau,</p>
+      <p class="quocngu">Chưa vui sum họp đã sầu pha phôi.</p>
+      <p class="author"><i>(Dòng 549-550) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,13 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The one who is worthy of worship by people \
-| has no desires. The one who is unworthy of  |
-| worship has desires.”                       |
-|                                             |
-\  -- Dada Bhagwan                            /
- ---------------------------------------------
+ ____________________________________________
+/ “...Away, away, from men and towns, To the \
+| wild wood and the downs— To the silent     |
+| wilderness Where the soul need not repress |
+| Its music lest it should not find An echo  |
+| in another’s mind. While the touch of      |
+| Nature’s art Harmonizes heart to heart. I  |
+| leave this notice on my door For each      |
+| accustomed visitor:— “I am gone into the   |
+| fields To take what this sweet hour        |
+| yields;...Awake! arise! And come away! To  |
+| the wild woods and the plains, And the     |
+| pools where winter rains Image all their   |
+| roof of leaves, Where the pine its garland |
+| weaves Of sapless green, and ivy dun Round |
+| stems that never kiss the sun: Where the   |
+| lawns and pastures be, And the sandhills   |
+| of the sea:— Where the melting hoar-frost  |
+| wets The daisy-star that never sets, And   |
+| wind-flowers, and violets, Which yet join  |
+| not scent to hue, Crown the pale year weak |
+| and new; When the night is left behind In  |
+| the deep east, dun and blind, And the blue |
+| noon is over us, And the multitudinous     |
+| Billows murmur at our feet, Where the      |
+| earth and ocean meet, And all things seem  |
+| only one In the universal sun.”            |
+|                                            |
+\  -- Percy Bysshe Shelley                   /
+ --------------------------------------------
             \
              \                __ 
                    _ ,___,-'",-=-. 
