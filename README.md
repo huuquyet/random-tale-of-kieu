@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥙩𥪝意思麻推</p>
-      <p class="nom">𣈜𠄩𨑮󰜋戌𪰛沛庒”</p>
-      <p class="quocngu">Lấy trong ý tứ mà suy:</p>
-      <p class="quocngu">"Ngày hai mươi mốt, tuất thì phải chăng?"</p>
-      <p class="author"><i>(Dòng 1089-1090) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“悲徐簪技𦎛散</p>
+      <p class="nom">計爫牢掣𨷈萬愛恩”</p>
+      <p class="quocngu">Bây giờ trâm gãy gương tan,</p>
+      <p class="quocngu">Kể làm sao xiết muôn vàn ái ân.</p>
+      <p class="author"><i>(Dòng 749-750) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,25 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “We cannot save ourselves. It is only Jesus \
-| Christ, who can set us free.”               |
+/ “Encouragement is a fire of flame. It       \
+| refreshes the soul and revives the spirit.” |
 |                                             |
 \  -- Lailah Gifty Akita                      /
  ---------------------------------------------
- \
-  \
-     __ 
-    /  \  
-    |  |
-    @  @
-    |  |
-    || |/ 
-    || || 
-    |\_/|
-    \___/
+       \  
+        \
+         \
+          \
+          |\___/|
+         =) oYo (=            
+          \  ^  /
+           )=*=(       
+          /     \
+          |     |
+         /| | | |\
+         \| | |_|/\
+         //_// ___/
+             \_) 
 ```
 <!-- END_QUOTE -->
 
