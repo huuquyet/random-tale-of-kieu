@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“悲徐簪技𦎛散</p>
-      <p class="nom">計爫牢掣𨷈萬愛恩”</p>
-      <p class="quocngu">Bây giờ trâm gãy gương tan,</p>
-      <p class="quocngu">Kể làm sao xiết muôn vàn ái ân.</p>
-      <p class="author"><i>(Dòng 749-750) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“仍浪隔󰘚屈𠳒</p>
+      <p class="nom">𨁪些些拱料排𨁪朱”</p>
+      <p class="quocngu">Những rằng cách mặt khuất lời,</p>
+      <p class="quocngu">Giấu ta, ta cũng liệu bài giấu cho!</p>
+      <p class="author"><i>(Dòng 1545-1546) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Encouragement is a fire of flame. It       \
-| refreshes the soul and revives the spirit.” |
-|                                             |
-\  -- Lailah Gifty Akita                      /
- ---------------------------------------------
-       \  
-        \
-         \
-          \
-          |\___/|
-         =) oYo (=            
-          \  ^  /
-           )=*=(       
-          /     \
-          |     |
-         /| | | |\
-         \| | |_|/\
-         //_// ___/
-             \_) 
+ ___________________________________________
+/ “When you turn a blind eye to atrocities, \
+| you are complicit in them.”               |
+|                                           |
+\  -- David Crossman                        /
+ -------------------------------------------
+   \
+    \
+     \
+               ＿＿＿＿＿
+           .:´.: .: . : :. `  、
+     ..: ／.: .: .: . : .: .:   ＼
+    .::／:::       ﾉ   /､         ＼
+   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
+ .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
+ .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
+..:::|.:::ノ::{{:::}       {:::}}{: |＼|
+..:::::::_::|::うﾆソ       う:ソＶ: |
+.::: /.:/ |:|:ヽヽ       ｀      }: |
+.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
+ ..::|.ゝ,ヽ|:   /      /     ／:::八
+ .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
+  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
+   ..::::／⌒: :|:ＶＶ{ヽ:＼
+      .:/.: :|::l::ﾍ}/\|:}:.＼
+    ..::｢.: :|::＞:Ｖ//|〈:.}.}
+  ...::/.:: :|::＼: Ｖ/| / :}:.┐
+ ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
+..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
 ```
 <!-- END_QUOTE -->
 
