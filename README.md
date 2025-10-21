@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“仍浪隔󰘚屈𠳒</p>
-      <p class="nom">𨁪些些拱料排𨁪朱”</p>
-      <p class="quocngu">Những rằng cách mặt khuất lời,</p>
-      <p class="quocngu">Giấu ta, ta cũng liệu bài giấu cho!</p>
-      <p class="author"><i>(Dòng 1545-1546) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘它寔胣信𠊚</p>
+      <p class="nom">禮𡗉呐𠮾𦖑𠳒易漂”</p>
+      <p class="quocngu">Nàng đà thực dạ tin người,</p>
+      <p class="quocngu">Lễ nhiều, nói ngọt nghe lời dễ xiêu.</p>
+      <p class="author"><i>(Dòng 2473-2474) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,15 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “When you turn a blind eye to atrocities, \
-| you are complicit in them.”               |
-|                                           |
-\  -- David Crossman                        /
- -------------------------------------------
-   \
-    \
-     \
-               ＿＿＿＿＿
-           .:´.: .: . : :. `  、
-     ..: ／.: .: .: . : .: .:   ＼
-    .::／:::       ﾉ   /､         ＼
-   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
- .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
- .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
-..:::|.:::ノ::{{:::}       {:::}}{: |＼|
-..:::::::_::|::うﾆソ       う:ソＶ: |
-.::: /.:/ |:|:ヽヽ       ｀      }: |
-.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
- ..::|.ゝ,ヽ|:   /      /     ／:::八
- .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
-  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
-   ..::::／⌒: :|:ＶＶ{ヽ:＼
-      .:/.: :|::l::ﾍ}/\|:}:.＼
-    ..::｢.: :|::＞:Ｖ//|〈:.}.}
-  ...::/.:: :|::＼: Ｖ/| / :}:.┐
- ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
-..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
+ ______________________________________________________________________
+/ “You can't just wish change”                                         \
+|                                                                      |
+\  -- you have to live the change in order for it to become a reality. /
+ ----------------------------------------------------------------------
+       \   ,__,
+        \  (oo)____
+           (__)    )\
+              ||--|| *
 ```
 <!-- END_QUOTE -->
 
