@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘它寔胣信𠊚</p>
-      <p class="nom">禮𡗉呐𠮾𦖑𠳒易漂”</p>
-      <p class="quocngu">Nàng đà thực dạ tin người,</p>
-      <p class="quocngu">Lễ nhiều, nói ngọt nghe lời dễ xiêu.</p>
-      <p class="author"><i>(Dòng 2473-2474) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“品𠎣淶典𢬣𢤞</p>
+      <p class="nom">懷功𬋟𪧚𩅹󱓀貝埃”</p>
+      <p class="quocngu">Phẩm tiên rơi đến tay hèn,</p>
+      <p class="quocngu">Hoài công nắng giữ mưa gìn với ai!</p>
+      <p class="author"><i>(Dòng 789-790) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,15 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________________________________________
-/ “You can't just wish change”                                         \
-|                                                                      |
-\  -- you have to live the change in order for it to become a reality. /
- ----------------------------------------------------------------------
-       \   ,__,
-        \  (oo)____
-           (__)    )\
-              ||--|| *
+ ___________________________________________
+/ “Let your brilliance be expressed through \
+| kindness.”                                |
+|                                           |
+\  -- Bryant McGill                         /
+ -------------------------------------------
+     \
+      \
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+             ,--==-:$;
+         ,/$@#######@X+-
+      ./@###############X=
+     /M#####X+/;;;;+H#####$.
+    %####M/;+H@XX@@%;;@####@,
+   +####H=+##$,--,=M#X-%####@.
+  -####X,X@HHXH##MXHXXH-+####$
+  X###@.X/$M$:####$=@X/X,X####-
+ .####:+$:##@:####$:##H/X=####%
+ -%%$%,+==%$+-$+:$;-$%-+,/$%%+
+ -/+%%X$XX$$$$%$$%$X$X$%+/-
 ```
 <!-- END_QUOTE -->
 
