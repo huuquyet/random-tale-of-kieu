@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“品𠎣淶典𢬣𢤞</p>
-      <p class="nom">懷功𬋟𪧚𩅹󱓀貝埃”</p>
-      <p class="quocngu">Phẩm tiên rơi đến tay hèn,</p>
-      <p class="quocngu">Hoài công nắng giữ mưa gìn với ai!</p>
-      <p class="author"><i>(Dòng 789-790) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰋇𠳒記註丁寧</p>
+      <p class="nom">𥱬𢚸底吏拮命𠚢𠫾”</p>
+      <p class="quocngu">Mấy lời ký chú đinh ninh,</p>
+      <p class="quocngu">Ghi lòng để lại cất mình ra đi.</p>
+      <p class="author"><i>(Dòng 2789-2790) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Let your brilliance be expressed through \
-| kindness.”                                |
-|                                           |
-\  -- Bryant McGill                         /
- -------------------------------------------
-     \
-      \
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-             ,--==-:$;
-         ,/$@#######@X+-
-      ./@###############X=
-     /M#####X+/;;;;+H#####$.
-    %####M/;+H@XX@@%;;@####@,
-   +####H=+##$,--,=M#X-%####@.
-  -####X,X@HHXH##MXHXXH-+####$
-  X###@.X/$M$:####$=@X/X,X####-
- .####:+$:##@:####$:##H/X=####%
- -%%$%,+==%$+-$+:$;-$%-+,/$%%+
- -/+%%X$XX$$$$%$$%$X$X$%+/-
+ _____________________________________________
+/ “Stay with me tonight. Let me hold you even \
+| if that's all it is. Let me keep you safe.” |
+|                                             |
+\  -- Becca Fitzpatrick                       /
+ ---------------------------------------------
+   \
+    \
+  
+            . .: ───:. .
+         .／.: .: .: .: .: ヽ
+        .:   .:l.:   .: .: .:.
+        |.l:..ﾊ.ハ..|ヽ.ﾄ､:: |
+        |:l.:/ヽ､_ヽ|_ノV:.:.|
+        |:lﾊ.  {j    {j  |:ヽl
+        ﾉ:l} ''        ''|:ノヽ／ )
+        ヽﾍ:ヽ.､ r---､  ｨﾉ ┬' `／
+     γ::ヽ  ｀^Y`TﾇΤ` {__├'`'
+     ｀‐< ＼_ ハ |:|  Y
+          ヽ_>､|  |:|／|
+               /   V   l
+             〈        〉
+           〈:｀-:';`-´:〉
+            .>-:ｧ─--‐r-:ｨ
+            /  /     |  |
+           /  /      |  |
+          /-,/       |--|
+         に7         |二|
 ```
 <!-- END_QUOTE -->
 
