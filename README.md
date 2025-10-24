@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰋇𠳒記註丁寧</p>
-      <p class="nom">𥱬𢚸底吏拮命𠚢𠫾”</p>
-      <p class="quocngu">Mấy lời ký chú đinh ninh,</p>
-      <p class="quocngu">Ghi lòng để lại cất mình ra đi.</p>
-      <p class="author"><i>(Dòng 2789-2790) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠽔浪賤技詫之</p>
+      <p class="nom">㐌𢚸𠰺典敬爲沛󰂅”</p>
+      <p class="quocngu">Thưa rằng: "Tiện kỹ sá chi,</p>
+      <p class="quocngu">Đã lòng dạy đến, kính vì phải vâng."</p>
+      <p class="author"><i>(Dòng 465-466) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Stay with me tonight. Let me hold you even \
-| if that's all it is. Let me keep you safe.” |
-|                                             |
-\  -- Becca Fitzpatrick                       /
- ---------------------------------------------
-   \
-    \
-  
-            . .: ───:. .
-         .／.: .: .: .: .: ヽ
-        .:   .:l.:   .: .: .:.
-        |.l:..ﾊ.ハ..|ヽ.ﾄ､:: |
-        |:l.:/ヽ､_ヽ|_ノV:.:.|
-        |:lﾊ.  {j    {j  |:ヽl
-        ﾉ:l} ''        ''|:ノヽ／ )
-        ヽﾍ:ヽ.､ r---､  ｨﾉ ┬' `／
-     γ::ヽ  ｀^Y`TﾇΤ` {__├'`'
-     ｀‐< ＼_ ハ |:|  Y
-          ヽ_>､|  |:|／|
-               /   V   l
-             〈        〉
-           〈:｀-:';`-´:〉
-            .>-:ｧ─--‐r-:ｨ
-            /  /     |  |
-           /  /      |  |
-          /-,/       |--|
-         に7         |二|
+ __________________________________________________________________________________
+/ “That night I dreamt of the moment I found                                       \
+| my mother’s body. My life was a series of                                        |
+| befores and afters: before my mother’s                                           |
+| death and after my mother’s death. Before                                        |
+| I left the Monster and after I left the                                          |
+| Monster. The first thing I remembered                                            |
+| about my mother’s death was the minutes                                          |
+| after. I’d always dreamt of it this way”                                         |
+|                                                                                  |
+\  -- remembering the after. It was during the after that I remembered the before. /
+ ----------------------------------------------------------------------------------
+       \   ,__,
+        \  (oo)____
+           (__)    )\
+              ||--|| *
 ```
 <!-- END_QUOTE -->
 
