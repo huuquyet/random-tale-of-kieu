@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠽔浪賤技詫之</p>
-      <p class="nom">㐌𢚸𠰺典敬爲沛󰂅”</p>
-      <p class="quocngu">Thưa rằng: "Tiện kỹ sá chi,</p>
-      <p class="quocngu">Đã lòng dạy đến, kính vì phải vâng."</p>
-      <p class="author"><i>(Dòng 465-466) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“醒𠚢買󰁹共払</p>
+      <p class="nom">𦖑𠳒払拱𠄩塘信疑”</p>
+      <p class="quocngu">Tỉnh ra mới rỉ cùng chàng,</p>
+      <p class="quocngu">Nghe lời chàng cũng hai đường tin nghi.</p>
+      <p class="author"><i>(Dòng 2879-2880) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________________________________________________
-/ “That night I dreamt of the moment I found                                       \
-| my mother’s body. My life was a series of                                        |
-| befores and afters: before my mother’s                                           |
-| death and after my mother’s death. Before                                        |
-| I left the Monster and after I left the                                          |
-| Monster. The first thing I remembered                                            |
-| about my mother’s death was the minutes                                          |
-| after. I’d always dreamt of it this way”                                         |
-|                                                                                  |
-\  -- remembering the after. It was during the after that I remembered the before. /
- ----------------------------------------------------------------------------------
-       \   ,__,
-        \  (oo)____
-           (__)    )\
-              ||--|| *
+ __________________________________________
+/ “Within your light, I lose the madness.” \
+|                                          |
+\  -- Karina Halle                         /
+ ------------------------------------------
+  \
+   \ ,   _ ___.--'''`--''//-,-_--_.
+      \`"' ` || \\ \ \\/ / // / ,-\\`,_
+     /'`  \ \ || Y  | \|/ / // / - |__ `-,
+    /o"\  ` \ `\ |  | ||/ // | \/  \  `-._`-,_.,
+   /  _.-. `.-\,___/\ _/|_/_\_\/|_/ |     `-._._)
+   `-'``/  /  |  // \__/\__  /  \__/ \
+        `-'  /-\/  | -|   \__ \   |-' |
+          __/\ / _/ \/ __,-'   ) ,' _|'
+         (((__/(((_.' ((___..-'((__,'
 ```
 <!-- END_QUOTE -->
 
