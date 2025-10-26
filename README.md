@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“醒𠚢買󰁹共払</p>
-      <p class="nom">𦖑𠳒払拱𠄩塘信疑”</p>
-      <p class="quocngu">Tỉnh ra mới rỉ cùng chàng,</p>
-      <p class="quocngu">Nghe lời chàng cũng hai đường tin nghi.</p>
-      <p class="author"><i>(Dòng 2879-2880) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠸗󰅒𥪝道彈妑</p>
+      <p class="nom">𡦂貞箕拱固𠀧𠤩󰟯”</p>
+      <p class="quocngu">Xưa nay trong đạo đàn bà,</p>
+      <p class="quocngu">Chữ Trinh kia cũng có ba bảy đường.</p>
+      <p class="author"><i>(Dòng 3115-3116) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Within your light, I lose the madness.” \
-|                                          |
-\  -- Karina Halle                         /
- ------------------------------------------
+ _______________________________________________________________________________________________________
+/ “កត្តាដែលភ្លេចអក្សរសាស្រ្តជាតិរបស់ខ្លួនហ្នឹង                                                          \
+| អាចនឹងធ្វើឲ្យពួក                                                                                      |
+| គេថ្ងៃក្រោយមិនអាចដឹងនូវដើមកំណើតឫសនៃមូលដ្ឋានជាតិរបស់គេនោះកូនចៅខ្មែរក្រោមអាចនឹងកា្លយជាជនជាតិវៀតណាមទៅវិញ |
+| ។I think in the future, the younger                                                                   |
+| generation of Khmer Krom people could                                                                 |
+| forget the Cambodian national literature.                                                             |
+| They won’t know about their roots and the                                                             |
+| basics of Khmer. I’m afraid that the Khmer                                                            |
+| Krom youth can easily become Vietnamese.”                                                             |
+|                                                                                                       |
+\  -- Thach Preichea Koeun VOA News                                                                     /
+ -------------------------------------------------------------------------------------------------------
+ \
   \
-   \ ,   _ ___.--'''`--''//-,-_--_.
-      \`"' ` || \\ \ \\/ / // / ,-\\`,_
-     /'`  \ \ || Y  | \|/ / // / - |__ `-,
-    /o"\  ` \ `\ |  | ||/ // | \/  \  `-._`-,_.,
-   /  _.-. `.-\,___/\ _/|_/_\_\/|_/ |     `-._._)
-   `-'``/  /  |  // \__/\__  /  \__/ \
-        `-'  /-\/  | -|   \__ \   |-' |
-          __/\ / _/ \/ __,-'   ) ,' _|'
-         (((__/(((_.' ((___..-'((__,'
+     .--.              .--.
+    : (\ ". _......_ ." /) :
+     '.    `        `    .'
+      /'   _        _   `\
+     /     o}      {o     \
+    |       /      \       |
+    |     /'        `\     |
+     \   | .  .==.  . |   /
+      '._ \.' \__/ './ _.'
+      /  ``'._-''-_.'``  \
 ```
 <!-- END_QUOTE -->
 
