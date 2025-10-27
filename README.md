@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠸗󰅒𥪝道彈妑</p>
-      <p class="nom">𡦂貞箕拱固𠀧𠤩󰟯”</p>
-      <p class="quocngu">Xưa nay trong đạo đàn bà,</p>
-      <p class="quocngu">Chữ Trinh kia cũng có ba bảy đường.</p>
-      <p class="author"><i>(Dòng 3115-3116) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨷶房扦日䋥毛</p>
+      <p class="nom">𠺶𠳒𠓀󰘚淶珠永𠊚”</p>
+      <p class="quocngu">Cửa phòng then nhặt lưới mau,</p>
+      <p class="quocngu">Nói lời trước mặt, rơi châu vắng người.</p>
+      <p class="author"><i>(Dòng 1935-1936) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________________________________________________________________________
-/ “កត្តាដែលភ្លេចអក្សរសាស្រ្តជាតិរបស់ខ្លួនហ្នឹង                                                          \
-| អាចនឹងធ្វើឲ្យពួក                                                                                      |
-| គេថ្ងៃក្រោយមិនអាចដឹងនូវដើមកំណើតឫសនៃមូលដ្ឋានជាតិរបស់គេនោះកូនចៅខ្មែរក្រោមអាចនឹងកា្លយជាជនជាតិវៀតណាមទៅវិញ |
-| ។I think in the future, the younger                                                                   |
-| generation of Khmer Krom people could                                                                 |
-| forget the Cambodian national literature.                                                             |
-| They won’t know about their roots and the                                                             |
-| basics of Khmer. I’m afraid that the Khmer                                                            |
-| Krom youth can easily become Vietnamese.”                                                             |
-|                                                                                                       |
-\  -- Thach Preichea Koeun VOA News                                                                     /
- -------------------------------------------------------------------------------------------------------
- \
-  \
-     .--.              .--.
-    : (\ ". _......_ ." /) :
-     '.    `        `    .'
-      /'   _        _   `\
-     /     o}      {o     \
-    |       /      \       |
-    |     /'        `\     |
-     \   | .  .==.  . |   /
-      '._ \.' \__/ './ _.'
-      /  ``'._-''-_.'``  \
+ ____________________________________________
+/ “Even though most people won't be directly \
+| involved with programming, everyone is     |
+| affected by computers, so an educated      |
+| person should have a good understanding of |
+| how computer hardware, software, and       |
+| networks operate.”                         |
+|                                            |
+\  -- Brian Kernighan                        /
+ --------------------------------------------
+           \
+            \
+                           _.. .:-―-:. .._
+                      .: .: .: .: .: .: .: .: .: 
+                   ／ .: .: .: .: .: .: .: .: .: .＼
+                 ,'         ,!    ∧           : .: ヽ
+                /, .:: :｜./ |.:./ヽ.:iﾍ.: .: .: .: ::.
+               ,''|.:: .人/--|':/  ヽ:| ､＿.: : .: .::|
+                  |.:: ｲ  ,,=､ﾚ        ゞ=ﾐ､.:|..: .: :|
+                  |.:: ｜{{    }}     {{    }}八.: .: :|
+                 /.: : /  ゛= "        ゛= "    ;.:r ､:|
+                /,.ｲ.:〈                     ,, //' ｝:|
+               '  ヽ:: ゝ、        ｰ--┐       //  ノ::.
+                    ヾ::.､＞ .    ヽ _ﾉ    ..  ＜¨ｨ.:}~＼
+                      `゜ヾ/｀>了、.    v 〔:／|:/  レ'
+                        _ . -/: ,K:::>､/: :ﾄ._
+                       |: :く_.:|/:〈 /: :}: /~ヽ
+              r「「「ｈ,>:|: <: |'::ｿ::<¨.:n｢「「!､
+              ゝ＿_ﾉ /: : |::ヽ |::/: ／: :.ﾍ＿_ノ｝
+               | ￣ |,': :/: : ヽ:' ／ : :.:| ￣ |:}
 ```
 <!-- END_QUOTE -->
 
