@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨷶房扦日䋥毛</p>
-      <p class="nom">𠺶𠳒𠓀󰘚淶珠永𠊚”</p>
-      <p class="quocngu">Cửa phòng then nhặt lưới mau,</p>
-      <p class="quocngu">Nói lời trước mặt, rơi châu vắng người.</p>
-      <p class="author"><i>(Dòng 1935-1936) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“花魁慕㗂翹兒</p>
+      <p class="nom">帖紅尋典香閨𠳚𠓨”</p>
+      <p class="quocngu">Hoa khôi mộ tiếng Kiều nhi,</p>
+      <p class="quocngu">Thiếp hồng tìm đến hương khuê gửi vào.</p>
+      <p class="author"><i>(Dòng 1279-1280) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,35 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Even though most people won't be directly \
-| involved with programming, everyone is     |
-| affected by computers, so an educated      |
-| person should have a good understanding of |
-| how computer hardware, software, and       |
-| networks operate.”                         |
+/ “My palm presses against his cool cheek as \
+| I stare intently at him, willing him to    |
+| understand, “I couldn’t have forgiven      |
+| myself, couldn’t have gone on knowing I’d  |
+| let you suffer when it was in my power to  |
+| take that pain away.” I pause to smile     |
+| sadly at him, “Anyway, it’s done now.”He   |
+| shakes his head in one last denial but     |
+| there’s nothing he can do. Crimson tears   |
+| fill his eyes again as he whispers softly, |
+| “Kiss me?”                                 |
 |                                            |
-\  -- Brian Kernighan                        /
+\  -- Angela Louise McGurk                   /
  --------------------------------------------
-           \
-            \
-                           _.. .:-―-:. .._
-                      .: .: .: .: .: .: .: .: .: 
-                   ／ .: .: .: .: .: .: .: .: .: .＼
-                 ,'         ,!    ∧           : .: ヽ
-                /, .:: :｜./ |.:./ヽ.:iﾍ.: .: .: .: ::.
-               ,''|.:: .人/--|':/  ヽ:| ､＿.: : .: .::|
-                  |.:: ｲ  ,,=､ﾚ        ゞ=ﾐ､.:|..: .: :|
-                  |.:: ｜{{    }}     {{    }}八.: .: :|
-                 /.: : /  ゛= "        ゛= "    ;.:r ､:|
-                /,.ｲ.:〈                     ,, //' ｝:|
-               '  ヽ:: ゝ、        ｰ--┐       //  ノ::.
-                    ヾ::.､＞ .    ヽ _ﾉ    ..  ＜¨ｨ.:}~＼
-                      `゜ヾ/｀>了、.    v 〔:／|:/  レ'
-                        _ . -/: ,K:::>､/: :ﾄ._
-                       |: :く_.:|/:〈 /: :}: /~ヽ
-              r「「「ｈ,>:|: <: |'::ｿ::<¨.:n｢「「!､
-              ゝ＿_ﾉ /: : |::ヽ |::/: ／: :.ﾍ＿_ノ｝
-               | ￣ |,': :/: : ヽ:' ／ : :.:| ￣ |:}
+  \
+   \   --木--
+       ／｜＼
+     ／  ｜  ＼
+  --木-- ｜ --木--
+  ／｜＼    ／｜＼
+／  ｜　＼／  ｜  ＼
+    ｜        ｜
 ```
 <!-- END_QUOTE -->
 
