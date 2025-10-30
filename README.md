@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“逴妯衛典駐坊</p>
-      <p class="nom">𦊛皮春鎖󰜋娘於𥪝”</p>
-      <p class="quocngu">Rước dâu về đến trú phường,</p>
-      <p class="quocngu">Tư bề xuân toả một nàng ở trong.</p>
-      <p class="author"><i>(Dòng 785-786) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢠩恾蘿用花逨</p>
+      <p class="nom">払衛書院妾移樓粧”</p>
+      <p class="quocngu">Mơ màng lá rụng hoa rơi,</p>
+      <p class="quocngu">Chàng về thư viện, thiếp dời lầu trang.</p>
+      <p class="author"><i>(Dòng 361-362) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “The first year was like icing. Then the \
-| cake started to show through …”          |
-|                                          |
-\  -- John Ashbery                         /
- ------------------------------------------
-           \
-            \
-                           _.. .:-―-:. .._
-                      .: .: .: .: .: .: .: .: .: 
-                   ／ .: .: .: .: .: .: .: .: .: .＼
-                 ,'         ,!    ∧           : .: ヽ
-                /, .:: :｜./ |.:./ヽ.:iﾍ.: .: .: .: ::.
-               ,''|.:: .人/--|':/  ヽ:| ､＿.: : .: .::|
-                  |.:: ｲ  ,,=､ﾚ        ゞ=ﾐ､.:|..: .: :|
-                  |.:: ｜{{    }}     {{    }}八.: .: :|
-                 /.: : /  ゛= "        ゛= "    ;.:r ､:|
-                /,.ｲ.:〈                     ,, //' ｝:|
-               '  ヽ:: ゝ、        ｰ--┐       //  ノ::.
-                    ヾ::.､＞ .    ヽ _ﾉ    ..  ＜¨ｨ.:}~＼
-                      `゜ヾ/｀>了、.    v 〔:／|:/  レ'
-                        _ . -/: ,K:::>､/: :ﾄ._
-                       |: :く_.:|/:〈 /: :}: /~ヽ
-              r「「「ｈ,>:|: <: |'::ｿ::<¨.:n｢「「!､
-              ゝ＿_ﾉ /: : |::ヽ |::/: ／: :.ﾍ＿_ノ｝
-               | ￣ |,': :/: : ヽ:' ／ : :.:| ￣ |:}
+ _____________________________________________
+/ “The body is only a garment. How many times \
+| you have changed your clothing in this      |
+| life, yet because of this you would not     |
+| say that you have changed.”                 |
+|                                             |
+\  -- Bill Guggenheim                         /
+ ---------------------------------------------
+      \
+       \
+                     -$-
+                    .H##H,
+                   +######+
+                .+#########H.
+              -$############@.
+            =H###############@  -X:
+          .$##################:  @#@-
+     ,;  .M###################;  H###;
+   ;@#:  @###################@  ,#####:
+ -M###.  M#################@.  ;######H
+ M####-  +###############$   =@#######X
+ H####$   -M###########+   :#########M,
+  /####X-   =########%   :M########@/.
+    ,;%H@X;   .$###X   :##MM@%+;:-
+                 ..
+  -/;:-,.              ,,-==+M########H
+ -##################@HX%%+%%$%%%+:,,
+    .-/H%%%+%%$H@###############M@+=:/+:
+/XHX%:#####MH%=    ,---:;;;;/%%XHM,:###$
+$@#MX %+;-                           .
 ```
 <!-- END_QUOTE -->
 
