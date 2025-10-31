@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢠩恾蘿用花逨</p>
-      <p class="nom">払衛書院妾移樓粧”</p>
-      <p class="quocngu">Mơ màng lá rụng hoa rơi,</p>
-      <p class="quocngu">Chàng về thư viện, thiếp dời lầu trang.</p>
-      <p class="author"><i>(Dòng 361-362) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“領𠳒娘買蹺𨖅</p>
+      <p class="nom">別兜地獄天堂羅兜”</p>
+      <p class="quocngu">Lĩnh lời nàng mới theo sang,</p>
+      <p class="quocngu">Biết đâu địa ngục thiên đàng là đâu!</p>
+      <p class="author"><i>(Dòng 1773-1774) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The body is only a garment. How many times \
-| you have changed your clothing in this      |
-| life, yet because of this you would not     |
-| say that you have changed.”                 |
-|                                             |
-\  -- Bill Guggenheim                         /
- ---------------------------------------------
-      \
-       \
-                     -$-
-                    .H##H,
-                   +######+
-                .+#########H.
-              -$############@.
-            =H###############@  -X:
-          .$##################:  @#@-
-     ,;  .M###################;  H###;
-   ;@#:  @###################@  ,#####:
- -M###.  M#################@.  ;######H
- M####-  +###############$   =@#######X
- H####$   -M###########+   :#########M,
-  /####X-   =########%   :M########@/.
-    ,;%H@X;   .$###X   :##MM@%+;:-
-                 ..
-  -/;:-,.              ,,-==+M########H
- -##################@HX%%+%%$%%%+:,,
-    .-/H%%%+%%$H@###############M@+=:/+:
-/XHX%:#####MH%=    ,---:;;;;/%%XHM,:###$
-$@#MX %+;-                           .
+ ___________________________________________
+/ “Very few people use landline phones for  \
+| much of anything. So when you talk about  |
+| things like online chat and social media  |
+| messages and emails, what you're really   |
+| talking about is the full extent of human |
+| communication.”                           |
+|                                           |
+\  -- Glenn Greenwald                       /
+ -------------------------------------------
+ \
+  \
+
+   WWWWWW
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
 ```
 <!-- END_QUOTE -->
 
