@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“領𠳒娘買蹺𨖅</p>
-      <p class="nom">別兜地獄天堂羅兜”</p>
-      <p class="quocngu">Lĩnh lời nàng mới theo sang,</p>
-      <p class="quocngu">Biết đâu địa ngục thiên đàng là đâu!</p>
-      <p class="author"><i>(Dòng 1773-1774) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“恪牟几貴𠊚清</p>
+      <p class="nom">𥋴𠚢朱技如形昆奔”</p>
+      <p class="quocngu">Khác màu kẻ quý người thanh,</p>
+      <p class="quocngu">Ngắm ra cho kỹ như hình con buôn.</p>
+      <p class="author"><i>(Dòng 887-888) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Very few people use landline phones for  \
-| much of anything. So when you talk about  |
-| things like online chat and social media  |
-| messages and emails, what you're really   |
-| talking about is the full extent of human |
-| communication.”                           |
-|                                           |
-\  -- Glenn Greenwald                       /
- -------------------------------------------
- \
-  \
-
-   WWWWWW
-    |  |
-    |  |
-    |__|
-   /____\
-  (______)
+ ____________________________________________
+/ “The day of fortune is like a harvest day, \
+| We must be busy when the corn is ripe.”    |
+|                                            |
+\  -- Torquato Tasso                         /
+ --------------------------------------------
+       \
+        \
+                           __ 
+                  l^ヽ    /  }    _
+                  |  |   /  /   ／  )
+                  |  |  /  /  ／  ／ _
+                  j. し'  / ／  ／ ／  )
+                 /  .＿__ ´  ／ ／  ／
+                /   {  /:｀ヽ ｀¨ ／
+               /     ∨::::::ﾊ   ／
+              |廴     ＼:::ノ}  /
+    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
+    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
+        ／       ＼ 辷_´￣
+      ／           ﾍ￣
+    ／             ,ﾍ
+                  /、ﾍ
+                 /＼__ﾉ
 ```
 <!-- END_QUOTE -->
 
