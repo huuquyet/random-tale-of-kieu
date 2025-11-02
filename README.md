@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“恪牟几貴𠊚清</p>
-      <p class="nom">𥋴𠚢朱技如形昆奔”</p>
-      <p class="quocngu">Khác màu kẻ quý người thanh,</p>
-      <p class="quocngu">Ngắm ra cho kỹ như hình con buôn.</p>
-      <p class="author"><i>(Dòng 887-888) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪弄弄𡗶高</p>
+      <p class="nom">害人人害事󰅹在些”</p>
+      <p class="quocngu">Nàng rằng: "Lồng lộng trời cao,</p>
+      <p class="quocngu">Hại nhân, nhân hại, sự nào tại ta?</p>
+      <p class="author"><i>(Dòng 2381-2382) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The day of fortune is like a harvest day, \
-| We must be busy when the corn is ripe.”    |
-|                                            |
-\  -- Torquato Tasso                         /
- --------------------------------------------
-       \
-        \
-                           __ 
-                  l^ヽ    /  }    _
-                  |  |   /  /   ／  )
-                  |  |  /  /  ／  ／ _
-                  j. し'  / ／  ／ ／  )
-                 /  .＿__ ´  ／ ／  ／
-                /   {  /:｀ヽ ｀¨ ／
-               /     ∨::::::ﾊ   ／
-              |廴     ＼:::ノ}  /
-    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
-    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
-        ／       ＼ 辷_´￣
-      ／           ﾍ￣
-    ／             ,ﾍ
-                  /、ﾍ
-                 /＼__ﾉ
+ __________________________________________
+/ “Think about those who deserve your time \
+| and emotions. Because, valuable things   |
+| should never be wasted and should be     |
+| delivered with care to those who deserve |
+| it.”                                     |
+|                                          |
+\  -- Rakesh Akuthota                      /
+ ------------------------------------------
+ \
+  \
+  ,-''''-.
+ (.  ,.   L        ___...__
+ /o} ,-`  `'-==''``        ''._
+//{                           '`.
+\_,X ,                         : )
+    7                          ;`
+    :                  ,       /
+     \_,                \     ;
+       Y   L_    __..--':`.    L
+       |  /| ````       ;  y  J
+       [ j J            / / L ;
+       | |Y \          /_J  | |
+       L_J/_)         /_)   L_J
+      /_)               sk /_)
 ```
 <!-- END_QUOTE -->
 
