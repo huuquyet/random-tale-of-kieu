@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘浪弄弄𡗶高</p>
-      <p class="nom">害人人害事󰅹在些”</p>
-      <p class="quocngu">Nàng rằng: "Lồng lộng trời cao,</p>
-      <p class="quocngu">Hại nhân, nhân hại, sự nào tại ta?</p>
-      <p class="author"><i>(Dòng 2381-2382) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“咹𡅧𪰛事㐌耒</p>
+      <p class="nom">𢘝𢚸𠊛𡳵󰂅𠳒󰜋畨”</p>
+      <p class="quocngu">Ăn năn thì sự đã rồi,</p>
+      <p class="quocngu">Nể lòng người cũ vâng lời một phen."</p>
+      <p class="author"><i>(Dòng 3195-3196) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Think about those who deserve your time \
-| and emotions. Because, valuable things   |
-| should never be wasted and should be     |
-| delivered with care to those who deserve |
-| it.”                                     |
-|                                          |
-\  -- Rakesh Akuthota                      /
- ------------------------------------------
- \
-  \
-  ,-''''-.
- (.  ,.   L        ___...__
- /o} ,-`  `'-==''``        ''._
-//{                           '`.
-\_,X ,                         : )
-    7                          ;`
-    :                  ,       /
-     \_,                \     ;
-       Y   L_    __..--':`.    L
-       |  /| ````       ;  y  J
-       [ j J            / / L ;
-       | |Y \          /_J  | |
-       L_J/_)         /_)   L_J
-      /_)               sk /_)
+ _____________________________________________
+/ “Nobody believes me when I say that my long \
+| book is an attempt to create a world in     |
+| which a form of language agreeable to my    |
+| personal aesthetic might seem real. But it  |
+| is true.”                                   |
+|                                             |
+\  -- J.R.R. Tolkien                          /
+ ---------------------------------------------
+     \
+      \
+          oO)-.                       .-(Oo
+         /__  _\                     /_  __\
+         \  \(  |     ()~()         |  )/  /
+          \__|\ |    (-___-)        | /|__/
+          '  '--'    ==`-'==        '--'  '
 ```
 <!-- END_QUOTE -->
 
