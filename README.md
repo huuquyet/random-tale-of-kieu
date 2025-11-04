@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“咹𡅧𪰛事㐌耒</p>
-      <p class="nom">𢘝𢚸𠊛𡳵󰂅𠳒󰜋畨”</p>
-      <p class="quocngu">Ăn năn thì sự đã rồi,</p>
-      <p class="quocngu">Nể lòng người cũ vâng lời một phen."</p>
-      <p class="author"><i>(Dòng 3195-3196) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“樁萱𢥈𢜝掣包</p>
+      <p class="nom">過𠚢欺典世󰅹𦓡𫨩”</p>
+      <p class="quocngu">Thông huyên lo sợ xiết bao,</p>
+      <p class="quocngu">Quá ra khi đến thế nào mà hay!</p>
+      <p class="author"><i>(Dòng 2837-2838) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Nobody believes me when I say that my long \
-| book is an attempt to create a world in     |
-| which a form of language agreeable to my    |
-| personal aesthetic might seem real. But it  |
-| is true.”                                   |
-|                                             |
-\  -- J.R.R. Tolkien                          /
- ---------------------------------------------
-     \
-      \
-          oO)-.                       .-(Oo
-         /__  _\                     /_  __\
-         \  \(  |     ()~()         |  )/  /
-          \__|\ |    (-___-)        | /|__/
-          '  '--'    ==`-'==        '--'  '
+ ____________________________________________
+/ “Somehow however just knowing that I could \
+| fully expect unhappiness to return – if    |
+| not predictably then nevertheless reliably |
+| – was strangely liberating. The point was  |
+| that even chaos had a structure a          |
+| beginning and eventually an end. It was    |
+| possible to live through it. I’d been      |
+| doing as much for twenty years.”           |
+|                                            |
+\  -- Caroline Kettlewell                    /
+ --------------------------------------------
+        \    ,-^-.
+         \   !oYo!
+          \ /./=\.\______
+               ##        )\/\
+                ||-----w||
+                ||      ||
+
+               Cowth Vader
 ```
 <!-- END_QUOTE -->
 
