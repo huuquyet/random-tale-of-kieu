@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“樁萱𢥈𢜝掣包</p>
-      <p class="nom">過𠚢欺典世󰅹𦓡𫨩”</p>
-      <p class="quocngu">Thông huyên lo sợ xiết bao,</p>
-      <p class="quocngu">Quá ra khi đến thế nào mà hay!</p>
-      <p class="author"><i>(Dòng 2837-2838) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“舌羅才子佳人</p>
+      <p class="nom">朱陳吏固朱陳󰅹欣”</p>
+      <p class="quocngu">Thiệt là tài tử giai nhân,</p>
+      <p class="quocngu">Châu Trần lại có Châu Trần nào hơn!</p>
+      <p class="author"><i>(Dòng 1457-1458) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,25 +26,41 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Somehow however just knowing that I could \
-| fully expect unhappiness to return – if    |
-| not predictably then nevertheless reliably |
-| – was strangely liberating. The point was  |
-| that even chaos had a structure a          |
-| beginning and eventually an end. It was    |
-| possible to live through it. I’d been      |
-| doing as much for twenty years.”           |
+/ “Her taste still teased my tongue, and her \
+| touch tipped my fingers. Her smile licked  |
+| my lips, and her heart beat my own. So I   |
+| tugged on her sheets, like it was a cape.  |
+| To me, she was a God damned super hero,    |
+| and underneath, was everything I need. Her |
+| super powers on top of me.”                |
 |                                            |
-\  -- Caroline Kettlewell                    /
+\  -- J. Raymond                             /
  --------------------------------------------
-        \    ,-^-.
-         \   !oYo!
-          \ /./=\.\______
-               ##        )\/\
-                ||-----w||
-                ||      ||
-
-               Cowth Vader
+ \
+  \
+   \
+            . .: -----  .
+         ／: .: .: .:.: .:＼
+        /    ..  . l.: .: .:ヽ
+       : .: ,/|-/|:ハ.:|-.ｌ.:
+       |: :ノ |/.|/  ヽ|.Vﾊ.:|
+       |.::|  =＝     ＝= }.:| 
+       |.γ|| ''  ＿_   ''{::ﾊ 
+       ﾉノﾊﾘ   ｛   }     ﾉV
+       ∨Vvヽ､._  --'_ .イV
+            γ:/:{.又 }ﾍヽ 
+          ／:〉:V ﾊ.ﾘ〈: ＼ 
+        ／ : Vヽ:V// /:V ::＼ 
+    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
+   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
+    ー'    ./: : : : : ﾊ      ー' 
+          ./::o: : : :o ﾊ 
+          /ヽ: : :Λ: : :ﾉ:、 
+        〈:::￣￣:::￣:::::〉 
+          ＼:__:::::::__:／ 
+            |  Τ￣Τ | 
+            |  |   |  | 
+            |''|   |''| 
 ```
 <!-- END_QUOTE -->
 
