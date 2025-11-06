@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“舌羅才子佳人</p>
-      <p class="nom">朱陳吏固朱陳󰅹欣”</p>
-      <p class="quocngu">Thiệt là tài tử giai nhân,</p>
-      <p class="quocngu">Châu Trần lại có Châu Trần nào hơn!</p>
-      <p class="author"><i>(Dòng 1457-1458) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰢇梅併㐌𢷀𤷱</p>
+      <p class="nom">𨁮驢埃別唉群𣋚󰅒”</p>
+      <p class="quocngu">Xương mai tính đã rũ mòn,</p>
+      <p class="quocngu">Lần lừa ai biết hãy còn hôm nay!</p>
+      <p class="author"><i>(Dòng 325-326) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,42 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Her taste still teased my tongue, and her \
-| touch tipped my fingers. Her smile licked  |
-| my lips, and her heart beat my own. So I   |
-| tugged on her sheets, like it was a cape.  |
-| To me, she was a God damned super hero,    |
-| and underneath, was everything I need. Her |
-| super powers on top of me.”                |
-|                                            |
-\  -- J. Raymond                             /
- --------------------------------------------
- \
-  \
-   \
-            . .: -----  .
-         ／: .: .: .:.: .:＼
-        /    ..  . l.: .: .:ヽ
-       : .: ,/|-/|:ハ.:|-.ｌ.:
-       |: :ノ |/.|/  ヽ|.Vﾊ.:|
-       |.::|  =＝     ＝= }.:| 
-       |.γ|| ''  ＿_   ''{::ﾊ 
-       ﾉノﾊﾘ   ｛   }     ﾉV
-       ∨Vvヽ､._  --'_ .イV
-            γ:/:{.又 }ﾍヽ 
-          ／:〉:V ﾊ.ﾘ〈: ＼ 
-        ／ : Vヽ:V// /:V ::＼ 
-    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
-   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
-    ー'    ./: : : : : ﾊ      ー' 
-          ./::o: : : :o ﾊ 
-          /ヽ: : :Λ: : :ﾉ:、 
-        〈:::￣￣:::￣:::::〉 
-          ＼:__:::::::__:／ 
-            |  Τ￣Τ | 
-            |  |   |  | 
-            |''|   |''| 
+ ___________________________________________
+/ “Everyone wants instant everything, and   \
+| they want instant success, but I always   |
+| think you should treat things in the arts |
+| like a garden, and let them grow.”        |
+|                                           |
+\  -- Penelope Keith                        /
+ -------------------------------------------
+       \
+        \
+                           __ 
+                  l^ヽ    /  }    _
+                  |  |   /  /   ／  )
+                  |  |  /  /  ／  ／ _
+                  j. し'  / ／  ／ ／  )
+                 /  .＿__ ´  ／ ／  ／
+                /   {  /:｀ヽ ｀¨ ／
+               /     ∨::::::ﾊ   ／
+              |廴     ＼:::ノ}  /
+    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
+    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
+        ／       ＼ 辷_´￣
+      ／           ﾍ￣
+    ／             ,ﾍ
+                  /、ﾍ
+                 /＼__ﾉ
 ```
 <!-- END_QUOTE -->
 
