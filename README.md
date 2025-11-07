@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰢇梅併㐌𢷀𤷱</p>
-      <p class="nom">𨁮驢埃別唉群𣋚󰅒”</p>
-      <p class="quocngu">Xương mai tính đã rũ mòn,</p>
-      <p class="quocngu">Lần lừa ai biết hãy còn hôm nay!</p>
-      <p class="author"><i>(Dòng 325-326) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“吝吝𣈜𩙍𣈘𦝄</p>
+      <p class="nom">疎紅葚綠㐌澄春戈”</p>
+      <p class="quocngu">Lần lần ngày gió đêm trăng,</p>
+      <p class="quocngu">Thưa hồng rậm lục đã chừng xuân qua.</p>
+      <p class="author"><i>(Dòng 369-370) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,46 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Everyone wants instant everything, and   \
-| they want instant success, but I always   |
-| think you should treat things in the arts |
-| like a garden, and let them grow.”        |
-|                                           |
-\  -- Penelope Keith                        /
- -------------------------------------------
-       \
-        \
-                           __ 
-                  l^ヽ    /  }    _
-                  |  |   /  /   ／  )
-                  |  |  /  /  ／  ／ _
-                  j. し'  / ／  ／ ／  )
-                 /  .＿__ ´  ／ ／  ／
-                /   {  /:｀ヽ ｀¨ ／
-               /     ∨::::::ﾊ   ／
-              |廴     ＼:::ノ}  /
-    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
-    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
-        ／       ＼ 辷_´￣
-      ／           ﾍ￣
-    ／             ,ﾍ
-                  /、ﾍ
-                 /＼__ﾉ
+ ____________________________________________
+/ “The men her girlfriends dated were too    \
+| often angry and muttering about            |
+| oppression. One of the reasons she took to |
+| Skeet later in life was that he never went |
+| to that place; he believed with a firm     |
+| positivity that he didn't need to waste    |
+| time resenting real or imagined social     |
+| constructs because he would always be      |
+| ahead of them. The individual, not the     |
+| people, was responsible for success or     |
+| failure.”                                  |
+|                                            |
+\  -- Jeff Hobbs                             /
+ --------------------------------------------
+ \
+  \
+   \
+            . .: -----  .
+         ／: .: .: .:.: .:＼
+        /    ..  . l.: .: .:ヽ
+       : .: ,/|-/|:ハ.:|-.ｌ.:
+       |: :ノ |/.|/  ヽ|.Vﾊ.:|
+       |.::|  =＝     ＝= }.:| 
+       |.γ|| ''  ＿_   ''{::ﾊ 
+       ﾉノﾊﾘ   ｛   }     ﾉV
+       ∨Vvヽ､._  --'_ .イV
+            γ:/:{.又 }ﾍヽ 
+          ／:〉:V ﾊ.ﾘ〈: ＼ 
+        ／ : Vヽ:V// /:V ::＼ 
+    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
+   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
+    ー'    ./: : : : : ﾊ      ー' 
+          ./::o: : : :o ﾊ 
+          /ヽ: : :Λ: : :ﾉ:、 
+        〈:::￣￣:::￣:::::〉 
+          ＼:__:::::::__:／ 
+            |  Τ￣Τ | 
+            |  |   |  | 
+            |''|   |''| 
 ```
 <!-- END_QUOTE -->
 
