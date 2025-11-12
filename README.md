@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情溇蒙假義𠫅</p>
-      <p class="nom">花箕㐌𦄌檜尼朱諸”</p>
-      <p class="quocngu">Tình sâu mong trả nghĩa dày,</p>
-      <p class="quocngu">Hoa kia đã chắp cội này cho chưa?</p>
-      <p class="author"><i>(Dòng 1263-1264) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情人吏﨤情人</p>
+      <p class="nom">花初蝶𡳵𨑮分鍾情”</p>
+      <p class="quocngu">Tình nhân lại gặp tình nhân,</p>
+      <p class="quocngu">Hoa xưa bướm cũ, mười phân chung tình!</p>
+      <p class="author"><i>(Dòng 3143-3144) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,91 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “And so we know the satisfaction of hate.  \
-| We know the sweet joy of revenge. How it   |
-| feels good to get even. Oh, that was a     |
-| nice idea Jesus had. That was a pretty     |
-| notion, but you can't love people who do   |
-| evil. It's neither sensible or practical.  |
-| It's not wise to the world to love people  |
-| who do such terrible wrong. There is no    |
-| way on earth we can love our enemies.      |
-| They'll only do wickedness and hatefulness |
-| again. And worse, they'll think they can   |
-| get away with this wickedness and evil,    |
-| because they'll think we're weak and       |
-| afraid. What would the world come to?But I |
-| want to say to you here on this hot July   |
-| morning in Holt, what if Jesus wasn't      |
-| kidding? What if he wasn't talking about   |
-| some never-never land? What if he really   |
-| did mean what he said two thousand years   |
-| ago? What if he was thoroughly wise to the |
-| world and knew firsthand cruelty and       |
-| wickedness and evil and hate? Knew it all  |
-| so well from personal firsthand            |
-| experience? And what if in spite of all    |
-| that he knew, he still said love your      |
-| enemies? Turn your cheek. Pray for those   |
-| who misuse you. What if he meant every     |
-| word of what he said? What then would the  |
-| world come to?And what if we tried it?     |
-| What if we said to our enemies: We are the |
-| most powerful nation on earth. We can      |
-| destroy you. We can kill your children. We |
-| can make ruins of your cities and villages |
-| and when we're finished you won't even     |
-| know how to look for the places where they |
-| used to be. We have the power to take away |
-| your water and to scorch your earth, to    |
-| rob you of the very fundamentals of life.  |
-| We can change the actual day into actual   |
-| night. We can do these things to you. And  |
-| more.But what if we say, Listen: Instead   |
-| of any of these, we are going to give      |
-| willingly and generously to you. We are    |
-| going to spend the great American national |
-| treasure and the will and the human lives  |
-| that we would have spent on destruction,   |
-| and instead we are going to turn them all  |
-| toward creation. We'll mend your roads and |
-| highways, expand your schools, modernize   |
-| your wells and water supplies, save your   |
-| ancient artifacts and art and culture,     |
-| preserve your temples and mosques. In      |
-| fact, we are going to love you. And again  |
-| we say, no matter what has gone before, no |
-| matter what you've done: We are going to   |
-| love you. We have set our hearts to it. We |
-| will treat you like brothers and sisters.  |
-| We are going to turn our collective        |
-| national cheek and present it to be        |
-| stricken a second time, if need be, and    |
-| offer it to you. Listen, we--But then he   |
-| was abruptly halted.”                      |
+/ “Running at Ron, she flung them around his \
+| neck and kissed him full on the mouth. Ron |
+| threw away the fangs and broomstick he was |
+| holding and responded with such enthusiasm |
+| that he lifted Hermione off her feet.”     |
 |                                            |
-\  -- Kent Haruf                             /
+\  -- J.K. Rowling                           /
  --------------------------------------------
+ \
   \
-   \
-    \
-    
-           ____
-       ,: .: .: :.ヽ
-     ,'       /\   ｉ
-     {: .:ﾉﾚﾍ/  Viﾍ:}
-    .{,､〈 Ｏ   Ｏ{.:.
-    ノヽ\!"       }.:ﾊ
-      Ｗﾊw=-､へ,ｬ<,V'      
-         /ﾍ }{./\
-        ;: i:V:!;}
-        |:｜: :｜}
-        |:|:｡: ｡l}
-        >-'-ﾟ-'`ﾟu
-        ｰi-i～i-i~
-         |.|  |.|
-         |-|  |-|
-         ヒｺ  ヒｺ 
+    .::.
+    _::_
+  _/____\_
+  \      /
+   \____/
+   (____)
+    |  |
+    |__|
+   /    \
+  (______)
+ (________)
+ /________\
 ```
 <!-- END_QUOTE -->
 
