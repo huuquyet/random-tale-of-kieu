@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情人吏﨤情人</p>
-      <p class="nom">花初蝶𡳵𨑮分鍾情”</p>
-      <p class="quocngu">Tình nhân lại gặp tình nhân,</p>
-      <p class="quocngu">Hoa xưa bướm cũ, mười phân chung tình!</p>
-      <p class="author"><i>(Dòng 3143-3144) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“朱𫨩淑女志高</p>
+      <p class="nom">沛𠊛𣌋槾最桃如埃”</p>
+      <p class="quocngu">Cho hay thục nữ chí cao,</p>
+      <p class="quocngu">Phải người sớm mận tối đào như ai?</p>
+      <p class="author"><i>(Dòng 3219-3220) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Running at Ron, she flung them around his \
-| neck and kissed him full on the mouth. Ron |
-| threw away the fangs and broomstick he was |
-| holding and responded with such enthusiasm |
-| that he lifted Hermione off her feet.”     |
-|                                            |
-\  -- J.K. Rowling                           /
- --------------------------------------------
- \
+ _____________________________________________
+/ “Self respect by definition is a confidence \
+| and pride in knowing that your behaviour    |
+| is both honorable and dignified. -Respect   |
+| yourself by respecting others.”             |
+|                                             |
+\  -- Miya Yamanouchi                         /
+ ---------------------------------------------
   \
-    .::.
-    _::_
-  _/____\_
-  \      /
-   \____/
-   (____)
-    |  |
-    |__|
-   /    \
-  (______)
- (________)
- /________\
+   \
+
+     Lｰ'{r ｧjｰノ
+      _`)-ﾑ{
+    /´::( ･)ヽ-- ､
+   {::::::::::::::}
+   ゝ:::::.ノー-
+     しｿ¨UU
 ```
 <!-- END_QUOTE -->
 
