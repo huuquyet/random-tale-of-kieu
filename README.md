@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“朱𫨩淑女志高</p>
-      <p class="nom">沛𠊛𣌋槾最桃如埃”</p>
-      <p class="quocngu">Cho hay thục nữ chí cao,</p>
-      <p class="quocngu">Phải người sớm mận tối đào như ai?</p>
-      <p class="author"><i>(Dòng 3219-3220) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“耒𠚢𣳮粉泒香</p>
+      <p class="nom">𢚸箕𪧚特常常世庒”</p>
+      <p class="quocngu">Rồi ra rã phấn phai hương,</p>
+      <p class="quocngu">Lòng kia giữ được thường thường thế chăng?</p>
+      <p class="author"><i>(Dòng 1337-1338) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,22 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Self respect by definition is a confidence \
-| and pride in knowing that your behaviour    |
-| is both honorable and dignified. -Respect   |
-| yourself by respecting others.”             |
+/ “Author's WarningIf you're buying this book \
+| as a gift for your grandma or a kid, you    |
+| should be aware that it contains cusswords  |
+| as well as tasteful depictions of           |
+| cannibalism and people in their forties     |
+| having sex. Don't blame me. I told you.”    |
 |                                             |
-\  -- Miya Yamanouchi                         /
+\  -- Christopher Moore                       /
  ---------------------------------------------
   \
-   \
-
-     Lｰ'{r ｧjｰノ
-      _`)-ﾑ{
-    /´::( ･)ヽ-- ､
-   {::::::::::::::}
-   ゝ:::::.ノー-
-     しｿ¨UU
+   \   \_\_    _/_/
+    \      \__/
+           (oo)\_______
+           (__)\       )\/\
+               ||----- |
+               ||     ||
 ```
 <!-- END_QUOTE -->
 
