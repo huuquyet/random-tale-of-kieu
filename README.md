@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“耒𠚢𣳮粉泒香</p>
-      <p class="nom">𢚸箕𪧚特常常世庒”</p>
-      <p class="quocngu">Rồi ra rã phấn phai hương,</p>
-      <p class="quocngu">Lòng kia giữ được thường thường thế chăng?</p>
-      <p class="author"><i>(Dòng 1337-1338) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨷯外倍𢷀簾𦂛</p>
+      <p class="nom">駸駸氷𡓃園𣌉󰜋命”</p>
+      <p class="quocngu">Cửa ngoài vội rủ rèm the,</p>
+      <p class="quocngu">Xăm xăm băng lối vườn khuya một mình.</p>
+      <p class="author"><i>(Dòng 431-432) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,20 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Author's WarningIf you're buying this book \
-| as a gift for your grandma or a kid, you    |
-| should be aware that it contains cusswords  |
-| as well as tasteful depictions of           |
-| cannibalism and people in their forties     |
-| having sex. Don't blame me. I told you.”    |
+/ “His blue eyes slice through me and make me \
+| wish I hadn't come.”                        |
 |                                             |
-\  -- Christopher Moore                       /
+\  -- Kathey Gray                             /
  ---------------------------------------------
-  \
-   \   \_\_    _/_/
-    \      \__/
-           (oo)\_______
-           (__)\       )\/\
-               ||----- |
-               ||     ||
+          \      (__)      
+           \     /oo|  
+            \   (_"_)*+++++++++*
+                   //I#\\\\\\\\I\
+                   I[I|I|||||I I `
+                   I`I'///'' I I
+                   I I       I I
+                   ~ ~       ~ ~
+                     Scowleton
 ```
 <!-- END_QUOTE -->
 
