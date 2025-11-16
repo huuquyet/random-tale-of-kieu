@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨷯外倍𢷀簾𦂛</p>
-      <p class="nom">駸駸氷𡓃園𣌉󰜋命”</p>
-      <p class="quocngu">Cửa ngoài vội rủ rèm the,</p>
-      <p class="quocngu">Xăm xăm băng lối vườn khuya một mình.</p>
-      <p class="author"><i>(Dòng 431-432) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“暈𦝄埃仕爫堆</p>
+      <p class="nom">姅印襘隻姅𤐝𨤵長”</p>
+      <p class="quocngu">Vầng trăng ai xẻ làm đôi,</p>
+      <p class="quocngu">Nửa in gối chiếc, nửa soi dặm trường.</p>
+      <p class="author"><i>(Dòng 1525-1526) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “His blue eyes slice through me and make me \
-| wish I hadn't come.”                        |
-|                                             |
-\  -- Kathey Gray                             /
- ---------------------------------------------
-          \      (__)      
-           \     /oo|  
-            \   (_"_)*+++++++++*
-                   //I#\\\\\\\\I\
-                   I[I|I|||||I I `
-                   I`I'///'' I I
-                   I I       I I
-                   ~ ~       ~ ~
-                     Scowleton
+ ____________________________________________
+/ “The longer you resist the calling of your \
+| soul the harder it is to find your way     |
+| back. Intuition isn't instilled in us for  |
+| nothing, it's the movement inside us that  |
+| we must listen to if we want the void to   |
+| vanish.”                                   |
+|                                            |
+\  -- Nikki Rowe                             /
+ --------------------------------------------
+  \
+   \
+
+     [-]
+     (+)=C
+     | |
+     OOO
 ```
 <!-- END_QUOTE -->
 
