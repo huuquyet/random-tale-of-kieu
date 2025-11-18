@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨷶󰟀倍𨷑簾珠</p>
-      <p class="nom">𡗶高滝𢌌󰜋牟包羅”</p>
-      <p class="quocngu">Cửa buồng vội mở rèm châu,</p>
-      <p class="quocngu">Trời cao sông rộng một màu bao la.</p>
-      <p class="author"><i>(Dòng 2627-2628) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“提𢹂𠦻襊𩙋𦝄</p>
+      <p class="nom">𡢐蹎蹺󰜋𠄽繩𡥵𡥵”</p>
+      <p class="quocngu">Đề huề lưng túi gió trăng,</p>
+      <p class="quocngu">Sau chân theo một vài thằng con con.</p>
+      <p class="author"><i>(Dòng 137-138) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Because that saying about sticks and    \
-| stones is a pack of lies. Unkind words   |
-| hurt more than anything else. You end up |
-| carrying them around in your head,       |
-| wondering if they’re true. Bruises fade, |
-| but self-doubt follows you forever.”     |
-|                                          |
-\  -- Kate Lattey                          /
- ------------------------------------------
-  \   ^__^
-   \  (oo)\_______        ________
-      (__)\       )\/\    |Super |
-          ||----W |       |Milker|
-          ||    UDDDDDDDDD|______|
+ ___________________________________________
+/ “Please, never tell me what 'horror       \
+| erotica' is. Real #art is being lost in a |
+| bizarre swamp of over-processed, sexually |
+| exploitative garbage.”                    |
+|                                           |
+\  -- Carla H. Krueger                      /
+ -------------------------------------------
+  \
+   \
+    \
+    
+           ____
+       ,: .: .: :.ヽ
+     ,'       /\   ｉ
+     {: .:ﾉﾚﾍ/  Viﾍ:}
+    .{,､〈 Ｏ   Ｏ{.:.
+    ノヽ\!"       }.:ﾊ
+      Ｗﾊw=-､へ,ｬ<,V'      
+         /ﾍ }{./\
+        ;: i:V:!;}
+        |:｜: :｜}
+        |:|:｡: ｡l}
+        >-'-ﾟ-'`ﾟu
+        ｰi-i～i-i~
+         |.|  |.|
+         |-|  |-|
+         ヒｺ  ヒｺ 
 ```
 <!-- END_QUOTE -->
 
