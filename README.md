@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“提𢹂𠦻襊𩙋𦝄</p>
-      <p class="nom">𡢐蹎蹺󰜋𠄽繩𡥵𡥵”</p>
-      <p class="quocngu">Đề huề lưng túi gió trăng,</p>
-      <p class="quocngu">Sau chân theo một vài thằng con con.</p>
-      <p class="author"><i>(Dòng 137-138) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“難𠸗捽瀝漏漏</p>
+      <p class="nom">緣𠸗渚易別兜准尼”</p>
+      <p class="quocngu">Nạn xưa trút sạch làu làu,</p>
+      <p class="quocngu">Duyên xưa chưa dễ biết đâu chốn này.</p>
+      <p class="author"><i>(Dòng 2737-2738) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Please, never tell me what 'horror       \
-| erotica' is. Real #art is being lost in a |
-| bizarre swamp of over-processed, sexually |
-| exploitative garbage.”                    |
-|                                           |
-\  -- Carla H. Krueger                      /
- -------------------------------------------
-  \
+ ____________________________________________
+/ “I want to assure you that working in      \
+| transition period is an ungrateful job for |
+| any honest government.”                    |
+|                                            |
+\  -- Robert Kocharian                       /
+ --------------------------------------------
    \
     \
-    
-           ____
-       ,: .: .: :.ヽ
-     ,'       /\   ｉ
-     {: .:ﾉﾚﾍ/  Viﾍ:}
-    .{,､〈 Ｏ   Ｏ{.:.
-    ノヽ\!"       }.:ﾊ
-      Ｗﾊw=-､へ,ｬ<,V'      
-         /ﾍ }{./\
-        ;: i:V:!;}
-        |:｜: :｜}
-        |:|:｡: ｡l}
-        >-'-ﾟ-'`ﾟu
-        ｰi-i～i-i~
-         |.|  |.|
-         |-|  |-|
-         ヒｺ  ヒｺ 
+ 
+              ,.:￣￣￣￣:.､
+            ／ .: .: .: .: .:＼
+          ／   __ l  __    .: .ヽ
+        ／:  ./ＶＶＶ＼:ﾄ､`.: .:.
+   (＼  ￣/.:ｲ.ｨ=ﾐ` ´ｨ=ﾐ､ヽ,: .:|
+   {ﾐと^ヘl.:ﾉ{ぅｿ,  ぅｿ}|:|^ヽ:|
+    ヽ〃: ﾚ｛    __ -､ " |:| ﾉ::|
+      ＼: :ﾊ＼  {    }  ,ﾚイ:::八
+        ＼ :V.:>:ニニﾆ:＜ＶＶＶ
+          ＼ :v:〈|父 /:|:ﾊ┐
+            ヾ{:｢|/:|/ <:/:ﾉ＼
+              {:\|::/:／:{: :ヽ
+              {: : : :`: /> : :>
+             / : ﾟ : : ﾟ : Y: :/
+            /: : : : : : : |ヽ/
+           〈: :ﾟ: ﾊ : :ﾟ: ∟ｺ
+           /::---':::------く 
 ```
 <!-- END_QUOTE -->
 
