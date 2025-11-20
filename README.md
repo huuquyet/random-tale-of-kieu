@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“難𠸗捽瀝漏漏</p>
-      <p class="nom">緣𠸗渚易別兜准尼”</p>
-      <p class="quocngu">Nạn xưa trút sạch làu làu,</p>
-      <p class="quocngu">Duyên xưa chưa dễ biết đâu chốn này.</p>
-      <p class="author"><i>(Dòng 2737-2738) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤑟牟𤄯玉𤽸牙</p>
+      <p class="nom">𠫅𠫅産𨯹󰜋座天然”</p>
+      <p class="quocngu">Rõ màu trong ngọc trắng ngà,</p>
+      <p class="quocngu">Dày dày sẵn đúc một toà thiên nhiên.</p>
+      <p class="author"><i>(Dòng 1311-1312) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I want to assure you that working in      \
-| transition period is an ungrateful job for |
-| any honest government.”                    |
-|                                            |
-\  -- Robert Kocharian                       /
- --------------------------------------------
+ _____________________________________________
+/ “You have to make your own family, your own \
+| life.”                                      |
+|                                             |
+\  -- Francesca Lia Block                     /
+ ---------------------------------------------
    \
     \
- 
-              ,.:￣￣￣￣:.､
-            ／ .: .: .: .: .:＼
-          ／   __ l  __    .: .ヽ
-        ／:  ./ＶＶＶ＼:ﾄ､`.: .:.
-   (＼  ￣/.:ｲ.ｨ=ﾐ` ´ｨ=ﾐ､ヽ,: .:|
-   {ﾐと^ヘl.:ﾉ{ぅｿ,  ぅｿ}|:|^ヽ:|
-    ヽ〃: ﾚ｛    __ -､ " |:| ﾉ::|
-      ＼: :ﾊ＼  {    }  ,ﾚイ:::八
-        ＼ :V.:>:ニニﾆ:＜ＶＶＶ
-          ＼ :v:〈|父 /:|:ﾊ┐
-            ヾ{:｢|/:|/ <:/:ﾉ＼
-              {:\|::/:／:{: :ヽ
-              {: : : :`: /> : :>
-             / : ﾟ : : ﾟ : Y: :/
-            /: : : : : : : |ヽ/
-           〈: :ﾟ: ﾊ : :ﾟ: ∟ｺ
-           /::---':::------く 
+         ＿＿＿＿ ＿＿＿＿＿__
+      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
+       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
+         ｀ ＜. _  .ｰ ､                       !三  ＜
+                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
+                                                 ￣￣
 ```
 <!-- END_QUOTE -->
 
