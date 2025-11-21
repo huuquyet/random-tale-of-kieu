@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤑟牟𤄯玉𤽸牙</p>
-      <p class="nom">𠫅𠫅産𨯹󰜋座天然”</p>
-      <p class="quocngu">Rõ màu trong ngọc trắng ngà,</p>
-      <p class="quocngu">Dày dày sẵn đúc một toà thiên nhiên.</p>
-      <p class="author"><i>(Dòng 1311-1312) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘強湥玉𣻆𩆋</p>
+      <p class="nom">吸凝買𠳚濕高事𢚸”</p>
+      <p class="quocngu">Nàng càng giọt ngọc tuôn dào,</p>
+      <p class="quocngu">Ngập ngừng mới gửi thấp cao sự lòng.</p>
+      <p class="author"><i>(Dòng 2547-2548) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,19 +26,46 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “You have to make your own family, your own \
-| life.”                                      |
+/ “My mother is Turtle Mountain Chippewa, and \
+| she lived on her home reservation. My       |
+| father taught there. He had just been       |
+| discharged from the Air Force. He went to   |
+| school on the GI Bill and got his teaching  |
+| credentials. He is adventurous - he worked  |
+| his way through Alaska at age seventeen     |
+| and paid for his living expenses by         |
+| winning at the poker table.”                |
 |                                             |
-\  -- Francesca Lia Block                     /
+\  -- Louise Erdrich                          /
  ---------------------------------------------
-   \
     \
-         ＿＿＿＿ ＿＿＿＿＿__
-      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
-       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
-         ｀ ＜. _  .ｰ ､                       !三  ＜
-                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
-                                                 ￣￣
+     \
+      \
+       \
+        \
+         \
+    \     \                     /
+     \     \                   /
+      \     \                 /
+       ]     \               [    ,'|
+       ]      \              [   /  |
+       ]___               ___[ ,'   |
+       ]  ]\             /[  [ |:   |
+       ]  ] \           / [  [ |:   |
+       ]  ]  ]         [  [  [ |:   |
+       ]  ]  ]__     __[  [  [ |:   |
+       ]  ]  ] ]\ _ /[ [  [  [ |:   |
+       ]  ]  ] ] (#) [ [  [  [ :===='
+       ]  ]  ]_].nHn.[_[  [  [
+       ]  ]  ]  HHHHH. [  [  [
+       ]  ] /   `HH("N  \ [  [
+       ]__]/     HHH  "  \[__[
+       ]         NNN         [
+       ]         N/"         [
+       ]         N H         [
+      /          N            \
+     /           q,            \
+    /                           \
 ```
 <!-- END_QUOTE -->
 
