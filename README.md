@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“逴𢜠噋𠳨𠻀羅</p>
-      <p class="nom">源桃落𡓃兜麻旦低”</p>
-      <p class="quocngu">Rước mừng đón hỏi dò la:</p>
-      <p class="quocngu">"Nguồn đào lạc lối đâu mà đến đây?"</p>
-      <p class="author"><i>(Dòng 191-192) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤴬𢚸死别生離</p>
+      <p class="nom">身群拯惜惜之典綠”</p>
+      <p class="quocngu">Đau lòng tử biệt sinh ly,</p>
+      <p class="quocngu">Thân còn chẳng tiếc, tiếc gì đến duyên!</p>
+      <p class="author"><i>(Dòng 617-618) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,46 +26,17 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “My mother is Turtle Mountain Chippewa, and \
-| she lived on her home reservation. My       |
-| father taught there. He had just been       |
-| discharged from the Air Force. He went to   |
-| school on the GI Bill and got his teaching  |
-| credentials. He is adventurous - he worked  |
-| his way through Alaska at age seventeen     |
-| and paid for his living expenses by         |
-| winning at the poker table.”                |
+/ “Information can be harmful when you're not \
+| ready for it. ['The Murder Room: The Heirs  |
+| of Sherlock Holmes']”                       |
 |                                             |
-\  -- Louise Erdrich                          /
+\  -- Richard Walter                          /
  ---------------------------------------------
-    \
-     \
-      \
-       \
-        \
-         \
-    \     \                     /
-     \     \                   /
-      \     \                 /
-       ]     \               [    ,'|
-       ]      \              [   /  |
-       ]___               ___[ ,'   |
-       ]  ]\             /[  [ |:   |
-       ]  ] \           / [  [ |:   |
-       ]  ]  ]         [  [  [ |:   |
-       ]  ]  ]__     __[  [  [ |:   |
-       ]  ]  ] ]\ _ /[ [  [  [ |:   |
-       ]  ]  ] ] (#) [ [  [  [ :===='
-       ]  ]  ]_].nHn.[_[  [  [
-       ]  ]  ]  HHHHH. [  [  [
-       ]  ] /   `HH("N  \ [  [
-       ]__]/     HHH  "  \[__[
-       ]         NNN         [
-       ]         N/"         [
-       ]         N H         [
-      /          N            \
-     /           q,            \
-    /                           \
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 ```
 <!-- END_QUOTE -->
 
