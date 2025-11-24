@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤴬𢚸死别生離</p>
-      <p class="nom">身群拯惜惜之典綠”</p>
-      <p class="quocngu">Đau lòng tử biệt sinh ly,</p>
-      <p class="quocngu">Thân còn chẳng tiếc, tiếc gì đến duyên!</p>
-      <p class="author"><i>(Dòng 617-618) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“丰姿才貌捽潙</p>
+      <p class="nom">𠓨𥪝風雅𠚢外豪花”</p>
+      <p class="quocngu">Phong tư tài mạo tót vời,</p>
+      <p class="quocngu">Vào trong phong nhã, ra ngoài hào hoa.</p>
+      <p class="author"><i>(Dòng 151-152) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Information can be harmful when you're not \
-| ready for it. ['The Murder Room: The Heirs  |
-| of Sherlock Holmes']”                       |
-|                                             |
-\  -- Richard Walter                          /
- ---------------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+ ____________________________________________
+/ “It is truth, in the old saying, that is   \
+| 'the daughter of time,' and the lapse of   |
+| half a century has not left us many of our |
+| illusions. Churchill tried and failed to   |
+| preserve one empire. He failed to preserve |
+| his own empire, but succeeded in           |
+| aggrandizing two much larger ones. He      |
+| seems to have used crisis after crisis as  |
+| an excuse to extend his own power. His     |
+| petulant refusal to relinquish the         |
+| leadership was the despair of postwar      |
+| British Conservatives; in my opinion this  |
+| refusal had to do with his yearning to     |
+| accomplish something that 'history' had so |
+| far denied him—the winning of a democratic |
+| election.”                                 |
+|                                            |
+\  -- Christopher Hitchens                   /
+ --------------------------------------------
+ \
+  \
+
+   WWWWWW
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
 ```
 <!-- END_QUOTE -->
 
