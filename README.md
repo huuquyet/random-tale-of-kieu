@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“丰姿才貌捽潙</p>
-      <p class="nom">𠓨𥪝風雅𠚢外豪花”</p>
-      <p class="quocngu">Phong tư tài mạo tót vời,</p>
-      <p class="quocngu">Vào trong phong nhã, ra ngoài hào hoa.</p>
-      <p class="author"><i>(Dòng 151-152) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“油牢󰜍㐌𢙲淶</p>
+      <p class="nom">𥙩身麻假𡢻𠁀朱衝”</p>
+      <p class="quocngu">Dẫu sao bình đã lỡ rơi,</p>
+      <p class="quocngu">Lấy thân mà trả nợ đời cho xong!"</p>
+      <p class="author"><i>(Dòng 1197-1198) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It is truth, in the old saying, that is   \
-| 'the daughter of time,' and the lapse of   |
-| half a century has not left us many of our |
-| illusions. Churchill tried and failed to   |
-| preserve one empire. He failed to preserve |
-| his own empire, but succeeded in           |
-| aggrandizing two much larger ones. He      |
-| seems to have used crisis after crisis as  |
-| an excuse to extend his own power. His     |
-| petulant refusal to relinquish the         |
-| leadership was the despair of postwar      |
-| British Conservatives; in my opinion this  |
-| refusal had to do with his yearning to     |
-| accomplish something that 'history' had so |
-| far denied him—the winning of a democratic |
-| election.”                                 |
-|                                            |
-\  -- Christopher Hitchens                   /
- --------------------------------------------
- \
-  \
-
-   WWWWWW
-    |  |
-    |  |
-    |__|
-   /____\
-  (______)
+ _____________________________________________
+/ “The woman above him had tumbled out of his \
+| dreams, and now stood like a half-waking    |
+| ghost, a photograph double exposed,         |
+| showing him in one moment the fallacy of    |
+| his past as it bled into his future. The    |
+| image of Maria Sophia had grown too large   |
+| for him to bear. He had made it so. In his  |
+| industry and creativity he had transformed  |
+| her into something so wonderful that the    |
+| very fact she might now be anything less    |
+| terrified him almost as much as the         |
+| prospect she might exceed it.”              |
+|                                             |
+\  -- F.D. Lee                                /
+ ---------------------------------------------
+ \       \      \      
+  \        ^__^  \        
+    ^__^   (oo)   ^__^  
+    (oo)   (__)   (oo)   
+    (__)          (__)   
+oyo/:                :/oy+
+/mmmmm+   syyyyo  `ommmmm/
+ smmmmms. -ymmy. .smmmmmo 
+ `+dmmmmd+``::``+dmmmmd+  
+   -ymmmmmh/``+hmmmmmy-   
+    `/hmmmmmhhmmmmmh/`    
+      `/hmmmmmmmmh/`      
+        `/hmmmmmd/        
+      `oo.`/dmmmmdo`      
+     `ymmd+``ommmmmy`     
+     smmmmd-  /mmmmms     
+    -mmmmm+    ommmmm-    
+    -ooooo`    .ooooo.     
 ```
 <!-- END_QUOTE -->
 
