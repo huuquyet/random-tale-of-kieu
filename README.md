@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“油牢󰜍㐌𢙲淶</p>
-      <p class="nom">𥙩身麻假𡢻𠁀朱衝”</p>
-      <p class="quocngu">Dẫu sao bình đã lỡ rơi,</p>
-      <p class="quocngu">Lấy thân mà trả nợ đời cho xong!"</p>
-      <p class="author"><i>(Dòng 1197-1198) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“麻些卒󰜋𢆥𣳔</p>
+      <p class="nom">世󰅹拱拯𨁪衝特󰅹”</p>
+      <p class="quocngu">Mà ta suốt một năm ròng,</p>
+      <p class="quocngu">Thế nào cũng chẳng dấu xong được nào.</p>
+      <p class="author"><i>(Dòng 1487-1488) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
