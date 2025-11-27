@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“麻些卒󰜋𢆥𣳔</p>
-      <p class="nom">世󰅹拱拯𨁪衝特󰅹”</p>
-      <p class="quocngu">Mà ta suốt một năm ròng,</p>
-      <p class="quocngu">Thế nào cũng chẳng dấu xong được nào.</p>
-      <p class="author"><i>(Dòng 1487-1488) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“戰和拉産𠄩排</p>
+      <p class="nom">𢭄𢬣柴署摱𠊚𠻀囉”</p>
+      <p class="quocngu">Chiến hoà sắp sẵn hai bài,</p>
+      <p class="quocngu">Cậy tay thầy thợ, mượn người dò la.</p>
+      <p class="author"><i>(Dòng 1373-1374) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,52 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The woman above him had tumbled out of his \
-| dreams, and now stood like a half-waking    |
-| ghost, a photograph double exposed,         |
-| showing him in one moment the fallacy of    |
-| his past as it bled into his future. The    |
-| image of Maria Sophia had grown too large   |
-| for him to bear. He had made it so. In his  |
-| industry and creativity he had transformed  |
-| her into something so wonderful that the    |
-| very fact she might now be anything less    |
-| terrified him almost as much as the         |
-| prospect she might exceed it.”              |
-|                                             |
-\  -- F.D. Lee                                /
- ---------------------------------------------
- \       \      \      
-  \        ^__^  \        
-    ^__^   (oo)   ^__^  
-    (oo)   (__)   (oo)   
-    (__)          (__)   
-oyo/:                :/oy+
-/mmmmm+   syyyyo  `ommmmm/
- smmmmms. -ymmy. .smmmmmo 
- `+dmmmmd+``::``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+``ommmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.     
+ ____________________________________________
+/ “People always get exactly what they       \
+| believe to deserve, despite the fact that  |
+| they may be unhappy with what they have.   |
+| We are 100% responsible for our destiny,   |
+| and I would dare to say 200%, because we   |
+| do create the conditions for the future we |
+| end up attracting to our life. But the     |
+| challenge is in learning to see it, and    |
+| noticing how we do this. Therefore,        |
+| there's really nothing to regret about     |
+| life.”                                     |
+|                                            |
+\  -- Robin Sacredfire                       /
+ --------------------------------------------
+    \
+     \
+              /\
+             <  \
+             |\  \
+             | \  \
+             | .\  >
+             |  .\/|
+             |   .||
+             |    ||
+            / \   ||
+           /,-.\: ||
+          /,,  `\ ||
+         /,  ', `\||
+        /, *   ''/ |
+       /,    *,'/  |
+      /,     , /   |
+     / :    , /   .|
+    /\ :   , /   /||
+   |\ \ .., /   / ||
+   |.\ \ . /   /  ||
+   |  \ \ /   /   ||
+   |   \ /   /    |'
+   |\o '|o  /
+   ||\o |  /
+   || \ | /
+   ||  \|/
+   |'   ||
+        ||
+        ||
+        |'
 ```
 <!-- END_QUOTE -->
 
