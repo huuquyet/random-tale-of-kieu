@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“戰和拉産𠄩排</p>
-      <p class="nom">𢭄𢬣柴署摱𠊚𠻀囉”</p>
-      <p class="quocngu">Chiến hoà sắp sẵn hai bài,</p>
-      <p class="quocngu">Cậy tay thầy thợ, mượn người dò la.</p>
-      <p class="author"><i>(Dòng 1373-1374) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㨋渡蓮𠓀廳堂</p>
+      <p class="nom">犬鷹𠄩𠀲納娘𤼸功”</p>
+      <p class="quocngu">Giã đò, lên trước sảnh đường,</p>
+      <p class="quocngu">Khuyển Ưng hai đứa nộp nàng dâng công.</p>
+      <p class="author"><i>(Dòng 1711-1712) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,51 +26,41 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “People always get exactly what they       \
-| believe to deserve, despite the fact that  |
-| they may be unhappy with what they have.   |
-| We are 100% responsible for our destiny,   |
-| and I would dare to say 200%, because we   |
-| do create the conditions for the future we |
-| end up attracting to our life. But the     |
-| challenge is in learning to see it, and    |
-| noticing how we do this. Therefore,        |
-| there's really nothing to regret about     |
-| life.”                                     |
+/ “Love isn't about to show off or to go on  \
+| dates. Its about being with a person who   |
+| makes you feel special, who gives you a    |
+| feeling that no one else does. The one who |
+| can completely understand you and can      |
+| laugh on your lame jokes. The one to whom  |
+| you trust the most and can share your      |
+| problems. The one who can make wrong       |
+| things right. Person with whom you can     |
+| spend your whole life.”                    |
 |                                            |
-\  -- Robin Sacredfire                       /
+\  -- Taimoor Madni                          /
  --------------------------------------------
-    \
-     \
-              /\
-             <  \
-             |\  \
-             | \  \
-             | .\  >
-             |  .\/|
-             |   .||
-             |    ||
-            / \   ||
-           /,-.\: ||
-          /,,  `\ ||
-         /,  ', `\||
-        /, *   ''/ |
-       /,    *,'/  |
-      /,     , /   |
-     / :    , /   .|
-    /\ :   , /   /||
-   |\ \ .., /   / ||
-   |.\ \ . /   /  ||
-   |  \ \ /   /   ||
-   |   \ /   /    |'
-   |\o '|o  /
-   ||\o |  /
-   || \ | /
-   ||  \|/
-   |'   ||
-        ||
-        ||
-        |'
+ \      .------------------------.
+  \     |       PSYCHIATRIC      |
+   \    |         HELP  5¢       |
+    \   |________________________|
+     \  ||     .-"""--.         ||
+      \ ||    /        \.-.     ||
+        ||   |     ._,     \    ||
+        ||   \_/`-'   '-.,_/    ||
+        ||   (_   (' _)') \     ||
+        ||   /|           |\    ||
+        ||  | \     __   / |    ||
+        ||   \_).,_____,/}/     ||
+      __||____;_--'___'/ (      ||
+     |\ ||   (__,\\    \_/------||
+     ||\||______________________||
+     ||||                        |
+     ||||       THE DOCTOR       |
+     \|||         IS [IN]   _____|
+      \||                  (______)
+ jgs   `|___________________//||\\
+                           //=||=\\
+                           `  ``  `
 ```
 <!-- END_QUOTE -->
 
