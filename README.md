@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𧡊𠳒統請如𨔈</p>
-      <p class="nom">順𠳒払拱呐吹扡扽”</p>
-      <p class="quocngu">Thấy lời thủng thỉnh như chơi,</p>
-      <p class="quocngu">Thuận lời chàng cũng nói xuôi đỡ đòn.</p>
-      <p class="author"><i>(Dòng 1589-1590) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠊚尼󰠱刼寃家</p>
+      <p class="nom">群𡗉𡢻𡗋牢它托朱”</p>
+      <p class="quocngu">Người này nặng kiếp oan gia,</p>
+      <p class="quocngu">Còn nhiều nợ lắm sao đà thác cho!</p>
+      <p class="author"><i>(Dòng 1693-1694) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,29 +26,25 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “I can honestly say I love getting older. \
-| Then again, I never put my glasses on     |
-| before looking in the mirror.”            |
+/ “I pick projects according to how         \
+| fascinating they are to me, and it has    |
+| resulted in a broad reach. My records are |
+| actually in five different sports:        |
+| balloons, airplanes, airships, gliders,   |
+| and sailboats.”                           |
 |                                           |
-\  -- Cherie Lunghi                         /
+\  -- Steve Fossett                         /
  -------------------------------------------
-   \                     .___________.
-    \                    |           |
-     \    ___________.   |  |    /~\ |
-         / __   __  /|   | _ _   |_| |
-        / /:/  /:/ / |   !________|__!
-       / /:/  /:/ /  |            |
-      / /:/  /:/ /   |____________!
-     / /:/  /:/ /    |
-    / /:/  /:/ /     |
-   /  ~~   ~~ /      |
-   |~~~~~~~~~~|      |
-   |    ::    |     /
-   |    ==    |    /
-   |    ::    |   /
-   |    ::    |  /
-   |    ::  @ | /
-   !__________!/
+ \     /\  ___  /\
+  \   // \/   \/ \\
+     ((    o o    ))
+      \\ /     \ //
+       \/  | |  \/ 
+        |  | |  |  
+        |  | |  |  
+        |   o   |  
+        | |   | |  
+        |m|   |m|  
 ```
 <!-- END_QUOTE -->
 
