@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠊚尼󰠱刼寃家</p>
-      <p class="nom">群𡗉𡢻𡗋牢它托朱”</p>
-      <p class="quocngu">Người này nặng kiếp oan gia,</p>
-      <p class="quocngu">Còn nhiều nợ lắm sao đà thác cho!</p>
-      <p class="author"><i>(Dòng 1693-1694) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𧿆𬆄𨖲馭卽期</p>
+      <p class="nom">房𬘏院册𦊚皮󰌕炵”</p>
+      <p class="quocngu">Dảy ngay lên ngựa tức kỳ,</p>
+      <p class="quocngu">Phòng thêu viện sách, bốn bề lửa dong.</p>
+      <p class="author"><i>(Dòng 1647-1648) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I pick projects according to how         \
-| fascinating they are to me, and it has    |
-| resulted in a broad reach. My records are |
-| actually in five different sports:        |
-| balloons, airplanes, airships, gliders,   |
-| and sailboats.”                           |
-|                                           |
-\  -- Steve Fossett                         /
- -------------------------------------------
- \     /\  ___  /\
-  \   // \/   \/ \\
-     ((    o o    ))
-      \\ /     \ //
-       \/  | |  \/ 
-        |  | |  |  
-        |  | |  |  
-        |   o   |  
-        | |   | |  
-        |m|   |m|  
+ ____________________________________________
+/ “Fan Luv is a powerful positive movement.  \
+| All over the world they come. It's a force |
+| of luv.”                                   |
+|                                            |
+\  -- DJ Khaled                              /
+ --------------------------------------------
+     \
+      \
+                   [\
+              .----' `-----.
+             //^^^^;;^^^^^^`\
+     _______//_____||_____()_\________
+    /826    :      : ___              `\
+   |>   ____;      ;  |/\><|   ____   _<)
+  {____/    \_________________/    \____}
+       \ '' /                 \ '' /
+ jgs    '--'                   '--'
 ```
 <!-- END_QUOTE -->
 
