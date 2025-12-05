@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𧿆𬆄𨖲馭卽期</p>
-      <p class="nom">房𬘏院册𦊚皮󰌕炵”</p>
-      <p class="quocngu">Dảy ngay lên ngựa tức kỳ,</p>
-      <p class="quocngu">Phòng thêu viện sách, bốn bề lửa dong.</p>
-      <p class="author"><i>(Dòng 1647-1648) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“本師耒拱典𡢐</p>
+      <p class="nom">𠰺迻法寶𨖅侯師兄”</p>
+      <p class="quocngu">Bản sư rồi cũng đến sau,</p>
+      <p class="quocngu">Dạy đưa pháp bảo sang hầu sư huynh."</p>
+      <p class="author"><i>(Dòng 2045-2046) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,23 +26,36 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Fan Luv is a powerful positive movement.  \
-| All over the world they come. It's a force |
-| of luv.”                                   |
+/ “...but it was just her mind playing cruel \
+| tricks, and she tried to push away the     |
+| irrational thought that Richard was still  |
+| in there, waiting for someone to save his  |
+| life.”                                     |
 |                                            |
-\  -- DJ Khaled                              /
+\  -- Paul Pilkington                        /
  --------------------------------------------
-     \
-      \
-                   [\
-              .----' `-----.
-             //^^^^;;^^^^^^`\
-     _______//_____||_____()_\________
-    /826    :      : ___              `\
-   |>   ____;      ;  |/\><|   ____   _<)
-  {____/    \_________________/    \____}
-       \ '' /                 \ '' /
- jgs    '--'                   '--'
+ \
+  \
+   \     O_      __)(
+       ,'  `.   (_".`.
+      :      :    /|`
+      |      |   ((|_  ,-.
+      ; -   /:  ,'  `:(( -\
+     /    -'  `: ____ \\\-:
+    _\__   ____|___  \____|_
+   ;    | |        '-`      :
+  :_____|:|__________________:
+  ;     |:|                  :
+ :      |:|                   :
+ ;_______`'___________________:
+:                              :
+|______________________________|
+ `---.--------------------.---'
+     |____________________|
+     |                    |
+     |____________________|
+     |                    |
+   _\|_\|_\/(__\__)\__\//_|(_
 ```
 <!-- END_QUOTE -->
 
