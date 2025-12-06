@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“本師耒拱典𡢐</p>
-      <p class="nom">𠰺迻法寶𨖅侯師兄”</p>
-      <p class="quocngu">Bản sư rồi cũng đến sau,</p>
-      <p class="quocngu">Dạy đưa pháp bảo sang hầu sư huynh."</p>
-      <p class="author"><i>(Dòng 2045-2046) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“牟糊㐌𠅎𠫾耒</p>
+      <p class="nom">催催󰢉󰢎𠫾𠁀茹魔”</p>
+      <p class="quocngu">Màu hồ đã mất đi rồi,</p>
+      <p class="quocngu">Thôi thôi vốn liếng đi đời nhà ma!"</p>
+      <p class="author"><i>(Dòng 969-970) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,36 +26,38 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “...but it was just her mind playing cruel \
-| tricks, and she tried to push away the     |
-| irrational thought that Richard was still  |
-| in there, waiting for someone to save his  |
-| life.”                                     |
+/ “Without meditation, contemplation and     \
+| skillful action, the anger lurking in your |
+| mind can becomethe (d)anger within your    |
+| life."Leonard Perlmutter (Ram Lev)”        |
 |                                            |
-\  -- Paul Pilkington                        /
+\  -- Leonard Perlmutter                     /
  --------------------------------------------
  \
   \
-   \     O_      __)(
-       ,'  `.   (_".`.
-      :      :    /|`
-      |      |   ((|_  ,-.
-      ; -   /:  ,'  `:(( -\
-     /    -'  `: ____ \\\-:
-    _\__   ____|___  \____|_
-   ;    | |        '-`      :
-  :_____|:|__________________:
-  ;     |:|                  :
- :      |:|                   :
- ;_______`'___________________:
-:                              :
-|______________________________|
- `---.--------------------.---'
-     |____________________|
-     |                    |
-     |____________________|
-     |                    |
-   _\|_\|_\/(__\__)\__\//_|(_
+   \
+            . .: -----  .
+         ／: .: .: .:.: .:＼
+        /    ..  . l.: .: .:ヽ
+       : .: ,/|-/|:ハ.:|-.ｌ.:
+       |: :ノ |/.|/  ヽ|.Vﾊ.:|
+       |.::|  =＝     ＝= }.:| 
+       |.γ|| ''  ＿_   ''{::ﾊ 
+       ﾉノﾊﾘ   ｛   }     ﾉV
+       ∨Vvヽ､._  --'_ .イV
+            γ:/:{.又 }ﾍヽ 
+          ／:〉:V ﾊ.ﾘ〈: ＼ 
+        ／ : Vヽ:V// /:V ::＼ 
+    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
+   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
+    ー'    ./: : : : : ﾊ      ー' 
+          ./::o: : : :o ﾊ 
+          /ヽ: : :Λ: : :ﾉ:、 
+        〈:::￣￣:::￣:::::〉 
+          ＼:__:::::::__:／ 
+            |  Τ￣Τ | 
+            |  |   |  | 
+            |''|   |''| 
 ```
 <!-- END_QUOTE -->
 
