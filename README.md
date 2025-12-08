@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“信𠓨𠳚𠓀中軍</p>
-      <p class="nom">徐公𥢆唉𨑮分糊塗”</p>
-      <p class="quocngu">Tin vào gửi trước trung quân,</p>
-      <p class="quocngu">Từ công riêng hãy mười phân hồ đồ.</p>
-      <p class="author"><i>(Dòng 2461-2462) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢹣旗招撫先鋒</p>
+      <p class="nom">禮儀躝𠓀鎛銅伏𡢐”</p>
+      <p class="quocngu">Kéo cờ chiêu phủ tiên phong,</p>
+      <p class="quocngu">Lễ nghi dàn trước, bác đồng phục sau.</p>
+      <p class="author"><i>(Dòng 2509-2510) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,50 +25,47 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “How can it be that Jane is with me, and  \
-| says she loves me? Will she not depart as |
-| suddenly as she came? To-morrow, I fear I |
-| shall find her no more.”                  |
-|                                           |
-\  -- Charlotte Brontë                      /
- -------------------------------------------
-     \
-      \
-       \
-                                    (
-                       (
-               )                    )             (
-                       )           (o)    )
-               (      (o)    )     ,|,            )
-              (o)     ,|,          |~\    (      (o)
-              ,|,     |~\    (     \ |   (o)     ,|,
-              \~|     \ |   (o)    |`\   ,|,     |~\
-              |`\     |`\@@@,|,@@@@\ |@@@\~|     \ |
-              \ | o@@@\ |@@@\~|@@@@|`\@@@|`\@@@o |`\
-             o|`\@@@@@|`\@@@|`\@@@@\ |@@@\ |@@@@@\ |o
-           o@@\ |@@@@@\ |@@@\ |@@@@@@@@@@|`\@@@@@|`\@@o
-          @@@@|`\@@@@@@@@@@@|`\@@@@@@@@@@\ |@@@@@\ |@@@@
-          p@@@@@@@@@@@@@@@@@\ |@@@@@@@@@@|`\@@@@@@@@@@@q
-          @@o@@@@@@@@@@@@@@@|`\@@@@@@@@@@@@@@@@@@@@@@o@@
-          @:@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o@@::@
-          ::@@::@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@o@@:@@::@
-          ::@@::@@@@::oo@@@@oo@@@@@ooo@@@@@o:::@@@::::::
-          %::::::@::::::@@@@:::@@@:::::@@@@:::::@@:::::%
-          %%::::::::::::@@::::::@:::::::@@::::::::::::%%
-          ::%%%::::::::::@::::::::::::::@::::::::::%%%::
-        .#::%::%%%%%%:::::::::::::::::::::::::%%%%%::%::#.
-      .###::::::%%:::%:%%%%%%%%%%%%%%%%%%%%%:%:::%%:::::###.
-    .#####::::::%:::::%%::::::%%%%:::::%%::::%::::::::::#####.
-   .######`:::::::::::%:::::::%:::::::::%::::%:::::::::\'######.
-   .#########``::::::::::::::::::::::::::::::::::::\'\'#########.
-   `.#############```::::::::::::::::::::::::\'\'\'#############.\'
-    `.######################################################.\'
-      ` .###########,._.,,,. \#######<_\##################. \'
-         ` .#######,;:      `,/____,__`\_____,_________,_____
-            `  .###;;;`.   _,;>-,------,,--------,----------\'
-                `  `,;\' ~~~ ,\'\######_/\'#######  .  \'
-                    \'\'~`\'\'\'\'    -  .\'/;  -    \'       -Catalyst
+ _____________________________________________
+/ “All the systems which explain so precisely \
+| why the world is as it is and why it can    |
+| never be otherwise, have always called      |
+| forth in me the same kind of uneasiness     |
+| one has when face to face with the          |
+| regulations displayed under the glaring     |
+| lights of a prison cell. Even if one had    |
+| been born in prison and had never seen the  |
+| stars or seas or woods, one would           |
+| instinctively know of timeless freedom in   |
+| unlimited space.My evil star, however, had  |
+| fated me to be born in times when only the  |
+| sharply demarcated and precisely            |
+| calculable where in fashion.... "Of         |
+| course, I am on the Right, on the Left, in  |
+| the Centre; I descend from the monkey; I    |
+| believe only what I see; the universe is    |
+| going to explode at this or that speed" -   |
+| we hear such remarks after the first words  |
+| we exchange, from people whom we would not  |
+| have expected to introduce themselves as    |
+| idiots. If one is unfortunate enough to     |
+| meet them again in five years, everything   |
+| is different except their authoritative     |
+| and mostly brutal assuredness. Now they     |
+| wear a different badge in their             |
+| buttonhole; and the universe now shrinks    |
+| at such a speed that your hair stands on    |
+| end.”                                       |
+|                                             |
+\  -- Ernst Jünger                            /
+ ---------------------------------------------
+        \
+         \
+          )__(
+         '|oo|'________/
+          |__|         |
+             ||"""""""||
+             ||       ||
+
 ```
 <!-- END_QUOTE -->
 
