@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢹣旗招撫先鋒</p>
-      <p class="nom">禮儀躝𠓀鎛銅伏𡢐”</p>
-      <p class="quocngu">Kéo cờ chiêu phủ tiên phong,</p>
-      <p class="quocngu">Lễ nghi dàn trước, bác đồng phục sau.</p>
-      <p class="author"><i>(Dòng 2509-2510) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“湥洡払買𠽔𬆄</p>
+      <p class="nom">頭𡳪吏計事𣈜求親”</p>
+      <p class="quocngu">Sụt sùi, chàng mới thưa ngay,</p>
+      <p class="quocngu">Đầu đuôi lại kể sự ngày cầu thân.</p>
+      <p class="author"><i>(Dòng 1439-1440) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,47 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “All the systems which explain so precisely \
-| why the world is as it is and why it can    |
-| never be otherwise, have always called      |
-| forth in me the same kind of uneasiness     |
-| one has when face to face with the          |
-| regulations displayed under the glaring     |
-| lights of a prison cell. Even if one had    |
-| been born in prison and had never seen the  |
-| stars or seas or woods, one would           |
-| instinctively know of timeless freedom in   |
-| unlimited space.My evil star, however, had  |
-| fated me to be born in times when only the  |
-| sharply demarcated and precisely            |
-| calculable where in fashion.... "Of         |
-| course, I am on the Right, on the Left, in  |
-| the Centre; I descend from the monkey; I    |
-| believe only what I see; the universe is    |
-| going to explode at this or that speed" -   |
-| we hear such remarks after the first words  |
-| we exchange, from people whom we would not  |
-| have expected to introduce themselves as    |
-| idiots. If one is unfortunate enough to     |
-| meet them again in five years, everything   |
-| is different except their authoritative     |
-| and mostly brutal assuredness. Now they     |
-| wear a different badge in their             |
-| buttonhole; and the universe now shrinks    |
-| at such a speed that your hair stands on    |
-| end.”                                       |
-|                                             |
-\  -- Ernst Jünger                            /
- ---------------------------------------------
-        \
-         \
-          )__(
-         '|oo|'________/
-          |__|         |
-             ||"""""""||
-             ||       ||
-
+ __________________________________________
+/ “Love is like a faucet, it turns off and \
+| on.”                                     |
+|                                          |
+\  -- Billie Holiday                       /
+ ------------------------------------------
+    \
+     \
+           .-;+$XHHHHHHX$+;-.
+        ,;X@@X%/;=----=:/%X@@X/,
+      =$@@%=.              .=+H@X:
+    -XMX:                      =XMX=
+   /@@:                          =H@+
+  %@X,                            .$@$
+ +@X.                               $@%
+-@@,                                .@@=
+%@%                                  +@$
+H@:                                  :@H
+H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
+%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
+=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
+ +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
+  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
+   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
+    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
+      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
+        ,;$@@@@@@@@@@@@@@@@@@X/-
+           .-;+$XXHHHHHX$+;-.
 ```
 <!-- END_QUOTE -->
 
