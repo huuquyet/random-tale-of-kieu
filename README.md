@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“蜍於𩙍竹𩅹梅</p>
-      <p class="nom">菫魚𤾓餒搥󰢕󰜋身”</p>
-      <p class="quocngu">Thờ ơ gió trúc mưa mai,</p>
-      <p class="quocngu">Ngẩn ngơ trăm nỗi, giùi mài một thân.</p>
-      <p class="author"><i>(Dòng 1249-1250) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“窮塘油併𡦂從</p>
+      <p class="nom">別𠊚別󰘚別𢚸爫牢”</p>
+      <p class="quocngu">Cùng đường dù tính chữ tòng,</p>
+      <p class="quocngu">Biết người, biết mặt, biết lòng làm sao?</p>
+      <p class="author"><i>(Dòng 2119-2120) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,16 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Disappointment resides in expectation.   \
-| Showing a little regard creates           |
-| consideration, which results in           |
-| understanding. Steps to a peace of mind.” |
-|                                           |
-\  -- Tyconis D. Allison Ty                 /
- -------------------------------------------
+ __________________________________________
+/ “With the world in a chaos of questions, \
+| family should be the answer.”            |
+|                                          |
+\  -- Anthony Liccione                     /
+ ------------------------------------------
   \
-(╯°□°）╯︵ ┻━┻
+   \
+      ,.,,､,..,､､.,､,､､.,_          ／i
+    ;'`;、､:、..:、:,:,.::｀'::ﾞ":,'´ --i
+    '､;:..: ,:.､.:',.:.::_.;..;:.‐'ﾞ
+
 ```
 <!-- END_QUOTE -->
 
