@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“窮塘油併𡦂從</p>
-      <p class="nom">別𠊚別󰘚別𢚸爫牢”</p>
-      <p class="quocngu">Cùng đường dù tính chữ tòng,</p>
-      <p class="quocngu">Biết người, biết mặt, biết lòng làm sao?</p>
-      <p class="author"><i>(Dòng 2119-2120) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦖑𠳒娘㐌生疑</p>
+      <p class="nom">雙陀過坦管之特身”</p>
+      <p class="quocngu">Nghe lời nàng đã sinh nghi,</p>
+      <p class="quocngu">Song đà quá đất quản gì được thân.</p>
+      <p class="author"><i>(Dòng 1113-1114) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,41 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “With the world in a chaos of questions, \
-| family should be the answer.”            |
-|                                          |
-\  -- Anthony Liccione                     /
- ------------------------------------------
-  \
-   \
-      ,.,,､,..,､､.,､,､､.,_          ／i
-    ;'`;、､:、..:、:,:,.::｀'::ﾞ":,'´ --i
-    '､;:..: ,:.､.:',.:.::_.;..;:.‐'ﾞ
-
+ ____________________________________________
+/ “Usually, when I dream of flying I am      \
+| simply flapping my arms and somehow I lift |
+| off and glide through the sky. Last night  |
+| was different. I missed you so much and my |
+| yearning was so powerful that I sprouted   |
+| wings like a phoenix and soared to reach   |
+| you. And now I finally understand: if you  |
+| see lovers on a roof, do not worry.        |
+| Surely, love has metamorphosed them.”      |
+|                                            |
+\  -- Kamand Kojouri                         /
+ --------------------------------------------
+    \
+     \
+            .+
+             /M;
+              H#@:              ;,
+              -###H-          -@/
+               %####$.  -;  .%#X
+                M#####+;#H :M#M.
+..          .+/;%#########X###-
+ -/%H%+;-,    +##############/
+    .:$M###MH$%+############X  ,--=;-
+        -/H#####################H+=.
+           .+#################X.
+         =%M####################H;.
+            /@###############+;;/%%;,
+         -%###################$.
+       ;H######################M=
+    ,%#####MH$%;+#####M###-/@####%
+  :$H%+;=-      -####X.,H#   -+M##@-
+ .              ,###;    ;      =$##+
+                .#H,               :XH,
+                 +                   .;-
 ```
 <!-- END_QUOTE -->
 
