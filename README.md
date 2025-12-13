@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦖑𠳒娘㐌生疑</p>
-      <p class="nom">雙陀過坦管之特身”</p>
-      <p class="quocngu">Nghe lời nàng đã sinh nghi,</p>
-      <p class="quocngu">Song đà quá đất quản gì được thân.</p>
-      <p class="author"><i>(Dòng 1113-1114) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“女欺𩘪𩘣負旁</p>
+      <p class="nom">舌𥢆妬拱吏強極低”</p>
+      <p class="quocngu">Nữa khi giông tố phũ phàng,</p>
+      <p class="quocngu">Thiệt riêng đó, cũng lại càng cực đây.</p>
+      <p class="author"><i>(Dòng 1969-1970) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,41 +25,40 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Usually, when I dream of flying I am      \
-| simply flapping my arms and somehow I lift |
-| off and glide through the sky. Last night  |
-| was different. I missed you so much and my |
-| yearning was so powerful that I sprouted   |
-| wings like a phoenix and soared to reach   |
-| you. And now I finally understand: if you  |
-| see lovers on a roof, do not worry.        |
-| Surely, love has metamorphosed them.”      |
-|                                            |
-\  -- Kamand Kojouri                         /
- --------------------------------------------
+ _______________________________________
+/ “Regret is good. It proves you have a \
+| conscience.”                          |
+|                                       |
+\  -- J.R. Young                        /
+ ---------------------------------------
     \
      \
-            .+
-             /M;
-              H#@:              ;,
-              -###H-          -@/
-               %####$.  -;  .%#X
-                M#####+;#H :M#M.
-..          .+/;%#########X###-
- -/%H%+;-,    +##############/
-    .:$M###MH$%+############X  ,--=;-
-        -/H#####################H+=.
-           .+#################X.
-         =%M####################H;.
-            /@###############+;;/%%;,
-         -%###################$.
-       ;H######################M=
-    ,%#####MH$%;+#####M###-/@####%
-  :$H%+;=-      -####X.,H#   -+M##@-
- .              ,###;    ;      =$##+
-                .#H,               :XH,
-                 +                   .;-
+      \
+       \
+        \
+         \
+    \     \                     /
+     \     \                   /
+      \     \                 /
+       ]     \               [    ,'|
+       ]      \              [   /  |
+       ]___               ___[ ,'   |
+       ]  ]\             /[  [ |:   |
+       ]  ] \           / [  [ |:   |
+       ]  ]  ]         [  [  [ |:   |
+       ]  ]  ]__     __[  [  [ |:   |
+       ]  ]  ] ]\ _ /[ [  [  [ |:   |
+       ]  ]  ] ] (#) [ [  [  [ :===='
+       ]  ]  ]_].nHn.[_[  [  [
+       ]  ]  ]  HHHHH. [  [  [
+       ]  ] /   `HH("N  \ [  [
+       ]__]/     HHH  "  \[__[
+       ]         NNN         [
+       ]         N/"         [
+       ]         N H         [
+      /          N            \
+     /           q,            \
+    /                           \
 ```
 <!-- END_QUOTE -->
 
