@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“女欺𩘪𩘣負旁</p>
-      <p class="nom">舌𥢆妬拱吏強極低”</p>
-      <p class="quocngu">Nữa khi giông tố phũ phàng,</p>
-      <p class="quocngu">Thiệt riêng đó, cũng lại càng cực đây.</p>
-      <p class="author"><i>(Dòng 1969-1970) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“悴命𨷶閣𢩣圭</p>
+      <p class="nom">捛𢚸學𥙩仍藝業𫨩”</p>
+      <p class="quocngu">Xót mình cửa các buồng khuê,</p>
+      <p class="quocngu">Lựa lòng học lấy những nghề nghiệp hay!</p>
+      <p class="author"><i>(Dòng 1221-1222) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “Regret is good. It proves you have a \
-| conscience.”                          |
-|                                       |
-\  -- J.R. Young                        /
- ---------------------------------------
-    \
-     \
-      \
-       \
-        \
-         \
-    \     \                     /
-     \     \                   /
-      \     \                 /
-       ]     \               [    ,'|
-       ]      \              [   /  |
-       ]___               ___[ ,'   |
-       ]  ]\             /[  [ |:   |
-       ]  ] \           / [  [ |:   |
-       ]  ]  ]         [  [  [ |:   |
-       ]  ]  ]__     __[  [  [ |:   |
-       ]  ]  ] ]\ _ /[ [  [  [ |:   |
-       ]  ]  ] ] (#) [ [  [  [ :===='
-       ]  ]  ]_].nHn.[_[  [  [
-       ]  ]  ]  HHHHH. [  [  [
-       ]  ] /   `HH("N  \ [  [
-       ]__]/     HHH  "  \[__[
-       ]         NNN         [
-       ]         N/"         [
-       ]         N H         [
-      /          N            \
-     /           q,            \
-    /                           \
+ _____________________________
+/ “Tut, Tut, looks like rain” \
+|                             |
+\  -- A.A. Milne              /
+ -----------------------------
+           \
+            \
+        "-.. __      __.='>
+         `.     """""   ,'
+           "-..__   _.-"
+   ~ ~~ ~ ~  ~   """  ~~  ~
 ```
 <!-- END_QUOTE -->
 
