@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“悴命𨷶閣𢩣圭</p>
-      <p class="nom">捛𢚸學𥙩仍藝業𫨩”</p>
-      <p class="quocngu">Xót mình cửa các buồng khuê,</p>
-      <p class="quocngu">Lựa lòng học lấy những nghề nghiệp hay!</p>
-      <p class="author"><i>(Dòng 1221-1222) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“抇疎𦎛𢶒頭梗</p>
+      <p class="nom">𦰟畑𬂙𢫫帳螢吃󰢀”</p>
+      <p class="quocngu">Nhặt thưa gương giọi đầu cành,</p>
+      <p class="quocngu">Ngọn đèn trông lọt trướng huỳnh hắt hiu.</p>
+      <p class="author"><i>(Dòng 433-434) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,17 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________
-/ “Tut, Tut, looks like rain” \
-|                             |
-\  -- A.A. Milne              /
- -----------------------------
-           \
-            \
-        "-.. __      __.='>
-         `.     """""   ,'
-           "-..__   _.-"
-   ~ ~~ ~ ~  ~   """  ~~  ~
+ ____________________________________________
+/ “Surely it is foolish to hate facts. The   \
+| struggle against the past is a futile      |
+| struggle. Acceptance seems so much more    |
+| like wisdom. I know all this. And yet      |
+| there are some facts that one must never,  |
+| never accept. This is not merely an        |
+| emotional matter. The reason that one must |
+| hate certain facts is that one must        |
+| prepare for the possibility of their       |
+| return. If the past were really past, then |
+| one might permit oneself an attitude of    |
+| acceptance, and come away from the study   |
+| of history with a feeling of serenity. But |
+| the past is often only an earlier          |
+| instantiation of the evil in our hearts.   |
+| It is not precisely the case that history  |
+| repeats itself. We repeat history—or we do |
+| not repeat it, if we choose to stand in    |
+| the way of its repetition. For this        |
+| reason, it is one of the purposes of the   |
+| study of history that we learn to oppose   |
+| it.”                                       |
+|                                            |
+\  -- Leon Wieseltier                        /
+ --------------------------------------------
+     \
+      \
+               ,
+             __)\_  
+       (\_.-'    a`-.
+  jgs  (/~~````(/~^^` 
+
 ```
 <!-- END_QUOTE -->
 
