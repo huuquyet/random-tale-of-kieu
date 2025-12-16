@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“抇疎𦎛𢶒頭梗</p>
-      <p class="nom">𦰟畑𬂙𢫫帳螢吃󰢀”</p>
-      <p class="quocngu">Nhặt thưa gương giọi đầu cành,</p>
-      <p class="quocngu">Ngọn đèn trông lọt trướng huỳnh hắt hiu.</p>
-      <p class="author"><i>(Dòng 433-434) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情𠸗恩者義填</p>
+      <p class="nom">加親卞買結緣朱陳”</p>
+      <p class="quocngu">Tình xưa ân trả nghĩa đền,</p>
+      <p class="quocngu">Gia thân bèn mới kết duyên Châu Trần.</p>
+      <p class="author"><i>(Dòng 2865-2866) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Surely it is foolish to hate facts. The   \
-| struggle against the past is a futile      |
-| struggle. Acceptance seems so much more    |
-| like wisdom. I know all this. And yet      |
-| there are some facts that one must never,  |
-| never accept. This is not merely an        |
-| emotional matter. The reason that one must |
-| hate certain facts is that one must        |
-| prepare for the possibility of their       |
-| return. If the past were really past, then |
-| one might permit oneself an attitude of    |
-| acceptance, and come away from the study   |
-| of history with a feeling of serenity. But |
-| the past is often only an earlier          |
-| instantiation of the evil in our hearts.   |
-| It is not precisely the case that history  |
-| repeats itself. We repeat history—or we do |
-| not repeat it, if we choose to stand in    |
-| the way of its repetition. For this        |
-| reason, it is one of the purposes of the   |
-| study of history that we learn to oppose   |
-| it.”                                       |
-|                                            |
-\  -- Leon Wieseltier                        /
- --------------------------------------------
-     \
-      \
-               ,
-             __)\_  
-       (\_.-'    a`-.
-  jgs  (/~~````(/~^^` 
-
+ __________________________________________
+/ “Elizabeth walked past just as Mrs.      \
+| Ferguson, pulling down her wide-brimmed  |
+| hat, announced that teenagers today were |
+| the most inconsiderate creatures she had |
+| ever seen. 'I'm afraid I have to agree   |
+| with you,' Elizabeth had heard her twin  |
+| say mournfully, clearly distinguishing   |
+| herself from the inconsiderate teenagers |
+| milling all around them.”                |
+|                                          |
+\  -- Francine Pascal                      /
+ ------------------------------------------
+  \
+   \   \
+        \ /\
+        ( )
+      .( o ).
 ```
 <!-- END_QUOTE -->
 
