@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情𠸗恩者義填</p>
-      <p class="nom">加親卞買結緣朱陳”</p>
-      <p class="quocngu">Tình xưa ân trả nghĩa đền,</p>
-      <p class="quocngu">Gia thân bèn mới kết duyên Châu Trần.</p>
-      <p class="author"><i>(Dòng 2865-2866) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠄩邊𨑮位將軍</p>
+      <p class="nom">撻鎌𢶒甲𠓀𡑝叩頭”</p>
+      <p class="quocngu">Hai bên mười vị tướng quân,</p>
+      <p class="quocngu">Đặt gươm, cởi giáp, trước sân khấu đầu.</p>
+      <p class="author"><i>(Dòng 2261-2262) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Elizabeth walked past just as Mrs.      \
-| Ferguson, pulling down her wide-brimmed  |
-| hat, announced that teenagers today were |
-| the most inconsiderate creatures she had |
-| ever seen. 'I'm afraid I have to agree   |
-| with you,' Elizabeth had heard her twin  |
-| say mournfully, clearly distinguishing   |
-| herself from the inconsiderate teenagers |
-| milling all around them.”                |
-|                                          |
-\  -- Francine Pascal                      /
- ------------------------------------------
-  \
-   \   \
-        \ /\
-        ( )
-      .( o ).
+ _____________________________________________
+/ “Difficulties are things that show what men \
+| are.”                                       |
+|                                             |
+\  -- Epictetus                               /
+ ---------------------------------------------
+ \       \      \      
+  \        ^__^  \        
+    ^__^   (oo)   ^__^  
+    (oo)   (__)   (oo)   
+    (__)          (__)   
+oyo/:                :/oy+
+/mmmmm+   syyyyo  `ommmmm/
+ smmmmms. -ymmy. .smmmmmo 
+ `+dmmmmd+``::``+dmmmmd+  
+   -ymmmmmh/``+hmmmmmy-   
+    `/hmmmmmhhmmmmmh/`    
+      `/hmmmmmmmmh/`      
+        `/hmmmmmd/        
+      `oo.`/dmmmmdo`      
+     `ymmd+``ommmmmy`     
+     smmmmd-  /mmmmms     
+    -mmmmm+    ommmmm-    
+    -ooooo`    .ooooo.     
 ```
 <!-- END_QUOTE -->
 
