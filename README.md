@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠄩邊𨑮位將軍</p>
-      <p class="nom">撻鎌𢶒甲𠓀𡑝叩頭”</p>
-      <p class="quocngu">Hai bên mười vị tướng quân,</p>
-      <p class="quocngu">Đặt gươm, cởi giáp, trước sân khấu đầu.</p>
-      <p class="author"><i>(Dòng 2261-2262) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠻵信掣浽驚惶</p>
+      <p class="nom">氷命𨇍𠓀臺粧叙情”</p>
+      <p class="quocngu">Mảng tin xiết nỗi kinh hoàng,</p>
+      <p class="quocngu">Băng mình lẻn trước đài trang tự tình.</p>
+      <p class="author"><i>(Dòng 535-536) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,29 +26,40 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Difficulties are things that show what men \
-| are.”                                       |
+/ “You've got to be happy when you play a sad \
+| character; otherwise, you just get          |
+| depressed. Make your real life as fun as    |
+| possible.”                                  |
 |                                             |
-\  -- Epictetus                               /
+\  -- Sophie Turner                           /
  ---------------------------------------------
- \       \      \      
-  \        ^__^  \        
-    ^__^   (oo)   ^__^  
-    (oo)   (__)   (oo)   
-    (__)          (__)   
-oyo/:                :/oy+
-/mmmmm+   syyyyo  `ommmmm/
- smmmmms. -ymmy. .smmmmmo 
- `+dmmmmd+``::``+dmmmmd+  
-   -ymmmmmh/``+hmmmmmy-   
-    `/hmmmmmhhmmmmmh/`    
-      `/hmmmmmmmmh/`      
-        `/hmmmmmd/        
-      `oo.`/dmmmmdo`      
-     `ymmd+``ommmmmy`     
-     smmmmd-  /mmmmms     
-    -mmmmm+    ommmmm-    
-    -ooooo`    .ooooo.     
+       \
+        \          .88888888:.
+         \        88888888.88888.
+               .8888888888888888.
+               888888888888888888
+               88' _`88'_  `88888
+               88 88 88 88  88888
+               88_88_::_88_:88888
+               88:::,::,:::::8888
+               88`:::::::::'`8888
+              .88  `::::'    8:88.
+             8888            `8:888.
+           .8888'             `888888.
+          .8888:..  .::.  ...:'8888888:.
+         .8888.'     :'     `'::`88:88888
+        .8888        '         `.888:8888.
+       888:8         .           888:88888
+     .888:88        .:           888:88888:   
+     8888888.       ::           88:888888
+     `.::.888.      ::          .88888888
+    .::::::.888.    ::         :::`8888'.:.
+   ::::::::::.888   '         .::::::::::::
+   ::::::::::::.8    '      .:8::::::::::::.
+  .::::::::::::::.        .:888:::::::::::::
+  :::::::::::::::88:.__..:88888:::::::::::'
+   `'.:::::::::::88888888888.88:::::::::'
+         `':::_:' -- '' -'-' `':_::::'`
 ```
 <!-- END_QUOTE -->
 
