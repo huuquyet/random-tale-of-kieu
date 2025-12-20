@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥋷𬂙座𢌌𢩵𨱽</p>
-      <p class="nom">天官冢宰固牌撩𨖲”</p>
-      <p class="quocngu">Liếc trông toà rộng dãy dài.</p>
-      <p class="quocngu">Thiên quan trủng tể có bài treo lên.</p>
-      <p class="author"><i>(Dòng 1721-1722) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠸦朱仍𠰘容𨱽</p>
+      <p class="nom">𧊉蜂吏達仍𠳒怒箕”</p>
+      <p class="quocngu">Khen cho những miệng dông dài,</p>
+      <p class="quocngu">Bướm ong lại đặt những lời nọ kia.</p>
+      <p class="author"><i>(Dòng 1585-1586) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “There is always time, it is never too    \
-| late....When you die and you haven't done |
-| it, then it's too late!”                  |
-|                                           |
-\  -- Deyth Banger                          /
- -------------------------------------------
- \
-  \
+ ____________________________________________
+/ “The other day I went to the Huddle House. \
+| I wasn’t hungry, I just wanted to call     |
+| some plays.”                               |
+|                                            |
+\  -- Jarod Kintz                            /
+ --------------------------------------------
    \
-            . .: -----  .
-         ／: .: .: .:.: .:＼
-        /    ..  . l.: .: .:ヽ
-       : .: ,/|-/|:ハ.:|-.ｌ.:
-       |: :ノ |/.|/  ヽ|.Vﾊ.:|
-       |.::|  =＝     ＝= }.:| 
-       |.γ|| ''  ＿_   ''{::ﾊ 
-       ﾉノﾊﾘ   ｛   }     ﾉV
-       ∨Vvヽ､._  --'_ .イV
-            γ:/:{.又 }ﾍヽ 
-          ／:〉:V ﾊ.ﾘ〈: ＼ 
-        ／ : Vヽ:V// /:V ::＼ 
-    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
-   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
-    ー'    ./: : : : : ﾊ      ー' 
-          ./::o: : : :o ﾊ 
-          /ヽ: : :Λ: : :ﾉ:、 
-        〈:::￣￣:::￣:::::〉 
-          ＼:__:::::::__:／ 
-            |  Τ￣Τ | 
-            |  |   |  | 
-            |''|   |''| 
+    \
+          _,--',   _._.--._____
+   .--.--';_'-.', ";_      _.,-'
+  .'--'.  _.'    {`'-;_ .-.>.'
+        '-:_      )  / `' '=.
+          ) >     {_/,     /~)
+  snd     |/               `^ .'
 ```
 <!-- END_QUOTE -->
 
