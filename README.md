@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤴬𢚸几於𠊚𠫾</p>
-      <p class="nom">淚淶滲𥒥絲𢺺癒蠶”</p>
-      <p class="quocngu">Đau lòng kẻ ở người đi,</p>
-      <p class="quocngu">Lệ rơi thấm đá, tơ chia rũ tằm.</p>
-      <p class="author"><i>(Dòng 781-782) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“尋兜朱𧡊故人</p>
+      <p class="nom">𥙩勾運命𢣧寅𢖵傷”</p>
+      <p class="quocngu">Tìm đâu cho thấy cố nhân?</p>
+      <p class="quocngu">Lấy câu vận mệnh khuây dần nhớ thương.</p>
+      <p class="author"><i>(Dòng 1797-1798) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “The darkest things of this world nestle  \
-| inseparable from, and do not eclipse, its |
-| equally boundless graces and glories.”    |
-|                                           |
-\  -- Brian Awehali                         /
- -------------------------------------------
-   \
-    \
-      .-+$H###MM@MMMMM##@$+-,. ....
--@$+%$+%HX+--..  .  . .,:X$/+/++$#:
--#MXH$=                      $HXH#:
- .--,:#+   ,+$HMX =@@X%, . .X#:,,,
-     =#@$H :####H =####;,M%$#X
-     X###$ $####X =####H %###X
-    ;###X /###@$: ,+HM##H.+###;
-   :###;,X##%=;%H@H$;-;M#@-;###/
-  ,M##;.@##;-H#######M=.M##-:###-
-  ;##M ;##X @###H-=@###.;##X H##;
-  ;##M./##X.@###H:/M###-=##X X##;
-  -###;,M##:,@########+-H##; @##-
-   %##M==@##%==%HMH%::/M##+.X##+
-    %###/./###X+: -+$M##M=,X##+
-     X###X X####H +#####% @##H
-     :###H %####H +#####; X##;
-     /#$.  -HM##H /###@+.  +#$. .
-/HX%$X:      .,-, .-,.      =XX$H@-
-/#H+/+%+/+;=.          .=/%;;/;;+#+
- ..  .,-:XM#MM@@@@@@H@@M#@+=,.   ,,
+ _____________________________________________
+/ “Sometimes if you don't get lost,there is a \
+| chance,you may never arrive!”               |
+|                                             |
+\  -- Manoj Vaz                               /
+ ---------------------------------------------
+       \
+        \
+                  =/;;/-
+                 +:    //
+                /;      /;
+               -X        H.
+ .//;;;:;;-,   X=        :+   .-;:=;:;%;.
+ M-       ,=;;;#:,      ,:#;;:=,       ,@
+ :%           :%.=/++++/=.$=           %=
+  ,%;         %/:+/;,,/++:+/         ;+.
+    ,+/.    ,;@+,        ,%H;,    ,/+,
+       ;+;;/= @.  .H##X   -X :///+;
+       ;+=;;;.@,  .XM@$.  =X.//;=%/.
+    ,;:      :@%=        =$H:     .+%-
+  ,%=         %;-///==///-//         =%,
+ ;+           :%-;;;:;;;;-X-           +:
+ @-      .-;;;;M-        =M/;;;-.      -X
+  :;;::;;-.    %-        :+    ,-;;-;:==
+               ,X        H.
+                ;/      %=
+                 //    +;
+                  ,////,
+
 ```
 <!-- END_QUOTE -->
 
