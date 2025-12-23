@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“尋兜朱𧡊故人</p>
-      <p class="nom">𥙩勾運命𢣧寅𢖵傷”</p>
-      <p class="quocngu">Tìm đâu cho thấy cố nhân?</p>
-      <p class="quocngu">Lấy câu vận mệnh khuây dần nhớ thương.</p>
-      <p class="author"><i>(Dòng 1797-1798) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“定𣈜納釆于歸</p>
+      <p class="nom">錢𨉞㐌固役之拯衝”</p>
+      <p class="quocngu">Định ngày nạp thái vu quy,</p>
+      <p class="quocngu">Tiền lưng đã có việc gì chẳng xong!</p>
+      <p class="author"><i>(Dòng 651-652) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Sometimes if you don't get lost,there is a \
-| chance,you may never arrive!”               |
-|                                             |
-\  -- Manoj Vaz                               /
- ---------------------------------------------
-       \
-        \
-                  =/;;/-
-                 +:    //
-                /;      /;
-               -X        H.
- .//;;;:;;-,   X=        :+   .-;:=;:;%;.
- M-       ,=;;;#:,      ,:#;;:=,       ,@
- :%           :%.=/++++/=.$=           %=
-  ,%;         %/:+/;,,/++:+/         ;+.
-    ,+/.    ,;@+,        ,%H;,    ,/+,
-       ;+;;/= @.  .H##X   -X :///+;
-       ;+=;;;.@,  .XM@$.  =X.//;=%/.
-    ,;:      :@%=        =$H:     .+%-
-  ,%=         %;-///==///-//         =%,
- ;+           :%-;;;:;;;;-X-           +:
- @-      .-;;;;M-        =M/;;;-.      -X
-  :;;::;;-.    %-        :+    ,-;;-;:==
-               ,X        H.
-                ;/      %=
-                 //    +;
-                  ,////,
-
+ __________________________________________
+/ “You can have a wedding at Fenway Park.” \
+|                                          |
+\  -- Mike Barnicle                        /
+ ------------------------------------------
+  \
+   \   --木--
+       ／｜＼
+     ／  ｜  ＼
+  --木-- ｜ --木--
+  ／｜＼    ／｜＼
+／  ｜　＼／  ｜  ＼
+    ｜        ｜
 ```
 <!-- END_QUOTE -->
 
