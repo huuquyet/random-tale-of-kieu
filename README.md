@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“定𣈜納釆于歸</p>
-      <p class="nom">錢𨉞㐌固役之拯衝”</p>
-      <p class="quocngu">Định ngày nạp thái vu quy,</p>
-      <p class="quocngu">Tiền lưng đã có việc gì chẳng xong!</p>
-      <p class="author"><i>(Dòng 651-652) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤗖𦝄㐌擱𡽫兑</p>
+      <p class="nom">󰜋命𨻫仍𨅸𡎥渚衝”</p>
+      <p class="quocngu">Mảnh trăng đã gác non đoài,</p>
+      <p class="quocngu">Một mình luống những đứng ngồi chưa xong.</p>
+      <p class="author"><i>(Dòng 2617-2618) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “You can have a wedding at Fenway Park.” \
-|                                          |
-\  -- Mike Barnicle                        /
- ------------------------------------------
-  \
-   \   --木--
-       ／｜＼
-     ／  ｜  ＼
-  --木-- ｜ --木--
-  ／｜＼    ／｜＼
-／  ｜　＼／  ｜  ＼
-    ｜        ｜
+ ____________________________________________
+/ “True love, the good, beautiful,           \
+| one-and-only kind, the kind between loving |
+| friends and family and partners who are    |
+| mostly just trying hard to do their best,  |
+| it manages to overlook some pieces of its  |
+| story. It overlooks what he can’t give you |
+| or how she failed you or what mistakes he  |
+| made when he was struggling. It stays      |
+| steady at its center. It evolves, through  |
+| drought and storm. It grows. It survives.” |
+|                                            |
+\  -- Deb Caletti                            /
+ --------------------------------------------
+   \      {
+    \  }   }   {
+      {   {  }  }
+       }   }{  {
+      {  }{  }  }
+     ( }{ }{  { )
+    .-{   }   }-.
+   ( ( } { } { } )
+   |`-.._____..-'|
+   |             ;--.
+   |   (__)     (__  \
+   |   (oo)      | )  )
+   |    \/       |/  /
+   |             /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
 ```
 <!-- END_QUOTE -->
 
