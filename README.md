@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤗖𦝄㐌擱𡽫兑</p>
-      <p class="nom">󰜋命𨻫仍𨅸𡎥渚衝”</p>
-      <p class="quocngu">Mảnh trăng đã gác non đoài,</p>
-      <p class="quocngu">Một mình luống những đứng ngồi chưa xong.</p>
-      <p class="author"><i>(Dòng 2617-2618) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“事𢚸吘貝氷人</p>
+      <p class="nom">𠄩𤾓吏據原銀照還”</p>
+      <p class="quocngu">Sự lòng ngỏ với băng nhân:</p>
+      <p class="quocngu">Hai trăm lại cứ nguyên ngân chiếu hoàn.</p>
+      <p class="author"><i>(Dòng 2207-2208) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,36 +26,35 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “True love, the good, beautiful,           \
-| one-and-only kind, the kind between loving |
-| friends and family and partners who are    |
-| mostly just trying hard to do their best,  |
-| it manages to overlook some pieces of its  |
-| story. It overlooks what he can’t give you |
-| or how she failed you or what mistakes he  |
-| made when he was struggling. It stays      |
-| steady at its center. It evolves, through  |
-| drought and storm. It grows. It survives.” |
+/ “If we really want to be full and generous \
+| in spirit, we have no choice but to trust  |
+| at some level.”                            |
 |                                            |
-\  -- Deb Caletti                            /
+\  -- Rita Dove                              /
  --------------------------------------------
-   \      {
-    \  }   }   {
-      {   {  }  }
-       }   }{  {
-      {  }{  }  }
-     ( }{ }{  { )
-    .-{   }   }-.
-   ( ( } { } { } )
-   |`-.._____..-'|
-   |             ;--.
-   |   (__)     (__  \
-   |   (oo)      | )  )
-   |    \/       |/  /
-   |             /  /
-   |            (  /
-   \             y'
-    `-.._____..-'
+   \
+    \
+     \
+               ＿＿＿＿＿
+           .:´.: .: . : :. `  、
+     ..: ／.: .: .: . : .: .:   ＼
+    .::／:::       ﾉ   /､         ＼
+   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
+ .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
+ .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
+..:::|.:::ノ::{{:::}       {:::}}{: |＼|
+..:::::::_::|::うﾆソ       う:ソＶ: |
+.::: /.:/ |:|:ヽヽ       ｀      }: |
+.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
+ ..::|.ゝ,ヽ|:   /      /     ／:::八
+ .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
+  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
+   ..::::／⌒: :|:ＶＶ{ヽ:＼
+      .:/.: :|::l::ﾍ}/\|:}:.＼
+    ..::｢.: :|::＞:Ｖ//|〈:.}.}
+  ...::/.:: :|::＼: Ｖ/| / :}:.┐
+ ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
+..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
 ```
 <!-- END_QUOTE -->
 
