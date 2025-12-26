@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“事𢚸吘貝氷人</p>
-      <p class="nom">𠄩𤾓吏據原銀照還”</p>
-      <p class="quocngu">Sự lòng ngỏ với băng nhân:</p>
-      <p class="quocngu">Hai trăm lại cứ nguyên ngân chiếu hoàn.</p>
-      <p class="author"><i>(Dòng 2207-2208) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“䏾艚𣃣𤁕𨤔銀</p>
+      <p class="nom">信兜㐌󰣅󰘇垠噲𠓨”</p>
+      <p class="quocngu">Bóng tàu vừa lạt vẻ ngân.</p>
+      <p class="quocngu">Tin đâu đã kết cửa ngăn gọi vào.</p>
+      <p class="author"><i>(Dòng 525-526) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,35 +26,21 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “If we really want to be full and generous \
-| in spirit, we have no choice but to trust  |
-| at some level.”                            |
+/ “I love new places, new people, new ideas. \
+| I love cultural differences, and I'm       |
+| fascinated by the truth - all the          |
+| different versions of it.”                 |
 |                                            |
-\  -- Rita Dove                              /
+\  -- Martin Henderson                       /
  --------------------------------------------
    \
     \
-     \
-               ＿＿＿＿＿
-           .:´.: .: . : :. `  、
-     ..: ／.: .: .: . : .: .:   ＼
-    .::／:::       ﾉ   /､         ＼
-   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
- .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
- .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
-..:::|.:::ノ::{{:::}       {:::}}{: |＼|
-..:::::::_::|::うﾆソ       う:ソＶ: |
-.::: /.:/ |:|:ヽヽ       ｀      }: |
-.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
- ..::|.ゝ,ヽ|:   /      /     ／:::八
- .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
-  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
-   ..::::／⌒: :|:ＶＶ{ヽ:＼
-      .:/.: :|::l::ﾍ}/\|:}:.＼
-    ..::｢.: :|::＞:Ｖ//|〈:.}.}
-  ...::/.:: :|::＼: Ｖ/| / :}:.┐
- ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
-..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
+         ＿＿＿＿ ＿＿＿＿＿__
+      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
+       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
+         ｀ ＜. _  .ｰ ､                       !三  ＜
+                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
+                                                 ￣￣
 ```
 <!-- END_QUOTE -->
 
