@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“䏾艚𣃣𤁕𨤔銀</p>
-      <p class="nom">信兜㐌󰣅󰘇垠噲𠓨”</p>
-      <p class="quocngu">Bóng tàu vừa lạt vẻ ngân.</p>
-      <p class="quocngu">Tin đâu đã kết cửa ngăn gọi vào.</p>
-      <p class="author"><i>(Dòng 525-526) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘𣃣弼弼職僊</p>
+      <p class="nom">媒𪰛岌岌󰘚𥆾魂𠖤”</p>
+      <p class="quocngu">Nàng vừa bằn bặt giấc tiên,</p>
+      <p class="quocngu">Mụ thì cầm cập mặt nhìn hồn bay.</p>
+      <p class="author"><i>(Dòng 989-990) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I love new places, new people, new ideas. \
-| I love cultural differences, and I'm       |
-| fascinated by the truth - all the          |
-| different versions of it.”                 |
-|                                            |
-\  -- Martin Henderson                       /
- --------------------------------------------
+ __________________________________________
+/ “I caught sight of a small twitch on     \
+| Plumber's face, like he was battling the |
+| urge not to frown.Well Plumber, if you   |
+| didn't want your bitch making noise, you |
+| should have put a muzzle on her.”        |
+|                                          |
+\  -- Violet Cross                         /
+ ------------------------------------------
    \
     \
-         ＿＿＿＿ ＿＿＿＿＿__
-      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
-       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
-         ｀ ＜. _  .ｰ ､                       !三  ＜
-                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
-                                                 ￣￣
+       /~\
+      |oo )
+      _\=/_
+     /     \
+    //|/.\|\\
+   ||  \_/  ||
+   || |\ /| ||
+    \# \_ _/  \#
+      | | |
+      | | |
+      []|[]
+      | | |
+     /_]_[_\
 ```
 <!-- END_QUOTE -->
 
