@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢩣𥢆𥢆仍湥洡</p>
-      <p class="nom">擬身麻吏吟𠿯朱身”</p>
-      <p class="quocngu">Buồng riêng, riêng những sụt sùi,</p>
-      <p class="quocngu">Nghĩ thân mà lại ngậm ngùi cho thân.</p>
-      <p class="author"><i>(Dòng 1189-1190) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“姉油䏦󰞺󰢇𤷱</p>
+      <p class="nom">唅唭𠃩𤂬唉群𦹳徠”</p>
+      <p class="quocngu">Chị dù thịt nát xương mòn,</p>
+      <p class="quocngu">Ngậm cười chín suối hãy còn thơm lây.</p>
+      <p class="author"><i>(Dòng 733-734) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,50 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “I've always been fascinated by Elizabeth  \
-| Taylor, and I had read that her first kiss |
-| happened on a film set, which actually     |
-| made me a little sad. You need to have     |
-| normal experiences of your own.”           |
+/ “The year 2100 will see eugenics           \
+| universally established. In past ages, the |
+| law governing the survival of the fittest  |
+| roughly weeded out the less desirable      |
+| strains. Then man's new sense of pity      |
+| began to interfere with the ruthless       |
+| workings of nature. As a result, we        |
+| continue to keep alive and to breed the    |
+| unfit.”                                    |
 |                                            |
-\  -- Emma Watson                            /
+\  -- Nikola Tesla                           /
  --------------------------------------------
-     \
-      \
-       \
-                                    (
-                       (
-               )                    )             (
-                       )           (o)    )
-               (      (o)    )     ,|,            )
-              (o)     ,|,          |~\    (      (o)
-              ,|,     |~\    (     \ |   (o)     ,|,
-              \~|     \ |   (o)    |`\   ,|,     |~\
-              |`\     |`\@@@,|,@@@@\ |@@@\~|     \ |
-              \ | o@@@\ |@@@\~|@@@@|`\@@@|`\@@@o |`\
-             o|`\@@@@@|`\@@@|`\@@@@\ |@@@\ |@@@@@\ |o
-           o@@\ |@@@@@\ |@@@\ |@@@@@@@@@@|`\@@@@@|`\@@o
-          @@@@|`\@@@@@@@@@@@|`\@@@@@@@@@@\ |@@@@@\ |@@@@
-          p@@@@@@@@@@@@@@@@@\ |@@@@@@@@@@|`\@@@@@@@@@@@q
-          @@o@@@@@@@@@@@@@@@|`\@@@@@@@@@@@@@@@@@@@@@@o@@
-          @:@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o@@::@
-          ::@@::@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@o@@:@@::@
-          ::@@::@@@@::oo@@@@oo@@@@@ooo@@@@@o:::@@@::::::
-          %::::::@::::::@@@@:::@@@:::::@@@@:::::@@:::::%
-          %%::::::::::::@@::::::@:::::::@@::::::::::::%%
-          ::%%%::::::::::@::::::::::::::@::::::::::%%%::
-        .#::%::%%%%%%:::::::::::::::::::::::::%%%%%::%::#.
-      .###::::::%%:::%:%%%%%%%%%%%%%%%%%%%%%:%:::%%:::::###.
-    .#####::::::%:::::%%::::::%%%%:::::%%::::%::::::::::#####.
-   .######`:::::::::::%:::::::%:::::::::%::::%:::::::::\'######.
-   .#########``::::::::::::::::::::::::::::::::::::\'\'#########.
-   `.#############```::::::::::::::::::::::::\'\'\'#############.\'
-    `.######################################################.\'
-      ` .###########,._.,,,. \#######<_\##################. \'
-         ` .#######,;:      `,/____,__`\_____,_________,_____
-            `  .###;;;`.   _,;>-,------,,--------,----------\'
-                `  `,;\' ~~~ ,\'\######_/\'#######  .  \'
-                    \'\'~`\'\'\'\'    -  .\'/;  -    \'       -Catalyst
+        \   ^__^
+         \  (oo)
+            (__)
+           /-||-\
+           \|\/|/
+            o==o 
+            ||||
+            ()()
 ```
 <!-- END_QUOTE -->
 
