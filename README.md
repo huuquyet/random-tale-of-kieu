@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“姉油䏦󰞺󰢇𤷱</p>
-      <p class="nom">唅唭𠃩𤂬唉群𦹳徠”</p>
-      <p class="quocngu">Chị dù thịt nát xương mòn,</p>
-      <p class="quocngu">Ngậm cười chín suối hãy còn thơm lây.</p>
-      <p class="author"><i>(Dòng 733-734) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“拱𥪞󰜋㗂絲桐</p>
+      <p class="nom">𠊚外唭𦵝𠊚𥪞哭󰠐”</p>
+      <p class="quocngu">Cùng trong một tiếng tơ đồng,</p>
+      <p class="quocngu">Người ngoài cười nụ, người trong khóc thầm!</p>
+      <p class="author"><i>(Dòng 1855-1856) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The year 2100 will see eugenics           \
-| universally established. In past ages, the |
-| law governing the survival of the fittest  |
-| roughly weeded out the less desirable      |
-| strains. Then man's new sense of pity      |
-| began to interfere with the ruthless       |
-| workings of nature. As a result, we        |
-| continue to keep alive and to breed the    |
-| unfit.”                                    |
-|                                            |
-\  -- Nikola Tesla                           /
- --------------------------------------------
-        \   ^__^
-         \  (oo)
-            (__)
-           /-||-\
-           \|\/|/
-            o==o 
-            ||||
-            ()()
+ __________________________________________
+/ “You should also appreciate the goodness \
+| around you, and surround yourself with   |
+| positive people.”                        |
+|                                          |
+\  -- Nadia Comaneci                       /
+ ------------------------------------------
+        \               ___
+         \           .-'   `'.
+                    /         \
+                    |         ;
+                    |         |           ___.--,
+           _.._     |0) ~ (0) |    _.---'`__.-( (_.
+    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+        | |  .' _.-' |  |  \  \  '.               `~---`
+         \ \/ .'     \  \   '. '-._)
+          \/ /        \  \    `=.__`~-.
+     jgs  / /\         `) )    / / `"".`\
+    , _.-'.'\ \        / /    ( (     / /
+     `--~`   ) )    .-'.'      '.'.  | (
+            (/`    ( (`          ) )  '-;
+             `      '-;         (-'
 ```
 <!-- END_QUOTE -->
 
