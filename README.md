@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“拱𥪞󰜋㗂絲桐</p>
-      <p class="nom">𠊚外唭𦵝𠊚𥪞哭󰠐”</p>
-      <p class="quocngu">Cùng trong một tiếng tơ đồng,</p>
-      <p class="quocngu">Người ngoài cười nụ, người trong khóc thầm!</p>
-      <p class="author"><i>(Dòng 1855-1856) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“堅貞拯沛肝𣃣</p>
+      <p class="nom">料命世意沛驢世箕”</p>
+      <p class="quocngu">Kiên trinh chẳng phải gan vừa,</p>
+      <p class="quocngu">Liều mình thế ấy, phải lừa thế kia.</p>
+      <p class="author"><i>(Dòng 2893-2894) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “You should also appreciate the goodness \
-| around you, and surround yourself with   |
-| positive people.”                        |
-|                                          |
-\  -- Nadia Comaneci                       /
- ------------------------------------------
-        \               ___
-         \           .-'   `'.
-                    /         \
-                    |         ;
-                    |         |           ___.--,
-           _.._     |0) ~ (0) |    _.---'`__.-( (_.
-    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
-   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
-   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
-  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
-        | |  .' _.-' |  |  \  \  '.               `~---`
-         \ \/ .'     \  \   '. '-._)
-          \/ /        \  \    `=.__`~-.
-     jgs  / /\         `) )    / / `"".`\
-    , _.-'.'\ \        / /    ( (     / /
-     `--~`   ) )    .-'.'      '.'.  | (
-            (/`    ( (`          ) )  '-;
-             `      '-;         (-'
+ ____________________________________________
+/ “When modern sociologists talk of the      \
+| necessity of accommodating one's self to   |
+| the trend of the time, they forget that    |
+| the trend of the time at its best consists |
+| entirely of people who will not            |
+| accommodate themselves to anything. At its |
+| worst it consists of many millions of      |
+| frightened creatures all accommodating     |
+| themselves to a trend that is not there.   |
+| And that is becoming more and more the     |
+| situation...Every man speaks of public     |
+| opinion, and means by public opinion,      |
+| public opinion minus his opinion.”         |
+|                                            |
+\  -- G.K. Chesterton                        /
+ --------------------------------------------
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /o  o  \__  /    //  | \ \    
+           /     /  \/_/    //   |  \  \  
+           @_^_@'/   \/_   //    |   \   \ 
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
 ```
 <!-- END_QUOTE -->
 
