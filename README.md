@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“堅貞拯沛肝𣃣</p>
-      <p class="nom">料命世意沛驢世箕”</p>
-      <p class="quocngu">Kiên trinh chẳng phải gan vừa,</p>
-      <p class="quocngu">Liều mình thế ấy, phải lừa thế kia.</p>
-      <p class="author"><i>(Dòng 2893-2894) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𥪝軍𨷑席賀功</p>
+      <p class="nom">㖔𡁞絲竹會同軍官”</p>
+      <p class="quocngu">Trong quân mở tiệc hạ công,</p>
+      <p class="quocngu">Xôn xao tơ trúc, hội đồng quân quan.</p>
+      <p class="author"><i>(Dòng 2565-2566) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “When modern sociologists talk of the      \
-| necessity of accommodating one's self to   |
-| the trend of the time, they forget that    |
-| the trend of the time at its best consists |
-| entirely of people who will not            |
-| accommodate themselves to anything. At its |
-| worst it consists of many millions of      |
-| frightened creatures all accommodating     |
-| themselves to a trend that is not there.   |
-| And that is becoming more and more the     |
-| situation...Every man speaks of public     |
-| opinion, and means by public opinion,      |
-| public opinion minus his opinion.”         |
-|                                            |
-\  -- G.K. Chesterton                        /
- --------------------------------------------
-      \                    / \  //\
-       \    |\___/|      /   \//  \\
-            /o  o  \__  /    //  | \ \    
-           /     /  \/_/    //   |  \  \  
-           @_^_@'/   \/_   //    |   \   \ 
-           //_^_/     \/_ //     |    \    \
-        ( //) |        \///      |     \     \
-      ( / /) _|_ /   )  //       |      \     _\
-    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
-  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
- (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
- (( /// ))      `.   {            }                   /      \  \
-  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
-             ///.----..>        \             _ -~             `.  ^-`  ^-_
-               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
-                                                                  /.-~
+ ________________________________________
+/ “I used to be a bumper sticker kind of \
+| writer. Now I’m more developed, and my |
+| writing often takes up whole bumpers.” |
+|                                        |
+\  -- Jarod Kintz                        /
+ ----------------------------------------
+         \
+          \
+               ,.-----__
+            ,:::://///,:::-.
+           /:''/////// ``:::`;/|/
+          /'   ||||||     :://'`\
+        .' ,   ||||||     `/(  e \
+  -===~__-'\__X_`````\_____/~`-._ `.
+              ~~        ~~       `~-'
 ```
 <!-- END_QUOTE -->
 
