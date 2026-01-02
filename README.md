@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥪝軍𨷑席賀功</p>
-      <p class="nom">㖔𡁞絲竹會同軍官”</p>
-      <p class="quocngu">Trong quân mở tiệc hạ công,</p>
-      <p class="quocngu">Xôn xao tơ trúc, hội đồng quân quan.</p>
-      <p class="author"><i>(Dòng 2565-2566) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤄯如㗂䳽𠖤戈</p>
+      <p class="nom">濁如㗂𤂬買沙姅潙”</p>
+      <p class="quocngu">Trong như tiếng hạc bay qua,</p>
+      <p class="quocngu">Đục như tiếng suối mới sa nửa vời.</p>
+      <p class="author"><i>(Dòng 481-482) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,21 +26,36 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ________________________________________
-/ “I used to be a bumper sticker kind of \
-| writer. Now I’m more developed, and my |
-| writing often takes up whole bumpers.” |
+/ “Politics is applied anywhere, even in \
+| heaven.”                               |
 |                                        |
-\  -- Jarod Kintz                        /
+\  -- Toba Beta                          /
  ----------------------------------------
-         \
-          \
-               ,.-----__
-            ,:::://///,:::-.
-           /:''/////// ``:::`;/|/
-          /'   ||||||     :://'`\
-        .' ,   ||||||     `/(  e \
-  -===~__-'\__X_`````\_____/~`-._ `.
-              ~~        ~~       `~-'
+ \
+  \
+   \
+            . .: -----  .
+         ／: .: .: .:.: .:＼
+        /    ..  . l.: .: .:ヽ
+       : .: ,/|-/|:ハ.:|-.ｌ.:
+       |: :ノ |/.|/  ヽ|.Vﾊ.:|
+       |.::|  =＝     ＝= }.:| 
+       |.γ|| ''  ＿_   ''{::ﾊ 
+       ﾉノﾊﾘ   ｛   }     ﾉV
+       ∨Vvヽ､._  --'_ .イV
+            γ:/:{.又 }ﾍヽ 
+          ／:〉:V ﾊ.ﾘ〈: ＼ 
+        ／ : Vヽ:V// /:V ::＼ 
+    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
+   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
+    ー'    ./: : : : : ﾊ      ー' 
+          ./::o: : : :o ﾊ 
+          /ヽ: : :Λ: : :ﾉ:、 
+        〈:::￣￣:::￣:::::〉 
+          ＼:__:::::::__:／ 
+            |  Τ￣Τ | 
+            |  |   |  | 
+            |''|   |''| 
 ```
 <!-- END_QUOTE -->
 
