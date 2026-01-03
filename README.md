@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤄯如㗂䳽𠖤戈</p>
-      <p class="nom">濁如㗂𤂬買沙姅潙”</p>
-      <p class="quocngu">Trong như tiếng hạc bay qua,</p>
-      <p class="quocngu">Đục như tiếng suối mới sa nửa vời.</p>
-      <p class="author"><i>(Dòng 481-482) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“負情案㐌𤑟𤉜</p>
+      <p class="nom">洳從儗買劍塘操𨆢”</p>
+      <p class="quocngu">Phụ tình án đã rõ ràng,</p>
+      <p class="quocngu">Dơ tuồng nghỉ mới kiếm đường tháo lui.</p>
+      <p class="author"><i>(Dòng 1187-1188) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Politics is applied anywhere, even in \
-| heaven.”                               |
-|                                        |
-\  -- Toba Beta                          /
- ----------------------------------------
- \
-  \
+ ____________________________________________
+/ “Reading is a breezy journey to enjoy, not \
+| a whirlwind to escape!”                    |
+|                                            |
+\  -- Balroop Singh                          /
+ --------------------------------------------
    \
-            . .: -----  .
-         ／: .: .: .:.: .:＼
-        /    ..  . l.: .: .:ヽ
-       : .: ,/|-/|:ハ.:|-.ｌ.:
-       |: :ノ |/.|/  ヽ|.Vﾊ.:|
-       |.::|  =＝     ＝= }.:| 
-       |.γ|| ''  ＿_   ''{::ﾊ 
-       ﾉノﾊﾘ   ｛   }     ﾉV
-       ∨Vvヽ､._  --'_ .イV
-            γ:/:{.又 }ﾍヽ 
-          ／:〉:V ﾊ.ﾘ〈: ＼ 
-        ／ : Vヽ:V// /:V ::＼ 
-    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
-   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
-    ー'    ./: : : : : ﾊ      ー' 
-          ./::o: : : :o ﾊ 
-          /ヽ: : :Λ: : :ﾉ:、 
-        〈:::￣￣:::￣:::::〉 
-          ＼:__:::::::__:／ 
-            |  Τ￣Τ | 
-            |  |   |  | 
-            |''|   |''| 
+    \
+
+      (\(\/
+  .-._)oo  '_
+  \'---.     .\'\
+       )    \.-\'\
+      /__ ;     (
+      |__ : /'._/
+       \_  (
+       .,)  )
+       \'-.-\'
+
 ```
 <!-- END_QUOTE -->
 
