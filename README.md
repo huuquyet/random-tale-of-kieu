@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“負情案㐌𤑟𤉜</p>
-      <p class="nom">洳從儗買劍塘操𨆢”</p>
-      <p class="quocngu">Phụ tình án đã rõ ràng,</p>
-      <p class="quocngu">Dơ tuồng nghỉ mới kiếm đường tháo lui.</p>
-      <p class="author"><i>(Dòng 1187-1188) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“於低腮壁脉棱</p>
+      <p class="nom">𧡊埃悁屬拱仃𥆾之”</p>
+      <p class="quocngu">Ở đây tai vách mạch dừng.</p>
+      <p class="quocngu">Thấy ai quen thuộc cũng đừng nhìn chi.</p>
+      <p class="author"><i>(Dòng 1755-1756) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Reading is a breezy journey to enjoy, not \
-| a whirlwind to escape!”                    |
-|                                            |
-\  -- Balroop Singh                          /
- --------------------------------------------
-   \
-    \
-
-      (\(\/
-  .-._)oo  '_
-  \'---.     .\'\
-       )    \.-\'\
-      /__ ;     (
-      |__ : /'._/
-       \_  (
-       .,)  )
-       \'-.-\'
-
+ _____________________________________________
+/ “I don't subscribe to any religion so it    \
+| didn't matter to me if I prayed in a        |
+| shrine, temple, or church. Butbe cause I    |
+| was asking for so much I assumed Buddha     |
+| and the Christian God wouldn't even listen” |
+|                                             |
+\  -- Novala Takemoto                         /
+ ---------------------------------------------
+  \
+   \          .
+       ___   //
+     {~o_o~}// 
+      ( Y )K/  
+     ()~*~()   
+     (_)-(_)   
+     Luke    
+     Skywalker
+     koala   
 ```
 <!-- END_QUOTE -->
 
