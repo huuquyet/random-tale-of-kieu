@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“於低腮壁脉棱</p>
-      <p class="nom">𧡊埃悁屬拱仃𥆾之”</p>
-      <p class="quocngu">Ở đây tai vách mạch dừng.</p>
-      <p class="quocngu">Thấy ai quen thuộc cũng đừng nhìn chi.</p>
-      <p class="author"><i>(Dòng 1755-1756) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“味禪㐌𤓩㙁𦯬</p>
+      <p class="nom">牟禪咹默㐌𢛨𣘽𣙩”</p>
+      <p class="quocngu">Mùi thiền đã bén muối dưa,</p>
+      <p class="quocngu">Màu thiền ăn mặc đã ưa nâu sồng.</p>
+      <p class="author"><i>(Dòng 3043-3044) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I don't subscribe to any religion so it    \
-| didn't matter to me if I prayed in a        |
-| shrine, temple, or church. Butbe cause I    |
-| was asking for so much I assumed Buddha     |
-| and the Christian God wouldn't even listen” |
-|                                             |
-\  -- Novala Takemoto                         /
- ---------------------------------------------
-  \
-   \          .
-       ___   //
-     {~o_o~}// 
-      ( Y )K/  
-     ()~*~()   
-     (_)-(_)   
-     Luke    
-     Skywalker
-     koala   
+ ____________________________________________
+/ “People ask me what my greatest strengths  \
+| are and I say perspective. The best way to |
+| get that is to meet people that are polar  |
+| opposites; you learn the most from them.   |
+| There are pieces of you that are           |
+| inherently yours, but everything else is a |
+| collection of the things you’ve seen and   |
+| the people you’ve met.”                    |
+|                                            |
+\  -- Eddie Huang                            /
+ --------------------------------------------
+       \  
+        \
+         \
+          \
+          |\___/|
+         =) oYo (=            
+          \  ^  /
+           )=*=(       
+          /     \
+          |     |
+         /| | | |\
+         \| | |_|/\
+         //_// ___/
+             \_) 
 ```
 <!-- END_QUOTE -->
 
