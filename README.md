@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“味禪㐌𤓩㙁𦯬</p>
-      <p class="nom">牟禪咹默㐌𢛨𣘽𣙩”</p>
-      <p class="quocngu">Mùi thiền đã bén muối dưa,</p>
-      <p class="quocngu">Màu thiền ăn mặc đã ưa nâu sồng.</p>
-      <p class="author"><i>(Dòng 3043-3044) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“乘機竹扯𤌋散</p>
+      <p class="nom">兵威自意𩆐㘓𥪝外”</p>
+      <p class="quocngu">Thừa cơ trúc chẻ khói tan,</p>
+      <p class="quocngu">Binh uy từ ấy sấm ran trong ngoài.</p>
+      <p class="author"><i>(Dòng 2439-2440) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “People ask me what my greatest strengths  \
-| are and I say perspective. The best way to |
-| get that is to meet people that are polar  |
-| opposites; you learn the most from them.   |
-| There are pieces of you that are           |
-| inherently yours, but everything else is a |
-| collection of the things you’ve seen and   |
-| the people you’ve met.”                    |
-|                                            |
-\  -- Eddie Huang                            /
- --------------------------------------------
-       \  
-        \
-         \
-          \
-          |\___/|
-         =) oYo (=            
-          \  ^  /
-           )=*=(       
-          /     \
-          |     |
-         /| | | |\
-         \| | |_|/\
-         //_// ___/
-             \_) 
+ __________________________________________
+/ “The ending of your story all depends on \
+| the beginning of ours.”                  |
+|                                          |
+\  -- Piper Payne                          /
+ ------------------------------------------
+   \
+    \
+         ＿＿＿＿ ＿＿＿＿＿__
+      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
+       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
+         ｀ ＜. _  .ｰ ､                       !三  ＜
+                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
+                                                 ￣￣
 ```
 <!-- END_QUOTE -->
 
