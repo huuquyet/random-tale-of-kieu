@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“乘機竹扯𤌋散</p>
-      <p class="nom">兵威自意𩆐㘓𥪝外”</p>
-      <p class="quocngu">Thừa cơ trúc chẻ khói tan,</p>
-      <p class="quocngu">Binh uy từ ấy sấm ran trong ngoài.</p>
-      <p class="author"><i>(Dòng 2439-2440) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“貝娘親戚𧵆賒</p>
+      <p class="nom">𠊛群牢俸爫魔哭𠊛”</p>
+      <p class="quocngu">Với nàng thân thích gần xa,</p>
+      <p class="quocngu">Người còn sao bỗng làm ma khóc người?"</p>
+      <p class="author"><i>(Dòng 2977-2978) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “The ending of your story all depends on \
-| the beginning of ours.”                  |
-|                                          |
-\  -- Piper Payne                          /
- ------------------------------------------
-   \
-    \
-         ＿＿＿＿ ＿＿＿＿＿__
-      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
-       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
-         ｀ ＜. _  .ｰ ､                       !三  ＜
-                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
-                                                 ￣￣
+ _________________________________________
+/ “There are few things more ungodly than \
+| fake joy when you should be mourning.”  |
+|                                         |
+\  -- Matt Chandler                       /
+ -----------------------------------------
+        \
+         \
+          )__(
+         '|oo|'________/
+          |__|         |
+             ||"""""""||
+             ||       ||
+
 ```
 <!-- END_QUOTE -->
 
