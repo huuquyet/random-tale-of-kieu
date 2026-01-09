@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰈫風塵沛風塵</p>
-      <p class="nom">朱清高買特分清高”</p>
-      <p class="quocngu">Bắt phong trần, phải phong trần,</p>
-      <p class="quocngu">Cho thanh cao mới được phần thanh cao.</p>
-      <p class="author"><i>(Dòng 3243-3244) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡄎歐𠊚意寶尼</p>
+      <p class="nom">拯緣渚易𠓨𢬣埃扲”</p>
+      <p class="quocngu">Ngẫm âu người ấy báu này,</p>
+      <p class="quocngu">Chẳng duyên chưa dễ vào tay ai cầm!"</p>
+      <p class="author"><i>(Dòng 297-298) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,34 +26,22 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “I will give you a definition of a proud  \
-| man: he is a man who has neither vanity   |
-| nor wisdom one filled with hatreds cannot |
-| be vain, neither can he be wise.”         |
+/ “Best of all, she waits outside the       \
+| dressing room while I'm changing.         |
+| Girlfriends don't do this but wives do,   |
+| and if there is any better reason to get  |
+| married than to have someone to hold your |
+| hand in a clothing store, I don't know    |
+| what it is.”                              |
 |                                           |
-\  -- John Keats                            /
+\  -- Charlie Close                         /
  -------------------------------------------
-          \
            \
-            \          __---__
-                    _-       /--______
-               __--( /     \ )XXXXXXXXXXX\v.
-             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
-            /XXX(       U     )        XXXXXXX\
-          /XXXXX(              )--_  XXXXXXXXXXX\
-         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
-         XXXXX/   /            XXXXXX   \__ \XXXXX
-         XXXXXX__/          XXXXXX         \__---->
- ---___  XXX__/          XXXXXX      \__         /
-   \-  --__/   ___/\  XXXXXX            /  ___--/=
-    \-\    ___/    XXXXXX              '--- XXXXXX
-       \-\/XXX\ XXXXXX                      /XXXXX
-         \XXXXXXXXX   \                    /XXXXX/
-          \XXXXXX      >                 _/XXXXX/
-            \XXXXX--__/              __-- XXXX/
-             -XXXXXXXX---------------  XXXXXX-
-                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
-                  ""VXXXXXXXXXXXXXXXXXXV""
+            \
+        "-.. __      __.='>
+         `.     """""   ,'
+           "-..__   _.-"
+   ~ ~~ ~ ~  ~   """  ~~  ~
 ```
 <!-- END_QUOTE -->
 
