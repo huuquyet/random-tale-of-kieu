@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡄎歐𠊚意寶尼</p>
-      <p class="nom">拯緣渚易𠓨𢬣埃扲”</p>
-      <p class="quocngu">Ngẫm âu người ấy báu này,</p>
-      <p class="quocngu">Chẳng duyên chưa dễ vào tay ai cầm!"</p>
-      <p class="author"><i>(Dòng 297-298) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“師浪雙拯兮之</p>
+      <p class="nom">業緣斤吏𢩮𠫾群𡗉”</p>
+      <p class="quocngu">Sư rằng song chẳng hề chi,</p>
+      <p class="quocngu">Nghiệp duyên cân lại nhắc đi còn nhiều!</p>
+      <p class="author"><i>(Dòng 2679-2680) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Best of all, she waits outside the       \
-| dressing room while I'm changing.         |
-| Girlfriends don't do this but wives do,   |
-| and if there is any better reason to get  |
-| married than to have someone to hold your |
-| hand in a clothing store, I don't know    |
-| what it is.”                              |
-|                                           |
-\  -- Charlie Close                         /
- -------------------------------------------
-           \
-            \
-        "-.. __      __.='>
-         `.     """""   ,'
-           "-..__   _.-"
-   ~ ~~ ~ ~  ~   """  ~~  ~
+ _____________________________________________
+/ “A tomb now suffices him for whom the whole \
+| world was not sufficient.”                  |
+|                                             |
+\  -- Alexander the Great                     /
+ ---------------------------------------------
+  \
+   \   \_\_    _/_/
+    \      \__/
+           (oo)\_______
+           (__)\       )\/\
+               ||----- |
+               ||     ||
 ```
 <!-- END_QUOTE -->
 
