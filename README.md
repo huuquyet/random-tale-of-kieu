@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦊚皮叭𠯪溟濛</p>
-      <p class="nom">潮𤼸𣋚𣌋𩄲籠𠓀𡢐”</p>
-      <p class="quocngu">Bốn bề bát ngát mênh mông,</p>
-      <p class="quocngu">Triều dâng hôm sớm, mây lồng trước sau.</p>
-      <p class="author"><i>(Dòng 2735-2736) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“固𣘃固𥒥産床</p>
+      <p class="nom">固軒攬翠󰞺鐄渚派”</p>
+      <p class="quocngu">Có cây, có đá sẵn sàng,</p>
+      <p class="quocngu">Có hiên Lãm Thuý nét vàng chưa phai.</p>
+      <p class="author"><i>(Dòng 279-280) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,18 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “I admire Kings of Leon. I think their     \
-| records are amazing. Just from hanging out |
-| with them, I can say they're good guys.    |
-| It's cool to see that they get to do what  |
-| they love. But I think they clearly have   |
-| an appreciation for where they came from,  |
-| and it has shaped who they are.”           |
+/ “SOMETIMES PEOPLES THAT YOU DONT CONSIDER  \
+| AS FRIENDS AS YOUR FRIENDS ARE REALLY YOUR |
+| FRIEND.”                                   |
 |                                            |
-\  -- Nick Jonas                             /
+\  -- LEILANI                                /
  --------------------------------------------
   \
-     \
-                  _ _
-       | \__/|  .~    ~.
-       /oo `./      .'
-      {o__,   \    {
-        / .  . )    \
-        `-` '-' \    }
-       .(   _(   )_.'
-      '---.~_ _ _|
-                                                     
+   \       ___
+      oo  // \\
+     (_,\/ \_/ \
+       \ \_/_\_/>
+       /_/   \_\
 ```
 <!-- END_QUOTE -->
 
