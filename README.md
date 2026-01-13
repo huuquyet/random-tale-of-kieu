@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“固𣘃固𥒥産床</p>
-      <p class="nom">固軒攬翠󰞺鐄渚派”</p>
-      <p class="quocngu">Có cây, có đá sẵn sàng,</p>
-      <p class="quocngu">Có hiên Lãm Thuý nét vàng chưa phai.</p>
-      <p class="author"><i>(Dòng 279-280) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣃣旬月𤎜𦎛𤄯</p>
+      <p class="nom">秀󰜏𨄾吏從容吲𠻀”</p>
+      <p class="quocngu">Vừa tuần nguyệt rạng gương trong,</p>
+      <p class="quocngu">Tú bà ghé lại thong dong dặn dò:</p>
+      <p class="author"><i>(Dòng 1199-1200) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “SOMETIMES PEOPLES THAT YOU DONT CONSIDER  \
-| AS FRIENDS AS YOUR FRIENDS ARE REALLY YOUR |
-| FRIEND.”                                   |
-|                                            |
-\  -- LEILANI                                /
- --------------------------------------------
-  \
-   \       ___
-      oo  // \\
-     (_,\/ \_/ \
-       \ \_/_\_/>
-       /_/   \_\
+ __________________________________________
+/ “Cloud root beer floats and moon grilled \
+| cheeses. But their favorite food is      |
+| stardust.”                               |
+|                                          |
+\  -- Michelle Cuevas                      /
+ ------------------------------------------
+   \                     .___________.
+    \                    |           |
+     \    ___________.   |  |    /~\ |
+         / __   __  /|   | _ _   |_| |
+        / /:/  /:/ / |   !________|__!
+       / /:/  /:/ /  |            |
+      / /:/  /:/ /   |____________!
+     / /:/  /:/ /    |
+    / /:/  /:/ /     |
+   /  ~~   ~~ /      |
+   |~~~~~~~~~~|      |
+   |    ::    |     /
+   |    ==    |    /
+   |    ::    |   /
+   |    ::    |  /
+   |    ::  @ | /
+   !__________!/
 ```
 <!-- END_QUOTE -->
 
