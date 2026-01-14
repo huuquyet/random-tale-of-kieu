@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣃣旬月𤎜𦎛𤄯</p>
-      <p class="nom">秀󰜏𨄾吏從容吲𠻀”</p>
-      <p class="quocngu">Vừa tuần nguyệt rạng gương trong,</p>
-      <p class="quocngu">Tú bà ghé lại thong dong dặn dò:</p>
-      <p class="author"><i>(Dòng 1199-1200) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“風雷浽陣󰢗󰢗</p>
+      <p class="nom">󰠱𢚸𠲖唈併排分𢺺”</p>
+      <p class="quocngu">Phong lôi nổi trận bời bời,</p>
+      <p class="quocngu">Nặng lòng e ấp, tính bài phân chia.</p>
+      <p class="author"><i>(Dòng 1389-1390) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Cloud root beer floats and moon grilled \
-| cheeses. But their favorite food is      |
-| stardust.”                               |
-|                                          |
-\  -- Michelle Cuevas                      /
- ------------------------------------------
-   \                     .___________.
-    \                    |           |
-     \    ___________.   |  |    /~\ |
-         / __   __  /|   | _ _   |_| |
-        / /:/  /:/ / |   !________|__!
-       / /:/  /:/ /  |            |
-      / /:/  /:/ /   |____________!
-     / /:/  /:/ /    |
-    / /:/  /:/ /     |
-   /  ~~   ~~ /      |
-   |~~~~~~~~~~|      |
-   |    ::    |     /
-   |    ==    |    /
-   |    ::    |   /
-   |    ::    |  /
-   |    ::  @ | /
-   !__________!/
+ _______________________________________
+/ “Who is so fancy, esoterica saves the \
+| day?Who is the Yogi, Namaste?”        |
+|                                       |
+\  -- Kristen Henderson                 /
+ ---------------------------------------
+ \
+  \
+   \
+            . .: -----  .
+         ／: .: .: .:.: .:＼
+        /    ..  . l.: .: .:ヽ
+       : .: ,/|-/|:ハ.:|-.ｌ.:
+       |: :ノ |/.|/  ヽ|.Vﾊ.:|
+       |.::|  =＝     ＝= }.:| 
+       |.γ|| ''  ＿_   ''{::ﾊ 
+       ﾉノﾊﾘ   ｛   }     ﾉV
+       ∨Vvヽ､._  --'_ .イV
+            γ:/:{.又 }ﾍヽ 
+          ／:〉:V ﾊ.ﾘ〈: ＼ 
+        ／ : Vヽ:V// /:V ::＼ 
+    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
+   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
+    ー'    ./: : : : : ﾊ      ー' 
+          ./::o: : : :o ﾊ 
+          /ヽ: : :Λ: : :ﾉ:、 
+        〈:::￣￣:::￣:::::〉 
+          ＼:__:::::::__:／ 
+            |  Τ￣Τ | 
+            |  |   |  | 
+            |''|   |''| 
 ```
 <!-- END_QUOTE -->
 
