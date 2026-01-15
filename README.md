@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“風雷浽陣󰢗󰢗</p>
-      <p class="nom">󰠱𢚸𠲖唈併排分𢺺”</p>
-      <p class="quocngu">Phong lôi nổi trận bời bời,</p>
-      <p class="quocngu">Nặng lòng e ấp, tính bài phân chia.</p>
-      <p class="author"><i>(Dòng 1389-1390) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠁀𠊚典世羅催</p>
+      <p class="nom">𥪝機陰極陽回坤𫨩”</p>
+      <p class="quocngu">Đời người đến thế là thôi!</p>
+      <p class="quocngu">Trong cơn âm cực dương hồi khôn hay.</p>
+      <p class="author"><i>(Dòng 2645-2646) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “Who is so fancy, esoterica saves the \
-| day?Who is the Yogi, Namaste?”        |
-|                                       |
-\  -- Kristen Henderson                 /
- ---------------------------------------
- \
+ _____________________________________________
+/ “A sure way to lose happiness I found is to \
+| want it at the expense of everything else.” |
+|                                             |
+\  -- Bette Davis                             /
+ ---------------------------------------------
   \
-   \
-            . .: -----  .
-         ／: .: .: .:.: .:＼
-        /    ..  . l.: .: .:ヽ
-       : .: ,/|-/|:ハ.:|-.ｌ.:
-       |: :ノ |/.|/  ヽ|.Vﾊ.:|
-       |.::|  =＝     ＝= }.:| 
-       |.γ|| ''  ＿_   ''{::ﾊ 
-       ﾉノﾊﾘ   ｛   }     ﾉV
-       ∨Vvヽ､._  --'_ .イV
-            γ:/:{.又 }ﾍヽ 
-          ／:〉:V ﾊ.ﾘ〈: ＼ 
-        ／ : Vヽ:V// /:V ::＼ 
-    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
-   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
-    ー'    ./: : : : : ﾊ      ー' 
-          ./::o: : : :o ﾊ 
-          /ヽ: : :Λ: : :ﾉ:、 
-        〈:::￣￣:::￣:::::〉 
-          ＼:__:::::::__:／ 
-            |  Τ￣Τ | 
-            |  |   |  | 
-            |''|   |''| 
+   \   \
+        \ /\
+        ( )
+      .( o ).
 ```
 <!-- END_QUOTE -->
 
