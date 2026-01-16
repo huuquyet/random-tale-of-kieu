@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠁀𠊚典世羅催</p>
-      <p class="nom">𥪝機陰極陽回坤𫨩”</p>
-      <p class="quocngu">Đời người đến thế là thôi!</p>
-      <p class="quocngu">Trong cơn âm cực dương hồi khôn hay.</p>
-      <p class="author"><i>(Dòng 2645-2646) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢝙羅𢝙強矯羅</p>
+      <p class="nom">埃知音妬󰚷𢠩貝埃”</p>
+      <p class="quocngu">Vui là vui gượng kẻo là,</p>
+      <p class="quocngu">Ai tri âm đó mặn mà với ai?</p>
+      <p class="author"><i>(Dòng 1247-1248) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,16 +26,37 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “A sure way to lose happiness I found is to \
-| want it at the expense of everything else.” |
+/ “No further evidence is needed to show that \
+| 'mental illness' is not the name of a       |
+| biological condition whose nature awaits    |
+| to be elucidated, but is the name of a      |
+| concept whose purpose is to obscure the     |
+| obvious.”                                   |
 |                                             |
-\  -- Bette Davis                             /
+\  -- Thomas Szasz                            /
  ---------------------------------------------
-  \
-   \   \
-        \ /\
-        ( )
-      .( o ).
+     \
+      \
+                          .,---.
+                        ,/XM#MMMX;,
+                      -%##########M%,
+                     -@######%  $###@=
+      .,--,         -H#######$   $###M:
+   ,;$M###MMX;     .;##########$;HM###X=
+ ,/@##########H=      ;################+
+-+#############M/,      %##############+
+%M###############=      /##############:
+H################      .M#############;.
+@###############M      ,@###########M:.
+X################,      -$=X#######@:
+/@##################%-     +######$-
+.;##################X     .X#####+,
+ .;H################/     -X####+.
+   ,;X##############,       .MM/
+      ,:+$H@M#######M#$-    .$=
+           .,-=;+$@###X:    ;/=.
+                  .,/X$;   .::,
+                      .,    ..
 ```
 <!-- END_QUOTE -->
 
