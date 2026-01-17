@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢝙羅𢝙強矯羅</p>
-      <p class="nom">埃知音妬󰚷𢠩貝埃”</p>
-      <p class="quocngu">Vui là vui gượng kẻo là,</p>
-      <p class="quocngu">Ai tri âm đó mặn mà với ai?</p>
-      <p class="author"><i>(Dòng 1247-1248) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“蕙香𠶗𠽋󰜋茹</p>
+      <p class="nom">曾󰣙䔲吏󰚷麻欣𠸗”</p>
+      <p class="quocngu">Huệ hương sực nức một nhà,</p>
+      <p class="quocngu">Từng cay đắng, lại mặn mà hơn xưa.</p>
+      <p class="author"><i>(Dòng 1471-1472) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “No further evidence is needed to show that \
-| 'mental illness' is not the name of a       |
-| biological condition whose nature awaits    |
-| to be elucidated, but is the name of a      |
-| concept whose purpose is to obscure the     |
-| obvious.”                                   |
-|                                             |
-\  -- Thomas Szasz                            /
- ---------------------------------------------
-     \
-      \
-                          .,---.
-                        ,/XM#MMMX;,
-                      -%##########M%,
-                     -@######%  $###@=
-      .,--,         -H#######$   $###M:
-   ,;$M###MMX;     .;##########$;HM###X=
- ,/@##########H=      ;################+
--+#############M/,      %##############+
-%M###############=      /##############:
-H################      .M#############;.
-@###############M      ,@###########M:.
-X################,      -$=X#######@:
-/@##################%-     +######$-
-.;##################X     .X#####+,
- .;H################/     -X####+.
-   ,;X##############,       .MM/
-      ,:+$H@M#######M#$-    .$=
-           .,-=;+$@###X:    ;/=.
-                  .,/X$;   .::,
-                      .,    ..
+ ______________________________________
+/ “Dreams are the poetry of life to be \
+| written with love and actions.”      |
+|                                      |
+\  -- Debasish Mridha                  /
+ --------------------------------------
+  \
+   \
+    \
+    
+           ____
+       ,: .: .: :.ヽ
+     ,'       /\   ｉ
+     {: .:ﾉﾚﾍ/  Viﾍ:}
+    .{,､〈 Ｏ   Ｏ{.:.
+    ノヽ\!"       }.:ﾊ
+      Ｗﾊw=-､へ,ｬ<,V'      
+         /ﾍ }{./\
+        ;: i:V:!;}
+        |:｜: :｜}
+        |:|:｡: ｡l}
+        >-'-ﾟ-'`ﾟu
+        ｰi-i～i-i~
+         |.|  |.|
+         |-|  |-|
+         ヒｺ  ヒｺ 
 ```
 <!-- END_QUOTE -->
 
