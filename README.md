@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“蕙香𠶗𠽋󰜋茹</p>
-      <p class="nom">曾󰣙䔲吏󰚷麻欣𠸗”</p>
-      <p class="quocngu">Huệ hương sực nức một nhà,</p>
-      <p class="quocngu">Từng cay đắng, lại mặn mà hơn xưa.</p>
-      <p class="author"><i>(Dòng 1471-1472) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“拱停併窘算觥</p>
+      <p class="nom">散茹羅󰜋舌命羅𠄩”</p>
+      <p class="quocngu">Cũng đừng tính quẩn toan quanh,</p>
+      <p class="quocngu">Tan nhà là một, thiệt mình là hai."</p>
+      <p class="author"><i>(Dòng 681-682) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________
-/ “Dreams are the poetry of life to be \
-| written with love and actions.”      |
-|                                      |
-\  -- Debasish Mridha                  /
- --------------------------------------
-  \
-   \
-    \
-    
-           ____
-       ,: .: .: :.ヽ
-     ,'       /\   ｉ
-     {: .:ﾉﾚﾍ/  Viﾍ:}
-    .{,､〈 Ｏ   Ｏ{.:.
-    ノヽ\!"       }.:ﾊ
-      Ｗﾊw=-､へ,ｬ<,V'      
-         /ﾍ }{./\
-        ;: i:V:!;}
-        |:｜: :｜}
-        |:|:｡: ｡l}
-        >-'-ﾟ-'`ﾟu
-        ｰi-i～i-i~
-         |.|  |.|
-         |-|  |-|
-         ヒｺ  ヒｺ 
+ _____________________________________________
+/ “Wouldn't it be amazing if you could travel \
+| into the future, see where you messed up,   |
+| and then go back in time to rearrange       |
+| things in order to make your future         |
+| better? You can. If you can foresee         |
+| regret, you can mind-travel to the future.  |
+| If you can train yourself to mind-travel    |
+| effectively, you can intentionally affect   |
+| your future by doing something about it     |
+| today.”                                     |
+|                                             |
+\  -- Richie Norton                           /
+ ---------------------------------------------
+       \    ____
+        \  /    \
+          | ^__^ |
+          | (oo) |______
+          | (__) |      )\/\
+           \____/|----w |
+                ||     ||
+
+	         Moofasa
 ```
 <!-- END_QUOTE -->
 
