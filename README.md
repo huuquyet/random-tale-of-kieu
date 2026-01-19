@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“拱停併窘算觥</p>
-      <p class="nom">散茹羅󰜋舌命羅𠄩”</p>
-      <p class="quocngu">Cũng đừng tính quẩn toan quanh,</p>
-      <p class="quocngu">Tan nhà là một, thiệt mình là hai."</p>
-      <p class="author"><i>(Dòng 681-682) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“翠雲秩醒職春</p>
+      <p class="nom">󰡎畑𨄾典殷勤𠳨𠻃”</p>
+      <p class="quocngu">Thuý Vân chợt tỉnh giấc xuân,</p>
+      <p class="quocngu">Dưới đèn ghé đến ân cần hỏi han.</p>
+      <p class="author"><i>(Dòng 713-714) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Wouldn't it be amazing if you could travel \
-| into the future, see where you messed up,   |
-| and then go back in time to rearrange       |
-| things in order to make your future         |
-| better? You can. If you can foresee         |
-| regret, you can mind-travel to the future.  |
-| If you can train yourself to mind-travel    |
-| effectively, you can intentionally affect   |
-| your future by doing something about it     |
-| today.”                                     |
-|                                             |
-\  -- Richie Norton                           /
- ---------------------------------------------
-       \    ____
-        \  /    \
-          | ^__^ |
-          | (oo) |______
-          | (__) |      )\/\
-           \____/|----w |
-                ||     ||
+ __________________________________________
+/ “Like success, failure is many things to \
+| many people. With Positive Mental        |
+| Attitude, failure is a learning          |
+| experience, a rung on the ladder, a      |
+| plateau at which to get your thoughts in |
+| order and prepare to try again.”         |
+|                                          |
+\  -- W. Clement Stone                     /
+ ------------------------------------------
+     \
+      \
+              =+$HM####@H%;,
+           /H###############M$,
+           ,@################+
+            .H##############+
+              X############/
+               $##########/
+                %########/
+                 /X/;;+X/
+ 
+                  -XHHX-
+                 ,######,
+ \#############X  .M####M.  X#############
+ \##############-   -//-   -##############
+ X##############%,      ,+##############X
+ -##############X        X##############-
+  %############%          %############%
+   %##########;            ;##########%
+    ;#######M=              =M#######;
+     .+M###@,                ,@###M+.
+        :XH.                  .HX:
 
-	         Moofasa
 ```
 <!-- END_QUOTE -->
 
