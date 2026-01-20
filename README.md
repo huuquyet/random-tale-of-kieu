@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“翠雲秩醒職春</p>
-      <p class="nom">󰡎畑𨄾典殷勤𠳨𠻃”</p>
-      <p class="quocngu">Thuý Vân chợt tỉnh giấc xuân,</p>
-      <p class="quocngu">Dưới đèn ghé đến ân cần hỏi han.</p>
-      <p class="author"><i>(Dòng 713-714) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“傷娘𨤵客賒駸</p>
+      <p class="nom">泊抛橋這顛霪岸𩄲”</p>
+      <p class="quocngu">Thương nàng dặm khách xa xăm,</p>
+      <p class="quocngu">Bạc phau cầu giá, đen rầm ngàn mây.</p>
+      <p class="author"><i>(Dòng 911-912) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Like success, failure is many things to \
-| many people. With Positive Mental        |
-| Attitude, failure is a learning          |
-| experience, a rung on the ladder, a      |
-| plateau at which to get your thoughts in |
-| order and prepare to try again.”         |
-|                                          |
-\  -- W. Clement Stone                     /
- ------------------------------------------
-     \
-      \
-              =+$HM####@H%;,
-           /H###############M$,
-           ,@################+
-            .H##############+
-              X############/
-               $##########/
-                %########/
-                 /X/;;+X/
- 
-                  -XHHX-
-                 ,######,
- \#############X  .M####M.  X#############
- \##############-   -//-   -##############
- X##############%,      ,+##############X
- -##############X        X##############-
-  %############%          %############%
-   %##########;            ;##########%
-    ;#######M=              =M#######;
-     .+M###@,                ,@###M+.
-        :XH.                  .HX:
+ ________________________________________
+/ “Loving him made me never want to love \
+| another human being.”                  |
+|                                        |
+\  -- Dominic Riccitello                 /
+ ----------------------------------------
+#
+# International Business Machines
+#
+
+$the_cow = << EOC;
+  \
+   \
+
+■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
+■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
+ ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
+ ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
+ ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
+ ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
+■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
+■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
+EOC
 
 ```
 <!-- END_QUOTE -->
