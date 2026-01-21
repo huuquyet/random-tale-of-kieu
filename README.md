@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“傷娘𨤵客賒駸</p>
-      <p class="nom">泊抛橋這顛霪岸𩄲”</p>
-      <p class="quocngu">Thương nàng dặm khách xa xăm,</p>
-      <p class="quocngu">Bạc phau cầu giá, đen rầm ngàn mây.</p>
-      <p class="author"><i>(Dòng 911-912) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情𥢆払吏呐𡃕</p>
+      <p class="nom">󰜋茹埃共邏𨓡𠸦嘮”</p>
+      <p class="quocngu">Tình riêng, chàng lại nói cùng,</p>
+      <p class="quocngu">Một nhà ai cũng lạ lùng khen lao.</p>
+      <p class="author"><i>(Dòng 3217-3218) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Loving him made me never want to love \
-| another human being.”                  |
-|                                        |
-\  -- Dominic Riccitello                 /
- ----------------------------------------
-#
-# International Business Machines
-#
-
-$the_cow = << EOC;
-  \
-   \
-
-■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
-■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
- ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
- ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
- ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
- ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
-■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
-■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
-EOC
-
+ __________________________________________
+/ “There are things which couldn't be      \
+| expressed by the words,when you've       |
+| mastered certain lesson for more than 30 |
+| years.”                                  |
+|                                          |
+\  -- Toba Beta                            /
+ ------------------------------------------
+    \
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,              -%HX$%%%+;
+ =-./@M@M$                  .;@MMMM@MM:
+ X@/ -$MM/                    .+MM@@@M$
+,@M@H: :@:                    . =X#@@@@-
+,@@@MMX, .                    /H- ;@M@M=
+.H@@@@M@+,                    %MM+..%#$.
+ /MMMM@MMH/.                  XM@MH; =;
+  /%+%$XHH@$=              , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
