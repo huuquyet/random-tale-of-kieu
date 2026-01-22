@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情𥢆払吏呐𡃕</p>
-      <p class="nom">󰜋茹埃共邏𨓡𠸦嘮”</p>
-      <p class="quocngu">Tình riêng, chàng lại nói cùng,</p>
-      <p class="quocngu">Một nhà ai cũng lạ lùng khen lao.</p>
-      <p class="author"><i>(Dòng 3217-3218) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“催停逴𢷣鳩𪬡</p>
+      <p class="nom">爫之呂𣜿朱彈昂宮”</p>
+      <p class="quocngu">Thôi đừng rước dữ, cưu hờn,</p>
+      <p class="quocngu">Làm chi lỡ nhịp cho đờn ngang cung.</p>
+      <p class="author"><i>(Dòng 1459-1460) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “There are things which couldn't be      \
-| expressed by the words,when you've       |
-| mastered certain lesson for more than 30 |
-| years.”                                  |
-|                                          |
-\  -- Toba Beta                            /
- ------------------------------------------
-    \
+ _____________________________________________
+/ “I’ve only been to jail a few times, but in \
+| several different countries, at that. No,   |
+| I've only been to jail a few times. But I   |
+| still claim the ability to write a          |
+| "serious" novel.”                           |
+|                                             |
+\  -- Roman Payne                             /
+ ---------------------------------------------
      \
-              .,-:;//;:=,
-          . :H@@@MM@M#H/.,+%;,
-       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
-  =@#@@@MX .,              -%HX$%%%+;
- =-./@M@M$                  .;@MMMM@MM:
- X@/ -$MM/                    .+MM@@@M$
-,@M@H: :@:                    . =X#@@@@-
-,@@@MMX, .                    /H- ;@M@M=
-.H@@@@M@+,                    %MM+..%#$.
- /MMMM@MMH/.                  XM@MH; =;
-  /%+%$XHH@$=              , .H@@@@MX,
-   .=--------.           -%H.,@@@@@MX,
-   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
-     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
-       =%@M@M#@$-.=$@MM@@@M; %M%=
-         ,:+$+-,/H#MMMMMMM@= =,
-               =++%%%%+/:-.
+      \
+       \
+             , -――- 、
+          ／          ヽ、
+        /爻ﾉﾘﾉﾊﾉﾘlﾉ ゝ  l
+     ＜ﾉﾘﾉ‐'    ｰ  ﾘ ＞ }
+        l ﾉ ┃    ┃ l ﾉ  ﾉ
+        l人   r‐┐   !ﾉ＾)
+           ゝ ` ´ ‐＜´
 ```
 <!-- END_QUOTE -->
 
