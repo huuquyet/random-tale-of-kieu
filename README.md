@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“催停逴𢷣鳩𪬡</p>
-      <p class="nom">爫之呂𣜿朱彈昂宮”</p>
-      <p class="quocngu">Thôi đừng rước dữ, cưu hờn,</p>
-      <p class="quocngu">Làm chi lỡ nhịp cho đờn ngang cung.</p>
-      <p class="author"><i>(Dòng 1459-1460) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㨋渡蓮𠓀廳堂</p>
+      <p class="nom">犬鷹𠄩𠀲納娘𤼸功”</p>
+      <p class="quocngu">Giã đò, lên trước sảnh đường,</p>
+      <p class="quocngu">Khuyển Ưng hai đứa nộp nàng dâng công.</p>
+      <p class="author"><i>(Dòng 1711-1712) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I’ve only been to jail a few times, but in \
-| several different countries, at that. No,   |
-| I've only been to jail a few times. But I   |
-| still claim the ability to write a          |
-| "serious" novel.”                           |
-|                                             |
-\  -- Roman Payne                             /
- ---------------------------------------------
-     \
-      \
-       \
-             , -――- 、
-          ／          ヽ、
-        /爻ﾉﾘﾉﾊﾉﾘlﾉ ゝ  l
-     ＜ﾉﾘﾉ‐'    ｰ  ﾘ ＞ }
-        l ﾉ ┃    ┃ l ﾉ  ﾉ
-        l人   r‐┐   !ﾉ＾)
-           ゝ ` ´ ‐＜´
+ ____________________________________________
+/ “I'd never had a mind for math. ... It was \
+| a logic that made little sense to me. In   |
+| my perception, the world wasn't a graph or |
+| a formula or an equation. It was a story.” |
+|                                            |
+\  -- Cheryl Strayed                         /
+ --------------------------------------------
+   \
+    \
+                      ,:二二二二:. .,
+                   ／.／＿＿＿_  ＼.:＼
+                  /. /／.: .: .:＼  : .:＼
+                 /.: .: .:/｜:/\ .:＼}.: .:.
+                .: |.:/一/ |:/ 一.:}: .: .:｜
+                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
+                |.: ｜= ＝    ＝＝= \/}: .:|
+                |:: ﾘ''           '' /:/､.:|
+               ノ:|:人    一一 ､    /:/ ﾉ.:|
+                , ┴＜＼  {     ｝ ,{:/イ::八
+               /_..   ＼` ー┬一r＜:八八／
+               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
+              /___ |  >､    ｀''＼   ｜
+             /ﾆ}::\/／  ＼       ｜  ｜
+          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
+           /__   V    ｝|  》=《      |
+           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
+             ￣        ｢   ゞ= '      }
+                      ﾉ               〉 
 ```
 <!-- END_QUOTE -->
 
