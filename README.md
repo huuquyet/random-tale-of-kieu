@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“生浪孝服𣃣衝</p>
-      <p class="nom">推𢚸陟𡵆𤴬𢚸終天”</p>
-      <p class="quocngu">Sinh rằng: "Hiếu phục vừa xong,</p>
-      <p class="quocngu">Suy lòng trắc khởi đau lòng chung thiên.</p>
-      <p class="author"><i>(Dòng 1831-1832) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰙐𤞻頷燕𪵟𧍋</p>
+      <p class="nom">𦠘𠄼𡬷𢌌身𨑮𡱩高”</p>
+      <p class="quocngu">Râu hầm, hàm én, mày ngài,</p>
+      <p class="quocngu">Vai năm tấc rộng, thân mười thước cao.</p>
+      <p class="author"><i>(Dòng 2167-2168) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I also told you when I made you my bride \
-| that I would not count the days if you    |
-| would promise me the same. I don't intend |
-| to start now, love. You're my wife,       |
-| yesterday, today, and forever. - Aiden    |
-| MacRae”                                   |
-|                                           |
-\  -- Cyndi Tefft                           /
- -------------------------------------------
+ _____________________________________________
+/ “Whatever your heart clings to and confides \
+| in, that is really your God.”               |
+|                                             |
+\  -- Martin Luther                           /
+ ---------------------------------------------
+#
+# International Business Machines
+#
+
+$the_cow = << EOC;
   \
-   \                                 
-      /  \~~~/  \         
-     (    ..     )----,      
-      \__     __/      \     
-        )|  /)         |\    
-         | /\  /___\   / ^   
-          "-|__|   |__|      
+   \
+
+■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
+■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
+ ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
+ ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
+ ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
+ ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
+■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
+■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
+EOC
+
 ```
 <!-- END_QUOTE -->
 
