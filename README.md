@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰙐𤞻頷燕𪵟𧍋</p>
-      <p class="nom">𦠘𠄼𡬷𢌌身𨑮𡱩高”</p>
-      <p class="quocngu">Râu hầm, hàm én, mày ngài,</p>
-      <p class="quocngu">Vai năm tấc rộng, thân mười thước cao.</p>
-      <p class="author"><i>(Dòng 2167-2168) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“群之羅丐紅顔</p>
+      <p class="nom">㐌衝身世群算餒󰅹”</p>
+      <p class="quocngu">Còn chi là cái hồng nhan,</p>
+      <p class="quocngu">Đã xong thân thế, còn toan nỗi nào?</p>
+      <p class="author"><i>(Dòng 3101-3102) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,14 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Whatever your heart clings to and confides \
-| in, that is really your God.”               |
-|                                             |
-\  -- Martin Luther                           /
- ---------------------------------------------
-#
-# International Business Machines
-#
-
-$the_cow = << EOC;
+ ___________________________________________
+/ “Action is what will produce your desired \
+| results.”                                 |
+|                                           |
+\  -- Rosette Mugidde Wamambe               /
+ -------------------------------------------
   \
-   \
-
-■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
-■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
- ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
- ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
- ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
- ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
-■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
-■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
-EOC
-
+¯\_(ツ)_/¯
 ```
 <!-- END_QUOTE -->
 
