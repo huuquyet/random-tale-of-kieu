@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“群之羅丐紅顔</p>
-      <p class="nom">㐌衝身世群算餒󰅹”</p>
-      <p class="quocngu">Còn chi là cái hồng nhan,</p>
-      <p class="quocngu">Đã xong thân thế, còn toan nỗi nào?</p>
-      <p class="author"><i>(Dòng 3101-3102) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠸗󰅒𥪝道彈妑</p>
+      <p class="nom">𡦂貞箕拱固𠀧𠤩󰟯”</p>
+      <p class="quocngu">Xưa nay trong đạo đàn bà,</p>
+      <p class="quocngu">Chữ Trinh kia cũng có ba bảy đường.</p>
+      <p class="author"><i>(Dòng 3115-3116) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,14 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Action is what will produce your desired \
-| results.”                                 |
-|                                           |
-\  -- Rosette Mugidde Wamambe               /
- -------------------------------------------
-  \
-¯\_(ツ)_/¯
+ _____________________________________________
+/ “Do you ever make silly mistakes? It is one \
+| of my very few creative activities.”        |
+|                                             |
+\  -- Len Deighton                            /
+ ---------------------------------------------
+    \
+     \
+                  \#[/[#:xxxxxx:#[/[\x
+             [/\ &3N            W3& \/[x
+          [[x@W                      W@x[[\
+        /#&N                             N_#
+      /#@                                  @#/x
+    [/ NH_  ^@W               Nd_  ^@p      N /#
+   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
+  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
+ [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
+ /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
+[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
+//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
+/[                                                //
+//N   p333333333333333333333333333333333p        W//
+[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
+ /:     \#                              [x       :/
+ [/@    d/x                             \#:      &/#
+  [[H    ^[x                            [      H[[
+   [[d    _[x            &Hppp3d_      \#\N    @[[
+    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
+      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
+       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
+          [[x&W  p& xx ^^^^ x:x @W   W&x/[
+             [/# &HW   WWWWN    WH& \#/[
+                 [/[#\xxxxxx\#[/[\x^@
 ```
 <!-- END_QUOTE -->
 
