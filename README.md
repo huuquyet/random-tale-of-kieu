@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠸗󰅒𥪝道彈妑</p>
-      <p class="nom">𡦂貞箕拱固𠀧𠤩󰟯”</p>
-      <p class="quocngu">Xưa nay trong đạo đàn bà,</p>
-      <p class="quocngu">Chữ Trinh kia cũng có ba bảy đường.</p>
-      <p class="author"><i>(Dòng 3115-3116) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“府堂𦖑𥊣𠓨𦖻</p>
+      <p class="nom">動𢚸吏𣴓典𠳒𥢆西”</p>
+      <p class="quocngu">Phủ đường nghe thoảng vào tai,</p>
+      <p class="quocngu">Động lòng lại gạn đến lời riêng tây.</p>
+      <p class="author"><i>(Dòng 1437-1438) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,42 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Do you ever make silly mistakes? It is one \
-| of my very few creative activities.”        |
-|                                             |
-\  -- Len Deighton                            /
- ---------------------------------------------
-    \
+ ____________________________________________
+/ “And once more given to inaction,Empty in  \
+| spirit and alone,He settled down – to the  |
+| distractionOf making other minds his       |
+| own;Collecting books, he stacked a         |
+| shelfful,Read, read, not even one was      |
+| helpful:Here, there was dullness, there    |
+| pretence;This one lacked conscience, that  |
+| one sense;All were by different shackles   |
+| fettered;And, past times having lost their |
+| hold,The new still raved about the         |
+| old.Like women, books he now deserted,And  |
+| mourning taffeta he drewAcross the         |
+| bookshelf’s dusty crew.”                   |
+|                                            |
+\  -- Alexander Pushkin                      /
+ --------------------------------------------
      \
-                  \#[/[#:xxxxxx:#[/[\x
-             [/\ &3N            W3& \/[x
-          [[x@W                      W@x[[\
-        /#&N                             N_#
-      /#@                                  @#/x
-    [/ NH_  ^@W               Nd_  ^@p      N /#
-   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
-  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
- [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
- /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
-[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
-//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
-/[                                                //
-//N   p333333333333333333333333333333333p        W//
-[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
- /:     \#                              [x       :/
- [/@    d/x                             \#:      &/#
-  [[H    ^[x                            [      H[[
-   [[d    _[x            &Hppp3d_      \#\N    @[[
-    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
-      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
-       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
-          [[x&W  p& xx ^^^^ x:x @W   W&x/[
-             [/# &HW   WWWWN    WH& \#/[
-                 [/[#\xxxxxx\#[/[\x^@
+      \
+         __________________
+        /\  ______________ \
+       /::\ \ZZZZZZZZZZZZ/\ \
+      /:/\.\ \        /:/\:\ \
+     /:/Z/\:\ \      /:/Z/\:\ \
+    /:/Z/__\:\ \____/:/Z/  \:\ \
+   /:/Z/____\:\ \___\/Z/    \:\ \
+   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
+    \:\ \     \:\ \ \:\ \     \:\ \
+     \:\ \     \:\ \_\;\_\_____\;\ \
+      \:\ \     \:\_________________\
+       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
+        \:\ \  /:/Z/    \:\ \  /:/Z/
+         \:\ \/:/Z/      \:\ \/:/Z/
+          \:\/:/Z/________\;\/:/Z/
+           \::/Z/_______itz__\/Z/
+            \/ZZZZZZZZZZZZZZZZZ/
 ```
 <!-- END_QUOTE -->
 
