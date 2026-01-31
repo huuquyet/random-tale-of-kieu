@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“襖撑𢷮𥙩袈裟</p>
-      <p class="nom">法名吏𢷮𠸜𠚢濯泉”</p>
-      <p class="quocngu">Áo xanh đổi lấy cà sa,</p>
-      <p class="quocngu">Pháp danh lại đổi tên ra Trạc Tuyền.</p>
-      <p class="author"><i>(Dòng 1921-1922) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𩯀誓㐌枕昂𦠘</p>
+      <p class="nom">󰅹𠳒𡽫渃󰅹𠳒鉄𣘈”</p>
+      <p class="quocngu">Tóc thề đã chấm ngang vai,</p>
+      <p class="quocngu">Nào lời non nước, nào lời sắt son?</p>
+      <p class="author"><i>(Dòng 1631-1632) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,78 +25,60 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “...for liberty is an acknowledgment of \
-| faith in God and His works.”            |
-|                                         |
-\  -- Frédéric Bastiat                    /
- -----------------------------------------
-    \
+ ____________________________________________
+/ “Remember, if you cannot live with         \
+| yourself, you cannot live with anyone      |
+| else. The capacity to be alone is the      |
+| capacity to love. It may look paradoxical  |
+| to you, but it is not. It is an            |
+| existential truth: only those people who   |
+| are capable of being alone are capable of  |
+| love, of sharing, of going into the        |
+| deepest core of the other person—without   |
+| possessing the other, without becoming     |
+| dependent on the other, without reducing   |
+| the other to a thing, and without becoming |
+| addicted to the other.”                    |
+|                                            |
+\  -- Osho                                   /
+ --------------------------------------------
      \
       \
-                                                                                 -/- 
-                                                                              -/ --/    
-                                                                            /- -  /     
-                                                                         //      /      
-                                                                        /       /       
-                                                                      //       /        
-                                                                    //        /         
-                                                                  //          /         
-                                                                ///           /         
-                                                               //            /          
-                                                              //            /           
-                                                             //          . ./           
-                                                             //       .    /            
-                                                             //    .      /             
-                                                             //  .       /              
-                                                            // .         /              
-                                                          (=>            /              
-                                                         (==>            /              
-                                                          (=>            /              
-             -_                                           //.           /               
-             \\-_                                        //   .         /               
-              \ \_-_                                     //     .       /               
-               \_ \_--_                                 //        . . . /               
-                 \_ \_ -_                              //              /                
-                   \_ \_ (O)-___                      //               /                
-                     \ _\   __  --__                  /                /                
-                     _/    \  ----__--____          //                 /                
-                   _/  _/   \       -------       //                  /                 
-                 _/ __/ \\   \\                  /                   /                  
-               _/ _/      \\   \\              //                   /                   
-              -__/          \\   \\\          //                   /                    
-                              \\    \\\\\\\\\//   -                /                    
-                                \\         _/         -            /                    
-                                  \\                      -        \                    
-                                    \\\                       -     \                   
-                                        \\                       -   \                  
-                                          \\\                         \--__             
-                                           | \\                            \__________  
-                                            |  \\\\                ___      _________-\\
-                                            |    \\\\\                \--__/____        
-                                            |        \\\\________---\-    ______-----   
-                                             |                   /    \--  \_______     
-                                             |                   /       \-_________\   
-                                             \                   /                  \\  
-                                             \                 ./                       
-                                             \            .     /                       
-                                              \        .       /                        
-                                              \    .           //                       
-                                              \                /                        
-                                              |__              /                        
-                                              \==              /                        
-                                               \\              \                        
-                                                \\  .          \                        
-                                                  \\    .  .   \                        
-                                                   \           .\                       
-                                                   \\            \                      
-                                                     \           \                      
-                                                      \\          \                     
-                                                        \\         \                    
-                                                          \         \--                 
-                                                           \\          \                
-                                                             \\         \\\\            
-                                                               \\\\_________\\\         
+                  ,
+         ___     /^\   ,
+        `\  \'...`   \_/^\
+          ) ~     ',    /__,
+         /       ,.    ,, /___,
+        (  .-.   \'.\'. /// ___/
+         ) .-.\'  .`.`///-.\'.
+        / ( o )  .\"\". ====) \
+       (   \'-`   \  |\'~~~`  u\,
+        \ _~  .\"\"\"` |~|^u^ u^(\"\"
+        //  ."     /~/^ u^ u^\
+       // ."      /~  u^ u  ^u\      _
+      // ."      /~/U^ U^ U^ ^(     / )
+     /` ."       |~  U^ U^ ^ U^\   /) _)
+   ./` ."        |~|^ U^ ^U ^ U(  / _  _)
+  ;.`."          |~ ^U ^ U^ U ^/ /)_ =  _)
+   \"\"            |~|^ ^U ^ ^ U(_/_    )- _)
+                 |~ U ^ ^U ^U ^ )   =    _)
+                 \~|^ U U^ U ^ =  ~ )  - _)
+                  \ U ^U ^ ^U^_)     =  _)
+                   \",^U^ ^U ^/ \)_~   -_)
+                     \".u^u ^|   \_  = _)
+                      ).u ^u|    \)  _)
+                      \u ^u^(     \__)
+                       )^u ^u\
+                       \u ^u ^|
+             ____       )^u ^u|
+          ,-`    '-.    )u ^u^|
+         /  .---. ' \  / ^ u^/
+        |  ;  `  '  | /u^u ^/
+        |  ;  '-` . `:u^u^u/
+        \.\'^\'._   _.`u ^.-`
+         \_.~=_```-.^.-\"
+           \'\"------\"`
+
 ```
 <!-- END_QUOTE -->
 
