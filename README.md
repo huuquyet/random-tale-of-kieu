@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“拥𥿱渚女𢯦𢬣</p>
-      <p class="nom">彙東𬂙㐌𨅸𣦍󰣓茹”</p>
-      <p class="quocngu">Dùng dằng chưa nỡ rời tay,</p>
-      <p class="quocngu">Vầng đông trông đã đứng ngay nóc nhà.</p>
-      <p class="author"><i>(Dòng 559-560) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𬌓身𣈙㐌弭攘</p>
+      <p class="nom">𡭧群恩怨堆塘渚衝”</p>
+      <p class="quocngu">Tấm thân rày đã nhẹ nhàng,</p>
+      <p class="quocngu">Chút còn ân oán đôi đường chưa xong."</p>
+      <p class="author"><i>(Dòng 2293-2294) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Not at all up to your usual standard,     \
-| Hermione. Only one out of three, I’m       |
-| afraid. I have not been helping Sirius get |
-| into the castle and I certainly don’t want |
-| Harry dead. But I won’t deny that I am a   |
-| werewolf.”                                 |
-|                                            |
-\  -- J.K. Rowling                           /
- --------------------------------------------
-   \
-    \
-
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-
+ __________________________________________
+/ “Life is meant to explore the world, not \
+| computer.”                               |
+|                                          |
+\  -- Vijay Dhameliya                      /
+ ------------------------------------------
+     \
+      \
+             ,;;;;;;;,
+            ;;;;;;;;;;;,
+           ;;;;;'_____;'
+           ;;;(/))))|((\
+           _;;((((((|))))
+          / |_\\\\\\\\\\\\
+     .--~(  \ ~))))))))))))
+    /     \  `\-(((((((((((\\
+    |    | `\   ) |\       /|)
+     |    |  `. _/  \_____/ |
+      |    , `\~            /
+       |    \  \           /
+      | `.   `\|          /
+      |   ~-   `\        /
+       \____~._/~ -_,   (\
+        |-----|\   \    ';;
+       |      | :;;;'     \
+      |  /    |            |
+      |       |            |
 ```
 <!-- END_QUOTE -->
 
