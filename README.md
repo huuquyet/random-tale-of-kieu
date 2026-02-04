@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𬌓身𣈙㐌弭攘</p>
-      <p class="nom">𡭧群恩怨堆塘渚衝”</p>
-      <p class="quocngu">Tấm thân rày đã nhẹ nhàng,</p>
-      <p class="quocngu">Chút còn ân oán đôi đường chưa xong."</p>
-      <p class="author"><i>(Dòng 2293-2294) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“強𬂙󰘚強菫魚</p>
+      <p class="nom">𦛌𣎟隊段如絲𦇒俳”</p>
+      <p class="quocngu">Càng trông mặt, càng ngẩn ngơ,</p>
+      <p class="quocngu">Ruột tằm đòi đoạn như tơ rối bời,</p>
+      <p class="author"><i>(Dòng 1819-1820) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Life is meant to explore the world, not \
-| computer.”                               |
-|                                          |
-\  -- Vijay Dhameliya                      /
- ------------------------------------------
+ ____________________________________________
+/ “If you want to get results in your life   \
+| try with comedy... first pressure then     |
+| apply comedy. Always it shallow the shitty |
+| life-pressure!”                            |
+|                                            |
+\  -- Deyth Banger                           /
+ --------------------------------------------
      \
       \
-             ,;;;;;;;,
-            ;;;;;;;;;;;,
-           ;;;;;'_____;'
-           ;;;(/))))|((\
-           _;;((((((|))))
-          / |_\\\\\\\\\\\\
-     .--~(  \ ~))))))))))))
-    /     \  `\-(((((((((((\\
-    |    | `\   ) |\       /|)
-     |    |  `. _/  \_____/ |
-      |    , `\~            /
-       |    \  \           /
-      | `.   `\|          /
-      |   ~-   `\        /
-       \____~._/~ -_,   (\
-        |-----|\   \    ';;
-       |      | :;;;'     \
-      |  /    |            |
-      |       |            |
+        ,__, |    | 
+        (oo)\|    |___
+        (__)\|    |   )\_
+             |    |_w |  \
+             |    |  ||   *
+
+             Cower....
 ```
 <!-- END_QUOTE -->
 
