@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“強𬂙󰘚強菫魚</p>
-      <p class="nom">𦛌𣎟隊段如絲𦇒俳”</p>
-      <p class="quocngu">Càng trông mặt, càng ngẩn ngơ,</p>
-      <p class="quocngu">Ruột tằm đòi đoạn như tơ rối bời,</p>
-      <p class="author"><i>(Dòng 1819-1820) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪催世𪰛傕</p>
+      <p class="nom">浪空意拱󰂅𠳒浪空”</p>
+      <p class="quocngu">Nàng rằng: "Thôi thế thì thôi,</p>
+      <p class="quocngu">Rằng không ấy cũng vâng lời rằng không!"</p>
+      <p class="author"><i>(Dòng 1175-1176) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,26 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “If you want to get results in your life   \
-| try with comedy... first pressure then     |
-| apply comedy. Always it shallow the shitty |
-| life-pressure!”                            |
+/ “I don't want to be a kitten anymore. Give \
+| me my honorary claws so I can become a     |
+| lion.”                                     |
 |                                            |
-\  -- Deyth Banger                           /
+\  -- Kayla Krantz                           /
  --------------------------------------------
-     \
-      \
-        ,__, |    | 
-        (oo)\|    |___
-        (__)\|    |   )\_
-             |    |_w |  \
-             |    |  ||   *
-
-             Cower....
+  \     .    _  .    
+   \    |\_|/__/|    
+       / / \/ \  \  
+      /__|o||o|__ \ 
+     |/_ \_/\_/ _\ |  
+     | | (____) | ||  
+     \/\___/\__/  // 
+     (_/         ||
+      |          ||
+      |          ||\   
+       \        //_/  
+        \______//
+       __ || __||
+      (____(____)
 ```
 <!-- END_QUOTE -->
 
