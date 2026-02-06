@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘浪催世𪰛傕</p>
-      <p class="nom">浪空意拱󰂅𠳒浪空”</p>
-      <p class="quocngu">Nàng rằng: "Thôi thế thì thôi,</p>
-      <p class="quocngu">Rằng không ấy cũng vâng lời rằng không!"</p>
-      <p class="author"><i>(Dòng 1175-1176) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“牢空別意思󰢔</p>
+      <p class="nom">朱払𢞂𠴙罪𪰛在𤽗”</p>
+      <p class="quocngu">Sao không biết ý tứ gì?</p>
+      <p class="quocngu">Cho chàng buồn bã, tội thì tại ngươi!"</p>
+      <p class="author"><i>(Dòng 1861-1862) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I don't want to be a kitten anymore. Give \
-| me my honorary claws so I can become a     |
-| lion.”                                     |
-|                                            |
-\  -- Kayla Krantz                           /
- --------------------------------------------
-  \     .    _  .    
-   \    |\_|/__/|    
-       / / \/ \  \  
-      /__|o||o|__ \ 
-     |/_ \_/\_/ _\ |  
-     | | (____) | ||  
-     \/\___/\__/  // 
-     (_/         ||
-      |          ||
-      |          ||\   
-       \        //_/  
-        \______//
-       __ || __||
-      (____(____)
+ _____________________________________________
+/ “In musical performances one can sense that \
+| the person on stage is having a good time   |
+| even if they're singing a song about        |
+| breaking up or being in a bad way. For an   |
+| actor this would be anathema, it would      |
+| destroy the illusion, but with singing one  |
+| can have it both ways. As a singer, you     |
+| can be transparent and reveal yourself on   |
+| stage, in that moment, and at the same      |
+| time be the person whose story is being     |
+| told in the song. Not too many kinds of     |
+| performance allow that.”                    |
+|                                             |
+\  -- David Byrne                             /
+ ---------------------------------------------
+   \
+    \
+                -一     一-
+        ／                       ＼
+       /             ________
+      /     -~                     ミ､
+      レ'     _  一ｧiァ ￢}￣Tii一- _  ＼
+    ／    --::|::::/斗士  /   |[_Vい＿＞」
+  ／ イ「::::|:::Y/  ｲ::ハ      ｨ-ﾐヽい
+  ＜___｜:::へ|::|{ 乂-夕     {::ｄﾘ|い
+        ＼八 |::｜             `''   ﾊ|
+    ＿ --＼ヽ|::|                  .ｲ ﾘ
+  ／------.ゝ|:ﾄ|        -       ィ:|
+  ＼        ＞ミ|`ヽ!ﾆ  T  ﾌ￣.≧｜:/
+     ∨         |::\/ }-/く＼   /｜/ 
 ```
 <!-- END_QUOTE -->
 
