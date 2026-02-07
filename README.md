@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“牢空別意思󰢔</p>
-      <p class="nom">朱払𢞂𠴙罪𪰛在𤽗”</p>
-      <p class="quocngu">Sao không biết ý tứ gì?</p>
-      <p class="quocngu">Cho chàng buồn bã, tội thì tại ngươi!"</p>
-      <p class="author"><i>(Dòng 1861-1862) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“分䕯包管渃沙</p>
+      <p class="nom">泠汀兜女拱羅泠汀”</p>
+      <p class="quocngu">Phận bèo bao quản nước sa,</p>
+      <p class="quocngu">Lênh đênh đâu nữa cũng là lênh đênh.</p>
+      <p class="author"><i>(Dòng 2019-2020) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “In musical performances one can sense that \
-| the person on stage is having a good time   |
-| even if they're singing a song about        |
-| breaking up or being in a bad way. For an   |
-| actor this would be anathema, it would      |
-| destroy the illusion, but with singing one  |
-| can have it both ways. As a singer, you     |
-| can be transparent and reveal yourself on   |
-| stage, in that moment, and at the same      |
-| time be the person whose story is being     |
-| told in the song. Not too many kinds of     |
-| performance allow that.”                    |
-|                                             |
-\  -- David Byrne                             /
- ---------------------------------------------
+ ___________________________________________
+/ “When you think you're right, you're most \
+| likely wrong.”                            |
+|                                           |
+\  -- Jodi Picoult                          /
+ -------------------------------------------
    \
     \
-                -一     一-
-        ／                       ＼
-       /             ________
-      /     -~                     ミ､
-      レ'     _  一ｧiァ ￢}￣Tii一- _  ＼
-    ／    --::|::::/斗士  /   |[_Vい＿＞」
-  ／ イ「::::|:::Y/  ｲ::ハ      ｨ-ﾐヽい
-  ＜___｜:::へ|::|{ 乂-夕     {::ｄﾘ|い
-        ＼八 |::｜             `''   ﾊ|
-    ＿ --＼ヽ|::|                  .ｲ ﾘ
-  ／------.ゝ|:ﾄ|        -       ィ:|
-  ＼        ＞ミ|`ヽ!ﾆ  T  ﾌ￣.≧｜:/
-     ∨         |::\/ }-/く＼   /｜/ 
+         ＿＿＿＿ ＿＿＿＿＿__
+      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
+       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
+         ｀ ＜. _  .ｰ ､                       !三  ＜
+                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
+                                                 ￣￣
 ```
 <!-- END_QUOTE -->
 
