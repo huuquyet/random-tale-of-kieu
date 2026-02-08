@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“分䕯包管渃沙</p>
-      <p class="nom">泠汀兜女拱羅泠汀”</p>
-      <p class="quocngu">Phận bèo bao quản nước sa,</p>
-      <p class="quocngu">Lênh đênh đâu nữa cũng là lênh đênh.</p>
-      <p class="author"><i>(Dòng 2019-2020) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“暈𦝄埃仕爫堆</p>
+      <p class="nom">姅印襘隻姅𤐝𨤵長”</p>
+      <p class="quocngu">Vầng trăng ai xẻ làm đôi,</p>
+      <p class="quocngu">Nửa in gối chiếc, nửa soi dặm trường.</p>
+      <p class="author"><i>(Dòng 1525-1526) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,19 +26,13 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “When you think you're right, you're most \
-| likely wrong.”                            |
+/ “If he could only prevent himself growing \
+| up! He did not want to be a man.”         |
 |                                           |
-\  -- Jodi Picoult                          /
+\  -- Thomas Hardy                          /
  -------------------------------------------
-   \
-    \
-         ＿＿＿＿ ＿＿＿＿＿__
-      ｨ''  ＠ :. ,! ，， ， ，￣￣ ¨` ‐-            ＿＿
-       ＼    ノ   i            ’ ’’ ’’､_;:`:‐.-_-‐ニ＝=彳
-         ｀ ＜. _  .ｰ ､                       !三  ＜
-                 ｀¨  ‐= . ＿＿＿_.. ﾆ=-‐‐`'´｀ﾐ､   三＞
-                                                 ￣￣
+  \
+¯\_(ツ)_/¯
 ```
 <!-- END_QUOTE -->
 
