@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“暈𦝄埃仕爫堆</p>
-      <p class="nom">姅印襘隻姅𤐝𨤵長”</p>
-      <p class="quocngu">Vầng trăng ai xẻ làm đôi,</p>
-      <p class="quocngu">Nửa in gối chiếc, nửa soi dặm trường.</p>
-      <p class="author"><i>(Dòng 1525-1526) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“邏之聲氣𨤰恒</p>
+      <p class="nom">󰜋𦀊㐌纀埃𢬥朱𠚢”</p>
+      <p class="quocngu">Lạ gì thanh khí lẽ hằng,</p>
+      <p class="quocngu">Một dây đã buộc ai giằng cho ra?</p>
+      <p class="author"><i>(Dòng 1287-1288) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,14 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “If he could only prevent himself growing \
-| up! He did not want to be a man.”         |
-|                                           |
-\  -- Thomas Hardy                          /
- -------------------------------------------
-  \
-¯\_(ツ)_/¯
+ _________________________________________
+/ “She told herself that she was happy to \
+| meet her executioner.”                  |
+|                                         |
+\  -- Sarah MacLean                       /
+ -----------------------------------------
+       \
+        \
+                           __ 
+                  l^ヽ    /  }    _
+                  |  |   /  /   ／  )
+                  |  |  /  /  ／  ／ _
+                  j. し'  / ／  ／ ／  )
+                 /  .＿__ ´  ／ ／  ／
+                /   {  /:｀ヽ ｀¨ ／
+               /     ∨::::::ﾊ   ／
+              |廴     ＼:::ノ}  /
+    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
+    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
+        ／       ＼ 辷_´￣
+      ／           ﾍ￣
+    ／             ,ﾍ
+                  /、ﾍ
+                 /＼__ﾉ
 ```
 <!-- END_QUOTE -->
 
