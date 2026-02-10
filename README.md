@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“邏之聲氣𨤰恒</p>
-      <p class="nom">󰜋𦀊㐌纀埃𢬥朱𠚢”</p>
-      <p class="quocngu">Lạ gì thanh khí lẽ hằng,</p>
-      <p class="quocngu">Một dây đã buộc ai giằng cho ra?</p>
-      <p class="author"><i>(Dòng 1287-1288) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𥪝船󰅹𧡊淡僊</p>
+      <p class="nom">邊命只𧡊覺緣𡎥掑”</p>
+      <p class="quocngu">Trong thuyền nào thấy Đạm Tiên?</p>
+      <p class="quocngu">Bên mình chỉ thấy Giác Duyên ngồi kề.</p>
+      <p class="author"><i>(Dòng 2729-2730) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “She told herself that she was happy to \
-| meet her executioner.”                  |
-|                                         |
-\  -- Sarah MacLean                       /
- -----------------------------------------
-       \
-        \
-                           __ 
-                  l^ヽ    /  }    _
-                  |  |   /  /   ／  )
-                  |  |  /  /  ／  ／ _
-                  j. し'  / ／  ／ ／  )
-                 /  .＿__ ´  ／ ／  ／
-                /   {  /:｀ヽ ｀¨ ／
-               /     ∨::::::ﾊ   ／
-              |廴     ＼:::ノ}  /
-    {￣￣￣￣ヽ  廴     ｀ー'  ー-､
-    ヽ ＿＿_   ＼ 廴        ＿＿＿ﾉ
-        ／       ＼ 辷_´￣
-      ／           ﾍ￣
-    ／             ,ﾍ
-                  /、ﾍ
-                 /＼__ﾉ
+ ___________________________________________
+/ “Life is about balance. Too much work and \
+| you'll lose your spirit. Too much leisure |
+| and your dreams fall away from you.”      |
+|                                           |
+\  -- Avina Celeste                         /
+ -------------------------------------------
+   \
+    \
+        /\O
+         /\/
+        /\
+       /  \
+      LOL LOL
+:-D LOLLERSKATES :-D
 ```
 <!-- END_QUOTE -->
 
