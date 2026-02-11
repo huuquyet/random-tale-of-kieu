@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥪝船󰅹𧡊淡僊</p>
-      <p class="nom">邊命只𧡊覺緣𡎥掑”</p>
-      <p class="quocngu">Trong thuyền nào thấy Đạm Tiên?</p>
-      <p class="quocngu">Bên mình chỉ thấy Giác Duyên ngồi kề.</p>
-      <p class="author"><i>(Dòng 2729-2730) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡓃𤷱洌𠖾唏霜</p>
+      <p class="nom">𢚸圭𠫾󰜋𨀈塘󰜋𤴬”</p>
+      <p class="quocngu">Lối mòn lướt mướt hơi sương,</p>
+      <p class="quocngu">Lòng quê đi một bước đường một đau.</p>
+      <p class="author"><i>(Dòng 1121-1122) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Life is about balance. Too much work and \
-| you'll lose your spirit. Too much leisure |
-| and your dreams fall away from you.”      |
-|                                           |
-\  -- Avina Celeste                         /
- -------------------------------------------
+ ____________________________________________
+/ “Is that the ultimate need? To secure some \
+| agent to act as a salve, a bandage, a      |
+| cover-up, concealer over the black eye, as |
+| opposed to facing the issue head on.       |
+| Nobody wants to address the fist. We’d all |
+| much rather take something for the pain    |
+| and make it all go away.”                  |
+|                                            |
+\  -- Katandra Jackson Nunnally              /
+ --------------------------------------------
+  \
    \
-    \
-        /\O
-         /\/
-        /\
-       /  \
-      LOL LOL
-:-D LOLLERSKATES :-D
+
+     [-]
+     (+)=C
+     | |
+     OOO
 ```
 <!-- END_QUOTE -->
 
