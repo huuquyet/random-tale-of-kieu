@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡓃𤷱洌𠖾唏霜</p>
-      <p class="nom">𢚸圭𠫾󰜋𨀈塘󰜋𤴬”</p>
-      <p class="quocngu">Lối mòn lướt mướt hơi sương,</p>
-      <p class="quocngu">Lòng quê đi một bước đường một đau.</p>
-      <p class="author"><i>(Dòng 1121-1122) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“大王𠸜海户徐</p>
+      <p class="nom">打悁𤾓陣飭餘𨷈𠊛”</p>
+      <p class="quocngu">Đại vương tên Hải, họ Từ,</p>
+      <p class="quocngu">Đánh quen trăm trận, sức dư muôn người.</p>
+      <p class="author"><i>(Dòng 2919-2920) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Is that the ultimate need? To secure some \
-| agent to act as a salve, a bandage, a      |
-| cover-up, concealer over the black eye, as |
-| opposed to facing the issue head on.       |
-| Nobody wants to address the fist. We’d all |
-| much rather take something for the pain    |
-| and make it all go away.”                  |
-|                                            |
-\  -- Katandra Jackson Nunnally              /
- --------------------------------------------
-  \
+ ___________________________________________
+/ “Sorrow has a great refining influence on \
+| our sacred souls.”                        |
+|                                           |
+\  -- Lailah Gifty Akita                    /
+ -------------------------------------------
    \
-
-     [-]
-     (+)=C
-     | |
-     OOO
+    \
+                      ,:二二二二:. .,
+                   ／.／＿＿＿_  ＼.:＼
+                  /. /／.: .: .:＼  : .:＼
+                 /.: .: .:/｜:/\ .:＼}.: .:.
+                .: |.:/一/ |:/ 一.:}: .: .:｜
+                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
+                |.: ｜= ＝    ＝＝= \/}: .:|
+                |:: ﾘ''           '' /:/､.:|
+               ノ:|:人    一一 ､    /:/ ﾉ.:|
+                , ┴＜＼  {     ｝ ,{:/イ::八
+               /_..   ＼` ー┬一r＜:八八／
+               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
+              /___ |  >､    ｀''＼   ｜
+             /ﾆ}::\/／  ＼       ｜  ｜
+          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
+           /__   V    ｝|  》=《      |
+           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
+             ￣        ｢   ゞ= '      }
+                      ﾉ               〉 
 ```
 <!-- END_QUOTE -->
 
