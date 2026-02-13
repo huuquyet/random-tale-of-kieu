@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“大王𠸜海户徐</p>
-      <p class="nom">打悁𤾓陣飭餘𨷈𠊛”</p>
-      <p class="quocngu">Đại vương tên Hải, họ Từ,</p>
-      <p class="quocngu">Đánh quen trăm trận, sức dư muôn người.</p>
-      <p class="author"><i>(Dòng 2919-2920) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“傷娘𨤵客賒駸</p>
+      <p class="nom">泊抛橋這顛霪岸𩄲”</p>
+      <p class="quocngu">Thương nàng dặm khách xa xăm,</p>
+      <p class="quocngu">Bạc phau cầu giá, đen rầm ngàn mây.</p>
+      <p class="author"><i>(Dòng 911-912) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,64 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Sorrow has a great refining influence on \
-| our sacred souls.”                        |
-|                                           |
-\  -- Lailah Gifty Akita                    /
- -------------------------------------------
-   \
-    \
-                      ,:二二二二:. .,
-                   ／.／＿＿＿_  ＼.:＼
-                  /. /／.: .: .:＼  : .:＼
-                 /.: .: .:/｜:/\ .:＼}.: .:.
-                .: |.:/一/ |:/ 一.:}: .: .:｜
-                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
-                |.: ｜= ＝    ＝＝= \/}: .:|
-                |:: ﾘ''           '' /:/､.:|
-               ノ:|:人    一一 ､    /:/ ﾉ.:|
-                , ┴＜＼  {     ｝ ,{:/イ::八
-               /_..   ＼` ー┬一r＜:八八／
-               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
-              /___ |  >､    ｀''＼   ｜
-             /ﾆ}::\/／  ＼       ｜  ｜
-          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
-           /__   V    ｝|  》=《      |
-           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
-             ￣        ｢   ゞ= '      }
-                      ﾉ               〉 
+ ____________________________________________
+/ “In this paper I propose the existence of  \
+| two distinct presentations of DID, a       |
+| Stable and an Active one. While people     |
+| with Stable DID struggle with their        |
+| traumatic past, with triggers that         |
+| re-evoke that past and with the problems   |
+| of daily functioning with severe           |
+| dissociation, people with Active DID are,  |
+| in addition, also engaged in a life of     |
+| current, on-going involvement in abusive   |
+| relationships, and do not respond to       |
+| treatment in the same way as other DID     |
+| patients. The paper observes these two     |
+| proposed DID presentations in the context  |
+| of other trauma-based disorders, through   |
+| the lens of their attachment relationship. |
+| It proposes that the type, intensity and   |
+| frequency of relational trauma shape—and   |
+| can thus predict—the resulting mental      |
+| disorder. - Through the lens of attachment |
+| relationship: Stable DID, Active DID and   |
+| other trauma-based mental disorders”       |
+|                                            |
+\  -- Adah Sachs                             /
+ --------------------------------------------
+                        \
+                         \     ___.
+                          \    L._, \
+               _.,         \   <  <\                _
+             ,' '           \  `.   | \            ( `
+          ../, `.            \  |    .\`.           \ \_
+         ,' ,..  .           _.,'    ||\l            )  '".
+        , ,'   \           ,'.-.`-._,'  |           .  _._`.
+      ,' /      \ \        `' ' `--/   | \          / /   ..\
+    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
+    |  '          ..         `-...-"  |  `-'      / /        . `.
+    | /           |L__           |    |          / /          `. `.
+   , /            .   .          |    |         / /             ` `
+  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
+ / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
+  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
+' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
+|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
+||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
+||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
+|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
+||/            _,-------7 '              . |  `-'    l         /    `||
+ |          ,' .-   ,' ||               | .-.        `.      .'     ||
+ `'        ,'    `".'    |               |    `.        '. -.'       `'
+          /      ,'      |               |,'    \-.._,.'/'
+          .     /        .               .       \    .''
+        .`.    |         `.             /         :_,'.'
+          \ `...\   _     ,'-.        .'         /_.-'
+           `-.__ `,  `'   .  _.>----''.  _  __  /
+                .'        /"'          |  "'   '_
+               /_|.-'\ ,".             '.'`__'-( \
+                 / ,"'"\,'               `/  `-.|" m
 ```
 <!-- END_QUOTE -->
 
