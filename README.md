@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“傷娘𨤵客賒駸</p>
-      <p class="nom">泊抛橋這顛霪岸𩄲”</p>
-      <p class="quocngu">Thương nàng dặm khách xa xăm,</p>
-      <p class="quocngu">Bạc phau cầu giá, đen rầm ngàn mây.</p>
-      <p class="author"><i>(Dòng 911-912) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“朗𡎢渗󰣇𡴯頭</p>
+      <p class="nom">些低沛摱埃兜麻浪”</p>
+      <p class="quocngu">Lặng ngồi thấm thía gật đầu:</p>
+      <p class="quocngu">"Ta đây phải mượn ai đâu mà rằng!</p>
+      <p class="author"><i>(Dòng 1101-1102) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,63 +26,18 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “In this paper I propose the existence of  \
-| two distinct presentations of DID, a       |
-| Stable and an Active one. While people     |
-| with Stable DID struggle with their        |
-| traumatic past, with triggers that         |
-| re-evoke that past and with the problems   |
-| of daily functioning with severe           |
-| dissociation, people with Active DID are,  |
-| in addition, also engaged in a life of     |
-| current, on-going involvement in abusive   |
-| relationships, and do not respond to       |
-| treatment in the same way as other DID     |
-| patients. The paper observes these two     |
-| proposed DID presentations in the context  |
-| of other trauma-based disorders, through   |
-| the lens of their attachment relationship. |
-| It proposes that the type, intensity and   |
-| frequency of relational trauma shape—and   |
-| can thus predict—the resulting mental      |
-| disorder. - Through the lens of attachment |
-| relationship: Stable DID, Active DID and   |
-| other trauma-based mental disorders”       |
+/ “It is not upon thee to finish the work    \
+| neither art thou free to abstain from it.” |
 |                                            |
-\  -- Adah Sachs                             /
+\  -- The Talmud                             /
  --------------------------------------------
-                        \
-                         \     ___.
-                          \    L._, \
-               _.,         \   <  <\                _
-             ,' '           \  `.   | \            ( `
-          ../, `.            \  |    .\`.           \ \_
-         ,' ,..  .           _.,'    ||\l            )  '".
-        , ,'   \           ,'.-.`-._,'  |           .  _._`.
-      ,' /      \ \        `' ' `--/   | \          / /   ..\
-    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
-    |  '          ..         `-...-"  |  `-'      / /        . `.
-    | /           |L__           |    |          / /          `. `.
-   , /            .   .          |    |         / /             ` `
-  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
- / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
-  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
-' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
-|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
-||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
-||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
-|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
-||/            _,-------7 '              . |  `-'    l         /    `||
- |          ,' .-   ,' ||               | .-.        `.      .'     ||
- `'        ,'    `".'    |               |    `.        '. -.'       `'
-          /      ,'      |               |,'    \-.._,.'/'
-          .     /        .               .       \    .''
-        .`.    |         `.             /         :_,'.'
-          \ `...\   _     ,'-.        .'         /_.-'
-           `-.__ `,  `'   .  _.>----''.  _  __  /
-                .'        /"'          |  "'   '_
-               /_|.-'\ ,".             '.'`__'-( \
-                 / ,"'"\,'               `/  `-.|" m
+  \
+   \
+       ___  
+     {~o_o~}
+      ( Y )
+     ()~*~()   
+     (_)-(_)   
 ```
 <!-- END_QUOTE -->
 
