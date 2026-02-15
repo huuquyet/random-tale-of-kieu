@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“朗𡎢渗󰣇𡴯頭</p>
-      <p class="nom">些低沛摱埃兜麻浪”</p>
-      <p class="quocngu">Lặng ngồi thấm thía gật đầu:</p>
-      <p class="quocngu">"Ta đây phải mượn ai đâu mà rằng!</p>
-      <p class="author"><i>(Dòng 1101-1102) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“覺緣𨖲㗂噲娘</p>
+      <p class="nom">𢩣𥪝倍𨄹蓮鐄𨀈𠚢”</p>
+      <p class="quocngu">Giác Duyên lên tiếng gọi nàng,</p>
+      <p class="quocngu">Buồng trong vội dạo sen vàng bước ra.</p>
+      <p class="author"><i>(Dòng 3007-3008) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,18 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “It is not upon thee to finish the work    \
-| neither art thou free to abstain from it.” |
+/ “Chocolate, coffee, and ice cream were far \
+| more reliable when it came to providing a  |
+| good time, and at least they would never   |
+| disappoint me.”                            |
 |                                            |
-\  -- The Talmud                             /
+\  -- Keri Arthur                            /
  --------------------------------------------
-  \
-   \
-       ___  
-     {~o_o~}
-      ( Y )
-     ()~*~()   
-     (_)-(_)   
+          \     (
+           \     )
+            \   (
+         /\  .-""""-.  /\
+        //\\/  ,,,,  \//\\
+        |/\| ,;;;;;;, |/\|
+        //\\\;-""""-;///\\
+       //  \/   ..   \/  \\
+      (| ,-_| \ || / |_-, |)
+        //`__(\(__)/)__`\\
+       // /.-\`(oo)'/-.\ \\
+      (\ |)   ')  ('   (| /)
+       ` (|   (o  o)   |) `
+         \)    `--'    (/
+                  
 ```
 <!-- END_QUOTE -->
 
