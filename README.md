@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“覺緣𨖲㗂噲娘</p>
-      <p class="nom">𢩣𥪝倍𨄹蓮鐄𨀈𠚢”</p>
-      <p class="quocngu">Giác Duyên lên tiếng gọi nàng,</p>
-      <p class="quocngu">Buồng trong vội dạo sen vàng bước ra.</p>
-      <p class="author"><i>(Dòng 3007-3008) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘強𣻆湥秋波</p>
+      <p class="nom">断膓綠意𢷣麻𢞂腥”</p>
+      <p class="quocngu">Nàng càng tuôn giọt thu ba,</p>
+      <p class="quocngu">Đoạn trường lúc ấy dở mà buồn tênh.</p>
+      <p class="author"><i>(Dòng 1323-1324) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,28 +26,33 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Chocolate, coffee, and ice cream were far \
-| more reliable when it came to providing a  |
-| good time, and at least they would never   |
-| disappoint me.”                            |
+/ “Laurie picks up a briefcase and places it \
+| on the table. He opens the lid and his     |
+| head disappears under the top. Oh god. Is  |
+| he about to introduce me to a cat of nine  |
+| tails, or some bizarre tickling stick?     |
+| Brace yourself Liz. Cate told you to       |
+| always carry your pepper spray, you fool.” |
 |                                            |
-\  -- Keri Arthur                            /
+\  -- LeeAnn Whitaker                        /
  --------------------------------------------
-          \     (
-           \     )
-            \   (
-         /\  .-""""-.  /\
-        //\\/  ,,,,  \//\\
-        |/\| ,;;;;;;, |/\|
-        //\\\;-""""-;///\\
-       //  \/   ..   \/  \\
-      (| ,-_| \ || / |_-, |)
-        //`__(\(__)/)__`\\
-       // /.-\`(oo)'/-.\ \\
-      (\ |)   ')  ('   (| /)
-       ` (|   (o  o)   |) `
-         \)    `--'    (/
-                  
+   \
+    \
+    ____  
+   /# /_\_
+  |  |/oo\
+  |  \\_/_/
+ / |_   |  
+|  ||\_ ~| 
+|  ||| \/  
+|  |||_    
+ \//  |    
+  ||  |    
+  ||_  \   
+  \_|  o|  
+  /\___/   
+ /  ||||__ 
+    (___)_)
 ```
 <!-- END_QUOTE -->
 
