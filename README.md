@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘強𣻆湥秋波</p>
-      <p class="nom">断膓綠意𢷣麻𢞂腥”</p>
-      <p class="quocngu">Nàng càng tuôn giọt thu ba,</p>
-      <p class="quocngu">Đoạn trường lúc ấy dở mà buồn tênh.</p>
-      <p class="author"><i>(Dòng 1323-1324) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“別身𧼋拯塊𡗶</p>
+      <p class="nom">拱料𦟐粉朱耒𣈜撑”</p>
+      <p class="quocngu">Biết thân chạy chẳng khỏi trời,</p>
+      <p class="quocngu">Cũng liều má phấn, cho rồi ngày xanh.</p>
+      <p class="author"><i>(Dòng 2163-2164) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,16 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Laurie picks up a briefcase and places it \
-| on the table. He opens the lid and his     |
-| head disappears under the top. Oh god. Is  |
-| he about to introduce me to a cat of nine  |
-| tails, or some bizarre tickling stick?     |
-| Brace yourself Liz. Cate told you to       |
-| always carry your pepper spray, you fool.” |
-|                                            |
-\  -- LeeAnn Whitaker                        /
- --------------------------------------------
+ ______________________________________________
+/ “Let it go and live in the moment with joy.” \
+|                                              |
+\  -- Debasish Mridha                          /
+ ----------------------------------------------
+  \
    \
-    \
-    ____  
-   /# /_\_
-  |  |/oo\
-  |  \\_/_/
- / |_   |  
-|  ||\_ ~| 
-|  ||| \/  
-|  |||_    
- \//  |    
-  ||  |    
-  ||_  \   
-  \_|  o|  
-  /\___/   
- /  ||||__ 
-    (___)_)
+
+      ^(;,;)^
+
 ```
 <!-- END_QUOTE -->
 
