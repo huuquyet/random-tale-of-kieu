@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“別身𧼋拯塊𡗶</p>
-      <p class="nom">拱料𦟐粉朱耒𣈜撑”</p>
-      <p class="quocngu">Biết thân chạy chẳng khỏi trời,</p>
-      <p class="quocngu">Cũng liều má phấn, cho rồi ngày xanh.</p>
-      <p class="author"><i>(Dòng 2163-2164) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“身些些沛𢥈歐</p>
+      <p class="nom">𠰘𤞻𠷮𧋻於兜准尼”</p>
+      <p class="quocngu">Thân ta, ta phải lo âu,</p>
+      <p class="quocngu">Miệng hùm, nọc rắn ở đâu chốn này!</p>
+      <p class="author"><i>(Dòng 2015-2016) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,16 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________________
-/ “Let it go and live in the moment with joy.” \
-|                                              |
-\  -- Debasish Mridha                          /
- ----------------------------------------------
-  \
-   \
+ ___________________________________________
+/ “I just looked at the pattern of my life, \
+| decided I didn't like it, and changed.”   |
+|                                           |
+\  -- David Sedaris                         /
+ -------------------------------------------
+          \           \  / 
+           \           \/  
+               (__)    /\         
+               (oo)   O  O        
+               _\/_   //         
+         *    (    ) //       
+          \  (\\    //       
+           \(  \\    )                              
+            (   \\   )   /\                          
+  ___[\______/^^^^^^^\__/) o-)__                     
+ |\__[=======______//________)__\                    
+ \|_______________//____________|                    
+     |||      || //||     |||
+     |||      || @.||     |||                        
+      ||      \/  .\/      ||                        
+                 . .                                 
+                '.'.`                                
 
-      ^(;,;)^
-
+            COW-OPERATION                           
 ```
 <!-- END_QUOTE -->
 
