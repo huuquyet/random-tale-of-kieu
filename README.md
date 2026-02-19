@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“身些些沛𢥈歐</p>
-      <p class="nom">𠰘𤞻𠷮𧋻於兜准尼”</p>
-      <p class="quocngu">Thân ta, ta phải lo âu,</p>
-      <p class="quocngu">Miệng hùm, nọc rắn ở đâu chốn này!</p>
-      <p class="author"><i>(Dòng 2015-2016) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡗶遼𡽫渃包賒</p>
+      <p class="nom">擬兜𢩵󰘇𢺺茹自碎”</p>
+      <p class="quocngu">Trời Liêu non nước bao xa,</p>
+      <p class="quocngu">Nghĩ đâu rẽ cửa chia nhà tự tôi!</p>
+      <p class="author"><i>(Dòng 703-704) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,30 +26,32 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “I just looked at the pattern of my life, \
-| decided I didn't like it, and changed.”   |
+/ “There's no time for hatred, only         \
+| questions. Where is love? Where is        |
+| happiness? What is life? Where is peace?” |
 |                                           |
-\  -- David Sedaris                         /
+\  -- Jeff Buckley                          /
  -------------------------------------------
-          \           \  / 
-           \           \/  
-               (__)    /\         
-               (oo)   O  O        
-               _\/_   //         
-         *    (    ) //       
-          \  (\\    //       
-           \(  \\    )                              
-            (   \\   )   /\                          
-  ___[\______/^^^^^^^\__/) o-)__                     
- |\__[=======______//________)__\                    
- \|_______________//____________|                    
-     |||      || //||     |||
-     |||      || @.||     |||                        
-      ||      \/  .\/      ||                        
-                 . .                                 
-                '.'.`                                
-
-            COW-OPERATION                           
+           \
+            \
+                           _.. .:-―-:. .._
+                      .: .: .: .: .: .: .: .: .: 
+                   ／ .: .: .: .: .: .: .: .: .: .＼
+                 ,'         ,!    ∧           : .: ヽ
+                /, .:: :｜./ |.:./ヽ.:iﾍ.: .: .: .: ::.
+               ,''|.:: .人/--|':/  ヽ:| ､＿.: : .: .::|
+                  |.:: ｲ  ,,=､ﾚ        ゞ=ﾐ､.:|..: .: :|
+                  |.:: ｜{{    }}     {{    }}八.: .: :|
+                 /.: : /  ゛= "        ゛= "    ;.:r ､:|
+                /,.ｲ.:〈                     ,, //' ｝:|
+               '  ヽ:: ゝ、        ｰ--┐       //  ノ::.
+                    ヾ::.､＞ .    ヽ _ﾉ    ..  ＜¨ｨ.:}~＼
+                      `゜ヾ/｀>了、.    v 〔:／|:/  レ'
+                        _ . -/: ,K:::>､/: :ﾄ._
+                       |: :く_.:|/:〈 /: :}: /~ヽ
+              r「「「ｈ,>:|: <: |'::ｿ::<¨.:n｢「「!､
+              ゝ＿_ﾉ /: : |::ヽ |::/: ／: :.ﾍ＿_ノ｝
+               | ￣ |,': :/: : ヽ:' ／ : :.:| ￣ |:}
 ```
 <!-- END_QUOTE -->
 
