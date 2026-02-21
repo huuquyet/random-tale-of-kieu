@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘󰂅拮筆𢬣題</p>
-      <p class="nom">箋花呈𠓀案批䀡詳”</p>
-      <p class="quocngu">Nàng vâng cất bút tay đề,</p>
-      <p class="quocngu">Tiên hoa trình trước án phê, xem tường.</p>
-      <p class="author"><i>(Dòng 1453-1454) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰓿䕯蹎㳥落類</p>
+      <p class="nom">擬命榮顯傷𠊛流離”</p>
+      <p class="quocngu">Rễ bèo chân sóng lạc loài,</p>
+      <p class="quocngu">Nghĩ mình vinh hiển, thương người lưu ly.</p>
+      <p class="author"><i>(Dòng 2871-2872) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,51 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “No matter how rich, powerful or handsome \
-| he is, he is still just a man.”           |
-|                                           |
-\  -- Rebecca Warner                        /
- -------------------------------------------
-    \                                       ,:=+++++???++?+=+=
-     \                               :+?????$MUUUUUUUUUMO+??~
-      \                         :+I??$UUUUMUMMMMUUMUMUUMUUMM???I+:
-       \                     ,+??+ZOUUMMUMMMUUUUUMUUUMUUUMUMUUMZI+?+:
-        \                 ~I?+MMUMUUUMUUUOOUMMMMMMUUUUUMMMUUUUUUMMUM$??~
-                       I?+7MMMMMUUO7?+?IUMMMMMMMMUUMUUMUUUUUUUUUUMMMUMO?I
-                    ~I?+MMMUUUO????+?IOUZ7?,.......,+$OUMUUUUUUMUMUUUMUU+I:
-                   =??$UMUUU7++??????II???????=.....,?OUUMMMUUMUUUUUUUMMUUU+=
-                 +??UUMMM7??????+??+?????+??=,...$MUMUUUUMUUMUUUUUUUUMMUM7II??=
-               ,+?IUMMMI???III?++??+?????+~....... ......MUUMUUUUUUUUUMMU7?~
-               IIUMMM+?+?IUUUUMUUM7I?????????????I?+=:......MUUMMUMUMMMMUUU+~
-             :?+UMMU+?+?7UMMUUUZ7$7????+++????????????=.....+UMUUUUMMMMMMUZ?
-             ?+UMUM???+MMMMMU?++???????????++????????++????....OMMMUMMMMUMMUI:
-            +$MMUM?+?ZMMU:$MM???OUUU+??+???+????????????????,...UMUMUUUUMMUMM?~
-            IUUUU?I?OUUU,..UU?IMMUUMUUI???+?????????????????I,..:UUMUUUUMMUMU?+
-            ?UUUMUM$UMUU~..UUUUU$,IUUUMM7+?????????????????+?I~..UUUUUUUMMMUU+?
-            ?OUMUUUUMMUI+.?UUUU=...~UMMUU$?????+???????????????..MUMUUUUUMUMU??
-           :??IUUMMUMUMMOMUU7........OUUUMMU?I????????????????I..MUMUUUUMUUMU?+
-         +IIUMUO.IUUUUUUO..............?UMUMUM7??????????????+?..UUMUUUUMUUMU?=
-       ,IZMMU,.:UU7:..........,UUUMUZ....MUUMMO+???????????????..UUUUUUUUUUU?:
-       IZUUU:..UUUI=....... IUUUUUMMUZ,.MMUMU$?+???????????????.MUUMUUUUMUMUI
-     ,+IUUM..O=..........$UUMMMUU?~....UMMUUI?????????????????=.UMMUUUUUMMU?+
-     +?UMU~............OUMMUU~..... .UUMUMM+?????????????????=.UMMUMUMUUMOI=
-     ?$MU~...    ...:MUMU=~........,UUMMMUI+????????????????+IUMMMUUUUMUU?+
-     +OMU....   ...?UMU=..:~~,.....MMMUUU+?+????????????????~MMUUUUMUMMU?+~   
-     ?OMU~ .. ...?UMUUUMUMUMUMUMUUUMUUMUI???????????????+?+OUUMUUMMMMUIUUUMO,
-     ??UMU~.....$MUUUOM???UMMUUUMMMUUMM7?++????????????++OMMMUMUUMMUI??UMIU+~
-     :?7UUU$...UMMM?I~,  +?MMUUMMMMMMUU?????????????+??$UMMMMUUUMU$?: ,??I?:
-       ?IMUMUUZMU+?,      =?UMMMMMMMMO??????????????+UMUMMUMUMUU?I~
-        ?+$MUMUMU??        ?MMMMMMMMU??+???????????IUMMMUUUMUUZ?=
-          ,+???ZUO?~       +ZUMMUMUMU???++??+???IUMMUMUMMUUO??~
-               ,,:~=       ,?UMUMUMU???+??+?+?7UMUMUMUMUI??:
-                            ?UMUMMMM?+??++?ZUUMUMUMUZ++?,                  
-                            ?UMMMMMO+???MMUMUMUMUMOII=,                       
-                            ?UUUMUUZOMUUMUMMUMM+??=
-                            ?UMMUMMUUUMUMM$???~
-                           ,?UMUUMUUU$?+?~:                                  
-                           :IUUUM?+?I=:                                  
-                           ????~,
+ ____________________________________________
+/ “I want you to identify your strengths or  \
+| talents and to find something about        |
+| yourself that makes you unique and special |
+| and refer to that image each time you find |
+| yourself feeling insecure or unsure.”      |
+|                                            |
+\  -- Carlos Wallace                         /
+ --------------------------------------------
+    \                                  ___-------___
+     \                             _-~~             ~~-_
+      \                         _-~                    /~-_
+             /^\__/^\         /~  \                   /    \
+           /|  o|| o|        /      \_______________/        \
+          | |___||__|      /       /                \          \
+          |          \    /      /                    \          \
+          |   (_______) /______/                        \_________ \
+          |         / /         \                      /            \
+           \         \^\\         \                  /               \     /
+             \         ||           \______________/      _-_       //\__//
+               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
+                 ~-----||====/~     |==================|       |/~~~~~
+                  (_(__/  ./     /                    \_\      \.
+                         (_(___/                         \_____)_)
 ```
 <!-- END_QUOTE -->
 
