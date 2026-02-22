@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰓿䕯蹎㳥落類</p>
-      <p class="nom">擬命榮顯傷𠊛流離”</p>
-      <p class="quocngu">Rễ bèo chân sóng lạc loài,</p>
-      <p class="quocngu">Nghĩ mình vinh hiển, thương người lưu ly.</p>
-      <p class="author"><i>(Dòng 2871-2872) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“生浪𫨩呐提澄</p>
+      <p class="nom">𢚸低𢚸妬渚曾咍牢”</p>
+      <p class="quocngu">Sinh rằng: "Hay nói đè chừng,</p>
+      <p class="quocngu">Lòng đây, lòng đó chưa từng hay sao?</p>
+      <p class="author"><i>(Dòng 1361-1362) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I want you to identify your strengths or  \
-| talents and to find something about        |
-| yourself that makes you unique and special |
-| and refer to that image each time you find |
-| yourself feeling insecure or unsure.”      |
-|                                            |
-\  -- Carlos Wallace                         /
- --------------------------------------------
-    \                                  ___-------___
-     \                             _-~~             ~~-_
-      \                         _-~                    /~-_
-             /^\__/^\         /~  \                   /    \
-           /|  o|| o|        /      \_______________/        \
-          | |___||__|      /       /                \          \
-          |          \    /      /                    \          \
-          |   (_______) /______/                        \_________ \
-          |         / /         \                      /            \
-           \         \^\\         \                  /               \     /
-             \         ||           \______________/      _-_       //\__//
-               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
-                 ~-----||====/~     |==================|       |/~~~~~
-                  (_(__/  ./     /                    \_\      \.
-                         (_(___/                         \_____)_)
+ __________________________________________
+/ “People should just buy a CD and rip it. \
+| You are legal then.”                     |
+|                                          |
+\  -- Bill Gates                           /
+ ------------------------------------------
+  \   ^__^
+   \  (oo)\_______        ________
+      (__)\       )\/\    |Super |
+          ||----W |       |Milker|
+          ||    UDDDDDDDDD|______|
 ```
 <!-- END_QUOTE -->
 
