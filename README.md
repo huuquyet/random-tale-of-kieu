@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“生浪𫨩呐提澄</p>
-      <p class="nom">𢚸低𢚸妬渚曾咍牢”</p>
-      <p class="quocngu">Sinh rằng: "Hay nói đè chừng,</p>
-      <p class="quocngu">Lòng đây, lòng đó chưa từng hay sao?</p>
-      <p class="author"><i>(Dòng 1361-1362) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“湥珠請説卷袍</p>
+      <p class="nom">𢜠𢜠𢣃𢣃掣包羅情”</p>
+      <p class="quocngu">Giọt châu thánh thót quẹn bào,</p>
+      <p class="quocngu">Mừng mừng tủi tủi xiết bao là tình!</p>
+      <p class="author"><i>(Dòng 3015-3016) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,17 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “People should just buy a CD and rip it. \
-| You are legal then.”                     |
-|                                          |
-\  -- Bill Gates                           /
- ------------------------------------------
-  \   ^__^
-   \  (oo)\_______        ________
-      (__)\       )\/\    |Super |
-          ||----W |       |Milker|
-          ||    UDDDDDDDDD|______|
+ _____________________________________________
+/ “I came here to peacefully show you the way \
+| to peace.”                                  |
+|                                             |
+\  -- Debasish Mridha                         /
+ ---------------------------------------------
+  \
+   \
+    \
+             ＿＿＿＿
+       ＜ :: :: :: :: `丶､
+       ／   _, ｨ:ﾊ ､＿: ::＼
+     ∠:: :/ |/|/ \/  \/:: |
+rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
+ヽ／＼i:｜   ┌──┐   i::|／＼ノ
+  ＼::|(||   |:::::|    ||)|::／
+    ＼|人|.、|:::::| .ｨ|ﾉ:八／
+      ＼\/\/>|:::::|<\/\/／
+        ＼ :::>TﾇT<::: ／
+          Y : ＼W／ : Y 
 ```
 <!-- END_QUOTE -->
 
