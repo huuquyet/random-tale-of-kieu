@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“湥珠請説卷袍</p>
-      <p class="nom">𢜠𢜠𢣃𢣃掣包羅情”</p>
-      <p class="quocngu">Giọt châu thánh thót quẹn bào,</p>
-      <p class="quocngu">Mừng mừng tủi tủi xiết bao là tình!</p>
-      <p class="author"><i>(Dòng 3015-3016) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㳥情󰟯㐌漂漂</p>
+      <p class="nom">䀡𥪝歐厭固調𢙲𢜞”</p>
+      <p class="quocngu">Sóng tình dường đã xiêu xiêu,</p>
+      <p class="quocngu">Xem trong âu yếm có điều lả lơi.</p>
+      <p class="author"><i>(Dòng 499-500) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I came here to peacefully show you the way \
-| to peace.”                                  |
-|                                             |
-\  -- Debasish Mridha                         /
- ---------------------------------------------
-  \
-   \
-    \
-             ＿＿＿＿
-       ＜ :: :: :: :: `丶､
-       ／   _, ｨ:ﾊ ､＿: ::＼
-     ∠:: :/ |/|/ \/  \/:: |
-rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
-ヽ／＼i:｜   ┌──┐   i::|／＼ノ
-  ＼::|(||   |:::::|    ||)|::／
-    ＼|人|.、|:::::| .ｨ|ﾉ:八／
-      ＼\/\/>|:::::|<\/\/／
-        ＼ :::>TﾇT<::: ／
-          Y : ＼W／ : Y 
+ ____________________________________________
+/ “A traitor is a betrayer - one who         \
+| practices injury, while professing         |
+| friendship. Benedict Arnold was a traitor, |
+| solely because, while professing           |
+| friendship for the American cause, he      |
+| attempted to injure it. An open enemy,     |
+| however criminal in other respects, is no  |
+| traitor.”                                  |
+|                                            |
+\  -- Lysander Spooner                       /
+ --------------------------------------------
+     \
+      \
+         __________________
+        /\  ______________ \
+       /::\ \ZZZZZZZZZZZZ/\ \
+      /:/\.\ \        /:/\:\ \
+     /:/Z/\:\ \      /:/Z/\:\ \
+    /:/Z/__\:\ \____/:/Z/  \:\ \
+   /:/Z/____\:\ \___\/Z/    \:\ \
+   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
+    \:\ \     \:\ \ \:\ \     \:\ \
+     \:\ \     \:\ \_\;\_\_____\;\ \
+      \:\ \     \:\_________________\
+       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
+        \:\ \  /:/Z/    \:\ \  /:/Z/
+         \:\ \/:/Z/      \:\ \/:/Z/
+          \:\/:/Z/________\;\/:/Z/
+           \::/Z/_______itz__\/Z/
+            \/ZZZZZZZZZZZZZZZZZ/
 ```
 <!-- END_QUOTE -->
 
