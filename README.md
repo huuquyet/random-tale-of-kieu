@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㳥情󰟯㐌漂漂</p>
-      <p class="nom">䀡𥪝歐厭固調𢙲𢜞”</p>
-      <p class="quocngu">Sóng tình dường đã xiêu xiêu,</p>
-      <p class="quocngu">Xem trong âu yếm có điều lả lơi.</p>
-      <p class="author"><i>(Dòng 499-500) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢴑𠳒娘倍拔𠫾</p>
+      <p class="nom">事𨷈𢆥𡳵計之悲𣇞”</p>
+      <p class="quocngu">Dứt lời, nàng vội gạt đi:</p>
+      <p class="quocngu">"Sự muôn năm cũ, kể chi bây giờ?</p>
+      <p class="author"><i>(Dòng 3077-3078) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,36 +26,41 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “A traitor is a betrayer - one who         \
-| practices injury, while professing         |
-| friendship. Benedict Arnold was a traitor, |
-| solely because, while professing           |
-| friendship for the American cause, he      |
-| attempted to injure it. An open enemy,     |
-| however criminal in other respects, is no  |
-| traitor.”                                  |
+/ “September had no natural defense against  \
+| lost things, being one herself. She could  |
+| not quite have put it into words, but she  |
+| felt profoundly, at the bottom of her new, |
+| shining heart, that she could find lost    |
+| things. She could make them un-lost if she |
+| were brave enough. After all, if enough    |
+| lost things band together, even in the     |
+| darkest depths, they aren't really lost at |
+| all anymore.”                              |
 |                                            |
-\  -- Lysander Spooner                       /
+\  -- Catherynne M. Valente                  /
  --------------------------------------------
-     \
-      \
-         __________________
-        /\  ______________ \
-       /::\ \ZZZZZZZZZZZZ/\ \
-      /:/\.\ \        /:/\:\ \
-     /:/Z/\:\ \      /:/Z/\:\ \
-    /:/Z/__\:\ \____/:/Z/  \:\ \
-   /:/Z/____\:\ \___\/Z/    \:\ \
-   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
-    \:\ \     \:\ \ \:\ \     \:\ \
-     \:\ \     \:\ \_\;\_\_____\;\ \
-      \:\ \     \:\_________________\
-       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
-        \:\ \  /:/Z/    \:\ \  /:/Z/
-         \:\ \/:/Z/      \:\ \/:/Z/
-          \:\/:/Z/________\;\/:/Z/
-           \::/Z/_______itz__\/Z/
-            \/ZZZZZZZZZZZZZZZZZ/
+  \                         ________
+   \                    _.-Y  |  |  Y-.,_
+    \                .-"   |  |  |  ||   "~-.      
+          _____     |""[]"|" !""! "|"=="" "I      
+       .-"{-. "I----]_   :|------..| []  __L      
+      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
+      ^-=\[_c=-'  ~j______[________]_L______L]    
+                    [_L--.\_==I|I==/.--.j_I_/     
+                      j)==(["-----`])==((_]       
+                       I--I"~~"""~~"I--I          
+                       |[]|         |[]|          
+                       j__l         j__l          
+                       |!!|         |!!|          
+                       |..|         |..|         
+                       )[](         )[](          
+                       ]--[         ]--[          
+                       [L_]         [L_]          
+                      /|..|\       /|..|\         
+                     '={--}=`     '={--}=`        
+                    .-^-r--^-.   .-^-r--^-.       
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Modified ATAT from Row  (the Ascii-Wizard of Oz)
 ```
 <!-- END_QUOTE -->
 
