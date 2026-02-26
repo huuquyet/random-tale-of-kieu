@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢴑𠳒娘倍拔𠫾</p>
-      <p class="nom">事𨷈𢆥𡳵計之悲𣇞”</p>
-      <p class="quocngu">Dứt lời, nàng vội gạt đi:</p>
-      <p class="quocngu">"Sự muôn năm cũ, kể chi bây giờ?</p>
-      <p class="author"><i>(Dòng 3077-3078) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰋇𢚸下顧旦饒</p>
+      <p class="nom">󰋇𠳒下賜捻珠招鐄”</p>
+      <p class="quocngu">Mấy lòng hạ cố đến nhau,</p>
+      <p class="quocngu">Mấy lời hạ tứ ném châu gieo vàng.</p>
+      <p class="author"><i>(Dòng 197-198) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,41 +26,41 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “September had no natural defense against  \
-| lost things, being one herself. She could  |
-| not quite have put it into words, but she  |
-| felt profoundly, at the bottom of her new, |
-| shining heart, that she could find lost    |
-| things. She could make them un-lost if she |
-| were brave enough. After all, if enough    |
-| lost things band together, even in the     |
-| darkest depths, they aren't really lost at |
-| all anymore.”                              |
+/ “He winced at her efforts to mollify him.  \
+| Why didn't she say she was disgusted with  |
+| his behaviour, with his long absence, his  |
+| infrequent superficial letters? And if she |
+| did say it - would he defend himself?      |
+| Would he give reasons, try to explain how  |
+| meaningless every endeavour seemed to him? |
+| No. For then she would start crying again, |
+| he would tell her to stop being silly, she |
+| would ask for details, and he would tell   |
+| her to mind her own business.”             |
 |                                            |
-\  -- Catherynne M. Valente                  /
+\  -- Rohinton Mistry                        /
  --------------------------------------------
-  \                         ________
-   \                    _.-Y  |  |  Y-.,_
-    \                .-"   |  |  |  ||   "~-.      
-          _____     |""[]"|" !""! "|"=="" "I      
-       .-"{-. "I----]_   :|------..| []  __L      
-      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
-      ^-=\[_c=-'  ~j______[________]_L______L]    
-                    [_L--.\_==I|I==/.--.j_I_/     
-                      j)==(["-----`])==((_]       
-                       I--I"~~"""~~"I--I          
-                       |[]|         |[]|          
-                       j__l         j__l          
-                       |!!|         |!!|          
-                       |..|         |..|         
-                       )[](         )[](          
-                       ]--[         ]--[          
-                       [L_]         [L_]          
-                      /|..|\       /|..|\         
-                     '={--}=`     '={--}=`        
-                    .-^-r--^-.   .-^-r--^-.       
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Modified ATAT from Row  (the Ascii-Wizard of Oz)
+   \
+    \
+
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
