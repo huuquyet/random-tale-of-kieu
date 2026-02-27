@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰋇𢚸下顧旦饒</p>
-      <p class="nom">󰋇𠳒下賜捻珠招鐄”</p>
-      <p class="quocngu">Mấy lòng hạ cố đến nhau,</p>
-      <p class="quocngu">Mấy lời hạ tứ ném châu gieo vàng.</p>
-      <p class="author"><i>(Dòng 197-198) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“典𪰛棟𨷶掑扦</p>
+      <p class="nom">𦼔𠆳󰢿額𦹵𨖲𠃅茹”</p>
+      <p class="quocngu">Đến thì đóng cửa cài then,</p>
+      <p class="quocngu">Rêu trùm kẽ ngạch, cỏ lên mái nhà.</p>
+      <p class="author"><i>(Dòng 3229-3230) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,42 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “He winced at her efforts to mollify him.  \
-| Why didn't she say she was disgusted with  |
-| his behaviour, with his long absence, his  |
-| infrequent superficial letters? And if she |
-| did say it - would he defend himself?      |
-| Would he give reasons, try to explain how  |
-| meaningless every endeavour seemed to him? |
-| No. For then she would start crying again, |
-| he would tell her to stop being silly, she |
-| would ask for details, and he would tell   |
-| her to mind her own business.”             |
-|                                            |
-\  -- Rohinton Mistry                        /
- --------------------------------------------
-   \
+ _________________________________________
+/ “The true test of character is to live  \
+| win-win even when promoted to positions |
+| where win-lose is possible.”            |
+|                                         |
+\  -- Orrin Woodward                      /
+ -----------------------------------------
     \
-
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+     \
+      \
+                    ___
+                _.-'   ```'--.._    
+              .'                `-._ 
+             /                      `.     
+            /                         `.  
+           /                            `.  
+          :       (                       \   
+          |    (   \_                  )   `.  
+          |     \__/ '.               /  )  ;  
+          |   (___:    \            _/__/   ;  
+          :       | _  ;          .'   |__) :  
+           :      |` \ |         /     /   /  
+            \     |_  ;|        /`\   /   / 
+             \    ; ) :|       ;_  ; /   /  
+              \_  .-''-.       | ) :/   /  
+             .-         `      .--.'   /  
+            :         _.----._     `  < 
+            :       -'........'-       `.
+             `.        `''''`           ;
+               `'-.__                  ,'
+                     ``--.   :'-------'
+                         :   :
+                        .'   '.
 ```
 <!-- END_QUOTE -->
 
