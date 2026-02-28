@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“典𪰛棟𨷶掑扦</p>
-      <p class="nom">𦼔𠆳󰢿額𦹵𨖲𠃅茹”</p>
-      <p class="quocngu">Đến thì đóng cửa cài then,</p>
-      <p class="quocngu">Rêu trùm kẽ ngạch, cỏ lên mái nhà.</p>
-      <p class="author"><i>(Dòng 3229-3230) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡄎歐𠊚意寶尼</p>
+      <p class="nom">拯緣渚易𠓨𢬣埃扲”</p>
+      <p class="quocngu">Ngẫm âu người ấy báu này,</p>
+      <p class="quocngu">Chẳng duyên chưa dễ vào tay ai cầm!"</p>
+      <p class="author"><i>(Dòng 297-298) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The true test of character is to live  \
-| win-win even when promoted to positions |
-| where win-lose is possible.”            |
-|                                         |
-\  -- Orrin Woodward                      /
- -----------------------------------------
+ __________________________________________
+/ “When life comes to an end, we will take \
+| nothing with us.”                        |
+|                                          |
+\  -- Lailah Gifty Akita                   /
+ ------------------------------------------
+   \
     \
-     \
-      \
-                    ___
-                _.-'   ```'--.._    
-              .'                `-._ 
-             /                      `.     
-            /                         `.  
-           /                            `.  
-          :       (                       \   
-          |    (   \_                  )   `.  
-          |     \__/ '.               /  )  ;  
-          |   (___:    \            _/__/   ;  
-          :       | _  ;          .'   |__) :  
-           :      |` \ |         /     /   /  
-            \     |_  ;|        /`\   /   / 
-             \    ; ) :|       ;_  ; /   /  
-              \_  .-''-.       | ) :/   /  
-             .-         `      .--.'   /  
-            :         _.----._     `  < 
-            :       -'........'-       `.
-             `.        `''''`           ;
-               `'-.__                  ,'
-                     ``--.   :'-------'
-                         :   :
-                        .'   '.
+
+      (\(\/
+  .-._)oo  '_
+  \'---.     .\'\
+       )    \.-\'\
+      /__ ;     (
+      |__ : /'._/
+       \_  (
+       .,)  )
+       \'-.-\'
+
 ```
 <!-- END_QUOTE -->
 
