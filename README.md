@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢩣絩𣌉𣌋清台</p>
-      <p class="nom">𠚢𠓨󰜋墨呐唭如空”</p>
-      <p class="quocngu">Buồng thêu khuya sớm thảnh thơi,</p>
-      <p class="quocngu">Ra vào một mực nói cười như không.</p>
-      <p class="author"><i>(Dòng 1565-1566) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪𢚸當忖恜菭</p>
+      <p class="nom">絲綠群王䋦尼渚衝”</p>
+      <p class="quocngu">Rằng: "Lòng đương thổn thức đầy,</p>
+      <p class="quocngu">Tơ duyên còn vướng mối này chưa xong.</p>
+      <p class="author"><i>(Dòng 719-720) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Although not a very old man, I have yet  \
-| lived a great deal in my life, and I have |
-| known sorrow too bitter and joy too keen  |
-| to allow me to become either cast down or |
-| elated for more than a very brief period  |
-| over any success or defeat.”              |
-|                                           |
-\  -- Theodore Roosevelt                    /
- -------------------------------------------
-     \
-      \
-             ,;;;;;;;,
-            ;;;;;;;;;;;,
-           ;;;;;'_____;'
-           ;;;(/))))|((\
-           _;;((((((|))))
-          / |_\\\\\\\\\\\\
-     .--~(  \ ~))))))))))))
-    /     \  `\-(((((((((((\\
-    |    | `\   ) |\       /|)
-     |    |  `. _/  \_____/ |
-      |    , `\~            /
-       |    \  \           /
-      | `.   `\|          /
-      |   ~-   `\        /
-       \____~._/~ -_,   (\
-        |-----|\   \    ';;
-       |      | :;;;'     \
-      |  /    |            |
-      |       |            |
+ _________________________________________
+/ “Bad news sells because the amygdala is \
+| always looking for something to fear.”  |
+|                                         |
+\  -- Peter Diamandis                     /
+ -----------------------------------------
+       \
+        \
+         \  _))
+           > o\     _~
+           `;'\\__-' \_
+              | )  _ \ \
+             / / ``   w w
+            w w
 ```
 <!-- END_QUOTE -->
 
