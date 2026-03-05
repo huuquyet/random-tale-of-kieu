@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“生浪舌固如𠳒</p>
-      <p class="nom">紅顔薄命没𠊚󰅹爲”</p>
-      <p class="quocngu">Sinh rằng: "Thiệt có như lời,</p>
-      <p class="quocngu">Hồng nhan bạc mệnh một người nào vay!</p>
-      <p class="author"><i>(Dòng 1905-1906) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情𥢆払吏呐𡃕</p>
+      <p class="nom">󰜋茹埃共邏𨓡𠸦嘮”</p>
+      <p class="quocngu">Tình riêng, chàng lại nói cùng,</p>
+      <p class="quocngu">Một nhà ai cũng lạ lùng khen lao.</p>
+      <p class="author"><i>(Dòng 3217-3218) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,36 +26,35 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Every actor has a strength, and sometimes \
-| you just respond to things that you see    |
-| yourself better at. I'm aware of what I    |
-| can and can't do.”                         |
+/ “Belief... was its own magic-so long as it \
+| was carefully placed, often examined, like |
+| a bridge kept in careful repair.”          |
 |                                            |
-\  -- Jason Statham                          /
+\  -- C.J. Cherryh                           /
  --------------------------------------------
-\
- \
-   1A   2A                                         3A  4A  5A  6A  7A  8A
-  -----                                                               -----
-1 | H |                                                               |He |
-  |---+----                                       --------------------+---|
-2 |Li |Be |                                       | B | C | N | O | F |Ne |
-  |---+---|                                       |---+---+---+---+---+---|
-3 |Na |Mg |3B  4B  5B  6B  7B |    8B     |1B  2B |Al |Si | P | S |Cl |Ar |
-  |---+---+---------------------------------------+---+---+---+---+---+---|
-4 | K |Ca |Sc |Ti | V |Cr |Mn |Fe |Co |Ni |Cu |Zn |Ga |Ge |As |Se |Br |Kr |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-5 |Rb |Sr | Y |Zr |Nb |Mo |Tc |Ru |Rh |Pd |Ag |Cd |In |Sn |Sb |Te | I |Xe |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-6 |Cs |Ba |Lu |Hf |Ta | W |Re |Os |Ir |Pt |Au |Hg |Tl |Pb |Bi |Po |At |Rn |
-  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-7 |Fr |Ra |Lr |Rf |Db |Sg |Bh |Hs |Mt |Ds |Rg |Cn |Nh |Fl |Mc |Lv |Ts |Og |
-  -------------------------------------------------------------------------
-              -------------------------------------------------------------
-   Lanthanide |La |Ce |Pr |Nd |Pm |Sm |Eu |Gd |Tb |Dy |Ho |Er |Tm |Yb |Lu |
-              |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
-   Actinide   |Ac |Th |Pa | U |Np |Pu |Am |Cm |Bk |Cf |Es |Fm |Md |No |Lr |
-              -------------------------------------------------------------
+     \
+      \
+
+ +@##########M/             :@#########@/
+ \##############$;H#######@;+#############
+ \###############M########################
+ \##############X,-/++/+%+/,%#############
+ \############M$:           -X############
+ \##########H;.      ,--.     =X##########
+ :X######M;     -$H@M##MH%:    :H#######@
+   =%#M+=,   ,+@#######M###H:    -=/M#%
+   %M##@+   .X##$, ./+- ./###;    +M##%
+   %####M.  /###=         @##M.   X###%
+   %####M.  ;M##H:.     =$###X.   $###%
+   %####@.   /####M$-./@#####:    %###%
+   %H#M/,     /H###########@:     ./M#%
+  ;$H##@@H:    .;$HM#MMMH$;,   ./H@M##M$=
+ X#########%.      ..,,.     .;@#########
+ \###########H+:.           ./@###########
+ \##############/ ./%%%%+/.-M#############
+ \##############H$@#######@@##############
+ \##############X%########M$M#############
+ +M##########H:            .$##########X=
 ```
 <!-- END_QUOTE -->
 
