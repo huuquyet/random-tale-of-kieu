@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情𥢆払吏呐𡃕</p>
-      <p class="nom">󰜋茹埃共邏𨓡𠸦嘮”</p>
-      <p class="quocngu">Tình riêng, chàng lại nói cùng,</p>
-      <p class="quocngu">Một nhà ai cũng lạ lùng khen lao.</p>
-      <p class="author"><i>(Dòng 3217-3218) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨁮蹺𡶀假𠫾𥿺</p>
+      <p class="nom">𡳳墻󰟯固裊通買樔”</p>
+      <p class="quocngu">Lần theo núi giả đi vòng,</p>
+      <p class="quocngu">Cuối tường dường có nẻo thông mới rào.</p>
+      <p class="author"><i>(Dòng 389-390) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,14 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Belief... was its own magic-so long as it \
-| was carefully placed, often examined, like |
-| a bridge kept in careful repair.”          |
-|                                            |
-\  -- C.J. Cherryh                           /
- --------------------------------------------
-     \
-      \
-
- +@##########M/             :@#########@/
- \##############$;H#######@;+#############
- \###############M########################
- \##############X,-/++/+%+/,%#############
- \############M$:           -X############
- \##########H;.      ,--.     =X##########
- :X######M;     -$H@M##MH%:    :H#######@
-   =%#M+=,   ,+@#######M###H:    -=/M#%
-   %M##@+   .X##$, ./+- ./###;    +M##%
-   %####M.  /###=         @##M.   X###%
-   %####M.  ;M##H:.     =$###X.   $###%
-   %####@.   /####M$-./@#####:    %###%
-   %H#M/,     /H###########@:     ./M#%
-  ;$H##@@H:    .;$HM#MMMH$;,   ./H@M##M$=
- X#########%.      ..,,.     .;@#########
- \###########H+:.           ./@###########
- \##############/ ./%%%%+/.-M#############
- \##############H$@#######@@##############
- \##############X%########M$M#############
- +M##########H:            .$##########X=
+ ______________________________________
+/ “My philosophy is I'm raising future \
+| adults, not children.”               |
+|                                      |
+\  -- Usher                            /
+ --------------------------------------
+  \
+¯\_(ツ)_/¯
 ```
 <!-- END_QUOTE -->
 
