@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨁮蹺𡶀假𠫾𥿺</p>
-      <p class="nom">𡳳墻󰟯固裊通買樔”</p>
-      <p class="quocngu">Lần theo núi giả đi vòng,</p>
-      <p class="quocngu">Cuối tường dường có nẻo thông mới rào.</p>
-      <p class="author"><i>(Dòng 389-390) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣷭塵沉浽嬋娟</p>
+      <p class="nom">有情傷餒無緣邏𠁀”</p>
+      <p class="quocngu">Bể trần chìm nổi thuyền quyên,</p>
+      <p class="quocngu">Hữu tình thương nỗi vô duyên lạ đời!"</p>
+      <p class="author"><i>(Dòng 1903-1904) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,14 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________
-/ “My philosophy is I'm raising future \
-| adults, not children.”               |
-|                                      |
-\  -- Usher                            /
- --------------------------------------
+ __________________________________________
+/ “We did not get any money from the early \
+| records. It was all taken by crooked     |
+| managers. It is just a gangster's        |
+| paradise.”                               |
+|                                          |
+\  -- Robert Wyatt                         /
+ ------------------------------------------
   \
-¯\_(ツ)_/¯
+   \
+    \
+
+     iﾆﾆi
+    /   /ヽ
+   ｜農｜｜
+   ｜協｜｜
+   ｜牛｜｜＿
+ ／｜乳｜｜／
+ ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->
 
