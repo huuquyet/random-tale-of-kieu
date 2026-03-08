@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣷭塵沉浽嬋娟</p>
-      <p class="nom">有情傷餒無緣邏𠁀”</p>
-      <p class="quocngu">Bể trần chìm nổi thuyền quyên,</p>
-      <p class="quocngu">Hữu tình thương nỗi vô duyên lạ đời!"</p>
-      <p class="author"><i>(Dòng 1903-1904) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“據牢𠹾卒󰜋皮</p>
+      <p class="nom">𡛔絲麻㐌語藝𣋽牢”</p>
+      <p class="quocngu">Cớ sao chịu tốt một bề,</p>
+      <p class="quocngu">Gái tơ mà đã ngứa nghề sớm sao!</p>
+      <p class="author"><i>(Dòng 975-976) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “We did not get any money from the early \
-| records. It was all taken by crooked     |
-| managers. It is just a gangster's        |
-| paradise.”                               |
-|                                          |
-\  -- Robert Wyatt                         /
- ------------------------------------------
+ _____________________________________________
+/ “Ability does catches my attention, but its \
+| a politeness in the person that I           |
+| remember.”                                  |
+|                                             |
+\  -- Amit Kalantri                           /
+ ---------------------------------------------
+ \
   \
    \
-    \
-
-     iﾆﾆi
-    /   /ヽ
-   ｜農｜｜
-   ｜協｜｜
-   ｜牛｜｜＿
- ／｜乳｜｜／
- ￣￣￣￣￣
+            . .: -----  .
+         ／: .: .: .:.: .:＼
+        /    ..  . l.: .: .:ヽ
+       : .: ,/|-/|:ハ.:|-.ｌ.:
+       |: :ノ |/.|/  ヽ|.Vﾊ.:|
+       |.::|  =＝     ＝= }.:| 
+       |.γ|| ''  ＿_   ''{::ﾊ 
+       ﾉノﾊﾘ   ｛   }     ﾉV
+       ∨Vvヽ､._  --'_ .イV
+            γ:/:{.又 }ﾍヽ 
+          ／:〉:V ﾊ.ﾘ〈: ＼ 
+        ／ : Vヽ:V// /:V ::＼ 
+    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
+   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
+    ー'    ./: : : : : ﾊ      ー' 
+          ./::o: : : :o ﾊ 
+          /ヽ: : :Λ: : :ﾉ:、 
+        〈:::￣￣:::￣:::::〉 
+          ＼:__:::::::__:／ 
+            |  Τ￣Τ | 
+            |  |   |  | 
+            |''|   |''| 
 ```
 <!-- END_QUOTE -->
 
