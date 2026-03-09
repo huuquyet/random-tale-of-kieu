@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“據牢𠹾卒󰜋皮</p>
-      <p class="nom">𡛔絲麻㐌語藝𣋽牢”</p>
-      <p class="quocngu">Cớ sao chịu tốt một bề,</p>
-      <p class="quocngu">Gái tơ mà đã ngứa nghề sớm sao!</p>
-      <p class="author"><i>(Dòng 975-976) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣈘𣈜𨻫仍陰󰠐</p>
+      <p class="nom">󰌕兵兜㐌喑喑𦊚方”</p>
+      <p class="quocngu">Đêm ngày luống những âm thầm,</p>
+      <p class="quocngu">Lửa binh đâu đã ầm ầm bốn phương.</p>
+      <p class="author"><i>(Dòng 2249-2250) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Ability does catches my attention, but its \
-| a politeness in the person that I           |
-| remember.”                                  |
-|                                             |
-\  -- Amit Kalantri                           /
- ---------------------------------------------
- \
-  \
-   \
-            . .: -----  .
-         ／: .: .: .:.: .:＼
-        /    ..  . l.: .: .:ヽ
-       : .: ,/|-/|:ハ.:|-.ｌ.:
-       |: :ノ |/.|/  ヽ|.Vﾊ.:|
-       |.::|  =＝     ＝= }.:| 
-       |.γ|| ''  ＿_   ''{::ﾊ 
-       ﾉノﾊﾘ   ｛   }     ﾉV
-       ∨Vvヽ､._  --'_ .イV
-            γ:/:{.又 }ﾍヽ 
-          ／:〉:V ﾊ.ﾘ〈: ＼ 
-        ／ : Vヽ:V// /:V ::＼ 
-    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
-   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
-    ー'    ./: : : : : ﾊ      ー' 
-          ./::o: : : :o ﾊ 
-          /ヽ: : :Λ: : :ﾉ:、 
-        〈:::￣￣:::￣:::::〉 
-          ＼:__:::::::__:／ 
-            |  Τ￣Τ | 
-            |  |   |  | 
-            |''|   |''| 
+ _____________________________________
+/ “My work should be seen as poetry.” \
+|                                     |
+\  -- Robert Wilson                   /
+ -------------------------------------
+          \           \  / 
+           \           \/  
+               (__)    /\         
+               (oo)   O  O        
+               _\/_   //         
+         *    (    ) //       
+          \  (\\    //       
+           \(  \\    )                              
+            (   \\   )   /\                          
+  ___[\______/^^^^^^^\__/) o-)__                     
+ |\__[=======______//________)__\                    
+ \|_______________//____________|                    
+     |||      || //||     |||
+     |||      || @.||     |||                        
+      ||      \/  .\/      ||                        
+                 . .                                 
+                '.'.`                                
+
+            COW-OPERATION                           
 ```
 <!-- END_QUOTE -->
 
