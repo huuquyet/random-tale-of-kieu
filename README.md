@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣈘𣈜𨻫仍陰󰠐</p>
-      <p class="nom">󰌕兵兜㐌喑喑𦊚方”</p>
-      <p class="quocngu">Đêm ngày luống những âm thầm,</p>
-      <p class="quocngu">Lửa binh đâu đã ầm ầm bốn phương.</p>
-      <p class="author"><i>(Dòng 2249-2250) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“事𢚸吘貝水人</p>
+      <p class="nom">信霜吨󰢄賒𧵆㖔嗃”</p>
+      <p class="quocngu">Sự lòng ngỏ với băng nhân,</p>
+      <p class="quocngu">Tin sương đồn đại xa gần xôn xao.</p>
+      <p class="author"><i>(Dòng 621-622) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________
-/ “My work should be seen as poetry.” \
-|                                     |
-\  -- Robert Wilson                   /
- -------------------------------------
-          \           \  / 
-           \           \/  
-               (__)    /\         
-               (oo)   O  O        
-               _\/_   //         
-         *    (    ) //       
-          \  (\\    //       
-           \(  \\    )                              
-            (   \\   )   /\                          
-  ___[\______/^^^^^^^\__/) o-)__                     
- |\__[=======______//________)__\                    
- \|_______________//____________|                    
-     |||      || //||     |||
-     |||      || @.||     |||                        
-      ||      \/  .\/      ||                        
-                 . .                                 
-                '.'.`                                
-
-            COW-OPERATION                           
+ _____________________________________________
+/ “Don't wait for inspiration. It comes while \
+| working.”                                   |
+|                                             |
+\  -- Henri Matisse                           /
+ ---------------------------------------------
+       \
+        \
+                   ,―ヾヽヽ/ｖへ／⌒ー
+                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
+              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
+            ／  ／            `ヾ  ー   ミヽ
+          ,/   /                   ヾ ＼  ヽﾐ
+         /    /                      ゞ      ヽ
+         i   /                       /      ＼
+        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
+        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
+        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
+        } ;  |    人､,;-,'^            /    くヾ  ）
+        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
+       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
+      ,i          -ー‐ `ゞ           ヽ   ヽ
+      彡彡                        ミ       ヽ
+''""￣彡      /   /   /   /            ミ   ﾂ＼
+      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
+        '―彡                         ｒー'"
+            ヾノ人,,.r--､ノノノノノり'"
 ```
 <!-- END_QUOTE -->
 
