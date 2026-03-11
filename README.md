@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“事𢚸吘貝水人</p>
-      <p class="nom">信霜吨󰢄賒𧵆㖔嗃”</p>
-      <p class="quocngu">Sự lòng ngỏ với băng nhân,</p>
-      <p class="quocngu">Tin sương đồn đại xa gần xôn xao.</p>
-      <p class="author"><i>(Dòng 621-622) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“惜花仍唅𢢯春</p>
+      <p class="nom">身尼易別󰋇吝﨤僊”</p>
+      <p class="quocngu">Tiếc hoa những ngậm ngùi xuân,</p>
+      <p class="quocngu">Thân này dễ biết mấy lần gặp tiên!</p>
+      <p class="author"><i>(Dòng 1703-1704) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Don't wait for inspiration. It comes while \
-| working.”                                   |
-|                                             |
-\  -- Henri Matisse                           /
- ---------------------------------------------
-       \
-        \
-                   ,―ヾヽヽ/ｖへ／⌒ー
-                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
-              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
-            ／  ／            `ヾ  ー   ミヽ
-          ,/   /                   ヾ ＼  ヽﾐ
-         /    /                      ゞ      ヽ
-         i   /                       /      ＼
-        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
-        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
-        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
-        } ;  |    人､,;-,'^            /    くヾ  ）
-        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
-       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
-      ,i          -ー‐ `ゞ           ヽ   ヽ
-      彡彡                        ミ       ヽ
-''""￣彡      /   /   /   /            ミ   ﾂ＼
-      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
-        '―彡                         ｒー'"
-            ヾノ人,,.r--､ノノノノノり'"
+ _______________________________
+/ “Prayer illuminate the path.” \
+|                               |
+\  -- Lailah Gifty Akita        /
+ -------------------------------
+           \     (      )
+            \    ~(^^^^)~
+             \    ) oo \~_          |\
+              \  /     | \        \~ /
+                ( 0  0  ) \        | |
+                 ---___/~  \       | |
+                  /'__/ |   ~-_____/ |
+   o          _   ~----~      ___---~
+     O       //     |         |
+            ((~\  _|         -|
+      o  O //-_ \/ |        ~  |
+           ^   \_ /         ~  |
+                  |          ~ |
+                  |     /     ~ |
+                  |     (       |
+                   \     \      /\
+                  / -_____-\   \ ~~-*
+                  |  /       \  \       .==.
+                  / /         / /       |  |
+                /~  |      //~  |       |__|         W<
+                ~~~~        ~~~~
 ```
 <!-- END_QUOTE -->
 
