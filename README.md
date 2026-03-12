@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“惜花仍唅𢢯春</p>
-      <p class="nom">身尼易別󰋇吝﨤僊”</p>
-      <p class="quocngu">Tiếc hoa những ngậm ngùi xuân,</p>
-      <p class="quocngu">Thân này dễ biết mấy lần gặp tiên!</p>
-      <p class="author"><i>(Dòng 1703-1704) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“特𠳒如𨷑𡬷𣘈</p>
+      <p class="nom">𨀒駒𣦎𨇒渃𡽫圭𠊚”</p>
+      <p class="quocngu">Được lời như mở tấc son,</p>
+      <p class="quocngu">Vó câu thẳng ruổi nước non quê người.</p>
+      <p class="author"><i>(Dòng 1601-1602) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________
-/ “Prayer illuminate the path.” \
-|                               |
-\  -- Lailah Gifty Akita        /
- -------------------------------
-           \     (      )
-            \    ~(^^^^)~
-             \    ) oo \~_          |\
-              \  /     | \        \~ /
-                ( 0  0  ) \        | |
-                 ---___/~  \       | |
-                  /'__/ |   ~-_____/ |
-   o          _   ~----~      ___---~
-     O       //     |         |
-            ((~\  _|         -|
-      o  O //-_ \/ |        ~  |
-           ^   \_ /         ~  |
-                  |          ~ |
-                  |     /     ~ |
-                  |     (       |
-                   \     \      /\
-                  / -_____-\   \ ~~-*
-                  |  /       \  \       .==.
-                  / /         / /       |  |
-                /~  |      //~  |       |__|         W<
-                ~~~~        ~~~~
+ ____________________________________________
+/ “Don’t act based on religion always have a \
+| purpose and focus”                         |
+|                                            |
+\  -- Sunday Adelaja                         /
+ --------------------------------------------
+   \
+    \
+       ____________
+      /\  ________ \
+     / /\ \______/\ \
+    / / /\ \  / /\ \ \
+   / / /__\ \/ / /\ \ \
+  / /_/____\ \/_/__\_\ \
+  \ \ \____/ / ________ \
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
