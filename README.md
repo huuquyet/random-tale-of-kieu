@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“特𠳒如𨷑𡬷𣘈</p>
-      <p class="nom">𨀒駒𣦎𨇒渃𡽫圭𠊚”</p>
-      <p class="quocngu">Được lời như mở tấc son,</p>
-      <p class="quocngu">Vó câu thẳng ruổi nước non quê người.</p>
-      <p class="author"><i>(Dòng 1601-1602) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“邏朱丐㳥傾城</p>
+      <p class="nom">爫朱覩舘漂亭如𨔈”</p>
+      <p class="quocngu">Lạ cho cái sóng khuynh thành,</p>
+      <p class="quocngu">Làm cho đổ quán xiêu đình như chơi!</p>
+      <p class="author"><i>(Dòng 1301-1302) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Don’t act based on religion always have a \
-| purpose and focus”                         |
-|                                            |
-\  -- Sunday Adelaja                         /
- --------------------------------------------
-   \
-    \
-       ____________
-      /\  ________ \
-     / /\ \______/\ \
-    / / /\ \  / /\ \ \
-   / / /__\ \/ / /\ \ \
-  / /_/____\ \/_/__\_\ \
-  \ \ \____/ / ________ \
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+ ___________________________________________
+/ “Work done by you with unconditional love \
+| and pure devotion goes straight in the    |
+| category of divine and immortal craft.”   |
+|                                           |
+\  -- Seema Brain Openers                   /
+ -------------------------------------------
+     \
+      \
+       ("`-'  '-/") .___..--' ' "`-._
+         ` o_ o  )    `-.   (      ) .`-.__. `)
+         (_Y_.) ' ._   )   `._` ;  `` -. .-'
+      _.. `--'_..-_/   /--' _ .' ,4
+   ( i l ),-''  ( l i),'  ( ( ! .-'    
 ```
 <!-- END_QUOTE -->
 
