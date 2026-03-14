@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“邏朱丐㳥傾城</p>
-      <p class="nom">爫朱覩舘漂亭如𨔈”</p>
-      <p class="quocngu">Lạ cho cái sóng khuynh thành,</p>
-      <p class="quocngu">Làm cho đổ quán xiêu đình như chơi!</p>
-      <p class="author"><i>(Dòng 1301-1302) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“帳蘇夾󰘚花桃</p>
+      <p class="nom">𨤔󰅹𫽄𪉽󰞺󰅹拯於”</p>
+      <p class="quocngu">Trướng tô giáp mặt hoa đào,</p>
+      <p class="quocngu">Vẻ nào chẳng mặn, nét nào chẳng ưa?</p>
+      <p class="author"><i>(Dòng 1281-1282) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,19 +26,16 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “Work done by you with unconditional love \
-| and pure devotion goes straight in the    |
-| category of divine and immortal craft.”   |
+/ “I will form good habits and become their \
+| slave.”                                   |
 |                                           |
-\  -- Seema Brain Openers                   /
+\  -- Og Mandino                            /
  -------------------------------------------
-     \
-      \
-       ("`-'  '-/") .___..--' ' "`-._
-         ` o_ o  )    `-.   (      ) .`-.__. `)
-         (_Y_.) ' ._   )   `._` ;  `` -. .-'
-      _.. `--'_..-_/   /--' _ .' ,4
-   ( i l ),-''  ( l i),'  ( ( ! .-'    
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 ```
 <!-- END_QUOTE -->
 
