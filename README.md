@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“束翁茹拱𧵆觥</p>
-      <p class="nom">秩𬂙𦰟󰌕失驚拥淶”</p>
-      <p class="quocngu">Thúc ông nhà cũng gần quanh,</p>
-      <p class="quocngu">Chợt trông ngọn lửa, thất kinh rụng rời.</p>
-      <p class="author"><i>(Dòng 1653-1654) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰣉寃家𧵑破家</p>
+      <p class="nom">群埃鍳貯𠓨茹女低”</p>
+      <p class="quocngu">Giống oan gia, của phá gia,</p>
+      <p class="quocngu">Còn ai dám chứa vào nhà nữa đây!</p>
+      <p class="author"><i>(Dòng 2097-2098) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,46 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “War has changed.It's no longer about      \
-| nations, ideologies, or ethnicity. It's an |
-| endless series of proxy battles, fought by |
-| mercenaries and machines.War--and it's     |
-| consumption of life--has become a          |
-| well-oiled machine.War has                 |
-| changed.ID-tagged soldiers carry ID-tagged |
-| weapons, use ID-tagged gear. Nanomachines  |
-| inside their bodies enhance and regulate   |
-| their abilities.Genetic control,           |
-| information control, emotion control,      |
-| battlefield control…everything is          |
-| monitored and kept under control.War…has   |
-| changed.The age of deterrence has become   |
-| the age of control, all in the name of     |
-| averting catastrophe from weapons of mass  |
-| destruction, and he who controls the       |
-| battlefield, controls history.War…has      |
-| changed.When the battlefield is under      |
-| total control, war becomes routine.”       |
+/ “In deep suffering, I got to know divinity \
+| within my soul.”                           |
 |                                            |
-\  -- David Hayter                           /
+\  -- Lailah Gifty Akita                     /
  --------------------------------------------
-   \      {
-    \  }   }   {
-      {   {  }  }
-       }   }{  {
-      {  }{  }  }
-     ( }{ }{  { )
-    .-{   }   }-.
-   ( ( } { } { } )
-   |`-.._____..-'|
-   |             ;--.
-   |   (__)     (__  \
-   |   (oo)      | )  )
-   |    \/       |/  /
-   |             /  /
-   |            (  /
-   \             y'
-    `-.._____..-'
+   \                     .___________.
+    \                    |           |
+     \    ___________.   |  |    /~\ |
+         / __   __  /|   | _ _   |_| |
+        / /:/  /:/ / |   !________|__!
+       / /:/  /:/ /  |            |
+      / /:/  /:/ /   |____________!
+     / /:/  /:/ /    |
+    / /:/  /:/ /     |
+   /  ~~   ~~ /      |
+   |~~~~~~~~~~|      |
+   |    ::    |     /
+   |    ==    |    /
+   |    ::    |   /
+   |    ::    |  /
+   |    ::  @ | /
+   !__________!/
 ```
 <!-- END_QUOTE -->
 
