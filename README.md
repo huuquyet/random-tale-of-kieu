@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠸦浪筆法㐌精</p>
-      <p class="nom">搊𠓨貝帖蘭亭󰅹輸”</p>
-      <p class="quocngu">Khen rằng: "Bút pháp đã tinh,</p>
-      <p class="quocngu">So vào với thiếp Lan đình nào thua!</p>
-      <p class="author"><i>(Dòng 1987-1988) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“餒𢜠別𥙩之斤</p>
+      <p class="nom">𠳒散合傳賒𧵆少兜”</p>
+      <p class="quocngu">Nỗi mừng biết lấy gì cân,</p>
+      <p class="quocngu">Lời tan hợp, chuyện xa gần thiếu đâu!</p>
+      <p class="author"><i>(Dòng 3027-3028) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,44 +25,41 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________________________________________________________________
-/ “[T]he atoms or elementary particles                                                         \
-| themselves are not real”                                                                     |
-|                                                                                              |
-\  -- they form a world of potentialities or possibilities rather than one of things or facts. /
- ----------------------------------------------------------------------------------------------
-                        \
-                         \     ___.
-                          \    L._, \
-               _.,         \   <  <\                _
-             ,' '           \  `.   | \            ( `
-          ../, `.            \  |    .\`.           \ \_
-         ,' ,..  .           _.,'    ||\l            )  '".
-        , ,'   \           ,'.-.`-._,'  |           .  _._`.
-      ,' /      \ \        `' ' `--/   | \          / /   ..\
-    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
-    |  '          ..         `-...-"  |  `-'      / /        . `.
-    | /           |L__           |    |          / /          `. `.
-   , /            .   .          |    |         / /             ` `
-  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
- / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
-  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
-' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
-|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
-||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
-||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
-|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
-||/            _,-------7 '              . |  `-'    l         /    `||
- |          ,' .-   ,' ||               | .-.        `.      .'     ||
- `'        ,'    `".'    |               |    `.        '. -.'       `'
-          /      ,'      |               |,'    \-.._,.'/'
-          .     /        .               .       \    .''
-        .`.    |         `.             /         :_,'.'
-          \ `...\   _     ,'-.        .'         /_.-'
-           `-.__ `,  `'   .  _.>----''.  _  __  /
-                .'        /"'          |  "'   '_
-               /_|.-'\ ,".             '.'`__'-( \
-                 / ,"'"\,'               `/  `-.|" m
+ ____________________________________________
+/ “Briar: "They never tell you some things.  \
+| They tell you mages have wonderful power   |
+| and they learn all kinds of secrets.       |
+| Nobody ever mentions that some secrets you |
+| don't ever want to learn." Rosethorn: "All |
+| you can do is learn good to balance the    |
+| bad. Learn and do all the good within your |
+| reach. Then, if you wake in a sweat, you   |
+| have something to set against the dream.”  |
+|                                            |
+\  -- Tamora Pierce                          /
+ --------------------------------------------
+    \
+     \
+            .+
+             /M;
+              H#@:              ;,
+              -###H-          -@/
+               %####$.  -;  .%#X
+                M#####+;#H :M#M.
+..          .+/;%#########X###-
+ -/%H%+;-,    +##############/
+    .:$M###MH$%+############X  ,--=;-
+        -/H#####################H+=.
+           .+#################X.
+         =%M####################H;.
+            /@###############+;;/%%;,
+         -%###################$.
+       ;H######################M=
+    ,%#####MH$%;+#####M###-/@####%
+  :$H%+;=-      -####X.,H#   -+M##@-
+ .              ,###;    ;      =$##+
+                .#H,               :XH,
+                 +                   .;-
 ```
 <!-- END_QUOTE -->
 
