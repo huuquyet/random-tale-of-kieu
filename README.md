@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“餒𢜠別𥙩之斤</p>
-      <p class="nom">𠳒散合傳賒𧵆少兜”</p>
-      <p class="quocngu">Nỗi mừng biết lấy gì cân,</p>
-      <p class="quocngu">Lời tan hợp, chuyện xa gần thiếu đâu!</p>
-      <p class="author"><i>(Dòng 3027-3028) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“蜍於𩙍竹𩅹梅</p>
+      <p class="nom">菫魚𤾓餒搥󰢕󰜋身”</p>
+      <p class="quocngu">Thờ ơ gió trúc mưa mai,</p>
+      <p class="quocngu">Ngẩn ngơ trăm nỗi, giùi mài một thân.</p>
+      <p class="author"><i>(Dòng 1249-1250) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,40 +26,30 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Briar: "They never tell you some things.  \
-| They tell you mages have wonderful power   |
-| and they learn all kinds of secrets.       |
-| Nobody ever mentions that some secrets you |
-| don't ever want to learn." Rosethorn: "All |
-| you can do is learn good to balance the    |
-| bad. Learn and do all the good within your |
-| reach. Then, if you wake in a sweat, you   |
-| have something to set against the dream.”  |
+/ “For one human being to love another human \
+| being: that is perhaps the most difficult  |
+| task that has been given to us, the        |
+| ultimate, the final problem and proof, the |
+| work for which all other work is merely    |
+| preparation.”                              |
 |                                            |
-\  -- Tamora Pierce                          /
+\  -- Rainer Maria Rilke                     /
  --------------------------------------------
-    \
-     \
-            .+
-             /M;
-              H#@:              ;,
-              -###H-          -@/
-               %####$.  -;  .%#X
-                M#####+;#H :M#M.
-..          .+/;%#########X###-
- -/%H%+;-,    +##############/
-    .:$M###MH$%+############X  ,--=;-
-        -/H#####################H+=.
-           .+#################X.
-         =%M####################H;.
-            /@###############+;;/%%;,
-         -%###################$.
-       ;H######################M=
-    ,%#####MH$%;+#####M###-/@####%
-  :$H%+;=-      -####X.,H#   -+M##@-
- .              ,###;    ;      =$##+
-                .#H,               :XH,
-                 +                   .;-
+          \     (
+           \     )
+            \   (
+         /\  .-""""-.  /\
+        //\\/  ,,,,  \//\\
+        |/\| ,;;;;;;, |/\|
+        //\\\;-""""-;///\\
+       //  \/   ..   \/  \\
+      (| ,-_| \ || / |_-, |)
+        //`__(\(__)/)__`\\
+       // /.-\`(oo)'/-.\ \\
+      (\ |)   ')  ('   (| /)
+       ` (|   (o  o)   |) `
+         \)    `--'    (/
+                  
 ```
 <!-- END_QUOTE -->
 
