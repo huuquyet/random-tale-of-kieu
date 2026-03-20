@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“蜍於𩙍竹𩅹梅</p>
-      <p class="nom">菫魚𤾓餒搥󰢕󰜋身”</p>
-      <p class="quocngu">Thờ ơ gió trúc mưa mai,</p>
-      <p class="quocngu">Ngẩn ngơ trăm nỗi, giùi mài một thân.</p>
-      <p class="author"><i>(Dòng 1249-1250) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“客遊俸固󰜋𠊚</p>
+      <p class="nom">其心户束拱㐻書香”</p>
+      <p class="quocngu">Khách du bỗng có một người,</p>
+      <p class="quocngu">Kỳ Tâm họ Thúc, cũng nòi thư hương.</p>
+      <p class="author"><i>(Dòng 1275-1276) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,31 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “For one human being to love another human \
-| being: that is perhaps the most difficult  |
-| task that has been given to us, the        |
-| ultimate, the final problem and proof, the |
-| work for which all other work is merely    |
-| preparation.”                              |
-|                                            |
-\  -- Rainer Maria Rilke                     /
- --------------------------------------------
-          \     (
-           \     )
-            \   (
-         /\  .-""""-.  /\
-        //\\/  ,,,,  \//\\
-        |/\| ,;;;;;;, |/\|
-        //\\\;-""""-;///\\
-       //  \/   ..   \/  \\
-      (| ,-_| \ || / |_-, |)
-        //`__(\(__)/)__`\\
-       // /.-\`(oo)'/-.\ \\
-      (\ |)   ')  ('   (| /)
-       ` (|   (o  o)   |) `
-         \)    `--'    (/
-                  
+ _____________________________________________
+/ “This next nugget of salesmanship cannot be \
+| perfected in a single afternoon. However,   |
+| once you have it mastered, your             |
+| competition will continuously believe you   |
+| possess some mystical customer attracting   |
+| formula”                                    |
+|                                             |
+\  -- Chris Murray                            /
+ ---------------------------------------------
+   \
+    \
+    ____  
+   /# /_\_
+  |  |/oo\
+  |  \\_/_/
+ / |_   |  
+|  ||\_ ~| 
+|  ||| \/  
+|  |||_    
+ \//  |    
+  ||  |    
+  ||_  \   
+  \_|  o|  
+  /\___/   
+ /  ||||__ 
+    (___)_)
 ```
 <!-- END_QUOTE -->
 
