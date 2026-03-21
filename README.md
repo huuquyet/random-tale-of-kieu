@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“客遊俸固󰜋𠊚</p>
-      <p class="nom">其心户束拱㐻書香”</p>
-      <p class="quocngu">Khách du bỗng có một người,</p>
-      <p class="quocngu">Kỳ Tâm họ Thúc, cũng nòi thư hương.</p>
-      <p class="author"><i>(Dòng 1275-1276) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“矧踈𣅶醒𣅶迷</p>
+      <p class="nom">𧖱蹺渃𬑉魂離占包”</p>
+      <p class="quocngu">Thẩn thờ lúc tỉnh lúc mê,</p>
+      <p class="quocngu">Máu theo nước mắt, hồn lìa chiêm bao!</p>
+      <p class="author"><i>(Dòng 2835-2836) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “This next nugget of salesmanship cannot be \
-| perfected in a single afternoon. However,   |
-| once you have it mastered, your             |
-| competition will continuously believe you   |
-| possess some mystical customer attracting   |
-| formula”                                    |
-|                                             |
-\  -- Chris Murray                            /
- ---------------------------------------------
-   \
-    \
-    ____  
-   /# /_\_
-  |  |/oo\
-  |  \\_/_/
- / |_   |  
-|  ||\_ ~| 
-|  ||| \/  
-|  |||_    
- \//  |    
-  ||  |    
-  ||_  \   
-  \_|  o|  
-  /\___/   
- /  ||||__ 
-    (___)_)
+ __________________________________________
+/ “She toyed around with his smiles and    \
+| emotions, till they actually turned      |
+| plastic. And then, She changed the toy…” |
+|                                          |
+\  -- Douglas Self                         /
+ ------------------------------------------
+ \      .------------------------.
+  \     |       PSYCHIATRIC      |
+   \    |         HELP  5¢       |
+    \   |________________________|
+     \  ||     .-"""--.         ||
+      \ ||    /        \.-.     ||
+        ||   |     ._,     \    ||
+        ||   \_/`-'   '-.,_/    ||
+        ||   (_   (' _)') \     ||
+        ||   /|           |\    ||
+        ||  | \     __   / |    ||
+        ||   \_).,_____,/}/     ||
+      __||____;_--'___'/ (      ||
+     |\ ||   (__,\\    \_/------||
+     ||\||______________________||
+     ||||                        |
+     ||||       THE DOCTOR       |
+     \|||         IS [IN]   _____|
+      \||                  (______)
+ jgs   `|___________________//||\\
+                           //=||=\\
+                           `  ``  `
 ```
 <!-- END_QUOTE -->
 
