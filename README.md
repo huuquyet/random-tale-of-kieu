@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“矧踈𣅶醒𣅶迷</p>
-      <p class="nom">𧖱蹺渃𬑉魂離占包”</p>
-      <p class="quocngu">Thẩn thờ lúc tỉnh lúc mê,</p>
-      <p class="quocngu">Máu theo nước mắt, hồn lìa chiêm bao!</p>
-      <p class="author"><i>(Dòng 2835-2836) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㤕身要柳疎桃</p>
+      <p class="nom">極茄典浽𤄱𠓨碎𤽗”</p>
+      <p class="quocngu">"Xót thân yếu liễu thơ đào,</p>
+      <p class="quocngu">Cực nhà đến đỗi dấn vào tôi ngươi.</p>
+      <p class="author"><i>(Dòng 897-898) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “She toyed around with his smiles and    \
-| emotions, till they actually turned      |
-| plastic. And then, She changed the toy…” |
-|                                          |
-\  -- Douglas Self                         /
- ------------------------------------------
- \      .------------------------.
-  \     |       PSYCHIATRIC      |
-   \    |         HELP  5¢       |
-    \   |________________________|
-     \  ||     .-"""--.         ||
-      \ ||    /        \.-.     ||
-        ||   |     ._,     \    ||
-        ||   \_/`-'   '-.,_/    ||
-        ||   (_   (' _)') \     ||
-        ||   /|           |\    ||
-        ||  | \     __   / |    ||
-        ||   \_).,_____,/}/     ||
-      __||____;_--'___'/ (      ||
-     |\ ||   (__,\\    \_/------||
-     ||\||______________________||
-     ||||                        |
-     ||||       THE DOCTOR       |
-     \|||         IS [IN]   _____|
-      \||                  (______)
- jgs   `|___________________//||\\
-                           //=||=\\
-                           `  ``  `
+ ____________________________________________
+/ “The capacity for erroneous belief is very \
+| great, especially where it coincides with  |
+| convenience.”                              |
+|                                            |
+\  -- John Kenneth Galbraith                 /
+ --------------------------------------------
+ \
+  \
+     ()
+   <~~~~>
+    \__/
+   (____)
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
+ (________)
 ```
 <!-- END_QUOTE -->
 
