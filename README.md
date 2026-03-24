@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“自𦖑園買添花</p>
-      <p class="nom">𠰘𠊚㐌𪥀信茹𪰛空”</p>
-      <p class="quocngu">Từ nghe vườn mới thêm hoa,</p>
-      <p class="quocngu">Miệng người đã lắm, tin nhà thì không.</p>
-      <p class="author"><i>(Dòng 1535-1536) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢖵𠳒願約𠀧生</p>
+      <p class="nom">賒吹埃固透情庒埃”</p>
+      <p class="quocngu">Nhớ lời nguyện ước ba sinh,</p>
+      <p class="quocngu">Xa xôi ai có thấu tình chăng ai?</p>
+      <p class="author"><i>(Dòng 1259-1260) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “To become a better you, admit that you \
-| were not born for the floor. Refuse to  |
-| embrace mediocrity anytime anywhere.”   |
-|                                         |
-\  -- Israelmore Ayivor                   /
- -----------------------------------------
-          \
-           \
-            \          __---__
-                    _-       /--______
-               __--( /     \ )XXXXXXXXXXX\v.
-             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
-            /XXX(       U     )        XXXXXXX\
-          /XXXXX(              )--_  XXXXXXXXXXX\
-         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
-         XXXXX/   /            XXXXXX   \__ \XXXXX
-         XXXXXX__/          XXXXXX         \__---->
- ---___  XXX__/          XXXXXX      \__         /
-   \-  --__/   ___/\  XXXXXX            /  ___--/=
-    \-\    ___/    XXXXXX              '--- XXXXXX
-       \-\/XXX\ XXXXXX                      /XXXXX
-         \XXXXXXXXX   \                    /XXXXX/
-          \XXXXXX      >                 _/XXXXX/
-            \XXXXX--__/              __-- XXXX/
-             -XXXXXXXX---------------  XXXXXX-
-                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
-                  ""VXXXXXXXXXXXXXXXXXXV""
+ ____________________________________________
+/ “An honest cop still can't find a place to \
+| go and complain without fear of            |
+| recrimination. The blue wall will always   |
+| be there because the system supports it.”  |
+|                                            |
+\  -- Frank Serpico                          /
+ --------------------------------------------
+  \
+   \       ___
+      oo  // \\
+     (_,\/ \_/ \
+       \ \_/_\_/>
+       /_/   \_\
 ```
 <!-- END_QUOTE -->
 
