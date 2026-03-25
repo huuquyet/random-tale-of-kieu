@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢖵𠳒願約𠀧生</p>
-      <p class="nom">賒吹埃固透情庒埃”</p>
-      <p class="quocngu">Nhớ lời nguyện ước ba sinh,</p>
-      <p class="quocngu">Xa xôi ai có thấu tình chăng ai?</p>
-      <p class="author"><i>(Dòng 1259-1260) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“恨綠𢣃分排排</p>
+      <p class="nom">擒刀娘㐌算排捐生”</p>
+      <p class="quocngu">Giận duyên tủi phận bời bời,</p>
+      <p class="quocngu">Cầm dao nàng đã toan bài quyên sinh.</p>
+      <p class="author"><i>(Dòng 857-858) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “An honest cop still can't find a place to \
-| go and complain without fear of            |
-| recrimination. The blue wall will always   |
-| be there because the system supports it.”  |
-|                                            |
-\  -- Frank Serpico                          /
- --------------------------------------------
-  \
-   \       ___
-      oo  // \\
-     (_,\/ \_/ \
-       \ \_/_\_/>
-       /_/   \_\
+ ___________________________________________
+/ “Trust is always a good idea. For someone \
+| else.”                                    |
+|                                           |
+\  -- Sherrilyn Kenyon                      /
+ -------------------------------------------
+     \
+      \
+                   [\
+              .----' `-----.
+             //^^^^;;^^^^^^`\
+     _______//_____||_____()_\________
+    /826    :      : ___              `\
+   |>   ____;      ;  |/\><|   ____   _<)
+  {____/    \_________________/    \____}
+       \ '' /                 \ '' /
+ jgs    '--'                   '--'
 ```
 <!-- END_QUOTE -->
 
