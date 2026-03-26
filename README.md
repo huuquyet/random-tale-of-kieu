@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“恨綠𢣃分排排</p>
-      <p class="nom">擒刀娘㐌算排捐生”</p>
-      <p class="quocngu">Giận duyên tủi phận bời bời,</p>
-      <p class="quocngu">Cầm dao nàng đã toan bài quyên sinh.</p>
-      <p class="author"><i>(Dòng 857-858) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“妾油𢜗拯𫨩推</p>
+      <p class="nom">㐌洳䏾擬吏碑𠰘唭”</p>
+      <p class="quocngu">Thiếp dù vụng chẳng hay suy,</p>
+      <p class="quocngu">Đã dơ bụng nghĩ, lại bia miệng cười."</p>
+      <p class="author"><i>(Dòng 1587-1588) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Trust is always a good idea. For someone \
-| else.”                                    |
-|                                           |
-\  -- Sherrilyn Kenyon                      /
- -------------------------------------------
-     \
-      \
-                   [\
-              .----' `-----.
-             //^^^^;;^^^^^^`\
-     _______//_____||_____()_\________
-    /826    :      : ___              `\
-   |>   ____;      ;  |/\><|   ____   _<)
-  {____/    \_________________/    \____}
-       \ '' /                 \ '' /
- jgs    '--'                   '--'
+ ______________________________________________________________________________________________
+/ “Life has a plan for each of us”                                                             \
+|                                                                                              |
+\  -- we may not understand the whys on our journey but every event is meaningful nonetheless. /
+ ----------------------------------------------------------------------------------------------
+   \
+    \
+
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+
 ```
 <!-- END_QUOTE -->
 
