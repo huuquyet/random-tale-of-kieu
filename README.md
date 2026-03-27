@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“妾油𢜗拯𫨩推</p>
-      <p class="nom">㐌洳䏾擬吏碑𠰘唭”</p>
-      <p class="quocngu">Thiếp dù vụng chẳng hay suy,</p>
-      <p class="quocngu">Đã dơ bụng nghĩ, lại bia miệng cười."</p>
-      <p class="author"><i>(Dòng 1587-1588) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𬂙𨖲靈座𡦂排</p>
+      <p class="nom">秩驚買𠳨仍𠊛兜些”</p>
+      <p class="quocngu">Trông lên linh vị chữ bài,</p>
+      <p class="quocngu">Thất kinh mới hỏi: "Những người đâu ta?</p>
+      <p class="author"><i>(Dòng 2975-2976) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________________________________________________________________
-/ “Life has a plan for each of us”                                                             \
-|                                                                                              |
-\  -- we may not understand the whys on our journey but every event is meaningful nonetheless. /
- ----------------------------------------------------------------------------------------------
+ _____________________________________________
+/ “As every inquiry which regards religion is \
+| of the utmost importance, there are two     |
+| questions in particular which challenge     |
+| our attention, to wit, that concerning its  |
+| foundation in reason, and that concerning   |
+| it origin in human nature.”                 |
+|                                             |
+\  -- David Hume                              /
+ ---------------------------------------------
+  \
    \
     \
-
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-
+      ,､ ,._
+      ﾉ ・  ヽ
+     / :::   i  
+    / :::    ﾞ､
+   ,i:::       `ｰ-､
+   |:::           i
+   !::::..        ﾉ
+    `ー――――'" 
 ```
 <!-- END_QUOTE -->
 
