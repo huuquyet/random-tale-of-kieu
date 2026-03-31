@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰅹埃𢚸固所求</p>
-      <p class="nom">心盟嗔决貝饒󰜋𠳒”</p>
-      <p class="quocngu">Nào ai lòng có sở cầu,</p>
-      <p class="quocngu">Tâm minh, xin quyết với nhau một lời.</p>
-      <p class="author"><i>(Dòng 2123-2124) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰢯󰢇劄胣呐之</p>
+      <p class="nom">易󰝡肝𧎜填󰀩𡗶𩄲”</p>
+      <p class="quocngu">Khắc xương chép dạ nói chi,</p>
+      <p class="quocngu">Dễ đem gan ốc đền nghì trời mây."</p>
+      <p class="author"><i>(Dòng 2425-2426) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,44 +25,45 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “You get what you give, but also what \
-| you're willing to take.”              |
-|                                       |
-\  -- Sarah Dessen                      /
- ---------------------------------------
-                        \
-                         \     ___.
-                          \    L._, \
-               _.,         \   <  <\                _
-             ,' '           \  `.   | \            ( `
-          ../, `.            \  |    .\`.           \ \_
-         ,' ,..  .           _.,'    ||\l            )  '".
-        , ,'   \           ,'.-.`-._,'  |           .  _._`.
-      ,' /      \ \        `' ' `--/   | \          / /   ..\
-    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
-    |  '          ..         `-...-"  |  `-'      / /        . `.
-    | /           |L__           |    |          / /          `. `.
-   , /            .   .          |    |         / /             ` `
-  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
- / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
-  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
-' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
-|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
-||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
-||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
-|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
-||/            _,-------7 '              . |  `-'    l         /    `||
- |          ,' .-   ,' ||               | .-.        `.      .'     ||
- `'        ,'    `".'    |               |    `.        '. -.'       `'
-          /      ,'      |               |,'    \-.._,.'/'
-          .     /        .               .       \    .''
-        .`.    |         `.             /         :_,'.'
-          \ `...\   _     ,'-.        .'         /_.-'
-           `-.__ `,  `'   .  _.>----''.  _  __  /
-                .'        /"'          |  "'   '_
-               /_|.-'\ ,".             '.'`__'-( \
-                 / ,"'"\,'               `/  `-.|" m
+ ____________________________________________
+/ “The title of this Chautauqua is "Zen and  \
+| the Art of Motorcycle Maintenance," not    |
+| "Zen and the Art of Mountain Climbing,"    |
+| and there are no motorcycles on the tops   |
+| of mountains, and in my opinion very       |
+| little Zen. Zen is the "spirit of the      |
+| valley," not the mountaintop. The only Zen |
+| you fin on the tops of mountains is the    |
+| Zen you bring up there.”                   |
+|                                            |
+\  -- Robert M. Pirsig                       /
+ --------------------------------------------
+            \
+             \                __ 
+                   _ ,___,-'",-=-. 
+       __,-- _ _,-'_)_  (""`'-._\ `. 
+    _,'  __ |,' ,-' __)  ,-     /. | 
+  ,'_,--'   |     -'  _)/         `\ 
+,','      ,'       ,-'_,`           : 
+,'     ,-'       ,(,-(              : 
+     ,'       ,-' ,    _            ; 
+    /        ,-._/`---'            / 
+   /        (____)(----. )       ,' 
+  /         (      `.__,     /\ /, 
+ :           ;-.___         /__\/| 
+ |         ,'      `--.      -,\ | 
+ :        /            \    .__/ 
+  \      (__            \    |_ 
+   \       ,`-, *       /   _|,\ 
+    \    ,'   `-.     ,'_,-'    \ 
+   (_\,-'    ,'\")--,'-'       __\ 
+    \       /  // ,'|      ,--'  `-. 
+     `-.    `-/ \'  |   _,'         `. 
+        `-._ /      `--'/             \ 
+-hrr-      ,'           |              \ 
+          /             |               \ 
+       ,-'              |               / 
+      /                 |             -'
 ```
 <!-- END_QUOTE -->
 
