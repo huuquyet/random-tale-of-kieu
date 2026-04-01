@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰢯󰢇劄胣呐之</p>
-      <p class="nom">易󰝡肝𧎜填󰀩𡗶𩄲”</p>
-      <p class="quocngu">Khắc xương chép dạ nói chi,</p>
-      <p class="quocngu">Dễ đem gan ốc đền nghì trời mây."</p>
-      <p class="author"><i>(Dòng 2425-2426) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦛌蠶𣈗󰜋𤉗𤶐</p>
+      <p class="nom">雪霜𣈗󰜋耗𤷱命蟡”</p>
+      <p class="quocngu">Ruột tằm ngày một héo don,</p>
+      <p class="quocngu">Tuyết sương ngày một hao mòn mình ve.</p>
+      <p class="author"><i>(Dòng 2833-2834) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,44 +26,32 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “The title of this Chautauqua is "Zen and  \
-| the Art of Motorcycle Maintenance," not    |
-| "Zen and the Art of Mountain Climbing,"    |
-| and there are no motorcycles on the tops   |
-| of mountains, and in my opinion very       |
-| little Zen. Zen is the "spirit of the      |
-| valley," not the mountaintop. The only Zen |
-| you fin on the tops of mountains is the    |
-| Zen you bring up there.”                   |
+/ “Do all the good you can. By all the means \
+| you can. In all the ways you can. In all   |
+| the places you can. At all the times you   |
+| can. To all the people you can. As long as |
+| ever you can.”                             |
 |                                            |
-\  -- Robert M. Pirsig                       /
+\  -- John Wesley                            /
  --------------------------------------------
-            \
-             \                __ 
-                   _ ,___,-'",-=-. 
-       __,-- _ _,-'_)_  (""`'-._\ `. 
-    _,'  __ |,' ,-' __)  ,-     /. | 
-  ,'_,--'   |     -'  _)/         `\ 
-,','      ,'       ,-'_,`           : 
-,'     ,-'       ,(,-(              : 
-     ,'       ,-' ,    _            ; 
-    /        ,-._/`---'            / 
-   /        (____)(----. )       ,' 
-  /         (      `.__,     /\ /, 
- :           ;-.___         /__\/| 
- |         ,'      `--.      -,\ | 
- :        /            \    .__/ 
-  \      (__            \    |_ 
-   \       ,`-, *       /   _|,\ 
-    \    ,'   `-.     ,'_,-'    \ 
-   (_\,-'    ,'\")--,'-'       __\ 
-    \       /  // ,'|      ,--'  `-. 
-     `-.    `-/ \'  |   _,'         `. 
-        `-._ /      `--'/             \ 
--hrr-      ,'           |              \ 
-          /             |               \ 
-       ,-'              |               / 
-      /                 |             -'
+   \
+    \
+      _____   _________
+     /     \_/         |
+    |                 ||
+    |                 ||
+   |    ###\  /###   | |
+   |     o  \/  o    | |
+  /|                 | |
+ / |        <        |\ \
+| /|                 | | |
+| |     \_______/   |  | |
+| |                 | / /
+/||                 /|||
+   ----------------|
+        | |    | |
+        ***    ***
+       /___\  /___\
 ```
 <!-- END_QUOTE -->
 
