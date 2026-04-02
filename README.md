@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦛌蠶𣈗󰜋𤉗𤶐</p>
-      <p class="nom">雪霜𣈗󰜋耗𤷱命蟡”</p>
-      <p class="quocngu">Ruột tằm ngày một héo don,</p>
-      <p class="quocngu">Tuyết sương ngày một hao mòn mình ve.</p>
-      <p class="author"><i>(Dòng 2833-2834) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“寃箕蹺買貝情</p>
+      <p class="nom">󰜋命命𠹾󰜋命命𫨩”</p>
+      <p class="quocngu">Oan kia theo mãi với tình,</p>
+      <p class="quocngu">Một mình mình chịu, một mình mình hay.</p>
+      <p class="author"><i>(Dòng 2673-2674) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,43 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Do all the good you can. By all the means \
-| you can. In all the ways you can. In all   |
-| the places you can. At all the times you   |
-| can. To all the people you can. As long as |
-| ever you can.”                             |
-|                                            |
-\  -- John Wesley                            /
- --------------------------------------------
-   \
+ ___________________________________________
+/ “Time flies, whether you’re wasting it or \
+| not.”                                     |
+|                                           |
+\  -- Crystal Woods                         /
+ -------------------------------------------
     \
-      _____   _________
-     /     \_/         |
-    |                 ||
-    |                 ||
-   |    ###\  /###   | |
-   |     o  \/  o    | |
-  /|                 | |
- / |        <        |\ \
-| /|                 | | |
-| |     \_______/   |  | |
-| |                 | / /
-/||                 /|||
-   ----------------|
-        | |    | |
-        ***    ***
-       /___\  /___\
+     \                                                           ＿＿＿ノ^l
+      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
+                                                 く                       /
+                                                  `ヽ,   __､-'           /
+                                                    __＞‐´               |
+                                           ._,;‐''``              ,     /
+                                         _;"                     /     /
+                                       ／                       /     く
+                                     ／                        /       |
+                                   ／                        ／       ｌ
+                                 ノ                        ／￣ヽ     /
+                                /                        ／     ） _ノ
+                            ,r'″ヽ、                   ／        ￣
+                           /      ヽ                 ／
+                        ＿ﾉ        `r            _､‐'
+                      ／          _l,_       _､‐'
+                 __,r'          ／r;;,ヽ   ／
+               ,/              ｜.;●,;;|  ノ
+              ノ ／  ／／       ヽ､!!!ﾞﾉ "
+            ／ ／／／  ／／___,r''"￣
+           / ／ / / /／ / /
+      ___／／/／／／ ／／/
+  ／￣＿_／／／/ / ／／／
+ l ／´___／／／／／／ /
+ しレ"／／/ /  ／／//／
+      / ,/ / ／／／ /
+      ﾚ'   ﾚ'／／ ／
+           ／l｜l/
+          ｜|ﾚ'lノ
+           レ'
 ```
 <!-- END_QUOTE -->
 
