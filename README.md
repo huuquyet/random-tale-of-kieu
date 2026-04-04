@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“脱倴𧗱脱半𠫾</p>
-      <p class="nom">𩄲㵢䕯浽少󰢔羅尼”</p>
-      <p class="quocngu">Thoắt buôn về, thoắt bán đi,</p>
-      <p class="quocngu">Mây trôi bèo nổi thiếu gì là nơi!</p>
-      <p class="author"><i>(Dòng 2901-2902) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘強󰘚󰢩𪵟珠</p>
+      <p class="nom">強𦖑媒呐強𤴬如寅”</p>
+      <p class="quocngu">Nàng càng mặt ủ mày chau,</p>
+      <p class="quocngu">Càng nghe mụ nói càng đau như dần.</p>
+      <p class="author"><i>(Dòng 2113-2114) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,34 +26,31 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “the value of a man increases only when he \
-| has a consistent relationship with God”    |
+/ “You earn brotherhood—the purest           \
+| friendship, trust, love, whatever you want |
+| to call it—moment by moment through how    |
+| you treat others.”                         |
 |                                            |
-\  -- D WordSmith                            /
+\  -- Doug Cooper                            /
  --------------------------------------------
-   \
-    \
-     \
-               ＿＿＿＿＿
-           .:´.: .: . : :. `  、
-     ..: ／.: .: .: . : .: .:   ＼
-    .::／:::       ﾉ   /､         ＼
-   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
- .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
- .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
-..:::|.:::ノ::{{:::}       {:::}}{: |＼|
-..:::::::_::|::うﾆソ       う:ソＶ: |
-.::: /.:/ |:|:ヽヽ       ｀      }: |
-.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
- ..::|.ゝ,ヽ|:   /      /     ／:::八
- .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
-  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
-   ..::::／⌒: :|:ＶＶ{ヽ:＼
-      .:/.: :|::l::ﾍ}/\|:}:.＼
-    ..::｢.: :|::＞:Ｖ//|〈:.}.}
-  ...::/.:: :|::＼: Ｖ/| / :}:.┐
- ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
-..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
+   \         __------~~-,
+    \      ,'            ,
+          /               \
+         /                :
+        |                  '
+        |                  |
+        |                  |
+         |   _--           |
+         _| =-.     .-.   ||
+         o|/o/       _.   |
+         /  ~          \ |
+       (____@)  ___~    |
+          |_===~~~.`    |
+       _______.--~     |
+       \________       |
+                \      |
+              __/-___-- -__
+             /            _ \
 ```
 <!-- END_QUOTE -->
 
