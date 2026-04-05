@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘強󰘚󰢩𪵟珠</p>
-      <p class="nom">強𦖑媒呐強𤴬如寅”</p>
-      <p class="quocngu">Nàng càng mặt ủ mày chau,</p>
-      <p class="quocngu">Càng nghe mụ nói càng đau như dần.</p>
-      <p class="author"><i>(Dòng 2113-2114) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪碎䕯浡𡮍身</p>
+      <p class="nom">落塘恾𥙩𡢻𫱞燕󰢒”</p>
+      <p class="quocngu">Rằng: "Tôi bèo bọt chút thân,</p>
+      <p class="quocngu">Lạc đàng mang lấy nợ nần yến anh.</p>
+      <p class="author"><i>(Dòng 1097-1098) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “You earn brotherhood—the purest           \
-| friendship, trust, love, whatever you want |
-| to call it—moment by moment through how    |
-| you treat others.”                         |
-|                                            |
-\  -- Doug Cooper                            /
- --------------------------------------------
-   \         __------~~-,
-    \      ,'            ,
-          /               \
-         /                :
-        |                  '
-        |                  |
-        |                  |
-         |   _--           |
-         _| =-.     .-.   ||
-         o|/o/       _.   |
-         /  ~          \ |
-       (____@)  ___~    |
-          |_===~~~.`    |
-       _______.--~     |
-       \________       |
-                \      |
-              __/-___-- -__
-             /            _ \
+ _____________________________________________
+/ “Allowing ourselves to become pure point of \
+| view, we hang in midair over the city.      |
+| What we see now is a gigantic metropolis    |
+| waking up. Commuter trains of many colors   |
+| move in all directions, transporting        |
+| people from place to place. Each of those   |
+| under transport is a human being with a     |
+| different face and mind, and at the same    |
+| time each is a nameless part of the         |
+| collective identity. Each is                |
+| simultaneously a self-contained whole and   |
+| a mere part. Handling this dualism of       |
+| theirs skillfully and advantageously, they  |
+| perform their morning rituals with          |
+| deftness and precision: brushing teeth,     |
+| shaving, tying neckties, applying           |
+| lipstick. They check the morning news on    |
+| TV, exchange words with their families,     |
+| eat, defecate.”                             |
+|                                             |
+\  -- Haruki Murakami                         /
+ ---------------------------------------------
+   \
+    \
+ ROFL:ROFL:ROFL:ROFL
+         _^___
+ L    __/   oo \    
+LOL===__        \ 
+ L      \________]
+         I   I    
+        --------/
 ```
 <!-- END_QUOTE -->
 
