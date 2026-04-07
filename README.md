@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情𥢆払吏呐𡃕</p>
-      <p class="nom">󰜋茹埃共邏𨓡𠸦嘮”</p>
-      <p class="quocngu">Tình riêng, chàng lại nói cùng,</p>
-      <p class="quocngu">Một nhà ai cũng lạ lùng khen lao.</p>
-      <p class="author"><i>(Dòng 3217-3218) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“秦銀𨄹𨃴樓粧</p>
+      <p class="nom">󰜋團𢜠壽外鄕買衛”</p>
+      <p class="quocngu">Tần ngần dạo gót lầu trang,</p>
+      <p class="quocngu">Một đoàn mừng thọ ngoại hương mới về.</p>
+      <p class="author"><i>(Dòng 573-574) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Such is the state of life that none are   \
-| happy but by the anticipation of change.   |
-| The change itself is nothing. When we have |
-| made it the next wish is to change again.” |
-|                                            |
-\  -- Samuel Johnson                         /
- --------------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||--WWW |
-                ||     ||
+ _____________________________________
+/ “The church and every Christian are \
+| individually responsible for the    |
+| reformation of the country”         |
+|                                     |
+\  -- Sunday Adelaja                  /
+ -------------------------------------
+    \                                  ___-------___
+     \                             _-~~             ~~-_
+      \                         _-~                    /~-_
+             /^\__/^\         /~  \                   /    \
+           /|  o|| o|        /      \_______________/        \
+          | |___||__|      /       /                \          \
+          |          \    /      /                    \          \
+          |   (_______) /______/                        \_________ \
+          |         / /         \                      /            \
+           \         \^\\         \                  /               \     /
+             \         ||           \______________/      _-_       //\__//
+               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
+                 ~-----||====/~     |==================|       |/~~~~~
+                  (_(__/  ./     /                    \_\      \.
+                         (_(___/                         \_____)_)
 ```
 <!-- END_QUOTE -->
 
