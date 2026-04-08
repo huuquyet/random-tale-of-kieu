@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“秦銀𨄹𨃴樓粧</p>
-      <p class="nom">󰜋團𢜠壽外鄕買衛”</p>
-      <p class="quocngu">Tần ngần dạo gót lầu trang,</p>
-      <p class="quocngu">Một đoàn mừng thọ ngoại hương mới về.</p>
-      <p class="author"><i>(Dòng 573-574) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢖵𠳒神夢𤑟𤉜</p>
+      <p class="nom">尼催歇刼斷膓自低”</p>
+      <p class="quocngu">Nhớ lời thần mộng rõ ràng,</p>
+      <p class="quocngu">Này thôi hết kiếp đoạn tràng từ đây!</p>
+      <p class="author"><i>(Dòng 2621-2622) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________
-/ “The church and every Christian are \
-| individually responsible for the    |
-| reformation of the country”         |
-|                                     |
-\  -- Sunday Adelaja                  /
- -------------------------------------
-    \                                  ___-------___
-     \                             _-~~             ~~-_
-      \                         _-~                    /~-_
-             /^\__/^\         /~  \                   /    \
-           /|  o|| o|        /      \_______________/        \
-          | |___||__|      /       /                \          \
-          |          \    /      /                    \          \
-          |   (_______) /______/                        \_________ \
-          |         / /         \                      /            \
-           \         \^\\         \                  /               \     /
-             \         ||           \______________/      _-_       //\__//
-               \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
-                 ~-----||====/~     |==================|       |/~~~~~
-                  (_(__/  ./     /                    \_\      \.
-                         (_(___/                         \_____)_)
+ ______________________________________
+/ “Everybody may have gone through the \
+| sufferings and pains of falling and  |
+| failing in love earlier, may be many |
+| times.”                              |
+|                                      |
+\  -- Girdhar Joshi                    /
+ --------------------------------------
+ \
+  \
+   \
+            . .: -----  .
+         ／: .: .: .:.: .:＼
+        /    ..  . l.: .: .:ヽ
+       : .: ,/|-/|:ハ.:|-.ｌ.:
+       |: :ノ |/.|/  ヽ|.Vﾊ.:|
+       |.::|  =＝     ＝= }.:| 
+       |.γ|| ''  ＿_   ''{::ﾊ 
+       ﾉノﾊﾘ   ｛   }     ﾉV
+       ∨Vvヽ､._  --'_ .イV
+            γ:/:{.又 }ﾍヽ 
+          ／:〉:V ﾊ.ﾘ〈: ＼ 
+        ／ : Vヽ:V// /:V ::＼ 
+    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
+   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
+    ー'    ./: : : : : ﾊ      ー' 
+          ./::o: : : :o ﾊ 
+          /ヽ: : :Λ: : :ﾉ:、 
+        〈:::￣￣:::￣:::::〉 
+          ＼:__:::::::__:／ 
+            |  Τ￣Τ | 
+            |  |   |  | 
+            |''|   |''| 
 ```
 <!-- END_QUOTE -->
 
