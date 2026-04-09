@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢖵𠳒神夢𤑟𤉜</p>
-      <p class="nom">尼催歇刼斷膓自低”</p>
-      <p class="quocngu">Nhớ lời thần mộng rõ ràng,</p>
-      <p class="quocngu">Này thôi hết kiếp đoạn tràng từ đây!</p>
-      <p class="author"><i>(Dòng 2621-2622) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“官軍几吏𠊚戈</p>
+      <p class="nom">㤕娘仕吏域𠚢寅寅”</p>
+      <p class="quocngu">Quan quân kẻ lại người qua,</p>
+      <p class="quocngu">Xót nàng sẽ lại vực ra dần dần.</p>
+      <p class="author"><i>(Dòng 2537-2538) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,44 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________
-/ “Everybody may have gone through the \
-| sufferings and pains of falling and  |
-| failing in love earlier, may be many |
-| times.”                              |
-|                                      |
-\  -- Girdhar Joshi                    /
- --------------------------------------
- \
-  \
-   \
-            . .: -----  .
-         ／: .: .: .:.: .:＼
-        /    ..  . l.: .: .:ヽ
-       : .: ,/|-/|:ハ.:|-.ｌ.:
-       |: :ノ |/.|/  ヽ|.Vﾊ.:|
-       |.::|  =＝     ＝= }.:| 
-       |.γ|| ''  ＿_   ''{::ﾊ 
-       ﾉノﾊﾘ   ｛   }     ﾉV
-       ∨Vvヽ､._  --'_ .イV
-            γ:/:{.又 }ﾍヽ 
-          ／:〉:V ﾊ.ﾘ〈: ＼ 
-        ／ : Vヽ:V// /:V ::＼ 
-    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
-   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
-    ー'    ./: : : : : ﾊ      ー' 
-          ./::o: : : :o ﾊ 
-          /ヽ: : :Λ: : :ﾉ:、 
-        〈:::￣￣:::￣:::::〉 
-          ＼:__:::::::__:／ 
-            |  Τ￣Τ | 
-            |  |   |  | 
-            |''|   |''| 
+ ___________________________________________
+/ “Tech-savvy types had figured out how to  \
+| get around the system. With radios it was |
+| easy—open up the set, cut the conveyor    |
+| belt attached to the dial, and replace it |
+| with a rubber band that could turn the    |
+| dial wherever you liked. Television       |
+| required a little more expertise.”        |
+|                                           |
+\  -- Barbara Demick                        /
+ -------------------------------------------
+    \
+     \
+                  \#[/[#:xxxxxx:#[/[\x
+             [/\ &3N            W3& \/[x
+          [[x@W                      W@x[[\
+        /#&N                             N_#
+      /#@                                  @#/x
+    [/ NH_  ^@W               Nd_  ^@p      N /#
+   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
+  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
+ [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
+ /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
+[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
+//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
+/[                                                //
+//N   p333333333333333333333333333333333p        W//
+[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
+ /:     \#                              [x       :/
+ [/@    d/x                             \#:      &/#
+  [[H    ^[x                            [      H[[
+   [[d    _[x            &Hppp3d_      \#\N    @[[
+    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
+      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
+       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
+          [[x&W  p& xx ^^^^ x:x @W   W&x/[
+             [/# &HW   WWWWN    WH& \#/[
+                 [/[#\xxxxxx\#[/[\x^@
 ```
 <!-- END_QUOTE -->
 
