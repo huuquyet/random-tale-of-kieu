@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“官軍几吏𠊚戈</p>
-      <p class="nom">㤕娘仕吏域𠚢寅寅”</p>
-      <p class="quocngu">Quan quân kẻ lại người qua,</p>
-      <p class="quocngu">Xót nàng sẽ lại vực ra dần dần.</p>
-      <p class="author"><i>(Dòng 2537-2538) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪𪨀分花徠</p>
+      <p class="nom">姅𠁀唸𣦰每味䔲荄”</p>
+      <p class="quocngu">Nàng rằng: "Chút phận hoa rơi,</p>
+      <p class="quocngu">Nửa đời nếm trải mọi mùi đắng cay.</p>
+      <p class="author"><i>(Dòng 3035-3036) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,44 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Tech-savvy types had figured out how to  \
-| get around the system. With radios it was |
-| easy—open up the set, cut the conveyor    |
-| belt attached to the dial, and replace it |
-| with a rubber band that could turn the    |
-| dial wherever you liked. Television       |
-| required a little more expertise.”        |
-|                                           |
-\  -- Barbara Demick                        /
- -------------------------------------------
+ ______________________________________________
+/ “The comparison isn't with others”           \
+|                                              |
+\  -- it's with your former and future selves. /
+ ----------------------------------------------
     \
      \
-                  \#[/[#:xxxxxx:#[/[\x
-             [/\ &3N            W3& \/[x
-          [[x@W                      W@x[[\
-        /#&N                             N_#
-      /#@                                  @#/x
-    [/ NH_  ^@W               Nd_  ^@p      N /#
-   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
-  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
- [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
- /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
-[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
-//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
-/[                                                //
-//N   p333333333333333333333333333333333p        W//
-[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
- /:     \#                              [x       :/
- [/@    d/x                             \#:      &/#
-  [[H    ^[x                            [      H[[
-   [[d    _[x            &Hppp3d_      \#\N    @[[
-    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
-      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
-       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
-          [[x&W  p& xx ^^^^ x:x @W   W&x/[
-             [/# &HW   WWWWN    WH& \#/[
-                 [/[#\xxxxxx\#[/[\x^@
+           .-;+$XHHHHHHX$+;-.
+        ,;X@@X%/;=----=:/%X@@X/,
+      =$@@%=.              .=+H@X:
+    -XMX:                      =XMX=
+   /@@:                          =H@+
+  %@X,                            .$@$
+ +@X.                               $@%
+-@@,                                .@@=
+%@%                                  +@$
+H@:                                  :@H
+H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
+%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
+=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
+ +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
+  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
+   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
+    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
+      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
+        ,;$@@@@@@@@@@@@@@@@@@X/-
+           .-;+$XXHHHHHX$+;-.
 ```
 <!-- END_QUOTE -->
 
