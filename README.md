@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘浪𪨀分花徠</p>
-      <p class="nom">姅𠁀唸𣦰每味䔲荄”</p>
-      <p class="quocngu">Nàng rằng: "Chút phận hoa rơi,</p>
-      <p class="quocngu">Nửa đời nếm trải mọi mùi đắng cay.</p>
-      <p class="author"><i>(Dòng 3035-3036) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠳨牢𠚢事邏𨓡</p>
+      <p class="nom">翹強𠽋𦬑𨷑空𠚢𠳒”</p>
+      <p class="quocngu">Hỏi: "Sao ra sự lạ lùng?"</p>
+      <p class="quocngu">Kiều càng nức nở mở không ra lời.</p>
+      <p class="author"><i>(Dòng 763-764) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________________
-/ “The comparison isn't with others”           \
-|                                              |
-\  -- it's with your former and future selves. /
- ----------------------------------------------
-    \
-     \
-           .-;+$XHHHHHHX$+;-.
-        ,;X@@X%/;=----=:/%X@@X/,
-      =$@@%=.              .=+H@X:
-    -XMX:                      =XMX=
-   /@@:                          =H@+
-  %@X,                            .$@$
- +@X.                               $@%
--@@,                                .@@=
-%@%                                  +@$
-H@:                                  :@H
-H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
-%@%         ;@M@@@@@@@@@@@@@@@@@H-   +@$
-=@@,        :@@@@@@@@@@@@@@@@@@@@@= .@@:
- +@X        :@@@@@@@@@@@@@@@M@@@@@@:%@%
-  $@$,      ;@@@@@@@@@@@@@@@@@M@@@@@@$.
-   +@@HHHHHHH@@@@@@@@@@@@@@@@@@@@@@@+
-    =X@@@@@@@@@@@@@@@@@@@@@@@@@@@@X=
-      :$@@@@@@@@@@@@@@@@@@@M@@@@$:
-        ,;$@@@@@@@@@@@@@@@@@@X/-
-           .-;+$XXHHHHHX$+;-.
+ __________________________________________
+/ “Well I beat things around with my stick \
+| once in awhile.”                         |
+|                                          |
+\  -- Kira4Inu                             /
+ ------------------------------------------
+\
+ \
+   /\   /\   Todd Vargo
+  //\\_//\\     ____
+  \_     _/    /   /
+   / * * \    /^^^]
+   \_\O/_/    [   ]
+    /   \_    [   /
+    \     \_  /  /
+     [ [ /  \/ _/
+    _[ [ \  /_/
 ```
 <!-- END_QUOTE -->
 
