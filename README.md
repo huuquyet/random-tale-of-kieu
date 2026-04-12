@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠳨牢𠚢事邏𨓡</p>
-      <p class="nom">翹強𠽋𦬑𨷑空𠚢𠳒”</p>
-      <p class="quocngu">Hỏi: "Sao ra sự lạ lùng?"</p>
-      <p class="quocngu">Kiều càng nức nở mở không ra lời.</p>
-      <p class="author"><i>(Dòng 763-764) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“別包𧊉󰌕蜂𢯦</p>
+      <p class="nom">局醝苔𣎃陣唭捽𣎀”</p>
+      <p class="quocngu">Biết bao bướm lả/lửa ong lơi,</p>
+      <p class="quocngu">Cuộc say đầy tháng, trận cười suốt đêm.</p>
+      <p class="author"><i>(Dòng 1229-1230) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,44 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Well I beat things around with my stick \
-| once in awhile.”                         |
-|                                          |
-\  -- Kira4Inu                             /
- ------------------------------------------
-\
- \
-   /\   /\   Todd Vargo
-  //\\_//\\     ____
-  \_     _/    /   /
-   / * * \    /^^^]
-   \_\O/_/    [   ]
-    /   \_    [   /
-    \     \_  /  /
-     [ [ /  \/ _/
-    _[ [ \  /_/
+ ___________________________________________
+/ “Cheerfully fessing up to our failures    \
+| turns crazy mind off, humility and        |
+| compassion on. I learned this in a karate |
+| dojo that had a strange tradition.        |
+| Everyone there loved recounting failure   |
+| stories, and after an evening of smacking |
+| one another, we'd sit and have a beer     |
+| while the students swapped tales of       |
+| martial arts disaster.”                   |
+|                                           |
+\  -- Martha Beck                           /
+ -------------------------------------------
+  \
+   \
+        ____________
+       /\  ________ \
+      /  \ \______/\ \
+     / /\ \ \  / /\ \ \
+    / / /\ \ \/ / /\ \ \
+   / / /__\ \ \/_/__\_\ \__________
+  / /_/____\ \__________  ________ \
+  \ \ \____/ / ________/\ \______/\ \
+   \ \ \  / / /\ \  / /\ \ \  / /\ \ \
+    \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
+     \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
+      \  /_/______\/_/____\ \___________\
+      /  \ \______/\ \____/ / ________  /
+     / /\ \ \  / /\ \ \  / / /\ \  / / /
+    / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
+   / / /__\ \ \/_/__\_\/ / /__\_\/ / /
+  / /_/____\ \_________\/ /______\/ /
+  \ \ \____/ / ________  __________/
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
