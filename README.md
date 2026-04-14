@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰅹埃𢚸固所求</p>
-      <p class="nom">心盟嗔决貝饒󰜋𠳒”</p>
-      <p class="quocngu">Nào ai lòng có sở cầu,</p>
-      <p class="quocngu">Tâm minh, xin quyết với nhau một lời.</p>
-      <p class="author"><i>(Dòng 2123-2124) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“轎花押𣦎𫴋船</p>
+      <p class="nom">蘿幔𢷀濕𦰟畑挑高”</p>
+      <p class="quocngu">Kiệu hoa áp thẳng xuống thuyền,</p>
+      <p class="quocngu">Lá màn rủ thấp, ngọn đèn khêu cao.</p>
+      <p class="author"><i>(Dòng 2601-2602) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Love is like stocks, if you don't want to  \
-| suffer loss quickly, you better diversify!” |
-|                                             |
-\  -- Tice Davids aka David T. Parker         /
- ---------------------------------------------
-     \
-      \  (__)  
-         (\/)  
-  /-------\/    
- / | 666 ||    
-*  ||----||      
-   ~~    ~~      
+ ____________________________________________
+/ “When the green woods laugh with the voice \
+| of joy, And the dimpling stream runs       |
+| laughing by; When the air does laugh with  |
+| our merry wit, And the green hill laughs   |
+| with the noise of it.”                     |
+|                                            |
+\  -- George Gordon Byron                    /
+ --------------------------------------------
+         \
+          \
+            ^__^ 
+    _______/(oo)
+/\/(       /(__)
+   | W----|| |~|
+   ||     || |~|  ~~
+             |~|  ~
+             |_| o
+             |#|/
+            _+#+_
 ```
 <!-- END_QUOTE -->
 
