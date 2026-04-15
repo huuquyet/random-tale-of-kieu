@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“轎花押𣦎𫴋船</p>
-      <p class="nom">蘿幔𢷀濕𦰟畑挑高”</p>
-      <p class="quocngu">Kiệu hoa áp thẳng xuống thuyền,</p>
-      <p class="quocngu">Lá màn rủ thấp, ngọn đèn khêu cao.</p>
-      <p class="author"><i>(Dòng 2601-2602) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“停身吉垃㳥󰜗</p>
+      <p class="nom">刼功吒媄舌𠁀聰明”</p>
+      <p class="quocngu">Đành thân cát lấp sóng vùi,</p>
+      <p class="quocngu">Cướp công cha mẹ thiệt đời thông minh.</p>
+      <p class="author"><i>(Dòng 2605-2606) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “When the green woods laugh with the voice \
-| of joy, And the dimpling stream runs       |
-| laughing by; When the air does laugh with  |
-| our merry wit, And the green hill laughs   |
-| with the noise of it.”                     |
-|                                            |
-\  -- George Gordon Byron                    /
- --------------------------------------------
-         \
-          \
-            ^__^ 
-    _______/(oo)
-/\/(       /(__)
-   | W----|| |~|
-   ||     || |~|  ~~
-             |~|  ~
-             |_| o
-             |#|/
-            _+#+_
+ _____________________________________
+/ “Inaction is no longer acceptable.” \
+|                                     |
+\  -- Eric Lowitt                     /
+ -------------------------------------
+       \     *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+        \        MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+         \       MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+          \        'MMM8&&&'      *
+          |\___/|
+         =) oYo (=            .              '
+          \  ^  /
+           )=*=(       *
+          /     \
+          |     |
+         /| | | |\
+         \| | |_|/\
+  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
 ```
 <!-- END_QUOTE -->
 
