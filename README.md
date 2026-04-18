@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浘漨𥪝閉饒年</p>
-      <p class="nom">爫𢧚動地驚天同同”</p>
-      <p class="quocngu">Vẫy vùng trong bấy nhiêu niên,</p>
-      <p class="quocngu">Làm nên động địa kinh thiên đùng đùng.</p>
-      <p class="author"><i>(Dòng 2923-2924) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“脱𬂙娘㐌別情</p>
+      <p class="nom">𪀄籠坤𨤰拮命𠖤高”</p>
+      <p class="quocngu">Thoắt trông nàng đã biết tình,</p>
+      <p class="quocngu">Chim lồng khôn lẽ cất mình bay cao.</p>
+      <p class="author"><i>(Dòng 2149-2150) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “It wasn't exactly love at first sight, but \
-| it was deeper than that. A sense of         |
-| belonging to a place I never knew I wanted  |
-| but somehow always needed. It was a home    |
-| that carried a heartbeat.”                  |
-|                                             |
-\  -- Nikki Rowe                              /
- ---------------------------------------------
- \
-  \
-  __/"""\
- ]___ 0  }
-     /   }
-   /~    }
-   \____/
-   /____\
-  (______)
+ ______________________________________
+/ “To travel is to take a journey into \
+| yourself.”                           |
+|                                      |
+\  -- Danny Kaye                       /
+ --------------------------------------
+   \
+    \
+              ___
+      D>=G==='   '.
+            |======|
+            |======|
+        )--/]IIIIII]
+           |_______|
+           C O O O D
+          C O  O  O D
+         C  O  O  O  D
+         C__O__O__O__D
+snd     [_____________]
 ```
 <!-- END_QUOTE -->
 
