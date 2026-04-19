@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“脱𬂙娘㐌別情</p>
-      <p class="nom">𪀄籠坤𨤰拮命𠖤高”</p>
-      <p class="quocngu">Thoắt trông nàng đã biết tình,</p>
-      <p class="quocngu">Chim lồng khôn lẽ cất mình bay cao.</p>
-      <p class="author"><i>(Dòng 2149-2150) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢩣𥢆𥢆仍湥洡</p>
+      <p class="nom">擬身麻吏吟𠿯朱身”</p>
+      <p class="quocngu">Buồng riêng, riêng những sụt sùi,</p>
+      <p class="quocngu">Nghĩ thân mà lại ngậm ngùi cho thân.</p>
+      <p class="author"><i>(Dòng 1189-1190) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,43 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________
-/ “To travel is to take a journey into \
-| yourself.”                           |
-|                                      |
-\  -- Danny Kaye                       /
- --------------------------------------
+ ___________________________________________
+/ “I wish you all the best in life. Hell, I \
+| will even write your obituary for free.”  |
+|                                           |
+\  -- Fakeer Ishavardas                     /
+ -------------------------------------------
+#
+# ごぼう2
+#
+
+$the_cow << EOC;
+  \
    \
     \
-              ___
-      D>=G==='   '.
-            |======|
-            |======|
-        )--/]IIIIII]
-           |_______|
-           C O O O D
-          C O  O  O D
-         C  O  O  O  D
-         C__O__O__O__D
-snd     [_____________]
+          ,.:──‐-:.,
+        ／:.           ＼
+      ／:. :. :. }:. :. :.ヽ
+     .: :. :. }.:/＼.:|,:. :ﾍ
+     |:.:. :. /Ｖノ ヽﾄ＼:|､ﾍ
+     |:.:. /Ｖ_ﾆ    ﾆ＿_ {::ﾍ
+     |:.ﾍ .| ΓT      | |Ｖ.＼
+     |:{ |:|.l｜      | |八:ー
+     ハ:`:Ｖ､l｜∠二l.|.ｲ:ﾊ:ﾉ
+      _Ｖ＼;＞=r rr r=＜ﾊ／   ＿＿
+     |ざ |ﾍ :{Ｖ/V:}:＼      |ご  |
+    {ﾐ}く{)}:＞Ｖ/< :  ＞-:-'{}ぼ{ﾐ}
+     |ろ_|:ﾉ:＼:Y / }ﾐ : : : |  うY
+          ﾉ :o: : :oj `ー─-´ ￣￣
+         / : : : : :{
+        /: : o : :o:ﾍ
+      〈 : : : /\: : 〉
+       /::ー──'::ー‐ﾍ
+     〈:::::::::::::::::〉
+       ￣|￣｢￣|￣|￣
+         |  |  |  | 
+EOC
+
 ```
 <!-- END_QUOTE -->
 
