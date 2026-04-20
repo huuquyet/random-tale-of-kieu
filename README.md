@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢩣𥢆𥢆仍湥洡</p>
-      <p class="nom">擬身麻吏吟𠿯朱身”</p>
-      <p class="quocngu">Buồng riêng, riêng những sụt sùi,</p>
-      <p class="quocngu">Nghĩ thân mà lại ngậm ngùi cho thân.</p>
-      <p class="author"><i>(Dòng 1189-1190) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“閉𥹰𦖑㗂𦟐桃</p>
+      <p class="nom">𬑉撑拯底埃𠓨沛空”</p>
+      <p class="quocngu">Bấy lâu nghe tiếng má đào,</p>
+      <p class="quocngu">Mắt xanh chẳng để ai vào phải không?</p>
+      <p class="author"><i>(Dòng 2181-2182) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,43 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I wish you all the best in life. Hell, I \
-| will even write your obituary for free.”  |
-|                                           |
-\  -- Fakeer Ishavardas                     /
- -------------------------------------------
-#
-# ごぼう2
-#
-
-$the_cow << EOC;
+ ________________________________________
+/ “count no man happy until he be dead.” \
+|                                        |
+\  -- Solon                              /
+ ----------------------------------------
   \
-   \
-    \
-          ,.:──‐-:.,
-        ／:.           ＼
-      ／:. :. :. }:. :. :.ヽ
-     .: :. :. }.:/＼.:|,:. :ﾍ
-     |:.:. :. /Ｖノ ヽﾄ＼:|､ﾍ
-     |:.:. /Ｖ_ﾆ    ﾆ＿_ {::ﾍ
-     |:.ﾍ .| ΓT      | |Ｖ.＼
-     |:{ |:|.l｜      | |八:ー
-     ハ:`:Ｖ､l｜∠二l.|.ｲ:ﾊ:ﾉ
-      _Ｖ＼;＞=r rr r=＜ﾊ／   ＿＿
-     |ざ |ﾍ :{Ｖ/V:}:＼      |ご  |
-    {ﾐ}く{)}:＞Ｖ/< :  ＞-:-'{}ぼ{ﾐ}
-     |ろ_|:ﾉ:＼:Y / }ﾐ : : : |  うY
-          ﾉ :o: : :oj `ー─-´ ￣￣
-         / : : : : :{
-        /: : o : :o:ﾍ
-      〈 : : : /\: : 〉
-       /::ー──'::ー‐ﾍ
-     〈:::::::::::::::::〉
-       ￣|￣｢￣|￣|￣
-         |  |  |  | 
-EOC
-
+   \   --木--
+       ／｜＼
+     ／  ｜  ＼
+  --木-- ｜ --木--
+  ／｜＼    ／｜＼
+／  ｜　＼／  ｜  ＼
+    ｜        ｜
 ```
 <!-- END_QUOTE -->
 
