@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“閉𥹰𦖑㗂𦟐桃</p>
-      <p class="nom">𬑉撑拯底埃𠓨沛空”</p>
-      <p class="quocngu">Bấy lâu nghe tiếng má đào,</p>
-      <p class="quocngu">Mắt xanh chẳng để ai vào phải không?</p>
-      <p class="author"><i>(Dòng 2181-2182) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“隔𫷜𩄲萡賒賒</p>
+      <p class="nom">臨淄拱沛併麻晨昏”</p>
+      <p class="quocngu">"Cách năm mây bạc xa xa,</p>
+      <p class="quocngu">Lâm Truy cũng phải tính mà thần hôn."</p>
+      <p class="author"><i>(Dòng 1599-1600) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “count no man happy until he be dead.” \
-|                                        |
-\  -- Solon                              /
- ----------------------------------------
+ ____________________
+/ “Mean people suck” \
+|                    |
+\  -- Jim Goad       /
+ --------------------
+ \
   \
-   \   --木--
-       ／｜＼
-     ／  ｜  ＼
-  --木-- ｜ --木--
-  ／｜＼    ／｜＼
-／  ｜　＼／  ｜  ＼
-    ｜        ｜
+ _   /|
+ \'o.O'
+ =(___)=
+    U
 ```
 <!-- END_QUOTE -->
 
