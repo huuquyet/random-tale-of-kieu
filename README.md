@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“隔𫷜𩄲萡賒賒</p>
-      <p class="nom">臨淄拱沛併麻晨昏”</p>
-      <p class="quocngu">"Cách năm mây bạc xa xa,</p>
-      <p class="quocngu">Lâm Truy cũng phải tính mà thần hôn."</p>
-      <p class="author"><i>(Dòng 1599-1600) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢖵恩𠃩𡦂高溇</p>
+      <p class="nom">󰜋𣈜󰜋我䏾橷斜斜”</p>
+      <p class="quocngu">Nhớ ơn chín chữ cao sâu,</p>
+      <p class="quocngu">Một ngày một ngả bóng dâu tà tà.</p>
+      <p class="author"><i>(Dòng 1253-1254) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,17 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________
-/ “Mean people suck” \
-|                    |
-\  -- Jim Goad       /
- --------------------
- \
-  \
- _   /|
- \'o.O'
- =(___)=
-    U
+ ____________________________________________
+/ “Feeling anxious or depressed sometimes is \
+| part of what it means to be a person, and  |
+| it might even be essential to success.”    |
+|                                            |
+\  -- K. Flay                                /
+ --------------------------------------------
+    \
+     \
+            .+
+             /M;
+              H#@:              ;,
+              -###H-          -@/
+               %####$.  -;  .%#X
+                M#####+;#H :M#M.
+..          .+/;%#########X###-
+ -/%H%+;-,    +##############/
+    .:$M###MH$%+############X  ,--=;-
+        -/H#####################H+=.
+           .+#################X.
+         =%M####################H;.
+            /@###############+;;/%%;,
+         -%###################$.
+       ;H######################M=
+    ,%#####MH$%;+#####M###-/@####%
+  :$H%+;=-      -####X.,H#   -+M##@-
+ .              ,###;    ;      =$##+
+                .#H,               :XH,
+                 +                   .;-
 ```
 <!-- END_QUOTE -->
 
