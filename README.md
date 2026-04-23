@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢖵恩𠃩𡦂高溇</p>
-      <p class="nom">󰜋𣈜󰜋我䏾橷斜斜”</p>
-      <p class="quocngu">Nhớ ơn chín chữ cao sâu,</p>
-      <p class="quocngu">Một ngày một ngả bóng dâu tà tà.</p>
-      <p class="author"><i>(Dòng 1253-1254) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情𠸗恩者義填</p>
+      <p class="nom">加親卞買結緣朱陳”</p>
+      <p class="quocngu">Tình xưa ân trả nghĩa đền,</p>
+      <p class="quocngu">Gia thân bèn mới kết duyên Châu Trần.</p>
+      <p class="author"><i>(Dòng 2865-2866) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,48 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Feeling anxious or depressed sometimes is \
-| part of what it means to be a person, and  |
-| it might even be essential to success.”    |
-|                                            |
-\  -- K. Flay                                /
- --------------------------------------------
-    \
-     \
-            .+
-             /M;
-              H#@:              ;,
-              -###H-          -@/
-               %####$.  -;  .%#X
-                M#####+;#H :M#M.
-..          .+/;%#########X###-
- -/%H%+;-,    +##############/
-    .:$M###MH$%+############X  ,--=;-
-        -/H#####################H+=.
-           .+#################X.
-         =%M####################H;.
-            /@###############+;;/%%;,
-         -%###################$.
-       ;H######################M=
-    ,%#####MH$%;+#####M###-/@####%
-  :$H%+;=-      -####X.,H#   -+M##@-
- .              ,###;    ;      =$##+
-                .#H,               :XH,
-                 +                   .;-
+ ___________________________________________
+/ “Nixon didn't mellow with his success, he \
+| became embittered by it.”                 |
+|                                           |
+\  -- John Dean                             /
+ -------------------------------------------
+      \
+       \
+        \                                     ,
+                                            ,o
+                                            :o
+                   _....._                  `:o
+                 .\'       ``-.                \o
+                /  _      _   \                \o
+               :  /*\    /*\   )                ;o
+               |  \_/    \_/   /                ;o
+               (       U      /                 ;o
+                \  (\_____/) /                  /o
+                 \   \_m_/  (                  /o
+                  \         (                ,o:
+                  )          \,           .o;o\'           ,o\'o\'o.
+                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
+ .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
+ o           ./o./ /       .o \.              __,-o o,o\'
+ \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
+ `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
+ .,  ``o-o\'  ,.oo/   \'o /\.o`.
+ `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
+   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
+                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
+                  \ o\              ``-o-o\'\'\'\'
+   ,-o;o           \o \
+  /o/               )o )  Carl Pilcher
+ (o(               /o /                |
+  \o\.       ...-o\'o /              \   |
+    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ```o--\'\'\'                       \| /
+                                       |/
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                       |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ```
 <!-- END_QUOTE -->
 
