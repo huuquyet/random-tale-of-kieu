@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢥈之󰟳意麻𢥈</p>
-      <p class="nom">蜆𥪝𠰘󱋓吏𨆶𠫾兜”</p>
-      <p class="quocngu">Lo gì việc ấy mà lo,</p>
-      <p class="quocngu">Kiến trong miệng chén lại bò đi đâu?</p>
-      <p class="author"><i>(Dòng 1547-1548) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“固欺𢝙傳謨唭</p>
+      <p class="nom">小姐吏𢷣仍唎兜兜”</p>
+      <p class="quocngu">Có khi vui chuyện mua cười,</p>
+      <p class="quocngu">Tiểu thư lại giở những lời đâu đâu.</p>
+      <p class="author"><i>(Dòng 1581-1582) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,54 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I know that pain is the most important   \
-| thing in the universes. Greater than      |
-| survival, greater than love, greater even |
-| than the beauty it brings about. For      |
-| without pain, there can be no pleasure.   |
-| Without sadness, there can be no          |
-| happiness. Without misery there can be no |
-| beauty. And without these, life is        |
-| endless, hopeless, doomed and damned.     |
-| Adult. You have become adult.”            |
-|                                           |
-\  -- Harlan Ellison                        /
- -------------------------------------------
-  \
-   \
-    \
-             ＿＿＿＿
-       ＜ :: :: :: :: `丶､
-       ／   _, ｨ:ﾊ ､＿: ::＼
-     ∠:: :/ |/|/ \/  \/:: |
-rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
-ヽ／＼i:｜   ┌──┐   i::|／＼ノ
-  ＼::|(||   |:::::|    ||)|::／
-    ＼|人|.、|:::::| .ｨ|ﾉ:八／
-      ＼\/\/>|:::::|<\/\/／
-        ＼ :::>TﾇT<::: ／
-          Y : ＼W／ : Y 
+ ____________________________________________
+/ “His angelic wings blackened when the dark \
+| fury assailed his mind. Summoning new      |
+| strength from the unholy power that        |
+| ravaged his soul, grieved to drastic       |
+| levels of desperation by the tainting of   |
+| the holy light within him, he combated     |
+| ally and enemy alike, bent on destroying   |
+| both sides in order to ensure the quelling |
+| of the dark energies there and then. For   |
+| days and nights, the lone warrior bathed   |
+| himself in the blood of angels and demons. |
+| And when it was over, he stood alone on    |
+| contaminated land, with a contaminated     |
+| soul. He was banned forever from Heaven    |
+| and not even Hell had space for a creature |
+| which seemed to cherish Oblivion over      |
+| Pandemonium. The dark angel, not so far    |
+| removed from his former self as his        |
+| superiors seemed to believe, died on the   |
+| edge of the cliffs, of utter loneliness    |
+| and despair.”                              |
+|                                            |
+\  -- T.A. Miles                             /
+ --------------------------------------------
+\
+ \
+   1A   2A                                         3A  4A  5A  6A  7A  8A
+  -----                                                               -----
+1 | H |                                                               |He |
+  |---+----                                       --------------------+---|
+2 |Li |Be |                                       | B | C | N | O | F |Ne |
+  |---+---|                                       |---+---+---+---+---+---|
+3 |Na |Mg |3B  4B  5B  6B  7B |    8B     |1B  2B |Al |Si | P | S |Cl |Ar |
+  |---+---+---------------------------------------+---+---+---+---+---+---|
+4 | K |Ca |Sc |Ti | V |Cr |Mn |Fe |Co |Ni |Cu |Zn |Ga |Ge |As |Se |Br |Kr |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+5 |Rb |Sr | Y |Zr |Nb |Mo |Tc |Ru |Rh |Pd |Ag |Cd |In |Sn |Sb |Te | I |Xe |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+6 |Cs |Ba |Lu |Hf |Ta | W |Re |Os |Ir |Pt |Au |Hg |Tl |Pb |Bi |Po |At |Rn |
+  |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+7 |Fr |Ra |Lr |Rf |Db |Sg |Bh |Hs |Mt |Ds |Rg |Cn |Nh |Fl |Mc |Lv |Ts |Og |
+  -------------------------------------------------------------------------
+              -------------------------------------------------------------
+   Lanthanide |La |Ce |Pr |Nd |Pm |Sm |Eu |Gd |Tb |Dy |Ho |Er |Tm |Yb |Lu |
+              |---+---+---+---+---+---+---+---+---+---+---+---+---+---+---|
+   Actinide   |Ac |Th |Pa | U |Np |Pu |Am |Cm |Bk |Cf |Es |Fm |Md |No |Lr |
+              -------------------------------------------------------------
 ```
 <!-- END_QUOTE -->
 
