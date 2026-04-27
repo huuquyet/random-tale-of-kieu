@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“罕𠀧𤾓两劍󰠳</p>
-      <p class="nom">拱陀𣃣󰢉群𡢐羅󰢊”</p>
-      <p class="quocngu">Hẳn ba trăm lạng kém đâu,</p>
-      <p class="quocngu">Cũng đà vừa vốn còn sau là lời.</p>
-      <p class="author"><i>(Dòng 829-830) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡦂貞當價𠦳鐄</p>
+      <p class="nom">𤒘花拯𢢆貝払𣈕𠸗”</p>
+      <p class="quocngu">Chữ Trinh đáng giá nghìn vàng,</p>
+      <p class="quocngu">Đuốc hoa chẳng thẹn với chàng mai xưa.</p>
+      <p class="author"><i>(Dòng 3095-3096) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Each man act according to his faith.” \
-|                                        |
-\  -- Lailah Gifty Akita                 /
- ----------------------------------------
- \     /\  ___  /\
-  \   // \/   \/ \\
-     ((    o o    ))
-      \\ /     \ //
-       \/  | |  \/ 
-        |  | |  |  
-        |  | |  |  
-        |   o   |  
-        | |   | |  
-        |m|   |m|  
+ ____________________________________________
+/ “After crosses and losses men grow humbler \
+| and wiser.”                                |
+|                                            |
+\  -- Benjamin Franklin                      /
+ --------------------------------------------
+    \
+     \ 
+      \
+       \
+                                           .::.                      
+                                           _::_                      
+                                 ()      _/____\_                    
+                               <~~~~>    \      /                    
+                       <>_      \__/      \____/      <>_            
+           __/"""\   (\)  )    (____)     (____)    (\)  )   __/"""\ 
+  WWWWWW  ]___ 0  }   \__/      |  |       |  |      \__/   ]___ 0  }  WWWWWW
+   |  |       /   }  (____)     |  |       |__|     (____)      /   }   |  |
+   |  |     /~    }   |  |      |__|      /    \     |  |     /~    }   |  |
+   |__|     \____/    |__|     /____\    (______)    |__|     \____/    |__|
+  /____\    /____\   /____\   (______)  (________)  /____\    /____\   /____\
+ (______)  (______) (______) (________) /________\ (______)  (______) (______)
+
+    __        __       __        __         __        __        __       __
+   (  )      (  )     (  )      (  )       (  )      (  )      (  )     (  )
+    ||        ||       ||        ||         ||        ||        ||       ||
+   /__\      /__\     /__\      /__\       /__\      /__\      /__\     /__\
+  (____)    (____)   (____)    (____)     (____)    (____)    (____)   (____)
 ```
 <!-- END_QUOTE -->
 
