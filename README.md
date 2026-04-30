@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“禮常㐌𨁥󰜋𠄩</p>
-      <p class="nom">陸程払拱典尼閉除”</p>
-      <p class="quocngu">Lễ thường đã đủ một hai,</p>
-      <p class="quocngu">Lục trình chàng cũng đến nơi bấy giờ.</p>
-      <p class="author"><i>(Dòng 1669-1670) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“媒強蘇綠捽紅</p>
+      <p class="nom">𧖱貪係𧡊唏銅沛迷”</p>
+      <p class="quocngu">Mụ càng tô lục chuốt hồng,</p>
+      <p class="quocngu">Máu tham hễ thấy hơi đồng phải mê,</p>
+      <p class="author"><i>(Dòng 1305-1306) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________
-/ “God is my shelter.”   \
-|                        |
-\  -- Lailah Gifty Akita /
- ------------------------
-                 \
-                  \  _,._
-                 __.'   _)
-                <_,)'.-"o\
-                  /' (    \
-      _.-----..,-'   (`"--^
-     //              |     
-    (|   `;      ,   |  
-      \   ;.----/  ,/ 
-       ) // /   | |\ \
-       \ \\`\   | |/ /
-        \ \\ \  | |\/
+ __________________________________________
+/ “Philosophy when superficially studied,  \
+| excites doubt, when thoroughly explored, |
+| it dispels it.”                          |
+|                                          |
+\  -- Francis Bacon                        /
+ ------------------------------------------
+  \
+   \   --木--
+       ／｜＼
+     ／  ｜  ＼
+  --木-- ｜ --木--
+  ／｜＼    ／｜＼
+／  ｜　＼／  ｜  ＼
+    ｜        ｜
 ```
 <!-- END_QUOTE -->
 
