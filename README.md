@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“媒強蘇綠捽紅</p>
-      <p class="nom">𧖱貪係𧡊唏銅沛迷”</p>
-      <p class="quocngu">Mụ càng tô lục chuốt hồng,</p>
-      <p class="quocngu">Máu tham hễ thấy hơi đồng phải mê,</p>
-      <p class="author"><i>(Dòng 1305-1306) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“閉遲𤋵月油花</p>
+      <p class="nom">𨑮分春固𤷍𠀧𦊚分”</p>
+      <p class="quocngu">Bấy chầy dãi nguyệt dầu hoa,</p>
+      <p class="quocngu">Mười phần xuân có gầy ba bốn phần.</p>
+      <p class="author"><i>(Dòng 3025-3026) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Philosophy when superficially studied,  \
-| excites doubt, when thoroughly explored, |
-| it dispels it.”                          |
-|                                          |
-\  -- Francis Bacon                        /
- ------------------------------------------
+ _____________________________________________
+/ “Gardens and flowers have a way of bringing \
+| people together, drawing them from their    |
+| homes.”                                     |
+|                                             |
+\  -- Clare Ansberry                          /
+ ---------------------------------------------
+ \
   \
-   \   --木--
-       ／｜＼
-     ／  ｜  ＼
-  --木-- ｜ --木--
-  ／｜＼    ／｜＼
-／  ｜　＼／  ｜  ＼
-    ｜        ｜
+
+   WWWWWW
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
 ```
 <!-- END_QUOTE -->
 
