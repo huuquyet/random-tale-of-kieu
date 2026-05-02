@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“閉遲𤋵月油花</p>
-      <p class="nom">𨑮分春固𤷍𠀧𦊚分”</p>
-      <p class="quocngu">Bấy chầy dãi nguyệt dầu hoa,</p>
-      <p class="quocngu">Mười phần xuân có gầy ba bốn phần.</p>
-      <p class="author"><i>(Dòng 3025-3026) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“仍羅唭粉𠹳𣘈</p>
+      <p class="nom">畑𣌉終䏾𦝄𧷺聘𦠘”</p>
+      <p class="quocngu">Những là cười phấn, cợt son,</p>
+      <p class="quocngu">Đèn khuya chung bóng, trăng tròn sánh vai,</p>
+      <p class="author"><i>(Dòng 1591-1592) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Gardens and flowers have a way of bringing \
-| people together, drawing them from their    |
-| homes.”                                     |
-|                                             |
-\  -- Clare Ansberry                          /
- ---------------------------------------------
- \
-  \
-
-   WWWWWW
-    |  |
-    |  |
-    |__|
-   /____\
-  (______)
+ ________________________
+/ “Every day is divine.” \
+|                        |
+\  -- Lailah Gifty Akita /
+ ------------------------
+     \
+      \
+     _              __
+    / `\  (~._    ./  )
+    \__/ __`-_\__/ ./
+   _ \ \/  \   \ |_   __
+ (   )  \__/ -^    \ /  \
+  \_/ "  \  | o  o  |.. /  __
+       \. --' ====  /  || /  \
+         \   .  .  |---__.\__/
+         /  :     /   |   |
+         /   :   /     \_/
+      --/ ::    (
+     (  |     (  (____
+   .--  .. ----**.____)
+   \___/
 ```
 <!-- END_QUOTE -->
 
