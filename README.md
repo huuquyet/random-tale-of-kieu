@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“仍羅唭粉𠹳𣘈</p>
-      <p class="nom">畑𣌉終䏾𦝄𧷺聘𦠘”</p>
-      <p class="quocngu">Những là cười phấn, cợt son,</p>
-      <p class="quocngu">Đèn khuya chung bóng, trăng tròn sánh vai,</p>
-      <p class="author"><i>(Dòng 1591-1592) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠊚𨖲馭几𢺺袍</p>
+      <p class="nom">棱楓秋㐌染牟關山”</p>
+      <p class="quocngu">Người lên ngựa, kẻ chia bào,</p>
+      <p class="quocngu">Rừng phong thu đã nhuốm màu quan san.</p>
+      <p class="author"><i>(Dòng 1519-1520) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________
-/ “Every day is divine.” \
-|                        |
-\  -- Lailah Gifty Akita /
- ------------------------
-     \
-      \
-     _              __
-    / `\  (~._    ./  )
-    \__/ __`-_\__/ ./
-   _ \ \/  \   \ |_   __
- (   )  \__/ -^    \ /  \
-  \_/ "  \  | o  o  |.. /  __
-       \. --' ====  /  || /  \
-         \   .  .  |---__.\__/
-         /  :     /   |   |
-         /   :   /     \_/
-      --/ ::    (
-     (  |     (  (____
-   .--  .. ----**.____)
-   \___/
+ _________________________________________
+/ “Good thing I'm aging, otherwise I'd be \
+| dead.”                                  |
+|                                         |
+\  -- Ana Monnar                          /
+ -----------------------------------------
+        \               ___
+         \           .-'   `'.
+                    /         \
+                    |         ;
+                    |         |           ___.--,
+           _.._     |0) ~ (0) |    _.---'`__.-( (_.
+    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+        | |  .' _.-' |  |  \  \  '.               `~---`
+         \ \/ .'     \  \   '. '-._)
+          \/ /        \  \    `=.__`~-.
+     jgs  / /\         `) )    / / `"".`\
+    , _.-'.'\ \        / /    ( (     / /
+     `--~`   ) )    .-'.'      '.'.  | (
+            (/`    ( (`          ) )  '-;
+             `      '-;         (-'
 ```
 <!-- END_QUOTE -->
 
