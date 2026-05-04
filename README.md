@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠊚𨖲馭几𢺺袍</p>
-      <p class="nom">棱楓秋㐌染牟關山”</p>
-      <p class="quocngu">Người lên ngựa, kẻ chia bào,</p>
-      <p class="quocngu">Rừng phong thu đã nhuốm màu quan san.</p>
-      <p class="author"><i>(Dòng 1519-1520) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𣈙󰂅靣獻伶伶</p>
+      <p class="nom">鐘鐄磬泊邊命𢷣𠚢”</p>
+      <p class="quocngu">Rày vâng diện hiến rành rành,</p>
+      <p class="quocngu">Chuông vàng, khánh bạc bên mình giở ra.</p>
+      <p class="author"><i>(Dòng 2047-2048) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “Good thing I'm aging, otherwise I'd be \
-| dead.”                                  |
-|                                         |
-\  -- Ana Monnar                          /
- -----------------------------------------
-        \               ___
-         \           .-'   `'.
-                    /         \
-                    |         ;
-                    |         |           ___.--,
-           _.._     |0) ~ (0) |    _.---'`__.-( (_.
-    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
-   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
-   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
-  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
-        | |  .' _.-' |  |  \  \  '.               `~---`
-         \ \/ .'     \  \   '. '-._)
-          \/ /        \  \    `=.__`~-.
-     jgs  / /\         `) )    / / `"".`\
-    , _.-'.'\ \        / /    ( (     / /
-     `--~`   ) )    .-'.'      '.'.  | (
-            (/`    ( (`          ) )  '-;
-             `      '-;         (-'
+ ____________________________________________
+/ “I want you to know that life will try to  \
+| crack you like an egg and your silence     |
+| will eventually break. Someday you will    |
+| spill some of those painful secrets and    |
+| taste a modicum of much-needed freedom.    |
+| You will lose a great deal as a result but |
+| the gains will outweigh every loss. You    |
+| will love and be loved by a beautiful man  |
+| in a place where your mutual passion won’t |
+| be a marker of shame but pride. You will   |
+| be awkward and alone and alien for a long  |
+| time but you will transform these          |
+| qualities, which is to say yourself, into  |
+| a work of art. You will wear your          |
+| awkwardness, your aloneness and your       |
+| alienness in your hair like gold thread.   |
+| You will adorn your wonkiness on your      |
+| wrist like a charm bracelet studded with   |
+| stars.”                                    |
+|                                            |
+\  -- Diriye Osman                           /
+ --------------------------------------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
 ```
 <!-- END_QUOTE -->
 
