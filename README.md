@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𣈙󰂅靣獻伶伶</p>
-      <p class="nom">鐘鐄磬泊邊命𢷣𠚢”</p>
-      <p class="quocngu">Rày vâng diện hiến rành rành,</p>
-      <p class="quocngu">Chuông vàng, khánh bạc bên mình giở ra.</p>
-      <p class="author"><i>(Dòng 2047-2048) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰂇𦓡固數𢀭𢀨</p>
+      <p class="nom">價尼唒𨯹茹鐄拱𢧚”</p>
+      <p class="quocngu">Ví mà có số giàu sang,</p>
+      <p class="quocngu">Giá này dẫu đúc nhà vàng cũng nên!</p>
+      <p class="author"><i>(Dòng 1901-1902) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,38 +26,34 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “I want you to know that life will try to  \
-| crack you like an egg and your silence     |
-| will eventually break. Someday you will    |
-| spill some of those painful secrets and    |
-| taste a modicum of much-needed freedom.    |
-| You will lose a great deal as a result but |
-| the gains will outweigh every loss. You    |
-| will love and be loved by a beautiful man  |
-| in a place where your mutual passion won’t |
-| be a marker of shame but pride. You will   |
-| be awkward and alone and alien for a long  |
-| time but you will transform these          |
-| qualities, which is to say yourself, into  |
-| a work of art. You will wear your          |
-| awkwardness, your aloneness and your       |
-| alienness in your hair like gold thread.   |
-| You will adorn your wonkiness on your      |
-| wrist like a charm bracelet studded with   |
-| stars.”                                    |
+/ “One positive thought is something you can \
+| accomplish.”                               |
 |                                            |
-\  -- Diriye Osman                           /
+\  -- Bryant McGill                          /
  --------------------------------------------
-   \
-    \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
-
+ \
+  \          , ----.
+   \        -  -     `
+      ,__.,'           \
+    .'                 *`
+   /       o   o     / **\
+  .                 / ****.
+  |    mm           | ****|
+   \                | ****|
+    ` ._______      \ ****/
+              \      /`---'
+               \___(
+               /~~~~\
+              /      \
+             /      | \
+            |       |  \
+  , ~~ .    |, ~~ . |  |\
+ ( |||| )   ( |||| )(,,,)`
+( |||||| )-( |||||| )    | ^
+( |||||| ) ( |||||| )    |'/
+( |||||| )-( |||||| )___,'-
+ ( |||| )   ( |||| )
+  ` ~~ '     ` ~~ '
 ```
 <!-- END_QUOTE -->
 
