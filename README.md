@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰂇𦓡固數𢀭𢀨</p>
-      <p class="nom">價尼唒𨯹茹鐄拱𢧚”</p>
-      <p class="quocngu">Ví mà có số giàu sang,</p>
-      <p class="quocngu">Giá này dẫu đúc nhà vàng cũng nên!</p>
-      <p class="author"><i>(Dòng 1901-1902) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌願𠄩𡦂同心</p>
+      <p class="nom">𤾓𢆥誓拯揞琴船埃”</p>
+      <p class="quocngu">Đã nguyền hai chữ đồng tâm</p>
+      <p class="quocngu">Trăm năm thề chẳng ôm cầm thuyền ai.</p>
+      <p class="author"><i>(Dòng 555-556) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “One positive thought is something you can \
-| accomplish.”                               |
-|                                            |
-\  -- Bryant McGill                          /
- --------------------------------------------
- \
-  \          , ----.
-   \        -  -     `
-      ,__.,'           \
-    .'                 *`
-   /       o   o     / **\
-  .                 / ****.
-  |    mm           | ****|
-   \                | ****|
-    ` ._______      \ ****/
-              \      /`---'
-               \___(
-               /~~~~\
-              /      \
-             /      | \
-            |       |  \
-  , ~~ .    |, ~~ . |  |\
- ( |||| )   ( |||| )(,,,)`
-( |||||| )-( |||||| )    | ^
-( |||||| ) ( |||||| )    |'/
-( |||||| )-( |||||| )___,'-
- ( |||| )   ( |||| )
-  ` ~~ '     ` ~~ '
+ _____________________________________________
+/ “Sister Ignatius taught me in Sunday School \
+| that "in the beginning there was light,"    |
+| but to me, it was always an incomplete      |
+| sentence, which God should have known to    |
+| ammend: in the beginning God created        |
+| light...to read by.”                        |
+|                                             |
+\  -- Lorna Landvik                           /
+ ---------------------------------------------
+       \
+        \
+
++      o     +              o   
+    +             o     +       +
+o          +
+    o  +           +        +
++        o     o       +        o
+-_-_-_-_-_-_-_,------,      o 
+_-_-_-_-_-_-_-|   /\_/\  
+-_-_-_-_-_-_-~|__( ^ .^)  +     +  
+_-_-_-_-_-_-_-''  ''      
++      o         o   +       o
+    +         +
+o        o         o      o     +
+    o           +
++      +     o        o      +    
 ```
 <!-- END_QUOTE -->
 
