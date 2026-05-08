@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥘀𢚸㤕柳爲花</p>
-      <p class="nom">𥘷䜹㐌別兜麻监𠽔”</p>
-      <p class="quocngu">Nặng lòng xót liễu vì hoa,</p>
-      <p class="quocngu">Trẻ thơ đã biết đâu mà dám thưa!"</p>
-      <p class="author"><i>(Dòng 335-336) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“徐浪國士𠸗󰅒</p>
+      <p class="nom">𪮙𠊚知己󰜋𣈜特庒”</p>
+      <p class="quocngu">Từ rằng: "Quốc sĩ xưa nay,</p>
+      <p class="quocngu">Chọn người tri kỷ một ngày được chăng?</p>
+      <p class="author"><i>(Dòng 2427-2428) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “It was deep and wide as autumn’s ending. \
-| It was heavy as a great river-smooth      |
-| stone. It was the patient, cut-flower     |
-| sound of a man who is waiting to die.”    |
-|                                           |
-\  -- Patrick Rothfuss                      /
- -------------------------------------------
-       \
-        \
-         \
-                 .:-────-:.  .
-             .: .: .: .: .: .: .: :.
-          ／.: .: .: .: .: .: .: .:  ＼
-         .: .:          /:  |        :.
-        .: .: : :  |.:./ |.: ハ.:.|::|.: :＼
-       /.: .: .: .:|.:/ u|.:/ u ､:|::|.:｜―`
-      /.: .: .:|:,|.＼._ｨ.:/ ､_／｜∨,::|
-     /.: .: .: |:/ィ≠ミ |/  ィ=ミ､ ∨::｜
-    /..: ,--|:｜  {んi:i}     ri:i}} ﾊ::|
-   /.ノ.:/へ|:|.   ∨:タ...::.ヾ:タ  .:.:､
-   ／:: :ﾊ (|:| u ''       '    ''  {:|ヽ:＼
-     {: :＼_|:| ｕ   __          u ﾉ:｜
-     ∨ﾊ:ﾊ:ヽ.|､   （- `ｰｧ      ..ｲ::/ﾉ
-       ,:＜:￣/|､＞:._￣..:-=≦::ﾊ:／
-      /: ヽ::/:| ＼_ィ .ハ＞:、
-     」: : :く:｜／{;;}∨: }::ﾊ
-    /:＼ : }/￣`Yヽ:∥:／: /:「Y二ヽ
-   / : : : /  ￣}-':/::〉: }:/Y{─ }
-  /: : : :/  .二ﾌ::/::/: : ﾘ::ﾊ{-- ﾉ
-./へ──‐ﾊ  ,-ｲ :/::/ : :ﾑ:-{､_エノ
-{: : : :.ヽ>イ:|:/::ノ: :/ : {{ ／ﾉ 
+ _____________________________________________
+/ “The only difference between loyalty and    \
+| love is that for love you do all of these   |
+| things because you want to, and you would   |
+| do them again, and again, and               |
+| again.Loyalty is learned; love is organic.” |
+|                                             |
+\  -- J.A. Redmerski                          /
+ ---------------------------------------------
+   \
+    \
+     \                 ____
+                 .: :<::. ::.>: :.
+               ／:: ::. :. ::. ::`:、
+               `::. ::.ィ:.i::.、::.ヽ
+             /'      ./|..ﾄ.}V.. .. ﾊ
+            '.. .. ./L/｜:| 一V::. ::１
+            i::. ::/}/` V:| V Vﾄ::. ::i
+            |::. :/Y芋ミV!Y 芋ミ|::. .|
+            ,::. ハ {::}  V {::}}:r,:代
+            /::. :}  つﾉ    つﾉ｜:レ:}ゝ  ヽ
+              V::八    r一 ┐   ｨ!::.:ﾘ      }
+       ｛r     ＼ﾊ:＞- .一-'.s<:ハ}ヽ}   __ノ ﾉ
+        弋二一   ヽ:{＞}_ノ  / ゝ､
+                ｡＜   〈ﾊ〉  {    `、
+              ／     i       `､.    `、
+            ／    フ^|   　   ',ﾞ、   `、
+           く   ／   |         ', ﾞ、y ヽ
+           tゝ_r     r          ',  ><一'
+                    /  ゞ＿      '
+                   /      一      `
 ```
 <!-- END_QUOTE -->
 
