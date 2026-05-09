@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“徐浪國士𠸗󰅒</p>
-      <p class="nom">𪮙𠊚知己󰜋𣈜特庒”</p>
-      <p class="quocngu">Từ rằng: "Quốc sĩ xưa nay,</p>
-      <p class="quocngu">Chọn người tri kỷ một ngày được chăng?</p>
-      <p class="author"><i>(Dòng 2427-2428) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“固調之女𦓡疑</p>
+      <p class="nom">客戈塘底𠾿哬払蕭”</p>
+      <p class="quocngu">Có điều chi nữa mà ngờ,</p>
+      <p class="quocngu">Khách qua đường để hững hờ chàng Tiêu!"</p>
+      <p class="author"><i>(Dòng 3125-3126) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The only difference between loyalty and    \
-| love is that for love you do all of these   |
-| things because you want to, and you would   |
-| do them again, and again, and               |
-| again.Loyalty is learned; love is organic.” |
-|                                             |
-\  -- J.A. Redmerski                          /
- ---------------------------------------------
-   \
-    \
-     \                 ____
-                 .: :<::. ::.>: :.
-               ／:: ::. :. ::. ::`:、
-               `::. ::.ィ:.i::.、::.ヽ
-             /'      ./|..ﾄ.}V.. .. ﾊ
-            '.. .. ./L/｜:| 一V::. ::１
-            i::. ::/}/` V:| V Vﾄ::. ::i
-            |::. :/Y芋ミV!Y 芋ミ|::. .|
-            ,::. ハ {::}  V {::}}:r,:代
-            /::. :}  つﾉ    つﾉ｜:レ:}ゝ  ヽ
-              V::八    r一 ┐   ｨ!::.:ﾘ      }
-       ｛r     ＼ﾊ:＞- .一-'.s<:ハ}ヽ}   __ノ ﾉ
-        弋二一   ヽ:{＞}_ノ  / ゝ､
-                ｡＜   〈ﾊ〉  {    `、
-              ／     i       `､.    `、
-            ／    フ^|   　   ',ﾞ、   `、
-           く   ／   |         ', ﾞ、y ヽ
-           tゝ_r     r          ',  ><一'
-                    /  ゞ＿      '
-                   /      一      `
+ ___________________________________________
+/ “The importance of the river cannot be    \
+| overstated in the history of the country, |
+| or the development of the nation.”        |
+|                                           |
+\  -- Maurice Hinchey                       /
+ -------------------------------------------
+     \
+      \
+         __________________
+        /\  ______________ \
+       /::\ \ZZZZZZZZZZZZ/\ \
+      /:/\.\ \        /:/\:\ \
+     /:/Z/\:\ \      /:/Z/\:\ \
+    /:/Z/__\:\ \____/:/Z/  \:\ \
+   /:/Z/____\:\ \___\/Z/    \:\ \
+   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
+    \:\ \     \:\ \ \:\ \     \:\ \
+     \:\ \     \:\ \_\;\_\_____\;\ \
+      \:\ \     \:\_________________\
+       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
+        \:\ \  /:/Z/    \:\ \  /:/Z/
+         \:\ \/:/Z/      \:\ \/:/Z/
+          \:\/:/Z/________\;\/:/Z/
+           \::/Z/_______itz__\/Z/
+            \/ZZZZZZZZZZZZZZZZZ/
 ```
 <!-- END_QUOTE -->
 
