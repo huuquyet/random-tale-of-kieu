@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“固調之女𦓡疑</p>
-      <p class="nom">客戈塘底𠾿哬払蕭”</p>
-      <p class="quocngu">Có điều chi nữa mà ngờ,</p>
-      <p class="quocngu">Khách qua đường để hững hờ chàng Tiêu!"</p>
-      <p class="author"><i>(Dòng 3125-3126) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𪤍富貴堛才名</p>
+      <p class="nom">文章󰞺坦聰明性𡗶”</p>
+      <p class="quocngu">Nền phú quý, bậc tài danh,</p>
+      <p class="quocngu">Văn chương nết đất, thông minh tính trời.</p>
+      <p class="author"><i>(Dòng 149-150) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “The importance of the river cannot be    \
-| overstated in the history of the country, |
-| or the development of the nation.”        |
-|                                           |
-\  -- Maurice Hinchey                       /
- -------------------------------------------
-     \
-      \
-         __________________
-        /\  ______________ \
-       /::\ \ZZZZZZZZZZZZ/\ \
-      /:/\.\ \        /:/\:\ \
-     /:/Z/\:\ \      /:/Z/\:\ \
-    /:/Z/__\:\ \____/:/Z/  \:\ \
-   /:/Z/____\:\ \___\/Z/    \:\ \
-   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
-    \:\ \     \:\ \ \:\ \     \:\ \
-     \:\ \     \:\ \_\;\_\_____\;\ \
-      \:\ \     \:\_________________\
-       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
-        \:\ \  /:/Z/    \:\ \  /:/Z/
-         \:\ \/:/Z/      \:\ \/:/Z/
-          \:\/:/Z/________\;\/:/Z/
-           \::/Z/_______itz__\/Z/
-            \/ZZZZZZZZZZZZZZZZZ/
+ ____________________________________________
+/ “Focus forward, not around you.In the      \
+| moment;Not behind you.Don't grimace in the |
+| whys, Relish in 'Yes-es;' - Be             |
+| Positive...When you amplify the goods,     |
+| you'll see bads as infinitesimally         |
+| minuscule.Glorify and Cleanse... first and |
+| foremost , YOUR perception. #levitate”     |
+|                                            |
+\  -- Tiffany Luard                          /
+ --------------------------------------------
+  \
+   \   --木--
+       ／｜＼
+     ／  ｜  ＼
+  --木-- ｜ --木--
+  ／｜＼    ／｜＼
+／  ｜　＼／  ｜  ＼
+    ｜        ｜
 ```
 <!-- END_QUOTE -->
 
