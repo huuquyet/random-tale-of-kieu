@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“哭浪冤酷爲些</p>
-      <p class="nom">沛𦖑𠳒𠓀易麻累𡢐”</p>
-      <p class="quocngu">Khóc rằng: "Oan khốc vì ta,</p>
-      <p class="quocngu">Phải nghe lời trước, dễ mà lụy sau.</p>
-      <p class="author"><i>(Dòng 1433-1434) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“戈𨔈吏﨤回顛</p>
+      <p class="nom">悁塳吏劍咹沔月花”</p>
+      <p class="quocngu">Qua chơi lại gặp hồi đen,</p>
+      <p class="quocngu">Quen vùng lại kiếm ăn miền nguyệt hoa.</p>
+      <p class="author"><i>(Dòng 807-808) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “Have you spent so much time in the     \
-| darkness that you cannot understand the |
-| light?”                                 |
-|                                         |
-\  -- Seth Adam Smith                     /
- -----------------------------------------
-  \
-   \
-       ___  
-     {~o_o~}
-      ( Y )
-     ()~*~()   
-     (_)-(_)   
+ ____________________________________________
+/ “The big kid hasn't said anything yet. 'I  \
+| do like hearing myself talk,' I say, 'only |
+| because I have a lot of neat things to     |
+| say, but eventually the conversation will  |
+| run out in, like, four or five years, and  |
+| then where will we be?' Wonder of all      |
+| wonders, he cracks a little smile. I don't |
+| blame him. I am pretty funny.”             |
+|                                            |
+\  -- T.J. Klune                             /
+ --------------------------------------------
+       \   \_______
+ v__v   \  \   O   )
+ (oo)      ||----w |
+ (__)      ||     ||  \/\
+    
 ```
 <!-- END_QUOTE -->
 
