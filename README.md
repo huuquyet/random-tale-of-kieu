@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“戈𨔈吏﨤回顛</p>
-      <p class="nom">悁塳吏劍咹沔月花”</p>
-      <p class="quocngu">Qua chơi lại gặp hồi đen,</p>
-      <p class="quocngu">Quen vùng lại kiếm ăn miền nguyệt hoa.</p>
-      <p class="author"><i>(Dòng 807-808) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“共饒𠸥𡅏𡢐𠸗</p>
+      <p class="nom">呐耒吏呐𠳒渚歇𠳒”</p>
+      <p class="quocngu">Cùng nhau kể lể sau xưa,</p>
+      <p class="quocngu">Nói rồi lại nói, lời chưa hết lời.</p>
+      <p class="author"><i>(Dòng 1977-1978) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The big kid hasn't said anything yet. 'I  \
-| do like hearing myself talk,' I say, 'only |
-| because I have a lot of neat things to     |
-| say, but eventually the conversation will  |
-| run out in, like, four or five years, and  |
-| then where will we be?' Wonder of all      |
-| wonders, he cracks a little smile. I don't |
-| blame him. I am pretty funny.”             |
-|                                            |
-\  -- T.J. Klune                             /
- --------------------------------------------
-       \   \_______
- v__v   \  \   O   )
- (oo)      ||----w |
- (__)      ||     ||  \/\
-    
+ ___________________________________________
+/ “Whenever you choose power over love, you \
+| will never find true happiness.”          |
+|                                           |
+\  -- Karen Salmansohn                      /
+ -------------------------------------------
+  \
+   \                       _
+                          / )      
+                         / /       
+      //|                \ \       
+   .-`^ \   .-`````-.     \ \      
+ o` {|}  \_/         \    / /      
+ '--,  _ //   .---.   \  / /       
+   ^^^` )/  ,/     \   \/ /        
+        (  /)      /\/   /         
+        / / (     / (   /          
+    ___/ /) (  __/ __\ (           
+   (((__)((__)((__(((___)          
 ```
 <!-- END_QUOTE -->
 
