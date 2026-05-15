@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋瀾𦹵木撑荑</p>
-      <p class="nom">渃吟𤄯沕𧡊之汝兜”</p>
-      <p class="quocngu">Một làn cỏ mọc xanh rì,</p>
-      <p class="quocngu">Nước ngâm trong vắt thấy gì nữa đâu!</p>
-      <p class="author"><i>(Dòng 261-262) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“另賒𠓀料尋塘</p>
+      <p class="nom">𡎥徐渃典蹎床群圭”</p>
+      <p class="quocngu">Lánh xa trước liệu tìm đường,</p>
+      <p class="quocngu">Ngồi chờ nước đến chân giường còn quê."</p>
+      <p class="author"><i>(Dòng 2079-2080) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “We survive on adversity and perish in ease \
-| and comfort.”                               |
-|                                             |
-\  -- Livy                                    /
- ---------------------------------------------
-    \
-     \
-              .,-:;//;:=,
-          . :H@@@MM@M#H/.,+%;,
-       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
-  =@#@@@MX .,      WE      -%HX$%%%+;
- =-./@M@M$         DO       .;@MMMM@MM:
- X@/ -$MM/        WHAT        .+MM@@@M$
-,@M@H: :@:         WE         . =X#@@@@-
-,@@@MMX, .        MUST        /H- ;@M@M=
-.H@@@@M@+,      BECAUSE       %MM+..%#$.
- /MMMM@MMH/.       WE         XM@MH; =;
-  /%+%$XHH@$=     CAN      , .H@@@@MX,
-   .=--------.           -%H.,@@@@@MX,
-   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
-     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
-       =%@M@M#@$-.=$@MM@@@M; %M%=
-         ,:+$+-,/H#MMMMMMM@= =,
-               =++%%%%+/:-.
+ __________________________________________
+/ “I sometimes wonder whether our          \
+| churches--living as we do in American    |
+| death-denying culture, relentlessly      |
+| smiling through our praise choruses--are |
+| inadvertently helping people live not as |
+| much in hope as in denial.”              |
+|                                          |
+\  -- Mark Galli                           /
+ ------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 ```
 <!-- END_QUOTE -->
 
