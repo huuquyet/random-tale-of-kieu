@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰡎塵󰋇󰘚廊𨔈</p>
-      <p class="nom">𨔈花㐌易󰋇𠊚别花”</p>
-      <p class="quocngu">Dưới trần mấy mặt làng chơi,</p>
-      <p class="quocngu">Chơi hoa đã dễ mấy người biết hoa!</p>
-      <p class="author"><i>(Dòng 835-836) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦹵𡽫撑羡蹎𡗶</p>
+      <p class="nom">梗梨𤽸點󰜋𢽼󱖮花”</p>
+      <p class="quocngu">Cỏ non xanh tận chân trời,</p>
+      <p class="quocngu">Cành lê trắng điểm một vài bông hoa.</p>
+      <p class="author"><i>(Dòng 41-42) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,35 +26,32 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Tara. I'm a vampire," Pearl said."Yeah,   \
-| whatever, and I'm queen of the sea.""Your  |
-| Marine Majesty, I'm a vampire," Pearl      |
-| said.Concentrating, she slid her fangs     |
-| out. "Tara. Tara!" She curled back her     |
-| lips to expose the points. "See"Tara       |
-| screamed."I won't hurt you," Pearl said.   |
-| Calm down. Sheesh."Tara continued to       |
-| scream.Pearl considered biting her merely  |
-| to shut her up. Regrettably that would be  |
-| counter productive. Studying her nails,    |
-| she waited for Tara to quit screaming. She |
-| noticed that Tara didn't try to exit the   |
-| car, which was an interesting choice."You  |
-| aren't running away," Pearl said."Duh,     |
-| it's raining outside," Tara said.”         |
+/ “Take a step that has a purpose of leading \
+| you to where you have planned to go. When  |
+| the destination is right and the direction |
+| is wrong, it is impossible to get there.   |
+| Make a step.”                              |
 |                                            |
-\  -- Sarah Beth Durst                       /
+\  -- Israelmore Ayivor                      /
  --------------------------------------------
- \
-  \
-    <>_
-  (\)  )
-   \__/
-  (____)
-   |  |
-   |__|
-  /____\
- (______)
+   \
+    \
+      _____   _________
+     /     \_/         |
+    |                 ||
+    |                 ||
+   |    ###\  /###   | |
+   |     o  \/  o    | |
+  /|                 | |
+ / |        <        |\ \
+| /|                 | | |
+| |     \_______/   |  | |
+| |                 | / /
+/||                 /|||
+   ----------------|
+        | |    | |
+        ***    ***
+       /___\  /___\
 ```
 <!-- END_QUOTE -->
 
