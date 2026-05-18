@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦹵𡽫撑羡蹎𡗶</p>
-      <p class="nom">梗梨𤽸點󰜋𢽼󱖮花”</p>
-      <p class="quocngu">Cỏ non xanh tận chân trời,</p>
-      <p class="quocngu">Cành lê trắng điểm một vài bông hoa.</p>
-      <p class="author"><i>(Dòng 41-42) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“決情娘買下情</p>
+      <p class="nom">𠯇朱底妾半命贖吒”</p>
+      <p class="quocngu">Quyết tình nàng mới hạ tình:</p>
+      <p class="quocngu">Dẽ cho để thiếp bán mình chuộc cha!</p>
+      <p class="author"><i>(Dòng 605-606) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Take a step that has a purpose of leading \
-| you to where you have planned to go. When  |
-| the destination is right and the direction |
-| is wrong, it is impossible to get there.   |
-| Make a step.”                              |
-|                                            |
-\  -- Israelmore Ayivor                      /
- --------------------------------------------
-   \
-    \
-      _____   _________
-     /     \_/         |
-    |                 ||
-    |                 ||
-   |    ###\  /###   | |
-   |     o  \/  o    | |
-  /|                 | |
- / |        <        |\ \
-| /|                 | | |
-| |     \_______/   |  | |
-| |                 | / /
-/||                 /|||
-   ----------------|
-        | |    | |
-        ***    ***
-       /___\  /___\
+ ________________________________________
+/ “Man is by nature a political animal.” \
+|                                        |
+\  -- Aristotle                          /
+ ----------------------------------------
+        \         ____________________
+         \       |                    |
+          \      |     PSYCHIATRIC    |
+           \     |        HELP        |
+            \    |____________________|
+             \   ||  ,-..'``.        ||
+              \  || (,-..'`. )       ||
+                 ||   )-c - `)\      ||
+   ,.,._.-.,_,.,-||,.(`.--  ,`',.-,_,||.-.,.,-,._.
+              ___||____,`,'--._______||
+             |`._||______`'__________||
+             |   ||     __           ||
+             |   ||    |.-' ,|-      ||
+   _,_,,..-,_|   ||    ._)) `|-      ||,.,_,_.-.,_
+            . `._||__________________||   ____    .
+     .              .           .     . <.____`>
+   .SSt  .      .     .      .    .   _.()`'()`'  .
 ```
 <!-- END_QUOTE -->
 
