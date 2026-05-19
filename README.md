@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“決情娘買下情</p>
-      <p class="nom">𠯇朱底妾半命贖吒”</p>
-      <p class="quocngu">Quyết tình nàng mới hạ tình:</p>
-      <p class="quocngu">Dẽ cho để thiếp bán mình chuộc cha!</p>
-      <p class="author"><i>(Dòng 605-606) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“夫人𠸦斫窒牟</p>
+      <p class="nom">𢢅昆買𠰺默油𠚢𢬣”</p>
+      <p class="quocngu">Phu nhân khen chước rất mầu,</p>
+      <p class="quocngu">Chiều con, mới dạy mặc dầu ra tay.</p>
+      <p class="author"><i>(Dòng 1621-1622) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “Man is by nature a political animal.” \
-|                                        |
-\  -- Aristotle                          /
- ----------------------------------------
-        \         ____________________
-         \       |                    |
-          \      |     PSYCHIATRIC    |
-           \     |        HELP        |
-            \    |____________________|
-             \   ||  ,-..'``.        ||
-              \  || (,-..'`. )       ||
-                 ||   )-c - `)\      ||
-   ,.,._.-.,_,.,-||,.(`.--  ,`',.-,_,||.-.,.,-,._.
-              ___||____,`,'--._______||
-             |`._||______`'__________||
-             |   ||     __           ||
-             |   ||    |.-' ,|-      ||
-   _,_,,..-,_|   ||    ._)) `|-      ||,.,_,_.-.,_
-            . `._||__________________||   ____    .
-     .              .           .     . <.____`>
-   .SSt  .      .     .      .    .   _.()`'()`'  .
+ _____________________________________________
+/ “Without the Mind, there is no God. Without \
+| you, there is no God.”                      |
+|                                             |
+\  -- Abhijit Naskar                          /
+ ---------------------------------------------
+ \
+  \
+    .::.
+    _::_
+  _/____\_
+  \      /
+   \____/
+   (____)
+    |  |
+    |__|
+   /    \
+  (______)
+ (________)
+ /________\
 ```
 <!-- END_QUOTE -->
 
