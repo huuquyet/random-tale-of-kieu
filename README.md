@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“夫人𠸦斫窒牟</p>
-      <p class="nom">𢢅昆買𠰺默油𠚢𢬣”</p>
-      <p class="quocngu">Phu nhân khen chước rất mầu,</p>
-      <p class="quocngu">Chiều con, mới dạy mặc dầu ra tay.</p>
-      <p class="author"><i>(Dòng 1621-1622) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“覺緣舌意𢥈量</p>
+      <p class="nom">𣈘清買𠳨吏娘𠓀𡢐”</p>
+      <p class="quocngu">Giác Duyên thiệt ý lo lường,</p>
+      <p class="quocngu">Đêm thanh mới hỏi lại nàng trước sau.</p>
+      <p class="author"><i>(Dòng 2067-2068) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Without the Mind, there is no God. Without \
-| you, there is no God.”                      |
-|                                             |
-\  -- Abhijit Naskar                          /
- ---------------------------------------------
- \
+ ____________________________________________
+/ “Run your purpose on the toes of your feet \
+| before people can type your success        |
+| stories with the fingers of their hands.”  |
+|                                            |
+\  -- Israelmore Ayivor                      /
+ --------------------------------------------
   \
-    .::.
-    _::_
-  _/____\_
-  \      /
-   \____/
-   (____)
-    |  |
-    |__|
-   /    \
-  (______)
- (________)
- /________\
+   \ ..:::::::::.
+    ::::::::::::::
+   /. `::::::::::::
+  O__,_:::::::::::'
 ```
 <!-- END_QUOTE -->
 
