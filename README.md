@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“覺緣舌意𢥈量</p>
-      <p class="nom">𣈘清買𠳨吏娘𠓀𡢐”</p>
-      <p class="quocngu">Giác Duyên thiệt ý lo lường,</p>
-      <p class="quocngu">Đêm thanh mới hỏi lại nàng trước sau.</p>
-      <p class="author"><i>(Dòng 2067-2068) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡑝𦼔拯𡳒𨁪𨃐</p>
+      <p class="nom">𦹵高欣𡱩柳𤷍𢽼分”</p>
+      <p class="quocngu">Sân rêu chẳng vẽ dấu giày,</p>
+      <p class="quocngu">Cỏ cao hơn thước, liễu gầy vài phân.</p>
+      <p class="author"><i>(Dòng 2233-2234) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Run your purpose on the toes of your feet \
-| before people can type your success        |
-| stories with the fingers of their hands.”  |
-|                                            |
-\  -- Israelmore Ayivor                      /
- --------------------------------------------
+ ____________________________________
+/ “Everyone you will ever meet knows \
+| something you don't.”              |
+|                                    |
+\  -- Bill Nye                       /
+ ------------------------------------
   \
-   \ ..:::::::::.
-    ::::::::::::::
-   /. `::::::::::::
-  O__,_:::::::::::'
+     ___        _--_
+    /    -    /     \
+   ( oo   \  (    oo )
+   |  oo _;\-/|  oo _|
+    \___/######\___/\
+      /##############\
+     /  ######   ##  #|
+    /  ##@##@##       |
+   /    ######     ##  \
+ <______-------___\  . //_
+    |       ____  | | //# \__~__
+     \            \  //###  \   \
+      |             /\'  ##  ##  ##\   __--~--_
+       \_________- /\ )    ^     ##|--########\
+  /--~-_\________/_  |          #@##|#######Y##|
+ | \ `  /|       /O/ ( ###  \')    ##/######/###/
+ \  \  | |       --  |  ###        /LLLLL--###/
+  \_ \/  |            \_   \    ) /####_____--
+ ___ /    \           /     |   _-####\
+(___/     -\_________/     / -- |#####@@@@@@\'_
+ (__\_      __,) (.___     ,/    /#####      `@@
+      | -\\-          //-//      @@  @@@@@.
+      | | \\_       _// //      @\'       \'@@.
+      (.)   \_)    / / //                   @@@
+                  (_) (_\'
 ```
 <!-- END_QUOTE -->
 
