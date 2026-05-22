@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡑝𦼔拯𡳒𨁪𨃐</p>
-      <p class="nom">𦹵高欣𡱩柳𤷍𢽼分”</p>
-      <p class="quocngu">Sân rêu chẳng vẽ dấu giày,</p>
-      <p class="quocngu">Cỏ cao hơn thước, liễu gầy vài phân.</p>
-      <p class="author"><i>(Dòng 2233-2234) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰡎花㖂𫫵惡人</p>
+      <p class="nom">喑喑哭鬼驚神𧿆𠚢”</p>
+      <p class="quocngu">Dưới hoa dậy lũ ác nhân,</p>
+      <p class="quocngu">Ầm ầm khốc quỷ kinh thần nhảy ra!</p>
+      <p class="author"><i>(Dòng 1641-1642) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________
-/ “Everyone you will ever meet knows \
-| something you don't.”              |
-|                                    |
-\  -- Bill Nye                       /
- ------------------------------------
-  \
-     ___        _--_
-    /    -    /     \
-   ( oo   \  (    oo )
-   |  oo _;\-/|  oo _|
-    \___/######\___/\
-      /##############\
-     /  ######   ##  #|
-    /  ##@##@##       |
-   /    ######     ##  \
- <______-------___\  . //_
-    |       ____  | | //# \__~__
-     \            \  //###  \   \
-      |             /\'  ##  ##  ##\   __--~--_
-       \_________- /\ )    ^     ##|--########\
-  /--~-_\________/_  |          #@##|#######Y##|
- | \ `  /|       /O/ ( ###  \')    ##/######/###/
- \  \  | |       --  |  ###        /LLLLL--###/
-  \_ \/  |            \_   \    ) /####_____--
- ___ /    \           /     |   _-####\
-(___/     -\_________/     / -- |#####@@@@@@\'_
- (__\_      __,) (.___     ,/    /#####      `@@
-      | -\\-          //-//      @@  @@@@@.
-      | | \\_       _// //      @\'       \'@@.
-      (.)   \_)    / / //                   @@@
-                  (_) (_\'
+ ____________________________________________
+/ “There's too much tendency to attribute to \
+| God the evils that man does of his own     |
+| free will.”                                |
+|                                            |
+\  -- Agatha Christie                        /
+ --------------------------------------------
+   \
+    \
+
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+
 ```
 <!-- END_QUOTE -->
 
