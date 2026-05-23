@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰡎花㖂𫫵惡人</p>
-      <p class="nom">喑喑哭鬼驚神𧿆𠚢”</p>
-      <p class="quocngu">Dưới hoa dậy lũ ác nhân,</p>
-      <p class="quocngu">Ầm ầm khốc quỷ kinh thần nhảy ra!</p>
-      <p class="author"><i>(Dòng 1641-1642) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠓀羅薄幸薄󰜏</p>
+      <p class="nom">邊羅鷹犬邊羅楚卿”</p>
+      <p class="quocngu">Trước là Bạc Hạnh, Bạc bà,</p>
+      <p class="quocngu">Bên là Ưng, Khuyển, bên là Sở Khanh.</p>
+      <p class="author"><i>(Dòng 2383-2384) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “There's too much tendency to attribute to \
-| God the evils that man does of his own     |
-| free will.”                                |
-|                                            |
-\  -- Agatha Christie                        /
- --------------------------------------------
-   \
-    \
-
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  | * * * * * * * * *  :::::::::::::::::::::::::|
-  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-  |:::::::::::::::::::::::::::::::::::::::::::::|
-  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-
+ _________________________________________
+/ “J.R.R. Tolkien, said a student, "could \
+| turn a lecture room into a mead hall in |
+| which he was the bard and we were the   |
+| feasting, listening guests.”            |
+|                                         |
+\  -- Philip Zaleski                      /
+ -----------------------------------------
+       \
+        \       __---__                         ______
+         \     /    ___\_             o  O  O _(      )__
+              /====(_____\___---_  o        _(           )_
+             |                    \        (_  AI-YA!!!!   )
+             |                     |@        (_  Shot      _)
+              \       ___         /           (__  Again!__)
+ \ __----____--_\____(____\_____/                (______)
+==|__----____--______|
+ /              /    \____/)_
+              /        ______)
+             /           |  |
+            |           _|  |
+       ______\______________|______
+      /                    *   *   \
+     /_____________*____*___________\
+     /   *     *                    \
+    /________________________________\
+    / *                              \
+   /__________________________________\
+        |                        |
+        |________________________|
+        |                        |
+        |________________________|
 ```
 <!-- END_QUOTE -->
 
