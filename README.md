@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠓀羅薄幸薄󰜏</p>
-      <p class="nom">邊羅鷹犬邊羅楚卿”</p>
-      <p class="quocngu">Trước là Bạc Hạnh, Bạc bà,</p>
-      <p class="quocngu">Bên là Ưng, Khuyển, bên là Sở Khanh.</p>
-      <p class="author"><i>(Dòng 2383-2384) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“併浪󰘚渃蹎𩄲</p>
+      <p class="nom">𢚸󰅹群想固𣈙女空”</p>
+      <p class="quocngu">Tính rằng mặt nước chân mây,</p>
+      <p class="quocngu">Lòng nào còn tưởng có rày nữa không?</p>
+      <p class="author"><i>(Dòng 3037-3038) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,14 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “J.R.R. Tolkien, said a student, "could \
-| turn a lecture room into a mead hall in |
-| which he was the bard and we were the   |
-| feasting, listening guests.”            |
-|                                         |
-\  -- Philip Zaleski                      /
- -----------------------------------------
-       \
-        \       __---__                         ______
-         \     /    ___\_             o  O  O _(      )__
-              /====(_____\___---_  o        _(           )_
-             |                    \        (_  AI-YA!!!!   )
-             |                     |@        (_  Shot      _)
-              \       ___         /           (__  Again!__)
- \ __----____--_\____(____\_____/                (______)
-==|__----____--______|
- /              /    \____/)_
-              /        ______)
-             /           |  |
-            |           _|  |
-       ______\______________|______
-      /                    *   *   \
-     /_____________*____*___________\
-     /   *     *                    \
-    /________________________________\
-    / *                              \
-   /__________________________________\
-        |                        |
-        |________________________|
-        |                        |
-        |________________________|
+ _________________________________________________________
+/ “You said you want to leave a mark on my                \
+| heart. You did”                                         |
+|                                                         |
+\  -- a burning pain that won’t leave me wherever I turn. /
+ ---------------------------------------------------------
+\
+ \
 ```
 <!-- END_QUOTE -->
 
