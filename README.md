@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“哭浪冤酷爲些</p>
-      <p class="nom">沛𦖑𠳒𠓀易麻累𡢐”</p>
-      <p class="quocngu">Khóc rằng: "Oan khốc vì ta,</p>
-      <p class="quocngu">Phải nghe lời trước, dễ mà lụy sau.</p>
-      <p class="author"><i>(Dòng 1433-1434) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢯏𢴾𢷀󰁹㗂絲</p>
+      <p class="nom">沉𠖤𤁕𤌋𩙍迻𢯦簾”</p>
+      <p class="quocngu">Bẻ bai, rủ rỉ tiếng tơ,</p>
+      <p class="quocngu">Trầm bay nhạt khói, gió đưa lay rèm.</p>
+      <p class="author"><i>(Dòng 2851-2852) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I know that what you call 'God' really    \
-| exists, but not in the form you think; God |
-| is primal cosmic energy, the love in your  |
-| body, your integrity, and your perception  |
-| of the nature in you and outside of you.”  |
-|                                            |
-\  -- Wilhelm Reich                          /
- --------------------------------------------
-      \                            |     |
-       \                        ,--|     |-.
-                         __,----|  |     | |
-                       ,;::     |  `_____' |
-                       `._______|    i^i   |
-                                `----| |---'| .
-                           ,-------._| |== ||//
-                           |       |_|P`.  /'/
-                           `-------' 'Y Y/'/'
-                                     .==\ /_\
-   ^__^                             /   /'|  `i
-   (oo)\_______                   /'   /  |   |
-   (__)\       )\/\             /'    /   |   `i
-       ||----w |           ___,;`----'.___L_,-'`\__
-       ||     ||          i_____;----\.____i""\____\
+ __________________________________________
+/ “Art is the only answer to chaos and the \
+| void.”                                   |
+|                                          |
+\  -- Dean Koontz                          /
+ ------------------------------------------
+       \
+        \
+         \        .:  ￣￣￣￣:.丶､
+               ／.: .: .: .: .: .: ＼
+              /    ／|    /\.:| .: :.
+             / .:|乂 |/{:/ _乂/\ .:.:|
+           ノ.:\/ｨ庁ﾐ` \/ｨ庁ﾐx  \/:.:|
+             |:}{弋.ﾉ    弋ノ } /.:.:|
+             ﾚ:ﾘ''          '' ｜:ハ:＼
+             {人       ,、    ,｜/ノ:厂 
 ```
 <!-- END_QUOTE -->
 
