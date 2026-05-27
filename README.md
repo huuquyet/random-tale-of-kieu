@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢯏𢴾𢷀󰁹㗂絲</p>
-      <p class="nom">沉𠖤𤁕𤌋𩙍迻𢯦簾”</p>
-      <p class="quocngu">Bẻ bai, rủ rỉ tiếng tơ,</p>
-      <p class="quocngu">Trầm bay nhạt khói, gió đưa lay rèm.</p>
-      <p class="author"><i>(Dòng 2851-2852) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㤕𠊚𢭸𫔸𣋚𣈕</p>
+      <p class="nom">𦑗燶撘冷仍埃妬𣇞”</p>
+      <p class="quocngu">Xót người tựa cửa hôm mai,</p>
+      <p class="quocngu">Quạt nồng đắp lạnh những ai đó giờ?</p>
+      <p class="author"><i>(Dòng 1043-1044) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Art is the only answer to chaos and the \
-| void.”                                   |
-|                                          |
-\  -- Dean Koontz                          /
- ------------------------------------------
-       \
-        \
-         \        .:  ￣￣￣￣:.丶､
-               ／.: .: .: .: .: .: ＼
-              /    ／|    /\.:| .: :.
-             / .:|乂 |/{:/ _乂/\ .:.:|
-           ノ.:\/ｨ庁ﾐ` \/ｨ庁ﾐx  \/:.:|
-             |:}{弋.ﾉ    弋ノ } /.:.:|
-             ﾚ:ﾘ''          '' ｜:ハ:＼
-             {人       ,、    ,｜/ノ:厂 
+ ___________________________________________
+/ “Work on good prose has three steps: a    \
+| musical stage when it is composed, an     |
+| architectonic one when it is built, and a |
+| textile one when it is woven.”            |
+|                                           |
+\  -- Walter Benjamin                       /
+ -------------------------------------------
+ \
+  \
+  __/"""\
+ ]___ 0  }
+     /   }
+   /~    }
+   \____/
+   /____\
+  (______)
 ```
 <!-- END_QUOTE -->
 
