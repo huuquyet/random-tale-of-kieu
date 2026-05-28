@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㤕𠊚𢭸𫔸𣋚𣈕</p>
-      <p class="nom">𦑗燶撘冷仍埃妬𣇞”</p>
-      <p class="quocngu">Xót người tựa cửa hôm mai,</p>
-      <p class="quocngu">Quạt nồng đắp lạnh những ai đó giờ?</p>
-      <p class="author"><i>(Dòng 1043-1044) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠽔浪停𥙩爫制</p>
+      <p class="nom">𠯇朱𠽔歇󰜋𠳒㐌󰅉”</p>
+      <p class="quocngu">Thưa rằng: "Đừng lấy làm chơi,</p>
+      <p class="quocngu">Dẽ cho thưa hết một lời đã nao!</p>
+      <p class="author"><i>(Dòng 501-502) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Work on good prose has three steps: a    \
-| musical stage when it is composed, an     |
-| architectonic one when it is built, and a |
-| textile one when it is woven.”            |
-|                                           |
-\  -- Walter Benjamin                       /
- -------------------------------------------
- \
+ ________________________________________
+/ “Sometimes I dream so vividly, so      \
+| expectantly, I wonder if I'm crazy...” |
+|                                        |
+\  -- Christy Hall                       /
+ ----------------------------------------
   \
-  __/"""\
- ]___ 0  }
-     /   }
-   /~    }
-   \____/
-   /____\
-  (______)
+   \
+
+      ^(;,;)^
+
 ```
 <!-- END_QUOTE -->
 
