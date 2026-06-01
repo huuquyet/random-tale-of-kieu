@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠊛腰些醜貝𠊛</p>
-      <p class="nom">腰饒𪰛吏朋𨑮負饒”</p>
-      <p class="quocngu">Người yêu ta xấu với người,</p>
-      <p class="quocngu">Yêu nhau thì lại bằng mười phụ nhau!</p>
-      <p class="author"><i>(Dòng 3157-3158) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪濫𥉬容光</p>
+      <p class="nom">拯𡑝玉佩拱坊金門”</p>
+      <p class="quocngu">Nàng rằng: "Trộm liếc dung quang,</p>
+      <p class="quocngu">Chẳng sân ngọc bội cũng phường kim môn.</p>
+      <p class="author"><i>(Dòng 409-410) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “We call them grunters. They're ghost    \
-| hunters but grunters is more appropriate |
-| because most of them are pigs.”          |
-|                                          |
-\  -- Wendy Milton                         /
- ------------------------------------------
-  \
-   \
-       ___  
-     {~o_o~}
-      ( Y )
-     ()~*~()   
-     (_)-(_)   
+ _____________________________________________
+/ “Truth is a T-Rex. Let it out and you won't \
+| need to defend it. It'll defend itself.”    |
+|                                             |
+\  -- Abhijit Naskar                          /
+ ---------------------------------------------
+     \
+      \
+
+         .-;\':\':\'-.
+        {\'.\'.\'.\'.\'.}
+         )        \'`.
+        \'-. ._ ,_.-=\'
+          `). ( `);(
+          (\'. .)(,\'.)
+           ) ( ,\').(
+          ( .\').\'(\').
+          .) (\' ).(\'
+           '  ) (  ).
+            .\'( .)\'
+              .).\'
+jgs
+
 ```
 <!-- END_QUOTE -->
 
