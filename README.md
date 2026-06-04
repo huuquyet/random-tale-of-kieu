@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“爫朱𤯩墮𣨰苔</p>
-      <p class="nom">斷膓朱歇刼尼買催”</p>
-      <p class="quocngu">Làm cho sống đoạ thác đày,</p>
-      <p class="quocngu">Đoạn trường cho hết kiếp này mới thôi!"</p>
-      <p class="author"><i>(Dòng 2675-2676) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰋇吝󰘇㨂杄掑</p>
+      <p class="nom">𣲆㙴花用别𠊚於兜”</p>
+      <p class="quocngu">Mấy lần cửa đóng then cài,</p>
+      <p class="quocngu">Dãy thềm hoa rụng biết người ở đâu?</p>
+      <p class="author"><i>(Dòng 271-272) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,16 +26,22 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “We cannot remain consistent with the world \
-| save by growing inconsistent with our past  |
-| selves.”                                    |
+/ “I’m always soft for you, that’s the        \
+| problem. You could come knocking on my      |
+| door five years from now and I would open   |
+| my arms wider and say ‘come here, it’s      |
+| been too long, it felt like home with you.” |
 |                                             |
-\  -- Havelock Ellis                          /
+\  -- Azra T.                                 /
  ---------------------------------------------
-       \   ,__,
-        \  (oo)____
-           (__)    )\
-              ||--|| *
+   \
+    \
+        /\O
+         /\/
+        /\
+       /  \
+      LOL LOL
+:-D LOLLERSKATES :-D
 ```
 <!-- END_QUOTE -->
 
