@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰋇吝󰘇㨂杄掑</p>
-      <p class="nom">𣲆㙴花用别𠊚於兜”</p>
-      <p class="quocngu">Mấy lần cửa đóng then cài,</p>
-      <p class="quocngu">Dãy thềm hoa rụng biết người ở đâu?</p>
-      <p class="author"><i>(Dòng 271-272) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“報恩耒仕㨋讐</p>
+      <p class="nom">徐浪役意底朱默娘”</p>
+      <p class="quocngu">Báo ân rồi sẽ trả thù."</p>
+      <p class="quocngu">Từ rằng: "Việc ấy để cho mặc nàng."</p>
+      <p class="author"><i>(Dòng 2323-2324) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I’m always soft for you, that’s the        \
-| problem. You could come knocking on my      |
-| door five years from now and I would open   |
-| my arms wider and say ‘come here, it’s      |
-| been too long, it felt like home with you.” |
-|                                             |
-\  -- Azra T.                                 /
- ---------------------------------------------
+ ___________________________________________
+/ “I've felt real pain, and sometimes I     \
+| channel the exhale coming out of that to  |
+| write, and those are the songs that give  |
+| me the most power and the most strength.” |
+|                                           |
+\  -- Jillian Rose Banks                    /
+ -------------------------------------------
    \
     \
-        /\O
-         /\/
-        /\
-       /  \
-      LOL LOL
-:-D LOLLERSKATES :-D
+
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  | * * * * * * * * *  :::::::::::::::::::::::::|
+  |* * * * * * * * * * OOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+  |:::::::::::::::::::::::::::::::::::::::::::::|
+  |OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+
 ```
 <!-- END_QUOTE -->
 
