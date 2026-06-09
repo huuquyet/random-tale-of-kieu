@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“䏾娥濕倘󰡎萌</p>
-      <p class="nom">𬂙娘払拱𠚢情刀帶”</p>
-      <p class="quocngu">Bóng nga thấp thoáng dưới mành,</p>
-      <p class="quocngu">Trông nàng, chàng cũng ra tình đeo đai.</p>
-      <p class="author"><i>(Dòng 1063-1064) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𥿠身𧗱貝朝廷</p>
+      <p class="nom">降臣𪭃恅分命𠚢兜”</p>
+      <p class="quocngu">Bó thân về với triều đình,</p>
+      <p class="quocngu">Hàng thần lơ láo, phận mình ra đâu?</p>
+      <p class="author"><i>(Dòng 2465-2466) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,57 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “That's like telling an elementary schooler \
-| to ignore the bully giving him swirlies     |
-| and pay attention to the teacher.' he       |
-| said, stuffing graham crackers in his       |
-| mouth. 'Hey Raven, do you want me to beat   |
-| those geeks up?”                            |
-|                                             |
-\  -- K.M. Shea                               /
- ---------------------------------------------
-   \
-    \
-                      ,:二二二二:. .,
-                   ／.／＿＿＿_  ＼.:＼
-                  /. /／.: .: .:＼  : .:＼
-                 /.: .: .:/｜:/\ .:＼}.: .:.
-                .: |.:/一/ |:/ 一.:}: .: .:｜
-                |.:|ノ |/_｜/ _  \/ﾍ: .: .:|
-                |.: ｜= ＝    ＝＝= \/}: .:|
-                |:: ﾘ''           '' /:/､.:|
-               ノ:|:人    一一 ､    /:/ ﾉ.:|
-                , ┴＜＼  {     ｝ ,{:/イ::八
-               /_..   ＼` ー┬一r＜:八八／
-               ／  T＼   `＜}ゞ=彡'⌒＼＼_>
-              /___ |  >､    ｀''＼   ｜
-             /ﾆ}::\/／  ＼       ｜  ｜
-          　{ﾆﾉ:: /''＼ | `|r--ｯ＜|_／|
-           /__   V    ｝|  》=《      |
-           ＼ ＼/｀一ﾍノ|  { 6 }     ｛ 
-             ￣        ｢   ゞ= '      }
-                      ﾉ               〉 
+ ___________________________________________
+/ “There are many bibles of different       \
+| religions; there is the Mohammedan Koran, |
+| the Buddhist Canon of Sacred Scripture,   |
+| the Zoroastrian Zend-Avesta, and the      |
+| Brahman Veda . . . they all begin with    |
+| some flashes of true light, and end in    |
+| utter darkness. Even the most casual      |
+| observer soon discovers that the Bible is |
+| radically different. It is the only Book  |
+| that offers redemption to us and points   |
+| the way out of our dilemma.”              |
+|                                           |
+\  -- Billy Graham                          /
+ -------------------------------------------
+     \
+      \
+       \
+                                    (
+                       (
+               )                    )             (
+                       )           (o)    )
+               (      (o)    )     ,|,            )
+              (o)     ,|,          |~\    (      (o)
+              ,|,     |~\    (     \ |   (o)     ,|,
+              \~|     \ |   (o)    |`\   ,|,     |~\
+              |`\     |`\@@@,|,@@@@\ |@@@\~|     \ |
+              \ | o@@@\ |@@@\~|@@@@|`\@@@|`\@@@o |`\
+             o|`\@@@@@|`\@@@|`\@@@@\ |@@@\ |@@@@@\ |o
+           o@@\ |@@@@@\ |@@@\ |@@@@@@@@@@|`\@@@@@|`\@@o
+          @@@@|`\@@@@@@@@@@@|`\@@@@@@@@@@\ |@@@@@\ |@@@@
+          p@@@@@@@@@@@@@@@@@\ |@@@@@@@@@@|`\@@@@@@@@@@@q
+          @@o@@@@@@@@@@@@@@@|`\@@@@@@@@@@@@@@@@@@@@@@o@@
+          @:@@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@o@@::@
+          ::@@::@@o@@@@@@@@@@@@@@@@@@@@@@@@@@@@o@@:@@::@
+          ::@@::@@@@::oo@@@@oo@@@@@ooo@@@@@o:::@@@::::::
+          %::::::@::::::@@@@:::@@@:::::@@@@:::::@@:::::%
+          %%::::::::::::@@::::::@:::::::@@::::::::::::%%
+          ::%%%::::::::::@::::::::::::::@::::::::::%%%::
+        .#::%::%%%%%%:::::::::::::::::::::::::%%%%%::%::#.
+      .###::::::%%:::%:%%%%%%%%%%%%%%%%%%%%%:%:::%%:::::###.
+    .#####::::::%:::::%%::::::%%%%:::::%%::::%::::::::::#####.
+   .######`:::::::::::%:::::::%:::::::::%::::%:::::::::\'######.
+   .#########``::::::::::::::::::::::::::::::::::::\'\'#########.
+   `.#############```::::::::::::::::::::::::\'\'\'#############.\'
+    `.######################################################.\'
+      ` .###########,._.,,,. \#######<_\##################. \'
+         ` .#######,;:      `,/____,__`\_____,_________,_____
+            `  .###;;;`.   _,;>-,------,,--------,----------\'
+                `  `,;\' ~~~ ,\'\######_/\'#######  .  \'
+                    \'\'~`\'\'\'\'    -  .\'/;  -    \'       -Catalyst
 ```
 <!-- END_QUOTE -->
 
