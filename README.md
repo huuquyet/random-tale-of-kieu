@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡓃𤷱洌𠖾唏霜</p>
-      <p class="nom">𢚸圭𠫾󰜋𨀈塘󰜋𤴬”</p>
-      <p class="quocngu">Lối mòn lướt mướt hơi sương,</p>
-      <p class="quocngu">Lòng quê đi một bước đường một đau.</p>
-      <p class="author"><i>(Dòng 1121-1122) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“菭茹㘇㗂𧋆撑</p>
+      <p class="nom">扡徠椌𦄅散情󰢃𦁼”</p>
+      <p class="quocngu">Đầy nhà vang tiếng ruồi xanh,</p>
+      <p class="quocngu">Rã rời khung dệt, tan tành gói may.</p>
+      <p class="author"><i>(Dòng 581-582) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “No matter how bad things are, you can \
-| always make things worse.”             |
-|                                        |
-\  -- Randy Pausch                       /
- ----------------------------------------
+ ____________________________________________
+/ “If you are renewed by grace, and were to  \
+| meet your old self, I am sure you would be |
+| very anxious to get out of his company.”   |
+|                                            |
+\  -- Charles Haddon Spurgeon                /
+ --------------------------------------------
   \
    \
-    \
-      ,､ ,._
-      ﾉ ・  ヽ
-     / :::   i  
-    / :::    ﾞ､
-   ,i:::       `ｰ-､
-   |:::           i
-   !::::..        ﾉ
-    `ー――――'" 
+
+     Lｰ'{r ｧjｰノ
+      _`)-ﾑ{
+    /´::( ･)ヽ-- ､
+   {::::::::::::::}
+   ゝ:::::.ノー-
+     しｿ¨UU
 ```
 <!-- END_QUOTE -->
 
