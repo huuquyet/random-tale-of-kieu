@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“菭茹㘇㗂𧋆撑</p>
-      <p class="nom">扡徠椌𦄅散情󰢃𦁼”</p>
-      <p class="quocngu">Đầy nhà vang tiếng ruồi xanh,</p>
-      <p class="quocngu">Rã rời khung dệt, tan tành gói may.</p>
-      <p class="author"><i>(Dòng 581-582) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“数名唱𠓀束郎</p>
+      <p class="nom">󰘚如藍覩命羕𧕬㬿”</p>
+      <p class="quocngu">Sổ danh xướng trước Thúc lang,</p>
+      <p class="quocngu">Mặt như chàm đổ, mình dường dế run/trôn.</p>
+      <p class="author"><i>(Dòng 2325-2326) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,21 +26,29 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “If you are renewed by grace, and were to  \
-| meet your old self, I am sure you would be |
-| very anxious to get out of his company.”   |
+/ “I hope I remember everything," said       \
+| Toni."You won't," said Trapp. "That's how  |
+| you learn. But after you make the same     |
+| mistake one, or two, or five times, you'll |
+| eventually get it. And then you'll make    |
+| new mistakes.”                             |
 |                                            |
-\  -- Charles Haddon Spurgeon                /
+\  -- Louis Sachar                           /
  --------------------------------------------
-  \
    \
-
-     Lｰ'{r ｧjｰノ
-      _`)-ﾑ{
-    /´::( ･)ヽ-- ､
-   {::::::::::::::}
-   ゝ:::::.ノー-
-     しｿ¨UU
+    \
+       ____________
+      /\  ________ \
+     / /\ \______/\ \
+    / / /\ \  / /\ \ \
+   / / /__\ \/ / /\ \ \
+  / /_/____\ \/_/__\_\ \
+  \ \ \____/ / ________ \
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
