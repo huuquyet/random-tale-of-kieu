@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“数名唱𠓀束郎</p>
-      <p class="nom">󰘚如藍覩命羕𧕬㬿”</p>
-      <p class="quocngu">Sổ danh xướng trước Thúc lang,</p>
-      <p class="quocngu">Mặt như chàm đổ, mình dường dế run/trôn.</p>
-      <p class="author"><i>(Dòng 2325-2326) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“招命󰡎𨆝萱庭</p>
+      <p class="nom">哭嘆命計事情頭𡳪”</p>
+      <p class="quocngu">Gieo mình dưới gối huyên đình,</p>
+      <p class="quocngu">Khóc than mình kể sự tình đầu đuôi:</p>
+      <p class="author"><i>(Dòng 3017-3018) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I hope I remember everything," said       \
-| Toni."You won't," said Trapp. "That's how  |
-| you learn. But after you make the same     |
-| mistake one, or two, or five times, you'll |
-| eventually get it. And then you'll make    |
-| new mistakes.”                             |
-|                                            |
-\  -- Louis Sachar                           /
- --------------------------------------------
-   \
-    \
-       ____________
-      /\  ________ \
-     / /\ \______/\ \
-    / / /\ \  / /\ \ \
-   / / /__\ \/ / /\ \ \
-  / /_/____\ \/_/__\_\ \
-  \ \ \____/ / ________ \
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+ _____________________________________________
+/ “We were like captive animals that had lost \
+| the will to fight. We even went so far as   |
+| to defend the very constraints that they    |
+| hadimposed upon us.”                        |
+|                                             |
+\  -- Manal Al-Sharif                         /
+ ---------------------------------------------
+     \
+      \
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+             ,--==-:$;
+         ,/$@#######@X+-
+      ./@###############X=
+     /M#####X+/;;;;+H#####$.
+    %####M/;+H@XX@@%;;@####@,
+   +####H=+##$,--,=M#X-%####@.
+  -####X,X@HHXH##MXHXXH-+####$
+  X###@.X/$M$:####$=@X/X,X####-
+ .####:+$:##@:####$:##H/X=####%
+ -%%$%,+==%$+-$+:$;-$%-+,/$%%+
+ -/+%%X$XX$$$$%$$%$X$X$%+/-
 ```
 <!-- END_QUOTE -->
 
