@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“招命󰡎𨆝萱庭</p>
-      <p class="nom">哭嘆命計事情頭𡳪”</p>
-      <p class="quocngu">Gieo mình dưới gối huyên đình,</p>
-      <p class="quocngu">Khóc than mình kể sự tình đầu đuôi:</p>
-      <p class="author"><i>(Dòng 3017-3018) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“蹎𡗶󰘚𣷭泠汀</p>
+      <p class="nom">捻󰢇別𢭮死生准󰅹”</p>
+      <p class="quocngu">Chân trời mặt biển lênh đênh,</p>
+      <p class="quocngu">Nắm xương biết gửi tử sinh chốn nào?</p>
+      <p class="author"><i>(Dòng 2607-2608) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,45 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “We were like captive animals that had lost \
-| the will to fight. We even went so far as   |
-| to defend the very constraints that they    |
-| hadimposed upon us.”                        |
-|                                             |
-\  -- Manal Al-Sharif                         /
- ---------------------------------------------
-     \
-      \
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-             ,--==-:$;
-         ,/$@#######@X+-
-      ./@###############X=
-     /M#####X+/;;;;+H#####$.
-    %####M/;+H@XX@@%;;@####@,
-   +####H=+##$,--,=M#X-%####@.
-  -####X,X@HHXH##MXHXXH-+####$
-  X###@.X/$M$:####$=@X/X,X####-
- .####:+$:##@:####$:##H/X=####%
- -%%$%,+==%$+-$+:$;-$%-+,/$%%+
- -/+%%X$XX$$$$%$$%$X$X$%+/-
+ ____________________________________________
+/ “An attitude is much deeper than just our  \
+| emotions or the thoughts we think. It’s a  |
+| decision we make based on our core beliefs |
+| and values.”                               |
+|                                            |
+\  -- Toni Sorenson                          /
+ --------------------------------------------
+#
+# ごぼう2
+#
+
+$the_cow << EOC;
+  \
+   \
+    \
+          ,.:──‐-:.,
+        ／:.           ＼
+      ／:. :. :. }:. :. :.ヽ
+     .: :. :. }.:/＼.:|,:. :ﾍ
+     |:.:. :. /Ｖノ ヽﾄ＼:|､ﾍ
+     |:.:. /Ｖ_ﾆ    ﾆ＿_ {::ﾍ
+     |:.ﾍ .| ΓT      | |Ｖ.＼
+     |:{ |:|.l｜      | |八:ー
+     ハ:`:Ｖ､l｜∠二l.|.ｲ:ﾊ:ﾉ
+      _Ｖ＼;＞=r rr r=＜ﾊ／   ＿＿
+     |ざ |ﾍ :{Ｖ/V:}:＼      |ご  |
+    {ﾐ}く{)}:＞Ｖ/< :  ＞-:-'{}ぼ{ﾐ}
+     |ろ_|:ﾉ:＼:Y / }ﾐ : : : |  うY
+          ﾉ :o: : :oj `ー─-´ ￣￣
+         / : : : : :{
+        /: : o : :o:ﾍ
+      〈 : : : /\: : 〉
+       /::ー──'::ー‐ﾍ
+     〈:::::::::::::::::〉
+       ￣|￣｢￣|￣|￣
+         |  |  |  | 
+EOC
+
 ```
 <!-- END_QUOTE -->
 
