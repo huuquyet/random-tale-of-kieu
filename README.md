@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“蹎𡗶󰘚𣷭泠汀</p>
-      <p class="nom">捻󰢇別𢭮死生准󰅹”</p>
-      <p class="quocngu">Chân trời mặt biển lênh đênh,</p>
-      <p class="quocngu">Nắm xương biết gửi tử sinh chốn nào?</p>
-      <p class="author"><i>(Dòng 2607-2608) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“謝恩𥛉𠓀徐公</p>
+      <p class="nom">㤕身蒲柳󰅹蒙固𣈙”</p>
+      <p class="quocngu">Tạ ân lạy trước Từ công:</p>
+      <p class="quocngu">"Xót thân bồ liễu nào mong có rày!</p>
+      <p class="author"><i>(Dòng 2421-2422) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,44 +26,39 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “An attitude is much deeper than just our  \
-| emotions or the thoughts we think. It’s a  |
-| decision we make based on our core beliefs |
-| and values.”                               |
+/ “If all men are made in God's reflection,  \
+| then why do some people continue to        |
+| acknowledge only what is in their part of  |
+| the mirror? If every man was truly created |
+| equal, and in the image of God, then how   |
+| can any man claim that one race is better  |
+| than another, or that one nation is less   |
+| deserving than another?”                   |
 |                                            |
-\  -- Toni Sorenson                          /
+\  -- Suzy Kassem                            /
  --------------------------------------------
-#
-# ごぼう2
-#
-
-$the_cow << EOC;
-  \
-   \
     \
-          ,.:──‐-:.,
-        ／:.           ＼
-      ／:. :. :. }:. :. :.ヽ
-     .: :. :. }.:/＼.:|,:. :ﾍ
-     |:.:. :. /Ｖノ ヽﾄ＼:|､ﾍ
-     |:.:. /Ｖ_ﾆ    ﾆ＿_ {::ﾍ
-     |:.ﾍ .| ΓT      | |Ｖ.＼
-     |:{ |:|.l｜      | |八:ー
-     ハ:`:Ｖ､l｜∠二l.|.ｲ:ﾊ:ﾉ
-      _Ｖ＼;＞=r rr r=＜ﾊ／   ＿＿
-     |ざ |ﾍ :{Ｖ/V:}:＼      |ご  |
-    {ﾐ}く{)}:＞Ｖ/< :  ＞-:-'{}ぼ{ﾐ}
-     |ろ_|:ﾉ:＼:Y / }ﾐ : : : |  うY
-          ﾉ :o: : :oj `ー─-´ ￣￣
-         / : : : : :{
-        /: : o : :o:ﾍ
-      〈 : : : /\: : 〉
-       /::ー──'::ー‐ﾍ
-     〈:::::::::::::::::〉
-       ￣|￣｢￣|￣|￣
-         |  |  |  | 
-EOC
-
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,              -%HX$%%%+;
+ =-./@M@M$                  .;@MMMM@MM:
+ X@/ -$MM/                    .+MM@@@M$
+,@M@H: :@:                    . =X#@@@@-
+,@@@MMX, .                    /H- ;@M@M=
+.H@@@@M@+,                    %MM+..%#$.
+ /MMMM@MMH/.                  XM@MH; =;
+  /%+%$XHH@$=              , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
