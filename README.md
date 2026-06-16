@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“謝恩𥛉𠓀徐公</p>
-      <p class="nom">㤕身蒲柳󰅹蒙固𣈙”</p>
-      <p class="quocngu">Tạ ân lạy trước Từ công:</p>
-      <p class="quocngu">"Xót thân bồ liễu nào mong có rày!</p>
-      <p class="author"><i>(Dòng 2421-2422) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰠱香典𠓀𫢋臺</p>
+      <p class="nom">餒𢚸𡄩渚𣴓𠳒云云”</p>
+      <p class="quocngu">Nén hương đến trước Phật đài,</p>
+      <p class="quocngu">Nỗi lòng khấn chửa cạn lời vân vân.</p>
+      <p class="author"><i>(Dòng 1639-1640) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,16 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “If all men are made in God's reflection,  \
-| then why do some people continue to        |
-| acknowledge only what is in their part of  |
-| the mirror? If every man was truly created |
-| equal, and in the image of God, then how   |
-| can any man claim that one race is better  |
-| than another, or that one nation is less   |
-| deserving than another?”                   |
-|                                            |
-\  -- Suzy Kassem                            /
- --------------------------------------------
-    \
-     \
-              .,-:;//;:=,
-          . :H@@@MM@M#H/.,+%;,
-       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
-  =@#@@@MX .,              -%HX$%%%+;
- =-./@M@M$                  .;@MMMM@MM:
- X@/ -$MM/                    .+MM@@@M$
-,@M@H: :@:                    . =X#@@@@-
-,@@@MMX, .                    /H- ;@M@M=
-.H@@@@M@+,                    %MM+..%#$.
- /MMMM@MMH/.                  XM@MH; =;
-  /%+%$XHH@$=              , .H@@@@MX,
-   .=--------.           -%H.,@@@@@MX,
-   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
-     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
-       =%@M@M#@$-.=$@MM@@@M; %M%=
-         ,:+$+-,/H#MMMMMMM@= =,
-               =++%%%%+/:-.
+ _________________________________________
+/ “Her brain said, he’s like a brother to \
+| you. Her body rejected that notion      |
+| absolutely. Her heart was confused as   |
+| hell.”                                  |
+|                                         |
+\  -- Joan Kilby                          /
+ -----------------------------------------
+\
+ \
 ```
 <!-- END_QUOTE -->
 
