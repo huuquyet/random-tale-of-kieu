@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰠱香典𠓀𫢋臺</p>
-      <p class="nom">餒𢚸𡄩渚𣴓𠳒云云”</p>
-      <p class="quocngu">Nén hương đến trước Phật đài,</p>
-      <p class="quocngu">Nỗi lòng khấn chửa cạn lời vân vân.</p>
-      <p class="author"><i>(Dòng 1639-1640) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“機緣兜俸邏牢</p>
+      <p class="nom">覺緣兜俸尋𠓨典尼”</p>
+      <p class="quocngu">Cơ duyên đâu bỗng lạ sao!</p>
+      <p class="quocngu">Giác Duyên đâu bỗng tìm vào đến nơi.</p>
+      <p class="author"><i>(Dòng 2973-2974) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,14 +25,17 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “Her brain said, he’s like a brother to \
-| you. Her body rejected that notion      |
-| absolutely. Her heart was confused as   |
-| hell.”                                  |
-|                                         |
-\  -- Joan Kilby                          /
- -----------------------------------------
+ ____________________________________________
+/ “But hatred and rage solve nothing. Like a \
+| might fire, they quickly consume whatever  |
+| is fed them.Yet it can't last. Soon        |
+| enough, they devour all around them and    |
+| burn out, leaving nothing but a hollowed   |
+| shell no longer capable of feeling         |
+| anything at all. (First Guardian)”         |
+|                                            |
+\  -- Sherrilyn Kenyon                       /
+ --------------------------------------------
 \
  \
 ```
