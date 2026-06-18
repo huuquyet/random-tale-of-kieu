@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“機緣兜俸邏牢</p>
-      <p class="nom">覺緣兜俸尋𠓨典尼”</p>
-      <p class="quocngu">Cơ duyên đâu bỗng lạ sao!</p>
-      <p class="quocngu">Giác Duyên đâu bỗng tìm vào đến nơi.</p>
-      <p class="author"><i>(Dòng 2973-2974) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“沫台湥渃梗楊</p>
+      <p class="nom">𤏣𢚸洒𤎕每塘塵緣”</p>
+      <p class="quocngu">Cho hay giọt nước cành dương,</p>
+      <p class="quocngu">Tỏ lòng tưới tắt mọi đường trần duyên.</p>
+      <p class="author"><i>(Dòng 1931-1932) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “But hatred and rage solve nothing. Like a \
-| might fire, they quickly consume whatever  |
-| is fed them.Yet it can't last. Soon        |
-| enough, they devour all around them and    |
-| burn out, leaving nothing but a hollowed   |
-| shell no longer capable of feeling         |
-| anything at all. (First Guardian)”         |
-|                                            |
-\  -- Sherrilyn Kenyon                       /
- --------------------------------------------
-\
- \
+ ___________________________________________
+/ “Deeply-rooted conditioning has perverted \
+| us. We ARE the culture of violence. We    |
+| must look at ourselves.”                  |
+|                                           |
+\  -- Bryant McGill                         /
+ -------------------------------------------
+   \
+    \
+         _____
+       .\'/L|__`.
+      / =[_]O|` \
+      |\"+_____\":|
+    __:='|____`-:__
+   ||[] ||====| []||
+   ||[] | |=| | []||
+   |:||_|=|U| |_||:|
+   |:|||]_=_ =[_||:| LS
+   | |||] [_][]C|| |
+   | ||-\'\"\"\"\"\"`-|| |
+   /|\\_\_|_|_/_//|\
+  |___|   /|\   |___|
+  `---\'  |___|  `---\'
+         `---'
 ```
 <!-- END_QUOTE -->
 
