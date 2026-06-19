@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“沫台湥渃梗楊</p>
-      <p class="nom">𤏣𢚸洒𤎕每塘塵緣”</p>
-      <p class="quocngu">Cho hay giọt nước cành dương,</p>
-      <p class="quocngu">Tỏ lòng tưới tắt mọi đường trần duyên.</p>
-      <p class="author"><i>(Dòng 1931-1932) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“軍中鎌𢀲槊𨱽</p>
+      <p class="nom">𧗱𥪝侍立奇外雙披”</p>
+      <p class="quocngu">Quân trung gươm lớn giáo dài.</p>
+      <p class="quocngu">Vệ trong thị lập, cơ ngoài song phi,</p>
+      <p class="author"><i>(Dòng 2311-2312) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,50 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Deeply-rooted conditioning has perverted \
-| us. We ARE the culture of violence. We    |
-| must look at ourselves.”                  |
-|                                           |
-\  -- Bryant McGill                         /
- -------------------------------------------
-   \
-    \
-         _____
-       .\'/L|__`.
-      / =[_]O|` \
-      |\"+_____\":|
-    __:='|____`-:__
-   ||[] ||====| []||
-   ||[] | |=| | []||
-   |:||_|=|U| |_||:|
-   |:|||]_=_ =[_||:| LS
-   | |||] [_][]C|| |
-   | ||-\'\"\"\"\"\"`-|| |
-   /|\\_\_|_|_/_//|\
-  |___|   /|\   |___|
-  `---\'  |___|  `---\'
-         `---'
+ _________________________________________
+/ “The atheism and nihilism of my earlier \
+| years now seems shallow, and even a bit |
+| cocky.”                                 |
+|                                         |
+\  -- Anne Rice                           /
+ -----------------------------------------
+     \
+      \
+                  ,
+         ___     /^\   ,
+        `\  \'...`   \_/^\
+          ) ~     ',    /__,
+         /       ,.    ,, /___,
+        (  .-.   \'.\'. /// ___/
+         ) .-.\'  .`.`///-.\'.
+        / ( o )  .\"\". ====) \
+       (   \'-`   \  |\'~~~`  u\,
+        \ _~  .\"\"\"` |~|^u^ u^(\"\"
+        //  ."     /~/^ u^ u^\
+       // ."      /~  u^ u  ^u\      _
+      // ."      /~/U^ U^ U^ ^(     / )
+     /` ."       |~  U^ U^ ^ U^\   /) _)
+   ./` ."        |~|^ U^ ^U ^ U(  / _  _)
+  ;.`."          |~ ^U ^ U^ U ^/ /)_ =  _)
+   \"\"            |~|^ ^U ^ ^ U(_/_    )- _)
+                 |~ U ^ ^U ^U ^ )   =    _)
+                 \~|^ U U^ U ^ =  ~ )  - _)
+                  \ U ^U ^ ^U^_)     =  _)
+                   \",^U^ ^U ^/ \)_~   -_)
+                     \".u^u ^|   \_  = _)
+                      ).u ^u|    \)  _)
+                      \u ^u^(     \__)
+                       )^u ^u\
+                       \u ^u ^|
+             ____       )^u ^u|
+          ,-`    '-.    )u ^u^|
+         /  .---. ' \  / ^ u^/
+        |  ;  `  '  | /u^u ^/
+        |  ;  '-` . `:u^u^u/
+        \.\'^\'._   _.`u ^.-`
+         \_.~=_```-.^.-\"
+           \'\"------\"`
+
 ```
 <!-- END_QUOTE -->
 
