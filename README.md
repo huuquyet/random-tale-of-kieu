@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“軍中鎌𢀲槊𨱽</p>
-      <p class="nom">𧗱𥪝侍立奇外雙披”</p>
-      <p class="quocngu">Quân trung gươm lớn giáo dài.</p>
-      <p class="quocngu">Vệ trong thị lập, cơ ngoài song phi,</p>
-      <p class="author"><i>(Dòng 2311-2312) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡭧之哏咘󰜋𠄩</p>
+      <p class="nom">朱停来仕料排䋦萌”</p>
+      <p class="quocngu">Chút chi gắn bó một hai,</p>
+      <p class="quocngu">Cho đành rồi sẽ liệu bài mối manh.</p>
+      <p class="author"><i>(Dòng 341-342) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,50 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The atheism and nihilism of my earlier \
-| years now seems shallow, and even a bit |
-| cocky.”                                 |
-|                                         |
-\  -- Anne Rice                           /
- -----------------------------------------
-     \
-      \
-                  ,
-         ___     /^\   ,
-        `\  \'...`   \_/^\
-          ) ~     ',    /__,
-         /       ,.    ,, /___,
-        (  .-.   \'.\'. /// ___/
-         ) .-.\'  .`.`///-.\'.
-        / ( o )  .\"\". ====) \
-       (   \'-`   \  |\'~~~`  u\,
-        \ _~  .\"\"\"` |~|^u^ u^(\"\"
-        //  ."     /~/^ u^ u^\
-       // ."      /~  u^ u  ^u\      _
-      // ."      /~/U^ U^ U^ ^(     / )
-     /` ."       |~  U^ U^ ^ U^\   /) _)
-   ./` ."        |~|^ U^ ^U ^ U(  / _  _)
-  ;.`."          |~ ^U ^ U^ U ^/ /)_ =  _)
-   \"\"            |~|^ ^U ^ ^ U(_/_    )- _)
-                 |~ U ^ ^U ^U ^ )   =    _)
-                 \~|^ U U^ U ^ =  ~ )  - _)
-                  \ U ^U ^ ^U^_)     =  _)
-                   \",^U^ ^U ^/ \)_~   -_)
-                     \".u^u ^|   \_  = _)
-                      ).u ^u|    \)  _)
-                      \u ^u^(     \__)
-                       )^u ^u\
-                       \u ^u ^|
-             ____       )^u ^u|
-          ,-`    '-.    )u ^u^|
-         /  .---. ' \  / ^ u^/
-        |  ;  `  '  | /u^u ^/
-        |  ;  '-` . `:u^u^u/
-        \.\'^\'._   _.`u ^.-`
-         \_.~=_```-.^.-\"
-           \'\"------\"`
-
+ ____________________________________________
+/ “I no longer want to see others as humans. \
+| I want to learn to see others as brothers, |
+| sisters, mothers, & fathers.”              |
+|                                            |
+\  -- Rabbi Shaul David Judelman             /
+ --------------------------------------------
+  \
+   \
+      /\_)o<
+     |      \
+     | o . o|
+      \_____/
+           
 ```
 <!-- END_QUOTE -->
 
