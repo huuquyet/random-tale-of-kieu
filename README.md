@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰠱香典𠓀𫢋臺</p>
-      <p class="nom">餒𢚸𡄩渚𣴓𠳒云云”</p>
-      <p class="quocngu">Nén hương đến trước Phật đài,</p>
-      <p class="quocngu">Nỗi lòng khấn chửa cạn lời vân vân.</p>
-      <p class="author"><i>(Dòng 1639-1640) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪碎䕯浡𡮍身</p>
+      <p class="nom">落塘恾𥙩𡢻𫱞燕󰢒”</p>
+      <p class="quocngu">Rằng: "Tôi bèo bọt chút thân,</p>
+      <p class="quocngu">Lạc đàng mang lấy nợ nần yến anh.</p>
+      <p class="author"><i>(Dòng 1097-1098) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,32 +26,23 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Why do you have a cigarette lighter in    \
-| your glove compartment?" her husband,      |
-| Jack, asked her. "I'm bored with knitting. |
-| I've taken up arson”                       |
+/ “But the wind always swept my words away   \
+| like cloud shadows, as if it mattered more |
+| that I said them, than who heard them.”    |
 |                                            |
-\  -- Audrey Niffenegger                     /
+\  -- Lauren Wolk                            /
  --------------------------------------------
+    \
      \
-      \
-         __________________
-        /\  ______________ \
-       /::\ \ZZZZZZZZZZZZ/\ \
-      /:/\.\ \        /:/\:\ \
-     /:/Z/\:\ \      /:/Z/\:\ \
-    /:/Z/__\:\ \____/:/Z/  \:\ \
-   /:/Z/____\:\ \___\/Z/    \:\ \
-   \:\ \ZZZZZ\:\ \ZZ/\ \     \:\ \
-    \:\ \     \:\ \ \:\ \     \:\ \
-     \:\ \     \:\ \_\;\_\_____\;\ \
-      \:\ \     \:\_________________\
-       \:\ \    /:/ZZZZZZZZZZZZZZZZZ/
-        \:\ \  /:/Z/    \:\ \  /:/Z/
-         \:\ \/:/Z/      \:\ \/:/Z/
-          \:\/:/Z/________\;\/:/Z/
-           \::/Z/_______itz__\/Z/
-            \/ZZZZZZZZZZZZZZZZZ/
+                                   .::!!!!!!!:.
+  .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
+      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
+      $$$##WX!:      .<!!!!UW$$"  $$$$# 
+      $$$  $$UX   :!!UW$$$$$   4$$$* 
+      ^$$B  $$\     $$$$$$   d$R" 
+        "*$bd$$      '*$$$$$$o+#" 
+             """"          """"""" 
 ```
 <!-- END_QUOTE -->
 
