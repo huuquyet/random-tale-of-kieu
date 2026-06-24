@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浪碎䕯浡𡮍身</p>
-      <p class="nom">落塘恾𥙩𡢻𫱞燕󰢒”</p>
-      <p class="quocngu">Rằng: "Tôi bèo bọt chút thân,</p>
-      <p class="quocngu">Lạc đàng mang lấy nợ nần yến anh.</p>
-      <p class="author"><i>(Dòng 1097-1098) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“共茹行院𠸗󰅒</p>
+      <p class="nom">共坊半𦧘共𢬣倴𠊚”</p>
+      <p class="quocngu">Cũng nhà hành viện xưa nay,</p>
+      <p class="quocngu">Cũng phường bán thịt, cũng tay buôn người.</p>
+      <p class="author"><i>(Dòng 2139-2140) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “But the wind always swept my words away   \
-| like cloud shadows, as if it mattered more |
-| that I said them, than who heard them.”    |
-|                                            |
-\  -- Lauren Wolk                            /
- --------------------------------------------
-    \
+ ___________________________________________
+/ “And it occurred to me how even pulling   \
+| trees that day, just months ago, I was in |
+| heaven. Unaware. I had known nothing even |
+| as the evil was occurring, I hadn't been  |
+| touched yet.”                             |
+|                                           |
+\  -- Louise Erdrich                        /
+ -------------------------------------------
      \
-                                   .::!!!!!!!:.
-  .!!!!!:.                        .:!!!!!!!!!!!!
-  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
-      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
-      $$$##WX!:      .<!!!!UW$$"  $$$$# 
-      $$$  $$UX   :!!UW$$$$$   4$$$* 
-      ^$$B  $$\     $$$$$$   d$R" 
-        "*$bd$$      '*$$$$$$o+#" 
-             """"          """"""" 
+      \
+                   [\
+              .----' `-----.
+             //^^^^;;^^^^^^`\
+     _______//_____||_____()_\________
+    /826    :      : ___              `\
+   |>   ____;      ;  |/\><|   ____   _<)
+  {____/    \_________________/    \____}
+       \ '' /                 \ '' /
+ jgs    '--'                   '--'
 ```
 <!-- END_QUOTE -->
 
