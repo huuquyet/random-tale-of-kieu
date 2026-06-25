@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“共茹行院𠸗󰅒</p>
-      <p class="nom">共坊半𦧘共𢬣倴𠊚”</p>
-      <p class="quocngu">Cũng nhà hành viện xưa nay,</p>
-      <p class="quocngu">Cũng phường bán thịt, cũng tay buôn người.</p>
-      <p class="author"><i>(Dòng 2139-2140) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“生強惨切徘徊</p>
+      <p class="nom">倍徬呐呐唭唭朱戈”</p>
+      <p class="quocngu">Sinh càng thảm thiết bồi hồi,</p>
+      <p class="quocngu">Vội vàng nói nói, cười cười cho qua.</p>
+      <p class="author"><i>(Dòng 1863-1864) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “And it occurred to me how even pulling   \
-| trees that day, just months ago, I was in |
-| heaven. Unaware. I had known nothing even |
-| as the evil was occurring, I hadn't been  |
-| touched yet.”                             |
-|                                           |
-\  -- Louise Erdrich                        /
- -------------------------------------------
-     \
-      \
-                   [\
-              .----' `-----.
-             //^^^^;;^^^^^^`\
-     _______//_____||_____()_\________
-    /826    :      : ___              `\
-   |>   ____;      ;  |/\><|   ____   _<)
-  {____/    \_________________/    \____}
-       \ '' /                 \ '' /
- jgs    '--'                   '--'
+ ____________________________________________
+/ “We get angry when others hurt us, both by \
+| what they say and what they do. We get     |
+| angry when we don’t get our own way or our |
+| plans and dreams are frustrated. Anger may |
+| arise in an instant, erupting like a       |
+| volcano and raining destruction on         |
+| everyone in sight. Often, anger simmers    |
+| just below the surface, sometimes for a    |
+| lifetime. Like a corrosive acid, this kind |
+| of anger eats away at our bodies and       |
+| souls, yet we may not even be aware of its |
+| presence.”                                 |
+|                                            |
+\  -- Billy Graham                           /
+ --------------------------------------------
+  \
+   \
+
+     [-]
+     (+)=C
+     | |
+     OOO
 ```
 <!-- END_QUOTE -->
 
