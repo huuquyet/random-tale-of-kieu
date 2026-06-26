@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“生強惨切徘徊</p>
-      <p class="nom">倍徬呐呐唭唭朱戈”</p>
-      <p class="quocngu">Sinh càng thảm thiết bồi hồi,</p>
-      <p class="quocngu">Vội vàng nói nói, cười cười cho qua.</p>
-      <p class="author"><i>(Dòng 1863-1864) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“於咹𪰛󰞺拱𫨩</p>
+      <p class="nom">呐調𦇒纀羅𢬣拱𫅷”</p>
+      <p class="quocngu">Ở ăn thì nết cũng hay,</p>
+      <p class="quocngu">Nói điều trói buộc là tay cũng già.</p>
+      <p class="author"><i>(Dòng 1533-1534) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “We get angry when others hurt us, both by \
-| what they say and what they do. We get     |
-| angry when we don’t get our own way or our |
-| plans and dreams are frustrated. Anger may |
-| arise in an instant, erupting like a       |
-| volcano and raining destruction on         |
-| everyone in sight. Often, anger simmers    |
-| just below the surface, sometimes for a    |
-| lifetime. Like a corrosive acid, this kind |
-| of anger eats away at our bodies and       |
-| souls, yet we may not even be aware of its |
-| presence.”                                 |
-|                                            |
-\  -- Billy Graham                           /
- --------------------------------------------
+ _____________________________________________
+/ “The hard soil and four months of snow make \
+| the inhabitants of the northern temperate   |
+| zone wiser and abler than his fellow who    |
+| enjoys the fixed smile of the tropics.”     |
+|                                             |
+\  -- Ralph Waldo Emerson                     /
+ ---------------------------------------------
   \
    \
-
-     [-]
-     (+)=C
-     | |
-     OOO
+    \
+    
+           ____
+       ,: .: .: :.ヽ
+     ,'       /\   ｉ
+     {: .:ﾉﾚﾍ/  Viﾍ:}
+    .{,､〈 Ｏ   Ｏ{.:.
+    ノヽ\!"       }.:ﾊ
+      Ｗﾊw=-､へ,ｬ<,V'      
+         /ﾍ }{./\
+        ;: i:V:!;}
+        |:｜: :｜}
+        |:|:｡: ｡l}
+        >-'-ﾟ-'`ﾟu
+        ｰi-i～i-i~
+         |.|  |.|
+         |-|  |-|
+         ヒｺ  ヒｺ 
 ```
 <!-- END_QUOTE -->
 
