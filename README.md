@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“於咹𪰛󰞺拱𫨩</p>
-      <p class="nom">呐調𦇒纀羅𢬣拱𫅷”</p>
-      <p class="quocngu">Ở ăn thì nết cũng hay,</p>
-      <p class="quocngu">Nói điều trói buộc là tay cũng già.</p>
-      <p class="author"><i>(Dòng 1533-1534) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“丰姿才貌捽潙</p>
+      <p class="nom">𠓨𥪝風雅𠚢外豪花”</p>
+      <p class="quocngu">Phong tư tài mạo tót vời,</p>
+      <p class="quocngu">Vào trong phong nhã, ra ngoài hào hoa.</p>
+      <p class="author"><i>(Dòng 151-152) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,33 +26,35 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “The hard soil and four months of snow make \
-| the inhabitants of the northern temperate   |
-| zone wiser and abler than his fellow who    |
-| enjoys the fixed smile of the tropics.”     |
+/ “Working with some real dirt seemed fitting \
+| for a woman whose hands felt like they      |
+| would remain forever filthy. She decided    |
+| to go after the thickets of weeds that      |
+| seemed determined to ruin her garden, just  |
+| as she had gone after those dark things     |
+| crawling from her drain that seemed         |
+| determined to ruin her life. Summer rains   |
+| had nourished the thick tangles. Healthy    |
+| and strong, the weeds twisted along the     |
+| yard’s edges in dense tuffs. Eden’s hoe     |
+| whacked away, and at least she felt some    |
+| satisfaction denying those flower-killers   |
+| the opportunity to strangle the remaining   |
+| beauty from her world. She swung the hoe    |
+| like a pissed off Grim Reaper.”             |
 |                                             |
-\  -- Ralph Waldo Emerson                     /
+\  -- Ken Goldman --From SINKHOLE             /
  ---------------------------------------------
-  \
    \
     \
-    
-           ____
-       ,: .: .: :.ヽ
-     ,'       /\   ｉ
-     {: .:ﾉﾚﾍ/  Viﾍ:}
-    .{,､〈 Ｏ   Ｏ{.:.
-    ノヽ\!"       }.:ﾊ
-      Ｗﾊw=-､へ,ｬ<,V'      
-         /ﾍ }{./\
-        ;: i:V:!;}
-        |:｜: :｜}
-        |:|:｡: ｡l}
-        >-'-ﾟ-'`ﾟu
-        ｰi-i～i-i~
-         |.|  |.|
-         |-|  |-|
-         ヒｺ  ヒｺ 
+     \
+                '-.
+      .---._     \ \.--'
+    /       `-..__)  ,-'
+   |    0           /
+    \--.__,   .__.,`
+     `-.___'._\_.'
+
 ```
 <!-- END_QUOTE -->
 
