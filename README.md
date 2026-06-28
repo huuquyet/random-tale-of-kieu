@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“丰姿才貌捽潙</p>
-      <p class="nom">𠓨𥪝風雅𠚢外豪花”</p>
-      <p class="quocngu">Phong tư tài mạo tót vời,</p>
-      <p class="quocngu">Vào trong phong nhã, ra ngoài hào hoa.</p>
-      <p class="author"><i>(Dòng 151-152) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浘漨𥪝閉饒年</p>
+      <p class="nom">爫𢧚動地驚天同同”</p>
+      <p class="quocngu">Vẫy vùng trong bấy nhiêu niên,</p>
+      <p class="quocngu">Làm nên động địa kinh thiên đùng đùng.</p>
+      <p class="author"><i>(Dòng 2923-2924) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,44 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Working with some real dirt seemed fitting \
-| for a woman whose hands felt like they      |
-| would remain forever filthy. She decided    |
-| to go after the thickets of weeds that      |
-| seemed determined to ruin her garden, just  |
-| as she had gone after those dark things     |
-| crawling from her drain that seemed         |
-| determined to ruin her life. Summer rains   |
-| had nourished the thick tangles. Healthy    |
-| and strong, the weeds twisted along the     |
-| yard’s edges in dense tuffs. Eden’s hoe     |
-| whacked away, and at least she felt some    |
-| satisfaction denying those flower-killers   |
-| the opportunity to strangle the remaining   |
-| beauty from her world. She swung the hoe    |
-| like a pissed off Grim Reaper.”             |
-|                                             |
-\  -- Ken Goldman --From SINKHOLE             /
- ---------------------------------------------
-   \
-    \
+ ____________________________________________
+/ “If I really wanted you to love me, I      \
+| should have presented more of a            |
+| challenge.” She burrowed deeper into a     |
+| pillow. “My hair is a mess.” Mikhail sat   |
+| on the edge of the bed, took the mass of   |
+| silk in his hands, and gently began to     |
+| weave the thick strands into a long, loose |
+| braid, “If you presented much more of a    |
+| challenge, little one, my heart would      |
+| never be able to take it.” He sounded      |
+| amused.”                                   |
+|                                            |
+\  -- Christine Feehan                       /
+ --------------------------------------------
      \
-                '-.
-      .---._     \ \.--'
-    /       `-..__)  ,-'
-   |    0           /
-    \--.__,   .__.,`
-     `-.___'._\_.'
+      \
 
+ +@##########M/             :@#########@/
+ \##############$;H#######@;+#############
+ \###############M########################
+ \##############X,-/++/+%+/,%#############
+ \############M$:           -X############
+ \##########H;.      ,--.     =X##########
+ :X######M;     -$H@M##MH%:    :H#######@
+   =%#M+=,   ,+@#######M###H:    -=/M#%
+   %M##@+   .X##$, ./+- ./###;    +M##%
+   %####M.  /###=         @##M.   X###%
+   %####M.  ;M##H:.     =$###X.   $###%
+   %####@.   /####M$-./@#####:    %###%
+   %H#M/,     /H###########@:     ./M#%
+  ;$H##@@H:    .;$HM#MMMH$;,   ./H@M##M$=
+ X#########%.      ..,,.     .;@#########
+ \###########H+:.           ./@###########
+ \##############/ ./%%%%+/.-M#############
+ \##############H$@#######@@##############
+ \##############X%########M$M#############
+ +M##########H:            .$##########X=
 ```
 <!-- END_QUOTE -->
 
