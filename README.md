@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浘漨𥪝閉饒年</p>
-      <p class="nom">爫𢧚動地驚天同同”</p>
-      <p class="quocngu">Vẫy vùng trong bấy nhiêu niên,</p>
-      <p class="quocngu">Làm nên động địa kinh thiên đùng đùng.</p>
-      <p class="author"><i>(Dòng 2923-2924) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“風流富貴埃皮</p>
+      <p class="nom">圍春󰜋𨷶底碑𨷈𠁀”</p>
+      <p class="quocngu">Phong lưu phú quý ai bì,</p>
+      <p class="quocngu">Vầy xuân một cửa để bia muôn đời.</p>
+      <p class="author"><i>(Dòng 3239-3240) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,43 +26,44 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “If I really wanted you to love me, I      \
-| should have presented more of a            |
-| challenge.” She burrowed deeper into a     |
-| pillow. “My hair is a mess.” Mikhail sat   |
-| on the edge of the bed, took the mass of   |
-| silk in his hands, and gently began to     |
-| weave the thick strands into a long, loose |
-| braid, “If you presented much more of a    |
-| challenge, little one, my heart would      |
-| never be able to take it.” He sounded      |
-| amused.”                                   |
+/ “To be present at the time of death can be \
+| one of the most important moments in life. |
+| To see those last, awesome minutes of      |
+| transition from life into death can only   |
+| be described as a spiritual experience.    |
+| And then afterwards, when the body lies    |
+| still, one gets the strange feeling that   |
+| the person has simply gone away, as though |
+| he has said, ‘I’m just going into the      |
+| other room. I’ll leave that thing there    |
+| while I’m gone; I won’t be needing it.’    |
+| It’s a very odd experience – the body is   |
+| there, but the person has gone. No one     |
+| would say, ‘I am a body’; we say, ‘I have  |
+| a body’. So what, therefore, is the ‘I’?   |
+| The ‘I’ or perhaps ‘me’ has just stepped   |
+| into the other room. It is a strange       |
+| feeling, and I can’t describe it in any    |
+| other way. Another thing that is strange   |
+| is that the body left behind looks         |
+| smaller, quite a lot smaller, than the     |
+| living person. The face looks the same,    |
+| but calm and relaxed, wrinkles and worry   |
+| lines are smoothed, and a feeling of       |
+| serenity pervades the entire room. But the |
+| person, the ‘I’, has gone. It also greatly |
+| helps the process of mourning to see the   |
+| body after death, and preferably to assist |
+| in the laying out. Nurses used to do the   |
+| job when I was young girl, and we always   |
+| asked the relatives if they wanted to      |
+| help. Nurses don’t do it any more, but     |
+| anyone can ask.”                           |
 |                                            |
-\  -- Christine Feehan                       /
+\  -- Jennifer Worth                         /
  --------------------------------------------
-     \
-      \
-
- +@##########M/             :@#########@/
- \##############$;H#######@;+#############
- \###############M########################
- \##############X,-/++/+%+/,%#############
- \############M$:           -X############
- \##########H;.      ,--.     =X##########
- :X######M;     -$H@M##MH%:    :H#######@
-   =%#M+=,   ,+@#######M###H:    -=/M#%
-   %M##@+   .X##$, ./+- ./###;    +M##%
-   %####M.  /###=         @##M.   X###%
-   %####M.  ;M##H:.     =$###X.   $###%
-   %####@.   /####M$-./@#####:    %###%
-   %H#M/,     /H###########@:     ./M#%
-  ;$H##@@H:    .;$HM#MMMH$;,   ./H@M##M$=
- X#########%.      ..,,.     .;@#########
- \###########H+:.           ./@###########
- \##############/ ./%%%%+/.-M#############
- \##############H$@#######@@##############
- \##############X%########M$M#############
- +M##########H:            .$##########X=
+  \
+(╯°□°）╯︵ ┻━┻
 ```
 <!-- END_QUOTE -->
 
