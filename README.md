@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“風流富貴埃皮</p>
-      <p class="nom">圍春󰜋𨷶底碑𨷈𠁀”</p>
-      <p class="quocngu">Phong lưu phú quý ai bì,</p>
-      <p class="quocngu">Vầy xuân một cửa để bia muôn đời.</p>
-      <p class="author"><i>(Dòng 3239-3240) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“攄之仍堛蕭騷</p>
+      <p class="nom">𢝀𢚸命共󰅉󰅉𢚸𠊚”</p>
+      <p class="quocngu">So chi những bậc tiêu tao,</p>
+      <p class="quocngu">Dột lòng mình cũng nao nao lòng người."</p>
+      <p class="author"><i>(Dòng 491-492) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,45 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “To be present at the time of death can be \
-| one of the most important moments in life. |
-| To see those last, awesome minutes of      |
-| transition from life into death can only   |
-| be described as a spiritual experience.    |
-| And then afterwards, when the body lies    |
-| still, one gets the strange feeling that   |
-| the person has simply gone away, as though |
-| he has said, ‘I’m just going into the      |
-| other room. I’ll leave that thing there    |
-| while I’m gone; I won’t be needing it.’    |
-| It’s a very odd experience – the body is   |
-| there, but the person has gone. No one     |
-| would say, ‘I am a body’; we say, ‘I have  |
-| a body’. So what, therefore, is the ‘I’?   |
-| The ‘I’ or perhaps ‘me’ has just stepped   |
-| into the other room. It is a strange       |
-| feeling, and I can’t describe it in any    |
-| other way. Another thing that is strange   |
-| is that the body left behind looks         |
-| smaller, quite a lot smaller, than the     |
-| living person. The face looks the same,    |
-| but calm and relaxed, wrinkles and worry   |
-| lines are smoothed, and a feeling of       |
-| serenity pervades the entire room. But the |
-| person, the ‘I’, has gone. It also greatly |
-| helps the process of mourning to see the   |
-| body after death, and preferably to assist |
-| in the laying out. Nurses used to do the   |
-| job when I was young girl, and we always   |
-| asked the relatives if they wanted to      |
-| help. Nurses don’t do it any more, but     |
-| anyone can ask.”                           |
-|                                            |
-\  -- Jennifer Worth                         /
- --------------------------------------------
-  \
-(╯°□°）╯︵ ┻━┻
+ __________________________________________
+/ “On Sept. 20, 2011, a year after I spoke \
+| with Rabanni, a couple of Taliban        |
+| emissaries arrived at his Kabul fortress |
+| with a gift for his 71st birthday. It    |
+| turned out not to be the truce offering  |
+| they had claimed they were bringing: one |
+| of the Talibs had a bomb hidden in his   |
+| turban.”                                 |
+|                                          |
+\  -- Terry Glavin                         /
+ ------------------------------------------
+   \
+    \
+       ____________
+      /\  ________ \
+     / /\ \______/\ \
+    / / /\ \  / /\ \ \
+   / / /__\ \/ / /\ \ \
+  / /_/____\ \/_/__\_\ \
+  \ \ \____/ / ________ \
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
