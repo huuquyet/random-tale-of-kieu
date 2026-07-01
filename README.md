@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“攄之仍堛蕭騷</p>
-      <p class="nom">𢝀𢚸命共󰅉󰅉𢚸𠊚”</p>
-      <p class="quocngu">So chi những bậc tiêu tao,</p>
-      <p class="quocngu">Dột lòng mình cũng nao nao lòng người."</p>
-      <p class="author"><i>(Dòng 491-492) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡭧身𠹴𠶔淎𤀛</p>
+      <p class="nom">𤯩乘群想典𣈙女牢”</p>
+      <p class="quocngu">Chút thân quằn quại vũng lầy,</p>
+      <p class="quocngu">Sống thừa còn tưởng đến rày nữa sao?</p>
+      <p class="author"><i>(Dòng 1959-1960) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “On Sept. 20, 2011, a year after I spoke \
-| with Rabanni, a couple of Taliban        |
-| emissaries arrived at his Kabul fortress |
-| with a gift for his 71st birthday. It    |
-| turned out not to be the truce offering  |
-| they had claimed they were bringing: one |
-| of the Talibs had a bomb hidden in his   |
-| turban.”                                 |
-|                                          |
-\  -- Terry Glavin                         /
- ------------------------------------------
+ ___________________________________________
+/ “Joy blossoms in our hearts not as we try \
+| harder and harder to grow, but as we see  |
+| more clearly the depth of our sin and     |
+| understand more fully our helplessness.”  |
+|                                           |
+\  -- Barbara R. Duguid                     /
+ -------------------------------------------
+  \
    \
     \
-       ____________
-      /\  ________ \
-     / /\ \______/\ \
-    / / /\ \  / /\ \ \
-   / / /__\ \/ / /\ \ \
-  / /_/____\ \/_/__\_\ \
-  \ \ \____/ / ________ \
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+
+     iﾆﾆi
+    /   /ヽ
+   ｜農｜｜
+   ｜協｜｜
+   ｜牛｜｜＿
+ ／｜乳｜｜／
+ ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->
 
