@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡭧身𠹴𠶔淎𤀛</p>
-      <p class="nom">𤯩乘群想典𣈙女牢”</p>
-      <p class="quocngu">Chút thân quằn quại vũng lầy,</p>
-      <p class="quocngu">Sống thừa còn tưởng đến rày nữa sao?</p>
-      <p class="author"><i>(Dòng 1959-1960) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“席排賞將犒兵</p>
+      <p class="nom">喑󰢬𤿰陣習情樂軍”</p>
+      <p class="quocngu">Tiệc bày thưởng tướng khao binh,</p>
+      <p class="quocngu">Om thòm trống trận, rập rình nhạc quân.</p>
+      <p class="author"><i>(Dòng 2285-2286) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Joy blossoms in our hearts not as we try \
-| harder and harder to grow, but as we see  |
-| more clearly the depth of our sin and     |
-| understand more fully our helplessness.”  |
-|                                           |
-\  -- Barbara R. Duguid                     /
- -------------------------------------------
-  \
-   \
-    \
-
-     iﾆﾆi
-    /   /ヽ
-   ｜農｜｜
-   ｜協｜｜
-   ｜牛｜｜＿
- ／｜乳｜｜／
- ￣￣￣￣￣
+ ____________________________________________
+/ “She throws her jeans at me and dives into \
+| the pellucid lake, slicing through the     |
+| water almost without a splash. A church    |
+| bell rings out in the distance, echoing in |
+| the quiet aftermath of Everly’s quick jump |
+| into the unexpected.”                      |
+|                                            |
+\  -- Rebecca Paula                          /
+ --------------------------------------------
+     \
+      \
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+             ,--==-:$;
+         ,/$@#######@X+-
+      ./@###############X=
+     /M#####X+/;;;;+H#####$.
+    %####M/;+H@XX@@%;;@####@,
+   +####H=+##$,--,=M#X-%####@.
+  -####X,X@HHXH##MXHXXH-+####$
+  X###@.X/$M$:####$=@X/X,X####-
+ .####:+$:##@:####$:##H/X=####%
+ -%%$%,+==%$+-$+:$;-$%-+,/$%%+
+ -/+%%X$XX$$$$%$$%$X$X$%+/-
 ```
 <!-- END_QUOTE -->
 
