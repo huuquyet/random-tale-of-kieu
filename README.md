@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“席排賞將犒兵</p>
-      <p class="nom">喑󰢬𤿰陣習情樂軍”</p>
-      <p class="quocngu">Tiệc bày thưởng tướng khao binh,</p>
-      <p class="quocngu">Om thòm trống trận, rập rình nhạc quân.</p>
-      <p class="author"><i>(Dòng 2285-2286) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“抇疎𦎛𢶒頭梗</p>
+      <p class="nom">𦰟畑𬂙𢫫帳螢吃󰢀”</p>
+      <p class="quocngu">Nhặt thưa gương giọi đầu cành,</p>
+      <p class="quocngu">Ngọn đèn trông lọt trướng huỳnh hắt hiu.</p>
+      <p class="author"><i>(Dòng 433-434) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,36 +26,33 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “She throws her jeans at me and dives into \
-| the pellucid lake, slicing through the     |
-| water almost without a splash. A church    |
-| bell rings out in the distance, echoing in |
-| the quiet aftermath of Everly’s quick jump |
-| into the unexpected.”                      |
+/ “The more we seek through development and  \
+| advancement, is in fact the more we lack.” |
 |                                            |
-\  -- Rebecca Paula                          /
+\  -- Evans Biya                             /
  --------------------------------------------
-     \
-      \
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-                    ;=
-                    /=
-             ,--==-:$;
-         ,/$@#######@X+-
-      ./@###############X=
-     /M#####X+/;;;;+H#####$.
-    %####M/;+H@XX@@%;;@####@,
-   +####H=+##$,--,=M#X-%####@.
-  -####X,X@HHXH##MXHXXH-+####$
-  X###@.X/$M$:####$=@X/X,X####-
- .####:+$:##@:####$:##H/X=####%
- -%%$%,+==%$+-$+:$;-$%-+,/$%%+
- -/+%%X$XX$$$$%$$%$X$X$%+/-
+                                    \
+                                     \
+                                                         ____                   
+                                               [(=]|[==/   @  \     
+                                                      |--------|                
+     *                                     *  .       ==========                
+.  / *    .                         *   .* . * /.     ==========                
+ / /  .                      *   .    *  \. * /      ||||||||||||               
+ =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
+  \  \ .                             *  (===========[  /=========]              
+.  \   *  *                          .    /  * \   |==============]             
+         *                        *      *         C @ @ @ @ @ @ |D             
+        *  *                          .           /              |              
+                                         .       C  @ @ @  @ @  @ |D            
+          *                          *          /                 |             
+                                               C  @  @  @  @  @  @ |D           
+                                              /                    |            
+                                             C  @   @   @   @  @  @ |D          
+                                            /                       |           
+                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
+                                            -------------------------           
+Modified from howard1@vax.oxford.ac.uk
 ```
 <!-- END_QUOTE -->
 
