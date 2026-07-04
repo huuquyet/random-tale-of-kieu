@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“抇疎𦎛𢶒頭梗</p>
-      <p class="nom">𦰟畑𬂙𢫫帳螢吃󰢀”</p>
-      <p class="quocngu">Nhặt thưa gương giọi đầu cành,</p>
-      <p class="quocngu">Ngọn đèn trông lọt trướng huỳnh hắt hiu.</p>
-      <p class="author"><i>(Dòng 433-434) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“桃僊㐌𤊰𢬣凡</p>
+      <p class="nom">𪰛楥梗橘朱甘事𠁀”</p>
+      <p class="quocngu">Đào tiên đã bén tay phàm,</p>
+      <p class="quocngu">Thì vin cành quít cho cam sự đời.</p>
+      <p class="author"><i>(Dòng 833-834) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The more we seek through development and  \
-| advancement, is in fact the more we lack.” |
-|                                            |
-\  -- Evans Biya                             /
- --------------------------------------------
-                                    \
-                                     \
-                                                         ____                   
-                                               [(=]|[==/   @  \     
-                                                      |--------|                
-     *                                     *  .       ==========                
-.  / *    .                         *   .* . * /.     ==========                
- / /  .                      *   .    *  \. * /      ||||||||||||               
- =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
-  \  \ .                             *  (===========[  /=========]              
-.  \   *  *                          .    /  * \   |==============]             
-         *                        *      *         C @ @ @ @ @ @ |D             
-        *  *                          .           /              |              
-                                         .       C  @ @ @  @ @  @ |D            
-          *                          *          /                 |             
-                                               C  @  @  @  @  @  @ |D           
-                                              /                    |            
-                                             C  @   @   @   @  @  @ |D          
-                                            /                       |           
-                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
-                                            -------------------------           
-Modified from howard1@vax.oxford.ac.uk
+ _______________________________________
+/ “I decided to masturbate with shampoo \
+| instead of conditioner today. Because |
+| yolo. Things Jesus never said.”       |
+|                                       |
+\  -- Dave Matthes                      /
+ ---------------------------------------
+           \
+            \
+        "-.. __      __.='>
+         `.     """""   ,'
+           "-..__   _.-"
+   ~ ~~ ~ ~  ~   """  ~~  ~
 ```
 <!-- END_QUOTE -->
 
