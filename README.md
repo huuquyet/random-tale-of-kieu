@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“桃僊㐌𤊰𢬣凡</p>
-      <p class="nom">𪰛楥梗橘朱甘事𠁀”</p>
-      <p class="quocngu">Đào tiên đã bén tay phàm,</p>
-      <p class="quocngu">Thì vin cành quít cho cam sự đời.</p>
-      <p class="author"><i>(Dòng 833-834) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“船情𣃣𨄾旦尼</p>
+      <p class="nom">𪰛它簪技𤭸淶包𣇞”</p>
+      <p class="quocngu">Thuyền tình vừa ghé đến nơi,</p>
+      <p class="quocngu">Thì đà trâm gãy bình rơi bao giờ.</p>
+      <p class="author"><i>(Dòng 69-70) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “I decided to masturbate with shampoo \
-| instead of conditioner today. Because |
-| yolo. Things Jesus never said.”       |
-|                                       |
-\  -- Dave Matthes                      /
- ---------------------------------------
-           \
-            \
-        "-.. __      __.='>
-         `.     """""   ,'
-           "-..__   _.-"
-   ~ ~~ ~ ~  ~   """  ~~  ~
+ _____________________________________________
+/ “One positive thought will shift the entire \
+| world under your feet.”                     |
+|                                             |
+\  -- Bryant McGill                           /
+ ---------------------------------------------
+  \
+   \                _, _ ,､
+    \          , - ´      `--、
+             ノ               丶
+           ／                  `､_
+         ,´                        、
+        ,'                          丶
+       ﾉ                             ヽ
+    ＿;＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿',＿
+    ヽ三三三三三三三三三三三三三三三三三ﾉ
+      ヽ                              /
+       ヽ三三三三三三三三三三三三三三/
+         ＼                        ／
+           ＼三三三三三三三三三三／
+             `＜              ＞´
+               ｀丁三三三三丁´
+     ＿          ｀ ｰ----‐ ´
+  ／::/＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿_
+（;;;ﾌ ｰ─----＝＝ === ニニニ 二二二三三三｣
+
+         ＿|＿ ＼  ＿ｌ＿＼  _＿|＿_ヽヽ
+          _|＿       ｜ヽ     __|
+        ／ |  ヽ     ﾉ  │   (__|
+        ＼ノ  ノ    ﾉ ヽﾉ     _ノ 
 ```
 <!-- END_QUOTE -->
 
