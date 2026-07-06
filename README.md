@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“船情𣃣𨄾旦尼</p>
-      <p class="nom">𪰛它簪技𤭸淶包𣇞”</p>
-      <p class="quocngu">Thuyền tình vừa ghé đến nơi,</p>
-      <p class="quocngu">Thì đà trâm gãy bình rơi bao giờ.</p>
-      <p class="author"><i>(Dòng 69-70) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠄩邊𨑮位將軍</p>
+      <p class="nom">撻鎌𢶒甲𠓀𡑝叩頭”</p>
+      <p class="quocngu">Hai bên mười vị tướng quân,</p>
+      <p class="quocngu">Đặt gươm, cởi giáp, trước sân khấu đầu.</p>
+      <p class="author"><i>(Dòng 2261-2262) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,35 +26,34 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “One positive thought will shift the entire \
-| world under your feet.”                     |
+/ “I remember the way his eyes pinned my body \
+| against the backdrop of Paris as if I was   |
+| some rare butterfly pinned to an exhibit    |
+| box.”                                       |
 |                                             |
-\  -- Bryant McGill                           /
+\  -- Rebecca Paula                           /
  ---------------------------------------------
-  \
-   \                _, _ ,､
-    \          , - ´      `--、
-             ノ               丶
-           ／                  `､_
-         ,´                        、
-        ,'                          丶
-       ﾉ                             ヽ
-    ＿;＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿',＿
-    ヽ三三三三三三三三三三三三三三三三三ﾉ
-      ヽ                              /
-       ヽ三三三三三三三三三三三三三三/
-         ＼                        ／
-           ＼三三三三三三三三三三／
-             `＜              ＞´
-               ｀丁三三三三丁´
-     ＿          ｀ ｰ----‐ ´
-  ／::/＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿_
-（;;;ﾌ ｰ─----＝＝ === ニニニ 二二二三三三｣
-
-         ＿|＿ ＼  ＿ｌ＿＼  _＿|＿_ヽヽ
-          _|＿       ｜ヽ     __|
-        ／ |  ヽ     ﾉ  │   (__|
-        ＼ノ  ノ    ﾉ ヽﾉ     _ノ 
+     \
+      \
+             ,;;;;;;;,
+            ;;;;;;;;;;;,
+           ;;;;;'_____;'
+           ;;;(/))))|((\
+           _;;((((((|))))
+          / |_\\\\\\\\\\\\
+     .--~(  \ ~))))))))))))
+    /     \  `\-(((((((((((\\
+    |    | `\   ) |\       /|)
+     |    |  `. _/  \_____/ |
+      |    , `\~            /
+       |    \  \           /
+      | `.   `\|          /
+      |   ~-   `\        /
+       \____~._/~ -_,   (\
+        |-----|\   \    ';;
+       |      | :;;;'     \
+      |  /    |            |
+      |       |            |
 ```
 <!-- END_QUOTE -->
 
