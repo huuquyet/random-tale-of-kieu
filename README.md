@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠄩邊𨑮位將軍</p>
-      <p class="nom">撻鎌𢶒甲𠓀𡑝叩頭”</p>
-      <p class="quocngu">Hai bên mười vị tướng quân,</p>
-      <p class="quocngu">Đặt gươm, cởi giáp, trước sân khấu đầu.</p>
-      <p class="author"><i>(Dòng 2261-2262) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“自番𥒥别歲鐄</p>
+      <p class="nom">情強滲𤀏𢚸彊菫魚”</p>
+      <p class="quocngu">Từ phen đá biết tuổi vàng,</p>
+      <p class="quocngu">Tình càng thấm thía, lòng càng ngẩn ngơ.</p>
+      <p class="author"><i>(Dòng 363-364) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I remember the way his eyes pinned my body \
-| against the backdrop of Paris as if I was   |
-| some rare butterfly pinned to an exhibit    |
-| box.”                                       |
-|                                             |
-\  -- Rebecca Paula                           /
- ---------------------------------------------
-     \
-      \
-             ,;;;;;;;,
-            ;;;;;;;;;;;,
-           ;;;;;'_____;'
-           ;;;(/))))|((\
-           _;;((((((|))))
-          / |_\\\\\\\\\\\\
-     .--~(  \ ~))))))))))))
-    /     \  `\-(((((((((((\\
-    |    | `\   ) |\       /|)
-     |    |  `. _/  \_____/ |
-      |    , `\~            /
-       |    \  \           /
-      | `.   `\|          /
-      |   ~-   `\        /
-       \____~._/~ -_,   (\
-        |-----|\   \    ';;
-       |      | :;;;'     \
-      |  /    |            |
-      |       |            |
+ ____________________________________________
+/ “Those old sayings about Give It Time, and \
+| Time is a Healer depend on just whose time |
+| it is.”                                    |
+|                                            |
+\  -- Jeanette Winterson                     /
+ --------------------------------------------
+          \     (
+           \     )
+            \   (
+         /\  .-""""-.  /\
+        //\\/  ,,,,  \//\\
+        |/\| ,;;;;;;, |/\|
+        //\\\;-""""-;///\\
+       //  \/   ..   \/  \\
+      (| ,-_| \ || / |_-, |)
+        //`__(\(__)/)__`\\
+       // /.-\`(oo)'/-.\ \\
+      (\ |)   ')  ('   (| /)
+       ` (|   (o  o)   |) `
+         \)    `--'    (/
+                  
 ```
 <!-- END_QUOTE -->
 
