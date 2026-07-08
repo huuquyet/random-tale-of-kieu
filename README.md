@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“自番𥒥别歲鐄</p>
-      <p class="nom">情強滲𤀏𢚸彊菫魚”</p>
-      <p class="quocngu">Từ phen đá biết tuổi vàng,</p>
-      <p class="quocngu">Tình càng thấm thía, lòng càng ngẩn ngơ.</p>
-      <p class="author"><i>(Dòng 363-364) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𩲉群恾󰠱𠳒誓</p>
+      <p class="nom">󰞺身蒲柳㨋誼竹梅”</p>
+      <p class="quocngu">Hồn còn mang nặng lời thề,</p>
+      <p class="quocngu">Nát thân bồ liễu, trả nghì trúc mai.</p>
+      <p class="author"><i>(Dòng 745-746) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Those old sayings about Give It Time, and \
-| Time is a Healer depend on just whose time |
-| it is.”                                    |
-|                                            |
-\  -- Jeanette Winterson                     /
- --------------------------------------------
-          \     (
-           \     )
-            \   (
-         /\  .-""""-.  /\
-        //\\/  ,,,,  \//\\
-        |/\| ,;;;;;;, |/\|
-        //\\\;-""""-;///\\
-       //  \/   ..   \/  \\
-      (| ,-_| \ || / |_-, |)
-        //`__(\(__)/)__`\\
-       // /.-\`(oo)'/-.\ \\
-      (\ |)   ')  ('   (| /)
-       ` (|   (o  o)   |) `
-         \)    `--'    (/
-                  
+ _____________________________________________
+/ “Since art is considered a noble field, art \
+| should be used to promote all that is good  |
+| and noble, and in a noble fashion.”         |
+|                                             |
+\  -- E.A. Bucchianeri                        /
+ ---------------------------------------------
+        \   ^__^
+         \  (oo)
+            (__)
+           /-||-\
+           \|\/|/
+            o==o 
+            ||||
+            ()()
 ```
 <!-- END_QUOTE -->
 
