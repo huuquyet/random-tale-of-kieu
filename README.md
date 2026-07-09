@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𩲉群恾󰠱𠳒誓</p>
-      <p class="nom">󰞺身蒲柳㨋誼竹梅”</p>
-      <p class="quocngu">Hồn còn mang nặng lời thề,</p>
-      <p class="quocngu">Nát thân bồ liễu, trả nghì trúc mai.</p>
-      <p class="author"><i>(Dòng 745-746) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰢜𠚢典𠳚椿堂</p>
+      <p class="nom">束翁拱倍𠽖払寧家”</p>
+      <p class="quocngu">Sáng ra đến gửi xuân đường,</p>
+      <p class="quocngu">Thúc ông cũng vội giục chàng ninh gia.</p>
+      <p class="author"><i>(Dòng 1497-1498) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Since art is considered a noble field, art \
-| should be used to promote all that is good  |
-| and noble, and in a noble fashion.”         |
-|                                             |
-\  -- E.A. Bucchianeri                        /
- ---------------------------------------------
-        \   ^__^
-         \  (oo)
-            (__)
-           /-||-\
-           \|\/|/
-            o==o 
-            ||||
-            ()()
+ ______________________________________________
+/ “Why are we miserable, when there is music?” \
+|                                              |
+\  -- Lailah Gifty Akita                       /
+ ----------------------------------------------
+     \
+      \
+             ,;;;;;;;,
+            ;;;;;;;;;;;,
+           ;;;;;'_____;'
+           ;;;(/))))|((\
+           _;;((((((|))))
+          / |_\\\\\\\\\\\\
+     .--~(  \ ~))))))))))))
+    /     \  `\-(((((((((((\\
+    |    | `\   ) |\       /|)
+     |    |  `. _/  \_____/ |
+      |    , `\~            /
+       |    \  \           /
+      | `.   `\|          /
+      |   ~-   `\        /
+       \____~._/~ -_,   (\
+        |-----|\   \    ';;
+       |      | :;;;'     \
+      |  /    |            |
+      |       |            |
 ```
 <!-- END_QUOTE -->
 
