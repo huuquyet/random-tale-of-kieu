@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰁹浪因果𢷣揚</p>
-      <p class="nom">㐌算遁𧴱断膓特牢”</p>
-      <p class="quocngu">Rỉ rằng: "Nhân quả dở dang,</p>
-      <p class="quocngu">Đã toan trốn nợ đoạn tràng hay sao?</p>
-      <p class="author"><i>(Dòng 995-996) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋𡑝坦𦹵𩆍𩅹</p>
+      <p class="nom">強嗷喭餒強魚菫󰟯”</p>
+      <p class="quocngu">Một sân đất cỏ dầm mưa,</p>
+      <p class="quocngu">Càng ngao ngán nỗi, càng ngơ ngẩn dường!</p>
+      <p class="author"><i>(Dòng 2769-2770) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,43 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “The progress of the world depends almost \
-| entirely upon education.”                 |
-|                                           |
-\  -- George Eastman                        /
- -------------------------------------------
-    \
+ __________________________________________
+/ “Your struggles and tears will NEVER be  \
+| wasted but will be transformed into a    |
+| healing balm after your victory, release |
+| and manifestation comes. You've won      |
+| already. Hold on just a little while     |
+| longer. Everything will be alright. We   |
+| serve a God whose Name is FAITHFUL.”     |
+|                                          |
+\  -- Theresa Pecku-Laryea                 /
+ ------------------------------------------
      \
-              /\
-             <  \
-             |\  \
-             | \  \
-             | .\  >
-             |  .\/|
-             |   .||
-             |    ||
-            / \   ||
-           /,-.\: ||
-          /,,  `\ ||
-         /,  ', `\||
-        /, *   ''/ |
-       /,    *,'/  |
-      /,     , /   |
-     / :    , /   .|
-    /\ :   , /   /||
-   |\ \ .., /   / ||
-   |.\ \ . /   /  ||
-   |  \ \ /   /   ||
-   |   \ /   /    |'
-   |\o '|o  /
-   ||\o |  /
-   || \ | /
-   ||  \|/
-   |'   ||
-        ||
-        ||
-        |'
+      \
+          oO)-.                       .-(Oo
+         /__  _\                     /_  __\
+         \  \(  |     ()~()         |  )/  /
+          \__|\ |    (-___-)        | /|__/
+          '  '--'    ==`-'==        '--'  '
 ```
 <!-- END_QUOTE -->
 
