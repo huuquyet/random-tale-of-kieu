@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋𡑝坦𦹵𩆍𩅹</p>
-      <p class="nom">強嗷喭餒強魚菫󰟯”</p>
-      <p class="quocngu">Một sân đất cỏ dầm mưa,</p>
-      <p class="quocngu">Càng ngao ngán nỗi, càng ngơ ngẩn dường!</p>
-      <p class="author"><i>(Dòng 2769-2770) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㳥情󰟯㐌漂漂</p>
+      <p class="nom">䀡𥪝歐厭固調𢙲𢜞”</p>
+      <p class="quocngu">Sóng tình dường đã xiêu xiêu,</p>
+      <p class="quocngu">Xem trong âu yếm có điều lả lơi.</p>
+      <p class="author"><i>(Dòng 499-500) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,49 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Your struggles and tears will NEVER be  \
-| wasted but will be transformed into a    |
-| healing balm after your victory, release |
-| and manifestation comes. You've won      |
-| already. Hold on just a little while     |
-| longer. Everything will be alright. We   |
-| serve a God whose Name is FAITHFUL.”     |
-|                                          |
-\  -- Theresa Pecku-Laryea                 /
- ------------------------------------------
-     \
-      \
-          oO)-.                       .-(Oo
-         /__  _\                     /_  __\
-         \  \(  |     ()~()         |  )/  /
-          \__|\ |    (-___-)        | /|__/
-          '  '--'    ==`-'==        '--'  '
+ ____________________________________________
+/ “When you hide your flaws you only give    \
+| them the power to dominate your life.      |
+| Every time that you fake who you are to    |
+| cover your flaws, they become stronger and |
+| visible to your own eye. You become        |
+| comfortable with working every day to hide |
+| them from everyone else's view. And maybe  |
+| you try to show the world those flaws but  |
+| they are rejected because you've hidden    |
+| them for so long that they couldn't        |
+| possibly be a true part of you. But then,  |
+| you show them to the world every day, day  |
+| after day, and they finally start to       |
+| disappear from view because they really    |
+| never were a really big deal in the first  |
+| place. Accept your flaws or you will never |
+| truly be able to live with them.”          |
+|                                            |
+\  -- Avina Celeste                          /
+ --------------------------------------------
+                                    \
+                                     \
+                                                         ____                   
+                                               [(=]|[==/   @  \     
+                                                      |--------|                
+     *                                     *  .       ==========                
+.  / *    .                         *   .* . * /.     ==========                
+ / /  .                      *   .    *  \. * /      ||||||||||||               
+ =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
+  \  \ .                             *  (===========[  /=========]              
+.  \   *  *                          .    /  * \   |==============]             
+         *                        *      *         C @ @ @ @ @ @ |D             
+        *  *                          .           /              |              
+                                         .       C  @ @ @  @ @  @ |D            
+          *                          *          /                 |             
+                                               C  @  @  @  @  @  @ |D           
+                                              /                    |            
+                                             C  @   @   @   @  @  @ |D          
+                                            /                       |           
+                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
+                                            -------------------------           
+Modified from howard1@vax.oxford.ac.uk
 ```
 <!-- END_QUOTE -->
 
