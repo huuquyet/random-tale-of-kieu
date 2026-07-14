@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㳥情󰟯㐌漂漂</p>
-      <p class="nom">䀡𥪝歐厭固調𢙲𢜞”</p>
-      <p class="quocngu">Sóng tình dường đã xiêu xiêu,</p>
-      <p class="quocngu">Xem trong âu yếm có điều lả lơi.</p>
-      <p class="author"><i>(Dòng 499-500) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情緣意合散尼</p>
+      <p class="nom">悲歡󰋇餒𣈘𨱽𦝄高”</p>
+      <p class="quocngu">Tình duyên ấy, hợp tan này,</p>
+      <p class="quocngu">Bi hoan mấy nỗi, đêm dài, trăng cao.</p>
+      <p class="author"><i>(Dòng 3139-3140) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,48 +26,38 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “When you hide your flaws you only give    \
-| them the power to dominate your life.      |
-| Every time that you fake who you are to    |
-| cover your flaws, they become stronger and |
-| visible to your own eye. You become        |
-| comfortable with working every day to hide |
-| them from everyone else's view. And maybe  |
-| you try to show the world those flaws but  |
-| they are rejected because you've hidden    |
-| them for so long that they couldn't        |
-| possibly be a true part of you. But then,  |
-| you show them to the world every day, day  |
-| after day, and they finally start to       |
-| disappear from view because they really    |
-| never were a really big deal in the first  |
-| place. Accept your flaws or you will never |
-| truly be able to live with them.”          |
+/ “For the first time in years, I have vivid \
+| dreams, vivid enough to count the stars    |
+| and the number of ripples in the sea.”     |
 |                                            |
-\  -- Avina Celeste                          /
+\  -- Brittany Weekley/Monroe Starr          /
  --------------------------------------------
-                                    \
-                                     \
-                                                         ____                   
-                                               [(=]|[==/   @  \     
-                                                      |--------|                
-     *                                     *  .       ==========                
-.  / *    .                         *   .* . * /.     ==========                
- / /  .                      *   .    *  \. * /      ||||||||||||               
- =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
-  \  \ .                             *  (===========[  /=========]              
-.  \   *  *                          .    /  * \   |==============]             
-         *                        *      *         C @ @ @ @ @ @ |D             
-        *  *                          .           /              |              
-                                         .       C  @ @ @  @ @  @ |D            
-          *                          *          /                 |             
-                                               C  @  @  @  @  @  @ |D           
-                                              /                    |            
-                                             C  @   @   @   @  @  @ |D          
-                                            /                       |           
-                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
-                                            -------------------------           
-Modified from howard1@vax.oxford.ac.uk
+            \
+             \                __ 
+                   _ ,___,-'",-=-. 
+       __,-- _ _,-'_)_  (""`'-._\ `. 
+    _,'  __ |,' ,-' __)  ,-     /. | 
+  ,'_,--'   |     -'  _)/         `\ 
+,','      ,'       ,-'_,`           : 
+,'     ,-'       ,(,-(              : 
+     ,'       ,-' ,    _            ; 
+    /        ,-._/`---'            / 
+   /        (____)(----. )       ,' 
+  /         (      `.__,     /\ /, 
+ :           ;-.___         /__\/| 
+ |         ,'      `--.      -,\ | 
+ :        /            \    .__/ 
+  \      (__            \    |_ 
+   \       ,`-, *       /   _|,\ 
+    \    ,'   `-.     ,'_,-'    \ 
+   (_\,-'    ,'\")--,'-'       __\ 
+    \       /  // ,'|      ,--'  `-. 
+     `-.    `-/ \'  |   _,'         `. 
+        `-._ /      `--'/             \ 
+-hrr-      ,'           |              \ 
+          /             |               \ 
+       ,-'              |               / 
+      /                 |             -'
 ```
 <!-- END_QUOTE -->
 
