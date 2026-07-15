@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情緣意合散尼</p>
-      <p class="nom">悲歡󰋇餒𣈘𨱽𦝄高”</p>
-      <p class="quocngu">Tình duyên ấy, hợp tan này,</p>
-      <p class="quocngu">Bi hoan mấy nỗi, đêm dài, trăng cao.</p>
-      <p class="author"><i>(Dòng 3139-3140) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“哭浪冤酷爲些</p>
+      <p class="nom">沛𦖑𠳒𠓀易麻累𡢐”</p>
+      <p class="quocngu">Khóc rằng: "Oan khốc vì ta,</p>
+      <p class="quocngu">Phải nghe lời trước, dễ mà lụy sau.</p>
+      <p class="author"><i>(Dòng 1433-1434) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “For the first time in years, I have vivid \
-| dreams, vivid enough to count the stars    |
-| and the number of ripples in the sea.”     |
-|                                            |
-\  -- Brittany Weekley/Monroe Starr          /
- --------------------------------------------
-            \
-             \                __ 
-                   _ ,___,-'",-=-. 
-       __,-- _ _,-'_)_  (""`'-._\ `. 
-    _,'  __ |,' ,-' __)  ,-     /. | 
-  ,'_,--'   |     -'  _)/         `\ 
-,','      ,'       ,-'_,`           : 
-,'     ,-'       ,(,-(              : 
-     ,'       ,-' ,    _            ; 
-    /        ,-._/`---'            / 
-   /        (____)(----. )       ,' 
-  /         (      `.__,     /\ /, 
- :           ;-.___         /__\/| 
- |         ,'      `--.      -,\ | 
- :        /            \    .__/ 
-  \      (__            \    |_ 
-   \       ,`-, *       /   _|,\ 
-    \    ,'   `-.     ,'_,-'    \ 
-   (_\,-'    ,'\")--,'-'       __\ 
-    \       /  // ,'|      ,--'  `-. 
-     `-.    `-/ \'  |   _,'         `. 
-        `-._ /      `--'/             \ 
--hrr-      ,'           |              \ 
-          /             |               \ 
-       ,-'              |               / 
-      /                 |             -'
+ _________________________________________
+/ “The Social Networking Netiquette Loop: \
+| Read, share, like, and repeat.”         |
+|                                         |
+\  -- David Chiles                        /
+ -----------------------------------------
+          \      (__)      
+           \     /oo|  
+            \   (_"_)*+++++++++*
+                   //I#\\\\\\\\I\
+                   I[I|I|||||I I `
+                   I`I'///'' I I
+                   I I       I I
+                   ~ ~       ~ ~
+                     Scowleton
 ```
 <!-- END_QUOTE -->
 
