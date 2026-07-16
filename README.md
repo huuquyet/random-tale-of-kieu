@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“哭浪冤酷爲些</p>
-      <p class="nom">沛𦖑𠳒𠓀易麻累𡢐”</p>
-      <p class="quocngu">Khóc rằng: "Oan khốc vì ta,</p>
-      <p class="quocngu">Phải nghe lời trước, dễ mà lụy sau.</p>
-      <p class="author"><i>(Dòng 1433-1434) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“分停之監呌冤</p>
+      <p class="nom">桃疎壳𦟐柳散作𣮮”</p>
+      <p class="quocngu">Phận đành chi dám kêu oan,</p>
+      <p class="quocngu">Đào xơ xác má, liễu tan tác mày.</p>
+      <p class="author"><i>(Dòng 1427-1428) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “The Social Networking Netiquette Loop: \
-| Read, share, like, and repeat.”         |
-|                                         |
-\  -- David Chiles                        /
- -----------------------------------------
-          \      (__)      
-           \     /oo|  
-            \   (_"_)*+++++++++*
-                   //I#\\\\\\\\I\
-                   I[I|I|||||I I `
-                   I`I'///'' I I
-                   I I       I I
-                   ~ ~       ~ ~
-                     Scowleton
+ ___________________________________
+/ “Live, Breathe, Connect, Create!” \
+|                                   |
+\  -- Michele Jennae                /
+ -----------------------------------
+\                             .       .
+ \                           / `.   .' " 
+  \                  .---.  <    > <    >  .---.
+   \                 |    \  \ - ~ ~ - /  /    |
+         _____          ..-~             ~-..-~
+        |     |   \~~~\.'                    `./~~~/
+       ---------   \__/                        \__/
+      .'  o    \     /               /       \  " 
+     (_____,    `._.'               |         }  \/~~~/
+      `----.          /       }     |        /    \__/
+            `-.      |       /      |       /      `. ,~~|
+                ~-.__|      /_ - ~ ^|      /- _      `..-‘ / \  /\
+                     |     /        |     /     ~-.     `-/ _ \/__\
+                     |_____|        |_____|         ~ - . _ _ _ _ _>
 ```
 <!-- END_QUOTE -->
 
