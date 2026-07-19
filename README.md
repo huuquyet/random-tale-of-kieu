@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡛤𢆥香󰌕當燶</p>
-      <p class="nom">丈夫脱㐌動𢚸𦊚方”</p>
-      <p class="quocngu">Nửa năm hương lửa đương nồng,</p>
-      <p class="quocngu">Trượng phu thoắt đã động lòng bốn phương.</p>
-      <p class="author"><i>(Dòng 2213-2214) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦊚𦀊如哭如嘆</p>
+      <p class="nom">遣𠊚𨕭席拱散󰞺𢚸”</p>
+      <p class="quocngu">Bốn dây như khóc như than,</p>
+      <p class="quocngu">Khiến người trên tiệc cũng tan nát lòng!</p>
+      <p class="author"><i>(Dòng 1853-1854) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,49 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Every beetle is a gazelle in the eyes of \
-| its mother.”                              |
-|                                           |
-\  -- Moorish proverb                       /
- -------------------------------------------
-  \
-   \
-    \            ________
-             .:          :｀丶
-           /.:   ｛ :｜､  .: .:＼
-          /   |.: /\.:|ﾉ＼.} .: :.
-         .: .:/\乂  ＼ｨ=ミV.:}.: |
-         |.:\/ ｨ=ﾐ    ﾋソ｝V:|.:｜
-         |.:ﾊ{ ﾋソ '    ''｜:|ヽ｜
-         |.: ﾊ''          ｜:ﾉノ:＼
-        丿.:|人    ⌒ヽ    ｲ::\/ ￣
-    /^^ﾍ  \/Vv:＞=rr::rr＜vV\/
-  ｛   ﾉ    ノ   \/ヌ\／ ＼
-    ＼  ＼,く  }   |:|   V ＼
-      ＼     >ィ   |:|   ｝  ﾉ
-        ＼／  ﾉ    |:|   }-く ＼
-             /      V     \  ＼  ＼ 
+ _________________________________________
+/ “This land needed a sword forged in the \
+| hottest of fires to regain what was     |
+| lost...and you are that sword.”         |
+|                                         |
+\  -- S. Alexander O'Keefe                /
+ -----------------------------------------
+      \
+       \
+        \                                     ,
+                                            ,o
+                                            :o
+                   _....._                  `:o
+                 .\'       ``-.                \o
+                /  _      _   \                \o
+               :  /*\    /*\   )                ;o
+               |  \_/    \_/   /                ;o
+               (       U      /                 ;o
+                \  (\_____/) /                  /o
+                 \   \_m_/  (                  /o
+                  \         (                ,o:
+                  )          \,           .o;o\'           ,o\'o\'o.
+                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
+ .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
+ o           ./o./ /       .o \.              __,-o o,o\'
+ \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
+ `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
+ .,  ``o-o\'  ,.oo/   \'o /\.o`.
+ `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
+   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
+                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
+                  \ o\              ``-o-o\'\'\'\'
+   ,-o;o           \o \
+  /o/               )o )  Carl Pilcher
+ (o(               /o /                |
+  \o\.       ...-o\'o /              \   |
+    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ```o--\'\'\'                       \| /
+                                       |/
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                       |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ```
 <!-- END_QUOTE -->
 
