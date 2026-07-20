@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦊚𦀊如哭如嘆</p>
-      <p class="nom">遣𠊚𨕭席拱散󰞺𢚸”</p>
-      <p class="quocngu">Bốn dây như khóc như than,</p>
-      <p class="quocngu">Khiến người trên tiệc cũng tan nát lòng!</p>
-      <p class="author"><i>(Dòng 1853-1854) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“悲𣇞𤯩托於𢬣</p>
+      <p class="nom">身尼㐌典世尼拱傕”</p>
+      <p class="quocngu">Bây giờ sống thác ở tay,</p>
+      <p class="quocngu">Thân này đã đến thế này cũng thôi!</p>
+      <p class="author"><i>(Dòng 1143-1144) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,49 +25,52 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “This land needed a sword forged in the \
-| hottest of fires to regain what was     |
-| lost...and you are that sword.”         |
-|                                         |
-\  -- S. Alexander O'Keefe                /
- -----------------------------------------
-      \
-       \
-        \                                     ,
-                                            ,o
-                                            :o
-                   _....._                  `:o
-                 .\'       ``-.                \o
-                /  _      _   \                \o
-               :  /*\    /*\   )                ;o
-               |  \_/    \_/   /                ;o
-               (       U      /                 ;o
-                \  (\_____/) /                  /o
-                 \   \_m_/  (                  /o
-                  \         (                ,o:
-                  )          \,           .o;o\'           ,o\'o\'o.
-                ./          /\o;o,,,,,;o;o;\'\'         _,-o,-\'\'\'-o:o.
- .             ./o./)        \    \'o\'o\'o\'\'         _,-\'o,o\'         o
- o           ./o./ /       .o \.              __,-o o,o\'
- \o.       ,/o /  /o/)     | o o\'-..____,,-o\'o o_o-\'
- `o:o...-o,o-\' ,o,/ |     \   \'o.o_o_o_o,o--\'\'
- .,  ``o-o\'  ,.oo/   \'o /\.o`.
- `o`o-....o\'o,-\'   /o /   \o \.                       ,o..         o
-   ``o-o.o--      /o /      \o.o--..          ,,,o-o\'o.--o:o:o,,..:o
-                 (oo(          `--o.o`o---o\'o\'o,o,-\'\'\'        o\'o\'o
-                  \ o\              ``-o-o\'\'\'\'
-   ,-o;o           \o \
-  /o/               )o )  Carl Pilcher
- (o(               /o /                |
-  \o\.       ...-o\'o /              \   |
-    \o`o`-o\'o o,o,--\'       ~~~~~~~~\~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      ```o--\'\'\'                       \| /
-                                       |/
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                                       |
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+ ____________________________________________
+/ “Parents expect only two things from their \
+| children, obedience in their childhood and |
+| respect in their adulthood.”               |
+|                                            |
+\  -- Amit Kalantri                          /
+ --------------------------------------------
+    \                                       ,:=+++++???++?+=+=
+     \                               :+?????$MUUUUUUUUUMO+??~
+      \                         :+I??$UUUUMUMMMMUUMUMUUMUUMM???I+:
+       \                     ,+??+ZOUUMMUMMMUUUUUMUUUMUUUMUMUUMZI+?+:
+        \                 ~I?+MMUMUUUMUUUOOUMMMMMMUUUUUMMMUUUUUUMMUM$??~
+                       I?+7MMMMMUUO7?+?IUMMMMMMMMUUMUUMUUUUUUUUUUMMMUMO?I
+                    ~I?+MMMUUUO????+?IOUZ7?,.......,+$OUMUUUUUUMUMUUUMUU+I:
+                   =??$UMUUU7++??????II???????=.....,?OUUMMMUUMUUUUUUUMMUUU+=
+                 +??UUMMM7??????+??+?????+??=,...$MUMUUUUMUUMUUUUUUUUMMUM7II??=
+               ,+?IUMMMI???III?++??+?????+~....... ......MUUMUUUUUUUUUMMU7?~
+               IIUMMM+?+?IUUUUMUUM7I?????????????I?+=:......MUUMMUMUMMMMUUU+~
+             :?+UMMU+?+?7UMMUUUZ7$7????+++????????????=.....+UMUUUUMMMMMMUZ?
+             ?+UMUM???+MMMMMU?++???????????++????????++????....OMMMUMMMMUMMUI:
+            +$MMUM?+?ZMMU:$MM???OUUU+??+???+????????????????,...UMUMUUUUMMUMM?~
+            IUUUU?I?OUUU,..UU?IMMUUMUUI???+?????????????????I,..:UUMUUUUMMUMU?+
+            ?UUUMUM$UMUU~..UUUUU$,IUUUMM7+?????????????????+?I~..UUUUUUUMMMUU+?
+            ?OUMUUUUMMUI+.?UUUU=...~UMMUU$?????+???????????????..MUMUUUUUMUMU??
+           :??IUUMMUMUMMOMUU7........OUUUMMU?I????????????????I..MUMUUUUMUUMU?+
+         +IIUMUO.IUUUUUUO..............?UMUMUM7??????????????+?..UUMUUUUMUUMU?=
+       ,IZMMU,.:UU7:..........,UUUMUZ....MUUMMO+???????????????..UUUUUUUUUUU?:
+       IZUUU:..UUUI=....... IUUUUUMMUZ,.MMUMU$?+???????????????.MUUMUUUUMUMUI
+     ,+IUUM..O=..........$UUMMMUU?~....UMMUUI?????????????????=.UMMUUUUUMMU?+
+     +?UMU~............OUMMUU~..... .UUMUMM+?????????????????=.UMMUMUMUUMOI=
+     ?$MU~...    ...:MUMU=~........,UUMMMUI+????????????????+IUMMMUUUUMUU?+
+     +OMU....   ...?UMU=..:~~,.....MMMUUU+?+????????????????~MMUUUUMUMMU?+~   
+     ?OMU~ .. ...?UMUUUMUMUMUMUMUUUMUUMUI???????????????+?+OUUMUUMMMMUIUUUMO,
+     ??UMU~.....$MUUUOM???UMMUUUMMMUUMM7?++????????????++OMMMUMUUMMUI??UMIU+~
+     :?7UUU$...UMMM?I~,  +?MMUUMMMMMMUU?????????????+??$UMMMMUUUMU$?: ,??I?:
+       ?IMUMUUZMU+?,      =?UMMMMMMMMO??????????????+UMUMMUMUMUU?I~
+        ?+$MUMUMU??        ?MMMMMMMMU??+???????????IUMMMUUUMUUZ?=
+          ,+???ZUO?~       +ZUMMUMUMU???++??+???IUMMUMUMMUUO??~
+               ,,:~=       ,?UMUMUMU???+??+?+?7UMUMUMUMUI??:
+                            ?UMUMMMM?+??++?ZUUMUMUMUZ++?,                  
+                            ?UMMMMMO+???MMUMUMUMUMOII=,                       
+                            ?UUUMUUZOMUUMUMMUMM+??=
+                            ?UMMUMMUUUMUMM$???~
+                           ,?UMUUMUUU$?+?~:                                  
+                           :IUUUM?+?I=:                                  
+                           ????~,
 ```
 <!-- END_QUOTE -->
 
