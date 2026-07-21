@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“悲𣇞𤯩托於𢬣</p>
-      <p class="nom">身尼㐌典世尼拱傕”</p>
-      <p class="quocngu">Bây giờ sống thác ở tay,</p>
-      <p class="quocngu">Thân này đã đến thế này cũng thôi!</p>
-      <p class="author"><i>(Dòng 1143-1144) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“紅鈞貝客紅裙</p>
+      <p class="nom">㐌磋典世群運渚他”</p>
+      <p class="quocngu">Hồng quân với khách hồng quần,</p>
+      <p class="quocngu">Đã xoay đến thế còn vần chưa tha.</p>
+      <p class="author"><i>(Dòng 2157-2158) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,51 +26,37 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Parents expect only two things from their \
-| children, obedience in their childhood and |
-| respect in their adulthood.”               |
+/ “For thousands of years, we did have death \
+| surrounding us, and we did have people die |
+| in the home. You would take care of your   |
+| own end. You would do ritual processes,    |
+| and you would be involved in it, and       |
+| that's been taken away in the Western      |
+| world.”                                    |
 |                                            |
-\  -- Amit Kalantri                          /
+\  -- Caitlin Doughty                        /
  --------------------------------------------
-    \                                       ,:=+++++???++?+=+=
-     \                               :+?????$MUUUUUUUUUMO+??~
-      \                         :+I??$UUUUMUMMMMUUMUMUUMUUMM???I+:
-       \                     ,+??+ZOUUMMUMMMUUUUUMUUUMUUUMUMUUMZI+?+:
-        \                 ~I?+MMUMUUUMUUUOOUMMMMMMUUUUUMMMUUUUUUMMUM$??~
-                       I?+7MMMMMUUO7?+?IUMMMMMMMMUUMUUMUUUUUUUUUUMMMUMO?I
-                    ~I?+MMMUUUO????+?IOUZ7?,.......,+$OUMUUUUUUMUMUUUMUU+I:
-                   =??$UMUUU7++??????II???????=.....,?OUUMMMUUMUUUUUUUMMUUU+=
-                 +??UUMMM7??????+??+?????+??=,...$MUMUUUUMUUMUUUUUUUUMMUM7II??=
-               ,+?IUMMMI???III?++??+?????+~....... ......MUUMUUUUUUUUUMMU7?~
-               IIUMMM+?+?IUUUUMUUM7I?????????????I?+=:......MUUMMUMUMMMMUUU+~
-             :?+UMMU+?+?7UMMUUUZ7$7????+++????????????=.....+UMUUUUMMMMMMUZ?
-             ?+UMUM???+MMMMMU?++???????????++????????++????....OMMMUMMMMUMMUI:
-            +$MMUM?+?ZMMU:$MM???OUUU+??+???+????????????????,...UMUMUUUUMMUMM?~
-            IUUUU?I?OUUU,..UU?IMMUUMUUI???+?????????????????I,..:UUMUUUUMMUMU?+
-            ?UUUMUM$UMUU~..UUUUU$,IUUUMM7+?????????????????+?I~..UUUUUUUMMMUU+?
-            ?OUMUUUUMMUI+.?UUUU=...~UMMUU$?????+???????????????..MUMUUUUUMUMU??
-           :??IUUMMUMUMMOMUU7........OUUUMMU?I????????????????I..MUMUUUUMUUMU?+
-         +IIUMUO.IUUUUUUO..............?UMUMUM7??????????????+?..UUMUUUUMUUMU?=
-       ,IZMMU,.:UU7:..........,UUUMUZ....MUUMMO+???????????????..UUUUUUUUUUU?:
-       IZUUU:..UUUI=....... IUUUUUMMUZ,.MMUMU$?+???????????????.MUUMUUUUMUMUI
-     ,+IUUM..O=..........$UUMMMUU?~....UMMUUI?????????????????=.UMMUUUUUMMU?+
-     +?UMU~............OUMMUU~..... .UUMUMM+?????????????????=.UMMUMUMUUMOI=
-     ?$MU~...    ...:MUMU=~........,UUMMMUI+????????????????+IUMMMUUUUMUU?+
-     +OMU....   ...?UMU=..:~~,.....MMMUUU+?+????????????????~MMUUUUMUMMU?+~   
-     ?OMU~ .. ...?UMUUUMUMUMUMUMUUUMUUMUI???????????????+?+OUUMUUMMMMUIUUUMO,
-     ??UMU~.....$MUUUOM???UMMUUUMMMUUMM7?++????????????++OMMMUMUUMMUI??UMIU+~
-     :?7UUU$...UMMM?I~,  +?MMUUMMMMMMUU?????????????+??$UMMMMUUUMU$?: ,??I?:
-       ?IMUMUUZMU+?,      =?UMMMMMMMMO??????????????+UMUMMUMUMUU?I~
-        ?+$MUMUMU??        ?MMMMMMMMU??+???????????IUMMMUUUMUUZ?=
-          ,+???ZUO?~       +ZUMMUMUMU???++??+???IUMMUMUMMUUO??~
-               ,,:~=       ,?UMUMUMU???+??+?+?7UMUMUMUMUI??:
-                            ?UMUMMMM?+??++?ZUUMUMUMUZ++?,                  
-                            ?UMMMMMO+???MMUMUMUMUMOII=,                       
-                            ?UUUMUUZOMUUMUMMUMM+??=
-                            ?UMMUMMUUUMUMM$???~
-                           ,?UMUUMUUU$?+?~:                                  
-                           :IUUUM?+?I=:                                  
-                           ????~,
+  \                                  ,+*^^*+___+++_
+   \                           ,*^^^^              )
+    \                       _+*                     ^**+_
+     \                    +^       _ _++*+_+++_,         )
+              _+^^*+_    (     ,+*^ ^          \+_        )
+             {       )  (    ,(    ,_+--+--,      ^)      ^\
+            { (@)    } f   ,(  ,+-^ __*_*_  ^^\_   ^\       )
+           {:;-/    (_+*-+^^^^^+*+*<_ _++_)_    )    )      /
+          ( /  (    (        ,___    ^*+_+* )   <    <      \
+           U _/     )    *--<  ) ^\-----++__)   )    )       )
+            (      )  _(^)^^))  )  )\^^^^^))^*+/    /       /
+          (      /  (_))_^)) )  )  ))^^^^^))^^^)__/     +^^
+         (     ,/    (^))^))  )  ) ))^^^^^^^))^^)       _)
+          *+__+*       (_))^)  ) ) ))^^^^^^))^^^^^)____*^
+          \             \_)^)_)) ))^^^^^^^^^^))^^^^)
+           (_             ^\__^^^^^^^^^^^^))^^^^^^^)
+             ^\___            ^\__^^^^^^))^^^^^^^^)\\
+                  ^^^^^\uuu/^^\uuu/^^^^\^\^\^\^\^\^\^\
+                     ___) >____) >___   ^\_\_\_\_\_\_\)
+                    ^^^//\\_^^//\\_^       ^(\_\_\_\)
+                      ^^^ ^^ ^^^ ^
 ```
 <!-- END_QUOTE -->
 
