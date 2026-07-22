@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“紅鈞貝客紅裙</p>
-      <p class="nom">㐌磋典世群運渚他”</p>
-      <p class="quocngu">Hồng quân với khách hồng quần,</p>
-      <p class="quocngu">Đã xoay đến thế còn vần chưa tha.</p>
-      <p class="author"><i>(Dòng 2157-2158) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“朱咍羅󰣉有情</p>
+      <p class="nom">妬埃𫽻䋦絲萌朱衝”</p>
+      <p class="quocngu">Cho hay là giống hữu tình,</p>
+      <p class="quocngu">Đố ai gỡ mối tơ mành cho xong.</p>
+      <p class="author"><i>(Dòng 243-244) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “For thousands of years, we did have death \
-| surrounding us, and we did have people die |
-| in the home. You would take care of your   |
-| own end. You would do ritual processes,    |
-| and you would be involved in it, and       |
-| that's been taken away in the Western      |
-| world.”                                    |
-|                                            |
-\  -- Caitlin Doughty                        /
- --------------------------------------------
-  \                                  ,+*^^*+___+++_
-   \                           ,*^^^^              )
-    \                       _+*                     ^**+_
-     \                    +^       _ _++*+_+++_,         )
-              _+^^*+_    (     ,+*^ ^          \+_        )
-             {       )  (    ,(    ,_+--+--,      ^)      ^\
-            { (@)    } f   ,(  ,+-^ __*_*_  ^^\_   ^\       )
-           {:;-/    (_+*-+^^^^^+*+*<_ _++_)_    )    )      /
-          ( /  (    (        ,___    ^*+_+* )   <    <      \
-           U _/     )    *--<  ) ^\-----++__)   )    )       )
-            (      )  _(^)^^))  )  )\^^^^^))^*+/    /       /
-          (      /  (_))_^)) )  )  ))^^^^^))^^^)__/     +^^
-         (     ,/    (^))^))  )  ) ))^^^^^^^))^^)       _)
-          *+__+*       (_))^)  ) ) ))^^^^^^))^^^^^)____*^
-          \             \_)^)_)) ))^^^^^^^^^^))^^^^)
-           (_             ^\__^^^^^^^^^^^^))^^^^^^^)
-             ^\___            ^\__^^^^^^))^^^^^^^^)\\
-                  ^^^^^\uuu/^^\uuu/^^^^\^\^\^\^\^\^\^\
-                     ___) >____) >___   ^\_\_\_\_\_\_\)
-                    ^^^//\\_^^//\\_^       ^(\_\_\_\)
-                      ^^^ ^^ ^^^ ^
+ _____________________________________________
+/ “Tobacco, coffee, alcohol, hashish, prussic \
+| acid, strychnine, are weak dilutions. The   |
+| surest poison is time.”                     |
+|                                             |
+\  -- Ralph Waldo Emerson                     /
+ ---------------------------------------------
+       \
+        \
+
+     ".           ,#  
+     \ `-._____,-'=/
+  ____`._ ----- _,'_____PhS
+         `-----'
 ```
 <!-- END_QUOTE -->
 
