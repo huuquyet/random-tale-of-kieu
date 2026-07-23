@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“朱咍羅󰣉有情</p>
-      <p class="nom">妬埃𫽻䋦絲萌朱衝”</p>
-      <p class="quocngu">Cho hay là giống hữu tình,</p>
-      <p class="quocngu">Đố ai gỡ mối tơ mành cho xong.</p>
-      <p class="author"><i>(Dòng 243-244) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“觥孤蹺𦄂江津</p>
+      <p class="nom">塊棱𦰤㐌細𡑝𫢋堂”</p>
+      <p class="quocngu">Quanh co theo dải giang tân,</p>
+      <p class="quocngu">Khỏi rừng lau đã tới sân Phật đường.</p>
+      <p class="author"><i>(Dòng 3005-3006) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Tobacco, coffee, alcohol, hashish, prussic \
-| acid, strychnine, are weak dilutions. The   |
-| surest poison is time.”                     |
-|                                             |
-\  -- Ralph Waldo Emerson                     /
- ---------------------------------------------
-       \
-        \
-
-     ".           ,#  
-     \ `-._____,-'=/
-  ____`._ ----- _,'_____PhS
-         `-----'
+ ___________________________________________
+/ “In bringing dreams into fulfillment, pay \
+| no attention to different obstacles and   |
+| difficulties”                             |
+|                                           |
+\  -- Sunday Adelaja                        /
+ -------------------------------------------
+\
+ \
+         ,=;%$%%$X%%%%;/%%%%;=,
+     ,/$+:-                -:+$/,
+   :X$=                          =$X:
+ ;M%.                              .%M;
++#/                                  /#+
+\##                                    M#
+H#,                     =;+/;,       ,#X
+.HM-       :@X+%H:   .%M%- .M#.     -M@.
+  /#%.     @#-  ,H@--MH, .;@$-    .%#+
+   .$M;    .+@X;, MM#@:/$X;.     ;M$,
+     =@H,     ,:+%H#M%;-       ,H@=
+      .$#;        -#H         =#$
+        %#;        \#M        ;#%
+         H#-       \##       -#H
+         ;#+       \##       +#;
+          ;H+;;;;;;HH;;;;;;+H/
+           =H#@HHHHHHHHHH@#H=
+           =@#H%%%%%%%$HH@#@=
+           =@#X%%%%%%%$M###@=
+               =+%XHHX%+=
 ```
 <!-- END_QUOTE -->
 
