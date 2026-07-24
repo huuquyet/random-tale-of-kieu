@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“觥孤蹺𦄂江津</p>
-      <p class="nom">塊棱𦰤㐌細𡑝𫢋堂”</p>
-      <p class="quocngu">Quanh co theo dải giang tân,</p>
-      <p class="quocngu">Khỏi rừng lau đã tới sân Phật đường.</p>
-      <p class="author"><i>(Dòng 3005-3006) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“姉油䏦󰞺󰢇𤷱</p>
+      <p class="nom">唅唭𠃩𤂬唉群𦹳徠”</p>
+      <p class="quocngu">Chị dù thịt nát xương mòn,</p>
+      <p class="quocngu">Ngậm cười chín suối hãy còn thơm lây.</p>
+      <p class="author"><i>(Dòng 733-734) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “In bringing dreams into fulfillment, pay \
-| no attention to different obstacles and   |
-| difficulties”                             |
-|                                           |
-\  -- Sunday Adelaja                        /
- -------------------------------------------
-\
- \
-         ,=;%$%%$X%%%%;/%%%%;=,
-     ,/$+:-                -:+$/,
-   :X$=                          =$X:
- ;M%.                              .%M;
-+#/                                  /#+
-\##                                    M#
-H#,                     =;+/;,       ,#X
-.HM-       :@X+%H:   .%M%- .M#.     -M@.
-  /#%.     @#-  ,H@--MH, .;@$-    .%#+
-   .$M;    .+@X;, MM#@:/$X;.     ;M$,
-     =@H,     ,:+%H#M%;-       ,H@=
-      .$#;        -#H         =#$
-        %#;        \#M        ;#%
-         H#-       \##       -#H
-         ;#+       \##       +#;
-          ;H+;;;;;;HH;;;;;;+H/
-           =H#@HHHHHHHHHH@#H=
-           =@#H%%%%%%%$HH@#@=
-           =@#X%%%%%%%$M###@=
-               =+%XHHX%+=
+ _________________________________________
+/ “His was a great sin who first invented \
+| consciousness. Let us lose it for a few |
+| hours.”                                 |
+|                                         |
+\  -- F. Scott Fitzgerald                 /
+ -----------------------------------------
+     \
+      \
+          oO)-.                       .-(Oo
+         /__  _\                     /_  __\
+         \  \(  |     ()~()         |  )/  /
+          \__|\ |    (-___-)        | /|__/
+          '  '--'    ==`-'==        '--'  '
 ```
 <!-- END_QUOTE -->
 
