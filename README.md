@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“姉油䏦󰞺󰢇𤷱</p>
-      <p class="nom">唅唭𠃩𤂬唉群𦹳徠”</p>
-      <p class="quocngu">Chị dù thịt nát xương mòn,</p>
-      <p class="quocngu">Ngậm cười chín suối hãy còn thơm lây.</p>
-      <p class="author"><i>(Dòng 733-734) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“娘浪催世𪰛傕</p>
+      <p class="nom">浪空意拱󰂅𠳒浪空”</p>
+      <p class="quocngu">Nàng rằng: "Thôi thế thì thôi,</p>
+      <p class="quocngu">Rằng không ấy cũng vâng lời rằng không!"</p>
+      <p class="author"><i>(Dòng 1175-1176) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “His was a great sin who first invented \
-| consciousness. Let us lose it for a few |
-| hours.”                                 |
-|                                         |
-\  -- F. Scott Fitzgerald                 /
- -----------------------------------------
-     \
-      \
-          oO)-.                       .-(Oo
-         /__  _\                     /_  __\
-         \  \(  |     ()~()         |  )/  /
-          \__|\ |    (-___-)        | /|__/
-          '  '--'    ==`-'==        '--'  '
+ ____________________________________________
+/ “Well-known, alas, is the case of the poor \
+| German who was very fond of three and who  |
+| made each aspect of his life a thing of    |
+| triads. He went home one evening and drank |
+| three cups of tea with three lumps of      |
+| sugar in each cup, cut his jugular with a  |
+| razor three times and scrawled with a      |
+| dying hand on a picture of his wife        |
+| good-bye, good-bye, good-bye.”             |
+|                                            |
+\  -- Flann O'Brien                          /
+ --------------------------------------------
+ \     /\  ___  /\
+  \   // \/   \/ \\
+     ((    o o    ))
+      \\ /     \ //
+       \/  | |  \/ 
+        |  | |  |  
+        |  | |  |  
+        |   o   |  
+        | |   | |  
+        |m|   |m|  
 ```
 <!-- END_QUOTE -->
 
