@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘浪催世𪰛傕</p>
-      <p class="nom">浪空意拱󰂅𠳒浪空”</p>
-      <p class="quocngu">Nàng rằng: "Thôi thế thì thôi,</p>
-      <p class="quocngu">Rằng không ấy cũng vâng lời rằng không!"</p>
-      <p class="author"><i>(Dòng 1175-1176) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨷶茹油併衛𡢐</p>
+      <p class="nom">𪰛群㛪妬路求姉低”</p>
+      <p class="quocngu">Cửa nhà dù tính về sau,</p>
+      <p class="quocngu">Thì còn em đó, lọ cầu chị đây?</p>
+      <p class="author"><i>(Dòng 3159-3160) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,46 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Well-known, alas, is the case of the poor \
-| German who was very fond of three and who  |
-| made each aspect of his life a thing of    |
-| triads. He went home one evening and drank |
-| three cups of tea with three lumps of      |
-| sugar in each cup, cut his jugular with a  |
-| razor three times and scrawled with a      |
-| dying hand on a picture of his wife        |
-| good-bye, good-bye, good-bye.”             |
-|                                            |
-\  -- Flann O'Brien                          /
- --------------------------------------------
- \     /\  ___  /\
-  \   // \/   \/ \\
-     ((    o o    ))
-      \\ /     \ //
-       \/  | |  \/ 
-        |  | |  |  
-        |  | |  |  
-        |   o   |  
-        | |   | |  
-        |m|   |m|  
+ ___________________________________________
+/ “I genuinely enjoy the process of making  \
+| colourful, delicious food. But I do allow |
+| myself an occasional piece of chocolate - |
+| today I had a pastry. If I fancy          |
+| something, I'll have it.”                 |
+|                                           |
+\  -- Victoria Pendleton                    /
+ -------------------------------------------
+#
+# ごぼう2
+#
+
+$the_cow << EOC;
+  \
+   \
+    \
+          ,.:──‐-:.,
+        ／:.           ＼
+      ／:. :. :. }:. :. :.ヽ
+     .: :. :. }.:/＼.:|,:. :ﾍ
+     |:.:. :. /Ｖノ ヽﾄ＼:|､ﾍ
+     |:.:. /Ｖ_ﾆ    ﾆ＿_ {::ﾍ
+     |:.ﾍ .| ΓT      | |Ｖ.＼
+     |:{ |:|.l｜      | |八:ー
+     ハ:`:Ｖ､l｜∠二l.|.ｲ:ﾊ:ﾉ
+      _Ｖ＼;＞=r rr r=＜ﾊ／   ＿＿
+     |ざ |ﾍ :{Ｖ/V:}:＼      |ご  |
+    {ﾐ}く{)}:＞Ｖ/< :  ＞-:-'{}ぼ{ﾐ}
+     |ろ_|:ﾉ:＼:Y / }ﾐ : : : |  うY
+          ﾉ :o: : :oj `ー─-´ ￣￣
+         / : : : : :{
+        /: : o : :o:ﾍ
+      〈 : : : /\: : 〉
+       /::ー──'::ー‐ﾍ
+     〈:::::::::::::::::〉
+       ￣|￣｢￣|￣|￣
+         |  |  |  | 
+EOC
+
 ```
 <!-- END_QUOTE -->
 
