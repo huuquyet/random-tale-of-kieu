@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨷶茹油併衛𡢐</p>
-      <p class="nom">𪰛群㛪妬路求姉低”</p>
-      <p class="quocngu">Cửa nhà dù tính về sau,</p>
-      <p class="quocngu">Thì còn em đó, lọ cầu chị đây?</p>
-      <p class="author"><i>(Dòng 3159-3160) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“生強󰞺𦛌散魂</p>
+      <p class="nom">󱋓𠶆沛吟蒲丸燥𬆄”</p>
+      <p class="quocngu">Sinh càng nát ruột tan hồn.</p>
+      <p class="quocngu">Chén mời phải ngậm bồ hòn ráo ngay!</p>
+      <p class="author"><i>(Dòng 1845-1846) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,46 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I genuinely enjoy the process of making  \
-| colourful, delicious food. But I do allow |
-| myself an occasional piece of chocolate - |
-| today I had a pastry. If I fancy          |
-| something, I'll have it.”                 |
-|                                           |
-\  -- Victoria Pendleton                    /
- -------------------------------------------
-#
-# ごぼう2
-#
-
-$the_cow << EOC;
+ ____________________________________________
+/ “Reminding me how fragile this life is and \
+| how easily it can be lost. Compelling me   |
+| to live and to live well, while I still    |
+| can.Because sooner or later, we must all   |
+| face eternity.”                            |
+|                                            |
+\  -- Jessica Khoury                         /
+ --------------------------------------------
   \
    \
-    \
-          ,.:──‐-:.,
-        ／:.           ＼
-      ／:. :. :. }:. :. :.ヽ
-     .: :. :. }.:/＼.:|,:. :ﾍ
-     |:.:. :. /Ｖノ ヽﾄ＼:|､ﾍ
-     |:.:. /Ｖ_ﾆ    ﾆ＿_ {::ﾍ
-     |:.ﾍ .| ΓT      | |Ｖ.＼
-     |:{ |:|.l｜      | |八:ー
-     ハ:`:Ｖ､l｜∠二l.|.ｲ:ﾊ:ﾉ
-      _Ｖ＼;＞=r rr r=＜ﾊ／   ＿＿
-     |ざ |ﾍ :{Ｖ/V:}:＼      |ご  |
-    {ﾐ}く{)}:＞Ｖ/< :  ＞-:-'{}ぼ{ﾐ}
-     |ろ_|:ﾉ:＼:Y / }ﾐ : : : |  うY
-          ﾉ :o: : :oj `ー─-´ ￣￣
-         / : : : : :{
-        /: : o : :o:ﾍ
-      〈 : : : /\: : 〉
-       /::ー──'::ー‐ﾍ
-     〈:::::::::::::::::〉
-       ￣|￣｢￣|￣|￣
-         |  |  |  | 
-EOC
 
+     Lｰ'{r ｧjｰノ
+      _`)-ﾑ{
+    /´::( ･)ヽ-- ､
+   {::::::::::::::}
+   ゝ:::::.ノー-
+     しｿ¨UU
 ```
 <!-- END_QUOTE -->
 
