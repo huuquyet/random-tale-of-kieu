@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“生強󰞺𦛌散魂</p>
-      <p class="nom">󱋓𠶆沛吟蒲丸燥𬆄”</p>
-      <p class="quocngu">Sinh càng nát ruột tan hồn.</p>
-      <p class="quocngu">Chén mời phải ngậm bồ hòn ráo ngay!</p>
-      <p class="author"><i>(Dòng 1845-1846) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐱𠲖塘詫󰜋命</p>
+      <p class="nom">於低除待師兄𠃣𣈜”</p>
+      <p class="quocngu">Chỉn e đường sá một mình,</p>
+      <p class="quocngu">Ở đây chờ đợi sư huynh ít ngày."</p>
+      <p class="author"><i>(Dòng 2051-2052) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Reminding me how fragile this life is and \
-| how easily it can be lost. Compelling me   |
-| to live and to live well, while I still    |
-| can.Because sooner or later, we must all   |
-| face eternity.”                            |
-|                                            |
-\  -- Jessica Khoury                         /
- --------------------------------------------
-  \
-   \
-
-     Lｰ'{r ｧjｰノ
-      _`)-ﾑ{
-    /´::( ･)ヽ-- ､
-   {::::::::::::::}
-   ゝ:::::.ノー-
-     しｿ¨UU
+ ___________________________________________
+/ “The stars don't look bigger, but they do \
+| look brighter.”                           |
+|                                           |
+\  -- Sally Ride                            /
+ -------------------------------------------
+ \     ____________ 
+  \    |__________|
+      /           /\
+     /           /  \
+    /___________/___/|
+    |          |     |
+    |  ==\ /== |     |
+    |   o   o  | \ \ |
+    |     <    |  \ \|
+   /|          |   \ \
+  / |  \_____/ |   / /
+ / /|          |  / /|
+/||\|          | /||\/
+    -------------|   
+        | |    | | 
+       <__/    \__>
 ```
 <!-- END_QUOTE -->
 
