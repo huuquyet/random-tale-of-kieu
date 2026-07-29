@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐱𠲖塘詫󰜋命</p>
-      <p class="nom">於低除待師兄𠃣𣈜”</p>
-      <p class="quocngu">Chỉn e đường sá một mình,</p>
-      <p class="quocngu">Ở đây chờ đợi sư huynh ít ngày."</p>
-      <p class="author"><i>(Dòng 2051-2052) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“丕𢧚撔󰘚爫清</p>
+      <p class="nom">謀高本㐌㕸𩲵仍𣈜”</p>
+      <p class="quocngu">Vậy nên ngảnh mặt làm thinh,</p>
+      <p class="quocngu">Mưu cao vốn đã rắp ranh những ngày,</p>
+      <p class="author"><i>(Dòng 1611-1612) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,42 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ___________________________________________
-/ “The stars don't look bigger, but they do \
-| look brighter.”                           |
+/ “If I advance follow me! If I retreat cut \
+| me down! If I die avenge me!”             |
 |                                           |
-\  -- Sally Ride                            /
+\  -- Benito Mussolini                      /
  -------------------------------------------
- \     ____________ 
-  \    |__________|
-      /           /\
-     /           /  \
-    /___________/___/|
-    |          |     |
-    |  ==\ /== |     |
-    |   o   o  | \ \ |
-    |     <    |  \ \|
-   /|          |   \ \
-  / |  \_____/ |   / /
- / /|          |  / /|
-/||\|          | /||\/
-    -------------|   
-        | |    | | 
-       <__/    \__>
+#
+# ごぼう2
+#
+
+$the_cow << EOC;
+  \
+   \
+    \
+          ,.:──‐-:.,
+        ／:.           ＼
+      ／:. :. :. }:. :. :.ヽ
+     .: :. :. }.:/＼.:|,:. :ﾍ
+     |:.:. :. /Ｖノ ヽﾄ＼:|､ﾍ
+     |:.:. /Ｖ_ﾆ    ﾆ＿_ {::ﾍ
+     |:.ﾍ .| ΓT      | |Ｖ.＼
+     |:{ |:|.l｜      | |八:ー
+     ハ:`:Ｖ､l｜∠二l.|.ｲ:ﾊ:ﾉ
+      _Ｖ＼;＞=r rr r=＜ﾊ／   ＿＿
+     |ざ |ﾍ :{Ｖ/V:}:＼      |ご  |
+    {ﾐ}く{)}:＞Ｖ/< :  ＞-:-'{}ぼ{ﾐ}
+     |ろ_|:ﾉ:＼:Y / }ﾐ : : : |  うY
+          ﾉ :o: : :oj `ー─-´ ￣￣
+         / : : : : :{
+        /: : o : :o:ﾍ
+      〈 : : : /\: : 〉
+       /::ー──'::ー‐ﾍ
+     〈:::::::::::::::::〉
+       ￣|￣｢￣|￣|￣
+         |  |  |  | 
+EOC
+
 ```
 <!-- END_QUOTE -->
 
