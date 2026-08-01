@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𪂲𤷍󰈫󰜋添𠄩</p>
-      <p class="nom">徐𥹰我價𠹾外𦊚𤾓”</p>
-      <p class="quocngu">Cò kè bớt một thêm hai,</p>
-      <p class="quocngu">Giờ lâu ngã giá chịu ngoài bốn trăm.</p>
-      <p class="author"><i>(Dòng 647-648) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌恾業意𠓨身</p>
+      <p class="nom">拱停責吝𡗶𧵆𡗶賒”</p>
+      <p class="quocngu">Đã mang nghiệp ấy vào thân,</p>
+      <p class="quocngu">Cũng đừng trách lẫn trời gần trời xa.</p>
+      <p class="author"><i>(Dòng 3249-3250) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,23 +26,20 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “There is no better teacher than adversity” \
+/ “I understand once again that the greatness \
+| of God always reveals itself in the simple  |
+| things.”                                    |
 |                                             |
-\  -- there is none wiser than its student.   /
+\  -- Paulo Coelho                            /
  ---------------------------------------------
-     \     .-.
-      \  .'   `.
-       \ :g g   :
-        \: o    `.
-        :         ``.
-       :             `.
-      :  :         .   `.
-      :   :          ` . `.
-       `.. :            `. ``;
-          `:;             `:'
-             :              `.
-              `.              `.     .
-                `'`'`'`---..,___`;.-'
+        \    ,-^-.
+         \   !oYo!
+          \ /./=\.\______
+               ##        )\/\
+                ||-----w||
+                ||      ||
+
+               Cowth Vader
 ```
 <!-- END_QUOTE -->
 
