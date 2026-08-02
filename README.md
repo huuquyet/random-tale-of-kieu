@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌恾業意𠓨身</p>
-      <p class="nom">拱停責吝𡗶𧵆𡗶賒”</p>
-      <p class="quocngu">Đã mang nghiệp ấy vào thân,</p>
-      <p class="quocngu">Cũng đừng trách lẫn trời gần trời xa.</p>
-      <p class="author"><i>(Dòng 3249-3250) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“打料𠴍󰜋𠄩𠳒</p>
+      <p class="nom">洳𢬣濟渡𢵼𠊚沉淪”</p>
+      <p class="quocngu">Đánh liều nhắn một hai lời,</p>
+      <p class="quocngu">Nhờ tay tế độ vớt người trầm luân.</p>
+      <p class="author"><i>(Dòng 1079-1080) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I understand once again that the greatness \
-| of God always reveals itself in the simple  |
-| things.”                                    |
-|                                             |
-\  -- Paulo Coelho                            /
- ---------------------------------------------
-        \    ,-^-.
-         \   !oYo!
-          \ /./=\.\______
-               ##        )\/\
-                ||-----w||
-                ||      ||
-
-               Cowth Vader
+ ____________________________________________
+/ “Who a person is will ultimately determine \
+| if their brains, talents, competencies,    |
+| energy, effort, deal-making abilities, and |
+| opportunities will succeed.”               |
+|                                            |
+\  -- Henry Cloud                            /
+ --------------------------------------------
+    \
+     \
+            ,:/+/-
+            /M/              .,-=;//;-
+       .:/= ;MH/,    ,=/+%$XH@MM#@:
+      -$##@+$###@H@MMM#######H:.    -/H#
+ .,H@H@ X######@ -H#####@+-     -+H###@X
+  .,@##H;      +XM##M/,     =%@###@X;-
+X%-  :M##########$.    .:%M###@%:
+M##H,   +H@@@$/-.  ,;$M###@%,          -
+M####M=,,---,.-%%H####M$:          ,+@##
+@##################@/.         :%H##@$-
+M###############H,         ;HM##M$=
+\#################.    .=$M##M$=
+\#################H..;XM##M$=          .:+
+M###################@%=           =+@MH%
+@################M/.          =+H#X%=
+=+M##############M,       -/X#X+;.
+  .;XM##########H=    ,/X#H+:,
+     .=+HM######M+/+HM@+=.
+         ,:/%XM####H/.
+              ,.:=-.
 ```
 <!-- END_QUOTE -->
 
