@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“爫朱𤑟󰘚非常</p>
-      <p class="nom">閉𣇞些仕逴娘宜家”</p>
-      <p class="quocngu">Làm cho tỏ mặt phi thường,</p>
-      <p class="quocngu">Bấy giờ ta sẽ rước nàng nghi gia.</p>
-      <p class="author"><i>(Dòng 2223-2224) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨤔之𡭧分䕯𩄲</p>
+      <p class="nom">爫朱𣷭爱欺菭欺潙”</p>
+      <p class="quocngu">Vẻ chi chút phận bèo mây,</p>
+      <p class="quocngu">Làm cho bể ái khi đầy khi vơi.</p>
+      <p class="author"><i>(Dòng 1343-1344) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,19 +26,36 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “I started dating JD Samson from Le Tigre, \
-| and suddenly I was listening to more       |
-| up-tempo music and old dance music, like   |
-| ESG and Gang of Four, and I thought, 'Wow. |
-| This is fun.'”                             |
+/ “It is a great evil to look upon mankind   \
+| with too clear vision. You seem to be      |
+| living among wild beasts, and you become a |
+| wild beast yourself. ("“The Story of       |
+| Prince Alasi and the Princess Firouzkah”)” |
 |                                            |
-\  -- Sia                                    /
+\  -- William Beckford                       /
  --------------------------------------------
-  \
-   \
-
-      ^(;,;)^
-
+                                    \
+                                     \
+                                                         ____                   
+                                               [(=]|[==/   @  \     
+                                                      |--------|                
+     *                                     *  .       ==========                
+.  / *    .                         *   .* . * /.     ==========                
+ / /  .                      *   .    *  \. * /      ||||||||||||               
+ =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
+  \  \ .                             *  (===========[  /=========]              
+.  \   *  *                          .    /  * \   |==============]             
+         *                        *      *         C @ @ @ @ @ @ |D             
+        *  *                          .           /              |              
+                                         .       C  @ @ @  @ @  @ |D            
+          *                          *          /                 |             
+                                               C  @  @  @  @  @  @ |D           
+                                              /                    |            
+                                             C  @   @   @   @  @  @ |D          
+                                            /                       |           
+                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
+                                            -------------------------           
+Modified from howard1@vax.oxford.ac.uk
 ```
 <!-- END_QUOTE -->
 
