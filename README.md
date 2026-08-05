@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨤔之𡭧分䕯𩄲</p>
-      <p class="nom">爫朱𣷭爱欺菭欺潙”</p>
-      <p class="quocngu">Vẻ chi chút phận bèo mây,</p>
-      <p class="quocngu">Làm cho bể ái khi đầy khi vơi.</p>
-      <p class="author"><i>(Dòng 1343-1344) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“傷牢朱院𪰛傷</p>
+      <p class="nom">併牢朱院每塘嗔󰂅”</p>
+      <p class="quocngu">Thương sao cho vẹn thì thương,</p>
+      <p class="quocngu">Tính sao cho vẹn mọi đường xin vâng."</p>
+      <p class="author"><i>(Dòng 1359-1360) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It is a great evil to look upon mankind   \
-| with too clear vision. You seem to be      |
-| living among wild beasts, and you become a |
-| wild beast yourself. ("“The Story of       |
-| Prince Alasi and the Princess Firouzkah”)” |
-|                                            |
-\  -- William Beckford                       /
- --------------------------------------------
-                                    \
-                                     \
-                                                         ____                   
-                                               [(=]|[==/   @  \     
-                                                      |--------|                
-     *                                     *  .       ==========                
-.  / *    .                         *   .* . * /.     ==========                
- / /  .                      *   .    *  \. * /      ||||||||||||               
- =-=-=-=-=-=-----==-=--=-=--=-=-=-=---=--= -. %%%%%%[-- ||||||||||              
-  \  \ .                             *  (===========[  /=========]              
-.  \   *  *                          .    /  * \   |==============]             
-         *                        *      *         C @ @ @ @ @ @ |D             
-        *  *                          .           /              |              
-                                         .       C  @ @ @  @ @  @ |D            
-          *                          *          /                 |             
-                                               C  @  @  @  @  @  @ |D           
-                                              /                    |            
-                                             C  @   @   @   @  @  @ |D          
-                                            /                       |           
-                                           |@@@@@@@@@@@@@@@@@@@@@@@@@|          
-                                            -------------------------           
-Modified from howard1@vax.oxford.ac.uk
+ _________________________________________________
+/ “He was just drifting off when he heard her     \
+| soft whisper. "Cooper?"        "Still here."    |
+| Maybe she'd changed her mind about the          |
+| sheet. The thought made his body twitch.        |
+| Yeah, she was going to toss that damn           |
+| thing aside and roll toward him. She'd          |
+| wrap that hot little bod tight to his, and      |
+| he'd ---        "Thank you." Breanne said very  |
+| quietly.        He blinked. "Thank you? He slid |
+| his hand down to cup himself. Still hard.       |
+| Nope, he hadn't missed anything...”             |
+|                                                 |
+\  -- Jill Shalvis                                /
+ -------------------------------------------------
+ \
+  \
+    .::.
+    _::_
+  _/____\_
+  \      /
+   \____/
+   (____)
+    |  |
+    |__|
+   /    \
+  (______)
+ (________)
+ /________\
 ```
 <!-- END_QUOTE -->
 
