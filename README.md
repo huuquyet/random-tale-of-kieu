@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“別包𧊉󰌕蜂𢯦</p>
-      <p class="nom">局醝苔𣎃陣唭捽𣎀”</p>
-      <p class="quocngu">Biết bao bướm lả/lửa ong lơi,</p>
-      <p class="quocngu">Cuộc say đầy tháng, trận cười suốt đêm.</p>
-      <p class="author"><i>(Dòng 1229-1230) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“察命功𠃣罪𡗉</p>
+      <p class="nom">𤯩乘碎㐌𢧚料命碎”</p>
+      <p class="quocngu">Xét mình công ít, tội nhiều,</p>
+      <p class="quocngu">Sống thừa, tôi đã nên liều mình tôi.</p>
+      <p class="author"><i>(Dòng 2559-2560) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,29 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “The secret to a long marriage is to stay \
-| gone.”                                    |
-|                                           |
-\  -- Dolly Parton                          /
- -------------------------------------------
+ _____________________________________________
+/ “Brianna dropped the skateboard in front of \
+| Sam. "Don't worry: I won't let you fall     |
+| off." "Yeah? Then why did you bring the     |
+| helmet?" Brianna tossed it to him. "In      |
+| case you fall off.”                         |
+|                                             |
+\  -- Michael Grant                           /
+ ---------------------------------------------
+   \
+    \
      \
-      \
-     _              __
-    / `\  (~._    ./  )
-    \__/ __`-_\__/ ./
-   _ \ \/  \   \ |_   __
- (   )  \__/ -^    \ /  \
-  \_/ "  \  | o  o  |.. /  __
-       \. --' ====  /  || /  \
-         \   .  .  |---__.\__/
-         /  :     /   |   |
-         /   :   /     \_/
-      --/ ::    (
-     (  |     (  (____
-   .--  .. ----**.____)
-   \___/
+        __ \ / __
+       /  \ | /  \
+           \|/
+       _.---v---.,_
+      /            \  /\__/\
+     /              \ \_  _/
+     |__ @           |_/ /
+      _/                / 
+      \       \__,     /  
+   ~~~~\~~~~~~~~~~~~~~`~~~
+
 ```
 <!-- END_QUOTE -->
 
