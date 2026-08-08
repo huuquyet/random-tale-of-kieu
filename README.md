@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“察命功𠃣罪𡗉</p>
-      <p class="nom">𤯩乘碎㐌𢧚料命碎”</p>
-      <p class="quocngu">Xét mình công ít, tội nhiều,</p>
-      <p class="quocngu">Sống thừa, tôi đã nên liều mình tôi.</p>
-      <p class="author"><i>(Dòng 2559-2560) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“油牢󰜍㐌𢙲淶</p>
+      <p class="nom">𥙩身麻假𡢻𠁀朱衝”</p>
+      <p class="quocngu">Dẫu sao bình đã lỡ rơi,</p>
+      <p class="quocngu">Lấy thân mà trả nợ đời cho xong!"</p>
+      <p class="author"><i>(Dòng 1197-1198) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,45 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Brianna dropped the skateboard in front of \
-| Sam. "Don't worry: I won't let you fall     |
-| off." "Yeah? Then why did you bring the     |
-| helmet?" Brianna tossed it to him. "In      |
-| case you fall off.”                         |
-|                                             |
-\  -- Michael Grant                           /
- ---------------------------------------------
-   \
-    \
-     \
-        __ \ / __
-       /  \ | /  \
-           \|/
-       _.---v---.,_
-      /            \  /\__/\
-     /              \ \_  _/
-     |__ @           |_/ /
-      _/                / 
-      \       \__,     /  
-   ~~~~\~~~~~~~~~~~~~~`~~~
-
+ ____________________________________________
+/ “Illusion of transparency: We always know  \
+| what we mean by our words, and so we       |
+| expect others to know it too. Reading our  |
+| own writing, the intended interpretation   |
+| falls easily into place, guided by our     |
+| knowledge of what we really meant. It’s    |
+| hard to empathize with someone who must    |
+| interpret blindly, guided only by the      |
+| words.Be not too quick to blame those who  |
+| misunderstand your perfectly clear         |
+| sentences, spoken or written. Chances are, |
+| your words are more ambiguous than you     |
+| think.”                                    |
+|                                            |
+\  -- Eliezer Yudkowsky                      /
+ --------------------------------------------
+  \                         ________
+   \                    _.-Y  |  |  Y-.,_
+    \                .-"   |  |  |  ||   "~-.      
+          _____     |""[]"|" !""! "|"=="" "I      
+       .-"{-. "I----]_   :|------..| []  __L      
+      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
+      ^-=\[_c=-'  ~j______[________]_L______L]    
+                    [_L--.\_==I|I==/.--.j_I_/     
+                      j)==(["-----`])==((_]       
+                       I--I"~~"""~~"I--I          
+                       |[]|         |[]|          
+                       j__l         j__l          
+                       |!!|         |!!|          
+                       |..|         |..|         
+                       )[](         )[](          
+                       ]--[         ]--[          
+                       [L_]         [L_]          
+                      /|..|\       /|..|\         
+                     '={--}=`     '={--}=`        
+                    .-^-r--^-.   .-^-r--^-.       
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Modified ATAT from Row  (the Ascii-Wizard of Oz)
 ```
 <!-- END_QUOTE -->
 
