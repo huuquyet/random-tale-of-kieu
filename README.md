@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“油牢󰜍㐌𢙲淶</p>
-      <p class="nom">𥙩身麻假𡢻𠁀朱衝”</p>
-      <p class="quocngu">Dẫu sao bình đã lỡ rơi,</p>
-      <p class="quocngu">Lấy thân mà trả nợ đời cho xong!"</p>
-      <p class="author"><i>(Dòng 1197-1198) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“信鴈刎蘿詩排</p>
+      <p class="nom">迻𠊚𨷶𠓀逴𠊚𨷶𡢐”</p>
+      <p class="quocngu">Tin nhạn vẩn, lá thơ bài,</p>
+      <p class="quocngu">Đưa người cửa trước, rước người cửa sau!"</p>
+      <p class="author"><i>(Dòng 945-946) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,44 +26,22 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Illusion of transparency: We always know  \
-| what we mean by our words, and so we       |
-| expect others to know it too. Reading our  |
-| own writing, the intended interpretation   |
-| falls easily into place, guided by our     |
-| knowledge of what we really meant. It’s    |
-| hard to empathize with someone who must    |
-| interpret blindly, guided only by the      |
-| words.Be not too quick to blame those who  |
-| misunderstand your perfectly clear         |
-| sentences, spoken or written. Chances are, |
-| your words are more ambiguous than you     |
-| think.”                                    |
+/ “I leave work by 6:30 P.M. so I can spend  \
+| some time with the children. Inevitably,   |
+| we'll end up watching basketball or        |
+| football. I live in a house of boys, and   |
+| they're all sports mad, so I don't stand a |
+| chance.”                                   |
 |                                            |
-\  -- Eliezer Yudkowsky                      /
+\  -- Aerin Lauder                           /
  --------------------------------------------
-  \                         ________
-   \                    _.-Y  |  |  Y-.,_
-    \                .-"   |  |  |  ||   "~-.      
-          _____     |""[]"|" !""! "|"=="" "I      
-       .-"{-. "I----]_   :|------..| []  __L      
-      P-=}=(r\_I]_[L__] _l|______l |..  |___I     
-      ^-=\[_c=-'  ~j______[________]_L______L]    
-                    [_L--.\_==I|I==/.--.j_I_/     
-                      j)==(["-----`])==((_]       
-                       I--I"~~"""~~"I--I          
-                       |[]|         |[]|          
-                       j__l         j__l          
-                       |!!|         |!!|          
-                       |..|         |..|         
-                       )[](         )[](          
-                       ]--[         ]--[          
-                       [L_]         [L_]          
-                      /|..|\       /|..|\         
-                     '={--}=`     '={--}=`        
-                    .-^-r--^-.   .-^-r--^-.       
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Modified ATAT from Row  (the Ascii-Wizard of Oz)
+  \
+   \
+       ___  
+     {~o_o~}
+      ( Y )
+     ()~*~()   
+     (_)-(_)   
 ```
 <!-- END_QUOTE -->
 
