@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“信鴈刎蘿詩排</p>
-      <p class="nom">迻𠊚𨷶𠓀逴𠊚𨷶𡢐”</p>
-      <p class="quocngu">Tin nhạn vẩn, lá thơ bài,</p>
-      <p class="quocngu">Đưa người cửa trước, rước người cửa sau!"</p>
-      <p class="author"><i>(Dòng 945-946) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤴬疸台分彈󰜏</p>
+      <p class="nom">𠳒浪薄命拱羅𠳒終”</p>
+      <p class="quocngu">Đau đớn thay phận đàn bà,</p>
+      <p class="quocngu">Lời rằng bạc mệnh cũng là lời chung.</p>
+      <p class="author"><i>(Dòng 83-84) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I leave work by 6:30 P.M. so I can spend  \
-| some time with the children. Inevitably,   |
-| we'll end up watching basketball or        |
-| football. I live in a house of boys, and   |
-| they're all sports mad, so I don't stand a |
-| chance.”                                   |
-|                                            |
-\  -- Aerin Lauder                           /
- --------------------------------------------
-  \
-   \
-       ___  
-     {~o_o~}
-      ( Y )
-     ()~*~()   
-     (_)-(_)   
+ _____________________________________________
+/ “I drew a chair up beside her and sang. All \
+| I do is dream of you the whole night        |
+| through . . . It was a horrible rendition,  |
+| and I quite enjoyed attempting it, setting  |
+| the notes free from the song as each one    |
+| went farther and farther astray.”           |
+|                                             |
+\  -- Helen Oyeyemi                           /
+ ---------------------------------------------
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /o  o  \__  /    //  | \ \    
+           /     /  \/_/    //   |  \  \  
+           @_^_@'/   \/_   //    |   \   \ 
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
 ```
 <!-- END_QUOTE -->
 
