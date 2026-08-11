@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤴬疸台分彈󰜏</p>
-      <p class="nom">𠳒浪薄命拱羅𠳒終”</p>
-      <p class="quocngu">Đau đớn thay phận đàn bà,</p>
-      <p class="quocngu">Lời rằng bạc mệnh cũng là lời chung.</p>
-      <p class="author"><i>(Dòng 83-84) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“連𢬣𥋴𥊘𠴠𦣰</p>
+      <p class="nom">唉群倘倘香沉渚派”</p>
+      <p class="quocngu">Liền tay ngắm nghía biếng nằm,</p>
+      <p class="quocngu">Hãy còn thoang thoảng hương trầm chưa phai.</p>
+      <p class="author"><i>(Dòng 299-300) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,23 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I drew a chair up beside her and sang. All \
-| I do is dream of you the whole night        |
-| through . . . It was a horrible rendition,  |
-| and I quite enjoyed attempting it, setting  |
-| the notes free from the song as each one    |
-| went farther and farther astray.”           |
-|                                             |
-\  -- Helen Oyeyemi                           /
- ---------------------------------------------
-      \                    / \  //\
-       \    |\___/|      /   \//  \\
-            /o  o  \__  /    //  | \ \    
-           /     /  \/_/    //   |  \  \  
-           @_^_@'/   \/_   //    |   \   \ 
-           //_^_/     \/_ //     |    \    \
-        ( //) |        \///      |     \     \
-      ( / /) _|_ /   )  //       |      \     _\
-    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
-  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
- (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
- (( /// ))      `.   {            }                   /      \  \
-  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
-             ///.----..>        \             _ -~             `.  ^-`  ^-_
-               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
-                                                                  /.-~
+ ___________________________________________
+/ “There is one and only one social         \
+| responsibility of business–to use it      |
+| resources and engage in activities        |
+| designed to increase its profits so long  |
+| as it stays within the rules of the game, |
+| which is to say, engages in open and free |
+| competition without deception or fraud”   |
+|                                           |
+\  -- Milton Friedman                       /
+ -------------------------------------------
+ \
+  \
+ _   /|
+ \'o.O'
+ =(___)=
+    U
 ```
 <!-- END_QUOTE -->
 
