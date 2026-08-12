@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“連𢬣𥋴𥊘𠴠𦣰</p>
-      <p class="nom">唉群倘倘香沉渚派”</p>
-      <p class="quocngu">Liền tay ngắm nghía biếng nằm,</p>
-      <p class="quocngu">Hãy còn thoang thoảng hương trầm chưa phai.</p>
-      <p class="author"><i>(Dòng 299-300) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋𠳒𢭄貝終公</p>
+      <p class="nom">乞詞暫領王翁衛茹”</p>
+      <p class="quocngu">Một lời cậy với Chung công,</p>
+      <p class="quocngu">Khất từ tạm lĩnh Vương ông về nhà.</p>
+      <p class="author"><i>(Dòng 653-654) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,23 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “There is one and only one social         \
-| responsibility of business–to use it      |
-| resources and engage in activities        |
-| designed to increase its profits so long  |
-| as it stays within the rules of the game, |
-| which is to say, engages in open and free |
-| competition without deception or fraud”   |
-|                                           |
-\  -- Milton Friedman                       /
- -------------------------------------------
+ __________________________________________
+/ “Whenever you find someone full of hate, \
+| purify him with forgiveness, bliss and   |
+| love.”                                   |
+|                                          |
+\  -- Debasish Mridha                      /
+ ------------------------------------------
  \
   \
- _   /|
- \'o.O'
- =(___)=
-    U
+   \     O_      __)(
+       ,'  `.   (_".`.
+      :      :    /|`
+      |      |   ((|_  ,-.
+      ; -   /:  ,'  `:(( -\
+     /    -'  `: ____ \\\-:
+    _\__   ____|___  \____|_
+   ;    | |        '-`      :
+  :_____|:|__________________:
+  ;     |:|                  :
+ :      |:|                   :
+ ;_______`'___________________:
+:                              :
+|______________________________|
+ `---.--------------------.---'
+     |____________________|
+     |                    |
+     |____________________|
+     |                    |
+   _\|_\|_\/(__\__)\__\//_|(_
 ```
 <!-- END_QUOTE -->
 
