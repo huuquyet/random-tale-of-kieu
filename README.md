@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋𠳒𢭄貝終公</p>
-      <p class="nom">乞詞暫領王翁衛茹”</p>
-      <p class="quocngu">Một lời cậy với Chung công,</p>
-      <p class="quocngu">Khất từ tạm lĩnh Vương ông về nhà.</p>
-      <p class="author"><i>(Dòng 653-654) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰂅𠚢外宰臨淄</p>
+      <p class="nom">關山𠦳𨤮妻兒󰜋󰟞”</p>
+      <p class="quocngu">Vâng ra ngoại tể Lâm Truy,</p>
+      <p class="quocngu">Quan sơn nghìn dặm, thê nhi một đoàn.</p>
+      <p class="author"><i>(Dòng 2873-2874) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,55 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Whenever you find someone full of hate, \
-| purify him with forgiveness, bliss and   |
-| love.”                                   |
-|                                          |
-\  -- Debasish Mridha                      /
- ------------------------------------------
- \
-  \
-   \     O_      __)(
-       ,'  `.   (_".`.
-      :      :    /|`
-      |      |   ((|_  ,-.
-      ; -   /:  ,'  `:(( -\
-     /    -'  `: ____ \\\-:
-    _\__   ____|___  \____|_
-   ;    | |        '-`      :
-  :_____|:|__________________:
-  ;     |:|                  :
- :      |:|                   :
- ;_______`'___________________:
-:                              :
-|______________________________|
- `---.--------------------.---'
-     |____________________|
-     |                    |
-     |____________________|
-     |                    |
-   _\|_\|_\/(__\__)\__\//_|(_
+ _____________________________________________
+/ “If there is one thought with regard to the \
+| Church of Christ, which at times comes to   |
+| me with overwhelming sorrow; if there is    |
+| one thought in regard to my own life of     |
+| which I am ashamed; if there is one         |
+| thought of which I feel that the Church of  |
+| Christ has not accepted it and not grasped  |
+| it; if there is one thought which makes me  |
+| pray to God: “Oh, teach us by Thy grace,    |
+| new things”—it is the wonderful power that  |
+| prayer is meant to have in the kingdom. [.  |
+| . .] And that is the law of the             |
+| kingdom—the King upon the throne, the       |
+| servants upon the footstool.”               |
+|                                             |
+\  -- Andrew Murray                           /
+ ---------------------------------------------
+    \
+     \                                                           ＿＿＿ノ^l
+      \                                            ＿,,ノ``ｰ-'￣￣        ｌ
+                                                 く                       /
+                                                  `ヽ,   __､-'           /
+                                                    __＞‐´               |
+                                           ._,;‐''``              ,     /
+                                         _;"                     /     /
+                                       ／                       /     く
+                                     ／                        /       |
+                                   ／                        ／       ｌ
+                                 ノ                        ／￣ヽ     /
+                                /                        ／     ） _ノ
+                            ,r'″ヽ、                   ／        ￣
+                           /      ヽ                 ／
+                        ＿ﾉ        `r            _､‐'
+                      ／          _l,_       _､‐'
+                 __,r'          ／r;;,ヽ   ／
+               ,/              ｜.;●,;;|  ノ
+              ノ ／  ／／       ヽ､!!!ﾞﾉ "
+            ／ ／／／  ／／___,r''"￣
+           / ／ / / /／ / /
+      ___／／/／／／ ／／/
+  ／￣＿_／／／/ / ／／／
+ l ／´___／／／／／／ /
+ しレ"／／/ /  ／／//／
+      / ,/ / ／／／ /
+      ﾚ'   ﾚ'／／ ／
+           ／l｜l/
+          ｜|ﾚ'lノ
+           レ'
 ```
 <!-- END_QUOTE -->
 
