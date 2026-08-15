@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“姉油䏦󰞺󰢇𤷱</p>
-      <p class="nom">唅唭𠃩𤂬唉群𦹳徠”</p>
-      <p class="quocngu">Chị dù thịt nát xương mòn,</p>
-      <p class="quocngu">Ngậm cười chín suối hãy còn thơm lây.</p>
-      <p class="author"><i>(Dòng 733-734) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢷣揚󰅹固𫨩󰢔</p>
+      <p class="nom">㐌修修捽戈𪰛𪰛催”</p>
+      <p class="quocngu">Dở dang nào có hay gì,</p>
+      <p class="quocngu">Đã tu, tu trót, qua thì, thì thôi!</p>
+      <p class="author"><i>(Dòng 3047-3048) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________
-/ “And, when you want something, all the \
-| universe conspires in helping you to   |
-| achieve it.”                           |
-|                                        |
-\  -- Paulo Coelho                       /
- ----------------------------------------
-     \
-      \
-
-         .-;\':\':\'-.
-        {\'.\'.\'.\'.\'.}
-         )        \'`.
-        \'-. ._ ,_.-=\'
-          `). ( `);(
-          (\'. .)(,\'.)
-           ) ( ,\').(
-          ( .\').\'(\').
-          .) (\' ).(\'
-           '  ) (  ).
-            .\'( .)\'
-              .).\'
-jgs
-
+ _____________________________________________
+/ “I recommend the French beret, for it gives \
+| the impression of just the right soft       |
+| toughness, a veritable wave of              |
+| sophisticated brain matter. It is the kind  |
+| of hat that inspires a person to grow into  |
+| it, to become the person they never knew    |
+| they could be. The space between the top    |
+| of the head and the beginnings of hat is    |
+| among the most intimate of areas: earlobe   |
+| behinds, elbow insides, and anuses. One     |
+| must pay heed to such spaces for they hold  |
+| a potential not fully known (but generally  |
+| agreed to be vast).”                        |
+|                                             |
+\  -- Meia Geddes                             /
+ ---------------------------------------------
+  \
+   \          . .: -ーー― :._
+    \       ／.: .: .: .:     ＞  r⌒ヽ
+           / .:         ｜.､.:＼  ﾉ ノ
+          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
+          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
+          |: .:/ c─-        Ｙ:| /
+          |:ﾊ:{``   ,  --┐  人V /
+          ﾉ:L＼>   く_,￣┘／  ＼
+   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
+   L_,vー─-|    ､ }  ＶYﾊ   Y
+             ￣￣Ｖ  ｜/∧   ﾍ
+                  {   |//∧  ﾍ
+                  {    ＼//   ﾍ
+                  {            ＼
+                  ｝             >
 ```
 <!-- END_QUOTE -->
 
