@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢷣揚󰅹固𫨩󰢔</p>
-      <p class="nom">㐌修修捽戈𪰛𪰛催”</p>
-      <p class="quocngu">Dở dang nào có hay gì,</p>
-      <p class="quocngu">Đã tu, tu trót, qua thì, thì thôi!</p>
-      <p class="author"><i>(Dòng 3047-3048) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤳷𢚸鑿𥒥𥱬鐄</p>
+      <p class="nom">想娘𢧚吏𧡊娘𧗱低”</p>
+      <p class="quocngu">Bởi lòng tạc đá ghi vàng,</p>
+      <p class="quocngu">Tưởng nàng nên lại thấy nàng về đây.</p>
+      <p class="author"><i>(Dòng 2855-2856) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,38 +26,20 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “I recommend the French beret, for it gives \
-| the impression of just the right soft       |
-| toughness, a veritable wave of              |
-| sophisticated brain matter. It is the kind  |
-| of hat that inspires a person to grow into  |
-| it, to become the person they never knew    |
-| they could be. The space between the top    |
-| of the head and the beginnings of hat is    |
-| among the most intimate of areas: earlobe   |
-| behinds, elbow insides, and anuses. One     |
-| must pay heed to such spaces for they hold  |
-| a potential not fully known (but generally  |
-| agreed to be vast).”                        |
+/ “Fashion is architecture: it is a matter of \
+| proportions.”                               |
 |                                             |
-\  -- Meia Geddes                             /
+\  -- Coco Chanel                             /
  ---------------------------------------------
-  \
-   \          . .: -ーー― :._
-    \       ／.: .: .: .:     ＞  r⌒ヽ
-           / .:         ｜.､.:＼  ﾉ ノ
-          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
-          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
-          |: .:/ c─-        Ｙ:| /
-          |:ﾊ:{``   ,  --┐  人V /
-          ﾉ:L＼>   く_,￣┘／  ＼
-   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
-   L_,vー─-|    ､ }  ＶYﾊ   Y
-             ￣￣Ｖ  ｜/∧   ﾍ
-                  {   |//∧  ﾍ
-                  {    ＼//   ﾍ
-                  {            ＼
-                  ｝             >
+         \
+          \
+               ,.-----__
+            ,:::://///,:::-.
+           /:''/////// ``:::`;/|/
+          /'   ||||||     :://'`\
+        .' ,   ||||||     `/(  e \
+  -===~__-'\__X_`````\_____/~`-._ `.
+              ~~        ~~       `~-'
 ```
 <!-- END_QUOTE -->
 
