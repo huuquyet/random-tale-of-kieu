@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤳷𢚸鑿𥒥𥱬鐄</p>
-      <p class="nom">想娘𢧚吏𧡊娘𧗱低”</p>
-      <p class="quocngu">Bởi lòng tạc đá ghi vàng,</p>
-      <p class="quocngu">Tưởng nàng nên lại thấy nàng về đây.</p>
-      <p class="author"><i>(Dòng 2855-2856) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𩯀誓㐌枕昂𦠘</p>
+      <p class="nom">󰅹𠳒𡽫渃󰅹𠳒鉄𣘈”</p>
+      <p class="quocngu">Tóc thề đã chấm ngang vai,</p>
+      <p class="quocngu">Nào lời non nước, nào lời sắt son?</p>
+      <p class="author"><i>(Dòng 1631-1632) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,21 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Fashion is architecture: it is a matter of \
-| proportions.”                               |
-|                                             |
-\  -- Coco Chanel                             /
- ---------------------------------------------
-         \
-          \
-               ,.-----__
-            ,:::://///,:::-.
-           /:''/////// ``:::`;/|/
-          /'   ||||||     :://'`\
-        .' ,   ||||||     `/(  e \
-  -===~__-'\__X_`````\_____/~`-._ `.
-              ~~        ~~       `~-'
+ ____________________________________________
+/ “Any woman who is sure of her own wits, is \
+| a match, at any time, for a man who is not |
+| sure of his own temper.”                   |
+|                                            |
+\  -- Wilkie Collins                         /
+ --------------------------------------------
+   \
+    \
+       ____________
+      /\  ________ \
+     / /\ \______/\ \
+    / / /\ \  / /\ \ \
+   / / /__\ \/ / /\ \ \
+  / /_/____\ \/_/__\_\ \
+  \ \ \____/ / ________ \
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
