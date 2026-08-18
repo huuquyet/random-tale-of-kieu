@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𩯀誓㐌枕昂𦠘</p>
-      <p class="nom">󰅹𠳒𡽫渃󰅹𠳒鉄𣘈”</p>
-      <p class="quocngu">Tóc thề đã chấm ngang vai,</p>
-      <p class="quocngu">Nào lời non nước, nào lời sắt son?</p>
-      <p class="author"><i>(Dòng 1631-1632) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“渃𡽫隔󰋇源桃</p>
+      <p class="nom">仍羅濫唒忱夭祝蒙”</p>
+      <p class="quocngu">Nước non cách mấy nguồn đào,</p>
+      <p class="quocngu">Những là trộm dấu thầm yêu chốc mòng.</p>
+      <p class="author"><i>(Dòng 157-158) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Any woman who is sure of her own wits, is \
-| a match, at any time, for a man who is not |
-| sure of his own temper.”                   |
-|                                            |
-\  -- Wilkie Collins                         /
- --------------------------------------------
-   \
-    \
-       ____________
-      /\  ________ \
-     / /\ \______/\ \
-    / / /\ \  / /\ \ \
-   / / /__\ \/ / /\ \ \
-  / /_/____\ \/_/__\_\ \
-  \ \ \____/ / ________ \
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+ _____________________________________________
+/ “These programs were never about terrorism: \
+| they're about economic spying, social       |
+| control, and diplomatic manipulation.       |
+| They're about power.”                       |
+|                                             |
+\  -- Edward Snowden                          /
+ ---------------------------------------------
+     \ 
+      \
+           ,,,
+          (0 0)
+   +---ooO-(_)-Ooo---+
+   |                 |
 ```
 <!-- END_QUOTE -->
 
