@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“渃𡽫隔󰋇源桃</p>
-      <p class="nom">仍羅濫唒忱夭祝蒙”</p>
-      <p class="quocngu">Nước non cách mấy nguồn đào,</p>
-      <p class="quocngu">Những là trộm dấu thầm yêu chốc mòng.</p>
-      <p class="author"><i>(Dòng 157-158) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“宮商漏堛五音</p>
+      <p class="nom">藝𥢆咹縆胡琹𠬠張”</p>
+      <p class="quocngu">Cung thương làu bậc ngũ âm,</p>
+      <p class="quocngu">Nghề riêng ăn đứt Hồ cầm một trương.</p>
+      <p class="author"><i>(Dòng 31-32) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “These programs were never about terrorism: \
-| they're about economic spying, social       |
-| control, and diplomatic manipulation.       |
-| They're about power.”                       |
-|                                             |
-\  -- Edward Snowden                          /
- ---------------------------------------------
-     \ 
-      \
-           ,,,
-          (0 0)
-   +---ooO-(_)-Ooo---+
-   |                 |
+ ___________________________________________
+/ “There is only one difference between a   \
+| long life and a good dinner: that, in the |
+| dinner, the sweets come last.”            |
+|                                           |
+\  -- Robert Louis Stevenson                /
+ -------------------------------------------
+       \
+        \
+
+     ".           ,#  
+     \ `-._____,-'=/
+  ____`._ ----- _,'_____PhS
+         `-----'
 ```
 <!-- END_QUOTE -->
 
