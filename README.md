@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“宮商漏堛五音</p>
-      <p class="nom">藝𥢆咹縆胡琹𠬠張”</p>
-      <p class="quocngu">Cung thương làu bậc ngũ âm,</p>
-      <p class="quocngu">Nghề riêng ăn đứt Hồ cầm một trương.</p>
-      <p class="author"><i>(Dòng 31-32) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“生浪𡭧分渤䕯</p>
+      <p class="nom">蹺𠾕𡲤共𠃣𡗉筆硯”</p>
+      <p class="quocngu">Sinh rằng: "Chút phận bọt bèo,</p>
+      <p class="quocngu">Theo đòi vả cũng ít nhiều bút nghiên."</p>
+      <p class="author"><i>(Dòng 1449-1450) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,20 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “There is only one difference between a   \
-| long life and a good dinner: that, in the |
-| dinner, the sweets come last.”            |
-|                                           |
-\  -- Robert Louis Stevenson                /
- -------------------------------------------
-       \
-        \
+ ____________________________________________
+/ “But nobody wanted to speak on the true    \
+| disposition of the world. And no one       |
+| wanted to hear it...The whites came to     |
+| this land for a fresh start and to escape  |
+| the tyranny of their masters, just as the  |
+| Freeman had fled theirs. But the ideals    |
+| they held up for themselves, they denied   |
+| others. Cora had heard Michael recite the  |
+| Declaration of Independence back on the    |
+| Randall plantation many times, his voice   |
+| drifting through the village like an angry |
+| phantom. She didn't understand the words,  |
+| most of them at any rate, but created      |
+| equal was not lost on her. The white men   |
+| who wrote it didn't understand it either,  |
+| if all men did not truly mean all men. Not |
+| if they snatched away what belonged to     |
+| other people, whether it was something you |
+| could hold in your hand, like dirt, or     |
+| something you could not, like freedom.”    |
+|                                            |
+\  -- Colson Whitehead                       /
+ --------------------------------------------
+  \
+   \
 
-     ".           ,#  
-     \ `-._____,-'=/
-  ____`._ ----- _,'_____PhS
-         `-----'
+     [-]
+     (+)=C
+     | |
+     OOO
 ```
 <!-- END_QUOTE -->
 
