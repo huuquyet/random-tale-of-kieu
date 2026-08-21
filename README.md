@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“生浪𡭧分渤䕯</p>
-      <p class="nom">蹺𠾕𡲤共𠃣𡗉筆硯”</p>
-      <p class="quocngu">Sinh rằng: "Chút phận bọt bèo,</p>
-      <p class="quocngu">Theo đòi vả cũng ít nhiều bút nghiên."</p>
-      <p class="author"><i>(Dòng 1449-1450) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡧲塘縆梗相思</p>
+      <p class="nom">膠鸞執䋦絲乘默㛪”</p>
+      <p class="quocngu">Giữa đường đứt gánh tương tư,</p>
+      <p class="quocngu">Keo loan chắp mối tơ thừa mặc em.</p>
+      <p class="author"><i>(Dòng 725-726) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “But nobody wanted to speak on the true    \
-| disposition of the world. And no one       |
-| wanted to hear it...The whites came to     |
-| this land for a fresh start and to escape  |
-| the tyranny of their masters, just as the  |
-| Freeman had fled theirs. But the ideals    |
-| they held up for themselves, they denied   |
-| others. Cora had heard Michael recite the  |
-| Declaration of Independence back on the    |
-| Randall plantation many times, his voice   |
-| drifting through the village like an angry |
-| phantom. She didn't understand the words,  |
-| most of them at any rate, but created      |
-| equal was not lost on her. The white men   |
-| who wrote it didn't understand it either,  |
-| if all men did not truly mean all men. Not |
-| if they snatched away what belonged to     |
-| other people, whether it was something you |
-| could hold in your hand, like dirt, or     |
-| something you could not, like freedom.”    |
-|                                            |
-\  -- Colson Whitehead                       /
- --------------------------------------------
-  \
-   \
-
-     [-]
-     (+)=C
-     | |
-     OOO
+ _____________________________________________
+/ “Don't rein in yourself 'cause it's raining \
+| reigning time.”                             |
+|                                             |
+\  -- Steven Chopade                          /
+ ---------------------------------------------
+        \               ___
+         \           .-'   `'.
+                    /         \
+                    |         ;
+                    |         |           ___.--,
+           _.._     |0) ~ (0) |    _.---'`__.-( (_.
+    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+        | |  .' _.-' |  |  \  \  '.               `~---`
+         \ \/ .'     \  \   '. '-._)
+          \/ /        \  \    `=.__`~-.
+     jgs  / /\         `) )    / / `"".`\
+    , _.-'.'\ \        / /    ( (     / /
+     `--~`   ) )    .-'.'      '.'.  | (
+            (/`    ( (`          ) )  '-;
+             `      '-;         (-'
 ```
 <!-- END_QUOTE -->
 
