@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡧲塘縆梗相思</p>
-      <p class="nom">膠鸞執䋦絲乘默㛪”</p>
-      <p class="quocngu">Giữa đường đứt gánh tương tư,</p>
-      <p class="quocngu">Keo loan chắp mối tơ thừa mặc em.</p>
-      <p class="author"><i>(Dòng 725-726) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“汲凝𢢆錄𠲖紅</p>
+      <p class="nom">擬𢚸吏㤕車𢚸隊番”</p>
+      <p class="quocngu">Ngập ngừng thẹn lục e hồng,</p>
+      <p class="quocngu">Nghĩ lòng lại xót xa lòng đòi phen.</p>
+      <p class="author"><i>(Dòng 787-788) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Don't rein in yourself 'cause it's raining \
-| reigning time.”                             |
-|                                             |
-\  -- Steven Chopade                          /
- ---------------------------------------------
-        \               ___
-         \           .-'   `'.
-                    /         \
-                    |         ;
-                    |         |           ___.--,
-           _.._     |0) ~ (0) |    _.---'`__.-( (_.
-    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
-   ( ,.--'`   ',__ /./;   ;, '.__.'`    __
-   _`) )  .---.__.' / |   |\   \__..--""  """--.,_
-  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
-        | |  .' _.-' |  |  \  \  '.               `~---`
-         \ \/ .'     \  \   '. '-._)
-          \/ /        \  \    `=.__`~-.
-     jgs  / /\         `) )    / / `"".`\
-    , _.-'.'\ \        / /    ( (     / /
-     `--~`   ) )    .-'.'      '.'.  | (
-            (/`    ( (`          ) )  '-;
-             `      '-;         (-'
+ ________________________________________
+/ “His spirit chaunged house and wente   \
+| ther,As I cam nevere, I kan nat tellen |
+| wher.”                                 |
+|                                        |
+\  -- Geoffrey Chaucer                   /
+ ----------------------------------------
+  \
+     \
+                  _ _
+       | \__/|  .~    ~.
+       /oo `./      .'
+      {o__,   \    {
+        / .  . )    \
+        `-` '-' \    }
+       .(   _(   )_.'
+      '---.~_ _ _|
+                                                     
 ```
 <!-- END_QUOTE -->
 
