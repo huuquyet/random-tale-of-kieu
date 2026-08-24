@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“聰明本産性𡗶</p>
-      <p class="nom">坡藝詩畵𨇜味歌吟”</p>
-      <p class="quocngu">Thông minh vốn sẵn tính trời,</p>
-      <p class="quocngu">Pha nghề thi hoạ, đủ mùi ca ngâm.</p>
-      <p class="author"><i>(Dòng 29-30) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“英雄買別英雄</p>
+      <p class="nom">𣈙䀡倣㐌甘𢚸意諸”</p>
+      <p class="quocngu">Anh hùng mới biết anh hùng,</p>
+      <p class="quocngu">Rày xem phỏng đã cam lòng ấy chưa!"</p>
+      <p class="author"><i>(Dòng 2277-2278) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,43 +26,52 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “The shovel worked in and out of the light \
-| beams as the dirt hit him in the stomach,  |
-| on his back, fell into his ears, his eyes, |
-| as I covered him along with the things     |
-| that had made him: his walks, his rest,    |
-| his eating when hungry, the stars he       |
-| watched sometimes, the first day I brought |
-| him home, the first time he saw snow, and  |
-| every second of his friendship, what he    |
-| took with him into silence and stillness   |
-| ...”                                       |
+/ “The wealth of the imperial countries is   \
+| our wealth too. On the universal plane     |
+| this affirmation, you may be sure, should  |
+| on no account be taken to signify that we  |
+| feel ourselves affected by the creations   |
+| of Western arts or techniques. For in a    |
+| very concrete way Europe has stuffed       |
+| herself inordinately with the gold and raw |
+| materials of the colonial countries:Latin  |
+| America, China, and Africa. From all these |
+| continents, under whose eyes Europe today  |
+| raises up her tower of opulence, there has |
+| flowed out for centuries toward that same  |
+| Europe diamonds and oil, silk and cotton,  |
+| wood and exotic products. Europe is        |
+| literally the creation of the Third World. |
+| The wealth which smothers her is that      |
+| which was stolen from the underdeveloped   |
+| peoples. The ports of Holland, the docks   |
+| of Bordeaux and Liverpool were specialized |
+| in the Negro slave trade, and owe their    |
+| renown to millions of deported slaves. So  |
+| when we hear the head of a European state  |
+| declare with his hand on his heart that he |
+| must come to the aid of the poor           |
+| underdeveloped peoples, we do not tremble  |
+| with gratitude. Quite the contrary; we say |
+| to ourselves: "It's a just reparation      |
+| which will be paid to us.”                 |
 |                                            |
-\  -- Gerard Donovan                         /
+\  -- Frantz Fanon                           /
  --------------------------------------------
    \
     \
      \
-               ＿＿＿＿＿
-           .:´.: .: . : :. `  、
-     ..: ／.: .: .: . : .: .:   ＼
-    .::／:::       ﾉ   /､         ＼
-   ..:/.: ::.:|＿／::|:/  ＼:__|:  .\
- .:: :::: :::/|／｀ヽ|/    '＼:ﾄ、:  .
- .:::|.:: ::/:ｨf于ミ     .ィ≠ﾐ､Ｖ: :. .
-..:::|.:::ノ::{{:::}       {:::}}{: |＼|
-..:::::::_::|::うﾆソ       う:ソＶ: |
-.::: /.:/ |:|:ヽヽ       ｀      }: |
-.:::/ｲ:{  |:|:    ／￣￣ ｧ      ﾉ  :|
- ..::|.ゝ,ヽ|:   /      /     ／:::八
- .:::Ｖ:::::＞:._ヽ、 ./__ .イ:ﾊ:／
-  ..::＼|＼:斗:ｰrﾍ`ア又＜Ｖ|／
-   ..::::／⌒: :|:ＶＶ{ヽ:＼
-      .:/.: :|::l::ﾍ}/\|:}:.＼
-    ..::｢.: :|::＞:Ｖ//|〈:.}.}
-  ...::/.:: :|::＼: Ｖ/| / :}:.┐
- ...::/.::::rｰ::::＼:Ｖ|/〈::::.ヽ
-..:::/.::::ｲ::::::: ＼ Y::ヽ:::::.＼ 
+        __ \ / __
+       /  \ | /  \
+           \|/
+       _.---v---.,_
+      /            \  /\__/\
+     /              \ \_  _/
+     |__ @           |_/ /
+      _/                / 
+      \       \__,     /  
+   ~~~~\~~~~~~~~~~~~~~`~~~
+
 ```
 <!-- END_QUOTE -->
 
