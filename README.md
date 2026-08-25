@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“英雄買別英雄</p>
-      <p class="nom">𣈙䀡倣㐌甘𢚸意諸”</p>
-      <p class="quocngu">Anh hùng mới biết anh hùng,</p>
-      <p class="quocngu">Rày xem phỏng đã cam lòng ấy chưa!"</p>
-      <p class="author"><i>(Dòng 2277-2278) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“火牌前路𨇒毛</p>
+      <p class="nom">南庭𦖑動𤿰朝大營”</p>
+      <p class="quocngu">Hoả bài tiền lộ ruổi mau,</p>
+      <p class="quocngu">Nam đình nghe động trống chầu đại doanh.</p>
+      <p class="author"><i>(Dòng 2269-2270) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,53 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “The wealth of the imperial countries is   \
-| our wealth too. On the universal plane     |
-| this affirmation, you may be sure, should  |
-| on no account be taken to signify that we  |
-| feel ourselves affected by the creations   |
-| of Western arts or techniques. For in a    |
-| very concrete way Europe has stuffed       |
-| herself inordinately with the gold and raw |
-| materials of the colonial countries:Latin  |
-| America, China, and Africa. From all these |
-| continents, under whose eyes Europe today  |
-| raises up her tower of opulence, there has |
-| flowed out for centuries toward that same  |
-| Europe diamonds and oil, silk and cotton,  |
-| wood and exotic products. Europe is        |
-| literally the creation of the Third World. |
-| The wealth which smothers her is that      |
-| which was stolen from the underdeveloped   |
-| peoples. The ports of Holland, the docks   |
-| of Bordeaux and Liverpool were specialized |
-| in the Negro slave trade, and owe their    |
-| renown to millions of deported slaves. So  |
-| when we hear the head of a European state  |
-| declare with his hand on his heart that he |
-| must come to the aid of the poor           |
-| underdeveloped peoples, we do not tremble  |
-| with gratitude. Quite the contrary; we say |
-| to ourselves: "It's a just reparation      |
-| which will be paid to us.”                 |
-|                                            |
-\  -- Frantz Fanon                           /
- --------------------------------------------
-   \
-    \
-     \
-        __ \ / __
-       /  \ | /  \
-           \|/
-       _.---v---.,_
-      /            \  /\__/\
-     /              \ \_  _/
-     |__ @           |_/ /
-      _/                / 
-      \       \__,     /  
-   ~~~~\~~~~~~~~~~~~~~`~~~
-
+ ___________________________________________
+/ “I think the best way to keep a           \
+| relationship hot is to simply try to make |
+| time for each other. That's it.”          |
+|                                           |
+\  -- Ashley Madekwe                        /
+ -------------------------------------------
+ \
+  \
+     ()
+   <~~~~>
+    \__/
+   (____)
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
+ (________)
 ```
 <!-- END_QUOTE -->
 
