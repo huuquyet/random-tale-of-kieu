@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“火牌前路𨇒毛</p>
-      <p class="nom">南庭𦖑動𤿰朝大營”</p>
-      <p class="quocngu">Hoả bài tiền lộ ruổi mau,</p>
-      <p class="quocngu">Nam đình nghe động trống chầu đại doanh.</p>
-      <p class="author"><i>(Dòng 2269-2270) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“仍羅赧那待信</p>
+      <p class="nom">𬋟𩅹別㐌󰋇畨嚉移”</p>
+      <p class="quocngu">Những là nấn ná đợi tin,</p>
+      <p class="quocngu">Nắng mưa biết đã mấy phen đổi dời?</p>
+      <p class="author"><i>(Dòng 2945-2946) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I think the best way to keep a           \
-| relationship hot is to simply try to make |
-| time for each other. That's it.”          |
-|                                           |
-\  -- Ashley Madekwe                        /
- -------------------------------------------
- \
-  \
-     ()
-   <~~~~>
-    \__/
-   (____)
-    |  |
-    |  |
-    |__|
-   /____\
-  (______)
- (________)
+ ________________________________________
+/ “Comedy is simply a funny way of being \
+| serious.”                              |
+|                                        |
+\  -- Peter Ustinov                      /
+ ----------------------------------------
+     \
+      \
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+                    ;=
+                    /=
+             ,--==-:$;
+         ,/$@#######@X+-
+      ./@###############X=
+     /M#####X+/;;;;+H#####$.
+    %####M/;+H@XX@@%;;@####@,
+   +####H=+##$,--,=M#X-%####@.
+  -####X,X@HHXH##MXHXXH-+####$
+  X###@.X/$M$:####$=@X/X,X####-
+ .####:+$:##@:####$:##H/X=####%
+ -%%$%,+==%$+-$+:$;-$%-+,/$%%+
+ -/+%%X$XX$$$$%$$%$X$X$%+/-
 ```
 <!-- END_QUOTE -->
 
