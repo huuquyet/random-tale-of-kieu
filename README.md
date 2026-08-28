@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“吝𢥈𩙍沫𦝄清</p>
-      <p class="nom">俸兜固客邊庭典制”</p>
-      <p class="quocngu">Lần lừa gió mát trăng thanh,</p>
-      <p class="quocngu">Bỗng đâu có khách biên đình đến chơi.</p>
-      <p class="author"><i>(Dòng 2165-2166) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“隻簪産㩫𠃅頭</p>
+      <p class="nom">拍䏧𣘃咏𦊚勾𠀧韻”</p>
+      <p class="quocngu">Chiếc trâm sẵn giắt mái đầu,</p>
+      <p class="quocngu">Vạch da cây vịnh bốn câu ba vần.</p>
+      <p class="author"><i>(Dòng 99-100) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,40 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “Other states are trying to abolish the \
-| death penalty... mine's putting in an   |
-| express lane.”                          |
-|                                         |
-\  -- Ron White                           /
- -----------------------------------------
-       \
-        \          .88888888:.
-         \        88888888.88888.
-               .8888888888888888.
-               888888888888888888
-               88' _`88'_  `88888
-               88 88 88 88  88888
-               88_88_::_88_:88888
-               88:::,::,:::::8888
-               88`:::::::::'`8888
-              .88  `::::'    8:88.
-             8888            `8:888.
-           .8888'             `888888.
-          .8888:..  .::.  ...:'8888888:.
-         .8888.'     :'     `'::`88:88888
-        .8888        '         `.888:8888.
-       888:8         .           888:88888
-     .888:88        .:           888:88888:   
-     8888888.       ::           88:888888
-     `.::.888.      ::          .88888888
-    .::::::.888.    ::         :::`8888'.:.
-   ::::::::::.888   '         .::::::::::::
-   ::::::::::::.8    '      .:8::::::::::::.
-  .::::::::::::::.        .:888:::::::::::::
-  :::::::::::::::88:.__..:88888:::::::::::'
-   `'.:::::::::::88888888888.88:::::::::'
-         `':::_:' -- '' -'-' `':_::::'`
+ __________________________________________
+/ “Being understanding is a curse because  \
+| even if they hurt you,they are convinced |
+| "you will understand”                    |
+|                                          |
+\  -- Himmilicious                         /
+ ------------------------------------------
+   \
+    \
+ ROFL:ROFL:ROFL:ROFL
+         _^___
+ L    __/   oo \    
+LOL===__        \ 
+ L      \________]
+         I   I    
+        --------/
 ```
 <!-- END_QUOTE -->
 
