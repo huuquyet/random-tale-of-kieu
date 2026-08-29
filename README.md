@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“隻簪産㩫𠃅頭</p>
-      <p class="nom">拍䏧𣘃咏𦊚勾𠀧韻”</p>
-      <p class="quocngu">Chiếc trâm sẵn giắt mái đầu,</p>
-      <p class="quocngu">Vạch da cây vịnh bốn câu ba vần.</p>
-      <p class="author"><i>(Dòng 99-100) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“迎昂󰜋𡎝邊陲</p>
+      <p class="nom">少之孤寡少之伯王”</p>
+      <p class="quocngu">Nghênh ngang một cõi biên thuỳ,</p>
+      <p class="quocngu">Thiếu gì cô quả, thiếu gì bá vương!</p>
+      <p class="author"><i>(Dòng 2447-2448) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “Being understanding is a curse because  \
-| even if they hurt you,they are convinced |
-| "you will understand”                    |
-|                                          |
-\  -- Himmilicious                         /
- ------------------------------------------
-   \
-    \
- ROFL:ROFL:ROFL:ROFL
-         _^___
- L    __/   oo \    
-LOL===__        \ 
- L      \________]
-         I   I    
-        --------/
+ ________________________________________________________________
+/ “It is one thing to say that the Lord is my                    \
+| Shepherd”                                                      |
+|                                                                |
+\  -- it is quite another to be lost and have Him guide me home. /
+ ----------------------------------------------------------------
+ \
+  \
+     .--.              .--.
+    : (\ ". _......_ ." /) :
+     '.    `        `    .'
+      /'   _        _   `\
+     /     o}      {o     \
+    |       /      \       |
+    |     /'        `\     |
+     \   | .  .==.  . |   /
+      '._ \.' \__/ './ _.'
+      /  ``'._-''-_.'``  \
 ```
 <!-- END_QUOTE -->
 
