@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“迎昂󰜋𡎝邊陲</p>
-      <p class="nom">少之孤寡少之伯王”</p>
-      <p class="quocngu">Nghênh ngang một cõi biên thuỳ,</p>
-      <p class="quocngu">Thiếu gì cô quả, thiếu gì bá vương!</p>
-      <p class="author"><i>(Dòng 2447-2448) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𧿆𬆄𨖲馭卽期</p>
+      <p class="nom">房𬘏院册𦊚皮󰌕炵”</p>
+      <p class="quocngu">Dảy ngay lên ngựa tức kỳ,</p>
+      <p class="quocngu">Phòng thêu viện sách, bốn bề lửa dong.</p>
+      <p class="author"><i>(Dòng 1647-1648) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,24 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ________________________________________________________________
-/ “It is one thing to say that the Lord is my                    \
-| Shepherd”                                                      |
-|                                                                |
-\  -- it is quite another to be lost and have Him guide me home. /
- ----------------------------------------------------------------
- \
-  \
-     .--.              .--.
-    : (\ ". _......_ ." /) :
-     '.    `        `    .'
-      /'   _        _   `\
-     /     o}      {o     \
-    |       /      \       |
-    |     /'        `\     |
-     \   | .  .==.  . |   /
-      '._ \.' \__/ './ _.'
-      /  ``'._-''-_.'``  \
+ ____________________________________________
+/ “My mission in life is not merely to       \
+| survive, but to thrive; and to do so with  |
+| some passion, some compassion, some humor, |
+| and some style”                            |
+|                                            |
+\  -- Maya Angelou                           /
+ --------------------------------------------
+       \
+        \
+
+     ".           ,#  
+     \ `-._____,-'=/
+  ____`._ ----- _,'_____PhS
+         `-----'
 ```
 <!-- END_QUOTE -->
 
