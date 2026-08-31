@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𧿆𬆄𨖲馭卽期</p>
-      <p class="nom">房𬘏院册𦊚皮󰌕炵”</p>
-      <p class="quocngu">Dảy ngay lên ngựa tức kỳ,</p>
-      <p class="quocngu">Phòng thêu viện sách, bốn bề lửa dong.</p>
-      <p class="author"><i>(Dòng 1647-1648) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“役兵補拯𪧚𦀾</p>
+      <p class="nom">王師㐌𧡊𤏣詳寔虚”</p>
+      <p class="quocngu">Việc binh bỏ chẳng giữ giàng,</p>
+      <p class="quocngu">Vương sư đã thấy tỏ tường thực hư.</p>
+      <p class="author"><i>(Dòng 2505-2506) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,20 +26,36 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “My mission in life is not merely to       \
-| survive, but to thrive; and to do so with  |
-| some passion, some compassion, some humor, |
-| and some style”                            |
+/ “A mist is rolling over the fields. Why is \
+| a summer mist romantic and autumn mist     |
+| just sad?”                                 |
 |                                            |
-\  -- Maya Angelou                           /
+\  -- Dodie Smith                            /
  --------------------------------------------
-       \
-        \
-
-     ".           ,#  
-     \ `-._____,-'=/
-  ____`._ ----- _,'_____PhS
-         `-----'
+     \               _
+      \            ´   ＼   __
+       \        ／ ／⌒\ | ／   ＼
+   f|{r、       | /     '|/ ／⌒＼＼
+   ||J |        \/＞--＜\/ /--    |
+(＼|`` し]ﾄ----／          ⌒` ＼| /
+ ＼      ﾉ\   /                ＼|/\   --、___
+  ゛    /  ＼/      /     |         \/_       ﾉ
+   \、/\_／/ｲ    ,/'|    /\ 、        Ⅵ   __／
+    [\/   \/_|   /\|/|   |-]  、     く-く
+    |      \/|  |/___ﾉ\  /\___ \     /   ＼
+    {/      <|小| _ﾒﾘ  \/  _ﾒﾘ` \   ｜|   |
+     \        ｜| \/ｿ      \/ｿ  ﾉ / /\|＼_/
+      \       ｜|              /_ｲ\/
+       \      ｜|     /ヽ      / /ﾉ
+        \     ｜/\   └-     ,/ /'
+         \    ｜ |／>> r -=≦{{/ /ﾆ=_
+          \   人 | ／ｨ|     /ﾚ/__   ﾉﾆ-、
+           ＼   \|/  Xﾉ    / /   入//⌒Yﾊ
+             \  /し ｜`---' //  /  \ﾆﾆﾆﾉ|
+              ＼/  / \  --ｱ ｜  |   | _]|
+               ｜ /   \/\/  ｜  |   |___|
+               r勺    ｜_｜ ｜  |   |  ||
+               |`7    ｜ ｜ ｜  |   |   |
 ```
 <!-- END_QUOTE -->
 
