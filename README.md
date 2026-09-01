@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“役兵補拯𪧚𦀾</p>
-      <p class="nom">王師㐌𧡊𤏣詳寔虚”</p>
-      <p class="quocngu">Việc binh bỏ chẳng giữ giàng,</p>
-      <p class="quocngu">Vương sư đã thấy tỏ tường thực hư.</p>
-      <p class="author"><i>(Dòng 2505-2506) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“生浪﨤𣅶亂離</p>
+      <p class="nom">𥪝軍碎𠳨少之𩯀絲”</p>
+      <p class="quocngu">Sinh rằng: "Gặp lúc loạn ly,</p>
+      <p class="quocngu">Trong quân tôi hỏi thiếu gì tóc tơ.</p>
+      <p class="author"><i>(Dòng 2917-2918) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “A mist is rolling over the fields. Why is \
-| a summer mist romantic and autumn mist     |
-| just sad?”                                 |
-|                                            |
-\  -- Dodie Smith                            /
- --------------------------------------------
-     \               _
-      \            ´   ＼   __
-       \        ／ ／⌒\ | ／   ＼
-   f|{r、       | /     '|/ ／⌒＼＼
-   ||J |        \/＞--＜\/ /--    |
-(＼|`` し]ﾄ----／          ⌒` ＼| /
- ＼      ﾉ\   /                ＼|/\   --、___
-  ゛    /  ＼/      /     |         \/_       ﾉ
-   \、/\_／/ｲ    ,/'|    /\ 、        Ⅵ   __／
-    [\/   \/_|   /\|/|   |-]  、     く-く
-    |      \/|  |/___ﾉ\  /\___ \     /   ＼
-    {/      <|小| _ﾒﾘ  \/  _ﾒﾘ` \   ｜|   |
-     \        ｜| \/ｿ      \/ｿ  ﾉ / /\|＼_/
-      \       ｜|              /_ｲ\/
-       \      ｜|     /ヽ      / /ﾉ
-        \     ｜/\   └-     ,/ /'
-         \    ｜ |／>> r -=≦{{/ /ﾆ=_
-          \   人 | ／ｨ|     /ﾚ/__   ﾉﾆ-、
-           ＼   \|/  Xﾉ    / /   入//⌒Yﾊ
-             \  /し ｜`---' //  /  \ﾆﾆﾆﾉ|
-              ＼/  / \  --ｱ ｜  |   | _]|
-               ｜ /   \/\/  ｜  |   |___|
-               r勺    ｜_｜ ｜  |   |  ||
-               |`7    ｜ ｜ ｜  |   |   |
+ _________________________________________
+/ “Be careful who you make memories with. \
+| Those things can last a lifetime.”      |
+|                                         |
+\  -- Ugo Eze                             /
+ -----------------------------------------
+    \
+     \
+            .+
+             /M;
+              H#@:              ;,
+              -###H-          -@/
+               %####$.  -;  .%#X
+                M#####+;#H :M#M.
+..          .+/;%#########X###-
+ -/%H%+;-,    +##############/
+    .:$M###MH$%+############X  ,--=;-
+        -/H#####################H+=.
+           .+#################X.
+         =%M####################H;.
+            /@###############+;;/%%;,
+         -%###################$.
+       ;H######################M=
+    ,%#####MH$%;+#####M###-/@####%
+  :$H%+;=-      -####X.,H#   -+M##@-
+ .              ,###;    ;      =$##+
+                .#H,               :XH,
+                 +                   .;-
 ```
 <!-- END_QUOTE -->
 
