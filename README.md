@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“生浪﨤𣅶亂離</p>
-      <p class="nom">𥪝軍碎𠳨少之𩯀絲”</p>
-      <p class="quocngu">Sinh rằng: "Gặp lúc loạn ly,</p>
-      <p class="quocngu">Trong quân tôi hỏi thiếu gì tóc tơ.</p>
-      <p class="author"><i>(Dòng 2917-2918) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌願𠄩𡦂同心</p>
+      <p class="nom">𤾓𢆥誓拯揞琴船埃”</p>
+      <p class="quocngu">Đã nguyền hai chữ đồng tâm</p>
+      <p class="quocngu">Trăm năm thề chẳng ôm cầm thuyền ai.</p>
+      <p class="author"><i>(Dòng 555-556) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,33 +26,27 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _________________________________________
-/ “Be careful who you make memories with. \
-| Those things can last a lifetime.”      |
+/ “If bees die, people will die. Only     \
+| ignorance never dies! ("Why step out of |
+| nature ?")”                             |
 |                                         |
-\  -- Ugo Eze                             /
+\  -- Erik Pevernagie                     /
  -----------------------------------------
+   \
     \
-     \
-            .+
-             /M;
-              H#@:              ;,
-              -###H-          -@/
-               %####$.  -;  .%#X
-                M#####+;#H :M#M.
-..          .+/;%#########X###-
- -/%H%+;-,    +##############/
-    .:$M###MH$%+############X  ,--=;-
-        -/H#####################H+=.
-           .+#################X.
-         =%M####################H;.
-            /@###############+;;/%%;,
-         -%###################$.
-       ;H######################M=
-    ,%#####MH$%;+#####M###-/@####%
-  :$H%+;=-      -####X.,H#   -+M##@-
- .              ,###;    ;      =$##+
-                .#H,               :XH,
-                 +                   .;-
+                -一     一-
+        ／                       ＼
+       /             ________
+      /     -~                     ミ､
+      レ'     _  一ｧiァ ￢}￣Tii一- _  ＼
+    ／    --::|::::/斗士  /   |[_Vい＿＞」
+  ／ イ「::::|:::Y/  ｲ::ハ      ｨ-ﾐヽい
+  ＜___｜:::へ|::|{ 乂-夕     {::ｄﾘ|い
+        ＼八 |::｜             `''   ﾊ|
+    ＿ --＼ヽ|::|                  .ｲ ﾘ
+  ／------.ゝ|:ﾄ|        -       ィ:|
+  ＼        ＞ミ|`ヽ!ﾆ  T  ﾌ￣.≧｜:/
+     ∨         |::\/ }-/く＼   /｜/ 
 ```
 <!-- END_QUOTE -->
 
