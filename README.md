@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌願𠄩𡦂同心</p>
-      <p class="nom">𤾓𢆥誓拯揞琴船埃”</p>
-      <p class="quocngu">Đã nguyền hai chữ đồng tâm</p>
-      <p class="quocngu">Trăm năm thề chẳng ôm cầm thuyền ai.</p>
-      <p class="author"><i>(Dòng 555-556) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“仍羅𢭗耨戈期</p>
+      <p class="nom">小姐沛𣇜𧗱茹寧家”</p>
+      <p class="quocngu">Những là nương náu qua kỳ</p>
+      <p class="quocngu">Tiểu thư phải buổi về nhà ninh gia.</p>
+      <p class="author"><i>(Dòng 1767-1768) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,46 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “If bees die, people will die. Only     \
-| ignorance never dies! ("Why step out of |
-| nature ?")”                             |
-|                                         |
-\  -- Erik Pevernagie                     /
- -----------------------------------------
+ ____________________________________________
+/ “What good is there in being blind, you    \
+| ask? Well, maybe it's to see the beauty on |
+| the inside without being vainly            |
+| distracted, or superficially blinded, by   |
+| the ugly on the outside.”                  |
+|                                            |
+\  -- Criss Jami                             /
+ --------------------------------------------
+#
+# ごぼう2
+#
+
+$the_cow << EOC;
+  \
    \
     \
-                -一     一-
-        ／                       ＼
-       /             ________
-      /     -~                     ミ､
-      レ'     _  一ｧiァ ￢}￣Tii一- _  ＼
-    ／    --::|::::/斗士  /   |[_Vい＿＞」
-  ／ イ「::::|:::Y/  ｲ::ハ      ｨ-ﾐヽい
-  ＜___｜:::へ|::|{ 乂-夕     {::ｄﾘ|い
-        ＼八 |::｜             `''   ﾊ|
-    ＿ --＼ヽ|::|                  .ｲ ﾘ
-  ／------.ゝ|:ﾄ|        -       ィ:|
-  ＼        ＞ミ|`ヽ!ﾆ  T  ﾌ￣.≧｜:/
-     ∨         |::\/ }-/く＼   /｜/ 
+          ,.:──‐-:.,
+        ／:.           ＼
+      ／:. :. :. }:. :. :.ヽ
+     .: :. :. }.:/＼.:|,:. :ﾍ
+     |:.:. :. /Ｖノ ヽﾄ＼:|､ﾍ
+     |:.:. /Ｖ_ﾆ    ﾆ＿_ {::ﾍ
+     |:.ﾍ .| ΓT      | |Ｖ.＼
+     |:{ |:|.l｜      | |八:ー
+     ハ:`:Ｖ､l｜∠二l.|.ｲ:ﾊ:ﾉ
+      _Ｖ＼;＞=r rr r=＜ﾊ／   ＿＿
+     |ざ |ﾍ :{Ｖ/V:}:＼      |ご  |
+    {ﾐ}く{)}:＞Ｖ/< :  ＞-:-'{}ぼ{ﾐ}
+     |ろ_|:ﾉ:＼:Y / }ﾐ : : : |  うY
+          ﾉ :o: : :oj `ー─-´ ￣￣
+         / : : : : :{
+        /: : o : :o:ﾍ
+      〈 : : : /\: : 〉
+       /::ー──'::ー‐ﾍ
+     〈:::::::::::::::::〉
+       ￣|￣｢￣|￣|￣
+         |  |  |  | 
+EOC
+
 ```
 <!-- END_QUOTE -->
 
