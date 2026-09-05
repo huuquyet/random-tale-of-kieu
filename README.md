@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“藝制拱𡗋功夫</p>
-      <p class="nom">廊制些沛別朱𨇜調”</p>
-      <p class="quocngu">"Nghề chơi cũng lắm công phu,</p>
-      <p class="quocngu">Làng chơi ta phải biết cho đủ điều."</p>
-      <p class="author"><i>(Dòng 1201-1202) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“爫朱𤯩墮𣨰苔</p>
+      <p class="nom">斷膓朱歇刼尼買催”</p>
+      <p class="quocngu">Làm cho sống đoạ thác đày,</p>
+      <p class="quocngu">Đoạn trường cho hết kiếp này mới thôi!"</p>
+      <p class="author"><i>(Dòng 2675-2676) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,18 +26,22 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “His mind was a tapestry constantly weaving \
-| and unweaving with the dedication of        |
-| Penelope for her Odysseus.”                 |
+/ “Culture cannot be separated from politics. \
+| The arts, philosophy and metaphysics,       |
+| religion and the sciences, constitute       |
+| culture. Politics are the science or art    |
+| of organizing our relationships to allow    |
+| for the development of life in society.”    |
 |                                             |
-\  -- Thomm Quackenbush                       /
+\  -- Eugene Ionesco                          /
  ---------------------------------------------
-           \
-            \
-        "-.. __      __.='>
-         `.     """""   ,'
-           "-..__   _.-"
-   ~ ~~ ~ ~  ~   """  ~~  ~
+  \
+   \
+      /\_)o<
+     |      \
+     | o . o|
+      \_____/
+           
 ```
 <!-- END_QUOTE -->
 
