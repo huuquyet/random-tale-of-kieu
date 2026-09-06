@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“爫朱𤯩墮𣨰苔</p>
-      <p class="nom">斷膓朱歇刼尼買催”</p>
-      <p class="quocngu">Làm cho sống đoạ thác đày,</p>
-      <p class="quocngu">Đoạn trường cho hết kiếp này mới thôi!"</p>
-      <p class="author"><i>(Dòng 2675-2676) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“翹自跙𨃴帳花</p>
+      <p class="nom">󰘚𡗶旦坦鉦㐌搜空”</p>
+      <p class="quocngu">Kiều từ trở gót trướng hoa,</p>
+      <p class="quocngu">Mặt trời đến đất, chiêng đà sưu không.</p>
+      <p class="author"><i>(Dòng 171-172) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,22 +26,36 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Culture cannot be separated from politics. \
-| The arts, philosophy and metaphysics,       |
-| religion and the sciences, constitute       |
-| culture. Politics are the science or art    |
-| of organizing our relationships to allow    |
-| for the development of life in society.”    |
+/ “Erre es korakas, Blinky!" Dionysus cursed. \
+| "I will have your soul!”                    |
 |                                             |
-\  -- Eugene Ionesco                          /
+\  -- Rick Riordan                            /
  ---------------------------------------------
   \
    \
-      /\_)o<
-     |      \
-     | o . o|
-      \_____/
-           
+        ____________
+       /\  ________ \
+      /  \ \______/\ \
+     / /\ \ \  / /\ \ \
+    / / /\ \ \/ / /\ \ \
+   / / /__\ \ \/_/__\_\ \__________
+  / /_/____\ \__________  ________ \
+  \ \ \____/ / ________/\ \______/\ \
+   \ \ \  / / /\ \  / /\ \ \  / /\ \ \
+    \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
+     \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
+      \  /_/______\/_/____\ \___________\
+      /  \ \______/\ \____/ / ________  /
+     / /\ \ \  / /\ \ \  / / /\ \  / / /
+    / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
+   / / /__\ \ \/_/__\_\/ / /__\_\/ / /
+  / /_/____\ \_________\/ /______\/ /
+  \ \ \____/ / ________  __________/
+   \ \ \  / / /\ \  / / /
+    \ \ \/ / /\ \ \/ / /
+     \ \/ / /__\_\/ / /
+      \  / /______\/ /
+       \/___________/
 ```
 <!-- END_QUOTE -->
 
