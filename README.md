@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“翹自跙𨃴帳花</p>
-      <p class="nom">󰘚𡗶旦坦鉦㐌搜空”</p>
-      <p class="quocngu">Kiều từ trở gót trướng hoa,</p>
-      <p class="quocngu">Mặt trời đến đất, chiêng đà sưu không.</p>
-      <p class="author"><i>(Dòng 171-172) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“成親買逴𫴋船</p>
+      <p class="nom">順󱏹󰜋蘿吹沔州台”</p>
+      <p class="quocngu">Thành thân mới rước xuống thuyền,</p>
+      <p class="quocngu">Thuận buồm một lá, xuôi miền Châu Thai.</p>
+      <p class="author"><i>(Dòng 2135-2136) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,36 +26,32 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “Erre es korakas, Blinky!" Dionysus cursed. \
-| "I will have your soul!”                    |
+/ “Hatred is the emotional price leaders must \
+| pay for getting love and honour.”           |
 |                                             |
-\  -- Rick Riordan                            /
+\  -- Awdhesh Singh                           /
  ---------------------------------------------
-  \
-   \
-        ____________
-       /\  ________ \
-      /  \ \______/\ \
-     / /\ \ \  / /\ \ \
-    / / /\ \ \/ / /\ \ \
-   / / /__\ \ \/_/__\_\ \__________
-  / /_/____\ \__________  ________ \
-  \ \ \____/ / ________/\ \______/\ \
-   \ \ \  / / /\ \  / /\ \ \  / /\ \ \
-    \ \ \/ / /\ \ \/ / /\ \ \/ / /\ \ \
-     \ \/ / /__\_\/ / /__\ \ \/_/__\_\ \
-      \  /_/______\/_/____\ \___________\
-      /  \ \______/\ \____/ / ________  /
-     / /\ \ \  / /\ \ \  / / /\ \  / / /
-    / / /\ \ \/ / /\ \ \/ / /\ \ \/ / /
-   / / /__\ \ \/_/__\_\/ / /__\_\/ / /
-  / /_/____\ \_________\/ /______\/ /
-  \ \ \____/ / ________  __________/
-   \ \ \  / / /\ \  / / /
-    \ \ \/ / /\ \ \/ / /
-     \ \/ / /__\_\/ / /
-      \  / /______\/ /
-       \/___________/
+          \
+           \
+            \          __---__
+                    _-       /--______
+               __--( /     \ )XXXXXXXXXXX\v.
+             .-XXX(   o   o  )XXXXXXXXXXXXXXX-
+            /XXX(       U     )        XXXXXXX\
+          /XXXXX(              )--_  XXXXXXXXXXX\
+         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
+         XXXXX/   /            XXXXXX   \__ \XXXXX
+         XXXXXX__/          XXXXXX         \__---->
+ ---___  XXX__/          XXXXXX      \__         /
+   \-  --__/   ___/\  XXXXXX            /  ___--/=
+    \-\    ___/    XXXXXX              '--- XXXXXX
+       \-\/XXX\ XXXXXX                      /XXXXX
+         \XXXXXXXXX   \                    /XXXXX/
+          \XXXXXX      >                 _/XXXXX/
+            \XXXXX--__/              __-- XXXX/
+             -XXXXXXXX---------------  XXXXXX-
+                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
+                  ""VXXXXXXXXXXXXXXXXXXV""
 ```
 <!-- END_QUOTE -->
 
