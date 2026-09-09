@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“攕生車馬倍鐄</p>
-      <p class="nom">𠄩茹拱順󰜋塘赴官”</p>
-      <p class="quocngu">Sắm xanh xa mã vội vàng,</p>
-      <p class="quocngu">Hai nhà cũng thuận một đàng phó quan.</p>
-      <p class="author"><i>(Dòng 2951-2952) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𥿠身𧗱貝朝廷</p>
+      <p class="nom">降臣𪭃恅分命𠚢兜”</p>
+      <p class="quocngu">Bó thân về với triều đình,</p>
+      <p class="quocngu">Hàng thần lơ láo, phận mình ra đâu?</p>
+      <p class="author"><i>(Dòng 2465-2466) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,31 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “This you may say of man - when theories   \
-| change and crash, when schools,            |
-| philosophies, when narrow dark alleys of   |
-| thought, national, religious, economic,    |
-| grow and disintegrate, man reaches,        |
-| stumbles forward, painfully, mistakenly    |
-| sometimes. Having stepped forward, he may  |
-| slip back, but only half a step, never the |
-| full step back.”                           |
+/ “You have got to believe in yourself every \
+| time you go out there and race. If you     |
+| have no faith in your ability all that     |
+| training has been a waste of time.”        |
 |                                            |
-\  -- John Steinbeck                         /
+\  -- Maurice Greene                         /
  --------------------------------------------
-     \
-      \
-        ,__, |    | 
-        (oo)\|    |___
-        (__)\|    |   )\_
-             |    |_w |  \
-             |    |  ||   *
+#
+# International Business Machines
+#
 
-             Cower....
+$the_cow = << EOC;
+  \
+   \
+
+■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
+■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
+ ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
+ ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
+ ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
+ ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
+■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
+■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
+EOC
+
 ```
 <!-- END_QUOTE -->
 
