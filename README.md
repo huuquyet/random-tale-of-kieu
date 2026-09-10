@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𥿠身𧗱貝朝廷</p>
-      <p class="nom">降臣𪭃恅分命𠚢兜”</p>
-      <p class="quocngu">Bó thân về với triều đình,</p>
-      <p class="quocngu">Hàng thần lơ láo, phận mình ra đâu?</p>
-      <p class="author"><i>(Dòng 2465-2466) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡲤推神夢󰋇𠳒</p>
+      <p class="nom">夙因歐拱固𡗶於𥪝”</p>
+      <p class="quocngu">Vả suy thần mộng mấy lời,</p>
+      <p class="quocngu">Túc nhân âu cũng có trời ở trong.</p>
+      <p class="author"><i>(Dòng 1017-1018) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “You have got to believe in yourself every \
-| time you go out there and race. If you     |
-| have no faith in your ability all that     |
-| training has been a waste of time.”        |
-|                                            |
-\  -- Maurice Greene                         /
- --------------------------------------------
-#
-# International Business Machines
-#
-
-$the_cow = << EOC;
-  \
-   \
-
-■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
-■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
- ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
- ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
- ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
- ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
-■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
-■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
-EOC
-
+ _____________________________________________
+/ “It was different to give something up than \
+| to see it taken away. The difference,       |
+| Kestrel said, was choice.”                  |
+|                                             |
+\  -- Marie Rutkoski                          /
+ ---------------------------------------------
+\
+ \
+   /\   /\   Todd Vargo
+  //\\_//\\     ____
+  \_     _/    /   /
+   / * * \    /^^^]
+   \_\O/_/    [   ]
+    /   \_    [   /
+    \     \_  /  /
+     [ [ /  \/ _/
+    _[ [ \  /_/
 ```
 <!-- END_QUOTE -->
 
