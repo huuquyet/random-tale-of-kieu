@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“藁𦹳吝𢷣𠓀畑</p>
-      <p class="nom">風情古錄群傳史撑”</p>
-      <p class="quocngu">Cảo thơm lần giở trước đèn,</p>
-      <p class="quocngu">Phong tình cổ lục còn truyền sử xanh.</p>
-      <p class="author"><i>(Dòng 7-8) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“典茹𣃣𧡊信茹</p>
+      <p class="nom">𠄩親群𢷣席花渚衛”</p>
+      <p class="quocngu">Đến nhà vừa thấy tin nhà,</p>
+      <p class="quocngu">Hai thân còn dở tiệc hoa chưa về.</p>
+      <p class="author"><i>(Dòng 429-430) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “There are a lot of reasons why everyone in \
-| the known universe has a boyfriend except   |
-| for me. I can list the top five on          |
-| command, just in case anyone’s ever         |
-| interested. No one ever has been, but       |
-| that’s no reason not to be prepared.”       |
-|                                             |
-\  -- J.J. Howard                             /
- ---------------------------------------------
- \
-  \
-     .--.              .--.
-    : (\ ". _......_ ." /) :
-     '.    `        `    .'
-      /'   _        _   `\
-     /     o}      {o     \
-    |       /      \       |
-    |     /'        `\     |
-     \   | .  .==.  . |   /
-      '._ \.' \__/ './ _.'
-      /  ``'._-''-_.'``  \
+ ___________________________________________
+/ “The axis of the earth sticks out visibly \
+| through the centre of each and every town |
+| or city.”                                 |
+|                                           |
+\  -- Oliver Wendell Holmes                 /
+ -------------------------------------------
+      \
+       \
+                     -$-
+                    .H##H,
+                   +######+
+                .+#########H.
+              -$############@.
+            =H###############@  -X:
+          .$##################:  @#@-
+     ,;  .M###################;  H###;
+   ;@#:  @###################@  ,#####:
+ -M###.  M#################@.  ;######H
+ M####-  +###############$   =@#######X
+ H####$   -M###########+   :#########M,
+  /####X-   =########%   :M########@/.
+    ,;%H@X;   .$###X   :##MM@%+;:-
+                 ..
+  -/;:-,.              ,,-==+M########H
+ -##################@HX%%+%%$%%%+:,,
+    .-/H%%%+%%$H@###############M@+=:/+:
+/XHX%:#####MH%=    ,---:;;;;/%%XHM,:###$
+$@#MX %+;-                           .
 ```
 <!-- END_QUOTE -->
 
