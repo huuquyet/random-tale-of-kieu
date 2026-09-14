@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“典茹𣃣𧡊信茹</p>
-      <p class="nom">𠄩親群𢷣席花渚衛”</p>
-      <p class="quocngu">Đến nhà vừa thấy tin nhà,</p>
-      <p class="quocngu">Hai thân còn dở tiệc hoa chưa về.</p>
-      <p class="author"><i>(Dòng 429-430) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“蜍於𩙍竹𩅹梅</p>
+      <p class="nom">菫魚𤾓餒搥󰢕󰜋身”</p>
+      <p class="quocngu">Thờ ơ gió trúc mưa mai,</p>
+      <p class="quocngu">Ngẩn ngơ trăm nỗi, giùi mài một thân.</p>
+      <p class="author"><i>(Dòng 1249-1250) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “The axis of the earth sticks out visibly \
-| through the centre of each and every town |
-| or city.”                                 |
-|                                           |
-\  -- Oliver Wendell Holmes                 /
- -------------------------------------------
-      \
-       \
-                     -$-
-                    .H##H,
-                   +######+
-                .+#########H.
-              -$############@.
-            =H###############@  -X:
-          .$##################:  @#@-
-     ,;  .M###################;  H###;
-   ;@#:  @###################@  ,#####:
- -M###.  M#################@.  ;######H
- M####-  +###############$   =@#######X
- H####$   -M###########+   :#########M,
-  /####X-   =########%   :M########@/.
-    ,;%H@X;   .$###X   :##MM@%+;:-
-                 ..
-  -/;:-,.              ,,-==+M########H
- -##################@HX%%+%%$%%%+:,,
-    .-/H%%%+%%$H@###############M@+=:/+:
-/XHX%:#####MH%=    ,---:;;;;/%%XHM,:###$
-$@#MX %+;-                           .
+ _____________________________________________
+/ “Prayer creates a bridge from your heart to \
+| God.”                                       |
+|                                             |
+\  -- Eileen Anglin                           /
+ ---------------------------------------------
+             \
+              \
+                             ,.---._
+                   ,,,,     /       `,
+                    \\\\   /    '\_  ;
+                     |||| /\/``-.__\;'
+                     ::::/\/_
+     {{`-.__.-'(`(^^(^^^(^ 9 `.========='
+    {{{{{{ { ( ( (  (   (-----:=
+     {{.-'~~'-.(,(,,(,,,(__6_.'=========.
+                     ::::\/\
+                     |||| \/\  ,-'/,
+                    ////   \ `` _/ ;
+                   ''''     \  `  .'
+                             `---'
 ```
 <!-- END_QUOTE -->
 
