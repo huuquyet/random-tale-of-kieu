@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“蜍於𩙍竹𩅹梅</p>
-      <p class="nom">菫魚𤾓餒搥󰢕󰜋身”</p>
-      <p class="quocngu">Thờ ơ gió trúc mưa mai,</p>
-      <p class="quocngu">Ngẩn ngơ trăm nỗi, giùi mài một thân.</p>
-      <p class="author"><i>(Dòng 1249-1250) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“緣箕固負之命</p>
+      <p class="nom">𦓡筭技梗鍾情爫𠄩”</p>
+      <p class="quocngu">Duyên kia có phụ chi mình,</p>
+      <p class="quocngu">Mà toan chia gánh chung tình làm hai?"</p>
+      <p class="author"><i>(Dòng 3089-3090) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Prayer creates a bridge from your heart to \
-| God.”                                       |
-|                                             |
-\  -- Eileen Anglin                           /
- ---------------------------------------------
-             \
-              \
-                             ,.---._
-                   ,,,,     /       `,
-                    \\\\   /    '\_  ;
-                     |||| /\/``-.__\;'
-                     ::::/\/_
-     {{`-.__.-'(`(^^(^^^(^ 9 `.========='
-    {{{{{{ { ( ( (  (   (-----:=
-     {{.-'~~'-.(,(,,(,,,(__6_.'=========.
-                     ::::\/\
-                     |||| \/\  ,-'/,
-                    ////   \ `` _/ ;
-                   ''''     \  `  .'
-                             `---'
+ ____________________________________________
+/ “Being dead wasn't supposed to hurt. Where \
+| was the fairness in that? If I was dead,   |
+| the least the universe could do was make   |
+| it painless”                               |
+|                                            |
+\  -- Kiersten White                         /
+ --------------------------------------------
+   \
+    \
+  
+             _ - ￣ - _
+           _-_＿＿＿＿_- _
+         ￣ｌ  ●   ●  l￣
+            ヽ､_ ⌒ _ノ
+         _ -‐ニ ￣ ニ‐- _
+  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
+ ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
 ```
 <!-- END_QUOTE -->
 
