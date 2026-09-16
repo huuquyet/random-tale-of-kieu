@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“緣箕固負之命</p>
-      <p class="nom">𦓡筭技梗鍾情爫𠄩”</p>
-      <p class="quocngu">Duyên kia có phụ chi mình,</p>
-      <p class="quocngu">Mà toan chia gánh chung tình làm hai?"</p>
-      <p class="author"><i>(Dòng 3089-3090) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“小姐吏𠽇𥙩娘</p>
+      <p class="nom">局𢝙𢭮曲断膓意之”</p>
+      <p class="quocngu">Tiểu thư lại nẹt lấy nàng:</p>
+      <p class="quocngu">"Cuộc vui gảy khúc đoạn tràng ấy chi?</p>
+      <p class="author"><i>(Dòng 1859-1860) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,23 +26,41 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Being dead wasn't supposed to hurt. Where \
-| was the fairness in that? If I was dead,   |
-| the least the universe could do was make   |
-| it painless”                               |
+/ “Ay, you've already seen that you and your \
+| master aren't quite at home in this world, |
+| at least not like before.' Terence nodded  |
+| slowly. 'It'll only get stronger, too,'    |
+| Robin continued. 'Soon you'll find         |
+| yourself looking into people's eyes to see |
+| if they've been there. And once you find   |
+| someone who has, you'll greet him as a     |
+| long-lost friend and take him to your      |
+| heart.”                                    |
 |                                            |
-\  -- Kiersten White                         /
+\  -- Gerald Morris                          /
  --------------------------------------------
-   \
     \
-  
-             _ - ￣ - _
-           _-_＿＿＿＿_- _
-         ￣ｌ  ●   ●  l￣
-            ヽ､_ ⌒ _ノ
-         _ -‐ニ ￣ ニ‐- _
-  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
- ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,      WE      -%HX$%%%+;
+ =-./@M@M$         DO       .;@MMMM@MM:
+ X@/ -$MM/        WHAT        .+MM@@@M$
+,@M@H: :@:         WE         . =X#@@@@-
+,@@@MMX, .        MUST        /H- ;@M@M=
+.H@@@@M@+,      BECAUSE       %MM+..%#$.
+ /MMMM@MMH/.       WE         XM@MH; =;
+  /%+%$XHH@$=     CAN      , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
