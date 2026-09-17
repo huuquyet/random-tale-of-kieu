@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“小姐吏𠽇𥙩娘</p>
-      <p class="nom">局𢝙𢭮曲断膓意之”</p>
-      <p class="quocngu">Tiểu thư lại nẹt lấy nàng:</p>
-      <p class="quocngu">"Cuộc vui gảy khúc đoạn tràng ấy chi?</p>
-      <p class="author"><i>(Dòng 1859-1860) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“詫之身分碎隊</p>
+      <p class="nom">唒浪󰢇𤽸圭𠊚管包”</p>
+      <p class="quocngu">Sá chi thân phận tôi đòi,</p>
+      <p class="quocngu">Dẫu rằng xương trắng quê người quản bao!"</p>
+      <p class="author"><i>(Dòng 775-776) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,42 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Ay, you've already seen that you and your \
-| master aren't quite at home in this world, |
-| at least not like before.' Terence nodded  |
-| slowly. 'It'll only get stronger, too,'    |
-| Robin continued. 'Soon you'll find         |
-| yourself looking into people's eyes to see |
-| if they've been there. And once you find   |
-| someone who has, you'll greet him as a     |
-| long-lost friend and take him to your      |
-| heart.”                                    |
-|                                            |
-\  -- Gerald Morris                          /
- --------------------------------------------
-    \
-     \
-              .,-:;//;:=,
-          . :H@@@MM@M#H/.,+%;,
-       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
-  =@#@@@MX .,      WE      -%HX$%%%+;
- =-./@M@M$         DO       .;@MMMM@MM:
- X@/ -$MM/        WHAT        .+MM@@@M$
-,@M@H: :@:         WE         . =X#@@@@-
-,@@@MMX, .        MUST        /H- ;@M@M=
-.H@@@@M@+,      BECAUSE       %MM+..%#$.
- /MMMM@MMH/.       WE         XM@MH; =;
-  /%+%$XHH@$=     CAN      , .H@@@@MX,
-   .=--------.           -%H.,@@@@@MX,
-   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
-     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
-       =%@M@M#@$-.=$@MM@@@M; %M%=
-         ,:+$+-,/H#MMMMMMM@= =,
-               =++%%%%+/:-.
+ ___________________________________________
+/ “The human body is sustained by the same  \
+| prana that nourishes the universe. The    |
+| body (your equipment) has the ability to  |
+| control and use this special energy       |
+| through the use of "pranayama". Don't let |
+| true word scare you - it just means to    |
+| control, channel, and direct the flow of  |
+| prana through the use of breath.”         |
+|                                           |
+\  -- John Holland                          /
+ -------------------------------------------
+ \
+  \
+     .--.              .--.
+    : (\ ". _......_ ." /) :
+     '.    `        `    .'
+      /'   _        _   `\
+     /     o}      {o     \
+    |       /      \       |
+    |     /'        `\     |
+     \   | .  .==.  . |   /
+      '._ \.' \__/ './ _.'
+      /  ``'._-''-_.'``  \
 ```
 <!-- END_QUOTE -->
 
