@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“詫之身分碎隊</p>
-      <p class="nom">唒浪󰢇𤽸圭𠊚管包”</p>
-      <p class="quocngu">Sá chi thân phận tôi đòi,</p>
-      <p class="quocngu">Dẫu rằng xương trắng quê người quản bao!"</p>
-      <p class="author"><i>(Dòng 775-776) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“摱調竹院乘凉</p>
+      <p class="nom">逴衛唉暫𨁪娘󰜋尼”</p>
+      <p class="quocngu">Mượn điều trúc viện thừa lương,</p>
+      <p class="quocngu">Rước về hãy tạm giấu nàng một nơi.</p>
+      <p class="author"><i>(Dòng 1371-1372) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “The human body is sustained by the same  \
-| prana that nourishes the universe. The    |
-| body (your equipment) has the ability to  |
-| control and use this special energy       |
-| through the use of "pranayama". Don't let |
-| true word scare you - it just means to    |
-| control, channel, and direct the flow of  |
-| prana through the use of breath.”         |
-|                                           |
-\  -- John Holland                          /
- -------------------------------------------
- \
-  \
-     .--.              .--.
-    : (\ ". _......_ ." /) :
-     '.    `        `    .'
-      /'   _        _   `\
-     /     o}      {o     \
-    |       /      \       |
-    |     /'        `\     |
-     \   | .  .==.  . |   /
-      '._ \.' \__/ './ _.'
-      /  ``'._-''-_.'``  \
+ ______________________________________
+/ “Christ in a Pinata` how have I over \
+| complicated the plot?”               |
+|                                      |
+\  -- Scott Parker                     /
+ --------------------------------------
+            . .: -----  .
+         ／: .: .: .:.: .:＼
+        /    ..  . l.: .: .:ヽ
+       : .: ,/|-/|:ハ.:|-.ｌ.:
+       |: :ノ |/.|/  ヽ|.Vﾊ.:|
+       |.::|  =＝     ＝= }.:| 
+       |.γ|| ''  ＿_   ''{::ﾊ 
+       ﾉノﾊﾘ   ｛   }     ﾉV
+       ∨Vvヽ､._  --'_ .イV
+            γ:/:{.又 }ﾍヽ 
+          ／:〉:V ﾊ.ﾘ〈: ＼ 
+        ／ : Vヽ:V// /:V ::＼ 
+    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
+   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
+    ー'    ./: : : : : ﾊ      ー' 
+          ./::o: : : :o ﾊ 
+          /ヽ: : :Λ: : :ﾉ:、 
+        〈:::￣￣:::￣:::::〉 
+          ＼:__:::::::__:／ 
+            |  Τ￣Τ | 
+            |  |   |  | 
+            |''|   |''| 
 ```
 <!-- END_QUOTE -->
 
