@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“摱調竹院乘凉</p>
-      <p class="nom">逴衛唉暫𨁪娘󰜋尼”</p>
-      <p class="quocngu">Mượn điều trúc viện thừa lương,</p>
-      <p class="quocngu">Rước về hãy tạm giấu nàng một nơi.</p>
-      <p class="author"><i>(Dòng 1371-1372) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“蕙香𠶗𠽋󰜋茹</p>
+      <p class="nom">曾󰣙䔲吏󰚷麻欣𠸗”</p>
+      <p class="quocngu">Huệ hương sực nức một nhà,</p>
+      <p class="quocngu">Từng cay đắng, lại mặn mà hơn xưa.</p>
+      <p class="author"><i>(Dòng 1471-1472) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ______________________________________
-/ “Christ in a Pinata` how have I over \
-| complicated the plot?”               |
-|                                      |
-\  -- Scott Parker                     /
- --------------------------------------
-            . .: -----  .
-         ／: .: .: .:.: .:＼
-        /    ..  . l.: .: .:ヽ
-       : .: ,/|-/|:ハ.:|-.ｌ.:
-       |: :ノ |/.|/  ヽ|.Vﾊ.:|
-       |.::|  =＝     ＝= }.:| 
-       |.γ|| ''  ＿_   ''{::ﾊ 
-       ﾉノﾊﾘ   ｛   }     ﾉV
-       ∨Vvヽ､._  --'_ .イV
-            γ:/:{.又 }ﾍヽ 
-          ／:〉:V ﾊ.ﾘ〈: ＼ 
-        ／ : Vヽ:V// /:V ::＼ 
-    rイ: : ／|: :＼Vノ: :|ヽ: ヽ-､
-   ｢  ヽ:／  |: o :  o:|   ＼:/ 」
-    ー'    ./: : : : : ﾊ      ー' 
-          ./::o: : : :o ﾊ 
-          /ヽ: : :Λ: : :ﾉ:、 
-        〈:::￣￣:::￣:::::〉 
-          ＼:__:::::::__:／ 
-            |  Τ￣Τ | 
-            |  |   |  | 
-            |''|   |''| 
+ ___________________________________________
+/ “A cheer then for the noble breast that   \
+| fears not danger's post And like the      |
+| lifeboat proves a friend When friends are |
+| wanted most.”                             |
+|                                           |
+\  -- Eliza Cook                            /
+ -------------------------------------------
+ \
+  \
+     ()
+   <~~~~>
+    \__/
+   (____)
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
+ (________)
 ```
 <!-- END_QUOTE -->
 
