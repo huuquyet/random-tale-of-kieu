@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“蕙香𠶗𠽋󰜋茹</p>
-      <p class="nom">曾󰣙䔲吏󰚷麻欣𠸗”</p>
-      <p class="quocngu">Huệ hương sực nức một nhà,</p>
-      <p class="quocngu">Từng cay đắng, lại mặn mà hơn xưa.</p>
-      <p class="author"><i>(Dòng 1471-1472) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌𢧚固義固仁</p>
+      <p class="nom">𠓀𡢐論院賒𧵆𬢱𠸦”</p>
+      <p class="quocngu">Đã nên có nghĩa, có nhân,</p>
+      <p class="quocngu">Trước sau trọn vẹn, xa gần ngợi khen.</p>
+      <p class="author"><i>(Dòng 2909-2910) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “A cheer then for the noble breast that   \
-| fears not danger's post And like the      |
-| lifeboat proves a friend When friends are |
-| wanted most.”                             |
-|                                           |
-\  -- Eliza Cook                            /
- -------------------------------------------
- \
-  \
-     ()
-   <~~~~>
-    \__/
-   (____)
-    |  |
-    |  |
-    |__|
-   /____\
-  (______)
- (________)
+ _________________________________________
+/ “I wanted the monster back and that was \
+| plainly wrong.”                         |
+|                                         |
+\  -- Stephenie Meyer                     /
+ -----------------------------------------
+       \
+        \
+
+     ".           ,#  
+     \ `-._____,-'=/
+  ____`._ ----- _,'_____PhS
+         `-----'
 ```
 <!-- END_QUOTE -->
 
