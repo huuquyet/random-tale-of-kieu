@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌𢧚固義固仁</p>
-      <p class="nom">𠓀𡢐論院賒𧵆𬢱𠸦”</p>
-      <p class="quocngu">Đã nên có nghĩa, có nhân,</p>
-      <p class="quocngu">Trước sau trọn vẹn, xa gần ngợi khen.</p>
-      <p class="author"><i>(Dòng 2909-2910) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“傳路渚𣴓𩯀絲</p>
+      <p class="nom">𪃿它嘅創𡗶𣃣𠓇東”</p>
+      <p class="quocngu">Chuyện trò chưa cạn tóc tơ,</p>
+      <p class="quocngu">Gà đà gáy sáng, trời vừa rạng đông.</p>
+      <p class="author"><i>(Dòng 3215-3216) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,20 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “I wanted the monster back and that was \
-| plainly wrong.”                         |
-|                                         |
-\  -- Stephenie Meyer                     /
- -----------------------------------------
-       \
-        \
+ ___________________________________
+/ “Slow as your own dubious grace.” \
+|                                   |
+\  -- Joe Meno                      /
+ -----------------------------------
+ \
+  \
 
-     ".           ,#  
-     \ `-._____,-'=/
-  ____`._ ----- _,'_____PhS
-         `-----'
+   WWWWWW
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
 ```
 <!-- END_QUOTE -->
 
