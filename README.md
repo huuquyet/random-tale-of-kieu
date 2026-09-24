@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨇜調衷曲慇懃</p>
-      <p class="nom">𢚸春派派󱋓春藏藏”</p>
-      <p class="quocngu">Đủ điều trung khúc ân cần,</p>
-      <p class="quocngu">Lòng xuân phơi phới, chén xuân tàng tàng.</p>
-      <p class="author"><i>(Dòng 423-424) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浪自偶爾﨤饒</p>
+      <p class="nom">󰠐𬂙濫𢖵閉𥹰㐌𤶐”</p>
+      <p class="quocngu">Rằng: "Từ ngẫu nhĩ gặp nhau,</p>
+      <p class="quocngu">Thầm trông trộm nhớ bấy lâu đã chồn.</p>
+      <p class="author"><i>(Dòng 323-324) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I think 'Soul Food' had the biggest impact \
-| on me because that's where I was really     |
-| able to shine as an actress and because I   |
-| also met my husband there, and that was a   |
-| huge turning point in my personal life.     |
-| So, that show will stick with me forever    |
-| and ever and ever.”                         |
-|                                             |
-\  -- Nicole Ari Parker                       /
- ---------------------------------------------
-   \
-    \        .
-     .---.  //
-    Y|o o|Y// 
-   /_(i=i)K/ 
-   ~()~*~()~  
-    (_)-(_)   
+ _______________________________
+/ “Glory to the the Great God!” \
+|                               |
+\  -- Lailah Gifty Akita        /
+ -------------------------------
+       \
+        \
+                  =/;;/-
+                 +:    //
+                /;      /;
+               -X        H.
+ .//;;;:;;-,   X=        :+   .-;:=;:;%;.
+ M-       ,=;;;#:,      ,:#;;:=,       ,@
+ :%           :%.=/++++/=.$=           %=
+  ,%;         %/:+/;,,/++:+/         ;+.
+    ,+/.    ,;@+,        ,%H;,    ,/+,
+       ;+;;/= @.  .H##X   -X :///+;
+       ;+=;;;.@,  .XM@$.  =X.//;=%/.
+    ,;:      :@%=        =$H:     .+%-
+  ,%=         %;-///==///-//         =%,
+ ;+           :%-;;;:;;;;-X-           +:
+ @-      .-;;;;M-        =M/;;;-.      -X
+  :;;::;;-.    %-        :+    ,-;;-;:==
+               ,X        H.
+                ;/      %=
+                 //    +;
+                  ,////,
 
-     Darth 
-     Vader    
-     koala        
 ```
 <!-- END_QUOTE -->
 
