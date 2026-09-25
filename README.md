@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浪自偶爾﨤饒</p>
-      <p class="nom">󰠐𬂙濫𢖵閉𥹰㐌𤶐”</p>
-      <p class="quocngu">Rằng: "Từ ngẫu nhĩ gặp nhau,</p>
-      <p class="quocngu">Thầm trông trộm nhớ bấy lâu đã chồn.</p>
-      <p class="author"><i>(Dòng 323-324) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“情緣意合散尼</p>
+      <p class="nom">悲歡󰋇餒𣈘𨱽𦝄高”</p>
+      <p class="quocngu">Tình duyên ấy, hợp tan này,</p>
+      <p class="quocngu">Bi hoan mấy nỗi, đêm dài, trăng cao.</p>
+      <p class="author"><i>(Dòng 3139-3140) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,37 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________
-/ “Glory to the the Great God!” \
-|                               |
-\  -- Lailah Gifty Akita        /
- -------------------------------
-       \
-        \
-                  =/;;/-
-                 +:    //
-                /;      /;
-               -X        H.
- .//;;;:;;-,   X=        :+   .-;:=;:;%;.
- M-       ,=;;;#:,      ,:#;;:=,       ,@
- :%           :%.=/++++/=.$=           %=
-  ,%;         %/:+/;,,/++:+/         ;+.
-    ,+/.    ,;@+,        ,%H;,    ,/+,
-       ;+;;/= @.  .H##X   -X :///+;
-       ;+=;;;.@,  .XM@$.  =X.//;=%/.
-    ,;:      :@%=        =$H:     .+%-
-  ,%=         %;-///==///-//         =%,
- ;+           :%-;;;:;;;;-X-           +:
- @-      .-;;;;M-        =M/;;;-.      -X
-  :;;::;;-.    %-        :+    ,-;;-;:==
-               ,X        H.
-                ;/      %=
-                 //    +;
-                  ,////,
-
+ ____________________________________________
+/ “Music is a lady that I still love because \
+| she gives me the air that I breathe. We    |
+| need all sorts of nourishment. And music   |
+| satisfies and nourishes the hunger within  |
+| ourselves for connection and harmony.”     |
+|                                            |
+\  -- Cat Stevens                            /
+ --------------------------------------------
+    \
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,      WE      -%HX$%%%+;
+ =-./@M@M$         DO       .;@MMMM@MM:
+ X@/ -$MM/        WHAT        .+MM@@@M$
+,@M@H: :@:         WE         . =X#@@@@-
+,@@@MMX, .        MUST        /H- ;@M@M=
+.H@@@@M@+,      BECAUSE       %MM+..%#$.
+ /MMMM@MMH/.       WE         XM@MH; =;
+  /%+%$XHH@$=     CAN      , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
