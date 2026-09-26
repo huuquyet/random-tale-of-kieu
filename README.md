@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“情緣意合散尼</p>
-      <p class="nom">悲歡󰋇餒𣈘𨱽𦝄高”</p>
-      <p class="quocngu">Tình duyên ấy, hợp tan này,</p>
-      <p class="quocngu">Bi hoan mấy nỗi, đêm dài, trăng cao.</p>
-      <p class="author"><i>(Dòng 3139-3140) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“乘機生買𨇍𠚢</p>
+      <p class="nom">駸駸典𠃅圍花貝娘”</p>
+      <p class="quocngu">Thừa cơ Sinh mới lẻn ra,</p>
+      <p class="quocngu">Xăm xăm đến mé vây hoa với nàng.</p>
+      <p class="author"><i>(Dòng 1941-1942) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,37 +25,44 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Music is a lady that I still love because \
-| she gives me the air that I breathe. We    |
-| need all sorts of nourishment. And music   |
-| satisfies and nourishes the hunger within  |
-| ourselves for connection and harmony.”     |
-|                                            |
-\  -- Cat Stevens                            /
- --------------------------------------------
-    \
-     \
-              .,-:;//;:=,
-          . :H@@@MM@M#H/.,+%;,
-       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
-  =@#@@@MX .,      WE      -%HX$%%%+;
- =-./@M@M$         DO       .;@MMMM@MM:
- X@/ -$MM/        WHAT        .+MM@@@M$
-,@M@H: :@:         WE         . =X#@@@@-
-,@@@MMX, .        MUST        /H- ;@M@M=
-.H@@@@M@+,      BECAUSE       %MM+..%#$.
- /MMMM@MMH/.       WE         XM@MH; =;
-  /%+%$XHH@$=     CAN      , .H@@@@MX,
-   .=--------.           -%H.,@@@@@MX,
-   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
-     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
-       =%@M@M#@$-.=$@MM@@@M; %M%=
-         ,:+$+-,/H#MMMMMMM@= =,
-               =++%%%%+/:-.
+ _____________________________________________
+/ “When your own success shocks you, you fail \
+| to sustain it and it becomes a curse        |
+| instead of a blessing. Think through        |
+| issues and make considerations before you   |
+| encounter the real situation. Companies     |
+| invest billions in research and             |
+| development, including models and           |
+| simulations to increase chances of success  |
+| – all in an attempt to make success         |
+| deliberate for a particular project.”       |
+|                                             |
+\  -- Archibald Marwizi                       /
+ ---------------------------------------------
+     \               _
+      \            ´   ＼   __
+       \        ／ ／⌒\ | ／   ＼
+   f|{r、       | /     '|/ ／⌒＼＼
+   ||J |        \/＞--＜\/ /--    |
+(＼|`` し]ﾄ----／          ⌒` ＼| /
+ ＼      ﾉ\   /                ＼|/\   --、___
+  ゛    /  ＼/      /     |         \/_       ﾉ
+   \、/\_／/ｲ    ,/'|    /\ 、        Ⅵ   __／
+    [\/   \/_|   /\|/|   |-]  、     く-く
+    |      \/|  |/___ﾉ\  /\___ \     /   ＼
+    {/      <|小| _ﾒﾘ  \/  _ﾒﾘ` \   ｜|   |
+     \        ｜| \/ｿ      \/ｿ  ﾉ / /\|＼_/
+      \       ｜|              /_ｲ\/
+       \      ｜|     /ヽ      / /ﾉ
+        \     ｜/\   └-     ,/ /'
+         \    ｜ |／>> r -=≦{{/ /ﾆ=_
+          \   人 | ／ｨ|     /ﾚ/__   ﾉﾆ-、
+           ＼   \|/  Xﾉ    / /   入//⌒Yﾊ
+             \  /し ｜`---' //  /  \ﾆﾆﾆﾉ|
+              ＼/  / \  --ｱ ｜  |   | _]|
+               ｜ /   \/\/  ｜  |   |___|
+               r勺    ｜_｜ ｜  |   |  ||
+               |`7    ｜ ｜ ｜  |   |   |
 ```
 <!-- END_QUOTE -->
 
