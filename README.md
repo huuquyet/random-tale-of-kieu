@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“乘機生買𨇍𠚢</p>
-      <p class="nom">駸駸典𠃅圍花貝娘”</p>
-      <p class="quocngu">Thừa cơ Sinh mới lẻn ra,</p>
-      <p class="quocngu">Xăm xăm đến mé vây hoa với nàng.</p>
-      <p class="author"><i>(Dòng 1941-1942) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“䋦浪價當𠦳鐄</p>
+      <p class="nom">汲茹洳量𠊚傷𪾋㖠”</p>
+      <p class="quocngu">Mối rằng: "Giá đáng nghìn vàng,</p>
+      <p class="quocngu">Gấp nhà nhờ lượng người thương dám nài."</p>
+      <p class="author"><i>(Dòng 645-646) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,44 +25,27 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “When your own success shocks you, you fail \
-| to sustain it and it becomes a curse        |
-| instead of a blessing. Think through        |
-| issues and make considerations before you   |
-| encounter the real situation. Companies     |
-| invest billions in research and             |
-| development, including models and           |
-| simulations to increase chances of success  |
-| – all in an attempt to make success         |
-| deliberate for a particular project.”       |
-|                                             |
-\  -- Archibald Marwizi                       /
- ---------------------------------------------
-     \               _
-      \            ´   ＼   __
-       \        ／ ／⌒\ | ／   ＼
-   f|{r、       | /     '|/ ／⌒＼＼
-   ||J |        \/＞--＜\/ /--    |
-(＼|`` し]ﾄ----／          ⌒` ＼| /
- ＼      ﾉ\   /                ＼|/\   --、___
-  ゛    /  ＼/      /     |         \/_       ﾉ
-   \、/\_／/ｲ    ,/'|    /\ 、        Ⅵ   __／
-    [\/   \/_|   /\|/|   |-]  、     く-く
-    |      \/|  |/___ﾉ\  /\___ \     /   ＼
-    {/      <|小| _ﾒﾘ  \/  _ﾒﾘ` \   ｜|   |
-     \        ｜| \/ｿ      \/ｿ  ﾉ / /\|＼_/
-      \       ｜|              /_ｲ\/
-       \      ｜|     /ヽ      / /ﾉ
-        \     ｜/\   └-     ,/ /'
-         \    ｜ |／>> r -=≦{{/ /ﾆ=_
-          \   人 | ／ｨ|     /ﾚ/__   ﾉﾆ-、
-           ＼   \|/  Xﾉ    / /   入//⌒Yﾊ
-             \  /し ｜`---' //  /  \ﾆﾆﾆﾉ|
-              ＼/  / \  --ｱ ｜  |   | _]|
-               ｜ /   \/\/  ｜  |   |___|
-               r勺    ｜_｜ ｜  |   |  ||
-               |`7    ｜ ｜ ｜  |   |   |
+ ___________________________________________
+/ “Oh shit did you just dis the feminine    \
+| genderI'll pummel your ass then stick you |
+| in a blenderYou think I like Tori and Ani |
+| so I can't rhymeBut I got flow like       |
+| Ghostbusters got slimeObjectify women and |
+| it's fuckin' onYou'll be dead and gone    |
+| like ancient Babylon.”                    |
+|                                           |
+\  -- John Green                            /
+ -------------------------------------------
+   \
+    \
+  
+             _ - ￣ - _
+           _-_＿＿＿＿_- _
+         ￣ｌ  ●   ●  l￣
+            ヽ､_ ⌒ _ノ
+         _ -‐ニ ￣ ニ‐- _
+  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
+ ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
 ```
 <!-- END_QUOTE -->
 
