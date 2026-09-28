@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“䋦浪價當𠦳鐄</p>
-      <p class="nom">汲茹洳量𠊚傷𪾋㖠”</p>
-      <p class="quocngu">Mối rằng: "Giá đáng nghìn vàng,</p>
-      <p class="quocngu">Gấp nhà nhờ lượng người thương dám nài."</p>
-      <p class="author"><i>(Dòng 645-646) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋𢬣𨢟𥩯基圖</p>
+      <p class="nom">閉𥹰𣷭楚滝吳縱横”</p>
+      <p class="quocngu">Một tay gây dựng cơ đồ,</p>
+      <p class="quocngu">Bấy lâu bể Sở, sông Ngô tung hoành!</p>
+      <p class="author"><i>(Dòng 2463-2464) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Oh shit did you just dis the feminine    \
-| genderI'll pummel your ass then stick you |
-| in a blenderYou think I like Tori and Ani |
-| so I can't rhymeBut I got flow like       |
-| Ghostbusters got slimeObjectify women and |
-| it's fuckin' onYou'll be dead and gone    |
-| like ancient Babylon.”                    |
-|                                           |
-\  -- John Green                            /
- -------------------------------------------
-   \
+ ____________________________________________
+/ “I had rather have a fool to make me merry \
+| than experience to make me sad and to      |
+| travel for it too!”                        |
+|                                            |
+\  -- William Shakespeare                    /
+ --------------------------------------------
     \
-  
-             _ - ￣ - _
-           _-_＿＿＿＿_- _
-         ￣ｌ  ●   ●  l￣
-            ヽ､_ ⌒ _ノ
-         _ -‐ニ ￣ ニ‐- _
-  /⌒ ‐ﾆ‐ ￣   /    \ ￣ ‐ﾆ‐⌒ヽ
- ヽ､_ノ       └-ｕ‐┘      ヽ､_ノ
+     \
+              .,-:;//;:=,
+          . :H@@@MM@M#H/.,+%;,
+       ,/X+ +M@@M@MM%=,-%HMMM@X/,
+     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
+    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
+  ,%MM@@MH ,@%=            .---=-=:=,.
+  =@#@@@MX .,              -%HX$%%%+;
+ =-./@M@M$                  .;@MMMM@MM:
+ X@/ -$MM/                    .+MM@@@M$
+,@M@H: :@:                    . =X#@@@@-
+,@@@MMX, .                    /H- ;@M@M=
+.H@@@@M@+,                    %MM+..%#$.
+ /MMMM@MMH/.                  XM@MH; =;
+  /%+%$XHH@$=              , .H@@@@MX,
+   .=--------.           -%H.,@@@@@MX,
+   .%MM@@@HHHXX$$%+- .:$MMX =M@@MM%.
+     =XMMM@MM@MM#H;,-+HMM@M+ /MMMX=
+       =%@M@M#@$-.=$@MM@@@M; %M%=
+         ,:+$+-,/H#MMMMMMM@= =,
+               =++%%%%+/:-.
 ```
 <!-- END_QUOTE -->
 
