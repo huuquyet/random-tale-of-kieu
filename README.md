@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢥈之󰟳意麻𢥈</p>
-      <p class="nom">蜆𥪝𠰘󱋓吏𨆶𠫾兜”</p>
-      <p class="quocngu">Lo gì việc ấy mà lo,</p>
-      <p class="quocngu">Kiến trong miệng chén lại bò đi đâu?</p>
-      <p class="author"><i>(Dòng 1547-1548) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“碎隊魄落魂𠖤</p>
+      <p class="nom">蹤坡蓓𦹵㭲𣘃隐命”</p>
+      <p class="quocngu">Tôi đòi phách lạc, hồn bay,</p>
+      <p class="quocngu">Tung pha bụi cỏ gốc cây ẩn mình.</p>
+      <p class="author"><i>(Dòng 1651-1652) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,34 +26,34 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “It was always about the money, but when   \
-| you want to be successful and all you      |
-| think about is the money, all you work for |
-| is the money… You will never be            |
-| successful. You will be blinded and make   |
-| mistakes especially when you are           |
-| disparate, so I guess it never really was  |
-| about the money.”                          |
+/ “Round about the accredited and orderly    \
+| facts of every science there ever floats a |
+| sort of dust-cloud of exceptional          |
+| observations, of occurrences minute and    |
+| irregular and seldom met with, which it    |
+| always proves more easy to ignore than to  |
+| attend to... Anyone will renovate his      |
+| science who will steadily look after the   |
+| irregular phenomena, and when science is   |
+| renewed, its new formulas often have more  |
+| of the voice of the exceptions in them     |
+| than of what were supposed to be the       |
+| rules.”                                    |
 |                                            |
-\  -- James Jean-Pierre                      /
+\  -- William James                          /
  --------------------------------------------
-          \
-           \
-
-
-      ^^      .-=-=-=-.  ^^
-  ^^        (`-=-=-=-=-`)         ^^
-          (`-=-=-=-=-=-=-`)  ^^         ^^
-    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
-        ( `-=-=-=-(@)-=-=-` )      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-        (`-=-=-=-=-=-=-=-=-`)              ^^
-        (`-=-=-=-=-=-=-=-=-`)                      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-         (`-=-=-=-=-=-=-=-`)          ^^
-          (`-=-=-=-=-=-=-`)  ^^                 ^^
-      jgs   (`-=-=-=-=-`)
-             `-=-=-=-=-`
+ \
+  \
+     ()
+   <~~~~>
+    \__/
+   (____)
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
+ (________)
 ```
 <!-- END_QUOTE -->
 
