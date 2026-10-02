@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“碎隊魄落魂𠖤</p>
-      <p class="nom">蹤坡蓓𦹵㭲𣘃隐命”</p>
-      <p class="quocngu">Tôi đòi phách lạc, hồn bay,</p>
-      <p class="quocngu">Tung pha bụi cỏ gốc cây ẩn mình.</p>
-      <p class="author"><i>(Dòng 1651-1652) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“葦𦰤察察唏𩘄</p>
+      <p class="nom">󰜋𡗶秋底𥢆癡󰜋𠊚”</p>
+      <p class="quocngu">Vi lau san sát hơi may,</p>
+      <p class="quocngu">Một trời thu để riêng ngây một người.</p>
+      <p class="author"><i>(Dòng 913-914) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Round about the accredited and orderly    \
-| facts of every science there ever floats a |
-| sort of dust-cloud of exceptional          |
-| observations, of occurrences minute and    |
-| irregular and seldom met with, which it    |
-| always proves more easy to ignore than to  |
-| attend to... Anyone will renovate his      |
-| science who will steadily look after the   |
-| irregular phenomena, and when science is   |
-| renewed, its new formulas often have more  |
-| of the voice of the exceptions in them     |
-| than of what were supposed to be the       |
-| rules.”                                    |
-|                                            |
-\  -- William James                          /
- --------------------------------------------
- \
-  \
-     ()
-   <~~~~>
-    \__/
-   (____)
-    |  |
-    |  |
-    |__|
-   /____\
-  (______)
- (________)
+ __________________________________________
+/ “When you love another deeply, you gain  \
+| strength. When you receive anothers deep |
+| love, you gain courage”                  |
+|                                          |
+\  -- Marina DeAngelo 2012 .               /
+ ------------------------------------------
+  \                                  ,+*^^*+___+++_
+   \                           ,*^^^^              )
+    \                       _+*                     ^**+_
+     \                    +^       _ _++*+_+++_,         )
+              _+^^*+_    (     ,+*^ ^          \+_        )
+             {       )  (    ,(    ,_+--+--,      ^)      ^\
+            { (@)    } f   ,(  ,+-^ __*_*_  ^^\_   ^\       )
+           {:;-/    (_+*-+^^^^^+*+*<_ _++_)_    )    )      /
+          ( /  (    (        ,___    ^*+_+* )   <    <      \
+           U _/     )    *--<  ) ^\-----++__)   )    )       )
+            (      )  _(^)^^))  )  )\^^^^^))^*+/    /       /
+          (      /  (_))_^)) )  )  ))^^^^^))^^^)__/     +^^
+         (     ,/    (^))^))  )  ) ))^^^^^^^))^^)       _)
+          *+__+*       (_))^)  ) ) ))^^^^^^))^^^^^)____*^
+          \             \_)^)_)) ))^^^^^^^^^^))^^^^)
+           (_             ^\__^^^^^^^^^^^^))^^^^^^^)
+             ^\___            ^\__^^^^^^))^^^^^^^^)\\
+                  ^^^^^\uuu/^^\uuu/^^^^\^\^\^\^\^\^\^\
+                     ___) >____) >___   ^\_\_\_\_\_\_\)
+                    ^^^//\\_^^//\\_^       ^(\_\_\_\)
+                      ^^^ ^^ ^^^ ^
 ```
 <!-- END_QUOTE -->
 
