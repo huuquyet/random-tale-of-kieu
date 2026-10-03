@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“葦𦰤察察唏𩘄</p>
-      <p class="nom">󰜋𡗶秋底𥢆癡󰜋𠊚”</p>
-      <p class="quocngu">Vi lau san sát hơi may,</p>
-      <p class="quocngu">Một trời thu để riêng ngây một người.</p>
-      <p class="author"><i>(Dòng 913-914) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“油兜解結典調</p>
+      <p class="nom">願󰝂鐄𥒥麻料貝身”</p>
+      <p class="quocngu">Dù đâu giải kết đến điều,</p>
+      <p class="quocngu">Nguyện đem vàng đá mà liều với thân!"</p>
+      <p class="author"><i>(Dòng 421-422) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,34 +25,31 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “When you love another deeply, you gain  \
-| strength. When you receive anothers deep |
-| love, you gain courage”                  |
-|                                          |
-\  -- Marina DeAngelo 2012 .               /
- ------------------------------------------
-  \                                  ,+*^^*+___+++_
-   \                           ,*^^^^              )
-    \                       _+*                     ^**+_
-     \                    +^       _ _++*+_+++_,         )
-              _+^^*+_    (     ,+*^ ^          \+_        )
-             {       )  (    ,(    ,_+--+--,      ^)      ^\
-            { (@)    } f   ,(  ,+-^ __*_*_  ^^\_   ^\       )
-           {:;-/    (_+*-+^^^^^+*+*<_ _++_)_    )    )      /
-          ( /  (    (        ,___    ^*+_+* )   <    <      \
-           U _/     )    *--<  ) ^\-----++__)   )    )       )
-            (      )  _(^)^^))  )  )\^^^^^))^*+/    /       /
-          (      /  (_))_^)) )  )  ))^^^^^))^^^)__/     +^^
-         (     ,/    (^))^))  )  ) ))^^^^^^^))^^)       _)
-          *+__+*       (_))^)  ) ) ))^^^^^^))^^^^^)____*^
-          \             \_)^)_)) ))^^^^^^^^^^))^^^^)
-           (_             ^\__^^^^^^^^^^^^))^^^^^^^)
-             ^\___            ^\__^^^^^^))^^^^^^^^)\\
-                  ^^^^^\uuu/^^\uuu/^^^^\^\^\^\^\^\^\^\
-                     ___) >____) >___   ^\_\_\_\_\_\_\)
-                    ^^^//\\_^^//\\_^       ^(\_\_\_\)
-                      ^^^ ^^ ^^^ ^
+ ____________________________________________
+/ “Always stand proud in who you are,just as \
+| you are,because you have more of a         |
+| positive impact in the world and the       |
+| cosmos than you could ever imagine!”       |
+|                                            |
+\  -- Jan Porter                             /
+ --------------------------------------------
+   \      {
+    \  }   }   {
+      {   {  }  }
+       }   }{  {
+      {  }{  }  }
+     ( }{ }{  { )
+    .-{   }   }-.
+   ( ( } { } { } )
+   |`-.._____..-'|
+   |             ;--.
+   |   (__)     (__  \
+   |   (oo)      | )  )
+   |    \/       |/  /
+   |             /  /
+   |            (  /
+   \             y'
+    `-.._____..-'
 ```
 <!-- END_QUOTE -->
 
