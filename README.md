@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“油兜解結典調</p>
-      <p class="nom">願󰝂鐄𥒥麻料貝身”</p>
-      <p class="quocngu">Dù đâu giải kết đến điều,</p>
-      <p class="quocngu">Nguyện đem vàng đá mà liều với thân!"</p>
-      <p class="author"><i>(Dòng 421-422) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“浽念想典𦓡𤴬</p>
+      <p class="nom">𧡊𠊚𦣰帶别𡢐世󰅹”</p>
+      <p class="quocngu">Nỗi niềm tưởng đến mà đau,</p>
+      <p class="quocngu">Thấy người nằm đấy biết sau thế nào?"</p>
+      <p class="author"><i>(Dòng 109-110) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,30 +26,41 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Always stand proud in who you are,just as \
-| you are,because you have more of a         |
-| positive impact in the world and the       |
-| cosmos than you could ever imagine!”       |
+/ “It's tragic that extremists co-opt the    \
+| notion of God, and that hipsters and       |
+| artists reject spirituality out of hand. I |
+| don't have a fixed idea of God. But I feel |
+| that it's us - the messed-up, the          |
+| half-crazy, the burning, the questing -    |
+| that need God, a lot more than the         |
+| goody-two-shoes do.”                       |
 |                                            |
-\  -- Jan Porter                             /
+\  -- Mike Doughty                           /
  --------------------------------------------
-   \      {
-    \  }   }   {
-      {   {  }  }
-       }   }{  {
-      {  }{  }  }
-     ( }{ }{  { )
-    .-{   }   }-.
-   ( ( } { } { } )
-   |`-.._____..-'|
-   |             ;--.
-   |   (__)     (__  \
-   |   (oo)      | )  )
-   |    \/       |/  /
-   |             /  /
-   |            (  /
-   \             y'
-    `-.._____..-'
+     \               _
+      \            ´   ＼   __
+       \        ／ ／⌒\ | ／   ＼
+   f|{r、       | /     '|/ ／⌒＼＼
+   ||J |        \/＞--＜\/ /--    |
+(＼|`` し]ﾄ----／          ⌒` ＼| /
+ ＼      ﾉ\   /                ＼|/\   --、___
+  ゛    /  ＼/      /     |         \/_       ﾉ
+   \、/\_／/ｲ    ,/'|    /\ 、        Ⅵ   __／
+    [\/   \/_|   /\|/|   |-]  、     く-く
+    |      \/|  |/___ﾉ\  /\___ \     /   ＼
+    {/      <|小| _ﾒﾘ  \/  _ﾒﾘ` \   ｜|   |
+     \        ｜| \/ｿ      \/ｿ  ﾉ / /\|＼_/
+      \       ｜|              /_ｲ\/
+       \      ｜|     /ヽ      / /ﾉ
+        \     ｜/\   └-     ,/ /'
+         \    ｜ |／>> r -=≦{{/ /ﾆ=_
+          \   人 | ／ｨ|     /ﾚ/__   ﾉﾆ-、
+           ＼   \|/  Xﾉ    / /   入//⌒Yﾊ
+             \  /し ｜`---' //  /  \ﾆﾆﾆﾉ|
+              ＼/  / \  --ｱ ｜  |   | _]|
+               ｜ /   \/\/  ｜  |   |___|
+               r勺    ｜_｜ ｜  |   |  ||
+               |`7    ｜ ｜ ｜  |   |   |
 ```
 <!-- END_QUOTE -->
 
