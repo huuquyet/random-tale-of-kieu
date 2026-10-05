@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“浽念想典𦓡𤴬</p>
-      <p class="nom">𧡊𠊚𦣰帶别𡢐世󰅹”</p>
-      <p class="quocngu">Nỗi niềm tưởng đến mà đau,</p>
-      <p class="quocngu">Thấy người nằm đấy biết sau thế nào?"</p>
-      <p class="author"><i>(Dòng 109-110) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𠄩邊𨑮位將軍</p>
+      <p class="nom">撻鎌𢶒甲𠓀𡑝叩頭”</p>
+      <p class="quocngu">Hai bên mười vị tướng quân,</p>
+      <p class="quocngu">Đặt gươm, cởi giáp, trước sân khấu đầu.</p>
+      <p class="author"><i>(Dòng 2261-2262) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,42 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It's tragic that extremists co-opt the    \
-| notion of God, and that hipsters and       |
-| artists reject spirituality out of hand. I |
-| don't have a fixed idea of God. But I feel |
-| that it's us - the messed-up, the          |
-| half-crazy, the burning, the questing -    |
-| that need God, a lot more than the         |
-| goody-two-shoes do.”                       |
-|                                            |
-\  -- Mike Doughty                           /
- --------------------------------------------
-     \               _
-      \            ´   ＼   __
-       \        ／ ／⌒\ | ／   ＼
-   f|{r、       | /     '|/ ／⌒＼＼
-   ||J |        \/＞--＜\/ /--    |
-(＼|`` し]ﾄ----／          ⌒` ＼| /
- ＼      ﾉ\   /                ＼|/\   --、___
-  ゛    /  ＼/      /     |         \/_       ﾉ
-   \、/\_／/ｲ    ,/'|    /\ 、        Ⅵ   __／
-    [\/   \/_|   /\|/|   |-]  、     く-く
-    |      \/|  |/___ﾉ\  /\___ \     /   ＼
-    {/      <|小| _ﾒﾘ  \/  _ﾒﾘ` \   ｜|   |
-     \        ｜| \/ｿ      \/ｿ  ﾉ / /\|＼_/
-      \       ｜|              /_ｲ\/
-       \      ｜|     /ヽ      / /ﾉ
-        \     ｜/\   └-     ,/ /'
-         \    ｜ |／>> r -=≦{{/ /ﾆ=_
-          \   人 | ／ｨ|     /ﾚ/__   ﾉﾆ-、
-           ＼   \|/  Xﾉ    / /   入//⌒Yﾊ
-             \  /し ｜`---' //  /  \ﾆﾆﾆﾉ|
-              ＼/  / \  --ｱ ｜  |   | _]|
-               ｜ /   \/\/  ｜  |   |___|
-               r勺    ｜_｜ ｜  |   |  ||
-               |`7    ｜ ｜ ｜  |   |   |
+ ___________________________________________
+/ “I'm really quite simple. I plant flowers \
+| and watch them grow... I stay at home and |
+| watch the river flow.”                    |
+|                                           |
+\  -- George Harrison                       /
+ -------------------------------------------
+   \
+    \
+                -一     一-
+        ／                       ＼
+       /             ________
+      /     -~                     ミ､
+      レ'     _  一ｧiァ ￢}￣Tii一- _  ＼
+    ／    --::|::::/斗士  /   |[_Vい＿＞」
+  ／ イ「::::|:::Y/  ｲ::ハ      ｨ-ﾐヽい
+  ＜___｜:::へ|::|{ 乂-夕     {::ｄﾘ|い
+        ＼八 |::｜             `''   ﾊ|
+    ＿ --＼ヽ|::|                  .ｲ ﾘ
+  ／------.ゝ|:ﾄ|        -       ィ:|
+  ＼        ＞ミ|`ヽ!ﾆ  T  ﾌ￣.≧｜:/
+     ∨         |::\/ }-/く＼   /｜/ 
 ```
 <!-- END_QUOTE -->
 
