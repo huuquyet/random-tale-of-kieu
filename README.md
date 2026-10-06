@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𠄩邊𨑮位將軍</p>
-      <p class="nom">撻鎌𢶒甲𠓀𡑝叩頭”</p>
-      <p class="quocngu">Hai bên mười vị tướng quân,</p>
-      <p class="quocngu">Đặt gươm, cởi giáp, trước sân khấu đầu.</p>
-      <p class="author"><i>(Dòng 2261-2262) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“丕𢧚撔󰘚爫清</p>
+      <p class="nom">謀高本㐌㕸𩲵仍𣈜”</p>
+      <p class="quocngu">Vậy nên ngảnh mặt làm thinh,</p>
+      <p class="quocngu">Mưu cao vốn đã rắp ranh những ngày,</p>
+      <p class="author"><i>(Dòng 1611-1612) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I'm really quite simple. I plant flowers \
-| and watch them grow... I stay at home and |
-| watch the river flow.”                    |
-|                                           |
-\  -- George Harrison                       /
- -------------------------------------------
+ _____________________________________________
+/ “I want to tell women that you need to love \
+| yourself and make yourself a priority.      |
+| It's only when you are happy yourself, can  |
+| you make everyone else around you happy. I  |
+| am still a dreamer and still believe in     |
+| fairy tales, but there is only that much    |
+| one should give another person. You need    |
+| to keep something for yourself.”            |
+|                                             |
+\  -- Bipasha Basu                            /
+ ---------------------------------------------
+  \
    \
-    \
-                -一     一-
-        ／                       ＼
-       /             ________
-      /     -~                     ミ､
-      レ'     _  一ｧiァ ￢}￣Tii一- _  ＼
-    ／    --::|::::/斗士  /   |[_Vい＿＞」
-  ／ イ「::::|:::Y/  ｲ::ハ      ｨ-ﾐヽい
-  ＜___｜:::へ|::|{ 乂-夕     {::ｄﾘ|い
-        ＼八 |::｜             `''   ﾊ|
-    ＿ --＼ヽ|::|                  .ｲ ﾘ
-  ／------.ゝ|:ﾄ|        -       ィ:|
-  ＼        ＞ミ|`ヽ!ﾆ  T  ﾌ￣.≧｜:/
-     ∨         |::\/ }-/く＼   /｜/ 
+      /\_)o<
+     |      \
+     | o . o|
+      \_____/
+           
 ```
 <!-- END_QUOTE -->
 
