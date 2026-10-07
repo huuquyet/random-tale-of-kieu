@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“丕𢧚撔󰘚爫清</p>
-      <p class="nom">謀高本㐌㕸𩲵仍𣈜”</p>
-      <p class="quocngu">Vậy nên ngảnh mặt làm thinh,</p>
-      <p class="quocngu">Mưu cao vốn đã rắp ranh những ngày,</p>
-      <p class="author"><i>(Dòng 1611-1612) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“旬𡢐俸固𠄩𠊚</p>
+      <p class="nom">𫫗信㕸拱算排𤼸功”</p>
+      <p class="quocngu">Tuần sau bỗng có hai người,</p>
+      <p class="quocngu">Mách tin rắp cũng toan bài dâng công.</p>
+      <p class="author"><i>(Dòng 1555-1556) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,38 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I want to tell women that you need to love \
-| yourself and make yourself a priority.      |
-| It's only when you are happy yourself, can  |
-| you make everyone else around you happy. I  |
-| am still a dreamer and still believe in     |
-| fairy tales, but there is only that much    |
-| one should give another person. You need    |
-| to keep something for yourself.”            |
-|                                             |
-\  -- Bipasha Basu                            /
- ---------------------------------------------
+ ____________________________________________
+/ “If you are lucky enough to have lived in  \
+| Paris as a young man, then wherever you go |
+| for the rest of your life, it stays with   |
+| you, for Paris is a moveable feast.”       |
+|                                            |
+\  -- Ernest Hemingway                       /
+ --------------------------------------------
   \
    \
-      /\_)o<
-     |      \
-     | o . o|
-      \_____/
-           
+                     _____
+                   .\'* *.\'
+               ___/_*_(_
+              / _______ \
+             _\_)/___\(_/_
+            / _((\- -/))_ \
+            \ \())(-)(()/ /
+             ' \(((()))/ \'
+            / \' \)).))\ \' \
+           / _ \ - | - /_  \
+          (   ( .;\'\'\';. .\'  )
+          _\\"__ /    )\ __\"/_
+            \/  \   \' /  \/
+             .\'  \'...\' \'  )
+              / /  |   \  \
+             / .   .    .  \
+            /   .      .    \
+           /   /   |    \    \
+         .\'   /    b     \'.   \'.
+     _.-\'    /     Bb      \'-.  \'-_
+ _.-\'       |      BBb        \'-.  \'-.
+(________mrf\____.dBBBb._________)____)
 ```
 <!-- END_QUOTE -->
 
