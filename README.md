@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“旬𡢐俸固𠄩𠊚</p>
-      <p class="nom">𫫗信㕸拱算排𤼸功”</p>
-      <p class="quocngu">Tuần sau bỗng có hai người,</p>
-      <p class="quocngu">Mách tin rắp cũng toan bài dâng công.</p>
-      <p class="author"><i>(Dòng 1555-1556) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤗖牋計歇賒𧵆</p>
+      <p class="nom">浽茹報答浽身落類”</p>
+      <p class="quocngu">Mảnh tiên kể hết xa gần,</p>
+      <p class="quocngu">Nỗi nhà báo đáp, nỗi thân lạc loài.</p>
+      <p class="author"><i>(Dòng 1081-1082) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,38 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “If you are lucky enough to have lived in  \
-| Paris as a young man, then wherever you go |
-| for the rest of your life, it stays with   |
-| you, for Paris is a moveable feast.”       |
-|                                            |
-\  -- Ernest Hemingway                       /
- --------------------------------------------
-  \
-   \
-                     _____
-                   .\'* *.\'
-               ___/_*_(_
-              / _______ \
-             _\_)/___\(_/_
-            / _((\- -/))_ \
-            \ \())(-)(()/ /
-             ' \(((()))/ \'
-            / \' \)).))\ \' \
-           / _ \ - | - /_  \
-          (   ( .;\'\'\';. .\'  )
-          _\\"__ /    )\ __\"/_
-            \/  \   \' /  \/
-             .\'  \'...\' \'  )
-              / /  |   \  \
-             / .   .    .  \
-            /   .      .    \
-           /   /   |    \    \
-         .\'   /    b     \'.   \'.
-     _.-\'    /     Bb      \'-.  \'-_
- _.-\'       |      BBb        \'-.  \'-.
-(________mrf\____.dBBBb._________)____)
+ __________________________________________
+/ “I love the simplicity, the ingredients, \
+| the culture, the history and the         |
+| seasonality of Italian cuisine. In Italy |
+| people do not travel. They cook the way  |
+| grandma did, using fresh ingredients and |
+| what is available in season.”            |
+|                                          |
+\  -- Anne Burrell                         /
+ ------------------------------------------
+       \    ____
+        \  /    \
+          | ^__^ |
+          | (oo) |______
+          | (__) |      )\/\
+           \____/|----w |
+                ||     ||
+
+	         Moofasa
 ```
 <!-- END_QUOTE -->
 
