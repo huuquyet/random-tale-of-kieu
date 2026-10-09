@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤗖牋計歇賒𧵆</p>
-      <p class="nom">浽茹報答浽身落類”</p>
-      <p class="quocngu">Mảnh tiên kể hết xa gần,</p>
-      <p class="quocngu">Nỗi nhà báo đáp, nỗi thân lạc loài.</p>
-      <p class="author"><i>(Dòng 1081-1082) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“悲𣇞𦎛󰡋吏𫅜</p>
+      <p class="nom">囷󰡼攎𤀓㐌仃固尼”</p>
+      <p class="quocngu">Bây giờ gương vỡ lại lành,</p>
+      <p class="quocngu">Khuôn thiêng lừa lọc đã đành có nơi.</p>
+      <p class="author"><i>(Dòng 3071-3072) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,24 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “I love the simplicity, the ingredients, \
-| the culture, the history and the         |
-| seasonality of Italian cuisine. In Italy |
-| people do not travel. They cook the way  |
-| grandma did, using fresh ingredients and |
-| what is available in season.”            |
-|                                          |
-\  -- Anne Burrell                         /
- ------------------------------------------
-       \    ____
-        \  /    \
-          | ^__^ |
-          | (oo) |______
-          | (__) |      )\/\
-           \____/|----w |
-                ||     ||
-
-	         Moofasa
+ ________________________________________
+/ “I can't drop it. It's how I'm drawn.” \
+|                                        |
+\  -- I.B. Nosey                         /
+ ----------------------------------------
+  \
+   \                       _
+                          / )      
+                         / /       
+      //|                \ \       
+   .-`^ \   .-`````-.     \ \      
+ o` {|}  \_/         \    / /      
+ '--,  _ //   .---.   \  / /       
+   ^^^` )/  ,/     \   \/ /        
+        (  /)      /\/   /         
+        / / (     / (   /          
+    ___/ /) (  __/ __\ (           
+   (((__)((__)((__(((___)          
 ```
 <!-- END_QUOTE -->
 
