@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰢜𠚢典𠳚椿堂</p>
-      <p class="nom">束翁拱倍𠽖払寧家”</p>
-      <p class="quocngu">Sáng ra đến gửi xuân đường,</p>
-      <p class="quocngu">Thúc ông cũng vội giục chàng ninh gia.</p>
-      <p class="author"><i>(Dòng 1497-1498) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“永茹特𣇜𣋚󰅒</p>
+      <p class="nom">𥙩𢚸噲𡭧𠚢低謝𢚸”</p>
+      <p class="quocngu">Vắng nhà được buổi hôm nay,</p>
+      <p class="quocngu">Lấy lòng gọi chút ra đây tạ lòng."</p>
+      <p class="author"><i>(Dòng 387-388) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,44 +25,26 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “That poor innocent snake was far more     \
-| terrified of Nana then she ever was of the |
-| snake. Cricket could barely believe her    |
-| eyes, but when that shotgun went off with  |
-| a boom so did the snake. Up until          |
-| yesterday, Cricket had never seen a snake  |
-| fly!”                                      |
-|                                            |
-\  -- Darwun St. James                       /
- --------------------------------------------
+ _______________________________________
+/ “An unhappy woman with access to weed \
+| killer had to be watched carefully.”  |
+|                                       |
+\  -- James Ruddick                     /
+ ---------------------------------------
+  \
+   \
     \
-     \
-                  \#[/[#:xxxxxx:#[/[\x
-             [/\ &3N            W3& \/[x
-          [[x@W                      W@x[[\
-        /#&N                             N_#
-      /#@                                  @#/x
-    [/ NH_  ^@W               Nd_  ^@p      N /#
-   [[d@#_ zz@[/x3           3x:d9zz \/#_N     d[[
-  /[3^[JMMMJ/////&         ^#NMMMMM ////#W     H[[
- [/@p/NMMMML@#[:^/3       d/JMMMMMMEx[# x\      &/#
- /x &/LMMMMMMMMMM[_       x:MMMMMMMMMMMM /p      :/
-[/d d/ELLLLLLLLLD/&        \#LLLLLLLLLLLL3/N      d/[
-//N   xxxxxxxxxxxxN       Wxxxxxxxxxxxxxx_       W//
-/[                                                //
-//N   p333333333333333333333333333333333p        W//
-[/d   _^/#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/H       @/[
- /:     \#                              [x       :/
- [/@    d/x                             \#:      &/#
-  [[H    ^[x                            [      H[[
-   [[d    _[x            &Hppp3d_      \#\N    @[[
-    [/ N   d#\        &NzDDDDDDDDJp^ x[xN   N /#
-      /#&   N [:     pDDDDDDDDDDDDJ&#:H    &#/
-       :/#_W  W^##x 3DDDDDDDDDJN&:\^p   W_#/
-          [[x&W  p& xx ^^^^ x:x @W   W&x/[
-             [/# &HW   WWWWN    WH& \#/[
-                 [/[#\xxxxxx\#[/[\x^@
+             ＿＿＿＿
+       ＜ :: :: :: :: `丶､
+       ／   _, ｨ:ﾊ ､＿: ::＼
+     ∠:: :/ |/|/ \/  \/:: |
+rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
+ヽ／＼i:｜   ┌──┐   i::|／＼ノ
+  ＼::|(||   |:::::|    ||)|::／
+    ＼|人|.、|:::::| .ｨ|ﾉ:八／
+      ＼\/\/>|:::::|<\/\/／
+        ＼ :::>TﾇT<::: ／
+          Y : ＼W／ : Y 
 ```
 <!-- END_QUOTE -->
 
