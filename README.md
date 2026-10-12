@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“永茹特𣇜𣋚󰅒</p>
-      <p class="nom">𥙩𢚸噲𡭧𠚢低謝𢚸”</p>
-      <p class="quocngu">Vắng nhà được buổi hôm nay,</p>
-      <p class="quocngu">Lấy lòng gọi chút ra đây tạ lòng."</p>
-      <p class="author"><i>(Dòng 387-388) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤗽兜埋慜邏󰟯</p>
+      <p class="nom">吏𣃣﨤壙椿堂吏圭”</p>
+      <p class="quocngu">Dịp đâu may mắn lạ dường,</p>
+      <p class="quocngu">Lại vừa gặp khoảng xuân đường lại quê.</p>
+      <p class="author"><i>(Dòng 1291-1292) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “An unhappy woman with access to weed \
-| killer had to be watched carefully.”  |
-|                                       |
-\  -- James Ruddick                     /
- ---------------------------------------
-  \
+ ___________________________________________
+/ “Some things must be done however much we \
+| wish to avoid them.”                      |
+|                                           |
+\  -- Michelle Zink                         /
+ -------------------------------------------
    \
     \
-             ＿＿＿＿
-       ＜ :: :: :: :: `丶､
-       ／   _, ｨ:ﾊ ､＿: ::＼
-     ∠:: :/ |/|/ \/  \/:: |
-rヘn  /:\/ c=＝.::.＝=っ\/ |  rvへ
-ヽ／＼i:｜   ┌──┐   i::|／＼ノ
-  ＼::|(||   |:::::|    ||)|::／
-    ＼|人|.、|:::::| .ｨ|ﾉ:八／
-      ＼\/\/>|:::::|<\/\/／
-        ＼ :::>TﾇT<::: ／
-          Y : ＼W／ : Y 
+
+     |\_/|
+     |o o|__
+     --*--__\
+     C_C_(___)
 ```
 <!-- END_QUOTE -->
 
