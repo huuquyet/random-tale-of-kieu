@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤗽兜埋慜邏󰟯</p>
-      <p class="nom">吏𣃣﨤壙椿堂吏圭”</p>
-      <p class="quocngu">Dịp đâu may mắn lạ dường,</p>
-      <p class="quocngu">Lại vừa gặp khoảng xuân đường lại quê.</p>
-      <p class="author"><i>(Dòng 1291-1292) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“客遊俸固󰜋𠊚</p>
+      <p class="nom">其心户束拱㐻書香”</p>
+      <p class="quocngu">Khách du bỗng có một người,</p>
+      <p class="quocngu">Kỳ Tâm họ Thúc, cũng nòi thư hương.</p>
+      <p class="author"><i>(Dòng 1275-1276) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,19 +25,41 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “Some things must be done however much we \
-| wish to avoid them.”                      |
-|                                           |
-\  -- Michelle Zink                         /
- -------------------------------------------
-   \
-    \
-
-     |\_/|
-     |o o|__
-     --*--__\
-     C_C_(___)
+ ____________________________________________
+/ “Doctrines, no matter which path of human  \
+| endeavor they come from, must serve the    |
+| humans, not the humans serving the         |
+| doctrines. “Love thy neighbor” - is a      |
+| great doctrine, but more importantly, it   |
+| is an unparalleled piece of magnificent    |
+| human teaching – as such, whoever          |
+| practices it, becomes a better human, a    |
+| real human. On the other hand, there is    |
+| another doctrine that says “God may purify |
+| the believers and destroy the              |
+| disbelievers” – now would you, as a real   |
+| conscientious human being, consider this   |
+| one as a great beneficial doctrine or      |
+| teaching for humanity? Far from being      |
+| great, doctrines like this are the ones    |
+| that compel the human society to forget    |
+| its innate humanism.”                      |
+|                                            |
+\  -- Abhijit Naskar                         /
+ --------------------------------------------
+     \     .-.
+      \  .'   `.
+       \ :g g   :
+        \: o    `.
+        :         ``.
+       :             `.
+      :  :         .   `.
+      :   :          ` . `.
+       `.. :            `. ``;
+          `:;             `:'
+             :              `.
+              `.              `.     .
+                `'`'`'`---..,___`;.-'
 ```
 <!-- END_QUOTE -->
 
