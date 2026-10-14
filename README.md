@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“客遊俸固󰜋𠊚</p>
-      <p class="nom">其心户束拱㐻書香”</p>
-      <p class="quocngu">Khách du bỗng có một người,</p>
-      <p class="quocngu">Kỳ Tâm họ Thúc, cũng nòi thư hương.</p>
-      <p class="author"><i>(Dòng 1275-1276) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“招命󰡎𨆝萱庭</p>
+      <p class="nom">哭嘆命計事情頭𡳪”</p>
+      <p class="quocngu">Gieo mình dưới gối huyên đình,</p>
+      <p class="quocngu">Khóc than mình kể sự tình đầu đuôi:</p>
+      <p class="author"><i>(Dòng 3017-3018) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,41 +25,47 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Doctrines, no matter which path of human  \
-| endeavor they come from, must serve the    |
-| humans, not the humans serving the         |
-| doctrines. “Love thy neighbor” - is a      |
-| great doctrine, but more importantly, it   |
-| is an unparalleled piece of magnificent    |
-| human teaching – as such, whoever          |
-| practices it, becomes a better human, a    |
-| real human. On the other hand, there is    |
-| another doctrine that says “God may purify |
-| the believers and destroy the              |
-| disbelievers” – now would you, as a real   |
-| conscientious human being, consider this   |
-| one as a great beneficial doctrine or      |
-| teaching for humanity? Far from being      |
-| great, doctrines like this are the ones    |
-| that compel the human society to forget    |
-| its innate humanism.”                      |
-|                                            |
-\  -- Abhijit Naskar                         /
- --------------------------------------------
-     \     .-.
-      \  .'   `.
-       \ :g g   :
-        \: o    `.
-        :         ``.
-       :             `.
-      :  :         .   `.
-      :   :          ` . `.
-       `.. :            `. ``;
-          `:;             `:'
-             :              `.
-              `.              `.     .
-                `'`'`'`---..,___`;.-'
+ ___________________________________________
+/ “It is not unpatriotic to acknowledge     \
+| America’s faults. No country is perfect…  |
+| We can’t reach the top of the mountain if |
+| we don’t fix the injustice and confront   |
+| our lies.”                                |
+|                                           |
+\  -- Keith Ellison                         /
+ -------------------------------------------
+                        \
+                         \     ___.
+                          \    L._, \
+               _.,         \   <  <\                _
+             ,' '           \  `.   | \            ( `
+          ../, `.            \  |    .\`.           \ \_
+         ,' ,..  .           _.,'    ||\l            )  '".
+        , ,'   \           ,'.-.`-._,'  |           .  _._`.
+      ,' /      \ \        `' ' `--/   | \          / /   ..\
+    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
+    |  '          ..         `-...-"  |  `-'      / /        . `.
+    | /           |L__           |    |          / /          `. `.
+   , /            .   .          |    |         / /             ` `
+  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
+ / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
+  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
+' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
+|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
+||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
+||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
+|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
+||/            _,-------7 '              . |  `-'    l         /    `||
+ |          ,' .-   ,' ||               | .-.        `.      .'     ||
+ `'        ,'    `".'    |               |    `.        '. -.'       `'
+          /      ,'      |               |,'    \-.._,.'/'
+          .     /        .               .       \    .''
+        .`.    |         `.             /         :_,'.'
+          \ `...\   _     ,'-.        .'         /_.-'
+           `-.__ `,  `'   .  _.>----''.  _  __  /
+                .'        /"'          |  "'   '_
+               /_|.-'\ ,".             '.'`__'-( \
+                 / ,"'"\,'               `/  `-.|" m
 ```
 <!-- END_QUOTE -->
 
