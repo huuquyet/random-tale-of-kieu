@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“娘它招玉沉珠</p>
-      <p class="nom">滝錢塘妬意𫮲紅顔”</p>
-      <p class="quocngu">Nàng đà gieo ngọc trầm châu,</p>
-      <p class="quocngu">Sông Tiền Đường đó, ấy mồ hồng nhan!"</p>
-      <p class="author"><i>(Dòng 2963-2964) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𢮿饒𥛉𠓀𫢋臺</p>
+      <p class="nom">再生陳謝𢚸𠊛慈悲”</p>
+      <p class="quocngu">Quây nhau lạy trước Phật đài,</p>
+      <p class="quocngu">Tái sinh trần tạ lòng người từ bi.</p>
+      <p class="author"><i>(Dòng 3031-3032) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,27 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “I know you’re afraid of me. I can smell    \
-| your fear, and I actually kind of like it.” |
-|                                             |
-\  -- Krystyna Allyn                          /
- ---------------------------------------------
-      \                            |     |
-       \                        ,--|     |-.
-                         __,----|  |     | |
-                       ,;::     |  `_____' |
-                       `._______|    i^i   |
-                                `----| |---'| .
-                           ,-------._| |== ||//
-                           |       |_|P`.  /'/
-                           `-------' 'Y Y/'/'
-                                     .==\ /_\
-   ^__^                             /   /'|  `i
-   (oo)\_______                   /'   /  |   |
-   (__)\       )\/\             /'    /   |   `i
-       ||----w |           ___,;`----'.___L_,-'`\__
-       ||     ||          i_____;----\.____i""\____\
+ _________________________________________
+/ “She reminded me that I could write     \
+| stories,/could be struck by lightning & |
+| live.”                                  |
+|                                         |
+\  -- Jen Currin                          /
+ -----------------------------------------
+   \
+    \
+ ROFL:ROFL:ROFL:ROFL
+         _^___
+ L    __/   oo \    
+LOL===__        \ 
+ L      \________]
+         I   I    
+        --------/
 ```
 <!-- END_QUOTE -->
 
