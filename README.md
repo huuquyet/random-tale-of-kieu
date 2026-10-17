@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𢮿饒𥛉𠓀𫢋臺</p>
-      <p class="nom">再生陳謝𢚸𠊛慈悲”</p>
-      <p class="quocngu">Quây nhau lạy trước Phật đài,</p>
-      <p class="quocngu">Tái sinh trần tạ lòng người từ bi.</p>
-      <p class="author"><i>(Dòng 3031-3032) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨕭枚洌𣹕襖纙</p>
+      <p class="nom">雖󰢷唏渃渚𤍶䏾𦎛”</p>
+      <p class="quocngu">Trên mui lướt lút/thướt áo là,</p>
+      <p class="quocngu">Tuy dầm hơi nước chưa loà bóng gương.</p>
+      <p class="author"><i>(Dòng 2707-2708) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “She reminded me that I could write     \
-| stories,/could be struck by lightning & |
-| live.”                                  |
-|                                         |
-\  -- Jen Currin                          /
- -----------------------------------------
-   \
-    \
- ROFL:ROFL:ROFL:ROFL
-         _^___
- L    __/   oo \    
-LOL===__        \ 
- L      \________]
-         I   I    
-        --------/
+ ____________________________________________
+/ “Now I know I’ll never be numb again. A    \
+| mother is condemned to feel everything     |
+| forever. And I’m finally afraid, condemned |
+| to fear everything forever. But that makes |
+| sense: feel someone else’s pain, feel      |
+| someone else’s everything.And he’s my      |
+| baby, so everything’s okay.”               |
+|                                            |
+\  -- Kristin Hersh                          /
+ --------------------------------------------
+         \
+          \
+                    ##        .
+              ## ## ##       ==
+           ## ## ## ##      ===
+       /""""""""""""""""\___/ ===
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+       \______ o          __/
+         \    \        __/
+          \____\______/
+
 ```
 <!-- END_QUOTE -->
 
