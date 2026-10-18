@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨕭枚洌𣹕襖纙</p>
-      <p class="nom">雖󰢷唏渃渚𤍶䏾𦎛”</p>
-      <p class="quocngu">Trên mui lướt lút/thướt áo là,</p>
-      <p class="quocngu">Tuy dầm hơi nước chưa loà bóng gương.</p>
-      <p class="author"><i>(Dòng 2707-2708) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“重逢油禍固欺</p>
+      <p class="nom">身尼催固群之麻蒙”</p>
+      <p class="quocngu">Trùng phùng dù hoạ có khi,</p>
+      <p class="quocngu">Thân này thôi có còn gì mà mong.</p>
+      <p class="author"><i>(Dòng 795-796) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,27 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Now I know I’ll never be numb again. A    \
-| mother is condemned to feel everything     |
-| forever. And I’m finally afraid, condemned |
-| to fear everything forever. But that makes |
-| sense: feel someone else’s pain, feel      |
-| someone else’s everything.And he’s my      |
-| baby, so everything’s okay.”               |
+/ “One should be good to oneself. Especially \
+| when one is alone.”                        |
 |                                            |
-\  -- Kristin Hersh                          /
+\  -- Peter Høeg                             /
  --------------------------------------------
-         \
           \
-                    ##        .
-              ## ## ##       ==
-           ## ## ## ##      ===
-       /""""""""""""""""\___/ ===
-  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
-       \______ o          __/
-         \    \        __/
-          \____\______/
+           \
 
+
+      ^^      .-=-=-=-.  ^^
+  ^^        (`-=-=-=-=-`)         ^^
+          (`-=-=-=-=-=-=-`)  ^^         ^^
+    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
+        ( `-=-=-=-(@)-=-=-` )      ^^
+        (`-=-=-=-=-=-=-=-=-`)  ^^
+        (`-=-=-=-=-=-=-=-=-`)              ^^
+        (`-=-=-=-=-=-=-=-=-`)                      ^^
+        (`-=-=-=-=-=-=-=-=-`)  ^^
+         (`-=-=-=-=-=-=-=-`)          ^^
+          (`-=-=-=-=-=-=-`)  ^^                 ^^
+      jgs   (`-=-=-=-=-`)
+             `-=-=-=-=-`
 ```
 <!-- END_QUOTE -->
 
