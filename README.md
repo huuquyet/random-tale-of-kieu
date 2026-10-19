@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“重逢油禍固欺</p>
-      <p class="nom">身尼催固群之麻蒙”</p>
-      <p class="quocngu">Trùng phùng dù hoạ có khi,</p>
-      <p class="quocngu">Thân này thôi có còn gì mà mong.</p>
-      <p class="author"><i>(Dòng 795-796) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“儈頭淪󰡎𠃅茹</p>
+      <p class="nom">𨡉䣷吏罪平𠀧󰌕燶”</p>
+      <p class="quocngu">Cúi đầu luồn dưới mái nhà,</p>
+      <p class="quocngu">Giấm chua lại tội bằng ba lửa nồng!</p>
+      <p class="author"><i>(Dòng 1351-1352) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “One should be good to oneself. Especially \
-| when one is alone.”                        |
-|                                            |
-\  -- Peter Høeg                             /
- --------------------------------------------
-          \
-           \
-
-
-      ^^      .-=-=-=-.  ^^
-  ^^        (`-=-=-=-=-`)         ^^
-          (`-=-=-=-=-=-=-`)  ^^         ^^
-    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
-        ( `-=-=-=-(@)-=-=-` )      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-        (`-=-=-=-=-=-=-=-=-`)              ^^
-        (`-=-=-=-=-=-=-=-=-`)                      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-         (`-=-=-=-=-=-=-=-`)          ^^
-          (`-=-=-=-=-=-=-`)  ^^                 ^^
-      jgs   (`-=-=-=-=-`)
-             `-=-=-=-=-`
+ _____________________________________________
+/ “Of my conception I know only what you know \
+| of yours. It occurred in darkness and I     |
+| was unconsenting... By some bleak alchemy   |
+| what had been mere unbeing becomes death    |
+| when life is mingled with it.”              |
+|                                             |
+\  -- Marilynne Robinson                      /
+ ---------------------------------------------
+     \
+      \
+             ,;;;;;;;,
+            ;;;;;;;;;;;,
+           ;;;;;'_____;'
+           ;;;(/))))|((\
+           _;;((((((|))))
+          / |_\\\\\\\\\\\\
+     .--~(  \ ~))))))))))))
+    /     \  `\-(((((((((((\\
+    |    | `\   ) |\       /|)
+     |    |  `. _/  \_____/ |
+      |    , `\~            /
+       |    \  \           /
+      | `.   `\|          /
+      |   ~-   `\        /
+       \____~._/~ -_,   (\
+        |-----|\   \    ';;
+       |      | :;;;'     \
+      |  /    |            |
+      |       |            |
 ```
 <!-- END_QUOTE -->
 
