@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“儈頭淪󰡎𠃅茹</p>
-      <p class="nom">𨡉䣷吏罪平𠀧󰌕燶”</p>
-      <p class="quocngu">Cúi đầu luồn dưới mái nhà,</p>
-      <p class="quocngu">Giấm chua lại tội bằng ba lửa nồng!</p>
-      <p class="author"><i>(Dòng 1351-1352) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“仍羅吟咀𠽆嘆</p>
+      <p class="nom">小姐沛𣇜問安𧗱茹”</p>
+      <p class="quocngu">Những là ngậm thở nuốt than,</p>
+      <p class="quocngu">Tiểu thư phải buổi vấn an về nhà.</p>
+      <p class="author"><i>(Dòng 1939-1940) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,28 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Of my conception I know only what you know \
-| of yours. It occurred in darkness and I     |
-| was unconsenting... By some bleak alchemy   |
-| what had been mere unbeing becomes death    |
-| when life is mingled with it.”              |
-|                                             |
-\  -- Marilynne Robinson                      /
- ---------------------------------------------
-     \
-      \
-             ,;;;;;;;,
-            ;;;;;;;;;;;,
-           ;;;;;'_____;'
-           ;;;(/))))|((\
-           _;;((((((|))))
-          / |_\\\\\\\\\\\\
-     .--~(  \ ~))))))))))))
-    /     \  `\-(((((((((((\\
-    |    | `\   ) |\       /|)
-     |    |  `. _/  \_____/ |
-      |    , `\~            /
-       |    \  \           /
-      | `.   `\|          /
-      |   ~-   `\        /
-       \____~._/~ -_,   (\
-        |-----|\   \    ';;
-       |      | :;;;'     \
-      |  /    |            |
-      |       |            |
+ _________________________________________
+/ “What matters is we are living beings.” \
+|                                         |
+\  -- Lailah Gity Akita                   /
+ -----------------------------------------
+  \
+   \
+    \            ________
+             .:          :｀丶
+           /.:   ｛ :｜､  .: .:＼
+          /   |.: /\.:|ﾉ＼.} .: :.
+         .: .:/\乂  ＼ｨ=ミV.:}.: |
+         |.:\/ ｨ=ﾐ    ﾋソ｝V:|.:｜
+         |.:ﾊ{ ﾋソ '    ''｜:|ヽ｜
+         |.: ﾊ''          ｜:ﾉノ:＼
+        丿.:|人    ⌒ヽ    ｲ::\/ ￣
+    /^^ﾍ  \/Vv:＞=rr::rr＜vV\/
+  ｛   ﾉ    ノ   \/ヌ\／ ＼
+    ＼  ＼,く  }   |:|   V ＼
+      ＼     >ィ   |:|   ｝  ﾉ
+        ＼／  ﾉ    |:|   }-く ＼
+             /      V     \  ＼  ＼ 
 ```
 <!-- END_QUOTE -->
 
