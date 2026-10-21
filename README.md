@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“仍羅吟咀𠽆嘆</p>
-      <p class="nom">小姐沛𣇜問安𧗱茹”</p>
-      <p class="quocngu">Những là ngậm thở nuốt than,</p>
-      <p class="quocngu">Tiểu thư phải buổi vấn an về nhà.</p>
-      <p class="author"><i>(Dòng 1939-1940) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“丰姿才貌捽潙</p>
+      <p class="nom">𠓨𥪝風雅𠚢外豪花”</p>
+      <p class="quocngu">Phong tư tài mạo tót vời,</p>
+      <p class="quocngu">Vào trong phong nhã, ra ngoài hào hoa.</p>
+      <p class="author"><i>(Dòng 151-152) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,28 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _________________________________________
-/ “What matters is we are living beings.” \
-|                                         |
-\  -- Lailah Gity Akita                   /
- -----------------------------------------
-  \
-   \
-    \            ________
-             .:          :｀丶
-           /.:   ｛ :｜､  .: .:＼
-          /   |.: /\.:|ﾉ＼.} .: :.
-         .: .:/\乂  ＼ｨ=ミV.:}.: |
-         |.:\/ ｨ=ﾐ    ﾋソ｝V:|.:｜
-         |.:ﾊ{ ﾋソ '    ''｜:|ヽ｜
-         |.: ﾊ''          ｜:ﾉノ:＼
-        丿.:|人    ⌒ヽ    ｲ::\/ ￣
-    /^^ﾍ  \/Vv:＞=rr::rr＜vV\/
-  ｛   ﾉ    ノ   \/ヌ\／ ＼
-    ＼  ＼,く  }   |:|   V ＼
-      ＼     >ィ   |:|   ｝  ﾉ
-        ＼／  ﾉ    |:|   }-く ＼
-             /      V     \  ＼  ＼ 
+ ____________________________________________
+/ “President Obama's record on national      \
+| security is a tribute to his strength, and |
+| judgment, and to his preference for        |
+| inclusion and partnership over             |
+| partisanship.”                             |
+|                                            |
+\  -- William J. Clinton                     /
+ --------------------------------------------
+            \
+             \
+              \
+                    .  .:----.:  .      
+                  ／    .: .: .: .:＼
+                 .          .. .: .: ヽ
+                /.: :/|:/.:ﾊ::ﾊ : .: .:.  
+              ノ.: ./-|/ |/ V- V､.: .:.:|            
+               ｜:ノ   _     _   V: .:,:|
+                |:}  =＝     ＝= |:l､:.:|
+                |:ﾉ''    ＿_   ''|:| }::|
+               八:ヽ.   V_ 丿   .|ﾉｲ: :八
+                 ヽ/≧=-z:-:r:=≦l:ﾉ|:／
+                    ／/ ﾚﾇﾘ: 〉 ＼
+                   / :〉|/l/:< : ハ  
+                  /:}:{:|:/:/ : : :.     
+                 /: { : ': /: : {: :|            
+                 {: : :ヽ:/: : : : :}          
+                /} :}:o : : o: {: : ﾊ                
+                {: :ﾘ: : : : : |: : }  
 ```
 <!-- END_QUOTE -->
 
