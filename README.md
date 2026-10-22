@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“丰姿才貌捽潙</p>
-      <p class="nom">𠓨𥪝風雅𠚢外豪花”</p>
-      <p class="quocngu">Phong tư tài mạo tót vời,</p>
-      <p class="quocngu">Vào trong phong nhã, ra ngoài hào hoa.</p>
-      <p class="author"><i>(Dòng 151-152) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𤎎恾秩醒魂枚</p>
+      <p class="nom">𨷯茹兜𠅎樓臺󰅹低”</p>
+      <p class="quocngu">Mơ màng chợt tỉnh hồn mai,</p>
+      <p class="quocngu">Cửa nhà đâu mất, lâu đài nào đây?</p>
+      <p class="author"><i>(Dòng 1715-1716) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,34 +26,32 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “President Obama's record on national      \
-| security is a tribute to his strength, and |
-| judgment, and to his preference for        |
-| inclusion and partnership over             |
-| partisanship.”                             |
+/ “I don’t need luck,” Chirrut said. “I have \
+| you.”                                      |
 |                                            |
-\  -- William J. Clinton                     /
+\  -- Alexander Freed                        /
  --------------------------------------------
-            \
-             \
-              \
-                    .  .:----.:  .      
-                  ／    .: .: .: .:＼
-                 .          .. .: .: ヽ
-                /.: :/|:/.:ﾊ::ﾊ : .: .:.  
-              ノ.: ./-|/ |/ V- V､.: .:.:|            
-               ｜:ノ   _     _   V: .:,:|
-                |:}  =＝     ＝= |:l､:.:|
-                |:ﾉ''    ＿_   ''|:| }::|
-               八:ヽ.   V_ 丿   .|ﾉｲ: :八
-                 ヽ/≧=-z:-:r:=≦l:ﾉ|:／
-                    ／/ ﾚﾇﾘ: 〉 ＼
-                   / :〉|/l/:< : ハ  
-                  /:}:{:|:/:/ : : :.     
-                 /: { : ': /: : {: :|            
-                 {: : :ヽ:/: : : : :}          
-                /} :}:o : : o: {: : ﾊ                
-                {: :ﾘ: : : : : |: : }  
+   \
+    \
+
+           _                _
+          / /.           _-//
+         / ///         _-   /
+        //_-//=========     /
+      _///        //_ ||   ./
+    _|                 -__-||
+   |  __              - \   \
+  |  |#-       _-|_           |
+  |            |#|||       _   |  
+ |  _==_                       ||
+- ==|.=.=|_ =                  |
+|  |-|-  ___                  |
+|    --__   _                /
+||     ===                  |
+ |                     _. //
+  ||_         __-   _-  _|
+     \_______/  ___/  _|
+                   --*
 ```
 <!-- END_QUOTE -->
 
