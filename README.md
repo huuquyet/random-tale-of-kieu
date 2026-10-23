@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𤎎恾秩醒魂枚</p>
-      <p class="nom">𨷯茹兜𠅎樓臺󰅹低”</p>
-      <p class="quocngu">Mơ màng chợt tỉnh hồn mai,</p>
-      <p class="quocngu">Cửa nhà đâu mất, lâu đài nào đây?</p>
-      <p class="author"><i>(Dòng 1715-1716) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“寃箕蹺買貝情</p>
+      <p class="nom">󰜋命命𠹾󰜋命命𫨩”</p>
+      <p class="quocngu">Oan kia theo mãi với tình,</p>
+      <p class="quocngu">Một mình mình chịu, một mình mình hay.</p>
+      <p class="author"><i>(Dòng 2673-2674) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,34 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “I don’t need luck,” Chirrut said. “I have \
-| you.”                                      |
-|                                            |
-\  -- Alexander Freed                        /
- --------------------------------------------
-   \
-    \
-
-           _                _
-          / /.           _-//
-         / ///         _-   /
-        //_-//=========     /
-      _///        //_ ||   ./
-    _|                 -__-||
-   |  __              - \   \
-  |  |#-       _-|_           |
-  |            |#|||       _   |  
- |  _==_                       ||
-- ==|.=.=|_ =                  |
-|  |-|-  ___                  |
-|    --__   _                /
-||     ===                  |
- |                     _. //
-  ||_         __-   _-  _|
-     \_______/  ___/  _|
-                   --*
+ _____________________________________________
+/ “It was only when we were in that bed, high \
+| above the world - then I thought the birds  |
+| could have been circling around our bodies  |
+| circled around each other - that we made    |
+| our world totally separated from            |
+| everything else. It was the only way we     |
+| could be together.”                         |
+|                                             |
+\  -- Kathy Acker                             /
+ ---------------------------------------------
+   \                     .___________.
+    \                    |           |
+     \    ___________.   |  |    /~\ |
+         / __   __  /|   | _ _   |_| |
+        / /:/  /:/ / |   !________|__!
+       / /:/  /:/ /  |            |
+      / /:/  /:/ /   |____________!
+     / /:/  /:/ /    |
+    / /:/  /:/ /     |
+   /  ~~   ~~ /      |
+   |~~~~~~~~~~|      |
+   |    ::    |     /
+   |    ==    |    /
+   |    ::    |   /
+   |    ::    |  /
+   |    ::  @ | /
+   !__________!/
 ```
 <!-- END_QUOTE -->
 
