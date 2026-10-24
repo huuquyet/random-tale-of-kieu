@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“寃箕蹺買貝情</p>
-      <p class="nom">󰜋命命𠹾󰜋命命𫨩”</p>
-      <p class="quocngu">Oan kia theo mãi với tình,</p>
-      <p class="quocngu">Một mình mình chịu, một mình mình hay.</p>
-      <p class="author"><i>(Dòng 2673-2674) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“払浪譜意𢬣󰅹</p>
+      <p class="nom">𠸗牢愁惨󰅒牢𢝙圍”</p>
+      <p class="quocngu">Chàng rằng: "Phổ ấy tay nào,</p>
+      <p class="quocngu">Xưa sao sầu thảm, nay sao vui vầy?</p>
+      <p class="author"><i>(Dòng 3207-3208) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,33 +26,25 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  _____________________________________________
-/ “It was only when we were in that bed, high \
-| above the world - then I thought the birds  |
-| could have been circling around our bodies  |
-| circled around each other - that we made    |
-| our world totally separated from            |
-| everything else. It was the only way we     |
-| could be together.”                         |
+/ “We have a lot of questions, and we want to \
+| understand.Music helps with that .Music     |
+| helps with everything.”                     |
 |                                             |
-\  -- Kathy Acker                             /
+\  -- Lisa Schroeder                          /
  ---------------------------------------------
-   \                     .___________.
-    \                    |           |
-     \    ___________.   |  |    /~\ |
-         / __   __  /|   | _ _   |_| |
-        / /:/  /:/ / |   !________|__!
-       / /:/  /:/ /  |            |
-      / /:/  /:/ /   |____________!
-     / /:/  /:/ /    |
-    / /:/  /:/ /     |
-   /  ~~   ~~ /      |
-   |~~~~~~~~~~|      |
-   |    ::    |     /
-   |    ==    |    /
-   |    ::    |   /
-   |    ::    |  /
-   |    ::  @ | /
-   !__________!/
+     \     .-.
+      \  .'   `.
+       \ :g g   :
+        \: o    `.
+        :         ``.
+       :             `.
+      :  :         .   `.
+      :   :          ` . `.
+       `.. :            `. ``;
+          `:;             `:'
+             :              `.
+              `.              `.     .
+                `'`'`'`---..,___`;.-'
 ```
 <!-- END_QUOTE -->
 
