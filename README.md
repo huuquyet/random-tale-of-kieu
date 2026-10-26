@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“茹香高捲幅纙</p>
-      <p class="nom">𢩣𥪞傳噲娘𫥨𥛉𢜠”</p>
-      <p class="quocngu">Nhà hương cao cuốn bức là,</p>
-      <p class="quocngu">Buồng trong truyền gọi nàng ra lạy mừng.</p>
-      <p class="author"><i>(Dòng 1803-1804) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𨤵𠦳渃瀋𡽫賒</p>
+      <p class="nom">擬兜身分昆𠚢世尼”</p>
+      <p class="quocngu">Dặm ngàn nước thẳm non xa,</p>
+      <p class="quocngu">Nghĩ đâu thân phận con ra thế này!</p>
+      <p class="author"><i>(Dòng 1255-1256) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,51 +26,42 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “But why think the more reasons there were \
-| to sin, the smaller the sin was?”          |
+/ “It is certain that the labors of these    \
+| early workers in the field of natural      |
+| knowledge were brought to a standstill by  |
+| the decay and disruption of the Roman      |
+| Empire, the consequent disorganisation of  |
+| society, and the diversion of men's        |
+| thoughts from sublunary matters to the     |
+| problems of the supernatural world         |
+| suggested by Christian dogma in the Middle |
+| Ages. And, notwithstanding sporadic        |
+| attempts to recall men to the              |
+| investigation of nature, here and there,   |
+| it was not until the fifteenth and         |
+| sixteenth centuries that physical science  |
+| made a new start, founding itself, at      |
+| first, altogether upon that which had been |
+| done by the Greeks. Indeed, it must be     |
+| admitted that the men of the Renaissance,  |
+| though standing on the shoulders of the    |
+| old philosophers, were a long time before  |
+| they saw as much as their forerunners had  |
+| done.”                                     |
 |                                            |
-\  -- Zadie Smith                            /
+\  -- Thomas Henry Huxley                    /
  --------------------------------------------
-         \
-          \
-                      ?IIIIIII7II?????+
-                   ~III777II777I?+==++==+:
-                  ???I7I???I7II++=====++===
-                 ??+??????????+===~~=+++??==+
-                ??+??II??????+==~=~~=+++++==++
-               I+?????????+?+====~=~==+==++?==?
-              ?????II?????+++++=======?===~~~~==
-            ,?????II????????++++====~===::~~~~:~
-            I?I??II?+++??+?+++==~~~~:~:~:,:,,:::~
-           I??????+==+???++++=~~:~:~:,:::,:,,,,,::
-          +I?++++=+=+????+++=~~:~~:::,,,,::,,,:,:
-          I??+?+====+???+++===~~::::,::,:,,,,,,::
-         I????=~===++?+=+=~==~:~~:,,,,,,,.,,,,,:~
-        =??+?=~~~~??+?+===~~==,==~~~~,,,,..,,,.:=
-        II++==~~=++++++=~~=~,~+=?+?=I?++=..,.,,:
-     IIII?+?=====+~+++~=~~~:::=~+~===:,,,,,.,.::
-    I?=?I+??+=~=~?I?=+=~~~::,~~=~::~=::,,,,,,::
-    ?+I??++=++~,::+++~~~:::,,=~~=,~,..,::.:
-    ++=+?++~=:~::I+,~=:~,:,,,,:~~......::~,,,
-     ~=~=:.++~:,.,~=::::.,,:,.:~,:=...==~,::
-     =~?++??+=~~,.:?~.:,:,,,.,::,,~:=~=::,~
-     ++~~:~===~:~,.~::,~=~.:,..,:,,:==:.,:7
-     ~~,::...:=:,::+:~:.,~,...,.,,,,::~,,::~=
-      =~===+=~~,.::,,,:::,..,,,,,,,,,,,:,..,=+?
-      ~=~=~::~~~::,.,,,~:.+,..,,,,..,,,,...,+I?
-      ~==~:~~:~~,~=~~:,:~,:,,,,,,....,,,..+?I?I
-      ~=~=+,:~:=,:~~~~~~::::,.,,.,,.,,,..~+????I
-      ~=~==~=:~~:,~~~~~:::,::,.,,,..,,,I77I?+??II
-      +I7:::~~=~:,::~~~~.=.,~,,,,...,~7III?+??II7
-     777?+~:=~=~~:,::~~:::.,,,,,,,,,777II??I777777
-     777I==:=~::~~~~::~:::,:,:~:::,777I???777777777
-    7777+,~===~:~:~~~~:::,.~:=,,:777II???77777777777=?
-    777I~,~~~=~::~:,:,,,:=~~,,:7777I???I7777777777+=++
-  I7777I,,:,.==::::,:,,,,::::7777I+??I77777777777??I7I7,
- ,77777I::,..~~:,,,,,,.,:~I7777I+??I777777777777?I7777777,
- 77777777,...~~:,,,,,.,77777I7???II777777777777+?7777777777
-77777777777:,~~~,,=7777777I???II777777777777777+77777777777
-77777777777777777777777I+7?7II77777777777777777+777777777777
+  \
+   \
+    \
+
+     iﾆﾆi
+    /   /ヽ
+   ｜農｜｜
+   ｜協｜｜
+   ｜牛｜｜＿
+ ／｜乳｜｜／
+ ￣￣￣￣￣
 ```
 <!-- END_QUOTE -->
 
