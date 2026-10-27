@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𨤵𠦳渃瀋𡽫賒</p>
-      <p class="nom">擬兜身分昆𠚢世尼”</p>
-      <p class="quocngu">Dặm ngàn nước thẳm non xa,</p>
-      <p class="quocngu">Nghĩ đâu thân phận con ra thế này!</p>
-      <p class="author"><i>(Dòng 1255-1256) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𧼋𠚢准𡳵房香</p>
+      <p class="nom">𥪝炭𧡊󰜋棟𩩫𤈜殘”</p>
+      <p class="quocngu">Chạy ra chốn cũ phòng hương,</p>
+      <p class="quocngu">Trong than thấy một đống xương cháy tàn.</p>
+      <p class="author"><i>(Dòng 1661-1662) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,43 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It is certain that the labors of these    \
-| early workers in the field of natural      |
-| knowledge were brought to a standstill by  |
-| the decay and disruption of the Roman      |
-| Empire, the consequent disorganisation of  |
-| society, and the diversion of men's        |
-| thoughts from sublunary matters to the     |
-| problems of the supernatural world         |
-| suggested by Christian dogma in the Middle |
-| Ages. And, notwithstanding sporadic        |
-| attempts to recall men to the              |
-| investigation of nature, here and there,   |
-| it was not until the fifteenth and         |
-| sixteenth centuries that physical science  |
-| made a new start, founding itself, at      |
-| first, altogether upon that which had been |
-| done by the Greeks. Indeed, it must be     |
-| admitted that the men of the Renaissance,  |
-| though standing on the shoulders of the    |
-| old philosophers, were a long time before  |
-| they saw as much as their forerunners had  |
-| done.”                                     |
-|                                            |
-\  -- Thomas Henry Huxley                    /
- --------------------------------------------
-  \
-   \
-    \
-
-     iﾆﾆi
-    /   /ヽ
-   ｜農｜｜
-   ｜協｜｜
-   ｜牛｜｜＿
- ／｜乳｜｜／
- ￣￣￣￣￣
+ _______________________________________
+/ “Everyone has their wings, it just so \
+| happens that mine are black.”         |
+|                                       |
+\  -- Destiny-Angel King                /
+ ---------------------------------------
+       \
+        \
+                   ,―ヾヽヽ/ｖへ／⌒ー
+                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
+              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
+            ／  ／            `ヾ  ー   ミヽ
+          ,/   /                   ヾ ＼  ヽﾐ
+         /    /                      ゞ      ヽ
+         i   /                       /      ＼
+        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
+        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
+        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
+        } ;  |    人､,;-,'^            /    くヾ  ）
+        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
+       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
+      ,i          -ー‐ `ゞ           ヽ   ヽ
+      彡彡                        ミ       ヽ
+''""￣彡      /   /   /   /            ミ   ﾂ＼
+      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
+        '―彡                         ｒー'"
+            ヾノ人,,.r--､ノノノノノり'"
 ```
 <!-- END_QUOTE -->
 
