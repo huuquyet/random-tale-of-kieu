@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𧼋𠚢准𡳵房香</p>
-      <p class="nom">𥪝炭𧡊󰜋棟𩩫𤈜殘”</p>
-      <p class="quocngu">Chạy ra chốn cũ phòng hương,</p>
-      <p class="quocngu">Trong than thấy một đống xương cháy tàn.</p>
-      <p class="author"><i>(Dòng 1661-1662) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌𢧚國色天香</p>
+      <p class="nom">󰜋唭尼罕𠦳鐄拯訛”</p>
+      <p class="quocngu">Đã nên quốc sắc thiên hương,</p>
+      <p class="quocngu">Một cười này hẳn nghìn vàng chẳng ngoa!</p>
+      <p class="author"><i>(Dòng 825-826) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _______________________________________
-/ “Everyone has their wings, it just so \
-| happens that mine are black.”         |
-|                                       |
-\  -- Destiny-Angel King                /
- ---------------------------------------
-       \
-        \
-                   ,―ヾヽヽ/ｖへ／⌒ー
-                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
-              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
-            ／  ／            `ヾ  ー   ミヽ
-          ,/   /                   ヾ ＼  ヽﾐ
-         /    /                      ゞ      ヽ
-         i   /                       /      ＼
-        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
-        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
-        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
-        } ;  |    人､,;-,'^            /    くヾ  ）
-        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
-       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
-      ,i          -ー‐ `ゞ           ヽ   ヽ
-      彡彡                        ミ       ヽ
-''""￣彡      /   /   /   /            ミ   ﾂ＼
-      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
-        '―彡                         ｒー'"
-            ヾノ人,,.r--､ノノノノノり'"
+ ____________________________________________
+/ “All the intelligence and talent in the    \
+| world can't make a singer. The voice is a  |
+| wild thing. It can't be bred in captivity. |
+| It is a sport, like the silver fox. It     |
+| happens.”                                  |
+|                                            |
+\  -- Willa Cather                           /
+ --------------------------------------------
+   \
+    \
+      _____   _________
+     /     \_/         |
+    |                 ||
+    |                 ||
+   |    ###\  /###   | |
+   |     o  \/  o    | |
+  /|                 | |
+ / |        <        |\ \
+| /|                 | | |
+| |     \_______/   |  | |
+| |                 | / /
+/||                 /|||
+   ----------------|
+        | |    | |
+        ***    ***
+       /___\  /___\
 ```
 <!-- END_QUOTE -->
 
