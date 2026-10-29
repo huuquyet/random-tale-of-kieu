@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌𢧚國色天香</p>
-      <p class="nom">󰜋唭尼罕𠦳鐄拯訛”</p>
-      <p class="quocngu">Đã nên quốc sắc thiên hương,</p>
-      <p class="quocngu">Một cười này hẳn nghìn vàng chẳng ngoa!</p>
-      <p class="author"><i>(Dòng 825-826) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“終觥刎坦渃茹</p>
+      <p class="nom">貝王翁𠓀刎羅相親”</p>
+      <p class="quocngu">Chung quanh vẫn đất nước nhà,</p>
+      <p class="quocngu">Với Vương ông trước vẫn là tương thân.</p>
+      <p class="author"><i>(Dòng 153-154) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,32 +26,24 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “All the intelligence and talent in the    \
-| world can't make a singer. The voice is a  |
-| wild thing. It can't be bred in captivity. |
-| It is a sport, like the silver fox. It     |
-| happens.”                                  |
+/ “Don't wait until there is tragedy in your \
+| life. Don't wait until you lose somebody.  |
+| Don't wait until it's too late. Appreciate |
+| the beautiful people that you have in your |
+| life now.”                                 |
 |                                            |
-\  -- Willa Cather                           /
+\  -- Katie Piper                            /
  --------------------------------------------
-   \
-    \
-      _____   _________
-     /     \_/         |
-    |                 ||
-    |                 ||
-   |    ###\  /###   | |
-   |     o  \/  o    | |
-  /|                 | |
- / |        <        |\ \
-| /|                 | | |
-| |     \_______/   |  | |
-| |                 | / /
-/||                 /|||
-   ----------------|
-        | |    | |
-        ***    ***
-       /___\  /___\
+ \     /\  ___  /\
+  \   // \/   \/ \\
+     ((    o o    ))
+      \\ /     \ //
+       \/  | |  \/ 
+        |  | |  |  
+        |  | |  |  
+        |   o   |  
+        | |   | |  
+        |m|   |m|  
 ```
 <!-- END_QUOTE -->
 
