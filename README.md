@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“終觥刎坦渃茹</p>
-      <p class="nom">貝王翁𠓀刎羅相親”</p>
-      <p class="quocngu">Chung quanh vẫn đất nước nhà,</p>
-      <p class="quocngu">Với Vương ông trước vẫn là tương thân.</p>
-      <p class="author"><i>(Dòng 153-154) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“自低𧣳𣷭邊𡗶</p>
+      <p class="nom">𬋟𩅹退退圭𠊚󰜋身”</p>
+      <p class="quocngu">Từ đây góc bể bên trời,</p>
+      <p class="quocngu">Nắng mưa thui thủi quê người một thân.</p>
+      <p class="author"><i>(Dòng 899-900) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Don't wait until there is tragedy in your \
-| life. Don't wait until you lose somebody.  |
-| Don't wait until it's too late. Appreciate |
-| the beautiful people that you have in your |
-| life now.”                                 |
-|                                            |
-\  -- Katie Piper                            /
- --------------------------------------------
- \     /\  ___  /\
-  \   // \/   \/ \\
-     ((    o o    ))
-      \\ /     \ //
-       \/  | |  \/ 
-        |  | |  |  
-        |  | |  |  
-        |   o   |  
-        | |   | |  
-        |m|   |m|  
+ __________________________________________
+/ “If we like a person, all his attributes \
+| will manifest within us. If we like a    |
+| pickpocket, even his attributes will     |
+| manifest within us.”                     |
+|                                          |
+\  -- Dada Bhagwan                         /
+ ------------------------------------------
+       \     *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+        \        MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+         \       MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+          \        'MMM8&&&'      *
+          |\___/|
+         =) oYo (=            .              '
+          \  ^  /
+           )=*=(       *
+          /     \
+          |     |
+         /| | | |\
+         \| | |_|/\
+  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
 ```
 <!-- END_QUOTE -->
 
