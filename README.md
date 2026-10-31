@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“自低𧣳𣷭邊𡗶</p>
-      <p class="nom">𬋟𩅹退退圭𠊚󰜋身”</p>
-      <p class="quocngu">Từ đây góc bể bên trời,</p>
-      <p class="quocngu">Nắng mưa thui thủi quê người một thân.</p>
-      <p class="author"><i>(Dòng 899-900) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“更𣌉身𡛔𨤮長</p>
+      <p class="nom">分𠵱塘詫分傷𤋵󰌑”</p>
+      <p class="quocngu">Canh khuya thân gái dặm trường.</p>
+      <p class="quocngu">Phần e đường sá, phần thương dãi dầu.</p>
+      <p class="author"><i>(Dòng 2031-2032) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,36 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “If we like a person, all his attributes \
-| will manifest within us. If we like a    |
-| pickpocket, even his attributes will     |
-| manifest within us.”                     |
-|                                          |
-\  -- Dada Bhagwan                         /
- ------------------------------------------
-       \     *     ,MMM8&&&.            *
-                  MMMM88&&&&&    .
-        \        MMMM88&&&&&&&
-     *           MMM88&&&&&&&&
-         \       MMM88&&&&&&&&
-                 'MMM88&&&&&&'
-          \        'MMM8&&&'      *
-          |\___/|
-         =) oYo (=            .              '
-          \  ^  /
-           )=*=(       *
-          /     \
-          |     |
-         /| | | |\
-         \| | |_|/\
-  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
-  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-
+ _____________________________________________
+/ “Never go to bed angry, stay up and fight.” \
+|                                             |
+\  -- William Congreve                        /
+ ---------------------------------------------
+       \
+        \
+                   ,―ヾヽヽ/ｖへ／⌒ー
+                , ⌒ヽ ヽ ヽ / ／ ノ  ⌒ヽ、
+              / ／ヾ,ゞ -ゞゞゞ､_ ⌒  ノ ヽ
+            ／  ／            `ヾ  ー   ミヽ
+          ,/   /                   ヾ ＼  ヽﾐ
+         /    /                      ゞ      ヽ
+         i   /                       /      ＼
+        /    -=ﾆヽ､,_  ,,,,;r;==-     ヾ  ヾミ ヽ
+        | ;: `ゞﾂヽ〉^`ヾだ'=-､_        i    彡 ヽ
+        i ,   /::::/     `'''"""        ﾉ  ゞ ヾ ヽ
+        } ;  |    人､,;-,'^            /    くヾ  ）
+        /    彡ノノノﾉﾉﾉ(((((        ／ﾍミ        /
+       /     /ﾉﾉﾉﾉﾉ,.-―ミヽヾヾヾヾヾヾ     _ノ`ｰ'"
+      ,i          -ー‐ `ゞ           ヽ   ヽ
+      彡彡                        ミ       ヽ
+''""￣彡      /   /   /   /            ミ   ﾂ＼
+      ＜    /   /   /   /        ヾ   ヾ  ノﾉﾉ
+        '―彡                         ｒー'"
+            ヾノ人,,.r--､ノノノノノり'"
 ```
 <!-- END_QUOTE -->
 
