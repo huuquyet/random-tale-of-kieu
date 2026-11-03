@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𩙍光𩅹淨請台</p>
-      <p class="nom">固𠊚檀樾𨖲制𨷶伽”</p>
-      <p class="quocngu">Gió quang mưa tạnh thảnh thơi,</p>
-      <p class="quocngu">Có người đàn việt lên chơi cửa già.</p>
-      <p class="author"><i>(Dòng 2063-2064) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“㐌𫨩成筭廟堂</p>
+      <p class="nom">執功拱固𠳒娘買𢧚”</p>
+      <p class="quocngu">Đã hay thành toán miếu đường,</p>
+      <p class="quocngu">Chấp công cũng có lời nàng mới nên.</p>
+      <p class="author"><i>(Dòng 2543-2544) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,41 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “It was chance. A random series of events  \
-| given meaning by somone desperate to prove |
-| there's a design to our lives. That the    |
-| minutes and hours between our birth and    |
-| death are ore than frantic moments of      |
-| chaos. Because if that's all they are - if |
-| there are no rules governing our lives -   |
-| then our entire existence is a meaningless |
-| farce.”                                    |
-|                                            |
-\  -- Shaun David Hutchinson                 /
- --------------------------------------------
+ __________________________________________
+/ “With all respect to your religion or    \
+| world-view — thank God, thank the        |
+| universe, thank evolutionary processes — |
+| the keyword is "thank" — just have some  |
+| gratitude and be thankful.”              |
+|                                          |
+\  -- Bryant McGill                        /
+ ------------------------------------------
+  \
+   \
     \
-     \
-            .+
-             /M;
-              H#@:              ;,
-              -###H-          -@/
-               %####$.  -;  .%#X
-                M#####+;#H :M#M.
-..          .+/;%#########X###-
- -/%H%+;-,    +##############/
-    .:$M###MH$%+############X  ,--=;-
-        -/H#####################H+=.
-           .+#################X.
-         =%M####################H;.
-            /@###############+;;/%%;,
-         -%###################$.
-       ;H######################M=
-    ,%#####MH$%;+#####M###-/@####%
-  :$H%+;=-      -####X.,H#   -+M##@-
- .              ,###;    ;      =$##+
-                .#H,               :XH,
-                 +                   .;-
+    
+           ____
+       ,: .: .: :.ヽ
+     ,'       /\   ｉ
+     {: .:ﾉﾚﾍ/  Viﾍ:}
+    .{,､〈 Ｏ   Ｏ{.:.
+    ノヽ\!"       }.:ﾊ
+      Ｗﾊw=-､へ,ｬ<,V'      
+         /ﾍ }{./\
+        ;: i:V:!;}
+        |:｜: :｜}
+        |:|:｡: ｡l}
+        >-'-ﾟ-'`ﾟu
+        ｰi-i～i-i~
+         |.|  |.|
+         |-|  |-|
+         ヒｺ  ヒｺ 
 ```
 <!-- END_QUOTE -->
 
