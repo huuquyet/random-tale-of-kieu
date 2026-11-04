@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“㐌𫨩成筭廟堂</p>
-      <p class="nom">執功拱固𠳒娘買𢧚”</p>
-      <p class="quocngu">Đã hay thành toán miếu đường,</p>
-      <p class="quocngu">Chấp công cũng có lời nàng mới nên.</p>
-      <p class="author"><i>(Dòng 2543-2544) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“化兒舌固女𢚸</p>
+      <p class="nom">爫之𨃐紫紆紅𡗋󰅉”</p>
+      <p class="quocngu">Hoá nhi thật có nỡ lòng,</p>
+      <p class="quocngu">Làm chi dày tía vò hồng lắm nau!</p>
+      <p class="author"><i>(Dòng 1129-1130) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,48 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “With all respect to your religion or    \
-| world-view — thank God, thank the        |
-| universe, thank evolutionary processes — |
-| the keyword is "thank" — just have some  |
-| gratitude and be thankful.”              |
-|                                          |
-\  -- Bryant McGill                        /
- ------------------------------------------
-  \
-   \
-    \
-    
-           ____
-       ,: .: .: :.ヽ
-     ,'       /\   ｉ
-     {: .:ﾉﾚﾍ/  Viﾍ:}
-    .{,､〈 Ｏ   Ｏ{.:.
-    ノヽ\!"       }.:ﾊ
-      Ｗﾊw=-､へ,ｬ<,V'      
-         /ﾍ }{./\
-        ;: i:V:!;}
-        |:｜: :｜}
-        |:|:｡: ｡l}
-        >-'-ﾟ-'`ﾟu
-        ｰi-i～i-i~
-         |.|  |.|
-         |-|  |-|
-         ヒｺ  ヒｺ 
+ ____________________________________________
+/ “You'll always meet someone new, encounter \
+| something odd. That's the peculiar thing   |
+| about life. Everything will make sense     |
+| after it happens in the end. Everything    |
+| will be clear, fresh, as if looking        |
+| through glass. Crazy, isn't it?”           |
+|                                            |
+\  -- Serena Winter                          /
+ --------------------------------------------
+                        \
+                         \     ___.
+                          \    L._, \
+               _.,         \   <  <\                _
+             ,' '           \  `.   | \            ( `
+          ../, `.            \  |    .\`.           \ \_
+         ,' ,..  .           _.,'    ||\l            )  '".
+        , ,'   \           ,'.-.`-._,'  |           .  _._`.
+      ,' /      \ \        `' ' `--/   | \          / /   ..\
+    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
+    |  '          ..         `-...-"  |  `-'      / /        . `.
+    | /           |L__           |    |          / /          `. `.
+   , /            .   .          |    |         / /             ` `
+  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
+ / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
+  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
+' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
+|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
+||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
+||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
+|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
+||/            _,-------7 '              . |  `-'    l         /    `||
+ |          ,' .-   ,' ||               | .-.        `.      .'     ||
+ `'        ,'    `".'    |               |    `.        '. -.'       `'
+          /      ,'      |               |,'    \-.._,.'/'
+          .     /        .               .       \    .''
+        .`.    |         `.             /         :_,'.'
+          \ `...\   _     ,'-.        .'         /_.-'
+           `-.__ `,  `'   .  _.>----''.  _  __  /
+                .'        /"'          |  "'   '_
+               /_|.-'\ ,".             '.'`__'-( \
+                 / ,"'"\,'               `/  `-.|" m
 ```
 <!-- END_QUOTE -->
 
