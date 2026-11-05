@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“化兒舌固女𢚸</p>
-      <p class="nom">爫之𨃐紫紆紅𡗋󰅉”</p>
-      <p class="quocngu">Hoá nhi thật có nỡ lòng,</p>
-      <p class="quocngu">Làm chi dày tía vò hồng lắm nau!</p>
-      <p class="author"><i>(Dòng 1129-1130) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰡎塵󰋇󰘚廊𨔈</p>
+      <p class="nom">𨔈花㐌易󰋇𠊚别花”</p>
+      <p class="quocngu">Dưới trần mấy mặt làng chơi,</p>
+      <p class="quocngu">Chơi hoa đã dễ mấy người biết hoa!</p>
+      <p class="author"><i>(Dòng 835-836) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,48 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “You'll always meet someone new, encounter \
-| something odd. That's the peculiar thing   |
-| about life. Everything will make sense     |
-| after it happens in the end. Everything    |
-| will be clear, fresh, as if looking        |
-| through glass. Crazy, isn't it?”           |
-|                                            |
-\  -- Serena Winter                          /
- --------------------------------------------
-                        \
-                         \     ___.
-                          \    L._, \
-               _.,         \   <  <\                _
-             ,' '           \  `.   | \            ( `
-          ../, `.            \  |    .\`.           \ \_
-         ,' ,..  .           _.,'    ||\l            )  '".
-        , ,'   \           ,'.-.`-._,'  |           .  _._`.
-      ,' /      \ \        `' ' `--/   | \          / /   ..\
-    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
-    |  '          ..         `-...-"  |  `-'      / /        . `.
-    | /           |L__           |    |          / /          `. `.
-   , /            .   .          |    |         / /             ` `
-  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
- / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
-  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
-' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
-|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
-||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
-||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
-|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
-||/            _,-------7 '              . |  `-'    l         /    `||
- |          ,' .-   ,' ||               | .-.        `.      .'     ||
- `'        ,'    `".'    |               |    `.        '. -.'       `'
-          /      ,'      |               |,'    \-.._,.'/'
-          .     /        .               .       \    .''
-        .`.    |         `.             /         :_,'.'
-          \ `...\   _     ,'-.        .'         /_.-'
-           `-.__ `,  `'   .  _.>----''.  _  __  /
-                .'        /"'          |  "'   '_
-               /_|.-'\ ,".             '.'`__'-( \
-                 / ,"'"\,'               `/  `-.|" m
+ ___________________________________________
+/ “I want all my drems to come true,But for \
+| that I have to keep patience and burn the |
+| midnight oil.”                            |
+|                                           |
+\  -- Rahul Rawat                           /
+ -------------------------------------------
+     \
+      \
+
+         .-;\':\':\'-.
+        {\'.\'.\'.\'.\'.}
+         )        \'`.
+        \'-. ._ ,_.-=\'
+          `). ( `);(
+          (\'. .)(,\'.)
+           ) ( ,\').(
+          ( .\').\'(\').
+          .) (\' ).(\'
+           '  ) (  ).
+            .\'( .)\'
+              .).\'
+jgs
+
 ```
 <!-- END_QUOTE -->
 
