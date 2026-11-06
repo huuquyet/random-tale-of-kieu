@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰡎塵󰋇󰘚廊𨔈</p>
-      <p class="nom">𨔈花㐌易󰋇𠊚别花”</p>
-      <p class="quocngu">Dưới trần mấy mặt làng chơi,</p>
-      <p class="quocngu">Chơi hoa đã dễ mấy người biết hoa!</p>
-      <p class="author"><i>(Dòng 835-836) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦖑𠳒娘㐌生疑</p>
+      <p class="nom">雙陀過坦管之特身”</p>
+      <p class="quocngu">Nghe lời nàng đã sinh nghi,</p>
+      <p class="quocngu">Song đà quá đất quản gì được thân.</p>
+      <p class="author"><i>(Dòng 1113-1114) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,29 +25,36 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I want all my drems to come true,But for \
-| that I have to keep patience and burn the |
-| midnight oil.”                            |
-|                                           |
-\  -- Rahul Rawat                           /
- -------------------------------------------
-     \
-      \
+ ____________________________________________
+/ “Every magician knows there is no such     \
+| thing as magic. They are masters of making |
+| things possible out of a situation that    |
+| seems impossible. The key to getting what  |
+| you want in life is to know that the only  |
+| reason why something is, is because it was |
+| made possible. It can only be if it is     |
+| possible for it to be. Make it possible    |
+| and let it be.”                            |
+|                                            |
+\  -- Timothy Simpson                        /
+ --------------------------------------------
+#
+# International Business Machines
+#
 
-         .-;\':\':\'-.
-        {\'.\'.\'.\'.\'.}
-         )        \'`.
-        \'-. ._ ,_.-=\'
-          `). ( `);(
-          (\'. .)(,\'.)
-           ) ( ,\').(
-          ( .\').\'(\').
-          .) (\' ).(\'
-           '  ) (  ).
-            .\'( .)\'
-              .).\'
-jgs
+$the_cow = << EOC;
+  \
+   \
+
+■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
+■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
+ ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
+ ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
+ ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
+ ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
+■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
+■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
+EOC
 
 ```
 <!-- END_QUOTE -->
