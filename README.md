@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦖑𠳒娘㐌生疑</p>
-      <p class="nom">雙陀過坦管之特身”</p>
-      <p class="quocngu">Nghe lời nàng đã sinh nghi,</p>
-      <p class="quocngu">Song đà quá đất quản gì được thân.</p>
-      <p class="author"><i>(Dòng 1113-1114) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“払浪哏咘󰜋𠳒</p>
+      <p class="nom">俸空𩵜渃𪀄𡗶侶饒”</p>
+      <p class="quocngu">Chàng rằng: "Gắn bó một lời,</p>
+      <p class="quocngu">Bỗng không cá nước chim trời lỡ nhau.</p>
+      <p class="author"><i>(Dòng 3165-3166) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,36 +26,29 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Every magician knows there is no such     \
-| thing as magic. They are masters of making |
-| things possible out of a situation that    |
-| seems impossible. The key to getting what  |
-| you want in life is to know that the only  |
-| reason why something is, is because it was |
-| made possible. It can only be if it is     |
-| possible for it to be. Make it possible    |
-| and let it be.”                            |
+/ “If you want victory in your life you must \
+| learn to be alone with your own thoughts   |
+| and cause them to be correct thoughts!”    |
 |                                            |
-\  -- Timothy Simpson                        /
+\  -- Sandra Hersey                          /
  --------------------------------------------
-#
-# International Business Machines
-#
-
-$the_cow = << EOC;
-  \
-   \
-
-■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
-■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
- ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
- ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
- ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
- ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
-■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
-■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
-EOC
-
+   \                     .___________.
+    \                    |           |
+     \    ___________.   |  |    /~\ |
+         / __   __  /|   | _ _   |_| |
+        / /:/  /:/ / |   !________|__!
+       / /:/  /:/ /  |            |
+      / /:/  /:/ /   |____________!
+     / /:/  /:/ /    |
+    / /:/  /:/ /     |
+   /  ~~   ~~ /      |
+   |~~~~~~~~~~|      |
+   |    ::    |     /
+   |    ==    |    /
+   |    ::    |   /
+   |    ::    |  /
+   |    ::  @ | /
+   !__________!/
 ```
 <!-- END_QUOTE -->
 
