@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“払浪哏咘󰜋𠳒</p>
-      <p class="nom">俸空𩵜渃𪀄𡗶侶饒”</p>
-      <p class="quocngu">Chàng rằng: "Gắn bó một lời,</p>
-      <p class="quocngu">Bỗng không cá nước chim trời lỡ nhau.</p>
-      <p class="author"><i>(Dòng 3165-3166) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“典悲𣇞買𧡊低</p>
+      <p class="nom">𦓡𢚸㐌𠺵仍𣈜󰜋𠄩”</p>
+      <p class="quocngu">Đến bây giờ mới thấy đây,</p>
+      <p class="quocngu">Mà lòng đã chắc những ngày một hai!"</p>
+      <p class="author"><i>(Dòng 2281-2282) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “If you want victory in your life you must \
-| learn to be alone with your own thoughts   |
-| and cause them to be correct thoughts!”    |
-|                                            |
-\  -- Sandra Hersey                          /
- --------------------------------------------
-   \                     .___________.
-    \                    |           |
-     \    ___________.   |  |    /~\ |
-         / __   __  /|   | _ _   |_| |
-        / /:/  /:/ / |   !________|__!
-       / /:/  /:/ /  |            |
-      / /:/  /:/ /   |____________!
-     / /:/  /:/ /    |
-    / /:/  /:/ /     |
-   /  ~~   ~~ /      |
-   |~~~~~~~~~~|      |
-   |    ::    |     /
-   |    ==    |    /
-   |    ::    |   /
-   |    ::    |  /
-   |    ::  @ | /
-   !__________!/
+ _____________________________________________
+/ “The writer must have a good imagination to \
+| begin with, but the imagination has to be   |
+| muscular, which means it must be exercised  |
+| in a disciplined way, day in and day out,   |
+| by writing, failing, succeeding and revi”   |
+|                                             |
+\  -- Stephen King                            /
+ ---------------------------------------------
+#
+# International Business Machines
+#
+
+$the_cow = << EOC;
+  \
+   \
+
+■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
+■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
+ ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
+ ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
+ ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
+ ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
+■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
+■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
+EOC
+
 ```
 <!-- END_QUOTE -->
 
