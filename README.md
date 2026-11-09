@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“典悲𣇞買𧡊低</p>
-      <p class="nom">𦓡𢚸㐌𠺵仍𣈜󰜋𠄩”</p>
-      <p class="quocngu">Đến bây giờ mới thấy đây,</p>
-      <p class="quocngu">Mà lòng đã chắc những ngày một hai!"</p>
-      <p class="author"><i>(Dòng 2281-2282) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰜋𠁀特󰋇英雄</p>
+      <p class="nom">補之𩵜𡊱𪀄籠𦓡制”</p>
+      <p class="quocngu">Một đời được mấy anh hùng,</p>
+      <p class="quocngu">Bõ chi cá chậu, chim lồng, mà chơi!"</p>
+      <p class="author"><i>(Dòng 2183-2184) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,32 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The writer must have a good imagination to \
-| begin with, but the imagination has to be   |
-| muscular, which means it must be exercised  |
-| in a disciplined way, day in and day out,   |
-| by writing, failing, succeeding and revi”   |
-|                                             |
-\  -- Stephen King                            /
- ---------------------------------------------
-#
-# International Business Machines
-#
-
-$the_cow = << EOC;
-  \
+ ____________________________________________
+/ “We seek not for forgiveness, but the      \
+| freedom and time to do more than ‘exist’.” |
+|                                            |
+\  -- Fennel Hudson                          /
+ --------------------------------------------
    \
-
-■■■■■   ■■■■■■■■     ■■■■■       ■■■■■
-■■■■■   ■■■■■■■■■■   ■■■■■■     ■■■■■■
- ■■■     ■■■   ■■■    ■■■■■■   ■■■■■■
- ■■■     ■■■■■■■■     ■■■■■■■ ■■■■■■■
- ■■■     ■■■■■■■■     ■■■ ■■■■■■■ ■■■
- ■■■     ■■■   ■■■    ■■■  ■■■■■  ■■■
-■■■■■   ■■■■■■■■■■   ■■■■   ■■■   ■■■■
-■■■■■   ■■■■■■■■     ■■■■    ■    ■■■■
-EOC
+    \
+     \
+        __ \ / __
+       /  \ | /  \
+           \|/
+       _.---v---.,_
+      /            \  /\__/\
+     /              \ \_  _/
+     |__ @           |_/ /
+      _/                / 
+      \       \__,     /  
+   ~~~~\~~~~~~~~~~~~~~`~~~
 
 ```
 <!-- END_QUOTE -->
