@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰜋𠁀特󰋇英雄</p>
-      <p class="nom">補之𩵜𡊱𪀄籠𦓡制”</p>
-      <p class="quocngu">Một đời được mấy anh hùng,</p>
-      <p class="quocngu">Bõ chi cá chậu, chim lồng, mà chơi!"</p>
-      <p class="author"><i>(Dòng 2183-2184) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“船皮杜𤅶請台</p>
+      <p class="nom">薄生𨖲𠓀尋尼每𣈜”</p>
+      <p class="quocngu">Thuyền vừa đỗ bến thảnh thơi,</p>
+      <p class="quocngu">Bạc sinh lên trước tìm nơi mọi ngày.</p>
+      <p class="author"><i>(Dòng 2137-2138) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,25 +26,19 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “We seek not for forgiveness, but the      \
-| freedom and time to do more than ‘exist’.” |
+/ “Nicolas Cage is the best for taking the   \
+| role of character Joker. He is pretty damn |
+| good at jokes!”                            |
 |                                            |
-\  -- Fennel Hudson                          /
+\  -- Deyth Banger                           /
  --------------------------------------------
-   \
-    \
-     \
-        __ \ / __
-       /  \ | /  \
-           \|/
-       _.---v---.,_
-      /            \  /\__/\
-     /              \ \_  _/
-     |__ @           |_/ /
-      _/                / 
-      \       \__,     /  
-   ~~~~\~~~~~~~~~~~~~~`~~~
-
+  \
+   \   \_\_    _/_/
+    \      \__/
+           (oo)\_______
+           (__)\       )\/\
+               ||----- |
+               ||     ||
 ```
 <!-- END_QUOTE -->
 
