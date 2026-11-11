@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“船皮杜𤅶請台</p>
-      <p class="nom">薄生𨖲𠓀尋尼每𣈜”</p>
-      <p class="quocngu">Thuyền vừa đỗ bến thảnh thơi,</p>
-      <p class="quocngu">Bạc sinh lên trước tìm nơi mọi ngày.</p>
-      <p class="author"><i>(Dòng 2137-2138) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𦊚方𩄲𤽸󰜋牟</p>
+      <p class="nom">𬂙潙故郡別兜羅茹”</p>
+      <p class="quocngu">Bốn phương mây trắng một màu,</p>
+      <p class="quocngu">Trông vời cố quận biết đâu là nhà?</p>
+      <p class="author"><i>(Dòng 1787-1788) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,19 +26,28 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Nicolas Cage is the best for taking the   \
-| role of character Joker. He is pretty damn |
-| good at jokes!”                            |
+/ “Wear your true purpose in life with full  \
+| pride. There is absolutely no other better |
+| way to present yourself to the world.”     |
 |                                            |
-\  -- Deyth Banger                           /
+\  --                                        /
  --------------------------------------------
   \
-   \   \_\_    _/_/
-    \      \__/
-           (oo)\_______
-           (__)\       )\/\
-               ||----- |
-               ||     ||
+   \          . .: -ーー― :._
+    \       ／.: .: .: .:     ＞  r⌒ヽ
+           / .:         ｜.､.:＼  ﾉ ノ
+          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
+          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
+          |: .:/ c─-        Ｙ:| /
+          |:ﾊ:{``   ,  --┐  人V /
+          ﾉ:L＼>   く_,￣┘／  ＼
+   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
+   L_,vー─-|    ､ }  ＶYﾊ   Y
+             ￣￣Ｖ  ｜/∧   ﾍ
+                  {   |//∧  ﾍ
+                  {    ＼//   ﾍ
+                  {            ＼
+                  ｝             >
 ```
 <!-- END_QUOTE -->
 
