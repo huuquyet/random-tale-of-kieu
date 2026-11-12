@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦊚方𩄲𤽸󰜋牟</p>
-      <p class="nom">𬂙潙故郡別兜羅茹”</p>
-      <p class="quocngu">Bốn phương mây trắng một màu,</p>
-      <p class="quocngu">Trông vời cố quận biết đâu là nhà?</p>
-      <p class="author"><i>(Dòng 1787-1788) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“旬𡢐俸固𠄩𠊚</p>
+      <p class="nom">𫫗信㕸拱算排𤼸功”</p>
+      <p class="quocngu">Tuần sau bỗng có hai người,</p>
+      <p class="quocngu">Mách tin rắp cũng toan bài dâng công.</p>
+      <p class="author"><i>(Dòng 1555-1556) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -26,28 +26,32 @@ SVG:
 <!-- START_QUOTE -->
 ```rust
  ____________________________________________
-/ “Wear your true purpose in life with full  \
-| pride. There is absolutely no other better |
-| way to present yourself to the world.”     |
+/ “Many people are seeking, at this very     \
+| moment, to shelter themselves under the    |
+| wing of the federal eagle; imagining, I    |
+| presume, that her bosom has all the        |
+| softness and snugness of an eider-down     |
+| pillow. But she has no great tenderness,   |
+| even in her best of moods, and, sooner or  |
+| later, --oftener sooner than late,-- is    |
+| apt to fling off her nestlings with a      |
+| scratch of her claw, a dab of her beak, or |
+| a rankling wound from her barbed arrows.”  |
 |                                            |
-\  --                                        /
+\  -- Nathaniel Hawthorne                    /
  --------------------------------------------
+ \
   \
-   \          . .: -ーー― :._
-    \       ／.: .: .: .:     ＞  r⌒ヽ
-           / .:         ｜.､.:＼  ﾉ ノ
-          .: .: .:|＼  |斗ﾍﾄ.:.:Ｖ  /
-          |: .: /\|ノ＼| ／ Ｖ::Ｎ./
-          |: .:/ c─-        Ｙ:| /
-          |:ﾊ:{``   ,  --┐  人V /
-          ﾉ:L＼>   く_,￣┘／  ＼
-   /⌒￣￣￣|￣￣＞--r-rｭ＜|   ／
-   L_,vー─-|    ､ }  ＶYﾊ   Y
-             ￣￣Ｖ  ｜/∧   ﾍ
-                  {   |//∧  ﾍ
-                  {    ＼//   ﾍ
-                  {            ＼
-                  ｝             >
+     .--.              .--.
+    : (\ ". _......_ ." /) :
+     '.    `        `    .'
+      /'   _        _   `\
+     /     o}      {o     \
+    |       /      \       |
+    |     /'        `\     |
+     \   | .  .==.  . |   /
+      '._ \.' \__/ './ _.'
+      /  ``'._-''-_.'``  \
 ```
 <!-- END_QUOTE -->
 
