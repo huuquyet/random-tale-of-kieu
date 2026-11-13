@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“旬𡢐俸固𠄩𠊚</p>
-      <p class="nom">𫫗信㕸拱算排𤼸功”</p>
-      <p class="quocngu">Tuần sau bỗng có hai người,</p>
-      <p class="quocngu">Mách tin rắp cũng toan bài dâng công.</p>
-      <p class="author"><i>(Dòng 1555-1556) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“珥如苝󰠱如𨨲</p>
+      <p class="nom">攑𠚢朱塊群󰢔羅緣”</p>
+      <p class="quocngu">Nhẹ như bấc, nặng như chì,</p>
+      <p class="quocngu">Gỡ ra cho khỏi còn gì là duyên?</p>
+      <p class="author"><i>(Dòng 1879-1880) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,39 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Many people are seeking, at this very     \
-| moment, to shelter themselves under the    |
-| wing of the federal eagle; imagining, I    |
-| presume, that her bosom has all the        |
-| softness and snugness of an eider-down     |
-| pillow. But she has no great tenderness,   |
-| even in her best of moods, and, sooner or  |
-| later, --oftener sooner than late,-- is    |
-| apt to fling off her nestlings with a      |
-| scratch of her claw, a dab of her beak, or |
-| a rankling wound from her barbed arrows.”  |
-|                                            |
-\  -- Nathaniel Hawthorne                    /
- --------------------------------------------
- \
-  \
-     .--.              .--.
-    : (\ ". _......_ ." /) :
-     '.    `        `    .'
-      /'   _        _   `\
-     /     o}      {o     \
-    |       /      \       |
-    |     /'        `\     |
-     \   | .  .==.  . |   /
-      '._ \.' \__/ './ _.'
-      /  ``'._-''-_.'``  \
+ _____________________________________________
+/ “The Annual Register for 1763 tabulated the \
+| casualty list for British sailors in the    |
+| Seven Years' War with France. Out of        |
+| 184,899 men raised or rounded up for the    |
+| war, 133, 708 died from disease, primarily  |
+| scurvy, while only 1,512 were killed in     |
+| action.”                                    |
+|                                             |
+\  -- Stephen R. Brown                        /
+ ---------------------------------------------
+       \     *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+        \        MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+         \       MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+          \        'MMM8&&&'      *
+          |\___/|
+         =) oYo (=            .              '
+          \  ^  /
+           )=*=(       *
+          /     \
+          |     |
+         /| | | |\
+         \| | |_|/\
+  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
 ```
 <!-- END_QUOTE -->
 
