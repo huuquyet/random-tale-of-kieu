@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“珥如苝󰠱如𨨲</p>
-      <p class="nom">攑𠚢朱塊群󰢔羅緣”</p>
-      <p class="quocngu">Nhẹ như bấc, nặng như chì,</p>
-      <p class="quocngu">Gỡ ra cho khỏi còn gì là duyên?</p>
-      <p class="author"><i>(Dòng 1879-1880) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“負旁之閉化工</p>
+      <p class="nom">𣈜撑𤷱痗𦟐紅配坡”</p>
+      <p class="quocngu">Phũ phàng chi bấy hoá công,</p>
+      <p class="quocngu">Ngày xanh mòn mỏi má hồng phôi pha.</p>
+      <p class="author"><i>(Dòng 85-86) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,39 +25,33 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “The Annual Register for 1763 tabulated the \
-| casualty list for British sailors in the    |
-| Seven Years' War with France. Out of        |
-| 184,899 men raised or rounded up for the    |
-| war, 133, 708 died from disease, primarily  |
-| scurvy, while only 1,512 were killed in     |
-| action.”                                    |
-|                                             |
-\  -- Stephen R. Brown                        /
- ---------------------------------------------
-       \     *     ,MMM8&&&.            *
-                  MMMM88&&&&&    .
-        \        MMMM88&&&&&&&
-     *           MMM88&&&&&&&&
-         \       MMM88&&&&&&&&
-                 'MMM88&&&&&&'
-          \        'MMM8&&&'      *
-          |\___/|
-         =) oYo (=            .              '
-          \  ^  /
-           )=*=(       *
-          /     \
-          |     |
-         /| | | |\
-         \| | |_|/\
-  _/\_/\_//_// ___/\_/\_/\_/\_/\_/\_/\_/\_/\_
-  |  |  |  | \_) |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |     
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+ ___________________________________________
+/ “I would love to have seen a male-female  \
+| relationship that had nothing to do with  |
+| falling in love, I'd love to prove, even  |
+| on TV - even if it's not true! - that men |
+| and women can be friends without any kind |
+| of involvement.”                          |
+|                                           |
+\  -- Nana Visitor                          /
+ -------------------------------------------
+          \
+           \
 
+
+      ^^      .-=-=-=-.  ^^
+  ^^        (`-=-=-=-=-`)         ^^
+          (`-=-=-=-=-=-=-`)  ^^         ^^
+    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
+        ( `-=-=-=-(@)-=-=-` )      ^^
+        (`-=-=-=-=-=-=-=-=-`)  ^^
+        (`-=-=-=-=-=-=-=-=-`)              ^^
+        (`-=-=-=-=-=-=-=-=-`)                      ^^
+        (`-=-=-=-=-=-=-=-=-`)  ^^
+         (`-=-=-=-=-=-=-=-`)          ^^
+          (`-=-=-=-=-=-=-`)  ^^                 ^^
+      jgs   (`-=-=-=-=-`)
+             `-=-=-=-=-`
 ```
 <!-- END_QUOTE -->
 
