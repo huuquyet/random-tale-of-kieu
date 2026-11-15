@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“負旁之閉化工</p>
-      <p class="nom">𣈜撑𤷱痗𦟐紅配坡”</p>
-      <p class="quocngu">Phũ phàng chi bấy hoá công,</p>
-      <p class="quocngu">Ngày xanh mòn mỏi má hồng phôi pha.</p>
-      <p class="author"><i>(Dòng 85-86) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“󰢥扃𧍆𢯰𨆶󰣛</p>
+      <p class="nom">𢜝低傷妬𠄩塘渚衝”</p>
+      <p class="quocngu">Loanh quanh cua lọt bò sàng,</p>
+      <p class="quocngu">Sợ đây thương đó hai đàng chưa xong.</p>
+      <p class="author"><i>(Dòng 1893-1894) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,33 +25,30 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “I would love to have seen a male-female  \
-| relationship that had nothing to do with  |
-| falling in love, I'd love to prove, even  |
-| on TV - even if it's not true! - that men |
-| and women can be friends without any kind |
-| of involvement.”                          |
-|                                           |
-\  -- Nana Visitor                          /
- -------------------------------------------
-          \
-           \
-
-
-      ^^      .-=-=-=-.  ^^
-  ^^        (`-=-=-=-=-`)         ^^
-          (`-=-=-=-=-=-=-`)  ^^         ^^
-    ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
-        ( `-=-=-=-(@)-=-=-` )      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-        (`-=-=-=-=-=-=-=-=-`)              ^^
-        (`-=-=-=-=-=-=-=-=-`)                      ^^
-        (`-=-=-=-=-=-=-=-=-`)  ^^
-         (`-=-=-=-=-=-=-=-`)          ^^
-          (`-=-=-=-=-=-=-`)  ^^                 ^^
-      jgs   (`-=-=-=-=-`)
-             `-=-=-=-=-`
+ ____________________________________________
+/ “Anyone who is willing to work and is      \
+| serious about it will certainly find a     |
+| job. Only you must not go to the man who   |
+| tells you this, for he has no job to offer |
+| and doesn't know anyone who knows of a     |
+| vacancy. This is exactly the reason why he |
+| gives you such generous advice, out of     |
+| brotherly love, and to demonstrate how     |
+| little he knows the world.”                |
+|                                            |
+\  -- B. Traven                              /
+ --------------------------------------------
+    \
+     \
+                                   .::!!!!!!!:.
+  .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
+      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
+      $$$##WX!:      .<!!!!UW$$"  $$$$# 
+      $$$  $$UX   :!!UW$$$$$   4$$$* 
+      ^$$B  $$\     $$$$$$   d$R" 
+        "*$bd$$      '*$$$$$$o+#" 
+             """"          """"""" 
 ```
 <!-- END_QUOTE -->
 
