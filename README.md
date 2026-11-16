@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“󰢥扃𧍆𢯰𨆶󰣛</p>
-      <p class="nom">𢜝低傷妬𠄩塘渚衝”</p>
-      <p class="quocngu">Loanh quanh cua lọt bò sàng,</p>
-      <p class="quocngu">Sợ đây thương đó hai đàng chưa xong.</p>
-      <p class="author"><i>(Dòng 1893-1894) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“𡭧𥢆𪮙𥒥此鐄</p>
+      <p class="nom">別兜𦓡𠳚肝膓𠓨兜”</p>
+      <p class="quocngu">Chút riêng chọn đá thử vàng,</p>
+      <p class="quocngu">Biết đâu mà gửi can tràng vào đâu?</p>
+      <p class="author"><i>(Dòng 2187-2188) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,30 +25,41 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Anyone who is willing to work and is      \
-| serious about it will certainly find a     |
-| job. Only you must not go to the man who   |
-| tells you this, for he has no job to offer |
-| and doesn't know anyone who knows of a     |
-| vacancy. This is exactly the reason why he |
-| gives you such generous advice, out of     |
-| brotherly love, and to demonstrate how     |
-| little he knows the world.”                |
-|                                            |
-\  -- B. Traven                              /
- --------------------------------------------
-    \
-     \
-                                   .::!!!!!!!:.
-  .!!!!!:.                        .:!!!!!!!!!!!!
-  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$ 
-      :$NWX!!:           .:!!!!!!XUWW$$$$$P 
-      $$$##WX!:      .<!!!!UW$$"  $$$$# 
-      $$$  $$UX   :!!UW$$$$$   4$$$* 
-      ^$$B  $$\     $$$$$$   d$R" 
-        "*$bd$$      '*$$$$$$o+#" 
-             """"          """"""" 
+ ___________________________________________
+/ “You have ordinary moments and ordinary   \
+| moments and more ordinary moments, and    |
+| then, suddenly, there is something        |
+| monumental right there. You have the past |
+| and future colliding in the present, your |
+| own personal Big Bang, and nothing will   |
+| ever be the same.”                        |
+|                                           |
+\  -- Deb Caletti                           /
+ -------------------------------------------
+  \
+   \                _, _ ,､
+    \          , - ´      `--、
+             ノ               丶
+           ／                  `､_
+         ,´                        、
+        ,'                          丶
+       ﾉ                             ヽ
+    ＿;＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿',＿
+    ヽ三三三三三三三三三三三三三三三三三ﾉ
+      ヽ                              /
+       ヽ三三三三三三三三三三三三三三/
+         ＼                        ／
+           ＼三三三三三三三三三三／
+             `＜              ＞´
+               ｀丁三三三三丁´
+     ＿          ｀ ｰ----‐ ´
+  ／::/＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿_
+（;;;ﾌ ｰ─----＝＝ === ニニニ 二二二三三三｣
+
+         ＿|＿ ＼  ＿ｌ＿＼  _＿|＿_ヽヽ
+          _|＿       ｜ヽ     __|
+        ／ |  ヽ     ﾉ  │   (__|
+        ＼ノ  ノ    ﾉ ヽﾉ     _ノ 
 ```
 <!-- END_QUOTE -->
 
