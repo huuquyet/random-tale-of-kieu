@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡭧𥢆𪮙𥒥此鐄</p>
-      <p class="nom">別兜𦓡𠳚肝膓𠓨兜”</p>
-      <p class="quocngu">Chút riêng chọn đá thử vàng,</p>
-      <p class="quocngu">Biết đâu mà gửi can tràng vào đâu?</p>
-      <p class="author"><i>(Dòng 2187-2188) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“傳路渚𣴓𩯀絲</p>
+      <p class="nom">𪃿它嘅創𡗶𣃣𠓇東”</p>
+      <p class="quocngu">Chuyện trò chưa cạn tóc tơ,</p>
+      <p class="quocngu">Gà đà gáy sáng, trời vừa rạng đông.</p>
+      <p class="author"><i>(Dòng 3215-3216) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,41 +25,18 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ___________________________________________
-/ “You have ordinary moments and ordinary   \
-| moments and more ordinary moments, and    |
-| then, suddenly, there is something        |
-| monumental right there. You have the past |
-| and future colliding in the present, your |
-| own personal Big Bang, and nothing will   |
-| ever be the same.”                        |
-|                                           |
-\  -- Deb Caletti                           /
- -------------------------------------------
+ __________________________________
+/ “The Maker is the Great Master.” \
+|                                  |
+\  -- Lailah Gifty Akita           /
+ ----------------------------------
   \
-   \                _, _ ,､
-    \          , - ´      `--、
-             ノ               丶
-           ／                  `､_
-         ,´                        、
-        ,'                          丶
-       ﾉ                             ヽ
-    ＿;＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿',＿
-    ヽ三三三三三三三三三三三三三三三三三ﾉ
-      ヽ                              /
-       ヽ三三三三三三三三三三三三三三/
-         ＼                        ／
-           ＼三三三三三三三三三三／
-             `＜              ＞´
-               ｀丁三三三三丁´
-     ＿          ｀ ｰ----‐ ´
-  ／::/＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿_
-（;;;ﾌ ｰ─----＝＝ === ニニニ 二二二三三三｣
+   \
 
-         ＿|＿ ＼  ＿ｌ＿＼  _＿|＿_ヽヽ
-          _|＿       ｜ヽ     __|
-        ／ |  ヽ     ﾉ  │   (__|
-        ＼ノ  ノ    ﾉ ヽﾉ     _ノ 
+    [-]   |\_/|
+    (+)=C |o o|__
+    | |   --*--__\
+    OOO   C_C_(___)
 ```
 <!-- END_QUOTE -->
 
