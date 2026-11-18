@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“傳路渚𣴓𩯀絲</p>
-      <p class="nom">𪃿它嘅創𡗶𣃣𠓇東”</p>
-      <p class="quocngu">Chuyện trò chưa cạn tóc tơ,</p>
-      <p class="quocngu">Gà đà gáy sáng, trời vừa rạng đông.</p>
-      <p class="author"><i>(Dòng 3215-3216) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“決情娘買下情</p>
+      <p class="nom">𠯇朱底妾半命贖吒”</p>
+      <p class="quocngu">Quyết tình nàng mới hạ tình:</p>
+      <p class="quocngu">Dẽ cho để thiếp bán mình chuộc cha!</p>
+      <p class="author"><i>(Dòng 605-606) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,18 +25,25 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________
-/ “The Maker is the Great Master.” \
-|                                  |
-\  -- Lailah Gifty Akita           /
- ----------------------------------
-  \
-   \
+ ____________________________________________
+/ “Then there rose up before her a vision of \
+| a parish saved, a village reformed, a      |
+| county reorganised, and a triumphant       |
+| election at the end, the recompense and    |
+| crown of all, which should put the         |
+| government of the country itself, to a     |
+| certain extent, into competent hands.”     |
+|                                            |
+\  -- Mrs. Oliphant                          /
+ --------------------------------------------
+        \
+         \
+          )__(
+         '|oo|'________/
+          |__|         |
+             ||"""""""||
+             ||       ||
 
-    [-]   |\_/|
-    (+)=C |o o|__
-    | |   --*--__\
-    OOO   C_C_(___)
 ```
 <!-- END_QUOTE -->
 
