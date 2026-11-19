@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“決情娘買下情</p>
-      <p class="nom">𠯇朱底妾半命贖吒”</p>
-      <p class="quocngu">Quyết tình nàng mới hạ tình:</p>
-      <p class="quocngu">Dẽ cho để thiếp bán mình chuộc cha!</p>
-      <p class="author"><i>(Dòng 605-606) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“榮花補課風塵</p>
+      <p class="nom">𡦂情𣈜吏添春󰜋𣈜”</p>
+      <p class="quocngu">Vinh hoa bõ thuở phong trần,</p>
+      <p class="quocngu">Chữ tình ngày lại thêm xuân một ngày.</p>
+      <p class="author"><i>(Dòng 2287-2288) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,25 +25,21 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Then there rose up before her a vision of \
-| a parish saved, a village reformed, a      |
-| county reorganised, and a triumphant       |
-| election at the end, the recompense and    |
-| crown of all, which should put the         |
-| government of the country itself, to a     |
-| certain extent, into competent hands.”     |
-|                                            |
-\  -- Mrs. Oliphant                          /
- --------------------------------------------
-        \
-         \
-          )__(
-         '|oo|'________/
-          |__|         |
-             ||"""""""||
-             ||       ||
+ ___________________________________________
+/ “By reading great stories, you will renew \
+| your mind.”                               |
+|                                           |
+\  -- Lailah Gifty Akita                    /
+ -------------------------------------------
+ \
+  \
 
+   WWWWWW
+    |  |
+    |  |
+    |__|
+   /____\
+  (______)
 ```
 <!-- END_QUOTE -->
 
