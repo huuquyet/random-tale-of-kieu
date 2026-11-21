@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𦑃鴻𠖤俸絶潙</p>
-      <p class="nom">㐌𤷱昆𬑉方𡗶耽耽”</p>
-      <p class="quocngu">Cánh hồng bay bổng tuyệt vời,</p>
-      <p class="quocngu">Đã mòn con mắt phương trời đăm đăm.</p>
-      <p class="author"><i>(Dòng 2247-2248) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“怩払薄幸𡥙茹</p>
+      <p class="nom">拱𥪞親戚𦛌𦚐拯埃”</p>
+      <p class="quocngu">Này chàng Bạc Hạnh cháu nhà,</p>
+      <p class="quocngu">Cùng trong thân thích ruột rà chẳng ai.</p>
+      <p class="author"><i>(Dòng 2103-2104) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,50 +25,32 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Maybe we're just falling stars, we once   \
-| danced in the same skyline looking down at |
-| the world. And we've fallen like all       |
-| others, from near and far, we've gathered  |
-| together, but separated by time and space, |
-| keeping a part of that light that we've    |
-| came with and spreading it in this dark    |
-| world that we've chosen to live in, in     |
-| order to shine some light and love around. |
-| Maybe we've chosen to believe one truth    |
-| today, and find it to be false tomorrow.   |
-| Maybe we're trying to not get attached to  |
-| the idea that we now know it all. At       |
-| night, we see the truth of where we've     |
-| fallen from, gazing in that night sky full |
-| of distant stars, constellations, planets, |
-| the reflection of the sun on the moon, all |
-| with their own stories to tell. Sometimes  |
-| we wonder why would we leave such a        |
-| mysterious place, with an infinite amount  |
-| of stories and wonders. Maybe it's because |
-| as stars we could've only seen each        |
-| other's light from afar, but here we can   |
-| listen more carefully to each other's      |
-| story, embrace each other and kiss,        |
-| discover more and more of what can be seen |
-| when infinite star dust potential is put   |
-| into one body and given freedom to walk    |
-| the Earth and wander, love and enjoy every |
-| moment until coming back. Maybe in the     |
-| morning, we'll only see one star shining   |
-| up there and forget the others. Maybe that |
-| is also how life and death is, and the     |
-| beauty of the sunrise and sunset that come |
-| in between, our childhood years and old    |
-| years, when we reflect on the stars that   |
-| we once were and that we will once again   |
-| be. Maybe, just maybe.”                    |
-|                                            |
-\  -- Virgil Kalyana Mittata Iordache        /
- --------------------------------------------
-\
- \
+ ___________________________________________
+/ “As per the law of karma, that which is   \
+| your meat today, this dear beloved animal |
+| will make mincemeat of you tomorrow. In   |
+| another birth.”                           |
+|                                           |
+\  -- Fakeer Ishavardas                     /
+ -------------------------------------------
+   \         __------~~-,
+    \      ,'            ,
+          /               \
+         /                :
+        |                  '
+        |                  |
+        |                  |
+         |   _--           |
+         _| =-.     .-.   ||
+         o|/o/       _.   |
+         /  ~          \ |
+       (____@)  ___~    |
+          |_===~~~.`    |
+       _______.--~     |
+       \________       |
+                \      |
+              __/-___-- -__
+             /            _ \
 ```
 <!-- END_QUOTE -->
 
