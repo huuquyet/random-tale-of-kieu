@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“𡗶遼𡽫渃包賒</p>
-      <p class="nom">擬兜𢩵󰘇𢺺茹自碎”</p>
-      <p class="quocngu">Trời Liêu non nước bao xa,</p>
-      <p class="quocngu">Nghĩ đâu rẽ cửa chia nhà tự tôi!</p>
-      <p class="author"><i>(Dòng 703-704) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“礙𥔘󰜋𨀈󰜋賒</p>
+      <p class="nom">󰜋𠳒珍重珠沙󰋇行”</p>
+      <p class="quocngu">Ngại ngùng một bước một xa,</p>
+      <p class="quocngu">Một lời trân trọng châu sa mấy hàng.</p>
+      <p class="author"><i>(Dòng 561-562) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,47 +25,22 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- _____________________________________________
-/ “Just as Napoleon was the sole authority in \
-| the state, so the husband and father was    |
-| to exercise authority over his family.      |
-| Unfortunately the only possible result of   |
-| despotism on either level is hypocrisy.”    |
-|                                             |
-\  -- J. Christopher Herold                   /
- ---------------------------------------------
-                        \
-                         \     ___.
-                          \    L._, \
-               _.,         \   <  <\                _
-             ,' '           \  `.   | \            ( `
-          ../, `.            \  |    .\`.           \ \_
-         ,' ,..  .           _.,'    ||\l            )  '".
-        , ,'   \           ,'.-.`-._,'  |           .  _._`.
-      ,' /      \ \        `' ' `--/   | \          / /   ..\
-    .'  /        \ .         |\__ - _ ,'` `        / /     `.`.
-    |  '          ..         `-...-"  |  `-'      / /        . `.
-    | /           |L__           |    |          / /          `. `.
-   , /            .   .          |    |         / /             ` `
-  / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \
- / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.
-  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \
-' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`
-|'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \
-||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|
-||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||
-|| '              V      / /           `   | `   ,'   ,' '.    !  `. ||
-||/            _,-------7 '              . |  `-'    l         /    `||
- |          ,' .-   ,' ||               | .-.        `.      .'     ||
- `'        ,'    `".'    |               |    `.        '. -.'       `'
-          /      ,'      |               |,'    \-.._,.'/'
-          .     /        .               .       \    .''
-        .`.    |         `.             /         :_,'.'
-          \ `...\   _     ,'-.        .'         /_.-'
-           `-.__ `,  `'   .  _.>----''.  _  __  /
-                .'        /"'          |  "'   '_
-               /_|.-'\ ,".             '.'`__'-( \
-                 / ,"'"\,'               `/  `-.|" m
+ __________________________________________
+/ “There’s the impossible and then there’s \
+| Cosmic Ordering.”                        |
+|                                          |
+\  -- Stephen Richards                     /
+ ------------------------------------------
+       \
+        \
+         \        .:  ￣￣￣￣:.丶､
+               ／.: .: .: .: .: .: ＼
+              /    ／|    /\.:| .: :.
+             / .:|乂 |/{:/ _乂/\ .:.:|
+           ノ.:\/ｨ庁ﾐ` \/ｨ庁ﾐx  \/:.:|
+             |:}{弋.ﾉ    弋ノ } /.:.:|
+             ﾚ:ﾘ''          '' ｜:ハ:＼
+             {人       ,、    ,｜/ノ:厂 
 ```
 <!-- END_QUOTE -->
 
