@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“礙𥔘󰜋𨀈󰜋賒</p>
-      <p class="nom">󰜋𠳒珍重珠沙󰋇行”</p>
-      <p class="quocngu">Ngại ngùng một bước một xa,</p>
-      <p class="quocngu">Một lời trân trọng châu sa mấy hàng.</p>
-      <p class="author"><i>(Dòng 561-562) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“茹棦壁坦左哉</p>
+      <p class="nom">𦰤撩簾濕竹棋𤗹踈”</p>
+      <p class="quocngu">Nhà tranh vách đất tả tơi,</p>
+      <p class="quocngu">Lau treo rèm nát, trúc cài phên thưa.</p>
+      <p class="author"><i>(Dòng 2767-2768) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,22 +25,82 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- __________________________________________
-/ “There’s the impossible and then there’s \
-| Cosmic Ordering.”                        |
-|                                          |
-\  -- Stephen Richards                     /
- ------------------------------------------
-       \
-        \
-         \        .:  ￣￣￣￣:.丶､
-               ／.: .: .: .: .: .: ＼
-              /    ／|    /\.:| .: :.
-             / .:|乂 |/{:/ _乂/\ .:.:|
-           ノ.:\/ｨ庁ﾐ` \/ｨ庁ﾐx  \/:.:|
-             |:}{弋.ﾉ    弋ノ } /.:.:|
-             ﾚ:ﾘ''          '' ｜:ハ:＼
-             {人       ,、    ,｜/ノ:厂 
+ ____________________________________________
+/ “My God,” she says. “I feel like I’ve gone \
+| through a car wash.”I laugh, or force      |
+| myself to, because it’s not something I’d  |
+| normally laugh at.“What about you?” she    |
+| says to Scottie. “How did you make         |
+| out?”“I’m a boy,” Scottie says. “Look at   |
+| me.”Sand has gotten into the bottom of her |
+| suit, creating a huge bulge. She scratches |
+| at the bulge. “I’m going to go to work     |
+| now,” she says. I think she’s              |
+| impersonating me and that Mrs. Speer is    |
+| getting an unrealistic, humiliating        |
+| glimpse.“Scottie,” I say. “Take that       |
+| out.”“It must be fun to have girls,” Mrs.  |
+| Speer says.She looks at the ocean, and I   |
+| see that she’s looking at Alex sunbathing  |
+| on the floating raft. Sid leans over Alex  |
+| and puts his mouth to hers. She raises a   |
+| hand to his head, and for a moment I       |
+| forget it’s my daughter out there and      |
+| think of how long it has been since I’ve   |
+| been kissed or kissed like that.“Or maybe  |
+| you have your hands full,” Mrs. Speer      |
+| says.“No, no,” I say. “It’s great,” and it |
+| is, I suppose, though I feel like I’ve     |
+| just acquired them and don’t know yet.     |
+| “They’ve been together for ages.” I        |
+| gesture to Alex and Sid. I don’t           |
+| understand if they’re a couple or if this  |
+| is how all kids in high school act these   |
+| days.Mrs. Speer looks at me curiously, as  |
+| if she’s about to say something, but she   |
+| doesn’t.“And boys.” I gesture to her       |
+| little dorks. “They must keep you          |
+| busy.”“They’re a handful. But they’re at   |
+| such a fun age. It’s such a joy.”She gazes |
+| out at her boys. Her expression does       |
+| little to convince me that they’re such a  |
+| joy. I wonder how many times parents have  |
+| these dull conversations with one another  |
+| and how much they must hide. They’re so    |
+| goddamn hyper, I’d do anything to inject   |
+| them with a horse tranquilizer. They keep  |
+| insisting that I watch what they can do,   |
+| but I truly don’t give a fuck. How hard is |
+| it to jump off a diving board?My girls are |
+| messed up, I want to say. One talks dirty  |
+| to her own reflection. Did you do that     |
+| when you were growing up?“Your girls seem  |
+| great, too,” she says. “How old are        |
+| they?”“Ten and eighteen. And yours?”“Ten   |
+| and twelve.”“Oh,” I say. “Great.”“Your     |
+| younger one sure is funny,” she says. “I   |
+| mean, not funny. I meant                   |
+| entertaining.”“Oh, yeah. That’s Scottie.   |
+| She’s a riot.”                             |
+|                                            |
+\  -- Kaui Hart Hemmings                     /
+ --------------------------------------------
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /o  o  \__  /    //  | \ \    
+           /     /  \/_/    //   |  \  \  
+           @_^_@'/   \/_   //    |   \   \ 
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
 ```
 <!-- END_QUOTE -->
 
