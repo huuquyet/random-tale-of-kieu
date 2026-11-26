@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“悲徐簪技𦎛散</p>
-      <p class="nom">計爫牢掣𨷈萬愛恩”</p>
-      <p class="quocngu">Bây giờ trâm gãy gương tan,</p>
-      <p class="quocngu">Kể làm sao xiết muôn vàn ái ân.</p>
-      <p class="author"><i>(Dòng 749-750) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“謝𢚸𥛉𠓀𡑝𩄲</p>
+      <p class="nom">𨷶軒吏𢴑󰜋𦀊引𠓨”</p>
+      <p class="quocngu">Tạ lòng lạy trước sân mây,</p>
+      <p class="quocngu">Cửa hiên lại dắt một dây dẫn vào.</p>
+      <p class="author"><i>(Dòng 2379-2380) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,35 +25,35 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “You'll probably die if you stay with me,' \
-| he told me.'Then I'm dead either way,      |
-| because I won't survive without you.”      |
-|                                            |
-\  -- Julie Hockley                          /
- --------------------------------------------
-\
- \
-         ,=;%$%%$X%%%%;/%%%%;=,
-     ,/$+:-                -:+$/,
-   :X$=                          =$X:
- ;M%.                              .%M;
-+#/                                  /#+
-\##                                    M#
-H#,                     =;+/;,       ,#X
-.HM-       :@X+%H:   .%M%- .M#.     -M@.
-  /#%.     @#-  ,H@--MH, .;@$-    .%#+
-   .$M;    .+@X;, MM#@:/$X;.     ;M$,
-     =@H,     ,:+%H#M%;-       ,H@=
-      .$#;        -#H         =#$
-        %#;        \#M        ;#%
-         H#-       \##       -#H
-         ;#+       \##       +#;
-          ;H+;;;;;;HH;;;;;;+H/
-           =H#@HHHHHHHHHH@#H=
-           =@#H%%%%%%%$HH@#@=
-           =@#X%%%%%%%$M###@=
-               =+%XHHX%+=
+ _________________________________________
+/ “If we are grateful, we shall be glad.” \
+|                                         |
+\  -- Lailah Gifty Akita                  /
+ -----------------------------------------
+       \
+        \       __---__                         ______
+         \     /    ___\_             o  O  O _(      )__
+              /====(_____\___---_  o        _(           )_
+             |                    \        (_  AI-YA!!!!   )
+             |                     |@        (_  Shot      _)
+              \       ___         /           (__  Again!__)
+ \ __----____--_\____(____\_____/                (______)
+==|__----____--______|
+ /              /    \____/)_
+              /        ______)
+             /           |  |
+            |           _|  |
+       ______\______________|______
+      /                    *   *   \
+     /_____________*____*___________\
+     /   *     *                    \
+    /________________________________\
+    / *                              \
+   /__________________________________\
+        |                        |
+        |________________________|
+        |                        |
+        |________________________|
 ```
 <!-- END_QUOTE -->
 
