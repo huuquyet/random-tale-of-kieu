@@ -7,11 +7,11 @@ Những câu thơ ngẫu nhiên trong Truyện Kiều - Nguyễn Du ([bản Kinh
 
 <div align="center">
 <!-- START_KIEU -->
-      <p class="nom">“英花𤼵洩𠚢外</p>
-      <p class="nom">𠦳秋薄命󰜋𠁀才󰡛”</p>
-      <p class="quocngu">Anh hoa phát tiết ra ngoài,</p>
-      <p class="quocngu">Nghìn thu bạc mệnh một đời tài hoa.</p>
-      <p class="author"><i>(Dòng 415-416) Truyện Kiều</i> -- Nguyễn Du</p>
+      <p class="nom">“媒強吹嚉朱連</p>
+      <p class="nom">𥙩𠳒兇險押緣朱陳”</p>
+      <p class="quocngu">Mụ càng xua đuổi cho liền,</p>
+      <p class="quocngu">Lấy lời hung hiểm, ép duyên Châu Trần.</p>
+      <p class="author"><i>(Dòng 2093-2094) Truyện Kiều</i> -- Nguyễn Du</p>
 <!-- END_KIEU -->
 </div>
 
@@ -25,26 +25,19 @@ SVG:
 
 <!-- START_QUOTE -->
 ```rust
- ____________________________________________
-/ “Every man's road in life is marked by the \
-| graves of his personal likings.”           |
-|                                            |
-\  -- Alexander Smith                        /
- --------------------------------------------
-   \
-    \
-     \
-        __ \ / __
-       /  \ | /  \
-           \|/
-       _.---v---.,_
-      /            \  /\__/\
-     /              \ \_  _/
-     |__ @           |_/ /
-      _/                / 
-      \       \__,     /  
-   ~~~~\~~~~~~~~~~~~~~`~~~
-
+ _____________________________________________
+/ “The negative way of thinking based on      \
+| constant complaints, strains, and           |
+| objections of discontent steals our energy” |
+|                                             |
+\  -- Sunday Adelaja                          /
+ ---------------------------------------------
+  \
+   \       ___
+      oo  // \\
+     (_,\/ \_/ \
+       \ \_/_\_/>
+       /_/   \_\
 ```
 <!-- END_QUOTE -->
 
